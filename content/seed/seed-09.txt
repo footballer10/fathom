@@ -1,0 +1,1984 @@
+# QUESTION
+id: q0081
+pool: unlimited
+category: food
+prompt: Name a condiment or sauce
+
+[One in a Krillion]
+Worcestershire sauce | worcestershire | worchestershire | worcester sauce
+
+[Plankton]
+Ketchup | catsup
+Mustard
+Mayonnaise | mayo
+Ranch | ranch dressing
+Barbecue sauce | bbq sauce | bbq
+Hot sauce
+Soy sauce
+Salsa
+
+[Too Clever]
+Butter
+Gravy
+Special sauce | big mac sauce
+
+[Schooler]
+Relish
+Sriracha
+Tabasco
+Buffalo sauce
+Honey mustard
+Teriyaki sauce | teriyaki
+Tartar sauce
+Cocktail sauce
+Marinara
+Alfredo
+Pesto
+Guacamole
+Hummus
+Sour cream
+Salad dressing | dressing
+Italian dressing
+Thousand Island
+Blue cheese dressing
+Caesar dressing
+Vinaigrette
+Balsamic vinegar | balsamic
+Vinegar
+Olive oil
+Maple syrup | syrup
+Honey
+Jam | jelly
+Peanut butter
+Nutella
+Tzatziki
+Aioli
+Horseradish
+Wasabi
+Hoisin sauce | hoisin
+Sweet and sour sauce
+Duck sauce
+Fish sauce
+Oyster sauce
+Chili sauce
+Steak sauce | a1 | a.1.
+Cheese sauce | nacho cheese
+Hollandaise
+Chimichurri
+Tahini
+Pico de gallo
+
+[Rare]
+Chipotle mayo
+Sweet chili sauce
+Gochujang
+Sambal | sambal oelek
+Harissa
+Chutney | mango chutney
+Raita
+Mint sauce
+Mint jelly
+Cranberry sauce
+Applesauce
+HP Sauce | brown sauce
+Salad cream
+Piccalilli
+Branston pickle
+Marmite
+Vegemite
+Ponzu
+Mirin
+Miso
+Tonkatsu sauce
+Yum yum sauce
+Eel sauce
+Kewpie mayo | kewpie
+Remoulade
+Bearnaise
+Bechamel
+Velouté
+Espagnole
+Demi-glace
+Beurre blanc
+Romesco
+Salsa verde
+Mole
+Enchilada sauce
+Queso
+Valentina
+Cholula
+Frank's RedHot | franks red hot
+Tapatio
+Crystal hot sauce
+Texas Pete
+Louisiana hot sauce
+Peri-peri | piri piri
+Jerk sauce
+Mumbo sauce
+Comeback sauce
+Fry sauce
+Alabama white sauce
+Chick-fil-A sauce
+
+[Deep Cut]
+Polynesian sauce
+Raising Cane's sauce | cane's sauce
+Garlic sauce | toum
+Shawarma sauce
+Muhammara
+Baba ganoush
+Zhug | schug
+Amba
+Pepper jelly
+Fig jam
+Apple butter
+Lemon curd
+Marmalade
+Molasses
+Agave
+Caramel sauce
+Chocolate sauce | chocolate syrup
+Hot fudge
+Butterscotch sauce
+Whipped cream
+Ghee
+Malt vinegar
+Rice vinegar
+Apple cider vinegar
+Red wine vinegar
+Sesame oil
+Chili oil
+Chili crisp
+XO sauce
+Black bean sauce
+Plum sauce
+Satay sauce | peanut sauce
+Nuoc cham
+Sweet soy sauce | kecap manis
+Tamari
+Liquid aminos
+Coconut aminos
+Ajvar
+Lutenitsa
+Pistou
+Gremolata
+Persillade
+Salmoriglio
+Bagna cauda
+Sauce gribiche
+Ravigote
+Sauce Robert
+Mornay
+Soubise
+Nantua
+Choron
+Maltaise
+Cumberland sauce
+Bread sauce
+Gentleman's Relish
+Mushy peas
+Curry ketchup
+Mayochup
+Green goddess
+Russian dressing
+French dressing
+Catalina dressing
+Poppy seed dressing
+Ginger dressing
+Sesame dressing
+
+[Not accepted]
+Salt
+Pepper
+Sugar
+Water
+Milk
+Cinnamon
+
+# QUESTION
+id: q0082
+pool: unlimited
+category: animals
+prompt: Name a word for a baby animal
+note: Words like kitten, calf or joey. "Baby ___" doesn't count.
+
+[One in a Krillion]
+Cygnet
+
+[Plankton]
+Puppy | pup
+Kitten | kitty
+Calf
+Cub
+Foal
+Chick
+Lamb
+Joey
+
+[Too Clever]
+Baby
+Tadpole
+Caterpillar
+
+[Schooler]
+Duckling
+Piglet
+Bunny | kit
+Fawn
+Kid
+Colt
+Filly
+Gosling
+Owlet
+Eaglet
+Fry
+Larva
+Hatchling
+Nestling
+Fledgling
+Whelp
+Spiderling
+Polliwog | pollywog
+Nymph
+Pupa
+Chrysalis
+
+[Rare]
+Cria
+Poult
+Keet
+Squab
+Eyas
+Leveret
+Pinkie
+Hoglet
+Puggle
+Squeaker
+Shoat
+Farrow
+Yearling
+Weanling
+Cosset
+Hogget
+Elver
+Glass eel
+Smolt
+Parr
+Alevin
+Fingerling
+Spat
+Spawn
+Roe
+Neonate
+Pullet
+Cockerel
+Peachick
+Puffling
+
+[Deep Cut]
+Codling
+Ephyra
+Planula
+Nauplius
+Zoea
+Megalopa
+Veliger
+Instar
+Naiad
+Wriggler
+Imago
+Sprat
+Brit
+Grilse
+Kelt
+Hinny
+Kittling
+Flapper
+
+[Not accepted]
+Baby animal
+Young
+Little one
+Junior
+Mini
+Teen
+
+# QUESTION
+id: q0083
+pool: reserve
+category: geography
+prompt: Name a city in Europe
+
+[One in a Krillion]
+Reykjavik | reykjavík
+
+[Plankton]
+Paris
+London
+Rome
+Berlin
+Madrid
+Barcelona
+Amsterdam
+Venice
+
+[Too Clever]
+Istanbul
+Moscow
+Vatican City | vatican
+
+[Schooler]
+Athens
+Dublin
+Lisbon
+Vienna
+Prague
+Budapest
+Brussels
+Munich
+Milan
+Florence
+Naples
+Edinburgh
+Manchester
+Liverpool
+Stockholm
+Oslo
+Copenhagen
+Helsinki
+Warsaw
+Zurich | zürich
+Geneva
+Monaco | monte carlo
+Nice
+Marseille
+Lyon
+Seville
+Valencia
+Porto
+Hamburg
+Frankfurt
+Cologne | köln
+Kyiv | kiev
+Saint Petersburg | st petersburg
+Krakow | kraków
+Salzburg
+Glasgow
+Birmingham
+Oxford
+Cambridge
+Belfast
+Rotterdam
+The Hague | den haag
+Antwerp
+Bruges | brugge
+Dubrovnik
+Split
+Santorini
+
+[Rare]
+Bordeaux
+Toulouse
+Strasbourg
+Lille
+Nantes
+Cannes
+Avignon
+Granada
+Malaga | málaga
+Bilbao
+San Sebastian
+Ibiza
+Palma
+Toledo
+Salamanca
+Cordoba
+Turin | torino
+Genoa
+Bologna
+Verona
+Pisa
+Siena
+Palermo
+Bari
+Sorrento
+Amalfi
+Dresden
+Leipzig
+Stuttgart
+Dusseldorf | düsseldorf
+Heidelberg
+Nuremberg
+Bremen
+Hanover
+Bonn
+Innsbruck
+Graz
+Bern
+Basel
+Lucerne
+Lausanne
+Luxembourg
+Ghent
+Liege
+Utrecht
+Eindhoven
+Delft
+Leeds
+Sheffield
+Bristol
+Newcastle
+Bath
+York
+Cardiff
+Cork
+Galway
+Aberdeen
+Inverness
+Gothenburg
+Malmo | malmö
+Bergen
+Tallinn
+Riga
+Vilnius
+Gdansk
+Wroclaw
+Poznan
+Bratislava
+Ljubljana
+Zagreb
+Belgrade
+Sarajevo
+Sofia
+Bucharest
+Thessaloniki
+Mykonos
+Valletta
+Minsk
+Chisinau
+Tirana
+Skopje
+Podgorica
+Lviv
+Odessa | odesa
+Kharkiv
+Nicosia
+
+[Deep Cut]
+Aarhus
+Odense
+Tampere
+Turku
+Uppsala
+Trondheim
+Stavanger
+Tromso
+Akureyri
+Tartu
+Kaunas
+Lodz
+Katowice
+Brno
+Ostrava
+Cesky Krumlov
+Kosice
+Debrecen
+Szeged
+Pecs
+Cluj-Napoca | cluj
+Timisoara
+Brasov
+Constanta
+Varna
+Plovdiv
+Novi Sad
+Nis
+Mostar
+Kotor
+Ohrid
+Patras
+Heraklion
+Rhodes
+Corfu
+Zakynthos
+Larnaca
+Limassol
+Mdina
+Andorra la Vella
+San Marino
+Vaduz
+Coimbra
+Faro
+Braga
+Funchal
+Zaragoza
+Valladolid
+Murcia
+Alicante
+Cadiz
+Santiago de Compostela
+Oviedo
+Pamplona
+Montpellier
+Rennes
+Reims
+Dijon
+Grenoble
+Chamonix
+Annecy
+Carcassonne
+Rouen
+Le Havre
+Calais
+Ajaccio
+Trieste
+Padua
+Parma
+Modena
+Ravenna
+Rimini
+Perugia
+Assisi
+Lecce
+Catania
+Syracuse
+Cagliari
+Bergamo
+Como
+Freiburg
+Rothenburg
+Trier
+Aachen
+Mainz
+Wurzburg
+Regensburg
+Potsdam
+Rostock
+Lubeck
+Kiel
+Linz
+Hallstatt
+Zermatt
+Interlaken
+Lugano
+St. Moritz
+Davos
+Maastricht
+Groningen
+Haarlem
+Leiden
+Namur
+Leuven
+Canterbury
+Brighton
+Plymouth
+Norwich
+Stratford-upon-Avon
+Dundee
+Stirling
+St Andrews
+Swansea
+Derry
+Limerick
+Kilkenny
+Waterford
+
+[Not accepted]
+Europe
+England
+France
+Germany
+Italy
+New York
+Tokyo
+Cairo
+Jerusalem
+
+# QUESTION
+id: q0084
+pool: unlimited
+category: sports
+prompt: Name a sports trophy, championship, or big event
+
+[One in a Krillion]
+Calcutta Cup
+
+[Plankton]
+Super Bowl
+World Series
+Stanley Cup
+NBA Finals
+World Cup | fifa world cup
+Olympics | olympic games
+Wimbledon
+March Madness
+
+[Too Clever]
+Puppy Bowl
+Spelling Bee
+Hot dog eating contest | nathan's hot dog eating contest
+
+[Schooler]
+Vince Lombardi Trophy | lombardi trophy
+Larry O'Brien Trophy
+Commissioner's Trophy
+Heisman Trophy | heisman
+Masters | the masters | green jacket
+US Open
+French Open | roland garros
+Australian Open
+Kentucky Derby
+Indianapolis 500 | indy 500
+Daytona 500
+Tour de France
+Ryder Cup
+Davis Cup
+Champions League | uefa champions league
+Premier League
+Rose Bowl
+College Football Playoff
+Final Four
+Grey Cup
+America's Cup
+Boston Marathon
+Triple Crown
+Winter Olympics
+Summer Olympics
+Paralympics
+X Games
+Pro Bowl
+All-Star Game
+Home Run Derby
+Slam Dunk Contest
+
+[Rare]
+Claret Jug | open championship | british open
+PGA Championship
+Wanamaker Trophy
+Solheim Cup
+Presidents Cup
+Belmont Stakes
+Preakness Stakes | preakness
+Breeders' Cup
+Melbourne Cup
+Grand National
+Royal Ascot
+Monaco Grand Prix
+Le Mans | 24 hours of le mans
+Formula 1 World Championship
+NASCAR Cup Series
+Brickyard 400
+Copa America | copa américa
+Euros | european championship | euro
+Copa Libertadores
+FA Cup
+Carabao Cup | league cup
+Club World Cup
+Ballon d'Or
+Golden Boot
+Conn Smythe Trophy
+Hart Trophy
+Vezina Trophy
+Norris Trophy
+Calder Trophy
+Art Ross Trophy
+Presidents' Trophy
+Cy Young Award | cy young
+Hank Aaron Award
+Gold Glove
+Silver Slugger
+Rookie of the Year
+Bill Russell Trophy
+Naismith Trophy
+Wooden Award
+Maxwell Award
+Walter Payton Award
+Sugar Bowl
+Orange Bowl
+Cotton Bowl
+Fiesta Bowl
+Peach Bowl
+Frozen Four
+College World Series
+Little League World Series
+Women's World Cup
+WNBA Finals
+Heavyweight championship | heavyweight title
+WrestleMania
+Royal Rumble
+UFC title | ufc belt
+Iditarod
+Ironman
+New York City Marathon | nyc marathon
+London Marathon
+Rugby World Cup
+Six Nations
+Webb Ellis Cup
+Cricket World Cup
+The Ashes | ashes
+IPL
+Commonwealth Games
+Asian Games
+Pan American Games
+World Baseball Classic
+Gold Cup
+MLS Cup
+Supporters' Shield
+US Open Cup
+Calder Cup
+Memorial Cup
+Hobey Baker Award
+Thorpe Award
+Biletnikoff Award
+Outland Trophy
+Lou Marsh Trophy
+Laureus Award
+ESPY | espys
+Sportsman of the Year
+
+[Deep Cut]
+Bledisloe Cup
+Heineken Cup
+Ranfurly Shield
+Sam Maguire Cup
+Liam MacCarthy Cup
+Thomas Cup
+Uber Cup
+Sudirman Cup
+Swaythling Cup
+Corbillon Cup
+Hopman Cup
+Laver Cup
+Billie Jean King Cup | fed cup
+Curtis Cup
+Walker Cup
+Wightman Cup
+Admiral's Cup
+Volvo Ocean Race
+Vendee Globe
+Boat Race | oxford cambridge boat race
+Henley Royal Regatta
+Head of the Charles
+Giro d'Italia
+Vuelta a Espana
+Paris-Roubaix
+Milan-San Remo
+Dakar Rally
+Isle of Man TT
+Bathurst 1000
+Monte Carlo Rally
+Indy Lights
+Prix de l'Arc de Triomphe | arc
+Epsom Derby
+Cheltenham Gold Cup
+Dubai World Cup
+Japan Cup
+Championship belt
+Lady Byng Trophy
+Selke Trophy
+Ted Lindsay Award
+Jack Adams Award
+Jim Thorpe Trophy
+Roberto Clemente Award
+Mariano Rivera Award
+Edgar Martinez Award
+Sixth Man of the Year
+Clutch Player of the Year
+Lou Groza Award
+Doak Walker Award
+Davey O'Brien Award
+Butkus Award
+Bronko Nagurski Trophy
+Chuck Bednarik Award
+Golden Spikes Award
+Dick Howser Trophy
+Sullivan Award
+Pichichi
+Golden Ball
+Golden Glove
+Puskas Award
+Kopa Trophy
+Yashin Trophy
+
+[Not accepted]
+Oscar
+Grammy
+Emmy
+Nobel Prize
+Pulitzer
+Medal of Honor
+
+# QUESTION
+id: q0085
+pool: unlimited
+category: music
+prompt: Name a musical term (like tempo or crescendo)
+note: Words used in music theory, notation, or performance.
+
+[One in a Krillion]
+Hemidemisemiquaver
+
+[Plankton]
+Tempo
+Crescendo
+Note
+Rhythm
+Beat
+Melody
+Harmony
+Chord
+
+[Too Clever]
+Encore
+Bridge
+
+[Schooler]
+Piano
+Key
+Rest
+Natural
+Tie
+Bass
+Movement
+Round
+Loop
+Sample
+Echo
+Forte
+Allegro
+Staccato
+Legato
+Decrescendo | diminuendo
+Fortissimo
+Pianissimo
+Treble clef | treble
+Bass clef
+Clef
+Staff | stave
+Measure | bar
+Sharp
+Flat
+Scale
+Octave
+Pitch
+Tone
+Solo
+Duet
+Trio
+Quartet
+Chorus
+Verse
+Refrain
+Lyrics
+Tune
+Time signature
+Key signature
+Whole note
+Half note
+Quarter note
+Eighth note
+Sixteenth note
+Major
+Minor
+Adagio
+Andante
+Presto
+Largo
+Fermata
+Accent
+Slur
+Dynamics
+Vibrato
+A cappella | acapella
+Improvisation | improv
+Riff
+Solfege | do re mi
+Coda
+Intro
+Outro
+Hook
+
+[Rare]
+Moderato
+Vivace
+Lento
+Ritardando | rit
+Accelerando
+Rubato
+Sforzando
+Mezzo forte
+Mezzo piano
+Fortepiano
+Dolce
+Cantabile
+Espressivo
+Maestoso
+Marcato
+Tenuto
+Pizzicato
+Arco
+Glissando
+Trill
+Tremolo
+Arpeggio
+Ostinato
+Cadence
+Interval
+Unison
+Dissonance
+Consonance
+Syncopation
+Polyrhythm
+Downbeat
+Upbeat
+Offbeat
+Backbeat
+Groove
+Timbre
+Texture
+Counterpoint
+Fugue
+Canon
+Overture
+Symphony
+Concerto
+Sonata
+Aria
+Recitative
+Libretto
+Opus
+Prelude
+Etude
+Nocturne
+Waltz
+Minuet
+Rondo
+Scherzo
+Cadenza
+Da capo
+Dal segno
+Segno
+Repeat sign
+Ledger line
+Accidental
+Transpose
+Modulation
+Tonic
+Dominant
+Subdominant
+Mediant
+Leading tone
+Triad
+Seventh chord
+Power chord
+Diminished
+Augmented
+Suspended chord | sus chord
+Inversion
+Pentatonic
+Chromatic
+Diatonic
+Mode
+Dorian
+Mixolydian
+Lydian
+Phrygian
+Ionian
+Aeolian
+Locrian
+Blue note
+Grace note
+Dotted note
+Triplet
+Beam
+Stem
+Downstroke
+Capo
+Tuning
+Intonation
+Ensemble
+Orchestra
+Conductor
+Baton
+Maestro
+Virtuoso
+Soprano
+Alto
+Tenor
+Baritone
+Falsetto
+Mezzo-soprano
+Countertenor
+Harmonics
+Overtone
+Feedback
+Reverb
+Remix
+Mashup
+Breakdown
+
+[Deep Cut]
+Fine
+Turn
+Grave
+Mass
+Larghetto
+Andantino
+Prestissimo
+Allegretto
+Stringendo
+Morendo
+Smorzando
+Calando
+Perdendosi
+Sostenuto
+Portamento
+Portato
+Martellato
+Spiccato
+Col legno
+Sul ponticello
+Sul tasto
+Con sordino
+Senza sordino
+Tutti
+Divisi
+Ossia
+Tacet
+Attacca
+Segue
+Volta
+Hemiola
+Anacrusis | pickup
+Appoggiatura
+Acciaccatura
+Mordent
+Neapolitan chord
+Tritone
+Picardy third
+Deceptive cadence
+Plagal cadence
+Perfect cadence
+Semibreve
+Minim
+Crotchet
+Quaver
+Semiquaver
+Demisemiquaver
+Breve
+Longa
+Neume
+Melisma
+Syllabic
+Antiphony
+Responsorial
+Organum
+Motet
+Madrigal
+Cantata
+Oratorio
+Requiem
+Passacaglia
+Chaconne
+Toccata
+Fantasia
+Rhapsody
+Impromptu
+Bagatelle
+Serenade
+Divertimento
+Leitmotif
+Through-composed
+Strophic
+Binary form
+Ternary form
+Sonata form
+Twelve-tone
+Serialism
+Aleatoric
+Microtone
+Quarter tone
+Just intonation
+Equal temperament
+Circle of fifths
+Figured bass
+Basso continuo
+Ground bass
+Pedal point
+Drone
+Stretto
+
+[Not accepted]
+Guitar
+Drums
+Taylor Swift
+Song title
+Album
+Concert ticket
+
+# QUESTION
+id: q0086
+pool: unlimited
+category: movies-tv
+prompt: Name a Lord of the Rings or Hobbit character
+
+[One in a Krillion]
+Tom Bombadil | bombadil
+
+[Plankton]
+Frodo Baggins | frodo
+Gandalf | gandalf the grey | gandalf the white | mithrandir
+Bilbo Baggins | bilbo
+Aragorn | strider
+Legolas
+Gimli
+Gollum | smeagol | sméagol
+Samwise Gamgee | sam | samwise
+
+[Too Clever]
+Sauron | eye of sauron
+Balrog
+
+[Schooler]
+Merry | meriadoc brandybuck
+Pippin | peregrin took
+Boromir
+Faramir
+Saruman
+Elrond
+Arwen
+Galadriel
+Eowyn | éowyn
+Eomer | éomer
+Theoden | théoden
+Treebeard
+Smaug
+Thorin Oakenshield | thorin
+Witch-king | witch king | witch-king of angmar
+Nazgul | ringwraith | ringwraiths | black riders
+Denethor
+Wormtongue | grima wormtongue | gríma
+Bard the Bowman | bard
+Radagast
+Shelob
+Orcs | orc
+Uruk-hai | uruk hai
+Ents | ent
+Hobbits | hobbit
+Elves | elf
+Dwarves | dwarf
+Rosie Cotton | rosie
+Kili
+Fili
+Balin
+Dwalin
+Bombur
+Bofur
+Thranduil
+Tauriel
+Azog
+
+[Rare]
+Bolg
+The Necromancer | necromancer
+Celeborn
+Haldir
+Glorfindel
+Isildur
+Elendil
+Gil-galad
+Cirdan
+Beorn
+Lurtz
+Gothmog
+Grishnakh
+Ugluk
+Shagrat
+Gorbag
+Mouth of Sauron
+Gamling
+Hama
+Theodred
+Imrahil
+Beregond
+Bergil
+Barliman Butterbur | butterbur
+Bill the Pony
+Shadowfax
+Old Man Willow
+Goldberry
+Farmer Maggot
+Lobelia Sackville-Baggins | lobelia
+Lotho
+Fatty Bolger | fredegar bolger
+Gaffer | hamfast gamgee
+Ted Sandyman
+Bill Ferny
+Elladan
+Elrohir
+Gwaihir
+Great Eagles | eagles
+Dain Ironfoot | dain
+Oin
+Gloin
+Ori
+Dori
+Nori
+Bifur
+Thror
+Thrain
+Master of Lake-town
+Alfrid
+Tom, Bert and William | trolls | stone trolls
+Great Goblin
+Wargs | warg
+Mumakil | oliphaunt
+Watcher in the Water
+Durin's Bane
+Elanor
+Drogo Baggins
+Primula Brandybuck
+Arathorn
+Gilraen
+Celebrian
+Finrod
+Feanor
+Fingolfin
+Luthien
+Beren
+Morgoth | melkor
+Ungoliant
+Turin Turambar | turin
+Earendil
+Elros
+
+[Deep Cut]
+Tar-Miriel
+Ar-Pharazon
+Celebrimbor
+Annatar
+Halbrand
+Elendur
+Ohtar
+Deagol | déagol
+Thingol
+Melian
+Maedhros
+Maglor
+Fingon
+Turgon
+Idril
+Tuor
+Ecthelion
+Gwindor
+Hurin
+Morwen
+Nienor
+Glaurung
+Ancalagon
+Carcharoth
+Huan
+Thorondor
+Tulkas
+Manwe
+Varda
+Ulmo
+Aule
+Yavanna
+Orome
+Mandos
+Nienna
+Vaire
+Iluvatar | eru
+Erkenbrand
+Grimbold
+Elfhelm
+Dernhelm
+Forlong
+Hirluin
+Angbor
+Ingold
+Damrod
+Mablung
+Anborn
+Gorlim
+Saeros
+Lalaith
+Fréaláf | frealaf
+Helm Hammerhand | helm
+Brego
+Eorl
+Thengel
+Fengel
+Folcwine
+Baldor
+Galion
+Lindir
+Erestor
+Ruby Bolger
+Belladonna Took
+Bungo Baggins
+Old Took
+Bandobras Took | bullroarer
+Paladin Took
+Eglantine
+Daisy Gamgee
+Marigold
+Robin Smallburrow
+Farmer Cotton
+Will Whitfoot
+
+[Not accepted]
+Harry Potter
+Dumbledore
+Darth Vader
+Luke Skywalker
+Merlin
+Shrek
+
+# QUESTION
+id: q0087
+pool: unlimited
+category: words-language
+prompt: Name a word that means "happy"
+
+[One in a Krillion]
+Gruntled
+
+[Plankton]
+Glad
+Joyful
+Cheerful
+Excited
+Content
+Pleased
+Delighted
+Thrilled
+
+[Too Clever]
+Happy
+Over the moon
+
+[Schooler]
+Elated
+Ecstatic
+Jolly
+Merry
+Upbeat
+Joyous
+Overjoyed
+Blissful
+Euphoric
+Jubilant
+Giddy
+Chipper
+Bubbly
+Sunny
+Positive
+Optimistic
+Grateful
+Thankful
+Carefree
+Lighthearted
+Gleeful
+Happy-go-lucky
+Peppy
+Perky
+Lively
+Satisfied
+Fulfilled
+Blessed
+Stoked
+Pumped
+Psyched
+Jazzed
+Tickled
+Tickled pink
+Walking on air
+On cloud nine
+Beaming
+Radiant
+Glowing
+Buoyant
+
+[Rare]
+Exuberant
+Exhilarated
+Rapturous
+Enraptured
+Elevated
+Exultant
+Triumphant
+Ebullient
+Jovial
+Jocund
+Mirthful
+Gay
+Blithe
+Sanguine
+Serene
+Tranquil
+Peaceful
+Comfortable
+Untroubled
+Pleased as punch
+Chuffed
+In seventh heaven
+Floating
+Flying high
+In high spirits
+Spirited
+Animated
+Vivacious
+Zestful
+Breezy
+Airy
+Jaunty
+Sprightly
+Frolicsome
+Playful
+Gratified
+Starry-eyed
+Rosy
+Hopeful
+Heartened
+Uplifted
+Encouraged
+Charmed
+Enchanted
+Enthralled
+Captivated
+Amused
+Entertained
+Hyped
+Amped
+Fired up
+Wired
+Cheery
+Smiley
+Grinning
+Chirpy
+Bright
+Contented
+
+[Deep Cut]
+Beatific
+Halcyon
+Felicitous
+Eudaemonic
+Eupeptic
+Gladsome
+Joysome
+Blissed-out | blissed out
+Rhapsodic
+Transported
+Ravished
+Delirious
+Intoxicated
+Exalted
+Paradisiacal
+Elysian
+Cock-a-hoop
+Gleesome
+Jocose
+Jocular
+Winsome
+Lightsome
+Insouciant
+Nonchalant
+Pollyannaish
+Panglossian
+Rose-colored
+Larky
+Skippy
+Bouncy
+Zippy
+Zingy
+Effervescent
+Sparkling
+Scintillating
+Incandescent
+Luminous
+Placid
+Equanimous
+Unworried
+Easygoing
+
+[Not accepted]
+Sad
+Angry
+Mad
+Tired
+Bored
+Unhappy
+Happily
+
+# QUESTION
+id: q0088
+pool: reserve
+category: science
+prompt: Name a shape
+
+[One in a Krillion]
+Reuleaux triangle
+
+[Plankton]
+Circle
+Square
+Triangle
+Rectangle
+Star
+Heart
+Oval
+Diamond
+
+[Too Clever]
+Mobius strip | möbius strip
+Tesseract | hypercube
+Squircle
+
+[Schooler]
+Pentagon
+Hexagon
+Octagon
+Trapezoid | trapezium
+Rhombus
+Parallelogram
+Sphere
+Cube
+Cylinder
+Cone
+Pyramid
+Crescent
+Semicircle
+Arrow
+Cross
+Spiral
+Heptagon
+Decagon
+Ellipse
+Polygon
+Quadrilateral
+Prism
+Kite
+Ring
+Donut | torus
+
+[Rare]
+Nonagon
+Hendecagon | undecagon
+Dodecagon
+Icosagon
+Tetrahedron
+Octahedron
+Dodecahedron
+Icosahedron
+Hexahedron
+Triangular prism
+Rectangular prism
+Hemisphere
+Spheroid
+Ovoid
+Ellipsoid
+Paraboloid
+Hyperboloid
+Frustum
+Parabola
+Hyperbola
+Helix
+Annulus
+Arc
+Lune
+Equilateral triangle
+Isosceles triangle
+Scalene triangle
+Right triangle
+Obtuse triangle
+Acute triangle
+Rhomboid
+Deltoid
+Pentagram
+Hexagram | star of david
+Octagram
+Trefoil
+Quatrefoil
+Chevron
+Teardrop
+Lozenge
+Cuboid
+Polyhedron
+Platonic solid
+Klein bottle
+Fractal
+Koch snowflake
+Sierpinski triangle
+Zigzag
+Wave
+Infinity symbol | lemniscate
+
+[Deep Cut]
+Tridecagon
+Tetradecagon
+Pentadecagon
+Hexadecagon
+Heptadecagon
+Octadecagon
+Enneadecagon
+Triacontagon
+Hectogon
+Chiliagon
+Apeirogon
+Enneagon
+Digon
+Cuboctahedron
+Icosidodecahedron
+Truncated icosahedron
+Rhombicuboctahedron
+Snub cube
+Stellated octahedron
+Great dodecahedron
+Antiprism
+Bipyramid
+Trapezohedron
+Johnson solid
+Archimedean solid
+Kepler-Poinsot polyhedron
+Deltahedron
+Zonohedron
+Oloid
+Sphericon
+Gomboc
+Superellipse
+Cardioid
+Nephroid
+Deltoid curve
+Astroid
+Cycloid
+Epicycloid
+Hypocycloid
+Lissajous curve
+Rose curve
+Spirograph
+Vesica piscis
+Arbelos
+Salinon
+Penrose triangle
+Penrose tiling
+Golden rectangle
+Golden spiral
+Logarithmic spiral
+Archimedean spiral
+Catenary
+Tractrix
+Witch of Agnesi
+Steinmetz solid
+
+[Not accepted]
+Color
+Number
+Size
+Letter
+Shapeless
+Round
+
+# QUESTION
+id: q0089
+pool: unlimited
+category: brands
+prompt: Name a brand of chips, crackers, or salty snacks
+
+[One in a Krillion]
+Andy Capp's Hot Fries | hot fries | andy capp
+
+[Plankton]
+Doritos
+Lay's | lays
+Pringles
+Cheetos
+Fritos
+Ruffles
+Goldfish
+Cheez-It | cheez its | cheezits
+
+[Too Clever]
+Takis
+Funyuns
+Combos
+
+[Schooler]
+Tostitos
+Sun Chips | sunchips
+Kettle Brand | kettle chips
+Cape Cod
+Utz
+Wise
+Ritz
+Triscuit
+Wheat Thins
+Pepperidge Farm
+Snyder's | snyders | snyder's of hanover
+Rold Gold
+Chex Mix
+Gardetto's
+Smartfood
+SkinnyPop
+Pirate's Booty
+Popchips
+Bugles
+Cheez Doodles
+Pop Secret
+Orville Redenbacher's | orville redenbacher
+Act II
+Planters
+Blue Diamond
+Wonderful Pistachios
+Munchies
+Flamin' Hot Cheetos
+
+
+[Rare]
+Chester's
+Grandma's
+Nabisco
+Keebler
+Townhouse
+Teddy Grahams
+Late July
+Siete
+Stacy's | stacy's pita chips
+Terra
+Garden of Eatin'
+Herr's | herrs
+Zapp's | zapps
+Miss Vickie's
+Boulder Canyon
+Deep River
+Dirty | dirty chips
+Route 11
+Jays
+Old Dutch
+Lance
+Toast Chee
+Nekot
+Sociables
+Wheatables
+Good Thins
+Simply 7
+Harvest Snaps
+Hippeas
+Off the Eaten Path
+Quest chips
+Popcorners
+Crunchsters
+Cracker Jack
+Poppycock
+Fiddle Faddle
+Lesser Evil
+Angie's Boomchickapop | boomchickapop
+Snack Factory
+Pretzel Crisps
+Dot's Pretzels | dots
+Auntie Anne's
+
+[Deep Cut]
+Walkers
+Monster Munch
+Wotsits
+Quavers
+Hula Hoops
+Skips
+Discos
+McCoy's
+Tyrrell's
+Pom-Bear
+Twiglets
+Mini Cheddars
+Jacob's
+Carr's
+Hovis
+Calbee
+Shrimp chips | prawn crackers
+Jagabee
+Koikeya
+Kaki no tane
+Turtle chips
+Honey Butter Chip
+Haitai
+Lotte
+Want Want
+Sabritas
+Barcel
+Slim Jim
+Jack Link's
+David seeds
+
+[Not accepted]
+Chocolate
+Candy
+Cookies
+Oreos
+Ice cream
+Apples
+
+# QUESTION
+id: q0090
+pool: unlimited
+category: everyday-objects
+prompt: Name a household appliance
+
+[One in a Krillion]
+Trash compactor
+
+[Plankton]
+Refrigerator | fridge
+Microwave
+Oven
+Dishwasher
+Washing machine | washer
+Dryer | clothes dryer
+Toaster
+Stove
+
+[Too Clever]
+Roomba | robot vacuum
+Alexa | amazon echo | smart speaker
+
+[Schooler]
+Vacuum | vacuum cleaner | hoover
+Blender
+Coffee maker | coffee machine
+Freezer
+Air conditioner | ac
+Fan
+Heater | space heater
+Iron
+Hair dryer | blow dryer
+Toaster oven
+Air fryer
+Slow cooker | crock pot | crockpot
+Instant Pot | pressure cooker
+Mixer | stand mixer | kitchenaid
+Food processor
+Kettle | electric kettle
+Rice cooker
+Water heater
+Furnace
+Dehumidifier
+Humidifier
+Garbage disposal | disposal
+Television | tv
+Lamp
+Waffle maker | waffle iron
+Keurig
+Espresso machine
+Juicer
+Range hood
+Ice maker
+
+[Rare]
+Hand mixer
+Immersion blender | stick blender
+Bread maker | bread machine
+Popcorn maker | popcorn machine
+Sandwich maker
+Panini press
+Griddle
+Electric skillet
+Deep fryer
+Sous vide
+Dehydrator
+Yogurt maker
+Ice cream maker
+Soda maker | sodastream
+Wine fridge | wine cooler
+Mini fridge
+Chest freezer
+Water dispenser | water cooler
+Water softener
+Water filter
+Air purifier
+Ceiling fan
+Box fan
+Tower fan
+Heat pump
+Boiler
+Thermostat
+Security camera
+Doorbell camera | ring doorbell
+Garage door opener
+Sump pump
+Generator
+Steam mop
+Carpet cleaner | carpet shampooer
+Shop vac
+Handheld vacuum | dustbuster
+Stick vacuum
+Steamer | clothes steamer
+Sewing machine
+Electric toothbrush
+Curling iron
+Hair straightener | flat iron
+Electric razor | shaver
+Clock radio | alarm clock
+Radio
+Stereo
+Record player
+DVD player
+Game console
+Computer
+
+[Deep Cut]
+Printer
+Router
+Electric blanket
+Heated mattress pad
+Massage chair
+Treadmill
+Hot plate
+Induction cooktop
+Cooktop
+Wall oven
+Convection oven
+Warming drawer
+Bottle warmer
+Baby monitor
+Night light
+Nespresso
+Coffee grinder
+Milk frother
+Cotton candy machine
+Chocolate fountain
+Hot dog roller
+Pizza oven
+Smoker
+Grill
+Electric grill
+Rotisserie
+Fondue pot
+Egg cooker
+Electric can opener
+Knife sharpener
+Vacuum sealer
+Label maker
+Paper shredder
+Laminator
+Bug zapper
+Pool pump
+Hot tub
+Washer dryer combo
+Trouser press
+Towel warmer
+Bidet seat
+Snow blower
+Lawn mower
+Leaf blower
+Pressure washer
+
+[Not accepted]
+Couch
+Table
+Chair
+Bed
+Rug
+Spoon
+Pot
