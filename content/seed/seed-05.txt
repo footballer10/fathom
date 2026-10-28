@@ -1,0 +1,1951 @@
+# QUESTION
+id: q0041
+pool: unlimited
+category: food
+prompt: Name a shape or type of pasta
+
+[One in a Krillion]
+Radiatori
+
+[Plankton]
+Spaghetti
+Macaroni | mac
+Penne
+Lasagna | lasagne
+Ravioli
+Fettuccine | fettucine | fettuccini
+Linguine | linguini
+
+[Too Clever]
+Couscous
+Ramen
+Spaghetti-O's | spaghettios
+Gnocchi
+
+[Schooler]
+Rigatoni
+Rotini
+Farfalle | bow tie | bowtie | bow ties
+Tortellini
+Angel hair | capellini
+Ziti
+Orzo
+Manicotti
+Cannelloni
+Shells | conchiglie | pasta shells
+Elbow macaroni | elbows
+Vermicelli
+Egg noodles
+Fusilli
+Tagliatelle
+
+[Rare]
+Pappardelle
+Orecchiette
+Gemelli
+Cavatappi
+Campanelle
+Ditalini
+Bucatini
+Stelline | stars
+Acini di pepe
+Penne rigate
+Mafaldine | mafalda
+Tortelloni
+Agnolotti
+Cappelletti
+Paccheri
+Cavatelli
+Strozzapreti
+Trofie
+Casarecce
+Anelli
+Alphabet pasta | alphabets
+Wagon wheels | rotelle | ruote
+Lumache
+Mostaccioli
+Bigoli
+Tagliolini
+Spaghettini
+Fedelini
+
+[Deep Cut]
+Fregola
+Garganelli
+Lorighittas
+Malloreddus
+Corzetti
+Pici
+Bavette
+Bucatoni
+Calamarata
+Mezzi rigatoni
+Tubini
+Ditali
+Pastina
+Quadretti
+Farfalline
+Conchigliette
+Lumaconi
+Conchiglioni | jumbo shells
+Fiori
+Gigli
+Fazzoletti
+Sorpresine
+Scialatielli
+Tortiglioni
+Fusilli lunghi
+Spaccatelli
+Lasagnette
+Reginette
+Cappellacci
+Mezzelune
+Sacchetti
+Fagottini
+Caramelle
+Culurgiones
+Spätzle | spaetzle
+Israeli couscous | pearl couscous
+
+[Not accepted]
+Rice
+Pizza
+Bread
+Pesto
+Marinara
+Alfredo
+Noodle
+
+# QUESTION
+id: q0042
+pool: reserve
+category: animals
+prompt: Name a dinosaur or prehistoric reptile
+note: Pterosaurs and marine reptiles count as Too Clever. Mammoths and sabertooth cats don't count.
+
+[One in a Krillion]
+Pachycephalosaurus | pachy
+
+[Plankton]
+Tyrannosaurus rex | t rex | t-rex | tyrannosaurus
+Triceratops
+Stegosaurus
+Velociraptor | raptor
+Brontosaurus
+Brachiosaurus
+
+[Too Clever]
+Dimetrodon
+Pterodactyl | pteranodon
+Plesiosaurus | plesiosaur
+Mosasaurus | mosasaur
+
+[Schooler]
+Spinosaurus
+Ankylosaurus
+Diplodocus
+Allosaurus
+Apatosaurus
+Parasaurolophus
+Iguanodon
+Dilophosaurus
+Archaeopteryx
+Gallimimus
+Compsognathus | compy
+Carnotaurus
+Giganotosaurus
+Ichthyosaurus | ichthyosaur
+Megalosaurus
+Pachyrhinosaurus
+Utahraptor
+Deinonychus
+Oviraptor
+
+[Rare]
+Argentinosaurus
+Therizinosaurus
+Baryonyx
+Styracosaurus
+Protoceratops
+Maiasaura
+Hadrosaurus | hadrosaur
+Edmontosaurus
+Corythosaurus
+Lambeosaurus
+Albertosaurus
+Gorgosaurus
+Ceratosaurus
+Coelophysis
+Herrerasaurus
+Eoraptor
+Plateosaurus
+Camarasaurus
+Supersaurus
+Seismosaurus
+Sauropod
+Microraptor
+Troodon
+Quetzalcoatlus
+Elasmosaurus
+Kentrosaurus
+Euoplocephalus
+Nodosaurus
+Psittacosaurus
+Ouranosaurus
+Suchomimus
+Carcharodontosaurus
+Acrocanthosaurus
+Mapusaurus
+Majungasaurus
+Tarbosaurus
+Yutyrannus
+Dreadnoughtus
+Patagotitan
+Mamenchisaurus
+Amargasaurus
+Sinosauropteryx
+Dracorex
+Stygimoloch
+Nothosaurus
+Liopleurodon
+Kronosaurus
+
+[Deep Cut]
+Abelisaurus
+Achillobator
+Alamosaurus
+Anchisaurus
+Avimimus
+Bambiraptor
+Beipiaosaurus
+Centrosaurus
+Chasmosaurus
+Citipati
+Concavenator
+Cryolophosaurus
+Dacentrurus
+Diabloceratops
+Dracovenator
+Einiosaurus
+Gastonia
+Gigantoraptor
+Guanlong
+Hypsilophodon
+Irritator
+Kosmoceratops
+Leaellynasaura
+Masiakasaurus
+Minmi
+Muttaburrasaurus
+Nigersaurus
+Ornithomimus
+Pentaceratops
+Rugops
+Saltasaurus
+Sauropelta
+Scelidosaurus
+Scutellosaurus
+Shunosaurus
+Sinornithosaurus
+Struthiomimus
+Tenontosaurus
+Torosaurus
+Tsintaosaurus
+Unenlagia
+Velafrons
+Zuniceratops
+Rhamphorhynchus
+Dimorphodon
+Shonisaurus
+Tanystropheus
+Postosuchus
+Sarcosuchus | supercroc
+Deinosuchus
+
+[Not accepted]
+Barney
+Woolly mammoth | mammoth
+Sabertooth tiger | saber-toothed tiger | smilodon
+Mastodon
+Megalodon
+Godzilla
+Dodo
+Indominus rex
+Dinosaur
+
+# QUESTION
+id: q0043
+pool: unlimited
+category: geography
+prompt: Name a national capital city
+note: National capitals, including the UK nations (Edinburgh, Cardiff, Belfast). US state capitals don't count.
+
+[One in a Krillion]
+Ouagadougou | ouagadugu
+
+[Plankton]
+London
+Paris
+Washington DC | washington | washington d.c. | dc
+Tokyo
+Rome
+Berlin
+Madrid
+Moscow
+
+[Too Clever]
+Canberra
+Ottawa
+Brasilia | brasília
+
+[Schooler]
+Beijing | peking
+Mexico City
+Cairo
+Athens
+Dublin
+Amsterdam
+Lisbon
+Vienna
+Seoul
+Bangkok
+New Delhi | delhi
+Buenos Aires
+Stockholm
+Oslo
+Copenhagen
+Helsinki
+Brussels
+Prague
+Warsaw
+Budapest
+Havana
+Lima
+Bogota | bogotá
+Nairobi
+Jerusalem
+Bern
+Reykjavik | reykjavík
+Wellington
+Kyiv | kiev
+Manila
+Jakarta
+Tehran
+Baghdad
+Kabul
+Islamabad
+Ankara
+
+[Rare]
+Santiago
+Caracas
+Quito
+La Paz
+Asuncion | asunción
+Montevideo
+Panama City
+San Jose
+Managua
+Tegucigalpa
+San Salvador
+Guatemala City
+Kingston
+Nassau
+Port-au-Prince | port au prince
+Santo Domingo
+Bucharest
+Sofia
+Belgrade
+Zagreb
+Ljubljana
+Bratislava
+Tallinn
+Riga
+Vilnius
+Minsk
+Chisinau
+Tirana
+Skopje
+Sarajevo
+Podgorica
+Valletta
+Nicosia
+Luxembourg City | luxembourg
+Monaco
+Vatican City | vatican
+Andorra la Vella
+San Marino
+Edinburgh
+Cardiff
+Belfast
+Riyadh
+Doha
+Abu Dhabi
+Muscat
+Kuwait City
+Amman
+Beirut
+Damascus
+Hanoi
+Kuala Lumpur
+Singapore
+Taipei
+Ulaanbaatar | ulan bator
+Kathmandu
+Dhaka
+Colombo
+Pretoria
+Cape Town
+Addis Ababa
+Lagos
+Abuja
+Accra
+Dakar
+Kinshasa
+Luanda
+Harare
+Lusaka
+Kampala
+Kigali
+Khartoum
+Tripoli
+Tunis
+Algiers
+Rabat
+Antananarivo
+
+[Deep Cut]
+Thimphu
+Naypyidaw | naypyitaw
+Vientiane
+Phnom Penh
+Bandar Seri Begawan
+Dili
+Male
+Tashkent
+Astana | nur-sultan
+Bishkek
+Dushanbe
+Ashgabat
+Baku
+Tbilisi
+Yerevan
+Sanaa | sana'a
+Manama
+Port Moresby
+Suva
+Apia
+Nuku'alofa
+Honiara
+Port Vila
+Tarawa
+Majuro
+Palikir
+Funafuti
+Yaren
+Ngerulmud
+Paramaribo
+Georgetown
+Belmopan
+Castries
+Bridgetown
+Port of Spain
+Roseau
+Basseterre
+St. George's
+Kingstown
+Saint John's
+Praia
+Bissau
+Conakry
+Freetown
+Monrovia
+Yamoussoukro
+Bamako
+Niamey
+N'Djamena | ndjamena
+Nouakchott
+Banjul
+Lome | lomé
+Porto-Novo
+Malabo
+Libreville
+Brazzaville
+Bangui
+Yaounde | yaoundé
+Juba
+Asmara
+Djibouti
+Mogadishu
+Dodoma
+Lilongwe
+Maputo
+Gaborone
+Windhoek
+Maseru
+Mbabane
+Moroni
+Victoria
+Port Louis
+Gitega
+Bloemfontein
+Sri Jayawardenepura Kotte | kotte
+Pyongyang
+
+[Not accepted]
+Dubai
+Hong Kong
+New York
+Los Angeles
+Sydney
+Toronto
+Rio de Janeiro
+Istanbul
+Mumbai
+Shanghai
+Barcelona
+Sacramento
+Austin
+Denver
+
+# QUESTION
+id: q0044
+pool: unlimited
+category: sports
+prompt: Name a piece of sports equipment
+
+[One in a Krillion]
+Sliotar
+
+[Plankton]
+Ball
+Bat | baseball bat
+Helmet
+Racket | racquet | tennis racket
+Glove | baseball glove | mitt
+Net
+Golf club | club
+
+[Too Clever]
+Jockstrap | jock strap | athletic cup | cup
+Water bottle
+Whistle
+
+[Schooler]
+Basketball
+Football
+Soccer ball
+Baseball
+Volleyball
+Hockey stick | stick
+Puck
+Skates | ice skates | roller skates
+Skis
+Snowboard
+Goggles
+Shin guards | shin pads
+Cleats | spikes
+Mouthguard | mouth guard
+Shoulder pads
+Basketball hoop | hoop | basket
+Goal | goalpost | goal post
+Surfboard
+Skateboard
+Bicycle | bike
+Dumbbell
+Barbell
+Kettlebell
+Jump rope | skipping rope
+Boxing gloves
+Golf ball
+Tee | golf tee
+Shuttlecock | birdie
+Paddle | ping pong paddle
+Frisbee | flying disc
+Kneepads | knee pads
+Swim cap
+Javelin
+Discus
+Hurdle
+Bow | bow and arrow
+Arrow
+Target
+
+[Rare]
+Lacrosse stick
+Field hockey stick
+Cricket bat
+Wicket | stumps
+Bails
+Pads | leg pads
+Catcher's mask
+Chest protector
+Batting helmet
+Batting gloves
+Facemask
+Chin strap
+Elbow pads
+Wrist guards
+Ski poles | poles
+Ski boots
+Bindings
+Wetsuit
+Flippers | fins
+Snorkel
+Kickboard
+Pull buoy
+Kayak paddle | oar
+Canoe
+Kayak
+Rowing machine
+Treadmill
+Stationary bike | exercise bike
+Medicine ball
+Resistance band
+Yoga mat
+Foam roller
+Punching bag | heavy bag
+Speed bag
+Hand wraps
+Headgear
+Fencing foil | foil | epee | sabre
+Fencing mask
+Bowling ball
+Bowling pin | pin
+Pool cue | cue
+Darts
+Dartboard
+Croquet mallet | mallet
+Polo mallet
+Saddle
+Stirrups
+Reins
+Bridle
+Horseshoe
+Pommel horse
+Balance beam
+Parallel bars
+Rings
+Trampoline
+Vaulting pole
+Starting blocks
+Baton
+Shot put
+Hammer
+Stopwatch
+Scoreboard
+Bases | base | home plate
+Pitching machine
+Tennis ball
+Sled | sledge | toboggan
+Bobsled
+Luge
+Curling stone | stone
+Curling broom | broom
+
+[Deep Cut]
+Jai alai cesta | cesta | xistera
+Chalk | lifting chalk
+Belay device
+Carabiner
+Harness
+Climbing shoes
+Crash pad
+Ice axe
+Crampons
+Snowshoes
+Wax | ski wax
+Skins | climbing skins
+Avalanche beacon
+Kite
+Wakeboard
+Water skis
+Bodyboard | boogie board
+Leash | surf leash
+Rash guard
+Weightlifting belt | lifting belt
+Squat rack
+Bench
+Pull-up bar
+Plates | weight plates
+Collar
+Cable machine
+Chalk bag
+Racquetball racquet
+Squash racket
+Badminton racket
+Pickleball paddle
+Hurling stick | hurley
+Shinty stick | caman
+Bandy stick
+Polo ball
+Rugby ball
+Cricket ball
+Lacrosse ball
+Wiffle ball
+Hacky sack
+Spikeball net
+Cornhole board | cornhole
+Bocce ball
+Tetherball
+Pinnies | bibs
+Cones
+Agility ladder
+Tackling dummy | blocking sled
+Sweatband
+Headband
+Visor
+
+[Not accepted]
+Referee
+Stadium
+Field
+Court
+Gym
+Coach
+Trophy
+Medal
+
+# QUESTION
+id: q0045
+pool: unlimited
+category: music
+prompt: Name a classical composer
+
+[One in a Krillion]
+Hildegard of Bingen | hildegard von bingen | hildegard
+
+[Plankton]
+Wolfgang Amadeus Mozart | mozart
+Ludwig van Beethoven | beethoven
+Johann Sebastian Bach | bach | js bach
+Pyotr Ilyich Tchaikovsky | tchaikovsky | tchaikovski
+Antonio Vivaldi | vivaldi
+Frederic Chopin | chopin
+
+[Too Clever]
+John Williams
+Hans Zimmer
+Andrew Lloyd Webber | lloyd webber
+
+[Schooler]
+Johannes Brahms | brahms
+Franz Schubert | schubert
+George Frideric Handel | handel | händel
+Joseph Haydn | haydn
+Claude Debussy | debussy
+Richard Wagner | wagner
+Giuseppe Verdi | verdi
+Franz Liszt | liszt
+Antonin Dvorak | dvorak | dvořák
+Felix Mendelssohn | mendelssohn
+Robert Schumann | schumann
+Igor Stravinsky | stravinsky
+Sergei Rachmaninoff | rachmaninoff | rachmaninov
+Gustav Mahler | mahler
+Giacomo Puccini | puccini
+Maurice Ravel | ravel
+Johann Strauss | strauss
+Edvard Grieg | grieg
+George Gershwin | gershwin
+Erik Satie | satie
+Camille Saint-Saens | saint-saens | saint saens
+
+[Rare]
+Sergei Prokofiev | prokofiev
+Dmitri Shostakovich | shostakovich
+Nikolai Rimsky-Korsakov | rimsky-korsakov | rimsky korsakov
+Modest Mussorgsky | mussorgsky
+Richard Strauss
+Hector Berlioz | berlioz
+Gioachino Rossini | rossini
+Georges Bizet | bizet
+Jean Sibelius | sibelius
+Aaron Copland | copland
+Leonard Bernstein | bernstein
+Samuel Barber | barber
+Gustav Holst | holst
+Edward Elgar | elgar
+Ralph Vaughan Williams | vaughan williams
+Benjamin Britten | britten
+Claudio Monteverdi | monteverdi
+Henry Purcell | purcell
+Georg Philipp Telemann | telemann
+Christoph Willibald Gluck | gluck
+Anton Bruckner | bruckner
+Bedrich Smetana | smetana
+Gabriel Faure | faure | fauré
+Philip Glass | glass
+John Cage | cage
+Arvo Part | arvo pärt | part
+Carl Orff | orff
+Johann Pachelbel | pachelbel
+Domenico Scarlatti | scarlatti
+Arcangelo Corelli | corelli
+Niccolo Paganini | paganini
+Clara Schumann
+Fanny Mendelssohn
+Scott Joplin | joplin
+Arnold Schoenberg | schoenberg | schönberg
+Alban Berg | berg
+Anton Webern | webern
+Bela Bartok | bartok | bartók
+Leos Janacek | janacek
+Engelbert Humperdinck | humperdinck
+Jacques Offenbach | offenbach
+Charles Gounod | gounod
+Jules Massenet | massenet
+Gaetano Donizetti | donizetti
+Vincenzo Bellini | bellini
+Ottorino Respighi | respighi
+Manuel de Falla | de falla
+Isaac Albeniz | albeniz
+Joaquin Rodrigo | rodrigo
+Heitor Villa-Lobos | villa-lobos
+Astor Piazzolla | piazzolla
+Steve Reich | reich
+John Adams
+Ennio Morricone | morricone
+Howard Shore
+Danny Elfman
+Joe Hisaishi
+
+[Deep Cut]
+Guillaume de Machaut | machaut
+Josquin des Prez | josquin
+Giovanni Pierluigi da Palestrina | palestrina
+Thomas Tallis | tallis
+William Byrd | byrd
+John Dowland | dowland
+Jean-Baptiste Lully | lully
+Jean-Philippe Rameau | rameau
+Francois Couperin | couperin
+Dietrich Buxtehude | buxtehude
+Heinrich Schutz | schutz | schütz
+Giovanni Gabrieli | gabrieli
+Tomaso Albinoni | albinoni
+Giovanni Battista Pergolesi | pergolesi
+Carl Philipp Emanuel Bach | cpe bach
+Johann Christian Bach
+Antonio Salieri | salieri
+Luigi Boccherini | boccherini
+Muzio Clementi | clementi
+Carl Maria von Weber | weber
+Louis Spohr | spohr
+Johann Nepomuk Hummel | hummel
+Mikhail Glinka | glinka
+Alexander Borodin | borodin
+Cesar Cui | cui
+Mily Balakirev | balakirev
+Alexander Scriabin | scriabin
+Anatoly Lyadov | lyadov
+Alexander Glazunov | glazunov
+Cesar Franck | franck
+Vincent d'Indy
+Ernest Chausson | chausson
+Paul Dukas | dukas
+Francis Poulenc | poulenc
+Darius Milhaud | milhaud
+Arthur Honegger | honegger
+Olivier Messiaen | messiaen
+Pierre Boulez | boulez
+Karlheinz Stockhausen | stockhausen
+Gyorgy Ligeti | ligeti
+Krzysztof Penderecki | penderecki
+Henryk Gorecki | gorecki
+Witold Lutoslawski | lutoslawski
+Karol Szymanowski | szymanowski
+Zoltan Kodaly | kodaly
+Carl Nielsen | nielsen
+Hugo Wolf
+Max Bruch | bruch
+Max Reger | reger
+Ferruccio Busoni | busoni
+Pietro Mascagni | mascagni
+Ruggero Leoncavallo | leoncavallo
+Amy Beach
+Charles Ives | ives
+Florence Price
+William Grant Still
+Samuel Coleridge-Taylor
+Edward MacDowell | macdowell
+Morton Feldman | feldman
+Terry Riley
+John Tavener | tavener
+Max Richter | richter
+Ludovico Einaudi | einaudi
+Eric Whitacre | whitacre
+Caroline Shaw
+Toru Takemitsu | takemitsu
+Tan Dun
+
+[Not accepted]
+Elvis
+Elton John
+Taylor Swift
+Freddie Mercury
+Shakespeare
+Michelangelo
+
+# QUESTION
+id: q0046
+pool: unlimited
+category: movies-tv
+prompt: Name a Star Wars character
+
+[One in a Krillion]
+Admiral Ackbar | ackbar
+
+[Plankton]
+Luke Skywalker | luke
+Darth Vader | vader | anakin skywalker | anakin
+Han Solo | han
+Princess Leia | leia | leia organa
+Yoda
+Chewbacca | chewie
+R2-D2 | r2d2 | r2 | artoo
+C-3PO | c3po | threepio
+
+[Too Clever]
+Jar Jar Binks | jar jar
+Stormtrooper | storm trooper
+Ewok
+
+[Schooler]
+Obi-Wan Kenobi | obi wan | obi-wan | ben kenobi | kenobi
+Emperor Palpatine | palpatine | darth sidious | the emperor | sheev palpatine
+Boba Fett
+Jabba the Hutt | jabba
+Lando Calrissian | lando
+Darth Maul | maul
+Rey
+Kylo Ren | ben solo
+Finn
+Poe Dameron | poe
+BB-8 | bb8
+Grogu | baby yoda
+The Mandalorian | mandalorian | din djarin | mando
+Padme Amidala | padme | queen amidala | padmé
+Qui-Gon Jinn | qui gon | qui-gon
+Mace Windu | windu
+Count Dooku | dooku
+General Grievous | grievous
+Wicket
+
+[Rare]
+Ahsoka Tano | ahsoka
+Jango Fett
+Greedo
+Wedge Antilles | wedge
+Grand Moff Tarkin | tarkin
+Lobot
+Nien Nunb
+Bib Fortuna
+Salacious Crumb
+Max Rebo
+Bossk
+IG-88 | ig88
+Dengar
+Zuckuss
+4-LOM
+Rose Tico | rose
+Supreme Leader Snoke | snoke
+General Hux | hux
+Captain Phasma | phasma
+Maz Kanata | maz
+Jyn Erso | jyn
+Cassian Andor | andor | cassian
+K-2SO | k2so
+Chirrut Imwe | chirrut
+Baze Malbus
+Saw Gerrera
+Orson Krennic | krennic
+Galen Erso
+Bodhi Rook
+Qi'ra
+Tobias Beckett | beckett
+L3-37
+Enfys Nest
+Cad Bane
+Bo-Katan Kryze | bo katan
+Moff Gideon | gideon
+Greef Karga
+Cara Dune
+IG-11
+The Armorer | armorer
+Fennec Shand
+Cobb Vanth
+Ezra Bridger | ezra
+Kanan Jarrus | kanan
+Hera Syndulla | hera
+Sabine Wren | sabine
+Zeb Orrelios | zeb
+Chopper
+Grand Admiral Thrawn | thrawn
+Asajj Ventress | ventress
+Savage Opress
+Captain Rex | rex
+Commander Cody | cody
+Plo Koon
+Kit Fisto
+Ki-Adi-Mundi
+Aayla Secura
+Shaak Ti
+Luminara Unduli
+Barriss Offee
+Watto
+Sebulba
+Nute Gunray
+Shmi Skywalker | shmi
+Owen Lars | uncle owen
+Beru Lars | aunt beru
+Biggs Darklighter | biggs
+Mon Mothma
+Bail Organa
+Admiral Piett | piett
+General Veers | veers
+Darth Bane
+Darth Plagueis | plagueis
+Cal Kestis
+Starkiller | galen marek
+
+[Deep Cut]
+Porkins | jek porkins
+Dak Ralter | dak
+Hobbie
+Zev Senesca
+Garindan
+Ponda Baba
+Dr. Evazan | evazan
+Figrin D'an
+Momaw Nadon | hammerhead
+Wuher
+Yarael Poof
+Saesee Tiin
+Even Piell
+Oppo Rancisis
+Depa Billaba
+Eeth Koth
+Adi Gallia
+Stass Allie
+Coleman Trebor
+Jocasta Nu
+Dexter Jettster | dex
+Lama Su
+Taun We
+Zam Wesell
+Sly Moore
+Mas Amedda
+Wat Tambor
+San Hill
+Poggle the Lesser
+Rune Haako
+Boss Nass
+Captain Tarpals
+Rugor Nass
+Sio Bibble
+Captain Panaka | panaka
+Sabe
+Dorme
+Cliegg Lars
+Hondo Ohnaka | hondo
+Embo
+Aurra Sing
+Sugi
+Latts Razzi
+Pre Vizsla
+Almec
+Satine Kryze | satine
+Korkie
+Lux Bonteri
+Mina Bonteri
+Onaconda Farr
+Riyo Chuchi
+Rush Clovis
+Kix
+Echo
+Fives
+Hevy
+Hardcase
+Wrecker
+Tech
+Crosshair
+Hunter
+Omega
+Doctor Aphra | aphra
+BT-1
+0-0-0 | triple zero
+Pao
+Weeteef Cyubee
+Unkar Plutt
+Lor San Tekka
+Zorii Bliss
+Babu Frik
+Jannah
+Allegiant General Pryde | pryde
+Vice Admiral Holdo | holdo
+Kaydel Ko Connix | connix
+DJ
+Paige Tico
+Fifth Brother
+Second Sister
+Grand Inquisitor
+Reva
+Trilla
+Luthen Rael | luthen
+Dedra Meero
+Syril Karn
+Kino Loy
+Maarva Andor
+Nemik
+Vel Sartha
+Cinta Kaz
+Brasso
+B2EMO
+Kuiil
+The Client
+Migs Mayfeld | mayfeld
+Paz Vizsla
+Peli Motto
+Morgan Elsbeth
+Baylan Skoll
+Shin Hati
+Huyang
+Marrok
+Osha Aniseya
+Mae Aniseya
+Sol
+Qimir
+Vernestra Rwoh
+
+[Not accepted]
+Spock
+Captain Kirk
+Gandalf
+Harry Potter
+Jedi
+Sith
+
+# QUESTION
+id: q0047
+pool: reserve
+category: words-language
+prompt: Name a color
+note: Named colors and shades. "Light blue" style combos only where they're common color names.
+
+[One in a Krillion]
+Vantablack
+
+[Plankton]
+Red
+Blue
+Green
+Yellow
+Orange
+Purple
+Pink
+Black
+
+[Too Clever]
+Clear | transparent
+Rainbow
+Infrared | ultraviolet
+
+[Schooler]
+White
+Brown
+Gray | grey
+Gold
+Silver
+Violet
+Indigo
+Turquoise
+Teal
+Magenta
+Maroon
+Navy | navy blue
+Beige
+Tan
+Cyan
+Lavender
+Lime | lime green
+Crimson
+Burgundy
+Peach
+Cream
+Ivory
+Coral
+Mint | mint green
+Aqua
+Olive | olive green
+Sky blue | light blue
+Hot pink
+Neon green
+
+[Rare]
+Fuchsia
+Chartreuse
+Mauve
+Taupe
+Khaki
+Ochre | ocher
+Sienna | burnt sienna
+Umber | burnt umber
+Scarlet
+Vermilion | vermillion
+Cerulean
+Azure
+Cobalt | cobalt blue
+Sapphire
+Emerald
+Jade
+Ruby
+Amber
+Bronze
+Copper
+Rust
+Mahogany
+Chocolate
+Mocha
+Coffee
+Caramel
+Charcoal
+Slate | slate gray
+Gunmetal
+Pewter
+Platinum
+Champagne
+Salmon
+Rose
+Blush
+Plum
+Lilac
+Periwinkle
+Orchid
+Amethyst
+Eggplant | aubergine
+Wine
+Cherry red
+Brick red
+Royal blue
+Baby blue
+Powder blue
+Forest green
+Kelly green
+Sea green
+Hunter green
+Army green
+Sage
+Mustard
+Lemon
+Canary yellow
+Goldenrod
+Apricot
+Tangerine
+Pumpkin
+Off-white
+Eggshell
+Bone
+Snow
+Jet black
+Ebony
+Onyx
+Sepia
+Hazel
+Auburn
+Blonde
+
+[Deep Cut]
+Puce
+Cerise
+Carmine
+Cinnabar
+Alizarin
+Gamboge
+Celadon
+Viridian
+Malachite
+Verdigris
+Wenge
+Fallow
+Ecru
+Bistre
+Bisque
+Wheat
+Buff
+Fawn
+Russet
+Titian
+Byzantium
+Tyrian purple
+Heliotrope
+Thistle
+Wisteria
+Mulberry
+Raspberry
+Glaucous
+Feldgrau
+Payne's gray
+Prussian blue
+Ultramarine
+Phthalo blue
+Cornflower blue | cornflower
+Robin's egg blue
+Tiffany blue
+International Klein Blue | klein blue
+Persian blue
+Midnight blue
+Oxford blue
+Cadet blue
+Steel blue
+Marigold
+Saffron
+Xanthic
+Citrine
+Aureolin
+Flax
+Jasmine
+Chamoisee
+Coquelicot
+Falu red
+Oxblood
+Claret
+Cordovan
+Burnt orange
+Persimmon
+Mint cream
+Honeydew
+Seafoam | sea foam
+Celeste
+Isabelline
+Gainsboro
+Smalt
+Zaffre
+Liver
+Drab
+
+[Not accepted]
+Rainbow sherbet
+Glitter
+Sparkly
+Shiny
+Dark
+Light
+Bright
+Plaid
+
+# QUESTION
+id: q0048
+pool: unlimited
+category: science
+prompt: Name a famous scientist
+
+[One in a Krillion]
+Rosalind Franklin | franklin
+
+[Plankton]
+Albert Einstein | einstein
+Isaac Newton | newton
+Charles Darwin | darwin
+Marie Curie | curie
+Galileo Galilei | galileo
+Nikola Tesla | tesla
+Stephen Hawking | hawking
+
+[Too Clever]
+Bill Nye
+Neil deGrasse Tyson | neil degrasse tyson | tyson
+Benjamin Franklin | ben franklin
+
+[Schooler]
+Thomas Edison | edison
+Louis Pasteur | pasteur
+Nicolaus Copernicus | copernicus
+Gregor Mendel | mendel
+Alexander Fleming | fleming
+Aristotle
+Archimedes
+Pythagoras
+Johannes Kepler | kepler
+Michael Faraday | faraday
+Carl Sagan | sagan
+Jane Goodall | goodall
+Alexander Graham Bell | graham bell
+Robert Oppenheimer | oppenheimer | j robert oppenheimer
+Leonardo da Vinci | da vinci
+Niels Bohr | bohr
+Dmitri Mendeleev | mendeleev
+Max Planck | planck
+Edwin Hubble | hubble
+
+[Rare]
+Richard Feynman | feynman
+Werner Heisenberg | heisenberg
+Erwin Schrodinger | schrodinger | schrödinger
+Ernest Rutherford | rutherford
+James Clerk Maxwell | maxwell
+Enrico Fermi | fermi
+Paul Dirac | dirac
+Robert Hooke | hooke
+Robert Boyle | boyle
+Antoine Lavoisier | lavoisier
+John Dalton | dalton
+Alfred Nobel | nobel
+Ada Lovelace | lovelace
+Alan Turing | turing
+Grace Hopper | hopper
+Rachel Carson | carson
+Linus Pauling | pauling
+James Watson | watson
+Francis Crick | crick
+Jonas Salk | salk
+Edward Jenner | jenner
+Joseph Lister | lister
+Florence Nightingale | nightingale
+Hippocrates
+Euclid
+Ptolemy
+Tycho Brahe | brahe
+Carl Linnaeus | linnaeus
+Alexander von Humboldt | humboldt
+Alfred Russel Wallace | wallace
+Louis Leakey | leakey
+Mary Anning | anning
+Henrietta Lacks
+Katherine Johnson
+Dorothy Hodgkin | hodgkin
+Lise Meitner | meitner
+Chien-Shiung Wu
+Sally Ride
+Mae Jemison
+George Washington Carver | carver
+Percy Julian
+Wernher von Braun | von braun
+Robert Goddard | goddard
+Guglielmo Marconi | marconi
+Alessandro Volta | volta
+Andre-Marie Ampere | ampere
+Georg Ohm | ohm
+James Watt | watt
+Heinrich Hertz | hertz
+Anders Celsius | celsius
+Daniel Fahrenheit | fahrenheit
+Lord Kelvin | kelvin | william thomson
+Blaise Pascal | pascal
+Rene Descartes | descartes
+Gottfried Leibniz | leibniz
+Leonhard Euler | euler
+Carl Friedrich Gauss | gauss
+Srinivasa Ramanujan | ramanujan
+John von Neumann | von neumann
+Tim Berners-Lee | berners-lee
+Jennifer Doudna | doudna
+Peter Higgs | higgs
+Edmond Halley | halley
+
+[Deep Cut]
+Emmy Noether | noether
+Barbara McClintock | mcclintock
+Gertrude Elion
+Rita Levi-Montalcini
+Tu Youyou
+Vera Rubin | rubin
+Jocelyn Bell Burnell
+Cecilia Payne-Gaposchkin | cecilia payne
+Henrietta Swan Leavitt | leavitt
+Annie Jump Cannon
+Caroline Herschel
+William Herschel | herschel
+Christiaan Huygens | huygens
+Antonie van Leeuwenhoek | leeuwenhoek
+Robert Koch | koch
+Paul Ehrlich | ehrlich
+Ivan Pavlov | pavlov
+Santiago Ramon y Cajal | ramon y cajal
+Camillo Golgi | golgi
+Rudolf Virchow | virchow
+Ignaz Semmelweis | semmelweis
+Andreas Vesalius | vesalius
+William Harvey | harvey
+Galen
+Avicenna | ibn sina
+Alhazen | ibn al-haytham
+Al-Khwarizmi
+Hypatia
+Eratosthenes
+Democritus
+Thales
+Amedeo Avogadro | avogadro
+Joseph Priestley | priestley
+Henry Cavendish | cavendish
+Humphry Davy | davy
+Jons Jacob Berzelius | berzelius
+Friedrich Wohler | wohler
+August Kekule | kekule
+Svante Arrhenius | arrhenius
+Fritz Haber | haber
+Marie Tharp | tharp
+Alfred Wegener | wegener
+Charles Lyell | lyell
+James Hutton | hutton
+Georges Cuvier | cuvier
+Jean-Baptiste Lamarck | lamarck
+Ernst Mayr | mayr
+E.O. Wilson | edward o wilson
+Richard Dawkins | dawkins
+Stephen Jay Gould | gould
+Lynn Margulis | margulis
+Kary Mullis | mullis
+Frederick Sanger | sanger
+Max Born | born
+Wolfgang Pauli | pauli
+Satyendra Nath Bose | bose
+Subrahmanyan Chandrasekhar | chandrasekhar
+Arthur Eddington | eddington
+Georges Lemaitre | lemaitre
+Fred Hoyle | hoyle
+Murray Gell-Mann | gell-mann
+Kip Thorne | thorne
+Roger Penrose | penrose
+Michio Kaku | kaku
+Brian Greene
+Claude Shannon | shannon
+Norbert Wiener
+Hedy Lamarr | lamarr
+
+[Not accepted]
+Frankenstein
+Dr. Seuss
+Bill Gates
+Steve Jobs
+Elon Musk
+Sherlock Holmes
+
+# QUESTION
+id: q0049
+pool: unlimited
+category: brands
+prompt: Name a clothing or fashion brand
+
+[One in a Krillion]
+Von Dutch
+
+[Plankton]
+Nike
+Adidas
+Gucci
+Gap
+Old Navy
+Levi's | levis | levi
+Ralph Lauren | polo | polo ralph lauren
+
+[Too Clever]
+Fruit of the Loom
+Hanes
+Crocs
+
+[Schooler]
+Under Armour | under armor
+Puma
+Louis Vuitton | lv
+Prada
+Chanel
+Versace
+Calvin Klein | ck
+Tommy Hilfiger | tommy
+Zara
+H&M | h and m
+Forever 21
+American Eagle
+Abercrombie & Fitch | abercrombie | abercrombie and fitch
+Hollister
+Lululemon
+The North Face | north face
+Champion
+Vans
+Converse
+Banana Republic
+Gildan
+
+[Rare]
+Patagonia
+Hermes | hermès
+Dior | christian dior
+Burberry
+Armani | giorgio armani
+Dolce & Gabbana | dolce and gabbana | d&g
+Fendi
+Balenciaga
+Givenchy
+Valentino
+Saint Laurent | ysl | yves saint laurent
+Off-White | off white
+Supreme
+Stussy
+Carhartt
+Columbia
+Uniqlo
+Shein
+J.Crew | j crew
+Express
+Guess
+Michael Kors
+Coach
+Kate Spade
+Tory Burch
+Marc Jacobs
+Victoria's Secret | victorias secret
+Aeropostale
+Urban Outfitters
+Anthropologie
+Free People
+Lucky Brand
+Wrangler
+Lee
+Dickies
+Reebok
+New Balance
+Fila
+Skechers
+Timberland
+Dr. Martens | doc martens
+UGG | uggs
+Gymshark
+Athleta
+Fabletics
+Alo
+Vineyard Vines
+Brooks Brothers
+Hugo Boss | boss
+Lacoste
+Fred Perry
+Ben Sherman
+Diesel
+True Religion
+Ed Hardy
+Juicy Couture
+Bape | a bathing ape
+Kith
+Fear of God
+Yeezy
+Jordan | air jordan
+Quiksilver
+Billabong
+Roxy
+Hurley
+Rip Curl
+O'Neill
+Volcom
+Oakley
+Ray-Ban | rayban
+
+[Deep Cut]
+Loewe
+Celine
+Bottega Veneta
+Miu Miu
+Moschino
+Missoni
+Etro
+Pucci
+Ferragamo | salvatore ferragamo
+Brunello Cucinelli
+Loro Piana
+Zegna | ermenegildo zegna
+Tom Ford
+Alexander McQueen | mcqueen
+Stella McCartney
+Vivienne Westwood
+Paul Smith
+Mulberry
+Barbour
+Belstaff
+Moncler
+Canada Goose
+Arc'teryx | arcteryx
+Mammut
+Fjallraven | fjällräven
+Rag & Bone
+Vince
+Reformation
+Everlane
+Madewell
+Aritzia
+Mango
+Massimo Dutti
+Pull & Bear
+Bershka
+Topshop
+Primark
+Marks & Spencer | m&s
+Superdry
+Jack Wills
+Ted Baker
+AllSaints | all saints
+Acne Studios
+COS
+Arket
+Weekday
+Monki
+Muji
+Rick Owens
+Comme des Garcons | comme des garçons | cdg
+Issey Miyake
+Yohji Yamamoto
+Kenzo
+Balmain
+Lanvin
+Chloe | chloé
+Jacquemus
+Isabel Marant
+Maison Margiela | margiela
+Palm Angels
+Amiri
+Rhude
+Golden Goose
+Represent
+Kappa
+Umbro
+Le Coq Sportif
+Ellesse
+Sergio Tacchini
+Asics
+Saucony
+Mizuno
+Hoka
+Salomon
+Merrell
+Keen
+Teva
+Chaco
+Birkenstock
+Sperry
+Sorel
+Hunter
+L.L.Bean | ll bean
+Lands' End | lands end
+Eddie Bauer
+Duluth Trading
+Pendleton
+Woolrich
+Filson
+Stetson
+Kangol
+New Era
+
+[Not accepted]
+Target
+Amazon
+Apple
+Rolex
+Tiffany
+Sephora
+
+# QUESTION
+id: q0050
+pool: unlimited
+category: everyday-objects
+prompt: Name an item of clothing
+
+[One in a Krillion]
+Cummerbund
+
+[Plankton]
+Shirt | t-shirt | tshirt | tee
+Pants | trousers
+Jeans
+Socks
+Shoes
+Hat
+Dress
+Jacket
+
+[Too Clever]
+Kilt
+Toga
+Onesie
+
+[Schooler]
+Shorts
+Skirt
+Sweater | jumper
+Hoodie | hooded sweatshirt
+Coat
+Underwear | undies
+Boxers
+Bra
+Scarf
+Gloves
+Mittens
+Tie | necktie
+Belt
+Boots
+Sandals
+Sneakers | trainers | tennis shoes
+Pajamas | pyjamas | pjs
+Vest
+Suit
+Blouse
+Leggings
+Sweatpants | joggers
+Sweatshirt
+Tank top
+Polo shirt | polo
+Swimsuit | bathing suit | swimwear
+Bikini
+Beanie
+Baseball cap | cap
+Overalls
+
+[Rare]
+Cardigan
+Blazer
+Tuxedo | tux
+Bow tie | bowtie
+Raincoat
+Parka
+Poncho
+Windbreaker
+Trench coat
+Peacoat
+Robe | bathrobe
+Slippers
+Flip-flops | flip flops | thongs
+High heels | heels | stilettos
+Loafers
+Flats
+Clogs
+Moccasins
+Cowboy boots
+Rain boots | galoshes | wellies | wellingtons
+Turtleneck
+Crop top
+Camisole
+Tube top
+Halter top
+Romper
+Jumpsuit
+Sundress
+Gown | ball gown | evening gown
+Sarong
+Kimono
+Sari | saree
+Apron
+Uniform
+Briefs
+Thong
+Lingerie
+Corset
+Slip
+Stockings
+Tights | pantyhose
+Leg warmers
+Headband
+Bandana
+Fedora
+Beret
+Cowboy hat
+Top hat
+Sun hat
+Visor
+Earmuffs
+Balaclava | ski mask
+Suspenders | braces
+Cargo pants
+Capris | capri pants
+Chinos | khakis
+Culottes
+Skort
+Bodysuit
+Unitard
+Leotard
+Wetsuit
+Bermuda shorts
+Board shorts
+
+[Deep Cut]
+Ascot
+Cravat
+Waistcoat
+Dinner jacket
+Morning coat
+Tailcoat
+Frock coat
+Smoking jacket
+Duster
+Anorak
+Cagoule
+Gilet
+Bolero
+Shrug
+Shawl
+Stole
+Pashmina
+Cape
+Cloak
+Mantle
+Caftan | kaftan
+Dashiki
+Muumuu
+Hanbok
+Cheongsam | qipao
+Dirndl
+Lederhosen
+Hakama
+Dhoti
+Lungi
+Salwar kameez
+Abaya
+Burqa
+Hijab
+Turban
+Fez
+Bowler hat | derby
+Panama hat
+Trilby
+Boater
+Pith helmet
+Deerstalker
+Tam o' shanter | tam
+Cloche
+Fascinator
+Snood
+Garter
+Bustier
+Girdle
+Petticoat
+Crinoline
+Bloomers
+Pantaloons
+Jodhpurs
+Breeches
+Knickerbockers
+Gaiters | spats
+Espadrilles
+Mary Janes
+Oxfords
+Brogues
+Wingtips
+Chelsea boots
+Platform shoes
+Wedges
+Mules
+Huaraches
+Gauntlets
+Muff
+Jabot
+Dickey
+Spanx
+Henley
+Rugby shirt
+Guayabera
+Hawaiian shirt | aloha shirt
+
+[Not accepted]
+Necklace
+Ring
+Earrings
+Watch
+Purse
+Backpack
+Sunglasses
