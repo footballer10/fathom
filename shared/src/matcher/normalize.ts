@@ -183,14 +183,14 @@ const LEADING_ARTICLE = /^(the|a|an) /;
 
 /**
  * Normalize a guess or answer to its comparison form (words separated by single spaces).
- * Steps: NFKD + strip diacritics → lowercase → & → and → drop punctuation
+ * Steps: NFKD + strip diacritics → lowercase → & → and, + → plus → drop punctuation
  * (hyphens become spaces) → collapse spaces → drop leading article →
  * singularize each word → unify US/UK spelling.
  */
 export function normalize(input: string): string {
   let s = input.normalize("NFKD").replace(/\p{M}+/gu, "");
   s = s.toLowerCase();
-  s = s.replace(/&/g, " and ");
+  s = s.replace(/&/g, " and ").replace(/\+/g, " plus ");
   // Hyphens, slashes and underscores separate words; other punctuation just disappears.
   s = s.replace(/[-‐‑–—_/]+/g, " ");
   s = s.replace(/[^\p{L}\p{N}\s]+/gu, "");
