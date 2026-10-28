@@ -6,3 +6,5 @@ export * from "./matcher/normalize";
 export * from "./matcher/distance";
 export * from "./matcher/buildIndex";
 export * from "./matcher/match";
+export * from "./content/plainText";
+export * from "./content/validate";

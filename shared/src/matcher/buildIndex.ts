@@ -1,11 +1,12 @@
+import { doubleMetaphone } from "double-metaphone";
 import type { TierPoints } from "../config";
-import type { QuestionData } from "../types";
+import type { AnswerData } from "../types";
 import { compact, normalize } from "./normalize";
 
 /**
- * A question's precompiled answer index. Built once (at seed time in later
- * phases; on load in the Phase 1 mock) and stored as plain JSON, so it can
- * live in KV under `qidx:<questionId>`.
+ * A question's precompiled answer index. Built once at seed/import time and
+ * stored as plain JSON in KV under `qidx:<questionId>`, so the Worker never
+ * has to normalize hundreds of aliases on a guess.
  */
 export interface AnswerIndex {
   questionId: string;
@@ -16,12 +17,30 @@ export interface AnswerIndex {
   reordered: Record<string, number>;
   /** Fuzzy candidates grouped by compact length: [form, answerIndex][]. */
   byLength: Record<number, [string, number][]>;
+  /** Double Metaphone code → [form, answerIndex][] (primary and secondary codes). */
+  phonetic: Record<string, [string, number][]>;
   /** Compact forms of known invalid answers. */
   nearMisses: string[];
 }
 
+/** Minimal shape needed to build an index (content JSON and D1 rows both fit). */
+export interface IndexableQuestion {
+  id: string;
+  prompt?: string;
+  category?: string;
+  answers: (AnswerData & { id?: string })[];
+  nearMisses?: string[];
+}
+
 export function answerId(questionId: string, i: number): string {
   return `${questionId}-a${i}`;
+}
+
+/** Both Double Metaphone codes for a compact form (deduplicated, empties dropped). */
+export function phoneticCodes(form: string): string[] {
+  if (!form) return [];
+  const [a, b] = doubleMetaphone(form);
+  return a === b ? (a ? [a] : []) : [a, b].filter(Boolean);
 }
 
 /** All orderings of a short list (used for 2–3 word answers). */
@@ -35,16 +54,17 @@ function permutations<T>(items: T[]): T[][] {
   return out;
 }
 
-export function buildIndex(q: QuestionData): AnswerIndex {
+export function buildIndex(q: IndexableQuestion): AnswerIndex {
   const index: AnswerIndex = {
     questionId: q.id,
     answers: [],
     exact: {},
     reordered: {},
     byLength: {},
+    phonetic: {},
     nearMisses: [],
   };
-  // Fuzzy forms are de-duplicated per answer so the same string isn't checked twice.
+  // Forms are de-duplicated per answer so the same string isn't checked twice.
   const seenForm = new Set<string>();
   const addForm = (form: string, a: number, primary: boolean) => {
     if (!form) return;
@@ -55,18 +75,16 @@ export function buildIndex(q: QuestionData): AnswerIndex {
     if (seenForm.has(key)) return;
     seenForm.add(key);
     (index.byLength[form.length] ??= []).push([form, a]);
+    if (primary) for (const code of phoneticCodes(form)) (index.phonetic[code] ??= []).push([form, a]);
   };
 
   q.answers.forEach((ans, a) => {
-    index.answers.push({ id: answerId(q.id, a), canonical: ans.text, tier: ans.tier });
-    for (const raw of [ans.text, ...(ans.aliases ?? [])]) {
-      const n = normalize(raw);
-      addForm(compact(n), a, true);
-    }
+    index.answers.push({ id: ans.id ?? answerId(q.id, a), canonical: ans.text, tier: ans.tier });
+    for (const raw of [ans.text, ...(ans.aliases ?? [])]) addForm(compact(normalize(raw)), a, true);
   });
 
-  // Word-order swaps ("cream ice" → "ice cream") for 2–3 word forms, added after all
-  // primary forms so they never shadow another answer's real spelling.
+  // Word-order swaps for 2–3 word forms, added after all primary forms so they
+  // never shadow another answer's real spelling.
   q.answers.forEach((ans, a) => {
     for (const raw of [ans.text, ...(ans.aliases ?? [])]) {
       const words = normalize(raw).split(" ");

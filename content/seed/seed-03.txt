@@ -1,0 +1,1335 @@
+# QUESTION
+id: q0021
+pool: unlimited
+category: food
+prompt: Name a breakfast cereal
+
+[One in a Krillion]
+Kaboom
+
+[Deep Cut]
+Mueslix
+Product 19
+Crispix
+Puffins
+Shreddies
+Oatmeal Crisp
+Basic 4
+Cracklin' Oat Bran
+Waffle Crisp
+Quisp
+Peanut Butter Crunch
+Golden Puffs
+Corn Bran
+
+[Rare]
+Honeycomb
+Weetabix
+Malt-O-Meal
+Kellogg's Krave | krave
+Golden Crisp
+French Toast Crunch
+Alpha-Bits | alphabits
+Muesli
+Bran Flakes
+Kashi
+Fiber One
+Total
+Crunch Berries
+Smacks | honey smacks | sugar smacks
+Grape-Nuts | grape nuts | grapenuts
+Corn Pops
+Cookie Crisp
+Franken Berry
+Boo Berry
+Count Chocula
+
+[Schooler]
+Kix
+Corn Chex | rice chex | wheat chex
+Golden Grahams
+Shredded Wheat | frosted mini wheats | mini wheats
+Cocoa Krispies
+Cocoa Pebbles
+Reese's Puffs
+Wheaties
+Honey Bunches of Oats
+Life
+Special K
+Raisin Bran
+Apple Jacks | applejacks
+Trix
+Cocoa Puffs
+Fruity Pebbles
+Honey Nut Cheerios
+
+[Too Clever]
+Grits
+Cream of Wheat
+Granola
+Oatmeal | porridge
+
+[Plankton]
+Cap'n Crunch | captain crunch | capn crunch
+Rice Krispies | rice crispies
+Corn Flakes | cornflakes
+Cinnamon Toast Crunch | cinnamon toast
+Froot Loops | fruit loops
+Frosted Flakes | frosties
+Cheerios
+Lucky Charms
+
+[Not accepted]
+Pancakes
+Waffles
+Eggs
+Bacon
+Milk
+Pop-Tarts
+
+# QUESTION
+id: q0022
+pool: unlimited
+category: animals
+prompt: Name an insect or bug
+note: Spiders, ticks and other bug-like critters count as Too Clever.
+
+[One in a Krillion]
+Bombardier beetle
+
+[Deep Cut]
+Lacewing
+Mayfly
+Caddisfly
+Stonefly
+Water strider | pond skater
+Water boatman
+Damselfly
+Leaf insect
+Thrips
+Scale insect
+Mealybug
+Whitefly
+Leafhopper
+Spittlebug
+Boxelder bug
+Assassin bug
+Kissing bug
+Stag beetle
+Rhinoceros beetle | rhino beetle
+Hercules beetle
+Japanese beetle
+Click beetle
+Tiger beetle
+Bark beetle
+Bullet ant
+Carpenter ant
+Army ant
+Leafcutter ant | leaf cutter ant
+Carpenter bee
+Mud dauber
+Sawfly
+Botfly | bot fly
+Crane fly | daddy longlegs
+Sandfly | sand fly
+Tsetse fly
+Midge
+Luna moth
+Atlas moth
+Silkworm | silk moth
+Glowworm | glow worm
+Antlion
+Dobsonfly
+Hellgrammite
+Booklice
+Springtail
+
+[Rare]
+Honeybee | honey bee
+Katydid
+Weevil
+Louse | lice
+June bug | june beetle
+Monarch butterfly | monarch
+Yellowjacket | yellow jacket
+Fruit fly
+Horsefly | horse fly
+Dung beetle
+Walking stick | stick insect | stick bug
+Silverfish
+Gnat
+Fire ant
+Bed bug | bedbug
+Stink bug
+Aphid
+Earwig
+Cicada
+Housefly | house fly
+Larva
+Maggot
+Locust
+Millipede
+
+[Schooler]
+Praying mantis | mantis
+Bumblebee | bumble bee
+Hornet
+Centipede
+Flea
+Termite
+Caterpillar
+Wasp
+Beetle
+Moth
+Firefly | lightning bug
+Dragonfly
+Cricket
+Grasshopper
+
+[Too Clever]
+Spider
+Tick
+Scorpion
+Slug
+Snail
+Worm | earthworm
+Pill bug | roly poly | woodlouse | roly-poly
+
+[Plankton]
+Cockroach | roach
+Ladybug | ladybird | lady bug
+Mosquito | mosquitoe | skeeter
+Fly
+Butterfly
+Bee
+Ant
+
+[Not accepted]
+Frog
+Lizard
+Bird
+Bat
+Crab
+Shrimp
+Snake
+
+# QUESTION
+id: q0023
+pool: unlimited
+category: geography
+prompt: Name a US city
+
+[One in a Krillion]
+Truth or Consequences
+
+[Plankton]
+New York City | new york | nyc
+Los Angeles | la | l.a.
+Chicago
+Houston
+Miami
+San Francisco | sf | san fran
+Las Vegas | vegas
+Seattle
+
+[Too Clever]
+Hollywood
+Washington DC | washington d.c. | dc | washington
+Springfield
+Kansas City
+
+[Schooler]
+Boston
+Phoenix
+Dallas
+Philadelphia | philly
+Atlanta
+Denver
+San Diego
+Detroit
+New Orleans | nola
+Orlando
+Austin
+Nashville
+Portland
+Salt Lake City | salt lake
+Minneapolis
+Baltimore
+Pittsburgh | pittsburg
+Cleveland
+St. Louis | saint louis | st louis
+Honolulu
+Charlotte
+Indianapolis
+Memphis
+
+[Rare]
+San Antonio
+San Jose
+Jacksonville
+Columbus
+Fort Worth
+El Paso
+Oklahoma City | okc
+Milwaukee
+Albuquerque | albuquerqe
+Tucson
+Sacramento
+Omaha
+Raleigh
+Tampa
+Cincinnati | cincinatti
+Buffalo
+Anchorage
+Boise
+Louisville
+Richmond
+Reno
+Santa Fe
+Savannah
+Charleston
+Birmingham
+Hartford
+Providence
+Madison
+Des Moines
+Oakland
+Long Beach
+Miami Beach
+Palm Springs
+Key West
+Scottsdale
+Boulder
+Aspen
+Colorado Springs
+Spokane
+Tacoma
+Anaheim
+
+[Deep Cut]
+Manhattan
+Fresno
+Mesa
+Tulsa
+Wichita
+Arlington
+Bakersfield
+Aurora
+Corpus Christi
+Lexington
+Stockton
+Henderson
+Plano
+Lincoln
+Durham
+Chandler
+Laredo
+Lubbock
+Irvine
+Greensboro
+Norfolk
+Toledo
+Baton Rouge
+Montgomery
+Jackson
+Little Rock
+Juneau
+Fargo
+Sioux Falls
+Billings
+Cheyenne
+Burlington
+Portsmouth
+Bangor
+Duluth
+Green Bay
+Ann Arbor
+Grand Rapids
+Peoria
+Syracuse
+Rochester
+Albany
+Trenton
+Newark
+Atlantic City
+Wilmington
+Dover
+Annapolis
+Topeka
+Pierre
+Bismarck
+Helena
+Olympia
+Salem
+Carson City
+Tallahassee
+Gainesville
+Pensacola
+Mobile
+Biloxi
+Chattanooga
+Knoxville
+Asheville
+Roanoke
+Flagstaff
+Sedona
+Yuma
+Amarillo
+Galveston
+Waco
+Provo
+Ogden
+Missoula
+Bozeman
+Jackson Hole
+Napa
+Malibu
+Pasadena
+Santa Barbara
+Santa Monica
+Berkeley
+Palo Alto
+Eugene
+Fairbanks
+Hilo
+Kalamazoo
+Walla Walla
+Kokomo
+Tombstone
+Roswell
+Hershey
+
+[Not accepted]
+Toronto
+Vancouver
+Montreal
+Mexico City
+London
+Texas
+California
+
+# QUESTION
+id: q0024
+pool: unlimited
+category: sports
+prompt: Name an Olympic sport
+note: Current or recent Summer/Winter Olympic sports and disciplines.
+
+[One in a Krillion]
+Skeleton
+
+[Plankton]
+Swimming
+Gymnastics
+Track and field | athletics | track
+Basketball
+Soccer | football
+Figure skating | skating | ice skating
+Ice hockey | hockey
+
+[Too Clever]
+Polo
+Breakdancing | breaking
+Skateboarding
+Surfing
+Tug of war
+
+[Schooler]
+Volleyball
+Tennis
+Boxing
+Wrestling
+Diving
+Snowboarding
+Skiing | alpine skiing | downhill skiing
+Cycling | biking
+Rowing
+Fencing
+Archery
+Golf
+Speed skating
+Bobsled | bobsleigh
+Curling
+Weightlifting
+Judo
+Taekwondo
+Beach volleyball
+Marathon
+
+[Rare]
+Water polo
+Table tennis | ping pong
+Badminton
+Handball
+Equestrian | horse riding | dressage | show jumping
+Sailing
+Canoeing | kayaking | canoe | kayak
+Triathlon
+Field hockey
+Luge
+Biathlon
+Ski jumping
+Cross-country skiing | cross country skiing | nordic skiing
+Shooting
+Rugby sevens | rugby
+Softball
+Baseball
+Synchronized swimming | artistic swimming
+Rhythmic gymnastics
+Trampoline
+Pole vault
+Javelin
+Shot put
+Discus
+High jump
+Long jump
+Hurdles
+Decathlon
+Heptathlon
+Sprinting | 100 meters
+Mountain biking
+BMX
+Sport climbing | climbing | rock climbing
+Freestyle skiing | moguls
+Short track speed skating | short track
+
+[Deep Cut]
+Modern pentathlon | pentathlon
+Karate
+Lacrosse
+Squash
+Cricket
+Flag football
+Nordic combined
+Ski mountaineering
+Slalom
+Super-G | super g
+Halfpipe
+Ski cross
+Snowboard cross
+Aerials
+Race walking | racewalking
+Steeplechase
+Hammer throw
+Triple jump
+Relay
+Open water swimming
+Track cycling | velodrome
+Keirin
+Omnium
+Madison
+Pommel horse
+Rings
+Parallel bars
+Uneven bars
+Balance beam
+Vault
+Floor exercise
+Greco-Roman wrestling
+Freestyle wrestling
+Trap shooting | skeet shooting | skeet
+Rifle shooting
+Pistol shooting
+Rowing eights
+Kitesurfing | kiteboarding
+Windsurfing
+Marathon swimming
+Ice dancing
+Pairs skating
+Monobob
+3x3 basketball | three on three basketball
+
+[Not accepted]
+Chess
+Darts
+Bowling
+NASCAR
+Cheerleading
+Quidditch
+Esports
+Dodgeball
+
+# QUESTION
+id: q0025
+pool: unlimited
+category: music
+prompt: Name a genre of music
+
+[One in a Krillion]
+Polka
+
+[Plankton]
+Rock | rock and roll | rock n roll
+Pop
+Country
+Rap
+Hip hop | hip-hop
+Jazz
+Classical
+R&B | rnb | rhythm and blues
+
+[Too Clever]
+Elevator music | muzak
+Yacht rock
+Nightcore
+
+[Schooler]
+Blues
+Metal | heavy metal
+Punk | punk rock
+EDM | electronic | electronic dance music
+Reggae
+Gospel
+Folk
+Soul
+Funk
+Disco
+Techno
+Indie | indie rock
+Alternative | alt rock | alternative rock
+Grunge
+Opera
+Latin
+K-pop | kpop
+Bluegrass
+
+[Rare]
+House | house music
+Dubstep
+Trap
+Salsa
+Reggaeton
+Ska
+Emo
+Hard rock
+Soft rock
+Classic rock
+Punk pop | pop punk
+Swing
+Big band
+Motown
+Doo-wop | doo wop
+Rockabilly
+Bossa nova
+Samba
+Tango
+Flamenco
+Mariachi
+Afrobeat | afrobeats
+Lo-fi | lofi
+Trance
+Drum and bass | dnb
+Ambient
+New wave
+Synthpop | synth pop | synthwave
+Grime
+Drill
+Musical theater | show tunes | broadway
+A cappella | acapella
+Christian rock
+Death metal
+Barbershop
+
+[Deep Cut]
+Zydeco
+Cumbia
+Bachata
+Merengue
+Calypso
+Soca
+Dancehall
+Highlife
+Fado
+Klezmer
+Qawwali
+Bhangra
+Cajun
+Western swing
+Honky-tonk | honky tonk
+Outlaw country
+Americana
+Shoegaze
+Post-rock | post rock
+Math rock
+Prog rock | progressive rock
+Psychedelic rock | psychedelic
+Krautrock
+Garage rock
+Surf rock
+Glam rock
+Hair metal
+Black metal
+Thrash metal | thrash
+Nu metal
+Metalcore
+Hardcore
+Screamo
+Industrial
+Darkwave
+Goth rock | gothic rock
+Chillwave
+Vaporwave
+Hyperpop
+Breakbeat
+Jungle
+UK garage
+Hardstyle
+Dub
+Ragtime
+Bebop
+Smooth jazz
+Acid jazz
+Free jazz
+Baroque
+Gregorian chant
+Chiptune
+J-pop | jpop
+Mandopop
+Tejano
+Corridos
+Gamelan
+Throat singing
+Sea shanty | shanty
+Spoken word
+Neo soul
+Quiet storm
+Crunk
+Bounce
+Emo rap
+Mumble rap
+
+[Not accepted]
+Guitar
+Piano
+Loud
+Taylor Swift
+Beatles
+Song
+
+# QUESTION
+id: q0026
+pool: unlimited
+category: movies-tv
+prompt: Name a Disney or Pixar animated movie
+note: Feature-length animated films from Walt Disney Animation Studios or Pixar.
+
+[One in a Krillion]
+The Black Cauldron | black cauldron
+
+[Plankton]
+The Lion King | lion king
+Frozen
+Toy Story
+Finding Nemo
+Aladdin
+The Little Mermaid | little mermaid
+Beauty and the Beast
+Moana
+
+[Too Clever]
+Mary Poppins
+Who Framed Roger Rabbit
+Fantasia 2000
+
+[Schooler]
+Cinderella
+Snow White | snow white and the seven dwarfs
+Sleeping Beauty
+Mulan
+Tangled
+Up
+Cars
+Inside Out
+Coco
+Monsters Inc | monsters, inc.
+The Incredibles | incredibles
+Ratatouille
+WALL-E | wall e | walle
+Zootopia
+Encanto
+Bambi
+Dumbo
+Pinocchio
+Peter Pan
+Lilo & Stitch | lilo and stitch
+Pocahontas
+Hercules
+Tarzan
+Frozen 2 | frozen ii
+Toy Story 2
+Toy Story 3
+Toy Story 4
+Finding Dory
+Big Hero 6
+Wreck-It Ralph | wreck it ralph
+
+[Rare]
+101 Dalmatians | one hundred and one dalmatians
+Lady and the Tramp
+The Jungle Book | jungle book
+Alice in Wonderland
+Fantasia
+The Aristocats | aristocats
+Robin Hood
+The Hunchback of Notre Dame | hunchback of notre dame
+The Emperor's New Groove | emperors new groove
+Brave
+A Bug's Life | a bugs life | bugs life
+Cars 2
+Cars 3
+Monsters University
+Incredibles 2
+Ralph Breaks the Internet
+Raya and the Last Dragon | raya
+Luca
+Turning Red
+Soul
+Onward
+Elemental
+Wish
+Inside Out 2
+Moana 2
+Bolt
+The Princess and the Frog | princess and the frog
+The Good Dinosaur | good dinosaur
+Lightyear
+Atlantis | atlantis the lost empire
+Treasure Planet
+Chicken Little
+Meet the Robinsons
+Brother Bear
+
+[Deep Cut]
+The Sword in the Stone | sword in the stone
+The Rescuers | rescuers
+The Rescuers Down Under
+The Fox and the Hound | fox and the hound
+The Great Mouse Detective | great mouse detective
+Oliver & Company | oliver and company
+Home on the Range
+Dinosaur
+Winnie the Pooh | the many adventures of winnie the pooh
+The Three Caballeros | three caballeros
+Saludos Amigos
+Make Mine Music
+Fun and Fancy Free
+Melody Time
+The Adventures of Ichabod and Mr. Toad | ichabod
+Strange World
+Elio
+Zootopia 2
+Toy Story 5
+Planes
+Planes: Fire & Rescue
+The Nightmare Before Christmas | nightmare before christmas
+James and the Giant Peach
+A Goofy Movie | goofy movie
+DuckTales the Movie
+Return to Never Land
+Piglet's Big Movie
+Bambi II
+Lady and the Tramp II
+The Lion King 2 | lion king 2 | simba's pride
+The Lion King 1½
+Aladdin and the King of Thieves
+The Return of Jafar
+Cinderella II
+Mulan II
+Tinker Bell
+
+[Not accepted]
+Shrek
+Despicable Me
+Minions
+Kung Fu Panda
+Ice Age
+How to Train Your Dragon
+Madagascar
+Spirited Away
+The Land Before Time
+Anastasia
+
+# QUESTION
+id: q0027
+pool: unlimited
+category: words-language
+prompt: Name a word that rhymes with "cat"
+note: Real words that rhyme exactly with "cat" (-at sound). Names don't count.
+
+[One in a Krillion]
+Laundromat
+
+[Plankton]
+Hat
+Bat
+Rat
+Mat
+Sat
+Fat
+Pat
+Chat
+
+[Too Clever]
+Acrobat
+Diplomat
+Cat
+
+[Schooler]
+Splat
+That
+Flat
+Brat
+Gnat
+Spat
+Vat
+Tat
+Drat
+Scat
+Slat
+Stat
+Format
+Combat
+Doormat
+Bobcat
+Wombat
+
+[Rare]
+Thermostat
+Habitat
+Democrat
+Aristocrat
+Bureaucrat
+Copycat
+Fiat
+Begat
+Chitchat
+Tomcat
+Hellcat
+Wildcat
+Polecat
+Fatcat | fat cat
+Nonfat
+Placemat
+Bath mat
+Top hat
+Hard hat
+Sun hat
+Fruit bat
+Vampire bat
+Muskrat
+Packrat | pack rat
+Lab rat
+Mudflat | mud flat
+
+[Deep Cut]
+Plat
+Prat
+Sprat
+Ziggurat
+Cravat
+Caveat
+Autocrat
+Technocrat
+Plutocrat
+Hydrostat
+Rheostat
+Aerostat
+Photostat
+Heliostat
+Concordat
+Magnificat
+Pussycat
+Alley cat
+Scaredy-cat | scaredy cat
+Hepcat
+Meerkat
+Ratatat | rat-a-tat
+Pitapat | pitter-pat
+Tit for tat
+Dingbat
+Brickbat
+Cowpat
+
+[Not accepted]
+Cut
+Cot
+Kate
+Pet
+Sit
+Matt
+
+# QUESTION
+id: q0028
+pool: reserve
+category: science
+prompt: Name a gemstone or precious stone
+
+[One in a Krillion]
+Tanzanite
+
+[Plankton]
+Diamond
+Ruby
+Emerald
+Sapphire
+Pearl
+
+[Too Clever]
+Rhinestone
+Cubic zirconia | cz
+
+[Schooler]
+Amethyst
+Topaz
+Opal
+Jade
+Garnet
+Turquoise | turquois
+Onyx
+Quartz | rose quartz
+Aquamarine
+Amber
+Jasper
+Crystal
+Peridot
+
+[Rare]
+Lapis lazuli | lapis
+Moonstone
+Obsidian
+Citrine
+Tourmaline
+Tiger's eye | tigers eye | tiger eye
+Coral
+Alexandrite
+Agate
+Malachite
+Bloodstone
+Hematite
+Jet
+Zircon
+Morganite
+Spinel
+Moissanite
+Black opal
+Star sapphire
+Pink diamond
+Blue diamond
+Mother of pearl
+Carnelian
+Rhodochrosite
+Labradorite
+
+[Deep Cut]
+Beryl
+Chrysoberyl
+Chrysoprase
+Chalcedony
+Kunzite
+Iolite
+Sunstone
+Larimar
+Sodalite
+Fluorite
+Amazonite
+Aventurine
+Rhodolite
+Tsavorite
+Demantoid
+Andalusite
+Benitoite
+Taaffeite
+Painite
+Red beryl
+Grandidierite
+Jadeite
+Nephrite
+Chrysocolla
+Sugilite
+Charoite
+Kyanite
+Apatite
+Diopside
+Sphene | titanite
+Ammolite
+Paraiba tourmaline | paraiba
+Padparadscha
+Heliodor
+Goshenite
+Smoky quartz
+Ametrine
+Prasiolite
+Howlite
+Unakite
+Serpentine
+Rhodonite
+Pyrite | fool's gold
+Selenite
+Celestite
+
+[Not accepted]
+Kidney stone
+Gold
+Silver
+Platinum
+Granite
+Marble
+Glass
+Ruby slippers
+Kryptonite
+
+# QUESTION
+id: q0029
+pool: unlimited
+category: brands
+prompt: Name a brand of soda or soft drink
+
+[One in a Krillion]
+Moxie
+
+[Plankton]
+Coca-Cola | coke | coca cola
+Pepsi
+Sprite
+Dr Pepper | dr. pepper | doctor pepper
+Mountain Dew | mtn dew
+Fanta
+7 Up | 7up | seven up
+
+[Too Clever]
+Tab
+Crystal Pepsi
+
+[Schooler]
+Diet Coke
+Coke Zero
+Root beer
+A&W | a and w
+Barq's | barqs
+Canada Dry
+Schweppes
+Sunkist
+Mug | mug root beer
+Pepsi Max
+Diet Pepsi
+Ginger ale
+Squirt
+Fresca
+Crush | orange crush
+Sierra Mist
+Starry
+Mello Yello | mello yellow
+Big Red
+Cherry Coke
+
+[Rare]
+Vernors
+Shasta
+Faygo
+RC Cola | royal crown | rc
+Jones Soda | jones
+IBC
+Stewart's | stewarts
+Seagram's | seagrams
+Hires
+Olipop
+Poppi
+Zevia
+Bubly
+LaCroix | la croix
+Polar
+Perrier
+San Pellegrino | pellegrino
+Jarritos
+Sidral Mundet
+Inca Kola
+Irn-Bru | irn bru
+Sun Drop
+Slice
+Surge
+Josta
+Pibb | mr pibb | pibb xtra
+Cheerwine
+Dr Brown's | dr browns
+Manzanita Sol
+Mirinda
+Orangina
+Lilt
+
+[Deep Cut]
+Ale-8-One | ale 8
+Blenheim
+Boylan
+Reed's | reeds
+Fentimans
+Sprecher
+Henry Weinhard's
+Virgil's
+Frostie
+Dad's | dads root beer
+Mr. Fizz
+Kas
+Tango
+Vimto
+Club Mate | club-mate
+Afri Cola
+Kofola
+Guarana Antarctica | guarana
+Thums Up
+Limca
+Bundaberg
+Ramune
+Bawls
+Jolt
+Clearly Canadian
+Hansen's | hansens
+Blue Sky
+Spindrift
+Waterloo
+Topo Chico
+
+[Not accepted]
+Milk
+Coffee
+Tea
+Beer
+Juice
+Lemonade
+
+# QUESTION
+id: q0030
+pool: reserve
+category: everyday-objects
+prompt: Name a piece of furniture
+
+[One in a Krillion]
+Chaise longue | chaise lounge | chaise
+
+[Plankton]
+Chair
+Table
+Bed
+Couch | sofa
+Desk
+Dresser
+Bookshelf | bookcase | bookshelves
+
+[Too Clever]
+Beanbag | bean bag | beanbag chair
+Futon
+Throne
+
+[Schooler]
+Stool
+Bench
+Cabinet
+Nightstand | night stand | bedside table
+Coffee table
+Armchair
+Recliner | la-z-boy | lazy boy
+Ottoman
+Wardrobe | armoire
+Loveseat | love seat
+Rocking chair
+Dining table
+Crib | cot
+Bunk bed | bunkbed
+Chest of drawers
+TV stand | entertainment center
+Footstool
+Hammock
+
+[Rare]
+Sideboard | buffet
+Hutch
+China cabinet
+Credenza
+Vanity
+Headboard
+Sectional
+Daybed
+Trundle bed
+Murphy bed
+Bar stool | barstool
+High chair | highchair
+Changing table
+Filing cabinet | file cabinet
+Desk chair | office chair
+Folding chair
+Lawn chair
+Patio table
+Picnic table
+End table | side table
+Console table
+Hope chest
+Toy chest | toy box
+Shoe rack
+Coat rack | hat stand
+Mirror
+Lamp
+Kitchen island
+Gaming chair
+Waterbed
+Canopy bed | four poster bed
+Sleeper sofa | pullout couch | sofa bed
+Wingback chair | wing chair
+Papasan chair | papasan
+
+[Deep Cut]
+Settee
+Divan
+Davenport
+Chesterfield
+Fainting couch
+Tallboy | highboy
+Lowboy
+Secretary desk | secretary
+Bureau
+Escritoire
+Roll-top desk | rolltop desk
+Etagere
+Whatnot
+Curio cabinet | curio
+Pouf | pouffe
+Hassock
+Tuffet
+Cheval mirror
+Washstand
+Commode
+Canterbury
+Settle
+Pew
+Windsor chair
+Adirondack chair
+Eames chair
+Tulip chair
+Egg chair
+Glider
+Chiffonier
+Gateleg table
+Drop-leaf table
+Trestle table
+Nesting tables
+Lectern | podium
+Bassinet
+Cradle
+Sawhorse
+Room divider | folding screen
+Bar cart
+Plant stand
+Umbrella stand
+Magazine rack
+Sofa table
+Ladder shelf
+Cubby | cubbies
+Locker
+
+[Not accepted]
+Rug
+Door
+Window
+Television | tv
+Fridge
+Pillow
+Blanket
+Curtains

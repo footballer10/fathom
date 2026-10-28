@@ -15,6 +15,11 @@
     "build": "npm run build -w web",
     "preview": "npm run preview -w web",
     "test": "npm test -w shared",
-    "typecheck": "npm run typecheck -w shared && npm run typecheck -w web"
+    "typecheck": "npm run typecheck -w shared && npm run typecheck -w web",
+    "validate:questions": "tsx scripts/validate.ts",
+    "content:build": "tsx scripts/build-content.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
   }
 }

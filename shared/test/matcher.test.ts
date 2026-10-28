@@ -100,7 +100,21 @@ const veg: QuestionData = {
   ],
 };
 
+const grains: QuestionData = {
+  id: "t-misc",
+  prompt: "Name a thing",
+  category: "food",
+  answers: [
+    { text: "Quinoa", tier: 30 },
+    { text: "Chartreuse", tier: 85 },
+    { text: "Fuchsia", tier: 60 },
+    { text: "Barley", tier: 10 },
+    { text: "Couscous", tier: 100 },
+  ],
+};
+
 const idx = {
+  grains: buildIndex(grains),
   fruit: buildIndex(fruit),
   countries: buildIndex(countries),
   eu: buildIndex(eu),
@@ -129,7 +143,8 @@ const cases: Case[] = [
   ["two typos on a long word", "fruit", "persimmmonn", "Persimmon", true],
   ["typo in long word", "fruit", "stawberyy", "Strawberry", true],
   ["too many typos", "fruit", "bnnaaa", null],
-  ["short words need exact", "animals", "oxx", null],
+  ["short words need exact", "animals", "cow", null],
+  ["short word, sounds the same", "animals", "gose", "Goose", true],
   ["unrelated word", "fruit", "carrot", null],
 
   // Accents
@@ -158,7 +173,8 @@ const cases: Case[] = [
   // Iran / Iraq, Austria / Australia
   ["Iran exact", "countries", "Iran", "Iran", false],
   ["Iraq exact", "countries", "Iraq", "Iraq", false],
-  ["Irak is too short to fuzz", "countries", "Irak", null],
+  ["Irak sounds like Iraq (phonetic)", "countries", "Irak", "Iraq", true],
+  ["Iran is not Iraq", "countries", "Iran", "Iran", false],
   ["Austria exact", "countries", "Austria", "Austria", false],
   ["Australia exact", "countries", "Australia", "Australia", false],
   ["Australia typo, clearly closer", "countries", "Austrailia", "Australia", true],
@@ -184,6 +200,12 @@ const cases: Case[] = [
   ["and = ampersand", "countries", "Bosnia & Herzegovina", "Bosnia and Herzegovina", false],
   ["hyphen alias", "countries", "congo kinshasa", "Democratic Republic of the Congo", false],
   ["multi-word typo", "fruit", "pasion fruit", "Passion fruit", true],
+
+  // Phonetic (Double Metaphone): too many edits for the typo step, but sounds the same
+  ["phonetic quinoa", "grains", "kwinoa", "Quinoa", true],
+  ["phonetic chartreuse", "grains", "shartreuse", "Chartreuse", true],
+  ["sounds-alike but too far", "grains", "keenwa", null],
+  ["typo step handles fuchia", "grains", "fuchia", "Fuchsia", true],
 
   // Empty / junk
   ["empty", "fruit", "", null],
