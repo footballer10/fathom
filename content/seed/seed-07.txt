@@ -1,0 +1,2045 @@
+# QUESTION
+id: q0061
+pool: unlimited
+category: food
+prompt: Name a pizza topping
+
+[One in a Krillion]
+Nduja | 'nduja
+
+[Plankton]
+Pepperoni
+Cheese | mozzarella
+Sausage | italian sausage
+Mushrooms | mushroom
+Onions | onion
+Pineapple
+Olives | olive | black olives
+Green peppers | peppers | bell peppers
+
+[Too Clever]
+Hot dogs
+Mac and cheese
+Pizza sauce | tomato sauce | sauce
+
+[Schooler]
+Ham
+Bacon
+Chicken
+Spinach
+Tomatoes | tomato
+Jalapenos | jalapeño | jalapenos
+Basil
+Garlic
+Ground beef | beef | hamburger
+Meatballs
+Canadian bacon
+Parmesan
+Red onion
+Buffalo chicken
+BBQ chicken | barbecue chicken
+Banana peppers
+Ricotta
+Feta
+Artichokes | artichoke hearts
+Sun-dried tomatoes | sundried tomatoes
+Oregano
+Red pepper flakes | chili flakes
+Pesto
+
+[Rare]
+Anchovies | anchovy
+Salami
+Prosciutto
+Arugula | rocket
+Goat cheese
+Gorgonzola
+Blue cheese
+Cheddar
+Provolone
+Fresh mozzarella
+Burrata
+Kalamata olives
+Green olives
+Capers
+Roasted red peppers
+Caramelized onions
+Shallots
+Corn
+Broccoli
+Zucchini
+Eggplant
+Potato
+Sweet potato
+Kale
+Egg | fried egg
+Shrimp
+Clams
+Tuna
+Smoked salmon
+Chorizo
+Pulled pork
+Steak | philly steak
+Gyro meat
+Pastrami
+Hot honey | honey
+Ranch
+BBQ sauce
+Alfredo sauce | white sauce
+Buffalo sauce
+Hot sauce
+Sriracha
+Truffle oil | truffle
+Balsamic glaze | balsamic
+Olive oil
+Fig
+Pear
+Apple
+Pickles
+Sauerkraut
+Taco meat
+Refried beans | beans
+Avocado
+Cilantro
+Lettuce
+Sour cream
+Salsa
+
+[Deep Cut]
+Soppressata
+Capicola | capocollo | gabagool
+Pancetta
+Guanciale
+Mortadella
+Speck
+Bresaola
+Lardons
+Duck
+Lamb
+Venison
+Calamari | squid
+Octopus
+Mussels
+Scallops
+Crab
+Lobster
+Sardines
+Smoked mozzarella
+Fontina
+Taleggio
+Pecorino
+Stracciatella
+Robiola
+Asiago
+Gruyere
+Brie
+Manchego
+Paneer
+Tikka masala
+Kimchi
+Bulgogi
+Teriyaki chicken
+Peking duck
+Hummus
+Za'atar
+Tahini
+Radicchio
+Endive
+Fennel
+Leeks
+Brussels sprouts
+Cauliflower
+Asparagus
+Peas
+Butternut squash
+Pumpkin
+Beets
+Chickpeas
+Lentils
+Pine nuts
+Walnuts
+Pistachios
+Cranberries
+Grapes
+Peaches
+Calabrian chili | calabrian peppers
+Pepperoncini
+Cherry peppers
+Hatch chiles
+Poblano
+Chipotle
+Garlic confit | roasted garlic
+Microgreens
+Egg yolk
+Quail egg
+French fries
+Doritos
+Chocolate
+Marshmallows
+Nutella
+
+[Not accepted]
+Bread
+Plate
+Box
+Napkin
+Ketchup
+
+# QUESTION
+id: q0062
+pool: unlimited
+category: animals
+prompt: Name a type of fish
+
+[One in a Krillion]
+Humuhumunukunukuapua'a | humuhumunukunukuapuaa | reef triggerfish
+
+[Plankton]
+Salmon
+Tuna
+Goldfish
+Cod
+Trout
+Catfish
+Bass
+
+[Too Clever]
+Stingray
+Seahorse
+Shark
+Nemo | clownfish
+
+[Schooler]
+Tilapia
+Halibut
+Swordfish
+Mahi-mahi | mahi mahi | mahi | dorado
+Snapper | red snapper
+Grouper
+Sardine
+Anchovy
+Mackerel
+Herring
+Carp
+Koi
+Perch
+Pike
+Walleye
+Flounder
+Sole
+Haddock
+Pufferfish | puffer | blowfish
+Piranha
+Barracuda
+Marlin
+Eel
+Betta | betta fish | siamese fighting fish
+Guppy
+Angelfish
+Sturgeon
+Minnow
+Bluegill
+Crappie
+
+[Rare]
+Pollock
+Hake
+Whiting
+Monkfish
+Sea bass
+Striped bass
+Largemouth bass
+Smallmouth bass
+Rainbow trout
+Brook trout
+Steelhead
+Char | arctic char
+Whitefish
+Smelt
+Shad
+Bream
+Sunfish
+Muskie | muskellunge
+Gar
+Bowfin
+Sucker
+Mullet
+Pompano
+Amberjack
+Yellowtail
+Wahoo
+Tarpon
+Bonefish
+Permit
+Snook
+Cobia
+Triggerfish
+Parrotfish
+Lionfish
+Tang | blue tang
+Damselfish
+Wrasse
+Goby
+Blenny
+Grunt
+Porgy
+Croaker
+Drum | redfish
+Sheepshead
+Tilefish
+Orange roughy
+Chilean sea bass | patagonian toothfish
+Turbot
+Plaice
+Skate
+Ray
+Manta ray
+Hammerhead
+Great white shark
+Mako
+Whale shark
+Anglerfish
+Oarfish
+Coelacanth
+Lamprey
+Hagfish
+Lungfish
+Tetra | neon tetra
+Molly
+Platy
+Swordtail
+Danio | zebrafish
+Discus
+Oscar
+Cichlid
+Gourami
+Pleco | plecostomus
+Loach
+Barb
+Rasbora
+Arowana
+
+[Deep Cut]
+Sablefish | black cod
+Lingcod
+Rockfish
+Opah | moonfish
+Escolar
+Barramundi
+Dory | john dory
+Hoki
+Gurnard
+Weever
+Dab
+Brill
+Megrim
+Witch flounder
+Pilchard
+Sprat
+Capelin
+Menhaden
+Alewife
+Eulachon
+Grayling
+Huchen
+Taimen
+Inconnu
+Paddlefish
+Beluga sturgeon
+Sterlet
+Burbot
+Ling
+Tusk
+Zander
+Ruffe
+Tench
+Rudd
+Roach
+Chub
+Dace
+Barbel
+Gudgeon
+Bitterling
+Asp
+Wels catfish
+Bullhead
+Channel catfish
+Flathead catfish
+Blue catfish
+Snakehead
+Mudskipper
+Archerfish
+Four-eyed fish
+Flying fish
+Needlefish
+Halfbeak
+Garfish
+Ribbonfish
+Cutlassfish
+Dragonet
+Stonefish
+Scorpionfish
+Frogfish
+Batfish
+Toadfish
+Midshipman
+Cusk-eel
+Viperfish
+Dragonfish
+Hatchetfish
+Lanternfish
+Gulper eel
+Fangtooth
+Barreleye
+Blobfish
+Icefish
+Sculpin
+Lumpfish
+Wolffish
+Ocean pout
+Butterflyfish
+Moorish idol
+Surgeonfish
+Rabbitfish
+Unicornfish
+Boxfish
+Cowfish
+Filefish
+Porcupinefish
+Remora
+Pilot fish
+Cardinalfish
+Squirrelfish
+Soldierfish
+Glassfish
+Ricefish
+Killifish
+Mosquitofish
+Pupfish
+
+[Not accepted]
+Fish sticks | fish fingers
+Swedish Fish
+Whale
+Dolphin
+Octopus
+Squid
+Crab
+Lobster
+Shrimp
+Seal
+Turtle
+Starfish
+Jellyfish
+
+# QUESTION
+id: q0063
+pool: unlimited
+category: geography
+prompt: Name an island
+note: Real islands anywhere in the world. Island countries count.
+
+[One in a Krillion]
+Tristan da Cunha
+
+[Plankton]
+Hawaii | big island
+Greenland
+Madagascar
+Japan
+Ireland
+Iceland
+Cuba
+Jamaica
+
+[Too Clever]
+Australia
+Rhode Island
+Manhattan
+Long Island
+
+[Schooler]
+Puerto Rico
+Bahamas
+Fiji
+Bali
+Sicily
+Sardinia
+Corsica
+Crete
+Cyprus
+Malta
+Tasmania
+New Zealand
+Sri Lanka
+Philippines
+Taiwan
+Borneo
+Sumatra
+Java
+New Guinea | papua new guinea
+Great Britain | britain
+Maui
+Oahu
+Kauai
+Galapagos | galapagos islands
+Easter Island | rapa nui
+Tahiti
+Bermuda
+Aruba
+Barbados
+Trinidad
+Haiti | hispaniola
+Singapore
+Hong Kong
+Isle of Man
+Nantucket
+Martha's Vineyard
+Alcatraz
+Ellis Island
+Staten Island
+Key West
+
+[Rare]
+Kodiak
+Vancouver Island
+Newfoundland
+Baffin Island
+Prince Edward Island | pei
+Cape Breton
+Ellesmere Island
+Victoria Island
+Mallorca | majorca
+Ibiza
+Menorca
+Canary Islands | tenerife | gran canaria
+Madeira
+Azores
+Santorini
+Mykonos
+Rhodes
+Corfu
+Capri
+Elba
+Gotland
+Isle of Wight
+Skye | isle of skye
+Orkney
+Shetland
+Faroe Islands | faroes
+Svalbard
+Zanzibar
+Mauritius
+Seychelles
+Maldives
+Reunion | réunion
+Socotra
+Bahrain
+Hokkaido
+Honshu
+Kyushu
+Shikoku
+Okinawa
+Jeju
+Hainan
+Luzon
+Mindanao
+Cebu
+Palawan
+Boracay
+Phuket
+Langkawi
+Lombok
+Komodo
+Sulawesi
+Timor
+Guam
+Saipan
+Bora Bora
+Samoa
+Tonga
+Molokai
+Lanai
+Sakhalin
+Wrangel Island
+Novaya Zemlya
+Antigua
+St. Lucia | saint lucia
+Grenada
+Dominica
+Martinique
+Guadeloupe
+St. Kitts
+Nevis
+St. Thomas
+St. John
+St. Croix
+Curacao | curaçao
+Bonaire
+Turks and Caicos
+Cayman Islands | grand cayman
+Cozumel
+Isla Mujeres
+Vieques
+Tobago
+Margarita
+Chiloe
+Tierra del Fuego
+Falkland Islands | falklands
+South Georgia
+Marajo
+Fernando de Noronha
+
+[Deep Cut]
+Pitcairn
+Norfolk Island
+Lord Howe Island
+Christmas Island
+Cocos Islands
+Kangaroo Island
+Fraser Island | k'gari
+Rottnest Island
+Stewart Island
+Chatham Islands
+Vanuatu
+Nauru
+Tuvalu
+Kiribati
+Palau
+Marshall Islands
+Micronesia
+Solomon Islands
+New Caledonia
+Wallis and Futuna
+Niue
+Cook Islands | rarotonga
+Marquesas
+Tuamotu
+Kiritimati
+Midway
+Wake Island
+Diego Garcia
+Kerguelen
+Heard Island
+Bouvet Island
+Saint Helena | st helena
+Ascension Island
+Bioko
+Sao Tome
+Principe
+Lamu
+Pemba
+Mafia Island
+Comoros
+Mayotte
+Rodrigues
+Lakshadweep
+Andaman Islands
+Nicobar Islands
+Hormuz
+Kish
+Qeshm
+Lesbos
+Chios
+Samos
+Kos
+Naxos
+Paros
+Milos
+Ithaca
+Kefalonia
+Zakynthos
+Lampedusa
+Pantelleria
+Ischia
+Procida
+Murano
+Burano
+Hvar
+Brac
+Korcula
+Bornholm
+Saaremaa
+Aland
+Lofoten
+Jan Mayen
+Lundy
+Iona
+Lewis and Harris
+Anglesey
+Lindisfarne
+Jersey
+Guernsey
+Sark
+Alderney
+Heligoland
+Sylt
+Texel
+Mont Saint-Michel
+Belle-Ile
+Ile de Re
+Mackinac Island
+Isle Royale
+Catalina Island
+Channel Islands
+San Juan Islands
+Orcas Island
+Whidbey Island
+Outer Banks
+Assateague
+Chincoteague
+Sanibel
+Amelia Island
+Hilton Head
+Tybee Island
+Padre Island
+Galveston Island
+Block Island
+Fire Island
+Mount Desert Island
+Deer Isle
+Thousand Islands
+Manitoulin Island
+Anticosti
+Devon Island
+Banks Island
+Southampton Island
+Akimiski
+Aleutian Islands
+Attu
+St. Lawrence Island
+Kunashir
+
+[Not accepted]
+Atlantis
+Gilligan's Island
+Neverland
+Treasure Island
+Skull Island
+Isla Nublar
+Pacific
+Caribbean
+Florida
+
+# QUESTION
+id: q0064
+pool: reserve
+category: sports
+prompt: Name a martial art or combat sport
+
+[One in a Krillion]
+Capoeira
+
+[Plankton]
+Karate
+Boxing
+Kung fu
+Judo
+Taekwondo | tae kwon do
+Wrestling
+MMA | mixed martial arts
+
+[Too Clever]
+Sumo | sumo wrestling
+Pro wrestling | wwe
+Fencing
+
+[Schooler]
+Jiu-jitsu | jiu jitsu | jujitsu | jujutsu
+Brazilian jiu-jitsu | bjj
+Muay Thai | thai boxing
+Kickboxing
+Aikido
+Krav Maga
+Tai chi | tai chi chuan
+Kendo
+Ninjutsu
+Hapkido
+Wing Chun
+Shaolin kung fu | shaolin
+Kenpo | kempo
+Self-defense | self defense
+Greco-Roman wrestling | greco roman
+Freestyle wrestling
+Jeet Kune Do
+
+[Rare]
+Savate
+Sambo
+Silat | pencak silat
+Escrima | eskrima | arnis | kali
+Systema
+Bartitsu
+Hwa Rang Do
+Tang Soo Do
+Kyokushin
+Shotokan
+Goju-ryu
+Wado-ryu
+Shito-ryu
+Iaido
+Kyudo
+Naginatajutsu | naginata
+Bojutsu
+Sojutsu
+Kenjutsu
+Kobudo
+Okinawan karate
+Sanda | sanshou
+Wushu
+Baguazhang | bagua
+Xingyiquan | xingyi
+Hung Gar
+Choy Li Fut
+Praying mantis kung fu
+Drunken boxing
+Lethwei
+Bokator
+Kalaripayattu
+Vale tudo
+Catch wrestling
+Folkstyle wrestling
+Lucha libre
+Kudo
+Shootfighting
+Combat sambo
+Glima
+Schwingen
+Yagli gures | oil wrestling
+Ssireum
+Bokh
+Laamb
+Dambe
+Nguni stick fighting
+Bando
+Gatka
+Chess boxing
+Bare-knuckle boxing
+
+[Deep Cut]
+Shorinji Kempo
+Shorin-ryu
+Isshin-ryu
+Uechi-ryu
+Seido
+Ashihara
+Enshin
+Daito-ryu Aiki-jujutsu | daito-ryu
+Yoshinkan
+Shintaido
+Taijutsu
+Bujinkan
+Kuk Sool Won
+Kumdo
+Taekkyon
+Gongkwon Yusul
+Yaw-Yan
+Sikaran
+Kuntaw
+Kombatan
+Tomoi
+Krabi-krabong
+Muay Boran
+Pradal serey
+Vovinam
+Silambam
+Varma kalai
+Mukna
+Kushti
+Pehlwani
+Zurkhaneh | pahlevani
+Khridoli
+Chidaoba
+Kurash
+Koshti
+Gouren
+Lutte
+Canne de combat
+Juego del palo
+Stockfighting
+Shillelagh | bata
+Defendu
+Combatives
+Hojojutsu
+Jukendo
+Tessenjutsu
+Kusarigamajutsu
+Shurikenjutsu
+Battodo
+Tantojutsu
+Hojutsu
+Wing Tsun
+Mok gar
+Bak mei
+Eagle claw
+Monkey kung fu
+Tiger crane
+Liu He Ba Fa
+
+[Not accepted]
+Yoga
+Pilates
+Dancing
+Gymnastics
+Parkour
+Archery
+
+# QUESTION
+id: q0065
+pool: unlimited
+category: music
+prompt: Name a Christmas song or carol
+
+[One in a Krillion]
+Christmas in Hollis
+
+[Plankton]
+Jingle Bells
+Silent Night
+Rudolph the Red-Nosed Reindeer | rudolph
+Frosty the Snowman | frosty
+All I Want for Christmas Is You | all i want for christmas
+White Christmas
+Deck the Halls
+We Wish You a Merry Christmas
+
+[Too Clever]
+Jingle Bell Rock
+Grandma Got Run Over by a Reindeer
+Dominick the Donkey
+
+[Schooler]
+Joy to the World
+O Holy Night
+Feliz Navidad
+Last Christmas
+Santa Claus Is Coming to Town | santa claus is comin to town
+Let It Snow | let it snow let it snow let it snow
+Rockin' Around the Christmas Tree | rocking around the christmas tree
+Holly Jolly Christmas | a holly jolly christmas
+The Twelve Days of Christmas | 12 days of christmas | twelve days of christmas
+Little Drummer Boy | the little drummer boy
+Hark! The Herald Angels Sing | hark the herald angels sing
+O Come All Ye Faithful | adeste fideles
+The First Noel | first noel
+Away in a Manger
+It's the Most Wonderful Time of the Year | most wonderful time of the year
+Have Yourself a Merry Little Christmas
+Winter Wonderland
+Sleigh Ride
+Silver Bells
+Here Comes Santa Claus
+O Christmas Tree | o tannenbaum
+Blue Christmas
+Do They Know It's Christmas? | do they know its christmas
+Santa Baby
+The Christmas Song | chestnuts roasting on an open fire
+Mele Kalikimaka
+It's Beginning to Look a Lot Like Christmas | beginning to look a lot like christmas
+Baby, It's Cold Outside | baby its cold outside
+Wonderful Christmastime
+Happy Xmas (War Is Over) | happy xmas | war is over
+Christmas Tree Farm
+Underneath the Tree
+Mistletoe
+Santa Tell Me
+
+[Rare]
+God Rest Ye Merry Gentlemen
+O Little Town of Bethlehem
+Angels We Have Heard on High
+Go Tell It on the Mountain
+We Three Kings
+What Child Is This
+Good King Wenceslas
+Carol of the Bells
+It Came Upon the Midnight Clear
+I'll Be Home for Christmas
+I Saw Mommy Kissing Santa Claus
+Up on the Housetop
+Jolly Old St. Nicholas
+Here We Come A-Wassailing | wassail song
+The Holly and the Ivy
+Ding Dong Merrily on High
+Hallelujah Chorus | hallelujah
+Ave Maria
+Do You Hear What I Hear
+Mary, Did You Know? | mary did you know
+Little Saint Nick
+Run Rudolph Run
+Christmas (Baby Please Come Home) | baby please come home
+Merry Christmas Everyone
+Step Into Christmas
+Fairytale of New York
+Driving Home for Christmas
+Merry Xmas Everybody
+Christmas Wrapping
+You're a Mean One, Mr. Grinch | mr grinch | you're a mean one
+Welcome Christmas
+Christmas Time Is Here
+Linus and Lucy
+O Come O Come Emmanuel
+In the Bleak Midwinter
+Coventry Carol
+Once in Royal David's City
+My Only Wish (This Year) | my only wish
+Christmas Eve (Sarajevo 12/24) | sarajevo
+Believe
+Where Are You Christmas
+Somewhere in My Memory
+Pretty Paper
+The Chipmunk Song | christmas don't be late
+All Alone on Christmas
+Happy Holidays
+Pine Cones and Holly Berries
+Toyland
+March of the Toys
+Nuttin' for Christmas
+I Want a Hippopotamus for Christmas | hippopotamus for christmas
+All I Want for Christmas Is My Two Front Teeth | two front teeth
+Snoopy's Christmas
+
+[Deep Cut]
+Gaudete
+The Wexford Carol
+In Dulci Jubilo
+Lo, How a Rose E'er Blooming
+Personent Hodie
+Masters in This Hall
+Sussex Carol
+Infant Holy, Infant Lowly
+Patapan
+Bring a Torch, Jeannette, Isabella
+Il est ne
+Huron Carol
+Shepherds' Pipe Carol
+Riu Riu Chiu
+I Wonder as I Wander
+Mary's Boy Child
+Christmas Canon
+Wizards in Winter
+Christmas Is All Around
+2000 Miles
+Thank God It's Christmas
+Another Rock and Roll Christmas
+Stop the Cavalry
+Ring Out Solstice Bells
+I Believe in Father Christmas
+Lonely This Christmas
+Mistletoe and Wine
+Saviour's Day
+Rockin' Robin Christmas
+Please Come Home for Christmas
+Merry Christmas Darling
+Christmas Must Be Tonight
+Father Christmas
+Peace on Earth/Little Drummer Boy
+Santa Claus Is Back in Town
+Back Door Santa
+Merry Christmas, Baby | merry christmas baby
+Santa's Got a Brand New Bag
+This Christmas
+What Do the Lonely Do at Christmas
+Someday at Christmas
+Little Altar Boy
+Hard Candy Christmas
+Christmas Shoes
+Grown-Up Christmas List
+Breath of Heaven
+Light of the Stable
+Christmas in Dixie
+Rudolph the Red-Nosed Reggae
+Christmas at Ground Zero
+Christmas Vacation
+Text Me Merry Christmas
+Christmas Every Day
+Twelve Pains of Christmas
+I Saw Three Ships
+
+[Not accepted]
+Happy Birthday
+Auld Lang Syne
+Thriller
+Monster Mash
+Bohemian Rhapsody
+
+# QUESTION
+id: q0066
+pool: unlimited
+category: movies-tv
+prompt: Name a character from The Simpsons
+
+[One in a Krillion]
+Hans Moleman | moleman
+
+[Plankton]
+Homer Simpson | homer
+Marge Simpson | marge
+Bart Simpson | bart
+Lisa Simpson | lisa
+Maggie Simpson | maggie
+Mr. Burns | burns | montgomery burns | monty burns
+
+[Too Clever]
+Itchy
+Scratchy
+Poochie
+
+[Schooler]
+Ned Flanders | flanders | ned
+Moe Szyslak | moe
+Apu | apu nahasapeemapetilon
+Krusty the Clown | krusty
+Milhouse | milhouse van houten
+Ralph Wiggum | ralph
+Chief Wiggum | clancy wiggum | wiggum
+Smithers | waylon smithers
+Barney Gumble | barney
+Grampa Simpson | abe simpson | grandpa simpson | abraham simpson
+Sideshow Bob | bob
+Principal Skinner | skinner | seymour skinner
+Nelson Muntz | nelson
+Comic Book Guy
+Otto | otto mann
+Patty Bouvier | patty
+Selma Bouvier | selma
+Santa's Little Helper
+Snowball II | snowball
+Lenny Leonard | lenny
+Carl Carlson | carl
+Edna Krabappel | mrs krabappel | krabappel
+Groundskeeper Willie | willie
+Dr. Hibbert | hibbert
+Mayor Quimby | quimby
+Martin Prince | martin
+Fat Tony
+Troy McClure
+Kang
+Kodos
+Sideshow Mel
+
+[Rare]
+Rod Flanders | rod
+Todd Flanders | todd
+Maude Flanders | maude
+Reverend Lovejoy | lovejoy
+Helen Lovejoy
+Dr. Nick | dr nick riviera
+Lionel Hutz | hutz
+Professor Frink | frink
+Cletus | cletus spuckler
+Brandine
+Gil
+Disco Stu
+Bumblebee Man
+Kent Brockman | brockman
+Captain McCallister | sea captain
+Superintendent Chalmers | chalmers
+Lunchlady Doris | doris
+Mrs. Hoover | miss hoover
+Jimbo Jones | jimbo
+Kearney
+Dolph
+Sherri and Terri | sherri | terri
+Database
+Uter
+Wendell
+Lewis
+Jessica Lovejoy
+Allison Taylor
+Rainier Wolfcastle | wolfcastle | mcbain
+Duffman
+Herman
+Jasper
+Old Jewish Man
+Cookie Kwan
+Manjula
+Arnie Pie
+Agnes Skinner
+Crazy Cat Lady | eleanor abernathy
+Squeaky-Voiced Teen
+Blue-Haired Lawyer
+Judge Snyder
+Lou
+Eddie
+Legs
+Louie
+Johnny Tightlips
+Snake | snake jailbird
+Gil Gunderson
+Luann Van Houten | luann
+Kirk Van Houten | kirk
+Ling Bouvier | ling
+Jacqueline Bouvier
+Mona Simpson
+Herb Powell | herb
+Bleeding Gums Murphy
+Mr. Teeny
+Akira
+Bernice Hibbert
+Sarah Wiggum
+Plopper | spider pig
+Laddie
+Stampy
+Mr. Largo | largo
+Coach Krupt
+Lyle Lanley
+Frank Grimes | grimey
+Hank Scorpio | scorpio
+Artie Ziff
+Chazz Busby
+Ruth Powers
+Lurleen Lumpkin
+Jacques
+Mindy Simmons
+Drederick Tatum
+Jebediah Springfield
+Sanjay
+Hyman Krustofsky
+Princess Penelope
+Roger Meyers Jr.
+Llewellyn Sinclair
+Ms. Botz | babysitter bandit
+Lindsey Naegle
+
+[Deep Cut]
+Gunter
+Ernst
+Lord Thistlewick
+Captain Lance Murdock | lance murdock
+Shary Bobbins
+Leopold
+Rachel Jordan
+Raphael | wiseguy
+Larry Burns
+Rex Banner
+Lucius Sweet
+Rich Texan
+Freddy Quimby
+Mr. Bergstrom
+Lunchlady Dora
+Mrs. Glick | alice glick
+Mr. Costington
+Mr. Dumbledum
+Sophie Krustofsky
+Princess Kashmir
+Hugo Simpson
+Cecil Terwilliger | cecil
+Dr. Marvin Monroe | marvin monroe
+Tibor
+Jack Larson
+Kumiko
+Fat Tony Jr. | michael d'amico
+Professor Lombardo
+Mr. Sparkle
+Ugolin
+Lugash
+Leon Kompowsky
+Nibbles
+Strangles
+Blinky
+Bobo
+Mojo
+Pinchy
+
+[Not accepted]
+Peter Griffin
+Stewie
+Bob Belcher
+Stan Smith
+Fry
+Bender
+Cartman
+SpongeBob
+
+# QUESTION
+id: q0067
+pool: reserve
+category: words-language
+prompt: Name a palindrome (a word spelled the same backwards)
+note: Single English words only. Names (Bob, Anna, Otto) count as Too Clever.
+
+[One in a Krillion]
+Tattarrattat
+
+[Plankton]
+Racecar | race car
+Level
+Mom
+Dad
+Kayak
+Wow
+Noon
+Radar
+
+[Too Clever]
+Bob
+Anna
+Otto
+Hannah
+
+[Schooler]
+Civic
+Madam
+Refer
+Rotor
+Eye
+Pop
+Peep
+Deed
+Did
+Nun
+Pup
+Tot
+Toot
+Gag
+Sis
+Stats
+Solos
+Tenet
+Sees
+Mum
+Ewe
+Bib
+Poop
+Minim
+
+[Rare]
+Redder
+Reviver
+Rotator
+Repaper
+Deified
+Sagas
+Shahs
+Kook
+Gig
+Dud
+Tut
+Aha
+Huh
+Pap
+Pep
+Ere
+Eve
+Nan
+Pip
+Stets
+Malayalam
+Redivider
+Detartrated
+Kinnikinnik
+
+[Deep Cut]
+Aibohphobia
+Rotavator
+Yay
+
+[Not accepted]
+Palindrome
+Backwards
+Taco cat
+
+# QUESTION
+id: q0068
+pool: unlimited
+category: science
+prompt: Name a unit of measurement
+
+[One in a Krillion]
+Smoot
+
+[Plankton]
+Inch
+Foot | feet
+Mile
+Meter | metre
+Pound | lb
+Gallon
+Centimeter | centimetre | cm
+Kilogram | kilo | kg
+
+[Too Clever]
+Beard-second
+Fortnight
+Football field
+Light-year | light year
+Horsepower
+
+[Schooler]
+Yard
+Ounce | oz
+Ton | tonne
+Gram
+Liter | litre
+Milliliter | millilitre | ml
+Millimeter | millimetre | mm
+Kilometer | kilometre | km
+Cup
+Pint
+Quart
+Teaspoon | tsp
+Tablespoon | tbsp
+Second
+Minute
+Hour
+Day
+Week
+Year
+Degree | degrees
+Celsius
+Fahrenheit
+Kelvin
+Volt
+Watt
+Amp | ampere
+Calorie
+Acre
+Mph | miles per hour
+
+[Rare]
+Hectare
+Fathom
+League
+Furlong
+Knot
+Nautical mile
+Micrometer | micron
+Nanometer
+Angstrom
+Parsec
+Astronomical unit | au
+Joule
+Newton
+Pascal
+Bar
+Atmosphere | atm
+Psi
+Ohm
+Hertz
+Kilowatt
+Kilowatt-hour | kwh
+Megabyte
+Gigabyte
+Terabyte
+Byte
+Bit
+Decibel
+Lumen
+Candela
+Mole
+Radian
+Carat | karat
+Hundredweight
+Bushel
+Peck
+Barrel
+Cord
+Board foot
+Cubic foot
+Square foot
+Square mile
+Cubic meter
+Fluid ounce
+Dram
+Gill
+Cubit
+Decade
+Century
+Millennium
+Millisecond
+Microsecond
+Nanosecond
+BTU
+Therm
+Erg
+Dyne
+Tesla
+Gauss
+Weber
+Henry
+Farad
+Coulomb
+Siemens
+Becquerel
+Gray
+Sievert
+Curie
+Roentgen
+
+[Deep Cut]
+Stone
+Rod
+Chain
+Hand
+Grain
+Pinch
+Dash
+Shot
+Span
+Jiffy
+Shake
+Barn
+Mil
+Thou
+Pica
+Em
+Twip
+Ell
+Rood
+Perch
+Verst
+Li
+Cun
+Shaku
+Tsubo
+Ri
+Arpent
+Toise
+Ligne
+Smidgen
+Jigger
+Hogshead
+Firkin
+Kilderkin
+Puncheon
+Tun
+Scruple
+Pennyweight
+Slug
+Poundal
+Kip
+Torr
+Millibar
+Kilopascal
+Mach
+Lux
+Foot-candle
+Nit
+Stilb
+Phot
+Sone
+Phon
+Bel
+Neper
+Katal
+Dalton
+Hartree
+Electronvolt | ev
+Planck length
+Planck time
+Light-second
+Gigaparsec
+Megaton
+Kiloton
+
+[Not accepted]
+Ruler
+Scale
+Thermometer
+Clock
+Number
+Dozen
+
+# QUESTION
+id: q0069
+pool: unlimited
+category: brands
+prompt: Name a store or retail chain
+
+[One in a Krillion]
+Spencer's | spencer gifts | spencers
+
+[Plankton]
+Walmart | wal-mart
+Target
+Costco
+Home Depot | the home depot
+Best Buy
+Kroger
+Amazon
+CVS
+
+[Too Clever]
+Kmart
+RadioShack | radio shack
+Toys R Us | toys r us | toys "r" us
+Sears
+
+[Schooler]
+Lowe's | lowes
+Walgreens
+Macy's | macys
+Kohl's | kohls
+JCPenney | jc penney | penney's
+Nordstrom
+TJ Maxx | t.j. maxx | tj maxx
+Marshalls
+Ross | ross dress for less
+Dollar Tree
+Dollar General
+Family Dollar
+Safeway
+Publix
+Whole Foods
+Trader Joe's | trader joes
+Aldi
+Sam's Club | sams club
+IKEA
+Bed Bath & Beyond | bed bath and beyond
+Barnes & Noble | barnes and noble
+GameStop
+Old Navy
+Gap
+Apple Store
+Staples
+Office Depot
+PetSmart
+Petco
+Michaels
+Hobby Lobby
+Dick's Sporting Goods | dicks
+Bass Pro Shops | bass pro
+Sephora
+Ulta
+Bath & Body Works | bath and body works
+Victoria's Secret
+
+[Rare]
+Blockbuster
+Meijer
+H-E-B | heb
+Albertsons
+Wegmans
+Food Lion
+Giant Eagle
+Hy-Vee
+Winn-Dixie
+ShopRite
+Stop & Shop
+King Soopers
+Ralphs
+Vons
+Smith's
+Fred Meyer
+Harris Teeter
+Sprouts
+Rite Aid
+7-Eleven | 7 eleven | seven eleven
+Circle K
+Wawa
+Sheetz
+Buc-ee's | buc ees | bucees
+QuikTrip | qt
+Casey's
+Menards
+Ace Hardware | ace
+True Value
+Tractor Supply
+Harbor Freight
+AutoZone
+O'Reilly | oreilly auto parts
+Advance Auto Parts
+Pep Boys
+Cabela's
+REI
+Academy Sports
+Big 5
+Foot Locker
+Finish Line
+Famous Footwear
+DSW
+Payless
+Burlington
+HomeGoods
+Big Lots
+Five Below
+Ollie's
+Tuesday Morning
+Pier 1
+Crate & Barrel
+Pottery Barn
+Williams-Sonoma
+West Elm
+Restoration Hardware | rh
+At Home
+Kirkland's
+Joann | jo-ann fabrics
+Party City
+Spirit Halloween
+Hot Topic
+Claire's
+Torrid
+Lane Bryant
+Dillard's
+Belk
+Bloomingdale's
+Saks Fifth Avenue | saks
+Neiman Marcus
+Lord & Taylor
+Barneys
+Forever 21
+Express
+American Eagle
+Hollister
+Abercrombie
+Urban Outfitters
+Zara
+H&M
+Uniqlo
+Primark
+Container Store
+Guitar Center
+Dollarama
+Canadian Tire
+Loblaws
+Tesco
+Sainsbury's
+Asda
+Boots
+Argos
+Harrods
+Marks & Spencer
+Carrefour
+Lidl
+
+[Deep Cut]
+Woolworth's
+Montgomery Ward
+Circuit City
+CompUSA
+Borders
+Waldenbooks
+B. Dalton
+Linens 'n Things
+KB Toys
+FAO Schwarz
+Zany Brainy
+Mervyn's
+Gottschalks
+Bon-Ton
+Boscov's
+Gimbels
+Marshall Field's
+Filene's
+Hecht's
+Strawbridge's
+Woodward & Lothrop
+Ames
+Caldor
+Bradlees
+Zayre
+ShopKo
+Pamida
+Duckwall-ALCO
+Fred's
+Gander Mountain
+Sports Authority
+Sport Chalet
+Herman's
+Hechinger
+Builders Square
+HomeBase
+Orchard Supply
+Lechmere
+Tower Records
+Sam Goody
+Musicland
+Wherehouse
+Hollywood Video
+Movie Gallery
+Family Video
+Fry's Electronics
+hhgregg
+Brookstone
+Sharper Image
+Things Remembered
+Yankee Candle
+Hallmark
+Build-A-Bear | build a bear
+Lids
+Zumiez
+PacSun
+Tillys
+Buckle
+Gymboree
+Children's Place
+Carter's
+OshKosh
+Justice
+Limited Too
+Charlotte Russe
+Wet Seal
+Rue21
+Maurices
+Christopher & Banks
+Chico's
+Talbots
+Ann Taylor
+Coldwater Creek
+J.Jill
+Men's Wearhouse
+Jos. A. Bank
+Kay Jewelers
+Zales
+Jared
+Pandora
+Swarovski
+Lush
+Origins
+Sally Beauty
+Cost Plus World Market | world market
+Grocery Outlet
+WinCo
+Piggly Wiggly
+Save-A-Lot
+Market Basket
+Price Chopper
+Hannaford
+Shaw's
+Acme
+Jewel-Osco
+Mariano's
+Schnucks
+Dierbergs
+Fareway
+Raley's
+Stater Bros
+Bashas'
+Food City
+Ingles
+Lowes Foods
+Bi-Lo
+Tops
+Weis
+
+[Not accepted]
+McDonald's
+Starbucks
+Netflix
+Google
+eBay
+Etsy
+
+# QUESTION
+id: q0070
+pool: unlimited
+category: everyday-objects
+prompt: Name something you'd find in a classroom
+
+[One in a Krillion]
+Abacus
+
+[Plankton]
+Desk
+Chair
+Whiteboard | dry erase board
+Chalkboard | blackboard
+Teacher
+Pencil
+Book | textbook
+Students | student
+
+[Too Clever]
+Apple
+Class pet | hamster | classroom pet
+Gum
+
+[Schooler]
+Pen
+Paper
+Notebook
+Eraser
+Marker | dry erase marker
+Chalk
+Ruler
+Scissors
+Glue | glue stick
+Backpack
+Clock
+Flag
+Map
+Globe
+Computer
+Projector
+Calculator
+Pencil sharpener | sharpener
+Crayons | crayon
+Poster
+Bulletin board
+Window
+Door
+Trash can | wastebasket
+Bookshelf
+Tape
+Stapler
+Folder
+Binder
+Smartboard | smart board
+Laptop
+Tablet | ipad
+Locker
+
+[Rare]
+Highlighter
+Colored pencils
+Construction paper
+Lined paper | notebook paper
+Graph paper
+Index cards
+Sticky notes | post-it notes | post its
+Paper clips | paperclip
+Thumbtacks | push pins
+Hole punch
+Rubber bands
+Protractor
+Compass
+Pencil case | pencil box
+Lunchbox | lunch box
+Water bottle
+Hand sanitizer
+Tissues
+Bookmark
+Dictionary
+Thesaurus
+Atlas
+Encyclopedia
+Planner
+Calendar
+Schedule
+Hall pass
+Attendance sheet
+Seating chart
+Gradebook
+Report card
+Test | quiz | exam
+Homework
+Worksheet
+Rubric
+Syllabus
+Lesson plan
+Podium | lectern
+Teacher's desk
+Filing cabinet
+Cubbies | cubby
+Coat hooks | coat rack
+Rug | carpet
+Bean bag
+Reading corner
+Fish tank
+Plant
+Pencil cup
+Speaker
+Intercom
+Fire alarm
+Smoke detector
+Thermostat
+Light switch
+Outlet
+Ceiling fan
+Air conditioner
+Heater
+Blinds
+Alphabet chart | alphabet poster
+Number line
+Periodic table
+Word wall
+Easel
+Paint
+Paintbrush
+Clay
+Play-Doh
+Legos
+Blocks
+Flashcards
+Microscope
+Beaker
+Test tube
+Bunsen burner
+Goggles
+Lab coat
+Skeleton model
+Chromebook
+Headphones
+Document camera
+Overhead projector
+Television | tv
+Printer
+Copier
+
+[Deep Cut]
+Chalk eraser | board eraser
+Chalk tray
+Pointer
+Laser pointer
+Bell
+Timer
+Sand timer | hourglass
+Behavior chart
+Sticker chart
+Stickers
+Stamps
+Gold stars
+Treasure box | prize box
+Suggestion box
+Lost and found
+Mailbox
+Turn-in tray | inbox
+Clipboard
+Magnetic letters
+Pocket chart
+Weather chart
+Job chart
+Birthday wall
+Anchor chart
+Exit tickets
+Bathroom pass
+Lanyard
+Name tags
+Name plates
+Desk caddy
+Supply bin
+Book bin
+Library books
+Novel
+Workbook
+Composition book
+Spiral notebook
+Loose leaf
+Scantron
+Answer key
+Detention slip
+Permission slip
+Field trip form
+Yearbook
+Diploma
+Trophy
+Pencil grip
+Mechanical pencil
+Fountain pen
+Correction tape | white-out
+Glitter
+Pipe cleaners
+Pom poms
+Googly eyes
+Popsicle sticks
+Yarn
+Felt
+Cardboard
+Butcher paper
+Laminator
+Paper cutter
+Three-hole punch
+Book cart
+Standing desk
+Wobble stool
+Yoga ball
+Fidget spinner
+Stress ball
+
+[Not accepted]
+Bed
+Toilet
+Car
+Stove
+Couch
