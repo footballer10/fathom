@@ -19,14 +19,14 @@
     {
       "binding": "DB",
       "database_name": "fathom",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "94570351-c0a8-4267-96e9-57adc401ed29",
       "migrations_dir": "migrations"
     }
   ],
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "00000000000000000000000000000000"
+      "id": "b62bf719a4884e9d9c3362ea8f19b32c"
     }
   ],
   "durable_objects": {
