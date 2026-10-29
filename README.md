@@ -77,7 +77,21 @@ To test Party mode alone, open the site in two browser windows (one normal, one 
    git commit -am "Add Cloudflare IDs" && git push
    ```
 
-After any code change, run `npm run deploy` again to update the live site.
+### Automatic deploys
+
+Cloudflare rebuilds and publishes the site by itself every time `main` changes on GitHub
+(Workers Builds, free). One-time setup in the Cloudflare dashboard:
+
+1. **Workers & Pages** → click **play** → **Settings** → **Build** → **Connect** to GitHub, and pick
+   `footballer10/fathom`, branch `main`.
+2. **Build command:** `npm ci && npm run build`
+3. **Deploy command:** `cd worker && npx wrangler deploy`
+4. **Root directory:** leave blank (the repository root).
+5. **Build watch paths:** include `*`, exclude `content/*`, so the weekly question uploads don't
+   trigger a rebuild (questions go straight to the database and never need one).
+
+If a change ever adds a new database migration (a new file in `worker/migrations/`), run
+`npm run deploy` once from your Mac as well; it applies migrations before deploying.
 
 ## 3. New questions every week
 
