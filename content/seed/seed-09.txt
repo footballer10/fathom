@@ -7,119 +7,6 @@ prompt: Name a condiment or sauce
 [One in a Krillion]
 Worcestershire sauce | worcestershire | worchestershire | worcester sauce
 
-[Plankton]
-Ketchup | catsup
-Mustard
-Mayonnaise | mayo
-Ranch | ranch dressing
-Barbecue sauce | bbq sauce | bbq
-Hot sauce
-Soy sauce
-Salsa
-
-[Too Clever]
-Butter
-Gravy
-Special sauce | big mac sauce
-
-[Schooler]
-Relish
-Sriracha
-Tabasco
-Buffalo sauce
-Honey mustard
-Teriyaki sauce | teriyaki
-Tartar sauce
-Cocktail sauce
-Marinara
-Alfredo
-Pesto
-Guacamole
-Hummus
-Sour cream
-Salad dressing | dressing
-Italian dressing
-Thousand Island
-Blue cheese dressing
-Caesar dressing
-Vinaigrette
-Balsamic vinegar | balsamic
-Vinegar
-Olive oil
-Maple syrup | syrup
-Honey
-Jam | jelly
-Peanut butter
-Nutella
-Tzatziki
-Aioli
-Horseradish
-Wasabi
-Hoisin sauce | hoisin
-Sweet and sour sauce
-Duck sauce
-Fish sauce
-Oyster sauce
-Chili sauce
-Steak sauce | a1 | a.1.
-Cheese sauce | nacho cheese
-Hollandaise
-Chimichurri
-Tahini
-Pico de gallo
-
-[Rare]
-Chipotle mayo
-Sweet chili sauce
-Gochujang
-Sambal | sambal oelek
-Harissa
-Chutney | mango chutney
-Raita
-Mint sauce
-Mint jelly
-Cranberry sauce
-Applesauce
-HP Sauce | brown sauce
-Salad cream
-Piccalilli
-Branston pickle
-Marmite
-Vegemite
-Ponzu
-Mirin
-Miso
-Tonkatsu sauce
-Yum yum sauce
-Eel sauce
-Kewpie mayo | kewpie
-Remoulade
-Bearnaise
-Bechamel
-Velouté
-Espagnole
-Demi-glace
-Beurre blanc
-Romesco
-Salsa verde
-Mole
-Enchilada sauce
-Queso
-Valentina
-Cholula
-Frank's RedHot | franks red hot
-Tapatio
-Crystal hot sauce
-Texas Pete
-Louisiana hot sauce
-Peri-peri | piri piri
-Jerk sauce
-Mumbo sauce
-Comeback sauce
-Fry sauce
-Alabama white sauce
-Chick-fil-A sauce
-
 [Deep Cut]
 Polynesian sauce
 Raising Cane's sauce | cane's sauce
@@ -187,6 +74,119 @@ Poppy seed dressing
 Ginger dressing
 Sesame dressing
 
+[Rare]
+Chipotle mayo
+Sweet chili sauce
+Gochujang
+Sambal | sambal oelek
+Harissa
+Chutney | mango chutney
+Raita
+Mint sauce
+Mint jelly
+Cranberry sauce
+Applesauce
+HP Sauce | brown sauce
+Salad cream
+Piccalilli
+Branston pickle
+Marmite
+Vegemite
+Ponzu
+Mirin
+Miso
+Tonkatsu sauce
+Yum yum sauce
+Eel sauce
+Kewpie mayo | kewpie
+Remoulade
+Bearnaise
+Bechamel
+Velouté
+Espagnole
+Demi-glace
+Beurre blanc
+Romesco
+Salsa verde
+Mole
+Enchilada sauce
+Queso
+Valentina
+Cholula
+Frank's RedHot | franks red hot
+Tapatio
+Crystal hot sauce
+Texas Pete
+Louisiana hot sauce
+Peri-peri | piri piri
+Jerk sauce
+Mumbo sauce
+Comeback sauce
+Fry sauce
+Alabama white sauce
+Chick-fil-A sauce
+
+[Schooler]
+Relish
+Sriracha
+Tabasco
+Buffalo sauce
+Honey mustard
+Teriyaki sauce | teriyaki
+Tartar sauce
+Cocktail sauce
+Marinara
+Alfredo
+Pesto
+Guacamole
+Hummus
+Sour cream
+Salad dressing | dressing
+Italian dressing
+Thousand Island
+Blue cheese dressing
+Caesar dressing
+Vinaigrette
+Balsamic vinegar | balsamic
+Vinegar
+Olive oil
+Maple syrup | syrup
+Honey
+Jam | jelly
+Peanut butter
+Nutella
+Tzatziki
+Aioli
+Horseradish
+Wasabi
+Hoisin sauce | hoisin
+Sweet and sour sauce
+Duck sauce
+Fish sauce
+Oyster sauce
+Chili sauce
+Steak sauce | a1 | a.1.
+Cheese sauce | nacho cheese
+Hollandaise
+Chimichurri
+Tahini
+Pico de gallo
+
+[Too Clever]
+Butter
+Gravy
+Special sauce | big mac sauce
+
+[Plankton]
+Ketchup | catsup
+Mustard
+Mayonnaise | mayo
+Ranch | ranch dressing
+Barbecue sauce | bbq sauce | bbq
+Hot sauce
+Soy sauce
+Salsa
+
 [Not accepted]
 Salt
 Pepper
@@ -205,43 +205,25 @@ note: Words like kitten, calf or joey. "Baby ___" doesn't count.
 [One in a Krillion]
 Cygnet
 
-[Plankton]
-Puppy | pup
-Kitten | kitty
-Calf
-Cub
-Foal
-Chick
-Lamb
-Joey
-
-[Too Clever]
-Baby
-Tadpole
-Caterpillar
-
-[Schooler]
-Duckling
-Piglet
-Bunny | kit
-Fawn
-Kid
-Colt
-Filly
-Gosling
-Owlet
-Eaglet
-Fry
-Larva
-Hatchling
-Nestling
-Fledgling
-Whelp
-Spiderling
-Polliwog | pollywog
-Nymph
-Pupa
-Chrysalis
+[Deep Cut]
+Codling
+Ephyra
+Planula
+Nauplius
+Zoea
+Megalopa
+Veliger
+Instar
+Naiad
+Wriggler
+Imago
+Sprat
+Brit
+Grilse
+Kelt
+Hinny
+Kittling
+Flapper
 
 [Rare]
 Cria
@@ -275,25 +257,43 @@ Cockerel
 Peachick
 Puffling
 
-[Deep Cut]
-Codling
-Ephyra
-Planula
-Nauplius
-Zoea
-Megalopa
-Veliger
-Instar
-Naiad
-Wriggler
-Imago
-Sprat
-Brit
-Grilse
-Kelt
-Hinny
-Kittling
-Flapper
+[Schooler]
+Duckling
+Piglet
+Bunny | kit
+Fawn
+Kid
+Colt
+Filly
+Gosling
+Owlet
+Eaglet
+Fry
+Larva
+Hatchling
+Nestling
+Fledgling
+Whelp
+Spiderling
+Polliwog | pollywog
+Nymph
+Pupa
+Chrysalis
+
+[Too Clever]
+Baby
+Tadpole
+Caterpillar
+
+[Plankton]
+Puppy | pup
+Kitten | kitty
+Calf
+Cub
+Foal
+Chick
+Lamb
+Joey
 
 [Not accepted]
 Baby animal
@@ -311,158 +311,6 @@ prompt: Name a city in Europe
 
 [One in a Krillion]
 Reykjavik | reykjavík
-
-[Plankton]
-Paris
-London
-Rome
-Berlin
-Madrid
-Barcelona
-Amsterdam
-Venice
-
-[Too Clever]
-Istanbul
-Moscow
-Vatican City | vatican
-
-[Schooler]
-Athens
-Dublin
-Lisbon
-Vienna
-Prague
-Budapest
-Brussels
-Munich
-Milan
-Florence
-Naples
-Edinburgh
-Manchester
-Liverpool
-Stockholm
-Oslo
-Copenhagen
-Helsinki
-Warsaw
-Zurich | zürich
-Geneva
-Monaco | monte carlo
-Nice
-Marseille
-Lyon
-Seville
-Valencia
-Porto
-Hamburg
-Frankfurt
-Cologne | köln
-Kyiv | kiev
-Saint Petersburg | st petersburg
-Krakow | kraków
-Salzburg
-Glasgow
-Birmingham
-Oxford
-Cambridge
-Belfast
-Rotterdam
-The Hague | den haag
-Antwerp
-Bruges | brugge
-Dubrovnik
-Split
-Santorini
-
-[Rare]
-Bordeaux
-Toulouse
-Strasbourg
-Lille
-Nantes
-Cannes
-Avignon
-Granada
-Malaga | málaga
-Bilbao
-San Sebastian
-Ibiza
-Palma
-Toledo
-Salamanca
-Cordoba
-Turin | torino
-Genoa
-Bologna
-Verona
-Pisa
-Siena
-Palermo
-Bari
-Sorrento
-Amalfi
-Dresden
-Leipzig
-Stuttgart
-Dusseldorf | düsseldorf
-Heidelberg
-Nuremberg
-Bremen
-Hanover
-Bonn
-Innsbruck
-Graz
-Bern
-Basel
-Lucerne
-Lausanne
-Luxembourg
-Ghent
-Liege
-Utrecht
-Eindhoven
-Delft
-Leeds
-Sheffield
-Bristol
-Newcastle
-Bath
-York
-Cardiff
-Cork
-Galway
-Aberdeen
-Inverness
-Gothenburg
-Malmo | malmö
-Bergen
-Tallinn
-Riga
-Vilnius
-Gdansk
-Wroclaw
-Poznan
-Bratislava
-Ljubljana
-Zagreb
-Belgrade
-Sarajevo
-Sofia
-Bucharest
-Thessaloniki
-Mykonos
-Valletta
-Minsk
-Chisinau
-Tirana
-Skopje
-Podgorica
-Lviv
-Odessa | odesa
-Kharkiv
-Nicosia
 
 [Deep Cut]
 Aarhus
@@ -583,6 +431,158 @@ Limerick
 Kilkenny
 Waterford
 
+[Rare]
+Bordeaux
+Toulouse
+Strasbourg
+Lille
+Nantes
+Cannes
+Avignon
+Granada
+Malaga | málaga
+Bilbao
+San Sebastian
+Ibiza
+Palma
+Toledo
+Salamanca
+Cordoba
+Turin | torino
+Genoa
+Bologna
+Verona
+Pisa
+Siena
+Palermo
+Bari
+Sorrento
+Amalfi
+Dresden
+Leipzig
+Stuttgart
+Dusseldorf | düsseldorf
+Heidelberg
+Nuremberg
+Bremen
+Hanover
+Bonn
+Innsbruck
+Graz
+Bern
+Basel
+Lucerne
+Lausanne
+Luxembourg
+Ghent
+Liege
+Utrecht
+Eindhoven
+Delft
+Leeds
+Sheffield
+Bristol
+Newcastle
+Bath
+York
+Cardiff
+Cork
+Galway
+Aberdeen
+Inverness
+Gothenburg
+Malmo | malmö
+Bergen
+Tallinn
+Riga
+Vilnius
+Gdansk
+Wroclaw
+Poznan
+Bratislava
+Ljubljana
+Zagreb
+Belgrade
+Sarajevo
+Sofia
+Bucharest
+Thessaloniki
+Mykonos
+Valletta
+Minsk
+Chisinau
+Tirana
+Skopje
+Podgorica
+Lviv
+Odessa | odesa
+Kharkiv
+Nicosia
+
+[Schooler]
+Athens
+Dublin
+Lisbon
+Vienna
+Prague
+Budapest
+Brussels
+Munich
+Milan
+Florence
+Naples
+Edinburgh
+Manchester
+Liverpool
+Stockholm
+Oslo
+Copenhagen
+Helsinki
+Warsaw
+Zurich | zürich
+Geneva
+Monaco | monte carlo
+Nice
+Marseille
+Lyon
+Seville
+Valencia
+Porto
+Hamburg
+Frankfurt
+Cologne | köln
+Kyiv | kiev
+Saint Petersburg | st petersburg
+Krakow | kraków
+Salzburg
+Glasgow
+Birmingham
+Oxford
+Cambridge
+Belfast
+Rotterdam
+The Hague | den haag
+Antwerp
+Bruges | brugge
+Dubrovnik
+Split
+Santorini
+
+[Too Clever]
+Istanbul
+Moscow
+Vatican City | vatican
+
+[Plankton]
+Paris
+London
+Rome
+Berlin
+Madrid
+Barcelona
+Amsterdam
+Venice
+
 [Not accepted]
 Europe
 England
@@ -603,53 +603,69 @@ prompt: Name a sports trophy, championship, or big event
 [One in a Krillion]
 Calcutta Cup
 
-[Plankton]
-Super Bowl
-World Series
-Stanley Cup
-NBA Finals
-World Cup | fifa world cup
-Olympics | olympic games
-Wimbledon
-March Madness
-
-[Too Clever]
-Puppy Bowl
-Spelling Bee
-Hot dog eating contest | nathan's hot dog eating contest
-
-[Schooler]
-Vince Lombardi Trophy | lombardi trophy
-Larry O'Brien Trophy
-Commissioner's Trophy
-Heisman Trophy | heisman
-Masters | the masters | green jacket
-US Open
-French Open | roland garros
-Australian Open
-Kentucky Derby
-Indianapolis 500 | indy 500
-Daytona 500
-Tour de France
-Ryder Cup
-Davis Cup
-Champions League | uefa champions league
-Premier League
-Rose Bowl
-College Football Playoff
-Final Four
-Grey Cup
-America's Cup
-Boston Marathon
-Triple Crown
-Winter Olympics
-Summer Olympics
-Paralympics
-X Games
-Pro Bowl
-All-Star Game
-Home Run Derby
-Slam Dunk Contest
+[Deep Cut]
+Bledisloe Cup
+Heineken Cup
+Ranfurly Shield
+Sam Maguire Cup
+Liam MacCarthy Cup
+Thomas Cup
+Uber Cup
+Sudirman Cup
+Swaythling Cup
+Corbillon Cup
+Hopman Cup
+Laver Cup
+Billie Jean King Cup | fed cup
+Curtis Cup
+Walker Cup
+Wightman Cup
+Admiral's Cup
+Volvo Ocean Race
+Vendee Globe
+Boat Race | oxford cambridge boat race
+Henley Royal Regatta
+Head of the Charles
+Giro d'Italia
+Vuelta a Espana
+Paris-Roubaix
+Milan-San Remo
+Dakar Rally
+Isle of Man TT
+Bathurst 1000
+Monte Carlo Rally
+Indy Lights
+Prix de l'Arc de Triomphe | arc
+Epsom Derby
+Cheltenham Gold Cup
+Dubai World Cup
+Japan Cup
+Championship belt
+Lady Byng Trophy
+Selke Trophy
+Ted Lindsay Award
+Jack Adams Award
+Jim Thorpe Trophy
+Roberto Clemente Award
+Mariano Rivera Award
+Edgar Martinez Award
+Sixth Man of the Year
+Clutch Player of the Year
+Lou Groza Award
+Doak Walker Award
+Davey O'Brien Award
+Butkus Award
+Bronko Nagurski Trophy
+Chuck Bednarik Award
+Golden Spikes Award
+Dick Howser Trophy
+Sullivan Award
+Pichichi
+Golden Ball
+Golden Glove
+Puskas Award
+Kopa Trophy
+Yashin Trophy
 
 [Rare]
 Claret Jug | open championship | british open
@@ -736,69 +752,53 @@ Laureus Award
 ESPY | espys
 Sportsman of the Year
 
-[Deep Cut]
-Bledisloe Cup
-Heineken Cup
-Ranfurly Shield
-Sam Maguire Cup
-Liam MacCarthy Cup
-Thomas Cup
-Uber Cup
-Sudirman Cup
-Swaythling Cup
-Corbillon Cup
-Hopman Cup
-Laver Cup
-Billie Jean King Cup | fed cup
-Curtis Cup
-Walker Cup
-Wightman Cup
-Admiral's Cup
-Volvo Ocean Race
-Vendee Globe
-Boat Race | oxford cambridge boat race
-Henley Royal Regatta
-Head of the Charles
-Giro d'Italia
-Vuelta a Espana
-Paris-Roubaix
-Milan-San Remo
-Dakar Rally
-Isle of Man TT
-Bathurst 1000
-Monte Carlo Rally
-Indy Lights
-Prix de l'Arc de Triomphe | arc
-Epsom Derby
-Cheltenham Gold Cup
-Dubai World Cup
-Japan Cup
-Championship belt
-Lady Byng Trophy
-Selke Trophy
-Ted Lindsay Award
-Jack Adams Award
-Jim Thorpe Trophy
-Roberto Clemente Award
-Mariano Rivera Award
-Edgar Martinez Award
-Sixth Man of the Year
-Clutch Player of the Year
-Lou Groza Award
-Doak Walker Award
-Davey O'Brien Award
-Butkus Award
-Bronko Nagurski Trophy
-Chuck Bednarik Award
-Golden Spikes Award
-Dick Howser Trophy
-Sullivan Award
-Pichichi
-Golden Ball
-Golden Glove
-Puskas Award
-Kopa Trophy
-Yashin Trophy
+[Schooler]
+Vince Lombardi Trophy | lombardi trophy
+Larry O'Brien Trophy
+Commissioner's Trophy
+Heisman Trophy | heisman
+Masters | the masters | green jacket
+US Open
+French Open | roland garros
+Australian Open
+Kentucky Derby
+Indianapolis 500 | indy 500
+Daytona 500
+Tour de France
+Ryder Cup
+Davis Cup
+Champions League | uefa champions league
+Premier League
+Rose Bowl
+College Football Playoff
+Final Four
+Grey Cup
+America's Cup
+Boston Marathon
+Triple Crown
+Winter Olympics
+Summer Olympics
+Paralympics
+X Games
+Pro Bowl
+All-Star Game
+Home Run Derby
+Slam Dunk Contest
+
+[Too Clever]
+Puppy Bowl
+Spelling Bee
+Hot dog eating contest | nathan's hot dog eating contest
+
+[Plankton]
+Super Bowl
+World Series
+Stanley Cup
+NBA Finals
+World Cup | fifa world cup
+Olympics | olympic games
+Wimbledon
+March Madness
 
 [Not accepted]
 Oscar
@@ -818,85 +818,96 @@ note: Words used in music theory, notation, or performance.
 [One in a Krillion]
 Hemidemisemiquaver
 
-[Plankton]
-Tempo
-Crescendo
-Note
-Rhythm
-Beat
-Melody
-Harmony
-Chord
-
-[Too Clever]
-Encore
-Bridge
-
-[Schooler]
-Piano
-Key
-Rest
-Natural
-Tie
-Bass
-Movement
-Round
-Loop
-Sample
-Echo
-Forte
-Allegro
-Staccato
-Legato
-Decrescendo | diminuendo
-Fortissimo
-Pianissimo
-Treble clef | treble
-Bass clef
-Clef
-Staff | stave
-Measure | bar
-Sharp
-Flat
-Scale
-Octave
-Pitch
-Tone
-Solo
-Duet
-Trio
-Quartet
-Chorus
-Verse
-Refrain
-Lyrics
-Tune
-Time signature
-Key signature
-Whole note
-Half note
-Quarter note
-Eighth note
-Sixteenth note
-Major
-Minor
-Adagio
-Andante
-Presto
-Largo
-Fermata
-Accent
-Slur
-Dynamics
-Vibrato
-A cappella | acapella
-Improvisation | improv
-Riff
-Solfege | do re mi
-Coda
-Intro
-Outro
-Hook
+[Deep Cut]
+Fine
+Turn
+Grave
+Mass
+Larghetto
+Andantino
+Prestissimo
+Allegretto
+Stringendo
+Morendo
+Smorzando
+Calando
+Perdendosi
+Sostenuto
+Portamento
+Portato
+Martellato
+Spiccato
+Col legno
+Sul ponticello
+Sul tasto
+Con sordino
+Senza sordino
+Tutti
+Divisi
+Ossia
+Tacet
+Attacca
+Segue
+Volta
+Hemiola
+Anacrusis | pickup
+Appoggiatura
+Acciaccatura
+Mordent
+Neapolitan chord
+Tritone
+Picardy third
+Deceptive cadence
+Plagal cadence
+Perfect cadence
+Semibreve
+Minim
+Crotchet
+Quaver
+Semiquaver
+Demisemiquaver
+Breve
+Longa
+Neume
+Melisma
+Syllabic
+Antiphony
+Responsorial
+Organum
+Motet
+Madrigal
+Cantata
+Oratorio
+Requiem
+Passacaglia
+Chaconne
+Toccata
+Fantasia
+Rhapsody
+Impromptu
+Bagatelle
+Serenade
+Divertimento
+Leitmotif
+Through-composed
+Strophic
+Binary form
+Ternary form
+Sonata form
+Twelve-tone
+Serialism
+Aleatoric
+Microtone
+Quarter tone
+Just intonation
+Equal temperament
+Circle of fifths
+Figured bass
+Basso continuo
+Ground bass
+Pedal point
+Drone
+Stretto
 
 [Rare]
 Moderato
@@ -1017,96 +1028,85 @@ Remix
 Mashup
 Breakdown
 
-[Deep Cut]
-Fine
-Turn
-Grave
-Mass
-Larghetto
-Andantino
-Prestissimo
-Allegretto
-Stringendo
-Morendo
-Smorzando
-Calando
-Perdendosi
-Sostenuto
-Portamento
-Portato
-Martellato
-Spiccato
-Col legno
-Sul ponticello
-Sul tasto
-Con sordino
-Senza sordino
-Tutti
-Divisi
-Ossia
-Tacet
-Attacca
-Segue
-Volta
-Hemiola
-Anacrusis | pickup
-Appoggiatura
-Acciaccatura
-Mordent
-Neapolitan chord
-Tritone
-Picardy third
-Deceptive cadence
-Plagal cadence
-Perfect cadence
-Semibreve
-Minim
-Crotchet
-Quaver
-Semiquaver
-Demisemiquaver
-Breve
-Longa
-Neume
-Melisma
-Syllabic
-Antiphony
-Responsorial
-Organum
-Motet
-Madrigal
-Cantata
-Oratorio
-Requiem
-Passacaglia
-Chaconne
-Toccata
-Fantasia
-Rhapsody
-Impromptu
-Bagatelle
-Serenade
-Divertimento
-Leitmotif
-Through-composed
-Strophic
-Binary form
-Ternary form
-Sonata form
-Twelve-tone
-Serialism
-Aleatoric
-Microtone
-Quarter tone
-Just intonation
-Equal temperament
-Circle of fifths
-Figured bass
-Basso continuo
-Ground bass
-Pedal point
-Drone
-Stretto
+[Schooler]
+Piano
+Key
+Rest
+Natural
+Tie
+Bass
+Movement
+Round
+Loop
+Sample
+Echo
+Forte
+Allegro
+Staccato
+Legato
+Decrescendo | diminuendo
+Fortissimo
+Pianissimo
+Treble clef | treble
+Bass clef
+Clef
+Staff | stave
+Measure | bar
+Sharp
+Flat
+Scale
+Octave
+Pitch
+Tone
+Solo
+Duet
+Trio
+Quartet
+Chorus
+Verse
+Refrain
+Lyrics
+Tune
+Time signature
+Key signature
+Whole note
+Half note
+Quarter note
+Eighth note
+Sixteenth note
+Major
+Minor
+Adagio
+Andante
+Presto
+Largo
+Fermata
+Accent
+Slur
+Dynamics
+Vibrato
+A cappella | acapella
+Improvisation | improv
+Riff
+Solfege | do re mi
+Coda
+Intro
+Outro
+Hook
+
+[Too Clever]
+Encore
+Bridge
+
+[Plankton]
+Tempo
+Crescendo
+Note
+Rhythm
+Beat
+Melody
+Harmony
+Chord
 
 [Not accepted]
 Guitar
@@ -1124,133 +1124,6 @@ prompt: Name a Lord of the Rings or Hobbit character
 
 [One in a Krillion]
 Tom Bombadil | bombadil
-
-[Plankton]
-Frodo Baggins | frodo
-Gandalf | gandalf the grey | gandalf the white | mithrandir
-Bilbo Baggins | bilbo
-Aragorn | strider
-Legolas
-Gimli
-Gollum | smeagol | sméagol
-Samwise Gamgee | sam | samwise
-
-[Too Clever]
-Sauron | eye of sauron
-Balrog
-
-[Schooler]
-Merry | meriadoc brandybuck
-Pippin | peregrin took
-Boromir
-Faramir
-Saruman
-Elrond
-Arwen
-Galadriel
-Eowyn | éowyn
-Eomer | éomer
-Theoden | théoden
-Treebeard
-Smaug
-Thorin Oakenshield | thorin
-Witch-king | witch king | witch-king of angmar
-Nazgul | ringwraith | ringwraiths | black riders
-Denethor
-Wormtongue | grima wormtongue | gríma
-Bard the Bowman | bard
-Radagast
-Shelob
-Orcs | orc
-Uruk-hai | uruk hai
-Ents | ent
-Hobbits | hobbit
-Elves | elf
-Dwarves | dwarf
-Rosie Cotton | rosie
-Kili
-Fili
-Balin
-Dwalin
-Bombur
-Bofur
-Thranduil
-Tauriel
-Azog
-
-[Rare]
-Bolg
-The Necromancer | necromancer
-Celeborn
-Haldir
-Glorfindel
-Isildur
-Elendil
-Gil-galad
-Cirdan
-Beorn
-Lurtz
-Gothmog
-Grishnakh
-Ugluk
-Shagrat
-Gorbag
-Mouth of Sauron
-Gamling
-Hama
-Theodred
-Imrahil
-Beregond
-Bergil
-Barliman Butterbur | butterbur
-Bill the Pony
-Shadowfax
-Old Man Willow
-Goldberry
-Farmer Maggot
-Lobelia Sackville-Baggins | lobelia
-Lotho
-Fatty Bolger | fredegar bolger
-Gaffer | hamfast gamgee
-Ted Sandyman
-Bill Ferny
-Elladan
-Elrohir
-Gwaihir
-Great Eagles | eagles
-Dain Ironfoot | dain
-Oin
-Gloin
-Ori
-Dori
-Nori
-Bifur
-Thror
-Thrain
-Master of Lake-town
-Alfrid
-Tom, Bert and William | trolls | stone trolls
-Great Goblin
-Wargs | warg
-Mumakil | oliphaunt
-Watcher in the Water
-Durin's Bane
-Elanor
-Drogo Baggins
-Primula Brandybuck
-Arathorn
-Gilraen
-Celebrian
-Finrod
-Feanor
-Fingolfin
-Luthien
-Beren
-Morgoth | melkor
-Ungoliant
-Turin Turambar | turin
-Earendil
-Elros
 
 [Deep Cut]
 Tar-Miriel
@@ -1328,6 +1201,133 @@ Robin Smallburrow
 Farmer Cotton
 Will Whitfoot
 
+[Rare]
+Bolg
+The Necromancer | necromancer
+Celeborn
+Haldir
+Glorfindel
+Isildur
+Elendil
+Gil-galad
+Cirdan
+Beorn
+Lurtz
+Gothmog
+Grishnakh
+Ugluk
+Shagrat
+Gorbag
+Mouth of Sauron
+Gamling
+Hama
+Theodred
+Imrahil
+Beregond
+Bergil
+Barliman Butterbur | butterbur
+Bill the Pony
+Shadowfax
+Old Man Willow
+Goldberry
+Farmer Maggot
+Lobelia Sackville-Baggins | lobelia
+Lotho
+Fatty Bolger | fredegar bolger
+Gaffer | hamfast gamgee
+Ted Sandyman
+Bill Ferny
+Elladan
+Elrohir
+Gwaihir
+Great Eagles | eagles
+Dain Ironfoot | dain
+Oin
+Gloin
+Ori
+Dori
+Nori
+Bifur
+Thror
+Thrain
+Master of Lake-town
+Alfrid
+Tom, Bert and William | trolls | stone trolls
+Great Goblin
+Wargs | warg
+Mumakil | oliphaunt
+Watcher in the Water
+Durin's Bane
+Elanor
+Drogo Baggins
+Primula Brandybuck
+Arathorn
+Gilraen
+Celebrian
+Finrod
+Feanor
+Fingolfin
+Luthien
+Beren
+Morgoth | melkor
+Ungoliant
+Turin Turambar | turin
+Earendil
+Elros
+
+[Schooler]
+Merry | meriadoc brandybuck
+Pippin | peregrin took
+Boromir
+Faramir
+Saruman
+Elrond
+Arwen
+Galadriel
+Eowyn | éowyn
+Eomer | éomer
+Theoden | théoden
+Treebeard
+Smaug
+Thorin Oakenshield | thorin
+Witch-king | witch king | witch-king of angmar
+Nazgul | ringwraith | ringwraiths | black riders
+Denethor
+Wormtongue | grima wormtongue | gríma
+Bard the Bowman | bard
+Radagast
+Shelob
+Orcs | orc
+Uruk-hai | uruk hai
+Ents | ent
+Hobbits | hobbit
+Elves | elf
+Dwarves | dwarf
+Rosie Cotton | rosie
+Kili
+Fili
+Balin
+Dwalin
+Bombur
+Bofur
+Thranduil
+Tauriel
+Azog
+
+[Too Clever]
+Sauron | eye of sauron
+Balrog
+
+[Plankton]
+Frodo Baggins | frodo
+Gandalf | gandalf the grey | gandalf the white | mithrandir
+Bilbo Baggins | bilbo
+Aragorn | strider
+Legolas
+Gimli
+Gollum | smeagol | sméagol
+Samwise Gamgee | sam | samwise
+
 [Not accepted]
 Harry Potter
 Dumbledore
@@ -1345,61 +1345,48 @@ prompt: Name a word that means "happy"
 [One in a Krillion]
 Gruntled
 
-[Plankton]
-Glad
-Joyful
-Cheerful
-Excited
-Content
-Pleased
-Delighted
-Thrilled
-
-[Too Clever]
-Happy
-Over the moon
-
-[Schooler]
-Elated
-Ecstatic
-Jolly
-Merry
-Upbeat
-Joyous
-Overjoyed
-Blissful
-Euphoric
-Jubilant
-Giddy
-Chipper
-Bubbly
-Sunny
-Positive
-Optimistic
-Grateful
-Thankful
-Carefree
-Lighthearted
-Gleeful
-Happy-go-lucky
-Peppy
-Perky
-Lively
-Satisfied
-Fulfilled
-Blessed
-Stoked
-Pumped
-Psyched
-Jazzed
-Tickled
-Tickled pink
-Walking on air
-On cloud nine
-Beaming
-Radiant
-Glowing
-Buoyant
+[Deep Cut]
+Beatific
+Halcyon
+Felicitous
+Eudaemonic
+Eupeptic
+Gladsome
+Joysome
+Blissed-out | blissed out
+Rhapsodic
+Transported
+Ravished
+Delirious
+Intoxicated
+Exalted
+Paradisiacal
+Elysian
+Cock-a-hoop
+Gleesome
+Jocose
+Jocular
+Winsome
+Lightsome
+Insouciant
+Nonchalant
+Pollyannaish
+Panglossian
+Rose-colored
+Larky
+Skippy
+Bouncy
+Zippy
+Zingy
+Effervescent
+Sparkling
+Scintillating
+Incandescent
+Luminous
+Placid
+Equanimous
+Unworried
+Easygoing
 
 [Rare]
 Exuberant
@@ -1461,48 +1448,61 @@ Chirpy
 Bright
 Contented
 
-[Deep Cut]
-Beatific
-Halcyon
-Felicitous
-Eudaemonic
-Eupeptic
-Gladsome
-Joysome
-Blissed-out | blissed out
-Rhapsodic
-Transported
-Ravished
-Delirious
-Intoxicated
-Exalted
-Paradisiacal
-Elysian
-Cock-a-hoop
-Gleesome
-Jocose
-Jocular
-Winsome
-Lightsome
-Insouciant
-Nonchalant
-Pollyannaish
-Panglossian
-Rose-colored
-Larky
-Skippy
-Bouncy
-Zippy
-Zingy
-Effervescent
-Sparkling
-Scintillating
-Incandescent
-Luminous
-Placid
-Equanimous
-Unworried
-Easygoing
+[Schooler]
+Elated
+Ecstatic
+Jolly
+Merry
+Upbeat
+Joyous
+Overjoyed
+Blissful
+Euphoric
+Jubilant
+Giddy
+Chipper
+Bubbly
+Sunny
+Positive
+Optimistic
+Grateful
+Thankful
+Carefree
+Lighthearted
+Gleeful
+Happy-go-lucky
+Peppy
+Perky
+Lively
+Satisfied
+Fulfilled
+Blessed
+Stoked
+Pumped
+Psyched
+Jazzed
+Tickled
+Tickled pink
+Walking on air
+On cloud nine
+Beaming
+Radiant
+Glowing
+Buoyant
+
+[Too Clever]
+Happy
+Over the moon
+
+[Plankton]
+Glad
+Joyful
+Cheerful
+Excited
+Content
+Pleased
+Delighted
+Thrilled
 
 [Not accepted]
 Sad
@@ -1521,100 +1521,6 @@ prompt: Name a shape
 
 [One in a Krillion]
 Reuleaux triangle
-
-[Plankton]
-Circle
-Square
-Triangle
-Rectangle
-Star
-Heart
-Oval
-Diamond
-
-[Too Clever]
-Mobius strip | möbius strip
-Tesseract | hypercube
-Squircle
-
-[Schooler]
-Pentagon
-Hexagon
-Octagon
-Trapezoid | trapezium
-Rhombus
-Parallelogram
-Sphere
-Cube
-Cylinder
-Cone
-Pyramid
-Crescent
-Semicircle
-Arrow
-Cross
-Spiral
-Heptagon
-Decagon
-Ellipse
-Polygon
-Quadrilateral
-Prism
-Kite
-Ring
-Donut | torus
-
-[Rare]
-Nonagon
-Hendecagon | undecagon
-Dodecagon
-Icosagon
-Tetrahedron
-Octahedron
-Dodecahedron
-Icosahedron
-Hexahedron
-Triangular prism
-Rectangular prism
-Hemisphere
-Spheroid
-Ovoid
-Ellipsoid
-Paraboloid
-Hyperboloid
-Frustum
-Parabola
-Hyperbola
-Helix
-Annulus
-Arc
-Lune
-Equilateral triangle
-Isosceles triangle
-Scalene triangle
-Right triangle
-Obtuse triangle
-Acute triangle
-Rhomboid
-Deltoid
-Pentagram
-Hexagram | star of david
-Octagram
-Trefoil
-Quatrefoil
-Chevron
-Teardrop
-Lozenge
-Cuboid
-Polyhedron
-Platonic solid
-Klein bottle
-Fractal
-Koch snowflake
-Sierpinski triangle
-Zigzag
-Wave
-Infinity symbol | lemniscate
 
 [Deep Cut]
 Tridecagon
@@ -1673,6 +1579,100 @@ Tractrix
 Witch of Agnesi
 Steinmetz solid
 
+[Rare]
+Nonagon
+Hendecagon | undecagon
+Dodecagon
+Icosagon
+Tetrahedron
+Octahedron
+Dodecahedron
+Icosahedron
+Hexahedron
+Triangular prism
+Rectangular prism
+Hemisphere
+Spheroid
+Ovoid
+Ellipsoid
+Paraboloid
+Hyperboloid
+Frustum
+Parabola
+Hyperbola
+Helix
+Annulus
+Arc
+Lune
+Equilateral triangle
+Isosceles triangle
+Scalene triangle
+Right triangle
+Obtuse triangle
+Acute triangle
+Rhomboid
+Deltoid
+Pentagram
+Hexagram | star of david
+Octagram
+Trefoil
+Quatrefoil
+Chevron
+Teardrop
+Lozenge
+Cuboid
+Polyhedron
+Platonic solid
+Klein bottle
+Fractal
+Koch snowflake
+Sierpinski triangle
+Zigzag
+Wave
+Infinity symbol | lemniscate
+
+[Schooler]
+Pentagon
+Hexagon
+Octagon
+Trapezoid | trapezium
+Rhombus
+Parallelogram
+Sphere
+Cube
+Cylinder
+Cone
+Pyramid
+Crescent
+Semicircle
+Arrow
+Cross
+Spiral
+Heptagon
+Decagon
+Ellipse
+Polygon
+Quadrilateral
+Prism
+Kite
+Ring
+Donut | torus
+
+[Too Clever]
+Mobius strip | möbius strip
+Tesseract | hypercube
+Squircle
+
+[Plankton]
+Circle
+Square
+Triangle
+Rectangle
+Star
+Heart
+Oval
+Diamond
+
 [Not accepted]
 Color
 Number
@@ -1690,51 +1690,37 @@ prompt: Name a brand of chips, crackers, or salty snacks
 [One in a Krillion]
 Andy Capp's Hot Fries | hot fries | andy capp
 
-[Plankton]
-Doritos
-Lay's | lays
-Pringles
-Cheetos
-Fritos
-Ruffles
-Goldfish
-Cheez-It | cheez its | cheezits
-
-[Too Clever]
-Takis
-Funyuns
-Combos
-
-[Schooler]
-Tostitos
-Sun Chips | sunchips
-Kettle Brand | kettle chips
-Cape Cod
-Utz
-Wise
-Ritz
-Triscuit
-Wheat Thins
-Pepperidge Farm
-Snyder's | snyders | snyder's of hanover
-Rold Gold
-Chex Mix
-Gardetto's
-Smartfood
-SkinnyPop
-Pirate's Booty
-Popchips
-Bugles
-Cheez Doodles
-Pop Secret
-Orville Redenbacher's | orville redenbacher
-Act II
-Planters
-Blue Diamond
-Wonderful Pistachios
-Munchies
-Flamin' Hot Cheetos
-
+[Deep Cut]
+Walkers
+Monster Munch
+Wotsits
+Quavers
+Hula Hoops
+Skips
+Discos
+McCoy's
+Tyrrell's
+Pom-Bear
+Twiglets
+Mini Cheddars
+Jacob's
+Carr's
+Hovis
+Calbee
+Shrimp chips | prawn crackers
+Jagabee
+Koikeya
+Kaki no tane
+Turtle chips
+Honey Butter Chip
+Haitai
+Lotte
+Want Want
+Sabritas
+Barcel
+Slim Jim
+Jack Link's
+David seeds
 
 [Rare]
 Chester's
@@ -1780,37 +1766,50 @@ Pretzel Crisps
 Dot's Pretzels | dots
 Auntie Anne's
 
-[Deep Cut]
-Walkers
-Monster Munch
-Wotsits
-Quavers
-Hula Hoops
-Skips
-Discos
-McCoy's
-Tyrrell's
-Pom-Bear
-Twiglets
-Mini Cheddars
-Jacob's
-Carr's
-Hovis
-Calbee
-Shrimp chips | prawn crackers
-Jagabee
-Koikeya
-Kaki no tane
-Turtle chips
-Honey Butter Chip
-Haitai
-Lotte
-Want Want
-Sabritas
-Barcel
-Slim Jim
-Jack Link's
-David seeds
+[Schooler]
+Tostitos
+Sun Chips | sunchips
+Kettle Brand | kettle chips
+Cape Cod
+Utz
+Wise
+Ritz
+Triscuit
+Wheat Thins
+Pepperidge Farm
+Snyder's | snyders | snyder's of hanover
+Rold Gold
+Chex Mix
+Gardetto's
+Smartfood
+SkinnyPop
+Pirate's Booty
+Popchips
+Bugles
+Cheez Doodles
+Pop Secret
+Orville Redenbacher's | orville redenbacher
+Act II
+Planters
+Blue Diamond
+Wonderful Pistachios
+Munchies
+Flamin' Hot Cheetos
+
+[Too Clever]
+Takis
+Funyuns
+Combos
+
+[Plankton]
+Doritos
+Lay's | lays
+Pringles
+Cheetos
+Fritos
+Ruffles
+Goldfish
+Cheez-It | cheez its | cheezits
 
 [Not accepted]
 Chocolate
@@ -1829,51 +1828,52 @@ prompt: Name a household appliance
 [One in a Krillion]
 Trash compactor
 
-[Plankton]
-Refrigerator | fridge
-Microwave
-Oven
-Dishwasher
-Washing machine | washer
-Dryer | clothes dryer
-Toaster
-Stove
-
-[Too Clever]
-Roomba | robot vacuum
-Alexa | amazon echo | smart speaker
-
-[Schooler]
-Vacuum | vacuum cleaner | hoover
-Blender
-Coffee maker | coffee machine
-Freezer
-Air conditioner | ac
-Fan
-Heater | space heater
-Iron
-Hair dryer | blow dryer
-Toaster oven
-Air fryer
-Slow cooker | crock pot | crockpot
-Instant Pot | pressure cooker
-Mixer | stand mixer | kitchenaid
-Food processor
-Kettle | electric kettle
-Rice cooker
-Water heater
-Furnace
-Dehumidifier
-Humidifier
-Garbage disposal | disposal
-Television | tv
-Lamp
-Waffle maker | waffle iron
-Keurig
-Espresso machine
-Juicer
-Range hood
-Ice maker
+[Deep Cut]
+Printer
+Router
+Electric blanket
+Heated mattress pad
+Massage chair
+Treadmill
+Hot plate
+Induction cooktop
+Cooktop
+Wall oven
+Convection oven
+Warming drawer
+Bottle warmer
+Baby monitor
+Night light
+Nespresso
+Coffee grinder
+Milk frother
+Cotton candy machine
+Chocolate fountain
+Hot dog roller
+Pizza oven
+Smoker
+Grill
+Electric grill
+Rotisserie
+Fondue pot
+Egg cooker
+Electric can opener
+Knife sharpener
+Vacuum sealer
+Label maker
+Paper shredder
+Laminator
+Bug zapper
+Pool pump
+Hot tub
+Washer dryer combo
+Trouser press
+Towel warmer
+Bidet seat
+Snow blower
+Lawn mower
+Leaf blower
+Pressure washer
 
 [Rare]
 Hand mixer
@@ -1927,52 +1927,51 @@ DVD player
 Game console
 Computer
 
-[Deep Cut]
-Printer
-Router
-Electric blanket
-Heated mattress pad
-Massage chair
-Treadmill
-Hot plate
-Induction cooktop
-Cooktop
-Wall oven
-Convection oven
-Warming drawer
-Bottle warmer
-Baby monitor
-Night light
-Nespresso
-Coffee grinder
-Milk frother
-Cotton candy machine
-Chocolate fountain
-Hot dog roller
-Pizza oven
-Smoker
-Grill
-Electric grill
-Rotisserie
-Fondue pot
-Egg cooker
-Electric can opener
-Knife sharpener
-Vacuum sealer
-Label maker
-Paper shredder
-Laminator
-Bug zapper
-Pool pump
-Hot tub
-Washer dryer combo
-Trouser press
-Towel warmer
-Bidet seat
-Snow blower
-Lawn mower
-Leaf blower
-Pressure washer
+[Schooler]
+Vacuum | vacuum cleaner | hoover
+Blender
+Coffee maker | coffee machine
+Freezer
+Air conditioner | ac
+Fan
+Heater | space heater
+Iron
+Hair dryer | blow dryer
+Toaster oven
+Air fryer
+Slow cooker | crock pot | crockpot
+Instant Pot | pressure cooker
+Mixer | stand mixer | kitchenaid
+Food processor
+Kettle | electric kettle
+Rice cooker
+Water heater
+Furnace
+Dehumidifier
+Humidifier
+Garbage disposal | disposal
+Television | tv
+Lamp
+Waffle maker | waffle iron
+Keurig
+Espresso machine
+Juicer
+Range hood
+Ice maker
+
+[Too Clever]
+Roomba | robot vacuum
+Alexa | amazon echo | smart speaker
+
+[Plankton]
+Refrigerator | fridge
+Microwave
+Oven
+Dishwasher
+Washing machine | washer
+Dryer | clothes dryer
+Toaster
+Stove
 
 [Not accepted]
 Couch

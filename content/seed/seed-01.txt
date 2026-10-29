@@ -580,6 +580,13 @@ Lutetium
 Protactinium
 Neptunium
 Technetium
+Rutherfordium
+Dubnium
+Hassium
+Meitnerium
+Roentgenium | rontgenium
+Flerovium
+Livermorium
 
 [Rare]
 Promethium
@@ -867,7 +874,8 @@ BMW
 Chevrolet | chevy
 
 [Not accepted]
-Harley-Davidson | harley
+Harley-Davidson
+harley
 Ducati
 Boeing
 Yamaha
@@ -970,114 +978,127 @@ Curling
 id: q0010
 pool: reserve
 category: animals
-prompt: Name an animal that lives in the ocean
+prompt: Name a marine mammal (like a whale or seal)
+note: Mammals that live in the sea: whales, dolphins, porpoises, seals, sea lions, walruses, manatees, dugongs, sea otters and polar bears. River-only species don't count.
 
 [One in a Krillion]
-Vampire squid
+Vaquita
 
 [Deep Cut]
-Nudibranch | sea slug
-Narwhal | narwal
-Dugong
-Anglerfish | angler fish
-Sea cucumber
-Sea urchin | urchin
-Barracuda
-Moray eel | moray
-Coelacanth
-Oarfish
-Sunfish | mola mola | ocean sunfish
-Hammerhead shark | hammerhead
-Lionfish
-Cuttlefish | cuttle fish
-Mantis shrimp
-Hagfish
-Sea pen
-Blobfish
-Sea anemone | anemone
-Sea sponge | sponge
-Goblin shark
-Whale shark
-Basking shark
-Sea dragon | leafy sea dragon
-Pipefish
-Triggerfish
-Parrotfish | parrot fish
-Grouper
-Halibut
-Flounder
-Sardine
-Anchovy
-Mackerel
-Herring
-Cod
-Tuna
-Marlin
-Swordfish
-Sea lion
-Elephant seal
-Leatherback | leatherback turtle
-Hermit crab
-King crab
-Box jellyfish
-Portuguese man o' war | man o war
-Giant squid
-Colossal squid
+Cuvier's beaked whale | cuviers beaked whale | goose-beaked whale
+Baird's beaked whale | bairds beaked whale
+Blainville's beaked whale | blainvilles beaked whale
+Sowerby's beaked whale | sowerbys beaked whale
+Spade-toothed whale
+Strap-toothed whale
+Northern bottlenose whale | bottlenose whale
+Beaked whale
+Pygmy right whale
+Pygmy sperm whale
+Dwarf sperm whale
+Pygmy killer whale
+Melon-headed whale
+False killer whale
+Rice's whale | rices whale
+Omura's whale | omuras whale
+Bryde's whale | brydes whale
+Sei whale
+Hector's dolphin | hectors dolphin
+Maui dolphin
+Commerson's dolphin | commersons dolphin
+Hourglass dolphin
+Fraser's dolphin | frasers dolphin
+Rough-toothed dolphin
+Clymene dolphin
+Irrawaddy dolphin
+Snubfin dolphin | australian snubfin dolphin
+Humpback dolphin
+Right whale dolphin | northern right whale dolphin | southern right whale dolphin
+Heaviside's dolphin | heavisides dolphin
+Chilean dolphin
+Peale's dolphin | peales dolphin
+Tucuxi
+Guiana dolphin
+Dall's porpoise | dalls porpoise
+Finless porpoise
+Burmeister's porpoise | burmeisters porpoise
+Spectacled porpoise
+Ribbon seal
+Ross seal
+Crabeater seal
+Weddell seal | wedell seal
+Bearded seal
+Ringed seal
+Spotted seal | largha seal
+Hooded seal
+Caspian seal
+Monk seal | hawaiian monk seal | mediterranean monk seal
+Steller's sea cow | stellers sea cow
+Marine otter
+Steller sea lion | stellers sea lion
 
 [Rare]
-Sea otter
-Manta ray | manta
-Barnacle
-Mussel
-Pufferfish | puffer fish | blowfish
-Beluga | beluga whale
-Clownfish | clown fish
-Blue whale
-Humpback whale | humpback
-Sperm whale
-Scallop
-Sea snail | snail
-Eel
+Fin whale | finback whale | finback
+Gray whale | grey whale
+Bowhead whale | bowhead
+Right whale | north atlantic right whale | southern right whale | north pacific right whale
+Minke whale | minke
+Pilot whale | long-finned pilot whale | short-finned pilot whale
+Risso's dolphin | rissos dolphin | grampus
+Spinner dolphin
+Spotted dolphin | atlantic spotted dolphin | pantropical spotted dolphin
+Striped dolphin
+Common dolphin | short-beaked common dolphin
+Dusky dolphin
+White-sided dolphin | atlantic white-sided dolphin | pacific white-sided dolphin
+White-beaked dolphin
+Harbor porpoise | harbour porpoise
+Harp seal
+Gray seal | grey seal
+Leopard seal
+Fur seal | northern fur seal | antarctic fur seal | cape fur seal
+Elephant seal | northern elephant seal | southern elephant seal
+Harbor seal | harbour seal | common seal
+California sea lion
+Dugong
 
 [Schooler]
-Stingray | sting ray
-Walrus
-Manatee
-Great white shark | great white
-Oyster
-Clam
-Seahorse | sea horse
-Orca | killer whale
-Sea turtle | turtle
-Squid
-Crab
-Lobster
-Shrimp | prawn
-Seal
-Starfish | sea star
-Penguin
+Blue whale
+Humpback whale | humpback
+Sperm whale | cachalot
+Bottlenose dolphin | bottle nose dolphin
+Porpoise
+Narwhal | narwal
+Beluga | beluga whale | white whale
 
 [Too Clever]
-Coral
-Krill
-Plankton
+Polar bear
 
 [Plankton]
-Jellyfish | jelly fish
-Octopus | octopi | octopuses
-Shark
 Whale
 Dolphin
-Fish
+Seal
+Sea lion
+Walrus
+Manatee | sea cow
+Orca | killer whale
+Sea otter | otter
 
 [Not accepted]
-SpongeBob
-Frog
+Shark
+Octopus
+Squid
+Penguin
+Jellyfish
+Crab
+Lobster
+Starfish
+Sea turtle
+Fish
 Hippo
-Crocodile
-Alligator
 Beaver
-Duck
-Nemo
+Platypus
+Crocodile
 Mermaid
-Kraken
+Amazon river dolphin
+Baikal seal

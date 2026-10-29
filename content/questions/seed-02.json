@@ -2033,605 +2033,364 @@
   },
   {
     "id": "q0015",
-    "prompt": "Name a job title",
-    "category": "jobs-people",
+    "prompt": "Name a signer of the Declaration of Independence",
+    "category": "history",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Sommelier",
+        "text": "Button Gwinnett",
         "aliases": [
-          "somellier"
+          "gwinnett"
         ],
         "tier": 100
       },
       {
-        "text": "Actuary",
-        "tier": 85
-      },
-      {
-        "text": "Cartographer",
-        "tier": 85
-      },
-      {
-        "text": "Lexicographer",
-        "tier": 85
-      },
-      {
-        "text": "Ombudsman",
-        "tier": 85
-      },
-      {
-        "text": "Farrier",
-        "tier": 85
-      },
-      {
-        "text": "Taxidermist",
-        "tier": 85
-      },
-      {
-        "text": "Luthier",
-        "tier": 85
-      },
-      {
-        "text": "Chimney sweep",
-        "tier": 85
-      },
-      {
-        "text": "Stenographer",
+        "text": "William Ellery",
         "aliases": [
-          "court reporter"
+          "ellery"
         ],
         "tier": 85
       },
       {
-        "text": "Auctioneer",
+        "text": "William Williams",
         "tier": 85
       },
       {
-        "text": "Horologist",
+        "text": "William Floyd",
         "aliases": [
-          "watchmaker"
+          "floyd"
         ],
         "tier": 85
       },
       {
-        "text": "Ichthyologist",
+        "text": "Francis Lewis",
         "tier": 85
       },
       {
-        "text": "Glassblower",
+        "text": "John Hart",
         "tier": 85
       },
       {
-        "text": "Cooper",
+        "text": "Abraham Clark",
         "tier": 85
       },
       {
-        "text": "Locksmith",
+        "text": "John Morton",
         "tier": 85
       },
       {
-        "text": "Upholsterer",
-        "tier": 85
-      },
-      {
-        "text": "Archivist",
-        "tier": 85
-      },
-      {
-        "text": "Curator",
-        "tier": 85
-      },
-      {
-        "text": "Paralegal",
-        "tier": 85
-      },
-      {
-        "text": "Sonographer",
-        "tier": 85
-      },
-      {
-        "text": "Mortician",
+        "text": "George Clymer",
         "aliases": [
-          "undertaker",
-          "funeral director"
+          "clymer"
         ],
         "tier": 85
       },
       {
-        "text": "Embalmer",
+        "text": "James Smith",
         "tier": 85
       },
       {
-        "text": "Arborist",
+        "text": "George Taylor",
         "tier": 85
       },
       {
-        "text": "Beekeeper",
+        "text": "George Ross",
+        "tier": 85
+      },
+      {
+        "text": "Thomas Stone",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Hewes",
         "aliases": [
-          "apiarist"
+          "hewes"
         ],
         "tier": 85
       },
       {
-        "text": "Blacksmith",
+        "text": "John Penn",
         "tier": 85
       },
       {
-        "text": "Cobbler",
+        "text": "William Hooper",
         "aliases": [
-          "shoemaker"
+          "hooper"
         ],
         "tier": 85
       },
       {
-        "text": "Tailor",
-        "tier": 85
-      },
-      {
-        "text": "Seamstress",
-        "tier": 85
-      },
-      {
-        "text": "Jeweler",
+        "text": "Carter Braxton",
         "aliases": [
-          "jeweller"
+          "braxton"
         ],
         "tier": 85
       },
       {
-        "text": "Optometrist",
-        "tier": 85
-      },
-      {
-        "text": "Chiropractor",
-        "tier": 85
-      },
-      {
-        "text": "Podiatrist",
-        "tier": 85
-      },
-      {
-        "text": "Anesthesiologist",
-        "tier": 85
-      },
-      {
-        "text": "Radiologist",
-        "tier": 85
-      },
-      {
-        "text": "Dermatologist",
-        "tier": 85
-      },
-      {
-        "text": "Orthodontist",
-        "tier": 85
-      },
-      {
-        "text": "Hygienist",
+        "text": "George Walton",
         "aliases": [
-          "dental hygienist"
+          "walton"
         ],
         "tier": 85
       },
       {
-        "text": "Lifeguard",
-        "tier": 85
-      },
-      {
-        "text": "Bouncer",
-        "tier": 85
-      },
-      {
-        "text": "Valet",
-        "tier": 85
-      },
-      {
-        "text": "Concierge",
-        "tier": 85
-      },
-      {
-        "text": "Bellhop",
-        "tier": 85
-      },
-      {
-        "text": "Usher",
-        "tier": 85
-      },
-      {
-        "text": "Sous chef",
-        "tier": 85
-      },
-      {
-        "text": "Barista",
-        "tier": 85
-      },
-      {
-        "text": "Courier",
-        "tier": 85
-      },
-      {
-        "text": "Translator",
+        "text": "Thomas Heyward Jr.",
         "aliases": [
-          "interpreter"
+          "thomas heyward",
+          "heyward"
         ],
         "tier": 85
       },
       {
-        "text": "Stockbroker",
-        "tier": 85
-      },
-      {
-        "text": "Economist",
-        "tier": 85
-      },
-      {
-        "text": "Statistician",
-        "tier": 85
-      },
-      {
-        "text": "Data scientist",
-        "tier": 85
-      },
-      {
-        "text": "Geologist",
-        "tier": 85
-      },
-      {
-        "text": "Zookeeper",
-        "tier": 85
-      },
-      {
-        "text": "Park ranger",
-        "aliases": [
-          "ranger"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Surveyor",
-        "tier": 85
-      },
-      {
-        "text": "Welder",
-        "tier": 85
-      },
-      {
-        "text": "Roofer",
-        "tier": 85
-      },
-      {
-        "text": "Mason",
-        "aliases": [
-          "bricklayer",
-          "stonemason"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Diplomat",
-        "tier": 85
-      },
-      {
-        "text": "Ambassador",
-        "tier": 85
-      },
-      {
-        "text": "Senator",
-        "tier": 85
-      },
-      {
-        "text": "Mayor",
-        "tier": 85
-      },
-      {
-        "text": "Judge",
-        "tier": 85
-      },
-      {
-        "text": "Detective",
-        "tier": 85
-      },
-      {
-        "text": "Sheriff",
-        "tier": 85
-      },
-      {
-        "text": "Air traffic controller",
-        "tier": 85
-      },
-      {
-        "text": "Flight attendant",
-        "aliases": [
-          "stewardess"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Ship captain",
-        "aliases": [
-          "captain"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pharmacist",
+        "text": "Robert Treat Paine",
         "tier": 60
       },
       {
-        "text": "Veterinarian",
+        "text": "James Wilson",
+        "tier": 60
+      },
+      {
+        "text": "Thomas McKean",
         "aliases": [
-          "vet"
+          "mckean"
         ],
         "tier": 60
       },
       {
-        "text": "Architect",
+        "text": "George Read",
         "tier": 60
       },
       {
-        "text": "Accountant",
-        "tier": 60
-      },
-      {
-        "text": "Carpenter",
-        "tier": 60
-      },
-      {
-        "text": "Journalist",
+        "text": "Thomas Nelson Jr.",
         "aliases": [
-          "reporter"
+          "thomas nelson"
         ],
         "tier": 60
       },
       {
-        "text": "Librarian",
+        "text": "Francis Lightfoot Lee",
         "tier": 60
       },
       {
-        "text": "Surgeon",
-        "tier": 60
-      },
-      {
-        "text": "Barber",
-        "tier": 60
-      },
-      {
-        "text": "Hairdresser",
+        "text": "Philip Livingston",
         "aliases": [
-          "hairstylist"
+          "livingston"
         ],
         "tier": 60
       },
       {
-        "text": "Baker",
+        "text": "Lewis Morris",
         "tier": 60
       },
       {
-        "text": "Butcher",
-        "tier": 60
-      },
-      {
-        "text": "Janitor",
+        "text": "William Whipple",
         "aliases": [
-          "custodian"
+          "whipple"
         ],
         "tier": 60
       },
       {
-        "text": "Cashier",
-        "tier": 60
-      },
-      {
-        "text": "Bartender",
-        "tier": 60
-      },
-      {
-        "text": "Paramedic",
+        "text": "Matthew Thornton",
         "aliases": [
-          "emt"
+          "thornton"
         ],
         "tier": 60
       },
       {
-        "text": "Software engineer",
+        "text": "Oliver Wolcott",
         "aliases": [
-          "software developer",
-          "programmer",
-          "coder"
+          "wolcott"
         ],
         "tier": 60
       },
       {
-        "text": "Professor",
-        "tier": 60
-      },
-      {
-        "text": "Mail carrier",
+        "text": "Samuel Huntington",
         "aliases": [
-          "mailman",
-          "postman"
+          "huntington"
         ],
         "tier": 60
       },
       {
-        "text": "Principal",
-        "tier": 60
-      },
-      {
-        "text": "Therapist",
+        "text": "Richard Stockton",
         "aliases": [
-          "psychologist"
+          "stockton"
         ],
         "tier": 60
       },
       {
-        "text": "Real estate agent",
+        "text": "Arthur Middleton",
         "aliases": [
-          "realtor"
+          "middleton"
         ],
         "tier": 60
       },
       {
-        "text": "Photographer",
-        "tier": 60
-      },
-      {
-        "text": "Truck driver",
+        "text": "Thomas Lynch Jr.",
         "aliases": [
-          "trucker"
+          "thomas lynch",
+          "lynch"
         ],
         "tier": 60
       },
       {
-        "text": "Soldier",
+        "text": "William Paca",
+        "aliases": [
+          "paca"
+        ],
         "tier": 60
       },
       {
-        "text": "Waiter",
+        "text": "Lyman Hall",
+        "tier": 60
+      },
+      {
+        "text": "Roger Sherman",
         "aliases": [
-          "waitress",
-          "server"
+          "sherman"
         ],
         "tier": 30
       },
       {
-        "text": "Electrician",
-        "tier": 30
-      },
-      {
-        "text": "Plumber",
-        "tier": 30
-      },
-      {
-        "text": "Farmer",
-        "tier": 30
-      },
-      {
-        "text": "Scientist",
-        "tier": 30
-      },
-      {
-        "text": "Engineer",
-        "tier": 30
-      },
-      {
-        "text": "Dentist",
-        "tier": 30
-      },
-      {
-        "text": "Mechanic",
-        "tier": 30
-      },
-      {
-        "text": "Pilot",
-        "tier": 30
-      },
-      {
-        "text": "Lawyer",
+        "text": "Benjamin Rush",
         "aliases": [
-          "attorney"
+          "rush",
+          "ben rush"
         ],
         "tier": 30
       },
       {
-        "text": "Firefighter",
+        "text": "Richard Henry Lee",
+        "tier": 30
+      },
+      {
+        "text": "Elbridge Gerry",
         "aliases": [
-          "fireman"
+          "gerry"
         ],
         "tier": 30
       },
       {
-        "text": "Police officer",
+        "text": "John Witherspoon",
         "aliases": [
-          "policeman",
-          "cop"
+          "witherspoon"
         ],
         "tier": 30
       },
       {
-        "text": "Nurse",
-        "tier": 30
-      },
-      {
-        "text": "Chef",
+        "text": "Caesar Rodney",
         "aliases": [
-          "cook"
+          "rodney"
         ],
         "tier": 30
       },
       {
-        "text": "Manager",
+        "text": "Robert Morris",
         "tier": 30
       },
       {
-        "text": "Secretary",
+        "text": "Charles Carroll",
         "aliases": [
-          "receptionist"
+          "charles carroll of carrollton",
+          "carroll"
         ],
         "tier": 30
       },
       {
-        "text": "Artist",
-        "tier": 30
-      },
-      {
-        "text": "Writer",
+        "text": "Samuel Chase",
         "aliases": [
-          "author"
+          "chase"
         ],
         "tier": 30
       },
       {
-        "text": "Salesman",
+        "text": "Edward Rutledge",
         "aliases": [
-          "salesperson"
+          "rutledge"
         ],
         "tier": 30
       },
       {
-        "text": "Construction worker",
+        "text": "Francis Hopkinson",
+        "aliases": [
+          "hopkinson"
+        ],
         "tier": 30
       },
       {
-        "text": "CEO",
+        "text": "George Wythe",
         "aliases": [
-          "chief executive officer"
+          "wythe"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Josiah Bartlett",
+        "aliases": [
+          "bartlett"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Stephen Hopkins",
+        "tier": 30
+      },
+      {
+        "text": "Benjamin Harrison",
+        "aliases": [
+          "benjamin harrison v"
         ],
         "tier": 15
       },
       {
-        "text": "Astronaut",
-        "tier": 15
-      },
-      {
-        "text": "YouTuber",
+        "text": "Thomas Jefferson",
         "aliases": [
-          "influencer"
+          "jefferson"
         ],
-        "tier": 15
-      },
-      {
-        "text": "President",
-        "tier": 15
-      },
-      {
-        "text": "Teacher",
         "tier": 10
       },
       {
-        "text": "Doctor",
+        "text": "Benjamin Franklin",
+        "aliases": [
+          "franklin",
+          "ben franklin"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "John Hancock",
+        "aliases": [
+          "hancock"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "John Adams",
+        "tier": 10
+      },
+      {
+        "text": "Samuel Adams",
+        "aliases": [
+          "sam adams"
+        ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Student",
-      "Retired",
-      "Unemployed",
-      "Job",
-      "Boss",
-      "Worker"
-    ]
+      "George Washington",
+      "Alexander Hamilton",
+      "James Madison",
+      "Paul Revere",
+      "Patrick Henry",
+      "John Jay",
+      "Thomas Paine",
+      "James Monroe",
+      "Betsy Ross",
+      "Benedict Arnold",
+      "Abraham Lincoln",
+      "Gouverneur Morris",
+      "John Quincy Adams"
+    ],
+    "notes": "The 56 men who signed the Declaration in 1776. Washington, Hamilton and Madison did not sign it."
   },
   {
     "id": "q0016",
@@ -2855,419 +2614,511 @@
   },
   {
     "id": "q0017",
-    "prompt": "Name a word ending in \"-ology\"",
-    "category": "words-language",
+    "prompt": "Name a book of the Bible",
+    "category": "history",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Oology",
+        "text": "Habakkuk",
+        "aliases": [
+          "habbakuk",
+          "habakuk",
+          "habbakkuk"
+        ],
         "tier": 100
       },
       {
-        "text": "Ichthyology",
+        "text": "Obadiah",
         "tier": 85
       },
       {
-        "text": "Herpetology",
+        "text": "Nahum",
         "tier": 85
       },
       {
-        "text": "Ornithology",
-        "tier": 85
-      },
-      {
-        "text": "Entomology",
-        "tier": 85
-      },
-      {
-        "text": "Etymology",
-        "tier": 85
-      },
-      {
-        "text": "Mycology",
-        "tier": 85
-      },
-      {
-        "text": "Seismology",
-        "tier": 85
-      },
-      {
-        "text": "Volcanology",
+        "text": "Zephaniah",
         "aliases": [
-          "vulcanology"
+          "zepheniah"
         ],
         "tier": 85
       },
       {
-        "text": "Cosmology",
-        "tier": 85
-      },
-      {
-        "text": "Epistemology",
-        "tier": 85
-      },
-      {
-        "text": "Eschatology",
-        "tier": 85
-      },
-      {
-        "text": "Phrenology",
-        "tier": 85
-      },
-      {
-        "text": "Oncology",
-        "tier": 85
-      },
-      {
-        "text": "Gerontology",
-        "tier": 85
-      },
-      {
-        "text": "Graphology",
-        "tier": 85
-      },
-      {
-        "text": "Numerology",
-        "tier": 85
-      },
-      {
-        "text": "Musicology",
-        "tier": 85
-      },
-      {
-        "text": "Mixology",
-        "tier": 85
-      },
-      {
-        "text": "Toxicology",
-        "tier": 85
-      },
-      {
-        "text": "Hydrology",
-        "tier": 85
-      },
-      {
-        "text": "Ophthalmology",
+        "text": "Haggai",
         "aliases": [
-          "opthalmology"
+          "hagai"
         ],
         "tier": 85
       },
       {
-        "text": "Tautology",
-        "tier": 85
-      },
-      {
-        "text": "Chronology",
-        "tier": 85
-      },
-      {
-        "text": "Ufology",
-        "tier": 85
-      },
-      {
-        "text": "Speleology",
-        "tier": 85
-      },
-      {
-        "text": "Cryptozoology",
-        "tier": 85
-      },
-      {
-        "text": "Hematology",
+        "text": "3 John",
         "aliases": [
-          "haematology"
+          "3john",
+          "iii john",
+          "third john",
+          "3rd john"
         ],
         "tier": 85
       },
       {
-        "text": "Endocrinology",
-        "tier": 85
-      },
-      {
-        "text": "Gastroenterology",
-        "tier": 85
-      },
-      {
-        "text": "Urology",
-        "tier": 85
-      },
-      {
-        "text": "Nephrology",
-        "tier": 85
-      },
-      {
-        "text": "Pharmacology",
-        "tier": 85
-      },
-      {
-        "text": "Embryology",
-        "tier": 85
-      },
-      {
-        "text": "Histology",
-        "tier": 85
-      },
-      {
-        "text": "Cytology",
-        "tier": 85
-      },
-      {
-        "text": "Morphology",
-        "tier": 85
-      },
-      {
-        "text": "Phonology",
-        "tier": 85
-      },
-      {
-        "text": "Ontology",
-        "tier": 85
-      },
-      {
-        "text": "Teleology",
-        "tier": 85
-      },
-      {
-        "text": "Deontology",
-        "tier": 85
-      },
-      {
-        "text": "Climatology",
-        "tier": 85
-      },
-      {
-        "text": "Glaciology",
-        "tier": 85
-      },
-      {
-        "text": "Limnology",
-        "tier": 85
-      },
-      {
-        "text": "Oceanology",
-        "tier": 85
-      },
-      {
-        "text": "Petrology",
-        "tier": 85
-      },
-      {
-        "text": "Paleontology",
-        "tier": 85
-      },
-      {
-        "text": "Primatology",
-        "tier": 85
-      },
-      {
-        "text": "Mammalogy",
-        "tier": 85
-      },
-      {
-        "text": "Malacology",
-        "tier": 85
-      },
-      {
-        "text": "Lepidopterology",
-        "tier": 85
-      },
-      {
-        "text": "Dendrology",
-        "tier": 85
-      },
-      {
-        "text": "Campanology",
-        "tier": 85
-      },
-      {
-        "text": "Kinesiology",
-        "tier": 85
-      },
-      {
-        "text": "Audiology",
-        "tier": 85
-      },
-      {
-        "text": "Rheumatology",
-        "tier": 85
-      },
-      {
-        "text": "Immunology",
-        "tier": 85
-      },
-      {
-        "text": "Virology",
-        "tier": 85
-      },
-      {
-        "text": "Bacteriology",
-        "tier": 85
-      },
-      {
-        "text": "Parasitology",
-        "tier": 85
-      },
-      {
-        "text": "Futurology",
-        "tier": 85
-      },
-      {
-        "text": "Egyptology",
-        "tier": 85
-      },
-      {
-        "text": "Assyriology",
-        "tier": 85
-      },
-      {
-        "text": "Sinology",
-        "tier": 85
-      },
-      {
-        "text": "Methodology",
-        "tier": 85
-      },
-      {
-        "text": "Terminology",
-        "tier": 85
-      },
-      {
-        "text": "Ideology",
-        "tier": 85
-      },
-      {
-        "text": "Phraseology",
-        "tier": 85
-      },
-      {
-        "text": "Doxology",
-        "tier": 85
-      },
-      {
-        "text": "Hagiology",
-        "tier": 85
-      },
-      {
-        "text": "Dermatology",
-        "tier": 60
-      },
-      {
-        "text": "Cardiology",
-        "tier": 60
-      },
-      {
-        "text": "Neurology",
-        "tier": 60
-      },
-      {
-        "text": "Radiology",
-        "tier": 60
-      },
-      {
-        "text": "Pathology",
-        "tier": 60
-      },
-      {
-        "text": "Meteorology",
-        "tier": 60
-      },
-      {
-        "text": "Criminology",
-        "tier": 60
-      },
-      {
-        "text": "Anthropology",
-        "tier": 60
-      },
-      {
-        "text": "Archaeology",
+        "text": "2 John",
         "aliases": [
-          "archeology"
+          "2john",
+          "ii john",
+          "second john",
+          "2nd john"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Philemon",
+        "aliases": [
+          "philemen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tobit",
+        "tier": 85
+      },
+      {
+        "text": "Judith",
+        "tier": 85
+      },
+      {
+        "text": "1 Maccabees",
+        "aliases": [
+          "1maccabees",
+          "i maccabees",
+          "first maccabees",
+          "1st maccabees",
+          "maccabees"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Maccabees",
+        "aliases": [
+          "2maccabees",
+          "ii maccabees",
+          "second maccabees",
+          "2nd maccabees"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wisdom of Solomon",
+        "aliases": [
+          "wisdom",
+          "book of wisdom"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sirach",
+        "aliases": [
+          "ecclesiasticus",
+          "ben sira"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Baruch",
+        "tier": 85
+      },
+      {
+        "text": "Enoch",
+        "aliases": [
+          "1 enoch",
+          "book of enoch"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jubilees",
+        "aliases": [
+          "book of jubilees"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Thessalonians",
+        "aliases": [
+          "2thessalonians",
+          "ii thessalonians",
+          "second thessalonians",
+          "2nd thessalonians"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Chronicles",
+        "aliases": [
+          "2chronicles",
+          "ii chronicles",
+          "second chronicles",
+          "2nd chronicles"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Micah",
+        "tier": 85
+      },
+      {
+        "text": "Malachi",
+        "aliases": [
+          "malachai"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Zechariah",
+        "aliases": [
+          "zachariah",
+          "zecharia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jude",
+        "tier": 85
+      },
+      {
+        "text": "Hosea",
+        "tier": 60
+      },
+      {
+        "text": "Joel",
+        "tier": 60
+      },
+      {
+        "text": "Amos",
+        "tier": 60
+      },
+      {
+        "text": "Lamentations",
+        "tier": 60
+      },
+      {
+        "text": "Nehemiah",
+        "tier": 60
+      },
+      {
+        "text": "Ezra",
+        "tier": 60
+      },
+      {
+        "text": "Titus",
+        "tier": 60
+      },
+      {
+        "text": "1 Thessalonians",
+        "aliases": [
+          "1thessalonians",
+          "i thessalonians",
+          "first thessalonians",
+          "1st thessalonians",
+          "thessalonians"
         ],
         "tier": 60
       },
       {
-        "text": "Theology",
+        "text": "2 Timothy",
+        "aliases": [
+          "2timothy",
+          "ii timothy",
+          "second timothy",
+          "2nd timothy"
+        ],
         "tier": 60
       },
       {
-        "text": "Physiology",
+        "text": "2 Peter",
+        "aliases": [
+          "2peter",
+          "ii peter",
+          "second peter",
+          "2nd peter"
+        ],
         "tier": 60
       },
       {
-        "text": "Microbiology",
+        "text": "1 John",
+        "aliases": [
+          "1john",
+          "i john",
+          "first john",
+          "1st john"
+        ],
         "tier": 60
       },
       {
-        "text": "Technology",
+        "text": "1 Chronicles",
+        "aliases": [
+          "chronicles",
+          "1chronicles",
+          "i chronicles",
+          "first chronicles",
+          "1st chronicles"
+        ],
         "tier": 60
       },
       {
-        "text": "Mythology",
+        "text": "2 Kings",
+        "aliases": [
+          "2kings",
+          "ii kings",
+          "second kings",
+          "2nd kings"
+        ],
         "tier": 60
       },
       {
-        "text": "Astrobiology",
+        "text": "2 Samuel",
+        "aliases": [
+          "2samuel",
+          "ii samuel",
+          "second samuel",
+          "2nd samuel"
+        ],
         "tier": 60
       },
       {
-        "text": "Apology",
+        "text": "2 Corinthians",
+        "aliases": [
+          "2corinthians",
+          "ii corinthians",
+          "second corinthians",
+          "2nd corinthians"
+        ],
         "tier": 60
       },
       {
-        "text": "Anthology",
+        "text": "Colossians",
         "tier": 60
       },
       {
-        "text": "Ecology",
+        "text": "Philippians",
+        "aliases": [
+          "phillipians"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ezekiel",
+        "aliases": [
+          "ezekial"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Galatians",
+        "tier": 60
+      },
+      {
+        "text": "Ephesians",
+        "tier": 60
+      },
+      {
+        "text": "Hebrews",
+        "tier": 60
+      },
+      {
+        "text": "James",
+        "tier": 60
+      },
+      {
+        "text": "1 Timothy",
+        "aliases": [
+          "1timothy",
+          "i timothy",
+          "first timothy",
+          "1st timothy",
+          "timothy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "1 Peter",
+        "aliases": [
+          "1peter",
+          "i peter",
+          "first peter",
+          "1st peter",
+          "peter"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Leviticus",
         "tier": 30
       },
       {
-        "text": "Geology",
+        "text": "Deuteronomy",
+        "aliases": [
+          "deuteronomie"
+        ],
         "tier": 30
       },
       {
-        "text": "Astrology",
+        "text": "Joshua",
         "tier": 30
       },
       {
-        "text": "Zoology",
+        "text": "Ruth",
         "tier": 30
       },
       {
-        "text": "Sociology",
+        "text": "1 Samuel",
+        "aliases": [
+          "1samuel",
+          "i samuel",
+          "first samuel",
+          "1st samuel",
+          "samuel"
+        ],
         "tier": 30
       },
       {
-        "text": "Scientology",
+        "text": "1 Kings",
+        "aliases": [
+          "kings",
+          "1kings",
+          "i kings",
+          "first kings",
+          "1st kings"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Esther",
+        "tier": 30
+      },
+      {
+        "text": "Proverbs",
+        "tier": 30
+      },
+      {
+        "text": "Ecclesiastes",
+        "tier": 30
+      },
+      {
+        "text": "Song of Solomon",
+        "aliases": [
+          "song of songs",
+          "canticles",
+          "song of songs of solomon"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Isaiah",
+        "tier": 30
+      },
+      {
+        "text": "Jeremiah",
+        "tier": 30
+      },
+      {
+        "text": "Daniel",
+        "tier": 30
+      },
+      {
+        "text": "Jonah",
+        "tier": 30
+      },
+      {
+        "text": "Romans",
+        "tier": 30
+      },
+      {
+        "text": "1 Corinthians",
+        "aliases": [
+          "corinthians",
+          "1corinthians",
+          "i corinthians",
+          "first corinthians",
+          "1st corinthians"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Numbers",
         "tier": 15
       },
       {
-        "text": "Ology",
+        "text": "Job",
         "tier": 15
       },
       {
-        "text": "Biology",
+        "text": "Acts",
+        "aliases": [
+          "acts of the apostles"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Judges",
+        "tier": 15
+      },
+      {
+        "text": "Genesis",
         "tier": 10
       },
       {
-        "text": "Psychology",
+        "text": "Exodus",
+        "tier": 10
+      },
+      {
+        "text": "Revelation",
+        "aliases": [
+          "revelations",
+          "book of revelation",
+          "apocalypse"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Psalms",
+        "aliases": [
+          "psalm"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Matthew",
+        "tier": 10
+      },
+      {
+        "text": "Mark",
+        "tier": 10
+      },
+      {
+        "text": "Luke",
+        "tier": 10
+      },
+      {
+        "text": "John",
+        "aliases": [
+          "gospel of john"
+        ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Trilogy",
-      "Analogy",
-      "Genealogy",
-      "Astronomy",
-      "Geography",
-      "Mineralogy",
-      "Anatomy",
-      "Chemistry",
-      "Physics"
+      "Book of Mormon",
+      "Gospel of Thomas",
+      "Gospel of Judas",
+      "Moses",
+      "Noah",
+      "Abraham",
+      "David",
+      "Solomon",
+      "Gospel",
+      "Quran",
+      "Torah"
     ],
-    "notes": "Must end in \"-ology\" exactly, so trilogy, analogy and genealogy don't count."
+    "notes": "The 66 books of the Protestant Bible, plus the Catholic and Orthodox extra books (Tobit, Maccabees...). Numbered books count separately."
   },
   {
     "id": "q0018",

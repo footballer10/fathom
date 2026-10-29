@@ -806,737 +806,389 @@
   },
   {
     "id": "q0023",
-    "prompt": "Name a US city",
+    "prompt": "Name a US state capital",
     "category": "geography",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Truth or Consequences",
+        "text": "Pierre",
+        "aliases": [
+          "pier",
+          "peer"
+        ],
         "tier": 100
       },
       {
-        "text": "New York City",
+        "text": "Montpelier",
         "aliases": [
-          "new york",
-          "nyc"
+          "montpellier",
+          "montpelliar"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Los Angeles",
+        "text": "Augusta",
         "aliases": [
-          "la",
-          "l.a."
+          "augusta maine"
         ],
-        "tier": 10
-      },
-      {
-        "text": "Chicago",
-        "tier": 10
-      },
-      {
-        "text": "Houston",
-        "tier": 10
-      },
-      {
-        "text": "Miami",
-        "tier": 10
-      },
-      {
-        "text": "San Francisco",
-        "aliases": [
-          "sf",
-          "san fran"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Las Vegas",
-        "aliases": [
-          "vegas"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Seattle",
-        "tier": 10
-      },
-      {
-        "text": "Hollywood",
-        "tier": 15
-      },
-      {
-        "text": "Washington DC",
-        "aliases": [
-          "washington d.c.",
-          "dc",
-          "washington"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Springfield",
-        "tier": 15
-      },
-      {
-        "text": "Kansas City",
-        "tier": 15
-      },
-      {
-        "text": "Boston",
-        "tier": 30
-      },
-      {
-        "text": "Phoenix",
-        "tier": 30
-      },
-      {
-        "text": "Dallas",
-        "tier": 30
-      },
-      {
-        "text": "Philadelphia",
-        "aliases": [
-          "philly"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Atlanta",
-        "tier": 30
-      },
-      {
-        "text": "Denver",
-        "tier": 30
-      },
-      {
-        "text": "San Diego",
-        "tier": 30
-      },
-      {
-        "text": "Detroit",
-        "tier": 30
-      },
-      {
-        "text": "New Orleans",
-        "aliases": [
-          "nola"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Orlando",
-        "tier": 30
-      },
-      {
-        "text": "Austin",
-        "tier": 30
-      },
-      {
-        "text": "Nashville",
-        "tier": 30
-      },
-      {
-        "text": "Portland",
-        "tier": 30
-      },
-      {
-        "text": "Salt Lake City",
-        "aliases": [
-          "salt lake"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Minneapolis",
-        "tier": 30
-      },
-      {
-        "text": "Baltimore",
-        "tier": 30
-      },
-      {
-        "text": "Pittsburgh",
-        "aliases": [
-          "pittsburg"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cleveland",
-        "tier": 30
-      },
-      {
-        "text": "St. Louis",
-        "aliases": [
-          "saint louis",
-          "st louis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Honolulu",
-        "tier": 30
-      },
-      {
-        "text": "Charlotte",
-        "tier": 30
-      },
-      {
-        "text": "Indianapolis",
-        "tier": 30
-      },
-      {
-        "text": "Memphis",
-        "tier": 30
-      },
-      {
-        "text": "San Antonio",
-        "tier": 60
-      },
-      {
-        "text": "San Jose",
-        "tier": 60
-      },
-      {
-        "text": "Jacksonville",
-        "tier": 60
-      },
-      {
-        "text": "Columbus",
-        "tier": 60
-      },
-      {
-        "text": "Fort Worth",
-        "tier": 60
-      },
-      {
-        "text": "El Paso",
-        "tier": 60
-      },
-      {
-        "text": "Oklahoma City",
-        "aliases": [
-          "okc"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Milwaukee",
-        "tier": 60
-      },
-      {
-        "text": "Albuquerque",
-        "aliases": [
-          "albuquerqe"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Tucson",
-        "tier": 60
-      },
-      {
-        "text": "Sacramento",
-        "tier": 60
-      },
-      {
-        "text": "Omaha",
-        "tier": 60
-      },
-      {
-        "text": "Raleigh",
-        "tier": 60
-      },
-      {
-        "text": "Tampa",
-        "tier": 60
-      },
-      {
-        "text": "Cincinnati",
-        "aliases": [
-          "cincinatti"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Buffalo",
-        "tier": 60
-      },
-      {
-        "text": "Anchorage",
-        "tier": 60
-      },
-      {
-        "text": "Boise",
-        "tier": 60
-      },
-      {
-        "text": "Louisville",
-        "tier": 60
-      },
-      {
-        "text": "Richmond",
-        "tier": 60
-      },
-      {
-        "text": "Reno",
-        "tier": 60
-      },
-      {
-        "text": "Santa Fe",
-        "tier": 60
-      },
-      {
-        "text": "Savannah",
-        "tier": 60
-      },
-      {
-        "text": "Charleston",
-        "tier": 60
-      },
-      {
-        "text": "Birmingham",
-        "tier": 60
-      },
-      {
-        "text": "Hartford",
-        "tier": 60
-      },
-      {
-        "text": "Providence",
-        "tier": 60
-      },
-      {
-        "text": "Madison",
-        "tier": 60
-      },
-      {
-        "text": "Des Moines",
-        "tier": 60
-      },
-      {
-        "text": "Oakland",
-        "tier": 60
-      },
-      {
-        "text": "Long Beach",
-        "tier": 60
-      },
-      {
-        "text": "Miami Beach",
-        "tier": 60
-      },
-      {
-        "text": "Palm Springs",
-        "tier": 60
-      },
-      {
-        "text": "Key West",
-        "tier": 60
-      },
-      {
-        "text": "Scottsdale",
-        "tier": 60
-      },
-      {
-        "text": "Boulder",
-        "tier": 60
-      },
-      {
-        "text": "Aspen",
-        "tier": 60
-      },
-      {
-        "text": "Colorado Springs",
-        "tier": 60
-      },
-      {
-        "text": "Spokane",
-        "tier": 60
-      },
-      {
-        "text": "Tacoma",
-        "tier": 60
-      },
-      {
-        "text": "Anaheim",
-        "tier": 60
-      },
-      {
-        "text": "Manhattan",
-        "tier": 85
-      },
-      {
-        "text": "Fresno",
-        "tier": 85
-      },
-      {
-        "text": "Mesa",
-        "tier": 85
-      },
-      {
-        "text": "Tulsa",
-        "tier": 85
-      },
-      {
-        "text": "Wichita",
-        "tier": 85
-      },
-      {
-        "text": "Arlington",
-        "tier": 85
-      },
-      {
-        "text": "Bakersfield",
-        "tier": 85
-      },
-      {
-        "text": "Aurora",
-        "tier": 85
-      },
-      {
-        "text": "Corpus Christi",
-        "tier": 85
-      },
-      {
-        "text": "Lexington",
-        "tier": 85
-      },
-      {
-        "text": "Stockton",
-        "tier": 85
-      },
-      {
-        "text": "Henderson",
-        "tier": 85
-      },
-      {
-        "text": "Plano",
-        "tier": 85
-      },
-      {
-        "text": "Lincoln",
-        "tier": 85
-      },
-      {
-        "text": "Durham",
-        "tier": 85
-      },
-      {
-        "text": "Chandler",
-        "tier": 85
-      },
-      {
-        "text": "Laredo",
-        "tier": 85
-      },
-      {
-        "text": "Lubbock",
-        "tier": 85
-      },
-      {
-        "text": "Irvine",
-        "tier": 85
-      },
-      {
-        "text": "Greensboro",
-        "tier": 85
-      },
-      {
-        "text": "Norfolk",
-        "tier": 85
-      },
-      {
-        "text": "Toledo",
-        "tier": 85
-      },
-      {
-        "text": "Baton Rouge",
-        "tier": 85
-      },
-      {
-        "text": "Montgomery",
-        "tier": 85
-      },
-      {
-        "text": "Jackson",
-        "tier": 85
-      },
-      {
-        "text": "Little Rock",
-        "tier": 85
-      },
-      {
-        "text": "Juneau",
-        "tier": 85
-      },
-      {
-        "text": "Fargo",
-        "tier": 85
-      },
-      {
-        "text": "Sioux Falls",
-        "tier": 85
-      },
-      {
-        "text": "Billings",
-        "tier": 85
-      },
-      {
-        "text": "Cheyenne",
-        "tier": 85
-      },
-      {
-        "text": "Burlington",
-        "tier": 85
-      },
-      {
-        "text": "Portsmouth",
-        "tier": 85
-      },
-      {
-        "text": "Bangor",
-        "tier": 85
-      },
-      {
-        "text": "Duluth",
-        "tier": 85
-      },
-      {
-        "text": "Green Bay",
-        "tier": 85
-      },
-      {
-        "text": "Ann Arbor",
-        "tier": 85
-      },
-      {
-        "text": "Grand Rapids",
-        "tier": 85
-      },
-      {
-        "text": "Peoria",
-        "tier": 85
-      },
-      {
-        "text": "Syracuse",
-        "tier": 85
-      },
-      {
-        "text": "Rochester",
-        "tier": 85
-      },
-      {
-        "text": "Albany",
-        "tier": 85
-      },
-      {
-        "text": "Trenton",
-        "tier": 85
-      },
-      {
-        "text": "Newark",
-        "tier": 85
-      },
-      {
-        "text": "Atlantic City",
-        "tier": 85
-      },
-      {
-        "text": "Wilmington",
-        "tier": 85
-      },
-      {
-        "text": "Dover",
-        "tier": 85
-      },
-      {
-        "text": "Annapolis",
-        "tier": 85
-      },
-      {
-        "text": "Topeka",
-        "tier": 85
-      },
-      {
-        "text": "Pierre",
         "tier": 85
       },
       {
         "text": "Bismarck",
+        "aliases": [
+          "bismark"
+        ],
         "tier": 85
       },
       {
-        "text": "Helena",
+        "text": "Frankfort",
+        "aliases": [
+          "frankfurt kentucky"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jefferson City",
+        "aliases": [
+          "jeff city",
+          "jefferson"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dover",
+        "aliases": [
+          "dover delaware"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Harrisburg",
+        "aliases": [
+          "harrisburgh"
+        ],
         "tier": 85
       },
       {
         "text": "Olympia",
+        "aliases": [
+          "olympia washington"
+        ],
         "tier": 85
       },
       {
-        "text": "Salem",
+        "text": "Helena",
+        "aliases": [
+          "helena montana"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cheyenne",
+        "aliases": [
+          "cheyene",
+          "cheyanne"
+        ],
         "tier": 85
       },
       {
         "text": "Carson City",
+        "aliases": [
+          "carson"
+        ],
         "tier": 85
+      },
+      {
+        "text": "Lansing",
+        "aliases": [
+          "lansing michigan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Trenton",
+        "aliases": [
+          "trenton nj"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Annapolis",
+        "aliases": [
+          "anapolis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Juneau",
+        "aliases": [
+          "juno",
+          "juneu"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Concord",
+        "aliases": [
+          "concorde"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Topeka",
+        "aliases": [
+          "topika"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lincoln",
+        "tier": 60
+      },
+      {
+        "text": "Columbia",
+        "aliases": [
+          "columbia sc"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Charleston",
+        "aliases": [
+          "charleston wv",
+          "charleston west virginia"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Albany",
+        "aliases": [
+          "albeny"
+        ],
+        "tier": 60
       },
       {
         "text": "Tallahassee",
-        "tier": 85
+        "aliases": [
+          "tallahasee",
+          "tallahasse",
+          "talahassee"
+        ],
+        "tier": 60
       },
       {
-        "text": "Gainesville",
-        "tier": 85
+        "text": "Boise",
+        "aliases": [
+          "boise idaho",
+          "boisie"
+        ],
+        "tier": 60
       },
       {
-        "text": "Pensacola",
-        "tier": 85
+        "text": "Salem",
+        "aliases": [
+          "salem oregon"
+        ],
+        "tier": 60
       },
       {
-        "text": "Mobile",
-        "tier": 85
+        "text": "Santa Fe",
+        "aliases": [
+          "santa fe nm"
+        ],
+        "tier": 60
       },
       {
-        "text": "Biloxi",
-        "tier": 85
+        "text": "Hartford",
+        "aliases": [
+          "hartford ct"
+        ],
+        "tier": 60
       },
       {
-        "text": "Chattanooga",
-        "tier": 85
+        "text": "Montgomery",
+        "aliases": [
+          "montgomery alabama"
+        ],
+        "tier": 60
       },
       {
-        "text": "Knoxville",
-        "tier": 85
+        "text": "Providence",
+        "aliases": [
+          "providence ri"
+        ],
+        "tier": 60
       },
       {
-        "text": "Asheville",
-        "tier": 85
+        "text": "Des Moines",
+        "aliases": [
+          "des moine",
+          "demoines",
+          "desmoines"
+        ],
+        "tier": 60
       },
       {
-        "text": "Roanoke",
-        "tier": 85
+        "text": "Salt Lake City",
+        "aliases": [
+          "salt lake",
+          "slc"
+        ],
+        "tier": 30
       },
       {
-        "text": "Flagstaff",
-        "tier": 85
+        "text": "Raleigh",
+        "aliases": [
+          "raliegh",
+          "raleigh nc"
+        ],
+        "tier": 30
       },
       {
-        "text": "Sedona",
-        "tier": 85
+        "text": "Richmond",
+        "aliases": [
+          "richmond va"
+        ],
+        "tier": 30
       },
       {
-        "text": "Yuma",
-        "tier": 85
+        "text": "Little Rock",
+        "aliases": [
+          "littlerock"
+        ],
+        "tier": 30
       },
       {
-        "text": "Amarillo",
-        "tier": 85
+        "text": "Oklahoma City",
+        "aliases": [
+          "okc",
+          "oklahoma"
+        ],
+        "tier": 30
       },
       {
-        "text": "Galveston",
-        "tier": 85
+        "text": "Indianapolis",
+        "aliases": [
+          "indy",
+          "indianopolis"
+        ],
+        "tier": 30
       },
       {
-        "text": "Waco",
-        "tier": 85
+        "text": "Madison",
+        "aliases": [
+          "madison wisconsin"
+        ],
+        "tier": 30
       },
       {
-        "text": "Provo",
-        "tier": 85
+        "text": "Baton Rouge",
+        "aliases": [
+          "batonrouge",
+          "baton rogue"
+        ],
+        "tier": 30
       },
       {
-        "text": "Ogden",
-        "tier": 85
+        "text": "Columbus",
+        "aliases": [
+          "columbus ohio"
+        ],
+        "tier": 30
       },
       {
-        "text": "Missoula",
-        "tier": 85
+        "text": "Saint Paul",
+        "aliases": [
+          "st paul",
+          "st. paul",
+          "saint paul mn"
+        ],
+        "tier": 30
       },
       {
-        "text": "Bozeman",
-        "tier": 85
+        "text": "Springfield",
+        "aliases": [
+          "springfield illinois"
+        ],
+        "tier": 15
       },
       {
-        "text": "Jackson Hole",
-        "tier": 85
+        "text": "Jackson",
+        "aliases": [
+          "jackson mississippi"
+        ],
+        "tier": 15
       },
       {
-        "text": "Napa",
-        "tier": 85
+        "text": "Boston",
+        "tier": 10
       },
       {
-        "text": "Malibu",
-        "tier": 85
+        "text": "Atlanta",
+        "aliases": [
+          "atl"
+        ],
+        "tier": 10
       },
       {
-        "text": "Pasadena",
-        "tier": 85
+        "text": "Denver",
+        "tier": 10
       },
       {
-        "text": "Santa Barbara",
-        "tier": 85
+        "text": "Austin",
+        "tier": 10
       },
       {
-        "text": "Santa Monica",
-        "tier": 85
+        "text": "Phoenix",
+        "aliases": [
+          "pheonix"
+        ],
+        "tier": 10
       },
       {
-        "text": "Berkeley",
-        "tier": 85
+        "text": "Sacramento",
+        "aliases": [
+          "sacremento",
+          "sacramento ca"
+        ],
+        "tier": 10
       },
       {
-        "text": "Palo Alto",
-        "tier": 85
+        "text": "Nashville",
+        "tier": 10
       },
       {
-        "text": "Eugene",
-        "tier": 85
-      },
-      {
-        "text": "Fairbanks",
-        "tier": 85
-      },
-      {
-        "text": "Hilo",
-        "tier": 85
-      },
-      {
-        "text": "Kalamazoo",
-        "tier": 85
-      },
-      {
-        "text": "Walla Walla",
-        "tier": 85
-      },
-      {
-        "text": "Kokomo",
-        "tier": 85
-      },
-      {
-        "text": "Tombstone",
-        "tier": 85
-      },
-      {
-        "text": "Roswell",
-        "tier": 85
-      },
-      {
-        "text": "Hershey",
-        "tier": 85
+        "text": "Honolulu",
+        "aliases": [
+          "honalulu",
+          "honolulo"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
-      "Toronto",
-      "Vancouver",
-      "Montreal",
-      "Mexico City",
-      "London",
-      "Texas",
-      "California"
-    ]
+      "Washington",
+      "Washington DC",
+      "New York City",
+      "Los Angeles",
+      "Chicago",
+      "Seattle",
+      "Philadelphia",
+      "Miami",
+      "Las Vegas",
+      "Portland",
+      "Houston",
+      "San Francisco",
+      "Detroit",
+      "Dallas",
+      "New Orleans",
+      "Anchorage",
+      "Kansas City",
+      "Charlotte",
+      "Louisville",
+      "Milwaukee"
+    ],
+    "notes": "The 50 state capital cities. Washington, D.C. is the national capital, not a state capital."
   },
   {
     "id": "q0024",
@@ -1547,337 +1199,6 @@
       {
         "text": "Skeleton",
         "tier": 100
-      },
-      {
-        "text": "Swimming",
-        "tier": 10
-      },
-      {
-        "text": "Gymnastics",
-        "tier": 10
-      },
-      {
-        "text": "Track and field",
-        "aliases": [
-          "athletics",
-          "track"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Basketball",
-        "tier": 10
-      },
-      {
-        "text": "Soccer",
-        "aliases": [
-          "football"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Figure skating",
-        "aliases": [
-          "skating",
-          "ice skating"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Ice hockey",
-        "aliases": [
-          "hockey"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Polo",
-        "tier": 15
-      },
-      {
-        "text": "Breakdancing",
-        "aliases": [
-          "breaking"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Skateboarding",
-        "tier": 15
-      },
-      {
-        "text": "Surfing",
-        "tier": 15
-      },
-      {
-        "text": "Tug of war",
-        "tier": 15
-      },
-      {
-        "text": "Volleyball",
-        "tier": 30
-      },
-      {
-        "text": "Tennis",
-        "tier": 30
-      },
-      {
-        "text": "Boxing",
-        "tier": 30
-      },
-      {
-        "text": "Wrestling",
-        "tier": 30
-      },
-      {
-        "text": "Diving",
-        "tier": 30
-      },
-      {
-        "text": "Snowboarding",
-        "tier": 30
-      },
-      {
-        "text": "Skiing",
-        "aliases": [
-          "alpine skiing",
-          "downhill skiing"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cycling",
-        "aliases": [
-          "biking"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Rowing",
-        "tier": 30
-      },
-      {
-        "text": "Fencing",
-        "tier": 30
-      },
-      {
-        "text": "Archery",
-        "tier": 30
-      },
-      {
-        "text": "Golf",
-        "tier": 30
-      },
-      {
-        "text": "Speed skating",
-        "tier": 30
-      },
-      {
-        "text": "Bobsled",
-        "aliases": [
-          "bobsleigh"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Curling",
-        "tier": 30
-      },
-      {
-        "text": "Weightlifting",
-        "tier": 30
-      },
-      {
-        "text": "Judo",
-        "tier": 30
-      },
-      {
-        "text": "Taekwondo",
-        "tier": 30
-      },
-      {
-        "text": "Beach volleyball",
-        "tier": 30
-      },
-      {
-        "text": "Marathon",
-        "tier": 30
-      },
-      {
-        "text": "Water polo",
-        "tier": 60
-      },
-      {
-        "text": "Table tennis",
-        "aliases": [
-          "ping pong"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Badminton",
-        "tier": 60
-      },
-      {
-        "text": "Handball",
-        "tier": 60
-      },
-      {
-        "text": "Equestrian",
-        "aliases": [
-          "horse riding",
-          "dressage",
-          "show jumping"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sailing",
-        "tier": 60
-      },
-      {
-        "text": "Canoeing",
-        "aliases": [
-          "kayaking",
-          "canoe",
-          "kayak"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Triathlon",
-        "tier": 60
-      },
-      {
-        "text": "Field hockey",
-        "tier": 60
-      },
-      {
-        "text": "Luge",
-        "tier": 60
-      },
-      {
-        "text": "Biathlon",
-        "tier": 60
-      },
-      {
-        "text": "Ski jumping",
-        "tier": 60
-      },
-      {
-        "text": "Cross-country skiing",
-        "aliases": [
-          "cross country skiing",
-          "nordic skiing"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Shooting",
-        "tier": 60
-      },
-      {
-        "text": "Rugby sevens",
-        "aliases": [
-          "rugby"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Softball",
-        "tier": 60
-      },
-      {
-        "text": "Baseball",
-        "tier": 60
-      },
-      {
-        "text": "Synchronized swimming",
-        "aliases": [
-          "artistic swimming"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Rhythmic gymnastics",
-        "tier": 60
-      },
-      {
-        "text": "Trampoline",
-        "tier": 60
-      },
-      {
-        "text": "Pole vault",
-        "tier": 60
-      },
-      {
-        "text": "Javelin",
-        "tier": 60
-      },
-      {
-        "text": "Shot put",
-        "tier": 60
-      },
-      {
-        "text": "Discus",
-        "tier": 60
-      },
-      {
-        "text": "High jump",
-        "tier": 60
-      },
-      {
-        "text": "Long jump",
-        "tier": 60
-      },
-      {
-        "text": "Hurdles",
-        "tier": 60
-      },
-      {
-        "text": "Decathlon",
-        "tier": 60
-      },
-      {
-        "text": "Heptathlon",
-        "tier": 60
-      },
-      {
-        "text": "Sprinting",
-        "aliases": [
-          "100 meters"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mountain biking",
-        "tier": 60
-      },
-      {
-        "text": "BMX",
-        "tier": 60
-      },
-      {
-        "text": "Sport climbing",
-        "aliases": [
-          "climbing",
-          "rock climbing"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Freestyle skiing",
-        "aliases": [
-          "moguls"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Short track speed skating",
-        "aliases": [
-          "short track"
-        ],
-        "tier": 60
       },
       {
         "text": "Modern pentathlon",
@@ -2076,6 +1397,337 @@
           "three on three basketball"
         ],
         "tier": 85
+      },
+      {
+        "text": "Water polo",
+        "tier": 60
+      },
+      {
+        "text": "Table tennis",
+        "aliases": [
+          "ping pong"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Badminton",
+        "tier": 60
+      },
+      {
+        "text": "Handball",
+        "tier": 60
+      },
+      {
+        "text": "Equestrian",
+        "aliases": [
+          "horse riding",
+          "dressage",
+          "show jumping"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sailing",
+        "tier": 60
+      },
+      {
+        "text": "Canoeing",
+        "aliases": [
+          "kayaking",
+          "canoe",
+          "kayak"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Triathlon",
+        "tier": 60
+      },
+      {
+        "text": "Field hockey",
+        "tier": 60
+      },
+      {
+        "text": "Luge",
+        "tier": 60
+      },
+      {
+        "text": "Biathlon",
+        "tier": 60
+      },
+      {
+        "text": "Ski jumping",
+        "tier": 60
+      },
+      {
+        "text": "Cross-country skiing",
+        "aliases": [
+          "cross country skiing",
+          "nordic skiing"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Shooting",
+        "tier": 60
+      },
+      {
+        "text": "Rugby sevens",
+        "aliases": [
+          "rugby"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Softball",
+        "tier": 60
+      },
+      {
+        "text": "Baseball",
+        "tier": 60
+      },
+      {
+        "text": "Synchronized swimming",
+        "aliases": [
+          "artistic swimming"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rhythmic gymnastics",
+        "tier": 60
+      },
+      {
+        "text": "Trampoline",
+        "tier": 60
+      },
+      {
+        "text": "Pole vault",
+        "tier": 60
+      },
+      {
+        "text": "Javelin",
+        "tier": 60
+      },
+      {
+        "text": "Shot put",
+        "tier": 60
+      },
+      {
+        "text": "Discus",
+        "tier": 60
+      },
+      {
+        "text": "High jump",
+        "tier": 60
+      },
+      {
+        "text": "Long jump",
+        "tier": 60
+      },
+      {
+        "text": "Hurdles",
+        "tier": 60
+      },
+      {
+        "text": "Decathlon",
+        "tier": 60
+      },
+      {
+        "text": "Heptathlon",
+        "tier": 60
+      },
+      {
+        "text": "Sprinting",
+        "aliases": [
+          "100 meters"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mountain biking",
+        "tier": 60
+      },
+      {
+        "text": "BMX",
+        "tier": 60
+      },
+      {
+        "text": "Sport climbing",
+        "aliases": [
+          "climbing",
+          "rock climbing"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Freestyle skiing",
+        "aliases": [
+          "moguls"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Short track speed skating",
+        "aliases": [
+          "short track"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Volleyball",
+        "tier": 30
+      },
+      {
+        "text": "Tennis",
+        "tier": 30
+      },
+      {
+        "text": "Boxing",
+        "tier": 30
+      },
+      {
+        "text": "Wrestling",
+        "tier": 30
+      },
+      {
+        "text": "Diving",
+        "tier": 30
+      },
+      {
+        "text": "Snowboarding",
+        "tier": 30
+      },
+      {
+        "text": "Skiing",
+        "aliases": [
+          "alpine skiing",
+          "downhill skiing"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cycling",
+        "aliases": [
+          "biking"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rowing",
+        "tier": 30
+      },
+      {
+        "text": "Fencing",
+        "tier": 30
+      },
+      {
+        "text": "Archery",
+        "tier": 30
+      },
+      {
+        "text": "Golf",
+        "tier": 30
+      },
+      {
+        "text": "Speed skating",
+        "tier": 30
+      },
+      {
+        "text": "Bobsled",
+        "aliases": [
+          "bobsleigh"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Curling",
+        "tier": 30
+      },
+      {
+        "text": "Weightlifting",
+        "tier": 30
+      },
+      {
+        "text": "Judo",
+        "tier": 30
+      },
+      {
+        "text": "Taekwondo",
+        "tier": 30
+      },
+      {
+        "text": "Beach volleyball",
+        "tier": 30
+      },
+      {
+        "text": "Marathon",
+        "tier": 30
+      },
+      {
+        "text": "Polo",
+        "tier": 15
+      },
+      {
+        "text": "Breakdancing",
+        "aliases": [
+          "breaking"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Skateboarding",
+        "tier": 15
+      },
+      {
+        "text": "Surfing",
+        "tier": 15
+      },
+      {
+        "text": "Tug of war",
+        "tier": 15
+      },
+      {
+        "text": "Swimming",
+        "tier": 10
+      },
+      {
+        "text": "Gymnastics",
+        "tier": 10
+      },
+      {
+        "text": "Track and field",
+        "aliases": [
+          "athletics",
+          "track"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Basketball",
+        "tier": 10
+      },
+      {
+        "text": "Soccer",
+        "aliases": [
+          "football"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Figure skating",
+        "aliases": [
+          "skating",
+          "ice skating"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ice hockey",
+        "aliases": [
+          "hockey"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -2099,325 +1751,6 @@
       {
         "text": "Polka",
         "tier": 100
-      },
-      {
-        "text": "Rock",
-        "aliases": [
-          "rock and roll",
-          "rock n roll"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Pop",
-        "tier": 10
-      },
-      {
-        "text": "Country",
-        "tier": 10
-      },
-      {
-        "text": "Rap",
-        "tier": 10
-      },
-      {
-        "text": "Hip hop",
-        "aliases": [
-          "hip-hop"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Jazz",
-        "tier": 10
-      },
-      {
-        "text": "Classical",
-        "tier": 10
-      },
-      {
-        "text": "R&B",
-        "aliases": [
-          "rnb",
-          "rhythm and blues"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Elevator music",
-        "aliases": [
-          "muzak"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Yacht rock",
-        "tier": 15
-      },
-      {
-        "text": "Nightcore",
-        "tier": 15
-      },
-      {
-        "text": "Blues",
-        "tier": 30
-      },
-      {
-        "text": "Metal",
-        "aliases": [
-          "heavy metal"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Punk",
-        "aliases": [
-          "punk rock"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "EDM",
-        "aliases": [
-          "electronic",
-          "electronic dance music"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Reggae",
-        "tier": 30
-      },
-      {
-        "text": "Gospel",
-        "tier": 30
-      },
-      {
-        "text": "Folk",
-        "tier": 30
-      },
-      {
-        "text": "Soul",
-        "tier": 30
-      },
-      {
-        "text": "Funk",
-        "tier": 30
-      },
-      {
-        "text": "Disco",
-        "tier": 30
-      },
-      {
-        "text": "Techno",
-        "tier": 30
-      },
-      {
-        "text": "Indie",
-        "aliases": [
-          "indie rock"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Alternative",
-        "aliases": [
-          "alt rock",
-          "alternative rock"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Grunge",
-        "tier": 30
-      },
-      {
-        "text": "Opera",
-        "tier": 30
-      },
-      {
-        "text": "Latin",
-        "tier": 30
-      },
-      {
-        "text": "K-pop",
-        "aliases": [
-          "kpop"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bluegrass",
-        "tier": 30
-      },
-      {
-        "text": "House",
-        "aliases": [
-          "house music"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Dubstep",
-        "tier": 60
-      },
-      {
-        "text": "Trap",
-        "tier": 60
-      },
-      {
-        "text": "Salsa",
-        "tier": 60
-      },
-      {
-        "text": "Reggaeton",
-        "tier": 60
-      },
-      {
-        "text": "Ska",
-        "tier": 60
-      },
-      {
-        "text": "Emo",
-        "tier": 60
-      },
-      {
-        "text": "Hard rock",
-        "tier": 60
-      },
-      {
-        "text": "Soft rock",
-        "tier": 60
-      },
-      {
-        "text": "Classic rock",
-        "tier": 60
-      },
-      {
-        "text": "Punk pop",
-        "aliases": [
-          "pop punk"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Swing",
-        "tier": 60
-      },
-      {
-        "text": "Big band",
-        "tier": 60
-      },
-      {
-        "text": "Motown",
-        "tier": 60
-      },
-      {
-        "text": "Doo-wop",
-        "aliases": [
-          "doo wop"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Rockabilly",
-        "tier": 60
-      },
-      {
-        "text": "Bossa nova",
-        "tier": 60
-      },
-      {
-        "text": "Samba",
-        "tier": 60
-      },
-      {
-        "text": "Tango",
-        "tier": 60
-      },
-      {
-        "text": "Flamenco",
-        "tier": 60
-      },
-      {
-        "text": "Mariachi",
-        "tier": 60
-      },
-      {
-        "text": "Afrobeat",
-        "aliases": [
-          "afrobeats"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lo-fi",
-        "aliases": [
-          "lofi"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Trance",
-        "tier": 60
-      },
-      {
-        "text": "Drum and bass",
-        "aliases": [
-          "dnb"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Ambient",
-        "tier": 60
-      },
-      {
-        "text": "New wave",
-        "tier": 60
-      },
-      {
-        "text": "Synthpop",
-        "aliases": [
-          "synth pop",
-          "synthwave"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Grime",
-        "tier": 60
-      },
-      {
-        "text": "Drill",
-        "tier": 60
-      },
-      {
-        "text": "Musical theater",
-        "aliases": [
-          "show tunes",
-          "broadway"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "A cappella",
-        "aliases": [
-          "acapella"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Christian rock",
-        "tier": 60
-      },
-      {
-        "text": "Death metal",
-        "tier": 60
-      },
-      {
-        "text": "Barbershop",
-        "tier": 60
       },
       {
         "text": "Zydeco",
@@ -2706,6 +2039,325 @@
       {
         "text": "Mumble rap",
         "tier": 85
+      },
+      {
+        "text": "House",
+        "aliases": [
+          "house music"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dubstep",
+        "tier": 60
+      },
+      {
+        "text": "Trap",
+        "tier": 60
+      },
+      {
+        "text": "Salsa",
+        "tier": 60
+      },
+      {
+        "text": "Reggaeton",
+        "tier": 60
+      },
+      {
+        "text": "Ska",
+        "tier": 60
+      },
+      {
+        "text": "Emo",
+        "tier": 60
+      },
+      {
+        "text": "Hard rock",
+        "tier": 60
+      },
+      {
+        "text": "Soft rock",
+        "tier": 60
+      },
+      {
+        "text": "Classic rock",
+        "tier": 60
+      },
+      {
+        "text": "Punk pop",
+        "aliases": [
+          "pop punk"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Swing",
+        "tier": 60
+      },
+      {
+        "text": "Big band",
+        "tier": 60
+      },
+      {
+        "text": "Motown",
+        "tier": 60
+      },
+      {
+        "text": "Doo-wop",
+        "aliases": [
+          "doo wop"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rockabilly",
+        "tier": 60
+      },
+      {
+        "text": "Bossa nova",
+        "tier": 60
+      },
+      {
+        "text": "Samba",
+        "tier": 60
+      },
+      {
+        "text": "Tango",
+        "tier": 60
+      },
+      {
+        "text": "Flamenco",
+        "tier": 60
+      },
+      {
+        "text": "Mariachi",
+        "tier": 60
+      },
+      {
+        "text": "Afrobeat",
+        "aliases": [
+          "afrobeats"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lo-fi",
+        "aliases": [
+          "lofi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Trance",
+        "tier": 60
+      },
+      {
+        "text": "Drum and bass",
+        "aliases": [
+          "dnb"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ambient",
+        "tier": 60
+      },
+      {
+        "text": "New wave",
+        "tier": 60
+      },
+      {
+        "text": "Synthpop",
+        "aliases": [
+          "synth pop",
+          "synthwave"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Grime",
+        "tier": 60
+      },
+      {
+        "text": "Drill",
+        "tier": 60
+      },
+      {
+        "text": "Musical theater",
+        "aliases": [
+          "show tunes",
+          "broadway"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "A cappella",
+        "aliases": [
+          "acapella"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Christian rock",
+        "tier": 60
+      },
+      {
+        "text": "Death metal",
+        "tier": 60
+      },
+      {
+        "text": "Barbershop",
+        "tier": 60
+      },
+      {
+        "text": "Blues",
+        "tier": 30
+      },
+      {
+        "text": "Metal",
+        "aliases": [
+          "heavy metal"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Punk",
+        "aliases": [
+          "punk rock"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "EDM",
+        "aliases": [
+          "electronic",
+          "electronic dance music"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Reggae",
+        "tier": 30
+      },
+      {
+        "text": "Gospel",
+        "tier": 30
+      },
+      {
+        "text": "Folk",
+        "tier": 30
+      },
+      {
+        "text": "Soul",
+        "tier": 30
+      },
+      {
+        "text": "Funk",
+        "tier": 30
+      },
+      {
+        "text": "Disco",
+        "tier": 30
+      },
+      {
+        "text": "Techno",
+        "tier": 30
+      },
+      {
+        "text": "Indie",
+        "aliases": [
+          "indie rock"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Alternative",
+        "aliases": [
+          "alt rock",
+          "alternative rock"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Grunge",
+        "tier": 30
+      },
+      {
+        "text": "Opera",
+        "tier": 30
+      },
+      {
+        "text": "Latin",
+        "tier": 30
+      },
+      {
+        "text": "K-pop",
+        "aliases": [
+          "kpop"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bluegrass",
+        "tier": 30
+      },
+      {
+        "text": "Elevator music",
+        "aliases": [
+          "muzak"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Yacht rock",
+        "tier": 15
+      },
+      {
+        "text": "Nightcore",
+        "tier": 15
+      },
+      {
+        "text": "Rock",
+        "aliases": [
+          "rock and roll",
+          "rock n roll"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pop",
+        "tier": 10
+      },
+      {
+        "text": "Country",
+        "tier": 10
+      },
+      {
+        "text": "Rap",
+        "tier": 10
+      },
+      {
+        "text": "Hip hop",
+        "aliases": [
+          "hip-hop"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Jazz",
+        "tier": 10
+      },
+      {
+        "text": "Classical",
+        "tier": 10
+      },
+      {
+        "text": "R&B",
+        "aliases": [
+          "rnb",
+          "rhythm and blues"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -2729,365 +2381,6 @@
           "black cauldron"
         ],
         "tier": 100
-      },
-      {
-        "text": "The Lion King",
-        "aliases": [
-          "lion king"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Frozen",
-        "tier": 10
-      },
-      {
-        "text": "Toy Story",
-        "tier": 10
-      },
-      {
-        "text": "Finding Nemo",
-        "tier": 10
-      },
-      {
-        "text": "Aladdin",
-        "tier": 10
-      },
-      {
-        "text": "The Little Mermaid",
-        "aliases": [
-          "little mermaid"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Beauty and the Beast",
-        "tier": 10
-      },
-      {
-        "text": "Moana",
-        "tier": 10
-      },
-      {
-        "text": "Mary Poppins",
-        "tier": 15
-      },
-      {
-        "text": "Who Framed Roger Rabbit",
-        "tier": 15
-      },
-      {
-        "text": "Fantasia 2000",
-        "tier": 15
-      },
-      {
-        "text": "Cinderella",
-        "tier": 30
-      },
-      {
-        "text": "Snow White",
-        "aliases": [
-          "snow white and the seven dwarfs"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sleeping Beauty",
-        "tier": 30
-      },
-      {
-        "text": "Mulan",
-        "tier": 30
-      },
-      {
-        "text": "Tangled",
-        "tier": 30
-      },
-      {
-        "text": "Up",
-        "tier": 30
-      },
-      {
-        "text": "Cars",
-        "tier": 30
-      },
-      {
-        "text": "Inside Out",
-        "tier": 30
-      },
-      {
-        "text": "Coco",
-        "tier": 30
-      },
-      {
-        "text": "Monsters Inc",
-        "aliases": [
-          "monsters, inc."
-        ],
-        "tier": 30
-      },
-      {
-        "text": "The Incredibles",
-        "aliases": [
-          "incredibles"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ratatouille",
-        "tier": 30
-      },
-      {
-        "text": "WALL-E",
-        "aliases": [
-          "wall e",
-          "walle"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Zootopia",
-        "tier": 30
-      },
-      {
-        "text": "Encanto",
-        "tier": 30
-      },
-      {
-        "text": "Bambi",
-        "tier": 30
-      },
-      {
-        "text": "Dumbo",
-        "tier": 30
-      },
-      {
-        "text": "Pinocchio",
-        "tier": 30
-      },
-      {
-        "text": "Peter Pan",
-        "tier": 30
-      },
-      {
-        "text": "Lilo & Stitch",
-        "aliases": [
-          "lilo and stitch"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pocahontas",
-        "tier": 30
-      },
-      {
-        "text": "Hercules",
-        "tier": 30
-      },
-      {
-        "text": "Tarzan",
-        "tier": 30
-      },
-      {
-        "text": "Frozen 2",
-        "aliases": [
-          "frozen ii"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Toy Story 2",
-        "tier": 30
-      },
-      {
-        "text": "Toy Story 3",
-        "tier": 30
-      },
-      {
-        "text": "Toy Story 4",
-        "tier": 30
-      },
-      {
-        "text": "Finding Dory",
-        "tier": 30
-      },
-      {
-        "text": "Big Hero 6",
-        "tier": 30
-      },
-      {
-        "text": "Wreck-It Ralph",
-        "aliases": [
-          "wreck it ralph"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "101 Dalmatians",
-        "aliases": [
-          "one hundred and one dalmatians"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lady and the Tramp",
-        "tier": 60
-      },
-      {
-        "text": "The Jungle Book",
-        "aliases": [
-          "jungle book"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Alice in Wonderland",
-        "tier": 60
-      },
-      {
-        "text": "Fantasia",
-        "tier": 60
-      },
-      {
-        "text": "The Aristocats",
-        "aliases": [
-          "aristocats"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Robin Hood",
-        "tier": 60
-      },
-      {
-        "text": "The Hunchback of Notre Dame",
-        "aliases": [
-          "hunchback of notre dame"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "The Emperor's New Groove",
-        "aliases": [
-          "emperors new groove"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Brave",
-        "tier": 60
-      },
-      {
-        "text": "A Bug's Life",
-        "aliases": [
-          "a bugs life",
-          "bugs life"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cars 2",
-        "tier": 60
-      },
-      {
-        "text": "Cars 3",
-        "tier": 60
-      },
-      {
-        "text": "Monsters University",
-        "tier": 60
-      },
-      {
-        "text": "Incredibles 2",
-        "tier": 60
-      },
-      {
-        "text": "Ralph Breaks the Internet",
-        "tier": 60
-      },
-      {
-        "text": "Raya and the Last Dragon",
-        "aliases": [
-          "raya"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Luca",
-        "tier": 60
-      },
-      {
-        "text": "Turning Red",
-        "tier": 60
-      },
-      {
-        "text": "Soul",
-        "tier": 60
-      },
-      {
-        "text": "Onward",
-        "tier": 60
-      },
-      {
-        "text": "Elemental",
-        "tier": 60
-      },
-      {
-        "text": "Wish",
-        "tier": 60
-      },
-      {
-        "text": "Inside Out 2",
-        "tier": 60
-      },
-      {
-        "text": "Moana 2",
-        "tier": 60
-      },
-      {
-        "text": "Bolt",
-        "tier": 60
-      },
-      {
-        "text": "The Princess and the Frog",
-        "aliases": [
-          "princess and the frog"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "The Good Dinosaur",
-        "aliases": [
-          "good dinosaur"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lightyear",
-        "tier": 60
-      },
-      {
-        "text": "Atlantis",
-        "aliases": [
-          "atlantis the lost empire"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Treasure Planet",
-        "tier": 60
-      },
-      {
-        "text": "Chicken Little",
-        "tier": 60
-      },
-      {
-        "text": "Meet the Robinsons",
-        "tier": 60
-      },
-      {
-        "text": "Brother Bear",
-        "tier": 60
       },
       {
         "text": "The Sword in the Stone",
@@ -3266,6 +2559,365 @@
       {
         "text": "Tinker Bell",
         "tier": 85
+      },
+      {
+        "text": "101 Dalmatians",
+        "aliases": [
+          "one hundred and one dalmatians"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lady and the Tramp",
+        "tier": 60
+      },
+      {
+        "text": "The Jungle Book",
+        "aliases": [
+          "jungle book"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alice in Wonderland",
+        "tier": 60
+      },
+      {
+        "text": "Fantasia",
+        "tier": 60
+      },
+      {
+        "text": "The Aristocats",
+        "aliases": [
+          "aristocats"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Robin Hood",
+        "tier": 60
+      },
+      {
+        "text": "The Hunchback of Notre Dame",
+        "aliases": [
+          "hunchback of notre dame"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "The Emperor's New Groove",
+        "aliases": [
+          "emperors new groove"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Brave",
+        "tier": 60
+      },
+      {
+        "text": "A Bug's Life",
+        "aliases": [
+          "a bugs life",
+          "bugs life"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cars 2",
+        "tier": 60
+      },
+      {
+        "text": "Cars 3",
+        "tier": 60
+      },
+      {
+        "text": "Monsters University",
+        "tier": 60
+      },
+      {
+        "text": "Incredibles 2",
+        "tier": 60
+      },
+      {
+        "text": "Ralph Breaks the Internet",
+        "tier": 60
+      },
+      {
+        "text": "Raya and the Last Dragon",
+        "aliases": [
+          "raya"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Luca",
+        "tier": 60
+      },
+      {
+        "text": "Turning Red",
+        "tier": 60
+      },
+      {
+        "text": "Soul",
+        "tier": 60
+      },
+      {
+        "text": "Onward",
+        "tier": 60
+      },
+      {
+        "text": "Elemental",
+        "tier": 60
+      },
+      {
+        "text": "Wish",
+        "tier": 60
+      },
+      {
+        "text": "Inside Out 2",
+        "tier": 60
+      },
+      {
+        "text": "Moana 2",
+        "tier": 60
+      },
+      {
+        "text": "Bolt",
+        "tier": 60
+      },
+      {
+        "text": "The Princess and the Frog",
+        "aliases": [
+          "princess and the frog"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "The Good Dinosaur",
+        "aliases": [
+          "good dinosaur"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lightyear",
+        "tier": 60
+      },
+      {
+        "text": "Atlantis",
+        "aliases": [
+          "atlantis the lost empire"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Treasure Planet",
+        "tier": 60
+      },
+      {
+        "text": "Chicken Little",
+        "tier": 60
+      },
+      {
+        "text": "Meet the Robinsons",
+        "tier": 60
+      },
+      {
+        "text": "Brother Bear",
+        "tier": 60
+      },
+      {
+        "text": "Cinderella",
+        "tier": 30
+      },
+      {
+        "text": "Snow White",
+        "aliases": [
+          "snow white and the seven dwarfs"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sleeping Beauty",
+        "tier": 30
+      },
+      {
+        "text": "Mulan",
+        "tier": 30
+      },
+      {
+        "text": "Tangled",
+        "tier": 30
+      },
+      {
+        "text": "Up",
+        "tier": 30
+      },
+      {
+        "text": "Cars",
+        "tier": 30
+      },
+      {
+        "text": "Inside Out",
+        "tier": 30
+      },
+      {
+        "text": "Coco",
+        "tier": 30
+      },
+      {
+        "text": "Monsters Inc",
+        "aliases": [
+          "monsters, inc."
+        ],
+        "tier": 30
+      },
+      {
+        "text": "The Incredibles",
+        "aliases": [
+          "incredibles"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ratatouille",
+        "tier": 30
+      },
+      {
+        "text": "WALL-E",
+        "aliases": [
+          "wall e",
+          "walle"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Zootopia",
+        "tier": 30
+      },
+      {
+        "text": "Encanto",
+        "tier": 30
+      },
+      {
+        "text": "Bambi",
+        "tier": 30
+      },
+      {
+        "text": "Dumbo",
+        "tier": 30
+      },
+      {
+        "text": "Pinocchio",
+        "tier": 30
+      },
+      {
+        "text": "Peter Pan",
+        "tier": 30
+      },
+      {
+        "text": "Lilo & Stitch",
+        "aliases": [
+          "lilo and stitch"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pocahontas",
+        "tier": 30
+      },
+      {
+        "text": "Hercules",
+        "tier": 30
+      },
+      {
+        "text": "Tarzan",
+        "tier": 30
+      },
+      {
+        "text": "Frozen 2",
+        "aliases": [
+          "frozen ii"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Toy Story 2",
+        "tier": 30
+      },
+      {
+        "text": "Toy Story 3",
+        "tier": 30
+      },
+      {
+        "text": "Toy Story 4",
+        "tier": 30
+      },
+      {
+        "text": "Finding Dory",
+        "tier": 30
+      },
+      {
+        "text": "Big Hero 6",
+        "tier": 30
+      },
+      {
+        "text": "Wreck-It Ralph",
+        "aliases": [
+          "wreck it ralph"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mary Poppins",
+        "tier": 15
+      },
+      {
+        "text": "Who Framed Roger Rabbit",
+        "tier": 15
+      },
+      {
+        "text": "Fantasia 2000",
+        "tier": 15
+      },
+      {
+        "text": "The Lion King",
+        "aliases": [
+          "lion king"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Frozen",
+        "tier": 10
+      },
+      {
+        "text": "Toy Story",
+        "tier": 10
+      },
+      {
+        "text": "Finding Nemo",
+        "tier": 10
+      },
+      {
+        "text": "Aladdin",
+        "tier": 10
+      },
+      {
+        "text": "The Little Mermaid",
+        "aliases": [
+          "little mermaid"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Beauty and the Beast",
+        "tier": 10
+      },
+      {
+        "text": "Moana",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -3291,231 +2943,6 @@
       {
         "text": "Laundromat",
         "tier": 100
-      },
-      {
-        "text": "Hat",
-        "tier": 10
-      },
-      {
-        "text": "Bat",
-        "tier": 10
-      },
-      {
-        "text": "Rat",
-        "tier": 10
-      },
-      {
-        "text": "Mat",
-        "tier": 10
-      },
-      {
-        "text": "Sat",
-        "tier": 10
-      },
-      {
-        "text": "Fat",
-        "tier": 10
-      },
-      {
-        "text": "Pat",
-        "tier": 10
-      },
-      {
-        "text": "Chat",
-        "tier": 10
-      },
-      {
-        "text": "Acrobat",
-        "tier": 15
-      },
-      {
-        "text": "Diplomat",
-        "tier": 15
-      },
-      {
-        "text": "Cat",
-        "tier": 15
-      },
-      {
-        "text": "Splat",
-        "tier": 30
-      },
-      {
-        "text": "That",
-        "tier": 30
-      },
-      {
-        "text": "Flat",
-        "tier": 30
-      },
-      {
-        "text": "Brat",
-        "tier": 30
-      },
-      {
-        "text": "Gnat",
-        "tier": 30
-      },
-      {
-        "text": "Spat",
-        "tier": 30
-      },
-      {
-        "text": "Vat",
-        "tier": 30
-      },
-      {
-        "text": "Tat",
-        "tier": 30
-      },
-      {
-        "text": "Drat",
-        "tier": 30
-      },
-      {
-        "text": "Scat",
-        "tier": 30
-      },
-      {
-        "text": "Slat",
-        "tier": 30
-      },
-      {
-        "text": "Stat",
-        "tier": 30
-      },
-      {
-        "text": "Format",
-        "tier": 30
-      },
-      {
-        "text": "Combat",
-        "tier": 30
-      },
-      {
-        "text": "Doormat",
-        "tier": 30
-      },
-      {
-        "text": "Bobcat",
-        "tier": 30
-      },
-      {
-        "text": "Wombat",
-        "tier": 30
-      },
-      {
-        "text": "Thermostat",
-        "tier": 60
-      },
-      {
-        "text": "Habitat",
-        "tier": 60
-      },
-      {
-        "text": "Democrat",
-        "tier": 60
-      },
-      {
-        "text": "Aristocrat",
-        "tier": 60
-      },
-      {
-        "text": "Bureaucrat",
-        "tier": 60
-      },
-      {
-        "text": "Copycat",
-        "tier": 60
-      },
-      {
-        "text": "Fiat",
-        "tier": 60
-      },
-      {
-        "text": "Begat",
-        "tier": 60
-      },
-      {
-        "text": "Chitchat",
-        "tier": 60
-      },
-      {
-        "text": "Tomcat",
-        "tier": 60
-      },
-      {
-        "text": "Hellcat",
-        "tier": 60
-      },
-      {
-        "text": "Wildcat",
-        "tier": 60
-      },
-      {
-        "text": "Polecat",
-        "tier": 60
-      },
-      {
-        "text": "Fatcat",
-        "aliases": [
-          "fat cat"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Nonfat",
-        "tier": 60
-      },
-      {
-        "text": "Placemat",
-        "tier": 60
-      },
-      {
-        "text": "Bath mat",
-        "tier": 60
-      },
-      {
-        "text": "Top hat",
-        "tier": 60
-      },
-      {
-        "text": "Hard hat",
-        "tier": 60
-      },
-      {
-        "text": "Sun hat",
-        "tier": 60
-      },
-      {
-        "text": "Fruit bat",
-        "tier": 60
-      },
-      {
-        "text": "Vampire bat",
-        "tier": 60
-      },
-      {
-        "text": "Muskrat",
-        "tier": 60
-      },
-      {
-        "text": "Packrat",
-        "aliases": [
-          "pack rat"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lab rat",
-        "tier": 60
-      },
-      {
-        "text": "Mudflat",
-        "aliases": [
-          "mud flat"
-        ],
-        "tier": 60
       },
       {
         "text": "Plat",
@@ -3633,6 +3060,231 @@
       {
         "text": "Cowpat",
         "tier": 85
+      },
+      {
+        "text": "Thermostat",
+        "tier": 60
+      },
+      {
+        "text": "Habitat",
+        "tier": 60
+      },
+      {
+        "text": "Democrat",
+        "tier": 60
+      },
+      {
+        "text": "Aristocrat",
+        "tier": 60
+      },
+      {
+        "text": "Bureaucrat",
+        "tier": 60
+      },
+      {
+        "text": "Copycat",
+        "tier": 60
+      },
+      {
+        "text": "Fiat",
+        "tier": 60
+      },
+      {
+        "text": "Begat",
+        "tier": 60
+      },
+      {
+        "text": "Chitchat",
+        "tier": 60
+      },
+      {
+        "text": "Tomcat",
+        "tier": 60
+      },
+      {
+        "text": "Hellcat",
+        "tier": 60
+      },
+      {
+        "text": "Wildcat",
+        "tier": 60
+      },
+      {
+        "text": "Polecat",
+        "tier": 60
+      },
+      {
+        "text": "Fatcat",
+        "aliases": [
+          "fat cat"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Nonfat",
+        "tier": 60
+      },
+      {
+        "text": "Placemat",
+        "tier": 60
+      },
+      {
+        "text": "Bath mat",
+        "tier": 60
+      },
+      {
+        "text": "Top hat",
+        "tier": 60
+      },
+      {
+        "text": "Hard hat",
+        "tier": 60
+      },
+      {
+        "text": "Sun hat",
+        "tier": 60
+      },
+      {
+        "text": "Fruit bat",
+        "tier": 60
+      },
+      {
+        "text": "Vampire bat",
+        "tier": 60
+      },
+      {
+        "text": "Muskrat",
+        "tier": 60
+      },
+      {
+        "text": "Packrat",
+        "aliases": [
+          "pack rat"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lab rat",
+        "tier": 60
+      },
+      {
+        "text": "Mudflat",
+        "aliases": [
+          "mud flat"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Splat",
+        "tier": 30
+      },
+      {
+        "text": "That",
+        "tier": 30
+      },
+      {
+        "text": "Flat",
+        "tier": 30
+      },
+      {
+        "text": "Brat",
+        "tier": 30
+      },
+      {
+        "text": "Gnat",
+        "tier": 30
+      },
+      {
+        "text": "Spat",
+        "tier": 30
+      },
+      {
+        "text": "Vat",
+        "tier": 30
+      },
+      {
+        "text": "Tat",
+        "tier": 30
+      },
+      {
+        "text": "Drat",
+        "tier": 30
+      },
+      {
+        "text": "Scat",
+        "tier": 30
+      },
+      {
+        "text": "Slat",
+        "tier": 30
+      },
+      {
+        "text": "Stat",
+        "tier": 30
+      },
+      {
+        "text": "Format",
+        "tier": 30
+      },
+      {
+        "text": "Combat",
+        "tier": 30
+      },
+      {
+        "text": "Doormat",
+        "tier": 30
+      },
+      {
+        "text": "Bobcat",
+        "tier": 30
+      },
+      {
+        "text": "Wombat",
+        "tier": 30
+      },
+      {
+        "text": "Acrobat",
+        "tier": 15
+      },
+      {
+        "text": "Diplomat",
+        "tier": 15
+      },
+      {
+        "text": "Cat",
+        "tier": 15
+      },
+      {
+        "text": "Hat",
+        "tier": 10
+      },
+      {
+        "text": "Bat",
+        "tier": 10
+      },
+      {
+        "text": "Rat",
+        "tier": 10
+      },
+      {
+        "text": "Mat",
+        "tier": 10
+      },
+      {
+        "text": "Sat",
+        "tier": 10
+      },
+      {
+        "text": "Fat",
+        "tier": 10
+      },
+      {
+        "text": "Pat",
+        "tier": 10
+      },
+      {
+        "text": "Chat",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -3654,202 +3306,6 @@
       {
         "text": "Tanzanite",
         "tier": 100
-      },
-      {
-        "text": "Diamond",
-        "tier": 10
-      },
-      {
-        "text": "Ruby",
-        "tier": 10
-      },
-      {
-        "text": "Emerald",
-        "tier": 10
-      },
-      {
-        "text": "Sapphire",
-        "tier": 10
-      },
-      {
-        "text": "Pearl",
-        "tier": 10
-      },
-      {
-        "text": "Rhinestone",
-        "tier": 15
-      },
-      {
-        "text": "Cubic zirconia",
-        "aliases": [
-          "cz"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Amethyst",
-        "tier": 30
-      },
-      {
-        "text": "Topaz",
-        "tier": 30
-      },
-      {
-        "text": "Opal",
-        "tier": 30
-      },
-      {
-        "text": "Jade",
-        "tier": 30
-      },
-      {
-        "text": "Garnet",
-        "tier": 30
-      },
-      {
-        "text": "Turquoise",
-        "aliases": [
-          "turquois"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Onyx",
-        "tier": 30
-      },
-      {
-        "text": "Quartz",
-        "aliases": [
-          "rose quartz"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Aquamarine",
-        "tier": 30
-      },
-      {
-        "text": "Amber",
-        "tier": 30
-      },
-      {
-        "text": "Jasper",
-        "tier": 30
-      },
-      {
-        "text": "Crystal",
-        "tier": 30
-      },
-      {
-        "text": "Peridot",
-        "tier": 30
-      },
-      {
-        "text": "Lapis lazuli",
-        "aliases": [
-          "lapis"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Moonstone",
-        "tier": 60
-      },
-      {
-        "text": "Obsidian",
-        "tier": 60
-      },
-      {
-        "text": "Citrine",
-        "tier": 60
-      },
-      {
-        "text": "Tourmaline",
-        "tier": 60
-      },
-      {
-        "text": "Tiger's eye",
-        "aliases": [
-          "tigers eye",
-          "tiger eye"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Coral",
-        "tier": 60
-      },
-      {
-        "text": "Alexandrite",
-        "tier": 60
-      },
-      {
-        "text": "Agate",
-        "tier": 60
-      },
-      {
-        "text": "Malachite",
-        "tier": 60
-      },
-      {
-        "text": "Bloodstone",
-        "tier": 60
-      },
-      {
-        "text": "Hematite",
-        "tier": 60
-      },
-      {
-        "text": "Jet",
-        "tier": 60
-      },
-      {
-        "text": "Zircon",
-        "tier": 60
-      },
-      {
-        "text": "Morganite",
-        "tier": 60
-      },
-      {
-        "text": "Spinel",
-        "tier": 60
-      },
-      {
-        "text": "Moissanite",
-        "tier": 60
-      },
-      {
-        "text": "Black opal",
-        "tier": 60
-      },
-      {
-        "text": "Star sapphire",
-        "tier": 60
-      },
-      {
-        "text": "Pink diamond",
-        "tier": 60
-      },
-      {
-        "text": "Blue diamond",
-        "tier": 60
-      },
-      {
-        "text": "Mother of pearl",
-        "tier": 60
-      },
-      {
-        "text": "Carnelian",
-        "tier": 60
-      },
-      {
-        "text": "Rhodochrosite",
-        "tier": 60
-      },
-      {
-        "text": "Labradorite",
-        "tier": 60
       },
       {
         "text": "Beryl",
@@ -4039,6 +3495,202 @@
       {
         "text": "Celestite",
         "tier": 85
+      },
+      {
+        "text": "Lapis lazuli",
+        "aliases": [
+          "lapis"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Moonstone",
+        "tier": 60
+      },
+      {
+        "text": "Obsidian",
+        "tier": 60
+      },
+      {
+        "text": "Citrine",
+        "tier": 60
+      },
+      {
+        "text": "Tourmaline",
+        "tier": 60
+      },
+      {
+        "text": "Tiger's eye",
+        "aliases": [
+          "tigers eye",
+          "tiger eye"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Coral",
+        "tier": 60
+      },
+      {
+        "text": "Alexandrite",
+        "tier": 60
+      },
+      {
+        "text": "Agate",
+        "tier": 60
+      },
+      {
+        "text": "Malachite",
+        "tier": 60
+      },
+      {
+        "text": "Bloodstone",
+        "tier": 60
+      },
+      {
+        "text": "Hematite",
+        "tier": 60
+      },
+      {
+        "text": "Jet",
+        "tier": 60
+      },
+      {
+        "text": "Zircon",
+        "tier": 60
+      },
+      {
+        "text": "Morganite",
+        "tier": 60
+      },
+      {
+        "text": "Spinel",
+        "tier": 60
+      },
+      {
+        "text": "Moissanite",
+        "tier": 60
+      },
+      {
+        "text": "Black opal",
+        "tier": 60
+      },
+      {
+        "text": "Star sapphire",
+        "tier": 60
+      },
+      {
+        "text": "Pink diamond",
+        "tier": 60
+      },
+      {
+        "text": "Blue diamond",
+        "tier": 60
+      },
+      {
+        "text": "Mother of pearl",
+        "tier": 60
+      },
+      {
+        "text": "Carnelian",
+        "tier": 60
+      },
+      {
+        "text": "Rhodochrosite",
+        "tier": 60
+      },
+      {
+        "text": "Labradorite",
+        "tier": 60
+      },
+      {
+        "text": "Amethyst",
+        "tier": 30
+      },
+      {
+        "text": "Topaz",
+        "tier": 30
+      },
+      {
+        "text": "Opal",
+        "tier": 30
+      },
+      {
+        "text": "Jade",
+        "tier": 30
+      },
+      {
+        "text": "Garnet",
+        "tier": 30
+      },
+      {
+        "text": "Turquoise",
+        "aliases": [
+          "turquois"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Onyx",
+        "tier": 30
+      },
+      {
+        "text": "Quartz",
+        "aliases": [
+          "rose quartz"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Aquamarine",
+        "tier": 30
+      },
+      {
+        "text": "Amber",
+        "tier": 30
+      },
+      {
+        "text": "Jasper",
+        "tier": 30
+      },
+      {
+        "text": "Crystal",
+        "tier": 30
+      },
+      {
+        "text": "Peridot",
+        "tier": 30
+      },
+      {
+        "text": "Rhinestone",
+        "tier": 15
+      },
+      {
+        "text": "Cubic zirconia",
+        "aliases": [
+          "cz"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Diamond",
+        "tier": 10
+      },
+      {
+        "text": "Ruby",
+        "tier": 10
+      },
+      {
+        "text": "Emerald",
+        "tier": 10
+      },
+      {
+        "text": "Sapphire",
+        "tier": 10
+      },
+      {
+        "text": "Pearl",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -4064,150 +3716,142 @@
         "tier": 100
       },
       {
-        "text": "Coca-Cola",
+        "text": "Ale-8-One",
         "aliases": [
-          "coke",
-          "coca cola"
+          "ale 8"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Pepsi",
-        "tier": 10
+        "text": "Blenheim",
+        "tier": 85
       },
       {
-        "text": "Sprite",
-        "tier": 10
+        "text": "Boylan",
+        "tier": 85
       },
       {
-        "text": "Dr Pepper",
+        "text": "Reed's",
         "aliases": [
-          "dr. pepper",
-          "doctor pepper"
+          "reeds"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Mountain Dew",
+        "text": "Fentimans",
+        "tier": 85
+      },
+      {
+        "text": "Sprecher",
+        "tier": 85
+      },
+      {
+        "text": "Henry Weinhard's",
+        "tier": 85
+      },
+      {
+        "text": "Virgil's",
+        "tier": 85
+      },
+      {
+        "text": "Frostie",
+        "tier": 85
+      },
+      {
+        "text": "Dad's",
         "aliases": [
-          "mtn dew"
+          "dads root beer"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Fanta",
-        "tier": 10
+        "text": "Mr. Fizz",
+        "tier": 85
       },
       {
-        "text": "7 Up",
+        "text": "Kas",
+        "tier": 85
+      },
+      {
+        "text": "Tango",
+        "tier": 85
+      },
+      {
+        "text": "Vimto",
+        "tier": 85
+      },
+      {
+        "text": "Club Mate",
         "aliases": [
-          "7up",
-          "seven up"
+          "club-mate"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Tab",
-        "tier": 15
+        "text": "Afri Cola",
+        "tier": 85
       },
       {
-        "text": "Crystal Pepsi",
-        "tier": 15
+        "text": "Kofola",
+        "tier": 85
       },
       {
-        "text": "Diet Coke",
-        "tier": 30
-      },
-      {
-        "text": "Coke Zero",
-        "tier": 30
-      },
-      {
-        "text": "Root beer",
-        "tier": 30
-      },
-      {
-        "text": "A&W",
+        "text": "Guarana Antarctica",
         "aliases": [
-          "a and w"
+          "guarana"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Barq's",
+        "text": "Thums Up",
+        "tier": 85
+      },
+      {
+        "text": "Limca",
+        "tier": 85
+      },
+      {
+        "text": "Bundaberg",
+        "tier": 85
+      },
+      {
+        "text": "Ramune",
+        "tier": 85
+      },
+      {
+        "text": "Bawls",
+        "tier": 85
+      },
+      {
+        "text": "Jolt",
+        "tier": 85
+      },
+      {
+        "text": "Clearly Canadian",
+        "tier": 85
+      },
+      {
+        "text": "Hansen's",
         "aliases": [
-          "barqs"
+          "hansens"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Canada Dry",
-        "tier": 30
+        "text": "Blue Sky",
+        "tier": 85
       },
       {
-        "text": "Schweppes",
-        "tier": 30
+        "text": "Spindrift",
+        "tier": 85
       },
       {
-        "text": "Sunkist",
-        "tier": 30
+        "text": "Waterloo",
+        "tier": 85
       },
       {
-        "text": "Mug",
-        "aliases": [
-          "mug root beer"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pepsi Max",
-        "tier": 30
-      },
-      {
-        "text": "Diet Pepsi",
-        "tier": 30
-      },
-      {
-        "text": "Ginger ale",
-        "tier": 30
-      },
-      {
-        "text": "Squirt",
-        "tier": 30
-      },
-      {
-        "text": "Fresca",
-        "tier": 30
-      },
-      {
-        "text": "Crush",
-        "aliases": [
-          "orange crush"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sierra Mist",
-        "tier": 30
-      },
-      {
-        "text": "Starry",
-        "tier": 30
-      },
-      {
-        "text": "Mello Yello",
-        "aliases": [
-          "mello yellow"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Big Red",
-        "tier": 30
-      },
-      {
-        "text": "Cherry Coke",
-        "tier": 30
+        "text": "Topo Chico",
+        "tier": 85
       },
       {
         "text": "Vernors",
@@ -4367,142 +4011,150 @@
         "tier": 60
       },
       {
-        "text": "Ale-8-One",
+        "text": "Diet Coke",
+        "tier": 30
+      },
+      {
+        "text": "Coke Zero",
+        "tier": 30
+      },
+      {
+        "text": "Root beer",
+        "tier": 30
+      },
+      {
+        "text": "A&W",
         "aliases": [
-          "ale 8"
+          "a and w"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Blenheim",
-        "tier": 85
-      },
-      {
-        "text": "Boylan",
-        "tier": 85
-      },
-      {
-        "text": "Reed's",
+        "text": "Barq's",
         "aliases": [
-          "reeds"
+          "barqs"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Fentimans",
-        "tier": 85
+        "text": "Canada Dry",
+        "tier": 30
       },
       {
-        "text": "Sprecher",
-        "tier": 85
+        "text": "Schweppes",
+        "tier": 30
       },
       {
-        "text": "Henry Weinhard's",
-        "tier": 85
+        "text": "Sunkist",
+        "tier": 30
       },
       {
-        "text": "Virgil's",
-        "tier": 85
-      },
-      {
-        "text": "Frostie",
-        "tier": 85
-      },
-      {
-        "text": "Dad's",
+        "text": "Mug",
         "aliases": [
-          "dads root beer"
+          "mug root beer"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Mr. Fizz",
-        "tier": 85
+        "text": "Pepsi Max",
+        "tier": 30
       },
       {
-        "text": "Kas",
-        "tier": 85
+        "text": "Diet Pepsi",
+        "tier": 30
       },
       {
-        "text": "Tango",
-        "tier": 85
+        "text": "Ginger ale",
+        "tier": 30
       },
       {
-        "text": "Vimto",
-        "tier": 85
+        "text": "Squirt",
+        "tier": 30
       },
       {
-        "text": "Club Mate",
+        "text": "Fresca",
+        "tier": 30
+      },
+      {
+        "text": "Crush",
         "aliases": [
-          "club-mate"
+          "orange crush"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Afri Cola",
-        "tier": 85
+        "text": "Sierra Mist",
+        "tier": 30
       },
       {
-        "text": "Kofola",
-        "tier": 85
+        "text": "Starry",
+        "tier": 30
       },
       {
-        "text": "Guarana Antarctica",
+        "text": "Mello Yello",
         "aliases": [
-          "guarana"
+          "mello yellow"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Thums Up",
-        "tier": 85
+        "text": "Big Red",
+        "tier": 30
       },
       {
-        "text": "Limca",
-        "tier": 85
+        "text": "Cherry Coke",
+        "tier": 30
       },
       {
-        "text": "Bundaberg",
-        "tier": 85
+        "text": "Tab",
+        "tier": 15
       },
       {
-        "text": "Ramune",
-        "tier": 85
+        "text": "Crystal Pepsi",
+        "tier": 15
       },
       {
-        "text": "Bawls",
-        "tier": 85
-      },
-      {
-        "text": "Jolt",
-        "tier": 85
-      },
-      {
-        "text": "Clearly Canadian",
-        "tier": 85
-      },
-      {
-        "text": "Hansen's",
+        "text": "Coca-Cola",
         "aliases": [
-          "hansens"
+          "coke",
+          "coca cola"
         ],
-        "tier": 85
+        "tier": 10
       },
       {
-        "text": "Blue Sky",
-        "tier": 85
+        "text": "Pepsi",
+        "tier": 10
       },
       {
-        "text": "Spindrift",
-        "tier": 85
+        "text": "Sprite",
+        "tier": 10
       },
       {
-        "text": "Waterloo",
-        "tier": 85
+        "text": "Dr Pepper",
+        "aliases": [
+          "dr. pepper",
+          "doctor pepper"
+        ],
+        "tier": 10
       },
       {
-        "text": "Topo Chico",
-        "tier": 85
+        "text": "Mountain Dew",
+        "aliases": [
+          "mtn dew"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Fanta",
+        "tier": 10
+      },
+      {
+        "text": "7 Up",
+        "aliases": [
+          "7up",
+          "seven up"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -4527,325 +4179,6 @@
           "chaise"
         ],
         "tier": 100
-      },
-      {
-        "text": "Chair",
-        "tier": 10
-      },
-      {
-        "text": "Table",
-        "tier": 10
-      },
-      {
-        "text": "Bed",
-        "tier": 10
-      },
-      {
-        "text": "Couch",
-        "aliases": [
-          "sofa"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Desk",
-        "tier": 10
-      },
-      {
-        "text": "Dresser",
-        "tier": 10
-      },
-      {
-        "text": "Bookshelf",
-        "aliases": [
-          "bookcase",
-          "bookshelves"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Beanbag",
-        "aliases": [
-          "bean bag",
-          "beanbag chair"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Futon",
-        "tier": 15
-      },
-      {
-        "text": "Throne",
-        "tier": 15
-      },
-      {
-        "text": "Stool",
-        "tier": 30
-      },
-      {
-        "text": "Bench",
-        "tier": 30
-      },
-      {
-        "text": "Cabinet",
-        "tier": 30
-      },
-      {
-        "text": "Nightstand",
-        "aliases": [
-          "night stand",
-          "bedside table"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Coffee table",
-        "tier": 30
-      },
-      {
-        "text": "Armchair",
-        "tier": 30
-      },
-      {
-        "text": "Recliner",
-        "aliases": [
-          "la-z-boy",
-          "lazy boy"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ottoman",
-        "tier": 30
-      },
-      {
-        "text": "Wardrobe",
-        "aliases": [
-          "armoire"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Loveseat",
-        "aliases": [
-          "love seat"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Rocking chair",
-        "tier": 30
-      },
-      {
-        "text": "Dining table",
-        "tier": 30
-      },
-      {
-        "text": "Crib",
-        "aliases": [
-          "cot"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bunk bed",
-        "aliases": [
-          "bunkbed"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Chest of drawers",
-        "tier": 30
-      },
-      {
-        "text": "TV stand",
-        "aliases": [
-          "entertainment center"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Footstool",
-        "tier": 30
-      },
-      {
-        "text": "Hammock",
-        "tier": 30
-      },
-      {
-        "text": "Sideboard",
-        "aliases": [
-          "buffet"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hutch",
-        "tier": 60
-      },
-      {
-        "text": "China cabinet",
-        "tier": 60
-      },
-      {
-        "text": "Credenza",
-        "tier": 60
-      },
-      {
-        "text": "Vanity",
-        "tier": 60
-      },
-      {
-        "text": "Headboard",
-        "tier": 60
-      },
-      {
-        "text": "Sectional",
-        "tier": 60
-      },
-      {
-        "text": "Daybed",
-        "tier": 60
-      },
-      {
-        "text": "Trundle bed",
-        "tier": 60
-      },
-      {
-        "text": "Murphy bed",
-        "tier": 60
-      },
-      {
-        "text": "Bar stool",
-        "aliases": [
-          "barstool"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "High chair",
-        "aliases": [
-          "highchair"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Changing table",
-        "tier": 60
-      },
-      {
-        "text": "Filing cabinet",
-        "aliases": [
-          "file cabinet"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Desk chair",
-        "aliases": [
-          "office chair"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Folding chair",
-        "tier": 60
-      },
-      {
-        "text": "Lawn chair",
-        "tier": 60
-      },
-      {
-        "text": "Patio table",
-        "tier": 60
-      },
-      {
-        "text": "Picnic table",
-        "tier": 60
-      },
-      {
-        "text": "End table",
-        "aliases": [
-          "side table"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Console table",
-        "tier": 60
-      },
-      {
-        "text": "Hope chest",
-        "tier": 60
-      },
-      {
-        "text": "Toy chest",
-        "aliases": [
-          "toy box"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Shoe rack",
-        "tier": 60
-      },
-      {
-        "text": "Coat rack",
-        "aliases": [
-          "hat stand"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mirror",
-        "tier": 60
-      },
-      {
-        "text": "Lamp",
-        "tier": 60
-      },
-      {
-        "text": "Kitchen island",
-        "tier": 60
-      },
-      {
-        "text": "Gaming chair",
-        "tier": 60
-      },
-      {
-        "text": "Waterbed",
-        "tier": 60
-      },
-      {
-        "text": "Canopy bed",
-        "aliases": [
-          "four poster bed"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sleeper sofa",
-        "aliases": [
-          "pullout couch",
-          "sofa bed"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Wingback chair",
-        "aliases": [
-          "wing chair"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Papasan chair",
-        "aliases": [
-          "papasan"
-        ],
-        "tier": 60
       },
       {
         "text": "Settee",
@@ -5058,6 +4391,325 @@
       {
         "text": "Locker",
         "tier": 85
+      },
+      {
+        "text": "Sideboard",
+        "aliases": [
+          "buffet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hutch",
+        "tier": 60
+      },
+      {
+        "text": "China cabinet",
+        "tier": 60
+      },
+      {
+        "text": "Credenza",
+        "tier": 60
+      },
+      {
+        "text": "Vanity",
+        "tier": 60
+      },
+      {
+        "text": "Headboard",
+        "tier": 60
+      },
+      {
+        "text": "Sectional",
+        "tier": 60
+      },
+      {
+        "text": "Daybed",
+        "tier": 60
+      },
+      {
+        "text": "Trundle bed",
+        "tier": 60
+      },
+      {
+        "text": "Murphy bed",
+        "tier": 60
+      },
+      {
+        "text": "Bar stool",
+        "aliases": [
+          "barstool"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "High chair",
+        "aliases": [
+          "highchair"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Changing table",
+        "tier": 60
+      },
+      {
+        "text": "Filing cabinet",
+        "aliases": [
+          "file cabinet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Desk chair",
+        "aliases": [
+          "office chair"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Folding chair",
+        "tier": 60
+      },
+      {
+        "text": "Lawn chair",
+        "tier": 60
+      },
+      {
+        "text": "Patio table",
+        "tier": 60
+      },
+      {
+        "text": "Picnic table",
+        "tier": 60
+      },
+      {
+        "text": "End table",
+        "aliases": [
+          "side table"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Console table",
+        "tier": 60
+      },
+      {
+        "text": "Hope chest",
+        "tier": 60
+      },
+      {
+        "text": "Toy chest",
+        "aliases": [
+          "toy box"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Shoe rack",
+        "tier": 60
+      },
+      {
+        "text": "Coat rack",
+        "aliases": [
+          "hat stand"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mirror",
+        "tier": 60
+      },
+      {
+        "text": "Lamp",
+        "tier": 60
+      },
+      {
+        "text": "Kitchen island",
+        "tier": 60
+      },
+      {
+        "text": "Gaming chair",
+        "tier": 60
+      },
+      {
+        "text": "Waterbed",
+        "tier": 60
+      },
+      {
+        "text": "Canopy bed",
+        "aliases": [
+          "four poster bed"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sleeper sofa",
+        "aliases": [
+          "pullout couch",
+          "sofa bed"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wingback chair",
+        "aliases": [
+          "wing chair"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Papasan chair",
+        "aliases": [
+          "papasan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Stool",
+        "tier": 30
+      },
+      {
+        "text": "Bench",
+        "tier": 30
+      },
+      {
+        "text": "Cabinet",
+        "tier": 30
+      },
+      {
+        "text": "Nightstand",
+        "aliases": [
+          "night stand",
+          "bedside table"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Coffee table",
+        "tier": 30
+      },
+      {
+        "text": "Armchair",
+        "tier": 30
+      },
+      {
+        "text": "Recliner",
+        "aliases": [
+          "la-z-boy",
+          "lazy boy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ottoman",
+        "tier": 30
+      },
+      {
+        "text": "Wardrobe",
+        "aliases": [
+          "armoire"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Loveseat",
+        "aliases": [
+          "love seat"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rocking chair",
+        "tier": 30
+      },
+      {
+        "text": "Dining table",
+        "tier": 30
+      },
+      {
+        "text": "Crib",
+        "aliases": [
+          "cot"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bunk bed",
+        "aliases": [
+          "bunkbed"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Chest of drawers",
+        "tier": 30
+      },
+      {
+        "text": "TV stand",
+        "aliases": [
+          "entertainment center"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Footstool",
+        "tier": 30
+      },
+      {
+        "text": "Hammock",
+        "tier": 30
+      },
+      {
+        "text": "Beanbag",
+        "aliases": [
+          "bean bag",
+          "beanbag chair"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Futon",
+        "tier": 15
+      },
+      {
+        "text": "Throne",
+        "tier": 15
+      },
+      {
+        "text": "Chair",
+        "tier": 10
+      },
+      {
+        "text": "Table",
+        "tier": 10
+      },
+      {
+        "text": "Bed",
+        "tier": 10
+      },
+      {
+        "text": "Couch",
+        "aliases": [
+          "sofa"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Desk",
+        "tier": 10
+      },
+      {
+        "text": "Dresser",
+        "tier": 10
+      },
+      {
+        "text": "Bookshelf",
+        "aliases": [
+          "bookcase",
+          "bookshelves"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [

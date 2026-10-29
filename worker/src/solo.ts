@@ -7,7 +7,6 @@ import {
   WRONG_GUESS_PENALTY_SECONDS,
   closestAnswer,
   compact,
-  dailyNumberFor,
   matchGuess,
   nextDailyResetAt,
   normalize,
@@ -27,7 +26,7 @@ import type {
 } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
-import { UNLIMITED_WHERE, getDailySet, getIndex, getQuestions, today, unlimitedParams } from "./questions";
+import { UNLIMITED_WHERE, dailyNumber, getDailySet, getIndex, getQuestions, today, unlimitedParams } from "./questions";
 
 /**
  * Solo game sessions with server-enforced timers.
@@ -111,7 +110,7 @@ async function toState(env: Env, s: SessionRow, now: number): Promise<SessionSta
   return {
     sessionId: s.id,
     mode: s.mode,
-    dailyNumber: s.date ? dailyNumberFor(s.date) : null,
+    dailyNumber: s.date ? await dailyNumber(env, s.date) : null,
     date: s.date,
     total: ids.length,
     plays: plays.map((p) => toPlayRecord(p, questions.get(p.question_id)?.prompt ?? "")),
@@ -150,7 +149,7 @@ export async function getDaily(env: Env, playerId: string, now: number): Promise
     .bind(playerId, date)
     .first<{ finished: number }>();
   return {
-    dailyNumber: dailyNumberFor(date),
+    dailyNumber: await dailyNumber(env, date),
     date,
     prompts: ids.map((id, index) => ({ index, prompt: questions.get(id)?.prompt ?? "", category: questions.get(id)!.category })),
     nextDailyAt: nextDailyResetAt(now),
@@ -463,7 +462,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
   const depth = pointsToDepth(points);
   return {
     mode: s.mode,
-    dailyNumber: s.date ? dailyNumberFor(s.date) : null,
+    dailyNumber: s.date ? await dailyNumber(env, s.date) : null,
     totalPoints: points,
     depth,
     zone: zoneForDepth(depth).name,

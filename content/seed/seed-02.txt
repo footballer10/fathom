@@ -472,148 +472,92 @@ Bathtub
 # QUESTION
 id: q0015
 pool: unlimited
-category: jobs-people
-prompt: Name a job title
+category: history
+prompt: Name a signer of the Declaration of Independence
+note: The 56 men who signed the Declaration in 1776. Washington, Hamilton and Madison did not sign it.
 
 [One in a Krillion]
-Sommelier | somellier
+Button Gwinnett | gwinnett
 
 [Deep Cut]
-Actuary
-Cartographer
-Lexicographer
-Ombudsman
-Farrier
-Taxidermist
-Luthier
-Chimney sweep
-Stenographer | court reporter
-Auctioneer
-Horologist | watchmaker
-Ichthyologist
-Glassblower
-Cooper
-Locksmith
-Upholsterer
-Archivist
-Curator
-Paralegal
-Sonographer
-Mortician | undertaker | funeral director
-Embalmer
-Arborist
-Beekeeper | apiarist
-Blacksmith
-Cobbler | shoemaker
-Tailor
-Seamstress
-Jeweler | jeweller
-Optometrist
-Chiropractor
-Podiatrist
-Anesthesiologist
-Radiologist
-Dermatologist
-Orthodontist
-Hygienist | dental hygienist
-Lifeguard
-Bouncer
-Valet
-Concierge
-Bellhop
-Usher
-Sous chef
-Barista
-Courier
-Translator | interpreter
-Stockbroker
-Economist
-Statistician
-Data scientist
-Geologist
-Zookeeper
-Park ranger | ranger
-Surveyor
-Welder
-Roofer
-Mason | bricklayer | stonemason
-Diplomat
-Ambassador
-Senator
-Mayor
-Judge
-Detective
-Sheriff
-Air traffic controller
-Flight attendant | stewardess
-Ship captain | captain
+William Ellery | ellery
+William Williams
+William Floyd | floyd
+Francis Lewis
+John Hart
+Abraham Clark
+John Morton
+George Clymer | clymer
+James Smith
+George Taylor
+George Ross
+Thomas Stone
+Joseph Hewes | hewes
+John Penn
+William Hooper | hooper
+Carter Braxton | braxton
+George Walton | walton
+Thomas Heyward Jr. | thomas heyward | heyward
 
 [Rare]
-Pharmacist
-Veterinarian | vet
-Architect
-Accountant
-Carpenter
-Journalist | reporter
-Librarian
-Surgeon
-Barber
-Hairdresser | hairstylist
-Baker
-Butcher
-Janitor | custodian
-Cashier
-Bartender
-Paramedic | emt
-Software engineer | software developer | programmer | coder
-Professor
-Mail carrier | mailman | postman
-Principal
-Therapist | psychologist
-Real estate agent | realtor
-Photographer
-Truck driver | trucker
-Soldier
+Robert Treat Paine
+James Wilson
+Thomas McKean | mckean
+George Read
+Thomas Nelson Jr. | thomas nelson
+Francis Lightfoot Lee
+Philip Livingston | livingston
+Lewis Morris
+William Whipple | whipple
+Matthew Thornton | thornton
+Oliver Wolcott | wolcott
+Samuel Huntington | huntington
+Richard Stockton | stockton
+Arthur Middleton | middleton
+Thomas Lynch Jr. | thomas lynch | lynch
+William Paca | paca
+Lyman Hall
 
 [Schooler]
-Waiter | waitress | server
-Electrician
-Plumber
-Farmer
-Scientist
-Engineer
-Dentist
-Mechanic
-Pilot
-Lawyer | attorney
-Firefighter | fireman
-Police officer | policeman | cop
-Nurse
-Chef | cook
-Manager
-Secretary | receptionist
-Artist
-Writer | author
-Salesman | salesperson
-Construction worker
+Roger Sherman | sherman
+Benjamin Rush | rush | ben rush
+Richard Henry Lee
+Elbridge Gerry | gerry
+John Witherspoon | witherspoon
+Caesar Rodney | rodney
+Robert Morris
+Charles Carroll | charles carroll of carrollton | carroll
+Samuel Chase | chase
+Edward Rutledge | rutledge
+Francis Hopkinson | hopkinson
+George Wythe | wythe
+Josiah Bartlett | bartlett
+Stephen Hopkins
 
 [Too Clever]
-CEO | chief executive officer
-Astronaut
-YouTuber | influencer
-President
+Benjamin Harrison | benjamin harrison v
 
 [Plankton]
-Teacher
-Doctor
+Thomas Jefferson | jefferson
+Benjamin Franklin | franklin | ben franklin
+John Hancock | hancock
+John Adams
+Samuel Adams | sam adams
 
 [Not accepted]
-Student
-Retired
-Unemployed
-Job
-Boss
-Worker
+George Washington
+Alexander Hamilton
+James Madison
+Paul Revere
+Patrick Henry
+John Jay
+Thomas Paine
+James Monroe
+Betsy Ross
+Benedict Arnold
+Abraham Lincoln
+Gouverneur Morris
+John Quincy Adams
 
 # QUESTION
 id: q0016
@@ -698,128 +642,109 @@ Virginia City
 # QUESTION
 id: q0017
 pool: unlimited
-category: words-language
-prompt: Name a word ending in "-ology"
-note: Must end in "-ology" exactly, so trilogy, analogy and genealogy don't count.
+category: history
+prompt: Name a book of the Bible
+note: The 66 books of the Protestant Bible, plus the Catholic and Orthodox extra books (Tobit, Maccabees...). Numbered books count separately.
 
 [One in a Krillion]
-Oology
+Habakkuk | habbakuk | habakuk | habbakkuk
 
 [Deep Cut]
-Ichthyology
-Herpetology
-Ornithology
-Entomology
-Etymology
-Mycology
-Seismology
-Volcanology | vulcanology
-Cosmology
-Epistemology
-Eschatology
-Phrenology
-Oncology
-Gerontology
-Graphology
-Numerology
-Musicology
-Mixology
-Toxicology
-Hydrology
-Ophthalmology | opthalmology
-Tautology
-Chronology
-Ufology
-Speleology
-Cryptozoology
-Hematology | haematology
-Endocrinology
-Gastroenterology
-Urology
-Nephrology
-Pharmacology
-Embryology
-Histology
-Cytology
-Morphology
-Phonology
-Ontology
-Teleology
-Deontology
-Climatology
-Glaciology
-Limnology
-Oceanology
-Petrology
-Paleontology
-Primatology
-Mammalogy
-Malacology
-Lepidopterology
-Dendrology
-Campanology
-Kinesiology
-Audiology
-Rheumatology
-Immunology
-Virology
-Bacteriology
-Parasitology
-Futurology
-Egyptology
-Assyriology
-Sinology
-Methodology
-Terminology
-Ideology
-Phraseology
-Doxology
-Hagiology
+Obadiah
+Nahum
+Zephaniah | zepheniah
+Haggai | hagai
+3 John | 3john | iii john | third john | 3rd john
+2 John | 2john | ii john | second john | 2nd john
+Philemon | philemen
+Tobit
+Judith
+1 Maccabees | 1maccabees | i maccabees | first maccabees | 1st maccabees | maccabees
+2 Maccabees | 2maccabees | ii maccabees | second maccabees | 2nd maccabees
+Wisdom of Solomon | wisdom | book of wisdom
+Sirach | ecclesiasticus | ben sira
+Baruch
+Enoch | 1 enoch | book of enoch
+Jubilees | book of jubilees
+2 Thessalonians | 2thessalonians | ii thessalonians | second thessalonians | 2nd thessalonians
+2 Chronicles | 2chronicles | ii chronicles | second chronicles | 2nd chronicles
+Micah
+Malachi | malachai
+Zechariah | zachariah | zecharia
+Jude
 
 [Rare]
-Dermatology
-Cardiology
-Neurology
-Radiology
-Pathology
-Meteorology
-Criminology
-Anthropology
-Archaeology | archeology
-Theology
-Physiology
-Microbiology
-Technology
-Mythology
-Astrobiology
-Apology
-Anthology
+Hosea
+Joel
+Amos
+Lamentations
+Nehemiah
+Ezra
+Titus
+1 Thessalonians | 1thessalonians | i thessalonians | first thessalonians | 1st thessalonians | thessalonians
+2 Timothy | 2timothy | ii timothy | second timothy | 2nd timothy
+2 Peter | 2peter | ii peter | second peter | 2nd peter
+1 John | 1john | i john | first john | 1st john
+1 Chronicles | chronicles | 1chronicles | i chronicles | first chronicles | 1st chronicles
+2 Kings | 2kings | ii kings | second kings | 2nd kings
+2 Samuel | 2samuel | ii samuel | second samuel | 2nd samuel
+2 Corinthians | 2corinthians | ii corinthians | second corinthians | 2nd corinthians
+Colossians
+Philippians | phillipians
+Ezekiel | ezekial
+Galatians
+Ephesians
+Hebrews
+James
+1 Timothy | 1timothy | i timothy | first timothy | 1st timothy | timothy
+1 Peter | 1peter | i peter | first peter | 1st peter | peter
 
 [Schooler]
-Ecology
-Geology
-Astrology
-Zoology
-Sociology
+Leviticus
+Deuteronomy | deuteronomie
+Joshua
+Ruth
+1 Samuel | 1samuel | i samuel | first samuel | 1st samuel | samuel
+1 Kings | kings | 1kings | i kings | first kings | 1st kings
+Esther
+Proverbs
+Ecclesiastes
+Song of Solomon | song of songs | canticles | song of songs of solomon
+Isaiah
+Jeremiah
+Daniel
+Jonah
+Romans
+1 Corinthians | corinthians | 1corinthians | i corinthians | first corinthians | 1st corinthians
 
 [Too Clever]
-Scientology
-Ology
+Numbers
+Job
+Acts | acts of the apostles
+Judges
 
 [Plankton]
-Biology
-Psychology
+Genesis
+Exodus
+Revelation | revelations | book of revelation | apocalypse
+Psalms | psalm
+Matthew
+Mark
+Luke
+John | gospel of john
 
 [Not accepted]
-Trilogy
-Analogy
-Genealogy
-Astronomy
-Geography
-Mineralogy
-Anatomy
-Chemistry
-Physics
+Book of Mormon
+Gospel of Thomas
+Gospel of Judas
+Moses
+Noah
+Abraham
+David
+Solomon
+Gospel
+Quran
+Torah
 
 # QUESTION
 id: q0018

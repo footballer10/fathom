@@ -647,6 +647,7 @@ export class Room extends DurableObject<Env> {
   private queueNextTurn(after: string, now: number, delay: number) {
     const b = this.s!.battle!;
     b.turnPlayerId = null;
+    b.turnStartedAt = now;
     b.nextTurnAt = now + delay;
     b.nextTurnPlayerId = this.nextAfter(after);
   }
@@ -870,6 +871,7 @@ export class Room extends DurableObject<Env> {
         round: b.round,
         baseSeconds: b.baseSeconds,
         turnPlayerId: b.turnPlayerId,
+        turnStartedAt: b.turnStartedAt,
         turnEndsAt: b.turnPlayerId ? b.turnEndsAt : b.nextTurnAt,
         used: b.used,
         typing: "",

@@ -40,7 +40,16 @@ function TierBadge({ tier }: { tier: TierPoints | null }) {
   );
 }
 
-export function RoomPage({ code, onDepth }: { code: string; onDepth: (points: number) => void }) {
+export function RoomPage({
+  code,
+  onDepth,
+  onBattle,
+}: {
+  code: string;
+  onDepth: (points: number) => void;
+  /** Tells the app whether this is a Battle room, which has no depth gauge. */
+  onBattle: (isBattle: boolean) => void;
+}) {
   const [nickname, setNickname] = useState<string | null>(getNickname());
   const { state, status, events, error, setError, send, revealAnswers, typing } = useRoom(code, nickname);
   const { settings } = useSettings();
@@ -51,6 +60,10 @@ export function RoomPage({ code, onDepth }: { code: string; onDepth: (points: nu
   useEffect(() => {
     if (state?.kind === "dive") onDepth(me?.score ?? 0);
   }, [state?.kind, me?.score, onDepth]);
+  useEffect(() => {
+    onBattle(state?.kind === "battle");
+    return () => onBattle(false);
+  }, [state?.kind, onBattle]);
 
   // Turn notable events into short toasts and sounds.
   useEffect(() => {
@@ -657,41 +670,35 @@ function BattleView({
 
       <div className="battle-cols">
         <div className="battle-main">
+          <TurnBar startedAt={b.turnStartedAt} endsAt={b.turnEndsAt} label={active ? (myTurn ? "Your turn" : `${active.nickname}'s turn`) : "Next turn"} />
           {myTurn ? (
             <motion.div animate={shake} className="input-wrap">
-              <TimerRing endsAt={b.turnEndsAt} totalMs={Math.max(1, b.turnEndsAt - now) + 1} running onExpire={() => {}}>
-                <input
-                  ref={inputRef}
-                  className="answer-input"
-                  value={text}
-                  onChange={(e) => onType(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" && text.trim()) {
-                      e.preventDefault();
-                      send({ type: "guess", text: text.trim() });
-                      setText("");
-                      send({ type: "typing", text: "" });
-                    }
-                  }}
-                  placeholder="Your turn! Type an answer…"
-                  autoComplete="off"
-                  autoCorrect="off"
-                  autoCapitalize="off"
-                  spellCheck={false}
-                  maxLength={60}
-                  autoFocus
-                />
-              </TimerRing>
+              <input
+                ref={inputRef}
+                className="answer-input answer-input--battle"
+                value={text}
+                onChange={(e) => onType(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && text.trim()) {
+                    e.preventDefault();
+                    send({ type: "guess", text: text.trim() });
+                    setText("");
+                    send({ type: "typing", text: "" });
+                  }
+                }}
+                placeholder="Your turn! Type an answer…"
+                autoComplete="off"
+                autoCorrect="off"
+                autoCapitalize="off"
+                spellCheck={false}
+                maxLength={60}
+                autoFocus
+              />
             </motion.div>
           ) : (
             <div className="turn-watch card">
               {active ? (
-                <>
-                  <div className="muted small">
-                    {active.nickname}'s turn · {Math.max(0, Math.ceil((b.turnEndsAt - now) / 1000))}s
-                  </div>
-                  <div className="live-typing">{typing?.playerId === active.id && typing.text ? typing.text : <span className="muted">…</span>}</div>
-                </>
+                <div className="live-typing">{typing?.playerId === active.id && typing.text ? typing.text : <span className="muted">…</span>}</div>
               ) : (
                 <div className="muted">{showRotate ? `Next turn in ${startsIn}s` : "Next turn…"}</div>
               )}
@@ -748,6 +755,41 @@ function BattleView({
             </ul>
           </div>
         </aside>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * A countdown bar everyone sees during Battle. Like TimerRing it reads the
+ * server deadline every frame and writes straight to the DOM (no re-renders).
+ */
+function TurnBar({ startedAt, endsAt, label }: { startedAt: number; endsAt: number; label: string }) {
+  const fillRef = useRef<HTMLDivElement>(null);
+  const secsRef = useRef<HTMLSpanElement>(null);
+  useEffect(() => {
+    let raf = 0;
+    const total = Math.max(1, endsAt - startedAt);
+    const tick = () => {
+      const left = Math.max(0, endsAt - serverNow());
+      if (fillRef.current) {
+        fillRef.current.style.transform = `scaleX(${Math.min(1, left / total)})`;
+        fillRef.current.classList.toggle("turn-bar-fill--low", left <= 3000);
+      }
+      if (secsRef.current) secsRef.current.textContent = `${Math.ceil(left / 1000)}s`;
+      if (left > 0) raf = requestAnimationFrame(tick);
+    };
+    tick();
+    return () => cancelAnimationFrame(raf);
+  }, [startedAt, endsAt]);
+  return (
+    <div className="turn-bar" role="timer" aria-label={label}>
+      <div className="turn-bar-head">
+        <span>{label}</span>
+        <span ref={secsRef} className="turn-bar-secs" />
+      </div>
+      <div className="turn-bar-track">
+        <div ref={fillRef} className="turn-bar-fill" />
       </div>
     </div>
   );

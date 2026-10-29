@@ -1,4 +1,5 @@
 import {
+  dailyNumberFor,
   QUESTIONS_PER_DAY,
   addDays,
   buildIndex,
@@ -206,4 +207,18 @@ export async function pickRoomQuestions(
     ids.push(...results.map((r) => r.id));
   }
   return ids;
+}
+
+let launchDay: string | null = null;
+
+/**
+ * Daily number for a date. Day #1 is the first date the site served a Daily
+ * (the earliest row in daily_sets), so numbering starts the day you launch.
+ */
+export async function dailyNumber(env: Env, date: string): Promise<number> {
+  if (!launchDay) {
+    const row = await env.DB.prepare("SELECT MIN(date) AS d FROM daily_sets").first<{ d: string | null }>();
+    if (row?.d) launchDay = row.d; // fixed forever once set, so cache it
+  }
+  return dailyNumberFor(date, launchDay ?? date);
 }

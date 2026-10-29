@@ -106,6 +106,8 @@ export interface RoomSnapshot {
     round: number;
     baseSeconds: number;
     turnPlayerId: string | null;
+    /** When the current turn (or the pause before the next one) started, so clients can draw the timer. */
+    turnStartedAt: number;
     turnEndsAt: number;
     used: UsedAnswer[];
     typing: string;

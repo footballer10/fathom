@@ -58,9 +58,9 @@ export function nextDailyResetAt(now: number, tz = DAILY_RESET_TZ): number {
   return zonedMidnight(addDays(dailyDateFor(now, tz), 1), tz);
 }
 
-/** Daily number: DAILY_EPOCH_DATE is #1. */
-export function dailyNumberFor(date: string): number {
-  const [y1, m1, d1] = DAILY_EPOCH_DATE.split("-").map(Number);
+/** Daily number: `epoch` (the launch day) is #1. */
+export function dailyNumberFor(date: string, epoch = DAILY_EPOCH_DATE): number {
+  const [y1, m1, d1] = epoch.split("-").map(Number);
   const [y2, m2, d2] = date.split("-").map(Number);
   return Math.round((Date.UTC(y2, m2 - 1, d2) - Date.UTC(y1, m1 - 1, d1)) / 86_400_000) + 1;
 }

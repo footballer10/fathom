@@ -217,196 +217,92 @@ Snake
 id: q0023
 pool: unlimited
 category: geography
-prompt: Name a US city
+prompt: Name a US state capital
+note: The 50 state capital cities. Washington, D.C. is the national capital, not a state capital.
 
 [One in a Krillion]
-Truth or Consequences
-
-[Plankton]
-New York City | new york | nyc
-Los Angeles | la | l.a.
-Chicago
-Houston
-Miami
-San Francisco | sf | san fran
-Las Vegas | vegas
-Seattle
-
-[Too Clever]
-Hollywood
-Washington DC | washington d.c. | dc | washington
-Springfield
-Kansas City
-
-[Schooler]
-Boston
-Phoenix
-Dallas
-Philadelphia | philly
-Atlanta
-Denver
-San Diego
-Detroit
-New Orleans | nola
-Orlando
-Austin
-Nashville
-Portland
-Salt Lake City | salt lake
-Minneapolis
-Baltimore
-Pittsburgh | pittsburg
-Cleveland
-St. Louis | saint louis | st louis
-Honolulu
-Charlotte
-Indianapolis
-Memphis
-
-[Rare]
-San Antonio
-San Jose
-Jacksonville
-Columbus
-Fort Worth
-El Paso
-Oklahoma City | okc
-Milwaukee
-Albuquerque | albuquerqe
-Tucson
-Sacramento
-Omaha
-Raleigh
-Tampa
-Cincinnati | cincinatti
-Buffalo
-Anchorage
-Boise
-Louisville
-Richmond
-Reno
-Santa Fe
-Savannah
-Charleston
-Birmingham
-Hartford
-Providence
-Madison
-Des Moines
-Oakland
-Long Beach
-Miami Beach
-Palm Springs
-Key West
-Scottsdale
-Boulder
-Aspen
-Colorado Springs
-Spokane
-Tacoma
-Anaheim
+Pierre | pier | peer
 
 [Deep Cut]
-Manhattan
-Fresno
-Mesa
-Tulsa
-Wichita
-Arlington
-Bakersfield
-Aurora
-Corpus Christi
-Lexington
-Stockton
-Henderson
-Plano
+Montpelier | montpellier | montpelliar
+Augusta | augusta maine
+Bismarck | bismark
+Frankfort | frankfurt kentucky
+Jefferson City | jeff city | jefferson
+Dover | dover delaware
+Harrisburg | harrisburgh
+Olympia | olympia washington
+Helena | helena montana
+Cheyenne | cheyene | cheyanne
+Carson City | carson
+Lansing | lansing michigan
+Trenton | trenton nj
+Annapolis | anapolis
+
+[Rare]
+Juneau | juno | juneu
+Concord | concorde
+Topeka | topika
 Lincoln
-Durham
-Chandler
-Laredo
-Lubbock
-Irvine
-Greensboro
-Norfolk
-Toledo
-Baton Rouge
-Montgomery
-Jackson
-Little Rock
-Juneau
-Fargo
-Sioux Falls
-Billings
-Cheyenne
-Burlington
-Portsmouth
-Bangor
-Duluth
-Green Bay
-Ann Arbor
-Grand Rapids
-Peoria
-Syracuse
-Rochester
-Albany
-Trenton
-Newark
-Atlantic City
-Wilmington
-Dover
-Annapolis
-Topeka
-Pierre
-Bismarck
-Helena
-Olympia
-Salem
-Carson City
-Tallahassee
-Gainesville
-Pensacola
-Mobile
-Biloxi
-Chattanooga
-Knoxville
-Asheville
-Roanoke
-Flagstaff
-Sedona
-Yuma
-Amarillo
-Galveston
-Waco
-Provo
-Ogden
-Missoula
-Bozeman
-Jackson Hole
-Napa
-Malibu
-Pasadena
-Santa Barbara
-Santa Monica
-Berkeley
-Palo Alto
-Eugene
-Fairbanks
-Hilo
-Kalamazoo
-Walla Walla
-Kokomo
-Tombstone
-Roswell
-Hershey
+Columbia | columbia sc
+Charleston | charleston wv | charleston west virginia
+Albany | albeny
+Tallahassee | tallahasee | tallahasse | talahassee
+Boise | boise idaho | boisie
+Salem | salem oregon
+Santa Fe | santa fe nm
+Hartford | hartford ct
+Montgomery | montgomery alabama
+Providence | providence ri
+Des Moines | des moine | demoines | desmoines
+
+[Schooler]
+Salt Lake City | salt lake | slc
+Raleigh | raliegh | raleigh nc
+Richmond | richmond va
+Little Rock | littlerock
+Oklahoma City | okc | oklahoma
+Indianapolis | indy | indianopolis
+Madison | madison wisconsin
+Baton Rouge | batonrouge | baton rogue
+Columbus | columbus ohio
+Saint Paul | st paul | st. paul | saint paul mn
+
+[Too Clever]
+Springfield | springfield illinois
+Jackson | jackson mississippi
+
+[Plankton]
+Boston
+Atlanta | atl
+Denver
+Austin
+Phoenix | pheonix
+Sacramento | sacremento | sacramento ca
+Nashville
+Honolulu | honalulu | honolulo
 
 [Not accepted]
-Toronto
-Vancouver
-Montreal
-Mexico City
-London
-Texas
-California
+Washington
+Washington DC
+New York City
+Los Angeles
+Chicago
+Seattle
+Philadelphia
+Miami
+Las Vegas
+Portland
+Houston
+San Francisco
+Detroit
+Dallas
+New Orleans
+Anchorage
+Kansas City
+Charlotte
+Louisville
+Milwaukee
 
 # QUESTION
 id: q0024
@@ -417,81 +313,6 @@ note: Current or recent Summer/Winter Olympic sports and disciplines.
 
 [One in a Krillion]
 Skeleton
-
-[Plankton]
-Swimming
-Gymnastics
-Track and field | athletics | track
-Basketball
-Soccer | football
-Figure skating | skating | ice skating
-Ice hockey | hockey
-
-[Too Clever]
-Polo
-Breakdancing | breaking
-Skateboarding
-Surfing
-Tug of war
-
-[Schooler]
-Volleyball
-Tennis
-Boxing
-Wrestling
-Diving
-Snowboarding
-Skiing | alpine skiing | downhill skiing
-Cycling | biking
-Rowing
-Fencing
-Archery
-Golf
-Speed skating
-Bobsled | bobsleigh
-Curling
-Weightlifting
-Judo
-Taekwondo
-Beach volleyball
-Marathon
-
-[Rare]
-Water polo
-Table tennis | ping pong
-Badminton
-Handball
-Equestrian | horse riding | dressage | show jumping
-Sailing
-Canoeing | kayaking | canoe | kayak
-Triathlon
-Field hockey
-Luge
-Biathlon
-Ski jumping
-Cross-country skiing | cross country skiing | nordic skiing
-Shooting
-Rugby sevens | rugby
-Softball
-Baseball
-Synchronized swimming | artistic swimming
-Rhythmic gymnastics
-Trampoline
-Pole vault
-Javelin
-Shot put
-Discus
-High jump
-Long jump
-Hurdles
-Decathlon
-Heptathlon
-Sprinting | 100 meters
-Mountain biking
-BMX
-Sport climbing | climbing | rock climbing
-Freestyle skiing | moguls
-Short track speed skating | short track
 
 [Deep Cut]
 Modern pentathlon | pentathlon
@@ -539,6 +360,81 @@ Pairs skating
 Monobob
 3x3 basketball | three on three basketball
 
+[Rare]
+Water polo
+Table tennis | ping pong
+Badminton
+Handball
+Equestrian | horse riding | dressage | show jumping
+Sailing
+Canoeing | kayaking | canoe | kayak
+Triathlon
+Field hockey
+Luge
+Biathlon
+Ski jumping
+Cross-country skiing | cross country skiing | nordic skiing
+Shooting
+Rugby sevens | rugby
+Softball
+Baseball
+Synchronized swimming | artistic swimming
+Rhythmic gymnastics
+Trampoline
+Pole vault
+Javelin
+Shot put
+Discus
+High jump
+Long jump
+Hurdles
+Decathlon
+Heptathlon
+Sprinting | 100 meters
+Mountain biking
+BMX
+Sport climbing | climbing | rock climbing
+Freestyle skiing | moguls
+Short track speed skating | short track
+
+[Schooler]
+Volleyball
+Tennis
+Boxing
+Wrestling
+Diving
+Snowboarding
+Skiing | alpine skiing | downhill skiing
+Cycling | biking
+Rowing
+Fencing
+Archery
+Golf
+Speed skating
+Bobsled | bobsleigh
+Curling
+Weightlifting
+Judo
+Taekwondo
+Beach volleyball
+Marathon
+
+[Too Clever]
+Polo
+Breakdancing | breaking
+Skateboarding
+Surfing
+Tug of war
+
+[Plankton]
+Swimming
+Gymnastics
+Track and field | athletics | track
+Basketball
+Soccer | football
+Figure skating | skating | ice skating
+Ice hockey | hockey
+
 [Not accepted]
 Chess
 Darts
@@ -557,78 +453,6 @@ prompt: Name a genre of music
 
 [One in a Krillion]
 Polka
-
-[Plankton]
-Rock | rock and roll | rock n roll
-Pop
-Country
-Rap
-Hip hop | hip-hop
-Jazz
-Classical
-R&B | rnb | rhythm and blues
-
-[Too Clever]
-Elevator music | muzak
-Yacht rock
-Nightcore
-
-[Schooler]
-Blues
-Metal | heavy metal
-Punk | punk rock
-EDM | electronic | electronic dance music
-Reggae
-Gospel
-Folk
-Soul
-Funk
-Disco
-Techno
-Indie | indie rock
-Alternative | alt rock | alternative rock
-Grunge
-Opera
-Latin
-K-pop | kpop
-Bluegrass
-
-[Rare]
-House | house music
-Dubstep
-Trap
-Salsa
-Reggaeton
-Ska
-Emo
-Hard rock
-Soft rock
-Classic rock
-Punk pop | pop punk
-Swing
-Big band
-Motown
-Doo-wop | doo wop
-Rockabilly
-Bossa nova
-Samba
-Tango
-Flamenco
-Mariachi
-Afrobeat | afrobeats
-Lo-fi | lofi
-Trance
-Drum and bass | dnb
-Ambient
-New wave
-Synthpop | synth pop | synthwave
-Grime
-Drill
-Musical theater | show tunes | broadway
-A cappella | acapella
-Christian rock
-Death metal
-Barbershop
 
 [Deep Cut]
 Zydeco
@@ -698,6 +522,78 @@ Bounce
 Emo rap
 Mumble rap
 
+[Rare]
+House | house music
+Dubstep
+Trap
+Salsa
+Reggaeton
+Ska
+Emo
+Hard rock
+Soft rock
+Classic rock
+Punk pop | pop punk
+Swing
+Big band
+Motown
+Doo-wop | doo wop
+Rockabilly
+Bossa nova
+Samba
+Tango
+Flamenco
+Mariachi
+Afrobeat | afrobeats
+Lo-fi | lofi
+Trance
+Drum and bass | dnb
+Ambient
+New wave
+Synthpop | synth pop | synthwave
+Grime
+Drill
+Musical theater | show tunes | broadway
+A cappella | acapella
+Christian rock
+Death metal
+Barbershop
+
+[Schooler]
+Blues
+Metal | heavy metal
+Punk | punk rock
+EDM | electronic | electronic dance music
+Reggae
+Gospel
+Folk
+Soul
+Funk
+Disco
+Techno
+Indie | indie rock
+Alternative | alt rock | alternative rock
+Grunge
+Opera
+Latin
+K-pop | kpop
+Bluegrass
+
+[Too Clever]
+Elevator music | muzak
+Yacht rock
+Nightcore
+
+[Plankton]
+Rock | rock and roll | rock n roll
+Pop
+Country
+Rap
+Hip hop | hip-hop
+Jazz
+Classical
+R&B | rnb | rhythm and blues
+
 [Not accepted]
 Guitar
 Piano
@@ -715,89 +611,6 @@ note: Feature-length animated films from Walt Disney Animation Studios or Pixar.
 
 [One in a Krillion]
 The Black Cauldron | black cauldron
-
-[Plankton]
-The Lion King | lion king
-Frozen
-Toy Story
-Finding Nemo
-Aladdin
-The Little Mermaid | little mermaid
-Beauty and the Beast
-Moana
-
-[Too Clever]
-Mary Poppins
-Who Framed Roger Rabbit
-Fantasia 2000
-
-[Schooler]
-Cinderella
-Snow White | snow white and the seven dwarfs
-Sleeping Beauty
-Mulan
-Tangled
-Up
-Cars
-Inside Out
-Coco
-Monsters Inc | monsters, inc.
-The Incredibles | incredibles
-Ratatouille
-WALL-E | wall e | walle
-Zootopia
-Encanto
-Bambi
-Dumbo
-Pinocchio
-Peter Pan
-Lilo & Stitch | lilo and stitch
-Pocahontas
-Hercules
-Tarzan
-Frozen 2 | frozen ii
-Toy Story 2
-Toy Story 3
-Toy Story 4
-Finding Dory
-Big Hero 6
-Wreck-It Ralph | wreck it ralph
-
-[Rare]
-101 Dalmatians | one hundred and one dalmatians
-Lady and the Tramp
-The Jungle Book | jungle book
-Alice in Wonderland
-Fantasia
-The Aristocats | aristocats
-Robin Hood
-The Hunchback of Notre Dame | hunchback of notre dame
-The Emperor's New Groove | emperors new groove
-Brave
-A Bug's Life | a bugs life | bugs life
-Cars 2
-Cars 3
-Monsters University
-Incredibles 2
-Ralph Breaks the Internet
-Raya and the Last Dragon | raya
-Luca
-Turning Red
-Soul
-Onward
-Elemental
-Wish
-Inside Out 2
-Moana 2
-Bolt
-The Princess and the Frog | princess and the frog
-The Good Dinosaur | good dinosaur
-Lightyear
-Atlantis | atlantis the lost empire
-Treasure Planet
-Chicken Little
-Meet the Robinsons
-Brother Bear
 
 [Deep Cut]
 The Sword in the Stone | sword in the stone
@@ -837,6 +650,89 @@ Cinderella II
 Mulan II
 Tinker Bell
 
+[Rare]
+101 Dalmatians | one hundred and one dalmatians
+Lady and the Tramp
+The Jungle Book | jungle book
+Alice in Wonderland
+Fantasia
+The Aristocats | aristocats
+Robin Hood
+The Hunchback of Notre Dame | hunchback of notre dame
+The Emperor's New Groove | emperors new groove
+Brave
+A Bug's Life | a bugs life | bugs life
+Cars 2
+Cars 3
+Monsters University
+Incredibles 2
+Ralph Breaks the Internet
+Raya and the Last Dragon | raya
+Luca
+Turning Red
+Soul
+Onward
+Elemental
+Wish
+Inside Out 2
+Moana 2
+Bolt
+The Princess and the Frog | princess and the frog
+The Good Dinosaur | good dinosaur
+Lightyear
+Atlantis | atlantis the lost empire
+Treasure Planet
+Chicken Little
+Meet the Robinsons
+Brother Bear
+
+[Schooler]
+Cinderella
+Snow White | snow white and the seven dwarfs
+Sleeping Beauty
+Mulan
+Tangled
+Up
+Cars
+Inside Out
+Coco
+Monsters Inc | monsters, inc.
+The Incredibles | incredibles
+Ratatouille
+WALL-E | wall e | walle
+Zootopia
+Encanto
+Bambi
+Dumbo
+Pinocchio
+Peter Pan
+Lilo & Stitch | lilo and stitch
+Pocahontas
+Hercules
+Tarzan
+Frozen 2 | frozen ii
+Toy Story 2
+Toy Story 3
+Toy Story 4
+Finding Dory
+Big Hero 6
+Wreck-It Ralph | wreck it ralph
+
+[Too Clever]
+Mary Poppins
+Who Framed Roger Rabbit
+Fantasia 2000
+
+[Plankton]
+The Lion King | lion king
+Frozen
+Toy Story
+Finding Nemo
+Aladdin
+The Little Mermaid | little mermaid
+Beauty and the Beast
+Moana
+
 [Not accepted]
 Shrek
 Despicable Me
@@ -858,68 +754,6 @@ note: Real words that rhyme exactly with "cat" (-at sound). Names don't count.
 
 [One in a Krillion]
 Laundromat
-
-[Plankton]
-Hat
-Bat
-Rat
-Mat
-Sat
-Fat
-Pat
-Chat
-
-[Too Clever]
-Acrobat
-Diplomat
-Cat
-
-[Schooler]
-Splat
-That
-Flat
-Brat
-Gnat
-Spat
-Vat
-Tat
-Drat
-Scat
-Slat
-Stat
-Format
-Combat
-Doormat
-Bobcat
-Wombat
-
-[Rare]
-Thermostat
-Habitat
-Democrat
-Aristocrat
-Bureaucrat
-Copycat
-Fiat
-Begat
-Chitchat
-Tomcat
-Hellcat
-Wildcat
-Polecat
-Fatcat | fat cat
-Nonfat
-Placemat
-Bath mat
-Top hat
-Hard hat
-Sun hat
-Fruit bat
-Vampire bat
-Muskrat
-Packrat | pack rat
-Lab rat
-Mudflat | mud flat
 
 [Deep Cut]
 Plat
@@ -950,6 +784,68 @@ Dingbat
 Brickbat
 Cowpat
 
+[Rare]
+Thermostat
+Habitat
+Democrat
+Aristocrat
+Bureaucrat
+Copycat
+Fiat
+Begat
+Chitchat
+Tomcat
+Hellcat
+Wildcat
+Polecat
+Fatcat | fat cat
+Nonfat
+Placemat
+Bath mat
+Top hat
+Hard hat
+Sun hat
+Fruit bat
+Vampire bat
+Muskrat
+Packrat | pack rat
+Lab rat
+Mudflat | mud flat
+
+[Schooler]
+Splat
+That
+Flat
+Brat
+Gnat
+Spat
+Vat
+Tat
+Drat
+Scat
+Slat
+Stat
+Format
+Combat
+Doormat
+Bobcat
+Wombat
+
+[Too Clever]
+Acrobat
+Diplomat
+Cat
+
+[Plankton]
+Hat
+Bat
+Rat
+Mat
+Sat
+Fat
+Pat
+Chat
+
 [Not accepted]
 Cut
 Cot
@@ -966,59 +862,6 @@ prompt: Name a gemstone or precious stone
 
 [One in a Krillion]
 Tanzanite
-
-[Plankton]
-Diamond
-Ruby
-Emerald
-Sapphire
-Pearl
-
-[Too Clever]
-Rhinestone
-Cubic zirconia | cz
-
-[Schooler]
-Amethyst
-Topaz
-Opal
-Jade
-Garnet
-Turquoise | turquois
-Onyx
-Quartz | rose quartz
-Aquamarine
-Amber
-Jasper
-Crystal
-Peridot
-
-[Rare]
-Lapis lazuli | lapis
-Moonstone
-Obsidian
-Citrine
-Tourmaline
-Tiger's eye | tigers eye | tiger eye
-Coral
-Alexandrite
-Agate
-Malachite
-Bloodstone
-Hematite
-Jet
-Zircon
-Morganite
-Spinel
-Moissanite
-Black opal
-Star sapphire
-Pink diamond
-Blue diamond
-Mother of pearl
-Carnelian
-Rhodochrosite
-Labradorite
 
 [Deep Cut]
 Beryl
@@ -1067,6 +910,59 @@ Pyrite | fool's gold
 Selenite
 Celestite
 
+[Rare]
+Lapis lazuli | lapis
+Moonstone
+Obsidian
+Citrine
+Tourmaline
+Tiger's eye | tigers eye | tiger eye
+Coral
+Alexandrite
+Agate
+Malachite
+Bloodstone
+Hematite
+Jet
+Zircon
+Morganite
+Spinel
+Moissanite
+Black opal
+Star sapphire
+Pink diamond
+Blue diamond
+Mother of pearl
+Carnelian
+Rhodochrosite
+Labradorite
+
+[Schooler]
+Amethyst
+Topaz
+Opal
+Jade
+Garnet
+Turquoise | turquois
+Onyx
+Quartz | rose quartz
+Aquamarine
+Amber
+Jasper
+Crystal
+Peridot
+
+[Too Clever]
+Rhinestone
+Cubic zirconia | cz
+
+[Plankton]
+Diamond
+Ruby
+Emerald
+Sapphire
+Pearl
+
 [Not accepted]
 Kidney stone
 Gold
@@ -1087,40 +983,37 @@ prompt: Name a brand of soda or soft drink
 [One in a Krillion]
 Moxie
 
-[Plankton]
-Coca-Cola | coke | coca cola
-Pepsi
-Sprite
-Dr Pepper | dr. pepper | doctor pepper
-Mountain Dew | mtn dew
-Fanta
-7 Up | 7up | seven up
-
-[Too Clever]
-Tab
-Crystal Pepsi
-
-[Schooler]
-Diet Coke
-Coke Zero
-Root beer
-A&W | a and w
-Barq's | barqs
-Canada Dry
-Schweppes
-Sunkist
-Mug | mug root beer
-Pepsi Max
-Diet Pepsi
-Ginger ale
-Squirt
-Fresca
-Crush | orange crush
-Sierra Mist
-Starry
-Mello Yello | mello yellow
-Big Red
-Cherry Coke
+[Deep Cut]
+Ale-8-One | ale 8
+Blenheim
+Boylan
+Reed's | reeds
+Fentimans
+Sprecher
+Henry Weinhard's
+Virgil's
+Frostie
+Dad's | dads root beer
+Mr. Fizz
+Kas
+Tango
+Vimto
+Club Mate | club-mate
+Afri Cola
+Kofola
+Guarana Antarctica | guarana
+Thums Up
+Limca
+Bundaberg
+Ramune
+Bawls
+Jolt
+Clearly Canadian
+Hansen's | hansens
+Blue Sky
+Spindrift
+Waterloo
+Topo Chico
 
 [Rare]
 Vernors
@@ -1156,37 +1049,40 @@ Mirinda
 Orangina
 Lilt
 
-[Deep Cut]
-Ale-8-One | ale 8
-Blenheim
-Boylan
-Reed's | reeds
-Fentimans
-Sprecher
-Henry Weinhard's
-Virgil's
-Frostie
-Dad's | dads root beer
-Mr. Fizz
-Kas
-Tango
-Vimto
-Club Mate | club-mate
-Afri Cola
-Kofola
-Guarana Antarctica | guarana
-Thums Up
-Limca
-Bundaberg
-Ramune
-Bawls
-Jolt
-Clearly Canadian
-Hansen's | hansens
-Blue Sky
-Spindrift
-Waterloo
-Topo Chico
+[Schooler]
+Diet Coke
+Coke Zero
+Root beer
+A&W | a and w
+Barq's | barqs
+Canada Dry
+Schweppes
+Sunkist
+Mug | mug root beer
+Pepsi Max
+Diet Pepsi
+Ginger ale
+Squirt
+Fresca
+Crush | orange crush
+Sierra Mist
+Starry
+Mello Yello | mello yellow
+Big Red
+Cherry Coke
+
+[Too Clever]
+Tab
+Crystal Pepsi
+
+[Plankton]
+Coca-Cola | coke | coca cola
+Pepsi
+Sprite
+Dr Pepper | dr. pepper | doctor pepper
+Mountain Dew | mtn dew
+Fanta
+7 Up | 7up | seven up
 
 [Not accepted]
 Milk
@@ -1204,76 +1100,6 @@ prompt: Name a piece of furniture
 
 [One in a Krillion]
 Chaise longue | chaise lounge | chaise
-
-[Plankton]
-Chair
-Table
-Bed
-Couch | sofa
-Desk
-Dresser
-Bookshelf | bookcase | bookshelves
-
-[Too Clever]
-Beanbag | bean bag | beanbag chair
-Futon
-Throne
-
-[Schooler]
-Stool
-Bench
-Cabinet
-Nightstand | night stand | bedside table
-Coffee table
-Armchair
-Recliner | la-z-boy | lazy boy
-Ottoman
-Wardrobe | armoire
-Loveseat | love seat
-Rocking chair
-Dining table
-Crib | cot
-Bunk bed | bunkbed
-Chest of drawers
-TV stand | entertainment center
-Footstool
-Hammock
-
-[Rare]
-Sideboard | buffet
-Hutch
-China cabinet
-Credenza
-Vanity
-Headboard
-Sectional
-Daybed
-Trundle bed
-Murphy bed
-Bar stool | barstool
-High chair | highchair
-Changing table
-Filing cabinet | file cabinet
-Desk chair | office chair
-Folding chair
-Lawn chair
-Patio table
-Picnic table
-End table | side table
-Console table
-Hope chest
-Toy chest | toy box
-Shoe rack
-Coat rack | hat stand
-Mirror
-Lamp
-Kitchen island
-Gaming chair
-Waterbed
-Canopy bed | four poster bed
-Sleeper sofa | pullout couch | sofa bed
-Wingback chair | wing chair
-Papasan chair | papasan
 
 [Deep Cut]
 Settee
@@ -1324,11 +1150,82 @@ Ladder shelf
 Cubby | cubbies
 Locker
 
+[Rare]
+Sideboard | buffet
+Hutch
+China cabinet
+Credenza
+Vanity
+Headboard
+Sectional
+Daybed
+Trundle bed
+Murphy bed
+Bar stool | barstool
+High chair | highchair
+Changing table
+Filing cabinet | file cabinet
+Desk chair | office chair
+Folding chair
+Lawn chair
+Patio table
+Picnic table
+End table | side table
+Console table
+Hope chest
+Toy chest | toy box
+Shoe rack
+Coat rack | hat stand
+Mirror
+Lamp
+Kitchen island
+Gaming chair
+Waterbed
+Canopy bed | four poster bed
+Sleeper sofa | pullout couch | sofa bed
+Wingback chair | wing chair
+Papasan chair | papasan
+
+[Schooler]
+Stool
+Bench
+Cabinet
+Nightstand | night stand | bedside table
+Coffee table
+Armchair
+Recliner | la-z-boy | lazy boy
+Ottoman
+Wardrobe | armoire
+Loveseat | love seat
+Rocking chair
+Dining table
+Crib | cot
+Bunk bed | bunkbed
+Chest of drawers
+TV stand | entertainment center
+Footstool
+Hammock
+
+[Too Clever]
+Beanbag | bean bag | beanbag chair
+Futon
+Throne
+
+[Plankton]
+Chair
+Table
+Bed
+Couch | sofa
+Desk
+Dresser
+Bookshelf | bookcase | bookshelves
+
 [Not accepted]
 Rug
 Door
 Window
-Television | tv
+Television
+tv
 Fridge
 Pillow
 Blanket

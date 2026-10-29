@@ -5,14 +5,27 @@ import { CATEGORIES, QUESTIONS_PER_DAY, TIERS } from "../config";
  * weekly scheduled task) must follow. Kept in one place so the Generate tab,
  * WEEKLY_TASK.md and the validator agree.
  */
-export const QUESTION_RULES = `WHAT MAKES A GOOD PROMPT
+export const QUESTION_RULES = `THE MOST IMPORTANT RULE: A COMPLETE, CLOSED LIST
+Every valid answer must be in the list. A player who types a correct answer and gets marked wrong is the worst thing that can happen in this game.
+- Only write a prompt if you can list EVERY valid answer, not just the well-known ones.
+- If the honest set of answers is too big to list completely (any US city, any bird, any word, any song, any job, anything you'd find in a kitchen), add a constraint that closes it to a fixed, checkable list. Examples:
+  - "Name a US city" -> "Name a US state capital" (exactly 50)
+  - "Name a city in Europe" -> "Name a national capital city" (about 195)
+  - "Name a dog" -> "Name a dog breed recognized by the American Kennel Club"
+  - "Name a song" -> "Name a Beatles song" (a fixed catalog)
+  - "Name a word that means big" -> keep it only if you can cover every common synonym, slang included
+- Good constraints point to an official or well-documented list: a ranking, a membership, an award, a roster that no longer changes, a named set (the 88 constellations, the 118 elements, the 50 states).
+- Bad constraints are vague ("a famous...", "a popular...") because nobody can agree where the list ends.
+- After writing the list, ask: "Could a smart player type something true that isn't here?" If yes, add it, or tighten the prompt until the answer is no.
+
+WHAT MAKES A GOOD PROMPT
 - Easy entry: almost anyone can name at least one answer within 5 seconds.
 - Big pool: at least 50 valid answers (the validator fails under 50). Aim for 80-250.
-- Clear boundary: the prompt makes it obvious what counts.
+- Clear boundary: the prompt makes it obvious what counts, and the set of valid answers is closed (see the rule above).
 - Stable facts: nothing that changes often (no current rosters, no "currently airing" shows).
 - Prompt is 80 characters or less.
 - EQUAL DIFFICULTY: every question should be about as hard as every other. A typical player can name several valid answers; a strong player can reach Rare or better with some thought. No difficulty ramp.
-- List (nearly) every valid answer you can think of. Anything missing gets marked wrong, which is the worst experience.
+- List every valid answer. Anything missing gets marked wrong, which is the worst experience.
 
 RARITY TIERS (every valid answer goes in exactly one)
 - [Plankton] 10 pts: the 5-10 answers most people say first

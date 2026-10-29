@@ -10,294 +10,331 @@
         "tier": 100
       },
       {
-        "text": "Christopher Columbus",
+        "text": "Giovanni da Verrazzano",
         "aliases": [
-          "columbus"
+          "verrazzano",
+          "verrazano"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Lewis and Clark",
+        "text": "Martin Frobisher",
         "aliases": [
-          "lewis",
-          "clark",
-          "meriwether lewis",
-          "william clark"
+          "frobisher"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Marco Polo",
-        "tier": 10
+        "text": "John Davis",
+        "tier": 85
       },
       {
-        "text": "Ferdinand Magellan",
+        "text": "William Baffin",
         "aliases": [
-          "magellan"
+          "baffin"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Amerigo Vespucci",
+        "text": "Thomas Button",
+        "tier": 85
+      },
+      {
+        "text": "Luke Foxe",
+        "tier": 85
+      },
+      {
+        "text": "Jens Munk",
+        "tier": 85
+      },
+      {
+        "text": "Semyon Dezhnev",
         "aliases": [
-          "vespucci"
+          "dezhnev"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Leif Erikson",
+        "text": "Yerofey Khabarov",
+        "tier": 85
+      },
+      {
+        "text": "Nikolai Przhevalsky",
         "aliases": [
-          "leif ericson",
-          "leif eriksson"
+          "przhevalsky"
         ],
-        "tier": 15
+        "tier": 85
       },
       {
-        "text": "Amelia Earhart",
+        "text": "Pyotr Semenov",
+        "tier": 85
+      },
+      {
+        "text": "Sven Hedin",
         "aliases": [
-          "earhart"
+          "hedin"
         ],
-        "tier": 15
+        "tier": 85
       },
       {
-        "text": "Neil Armstrong",
+        "text": "Aurel Stein",
+        "tier": 85
+      },
+      {
+        "text": "Francis Younghusband",
         "aliases": [
-          "armstrong"
+          "younghusband"
         ],
-        "tier": 15
+        "tier": 85
       },
       {
-        "text": "Vasco da Gama",
+        "text": "Nain Singh",
+        "tier": 85
+      },
+      {
+        "text": "Kinthup",
+        "tier": 85
+      },
+      {
+        "text": "Ippolito Desideri",
+        "tier": 85
+      },
+      {
+        "text": "Antonio de Andrade",
+        "tier": 85
+      },
+      {
+        "text": "Benedict Goes",
+        "tier": 85
+      },
+      {
+        "text": "Matteo Ricci",
+        "tier": 85
+      },
+      {
+        "text": "Odoric of Pordenone",
+        "tier": 85
+      },
+      {
+        "text": "William of Rubruck",
+        "tier": 85
+      },
+      {
+        "text": "Giovanni da Pian del Carpine",
+        "tier": 85
+      },
+      {
+        "text": "Rabban Bar Sauma",
+        "tier": 85
+      },
+      {
+        "text": "Faxian",
+        "tier": 85
+      },
+      {
+        "text": "Mansa Musa",
+        "tier": 85
+      },
+      {
+        "text": "Estevanico",
         "aliases": [
-          "da gama"
+          "esteban"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Hernan Cortes",
+        "text": "Alvaro de Mendana",
+        "tier": 85
+      },
+      {
+        "text": "Pedro Fernandes de Queiros",
+        "tier": 85
+      },
+      {
+        "text": "Luis Vaez de Torres",
         "aliases": [
-          "cortes",
-          "cortez",
-          "hernando cortez"
+          "torres"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Francisco Pizarro",
+        "text": "Jacob Roggeveen",
+        "tier": 85
+      },
+      {
+        "text": "Samuel Wallis",
+        "tier": 85
+      },
+      {
+        "text": "Philip Carteret",
+        "tier": 85
+      },
+      {
+        "text": "Matthew Flinders",
         "aliases": [
-          "pizarro"
+          "flinders"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Juan Ponce de Leon",
+        "text": "George Bass",
+        "tier": 85
+      },
+      {
+        "text": "John McDouall Stuart",
+        "tier": 85
+      },
+      {
+        "text": "Burke and Wills",
         "aliases": [
-          "ponce de leon"
+          "burke",
+          "wills"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Hernando de Soto",
+        "text": "Ludwig Leichhardt",
+        "tier": 85
+      },
+      {
+        "text": "Edward John Eyre",
+        "tier": 85
+      },
+      {
+        "text": "Charles Sturt",
+        "tier": 85
+      },
+      {
+        "text": "Hamilton Hume",
+        "tier": 85
+      },
+      {
+        "text": "William Hovell",
+        "tier": 85
+      },
+      {
+        "text": "Gregory Blaxland",
+        "tier": 85
+      },
+      {
+        "text": "Paul Strzelecki",
+        "tier": 85
+      },
+      {
+        "text": "Ernest Giles",
+        "tier": 85
+      },
+      {
+        "text": "Peter Warburton",
+        "tier": 85
+      },
+      {
+        "text": "John Forrest",
+        "tier": 85
+      },
+      {
+        "text": "Alfred Russel Wallace",
+        "tier": 85
+      },
+      {
+        "text": "Henry Walter Bates",
+        "tier": 85
+      },
+      {
+        "text": "Richard Spruce",
+        "tier": 85
+      },
+      {
+        "text": "Percy Fawcett",
         "aliases": [
-          "de soto"
+          "fawcett"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Sir Francis Drake",
+        "text": "Candido Rondon",
+        "tier": 85
+      },
+      {
+        "text": "Pierre Savorgnan de Brazza",
         "aliases": [
-          "francis drake",
-          "drake"
+          "brazza"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Captain James Cook",
+        "text": "Rene Caillie",
+        "tier": 85
+      },
+      {
+        "text": "Gustav Nachtigal",
+        "tier": 85
+      },
+      {
+        "text": "Hugh Clapperton",
+        "tier": 85
+      },
+      {
+        "text": "Richard Lander",
+        "tier": 85
+      },
+      {
+        "text": "Alexandrine Tinne",
+        "tier": 85
+      },
+      {
+        "text": "Mary Kingsley",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Thomson",
+        "tier": 85
+      },
+      {
+        "text": "Verney Lovett Cameron",
+        "tier": 85
+      },
+      {
+        "text": "Carl Peters",
+        "tier": 85
+      },
+      {
+        "text": "Count Teleki",
+        "tier": 85
+      },
+      {
+        "text": "Wilfred Thesiger",
         "aliases": [
-          "james cook",
-          "captain cook",
-          "cook"
+          "thesiger"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Henry Hudson",
+        "text": "Bertram Thomas",
+        "tier": 85
+      },
+      {
+        "text": "St John Philby",
+        "tier": 85
+      },
+      {
+        "text": "Charles Doughty",
+        "tier": 85
+      },
+      {
+        "text": "Johann Ludwig Burckhardt",
         "aliases": [
-          "hudson"
+          "burckhardt"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Jacques Cartier",
-        "aliases": [
-          "cartier"
-        ],
-        "tier": 30
+        "text": "Ulrich Seetzen",
+        "tier": 85
       },
       {
-        "text": "Samuel de Champlain",
-        "aliases": [
-          "champlain"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sacagawea",
-        "aliases": [
-          "sacajawea"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Daniel Boone",
-        "aliases": [
-          "boone"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Davy Crockett",
-        "aliases": [
-          "crockett"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Roald Amundsen",
-        "aliases": [
-          "amundsen"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Robert Falcon Scott",
-        "aliases": [
-          "robert scott"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ernest Shackleton",
-        "aliases": [
-          "shackleton"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Edmund Hillary",
-        "aliases": [
-          "hillary",
-          "sir edmund hillary"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Tenzing Norgay",
-        "aliases": [
-          "tenzing"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Robert Peary",
-        "aliases": [
-          "peary"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Matthew Henson",
-        "aliases": [
-          "henson"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Charles Lindbergh",
-        "aliases": [
-          "lindbergh"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Yuri Gagarin",
-        "aliases": [
-          "gagarin"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Buzz Aldrin",
-        "aliases": [
-          "aldrin"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "John Glenn",
-        "aliases": [
-          "glenn"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Jacques Cousteau",
-        "aliases": [
-          "cousteau"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ibn Battuta",
-        "tier": 30
-      },
-      {
-        "text": "Erik the Red",
-        "tier": 30
-      },
-      {
-        "text": "John Cabot",
-        "aliases": [
-          "cabot"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sir Walter Raleigh",
-        "aliases": [
-          "walter raleigh",
-          "raleigh"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bartolomeu Dias",
-        "aliases": [
-          "dias",
-          "diaz"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Prince Henry the Navigator",
-        "aliases": [
-          "henry the navigator"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "David Livingstone",
-        "aliases": [
-          "livingstone"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Henry Morton Stanley",
-        "aliases": [
-          "stanley"
-        ],
-        "tier": 30
+        "text": "Carsten Niebuhr",
+        "tier": 85
       },
       {
         "text": "Francisco de Orellana",
@@ -665,331 +702,294 @@
         "tier": 60
       },
       {
-        "text": "Giovanni da Verrazzano",
+        "text": "Vasco da Gama",
         "aliases": [
-          "verrazzano",
-          "verrazano"
+          "da gama"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Martin Frobisher",
+        "text": "Hernan Cortes",
         "aliases": [
-          "frobisher"
+          "cortes",
+          "cortez",
+          "hernando cortez"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "John Davis",
-        "tier": 85
-      },
-      {
-        "text": "William Baffin",
+        "text": "Francisco Pizarro",
         "aliases": [
-          "baffin"
+          "pizarro"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Thomas Button",
-        "tier": 85
-      },
-      {
-        "text": "Luke Foxe",
-        "tier": 85
-      },
-      {
-        "text": "Jens Munk",
-        "tier": 85
-      },
-      {
-        "text": "Semyon Dezhnev",
+        "text": "Juan Ponce de Leon",
         "aliases": [
-          "dezhnev"
+          "ponce de leon"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Yerofey Khabarov",
-        "tier": 85
-      },
-      {
-        "text": "Nikolai Przhevalsky",
+        "text": "Hernando de Soto",
         "aliases": [
-          "przhevalsky"
+          "de soto"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Pyotr Semenov",
-        "tier": 85
-      },
-      {
-        "text": "Sven Hedin",
+        "text": "Sir Francis Drake",
         "aliases": [
-          "hedin"
+          "francis drake",
+          "drake"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Aurel Stein",
-        "tier": 85
-      },
-      {
-        "text": "Francis Younghusband",
+        "text": "Captain James Cook",
         "aliases": [
-          "younghusband"
+          "james cook",
+          "captain cook",
+          "cook"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Nain Singh",
-        "tier": 85
-      },
-      {
-        "text": "Kinthup",
-        "tier": 85
-      },
-      {
-        "text": "Ippolito Desideri",
-        "tier": 85
-      },
-      {
-        "text": "Antonio de Andrade",
-        "tier": 85
-      },
-      {
-        "text": "Benedict Goes",
-        "tier": 85
-      },
-      {
-        "text": "Matteo Ricci",
-        "tier": 85
-      },
-      {
-        "text": "Odoric of Pordenone",
-        "tier": 85
-      },
-      {
-        "text": "William of Rubruck",
-        "tier": 85
-      },
-      {
-        "text": "Giovanni da Pian del Carpine",
-        "tier": 85
-      },
-      {
-        "text": "Rabban Bar Sauma",
-        "tier": 85
-      },
-      {
-        "text": "Faxian",
-        "tier": 85
-      },
-      {
-        "text": "Mansa Musa",
-        "tier": 85
-      },
-      {
-        "text": "Estevanico",
+        "text": "Henry Hudson",
         "aliases": [
-          "esteban"
+          "hudson"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Alvaro de Mendana",
-        "tier": 85
-      },
-      {
-        "text": "Pedro Fernandes de Queiros",
-        "tier": 85
-      },
-      {
-        "text": "Luis Vaez de Torres",
+        "text": "Jacques Cartier",
         "aliases": [
-          "torres"
+          "cartier"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Jacob Roggeveen",
-        "tier": 85
-      },
-      {
-        "text": "Samuel Wallis",
-        "tier": 85
-      },
-      {
-        "text": "Philip Carteret",
-        "tier": 85
-      },
-      {
-        "text": "Matthew Flinders",
+        "text": "Samuel de Champlain",
         "aliases": [
-          "flinders"
+          "champlain"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "George Bass",
-        "tier": 85
-      },
-      {
-        "text": "John McDouall Stuart",
-        "tier": 85
-      },
-      {
-        "text": "Burke and Wills",
+        "text": "Sacagawea",
         "aliases": [
-          "burke",
-          "wills"
+          "sacajawea"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Ludwig Leichhardt",
-        "tier": 85
-      },
-      {
-        "text": "Edward John Eyre",
-        "tier": 85
-      },
-      {
-        "text": "Charles Sturt",
-        "tier": 85
-      },
-      {
-        "text": "Hamilton Hume",
-        "tier": 85
-      },
-      {
-        "text": "William Hovell",
-        "tier": 85
-      },
-      {
-        "text": "Gregory Blaxland",
-        "tier": 85
-      },
-      {
-        "text": "Paul Strzelecki",
-        "tier": 85
-      },
-      {
-        "text": "Ernest Giles",
-        "tier": 85
-      },
-      {
-        "text": "Peter Warburton",
-        "tier": 85
-      },
-      {
-        "text": "John Forrest",
-        "tier": 85
-      },
-      {
-        "text": "Alfred Russel Wallace",
-        "tier": 85
-      },
-      {
-        "text": "Henry Walter Bates",
-        "tier": 85
-      },
-      {
-        "text": "Richard Spruce",
-        "tier": 85
-      },
-      {
-        "text": "Percy Fawcett",
+        "text": "Daniel Boone",
         "aliases": [
-          "fawcett"
+          "boone"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Candido Rondon",
-        "tier": 85
-      },
-      {
-        "text": "Pierre Savorgnan de Brazza",
+        "text": "Davy Crockett",
         "aliases": [
-          "brazza"
+          "crockett"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Rene Caillie",
-        "tier": 85
-      },
-      {
-        "text": "Gustav Nachtigal",
-        "tier": 85
-      },
-      {
-        "text": "Hugh Clapperton",
-        "tier": 85
-      },
-      {
-        "text": "Richard Lander",
-        "tier": 85
-      },
-      {
-        "text": "Alexandrine Tinne",
-        "tier": 85
-      },
-      {
-        "text": "Mary Kingsley",
-        "tier": 85
-      },
-      {
-        "text": "Joseph Thomson",
-        "tier": 85
-      },
-      {
-        "text": "Verney Lovett Cameron",
-        "tier": 85
-      },
-      {
-        "text": "Carl Peters",
-        "tier": 85
-      },
-      {
-        "text": "Count Teleki",
-        "tier": 85
-      },
-      {
-        "text": "Wilfred Thesiger",
+        "text": "Roald Amundsen",
         "aliases": [
-          "thesiger"
+          "amundsen"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Bertram Thomas",
-        "tier": 85
-      },
-      {
-        "text": "St John Philby",
-        "tier": 85
-      },
-      {
-        "text": "Charles Doughty",
-        "tier": 85
-      },
-      {
-        "text": "Johann Ludwig Burckhardt",
+        "text": "Robert Falcon Scott",
         "aliases": [
-          "burckhardt"
+          "robert scott"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Ulrich Seetzen",
-        "tier": 85
+        "text": "Ernest Shackleton",
+        "aliases": [
+          "shackleton"
+        ],
+        "tier": 30
       },
       {
-        "text": "Carsten Niebuhr",
-        "tier": 85
+        "text": "Edmund Hillary",
+        "aliases": [
+          "hillary",
+          "sir edmund hillary"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tenzing Norgay",
+        "aliases": [
+          "tenzing"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Robert Peary",
+        "aliases": [
+          "peary"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Matthew Henson",
+        "aliases": [
+          "henson"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Charles Lindbergh",
+        "aliases": [
+          "lindbergh"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Yuri Gagarin",
+        "aliases": [
+          "gagarin"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Buzz Aldrin",
+        "aliases": [
+          "aldrin"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "John Glenn",
+        "aliases": [
+          "glenn"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Jacques Cousteau",
+        "aliases": [
+          "cousteau"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ibn Battuta",
+        "tier": 30
+      },
+      {
+        "text": "Erik the Red",
+        "tier": 30
+      },
+      {
+        "text": "John Cabot",
+        "aliases": [
+          "cabot"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sir Walter Raleigh",
+        "aliases": [
+          "walter raleigh",
+          "raleigh"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bartolomeu Dias",
+        "aliases": [
+          "dias",
+          "diaz"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Prince Henry the Navigator",
+        "aliases": [
+          "henry the navigator"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "David Livingstone",
+        "aliases": [
+          "livingstone"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Henry Morton Stanley",
+        "aliases": [
+          "stanley"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Leif Erikson",
+        "aliases": [
+          "leif ericson",
+          "leif eriksson"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Amelia Earhart",
+        "aliases": [
+          "earhart"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Neil Armstrong",
+        "aliases": [
+          "armstrong"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Christopher Columbus",
+        "aliases": [
+          "columbus"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Lewis and Clark",
+        "aliases": [
+          "lewis",
+          "clark",
+          "meriwether lewis",
+          "william clark"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Marco Polo",
+        "tier": 10
+      },
+      {
+        "text": "Ferdinand Magellan",
+        "aliases": [
+          "magellan"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Amerigo Vespucci",
+        "aliases": [
+          "vespucci"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -1017,197 +1017,182 @@
         "tier": 100
       },
       {
-        "text": "Poker",
-        "tier": 10
+        "text": "Bourré",
+        "tier": 85
       },
       {
-        "text": "Blackjack",
+        "text": "Cassino",
+        "tier": 85
+      },
+      {
+        "text": "Egyptian War",
+        "tier": 85
+      },
+      {
+        "text": "Pounce",
+        "tier": 85
+      },
+      {
+        "text": "Racing Demon",
+        "tier": 85
+      },
+      {
+        "text": "Russian Bank",
+        "tier": 85
+      },
+      {
+        "text": "Spite and Malice",
+        "tier": 85
+      },
+      {
+        "text": "Cat and Mouse",
+        "tier": 85
+      },
+      {
+        "text": "Bisca",
+        "tier": 85
+      },
+      {
+        "text": "Tute",
+        "tier": 85
+      },
+      {
+        "text": "Brisca",
+        "tier": 85
+      },
+      {
+        "text": "Sueca",
+        "tier": 85
+      },
+      {
+        "text": "Manille",
+        "tier": 85
+      },
+      {
+        "text": "Klaverjas",
+        "tier": 85
+      },
+      {
+        "text": "Klabberjass",
+        "tier": 85
+      },
+      {
+        "text": "Schafkopf",
+        "tier": 85
+      },
+      {
+        "text": "Tarock",
+        "tier": 85
+      },
+      {
+        "text": "Ombre",
+        "tier": 85
+      },
+      {
+        "text": "Quadrille",
+        "tier": 85
+      },
+      {
+        "text": "Primero",
+        "tier": 85
+      },
+      {
+        "text": "Brag",
+        "tier": 85
+      },
+      {
+        "text": "Pope Joan",
+        "tier": 85
+      },
+      {
+        "text": "Newmarket",
+        "tier": 85
+      },
+      {
+        "text": "Thirty-one",
         "aliases": [
-          "21",
-          "twenty-one"
+          "31"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Go Fish",
-        "tier": 10
+        "text": "Schnapsen",
+        "tier": 85
       },
       {
-        "text": "Solitaire",
-        "tier": 10
+        "text": "Sixty-six",
+        "tier": 85
       },
       {
-        "text": "Uno",
-        "tier": 10
+        "text": "Contract bridge",
+        "tier": 85
       },
       {
-        "text": "War",
-        "tier": 10
+        "text": "Auction bridge",
+        "tier": 85
       },
       {
-        "text": "Old Maid",
-        "tier": 10
+        "text": "Rubber bridge",
+        "tier": 85
       },
       {
-        "text": "Crazy Eights",
+        "text": "Chicago bridge",
+        "tier": 85
+      },
+      {
+        "text": "Black Maria",
+        "tier": 85
+      },
+      {
+        "text": "Polignac",
+        "tier": 85
+      },
+      {
+        "text": "Barbu",
+        "tier": 85
+      },
+      {
+        "text": "Kaiser",
+        "tier": 85
+      },
+      {
+        "text": "Five Hundred",
         "aliases": [
-          "crazy 8s"
+          "500"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Magic: The Gathering",
-        "aliases": [
-          "magic",
-          "mtg"
-        ],
-        "tier": 15
+        "text": "Skitgubbe",
+        "tier": 85
       },
       {
-        "text": "Pokemon cards",
-        "aliases": [
-          "pokemon tcg"
-        ],
-        "tier": 15
+        "text": "Svoi Koziri",
+        "tier": 85
       },
       {
-        "text": "Cards Against Humanity",
-        "tier": 15
+        "text": "Mau-Mau",
+        "tier": 85
       },
       {
-        "text": "President",
-        "aliases": [
-          "scum"
-        ],
-        "tier": 30
+        "text": "Tichu",
+        "tier": 85
       },
       {
-        "text": "BS",
-        "aliases": [
-          "i doubt it",
-          "cheat"
-        ],
-        "tier": 30
+        "text": "The Great Dalmuti",
+        "tier": 85
       },
       {
-        "text": "Memory",
-        "aliases": [
-          "concentration"
-        ],
-        "tier": 30
+        "text": "Race for the Galaxy",
+        "tier": 85
       },
       {
-        "text": "Rummy",
-        "aliases": [
-          "gin rummy",
-          "gin"
-        ],
-        "tier": 30
+        "text": "San Juan",
+        "tier": 85
       },
       {
-        "text": "Hearts",
-        "tier": 30
-      },
-      {
-        "text": "Spades",
-        "tier": 30
-      },
-      {
-        "text": "Bridge",
-        "tier": 30
-      },
-      {
-        "text": "Euchre",
-        "tier": 30
-      },
-      {
-        "text": "Texas Hold'em",
-        "aliases": [
-          "texas holdem",
-          "hold em"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Spit",
-        "aliases": [
-          "speed"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Slapjack",
-        "tier": 30
-      },
-      {
-        "text": "Snap",
-        "tier": 30
-      },
-      {
-        "text": "Cribbage",
-        "tier": 30
-      },
-      {
-        "text": "Canasta",
-        "tier": 30
-      },
-      {
-        "text": "Baccarat",
-        "tier": 30
-      },
-      {
-        "text": "Pinochle",
-        "tier": 30
-      },
-      {
-        "text": "Spoons",
-        "tier": 30
-      },
-      {
-        "text": "Skip-Bo",
-        "aliases": [
-          "skip bo"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Phase 10",
-        "tier": 30
-      },
-      {
-        "text": "Exploding Kittens",
-        "tier": 30
-      },
-      {
-        "text": "Kings in the Corner",
-        "tier": 30
-      },
-      {
-        "text": "Nertz",
-        "tier": 30
-      },
-      {
-        "text": "Hand and Foot",
-        "tier": 30
-      },
-      {
-        "text": "Mao",
-        "tier": 30
-      },
-      {
-        "text": "Yu-Gi-Oh",
-        "aliases": [
-          "yugioh"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hearthstone",
-        "tier": 30
-      },
-      {
-        "text": "Dutch Blitz",
-        "tier": 30
+        "text": "Jaipur",
+        "tier": 85
       },
       {
         "text": "Sheepshead",
@@ -1485,182 +1470,197 @@
         "tier": 60
       },
       {
-        "text": "Bourré",
-        "tier": 85
-      },
-      {
-        "text": "Cassino",
-        "tier": 85
-      },
-      {
-        "text": "Egyptian War",
-        "tier": 85
-      },
-      {
-        "text": "Pounce",
-        "tier": 85
-      },
-      {
-        "text": "Racing Demon",
-        "tier": 85
-      },
-      {
-        "text": "Russian Bank",
-        "tier": 85
-      },
-      {
-        "text": "Spite and Malice",
-        "tier": 85
-      },
-      {
-        "text": "Cat and Mouse",
-        "tier": 85
-      },
-      {
-        "text": "Bisca",
-        "tier": 85
-      },
-      {
-        "text": "Tute",
-        "tier": 85
-      },
-      {
-        "text": "Brisca",
-        "tier": 85
-      },
-      {
-        "text": "Sueca",
-        "tier": 85
-      },
-      {
-        "text": "Manille",
-        "tier": 85
-      },
-      {
-        "text": "Klaverjas",
-        "tier": 85
-      },
-      {
-        "text": "Klabberjass",
-        "tier": 85
-      },
-      {
-        "text": "Schafkopf",
-        "tier": 85
-      },
-      {
-        "text": "Tarock",
-        "tier": 85
-      },
-      {
-        "text": "Ombre",
-        "tier": 85
-      },
-      {
-        "text": "Quadrille",
-        "tier": 85
-      },
-      {
-        "text": "Primero",
-        "tier": 85
-      },
-      {
-        "text": "Brag",
-        "tier": 85
-      },
-      {
-        "text": "Pope Joan",
-        "tier": 85
-      },
-      {
-        "text": "Newmarket",
-        "tier": 85
-      },
-      {
-        "text": "Thirty-one",
+        "text": "President",
         "aliases": [
-          "31"
+          "scum"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Schnapsen",
-        "tier": 85
-      },
-      {
-        "text": "Sixty-six",
-        "tier": 85
-      },
-      {
-        "text": "Contract bridge",
-        "tier": 85
-      },
-      {
-        "text": "Auction bridge",
-        "tier": 85
-      },
-      {
-        "text": "Rubber bridge",
-        "tier": 85
-      },
-      {
-        "text": "Chicago bridge",
-        "tier": 85
-      },
-      {
-        "text": "Black Maria",
-        "tier": 85
-      },
-      {
-        "text": "Polignac",
-        "tier": 85
-      },
-      {
-        "text": "Barbu",
-        "tier": 85
-      },
-      {
-        "text": "Kaiser",
-        "tier": 85
-      },
-      {
-        "text": "Five Hundred",
+        "text": "BS",
         "aliases": [
-          "500"
+          "i doubt it",
+          "cheat"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Skitgubbe",
-        "tier": 85
+        "text": "Memory",
+        "aliases": [
+          "concentration"
+        ],
+        "tier": 30
       },
       {
-        "text": "Svoi Koziri",
-        "tier": 85
+        "text": "Rummy",
+        "aliases": [
+          "gin rummy",
+          "gin"
+        ],
+        "tier": 30
       },
       {
-        "text": "Mau-Mau",
-        "tier": 85
+        "text": "Hearts",
+        "tier": 30
       },
       {
-        "text": "Tichu",
-        "tier": 85
+        "text": "Spades",
+        "tier": 30
       },
       {
-        "text": "The Great Dalmuti",
-        "tier": 85
+        "text": "Bridge",
+        "tier": 30
       },
       {
-        "text": "Race for the Galaxy",
-        "tier": 85
+        "text": "Euchre",
+        "tier": 30
       },
       {
-        "text": "San Juan",
-        "tier": 85
+        "text": "Texas Hold'em",
+        "aliases": [
+          "texas holdem",
+          "hold em"
+        ],
+        "tier": 30
       },
       {
-        "text": "Jaipur",
-        "tier": 85
+        "text": "Spit",
+        "aliases": [
+          "speed"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Slapjack",
+        "tier": 30
+      },
+      {
+        "text": "Snap",
+        "tier": 30
+      },
+      {
+        "text": "Cribbage",
+        "tier": 30
+      },
+      {
+        "text": "Canasta",
+        "tier": 30
+      },
+      {
+        "text": "Baccarat",
+        "tier": 30
+      },
+      {
+        "text": "Pinochle",
+        "tier": 30
+      },
+      {
+        "text": "Spoons",
+        "tier": 30
+      },
+      {
+        "text": "Skip-Bo",
+        "aliases": [
+          "skip bo"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Phase 10",
+        "tier": 30
+      },
+      {
+        "text": "Exploding Kittens",
+        "tier": 30
+      },
+      {
+        "text": "Kings in the Corner",
+        "tier": 30
+      },
+      {
+        "text": "Nertz",
+        "tier": 30
+      },
+      {
+        "text": "Hand and Foot",
+        "tier": 30
+      },
+      {
+        "text": "Mao",
+        "tier": 30
+      },
+      {
+        "text": "Yu-Gi-Oh",
+        "aliases": [
+          "yugioh"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hearthstone",
+        "tier": 30
+      },
+      {
+        "text": "Dutch Blitz",
+        "tier": 30
+      },
+      {
+        "text": "Magic: The Gathering",
+        "aliases": [
+          "magic",
+          "mtg"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Pokemon cards",
+        "aliases": [
+          "pokemon tcg"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cards Against Humanity",
+        "tier": 15
+      },
+      {
+        "text": "Poker",
+        "tier": 10
+      },
+      {
+        "text": "Blackjack",
+        "aliases": [
+          "21",
+          "twenty-one"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Go Fish",
+        "tier": 10
+      },
+      {
+        "text": "Solitaire",
+        "tier": 10
+      },
+      {
+        "text": "Uno",
+        "tier": 10
+      },
+      {
+        "text": "War",
+        "tier": 10
+      },
+      {
+        "text": "Old Maid",
+        "tier": 10
+      },
+      {
+        "text": "Crazy Eights",
+        "aliases": [
+          "crazy 8s"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -1686,470 +1686,6 @@
           "esq"
         ],
         "tier": 100
-      },
-      {
-        "text": "Mr.",
-        "aliases": [
-          "mr",
-          "mister"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Mrs.",
-        "aliases": [
-          "mrs",
-          "missus"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Ms.",
-        "aliases": [
-          "ms"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Miss",
-        "tier": 10
-      },
-      {
-        "text": "Dr.",
-        "aliases": [
-          "dr",
-          "doctor"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Sir",
-        "tier": 10
-      },
-      {
-        "text": "Professor",
-        "aliases": [
-          "prof"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Coach",
-        "tier": 15
-      },
-      {
-        "text": "Mx.",
-        "tier": 15
-      },
-      {
-        "text": "Uncle",
-        "tier": 15
-      },
-      {
-        "text": "Madam",
-        "aliases": [
-          "ma'am",
-          "madame"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lord",
-        "tier": 30
-      },
-      {
-        "text": "Lady",
-        "tier": 30
-      },
-      {
-        "text": "King",
-        "tier": 30
-      },
-      {
-        "text": "Queen",
-        "tier": 30
-      },
-      {
-        "text": "Prince",
-        "tier": 30
-      },
-      {
-        "text": "Princess",
-        "tier": 30
-      },
-      {
-        "text": "Duke",
-        "tier": 30
-      },
-      {
-        "text": "Duchess",
-        "tier": 30
-      },
-      {
-        "text": "Saint",
-        "aliases": [
-          "st."
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Reverend",
-        "aliases": [
-          "rev"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Father",
-        "tier": 30
-      },
-      {
-        "text": "Sister",
-        "tier": 30
-      },
-      {
-        "text": "Brother",
-        "tier": 30
-      },
-      {
-        "text": "Pastor",
-        "tier": 30
-      },
-      {
-        "text": "Rabbi",
-        "tier": 30
-      },
-      {
-        "text": "Captain",
-        "aliases": [
-          "capt"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "President",
-        "tier": 30
-      },
-      {
-        "text": "Senator",
-        "tier": 30
-      },
-      {
-        "text": "Governor",
-        "tier": 30
-      },
-      {
-        "text": "Mayor",
-        "tier": 30
-      },
-      {
-        "text": "Judge",
-        "tier": 30
-      },
-      {
-        "text": "Officer",
-        "tier": 30
-      },
-      {
-        "text": "Sergeant",
-        "aliases": [
-          "sgt"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lieutenant",
-        "aliases": [
-          "lt"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "General",
-        "tier": 30
-      },
-      {
-        "text": "Colonel",
-        "tier": 30
-      },
-      {
-        "text": "Major",
-        "tier": 30
-      },
-      {
-        "text": "Chef",
-        "tier": 30
-      },
-      {
-        "text": "Dame",
-        "tier": 30
-      },
-      {
-        "text": "Emperor",
-        "tier": 30
-      },
-      {
-        "text": "Pope",
-        "tier": 30
-      },
-      {
-        "text": "Baron",
-        "tier": 60
-      },
-      {
-        "text": "Baroness",
-        "tier": 60
-      },
-      {
-        "text": "Count",
-        "tier": 60
-      },
-      {
-        "text": "Countess",
-        "tier": 60
-      },
-      {
-        "text": "Earl",
-        "tier": 60
-      },
-      {
-        "text": "Viscount",
-        "tier": 60
-      },
-      {
-        "text": "Marquis",
-        "aliases": [
-          "marquess"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Archduke",
-        "tier": 60
-      },
-      {
-        "text": "Grand Duke",
-        "tier": 60
-      },
-      {
-        "text": "Czar",
-        "aliases": [
-          "tsar"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sultan",
-        "tier": 60
-      },
-      {
-        "text": "Sheikh",
-        "tier": 60
-      },
-      {
-        "text": "Emir",
-        "tier": 60
-      },
-      {
-        "text": "Shah",
-        "tier": 60
-      },
-      {
-        "text": "Pharaoh",
-        "tier": 60
-      },
-      {
-        "text": "Kaiser",
-        "tier": 60
-      },
-      {
-        "text": "Khan",
-        "tier": 60
-      },
-      {
-        "text": "Maharaja",
-        "tier": 60
-      },
-      {
-        "text": "Rajah",
-        "tier": 60
-      },
-      {
-        "text": "Chief",
-        "tier": 60
-      },
-      {
-        "text": "Elder",
-        "tier": 60
-      },
-      {
-        "text": "Deacon",
-        "tier": 60
-      },
-      {
-        "text": "Bishop",
-        "tier": 60
-      },
-      {
-        "text": "Archbishop",
-        "tier": 60
-      },
-      {
-        "text": "Cardinal",
-        "tier": 60
-      },
-      {
-        "text": "Monsignor",
-        "tier": 60
-      },
-      {
-        "text": "Imam",
-        "tier": 60
-      },
-      {
-        "text": "Ayatollah",
-        "tier": 60
-      },
-      {
-        "text": "Swami",
-        "tier": 60
-      },
-      {
-        "text": "Guru",
-        "tier": 60
-      },
-      {
-        "text": "Lama",
-        "tier": 60
-      },
-      {
-        "text": "Mother Superior",
-        "tier": 60
-      },
-      {
-        "text": "Abbot",
-        "tier": 60
-      },
-      {
-        "text": "Abbess",
-        "tier": 60
-      },
-      {
-        "text": "Friar",
-        "tier": 60
-      },
-      {
-        "text": "Cantor",
-        "tier": 60
-      },
-      {
-        "text": "Admiral",
-        "tier": 60
-      },
-      {
-        "text": "Commander",
-        "tier": 60
-      },
-      {
-        "text": "Corporal",
-        "tier": 60
-      },
-      {
-        "text": "Private",
-        "tier": 60
-      },
-      {
-        "text": "Ensign",
-        "tier": 60
-      },
-      {
-        "text": "Commodore",
-        "tier": 60
-      },
-      {
-        "text": "Marshal",
-        "tier": 60
-      },
-      {
-        "text": "Sheriff",
-        "tier": 60
-      },
-      {
-        "text": "Deputy",
-        "tier": 60
-      },
-      {
-        "text": "Detective",
-        "tier": 60
-      },
-      {
-        "text": "Inspector",
-        "tier": 60
-      },
-      {
-        "text": "Constable",
-        "tier": 60
-      },
-      {
-        "text": "Agent",
-        "tier": 60
-      },
-      {
-        "text": "Ambassador",
-        "tier": 60
-      },
-      {
-        "text": "Chancellor",
-        "tier": 60
-      },
-      {
-        "text": "Prime Minister",
-        "tier": 60
-      },
-      {
-        "text": "Minister",
-        "tier": 60
-      },
-      {
-        "text": "Secretary",
-        "tier": 60
-      },
-      {
-        "text": "Representative",
-        "aliases": [
-          "rep"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Congressman",
-        "aliases": [
-          "congresswoman"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Councilman",
-        "aliases": [
-          "councilwoman"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Alderman",
-        "tier": 60
-      },
-      {
-        "text": "Commissioner",
-        "tier": 60
-      },
-      {
-        "text": "Dean",
-        "tier": 60
-      },
-      {
-        "text": "Principal",
-        "tier": 60
       },
       {
         "text": "His Majesty",
@@ -2461,6 +1997,470 @@
       {
         "text": "Archimandrite",
         "tier": 85
+      },
+      {
+        "text": "Baron",
+        "tier": 60
+      },
+      {
+        "text": "Baroness",
+        "tier": 60
+      },
+      {
+        "text": "Count",
+        "tier": 60
+      },
+      {
+        "text": "Countess",
+        "tier": 60
+      },
+      {
+        "text": "Earl",
+        "tier": 60
+      },
+      {
+        "text": "Viscount",
+        "tier": 60
+      },
+      {
+        "text": "Marquis",
+        "aliases": [
+          "marquess"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Archduke",
+        "tier": 60
+      },
+      {
+        "text": "Grand Duke",
+        "tier": 60
+      },
+      {
+        "text": "Czar",
+        "aliases": [
+          "tsar"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sultan",
+        "tier": 60
+      },
+      {
+        "text": "Sheikh",
+        "tier": 60
+      },
+      {
+        "text": "Emir",
+        "tier": 60
+      },
+      {
+        "text": "Shah",
+        "tier": 60
+      },
+      {
+        "text": "Pharaoh",
+        "tier": 60
+      },
+      {
+        "text": "Kaiser",
+        "tier": 60
+      },
+      {
+        "text": "Khan",
+        "tier": 60
+      },
+      {
+        "text": "Maharaja",
+        "tier": 60
+      },
+      {
+        "text": "Rajah",
+        "tier": 60
+      },
+      {
+        "text": "Chief",
+        "tier": 60
+      },
+      {
+        "text": "Elder",
+        "tier": 60
+      },
+      {
+        "text": "Deacon",
+        "tier": 60
+      },
+      {
+        "text": "Bishop",
+        "tier": 60
+      },
+      {
+        "text": "Archbishop",
+        "tier": 60
+      },
+      {
+        "text": "Cardinal",
+        "tier": 60
+      },
+      {
+        "text": "Monsignor",
+        "tier": 60
+      },
+      {
+        "text": "Imam",
+        "tier": 60
+      },
+      {
+        "text": "Ayatollah",
+        "tier": 60
+      },
+      {
+        "text": "Swami",
+        "tier": 60
+      },
+      {
+        "text": "Guru",
+        "tier": 60
+      },
+      {
+        "text": "Lama",
+        "tier": 60
+      },
+      {
+        "text": "Mother Superior",
+        "tier": 60
+      },
+      {
+        "text": "Abbot",
+        "tier": 60
+      },
+      {
+        "text": "Abbess",
+        "tier": 60
+      },
+      {
+        "text": "Friar",
+        "tier": 60
+      },
+      {
+        "text": "Cantor",
+        "tier": 60
+      },
+      {
+        "text": "Admiral",
+        "tier": 60
+      },
+      {
+        "text": "Commander",
+        "tier": 60
+      },
+      {
+        "text": "Corporal",
+        "tier": 60
+      },
+      {
+        "text": "Private",
+        "tier": 60
+      },
+      {
+        "text": "Ensign",
+        "tier": 60
+      },
+      {
+        "text": "Commodore",
+        "tier": 60
+      },
+      {
+        "text": "Marshal",
+        "tier": 60
+      },
+      {
+        "text": "Sheriff",
+        "tier": 60
+      },
+      {
+        "text": "Deputy",
+        "tier": 60
+      },
+      {
+        "text": "Detective",
+        "tier": 60
+      },
+      {
+        "text": "Inspector",
+        "tier": 60
+      },
+      {
+        "text": "Constable",
+        "tier": 60
+      },
+      {
+        "text": "Agent",
+        "tier": 60
+      },
+      {
+        "text": "Ambassador",
+        "tier": 60
+      },
+      {
+        "text": "Chancellor",
+        "tier": 60
+      },
+      {
+        "text": "Prime Minister",
+        "tier": 60
+      },
+      {
+        "text": "Minister",
+        "tier": 60
+      },
+      {
+        "text": "Secretary",
+        "tier": 60
+      },
+      {
+        "text": "Representative",
+        "aliases": [
+          "rep"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Congressman",
+        "aliases": [
+          "congresswoman"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Councilman",
+        "aliases": [
+          "councilwoman"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alderman",
+        "tier": 60
+      },
+      {
+        "text": "Commissioner",
+        "tier": 60
+      },
+      {
+        "text": "Dean",
+        "tier": 60
+      },
+      {
+        "text": "Principal",
+        "tier": 60
+      },
+      {
+        "text": "Madam",
+        "aliases": [
+          "ma'am",
+          "madame"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lord",
+        "tier": 30
+      },
+      {
+        "text": "Lady",
+        "tier": 30
+      },
+      {
+        "text": "King",
+        "tier": 30
+      },
+      {
+        "text": "Queen",
+        "tier": 30
+      },
+      {
+        "text": "Prince",
+        "tier": 30
+      },
+      {
+        "text": "Princess",
+        "tier": 30
+      },
+      {
+        "text": "Duke",
+        "tier": 30
+      },
+      {
+        "text": "Duchess",
+        "tier": 30
+      },
+      {
+        "text": "Saint",
+        "aliases": [
+          "st."
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Reverend",
+        "aliases": [
+          "rev"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Father",
+        "tier": 30
+      },
+      {
+        "text": "Sister",
+        "tier": 30
+      },
+      {
+        "text": "Brother",
+        "tier": 30
+      },
+      {
+        "text": "Pastor",
+        "tier": 30
+      },
+      {
+        "text": "Rabbi",
+        "tier": 30
+      },
+      {
+        "text": "Captain",
+        "aliases": [
+          "capt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "President",
+        "tier": 30
+      },
+      {
+        "text": "Senator",
+        "tier": 30
+      },
+      {
+        "text": "Governor",
+        "tier": 30
+      },
+      {
+        "text": "Mayor",
+        "tier": 30
+      },
+      {
+        "text": "Judge",
+        "tier": 30
+      },
+      {
+        "text": "Officer",
+        "tier": 30
+      },
+      {
+        "text": "Sergeant",
+        "aliases": [
+          "sgt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lieutenant",
+        "aliases": [
+          "lt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "General",
+        "tier": 30
+      },
+      {
+        "text": "Colonel",
+        "tier": 30
+      },
+      {
+        "text": "Major",
+        "tier": 30
+      },
+      {
+        "text": "Chef",
+        "tier": 30
+      },
+      {
+        "text": "Dame",
+        "tier": 30
+      },
+      {
+        "text": "Emperor",
+        "tier": 30
+      },
+      {
+        "text": "Pope",
+        "tier": 30
+      },
+      {
+        "text": "Coach",
+        "tier": 15
+      },
+      {
+        "text": "Mx.",
+        "tier": 15
+      },
+      {
+        "text": "Uncle",
+        "tier": 15
+      },
+      {
+        "text": "Mr.",
+        "aliases": [
+          "mr",
+          "mister"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Mrs.",
+        "aliases": [
+          "mrs",
+          "missus"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ms.",
+        "aliases": [
+          "ms"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Miss",
+        "tier": 10
+      },
+      {
+        "text": "Dr.",
+        "aliases": [
+          "dr",
+          "doctor"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sir",
+        "tier": 10
+      },
+      {
+        "text": "Professor",
+        "aliases": [
+          "prof"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -2482,478 +2482,269 @@
         "tier": 100
       },
       {
-        "text": "Cancer",
-        "tier": 10
+        "text": "Kuru",
+        "tier": 85
       },
       {
-        "text": "Flu",
+        "text": "Creutzfeldt-Jakob",
         "aliases": [
-          "influenza"
+          "cjd"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Cold",
+        "text": "Fatal familial insomnia",
+        "tier": 85
+      },
+      {
+        "text": "Progeria",
+        "tier": 85
+      },
+      {
+        "text": "Fibrodysplasia ossificans progressiva",
         "aliases": [
-          "common cold"
+          "fop"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "COVID",
+        "text": "Alice in Wonderland syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Foreign accent syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Exploding head syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Capgras syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Cotard's syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Munchausen syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Stendhal syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Jerusalem syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Paris syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Morgellons",
+        "tier": 85
+      },
+      {
+        "text": "Porphyria",
+        "tier": 85
+      },
+      {
+        "text": "Hemochromatosis",
+        "tier": 85
+      },
+      {
+        "text": "Wilson's disease",
+        "tier": 85
+      },
+      {
+        "text": "Gaucher disease",
+        "tier": 85
+      },
+      {
+        "text": "Fabry disease",
+        "tier": 85
+      },
+      {
+        "text": "Pompe disease",
+        "tier": 85
+      },
+      {
+        "text": "Niemann-Pick",
+        "tier": 85
+      },
+      {
+        "text": "Batten disease",
+        "tier": 85
+      },
+      {
+        "text": "Krabbe disease",
+        "tier": 85
+      },
+      {
+        "text": "Moyamoya",
+        "tier": 85
+      },
+      {
+        "text": "Kawasaki disease",
+        "tier": 85
+      },
+      {
+        "text": "Behcet's disease",
+        "tier": 85
+      },
+      {
+        "text": "Sarcoidosis",
+        "tier": 85
+      },
+      {
+        "text": "Amyloidosis",
+        "tier": 85
+      },
+      {
+        "text": "Scleroderma",
+        "tier": 85
+      },
+      {
+        "text": "Sjogren's syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Myasthenia gravis",
+        "tier": 85
+      },
+      {
+        "text": "Guillain-Barre",
+        "tier": 85
+      },
+      {
+        "text": "Bell's palsy",
+        "tier": 85
+      },
+      {
+        "text": "Trigeminal neuralgia",
+        "tier": 85
+      },
+      {
+        "text": "Restless legs syndrome",
+        "tier": 85
+      },
+      {
+        "text": "Raynaud's",
+        "tier": 85
+      },
+      {
+        "text": "Erythromelalgia",
+        "tier": 85
+      },
+      {
+        "text": "Dercum's disease",
+        "tier": 85
+      },
+      {
+        "text": "Harlequin ichthyosis",
+        "tier": 85
+      },
+      {
+        "text": "Epidermolysis bullosa",
+        "tier": 85
+      },
+      {
+        "text": "Xeroderma pigmentosum",
+        "tier": 85
+      },
+      {
+        "text": "Vitiligo",
+        "tier": 85
+      },
+      {
+        "text": "Rosacea",
+        "tier": 85
+      },
+      {
+        "text": "Hives",
+        "tier": 85
+      },
+      {
+        "text": "Dropsy",
+        "tier": 85
+      },
+      {
+        "text": "Consumption",
+        "tier": 85
+      },
+      {
+        "text": "Grippe",
+        "tier": 85
+      },
+      {
+        "text": "Ague",
+        "tier": 85
+      },
+      {
+        "text": "Quinsy",
+        "tier": 85
+      },
+      {
+        "text": "Scrofula",
+        "tier": 85
+      },
+      {
+        "text": "St. Vitus' dance",
+        "tier": 85
+      },
+      {
+        "text": "Sweating sickness",
+        "tier": 85
+      },
+      {
+        "text": "Ergotism",
+        "tier": 85
+      },
+      {
+        "text": "Milk sickness",
+        "tier": 85
+      },
+      {
+        "text": "Phossy jaw",
+        "tier": 85
+      },
+      {
+        "text": "Black lung",
+        "tier": 85
+      },
+      {
+        "text": "Brown lung",
+        "tier": 85
+      },
+      {
+        "text": "Mesothelioma",
+        "tier": 85
+      },
+      {
+        "text": "Silicosis",
+        "tier": 85
+      },
+      {
+        "text": "Asbestosis",
+        "tier": 85
+      },
+      {
+        "text": "Caisson disease",
         "aliases": [
-          "covid-19",
-          "coronavirus",
-          "covid 19"
+          "the bends"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Diabetes",
-        "tier": 10
+        "text": "Trench foot",
+        "tier": 85
       },
       {
-        "text": "Chickenpox",
-        "aliases": [
-          "chicken pox"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Measles",
-        "tier": 10
-      },
-      {
-        "text": "Lice",
-        "tier": 15
-      },
-      {
-        "text": "Dancing plague",
-        "tier": 15
-      },
-      {
-        "text": "Bubonic plague",
-        "aliases": [
-          "black death",
-          "plague"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Cooties",
-        "tier": 15
-      },
-      {
-        "text": "Malaria",
-        "tier": 30
-      },
-      {
-        "text": "Tuberculosis",
-        "aliases": [
-          "tb"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pneumonia",
-        "tier": 30
-      },
-      {
-        "text": "Asthma",
-        "tier": 30
-      },
-      {
-        "text": "Bronchitis",
-        "tier": 30
-      },
-      {
-        "text": "Strep throat",
-        "aliases": [
-          "strep"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mumps",
-        "tier": 30
-      },
-      {
-        "text": "Polio",
-        "tier": 30
-      },
-      {
-        "text": "Smallpox",
-        "tier": 30
-      },
-      {
-        "text": "Ebola",
-        "tier": 30
-      },
-      {
-        "text": "HIV",
-        "aliases": [
-          "aids"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hepatitis",
-        "tier": 30
-      },
-      {
-        "text": "Alzheimer's",
-        "aliases": [
-          "alzheimers"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Parkinson's",
-        "aliases": [
-          "parkinsons"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Arthritis",
-        "tier": 30
-      },
-      {
-        "text": "Heart disease",
-        "tier": 30
-      },
-      {
-        "text": "Stroke",
-        "tier": 30
-      },
-      {
-        "text": "Leukemia",
-        "tier": 30
-      },
-      {
-        "text": "Lupus",
-        "tier": 30
-      },
-      {
-        "text": "Celiac disease",
-        "aliases": [
-          "celiac"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lyme disease",
-        "aliases": [
-          "lyme"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Rabies",
-        "tier": 30
-      },
-      {
-        "text": "Tetanus",
-        "tier": 30
-      },
-      {
-        "text": "Whooping cough",
-        "aliases": [
-          "pertussis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cholera",
-        "tier": 30
-      },
-      {
-        "text": "Dengue",
-        "aliases": [
-          "dengue fever"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Yellow fever",
-        "tier": 30
-      },
-      {
-        "text": "Typhoid",
-        "tier": 30
-      },
-      {
-        "text": "Mono",
-        "aliases": [
-          "mononucleosis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pink eye",
-        "aliases": [
-          "conjunctivitis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ear infection",
-        "tier": 30
-      },
-      {
-        "text": "Sinus infection",
-        "aliases": [
-          "sinusitis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Food poisoning",
-        "tier": 30
-      },
-      {
-        "text": "Stomach flu",
-        "aliases": [
-          "gastroenteritis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Shingles",
-        "tier": 30
-      },
-      {
-        "text": "Herpes",
-        "tier": 30
-      },
-      {
-        "text": "Chlamydia",
-        "tier": 30
-      },
-      {
-        "text": "Gonorrhea",
-        "tier": 30
-      },
-      {
-        "text": "Syphilis",
-        "tier": 30
-      },
-      {
-        "text": "Hypertension",
-        "aliases": [
-          "high blood pressure"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Obesity",
-        "tier": 30
-      },
-      {
-        "text": "Anemia",
-        "tier": 30
-      },
-      {
-        "text": "Epilepsy",
-        "tier": 30
-      },
-      {
-        "text": "Migraine",
-        "tier": 30
-      },
-      {
-        "text": "Depression",
-        "tier": 30
-      },
-      {
-        "text": "Anxiety",
-        "tier": 30
-      },
-      {
-        "text": "Autism",
-        "tier": 30
-      },
-      {
-        "text": "ADHD",
-        "tier": 30
-      },
-      {
-        "text": "Dementia",
-        "tier": 30
-      },
-      {
-        "text": "Multiple sclerosis",
-        "aliases": [
-          "ms"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "ALS",
-        "aliases": [
-          "lou gehrig's disease"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cystic fibrosis",
-        "tier": 30
-      },
-      {
-        "text": "Sickle cell",
-        "aliases": [
-          "sickle cell anemia"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hemophilia",
-        "tier": 30
-      },
-      {
-        "text": "Scarlet fever",
-        "tier": 30
-      },
-      {
-        "text": "Rubella",
-        "aliases": [
-          "german measles"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Norovirus",
-        "tier": 30
-      },
-      {
-        "text": "RSV",
-        "tier": 30
-      },
-      {
-        "text": "Hand, foot and mouth",
-        "aliases": [
-          "hand foot and mouth disease"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ringworm",
-        "tier": 30
-      },
-      {
-        "text": "Athlete's foot",
-        "tier": 30
-      },
-      {
-        "text": "Allergies",
-        "tier": 30
-      },
-      {
-        "text": "Eczema",
-        "tier": 30
-      },
-      {
-        "text": "Psoriasis",
-        "tier": 30
-      },
-      {
-        "text": "Acne",
-        "tier": 30
-      },
-      {
-        "text": "Gout",
-        "tier": 30
-      },
-      {
-        "text": "Osteoporosis",
-        "tier": 30
-      },
-      {
-        "text": "Kidney stones",
-        "tier": 30
-      },
-      {
-        "text": "Appendicitis",
-        "tier": 30
-      },
-      {
-        "text": "Tonsillitis",
-        "tier": 30
-      },
-      {
-        "text": "Laryngitis",
-        "tier": 30
-      },
-      {
-        "text": "Meningitis",
-        "tier": 30
-      },
-      {
-        "text": "Encephalitis",
-        "tier": 30
-      },
-      {
-        "text": "Sepsis",
-        "tier": 30
-      },
-      {
-        "text": "Gangrene",
-        "tier": 30
-      },
-      {
-        "text": "Leprosy",
-        "tier": 30
-      },
-      {
-        "text": "Diphtheria",
-        "tier": 30
-      },
-      {
-        "text": "Zika",
-        "tier": 30
-      },
-      {
-        "text": "West Nile virus",
-        "aliases": [
-          "west nile"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mad cow disease",
-        "aliases": [
-          "bse"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bird flu",
-        "aliases": [
-          "avian flu"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Swine flu",
-        "aliases": [
-          "h1n1"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "SARS",
-        "tier": 30
-      },
-      {
-        "text": "MERS",
-        "tier": 30
-      },
-      {
-        "text": "Monkeypox",
-        "aliases": [
-          "mpox"
-        ],
-        "tier": 30
+        "text": "Shell shock",
+        "tier": 85
       },
       {
         "text": "Rickets",
@@ -3472,269 +3263,478 @@
         "tier": 60
       },
       {
-        "text": "Kuru",
-        "tier": 85
+        "text": "Malaria",
+        "tier": 30
       },
       {
-        "text": "Creutzfeldt-Jakob",
+        "text": "Tuberculosis",
         "aliases": [
-          "cjd"
+          "tb"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Fatal familial insomnia",
-        "tier": 85
+        "text": "Pneumonia",
+        "tier": 30
       },
       {
-        "text": "Progeria",
-        "tier": 85
+        "text": "Asthma",
+        "tier": 30
       },
       {
-        "text": "Fibrodysplasia ossificans progressiva",
+        "text": "Bronchitis",
+        "tier": 30
+      },
+      {
+        "text": "Strep throat",
         "aliases": [
-          "fop"
+          "strep"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Alice in Wonderland syndrome",
-        "tier": 85
+        "text": "Mumps",
+        "tier": 30
       },
       {
-        "text": "Foreign accent syndrome",
-        "tier": 85
+        "text": "Polio",
+        "tier": 30
       },
       {
-        "text": "Exploding head syndrome",
-        "tier": 85
+        "text": "Smallpox",
+        "tier": 30
       },
       {
-        "text": "Capgras syndrome",
-        "tier": 85
+        "text": "Ebola",
+        "tier": 30
       },
       {
-        "text": "Cotard's syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Munchausen syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Stendhal syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Jerusalem syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Paris syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Morgellons",
-        "tier": 85
-      },
-      {
-        "text": "Porphyria",
-        "tier": 85
-      },
-      {
-        "text": "Hemochromatosis",
-        "tier": 85
-      },
-      {
-        "text": "Wilson's disease",
-        "tier": 85
-      },
-      {
-        "text": "Gaucher disease",
-        "tier": 85
-      },
-      {
-        "text": "Fabry disease",
-        "tier": 85
-      },
-      {
-        "text": "Pompe disease",
-        "tier": 85
-      },
-      {
-        "text": "Niemann-Pick",
-        "tier": 85
-      },
-      {
-        "text": "Batten disease",
-        "tier": 85
-      },
-      {
-        "text": "Krabbe disease",
-        "tier": 85
-      },
-      {
-        "text": "Moyamoya",
-        "tier": 85
-      },
-      {
-        "text": "Kawasaki disease",
-        "tier": 85
-      },
-      {
-        "text": "Behcet's disease",
-        "tier": 85
-      },
-      {
-        "text": "Sarcoidosis",
-        "tier": 85
-      },
-      {
-        "text": "Amyloidosis",
-        "tier": 85
-      },
-      {
-        "text": "Scleroderma",
-        "tier": 85
-      },
-      {
-        "text": "Sjogren's syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Myasthenia gravis",
-        "tier": 85
-      },
-      {
-        "text": "Guillain-Barre",
-        "tier": 85
-      },
-      {
-        "text": "Bell's palsy",
-        "tier": 85
-      },
-      {
-        "text": "Trigeminal neuralgia",
-        "tier": 85
-      },
-      {
-        "text": "Restless legs syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Raynaud's",
-        "tier": 85
-      },
-      {
-        "text": "Erythromelalgia",
-        "tier": 85
-      },
-      {
-        "text": "Dercum's disease",
-        "tier": 85
-      },
-      {
-        "text": "Harlequin ichthyosis",
-        "tier": 85
-      },
-      {
-        "text": "Epidermolysis bullosa",
-        "tier": 85
-      },
-      {
-        "text": "Xeroderma pigmentosum",
-        "tier": 85
-      },
-      {
-        "text": "Vitiligo",
-        "tier": 85
-      },
-      {
-        "text": "Rosacea",
-        "tier": 85
-      },
-      {
-        "text": "Hives",
-        "tier": 85
-      },
-      {
-        "text": "Dropsy",
-        "tier": 85
-      },
-      {
-        "text": "Consumption",
-        "tier": 85
-      },
-      {
-        "text": "Grippe",
-        "tier": 85
-      },
-      {
-        "text": "Ague",
-        "tier": 85
-      },
-      {
-        "text": "Quinsy",
-        "tier": 85
-      },
-      {
-        "text": "Scrofula",
-        "tier": 85
-      },
-      {
-        "text": "St. Vitus' dance",
-        "tier": 85
-      },
-      {
-        "text": "Sweating sickness",
-        "tier": 85
-      },
-      {
-        "text": "Ergotism",
-        "tier": 85
-      },
-      {
-        "text": "Milk sickness",
-        "tier": 85
-      },
-      {
-        "text": "Phossy jaw",
-        "tier": 85
-      },
-      {
-        "text": "Black lung",
-        "tier": 85
-      },
-      {
-        "text": "Brown lung",
-        "tier": 85
-      },
-      {
-        "text": "Mesothelioma",
-        "tier": 85
-      },
-      {
-        "text": "Silicosis",
-        "tier": 85
-      },
-      {
-        "text": "Asbestosis",
-        "tier": 85
-      },
-      {
-        "text": "Caisson disease",
+        "text": "HIV",
         "aliases": [
-          "the bends"
+          "aids"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Trench foot",
-        "tier": 85
+        "text": "Hepatitis",
+        "tier": 30
       },
       {
-        "text": "Shell shock",
-        "tier": 85
+        "text": "Alzheimer's",
+        "aliases": [
+          "alzheimers"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Parkinson's",
+        "aliases": [
+          "parkinsons"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Arthritis",
+        "tier": 30
+      },
+      {
+        "text": "Heart disease",
+        "tier": 30
+      },
+      {
+        "text": "Stroke",
+        "tier": 30
+      },
+      {
+        "text": "Leukemia",
+        "tier": 30
+      },
+      {
+        "text": "Lupus",
+        "tier": 30
+      },
+      {
+        "text": "Celiac disease",
+        "aliases": [
+          "celiac"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lyme disease",
+        "aliases": [
+          "lyme"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rabies",
+        "tier": 30
+      },
+      {
+        "text": "Tetanus",
+        "tier": 30
+      },
+      {
+        "text": "Whooping cough",
+        "aliases": [
+          "pertussis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cholera",
+        "tier": 30
+      },
+      {
+        "text": "Dengue",
+        "aliases": [
+          "dengue fever"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Yellow fever",
+        "tier": 30
+      },
+      {
+        "text": "Typhoid",
+        "tier": 30
+      },
+      {
+        "text": "Mono",
+        "aliases": [
+          "mononucleosis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pink eye",
+        "aliases": [
+          "conjunctivitis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ear infection",
+        "tier": 30
+      },
+      {
+        "text": "Sinus infection",
+        "aliases": [
+          "sinusitis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Food poisoning",
+        "tier": 30
+      },
+      {
+        "text": "Stomach flu",
+        "aliases": [
+          "gastroenteritis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Shingles",
+        "tier": 30
+      },
+      {
+        "text": "Herpes",
+        "tier": 30
+      },
+      {
+        "text": "Chlamydia",
+        "tier": 30
+      },
+      {
+        "text": "Gonorrhea",
+        "tier": 30
+      },
+      {
+        "text": "Syphilis",
+        "tier": 30
+      },
+      {
+        "text": "Hypertension",
+        "aliases": [
+          "high blood pressure"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Obesity",
+        "tier": 30
+      },
+      {
+        "text": "Anemia",
+        "tier": 30
+      },
+      {
+        "text": "Epilepsy",
+        "tier": 30
+      },
+      {
+        "text": "Migraine",
+        "tier": 30
+      },
+      {
+        "text": "Depression",
+        "tier": 30
+      },
+      {
+        "text": "Anxiety",
+        "tier": 30
+      },
+      {
+        "text": "Autism",
+        "tier": 30
+      },
+      {
+        "text": "ADHD",
+        "tier": 30
+      },
+      {
+        "text": "Dementia",
+        "tier": 30
+      },
+      {
+        "text": "Multiple sclerosis",
+        "aliases": [
+          "ms"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "ALS",
+        "aliases": [
+          "lou gehrig's disease"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cystic fibrosis",
+        "tier": 30
+      },
+      {
+        "text": "Sickle cell",
+        "aliases": [
+          "sickle cell anemia"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hemophilia",
+        "tier": 30
+      },
+      {
+        "text": "Scarlet fever",
+        "tier": 30
+      },
+      {
+        "text": "Rubella",
+        "aliases": [
+          "german measles"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Norovirus",
+        "tier": 30
+      },
+      {
+        "text": "RSV",
+        "tier": 30
+      },
+      {
+        "text": "Hand, foot and mouth",
+        "aliases": [
+          "hand foot and mouth disease"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ringworm",
+        "tier": 30
+      },
+      {
+        "text": "Athlete's foot",
+        "tier": 30
+      },
+      {
+        "text": "Allergies",
+        "tier": 30
+      },
+      {
+        "text": "Eczema",
+        "tier": 30
+      },
+      {
+        "text": "Psoriasis",
+        "tier": 30
+      },
+      {
+        "text": "Acne",
+        "tier": 30
+      },
+      {
+        "text": "Gout",
+        "tier": 30
+      },
+      {
+        "text": "Osteoporosis",
+        "tier": 30
+      },
+      {
+        "text": "Kidney stones",
+        "tier": 30
+      },
+      {
+        "text": "Appendicitis",
+        "tier": 30
+      },
+      {
+        "text": "Tonsillitis",
+        "tier": 30
+      },
+      {
+        "text": "Laryngitis",
+        "tier": 30
+      },
+      {
+        "text": "Meningitis",
+        "tier": 30
+      },
+      {
+        "text": "Encephalitis",
+        "tier": 30
+      },
+      {
+        "text": "Sepsis",
+        "tier": 30
+      },
+      {
+        "text": "Gangrene",
+        "tier": 30
+      },
+      {
+        "text": "Leprosy",
+        "tier": 30
+      },
+      {
+        "text": "Diphtheria",
+        "tier": 30
+      },
+      {
+        "text": "Zika",
+        "tier": 30
+      },
+      {
+        "text": "West Nile virus",
+        "aliases": [
+          "west nile"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mad cow disease",
+        "aliases": [
+          "bse"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bird flu",
+        "aliases": [
+          "avian flu"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Swine flu",
+        "aliases": [
+          "h1n1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "SARS",
+        "tier": 30
+      },
+      {
+        "text": "MERS",
+        "tier": 30
+      },
+      {
+        "text": "Monkeypox",
+        "aliases": [
+          "mpox"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lice",
+        "tier": 15
+      },
+      {
+        "text": "Dancing plague",
+        "tier": 15
+      },
+      {
+        "text": "Bubonic plague",
+        "aliases": [
+          "black death",
+          "plague"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cooties",
+        "tier": 15
+      },
+      {
+        "text": "Cancer",
+        "tier": 10
+      },
+      {
+        "text": "Flu",
+        "aliases": [
+          "influenza"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Cold",
+        "aliases": [
+          "common cold"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "COVID",
+        "aliases": [
+          "covid-19",
+          "coronavirus",
+          "covid 19"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Diabetes",
+        "tier": 10
+      },
+      {
+        "text": "Chickenpox",
+        "aliases": [
+          "chicken pox"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Measles",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -3758,374 +3758,268 @@
         "tier": 100
       },
       {
-        "text": "Wheel",
-        "aliases": [
-          "wheels"
-        ],
-        "tier": 10
+        "text": "Flywheel",
+        "tier": 85
       },
       {
-        "text": "Tire",
-        "aliases": [
-          "tires",
-          "tyre"
-        ],
-        "tier": 10
+        "text": "Torque converter",
+        "tier": 85
       },
       {
-        "text": "Engine",
-        "aliases": [
-          "motor"
-        ],
-        "tier": 10
+        "text": "Clutch plate",
+        "tier": 85
       },
       {
-        "text": "Steering wheel",
-        "tier": 10
+        "text": "Pressure plate",
+        "tier": 85
       },
       {
-        "text": "Door",
-        "tier": 10
+        "text": "Throwout bearing",
+        "tier": 85
       },
       {
-        "text": "Seat",
-        "tier": 10
+        "text": "Synchronizer",
+        "tier": 85
       },
       {
-        "text": "Windshield",
-        "aliases": [
-          "windscreen"
-        ],
-        "tier": 10
+        "text": "Transfer case",
+        "tier": 85
       },
       {
-        "text": "Brakes",
-        "aliases": [
-          "brake"
-        ],
-        "tier": 10
+        "text": "Locking hubs",
+        "tier": 85
       },
       {
-        "text": "Cigarette lighter",
-        "tier": 15
+        "text": "Limited slip differential",
+        "tier": 85
       },
       {
-        "text": "Cup holder",
-        "tier": 15
+        "text": "Panhard rod",
+        "tier": 85
       },
       {
-        "text": "Battery",
-        "tier": 30
+        "text": "Trailing arm",
+        "tier": 85
       },
       {
-        "text": "Headlights",
-        "aliases": [
-          "headlight"
-        ],
-        "tier": 30
+        "text": "Strut tower",
+        "tier": 85
       },
       {
-        "text": "Taillights",
-        "aliases": [
-          "tail light",
-          "taillight"
-        ],
-        "tier": 30
+        "text": "Bump stop",
+        "tier": 85
       },
       {
-        "text": "Mirror",
-        "aliases": [
-          "rearview mirror",
-          "side mirror"
-        ],
-        "tier": 30
+        "text": "Idler arm",
+        "tier": 85
       },
       {
-        "text": "Bumper",
-        "tier": 30
+        "text": "Pitman arm",
+        "tier": 85
       },
       {
-        "text": "Hood",
-        "aliases": [
-          "bonnet"
-        ],
-        "tier": 30
+        "text": "Drag link",
+        "tier": 85
       },
       {
-        "text": "Trunk",
-        "aliases": [
-          "boot"
-        ],
-        "tier": 30
+        "text": "Steering knuckle",
+        "tier": 85
       },
       {
-        "text": "Roof",
-        "tier": 30
+        "text": "Kingpin",
+        "tier": 85
       },
       {
-        "text": "Window",
-        "tier": 30
+        "text": "Brake booster",
+        "tier": 85
       },
       {
-        "text": "Windshield wipers",
-        "aliases": [
-          "wipers",
-          "wiper"
-        ],
-        "tier": 30
+        "text": "Proportioning valve",
+        "tier": 85
       },
       {
-        "text": "Horn",
-        "tier": 30
+        "text": "ABS module",
+        "tier": 85
       },
       {
-        "text": "Radio",
-        "aliases": [
-          "stereo"
-        ],
-        "tier": 30
+        "text": "Wheel speed sensor",
+        "tier": 85
       },
       {
-        "text": "Seatbelt",
-        "aliases": [
-          "seat belt"
-        ],
-        "tier": 30
+        "text": "Knock sensor",
+        "tier": 85
       },
       {
-        "text": "Airbag",
-        "aliases": [
-          "air bag"
-        ],
-        "tier": 30
+        "text": "Crankshaft position sensor",
+        "tier": 85
       },
       {
-        "text": "Gas pedal",
-        "aliases": [
-          "accelerator"
-        ],
-        "tier": 30
+        "text": "Camshaft position sensor",
+        "tier": 85
       },
       {
-        "text": "Brake pedal",
-        "tier": 30
+        "text": "PCV valve",
+        "tier": 85
       },
       {
-        "text": "Clutch",
-        "tier": 30
+        "text": "Harmonic balancer",
+        "tier": 85
       },
       {
-        "text": "Gear shift",
-        "aliases": [
-          "gear stick",
-          "shifter",
-          "stick shift"
-        ],
-        "tier": 30
+        "text": "Rocker arm",
+        "tier": 85
       },
       {
-        "text": "Transmission",
-        "tier": 30
+        "text": "Lifters",
+        "tier": 85
       },
       {
-        "text": "Gas tank",
-        "aliases": [
-          "fuel tank"
-        ],
-        "tier": 30
+        "text": "Pushrods",
+        "tier": 85
       },
       {
-        "text": "Exhaust",
-        "aliases": [
-          "exhaust pipe",
-          "tailpipe"
-        ],
-        "tier": 30
+        "text": "Timing chain",
+        "tier": 85
       },
       {
-        "text": "Muffler",
-        "tier": 30
+        "text": "Tensioner",
+        "tier": 85
       },
       {
-        "text": "Radiator",
-        "tier": 30
+        "text": "Idler pulley",
+        "tier": 85
       },
       {
-        "text": "Spark plug",
-        "aliases": [
-          "spark plugs"
-        ],
-        "tier": 30
+        "text": "Oil cooler",
+        "tier": 85
       },
       {
-        "text": "Air filter",
-        "tier": 30
+        "text": "Transmission cooler",
+        "tier": 85
       },
       {
-        "text": "Oil filter",
-        "tier": 30
+        "text": "Heater core",
+        "tier": 85
       },
       {
-        "text": "Alternator",
-        "tier": 30
+        "text": "Blower motor",
+        "tier": 85
       },
       {
-        "text": "Axle",
-        "tier": 30
+        "text": "Evaporator",
+        "tier": 85
       },
       {
-        "text": "Rims",
-        "aliases": [
-          "rim"
-        ],
-        "tier": 30
+        "text": "Condenser",
+        "tier": 85
       },
       {
-        "text": "Hubcap",
-        "tier": 30
+        "text": "Compressor",
+        "tier": 85
       },
       {
-        "text": "Dashboard",
-        "aliases": [
-          "dash"
-        ],
-        "tier": 30
+        "text": "Expansion valve",
+        "tier": 85
       },
       {
-        "text": "Speedometer",
-        "tier": 30
+        "text": "Cabin air filter",
+        "tier": 85
       },
       {
-        "text": "Odometer",
-        "tier": 30
+        "text": "Glow plug",
+        "tier": 85
       },
       {
-        "text": "Glove box",
-        "aliases": [
-          "glove compartment"
-        ],
-        "tier": 30
+        "text": "Diesel particulate filter",
+        "tier": 85
       },
       {
-        "text": "Sunroof",
-        "aliases": [
-          "moonroof"
-        ],
-        "tier": 30
+        "text": "Resonator",
+        "tier": 85
       },
       {
-        "text": "Turn signal",
-        "aliases": [
-          "blinker",
-          "indicator"
-        ],
-        "tier": 30
+        "text": "Heat shield",
+        "tier": 85
       },
       {
-        "text": "License plate",
-        "tier": 30
+        "text": "Skid plate",
+        "tier": 85
       },
       {
-        "text": "Spare tire",
-        "tier": 30
+        "text": "Splash shield",
+        "tier": 85
       },
       {
-        "text": "Jack",
-        "tier": 30
+        "text": "Cowl",
+        "tier": 85
       },
       {
-        "text": "Ignition",
-        "tier": 30
+        "text": "Drip rail",
+        "tier": 85
       },
       {
-        "text": "Key",
-        "aliases": [
-          "car key"
-        ],
-        "tier": 30
+        "text": "Fender liner",
+        "tier": 85
       },
       {
-        "text": "Steering column",
-        "tier": 30
+        "text": "Tonneau cover",
+        "tier": 85
       },
       {
-        "text": "Suspension",
-        "tier": 30
+        "text": "Bed liner",
+        "tier": 85
       },
       {
-        "text": "Shocks",
-        "aliases": [
-          "shock absorbers"
-        ],
-        "tier": 30
+        "text": "Tailgate",
+        "tier": 85
       },
       {
-        "text": "Fender",
-        "tier": 30
+        "text": "Liftgate",
+        "tier": 85
       },
       {
-        "text": "Grille",
-        "aliases": [
-          "grill"
-        ],
-        "tier": 30
+        "text": "Hatch",
+        "tier": 85
       },
       {
-        "text": "Antenna",
-        "tier": 30
+        "text": "Sill plate",
+        "tier": 85
       },
       {
-        "text": "Floor mats",
-        "tier": 30
+        "text": "Kick panel",
+        "tier": 85
       },
       {
-        "text": "Headrest",
-        "tier": 30
+        "text": "Headliner",
+        "tier": 85
       },
       {
-        "text": "Armrest",
-        "tier": 30
+        "text": "Package tray",
+        "tier": 85
       },
       {
-        "text": "Console",
-        "aliases": [
-          "center console"
-        ],
-        "tier": 30
+        "text": "Shift knob",
+        "tier": 85
       },
       {
-        "text": "Heater",
-        "tier": 30
+        "text": "Paddle shifters",
+        "tier": 85
       },
       {
-        "text": "Air conditioning",
-        "aliases": [
-          "ac"
-        ],
-        "tier": 30
+        "text": "Horn relay",
+        "tier": 85
       },
       {
-        "text": "GPS",
-        "aliases": [
-          "navigation"
-        ],
-        "tier": 30
+        "text": "Starter solenoid",
+        "tier": 85
       },
       {
-        "text": "Backup camera",
-        "tier": 30
+        "text": "Voltage regulator",
+        "tier": 85
       },
       {
-        "text": "Cruise control",
-        "tier": 30
-      },
-      {
-        "text": "Parking brake",
-        "aliases": [
-          "emergency brake",
-          "handbrake"
-        ],
-        "tier": 30
+        "text": "Ground strap",
+        "tier": 85
       },
       {
         "text": "Carburetor",
@@ -4572,268 +4466,374 @@
         "tier": 60
       },
       {
-        "text": "Flywheel",
-        "tier": 85
+        "text": "Battery",
+        "tier": 30
       },
       {
-        "text": "Torque converter",
-        "tier": 85
+        "text": "Headlights",
+        "aliases": [
+          "headlight"
+        ],
+        "tier": 30
       },
       {
-        "text": "Clutch plate",
-        "tier": 85
+        "text": "Taillights",
+        "aliases": [
+          "tail light",
+          "taillight"
+        ],
+        "tier": 30
       },
       {
-        "text": "Pressure plate",
-        "tier": 85
+        "text": "Mirror",
+        "aliases": [
+          "rearview mirror",
+          "side mirror"
+        ],
+        "tier": 30
       },
       {
-        "text": "Throwout bearing",
-        "tier": 85
+        "text": "Bumper",
+        "tier": 30
       },
       {
-        "text": "Synchronizer",
-        "tier": 85
+        "text": "Hood",
+        "aliases": [
+          "bonnet"
+        ],
+        "tier": 30
       },
       {
-        "text": "Transfer case",
-        "tier": 85
+        "text": "Trunk",
+        "aliases": [
+          "boot"
+        ],
+        "tier": 30
       },
       {
-        "text": "Locking hubs",
-        "tier": 85
+        "text": "Roof",
+        "tier": 30
       },
       {
-        "text": "Limited slip differential",
-        "tier": 85
+        "text": "Window",
+        "tier": 30
       },
       {
-        "text": "Panhard rod",
-        "tier": 85
+        "text": "Windshield wipers",
+        "aliases": [
+          "wipers",
+          "wiper"
+        ],
+        "tier": 30
       },
       {
-        "text": "Trailing arm",
-        "tier": 85
+        "text": "Horn",
+        "tier": 30
       },
       {
-        "text": "Strut tower",
-        "tier": 85
+        "text": "Radio",
+        "aliases": [
+          "stereo"
+        ],
+        "tier": 30
       },
       {
-        "text": "Bump stop",
-        "tier": 85
+        "text": "Seatbelt",
+        "aliases": [
+          "seat belt"
+        ],
+        "tier": 30
       },
       {
-        "text": "Idler arm",
-        "tier": 85
+        "text": "Airbag",
+        "aliases": [
+          "air bag"
+        ],
+        "tier": 30
       },
       {
-        "text": "Pitman arm",
-        "tier": 85
+        "text": "Gas pedal",
+        "aliases": [
+          "accelerator"
+        ],
+        "tier": 30
       },
       {
-        "text": "Drag link",
-        "tier": 85
+        "text": "Brake pedal",
+        "tier": 30
       },
       {
-        "text": "Steering knuckle",
-        "tier": 85
+        "text": "Clutch",
+        "tier": 30
       },
       {
-        "text": "Kingpin",
-        "tier": 85
+        "text": "Gear shift",
+        "aliases": [
+          "gear stick",
+          "shifter",
+          "stick shift"
+        ],
+        "tier": 30
       },
       {
-        "text": "Brake booster",
-        "tier": 85
+        "text": "Transmission",
+        "tier": 30
       },
       {
-        "text": "Proportioning valve",
-        "tier": 85
+        "text": "Gas tank",
+        "aliases": [
+          "fuel tank"
+        ],
+        "tier": 30
       },
       {
-        "text": "ABS module",
-        "tier": 85
+        "text": "Exhaust",
+        "aliases": [
+          "exhaust pipe",
+          "tailpipe"
+        ],
+        "tier": 30
       },
       {
-        "text": "Wheel speed sensor",
-        "tier": 85
+        "text": "Muffler",
+        "tier": 30
       },
       {
-        "text": "Knock sensor",
-        "tier": 85
+        "text": "Radiator",
+        "tier": 30
       },
       {
-        "text": "Crankshaft position sensor",
-        "tier": 85
+        "text": "Spark plug",
+        "aliases": [
+          "spark plugs"
+        ],
+        "tier": 30
       },
       {
-        "text": "Camshaft position sensor",
-        "tier": 85
+        "text": "Air filter",
+        "tier": 30
       },
       {
-        "text": "PCV valve",
-        "tier": 85
+        "text": "Oil filter",
+        "tier": 30
       },
       {
-        "text": "Harmonic balancer",
-        "tier": 85
+        "text": "Alternator",
+        "tier": 30
       },
       {
-        "text": "Rocker arm",
-        "tier": 85
+        "text": "Axle",
+        "tier": 30
       },
       {
-        "text": "Lifters",
-        "tier": 85
+        "text": "Rims",
+        "aliases": [
+          "rim"
+        ],
+        "tier": 30
       },
       {
-        "text": "Pushrods",
-        "tier": 85
+        "text": "Hubcap",
+        "tier": 30
       },
       {
-        "text": "Timing chain",
-        "tier": 85
+        "text": "Dashboard",
+        "aliases": [
+          "dash"
+        ],
+        "tier": 30
       },
       {
-        "text": "Tensioner",
-        "tier": 85
+        "text": "Speedometer",
+        "tier": 30
       },
       {
-        "text": "Idler pulley",
-        "tier": 85
+        "text": "Odometer",
+        "tier": 30
       },
       {
-        "text": "Oil cooler",
-        "tier": 85
+        "text": "Glove box",
+        "aliases": [
+          "glove compartment"
+        ],
+        "tier": 30
       },
       {
-        "text": "Transmission cooler",
-        "tier": 85
+        "text": "Sunroof",
+        "aliases": [
+          "moonroof"
+        ],
+        "tier": 30
       },
       {
-        "text": "Heater core",
-        "tier": 85
+        "text": "Turn signal",
+        "aliases": [
+          "blinker",
+          "indicator"
+        ],
+        "tier": 30
       },
       {
-        "text": "Blower motor",
-        "tier": 85
+        "text": "License plate",
+        "tier": 30
       },
       {
-        "text": "Evaporator",
-        "tier": 85
+        "text": "Spare tire",
+        "tier": 30
       },
       {
-        "text": "Condenser",
-        "tier": 85
+        "text": "Jack",
+        "tier": 30
       },
       {
-        "text": "Compressor",
-        "tier": 85
+        "text": "Ignition",
+        "tier": 30
       },
       {
-        "text": "Expansion valve",
-        "tier": 85
+        "text": "Key",
+        "aliases": [
+          "car key"
+        ],
+        "tier": 30
       },
       {
-        "text": "Cabin air filter",
-        "tier": 85
+        "text": "Steering column",
+        "tier": 30
       },
       {
-        "text": "Glow plug",
-        "tier": 85
+        "text": "Suspension",
+        "tier": 30
       },
       {
-        "text": "Diesel particulate filter",
-        "tier": 85
+        "text": "Shocks",
+        "aliases": [
+          "shock absorbers"
+        ],
+        "tier": 30
       },
       {
-        "text": "Resonator",
-        "tier": 85
+        "text": "Fender",
+        "tier": 30
       },
       {
-        "text": "Heat shield",
-        "tier": 85
+        "text": "Grille",
+        "aliases": [
+          "grill"
+        ],
+        "tier": 30
       },
       {
-        "text": "Skid plate",
-        "tier": 85
+        "text": "Antenna",
+        "tier": 30
       },
       {
-        "text": "Splash shield",
-        "tier": 85
+        "text": "Floor mats",
+        "tier": 30
       },
       {
-        "text": "Cowl",
-        "tier": 85
+        "text": "Headrest",
+        "tier": 30
       },
       {
-        "text": "Drip rail",
-        "tier": 85
+        "text": "Armrest",
+        "tier": 30
       },
       {
-        "text": "Fender liner",
-        "tier": 85
+        "text": "Console",
+        "aliases": [
+          "center console"
+        ],
+        "tier": 30
       },
       {
-        "text": "Tonneau cover",
-        "tier": 85
+        "text": "Heater",
+        "tier": 30
       },
       {
-        "text": "Bed liner",
-        "tier": 85
+        "text": "Air conditioning",
+        "aliases": [
+          "ac"
+        ],
+        "tier": 30
       },
       {
-        "text": "Tailgate",
-        "tier": 85
+        "text": "GPS",
+        "aliases": [
+          "navigation"
+        ],
+        "tier": 30
       },
       {
-        "text": "Liftgate",
-        "tier": 85
+        "text": "Backup camera",
+        "tier": 30
       },
       {
-        "text": "Hatch",
-        "tier": 85
+        "text": "Cruise control",
+        "tier": 30
       },
       {
-        "text": "Sill plate",
-        "tier": 85
+        "text": "Parking brake",
+        "aliases": [
+          "emergency brake",
+          "handbrake"
+        ],
+        "tier": 30
       },
       {
-        "text": "Kick panel",
-        "tier": 85
+        "text": "Cigarette lighter",
+        "tier": 15
       },
       {
-        "text": "Headliner",
-        "tier": 85
+        "text": "Cup holder",
+        "tier": 15
       },
       {
-        "text": "Package tray",
-        "tier": 85
+        "text": "Wheel",
+        "aliases": [
+          "wheels"
+        ],
+        "tier": 10
       },
       {
-        "text": "Shift knob",
-        "tier": 85
+        "text": "Tire",
+        "aliases": [
+          "tires",
+          "tyre"
+        ],
+        "tier": 10
       },
       {
-        "text": "Paddle shifters",
-        "tier": 85
+        "text": "Engine",
+        "aliases": [
+          "motor"
+        ],
+        "tier": 10
       },
       {
-        "text": "Horn relay",
-        "tier": 85
+        "text": "Steering wheel",
+        "tier": 10
       },
       {
-        "text": "Starter solenoid",
-        "tier": 85
+        "text": "Door",
+        "tier": 10
       },
       {
-        "text": "Voltage regulator",
-        "tier": 85
+        "text": "Seat",
+        "tier": 10
       },
       {
-        "text": "Ground strap",
-        "tier": 85
+        "text": "Windshield",
+        "aliases": [
+          "windscreen"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Brakes",
+        "aliases": [
+          "brake"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -4858,236 +4858,298 @@
         "tier": 100
       },
       {
-        "text": "Cactus",
-        "tier": 10
+        "text": "Philodendron Pink Princess",
+        "tier": 85
       },
       {
-        "text": "Aloe",
+        "text": "Philodendron Birkin",
+        "tier": 85
+      },
+      {
+        "text": "Hoya kerrii",
         "aliases": [
-          "aloe vera"
+          "sweetheart plant"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Snake plant",
+        "text": "Anthurium clarinervium",
+        "tier": 85
+      },
+      {
+        "text": "Alocasia Polly",
+        "tier": 85
+      },
+      {
+        "text": "Alocasia zebrina",
+        "tier": 85
+      },
+      {
+        "text": "Calathea orbifolia",
+        "tier": 85
+      },
+      {
+        "text": "Calathea medallion",
+        "tier": 85
+      },
+      {
+        "text": "Begonia maculata",
         "aliases": [
-          "mother-in-law's tongue",
-          "sansevieria"
+          "polka dot begonia"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Pothos",
+        "text": "Begonia rex",
+        "tier": 85
+      },
+      {
+        "text": "Rhaphidophora tetrasperma",
         "aliases": [
-          "devil's ivy"
+          "mini monstera"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Fern",
+        "text": "Scindapsus",
         "aliases": [
-          "boston fern"
+          "satin pothos"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Succulent",
-        "tier": 10
+        "text": "Neon pothos",
+        "tier": 85
       },
       {
-        "text": "Spider plant",
-        "tier": 10
+        "text": "Manjula pothos",
+        "tier": 85
       },
       {
-        "text": "Orchid",
-        "tier": 10
+        "text": "Ficus audrey",
+        "tier": 85
       },
       {
-        "text": "Chia Pet",
-        "tier": 15
+        "text": "Sansevieria cylindrica",
+        "tier": 85
       },
       {
-        "text": "Venus flytrap",
-        "tier": 15
+        "text": "Aspidistra",
+        "tier": 85
       },
       {
-        "text": "Peace lily",
-        "tier": 30
+        "text": "Cordyline",
+        "tier": 85
       },
       {
-        "text": "Fiddle leaf fig",
+        "text": "Aglaonema Silver Bay",
+        "tier": 85
+      },
+      {
+        "text": "Selaginella",
+        "tier": 85
+      },
+      {
+        "text": "Davallia",
         "aliases": [
-          "fiddle-leaf fig"
+          "rabbit's foot fern"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Monstera",
+        "text": "Blue star fern",
+        "tier": 85
+      },
+      {
+        "text": "Kangaroo paw fern",
+        "tier": 85
+      },
+      {
+        "text": "Platycerium",
+        "tier": 85
+      },
+      {
+        "text": "Peperomia obtusifolia",
+        "tier": 85
+      },
+      {
+        "text": "Peperomia prostrata",
         "aliases": [
-          "swiss cheese plant"
+          "string of turtles"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Philodendron",
-        "tier": 30
+        "text": "Watermelon peperomia",
+        "tier": 85
       },
       {
-        "text": "Rubber plant",
+        "text": "Ceropegia",
+        "tier": 85
+      },
+      {
+        "text": "Dischidia",
+        "tier": 85
+      },
+      {
+        "text": "Senecio",
+        "tier": 85
+      },
+      {
+        "text": "String of dolphins",
+        "tier": 85
+      },
+      {
+        "text": "Kalanchoe tomentosa",
+        "tier": 85
+      },
+      {
+        "text": "Kalanchoe daigremontiana",
         "aliases": [
-          "rubber tree"
+          "mother of thousands"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "ZZ plant",
-        "tier": 30
+        "text": "Cotyledon",
+        "tier": 85
       },
       {
-        "text": "Jade plant",
+        "text": "Sempervivum",
+        "tier": 85
+      },
+      {
+        "text": "Pachyphytum",
+        "tier": 85
+      },
+      {
+        "text": "Graptopetalum",
+        "tier": 85
+      },
+      {
+        "text": "Adromischus",
+        "tier": 85
+      },
+      {
+        "text": "Faucaria",
         "aliases": [
-          "money plant"
+          "tiger jaws"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Ivy",
+        "text": "Fenestraria",
+        "tier": 85
+      },
+      {
+        "text": "Conophytum",
+        "tier": 85
+      },
+      {
+        "text": "Pleiospilos",
+        "tier": 85
+      },
+      {
+        "text": "Titanopsis",
+        "tier": 85
+      },
+      {
+        "text": "Mammillaria",
+        "tier": 85
+      },
+      {
+        "text": "Gymnocalycium",
+        "tier": 85
+      },
+      {
+        "text": "Echinocactus",
+        "tier": 85
+      },
+      {
+        "text": "Astrophytum",
+        "tier": 85
+      },
+      {
+        "text": "Cereus",
+        "tier": 85
+      },
+      {
+        "text": "Hatiora",
+        "tier": 85
+      },
+      {
+        "text": "Epiphyllum",
+        "tier": 85
+      },
+      {
+        "text": "Selenicereus",
+        "tier": 85
+      },
+      {
+        "text": "Musa",
         "aliases": [
-          "english ivy"
+          "banana plant"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Bamboo",
+        "text": "Ensete",
+        "tier": 85
+      },
+      {
+        "text": "Colocasia",
+        "tier": 85
+      },
+      {
+        "text": "Xanthosoma",
+        "tier": 85
+      },
+      {
+        "text": "Tolmiea",
         "aliases": [
-          "lucky bamboo"
+          "piggyback plant"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Bonsai",
-        "tier": 30
-      },
-      {
-        "text": "African violet",
-        "tier": 30
-      },
-      {
-        "text": "Christmas cactus",
-        "tier": 30
-      },
-      {
-        "text": "Poinsettia",
-        "tier": 30
-      },
-      {
-        "text": "Peperomia",
-        "tier": 30
-      },
-      {
-        "text": "Calathea",
+        "text": "Soleirolia",
         "aliases": [
-          "prayer plant"
+          "baby's tears"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Dracaena",
-        "tier": 30
+        "text": "Pellionia",
+        "tier": 85
       },
       {
-        "text": "Croton",
-        "tier": 30
-      },
-      {
-        "text": "Begonia",
-        "tier": 30
-      },
-      {
-        "text": "Air plant",
+        "text": "Pilea cadierei",
         "aliases": [
-          "tillandsia"
+          "aluminum plant"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Bird of paradise",
-        "tier": 30
+        "text": "Hypoestes",
+        "tier": 85
       },
       {
-        "text": "Ficus",
+        "text": "Iresine",
+        "tier": 85
+      },
+      {
+        "text": "Strobilanthes",
         "aliases": [
-          "weeping fig"
+          "persian shield"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Palm",
+        "text": "Gynura",
         "aliases": [
-          "parlor palm"
+          "purple passion"
         ],
-        "tier": 30
-      },
-      {
-        "text": "Areca palm",
-        "tier": 30
-      },
-      {
-        "text": "Ponytail palm",
-        "tier": 30
-      },
-      {
-        "text": "Money tree",
-        "tier": 30
-      },
-      {
-        "text": "Chinese evergreen",
-        "aliases": [
-          "aglaonema"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Dieffenbachia",
-        "aliases": [
-          "dumb cane"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hoya",
-        "aliases": [
-          "wax plant"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Basil",
-        "tier": 30
-      },
-      {
-        "text": "Mint",
-        "tier": 30
-      },
-      {
-        "text": "Anthurium",
-        "tier": 30
-      },
-      {
-        "text": "Bromeliad",
-        "tier": 30
-      },
-      {
-        "text": "Kalanchoe",
-        "tier": 30
-      },
-      {
-        "text": "Echeveria",
-        "tier": 30
-      },
-      {
-        "text": "Haworthia",
-        "tier": 30
+        "tier": 85
       },
       {
         "text": "Marble Queen pothos",
@@ -5439,298 +5501,236 @@
         "tier": 60
       },
       {
-        "text": "Philodendron Pink Princess",
-        "tier": 85
+        "text": "Peace lily",
+        "tier": 30
       },
       {
-        "text": "Philodendron Birkin",
-        "tier": 85
-      },
-      {
-        "text": "Hoya kerrii",
+        "text": "Fiddle leaf fig",
         "aliases": [
-          "sweetheart plant"
+          "fiddle-leaf fig"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Anthurium clarinervium",
-        "tier": 85
-      },
-      {
-        "text": "Alocasia Polly",
-        "tier": 85
-      },
-      {
-        "text": "Alocasia zebrina",
-        "tier": 85
-      },
-      {
-        "text": "Calathea orbifolia",
-        "tier": 85
-      },
-      {
-        "text": "Calathea medallion",
-        "tier": 85
-      },
-      {
-        "text": "Begonia maculata",
+        "text": "Monstera",
         "aliases": [
-          "polka dot begonia"
+          "swiss cheese plant"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Begonia rex",
-        "tier": 85
+        "text": "Philodendron",
+        "tier": 30
       },
       {
-        "text": "Rhaphidophora tetrasperma",
+        "text": "Rubber plant",
         "aliases": [
-          "mini monstera"
+          "rubber tree"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Scindapsus",
+        "text": "ZZ plant",
+        "tier": 30
+      },
+      {
+        "text": "Jade plant",
         "aliases": [
-          "satin pothos"
+          "money plant"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Neon pothos",
-        "tier": 85
-      },
-      {
-        "text": "Manjula pothos",
-        "tier": 85
-      },
-      {
-        "text": "Ficus audrey",
-        "tier": 85
-      },
-      {
-        "text": "Sansevieria cylindrica",
-        "tier": 85
-      },
-      {
-        "text": "Aspidistra",
-        "tier": 85
-      },
-      {
-        "text": "Cordyline",
-        "tier": 85
-      },
-      {
-        "text": "Aglaonema Silver Bay",
-        "tier": 85
-      },
-      {
-        "text": "Selaginella",
-        "tier": 85
-      },
-      {
-        "text": "Davallia",
+        "text": "Ivy",
         "aliases": [
-          "rabbit's foot fern"
+          "english ivy"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Blue star fern",
-        "tier": 85
-      },
-      {
-        "text": "Kangaroo paw fern",
-        "tier": 85
-      },
-      {
-        "text": "Platycerium",
-        "tier": 85
-      },
-      {
-        "text": "Peperomia obtusifolia",
-        "tier": 85
-      },
-      {
-        "text": "Peperomia prostrata",
+        "text": "Bamboo",
         "aliases": [
-          "string of turtles"
+          "lucky bamboo"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Watermelon peperomia",
-        "tier": 85
+        "text": "Bonsai",
+        "tier": 30
       },
       {
-        "text": "Ceropegia",
-        "tier": 85
+        "text": "African violet",
+        "tier": 30
       },
       {
-        "text": "Dischidia",
-        "tier": 85
+        "text": "Christmas cactus",
+        "tier": 30
       },
       {
-        "text": "Senecio",
-        "tier": 85
+        "text": "Poinsettia",
+        "tier": 30
       },
       {
-        "text": "String of dolphins",
-        "tier": 85
+        "text": "Peperomia",
+        "tier": 30
       },
       {
-        "text": "Kalanchoe tomentosa",
-        "tier": 85
-      },
-      {
-        "text": "Kalanchoe daigremontiana",
+        "text": "Calathea",
         "aliases": [
-          "mother of thousands"
+          "prayer plant"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Cotyledon",
-        "tier": 85
+        "text": "Dracaena",
+        "tier": 30
       },
       {
-        "text": "Sempervivum",
-        "tier": 85
+        "text": "Croton",
+        "tier": 30
       },
       {
-        "text": "Pachyphytum",
-        "tier": 85
+        "text": "Begonia",
+        "tier": 30
       },
       {
-        "text": "Graptopetalum",
-        "tier": 85
-      },
-      {
-        "text": "Adromischus",
-        "tier": 85
-      },
-      {
-        "text": "Faucaria",
+        "text": "Air plant",
         "aliases": [
-          "tiger jaws"
+          "tillandsia"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Fenestraria",
-        "tier": 85
+        "text": "Bird of paradise",
+        "tier": 30
       },
       {
-        "text": "Conophytum",
-        "tier": 85
-      },
-      {
-        "text": "Pleiospilos",
-        "tier": 85
-      },
-      {
-        "text": "Titanopsis",
-        "tier": 85
-      },
-      {
-        "text": "Mammillaria",
-        "tier": 85
-      },
-      {
-        "text": "Gymnocalycium",
-        "tier": 85
-      },
-      {
-        "text": "Echinocactus",
-        "tier": 85
-      },
-      {
-        "text": "Astrophytum",
-        "tier": 85
-      },
-      {
-        "text": "Cereus",
-        "tier": 85
-      },
-      {
-        "text": "Hatiora",
-        "tier": 85
-      },
-      {
-        "text": "Epiphyllum",
-        "tier": 85
-      },
-      {
-        "text": "Selenicereus",
-        "tier": 85
-      },
-      {
-        "text": "Musa",
+        "text": "Ficus",
         "aliases": [
-          "banana plant"
+          "weeping fig"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Ensete",
-        "tier": 85
-      },
-      {
-        "text": "Colocasia",
-        "tier": 85
-      },
-      {
-        "text": "Xanthosoma",
-        "tier": 85
-      },
-      {
-        "text": "Tolmiea",
+        "text": "Palm",
         "aliases": [
-          "piggyback plant"
+          "parlor palm"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Soleirolia",
+        "text": "Areca palm",
+        "tier": 30
+      },
+      {
+        "text": "Ponytail palm",
+        "tier": 30
+      },
+      {
+        "text": "Money tree",
+        "tier": 30
+      },
+      {
+        "text": "Chinese evergreen",
         "aliases": [
-          "baby's tears"
+          "aglaonema"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Pellionia",
-        "tier": 85
-      },
-      {
-        "text": "Pilea cadierei",
+        "text": "Dieffenbachia",
         "aliases": [
-          "aluminum plant"
+          "dumb cane"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Hypoestes",
-        "tier": 85
-      },
-      {
-        "text": "Iresine",
-        "tier": 85
-      },
-      {
-        "text": "Strobilanthes",
+        "text": "Hoya",
         "aliases": [
-          "persian shield"
+          "wax plant"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Gynura",
+        "text": "Basil",
+        "tier": 30
+      },
+      {
+        "text": "Mint",
+        "tier": 30
+      },
+      {
+        "text": "Anthurium",
+        "tier": 30
+      },
+      {
+        "text": "Bromeliad",
+        "tier": 30
+      },
+      {
+        "text": "Kalanchoe",
+        "tier": 30
+      },
+      {
+        "text": "Echeveria",
+        "tier": 30
+      },
+      {
+        "text": "Haworthia",
+        "tier": 30
+      },
+      {
+        "text": "Chia Pet",
+        "tier": 15
+      },
+      {
+        "text": "Venus flytrap",
+        "tier": 15
+      },
+      {
+        "text": "Cactus",
+        "tier": 10
+      },
+      {
+        "text": "Aloe",
         "aliases": [
-          "purple passion"
+          "aloe vera"
         ],
-        "tier": 85
+        "tier": 10
+      },
+      {
+        "text": "Snake plant",
+        "aliases": [
+          "mother-in-law's tongue",
+          "sansevieria"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pothos",
+        "aliases": [
+          "devil's ivy"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Fern",
+        "aliases": [
+          "boston fern"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Succulent",
+        "tier": 10
+      },
+      {
+        "text": "Spider plant",
+        "tier": 10
+      },
+      {
+        "text": "Orchid",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -5756,210 +5756,280 @@
         "tier": 100
       },
       {
-        "text": "Microscope",
-        "tier": 10
+        "text": "Kipp's apparatus",
+        "tier": 85
       },
       {
-        "text": "Beaker",
-        "tier": 10
+        "text": "Soxhlet extractor",
+        "tier": 85
       },
       {
-        "text": "Test tube",
-        "tier": 10
+        "text": "Dean-Stark apparatus",
+        "tier": 85
       },
       {
-        "text": "Goggles",
+        "text": "Schlenk line",
+        "tier": 85
+      },
+      {
+        "text": "Rotary evaporator",
         "aliases": [
-          "safety goggles"
+          "rotovap"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Lab coat",
-        "tier": 10
+        "text": "Liebig condenser",
+        "tier": 85
       },
       {
-        "text": "Bunsen burner",
-        "tier": 10
+        "text": "Allihn condenser",
+        "tier": 85
       },
       {
-        "text": "Scientist",
-        "tier": 10
+        "text": "Vigreux column",
+        "tier": 85
       },
       {
-        "text": "Skeleton",
-        "tier": 15
+        "text": "Kjeldahl flask",
+        "tier": 85
       },
       {
-        "text": "Petri dish",
-        "tier": 15
+        "text": "Thiele tube",
+        "tier": 85
       },
       {
-        "text": "Lab rat",
-        "tier": 15
-      },
-      {
-        "text": "Flask",
-        "tier": 30
-      },
-      {
-        "text": "Graduated cylinder",
-        "tier": 30
-      },
-      {
-        "text": "Pipette",
+        "text": "Mel-Temp",
         "aliases": [
-          "pipet",
-          "dropper"
+          "melting point apparatus"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Burette",
+        "text": "Refractometer",
+        "tier": 85
+      },
+      {
+        "text": "Polarimeter",
+        "tier": 85
+      },
+      {
+        "text": "Calorimeter",
+        "tier": 85
+      },
+      {
+        "text": "Bomb calorimeter",
+        "tier": 85
+      },
+      {
+        "text": "Gas chromatograph",
+        "tier": 85
+      },
+      {
+        "text": "HPLC",
+        "tier": 85
+      },
+      {
+        "text": "Mass spectrometer",
+        "tier": 85
+      },
+      {
+        "text": "NMR machine",
         "aliases": [
-          "buret"
+          "nmr"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Scale",
+        "text": "Analytical balance",
+        "tier": 85
+      },
+      {
+        "text": "Top-loading balance",
+        "tier": 85
+      },
+      {
+        "text": "Triple beam balance",
+        "tier": 85
+      },
+      {
+        "text": "Spring scale",
+        "tier": 85
+      },
+      {
+        "text": "Clay triangle",
+        "tier": 85
+      },
+      {
+        "text": "Pipe-stem triangle",
+        "tier": 85
+      },
+      {
+        "text": "Crucible tongs",
+        "tier": 85
+      },
+      {
+        "text": "Beaker tongs",
+        "tier": 85
+      },
+      {
+        "text": "Test tube holder",
+        "tier": 85
+      },
+      {
+        "text": "Utility clamp",
+        "tier": 85
+      },
+      {
+        "text": "Burette clamp",
+        "tier": 85
+      },
+      {
+        "text": "Iron ring",
+        "tier": 85
+      },
+      {
+        "text": "Wire mesh",
+        "tier": 85
+      },
+      {
+        "text": "Boiling chips",
+        "tier": 85
+      },
+      {
+        "text": "Rubber stopper",
+        "tier": 85
+      },
+      {
+        "text": "Cork",
+        "tier": 85
+      },
+      {
+        "text": "Parafilm",
+        "tier": 85
+      },
+      {
+        "text": "Septum",
+        "tier": 85
+      },
+      {
+        "text": "Syringe",
+        "tier": 85
+      },
+      {
+        "text": "Cannula",
+        "tier": 85
+      },
+      {
+        "text": "Needle",
+        "tier": 85
+      },
+      {
+        "text": "Inoculating loop",
+        "tier": 85
+      },
+      {
+        "text": "Streak plate",
+        "tier": 85
+      },
+      {
+        "text": "Spreader",
+        "tier": 85
+      },
+      {
+        "text": "Colony counter",
+        "tier": 85
+      },
+      {
+        "text": "Anaerobic jar",
+        "tier": 85
+      },
+      {
+        "text": "Shaker incubator",
+        "tier": 85
+      },
+      {
+        "text": "Lyophilizer",
         "aliases": [
-          "balance"
+          "freeze dryer"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Thermometer",
-        "tier": 30
+        "text": "Sonicator",
+        "tier": 85
       },
       {
-        "text": "Test tube rack",
-        "tier": 30
+        "text": "Homogenizer",
+        "tier": 85
       },
       {
-        "text": "Tongs",
-        "tier": 30
+        "text": "Microtome",
+        "tier": 85
       },
       {
-        "text": "Gloves",
-        "tier": 30
+        "text": "Cryostat",
+        "tier": 85
       },
       {
-        "text": "Slides",
-        "aliases": [
-          "microscope slide"
-        ],
-        "tier": 30
+        "text": "Flow cytometer",
+        "tier": 85
       },
       {
-        "text": "Funnel",
-        "tier": 30
+        "text": "Plate reader",
+        "tier": 85
       },
       {
-        "text": "Magnifying glass",
-        "tier": 30
+        "text": "Sequencer",
+        "tier": 85
       },
       {
-        "text": "Periodic table",
-        "tier": 30
+        "text": "Gel doc",
+        "tier": 85
       },
       {
-        "text": "Chemicals",
-        "tier": 30
+        "text": "Transilluminator",
+        "tier": 85
       },
       {
-        "text": "Fume hood",
-        "tier": 30
+        "text": "UV lamp",
+        "tier": 85
       },
       {
-        "text": "Eyewash station",
-        "tier": 30
+        "text": "Geiger counter",
+        "tier": 85
       },
       {
-        "text": "Fire extinguisher",
-        "tier": 30
+        "text": "Van de Graaff generator",
+        "tier": 85
       },
       {
-        "text": "Safety shower",
-        "tier": 30
+        "text": "Tesla coil",
+        "tier": 85
       },
       {
-        "text": "Centrifuge",
-        "tier": 30
+        "text": "Wimshurst machine",
+        "tier": 85
       },
       {
-        "text": "Hot plate",
-        "tier": 30
+        "text": "Leyden jar",
+        "tier": 85
       },
       {
-        "text": "Stirring rod",
-        "aliases": [
-          "glass rod"
-        ],
-        "tier": 30
+        "text": "Galvanometer",
+        "tier": 85
       },
       {
-        "text": "Spatula",
-        "tier": 30
+        "text": "Rheostat",
+        "tier": 85
       },
       {
-        "text": "Ring stand",
-        "tier": 30
+        "text": "Breadboard",
+        "tier": 85
       },
       {
-        "text": "Clamp",
-        "tier": 30
-      },
-      {
-        "text": "Tripod",
-        "tier": 30
-      },
-      {
-        "text": "Wire gauze",
-        "tier": 30
-      },
-      {
-        "text": "Crucible",
-        "tier": 30
-      },
-      {
-        "text": "Mortar and pestle",
-        "tier": 30
-      },
-      {
-        "text": "Filter paper",
-        "tier": 30
-      },
-      {
-        "text": "Litmus paper",
-        "tier": 30
-      },
-      {
-        "text": "pH strips",
-        "tier": 30
-      },
-      {
-        "text": "Computer",
-        "tier": 30
-      },
-      {
-        "text": "Notebook",
-        "aliases": [
-          "lab notebook"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sink",
-        "tier": 30
-      },
-      {
-        "text": "Lab bench",
-        "tier": 30
-      },
-      {
-        "text": "Stool",
-        "tier": 30
+        "text": "Soldering iron",
+        "tier": 85
       },
       {
         "text": "Volumetric flask",
@@ -6297,280 +6367,210 @@
         "tier": 60
       },
       {
-        "text": "Kipp's apparatus",
-        "tier": 85
+        "text": "Flask",
+        "tier": 30
       },
       {
-        "text": "Soxhlet extractor",
-        "tier": 85
+        "text": "Graduated cylinder",
+        "tier": 30
       },
       {
-        "text": "Dean-Stark apparatus",
-        "tier": 85
-      },
-      {
-        "text": "Schlenk line",
-        "tier": 85
-      },
-      {
-        "text": "Rotary evaporator",
+        "text": "Pipette",
         "aliases": [
-          "rotovap"
+          "pipet",
+          "dropper"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Liebig condenser",
-        "tier": 85
-      },
-      {
-        "text": "Allihn condenser",
-        "tier": 85
-      },
-      {
-        "text": "Vigreux column",
-        "tier": 85
-      },
-      {
-        "text": "Kjeldahl flask",
-        "tier": 85
-      },
-      {
-        "text": "Thiele tube",
-        "tier": 85
-      },
-      {
-        "text": "Mel-Temp",
+        "text": "Burette",
         "aliases": [
-          "melting point apparatus"
+          "buret"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Refractometer",
-        "tier": 85
-      },
-      {
-        "text": "Polarimeter",
-        "tier": 85
-      },
-      {
-        "text": "Calorimeter",
-        "tier": 85
-      },
-      {
-        "text": "Bomb calorimeter",
-        "tier": 85
-      },
-      {
-        "text": "Gas chromatograph",
-        "tier": 85
-      },
-      {
-        "text": "HPLC",
-        "tier": 85
-      },
-      {
-        "text": "Mass spectrometer",
-        "tier": 85
-      },
-      {
-        "text": "NMR machine",
+        "text": "Scale",
         "aliases": [
-          "nmr"
+          "balance"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Analytical balance",
-        "tier": 85
+        "text": "Thermometer",
+        "tier": 30
       },
       {
-        "text": "Top-loading balance",
-        "tier": 85
+        "text": "Test tube rack",
+        "tier": 30
       },
       {
-        "text": "Triple beam balance",
-        "tier": 85
+        "text": "Tongs",
+        "tier": 30
       },
       {
-        "text": "Spring scale",
-        "tier": 85
+        "text": "Gloves",
+        "tier": 30
       },
       {
-        "text": "Clay triangle",
-        "tier": 85
-      },
-      {
-        "text": "Pipe-stem triangle",
-        "tier": 85
-      },
-      {
-        "text": "Crucible tongs",
-        "tier": 85
-      },
-      {
-        "text": "Beaker tongs",
-        "tier": 85
-      },
-      {
-        "text": "Test tube holder",
-        "tier": 85
-      },
-      {
-        "text": "Utility clamp",
-        "tier": 85
-      },
-      {
-        "text": "Burette clamp",
-        "tier": 85
-      },
-      {
-        "text": "Iron ring",
-        "tier": 85
-      },
-      {
-        "text": "Wire mesh",
-        "tier": 85
-      },
-      {
-        "text": "Boiling chips",
-        "tier": 85
-      },
-      {
-        "text": "Rubber stopper",
-        "tier": 85
-      },
-      {
-        "text": "Cork",
-        "tier": 85
-      },
-      {
-        "text": "Parafilm",
-        "tier": 85
-      },
-      {
-        "text": "Septum",
-        "tier": 85
-      },
-      {
-        "text": "Syringe",
-        "tier": 85
-      },
-      {
-        "text": "Cannula",
-        "tier": 85
-      },
-      {
-        "text": "Needle",
-        "tier": 85
-      },
-      {
-        "text": "Inoculating loop",
-        "tier": 85
-      },
-      {
-        "text": "Streak plate",
-        "tier": 85
-      },
-      {
-        "text": "Spreader",
-        "tier": 85
-      },
-      {
-        "text": "Colony counter",
-        "tier": 85
-      },
-      {
-        "text": "Anaerobic jar",
-        "tier": 85
-      },
-      {
-        "text": "Shaker incubator",
-        "tier": 85
-      },
-      {
-        "text": "Lyophilizer",
+        "text": "Slides",
         "aliases": [
-          "freeze dryer"
+          "microscope slide"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Sonicator",
-        "tier": 85
+        "text": "Funnel",
+        "tier": 30
       },
       {
-        "text": "Homogenizer",
-        "tier": 85
+        "text": "Magnifying glass",
+        "tier": 30
       },
       {
-        "text": "Microtome",
-        "tier": 85
+        "text": "Periodic table",
+        "tier": 30
       },
       {
-        "text": "Cryostat",
-        "tier": 85
+        "text": "Chemicals",
+        "tier": 30
       },
       {
-        "text": "Flow cytometer",
-        "tier": 85
+        "text": "Fume hood",
+        "tier": 30
       },
       {
-        "text": "Plate reader",
-        "tier": 85
+        "text": "Eyewash station",
+        "tier": 30
       },
       {
-        "text": "Sequencer",
-        "tier": 85
+        "text": "Fire extinguisher",
+        "tier": 30
       },
       {
-        "text": "Gel doc",
-        "tier": 85
+        "text": "Safety shower",
+        "tier": 30
       },
       {
-        "text": "Transilluminator",
-        "tier": 85
+        "text": "Centrifuge",
+        "tier": 30
       },
       {
-        "text": "UV lamp",
-        "tier": 85
+        "text": "Hot plate",
+        "tier": 30
       },
       {
-        "text": "Geiger counter",
-        "tier": 85
+        "text": "Stirring rod",
+        "aliases": [
+          "glass rod"
+        ],
+        "tier": 30
       },
       {
-        "text": "Van de Graaff generator",
-        "tier": 85
+        "text": "Spatula",
+        "tier": 30
       },
       {
-        "text": "Tesla coil",
-        "tier": 85
+        "text": "Ring stand",
+        "tier": 30
       },
       {
-        "text": "Wimshurst machine",
-        "tier": 85
+        "text": "Clamp",
+        "tier": 30
       },
       {
-        "text": "Leyden jar",
-        "tier": 85
+        "text": "Tripod",
+        "tier": 30
       },
       {
-        "text": "Galvanometer",
-        "tier": 85
+        "text": "Wire gauze",
+        "tier": 30
       },
       {
-        "text": "Rheostat",
-        "tier": 85
+        "text": "Crucible",
+        "tier": 30
       },
       {
-        "text": "Breadboard",
-        "tier": 85
+        "text": "Mortar and pestle",
+        "tier": 30
       },
       {
-        "text": "Soldering iron",
-        "tier": 85
+        "text": "Filter paper",
+        "tier": 30
+      },
+      {
+        "text": "Litmus paper",
+        "tier": 30
+      },
+      {
+        "text": "pH strips",
+        "tier": 30
+      },
+      {
+        "text": "Computer",
+        "tier": 30
+      },
+      {
+        "text": "Notebook",
+        "aliases": [
+          "lab notebook"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sink",
+        "tier": 30
+      },
+      {
+        "text": "Lab bench",
+        "tier": 30
+      },
+      {
+        "text": "Stool",
+        "tier": 30
+      },
+      {
+        "text": "Skeleton",
+        "tier": 15
+      },
+      {
+        "text": "Petri dish",
+        "tier": 15
+      },
+      {
+        "text": "Lab rat",
+        "tier": 15
+      },
+      {
+        "text": "Microscope",
+        "tier": 10
+      },
+      {
+        "text": "Beaker",
+        "tier": 10
+      },
+      {
+        "text": "Test tube",
+        "tier": 10
+      },
+      {
+        "text": "Goggles",
+        "aliases": [
+          "safety goggles"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Lab coat",
+        "tier": 10
+      },
+      {
+        "text": "Bunsen burner",
+        "tier": 10
+      },
+      {
+        "text": "Scientist",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -6596,67 +6596,294 @@
         "tier": 100
       },
       {
-        "text": "Tony the Tiger",
-        "aliases": [
-          "tony"
-        ],
-        "tier": 10
+        "text": "Sir Grapefellow",
+        "tier": 85
       },
       {
-        "text": "Ronald McDonald",
-        "aliases": [
-          "ronald"
-        ],
-        "tier": 10
+        "text": "Baron von Redberry",
+        "tier": 85
       },
       {
-        "text": "Pillsbury Doughboy",
-        "aliases": [
-          "doughboy",
-          "poppin' fresh"
-        ],
-        "tier": 10
+        "text": "King Vitaman",
+        "tier": 85
       },
       {
-        "text": "Geico Gecko",
-        "aliases": [
-          "gecko",
-          "the gecko"
-        ],
-        "tier": 10
+        "text": "Quisp",
+        "tier": 85
       },
       {
-        "text": "M&M's",
-        "aliases": [
-          "m&m characters",
-          "red and yellow"
-        ],
-        "tier": 10
+        "text": "Quake",
+        "tier": 85
       },
       {
-        "text": "Kool-Aid Man",
-        "aliases": [
-          "kool aid man"
-        ],
-        "tier": 10
+        "text": "Linus the Lionhearted",
+        "tier": 85
       },
       {
-        "text": "Energizer Bunny",
-        "tier": 10
+        "text": "Sugar Pops Pete",
+        "tier": 85
       },
       {
-        "text": "Smokey Bear",
-        "aliases": [
-          "smokey the bear"
-        ],
-        "tier": 15
+        "text": "Jean LaFoote",
+        "tier": 85
       },
       {
-        "text": "McGruff the Crime Dog",
+        "text": "Crunchberry Beast",
+        "tier": 85
+      },
+      {
+        "text": "7 Up Spot",
         "aliases": [
-          "mcgruff"
+          "cool spot"
         ],
-        "tier": 15
+        "tier": 85
+      },
+      {
+        "text": "Fido Dido",
+        "tier": 85
+      },
+      {
+        "text": "Coca-Cola polar bear",
+        "aliases": [
+          "polar bears"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pepsiman",
+        "tier": 85
+      },
+      {
+        "text": "Mikey",
+        "tier": 85
+      },
+      {
+        "text": "Smaxey",
+        "tier": 85
+      },
+      {
+        "text": "Sugar Smacks Seal",
+        "tier": 85
+      },
+      {
+        "text": "Dig'em Frog",
+        "aliases": [
+          "dig em"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cornelius the Rooster",
+        "aliases": [
+          "cornelius"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Honey Nut Cheerios Bee",
+        "aliases": [
+          "buzz the bee"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Coco the Monkey",
+        "tier": 60
+      },
+      {
+        "text": "Sugar Bear",
+        "tier": 60
+      },
+      {
+        "text": "Fruit Brute",
+        "tier": 60
+      },
+      {
+        "text": "Yummy Mummy",
+        "tier": 60
+      },
+      {
+        "text": "Chip the Wolf",
+        "tier": 60
+      },
+      {
+        "text": "Cookie Crisp wolf",
+        "aliases": [
+          "chip"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Woodsy Owl",
+        "tier": 60
+      },
+      {
+        "text": "Sparky the Fire Dog",
+        "tier": 60
+      },
+      {
+        "text": "Vlasic Stork",
+        "tier": 60
+      },
+      {
+        "text": "Tootsie Pop Owl",
+        "aliases": [
+          "mr owl"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Charlie the Tuna",
+        "tier": 60
+      },
+      {
+        "text": "Nesquik Bunny",
+        "aliases": [
+          "quicky"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Domino's Noid",
+        "aliases": [
+          "noid"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Speedee",
+        "tier": 60
+      },
+      {
+        "text": "Mac Tonight",
+        "tier": 60
+      },
+      {
+        "text": "Fry Kids",
+        "tier": 60
+      },
+      {
+        "text": "Officer Big Mac",
+        "tier": 60
+      },
+      {
+        "text": "Mayor McCheese",
+        "tier": 60
+      },
+      {
+        "text": "Captain Crook",
+        "tier": 60
+      },
+      {
+        "text": "Little Miss Sunbeam",
+        "tier": 60
+      },
+      {
+        "text": "Brawny Man",
+        "tier": 60
+      },
+      {
+        "text": "Mr. Bubble",
+        "tier": 60
+      },
+      {
+        "text": "Scrubbing Bubbles",
+        "tier": 60
+      },
+      {
+        "text": "Tidy Bowl Man",
+        "tier": 60
+      },
+      {
+        "text": "Maytag Man",
+        "aliases": [
+          "maytag repairman"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mr. Whipple",
+        "tier": 60
+      },
+      {
+        "text": "Madge",
+        "tier": 60
+      },
+      {
+        "text": "The Most Interesting Man in the World",
+        "tier": 60
+      },
+      {
+        "text": "Old Spice Guy",
+        "tier": 60
+      },
+      {
+        "text": "Jake from State Farm",
+        "aliases": [
+          "jake"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mr. Goodwrench",
+        "tier": 60
+      },
+      {
+        "text": "Reddy Kilowatt",
+        "tier": 60
+      },
+      {
+        "text": "Nipper",
+        "tier": 60
+      },
+      {
+        "text": "Sun-Maid girl",
+        "tier": 60
+      },
+      {
+        "text": "Land O'Lakes maiden",
+        "tier": 60
+      },
+      {
+        "text": "Swiss Miss",
+        "tier": 60
+      },
+      {
+        "text": "Hawaiian Punch Punchy",
+        "aliases": [
+          "punchy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Twinkie the Kid",
+        "tier": 60
+      },
+      {
+        "text": "Freakies",
+        "tier": 60
+      },
+      {
+        "text": "Red Baron",
+        "tier": 60
+      },
+      {
+        "text": "Speedy Alka-Seltzer",
+        "aliases": [
+          "speedy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mr. Zip",
+        "tier": 60
+      },
+      {
+        "text": "Sprout",
+        "aliases": [
+          "little green sprout"
+        ],
+        "tier": 60
       },
       {
         "text": "Flo",
@@ -6886,294 +7113,67 @@
         "tier": 30
       },
       {
-        "text": "Dig'em Frog",
+        "text": "Smokey Bear",
         "aliases": [
-          "dig em"
+          "smokey the bear"
         ],
-        "tier": 60
+        "tier": 15
       },
       {
-        "text": "Cornelius the Rooster",
+        "text": "McGruff the Crime Dog",
         "aliases": [
-          "cornelius"
+          "mcgruff"
         ],
-        "tier": 60
+        "tier": 15
       },
       {
-        "text": "Honey Nut Cheerios Bee",
+        "text": "Tony the Tiger",
         "aliases": [
-          "buzz the bee"
+          "tony"
         ],
-        "tier": 60
+        "tier": 10
       },
       {
-        "text": "Coco the Monkey",
-        "tier": 60
-      },
-      {
-        "text": "Sugar Bear",
-        "tier": 60
-      },
-      {
-        "text": "Fruit Brute",
-        "tier": 60
-      },
-      {
-        "text": "Yummy Mummy",
-        "tier": 60
-      },
-      {
-        "text": "Chip the Wolf",
-        "tier": 60
-      },
-      {
-        "text": "Cookie Crisp wolf",
+        "text": "Ronald McDonald",
         "aliases": [
-          "chip"
+          "ronald"
         ],
-        "tier": 60
+        "tier": 10
       },
       {
-        "text": "Woodsy Owl",
-        "tier": 60
-      },
-      {
-        "text": "Sparky the Fire Dog",
-        "tier": 60
-      },
-      {
-        "text": "Vlasic Stork",
-        "tier": 60
-      },
-      {
-        "text": "Tootsie Pop Owl",
+        "text": "Pillsbury Doughboy",
         "aliases": [
-          "mr owl"
+          "doughboy",
+          "poppin' fresh"
         ],
-        "tier": 60
+        "tier": 10
       },
       {
-        "text": "Charlie the Tuna",
-        "tier": 60
-      },
-      {
-        "text": "Nesquik Bunny",
+        "text": "Geico Gecko",
         "aliases": [
-          "quicky"
+          "gecko",
+          "the gecko"
         ],
-        "tier": 60
+        "tier": 10
       },
       {
-        "text": "Domino's Noid",
+        "text": "M&M's",
         "aliases": [
-          "noid"
+          "m&m characters",
+          "red and yellow"
         ],
-        "tier": 60
+        "tier": 10
       },
       {
-        "text": "Speedee",
-        "tier": 60
-      },
-      {
-        "text": "Mac Tonight",
-        "tier": 60
-      },
-      {
-        "text": "Fry Kids",
-        "tier": 60
-      },
-      {
-        "text": "Officer Big Mac",
-        "tier": 60
-      },
-      {
-        "text": "Mayor McCheese",
-        "tier": 60
-      },
-      {
-        "text": "Captain Crook",
-        "tier": 60
-      },
-      {
-        "text": "Little Miss Sunbeam",
-        "tier": 60
-      },
-      {
-        "text": "Brawny Man",
-        "tier": 60
-      },
-      {
-        "text": "Mr. Bubble",
-        "tier": 60
-      },
-      {
-        "text": "Scrubbing Bubbles",
-        "tier": 60
-      },
-      {
-        "text": "Tidy Bowl Man",
-        "tier": 60
-      },
-      {
-        "text": "Maytag Man",
+        "text": "Kool-Aid Man",
         "aliases": [
-          "maytag repairman"
+          "kool aid man"
         ],
-        "tier": 60
+        "tier": 10
       },
       {
-        "text": "Mr. Whipple",
-        "tier": 60
-      },
-      {
-        "text": "Madge",
-        "tier": 60
-      },
-      {
-        "text": "The Most Interesting Man in the World",
-        "tier": 60
-      },
-      {
-        "text": "Old Spice Guy",
-        "tier": 60
-      },
-      {
-        "text": "Jake from State Farm",
-        "aliases": [
-          "jake"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mr. Goodwrench",
-        "tier": 60
-      },
-      {
-        "text": "Reddy Kilowatt",
-        "tier": 60
-      },
-      {
-        "text": "Nipper",
-        "tier": 60
-      },
-      {
-        "text": "Sun-Maid girl",
-        "tier": 60
-      },
-      {
-        "text": "Land O'Lakes maiden",
-        "tier": 60
-      },
-      {
-        "text": "Swiss Miss",
-        "tier": 60
-      },
-      {
-        "text": "Hawaiian Punch Punchy",
-        "aliases": [
-          "punchy"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Twinkie the Kid",
-        "tier": 60
-      },
-      {
-        "text": "Freakies",
-        "tier": 60
-      },
-      {
-        "text": "Red Baron",
-        "tier": 60
-      },
-      {
-        "text": "Speedy Alka-Seltzer",
-        "aliases": [
-          "speedy"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mr. Zip",
-        "tier": 60
-      },
-      {
-        "text": "Sprout",
-        "aliases": [
-          "little green sprout"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sir Grapefellow",
-        "tier": 85
-      },
-      {
-        "text": "Baron von Redberry",
-        "tier": 85
-      },
-      {
-        "text": "King Vitaman",
-        "tier": 85
-      },
-      {
-        "text": "Quisp",
-        "tier": 85
-      },
-      {
-        "text": "Quake",
-        "tier": 85
-      },
-      {
-        "text": "Linus the Lionhearted",
-        "tier": 85
-      },
-      {
-        "text": "Sugar Pops Pete",
-        "tier": 85
-      },
-      {
-        "text": "Jean LaFoote",
-        "tier": 85
-      },
-      {
-        "text": "Crunchberry Beast",
-        "tier": 85
-      },
-      {
-        "text": "7 Up Spot",
-        "aliases": [
-          "cool spot"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Fido Dido",
-        "tier": 85
-      },
-      {
-        "text": "Coca-Cola polar bear",
-        "aliases": [
-          "polar bears"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pepsiman",
-        "tier": 85
-      },
-      {
-        "text": "Mikey",
-        "tier": 85
-      },
-      {
-        "text": "Smaxey",
-        "tier": 85
-      },
-      {
-        "text": "Sugar Smacks Seal",
-        "tier": 85
+        "text": "Energizer Bunny",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -7196,222 +7196,184 @@
         "tier": 100
       },
       {
-        "text": "Kermit the Frog",
-        "aliases": [
-          "kermit"
-        ],
-        "tier": 10
+        "text": "Shakey Sanchez",
+        "tier": 85
       },
       {
-        "text": "Miss Piggy",
-        "aliases": [
-          "piggy"
-        ],
-        "tier": 10
+        "text": "Gladys the Cow",
+        "tier": 85
       },
       {
-        "text": "Elmo",
-        "tier": 10
+        "text": "Bean Bunny",
+        "tier": 85
       },
       {
-        "text": "Big Bird",
-        "tier": 10
+        "text": "Andy and Randy Pig",
+        "tier": 85
       },
       {
-        "text": "Cookie Monster",
-        "tier": 10
+        "text": "Spamela Hamderson",
+        "tier": 85
       },
       {
-        "text": "Oscar the Grouch",
-        "aliases": [
-          "oscar"
-        ],
-        "tier": 10
+        "text": "Johnny Fiama",
+        "tier": 85
       },
       {
-        "text": "Bert",
-        "tier": 10
+        "text": "Seymour",
+        "tier": 85
       },
       {
-        "text": "Ernie",
-        "tier": 10
+        "text": "Bobby Benson",
+        "tier": 85
       },
       {
-        "text": "Mahna Mahna",
-        "tier": 15
+        "text": "Polly Lobster",
+        "tier": 85
       },
       {
-        "text": "Muppet Babies",
-        "tier": 15
+        "text": "Rhonda the Cow",
+        "tier": 85
       },
       {
-        "text": "Snuffleupagus",
-        "aliases": [
-          "snuffy",
-          "mr snuffleupagus"
-        ],
-        "tier": 15
+        "text": "Mr. Poodlepants",
+        "tier": 85
       },
       {
-        "text": "Grover",
-        "tier": 30
+        "text": "Afghan Hound",
+        "tier": 85
       },
       {
-        "text": "Fozzie Bear",
-        "aliases": [
-          "fozzie"
-        ],
-        "tier": 30
+        "text": "Behemoth",
+        "tier": 85
       },
       {
-        "text": "Gonzo",
-        "aliases": [
-          "gonzo the great"
-        ],
-        "tier": 30
+        "text": "Gorgon Heap",
+        "tier": 85
       },
       {
-        "text": "Animal",
-        "tier": 30
+        "text": "Big Mean Carl",
+        "tier": 85
       },
       {
-        "text": "Rowlf",
-        "aliases": [
-          "rowlf the dog"
-        ],
-        "tier": 30
+        "text": "Timmy Monster",
+        "tier": 85
       },
       {
-        "text": "Swedish Chef",
-        "tier": 30
+        "text": "Mean Mama",
+        "tier": 85
       },
       {
-        "text": "Statler",
-        "tier": 30
+        "text": "Doglion",
+        "tier": 85
       },
       {
-        "text": "Waldorf",
-        "tier": 30
+        "text": "Splurge",
+        "tier": 85
       },
       {
-        "text": "Scooter",
-        "tier": 30
+        "text": "Droop",
+        "tier": 85
       },
       {
-        "text": "Rizzo the Rat",
-        "aliases": [
-          "rizzo"
-        ],
-        "tier": 30
+        "text": "Masterson Rat",
+        "tier": 85
       },
       {
-        "text": "Pepe the King Prawn",
-        "aliases": [
-          "pepe"
-        ],
-        "tier": 30
+        "text": "Yorick",
+        "tier": 85
       },
       {
-        "text": "Sam the Eagle",
-        "aliases": [
-          "sam eagle"
-        ],
-        "tier": 30
+        "text": "Mildred Huxtetter",
+        "tier": 85
       },
       {
-        "text": "Dr. Bunsen Honeydew",
-        "aliases": [
-          "bunsen",
-          "bunsen honeydew"
-        ],
-        "tier": 30
+        "text": "Hilda",
+        "tier": 85
       },
       {
-        "text": "Dr. Teeth",
-        "tier": 30
+        "text": "George the Janitor",
+        "tier": 85
       },
       {
-        "text": "Janice",
-        "tier": 30
+        "text": "Marjory the Trash Heap",
+        "tier": 85
       },
       {
-        "text": "Floyd Pepper",
-        "aliases": [
-          "floyd"
-        ],
-        "tier": 30
+        "text": "Philo and Gunge",
+        "tier": 85
       },
       {
-        "text": "Zoot",
-        "tier": 30
+        "text": "Junior Gorg",
+        "tier": 85
       },
       {
-        "text": "The Count",
-        "aliases": [
-          "count von count"
-        ],
-        "tier": 30
+        "text": "Ma Gorg",
+        "tier": 85
       },
       {
-        "text": "Telly Monster",
-        "aliases": [
-          "telly"
-        ],
-        "tier": 30
+        "text": "Pa Gorg",
+        "tier": 85
       },
       {
-        "text": "Zoe",
-        "tier": 30
+        "text": "Cotterpin Doozer",
+        "tier": 85
       },
       {
-        "text": "Abby Cadabby",
-        "aliases": [
-          "abby"
-        ],
-        "tier": 30
+        "text": "Large Marvin Fraggle",
+        "tier": 85
       },
       {
-        "text": "Rosita",
-        "tier": 30
+        "text": "Storyteller Fraggle",
+        "tier": 85
       },
       {
-        "text": "Baby Bear",
-        "tier": 30
+        "text": "Convincing John",
+        "tier": 85
       },
       {
-        "text": "Prairie Dawn",
-        "tier": 30
+        "text": "Wizard of Odd",
+        "tier": 85
       },
       {
-        "text": "Herry Monster",
-        "tier": 30
+        "text": "Cantus",
+        "tier": 85
       },
       {
-        "text": "Guy Smiley",
-        "tier": 30
+        "text": "Ovejita",
+        "tier": 85
       },
       {
-        "text": "Two-Headed Monster",
-        "tier": 30
+        "text": "Chamki",
+        "tier": 85
       },
       {
-        "text": "Slimey the Worm",
-        "aliases": [
-          "slimey"
-        ],
-        "tier": 30
+        "text": "Kami",
+        "tier": 85
       },
       {
-        "text": "Murray Monster",
-        "tier": 30
+        "text": "Zari",
+        "tier": 85
       },
       {
-        "text": "Dorothy the goldfish",
-        "tier": 30
+        "text": "Khokha",
+        "tier": 85
       },
       {
-        "text": "Mr. Noodle",
-        "tier": 30
+        "text": "Galli Galli",
+        "tier": 85
+      },
+      {
+        "text": "Abelardo",
+        "tier": 85
+      },
+      {
+        "text": "Kippi Ben Kippod",
+        "tier": 85
+      },
+      {
+        "text": "Moishe Oofnik",
+        "tier": 85
       },
       {
         "text": "Mr. Hooper",
@@ -7689,184 +7651,222 @@
         "tier": 60
       },
       {
-        "text": "Shakey Sanchez",
-        "tier": 85
+        "text": "Grover",
+        "tier": 30
       },
       {
-        "text": "Gladys the Cow",
-        "tier": 85
+        "text": "Fozzie Bear",
+        "aliases": [
+          "fozzie"
+        ],
+        "tier": 30
       },
       {
-        "text": "Bean Bunny",
-        "tier": 85
+        "text": "Gonzo",
+        "aliases": [
+          "gonzo the great"
+        ],
+        "tier": 30
       },
       {
-        "text": "Andy and Randy Pig",
-        "tier": 85
+        "text": "Animal",
+        "tier": 30
       },
       {
-        "text": "Spamela Hamderson",
-        "tier": 85
+        "text": "Rowlf",
+        "aliases": [
+          "rowlf the dog"
+        ],
+        "tier": 30
       },
       {
-        "text": "Johnny Fiama",
-        "tier": 85
+        "text": "Swedish Chef",
+        "tier": 30
       },
       {
-        "text": "Seymour",
-        "tier": 85
+        "text": "Statler",
+        "tier": 30
       },
       {
-        "text": "Bobby Benson",
-        "tier": 85
+        "text": "Waldorf",
+        "tier": 30
       },
       {
-        "text": "Polly Lobster",
-        "tier": 85
+        "text": "Scooter",
+        "tier": 30
       },
       {
-        "text": "Rhonda the Cow",
-        "tier": 85
+        "text": "Rizzo the Rat",
+        "aliases": [
+          "rizzo"
+        ],
+        "tier": 30
       },
       {
-        "text": "Mr. Poodlepants",
-        "tier": 85
+        "text": "Pepe the King Prawn",
+        "aliases": [
+          "pepe"
+        ],
+        "tier": 30
       },
       {
-        "text": "Afghan Hound",
-        "tier": 85
+        "text": "Sam the Eagle",
+        "aliases": [
+          "sam eagle"
+        ],
+        "tier": 30
       },
       {
-        "text": "Behemoth",
-        "tier": 85
+        "text": "Dr. Bunsen Honeydew",
+        "aliases": [
+          "bunsen",
+          "bunsen honeydew"
+        ],
+        "tier": 30
       },
       {
-        "text": "Gorgon Heap",
-        "tier": 85
+        "text": "Dr. Teeth",
+        "tier": 30
       },
       {
-        "text": "Big Mean Carl",
-        "tier": 85
+        "text": "Janice",
+        "tier": 30
       },
       {
-        "text": "Timmy Monster",
-        "tier": 85
+        "text": "Floyd Pepper",
+        "aliases": [
+          "floyd"
+        ],
+        "tier": 30
       },
       {
-        "text": "Mean Mama",
-        "tier": 85
+        "text": "Zoot",
+        "tier": 30
       },
       {
-        "text": "Doglion",
-        "tier": 85
+        "text": "The Count",
+        "aliases": [
+          "count von count"
+        ],
+        "tier": 30
       },
       {
-        "text": "Splurge",
-        "tier": 85
+        "text": "Telly Monster",
+        "aliases": [
+          "telly"
+        ],
+        "tier": 30
       },
       {
-        "text": "Droop",
-        "tier": 85
+        "text": "Zoe",
+        "tier": 30
       },
       {
-        "text": "Masterson Rat",
-        "tier": 85
+        "text": "Abby Cadabby",
+        "aliases": [
+          "abby"
+        ],
+        "tier": 30
       },
       {
-        "text": "Yorick",
-        "tier": 85
+        "text": "Rosita",
+        "tier": 30
       },
       {
-        "text": "Mildred Huxtetter",
-        "tier": 85
+        "text": "Baby Bear",
+        "tier": 30
       },
       {
-        "text": "Hilda",
-        "tier": 85
+        "text": "Prairie Dawn",
+        "tier": 30
       },
       {
-        "text": "George the Janitor",
-        "tier": 85
+        "text": "Herry Monster",
+        "tier": 30
       },
       {
-        "text": "Marjory the Trash Heap",
-        "tier": 85
+        "text": "Guy Smiley",
+        "tier": 30
       },
       {
-        "text": "Philo and Gunge",
-        "tier": 85
+        "text": "Two-Headed Monster",
+        "tier": 30
       },
       {
-        "text": "Junior Gorg",
-        "tier": 85
+        "text": "Slimey the Worm",
+        "aliases": [
+          "slimey"
+        ],
+        "tier": 30
       },
       {
-        "text": "Ma Gorg",
-        "tier": 85
+        "text": "Murray Monster",
+        "tier": 30
       },
       {
-        "text": "Pa Gorg",
-        "tier": 85
+        "text": "Dorothy the goldfish",
+        "tier": 30
       },
       {
-        "text": "Cotterpin Doozer",
-        "tier": 85
+        "text": "Mr. Noodle",
+        "tier": 30
       },
       {
-        "text": "Large Marvin Fraggle",
-        "tier": 85
+        "text": "Mahna Mahna",
+        "tier": 15
       },
       {
-        "text": "Storyteller Fraggle",
-        "tier": 85
+        "text": "Muppet Babies",
+        "tier": 15
       },
       {
-        "text": "Convincing John",
-        "tier": 85
+        "text": "Snuffleupagus",
+        "aliases": [
+          "snuffy",
+          "mr snuffleupagus"
+        ],
+        "tier": 15
       },
       {
-        "text": "Wizard of Odd",
-        "tier": 85
+        "text": "Kermit the Frog",
+        "aliases": [
+          "kermit"
+        ],
+        "tier": 10
       },
       {
-        "text": "Cantus",
-        "tier": 85
+        "text": "Miss Piggy",
+        "aliases": [
+          "piggy"
+        ],
+        "tier": 10
       },
       {
-        "text": "Ovejita",
-        "tier": 85
+        "text": "Elmo",
+        "tier": 10
       },
       {
-        "text": "Chamki",
-        "tier": 85
+        "text": "Big Bird",
+        "tier": 10
       },
       {
-        "text": "Kami",
-        "tier": 85
+        "text": "Cookie Monster",
+        "tier": 10
       },
       {
-        "text": "Zari",
-        "tier": 85
+        "text": "Oscar the Grouch",
+        "aliases": [
+          "oscar"
+        ],
+        "tier": 10
       },
       {
-        "text": "Khokha",
-        "tier": 85
+        "text": "Bert",
+        "tier": 10
       },
       {
-        "text": "Galli Galli",
-        "tier": 85
-      },
-      {
-        "text": "Abelardo",
-        "tier": 85
-      },
-      {
-        "text": "Kippi Ben Kippod",
-        "tier": 85
-      },
-      {
-        "text": "Moishe Oofnik",
-        "tier": 85
+        "text": "Ernie",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -7889,280 +7889,231 @@
         "tier": 100
       },
       {
-        "text": "Box",
-        "tier": 10
+        "text": "Pithos",
+        "tier": 85
       },
       {
-        "text": "Jar",
-        "tier": 10
+        "text": "Krater",
+        "tier": 85
       },
       {
-        "text": "Bottle",
-        "tier": 10
+        "text": "Hydria",
+        "tier": 85
       },
       {
-        "text": "Bag",
-        "tier": 10
+        "text": "Kylix",
+        "tier": 85
       },
       {
-        "text": "Bucket",
+        "text": "Lekythos",
+        "tier": 85
+      },
+      {
+        "text": "Oinochoe",
+        "tier": 85
+      },
+      {
+        "text": "Alabastron",
+        "tier": 85
+      },
+      {
+        "text": "Canopic jar",
+        "tier": 85
+      },
+      {
+        "text": "Cinerary urn",
+        "tier": 85
+      },
+      {
+        "text": "Situla",
+        "tier": 85
+      },
+      {
+        "text": "Ciborium",
+        "tier": 85
+      },
+      {
+        "text": "Pyx",
+        "tier": 85
+      },
+      {
+        "text": "Monstrance",
+        "tier": 85
+      },
+      {
+        "text": "Thurible",
+        "tier": 85
+      },
+      {
+        "text": "Censer",
+        "tier": 85
+      },
+      {
+        "text": "Aspergillum",
+        "tier": 85
+      },
+      {
+        "text": "Font",
+        "tier": 85
+      },
+      {
+        "text": "Stoup",
+        "tier": 85
+      },
+      {
+        "text": "Cruet",
+        "tier": 85
+      },
+      {
+        "text": "Lota",
+        "tier": 85
+      },
+      {
+        "text": "Matka",
+        "tier": 85
+      },
+      {
+        "text": "Surahi",
+        "tier": 85
+      },
+      {
+        "text": "Tiffin",
+        "tier": 85
+      },
+      {
+        "text": "Dabba",
+        "tier": 85
+      },
+      {
+        "text": "Bota bag",
+        "tier": 85
+      },
+      {
+        "text": "Costrel",
+        "tier": 85
+      },
+      {
+        "text": "Firkin",
+        "tier": 85
+      },
+      {
+        "text": "Kilderkin",
+        "tier": 85
+      },
+      {
+        "text": "Puncheon",
+        "tier": 85
+      },
+      {
+        "text": "Tun",
+        "tier": 85
+      },
+      {
+        "text": "Rundlet",
+        "tier": 85
+      },
+      {
+        "text": "Tierce",
+        "tier": 85
+      },
+      {
+        "text": "Gill pot",
+        "tier": 85
+      },
+      {
+        "text": "Noggin",
+        "tier": 85
+      },
+      {
+        "text": "Piggin",
+        "tier": 85
+      },
+      {
+        "text": "Caddy",
         "aliases": [
-          "pail"
+          "tea caddy"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Cup",
-        "tier": 10
+        "text": "Humidor",
+        "tier": 85
       },
       {
-        "text": "Bowl",
-        "tier": 10
+        "text": "Snuffbox",
+        "tier": 85
       },
       {
-        "text": "Can",
-        "tier": 10
+        "text": "Pillbox",
+        "tier": 85
       },
       {
-        "text": "Pandora's box",
-        "tier": 15
+        "text": "Etui",
+        "tier": 85
       },
       {
-        "text": "Shipping container",
-        "tier": 15
+        "text": "Reticule",
+        "tier": 85
       },
       {
-        "text": "Stomach",
-        "tier": 15
+        "text": "Chatelaine",
+        "tier": 85
       },
       {
-        "text": "Basket",
-        "tier": 30
+        "text": "Sporran",
+        "tier": 85
       },
       {
-        "text": "Crate",
-        "tier": 30
+        "text": "Dilly bag",
+        "tier": 85
       },
       {
-        "text": "Barrel",
-        "tier": 30
+        "text": "Bilum",
+        "tier": 85
       },
       {
-        "text": "Bin",
-        "tier": 30
+        "text": "Furoshiki",
+        "tier": 85
       },
       {
-        "text": "Tub",
-        "tier": 30
+        "text": "Bindle",
+        "tier": 85
       },
       {
-        "text": "Tupperware",
-        "tier": 30
+        "text": "Hobo bag",
+        "tier": 85
       },
       {
-        "text": "Mug",
-        "tier": 30
+        "text": "Haversack",
+        "tier": 85
       },
       {
-        "text": "Glass",
-        "tier": 30
+        "text": "Sabretache",
+        "tier": 85
       },
       {
-        "text": "Vase",
-        "tier": 30
+        "text": "Bandolier",
+        "tier": 85
       },
       {
-        "text": "Pot",
-        "tier": 30
+        "text": "Creel",
+        "tier": 85
       },
       {
-        "text": "Jug",
-        "tier": 30
+        "text": "Pannikin",
+        "tier": 85
       },
       {
-        "text": "Pitcher",
-        "tier": 30
+        "text": "Billycan",
+        "tier": 85
       },
       {
-        "text": "Carton",
-        "tier": 30
+        "text": "Dixie",
+        "tier": 85
       },
       {
-        "text": "Envelope",
-        "tier": 30
-      },
-      {
-        "text": "Backpack",
-        "tier": 30
-      },
-      {
-        "text": "Suitcase",
-        "tier": 30
-      },
-      {
-        "text": "Purse",
-        "tier": 30
-      },
-      {
-        "text": "Wallet",
-        "tier": 30
-      },
-      {
-        "text": "Lunchbox",
-        "aliases": [
-          "lunch box"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cooler",
-        "tier": 30
-      },
-      {
-        "text": "Thermos",
-        "tier": 30
-      },
-      {
-        "text": "Canteen",
-        "tier": 30
-      },
-      {
-        "text": "Flask",
-        "tier": 30
-      },
-      {
-        "text": "Trash can",
-        "aliases": [
-          "garbage can"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Recycling bin",
-        "tier": 30
-      },
-      {
-        "text": "Laundry basket",
-        "aliases": [
-          "hamper"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Toolbox",
-        "tier": 30
-      },
-      {
-        "text": "Tackle box",
-        "tier": 30
-      },
-      {
-        "text": "Jewelry box",
-        "tier": 30
-      },
-      {
-        "text": "Treasure chest",
-        "aliases": [
-          "chest"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Trunk",
-        "tier": 30
-      },
-      {
-        "text": "Drawer",
-        "tier": 30
-      },
-      {
-        "text": "Cabinet",
-        "tier": 30
-      },
-      {
-        "text": "Safe",
-        "tier": 30
-      },
-      {
-        "text": "Locker",
-        "tier": 30
-      },
-      {
-        "text": "Mailbox",
-        "tier": 30
-      },
-      {
-        "text": "Piggy bank",
-        "tier": 30
-      },
-      {
-        "text": "Cookie jar",
-        "tier": 30
-      },
-      {
-        "text": "Mason jar",
-        "tier": 30
-      },
-      {
-        "text": "Water bottle",
-        "tier": 30
-      },
-      {
-        "text": "Ziploc bag",
-        "aliases": [
-          "ziplock",
-          "plastic bag"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Paper bag",
-        "tier": 30
-      },
-      {
-        "text": "Grocery bag",
-        "tier": 30
-      },
-      {
-        "text": "Tote bag",
-        "aliases": [
-          "tote"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Duffel bag",
-        "tier": 30
-      },
-      {
-        "text": "Tank",
-        "tier": 30
-      },
-      {
-        "text": "Silo",
-        "tier": 30
-      },
-      {
-        "text": "Dumpster",
-        "tier": 30
-      },
-      {
-        "text": "Coffin",
-        "aliases": [
-          "casket"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Urn",
-        "tier": 30
-      },
-      {
-        "text": "Aquarium",
-        "aliases": [
-          "fish tank"
-        ],
-        "tier": 30
+        "text": "Mess tin",
+        "tier": 85
       },
       {
         "text": "Canister",
@@ -8617,231 +8568,280 @@
         "tier": 60
       },
       {
-        "text": "Pithos",
-        "tier": 85
+        "text": "Basket",
+        "tier": 30
       },
       {
-        "text": "Krater",
-        "tier": 85
+        "text": "Crate",
+        "tier": 30
       },
       {
-        "text": "Hydria",
-        "tier": 85
+        "text": "Barrel",
+        "tier": 30
       },
       {
-        "text": "Kylix",
-        "tier": 85
+        "text": "Bin",
+        "tier": 30
       },
       {
-        "text": "Lekythos",
-        "tier": 85
+        "text": "Tub",
+        "tier": 30
       },
       {
-        "text": "Oinochoe",
-        "tier": 85
+        "text": "Tupperware",
+        "tier": 30
       },
       {
-        "text": "Alabastron",
-        "tier": 85
+        "text": "Mug",
+        "tier": 30
       },
       {
-        "text": "Canopic jar",
-        "tier": 85
+        "text": "Glass",
+        "tier": 30
       },
       {
-        "text": "Cinerary urn",
-        "tier": 85
+        "text": "Vase",
+        "tier": 30
       },
       {
-        "text": "Situla",
-        "tier": 85
+        "text": "Pot",
+        "tier": 30
       },
       {
-        "text": "Ciborium",
-        "tier": 85
+        "text": "Jug",
+        "tier": 30
       },
       {
-        "text": "Pyx",
-        "tier": 85
+        "text": "Pitcher",
+        "tier": 30
       },
       {
-        "text": "Monstrance",
-        "tier": 85
+        "text": "Carton",
+        "tier": 30
       },
       {
-        "text": "Thurible",
-        "tier": 85
+        "text": "Envelope",
+        "tier": 30
       },
       {
-        "text": "Censer",
-        "tier": 85
+        "text": "Backpack",
+        "tier": 30
       },
       {
-        "text": "Aspergillum",
-        "tier": 85
+        "text": "Suitcase",
+        "tier": 30
       },
       {
-        "text": "Font",
-        "tier": 85
+        "text": "Purse",
+        "tier": 30
       },
       {
-        "text": "Stoup",
-        "tier": 85
+        "text": "Wallet",
+        "tier": 30
       },
       {
-        "text": "Cruet",
-        "tier": 85
-      },
-      {
-        "text": "Lota",
-        "tier": 85
-      },
-      {
-        "text": "Matka",
-        "tier": 85
-      },
-      {
-        "text": "Surahi",
-        "tier": 85
-      },
-      {
-        "text": "Tiffin",
-        "tier": 85
-      },
-      {
-        "text": "Dabba",
-        "tier": 85
-      },
-      {
-        "text": "Bota bag",
-        "tier": 85
-      },
-      {
-        "text": "Costrel",
-        "tier": 85
-      },
-      {
-        "text": "Firkin",
-        "tier": 85
-      },
-      {
-        "text": "Kilderkin",
-        "tier": 85
-      },
-      {
-        "text": "Puncheon",
-        "tier": 85
-      },
-      {
-        "text": "Tun",
-        "tier": 85
-      },
-      {
-        "text": "Rundlet",
-        "tier": 85
-      },
-      {
-        "text": "Tierce",
-        "tier": 85
-      },
-      {
-        "text": "Gill pot",
-        "tier": 85
-      },
-      {
-        "text": "Noggin",
-        "tier": 85
-      },
-      {
-        "text": "Piggin",
-        "tier": 85
-      },
-      {
-        "text": "Caddy",
+        "text": "Lunchbox",
         "aliases": [
-          "tea caddy"
+          "lunch box"
         ],
-        "tier": 85
+        "tier": 30
       },
       {
-        "text": "Humidor",
-        "tier": 85
+        "text": "Cooler",
+        "tier": 30
       },
       {
-        "text": "Snuffbox",
-        "tier": 85
+        "text": "Thermos",
+        "tier": 30
       },
       {
-        "text": "Pillbox",
-        "tier": 85
+        "text": "Canteen",
+        "tier": 30
       },
       {
-        "text": "Etui",
-        "tier": 85
+        "text": "Flask",
+        "tier": 30
       },
       {
-        "text": "Reticule",
-        "tier": 85
+        "text": "Trash can",
+        "aliases": [
+          "garbage can"
+        ],
+        "tier": 30
       },
       {
-        "text": "Chatelaine",
-        "tier": 85
+        "text": "Recycling bin",
+        "tier": 30
       },
       {
-        "text": "Sporran",
-        "tier": 85
+        "text": "Laundry basket",
+        "aliases": [
+          "hamper"
+        ],
+        "tier": 30
       },
       {
-        "text": "Dilly bag",
-        "tier": 85
+        "text": "Toolbox",
+        "tier": 30
       },
       {
-        "text": "Bilum",
-        "tier": 85
+        "text": "Tackle box",
+        "tier": 30
       },
       {
-        "text": "Furoshiki",
-        "tier": 85
+        "text": "Jewelry box",
+        "tier": 30
       },
       {
-        "text": "Bindle",
-        "tier": 85
+        "text": "Treasure chest",
+        "aliases": [
+          "chest"
+        ],
+        "tier": 30
       },
       {
-        "text": "Hobo bag",
-        "tier": 85
+        "text": "Trunk",
+        "tier": 30
       },
       {
-        "text": "Haversack",
-        "tier": 85
+        "text": "Drawer",
+        "tier": 30
       },
       {
-        "text": "Sabretache",
-        "tier": 85
+        "text": "Cabinet",
+        "tier": 30
       },
       {
-        "text": "Bandolier",
-        "tier": 85
+        "text": "Safe",
+        "tier": 30
       },
       {
-        "text": "Creel",
-        "tier": 85
+        "text": "Locker",
+        "tier": 30
       },
       {
-        "text": "Pannikin",
-        "tier": 85
+        "text": "Mailbox",
+        "tier": 30
       },
       {
-        "text": "Billycan",
-        "tier": 85
+        "text": "Piggy bank",
+        "tier": 30
       },
       {
-        "text": "Dixie",
-        "tier": 85
+        "text": "Cookie jar",
+        "tier": 30
       },
       {
-        "text": "Mess tin",
-        "tier": 85
+        "text": "Mason jar",
+        "tier": 30
+      },
+      {
+        "text": "Water bottle",
+        "tier": 30
+      },
+      {
+        "text": "Ziploc bag",
+        "aliases": [
+          "ziplock",
+          "plastic bag"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Paper bag",
+        "tier": 30
+      },
+      {
+        "text": "Grocery bag",
+        "tier": 30
+      },
+      {
+        "text": "Tote bag",
+        "aliases": [
+          "tote"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Duffel bag",
+        "tier": 30
+      },
+      {
+        "text": "Tank",
+        "tier": 30
+      },
+      {
+        "text": "Silo",
+        "tier": 30
+      },
+      {
+        "text": "Dumpster",
+        "tier": 30
+      },
+      {
+        "text": "Coffin",
+        "aliases": [
+          "casket"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Urn",
+        "tier": 30
+      },
+      {
+        "text": "Aquarium",
+        "aliases": [
+          "fish tank"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pandora's box",
+        "tier": 15
+      },
+      {
+        "text": "Shipping container",
+        "tier": 15
+      },
+      {
+        "text": "Stomach",
+        "tier": 15
+      },
+      {
+        "text": "Box",
+        "tier": 10
+      },
+      {
+        "text": "Jar",
+        "tier": 10
+      },
+      {
+        "text": "Bottle",
+        "tier": 10
+      },
+      {
+        "text": "Bag",
+        "tier": 10
+      },
+      {
+        "text": "Bucket",
+        "aliases": [
+          "pail"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Cup",
+        "tier": 10
+      },
+      {
+        "text": "Bowl",
+        "tier": 10
+      },
+      {
+        "text": "Can",
+        "tier": 10
       }
     ],
     "nearMisses": [

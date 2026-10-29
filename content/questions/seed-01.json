@@ -2413,6 +2413,37 @@
         "tier": 85
       },
       {
+        "text": "Rutherfordium",
+        "tier": 85
+      },
+      {
+        "text": "Dubnium",
+        "tier": 85
+      },
+      {
+        "text": "Hassium",
+        "tier": 85
+      },
+      {
+        "text": "Meitnerium",
+        "tier": 85
+      },
+      {
+        "text": "Roentgenium",
+        "aliases": [
+          "rontgenium"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Flerovium",
+        "tier": 85
+      },
+      {
+        "text": "Livermorium",
+        "tier": 85
+      },
+      {
         "text": "Promethium",
         "tier": 60
       },
@@ -3847,431 +3878,482 @@
   },
   {
     "id": "q0010",
-    "prompt": "Name an animal that lives in the ocean",
+    "prompt": "Name a marine mammal (like a whale or seal)",
     "category": "animals",
     "status": "reserve",
     "answers": [
       {
-        "text": "Vampire squid",
+        "text": "Vaquita",
         "tier": 100
       },
       {
-        "text": "Nudibranch",
+        "text": "Cuvier's beaked whale",
         "aliases": [
-          "sea slug"
+          "cuviers beaked whale",
+          "goose-beaked whale"
         ],
         "tier": 85
       },
       {
-        "text": "Narwhal",
+        "text": "Baird's beaked whale",
         "aliases": [
-          "narwal"
+          "bairds beaked whale"
         ],
         "tier": 85
       },
       {
-        "text": "Dugong",
-        "tier": 85
-      },
-      {
-        "text": "Anglerfish",
+        "text": "Blainville's beaked whale",
         "aliases": [
-          "angler fish"
+          "blainvilles beaked whale"
         ],
         "tier": 85
       },
       {
-        "text": "Sea cucumber",
-        "tier": 85
-      },
-      {
-        "text": "Sea urchin",
+        "text": "Sowerby's beaked whale",
         "aliases": [
-          "urchin"
+          "sowerbys beaked whale"
         ],
         "tier": 85
       },
       {
-        "text": "Barracuda",
+        "text": "Spade-toothed whale",
         "tier": 85
       },
       {
-        "text": "Moray eel",
+        "text": "Strap-toothed whale",
+        "tier": 85
+      },
+      {
+        "text": "Northern bottlenose whale",
         "aliases": [
-          "moray"
+          "bottlenose whale"
         ],
         "tier": 85
       },
       {
-        "text": "Coelacanth",
+        "text": "Beaked whale",
         "tier": 85
       },
       {
-        "text": "Oarfish",
+        "text": "Pygmy right whale",
         "tier": 85
       },
       {
-        "text": "Sunfish",
+        "text": "Pygmy sperm whale",
+        "tier": 85
+      },
+      {
+        "text": "Dwarf sperm whale",
+        "tier": 85
+      },
+      {
+        "text": "Pygmy killer whale",
+        "tier": 85
+      },
+      {
+        "text": "Melon-headed whale",
+        "tier": 85
+      },
+      {
+        "text": "False killer whale",
+        "tier": 85
+      },
+      {
+        "text": "Rice's whale",
         "aliases": [
-          "mola mola",
-          "ocean sunfish"
+          "rices whale"
         ],
         "tier": 85
       },
       {
-        "text": "Hammerhead shark",
+        "text": "Omura's whale",
         "aliases": [
-          "hammerhead"
+          "omuras whale"
         ],
         "tier": 85
       },
       {
-        "text": "Lionfish",
-        "tier": 85
-      },
-      {
-        "text": "Cuttlefish",
+        "text": "Bryde's whale",
         "aliases": [
-          "cuttle fish"
+          "brydes whale"
         ],
         "tier": 85
       },
       {
-        "text": "Mantis shrimp",
+        "text": "Sei whale",
         "tier": 85
       },
       {
-        "text": "Hagfish",
-        "tier": 85
-      },
-      {
-        "text": "Sea pen",
-        "tier": 85
-      },
-      {
-        "text": "Blobfish",
-        "tier": 85
-      },
-      {
-        "text": "Sea anemone",
+        "text": "Hector's dolphin",
         "aliases": [
-          "anemone"
+          "hectors dolphin"
         ],
         "tier": 85
       },
       {
-        "text": "Sea sponge",
+        "text": "Maui dolphin",
+        "tier": 85
+      },
+      {
+        "text": "Commerson's dolphin",
         "aliases": [
-          "sponge"
+          "commersons dolphin"
         ],
         "tier": 85
       },
       {
-        "text": "Goblin shark",
+        "text": "Hourglass dolphin",
         "tier": 85
       },
       {
-        "text": "Whale shark",
-        "tier": 85
-      },
-      {
-        "text": "Basking shark",
-        "tier": 85
-      },
-      {
-        "text": "Sea dragon",
+        "text": "Fraser's dolphin",
         "aliases": [
-          "leafy sea dragon"
+          "frasers dolphin"
         ],
         "tier": 85
       },
       {
-        "text": "Pipefish",
+        "text": "Rough-toothed dolphin",
         "tier": 85
       },
       {
-        "text": "Triggerfish",
+        "text": "Clymene dolphin",
         "tier": 85
       },
       {
-        "text": "Parrotfish",
+        "text": "Irrawaddy dolphin",
+        "tier": 85
+      },
+      {
+        "text": "Snubfin dolphin",
         "aliases": [
-          "parrot fish"
+          "australian snubfin dolphin"
         ],
         "tier": 85
       },
       {
-        "text": "Grouper",
+        "text": "Humpback dolphin",
         "tier": 85
       },
       {
-        "text": "Halibut",
+        "text": "Right whale dolphin",
+        "aliases": [
+          "northern right whale dolphin",
+          "southern right whale dolphin"
+        ],
         "tier": 85
       },
       {
-        "text": "Flounder",
+        "text": "Heaviside's dolphin",
+        "aliases": [
+          "heavisides dolphin"
+        ],
         "tier": 85
       },
       {
-        "text": "Sardine",
+        "text": "Chilean dolphin",
         "tier": 85
       },
       {
-        "text": "Anchovy",
+        "text": "Peale's dolphin",
+        "aliases": [
+          "peales dolphin"
+        ],
         "tier": 85
       },
       {
-        "text": "Mackerel",
+        "text": "Tucuxi",
         "tier": 85
       },
       {
-        "text": "Herring",
+        "text": "Guiana dolphin",
         "tier": 85
       },
       {
-        "text": "Cod",
+        "text": "Dall's porpoise",
+        "aliases": [
+          "dalls porpoise"
+        ],
         "tier": 85
       },
       {
-        "text": "Tuna",
+        "text": "Finless porpoise",
         "tier": 85
       },
       {
-        "text": "Marlin",
+        "text": "Burmeister's porpoise",
+        "aliases": [
+          "burmeisters porpoise"
+        ],
         "tier": 85
       },
       {
-        "text": "Swordfish",
+        "text": "Spectacled porpoise",
         "tier": 85
       },
       {
-        "text": "Sea lion",
+        "text": "Ribbon seal",
         "tier": 85
+      },
+      {
+        "text": "Ross seal",
+        "tier": 85
+      },
+      {
+        "text": "Crabeater seal",
+        "tier": 85
+      },
+      {
+        "text": "Weddell seal",
+        "aliases": [
+          "wedell seal"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bearded seal",
+        "tier": 85
+      },
+      {
+        "text": "Ringed seal",
+        "tier": 85
+      },
+      {
+        "text": "Spotted seal",
+        "aliases": [
+          "largha seal"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hooded seal",
+        "tier": 85
+      },
+      {
+        "text": "Caspian seal",
+        "tier": 85
+      },
+      {
+        "text": "Monk seal",
+        "aliases": [
+          "hawaiian monk seal",
+          "mediterranean monk seal"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Steller's sea cow",
+        "aliases": [
+          "stellers sea cow"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Marine otter",
+        "tier": 85
+      },
+      {
+        "text": "Steller sea lion",
+        "aliases": [
+          "stellers sea lion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fin whale",
+        "aliases": [
+          "finback whale",
+          "finback"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gray whale",
+        "aliases": [
+          "grey whale"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bowhead whale",
+        "aliases": [
+          "bowhead"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Right whale",
+        "aliases": [
+          "north atlantic right whale",
+          "southern right whale",
+          "north pacific right whale"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Minke whale",
+        "aliases": [
+          "minke"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pilot whale",
+        "aliases": [
+          "long-finned pilot whale",
+          "short-finned pilot whale"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Risso's dolphin",
+        "aliases": [
+          "rissos dolphin",
+          "grampus"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Spinner dolphin",
+        "tier": 60
+      },
+      {
+        "text": "Spotted dolphin",
+        "aliases": [
+          "atlantic spotted dolphin",
+          "pantropical spotted dolphin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Striped dolphin",
+        "tier": 60
+      },
+      {
+        "text": "Common dolphin",
+        "aliases": [
+          "short-beaked common dolphin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dusky dolphin",
+        "tier": 60
+      },
+      {
+        "text": "White-sided dolphin",
+        "aliases": [
+          "atlantic white-sided dolphin",
+          "pacific white-sided dolphin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "White-beaked dolphin",
+        "tier": 60
+      },
+      {
+        "text": "Harbor porpoise",
+        "aliases": [
+          "harbour porpoise"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Harp seal",
+        "tier": 60
+      },
+      {
+        "text": "Gray seal",
+        "aliases": [
+          "grey seal"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Leopard seal",
+        "tier": 60
+      },
+      {
+        "text": "Fur seal",
+        "aliases": [
+          "northern fur seal",
+          "antarctic fur seal",
+          "cape fur seal"
+        ],
+        "tier": 60
       },
       {
         "text": "Elephant seal",
-        "tier": 85
-      },
-      {
-        "text": "Leatherback",
         "aliases": [
-          "leatherback turtle"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Hermit crab",
-        "tier": 85
-      },
-      {
-        "text": "King crab",
-        "tier": 85
-      },
-      {
-        "text": "Box jellyfish",
-        "tier": 85
-      },
-      {
-        "text": "Portuguese man o' war",
-        "aliases": [
-          "man o war"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Giant squid",
-        "tier": 85
-      },
-      {
-        "text": "Colossal squid",
-        "tier": 85
-      },
-      {
-        "text": "Sea otter",
-        "tier": 60
-      },
-      {
-        "text": "Manta ray",
-        "aliases": [
-          "manta"
+          "northern elephant seal",
+          "southern elephant seal"
         ],
         "tier": 60
       },
       {
-        "text": "Barnacle",
-        "tier": 60
-      },
-      {
-        "text": "Mussel",
-        "tier": 60
-      },
-      {
-        "text": "Pufferfish",
+        "text": "Harbor seal",
         "aliases": [
-          "puffer fish",
-          "blowfish"
+          "harbour seal",
+          "common seal"
         ],
         "tier": 60
       },
       {
-        "text": "Beluga",
-        "aliases": [
-          "beluga whale"
-        ],
+        "text": "California sea lion",
         "tier": 60
       },
       {
-        "text": "Clownfish",
-        "aliases": [
-          "clown fish"
-        ],
+        "text": "Dugong",
         "tier": 60
       },
       {
         "text": "Blue whale",
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Humpback whale",
         "aliases": [
           "humpback"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Sperm whale",
-        "tier": 60
-      },
-      {
-        "text": "Scallop",
-        "tier": 60
-      },
-      {
-        "text": "Sea snail",
         "aliases": [
-          "snail"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Eel",
-        "tier": 60
-      },
-      {
-        "text": "Stingray",
-        "aliases": [
-          "sting ray"
+          "cachalot"
         ],
         "tier": 30
       },
       {
-        "text": "Walrus",
-        "tier": 30
-      },
-      {
-        "text": "Manatee",
-        "tier": 30
-      },
-      {
-        "text": "Great white shark",
+        "text": "Bottlenose dolphin",
         "aliases": [
-          "great white"
+          "bottle nose dolphin"
         ],
         "tier": 30
       },
       {
-        "text": "Oyster",
+        "text": "Porpoise",
         "tier": 30
       },
       {
-        "text": "Clam",
-        "tier": 30
-      },
-      {
-        "text": "Seahorse",
+        "text": "Narwhal",
         "aliases": [
-          "sea horse"
+          "narwal"
         ],
         "tier": 30
       },
       {
-        "text": "Orca",
+        "text": "Beluga",
         "aliases": [
-          "killer whale"
+          "beluga whale",
+          "white whale"
         ],
         "tier": 30
       },
       {
-        "text": "Sea turtle",
-        "aliases": [
-          "turtle"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Squid",
-        "tier": 30
-      },
-      {
-        "text": "Crab",
-        "tier": 30
-      },
-      {
-        "text": "Lobster",
-        "tier": 30
-      },
-      {
-        "text": "Shrimp",
-        "aliases": [
-          "prawn"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Seal",
-        "tier": 30
-      },
-      {
-        "text": "Starfish",
-        "aliases": [
-          "sea star"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Penguin",
-        "tier": 30
-      },
-      {
-        "text": "Coral",
+        "text": "Polar bear",
         "tier": 15
-      },
-      {
-        "text": "Krill",
-        "tier": 15
-      },
-      {
-        "text": "Plankton",
-        "tier": 15
-      },
-      {
-        "text": "Jellyfish",
-        "aliases": [
-          "jelly fish"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Octopus",
-        "aliases": [
-          "octopi",
-          "octopuses"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Shark",
-        "tier": 10
       },
       {
         "text": "Whale",
@@ -4282,21 +4364,58 @@
         "tier": 10
       },
       {
-        "text": "Fish",
+        "text": "Seal",
+        "tier": 10
+      },
+      {
+        "text": "Sea lion",
+        "tier": 10
+      },
+      {
+        "text": "Walrus",
+        "tier": 10
+      },
+      {
+        "text": "Manatee",
+        "aliases": [
+          "sea cow"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Orca",
+        "aliases": [
+          "killer whale"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sea otter",
+        "aliases": [
+          "otter"
+        ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "SpongeBob",
-      "Frog",
+      "Shark",
+      "Octopus",
+      "Squid",
+      "Penguin",
+      "Jellyfish",
+      "Crab",
+      "Lobster",
+      "Starfish",
+      "Sea turtle",
+      "Fish",
       "Hippo",
-      "Crocodile",
-      "Alligator",
       "Beaver",
-      "Duck",
-      "Nemo",
+      "Platypus",
+      "Crocodile",
       "Mermaid",
-      "Kraken"
-    ]
+      "Amazon river dolphin",
+      "Baikal seal"
+    ],
+    "notes": "Mammals that live in the sea: whales, dolphins, porpoises, seals, sea lions, walruses, manatees, dugongs, sea otters and polar bears. River-only species don't count."
   }
 ]

@@ -8,7 +8,11 @@ export const APP_NAME = "Fathom";
 /** The Daily set resets at midnight in this time zone (DST is handled automatically). */
 export const DAILY_RESET_TZ = "America/Denver";
 
-/** Daily #1 is this date (in DAILY_RESET_TZ). Used to number each Daily for share cards. */
+/**
+ * Fallback for Daily numbering. The live site numbers Dailies from the first
+ * day it actually served one (its launch day is #1); this date is only used
+ * before any Daily exists.
+ */
 export const DAILY_EPOCH_DATE = "2026-10-01";
 
 export const QUESTIONS_PER_DAY = 7;

@@ -7,40 +7,31 @@ prompt: Name a US president or vice president
 [One in a Krillion]
 Millard Fillmore | fillmore
 
-[Plankton]
-George Washington | washington
-Abraham Lincoln | lincoln | abe lincoln
-Barack Obama | obama
-Donald Trump | trump
-Joe Biden | biden
-John F. Kennedy | jfk | kennedy | john kennedy
-Thomas Jefferson | jefferson
-Ronald Reagan | reagan
-
-[Too Clever]
-Kamala Harris | harris
-Mike Pence | pence
-Dick Cheney | cheney
-
-[Schooler]
-Franklin D. Roosevelt | fdr | franklin roosevelt | roosevelt
-Theodore Roosevelt | teddy roosevelt | teddy
-George W. Bush | george bush | bush | dubya
-George H. W. Bush
-Bill Clinton | clinton
-Jimmy Carter | carter
-Richard Nixon | nixon
-Gerald Ford | ford
-Lyndon B. Johnson | lbj | lyndon johnson | johnson
-Dwight D. Eisenhower | eisenhower | ike
-Harry S. Truman | truman
-John Adams | adams
-James Madison | madison
-Andrew Jackson | jackson
-Ulysses S. Grant | grant
-Woodrow Wilson | wilson
-Al Gore | gore
-JD Vance | vance | j.d. vance
+[Deep Cut]
+George Clinton
+Elbridge Gerry | gerry
+Daniel D. Tompkins | tompkins
+John C. Calhoun | calhoun
+Richard Mentor Johnson
+George M. Dallas | dallas
+William R. King
+John C. Breckinridge | breckinridge
+Hannibal Hamlin | hamlin
+Schuyler Colfax | colfax
+Henry Wilson
+William A. Wheeler | wheeler
+Thomas A. Hendricks | hendricks
+Levi P. Morton | morton
+Adlai Stevenson
+Garret Hobart | hobart
+Charles W. Fairbanks | fairbanks
+James S. Sherman | sherman
+Thomas R. Marshall | marshall
+Charles G. Dawes | dawes
+Charles Curtis | curtis
+John Nance Garner | garner
+Henry A. Wallace | henry wallace
+Alben W. Barkley | barkley
 
 [Rare]
 Chester A. Arthur | chester arthur | arthur
@@ -70,31 +61,40 @@ Spiro Agnew | agnew
 Nelson Rockefeller | rockefeller
 Hubert Humphrey | humphrey
 
-[Deep Cut]
-George Clinton
-Elbridge Gerry | gerry
-Daniel D. Tompkins | tompkins
-John C. Calhoun | calhoun
-Richard Mentor Johnson
-George M. Dallas | dallas
-William R. King
-John C. Breckinridge | breckinridge
-Hannibal Hamlin | hamlin
-Schuyler Colfax | colfax
-Henry Wilson
-William A. Wheeler | wheeler
-Thomas A. Hendricks | hendricks
-Levi P. Morton | morton
-Adlai Stevenson
-Garret Hobart | hobart
-Charles W. Fairbanks | fairbanks
-James S. Sherman | sherman
-Thomas R. Marshall | marshall
-Charles G. Dawes | dawes
-Charles Curtis | curtis
-John Nance Garner | garner
-Henry A. Wallace | henry wallace
-Alben W. Barkley | barkley
+[Schooler]
+Franklin D. Roosevelt | fdr | franklin roosevelt | roosevelt
+Theodore Roosevelt | teddy roosevelt | teddy
+George W. Bush | george bush | bush | dubya
+George H. W. Bush
+Bill Clinton | clinton
+Jimmy Carter | carter
+Richard Nixon | nixon
+Gerald Ford | ford
+Lyndon B. Johnson | lbj | lyndon johnson | johnson
+Dwight D. Eisenhower | eisenhower | ike
+Harry S. Truman | truman
+John Adams | adams
+James Madison | madison
+Andrew Jackson | jackson
+Ulysses S. Grant | grant
+Woodrow Wilson | wilson
+Al Gore | gore
+JD Vance | vance | j.d. vance
+
+[Too Clever]
+Kamala Harris | harris
+Mike Pence | pence
+Dick Cheney | cheney
+
+[Plankton]
+George Washington | washington
+Abraham Lincoln | lincoln | abe lincoln
+Barack Obama | obama
+Donald Trump | trump
+Joe Biden | biden
+John F. Kennedy | jfk | kennedy | john kennedy
+Thomas Jefferson | jefferson
+Ronald Reagan | reagan
 
 [Not accepted]
 Benjamin Franklin
@@ -114,42 +114,49 @@ prompt: Name a video game console or handheld
 [One in a Krillion]
 Virtual Boy | nintendo virtual boy
 
-[Plankton]
-PlayStation | ps1 | playstation 1 | psx
-Xbox
-Nintendo Switch | switch
-Wii | nintendo wii
-PlayStation 2 | ps2
-PlayStation 5 | ps5
-Game Boy | gameboy
-PlayStation 4 | ps4
-
-[Too Clever]
-Arcade cabinet | arcade
-Steam Deck
-PC | computer
-
-[Schooler]
-Nintendo 64 | n64
-Super Nintendo | snes | super nes
-NES | nintendo entertainment system | nintendo
-PlayStation 3 | ps3
-Xbox 360
-Xbox One
-Xbox Series X | series x
-GameCube | nintendo gamecube
-Nintendo DS | ds
-Nintendo 3DS | 3ds
-Wii U
-Game Boy Color
-Game Boy Advance | gba
-Sega Genesis | genesis | mega drive
-Atari 2600 | atari
-PSP | playstation portable
-PS Vita | vita
-Nintendo Switch 2 | switch 2
-Sega Dreamcast | dreamcast
-Sega Saturn | saturn
+[Deep Cut]
+Fairchild Channel F | channel f
+Vectrex
+Bally Astrocade
+Emerson Arcadia
+Atari XEGS
+Amstrad GX4000
+Pioneer LaserActive
+Casio Loopy
+Apple Pippin | pippin
+Nuon
+Tapwave Zodiac
+Gizmondo
+GP32
+GP2X
+Pandora
+HyperScan
+Game.com
+Atari Flashback
+NES Classic | nes mini
+SNES Classic
+PlayStation Classic
+Sega Genesis Mini
+Mega Sg
+Polymega
+Retron
+Super Nt
+Intellivision Amico
+Atari VCS
+Xbox One X
+Xbox One S
+PS4 Pro
+PS5 Pro
+PS5 Slim
+PS4 Slim
+PS3 Slim
+PSone
+Wii Mini
+Nomad | sega nomad
+Pico | sega pico
+Neo Geo CD
+PC-FX
+Game Boy Light
 
 [Rare]
 Xbox Series S
@@ -204,54 +211,48 @@ Commodore 64 | c64
 Amiga
 ZX Spectrum
 
-[Deep Cut]
-Fairchild Channel F | channel f
-Vectrex
-Bally Astrocade
-Emerson Arcadia
-Atari XEGS
-Amstrad GX4000
-Pioneer LaserActive
-Casio Loopy
-Apple Pippin | pippin
-Nuon
-Tapwave Zodiac
-Gizmondo
-GP32
-GP2X
-Pandora
-HyperScan
-Game.com
-Atari Flashback
-NES Classic | nes mini
-SNES Classic
-PlayStation Classic
-Sega Genesis Mini
-Mega Sg
-Polymega
-Retron
-Super Nt
-Intellivision Amico
-Atari VCS
-Xbox One X
-Xbox One S
-PS4 Pro
-PS5 Pro
-PS5 Slim
-PS4 Slim
-PS3 Slim
-PSone
-Wii Mini
-Nomad | sega nomad
-Pico | sega pico
-Neo Geo CD
-PC-FX
-Game Boy Light
+[Schooler]
+Nintendo 64 | n64
+Super Nintendo | snes | super nes
+NES | nintendo entertainment system | nintendo
+PlayStation 3 | ps3
+Xbox 360
+Xbox One
+Xbox Series X | series x
+GameCube | nintendo gamecube
+Nintendo DS | ds
+Nintendo 3DS | 3ds
+Wii U
+Game Boy Color
+Game Boy Advance | gba
+Sega Genesis | genesis | mega drive
+Atari 2600 | atari
+PSP | playstation portable
+PS Vita | vita
+Nintendo Switch 2 | switch 2
+Sega Dreamcast | dreamcast
+Sega Saturn | saturn
+
+[Too Clever]
+Arcade cabinet | arcade
+Steam Deck
+PC | computer
+
+[Plankton]
+PlayStation | ps1 | playstation 1 | psx
+Xbox
+Nintendo Switch | switch
+Wii | nintendo wii
+PlayStation 2 | ps2
+PlayStation 5 | ps5
+Game Boy | gameboy
+PlayStation 4 | ps4
 
 [Not accepted]
 iPhone
 iPad
-Television | tv
+Television
+tv
 Joystick
 Controller
 Minecraft
@@ -266,61 +267,30 @@ prompt: Name a family member or relative (like aunt or cousin)
 [One in a Krillion]
 Great-great-grandmother | great great grandmother | great-great-grandma
 
-[Plankton]
-Mom | mother | mum | mommy | mama
-Dad | father | daddy | papa
-Brother
-Sister
-Aunt | auntie
-Uncle
-Cousin
-Grandma | grandmother | granny | nana
-
-[Too Clever]
-Ancestor
-Distant relative
-Second cousin once removed | cousin once removed
-Nibling
-
-[Schooler]
-Grandpa | grandfather | grandad | granddad | gramps | pop pop
-Son
-Daughter
-Niece
-Nephew
-Husband
-Wife
-Spouse
-Parent
-Child | kid
-Baby
-Twin
-Sibling
-Grandson
-Granddaughter
-Grandchild | grandkid
-Stepmother | stepmom
-Stepfather | stepdad
-Stepbrother
-Stepsister
-Half-brother | half brother
-Half-sister | half sister
-Mother-in-law
-Father-in-law
-Brother-in-law
-Sister-in-law
-Son-in-law
-Daughter-in-law
-Great-grandmother | great grandma | great-grandma
-Great-grandfather | great grandpa | great-grandpa
-Godmother
-Godfather
-Godparent
-Second cousin
-In-laws
-Ex-wife
-Ex-husband
-Fiance | fiancé | fiancee | fiancée
+[Deep Cut]
+Pibling
+Auncle
+Grandnibling
+Grandnephew
+Grandniece
+Cousin-in-law
+Uncle-in-law
+Aunt-in-law
+Nephew-in-law
+Niece-in-law
+Grandmother-in-law
+Grandfather-in-law
+Ex-in-law
+Half-uncle
+Half-aunt
+Half-cousin
+Step-cousin
+Stepniece
+Stepnephew
+Stepaunt
+Stepuncle
+Double cousin
+Cousin-german
 
 [Rare]
 Great-aunt | great aunt | grandaunt
@@ -369,30 +339,61 @@ Great-great-grandfather
 Co-in-law
 Machetaine | machatunim
 
-[Deep Cut]
-Pibling
-Auncle
-Grandnibling
-Grandnephew
-Grandniece
-Cousin-in-law
-Uncle-in-law
-Aunt-in-law
-Nephew-in-law
-Niece-in-law
-Grandmother-in-law
-Grandfather-in-law
-Ex-in-law
-Half-uncle
-Half-aunt
-Half-cousin
-Step-cousin
-Stepniece
-Stepnephew
-Stepaunt
-Stepuncle
-Double cousin
-Cousin-german
+[Schooler]
+Grandpa | grandfather | grandad | granddad | gramps | pop pop
+Son
+Daughter
+Niece
+Nephew
+Husband
+Wife
+Spouse
+Parent
+Child | kid
+Baby
+Twin
+Sibling
+Grandson
+Granddaughter
+Grandchild | grandkid
+Stepmother | stepmom
+Stepfather | stepdad
+Stepbrother
+Stepsister
+Half-brother | half brother
+Half-sister | half sister
+Mother-in-law
+Father-in-law
+Brother-in-law
+Sister-in-law
+Son-in-law
+Daughter-in-law
+Great-grandmother | great grandma | great-grandma
+Great-grandfather | great grandpa | great-grandpa
+Godmother
+Godfather
+Godparent
+Second cousin
+In-laws
+Ex-wife
+Ex-husband
+Fiance | fiancé | fiancee | fiancée
+
+[Too Clever]
+Ancestor
+Distant relative
+Second cousin once removed | cousin once removed
+Nibling
+
+[Plankton]
+Mom | mother | mum | mommy | mama
+Dad | father | daddy | papa
+Brother
+Sister
+Aunt | auntie
+Uncle
+Cousin
+Grandma | grandmother | granny | nana
 
 [Not accepted]
 Friend
@@ -412,41 +413,25 @@ prompt: Name a bone in the human body
 [One in a Krillion]
 Hyoid | hyoid bone
 
-[Plankton]
-Skull | cranium
-Femur | thigh bone | thighbone
-Rib | ribs | rib cage
-Spine | backbone | spinal column
-Jawbone | jaw | mandible
-Collarbone | clavicle | collar bone
-Kneecap | patella | knee cap
-
-[Too Clever]
-Funny bone
-Tailbone | coccyx
-
-[Schooler]
-Tibia | shinbone | shin bone
-Fibula
-Humerus
-Radius
-Ulna
-Pelvis | hip bone | hipbone
-Sternum | breastbone
-Scapula | shoulder blade
-Vertebra | vertebrae
-Phalanges | phalanx | finger bone | toe bone
-Metacarpals | metacarpal
-Metatarsals | metatarsal
-Carpals | carpal | wrist bone
-Tarsals | tarsal | ankle bone
-Heel bone | calcaneus
-Cheekbone | zygomatic | zygomatic bone
-Sacrum
-Stirrup | stapes
-Hammer | malleus
-Anvil | incus
-Nasal bone | nose bone
+[Deep Cut]
+Distal phalanx
+Proximal phalanx
+Intermediate phalanx
+First metatarsal
+Fifth metatarsal
+Medial cuneiform
+Intermediate cuneiform
+Lateral cuneiform
+Odontoid process | dens
+Coccygeal vertebrae
+Sacral vertebrae
+Wormian bone
+Fabella
+Os trigonum
+Hallux
+Petrous bone
+Turbinate
+Interparietal bone
 
 [Rare]
 Maxilla | upper jaw
@@ -491,25 +476,41 @@ Olecranon | elbow bone
 Malleolus
 Middle ear bones | ossicles
 
-[Deep Cut]
-Distal phalanx
-Proximal phalanx
-Intermediate phalanx
-First metatarsal
-Fifth metatarsal
-Medial cuneiform
-Intermediate cuneiform
-Lateral cuneiform
-Odontoid process | dens
-Coccygeal vertebrae
-Sacral vertebrae
-Wormian bone
-Fabella
-Os trigonum
-Hallux
-Petrous bone
-Turbinate
-Interparietal bone
+[Schooler]
+Tibia | shinbone | shin bone
+Fibula
+Humerus
+Radius
+Ulna
+Pelvis | hip bone | hipbone
+Sternum | breastbone
+Scapula | shoulder blade
+Vertebra | vertebrae
+Phalanges | phalanx | finger bone | toe bone
+Metacarpals | metacarpal
+Metatarsals | metatarsal
+Carpals | carpal | wrist bone
+Tarsals | tarsal | ankle bone
+Heel bone | calcaneus
+Cheekbone | zygomatic | zygomatic bone
+Sacrum
+Stirrup | stapes
+Hammer | malleus
+Anvil | incus
+Nasal bone | nose bone
+
+[Too Clever]
+Funny bone
+Tailbone | coccyx
+
+[Plankton]
+Skull | cranium
+Femur | thigh bone | thighbone
+Rib | ribs | rib cage
+Spine | backbone | spinal column
+Jawbone | jaw | mandible
+Collarbone | clavicle | collar bone
+Kneecap | patella | knee cap
 
 [Not accepted]
 Muscle
@@ -529,79 +530,49 @@ prompt: Name a type of vehicle
 [One in a Krillion]
 Zamboni | ice resurfacer
 
-[Plankton]
-Car
-Truck
-Bus
-Motorcycle | motorbike
-Bicycle | bike
-Train
-Airplane | plane | aeroplane
-Boat
-
-[Too Clever]
-Shopping cart
-Batmobile
-Skateboard
-
-[Schooler]
-Van
-SUV
-Taxi | cab
-Ambulance
-Fire truck | fire engine
-Police car | cop car
-Tractor
-Helicopter
-Ship
-Scooter
-Tank
-Limousine | limo
-Pickup truck | pickup
-Minivan
-Jeep
-Golf cart
-Submarine
-Rocket
-Hot air balloon
-Semi | semi truck | tractor trailer | 18-wheeler | big rig
-Dump truck
-Garbage truck
-Cement mixer | concrete mixer
-Forklift
-Bulldozer
-Excavator
-Crane
-School bus
-Tricycle
-Unicycle
-Moped
-Sailboat
-Canoe
-Kayak
-Yacht
-Jet ski
-Snowmobile
-ATV | four wheeler | quad
-Go-kart | go kart
-Subway
-Tram | streetcar | trolley
-Monorail
-Cable car
-Blimp
-Jet
-Spaceship | spacecraft
-Space shuttle
-RV | motorhome | camper
-Convertible
-Sedan
-Hatchback
-Station wagon
-Sports car
-Race car
-Electric car
-Wagon
-Sled | sleigh
+[Deep Cut]
+Sidecar
+Trike
+Autogyro | gyrocopter
+Ultralight
+Paramotor
+Hang glider
+Jetpack
+Tiltrotor | osprey
+Hydrofoil
+Ekranoplan
+Airboat
+Swamp buggy
+Halftrack
+Armored personnel carrier | apc
+Landing craft
+Sampan
+Dhow
+Felucca
+Punt
+Coracle
+Outrigger
+Trimaran
+Clipper ship
+Schooner
+Frigate
+Corvette
+Submersible
+Bathyscaphe
+Trolley car
+Horsecar
+Hansom cab
+Phaeton
+Landau
+Brougham
+Sulky
+Cyclo
+Matatu
+Dolmus
+Marshrutka
+Songthaew
+Soap box car
+Draisine
 
 [Rare]
 Hovercraft
@@ -696,49 +667,79 @@ Wheelchair
 Mobility scooter
 Stroller | pram
 
-[Deep Cut]
-Sidecar
-Trike
-Autogyro | gyrocopter
-Ultralight
-Paramotor
-Hang glider
-Jetpack
-Tiltrotor | osprey
-Hydrofoil
-Ekranoplan
-Airboat
-Swamp buggy
-Halftrack
-Armored personnel carrier | apc
-Landing craft
-Sampan
-Dhow
-Felucca
-Punt
-Coracle
-Outrigger
-Trimaran
-Clipper ship
-Schooner
-Frigate
-Corvette
-Submersible
-Bathyscaphe
-Trolley car
-Horsecar
-Hansom cab
-Phaeton
-Landau
-Brougham
-Sulky
-Cyclo
-Matatu
-Dolmus
-Marshrutka
-Songthaew
-Soap box car
-Draisine
+[Schooler]
+Van
+SUV
+Taxi | cab
+Ambulance
+Fire truck | fire engine
+Police car | cop car
+Tractor
+Helicopter
+Ship
+Scooter
+Tank
+Limousine | limo
+Pickup truck | pickup
+Minivan
+Jeep
+Golf cart
+Submarine
+Rocket
+Hot air balloon
+Semi | semi truck | tractor trailer | 18-wheeler | big rig
+Dump truck
+Garbage truck
+Cement mixer | concrete mixer
+Forklift
+Bulldozer
+Excavator
+Crane
+School bus
+Tricycle
+Unicycle
+Moped
+Sailboat
+Canoe
+Kayak
+Yacht
+Jet ski
+Snowmobile
+ATV | four wheeler | quad
+Go-kart | go kart
+Subway
+Tram | streetcar | trolley
+Monorail
+Cable car
+Blimp
+Jet
+Spaceship | spacecraft
+Space shuttle
+RV | motorhome | camper
+Convertible
+Sedan
+Hatchback
+Station wagon
+Sports car
+Race car
+Electric car
+Wagon
+Sled | sleigh
+
+[Too Clever]
+Shopping cart
+Batmobile
+Skateboard
+
+[Plankton]
+Car
+Truck
+Bus
+Motorcycle | motorbike
+Bicycle | bike
+Train
+Airplane | plane | aeroplane
+Boat
 
 [Not accepted]
 Horse
@@ -758,62 +759,66 @@ prompt: Name a flower
 [One in a Krillion]
 Corpse flower | titan arum | rafflesia
 
-[Plankton]
-Rose
-Tulip
-Daisy
-Sunflower
-Lily
-Daffodil
-Orchid
-Carnation
-
-[Too Clever]
-Dandelion
-Cauliflower
-Venus flytrap
-
-[Schooler]
-Violet
-Lavender
-Marigold
-Petunia
-Poppy
-Dahlia
-Peony
-Iris
-Hibiscus
-Hydrangea
-Chrysanthemum | mum | mums
-Lilac
-Jasmine
-Magnolia
-Begonia
-Azalea
-Gardenia
-Lotus
-Pansy
-Zinnia
-Gladiolus
-Geranium
-Snapdragon
-Morning glory
-Forget-me-not | forget me not
-Bluebell
-Buttercup
-Honeysuckle
-Cherry blossom
-Lily of the valley
-Tiger lily
-Poinsettia
-Camellia
-Aster
-Calla lily
-Hyacinth
-Crocus
-Bird of paradise
-Snowdrop
-Primrose
+[Deep Cut]
+Agapanthus
+Allium
+Asclepias | milkweed
+Astilbe
+Calendula
+Campanula
+Canna
+Celosia
+Cineraria
+Clivia
+Coreopsis
+Crocosmia
+Cyclamen
+Dianthus
+Echinops
+Eremurus
+Eustoma | lisianthus
+Gaillardia
+Gazania
+Gentian
+Gypsophila
+Helenium
+Heliotrope
+Kniphofia | red hot poker
+Liatris
+Lobelia
+Lychnis
+Malva
+Monarda | bee balm
+Muscari | grape hyacinth
+Nemesia
+Nerine
+Nigella | love-in-a-mist
+Osteospermum
+Penstemon
+Plumbago
+Rudbeckia
+Scilla
+Sedum
+Silene
+Torenia
+Tradescantia
+Trollius
+Veronica
+Vinca
+Zephyranthes
+Ixora
+Jacaranda
+Kalanchoe
+Mandevilla
+Moth orchid | phalaenopsis
+Night-blooming cereus
+Ghost orchid
+Jade vine
+Chocolate cosmos
+Bat flower
+Parrot's beak
+Monkey face orchid
+Dove orchid
 
 [Rare]
 Amaryllis
@@ -885,66 +890,62 @@ Tuberose
 Wallflower
 Wax flower
 
-[Deep Cut]
-Agapanthus
-Allium
-Asclepias | milkweed
-Astilbe
-Calendula
-Campanula
-Canna
-Celosia
-Cineraria
-Clivia
-Coreopsis
-Crocosmia
-Cyclamen
-Dianthus
-Echinops
-Eremurus
-Eustoma | lisianthus
-Gaillardia
-Gazania
-Gentian
-Gypsophila
-Helenium
-Heliotrope
-Kniphofia | red hot poker
-Liatris
-Lobelia
-Lychnis
-Malva
-Monarda | bee balm
-Muscari | grape hyacinth
-Nemesia
-Nerine
-Nigella | love-in-a-mist
-Osteospermum
-Penstemon
-Plumbago
-Rudbeckia
-Scilla
-Sedum
-Silene
-Torenia
-Tradescantia
-Trollius
-Veronica
-Vinca
-Zephyranthes
-Ixora
-Jacaranda
-Kalanchoe
-Mandevilla
-Moth orchid | phalaenopsis
-Night-blooming cereus
-Ghost orchid
-Jade vine
-Chocolate cosmos
-Bat flower
-Parrot's beak
-Monkey face orchid
-Dove orchid
+[Schooler]
+Violet
+Lavender
+Marigold
+Petunia
+Poppy
+Dahlia
+Peony
+Iris
+Hibiscus
+Hydrangea
+Chrysanthemum | mum | mums
+Lilac
+Jasmine
+Magnolia
+Begonia
+Azalea
+Gardenia
+Lotus
+Pansy
+Zinnia
+Gladiolus
+Geranium
+Snapdragon
+Morning glory
+Forget-me-not | forget me not
+Bluebell
+Buttercup
+Honeysuckle
+Cherry blossom
+Lily of the valley
+Tiger lily
+Poinsettia
+Camellia
+Aster
+Calla lily
+Hyacinth
+Crocus
+Bird of paradise
+Snowdrop
+Primrose
+
+[Too Clever]
+Dandelion
+Cauliflower
+Venus flytrap
+
+[Plankton]
+Rose
+Tulip
+Daisy
+Sunflower
+Lily
+Daffodil
+Orchid
+Carnation
 
 [Not accepted]
 Tree
@@ -963,114 +964,6 @@ prompt: Name a type of bread
 
 [One in a Krillion]
 Pumpernickel
-
-[Plankton]
-White bread | white
-Wheat bread | wheat | whole wheat
-Sourdough
-Rye | rye bread
-Bagel
-Baguette | french bread
-Croissant
-Garlic bread
-
-[Too Clever]
-Toast
-Pizza
-Gingerbread
-
-[Schooler]
-Brioche
-Ciabatta
-Focaccia
-Pita | pita bread
-Naan
-Cornbread | corn bread
-Banana bread
-Tortilla
-English muffin
-Biscuit
-Roll | dinner roll
-Bun | hamburger bun
-Hot dog bun
-Pretzel | soft pretzel
-Challah
-Multigrain
-Whole grain
-Flatbread
-Italian bread
-Muffin
-Zucchini bread
-Monkey bread
-Cinnamon raisin | raisin bread
-Potato bread
-Texas toast
-Hawaiian rolls | king's hawaiian
-Crescent roll
-Sub roll | hoagie roll
-Breadstick | breadsticks
-Matzo | matzah
-Soda bread | irish soda bread
-Scone
-Crumpet
-
-[Rare]
-Sprouted bread | ezekiel bread
-Seven-grain
-Oat bread
-Milk bread | shokupan
-Pandesal
-Bolillo
-Concha
-Arepa
-Pupusa
-Injera
-Chapati
-Roti
-Paratha
-Puri
-Bhatura
-Kulcha
-Lavash
-Barbari
-Sangak
-Taftoon
-Simit
-Pide
-Ekmek
-Khachapuri
-Bialy
-Kaiser roll
-Pan dulce
-Babka
-Stollen
-Panettone
-Pandoro
-Kolache
-Kringle
-Danish
-Sweet roll
-Cinnamon roll
-Sticky bun
-Hot cross bun
-Bara brith
-Barmbrack
-Soda farl
-Potato farl
-Bannock
-Fry bread
-Johnnycake
-Hushpuppy | hush puppies
-Spoon bread
-Sally Lunn
-Anadama
-Boston brown bread
-Salt-rising bread
-Pullman loaf
-Batard
-Boule
-Fougasse
-
 
 [Deep Cut]
 Pain de mie
@@ -1169,6 +1062,113 @@ Pikelet
 Damper
 Rewena
 
+[Rare]
+Sprouted bread | ezekiel bread
+Seven-grain
+Oat bread
+Milk bread | shokupan
+Pandesal
+Bolillo
+Concha
+Arepa
+Pupusa
+Injera
+Chapati
+Roti
+Paratha
+Puri
+Bhatura
+Kulcha
+Lavash
+Barbari
+Sangak
+Taftoon
+Simit
+Pide
+Ekmek
+Khachapuri
+Bialy
+Kaiser roll
+Pan dulce
+Babka
+Stollen
+Panettone
+Pandoro
+Kolache
+Kringle
+Danish
+Sweet roll
+Cinnamon roll
+Sticky bun
+Hot cross bun
+Bara brith
+Barmbrack
+Soda farl
+Potato farl
+Bannock
+Fry bread
+Johnnycake
+Hushpuppy | hush puppies
+Spoon bread
+Sally Lunn
+Anadama
+Boston brown bread
+Salt-rising bread
+Pullman loaf
+Batard
+Boule
+Fougasse
+
+[Schooler]
+Brioche
+Ciabatta
+Focaccia
+Pita | pita bread
+Naan
+Cornbread | corn bread
+Banana bread
+Tortilla
+English muffin
+Biscuit
+Roll | dinner roll
+Bun | hamburger bun
+Hot dog bun
+Pretzel | soft pretzel
+Challah
+Multigrain
+Whole grain
+Flatbread
+Italian bread
+Muffin
+Zucchini bread
+Monkey bread
+Cinnamon raisin | raisin bread
+Potato bread
+Texas toast
+Hawaiian rolls | king's hawaiian
+Crescent roll
+Sub roll | hoagie roll
+Breadstick | breadsticks
+Matzo | matzah
+Soda bread | irish soda bread
+Scone
+Crumpet
+
+[Too Clever]
+Toast
+Pizza
+Gingerbread
+
+[Plankton]
+White bread | white
+Wheat bread | wheat | whole wheat
+Sourdough
+Rye | rye bread
+Bagel
+Baguette | french bread
+Croissant
+Garlic bread
+
 [Not accepted]
 Cake
 Cookie
@@ -1187,58 +1187,86 @@ prompt: Name a mountain or mountain range
 [One in a Krillion]
 Mount Kosciuszko | kosciuszko | kosciusko
 
-[Plankton]
-Mount Everest | everest
-Rocky Mountains | rockies | rocky mountain
-Himalayas | himalaya
-Alps
-Andes
-Appalachian Mountains | appalachians | appalachia
-Mount Rushmore | rushmore
-Mount Kilimanjaro | kilimanjaro
-
-[Too Clever]
-Half Dome
-Uluru | ayers rock
-Mount Olympus | olympus
-Pikes Peak
-
-[Schooler]
-K2
-Mount Fuji | fuji
-Mount McKinley | denali | mckinley
-Matterhorn
-Mont Blanc
-Mount St. Helens | st helens | mount saint helens
-Mount Rainier | rainier
-Mount Whitney | whitney
-Sierra Nevada
-Cascades | cascade range
-Smoky Mountains | great smoky mountains | smokies
-Blue Ridge Mountains | blue ridge
-Urals | ural mountains
-Pyrenees
-Atlas Mountains | atlas
-Mount Vesuvius | vesuvius
-Mount Etna | etna
-Mount Sinai | sinai
-Mount Hood
-Mount Shasta | shasta
-Grand Tetons | tetons
-Adirondacks | adirondack mountains
-White Mountains
-Ozarks | ozark mountains
-Black Hills
-Mount Washington
-Ben Nevis
-Table Mountain
-Sugarloaf Mountain | sugarloaf
-Mount Elbrus | elbrus
-Aconcagua
-Carpathians | carpathian mountains
-Apennines
-Caucasus
-Hindu Kush
+[Deep Cut]
+Mount Logan
+Mount Robson
+Mount Assiniboine
+Mount Saint Elias
+Mount Foraker
+Mount Hunter
+Mount Sanford
+Mount Baker
+Mount Adams
+Mount Jefferson
+Mount Mitchell
+Clingmans Dome
+Mount Marcy
+Mount Katahdin | katahdin
+Mount Monadnock
+Mount Elbert
+Longs Peak
+Maroon Bells
+Mount Sneffels
+Gannett Peak
+Kings Peak
+Borah Peak
+Granite Peak
+Humphreys Peak
+Wheeler Peak
+Guadalupe Peak
+Harney Peak | black elk peak
+Mount Mansfield
+Mount Greylock
+Spruce Knob
+Brasstown Bald
+Stone Mountain
+Mount Tamalpais
+El Capitan
+Mount Diablo
+Mount San Jacinto
+Mount Baldy
+Mount Lemmon
+Mount Parnassus
+Mount Pelion
+Mount Ossa
+Mount Taygetus
+Monte Rosa
+Eiger
+Jungfrau
+Monch
+Grossglockner
+Zugspitze
+Triglav
+Musala
+Mount Erebus
+Vinson Massif
+Transantarctic Mountains
+Mount Wilhelm
+Puncak Jaya | carstensz pyramid
+Mount Semeru
+Mount Rinjani
+Mount Apo
+Mount Halla | hallasan
+Mount Baekdu | paektu
+Mount Aso
+Mount Tate
+Mount Kita
+Tirich Mir
+Rakaposhi
+Ama Dablam
+Machapuchare
+Nanda Devi
+Kamet
+Ismoil Somoni Peak
+Jengish Chokusu
+Khan Tengri
+Belukha
+Mount Damavand | damavand
+Mount Toubkal | toubkal
+Ras Dashen
+Mount Meru
+Mount Stanley
+Thabana Ntlenyana
 
 [Rare]
 Kangchenjunga | kanchenjunga
@@ -1337,86 +1365,58 @@ Mount Tabor
 Mount Carmel
 Mount of Olives
 
-[Deep Cut]
-Mount Logan
-Mount Robson
-Mount Assiniboine
-Mount Saint Elias
-Mount Foraker
-Mount Hunter
-Mount Sanford
-Mount Baker
-Mount Adams
-Mount Jefferson
-Mount Mitchell
-Clingmans Dome
-Mount Marcy
-Mount Katahdin | katahdin
-Mount Monadnock
-Mount Elbert
-Longs Peak
-Maroon Bells
-Mount Sneffels
-Gannett Peak
-Kings Peak
-Borah Peak
-Granite Peak
-Humphreys Peak
-Wheeler Peak
-Guadalupe Peak
-Harney Peak | black elk peak
-Mount Mansfield
-Mount Greylock
-Spruce Knob
-Brasstown Bald
-Stone Mountain
-Mount Tamalpais
-El Capitan
-Mount Diablo
-Mount San Jacinto
-Mount Baldy
-Mount Lemmon
-Mount Parnassus
-Mount Pelion
-Mount Ossa
-Mount Taygetus
-Monte Rosa
-Eiger
-Jungfrau
-Monch
-Grossglockner
-Zugspitze
-Triglav
-Musala
-Mount Erebus
-Vinson Massif
-Transantarctic Mountains
-Mount Wilhelm
-Puncak Jaya | carstensz pyramid
-Mount Semeru
-Mount Rinjani
-Mount Apo
-Mount Halla | hallasan
-Mount Baekdu | paektu
-Mount Aso
-Mount Tate
-Mount Kita
-Tirich Mir
-Rakaposhi
-Ama Dablam
-Machapuchare
-Nanda Devi
-Kamet
-Ismoil Somoni Peak
-Jengish Chokusu
-Khan Tengri
-Belukha
-Mount Damavand | damavand
-Mount Toubkal | toubkal
-Ras Dashen
-Mount Meru
-Mount Stanley
-Thabana Ntlenyana
+[Schooler]
+K2
+Mount Fuji | fuji
+Mount McKinley | denali | mckinley
+Matterhorn
+Mont Blanc
+Mount St. Helens | st helens | mount saint helens
+Mount Rainier | rainier
+Mount Whitney | whitney
+Sierra Nevada
+Cascades | cascade range
+Smoky Mountains | great smoky mountains | smokies
+Blue Ridge Mountains | blue ridge
+Urals | ural mountains
+Pyrenees
+Atlas Mountains | atlas
+Mount Vesuvius | vesuvius
+Mount Etna | etna
+Mount Sinai | sinai
+Mount Hood
+Mount Shasta | shasta
+Grand Tetons | tetons
+Adirondacks | adirondack mountains
+White Mountains
+Ozarks | ozark mountains
+Black Hills
+Mount Washington
+Ben Nevis
+Table Mountain
+Sugarloaf Mountain | sugarloaf
+Mount Elbrus | elbrus
+Aconcagua
+Carpathians | carpathian mountains
+Apennines
+Caucasus
+Hindu Kush
+
+[Too Clever]
+Half Dome
+Uluru | ayers rock
+Mount Olympus | olympus
+Pikes Peak
+
+[Plankton]
+Mount Everest | everest
+Rocky Mountains | rockies | rocky mountain
+Himalayas | himalaya
+Alps
+Andes
+Appalachian Mountains | appalachians | appalachia
+Mount Rushmore | rushmore
+Mount Kilimanjaro | kilimanjaro
 
 [Not accepted]
 Hill
@@ -1435,64 +1435,81 @@ prompt: Name a dance or style of dance
 [One in a Krillion]
 Bunny Hop
 
-[Plankton]
-Ballet
-Hip hop
-Salsa
-Tango
-Waltz
-Tap | tap dance
-Breakdancing | breaking | breakdance
-Jazz
-
-[Too Clever]
-The Floss | floss
-Macarena
-Chicken Dance
-
-[Schooler]
-Swing
-Ballroom
-Contemporary
-Modern dance | modern
-Line dancing | line dance
-Square dancing | square dance
-Belly dancing | belly dance
-Flamenco
-Cha-cha | cha cha | cha-cha-cha
-Rumba
-Samba
-Foxtrot
-Quickstep
-Mambo
-Merengue
-Bachata
-Polka
-Disco
-Twerk | twerking
-Moonwalk
-Twist | the twist
-Electric Slide
-Cupid Shuffle
-Cha Cha Slide
-Hokey Pokey
-Conga | conga line
-Limbo
-Hula
-Irish dance | irish step dancing | riverdance
-Clogging
-Jitterbug
-Lindy Hop
-Charleston
-Paso doble
-Cancan | can-can
-Pole dancing
-Krumping | krump
-Popping
-Locking
-Voguing | vogue
-Dab
-YMCA
+[Deep Cut]
+Bourree
+Courante
+Gigue
+Rigaudon
+Passepied
+Branle
+Saltarello
+Estampie
+Farandole
+Ländler
+Schuhplattler
+Csardas | csárdás
+Kolomyjka
+Hopak
+Kalinka
+Trepak
+Khorovod
+Lezginka
+Dabke
+Attan
+Raqs sharqi
+Tahtib
+Gumboot dance
+Pantsula
+Kwaito
+Azonto
+Shaku shaku
+Coupe-decale
+Ndombolo
+Maloya
+Tinikling
+Cariñosa
+Pandanggo
+Bon Odori
+Para Para
+Awa Odori
+Buyo
+Nihon buyo
+Chhau
+Kuchipudi
+Mohiniyattam
+Manipuri
+Sattriya
+Kathakali
+Garba
+Dandiya
+Ghoomar
+Lavani
+Yangge
+Hula kahiko
+Hula auana
+Poi
+Aboriginal dance
+Corroboree
+Pow wow
+Hoop dance
+Jingle dance
+Grass dance
+Fancy dance
+Ghost dance
+Sun dance
+Stomp dance
+Buck dance
+Flatfooting
+Juba dance
+Ring shout
+Second line
+Footwork
+Jookin
+Turfing
+Flexing
+Tutting
+Waacking
+Litefeet
 
 [Rare]
 Jive
@@ -1587,81 +1604,64 @@ Fan dance
 Ribbon dance
 Sword dance
 
-[Deep Cut]
-Bourree
-Courante
-Gigue
-Rigaudon
-Passepied
-Branle
-Saltarello
-Estampie
-Farandole
-Ländler
-Schuhplattler
-Csardas | csárdás
-Kolomyjka
-Hopak
-Kalinka
-Trepak
-Khorovod
-Lezginka
-Dabke
-Attan
-Raqs sharqi
-Tahtib
-Gumboot dance
-Pantsula
-Kwaito
-Azonto
-Shaku shaku
-Coupe-decale
-Ndombolo
-Maloya
-Tinikling
-Cariñosa
-Pandanggo
-Bon Odori
-Para Para
-Awa Odori
-Buyo
-Nihon buyo
-Chhau
-Kuchipudi
-Mohiniyattam
-Manipuri
-Sattriya
-Kathakali
-Garba
-Dandiya
-Ghoomar
-Lavani
-Yangge
-Hula kahiko
-Hula auana
-Poi
-Aboriginal dance
-Corroboree
-Pow wow
-Hoop dance
-Jingle dance
-Grass dance
-Fancy dance
-Ghost dance
-Sun dance
-Stomp dance
-Buck dance
-Flatfooting
-Juba dance
-Ring shout
-Second line
-Footwork
-Jookin
-Turfing
-Flexing
-Tutting
-Waacking
-Litefeet
+[Schooler]
+Swing
+Ballroom
+Contemporary
+Modern dance | modern
+Line dancing | line dance
+Square dancing | square dance
+Belly dancing | belly dance
+Flamenco
+Cha-cha | cha cha | cha-cha-cha
+Rumba
+Samba
+Foxtrot
+Quickstep
+Mambo
+Merengue
+Bachata
+Polka
+Disco
+Twerk | twerking
+Moonwalk
+Twist | the twist
+Electric Slide
+Cupid Shuffle
+Cha Cha Slide
+Hokey Pokey
+Conga | conga line
+Limbo
+Hula
+Irish dance | irish step dancing | riverdance
+Clogging
+Jitterbug
+Lindy Hop
+Charleston
+Paso doble
+Cancan | can-can
+Pole dancing
+Krumping | krump
+Popping
+Locking
+Voguing | vogue
+Dab
+YMCA
+
+[Too Clever]
+The Floss | floss
+Macarena
+Chicken Dance
+
+[Plankton]
+Ballet
+Hip hop
+Salsa
+Tango
+Waltz
+Tap | tap dance
+Breakdancing | breaking | breakdance
+Jazz
 
 [Not accepted]
 Song
@@ -1680,18 +1680,45 @@ prompt: Name a movie that won the Oscar for Best Picture
 [One in a Krillion]
 Wings
 
-[Plankton]
-Titanic
-The Godfather | godfather
-Forrest Gump
-Gladiator
-The Sound of Music | sound of music
-Casablanca
-Gone with the Wind
-Rocky
+[Deep Cut]
+Cavalcade
+Cimarron
+The Broadway Melody
+Grand Hotel
+Mutiny on the Bounty
+The Great Ziegfeld
+The Life of Emile Zola
+You Can't Take It with You
+Going My Way
+All the King's Men
+Gentleman's Agreement
+The Lost Weekend
+How Green Was My Valley
+Marty
+The Greatest Show on Earth
+Tom Jones
 
-[Too Clever]
-Moonlight
+[Rare]
+All About Eve
+An American in Paris
+The Best Years of Our Lives
+The Bridge on the River Kwai | bridge on the river kwai
+Gigi
+A Man for All Seasons
+In the Heat of the Night
+Oliver!
+Midnight Cowboy
+Ordinary People
+Chariots of Fire
+Terms of Endearment
+The Last Emperor
+The English Patient | english patient
+Around the World in 80 Days
+From Here to Eternity
+Mrs. Miniver
+Rebecca
+Hamlet
+All Quiet on the Western Front
 
 [Schooler]
 Schindler's List | schindlers list
@@ -1746,45 +1773,18 @@ The Apartment
 On the Waterfront
 It Happened One Night
 
-[Rare]
-All About Eve
-An American in Paris
-The Best Years of Our Lives
-The Bridge on the River Kwai | bridge on the river kwai
-Gigi
-A Man for All Seasons
-In the Heat of the Night
-Oliver!
-Midnight Cowboy
-Ordinary People
-Chariots of Fire
-Terms of Endearment
-The Last Emperor
-The English Patient | english patient
-Around the World in 80 Days
-From Here to Eternity
-Mrs. Miniver
-Rebecca
-Hamlet
-All Quiet on the Western Front
+[Too Clever]
+Moonlight
 
-[Deep Cut]
-Cavalcade
-Cimarron
-The Broadway Melody
-Grand Hotel
-Mutiny on the Bounty
-The Great Ziegfeld
-The Life of Emile Zola
-You Can't Take It with You
-Going My Way
-All the King's Men
-Gentleman's Agreement
-The Lost Weekend
-How Green Was My Valley
-Marty
-The Greatest Show on Earth
-Tom Jones
+[Plankton]
+Titanic
+The Godfather | godfather
+Forrest Gump
+Gladiator
+The Sound of Music | sound of music
+Casablanca
+Gone with the Wind
+Rocky
 
 [Not accepted]
 La La Land

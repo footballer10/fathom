@@ -26,6 +26,7 @@ export function App() {
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   const [settingsOpen, setSettingsOpen] = useState(false);
   const route = useRoute();
+  const [inBattle, setInBattle] = useState(false);
   const roomCode = /^\/room\/([A-Za-z]{4})$/.exec(route)?.[1]?.toUpperCase();
   // One animated depth value drives the background, creatures, particles and gauge.
   const depth = useMotionValue(0);
@@ -75,13 +76,13 @@ export function App() {
     <MotionConfig reducedMotion={settings.reducedMotion ? "always" : "never"}>
       <Ocean depth={depth} />
       <Particles depth={depth} enabled={settings.particles && !settings.reducedMotion} />
-      <DepthGauge depth={depth} />
+      {!inBattle && <DepthGauge depth={depth} />}
 
       <div className="topbar">
         <button className="brand" onClick={goHome}>
           {APP_NAME}
         </button>
-        <DepthPill depth={depth} />
+        {inBattle ? <span /> : <DepthPill depth={depth} />}
         <button className="icon-btn" onClick={() => setSettingsOpen(true)} aria-label="Settings">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <circle cx="12" cy="12" r="3" />
@@ -92,7 +93,7 @@ export function App() {
 
       <main className="column">
         {roomCode ? (
-          <RoomPage key={roomCode} code={roomCode} onDepth={diveTo} />
+          <RoomPage key={roomCode} code={roomCode} onDepth={diveTo} onBattle={setInBattle} />
         ) : route === "/party" ? (
           <PartyHome />
         ) : route === "/friends" ? (

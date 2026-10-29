@@ -77,6 +77,10 @@ Write them in four files of 25:
 
 Re-read every question you wrote and fix:
 
+- **Open-ended prompts.** For every question ask: "Could a smart player type something true that
+  isn't on this list?" If yes, add the missing answers, or add a constraint to the prompt that closes
+  the set to a fixed, checkable list (see "THE MOST IMPORTANT RULE" in the brief). "Name a US city"
+  is too open; "Name a US state capital" is closed.
 - Missing common answers (the Plankton tier should cover what most people would type)
 - Invalid answers, and answers placed in the wrong tier
 - A weak One in a Krillion pick (it should be real, checkable, and very rare)

@@ -2,297 +2,139 @@
 id: q0141
 pool: unlimited
 category: history
-prompt: Name a real king, queen, emperor, or empress from history
+prompt: Name an English, Scottish or British monarch (like Henry VIII)
+note: Kings and queens regnant of England (from Athelstan), Scotland (from Kenneth MacAlpin) and Great Britain/the UK. Consorts and legendary kings don't count.
 
 [One in a Krillion]
-Ethelred the Unready | aethelred the unready
-
-[Plankton]
-Queen Elizabeth II | elizabeth ii | queen elizabeth
-King Henry VIII | henry viii | henry the eighth
-Cleopatra
-Napoleon | napoleon bonaparte
-King Tut | tutankhamun
-Queen Victoria | victoria
-King Charles III | charles iii | king charles
-Julius Caesar | caesar
-
-[Too Clever]
-Charlemagne
-Bloody Mary | mary i
-
-[Schooler]
-Louis XIV | sun king
-Marie Antoinette
-Catherine the Great
-Peter the Great
-Alexander the Great
-Genghis Khan
-Queen Elizabeth I | elizabeth i
-William the Conqueror
-Richard the Lionheart | richard i
-King George III | george iii
-Ramses II | ramses | rameses
-Nefertiti
-Hatshepsut
-Augustus | caesar augustus
-Nero
-Caligula
-Marcus Aurelius
-Constantine
-King David
-King Solomon
-Montezuma | moctezuma
-Atahualpa
-Kublai Khan
-Mary, Queen of Scots | mary queen of scots
-Queen Isabella | isabella of castile
-King Ferdinand
-Nicholas II | tsar nicholas
-Ivan the Terrible
-Hirohito
-Akbar
-Shah Jahan
-Suleiman the Magnificent
-Haile Selassie
-Queen Anne
-King James I | james i
-King John
-King Edward VIII | edward viii
-King George VI | george vi
-Henry V
-Richard III
-Kamehameha
-Liliuokalani
-
-[Rare]
-Alfred the Great
-Canute | cnut
-Harold Godwinson | harold ii
-Edward the Confessor
-Henry II
-Eleanor of Aquitaine
-Henry VII
-Edward I | longshanks
-Edward III
-Richard II
-Henry IV
-Henry VI
-Edward IV
-Edward V
-James II
-Charles I
-Charles II
-William III | william of orange
-Mary II
-George I
-George II
-George IV
-William IV
-Edward VII
-George V
-Lady Jane Grey
-Robert the Bruce
-Macbeth
-Malcolm III
-Louis XVI
-Louis XV
-Louis IX | saint louis
-Philip II
-Philip IV
-Francis I
-Henry IV of France
-Hugh Capet
-Clovis
-Charles Martel
-Frederick the Great
-Frederick Barbarossa
-Otto the Great
-Kaiser Wilhelm II | wilhelm ii
-Franz Joseph
-Maria Theresa
-Charles V
-Philip II of Spain
-Juan Carlos
-Felipe VI
-Manuel I
-John II
-Gustavus Adolphus
-Christina of Sweden
-Harald Hardrada
-Eric the Victorious
-Vladimir the Great
-Yaroslav the Wise
-Alexander Nevsky
-Ivan III
-Boris Godunov
-Anna of Russia
-Elizabeth of Russia
-Alexander I
-Alexander II
-Alexander III
-Nicholas I
-Justinian
-Theodora
-Basil II
-Constantine XI
-Mehmed II
-Selim I
-Osman I
-Saladin
-Harun al-Rashid
-Cyrus the Great
-Darius I
-Xerxes
-Nebuchadnezzar
-Hammurabi
-Sargon of Akkad
-Ashurbanipal
-Akhenaten
-Khufu
-Thutmose III
-Herod the Great
-Hadrian
-Trajan
-Vespasian
-Tiberius
-Claudius
-Commodus
-Diocletian
-Septimius Severus
-Romulus Augustulus
-Attila the Hun
-Theodoric the Great
-Ashoka
-Chandragupta Maurya
-Qin Shi Huang
-Wu Zetian
-Emperor Wu of Han
-Kangxi
-Qianlong
-Empress Dowager Cixi | cixi
-Puyi
-Emperor Meiji | meiji
-Emperor Jimmu
-Akihito
-Naruhito
-Sejong the Great
-Mansa Musa
-Shaka Zulu
-Menelik II
-Ranavalona I
-Moshoeshoe
-Nzinga
-Sundiata Keita
-Pachacuti
-Huayna Capac
-Cuauhtemoc
-Pedro II of Brazil
-Maximilian of Mexico
-Rama V
-Rama IX
-King Mongkut
-Jayavarman VII
-Tamerlane | timur
-Babur
-Aurangzeb
-Tipu Sultan
-Ranjit Singh
-Ahmad Shah Durrani
-Abbas the Great
-Nader Shah
-Reza Shah
-Mohammad Reza Pahlavi | the shah
-Faisal I
-Abdulaziz
-King Hussein
-Farouk
+Lulach | lulach the simple | king lulach
 
 [Deep Cut]
-Offa
-Penda
-Athelstan
-Edgar the Peaceful
-Edmund Ironside
-Harthacnut
-Sweyn Forkbeard
-Gorm the Old
-Harald Bluetooth
-Olaf Tryggvason
-Magnus the Good
-Sigurd the Crusader
-Margaret I of Denmark
-Christian IV
-Charles XII
-Bernadotte
-Pepin the Short
-Louis the Pious
-Lothair
-Charles the Bald
-Charles the Fat
-Louis the Stammerer
-Philip Augustus
-Philip the Fair
-John the Good
-Charles the Mad
-Louis XI
-Charles VIII
-Henry the Fowler
-Conrad II
-Henry IV Holy Roman Emperor
-Rudolf I
-Maximilian I
-Rudolf II
-Ferdinand II
-Leopold I
-Joseph II
-Ludwig II | mad king ludwig
-Sancho the Great
-Alfonso X
-Pedro the Cruel
-Afonso Henriques
-Sebastian of Portugal
-Casimir the Great
-Jadwiga
-Sigismund
-Matthias Corvinus
-Stephen I of Hungary
-Vlad the Impaler | vlad dracula
-Stefan Dusan
-Tvrtko
-Simeon the Great
-Tamar of Georgia
-David the Builder
-Tigranes the Great
-Mithridates
-Antiochus
-Seleucus
-Demetrius
-Pyrrhus
-Philip II of Macedon
-Croesus
-Leonidas
-Zenobia
-Boudica
-Cartimandua
-Vercingetorix
-Arminius
-Alaric
-Odoacer
-Brunhilda
-Fredegund
-Dagobert
-Rollo
-Cnut the Great
-Kenneth MacAlpin
-Duncan I
+Aed | áed | king aed
+Giric | king giric
+Indulf | king indulf
+Dub | duff | king dub
+Cuilen | cuilén | culen | king cuilen
+Donald I | donald 1 | donald the first | donald first | king donald i | king donald 1
+Donald II | donald 2 | donald the second | donald second | king donald ii | king donald 2
+Donald III | donald bane | donalbain | donald 3 | donald the third | donald third | king donald iii | king donald 3
+Constantine I | constantine 1 | constantine the first | constantine first | king constantine i | king constantine 1
+Constantine II | constantine 2 | constantine the second | constantine second | king constantine ii | king constantine 2
+Constantine III | constantine 3 | constantine the third | constantine third | king constantine iii | king constantine 3
+Malcolm I | malcolm 1 | malcolm the first | malcolm first | king malcolm i | king malcolm 1
+Malcolm II | malcolm 2 | malcolm the second | malcolm second | king malcolm ii | king malcolm 2
+Malcolm IV | malcolm the maiden | malcolm 4 | malcolm the fourth | malcolm fourth | king malcolm iv | king malcolm 4
+Kenneth II | kenneth 2 | kenneth the second | kenneth second | king kenneth ii | king kenneth 2
+Kenneth III | kenneth 3 | kenneth the third | kenneth third | king kenneth iii | king kenneth 3
+Duncan II | duncan 2 | duncan the second | duncan second | king duncan ii | king duncan 2
+Alexander I | alexander 1 | alexander the first | alexander first | king alexander i | king alexander 1
+Alexander II | alexander 2 | alexander the second | alexander second | king alexander ii | king alexander 2
+Eadred | king eadred
+Eadwig | edwy | king eadwig
+Edmund I | edmund the magnificent | edmund the elder | edmund 1 | edmund the first | edmund first | king edmund i | king edmund 1
+Edward the Martyr | king edward the martyr
+Edgar Atheling | edgar ætheling | edgar the atheling
+Robert II | robert 2 | robert the second | robert second | king robert ii | king robert 2
+Robert III | robert 3 | robert the third | robert third | king robert iii | king robert 3
+David II | david 2 | david the second | david second | king david ii | king david 2
+Edward the Elder | king edward the elder
+
+[Rare]
+Henry IV | henry bolingbroke | henry 4 | henry the fourth | henry fourth | king henry iv | king henry 4
+Henry VI | henry 6 | henry the sixth | henry sixth | king henry vi | king henry 6
+Edward II | edward 2 | edward the second | edward second | king edward ii | king edward 2
+Edward III | edward 3 | edward the third | edward third | king edward iii | king edward 3
+Edward IV | edward 4 | edward the fourth | edward fourth | king edward iv | king edward 4
+Edward V | edward 5 | edward the fifth | edward fifth | king edward v | king edward 5
+Richard II | richard 2 | richard the second | richard second | king richard ii | king richard 2
+Henry I | henry beauclerc | henry 1 | henry the first | henry first | king henry i | king henry 1
+Henry III | henry 3 | henry the third | henry third | king henry iii | king henry 3
+Stephen | stephen of blois | king stephen
+Matilda | empress matilda | maud | empress maud | queen matilda
+William II | william rufus | rufus | william 2 | william the second | william second | king william ii | king william 2
+James II | james vii | james 7 | james 2 | james the second | james second | king james ii | king james 2
+George II | george 2 | george the second | george second | king george ii | king george 2
+Aethelred the Unready | æthelred the unready | ethelred the unready | ethelred | aethelred | æthelred | ethelred ii | king aethelred the unready
+Athelstan | æthelstan | aethelstan | king athelstan
+Duncan I | duncan | duncan 1 | duncan the first | duncan first | king duncan i | king duncan 1
+Malcolm III | malcolm canmore | malcolm | malcolm 3 | malcolm the third | malcolm third | king malcolm iii | king malcolm 3
+David I | david | david 1 | david the first | david first | king david i | king david 1
+William the Lion | william i of scotland | king william the lion
+James III | james 3 | james the third | james third | king james iii | king james 3
+James IV | james 4 | james the fourth | james fourth | king james iv | king james 4
+James V | james 5 | james the fifth | james fifth | king james v | king james 5
+Kenneth MacAlpin | kenneth i | kenneth 1 | kenneth mac alpin | kenneth | king kenneth macalpin
+Edmund Ironside | edmund ii | edmund 2 | king edmund ironside
+Edgar | edgar the peaceful | edgar of scotland | king edgar
+Harthacnut | hardicanute | harthacanute | king harthacnut
+Sweyn Forkbeard | sweyn | svein forkbeard | sven forkbeard | king sweyn forkbeard
+Harold Harefoot | harold i | harold 1 | king harold harefoot
+John Balliol | balliol | king john balliol
+Alexander III | alexander 3 | alexander the third | alexander third | king alexander iii | king alexander 3
+Margaret, Maid of Norway | maid of norway | margaret maid of norway | margaret of norway | queen margaret, maid of norway
+Mary II | mary 2 | mary the second | mary second | queen mary ii | queen mary 2
+
+[Schooler]
+Mary, Queen of Scots | mary queen of scots | mary stuart | mary stewart
+Richard I | richard the lionheart | richard lionheart | richard coeur de lion | lionheart | richard 1 | richard the first | richard first | king richard i | king richard 1
+John | king john | john lackland
+Henry V | henry 5 | henry the fifth | henry fifth | king henry v | king henry 5
+Edward VI | edward 6 | edward the sixth | edward sixth | king edward vi | king edward 6
+Mary I | bloody mary | mary tudor | mary | mary 1 | mary the first | mary first | queen mary i | queen mary 1
+James I | james vi | james 6 | james vi and i | james | james 1 | james the first | james first | king james i | king james 1
+Charles I | charles 1 | charles the first | charles first | king charles i | king charles 1
+Charles II | merry monarch | charles 2 | charles the second | charles second | king charles ii | king charles 2
+George VI | bertie | george 6 | george the sixth | george sixth | king george vi | king george 6
+George V | george 5 | george the fifth | george fifth | king george v | king george 5
+Anne | queen anne
+Henry VII | henry tudor | henry 7 | henry the seventh | henry seventh | king henry vii | king henry 7
+Edward I | longshanks | edward longshanks | edward | edward 1 | edward the first | edward first | king edward i | king edward 1
+Robert the Bruce | robert i | robert 1 | robert bruce | the bruce | king robert the bruce
+Alfred the Great | alfred | king alfred the great
+Edward the Confessor | saint edward | king edward the confessor
+Harold II | harold godwinson | harold | king harold | harold 2 | harold the second | harold second | king harold ii | king harold 2
+Cnut | canute | knut | cnut the great | canute the great | king cnut
+George I | george 1 | george the first | george first | king george i | king george 1
+George IV | prince regent | george 4 | george the fourth | george fourth | king george iv | king george 4
+William IV | sailor king | william 4 | william the fourth | william fourth | king william iv | king william 4
+Edward VII | edward 7 | edward the seventh | edward seventh | king edward vii | king edward 7
+William III | william of orange | william and mary | william 3 | william the third | william third | king william iii | king william 3
+Henry II | henry 2 | henry the second | henry second | king henry ii | king henry 2
+
+[Too Clever]
+Macbeth | mac beth | king macbeth
+Lady Jane Grey | jane grey | queen jane | lady jane
+Edward VIII | duke of windsor | edward 8 | edward the eighth | edward eighth | king edward viii | king edward 8
+
+[Plankton]
+Elizabeth II | elizabeth | queen elizabeth | elizabeth 2 | elizabeth the second | elizabeth second | queen elizabeth ii | queen elizabeth 2
+Henry VIII | henry | henry 8 | henry the eighth | henry eighth | king henry viii | king henry 8
+Victoria | queen victoria
+Charles III | charles | king charles | charles 3 | charles the third | charles third | king charles iii | king charles 3
+Elizabeth I | the virgin queen | good queen bess | elizabeth 1 | elizabeth the first | elizabeth first | queen elizabeth i | queen elizabeth 1
+William I | william the conqueror | william | william 1 | william the first | william first | king william i | king william 1
+George III | george | mad king george | george 3 | george the third | george third | king george iii | king george 3
+Richard III | richard | richard 3 | richard the third | richard third | king richard iii | king richard 3
 
 [Not accepted]
-King Kong
-Lion King
-Prince
-Queen Elsa
-Shrek
+King Arthur
+Oliver Cromwell
+Richard Cromwell
+Cleopatra
+Napoleon
+Louis XIV
+Marie Antoinette
+Princess Diana
+Prince William
+Prince Harry
+Prince Philip
+King Lear
+Boudica
+Camilla
+Prince Albert
+Kate Middleton
+Catherine of Aragon
+Anne Boleyn
+Charlemagne
 
 # QUESTION
 id: q0142
@@ -303,52 +145,84 @@ prompt: Name an ancient civilization or empire
 [One in a Krillion]
 Nabataeans | nabataean
 
-[Plankton]
-Ancient Egypt | egyptians | egypt | egyptian
-Roman Empire | romans | rome | ancient rome | roman
-Ancient Greece | greeks | greece | greek
-Aztecs | aztec
-Maya | mayans | mayan
-Inca | incas | incan
-Mesopotamia
-
-[Too Clever]
-Vikings | viking
-Ancient China | chinese
-Ottoman Empire
-
-[Schooler]
-Persian Empire | persians | persia
-Babylonians | babylon | babylonian
-Sumerians | sumer | sumerian
-Assyrians | assyria | assyrian
-Han dynasty | han
-Qin dynasty | qin
-Indus Valley Civilization | indus valley | harappan
-Phoenicians | phoenicia
-Carthage | carthaginians
-Spartans | sparta
-Athenians | athens
-Hittites | hittite
-Celts | celtic
-Mongol Empire | mongols
-Byzantine Empire | byzantines | byzantium
-Olmecs | olmec
-Minoans | minoan
-Mycenaeans | mycenae
-Etruscans
-Macedonian Empire | macedonia
-Kingdom of Kush | kush | nubia | nubians
-Hebrews | israelites
-Huns
-Goths
-Gauls
-Mali Empire | mali
-Aksum | axum
-Great Zimbabwe
-Khmer Empire | khmer | angkor
-Maurya Empire | mauryan
-Gupta Empire
+[Deep Cut]
+Natufians
+Catalhoyuk
+Ubaid
+Uruk
+Jemdet Nasr
+Ebla
+Mari
+Ugarit
+Dilmun
+Magan
+Meluhha
+Gutians
+Lullubi
+Hyksos
+Kerma
+Meroe
+Punt
+Garamantes
+Nok culture
+Ife
+Igbo-Ukwu
+Djenne-Djenno
+Mapungubwe
+Swahili city-states
+Kilwa Sultanate
+Zagwe dynasty
+Sabaeans | sheba
+Himyarites
+Qataban
+Hadramaut
+Palmyrenes
+Commagene
+Pontus
+Bactria
+Greco-Bactrians
+Indo-Greeks
+Sogdians
+Tocharians
+Saka
+Hephthalites
+Alans
+Avars
+Bulgars
+Magyars
+Cimmerians
+Hallstatt culture
+La Tene culture
+Urnfield culture
+Beaker culture
+Corded Ware
+Yamnaya
+Andronovo
+Sintashta
+Cucuteni-Trypillia
+Vinca culture
+Cycladic
+Nuragic
+Talayotic
+Tartessos
+Villanovan
+Liangzhu
+Erlitou
+Sanxingdui
+Hongshan
+Yangshao
+Longshan
+Dong Son
+Sa Huynh
+Lapita
+Valdivia
+Paracas
+Recuay
+Cupisnique
+Huastec
+Totonac
+Purepecha | tarascan
+Tlaxcala
 
 [Rare]
 Akkadian Empire | akkad
@@ -450,84 +324,52 @@ Timurid Empire
 Safavid Empire
 Golden Horde
 
-[Deep Cut]
-Natufians
-Catalhoyuk
-Ubaid
-Uruk
-Jemdet Nasr
-Ebla
-Mari
-Ugarit
-Dilmun
-Magan
-Meluhha
-Gutians
-Lullubi
-Hyksos
-Kerma
-Meroe
-Punt
-Garamantes
-Nok culture
-Ife
-Igbo-Ukwu
-Djenne-Djenno
-Mapungubwe
-Swahili city-states
-Kilwa Sultanate
-Zagwe dynasty
-Sabaeans | sheba
-Himyarites
-Qataban
-Hadramaut
-Palmyrenes
-Commagene
-Pontus
-Bactria
-Greco-Bactrians
-Indo-Greeks
-Sogdians
-Tocharians
-Saka
-Hephthalites
-Alans
-Avars
-Bulgars
-Magyars
-Cimmerians
-Hallstatt culture
-La Tene culture
-Urnfield culture
-Beaker culture
-Corded Ware
-Yamnaya
-Andronovo
-Sintashta
-Cucuteni-Trypillia
-Vinca culture
-Cycladic
-Nuragic
-Talayotic
-Tartessos
-Villanovan
-Liangzhu
-Erlitou
-Sanxingdui
-Hongshan
-Yangshao
-Longshan
-Dong Son
-Sa Huynh
-Lapita
-Valdivia
-Paracas
-Recuay
-Cupisnique
-Huastec
-Totonac
-Purepecha | tarascan
-Tlaxcala
+[Schooler]
+Persian Empire | persians | persia
+Babylonians | babylon | babylonian
+Sumerians | sumer | sumerian
+Assyrians | assyria | assyrian
+Han dynasty | han
+Qin dynasty | qin
+Indus Valley Civilization | indus valley | harappan
+Phoenicians | phoenicia
+Carthage | carthaginians
+Spartans | sparta
+Athenians | athens
+Hittites | hittite
+Celts | celtic
+Mongol Empire | mongols
+Byzantine Empire | byzantines | byzantium
+Olmecs | olmec
+Minoans | minoan
+Mycenaeans | mycenae
+Etruscans
+Macedonian Empire | macedonia
+Kingdom of Kush | kush | nubia | nubians
+Hebrews | israelites
+Huns
+Goths
+Gauls
+Mali Empire | mali
+Aksum | axum
+Great Zimbabwe
+Khmer Empire | khmer | angkor
+Maurya Empire | mauryan
+Gupta Empire
+
+[Too Clever]
+Vikings | viking
+Ancient China | chinese
+Ottoman Empire
+
+[Plankton]
+Ancient Egypt | egyptians | egypt | egyptian
+Roman Empire | romans | rome | ancient rome | roman
+Ancient Greece | greeks | greece | greek
+Aztecs | aztec
+Maya | mayans | mayan
+Inca | incas | incan
+Mesopotamia
 
 [Not accepted]
 Atlantis
@@ -547,85 +389,63 @@ prompt: Name a chess term or piece
 [One in a Krillion]
 En passant
 
-[Plankton]
-King
-Queen
-Checkmate
-Check
-Pawn
-Knight | horse
-Rook | castle
-Bishop
-
-[Too Clever]
-Queen's gambit
-Bongcloud
-Stalemate
-Grandmaster | gm
-
-[Schooler]
-Castling
-Promotion
-Opening
-Endgame
-Middlegame
-Gambit
-Fork
-Pin
-Skewer
-Sacrifice | sac
-Draw
-Resign | resignation
-Scholar's mate
-Fool's mate
-King's gambit
-Sicilian Defense | sicilian
-French Defense
-Caro-Kann
-Ruy Lopez | spanish opening
-Italian Game
-London System
-Rank
-File
-Diagonal
-Square
-Tempo
-Blunder
-Touch-move | touch move
-Chess clock | clock
-Blitz
-Bullet
-Rapid
-Elo | elo rating
-Rating
-International master | im
-FIDE
-Discovered check
-Double check
-Back-rank mate
-Smothered mate
-Zugzwang
-Underpromotion
-Fianchetto
-Center
-Development
-Threefold repetition
-Fifty-move rule | 50-move rule
-Notation
-Light square
-Dark square
-Kingside
-Queenside
-Passed pawn
-Isolated pawn
-Doubled pawns
-Pawn structure
-Exchange
-Trade
-Material
-Hanging piece
-Attack
-Defense
+[Deep Cut]
+Luft
+Prophylaxis
+Overprotection
+Blockade
+Restriction
+Mysterious rook move
+Hypermodern
+Immortal Game
+Evergreen Game
+Opera Game
+Game of the Century
+Greek gift sacrifice
+Anastasia's mate
+Arabian mate
+Boden's mate
+Epaulette mate
+Legal's mate
+Damiano's mate
+Lolli's mate
+Morphy's mate
+Pillsbury's mate
+Opera mate
+Swallow's tail mate
+Dovetail mate
+Hook mate
+Corridor mate
+Blackburne's mate
+Max Lange's mate
+Reti's mate
+Kingside attack
+Queenside majority
+Pawn break
+Lever
+Ram
+Hanging pawns
+Isolani
+Sealed move
+Adjournment
+J'adoube
+Kriegspiel
+Fairy chess
+Archbishop
+Chancellor
+Nightrider
+Shatranj
+Shogi
+Xiangqi
+Makruk
+Chaturanga
+Alfil
+Ferz
+Vizier
+Tablebase
+Retrograde analysis
+Selfmate
+Helpmate
 
 [Rare]
 Kingside castling | castling short | short castle | o-o
@@ -730,63 +550,85 @@ Smith-Morra Gambit
 Fried Liver Attack
 Jobava London
 
-[Deep Cut]
-Luft
-Prophylaxis
-Overprotection
-Blockade
-Restriction
-Mysterious rook move
-Hypermodern
-Immortal Game
-Evergreen Game
-Opera Game
-Game of the Century
-Greek gift sacrifice
-Anastasia's mate
-Arabian mate
-Boden's mate
-Epaulette mate
-Legal's mate
-Damiano's mate
-Lolli's mate
-Morphy's mate
-Pillsbury's mate
-Opera mate
-Swallow's tail mate
-Dovetail mate
-Hook mate
-Corridor mate
-Blackburne's mate
-Max Lange's mate
-Reti's mate
-Kingside attack
-Queenside majority
-Pawn break
-Lever
-Ram
-Hanging pawns
-Isolani
-Sealed move
-Adjournment
-J'adoube
-Kriegspiel
-Fairy chess
-Archbishop
-Chancellor
-Nightrider
-Shatranj
-Shogi
-Xiangqi
-Makruk
-Chaturanga
-Alfil
-Ferz
-Vizier
-Tablebase
-Retrograde analysis
-Selfmate
-Helpmate
+[Schooler]
+Castling
+Promotion
+Opening
+Endgame
+Middlegame
+Gambit
+Fork
+Pin
+Skewer
+Sacrifice | sac
+Draw
+Resign | resignation
+Scholar's mate
+Fool's mate
+King's gambit
+Sicilian Defense | sicilian
+French Defense
+Caro-Kann
+Ruy Lopez | spanish opening
+Italian Game
+London System
+Rank
+File
+Diagonal
+Square
+Tempo
+Blunder
+Touch-move | touch move
+Chess clock | clock
+Blitz
+Bullet
+Rapid
+Elo | elo rating
+Rating
+International master | im
+FIDE
+Discovered check
+Double check
+Back-rank mate
+Smothered mate
+Zugzwang
+Underpromotion
+Fianchetto
+Center
+Development
+Threefold repetition
+Fifty-move rule | 50-move rule
+Notation
+Light square
+Dark square
+Kingside
+Queenside
+Passed pawn
+Isolated pawn
+Doubled pawns
+Pawn structure
+Exchange
+Trade
+Material
+Hanging piece
+Attack
+Defense
+
+[Too Clever]
+Queen's gambit
+Bongcloud
+Stalemate
+Grandmaster | gm
+
+[Plankton]
+King
+Queen
+Checkmate
+Check
+Pawn
+Knight | horse
+Rook | castle
+Bishop
 
 [Not accepted]
 Checkers
@@ -805,56 +647,61 @@ prompt: Name a term of endearment (like honey or sweetie)
 [One in a Krillion]
 Snookums
 
-[Plankton]
-Honey | hon
-Sweetie | sweetheart
-Baby | babe
-Darling
-Dear
-Love
-Sugar
-Cutie
-
-[Too Clever]
-Bae
-Boo
-My precious | precious
-
-[Schooler]
-Sweetie pie
-Honey bun | honeybun
-Pumpkin
-Angel
-Sunshine
-Buttercup
-Cupcake
-Muffin
-Peanut
-Kiddo
-Buddy
-Pal
-Champ
-Sweet pea
-Doll
-Dollface
-Gorgeous
-Handsome
-Beautiful
-Princess
-Kitten
-Bunny
-Teddy bear
-Lovebug
-Cuddle bug
-Pookie
-Babycakes
-Sugar plum
-Darlin'
-Sweet cheeks
-Snuggle bug
-Dumpling
-Baby girl
-Baby boy
+[Deep Cut]
+Mon cheri | mon chéri
+Ma cherie
+Mon amour
+Mi amor
+Cariño
+Querido | querida
+Mi vida
+Mi cielo
+Gordito | gordita
+Mija
+Mijo
+Papi
+Mami
+Habibi
+Habibti
+Liebling
+Schatz
+Bubeleh
+Neshama
+Tesoro
+Amore
+Cara mia
+Bella
+Agapi mou
+Koukla
+Moya lyubov
+Solnyshko
+Zaychik
+Elskling
+Min skat
+Schatje
+Liefje
+Kochanie
+Aroha
+Ku'uipo
+Mahal
+Jagiya
+Aegi
+Xiao bao
+Baobei
+Hen
+Lovie
+Me duck
+Chuck
+Bab
+Treacle
+Dearie
+Doll baby
+Mavourneen
+Macushla
+Alanna
+A stór | a stor
+Cushla
+Cariad
 
 [Rare]
 Sugarpie | sugar pie
@@ -926,61 +773,56 @@ Petal
 Blossom
 Rosebud
 
-[Deep Cut]
-Mon cheri | mon chéri
-Ma cherie
-Mon amour
-Mi amor
-Cariño
-Querido | querida
-Mi vida
-Mi cielo
-Gordito | gordita
-Mija
-Mijo
-Papi
-Mami
-Habibi
-Habibti
-Liebling
-Schatz
-Bubeleh
-Neshama
-Tesoro
-Amore
-Cara mia
-Bella
-Agapi mou
-Koukla
-Moya lyubov
-Solnyshko
-Zaychik
-Elskling
-Min skat
-Schatje
-Liefje
-Kochanie
-Aroha
-Ku'uipo
-Mahal
-Jagiya
-Aegi
-Xiao bao
-Baobei
-Hen
-Lovie
-Me duck
-Chuck
-Bab
-Treacle
-Dearie
-Doll baby
-Mavourneen
-Macushla
-Alanna
-A stór | a stor
-Cushla
-Cariad
+[Schooler]
+Sweetie pie
+Honey bun | honeybun
+Pumpkin
+Angel
+Sunshine
+Buttercup
+Cupcake
+Muffin
+Peanut
+Kiddo
+Buddy
+Pal
+Champ
+Sweet pea
+Doll
+Dollface
+Gorgeous
+Handsome
+Beautiful
+Princess
+Kitten
+Bunny
+Teddy bear
+Lovebug
+Cuddle bug
+Pookie
+Babycakes
+Sugar plum
+Darlin'
+Sweet cheeks
+Snuggle bug
+Dumpling
+Baby girl
+Baby boy
+
+[Too Clever]
+Bae
+Boo
+My precious | precious
+
+[Plankton]
+Honey | hon
+Sweetie | sweetheart
+Baby | babe
+Darling
+Dear
+Love
+Sugar
+Cutie
 
 [Not accepted]
 Idiot
@@ -998,66 +840,42 @@ prompt: Name a yoga pose
 [One in a Krillion]
 Happy baby | happy baby pose | ananda balasana
 
-[Plankton]
-Downward dog | downward-facing dog | down dog | adho mukha svanasana
-Child's pose | childs pose | balasana
-Tree pose | tree | vrksasana
-Warrior | warrior pose | warrior one | warrior i | warrior 1
-Cobra | cobra pose | bhujangasana
-Lotus | lotus pose | padmasana
-Mountain pose | mountain | tadasana
-
-[Too Clever]
-Plank | plank pose
-Corpse pose | savasana | shavasana
-Cat-cow | cat cow
-
-[Schooler]
-Warrior two | warrior ii | warrior 2 | virabhadrasana ii
-Warrior three | warrior iii | warrior 3
-Upward dog | upward-facing dog | up dog
-Triangle | triangle pose | trikonasana
-Bridge | bridge pose | setu bandha
-Cat pose | cat
-Cow pose | cow
-Chair pose | utkatasana
-Boat pose | navasana
-Pigeon | pigeon pose
-Camel pose | camel | ustrasana
-Crow pose | crow | bakasana
-Headstand | sirsasana
-Shoulder stand | sarvangasana
-Plow pose | plow | halasana
-Fish pose | fish | matsyasana
-Bow pose | bow | dhanurasana
-Wheel pose | wheel | urdhva dhanurasana
-Forward fold | standing forward bend | uttanasana
-Seated forward bend | paschimottanasana
-Butterfly | bound angle | baddha konasana
-Easy pose | sukhasana
-Eagle pose | eagle | garudasana
-Half moon | ardha chandrasana
-Dancer pose | dancer | natarajasana
-Low lunge | crescent lunge | anjaneyasana
-High lunge
-Sun salutation | surya namaskar
-Side plank | vasisthasana
-Chaturanga
-Legs up the wall | viparita karani
-Reclined twist | supine twist
-Seated twist
-Garland pose | malasana | yogi squat
-Puppy pose
-Sphinx pose | sphinx
-Locust pose | locust | salabhasana
-Frog pose
-Goddess pose
-Thread the needle
-Extended side angle | side angle
-Reverse warrior
-Star pose
-Hero pose | virasana
-Staff pose | dandasana
+[Deep Cut]
+Kapotasana
+Eka pada koundinyasana
+Dwi pada koundinyasana
+Galavasana
+Visvamitrasana
+Parsva bakasana
+Urdhva kukkutasana
+Bhujapidasana
+Eka pada bakasana
+Tolasana
+Lolasana
+Padma mayurasana
+Ganda bherundasana
+Viparita salabhasana
+Bhekasana
+Paryankasana
+Supta virasana
+Laghu vajrasana
+Kapinjalasana
+Valakhilyasana
+Raja kapotasana
+Eka pada sirsasana
+Yoganidrasana
+Durvasasana
+Ruchikasana
+Skandasana
+Bhairavasana
+Chakorasana
+Kala bhairavasana
+Uttana padasana
+Jathara parivartanasana
+Ardha baddha padmottanasana
+Utkata konasana
+Mandukasana
+Shashankasana
 
 [Rare]
 Firefly pose | tittibhasana
@@ -1124,42 +942,66 @@ Square pose
 Melting heart
 Anahatasana
 
-[Deep Cut]
-Kapotasana
-Eka pada koundinyasana
-Dwi pada koundinyasana
-Galavasana
-Visvamitrasana
-Parsva bakasana
-Urdhva kukkutasana
-Bhujapidasana
-Eka pada bakasana
-Tolasana
-Lolasana
-Padma mayurasana
-Ganda bherundasana
-Viparita salabhasana
-Bhekasana
-Paryankasana
-Supta virasana
-Laghu vajrasana
-Kapinjalasana
-Valakhilyasana
-Raja kapotasana
-Eka pada sirsasana
-Yoganidrasana
-Durvasasana
-Ruchikasana
-Skandasana
-Bhairavasana
-Chakorasana
-Kala bhairavasana
-Uttana padasana
-Jathara parivartanasana
-Ardha baddha padmottanasana
-Utkata konasana
-Mandukasana
-Shashankasana
+[Schooler]
+Warrior two | warrior ii | warrior 2 | virabhadrasana ii
+Warrior three | warrior iii | warrior 3
+Upward dog | upward-facing dog | up dog
+Triangle | triangle pose | trikonasana
+Bridge | bridge pose | setu bandha
+Cat pose | cat
+Cow pose | cow
+Chair pose | utkatasana
+Boat pose | navasana
+Pigeon | pigeon pose
+Camel pose | camel | ustrasana
+Crow pose | crow | bakasana
+Headstand | sirsasana
+Shoulder stand | sarvangasana
+Plow pose | plow | halasana
+Fish pose | fish | matsyasana
+Bow pose | bow | dhanurasana
+Wheel pose | wheel | urdhva dhanurasana
+Forward fold | standing forward bend | uttanasana
+Seated forward bend | paschimottanasana
+Butterfly | bound angle | baddha konasana
+Easy pose | sukhasana
+Eagle pose | eagle | garudasana
+Half moon | ardha chandrasana
+Dancer pose | dancer | natarajasana
+Low lunge | crescent lunge | anjaneyasana
+High lunge
+Sun salutation | surya namaskar
+Side plank | vasisthasana
+Chaturanga
+Legs up the wall | viparita karani
+Reclined twist | supine twist
+Seated twist
+Garland pose | malasana | yogi squat
+Puppy pose
+Sphinx pose | sphinx
+Locust pose | locust | salabhasana
+Frog pose
+Goddess pose
+Thread the needle
+Extended side angle | side angle
+Reverse warrior
+Star pose
+Hero pose | virasana
+Staff pose | dandasana
+
+[Too Clever]
+Plank | plank pose
+Corpse pose | savasana | shavasana
+Cat-cow | cat cow
+
+[Plankton]
+Downward dog | downward-facing dog | down dog | adho mukha svanasana
+Child's pose | childs pose | balasana
+Tree pose | tree | vrksasana
+Warrior | warrior pose | warrior one | warrior i | warrior 1
+Cobra | cobra pose | bhujangasana
+Lotus | lotus pose | padmasana
+Mountain pose | mountain | tadasana
 
 [Not accepted]
 Push-up
@@ -1178,20 +1020,76 @@ prompt: Name a famous vehicle from a movie, TV show, or game
 [One in a Krillion]
 Ecto-1 | ecto 1 | ghostbusters car
 
-[Plankton]
-Batmobile
-DeLorean | time machine
-Millennium Falcon
-Herbie | herbie the love bug
-Lightning McQueen | mcqueen
-General Lee
-KITT | knight rider car
-Mystery Machine
+[Deep Cut]
+Pussy Wagon
+Gigahorse
+Doof Wagon
+Wayne's World Mirthmobile | mirthmobile
+Breaking Bad RV | krystal ship
+Harold and Maude hearse
+Hoverboard
+E.T. bike
+Akira bike | kaneda's bike
+Tron light cycle | light cycle
+Recognizer
+Solar sailer
+Spinner | blade runner spinner
+Green Hornet Black Beauty | black beauty
+Mach 6
+Hot Wheels Twin Mill
+Bone Shaker
+Deora
+Duel truck
+Convoy truck
+Rubber Duck truck
+Tachikoma
 
-[Too Clever]
-Magic School Bus
-Flintstones car | flintmobile
-Bigfoot monster truck | bigfoot
+[Rare]
+Aston Martin DB5 | james bond car | bond car
+Lotus Esprit submarine | wet nellie
+Little Nellie
+Mini Cooper Italian Job | italian job minis
+VW bus Little Miss Sunshine | little miss sunshine van
+Airwolf
+Blue Thunder
+Street Hawk
+KARR
+Doc Hudson
+Sally Carrera
+Luigi
+Guido
+Ramone
+Fillmore
+Sarge
+Mack
+Chick Hicks
+The King
+Cruz Ramirez
+Jackson Storm
+Finn McMissile
+Holley Shiftwell
+Percy
+Gordon
+James
+Henry
+Edward
+Toby
+Emily
+Diesel 10
+Harold the helicopter
+Bertie the bus
+Wacky Races Mean Machine | mean machine
+Compact Pussycat
+Turbo Terrific
+Army Surplus Special
+Bulletproof Bomb
+Arkansas Chuggabug
+Convert-a-Car
+Crimson Haybailer
+Creepy Coupe
+Penelope Pitstop's car
+Peter Perfect's car
+Turbo Teen
 
 [Schooler]
 Starship Enterprise | enterprise | uss enterprise
@@ -1285,76 +1183,20 @@ Milano
 Benatar
 Sanctuary II
 
-[Rare]
-Aston Martin DB5 | james bond car | bond car
-Lotus Esprit submarine | wet nellie
-Little Nellie
-Mini Cooper Italian Job | italian job minis
-VW bus Little Miss Sunshine | little miss sunshine van
-Airwolf
-Blue Thunder
-Street Hawk
-KARR
-Doc Hudson
-Sally Carrera
-Luigi
-Guido
-Ramone
-Fillmore
-Sarge
-Mack
-Chick Hicks
-The King
-Cruz Ramirez
-Jackson Storm
-Finn McMissile
-Holley Shiftwell
-Percy
-Gordon
-James
-Henry
-Edward
-Toby
-Emily
-Diesel 10
-Harold the helicopter
-Bertie the bus
-Wacky Races Mean Machine | mean machine
-Compact Pussycat
-Turbo Terrific
-Army Surplus Special
-Bulletproof Bomb
-Arkansas Chuggabug
-Convert-a-Car
-Crimson Haybailer
-Creepy Coupe
-Penelope Pitstop's car
-Peter Perfect's car
-Turbo Teen
+[Too Clever]
+Magic School Bus
+Flintstones car | flintmobile
+Bigfoot monster truck | bigfoot
 
-[Deep Cut]
-Pussy Wagon
-Gigahorse
-Doof Wagon
-Wayne's World Mirthmobile | mirthmobile
-Breaking Bad RV | krystal ship
-Harold and Maude hearse
-Hoverboard
-E.T. bike
-Akira bike | kaneda's bike
-Tron light cycle | light cycle
-Recognizer
-Solar sailer
-Spinner | blade runner spinner
-Green Hornet Black Beauty | black beauty
-Mach 6
-Hot Wheels Twin Mill
-Bone Shaker
-Deora
-Duel truck
-Convoy truck
-Rubber Duck truck
-Tachikoma
+[Plankton]
+Batmobile
+DeLorean | time machine
+Millennium Falcon
+Herbie | herbie the love bug
+Lightning McQueen | mcqueen
+General Lee
+KITT | knight rider car
+Mystery Machine
 
 [Not accepted]
 Toyota Corolla
@@ -1373,76 +1215,65 @@ prompt: Name something you'd see on a road or highway
 [One in a Krillion]
 Botts' dots | botts dots
 
-[Plankton]
-Car
-Truck
-Stop sign
-Traffic light | stoplight | traffic signal
-Speed limit sign
-Pothole
-Lines | road lines | lane lines
-Bus
-
-[Too Clever]
-Chicken crossing the road | chicken
-Roadkill
-Road rage
-
-[Schooler]
-Motorcycle
-Bicycle
-Semi truck | semi | 18-wheeler
-Police car
-Ambulance
-Fire truck
-Taxi
-Van
-SUV
-Exit sign
-Billboard
-Guardrail
-Median
-Shoulder
-Lane
-Crosswalk
-Overpass
-Bridge
-Tunnel
-Toll booth
-Gas station
-Rest stop
-Mile marker
-Road sign
-Yield sign
-Speed bump
-Traffic cone | cone
-Construction zone | road work
-Detour sign
-Street light | streetlight | lamppost
-Reflectors
-Rumble strips
-Intersection
-Roundabout | traffic circle
-On-ramp | ramp
-Off-ramp
-Hitchhiker
-Deer
-Litter | trash
-Tire tracks
-Skid marks
-Puddle
-Ice | black ice
-Speed trap
-Speed camera
-Wrong way sign
-Merge sign
-One way sign
-Railroad crossing
-Train
-Pedestrian
-Cyclist
-Jaywalker
-Crossing guard
+[Deep Cut]
+Cat's eyes
+Raised pavement markers
+Delineator posts
+Bollard
+Speed table
+Chicane
+Pinch point
+Diverter
+Bulb-out
+Pork chop island
+Gore point
+Crash attenuator | impact attenuator
+Sand barrels
+Cable barrier
+Arrow board
+Message board trailer
+Pilot car
+Escort vehicle
+Oversize load
+Wide load sign
+Slow-moving vehicle sign
+Amish buggy
+Tractor
+Combine
+Golf cart
+Moped
+Scooter
+Electric scooter
+Rollerblader
+Skateboarder
+Horse and rider
+Roadside vendor
+Fruit stand
+Fireworks stand
+Roadside memorial
+Adopt-a-Highway sign
+Litter crew
+Mowing crew
+Bridge inspector
+Toll collector
+Weigh-in-motion
+Brake check area
+Chain-up area
+Truck escape ramp
+Jake brake sign
+Hidden driveway sign
+Blind curve
+Switchback
+Hairpin turn
+Grade sign
+Steep hill
+Falling rocks sign
+Rockfall netting
+Low clearance sign
+Height restriction
+Weight limit sign
+Bridge ices before road
+Slippery when wet
 
 [Rare]
 Jersey barrier
@@ -1522,65 +1353,76 @@ Avalanche shed
 Snow fence
 Sound wall | noise barrier
 
-[Deep Cut]
-Cat's eyes
-Raised pavement markers
-Delineator posts
-Bollard
-Speed table
-Chicane
-Pinch point
-Diverter
-Bulb-out
-Pork chop island
-Gore point
-Crash attenuator | impact attenuator
-Sand barrels
-Cable barrier
-Arrow board
-Message board trailer
-Pilot car
-Escort vehicle
-Oversize load
-Wide load sign
-Slow-moving vehicle sign
-Amish buggy
-Tractor
-Combine
-Golf cart
-Moped
-Scooter
-Electric scooter
-Rollerblader
-Skateboarder
-Horse and rider
-Roadside vendor
-Fruit stand
-Fireworks stand
-Roadside memorial
-Adopt-a-Highway sign
-Litter crew
-Mowing crew
-Bridge inspector
-Toll collector
-Weigh-in-motion
-Brake check area
-Chain-up area
-Truck escape ramp
-Jake brake sign
-Hidden driveway sign
-Blind curve
-Switchback
-Hairpin turn
-Grade sign
-Steep hill
-Falling rocks sign
-Rockfall netting
-Low clearance sign
-Height restriction
-Weight limit sign
-Bridge ices before road
-Slippery when wet
+[Schooler]
+Motorcycle
+Bicycle
+Semi truck | semi | 18-wheeler
+Police car
+Ambulance
+Fire truck
+Taxi
+Van
+SUV
+Exit sign
+Billboard
+Guardrail
+Median
+Shoulder
+Lane
+Crosswalk
+Overpass
+Bridge
+Tunnel
+Toll booth
+Gas station
+Rest stop
+Mile marker
+Road sign
+Yield sign
+Speed bump
+Traffic cone | cone
+Construction zone | road work
+Detour sign
+Street light | streetlight | lamppost
+Reflectors
+Rumble strips
+Intersection
+Roundabout | traffic circle
+On-ramp | ramp
+Off-ramp
+Hitchhiker
+Deer
+Litter | trash
+Tire tracks
+Skid marks
+Puddle
+Ice | black ice
+Speed trap
+Speed camera
+Wrong way sign
+Merge sign
+One way sign
+Railroad crossing
+Train
+Pedestrian
+Cyclist
+Jaywalker
+Crossing guard
+
+[Too Clever]
+Chicken crossing the road | chicken
+Roadkill
+Road rage
+
+[Plankton]
+Car
+Truck
+Stop sign
+Traffic light | stoplight | traffic signal
+Speed limit sign
+Pothole
+Lines | road lines | lane lines
+Bus
 
 [Not accepted]
 Airplane
@@ -1598,88 +1440,71 @@ prompt: Name something you'd find in a garden
 [One in a Krillion]
 Gazing ball | gazing globe
 
-[Plankton]
-Flowers | flower
-Dirt | soil
-Plants | plant
-Vegetables
-Tomatoes | tomato
-Worms | earthworm | worm
-Weeds | weed
-Garden hose | hose
-
-[Too Clever]
-Garden gnome | gnome
-Snake | garden snake
-
-[Schooler]
-Roses | rose
-Tulips
-Sunflowers
-Daisies
-Carrots
-Lettuce
-Cucumbers
-Peppers
-Zucchini
-Squash
-Pumpkins
-Strawberries
-Herbs
-Basil
-Mint
-Watering can
-Shovel
-Rake
-Hoe
-Trowel
-Gloves | gardening gloves
-Wheelbarrow
-Sprinkler
-Fence
-Gate
-Path | garden path
-Bench
-Birdbath | bird bath
-Bird feeder
-Birdhouse
-Bees | bee
-Butterflies
-Ladybugs
-Snails
-Slugs
-Ants
-Birds
-Squirrels
-Rabbits
-Seeds
-Bulbs
-Compost
-Mulch
-Fertilizer
-Pots | flower pot
-Planter
-Raised bed
-Trellis
-Scarecrow
-Shed | garden shed
-Greenhouse
-Fountain
-Pond
-Rocks | stones
-Stepping stones
-Statue
-Wind chime
-Grass | lawn
-Bush | shrub
-Hedge
-Tree
-Vine
-Ivy
-Moss
-Mushrooms
-Butterfly bush
-Hummingbird feeder
+[Deep Cut]
+Dibber
+Hori hori
+Bulb planter
+Soil knife
+Edger
+Half-moon edger
+Thatch rake
+Leaf rake
+Bow rake
+Hand cultivator
+Weeder
+Dandelion puller
+Scuffle hoe
+Stirrup hoe
+Broadfork
+Soil test kit
+Rain gauge
+Garden thermometer
+Seed tray
+Seedling pots
+Peat pots
+Grow lights
+Heat mat
+Plant ties
+Chicken wire
+Hardware cloth
+Bird netting
+Deer fence
+Electric fence
+Scare tape
+Owl decoy
+Motion-activated sprinkler
+Beehive
+Mason bee house
+Bat house
+Bug hotel | insect hotel
+Toad house
+Butterfly house
+Wormery
+Leaf mold
+Biochar
+Vermicompost
+Green manure
+Cover crop
+Mycorrhizae
+Hügelkultur
+Swale
+Keyhole garden
+Square foot garden
+Lasagna garden
+Straw bale garden
+Hydroponics
+Aquaponics
+Potager
+Parterre
+Knot garden
+Grotto
+Rill
+Pond liner
+Pond pump
+Bog garden
+Wildflower meadow
+Mixed border
+Herbaceous border
 
 [Rare]
 Pruning shears | pruners | secateurs
@@ -1793,71 +1618,88 @@ Blackberries
 Apple tree
 Fruit trees
 
-[Deep Cut]
-Dibber
-Hori hori
-Bulb planter
-Soil knife
-Edger
-Half-moon edger
-Thatch rake
-Leaf rake
-Bow rake
-Hand cultivator
-Weeder
-Dandelion puller
-Scuffle hoe
-Stirrup hoe
-Broadfork
-Soil test kit
-Rain gauge
-Garden thermometer
-Seed tray
-Seedling pots
-Peat pots
-Grow lights
-Heat mat
-Plant ties
-Chicken wire
-Hardware cloth
-Bird netting
-Deer fence
-Electric fence
-Scare tape
-Owl decoy
-Motion-activated sprinkler
-Beehive
-Mason bee house
-Bat house
-Bug hotel | insect hotel
-Toad house
-Butterfly house
-Wormery
-Leaf mold
-Biochar
-Vermicompost
-Green manure
-Cover crop
-Mycorrhizae
-Hügelkultur
-Swale
-Keyhole garden
-Square foot garden
-Lasagna garden
-Straw bale garden
-Hydroponics
-Aquaponics
-Potager
-Parterre
-Knot garden
-Grotto
-Rill
-Pond liner
-Pond pump
-Bog garden
-Wildflower meadow
-Mixed border
-Herbaceous border
+[Schooler]
+Roses | rose
+Tulips
+Sunflowers
+Daisies
+Carrots
+Lettuce
+Cucumbers
+Peppers
+Zucchini
+Squash
+Pumpkins
+Strawberries
+Herbs
+Basil
+Mint
+Watering can
+Shovel
+Rake
+Hoe
+Trowel
+Gloves | gardening gloves
+Wheelbarrow
+Sprinkler
+Fence
+Gate
+Path | garden path
+Bench
+Birdbath | bird bath
+Bird feeder
+Birdhouse
+Bees | bee
+Butterflies
+Ladybugs
+Snails
+Slugs
+Ants
+Birds
+Squirrels
+Rabbits
+Seeds
+Bulbs
+Compost
+Mulch
+Fertilizer
+Pots | flower pot
+Planter
+Raised bed
+Trellis
+Scarecrow
+Shed | garden shed
+Greenhouse
+Fountain
+Pond
+Rocks | stones
+Stepping stones
+Statue
+Wind chime
+Grass | lawn
+Bush | shrub
+Hedge
+Tree
+Vine
+Ivy
+Moss
+Mushrooms
+Butterfly bush
+Hummingbird feeder
+
+[Too Clever]
+Garden gnome | gnome
+Snake | garden snake
+
+[Plankton]
+Flowers | flower
+Dirt | soil
+Plants | plant
+Vegetables
+Tomatoes | tomato
+Worms | earthworm | worm
+Weeds | weed
+Garden hose | hose
 
 [Not accepted]
 Television
@@ -1869,299 +1711,102 @@ Bed
 # QUESTION
 id: q0149
 pool: unlimited
-category: nature
-prompt: Name a national park (in any country)
+category: geography
+prompt: Name a US national park
+note: The 63 official US national parks. National monuments, seashores, recreation areas and state parks don't count.
 
 [One in a Krillion]
-Gates of the Arctic
+Congaree | congaree national park
+
+[Deep Cut]
+Kobuk Valley | kobuk
+Gates of the Arctic | gates of the arctic national park
+Lake Clark
+Katmai
+Wrangell-St. Elias | wrangell st elias | wrangell | wrangell saint elias
+Isle Royale | isle royal
+Dry Tortugas | dry tortuga
+American Samoa | national park of american samoa
+Virgin Islands | virgin islands national park
+Great Basin
+Pinnacles
+Black Canyon of the Gunnison | black canyon
+Guadalupe Mountains | guadalupe
+Voyageurs | voyageur
+Cuyahoga Valley | cuyahoga
+Indiana Dunes
+New River Gorge | new river
+Kenai Fjords | kenai fjord | kenai
+Lassen Volcanic | lassen
+North Cascades
+Theodore Roosevelt | teddy roosevelt
+Wind Cave
+Hot Springs
+Gateway Arch | gateway arch national park | st louis arch
+Channel Islands
+Biscayne | biscayne bay
+
+[Rare]
+Capitol Reef | capital reef
+Canyonlands | canyon lands
+Great Sand Dunes | sand dunes
+Mesa Verde
+Saguaro
+Petrified Forest
+White Sands
+Crater Lake
+Haleakala | haleakalā
+Hawaii Volcanoes | hawaii volcanoes national park | volcanoes national park
+Glacier Bay
+Mammoth Cave
+Big Bend
+Carlsbad Caverns | carlsbad
+Badlands | badlands national park
+Redwood | redwoods | redwood national park
+Kings Canyon
+Mount Rainier | rainier | mt rainier
+
+[Schooler]
+Death Valley
+Olympic | olympic national park
+Bryce Canyon | bryce
+Arches
+Sequoia
+Shenandoah | shenandoa
+Acadia | arcadia
+Denali
+Joshua Tree
+Everglades | the everglades
+Great Smoky Mountains | smoky mountains | great smokey mountains | smokies | great smokies
+Grand Teton | grand tetons | tetons
+
+[Too Clever]
+Glacier | glacier national park
+Rocky Mountain | rocky mountain national park | rockies
 
 [Plankton]
 Yellowstone
-Yosemite
+Yosemite | yosemity
 Grand Canyon
-Zion
-Glacier
-Great Smoky Mountains | smoky mountains | smokies
-Rocky Mountain | rocky mountain national park
-Everglades
-
-[Too Clever]
-Hot Springs
-Gateway Arch
-
-[Schooler]
-Arches
-Acadia
-Grand Teton | tetons
-Bryce Canyon | bryce
-Olympic
-Mount Rainier
-Joshua Tree
-Death Valley
-Sequoia
-Kings Canyon
-Redwood | redwoods
-Denali
-Shenandoah
-Badlands
-Canyonlands
-Capitol Reef
-Mesa Verde
-Crater Lake
-Mammoth Cave
-Big Bend
-Carlsbad Caverns
-Hawaii Volcanoes | volcanoes
-Haleakala
-Banff
-Jasper
-Serengeti
-Kruger
-Lake District
-Snowdonia | eryri
-Peak District
-Torres del Paine
-Iguazu
-Galapagos
-Kakadu
-Uluru-Kata Tjuta | uluru
-Fiordland
-Plitvice Lakes | plitvice
-Cinque Terre
-Swiss National Park
-Yasuni
-Corcovado
-Masai Mara
-Ngorongoro
-
-[Rare]
-Great Basin
-Lassen Volcanic | lassen
-Pinnacles
-Channel Islands
-North Cascades
-Theodore Roosevelt
-Wind Cave
-Voyageurs
-Isle Royale
-Indiana Dunes
-Cuyahoga Valley
-New River Gorge
-Congaree
-Biscayne
-Dry Tortugas
-Virgin Islands
-American Samoa
-Petrified Forest
-Saguaro
-Guadalupe Mountains
-White Sands
-Black Canyon of the Gunnison
-Great Sand Dunes
-Kenai Fjords
-Glacier Bay
-Katmai
-Lake Clark
-Wrangell-St. Elias
-Kobuk Valley
-Yoho
-Kootenay
-Waterton Lakes
-Gros Morne
-Pacific Rim
-Fundy
-Cape Breton Highlands
-Bruce Peninsula
-Algonquin
-Wood Buffalo
-Nahanni
-Auyuittuq
-Kluane
-Point Pelee
-Cairngorms
-Loch Lomond
-Brecon Beacons
-Dartmoor
-Exmoor
-New Forest
-Yorkshire Dales
-North York Moors
-Northumberland
-South Downs
-Killarney
-Connemara
-Burren
-Wicklow Mountains
-Vatnajokull
-Thingvellir
-Snaefellsjokull
-Hardangervidda
-Jotunheimen
-Abisko
-Sarek
-Bavarian Forest
-Saxon Switzerland
-Berchtesgaden
-Hohe Tauern
-Triglav
-Tatra
-Bialowieza
-Durmitor
-Lovcen
-Gran Paradiso
-Stelvio
-Dolomiti Bellunesi
-Pyrenees National Park
-Ordesa
-Picos de Europa
-Teide
-Doñana | donana
-Peneda-Geres
-Vanoise
-Ecrins
-Calanques
-Port-Cros
-Kosciuszko
-Blue Mountains
-Daintree
-Grampians
-Wilsons Promontory
-Cradle Mountain
-Freycinet
-Tongariro
-Abel Tasman
-Aoraki
-Westland
-Arthur's Pass
-Paparoa
-Chobe
-Okavango
-Etosha
-Hwange
-Bwindi
-Volcanoes National Park Rwanda
-Virunga
-Amboseli
-Tsavo
-Lake Nakuru
-Kilimanjaro National Park
-Selous | nyerere
-Ruaha
-South Luangwa
-Mana Pools
-Table Mountain National Park
-Addo Elephant
-Tsitsikamma
-Simien Mountains
-Bale Mountains
-Ranthambore
-Jim Corbett | corbett
-Kaziranga
-Sundarbans
-Gir
-Bandhavgarh
-Kanha
-Periyar
-Chitwan
-Sagarmatha
-Komodo
-Lorentz
-Gunung Mulu | mulu
-Kinabalu
-Taman Negara
-Khao Yai
-Khao Sok
-Phong Nha
-Tubbataha
-Puerto Princesa
-Jiuzhaigou
-Zhangjiajie
-Huangshan
-Fuji-Hakone-Izu
-Nikko
-Shiretoko
-Yakushima
-Seoraksan
-Jirisan
-Hallasan
-Taroko
-Los Glaciares
-Nahuel Huapi
-Lauca
-Huascaran
-Manu
-Canaima
-Tayrona
-Chapada Diamantina
-Lencois Maranhenses
-Fernando de Noronha
-Pantanal
-Tortuguero
-Manuel Antonio
-Arenal
-Tikal
-Copper Canyon
-
-[Deep Cut]
-Sierra Nevada de Santa Marta
-Los Katios
-Madidi
-Noel Kempff Mercado
-Sajama
-Alejandro de Humboldt
-Desembarco del Granma
-Cockpit Country
-Morne Trois Pitons
-Pitons
-Guanacaste
-Darien
-La Amistad
-Coiba
-Sian Ka'an
-El Pinacate
-Cumbres de Monterrey
-Popocatepetl-Iztaccihuatl
-Calakmul
-Montecristo
-Pico Bonito
-Cusuco
-Bosawas
-Indio Maiz
-Sierra de las Minas
-Laguna del Tigre
-Rio Platano
-Jau
-Pico da Neblina
-Tumucumaque
-Serra da Capivara
-Aparados da Serra
-Itatiaia
-Tijuca
-Emas
-Chapada dos Veadeiros
-Lagoa do Peixe
-Talampaya
-Ischigualasto
-Iberá
-El Palmar
-Quebrada de Humahuaca
-Perito Moreno
-Bernardo O'Higgins
-Laguna San Rafael
-Pan de Azucar
-Juan Fernandez
-Alerce Andino
-Conguillio
-Vicente Perez Rosales
-Puyehue
+Zion | zion national park | zions
 
 [Not accepted]
-Disneyland
-Times Square
-Golden Gate Bridge
-Hogwarts
-Six Flags
-Wrigley Field
+Mount Rushmore
+Statue of Liberty
+Niagara Falls
+Grand Staircase-Escalante
+Muir Woods
+Devils Tower
+Lake Tahoe
+Central Park
+Monument Valley
+Antelope Canyon
+Mount St. Helens
+Sedona
+Cape Cod
+Lake Mead
+Glen Canyon
+Cape Hatteras
 
 # QUESTION
 id: q0150
@@ -2173,115 +1818,69 @@ note: Lead or supporting acting Oscars only (honorary and writing awards don't c
 [One in a Krillion]
 Marlee Matlin | matlin
 
-[Plankton]
-Meryl Streep | streep
-Tom Hanks | hanks
-Leonardo DiCaprio | dicaprio | leo
-Denzel Washington | denzel
-Jack Nicholson | nicholson
-Julia Roberts
-Morgan Freeman
-Anthony Hopkins
-
-[Too Clever]
-Will Smith
-Heath Ledger
-Robin Williams
-
-[Schooler]
-John Wayne
-Ben Kingsley
-Daniel Day-Lewis | day-lewis | daniel day lewis
-Katharine Hepburn
-Al Pacino | pacino
-Robert De Niro | de niro | deniro
-Marlon Brando | brando
-Dustin Hoffman
-Sean Penn
-Russell Crowe
-Halle Berry
-Nicole Kidman
-Charlize Theron
-Hilary Swank
-Reese Witherspoon
-Sandra Bullock
-Natalie Portman
-Jennifer Lawrence
-Cate Blanchett
-Emma Stone
-Frances McDormand
-Olivia Colman
-Renee Zellweger | renée zellweger
-Joaquin Phoenix
-Matthew McConaughey | mcconaughey
-Eddie Redmayne
-Rami Malek
-Brendan Fraser
-Cillian Murphy
-Michelle Yeoh
-Brad Pitt
-Robert Downey Jr. | robert downey jr | rdj
-Christoph Waltz
-Javier Bardem
-J.K. Simmons | jk simmons
-Mahershala Ali
-Joe Pesci
-Cuba Gooding Jr.
-Viola Davis
-Lupita Nyong'o | lupita nyongo
-Anne Hathaway
-Octavia Spencer
-Jennifer Hudson
-Penelope Cruz | penélope cruz
-Angelina Jolie
-Whoopi Goldberg
-Kate Winslet
-Helen Mirren
-Judi Dench
-Gwyneth Paltrow
-Jodie Foster
-Kathy Bates
-Gary Oldman
-Jamie Foxx
-Philip Seymour Hoffman
-Colin Firth
-Jeff Bridges
-Ke Huy Quan
-Jamie Lee Curtis
-Audrey Hepburn
-Elizabeth Taylor
-Humphrey Bogart
-Clark Gable
-Sidney Poitier
-Paul Newman
-Grace Kelly
-Vivien Leigh
-Ingrid Bergman
-Bette Davis
-Julie Andrews
-Jane Fonda
-Diane Keaton
-Sally Field
-Cher
-Barbra Streisand
-Emma Thompson
-Michael Douglas
-Kevin Spacey
-Nicolas Cage
-Forest Whitaker
-Casey Affleck
-Marisa Tomei
-Catherine Zeta-Jones | catherine zeta jones
-George Clooney
-Tommy Lee Jones
-Kevin Kline
-Gene Hackman
-Christian Bale
-Alan Arkin
-Adrien Brody
-Mikey Madison
-Kieran Culkin
-Zoe Saldana | zoe saldaña
+[Deep Cut]
+Emil Jannings
+Warner Baxter
+George Arliss
+Lionel Barrymore
+Wallace Beery
+Charles Laughton
+Victor McLaglen
+Paul Muni
+Robert Donat
+Thomas Mitchell
+Walter Brennan
+Joseph Schildkraut
+Donald Crisp
+Van Heflin
+Charles Coburn
+Barry Fitzgerald
+James Dunn
+Harold Russell
+Edmund Gwenn
+Walter Huston
+Dean Jagger
+George Sanders
+Karl Malden
+Anthony Quinn
+Frank Sinatra
+Edmond O'Brien
+Red Buttons
+Hugh Griffith
+Peter Ustinov
+George Chakiris
+Ed Begley
+Melvyn Douglas
+Martin Balsam
+Walter Matthau
+Jack Albertson
+Gig Young
+John Mills
+Ben Johnson
+Joel Grey
+John Houseman
+Jason Robards
+Christopher Walken
+Timothy Hutton
+Louis Gossett Jr.
+Haing S. Ngor
+Don Ameche
+Denholm Elliott
+Fay Bainter
+Jane Darwell
+Mary Astor
+Teresa Wright
+Katina Paxinou
+Ethel Barrymore
+Anne Revere
+Anne Baxter
+Celeste Holm
+Claire Trevor
+Mercedes McCambridge
+Josephine Hull
+Gloria Grahame
+Donna Reed
+Lila Kedrova
 
 [Rare]
 Jessica Chastain
@@ -2419,69 +2018,115 @@ Sandy Dennis
 Cloris Leachman
 Jack Lemmon
 
-[Deep Cut]
-Emil Jannings
-Warner Baxter
-George Arliss
-Lionel Barrymore
-Wallace Beery
-Charles Laughton
-Victor McLaglen
-Paul Muni
-Robert Donat
-Thomas Mitchell
-Walter Brennan
-Joseph Schildkraut
-Donald Crisp
-Van Heflin
-Charles Coburn
-Barry Fitzgerald
-James Dunn
-Harold Russell
-Edmund Gwenn
-Walter Huston
-Dean Jagger
-George Sanders
-Karl Malden
-Anthony Quinn
-Frank Sinatra
-Edmond O'Brien
-Red Buttons
-Hugh Griffith
-Peter Ustinov
-George Chakiris
-Ed Begley
-Melvyn Douglas
-Martin Balsam
-Walter Matthau
-Jack Albertson
-Gig Young
-John Mills
-Ben Johnson
-Joel Grey
-John Houseman
-Jason Robards
-Christopher Walken
-Timothy Hutton
-Louis Gossett Jr.
-Haing S. Ngor
-Don Ameche
-Denholm Elliott
-Fay Bainter
-Jane Darwell
-Mary Astor
-Teresa Wright
-Katina Paxinou
-Ethel Barrymore
-Anne Revere
-Anne Baxter
-Celeste Holm
-Claire Trevor
-Mercedes McCambridge
-Josephine Hull
-Gloria Grahame
-Donna Reed
-Lila Kedrova
+[Schooler]
+John Wayne
+Ben Kingsley
+Daniel Day-Lewis | day-lewis | daniel day lewis
+Katharine Hepburn
+Al Pacino | pacino
+Robert De Niro | de niro | deniro
+Marlon Brando | brando
+Dustin Hoffman
+Sean Penn
+Russell Crowe
+Halle Berry
+Nicole Kidman
+Charlize Theron
+Hilary Swank
+Reese Witherspoon
+Sandra Bullock
+Natalie Portman
+Jennifer Lawrence
+Cate Blanchett
+Emma Stone
+Frances McDormand
+Olivia Colman
+Renee Zellweger | renée zellweger
+Joaquin Phoenix
+Matthew McConaughey | mcconaughey
+Eddie Redmayne
+Rami Malek
+Brendan Fraser
+Cillian Murphy
+Michelle Yeoh
+Brad Pitt
+Robert Downey Jr. | robert downey jr | rdj
+Christoph Waltz
+Javier Bardem
+J.K. Simmons | jk simmons
+Mahershala Ali
+Joe Pesci
+Cuba Gooding Jr.
+Viola Davis
+Lupita Nyong'o | lupita nyongo
+Anne Hathaway
+Octavia Spencer
+Jennifer Hudson
+Penelope Cruz | penélope cruz
+Angelina Jolie
+Whoopi Goldberg
+Kate Winslet
+Helen Mirren
+Judi Dench
+Gwyneth Paltrow
+Jodie Foster
+Kathy Bates
+Gary Oldman
+Jamie Foxx
+Philip Seymour Hoffman
+Colin Firth
+Jeff Bridges
+Ke Huy Quan
+Jamie Lee Curtis
+Audrey Hepburn
+Elizabeth Taylor
+Humphrey Bogart
+Clark Gable
+Sidney Poitier
+Paul Newman
+Grace Kelly
+Vivien Leigh
+Ingrid Bergman
+Bette Davis
+Julie Andrews
+Jane Fonda
+Diane Keaton
+Sally Field
+Cher
+Barbra Streisand
+Emma Thompson
+Michael Douglas
+Kevin Spacey
+Nicolas Cage
+Forest Whitaker
+Casey Affleck
+Marisa Tomei
+Catherine Zeta-Jones | catherine zeta jones
+George Clooney
+Tommy Lee Jones
+Kevin Kline
+Gene Hackman
+Christian Bale
+Alan Arkin
+Adrien Brody
+Mikey Madison
+Kieran Culkin
+Zoe Saldana | zoe saldaña
+
+[Too Clever]
+Will Smith
+Heath Ledger
+Robin Williams
+
+[Plankton]
+Meryl Streep | streep
+Tom Hanks | hanks
+Leonardo DiCaprio | dicaprio | leo
+Denzel Washington | denzel
+Jack Nicholson | nicholson
+Julia Roberts
+Morgan Freeman
+Anthony Hopkins
 
 [Not accepted]
 Matt Damon

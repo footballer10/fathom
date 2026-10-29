@@ -1,9 +1,9 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
-import { dailyNumberFor, nicknameProblem, pointsToDepth, zoneForDepth } from "@fathom/shared";
+import { nicknameProblem, pointsToDepth, zoneForDepth } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
-import { today } from "./questions";
+import { dailyNumber, today } from "./questions";
 
 /** Player profile (nickname, friend code), friends leaderboard, and the Daily archive. */
 
@@ -102,7 +102,7 @@ friendRoutes.get("/api/friends/leaderboard", async (c) => {
       weekDepth: pointsToDepth(r.week),
     }))
     .sort((a, b) => (b.depth ?? -1) - (a.depth ?? -1));
-  return c.json({ date, dailyNumber: dailyNumberFor(date), me, rows });
+  return c.json({ date, dailyNumber: await dailyNumber(c.env, date), me, rows });
 });
 
 /** Past Dailies you can replay (unscored). */
@@ -115,5 +115,7 @@ friendRoutes.get("/api/archive", async (c) => {
   )
     .bind(playerId, today())
     .all<{ date: string; points: number | null }>();
-  return c.json(results.map((r) => ({ date: r.date, dailyNumber: dailyNumberFor(r.date), depth: r.points === null ? null : pointsToDepth(r.points) })));
+  const rows = [];
+  for (const r of results) rows.push({ date: r.date, dailyNumber: await dailyNumber(c.env, r.date), depth: r.points === null ? null : pointsToDepth(r.points) });
+  return c.json(rows);
 });

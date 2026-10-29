@@ -1452,3 +1452,11 @@ select {
   .reveal-rows .tier-badge { display: none; }
   .race-lanes { height: 240px; }
 }
+
+.turn-bar { display: flex; flex-direction: column; gap: 6px; }
+.turn-bar-head { display: flex; justify-content: space-between; font-size: 0.95rem; font-weight: 600; }
+.turn-bar-secs { font-variant-numeric: tabular-nums; }
+.turn-bar-track { height: 12px; border-radius: 99px; background: rgba(255, 255, 255, 0.12); overflow: hidden; }
+.turn-bar-fill { height: 100%; width: 100%; transform-origin: left center; border-radius: 99px; background: var(--accent-strong); transition: background 0.3s; }
+.turn-bar-fill--low { background: var(--danger); }
+.answer-input--battle { width: 100%; }
