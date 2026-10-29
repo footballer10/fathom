@@ -829,6 +829,61 @@
         "tier": 85
       },
       {
+        "text": "Imjin War",
+        "tier": 85
+      },
+      {
+        "text": "Pacific War",
+        "tier": 85
+      },
+      {
+        "text": "Arab-Israeli War",
+        "tier": 85
+      },
+      {
+        "text": "Suez Crisis",
+        "tier": 85
+      },
+      {
+        "text": "Malayan Emergency",
+        "tier": 85
+      },
+      {
+        "text": "The Troubles",
+        "aliases": [
+          "northern ireland conflict"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mongol invasions",
+        "tier": 85
+      },
+      {
+        "text": "Glorious Revolution",
+        "tier": 85
+      },
+      {
+        "text": "French Revolution",
+        "tier": 85
+      },
+      {
+        "text": "Russian Revolution",
+        "tier": 85
+      },
+      {
+        "text": "Grenada invasion",
+        "tier": 85
+      },
+      {
+        "text": "Invasion of Panama",
+        "tier": 85
+      },
+      {
+        "text": "War on Drugs",
+        "tier": 85
+      },
+      {
         "text": "English Civil War",
         "tier": 60
       },
@@ -1162,6 +1217,9 @@
       },
       {
         "text": "Football War",
+        "aliases": [
+          "soccer war"
+        ],
         "tier": 60
       },
       {
@@ -1234,6 +1292,373 @@
       },
       {
         "text": "Ghost Dance War",
+        "tier": 60
+      },
+      {
+        "text": "Israel-Hamas war",
+        "aliases": [
+          "gaza war"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "1948 Arab-Israeli War",
+        "tier": 60
+      },
+      {
+        "text": "War of Attrition",
+        "tier": 60
+      },
+      {
+        "text": "Lebanon War",
+        "tier": 60
+      },
+      {
+        "text": "Anglo-Spanish War",
+        "tier": 60
+      },
+      {
+        "text": "First Barons' War",
+        "tier": 60
+      },
+      {
+        "text": "Second Barons' War",
+        "tier": 60
+      },
+      {
+        "text": "Wars of Scottish Independence",
+        "tier": 60
+      },
+      {
+        "text": "Jacobite rising",
+        "tier": 60
+      },
+      {
+        "text": "French Revolutionary Wars",
+        "tier": 60
+      },
+      {
+        "text": "Creek War",
+        "tier": 60
+      },
+      {
+        "text": "Tecumseh's War",
+        "tier": 60
+      },
+      {
+        "text": "Dakota War",
+        "tier": 60
+      },
+      {
+        "text": "Comanche Wars",
+        "tier": 60
+      },
+      {
+        "text": "Navajo Wars",
+        "tier": 60
+      },
+      {
+        "text": "Bleeding Kansas",
+        "tier": 60
+      },
+      {
+        "text": "Mexican War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Venezuelan War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Argentine War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Cuban War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Ten Years' War",
+        "tier": 60
+      },
+      {
+        "text": "Greek War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Serbian Revolution",
+        "tier": 60
+      },
+      {
+        "text": "Polish-Soviet War",
+        "tier": 60
+      },
+      {
+        "text": "Polish-Lithuanian-Teutonic War",
+        "tier": 60
+      },
+      {
+        "text": "Northern Crusades",
+        "tier": 60
+      },
+      {
+        "text": "First Crusade",
+        "tier": 60
+      },
+      {
+        "text": "Third Crusade",
+        "tier": 60
+      },
+      {
+        "text": "Fourth Crusade",
+        "tier": 60
+      },
+      {
+        "text": "Children's Crusade",
+        "tier": 60
+      },
+      {
+        "text": "Gothic War",
+        "tier": 60
+      },
+      {
+        "text": "Jugurthine War",
+        "tier": 60
+      },
+      {
+        "text": "Social War",
+        "tier": 60
+      },
+      {
+        "text": "Servile Wars",
+        "tier": 60
+      },
+      {
+        "text": "Dacian Wars",
+        "tier": 60
+      },
+      {
+        "text": "Marcomannic Wars",
+        "tier": 60
+      },
+      {
+        "text": "Roman-Persian Wars",
+        "tier": 60
+      },
+      {
+        "text": "Arab-Byzantine wars",
+        "tier": 60
+      },
+      {
+        "text": "Mongol invasions of Japan",
+        "tier": 60
+      },
+      {
+        "text": "Boshin War",
+        "tier": 60
+      },
+      {
+        "text": "Satsuma Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Genpei War",
+        "tier": 60
+      },
+      {
+        "text": "Onin War",
+        "tier": 60
+      },
+      {
+        "text": "War of the Eight Princes",
+        "tier": 60
+      },
+      {
+        "text": "An Lushan Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Red Turban Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Nian Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Dungan Revolt",
+        "tier": 60
+      },
+      {
+        "text": "First Opium War",
+        "tier": 60
+      },
+      {
+        "text": "Second Opium War",
+        "tier": 60
+      },
+      {
+        "text": "First Sino-Japanese War",
+        "tier": 60
+      },
+      {
+        "text": "Second Sino-Japanese War",
+        "tier": 60
+      },
+      {
+        "text": "Hukbalahap Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Moro conflict",
+        "tier": 60
+      },
+      {
+        "text": "Cambodian Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Nepalese Civil War",
+        "tier": 60
+      },
+      {
+        "text": "First Congo War",
+        "tier": 60
+      },
+      {
+        "text": "Rhodesian Bush War",
+        "tier": 60
+      },
+      {
+        "text": "South African Border War",
+        "tier": 60
+      },
+      {
+        "text": "Namibian War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Zimbabwe War of Liberation",
+        "tier": 60
+      },
+      {
+        "text": "Algerian Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Chadian Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Darfur War",
+        "tier": 60
+      },
+      {
+        "text": "Ethiopian Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Tigray War",
+        "tier": 60
+      },
+      {
+        "text": "South Sudanese Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Yugoslav Wars",
+        "tier": 60
+      },
+      {
+        "text": "Irish Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Spanish-Moroccan War",
+        "tier": 60
+      },
+      {
+        "text": "Franco-Dutch War",
+        "tier": 60
+      },
+      {
+        "text": "Anglo-French War",
+        "tier": 60
+      },
+      {
+        "text": "War of Devolution",
+        "tier": 60
+      },
+      {
+        "text": "War of the Reunions",
+        "tier": 60
+      },
+      {
+        "text": "Russo-Polish War",
+        "tier": 60
+      },
+      {
+        "text": "Time of Troubles",
+        "tier": 60
+      },
+      {
+        "text": "War of the Third Coalition",
+        "tier": 60
+      },
+      {
+        "text": "War of the First Coalition",
+        "tier": 60
+      },
+      {
+        "text": "War of the Second Coalition",
+        "tier": 60
+      },
+      {
+        "text": "War of the Seventh Coalition",
+        "tier": 60
+      },
+      {
+        "text": "Carlist Wars",
+        "tier": 60
+      },
+      {
+        "text": "Bishops' Wars",
+        "tier": 60
+      },
+      {
+        "text": "Sino-Soviet border conflict",
+        "tier": 60
+      },
+      {
+        "text": "Contra War",
+        "tier": 60
+      },
+      {
+        "text": "Guatemalan Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Colombian conflict",
+        "tier": 60
+      },
+      {
+        "text": "Shining Path conflict",
+        "tier": 60
+      },
+      {
+        "text": "Second Chechen War",
+        "tier": 60
+      },
+      {
+        "text": "First Chechen War",
+        "tier": 60
+      },
+      {
+        "text": "War in Donbas",
+        "tier": 60
+      },
+      {
+        "text": "Second Nagorno-Karabakh War",
         "tier": 60
       },
       {
@@ -1368,7 +1793,8 @@
       {
         "text": "Russia-Ukraine war",
         "aliases": [
-          "ukraine war"
+          "ukraine war",
+          "russo-ukrainian war"
         ],
         "tier": 30
       },
@@ -1392,6 +1818,9 @@
       },
       {
         "text": "Emu War",
+        "aliases": [
+          "great emu war"
+        ],
         "tier": 15
       },
       {
@@ -1400,6 +1829,26 @@
       },
       {
         "text": "Pastry War",
+        "tier": 15
+      },
+      {
+        "text": "Star Wars",
+        "tier": 15
+      },
+      {
+        "text": "Clone Wars",
+        "tier": 15
+      },
+      {
+        "text": "War of the Worlds",
+        "tier": 15
+      },
+      {
+        "text": "Console wars",
+        "tier": 15
+      },
+      {
+        "text": "Cola wars",
         "tier": 15
       },
       {
@@ -1441,7 +1890,8 @@
         "text": "Revolutionary War",
         "aliases": [
           "american revolution",
-          "war of independence"
+          "war of independence",
+          "american revolutionary war"
         ],
         "tier": 10
       },

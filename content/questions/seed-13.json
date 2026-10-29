@@ -10510,6 +10510,118 @@
         "tier": 60
       },
       {
+        "text": "Cavernous",
+        "tier": 60
+      },
+      {
+        "text": "Boundless",
+        "tier": 60
+      },
+      {
+        "text": "Plump",
+        "tier": 60
+      },
+      {
+        "text": "Heavyset",
+        "tier": 60
+      },
+      {
+        "text": "Stocky",
+        "tier": 60
+      },
+      {
+        "text": "Thickset",
+        "tier": 60
+      },
+      {
+        "text": "Big-boned",
+        "tier": 60
+      },
+      {
+        "text": "Well-built",
+        "tier": 60
+      },
+      {
+        "text": "Full-size",
+        "tier": 60
+      },
+      {
+        "text": "Full-sized",
+        "tier": 60
+      },
+      {
+        "text": "Life-size",
+        "tier": 60
+      },
+      {
+        "text": "Larger-than-life",
+        "tier": 60
+      },
+      {
+        "text": "Grandiose",
+        "tier": 60
+      },
+      {
+        "text": "Swollen",
+        "tier": 60
+      },
+      {
+        "text": "Bloated",
+        "tier": 60
+      },
+      {
+        "text": "Enlarged",
+        "tier": 60
+      },
+      {
+        "text": "Behemoth",
+        "tier": 60
+      },
+      {
+        "text": "Leviathan",
+        "tier": 60
+      },
+      {
+        "text": "Titan",
+        "tier": 60
+      },
+      {
+        "text": "Goliath",
+        "tier": 60
+      },
+      {
+        "text": "Juggernaut",
+        "tier": 60
+      },
+      {
+        "text": "Major",
+        "tier": 60
+      },
+      {
+        "text": "Significant",
+        "tier": 60
+      },
+      {
+        "text": "Biggish",
+        "tier": 60
+      },
+      {
+        "text": "Largish",
+        "tier": 60
+      },
+      {
+        "text": "Honking",
+        "tier": 60
+      },
+      {
+        "text": "Mahoosive",
+        "tier": 60
+      },
+      {
+        "text": "Macro",
+        "tier": 60
+      },
+      {
         "text": "Immense",
         "tier": 30
       },
@@ -10539,6 +10651,9 @@
       },
       {
         "text": "Humongous",
+        "aliases": [
+          "humungous"
+        ],
         "tier": 30
       },
       {
@@ -10660,12 +10775,16 @@
         "text": "Kingsize",
         "aliases": [
           "king-size",
-          "king size"
+          "king size",
+          "king-sized"
         ],
         "tier": 30
       },
       {
         "text": "Oversized",
+        "aliases": [
+          "oversize"
+        ],
         "tier": 30
       },
       {
@@ -10677,6 +10796,9 @@
       },
       {
         "text": "Big",
+        "aliases": [
+          "bigly"
+        ],
         "tier": 15
       },
       {
@@ -10689,6 +10811,25 @@
       },
       {
         "text": "Ginormous",
+        "aliases": [
+          "gigundo"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Obese",
+        "tier": 15
+      },
+      {
+        "text": "Plus-size",
+        "tier": 15
+      },
+      {
+        "text": "Monster",
+        "tier": 15
+      },
+      {
+        "text": "Big-time",
         "tier": 15
       },
       {
@@ -10697,6 +10838,9 @@
       },
       {
         "text": "Huge",
+        "aliases": [
+          "hugely"
+        ],
         "tier": 10
       },
       {
