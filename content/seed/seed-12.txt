@@ -587,312 +587,104 @@ MD
 id: q0114
 pool: unlimited
 category: body-health
-prompt: Name a disease or illness
+prompt: Name an organ or gland in the human body
+note: Organs and glands (including organ systems' main parts like the colon or spinal cord). Bones, muscles, and fluids don't count.
 
 [One in a Krillion]
-Scurvy
+Mesentery
 
 [Deep Cut]
-Kuru
-Creutzfeldt-Jakob | cjd
-Fatal familial insomnia
-Progeria
-Fibrodysplasia ossificans progressiva | fop
-Alice in Wonderland syndrome
-Foreign accent syndrome
-Exploding head syndrome
-Capgras syndrome
-Cotard's syndrome
-Munchausen syndrome
-Stendhal syndrome
-Jerusalem syndrome
-Paris syndrome
-Morgellons
-Porphyria
-Hemochromatosis
-Wilson's disease
-Gaucher disease
-Fabry disease
-Pompe disease
-Niemann-Pick
-Batten disease
-Krabbe disease
-Moyamoya
-Kawasaki disease
-Behcet's disease
-Sarcoidosis
-Amyloidosis
-Scleroderma
-Sjogren's syndrome
-Myasthenia gravis
-Guillain-Barre
-Bell's palsy
-Trigeminal neuralgia
-Restless legs syndrome
-Raynaud's
-Erythromelalgia
-Dercum's disease
-Harlequin ichthyosis
-Epidermolysis bullosa
-Xeroderma pigmentosum
-Vitiligo
-Rosacea
-Hives
-Dropsy
-Consumption
-Grippe
-Ague
-Quinsy
-Scrofula
-St. Vitus' dance
-Sweating sickness
-Ergotism
-Milk sickness
-Phossy jaw
-Black lung
-Brown lung
-Mesothelioma
-Silicosis
-Asbestosis
-Caisson disease | the bends
-Trench foot
-Shell shock
+Pineal gland | pineal
+Parathyroid gland | parathyroid | parathyroids
+Hypothalamus
+Thymus | thymus gland
+Adenoids | adenoid
+Seminal vesicles | seminal vesicle
+Epididymis
+Vas deferens
+Fallopian tubes | fallopian tube | oviduct
+Cervix
+Ureters | ureter
+Urethra
+Duodenum
+Jejunum
+Ileum
+Cecum | caecum
+Parotid gland | parotid
+Sebaceous glands | sebaceous gland | oil gland
+Sweat glands | sweat gland
+Lacrimal glands | lacrimal gland | tear gland | tear glands
+Bulbourethral gland | cowper's gland
+Interstitium
+Brainstem | brain stem
+Cerebellum
+Cerebrum
+Medulla oblongata | medulla
+Bone marrow | marrow
+Lymph nodes | lymph node | lymph glands
+Salivary glands | salivary gland
+Mammary glands | mammary gland
+Pharynx
+Larynx | voice box
+Trachea | windpipe
+Esophagus | oesophagus | gullet
+Diaphragm
+Spinal cord
 
 [Rare]
-Rickets
-Beriberi
-Pellagra
-Goiter
-Kwashiorkor
-Typhus
-Anthrax
-Botulism
-Listeria
-Salmonella
-E. coli
-MRSA
-Giardia
-Hookworm
-Tapeworm
-Pinworm
-Scabies
-Impetigo
-Cellulitis
-Fifth disease
-Roseola
-Croup
-Bronchiolitis
-Emphysema
-COPD
-Pulmonary fibrosis
-Lung cancer
-Breast cancer
-Skin cancer | melanoma
-Prostate cancer
-Colon cancer
-Lymphoma
-Myeloma
-Sarcoma
-Brain tumor
-Crohn's disease | crohns
-Ulcerative colitis
-IBS | irritable bowel syndrome
-GERD | acid reflux
-Ulcer
-Gallstones
-Pancreatitis
-Cirrhosis
-Hepatitis C
-Hepatitis B
-Kidney disease
-Kidney failure
-Heart attack
-Angina
-Arrhythmia
-Atrial fibrillation | afib
-Heart failure
-Atherosclerosis
-Aneurysm
-Blood clot | dvt
-Varicose veins
-Thyroid disease
-Hypothyroidism
-Hyperthyroidism
-Graves' disease
-Hashimoto's
-Addison's disease
-Cushing's syndrome
-Type 1 diabetes
-Type 2 diabetes
-Fibromyalgia
-Chronic fatigue syndrome
-Rheumatoid arthritis
-Osteoarthritis
-Scoliosis
-Carpal tunnel
-Tendinitis
-Bursitis
-Glaucoma
-Cataracts
-Macular degeneration
-Vertigo
-Tinnitus
-Narcolepsy
-Insomnia
-Sleep apnea
-Bipolar disorder
-Schizophrenia
-OCD
-PTSD
-Anorexia
-Bulimia
-Tourette's
-Down syndrome
-Huntington's disease
-Muscular dystrophy
-Cerebral palsy
-Spina bifida
-Hydrocephalus
-Tay-Sachs
-Marfan syndrome
-Ehlers-Danlos
-Polycystic ovary syndrome | pcos
-Endometriosis
-Preeclampsia
-Jaundice
-Sudden infant death syndrome | sids
-Legionnaires' disease
-Chagas disease
-Sleeping sickness
-River blindness
-Elephantiasis
-Leishmaniasis
-Schistosomiasis
-Guinea worm
-Yaws
-Trachoma
-Hantavirus
-Lassa fever
-Marburg
-Rocky Mountain spotted fever
-Valley fever
-Histoplasmosis
-Toxoplasmosis
-Cat scratch fever
-Altitude sickness
-Heat stroke
-Hypothermia
+Pituitary gland | pituitary
+Adrenal glands | adrenal gland | adrenals
+Thyroid | thyroid gland
+Ovaries | ovary
+Testicles | testes | testis | testicle
+Uterus | womb
+Prostate | prostate gland
+Gallbladder | gall bladder
+Spleen
+Pancreas
+Appendix
+Tonsils | tonsil
+Rectum
+Anus
+Colon | large intestine
+Small intestine
+Bladder | urinary bladder
+Vagina
+Penis
+Breasts | breast
 
 [Schooler]
-Malaria
-Tuberculosis | tb
-Pneumonia
-Asthma
-Bronchitis
-Strep throat | strep
-Mumps
-Polio
-Smallpox
-Ebola
-HIV | aids
-Hepatitis
-Alzheimer's | alzheimers
-Parkinson's | parkinsons
-Arthritis
-Heart disease
-Stroke
-Leukemia
-Lupus
-Celiac disease | celiac
-Lyme disease | lyme
-Rabies
-Tetanus
-Whooping cough | pertussis
-Cholera
-Dengue | dengue fever
-Yellow fever
-Typhoid
-Mono | mononucleosis
-Pink eye | conjunctivitis
-Ear infection
-Sinus infection | sinusitis
-Food poisoning
-Stomach flu | gastroenteritis
-Shingles
-Herpes
-Chlamydia
-Gonorrhea
-Syphilis
-Hypertension | high blood pressure
-Obesity
-Anemia
-Epilepsy
-Migraine
-Depression
-Anxiety
-Autism
-ADHD
-Dementia
-Multiple sclerosis | ms
-ALS | lou gehrig's disease
-Cystic fibrosis
-Sickle cell | sickle cell anemia
-Hemophilia
-Scarlet fever
-Rubella | german measles
-Norovirus
-RSV
-Hand, foot and mouth | hand foot and mouth disease
-Ringworm
-Athlete's foot
-Allergies
-Eczema
-Psoriasis
-Acne
-Gout
-Osteoporosis
-Kidney stones
-Appendicitis
-Tonsillitis
-Laryngitis
-Meningitis
-Encephalitis
-Sepsis
-Gangrene
-Leprosy
-Diphtheria
-Zika
-West Nile virus | west nile
-Mad cow disease | bse
-Bird flu | avian flu
-Swine flu | h1n1
-SARS
-MERS
-Monkeypox | mpox
+Intestines | intestine | bowels | guts
+Eyes | eye
+Ears | ear
+Tongue
+Nose
 
 [Too Clever]
-Lice
-Dancing plague
-Bubonic plague | black death | plague
-Cooties
+Skin
+Placenta
 
 [Plankton]
-Cancer
-Flu | influenza
-Cold | common cold
-COVID | covid-19 | coronavirus | covid 19
-Diabetes
-Chickenpox | chicken pox
-Measles
+Heart
+Brain
+Lungs | lung
+Liver
+Kidneys | kidney
+Stomach
 
 [Not accepted]
-Headache
-Cough
-Fever
-Sneeze
-Broken arm
-Bruise
-Hangover
+Blood
+Bones
+Muscles
+Hair
+Nails
+Teeth
+Veins
+Arteries
+Nerves
+Skeleton
+Ribs
+Skull
 
 # QUESTION
 id: q0115
@@ -1375,220 +1167,143 @@ Pumpkin
 id: q0117
 pool: unlimited
 category: science
-prompt: Name something you'd find in a science lab
+prompt: Name a piece of science lab equipment
+note: Equipment, glassware, instruments and safety gear found in school or research labs. Chemicals don't count.
 
 [One in a Krillion]
-Erlenmeyer flask | erlenmeyer
+Soxhlet extractor | soxhlet
 
 [Deep Cut]
-Kipp's apparatus
-Soxhlet extractor
-Dean-Stark apparatus
 Schlenk line
-Rotary evaporator | rotovap
+Rotary evaporator | rotovap | rotavap
 Liebig condenser
-Allihn condenser
-Vigreux column
-Kjeldahl flask
-Thiele tube
-Mel-Temp | melting point apparatus
-Refractometer
-Polarimeter
-Calorimeter
-Bomb calorimeter
-Gas chromatograph
-HPLC
-Mass spectrometer
-NMR machine | nmr
-Analytical balance
-Top-loading balance
-Triple beam balance
-Spring scale
-Clay triangle
-Pipe-stem triangle
-Crucible tongs
-Beaker tongs
-Test tube holder
-Utility clamp
-Burette clamp
-Iron ring
-Wire mesh
-Boiling chips
-Rubber stopper
-Cork
-Parafilm
-Septum
-Syringe
-Cannula
-Needle
-Inoculating loop
-Streak plate
-Spreader
-Colony counter
-Anaerobic jar
-Shaker incubator
-Lyophilizer | freeze dryer
-Sonicator
-Homogenizer
-Microtome
-Cryostat
-Flow cytometer
-Plate reader
-Sequencer
-Gel doc
-Transilluminator
-UV lamp
-Geiger counter
-Van de Graaff generator
-Tesla coil
-Wimshurst machine
-Leyden jar
-Galvanometer
-Rheostat
-Breadboard
-Soldering iron
-
-[Rare]
-Volumetric flask
-Florence flask
-Round-bottom flask
-Distillation apparatus
-Condenser
-Separatory funnel
-Buchner funnel
-Watch glass
-Evaporating dish
-Desiccator
-Autoclave
-Incubator
-Spectrophotometer
-Spectrometer
-Oscilloscope
-Multimeter
-Voltmeter
-Ammeter
-Power supply
-Laser
-Prism
-Lens
-Telescope
-Vernier caliper
-Micrometer
-Stopwatch
-Timer
-pH meter
+Dewar flask | dewar
+Kipp's apparatus | kipps apparatus
+Cuvette
+Well plate | microplate | microtiter plate
+Thermocycler | pcr machine
+Mass spectrometer | mass spec
+NMR machine | nmr | nmr spectrometer
+Calorimeter | bomb calorimeter
 Hydrometer
-Barometer
-Hygrometer
-Magnet
-Magnetic stirrer | stir plate
-Stir bar
-Vortex mixer
+Manometer
+Glovebox | glove box
+Laminar flow hood | laminar flow cabinet
+Vortex mixer | vortexer
+Desiccator
+Clay triangle | pipe clay triangle
+Inoculating loop | wire loop
+Gas syringe
+Spectroscope
+Oscilloscope
+Ammeter
+Voltmeter
+Multimeter
+Retort | retort flask
+Separatory funnel | sep funnel
+Buchner funnel | büchner funnel
+Volumetric flask
+Round-bottom flask | round bottom flask
+Florence flask
+Weighing boat | weigh boat
+Scoopula
+Pipette bulb | pipette filler
+Micropipette
+Evaporating dish
+Crucible
+Watch glass
+Wire gauze
+Ring stand | retort stand
+Utility clamp | clamp
+Alcohol burner | spirit lamp
+Distillation apparatus | still
+Condenser
+Autoclave
 Water bath
-Heating mantle
-Oven
-Freezer
-Refrigerator
-Liquid nitrogen
-Dry ice
-Cryogenic freezer
-Biosafety cabinet
-Laminar flow hood
-Glove box
-Wash bottle | squirt bottle
-Reagent bottle
-Dropper bottle
-Sharps container
-Biohazard bin
-Chemical waste container
-Lab apron
-Face shield
-Respirator
-Safety glasses
-Cell culture
-Specimen jar
-Formaldehyde
-Dissection kit
+Incubator
+Chromatography paper
+Gel electrophoresis | electrophoresis
+Agar plate
+Bell jar
+Barometer
+Spring scale | newton meter | spring balance
+Triple beam balance | triple beam
+Analytical balance
+Lab notebook
+Dissecting tray | dissection tray
 Scalpel
 Forceps
-Probe
-Dissecting pan
-Microcentrifuge tube | eppendorf tube
-Micropipette
-Pipette tips
-PCR machine | thermocycler
-Gel electrophoresis
-Western blot
-Fluorescent microscope
-Electron microscope
-Hemocytometer
-Cuvette
-Bottle brush
-Clipboard
-Lab manual
-MSDS | safety data sheet
+Tweezers
+Prism
+Lens
+Magnet
+Tripod
+Stopper | rubber stopper | bung
+Cork
+Rubber tubing | tubing
+Test tube holder
+Test tube rack
+Crucible tongs | tongs
+Eyewash station | eye wash
+Safety shower
 Fire blanket
-First aid kit
+Fire extinguisher
+Syringe
+Stopwatch
+Meter stick | metre stick | ruler
+Wash bottle | squeeze bottle
+Litmus paper | ph paper
+pH meter | ph probe
+Filter paper
+Stirring rod | glass rod
+Magnetic stirrer | stir bar | stir plate
+Hot plate | hotplate
+Oven | drying oven
+Mortar and pestle | mortar | pestle
+Spatula
+Cover slip | coverslip
+Glass slide | microscope slide | slide
+Magnifying glass | magnifier
+Fume hood
+
+[Rare]
+Centrifuge
+Spectrophotometer
+Burette | buret
+Erlenmeyer flask | conical flask
+Graduated cylinder | measuring cylinder
+Dropper | eye dropper | eyedropper
+Funnel
+Thermometer
+Balance | scale | lab scale
+Lab coat
+Gloves | lab gloves
+Petri dish
 
 [Schooler]
+Pipette | pipet
 Flask
-Graduated cylinder
-Pipette | pipet | dropper
-Burette | buret
-Scale | balance
-Thermometer
-Test tube rack
-Tongs
-Gloves
-Slides | microscope slide
-Funnel
-Magnifying glass
-Periodic table
-Chemicals
-Fume hood
-Eyewash station
-Fire extinguisher
-Safety shower
-Centrifuge
-Hot plate
-Stirring rod | glass rod
-Spatula
-Ring stand
-Clamp
-Tripod
-Wire gauze
-Crucible
-Mortar and pestle
-Filter paper
-Litmus paper
-pH strips
-Computer
-Notebook | lab notebook
-Sink
-Lab bench
-Stool
+Safety goggles | goggles
 
 [Too Clever]
-Skeleton
-Petri dish
-Lab rat
+Periodic table
+Skeleton model | skeleton
 
 [Plankton]
-Microscope
 Beaker
 Test tube
-Goggles | safety goggles
-Lab coat
-Bunsen burner
-Scientist
+Bunsen burner | bunsen
+Microscope
 
 [Not accepted]
-Chalkboard
-Lunch
-Bed
-Couch
-Television
-tv
+Chemicals
+Acid
+Water
+Computer
+Whiteboard
+Desk
+Calculator
+Pencil
 
 # QUESTION
 id: q0118

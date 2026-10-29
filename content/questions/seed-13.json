@@ -6284,747 +6284,437 @@
   },
   {
     "id": "q0128",
-    "prompt": "Name something you'd bring to the beach",
-    "category": "everyday-objects",
+    "prompt": "Name a sea or ocean",
+    "category": "geography",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Metal detector",
+        "text": "Sargasso Sea",
+        "aliases": [
+          "sargasso"
+        ],
         "tier": 100
       },
       {
-        "text": "Sand anchor",
+        "text": "Kara Sea",
         "tier": 85
       },
       {
-        "text": "Sand screw",
+        "text": "Laptev Sea",
         "tier": 85
       },
       {
-        "text": "Umbrella anchor",
+        "text": "East Siberian Sea",
         "tier": 85
       },
       {
-        "text": "Shade sail",
+        "text": "Chukchi Sea",
         "tier": 85
       },
       {
-        "text": "Beach caddy",
+        "text": "Beaufort Sea",
         "tier": 85
       },
       {
-        "text": "Sand-free mat",
-        "tier": 85
-      },
-      {
-        "text": "Sand sifter",
-        "tier": 85
-      },
-      {
-        "text": "Shell identification guide",
-        "tier": 85
-      },
-      {
-        "text": "Tide chart",
-        "tier": 85
-      },
-      {
-        "text": "Tide table",
-        "tier": 85
-      },
-      {
-        "text": "Surf wax",
-        "tier": 85
-      },
-      {
-        "text": "Board leash",
-        "tier": 85
-      },
-      {
-        "text": "Fin key",
-        "tier": 85
-      },
-      {
-        "text": "Ding repair kit",
-        "tier": 85
-      },
-      {
-        "text": "Zinc oxide",
-        "tier": 85
-      },
-      {
-        "text": "Nose zinc",
-        "tier": 85
-      },
-      {
-        "text": "Rash cream",
-        "tier": 85
-      },
-      {
-        "text": "Kite reel",
-        "tier": 85
-      },
-      {
-        "text": "Stunt kite",
-        "tier": 85
-      },
-      {
-        "text": "Kiteboard",
-        "tier": 85
-      },
-      {
-        "text": "Windsurf board",
-        "tier": 85
-      },
-      {
-        "text": "Wakeboard",
-        "tier": 85
-      },
-      {
-        "text": "Water skis",
-        "tier": 85
-      },
-      {
-        "text": "Jet ski",
-        "tier": 85
-      },
-      {
-        "text": "Banana boat",
-        "tier": 85
-      },
-      {
-        "text": "Inflatable kayak",
-        "tier": 85
-      },
-      {
-        "text": "Underwater camera",
-        "tier": 85
-      },
-      {
-        "text": "GoPro",
-        "tier": 85
-      },
-      {
-        "text": "Drone",
-        "tier": 85
-      },
-      {
-        "text": "Tripod",
-        "tier": 85
-      },
-      {
-        "text": "Beach wheelchair",
-        "tier": 85
-      },
-      {
-        "text": "Swim diaper",
-        "tier": 85
-      },
-      {
-        "text": "Baby sunscreen",
-        "tier": 85
-      },
-      {
-        "text": "Pop-up tent",
-        "tier": 85
-      },
-      {
-        "text": "Sun hut",
-        "tier": 85
-      },
-      {
-        "text": "Cabana",
-        "tier": 85
-      },
-      {
-        "text": "Beach cot",
-        "tier": 85
-      },
-      {
-        "text": "Lounger",
-        "tier": 85
-      },
-      {
-        "text": "Air mattress",
-        "tier": 85
-      },
-      {
-        "text": "Inner tube",
-        "tier": 85
-      },
-      {
-        "text": "Swim ring",
-        "tier": 85
-      },
-      {
-        "text": "Arm floaties",
+        "text": "Sea of Okhotsk",
         "aliases": [
-          "water wings"
+          "okhotsk"
         ],
         "tier": 85
       },
       {
-        "text": "Kickboard",
+        "text": "Philippine Sea",
         "tier": 85
       },
       {
-        "text": "Snorkel vest",
+        "text": "Celebes Sea",
         "tier": 85
       },
       {
-        "text": "Fishing license",
+        "text": "Sulu Sea",
         "tier": 85
       },
       {
-        "text": "Cast net",
+        "text": "Java Sea",
         "tier": 85
       },
       {
-        "text": "Clam rake",
+        "text": "Banda Sea",
         "tier": 85
       },
       {
-        "text": "Bottle opener",
+        "text": "Flores Sea",
         "tier": 85
       },
       {
-        "text": "Ice packs",
+        "text": "Timor Sea",
         "tier": 85
       },
       {
-        "text": "Spray bottle",
+        "text": "Arafura Sea",
         "tier": 85
       },
       {
-        "text": "Misting fan",
+        "text": "Solomon Sea",
         "tier": 85
       },
       {
-        "text": "Battery fan",
+        "text": "Bismarck Sea",
         "tier": 85
       },
       {
-        "text": "Portable shower",
+        "text": "Andaman Sea",
         "tier": 85
       },
       {
-        "text": "Foot rinse",
+        "text": "Laccadive Sea",
         "tier": 85
       },
       {
-        "text": "Baby wipes",
+        "text": "Labrador Sea",
         "tier": 85
       },
       {
-        "text": "Sand toys",
-        "tier": 60
+        "text": "Celtic Sea",
+        "tier": 85
       },
       {
-        "text": "Sieve",
-        "tier": 60
+        "text": "Wadden Sea",
+        "tier": 85
       },
       {
-        "text": "Shell bag",
-        "tier": 60
-      },
-      {
-        "text": "Wetsuit",
-        "tier": 60
-      },
-      {
-        "text": "Rash guard",
-        "tier": 60
-      },
-      {
-        "text": "Water shoes",
-        "tier": 60
-      },
-      {
-        "text": "Visor",
-        "tier": 60
-      },
-      {
-        "text": "Bucket hat",
-        "tier": 60
-      },
-      {
-        "text": "Sarong",
-        "tier": 60
-      },
-      {
-        "text": "Kaftan",
-        "tier": 60
-      },
-      {
-        "text": "Beach mat",
-        "tier": 60
-      },
-      {
-        "text": "Windbreak",
-        "tier": 60
-      },
-      {
-        "text": "Wagon",
+        "text": "Ionian Sea",
         "aliases": [
-          "beach cart"
+          "ionian"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tyrrhenian Sea",
+        "aliases": [
+          "tyrrhenian"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ligurian Sea",
+        "tier": 85
+      },
+      {
+        "text": "Balearic Sea",
+        "tier": 85
+      },
+      {
+        "text": "Alboran Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sea of Marmara",
+        "aliases": [
+          "marmara"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sea of Azov",
+        "aliases": [
+          "azov"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Levantine Sea",
+        "tier": 85
+      },
+      {
+        "text": "Libyan Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sea of Crete",
+        "tier": 85
+      },
+      {
+        "text": "Thracian Sea",
+        "tier": 85
+      },
+      {
+        "text": "Weddell Sea",
+        "tier": 85
+      },
+      {
+        "text": "Ross Sea",
+        "tier": 85
+      },
+      {
+        "text": "Amundsen Sea",
+        "tier": 85
+      },
+      {
+        "text": "Bellingshausen Sea",
+        "tier": 85
+      },
+      {
+        "text": "Scotia Sea",
+        "tier": 85
+      },
+      {
+        "text": "Davis Sea",
+        "tier": 85
+      },
+      {
+        "text": "Greenland Sea",
+        "tier": 85
+      },
+      {
+        "text": "White Sea",
+        "tier": 85
+      },
+      {
+        "text": "Pechora Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sea of the Hebrides",
+        "tier": 85
+      },
+      {
+        "text": "Bohai Sea",
+        "tier": 85
+      },
+      {
+        "text": "Seto Inland Sea",
+        "tier": 85
+      },
+      {
+        "text": "Molucca Sea",
+        "tier": 85
+      },
+      {
+        "text": "Halmahera Sea",
+        "tier": 85
+      },
+      {
+        "text": "Ceram Sea",
+        "tier": 85
+      },
+      {
+        "text": "Savu Sea",
+        "tier": 85
+      },
+      {
+        "text": "Bali Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sibuyan Sea",
+        "tier": 85
+      },
+      {
+        "text": "Visayan Sea",
+        "tier": 85
+      },
+      {
+        "text": "Bohol Sea",
+        "aliases": [
+          "mindanao sea"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Argentine Sea",
+        "tier": 85
+      },
+      {
+        "text": "Salish Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sea of Galilee",
+        "aliases": [
+          "lake of galilee"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Salton Sea",
+        "tier": 85
+      },
+      {
+        "text": "Aral Sea",
+        "tier": 85
+      },
+      {
+        "text": "Barents Sea",
+        "tier": 85
+      },
+      {
+        "text": "Norwegian Sea",
+        "tier": 85
+      },
+      {
+        "text": "Irish Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sea of Cortez",
+        "aliases": [
+          "gulf of california"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Coral Sea",
+        "tier": 85
+      },
+      {
+        "text": "Tasman Sea",
+        "tier": 85
+      },
+      {
+        "text": "Bering Sea",
+        "tier": 85
+      },
+      {
+        "text": "Yellow Sea",
+        "tier": 85
+      },
+      {
+        "text": "East China Sea",
+        "tier": 85
+      },
+      {
+        "text": "Sea of Japan",
+        "aliases": [
+          "east sea"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Southern Ocean",
+        "aliases": [
+          "antarctic ocean"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "South China Sea",
+        "tier": 60
+      },
+      {
+        "text": "Arabian Sea",
+        "tier": 60
+      },
+      {
+        "text": "Aegean Sea",
+        "aliases": [
+          "aegean"
         ],
         "tier": 60
       },
       {
-        "text": "Paddleboard",
-        "tier": 60
-      },
-      {
-        "text": "Kayak",
-        "tier": 60
-      },
-      {
-        "text": "Skimboard",
-        "tier": 60
-      },
-      {
-        "text": "Fishing rod",
-        "tier": 60
-      },
-      {
-        "text": "Bait",
-        "tier": 60
-      },
-      {
-        "text": "Crab net",
-        "tier": 60
-      },
-      {
-        "text": "Binoculars",
-        "tier": 60
-      },
-      {
-        "text": "Spikeball",
-        "tier": 60
-      },
-      {
-        "text": "Cornhole",
-        "tier": 60
-      },
-      {
-        "text": "Paddleball",
+        "text": "Adriatic Sea",
         "aliases": [
-          "kadima"
+          "adriatic"
         ],
         "tier": 60
       },
       {
-        "text": "Smashball",
-        "tier": 60
-      },
-      {
-        "text": "Bocce",
-        "tier": 60
-      },
-      {
-        "text": "Horseshoes",
-        "tier": 60
-      },
-      {
-        "text": "Ladder toss",
-        "tier": 60
-      },
-      {
-        "text": "Cards",
-        "tier": 60
-      },
-      {
-        "text": "Crossword",
-        "tier": 60
-      },
-      {
-        "text": "Sudoku",
-        "tier": 60
-      },
-      {
-        "text": "E-reader",
+        "text": "Baltic Sea",
         "aliases": [
-          "kindle"
+          "baltic"
         ],
         "tier": 60
       },
       {
-        "text": "Headphones",
+        "text": "North Sea",
         "tier": 60
       },
       {
-        "text": "Portable charger",
+        "text": "Caspian Sea",
         "aliases": [
-          "power bank"
+          "caspian"
         ],
         "tier": 60
       },
       {
-        "text": "Baby powder",
-        "tier": 60
-      },
-      {
-        "text": "Talcum powder",
-        "tier": 60
-      },
-      {
-        "text": "Bug spray",
-        "tier": 60
-      },
-      {
-        "text": "First aid kit",
-        "tier": 60
-      },
-      {
-        "text": "Tweezers",
-        "tier": 60
-      },
-      {
-        "text": "Hand sanitizer",
-        "tier": 60
-      },
-      {
-        "text": "Change of clothes",
-        "tier": 60
-      },
-      {
-        "text": "Dry bag",
-        "tier": 60
-      },
-      {
-        "text": "Waterproof phone case",
-        "tier": 60
-      },
-      {
-        "text": "Sunscreen stick",
-        "tier": 60
-      },
-      {
-        "text": "After-sun lotion",
-        "tier": 60
-      },
-      {
-        "text": "Tanning oil",
-        "tier": 60
-      },
-      {
-        "text": "Hydration pack",
-        "tier": 60
-      },
-      {
-        "text": "Thermos",
-        "tier": 60
-      },
-      {
-        "text": "Popsicles",
-        "tier": 60
-      },
-      {
-        "text": "Watermelon",
-        "tier": 60
-      },
-      {
-        "text": "Beer",
-        "tier": 60
-      },
-      {
-        "text": "Lemonade",
-        "tier": 60
-      },
-      {
-        "text": "Soda",
-        "tier": 60
-      },
-      {
-        "text": "Grill",
-        "tier": 60
-      },
-      {
-        "text": "Charcoal",
-        "tier": 60
-      },
-      {
-        "text": "Hot dogs",
-        "tier": 60
-      },
-      {
-        "text": "Burgers",
-        "tier": 60
-      },
-      {
-        "text": "Marshmallows",
-        "tier": 60
-      },
-      {
-        "text": "Lantern",
-        "tier": 60
-      },
-      {
-        "text": "Flashlight",
-        "tier": 60
-      },
-      {
-        "text": "Hammock",
-        "tier": 60
-      },
-      {
-        "text": "Parasol",
-        "tier": 60
-      },
-      {
-        "text": "Beach chair",
+        "text": "Arctic Ocean",
         "aliases": [
-          "chair"
+          "arctic"
         ],
         "tier": 30
       },
       {
-        "text": "Blanket",
-        "tier": 30
-      },
-      {
-        "text": "Hat",
+        "text": "Indian Ocean",
         "aliases": [
-          "sun hat"
+          "indian"
         ],
         "tier": 30
       },
       {
-        "text": "Flip-flops",
-        "aliases": [
-          "flip flops",
-          "sandals"
-        ],
+        "text": "Red Sea",
         "tier": 30
       },
       {
-        "text": "Snacks",
+        "text": "Black Sea",
         "tier": 30
       },
       {
-        "text": "Sandwiches",
+        "text": "Dead Sea",
         "tier": 30
       },
       {
-        "text": "Drinks",
-        "tier": 30
-      },
-      {
-        "text": "Water bottle",
-        "tier": 30
-      },
-      {
-        "text": "Book",
-        "tier": 30
-      },
-      {
-        "text": "Magazine",
-        "tier": 30
-      },
-      {
-        "text": "Phone",
-        "tier": 30
-      },
-      {
-        "text": "Speaker",
-        "aliases": [
-          "bluetooth speaker"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Radio",
-        "tier": 30
-      },
-      {
-        "text": "Frisbee",
-        "tier": 30
-      },
-      {
-        "text": "Beach ball",
-        "tier": 30
-      },
-      {
-        "text": "Volleyball",
-        "tier": 30
-      },
-      {
-        "text": "Football",
-        "tier": 30
-      },
-      {
-        "text": "Boogie board",
-        "aliases": [
-          "bodyboard"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Surfboard",
-        "tier": 30
-      },
-      {
-        "text": "Snorkel",
-        "tier": 30
-      },
-      {
-        "text": "Goggles",
-        "tier": 30
-      },
-      {
-        "text": "Flippers",
-        "aliases": [
-          "fins"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Life jacket",
-        "tier": 30
-      },
-      {
-        "text": "Pool noodle",
-        "tier": 30
-      },
-      {
-        "text": "Inflatable",
-        "aliases": [
-          "float",
-          "raft",
-          "pool float"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Beach bag",
-        "aliases": [
-          "tote"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cover-up",
-        "tier": 30
-      },
-      {
-        "text": "Lip balm",
-        "tier": 30
-      },
-      {
-        "text": "Aloe vera",
-        "tier": 30
-      },
-      {
-        "text": "Hairbrush",
-        "tier": 30
-      },
-      {
-        "text": "Camera",
-        "tier": 30
-      },
-      {
-        "text": "Tent",
-        "aliases": [
-          "beach tent",
-          "canopy"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sunshade",
-        "tier": 30
-      },
-      {
-        "text": "Wet wipes",
-        "tier": 30
-      },
-      {
-        "text": "Trash bag",
-        "tier": 30
-      },
-      {
-        "text": "Ice",
-        "tier": 30
-      },
-      {
-        "text": "Fruit",
-        "tier": 30
-      },
-      {
-        "text": "Chips",
-        "tier": 30
-      },
-      {
-        "text": "Kite",
+        "text": "Sea of Tranquility",
         "tier": 15
       },
       {
-        "text": "Sandcastle mold",
+        "text": "Seven Seas",
         "tier": 15
       },
       {
-        "text": "Seashells",
-        "tier": 15
-      },
-      {
-        "text": "Towel",
+        "text": "Pacific Ocean",
         "aliases": [
-          "beach towel"
+          "pacific"
         ],
         "tier": 10
       },
       {
-        "text": "Sunscreen",
+        "text": "Atlantic Ocean",
         "aliases": [
-          "sunblock",
-          "suntan lotion"
+          "atlantic"
         ],
         "tier": 10
       },
       {
-        "text": "Umbrella",
+        "text": "Mediterranean Sea",
         "aliases": [
-          "beach umbrella"
+          "mediterranean"
         ],
         "tier": 10
       },
       {
-        "text": "Sunglasses",
-        "tier": 10
-      },
-      {
-        "text": "Swimsuit",
+        "text": "Caribbean Sea",
         "aliases": [
-          "bathing suit",
-          "swimwear"
+          "caribbean"
         ],
-        "tier": 10
-      },
-      {
-        "text": "Bucket and shovel",
-        "aliases": [
-          "bucket",
-          "shovel",
-          "pail"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Cooler",
-        "tier": 10
-      },
-      {
-        "text": "Water",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Snow",
-      "Skis",
-      "Sweater",
-      "Parka",
-      "Mittens"
-    ]
+      "Gulf of Mexico",
+      "Gulf of America",
+      "Persian Gulf",
+      "Bay of Bengal",
+      "Hudson Bay",
+      "Lake Superior",
+      "Great Salt Lake",
+      "English Channel",
+      "Panama Canal",
+      "Sea World",
+      "Under the Sea",
+      "Seashell"
+    ],
+    "notes": "Earth's five oceans and named seas, including lakes that are called seas (Dead Sea, Caspian Sea). Gulfs and bays don't count."
   },
   {
     "id": "q0129",

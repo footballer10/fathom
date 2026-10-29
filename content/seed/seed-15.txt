@@ -1210,503 +1210,221 @@ Fire truck
 id: q0147
 pool: unlimited
 category: vehicles
-prompt: Name something you'd see on a road or highway
+prompt: Name a road or traffic sign
+note: Regulatory, warning and guide signs drivers see (US, UK, and other countries). Name the sign by what it says or shows.
 
 [One in a Krillion]
-Botts' dots | botts dots
+Kangaroo crossing
 
 [Deep Cut]
-Cat's eyes
-Raised pavement markers
-Delineator posts
-Bollard
-Speed table
-Chicane
-Pinch point
-Diverter
-Bulb-out
-Pork chop island
-Gore point
-Crash attenuator | impact attenuator
-Sand barrels
-Cable barrier
-Arrow board
-Message board trailer
-Pilot car
-Escort vehicle
-Oversize load
-Wide load sign
-Slow-moving vehicle sign
-Amish buggy
-Tractor
-Combine
-Golf cart
-Moped
-Scooter
-Electric scooter
-Rollerblader
-Skateboarder
-Horse and rider
-Roadside vendor
-Fruit stand
-Fireworks stand
-Roadside memorial
-Adopt-a-Highway sign
-Litter crew
-Mowing crew
-Bridge inspector
-Toll collector
-Weigh-in-motion
-Brake check area
-Chain-up area
-Truck escape ramp
-Jake brake sign
-Hidden driveway sign
-Blind curve
-Switchback
-Hairpin turn
-Grade sign
-Steep hill
-Falling rocks sign
-Rockfall netting
-Low clearance sign
-Height restriction
-Weight limit sign
-Bridge ices before road
-Slippery when wet
+Tsunami evacuation route | tsunami zone
+Emergency snow route | snow route
+Tow-away zone | tow away zone
+Hidden driveway
+Truck crossing
+Fire station
+Flagger ahead | flagman ahead
+Uneven lanes
+Soft shoulder
+Loose gravel
+Dip
+Bump
+Added lane
+Right lane must turn right | right lane must exit
+No bicycles
+No pedestrians
+No trucks
+Moose crossing
+Cattle crossing | cow crossing
+Low clearance
+Weight limit
+Narrow bridge
+Bridge ices before road | ice on bridge
+Watch for ice | ice warning
+Side road
+T intersection
+Y intersection
+Cross road | intersection ahead | crossroads
+Two-way traffic | two way traffic
+Divided highway | divided highway begins | divided highway ends
+Lane ends
+Keep left
+Keep right
+Stop ahead
+Yield ahead
+Signal ahead | traffic light ahead | traffic signal ahead
+Winding road
+Sharp turn | sharp curve
+Steep hill | hill | grade | steep grade | truck hill
+HOV lane | carpool lane
+Toll | toll road | toll booth sign
+Exit only
+Rest area | rest stop
+Gas food lodging | services
+Hospital
+Airport
+Mile marker | mile post
+Route marker | route sign
+Interstate sign | interstate shield
+Pass with care
+End road work | end construction
+Playground | playground ahead
+Wildlife crossing
+Falling rocks | rockfall
+Slippery when wet | slippery road
+Speed hump | speed bump
+No passing zone | no passing
+Do not pass
+Share the road
+Bike lane | bicycle lane
+Handicapped parking | accessible parking | disabled parking
+Roundabout | traffic circle | roundabout ahead
+Detour
+Dead end | no outlet | no through road
+Wrong way
+Do not enter | no entry
+No stopping
+No left turn
+No right turn
+No turn on red
+Curve ahead | curve
+Merge | merging traffic
+Railroad crossing | railway crossing | crossbuck | train crossing
+Pedestrian crossing | crosswalk | ped crossing
+Deer crossing | animal crossing
+Children at play | slow children
 
 [Rare]
-Jersey barrier
-Concrete barrier
-Barrel | construction barrel
-Flagger | flagman
-Road crew
-Paving machine | paver
-Steamroller
-Manhole cover | manhole
-Storm drain
-Bus stop
-Bike lane
-Cul-de-sac
-Dead end sign
-Cattle guard
-Cattle crossing
-Deer crossing sign
-Moose crossing
-Animal crossing
-Wildlife overpass
-Weigh station
-Truck stop
-Welcome sign | state line sign
-County line
-Interstate sign
-Route sign
-Highway patrol | state trooper
-Tow truck
-Broken down car
-Flat tire
-Car accident | crash | wreck
-Traffic jam
-Carpool lane | hov lane
-Express lane
-Toll road
-EZ-Pass | toll transponder
-Chevron sign
-Curve sign
-School zone
-School bus
-Ice cream truck
-Garbage truck
-Mail truck
-RV | motorhome
-Camper
-Trailer
-Boat trailer
-Horse trailer
-Car carrier
-Tanker truck
-Log truck
-Cement mixer
-Dump truck
-Street sweeper
-Snowplow
-Salt truck
-Overhead sign
-Variable message sign
-Amber alert sign
-Traffic camera
-Emergency call box
-Rest area
-Picnic area
-Scenic overlook
-Historical marker
-Exit number
-Cloverleaf
-Interchange
-Frontage road
-Service road
-Access road
-Gravel shoulder
-Breakdown lane
-Runaway truck ramp
-Avalanche shed
-Snow fence
-Sound wall | noise barrier
+One way
+No U-turn | no u turn
+School zone | school crossing | school
+Road work | road work ahead | construction | men at work | construction zone
+No parking
+Exit
 
 [Schooler]
-Motorcycle
-Bicycle
-Semi truck | semi | 18-wheeler
-Police car
-Ambulance
-Fire truck
-Taxi
-Van
-SUV
-Exit sign
-Billboard
-Guardrail
-Median
-Shoulder
-Lane
-Crosswalk
-Overpass
-Bridge
-Tunnel
-Toll booth
-Gas station
-Rest stop
-Mile marker
-Road sign
-Yield sign
-Speed bump
-Traffic cone | cone
-Construction zone | road work
-Detour sign
-Street light | streetlight | lamppost
-Reflectors
-Rumble strips
-Intersection
-Roundabout | traffic circle
-On-ramp | ramp
-Off-ramp
-Hitchhiker
-Deer
-Litter | trash
-Tire tracks
-Skid marks
-Puddle
-Ice | black ice
-Speed trap
-Speed camera
-Wrong way sign
-Merge sign
-One way sign
-Railroad crossing
-Train
-Pedestrian
-Cyclist
-Jaywalker
-Crossing guard
-
-[Too Clever]
-Chicken crossing the road | chicken
-Roadkill
-Road rage
+Speed limit
 
 [Plankton]
-Car
-Truck
-Stop sign
-Traffic light | stoplight | traffic signal
-Speed limit sign
-Pothole
-Lines | road lines | lane lines
-Bus
+Stop | stop sign
+Yield | yield sign | give way
 
 [Not accepted]
-Airplane
-Boat
-Ocean
-Couch
-Bed
+Billboard
+Traffic light
+Street light
+Mailbox
+Cone
+Guardrail
+Pothole
+Crosswalk button
+Parking meter
 
 # QUESTION
 id: q0148
 pool: unlimited
-category: nature
-prompt: Name something you'd find in a garden
+category: everyday-objects
+prompt: Name a gardening tool
+note: Hand tools, power tools and equipment used to dig, cut, water, weed, plant, and care for a garden or lawn.
 
 [One in a Krillion]
-Gazing ball | gazing globe
+Hori hori | hori hori knife
 
 [Deep Cut]
-Dibber
-Hori hori
-Bulb planter
-Soil knife
-Edger
-Half-moon edger
-Thatch rake
-Leaf rake
-Bow rake
-Hand cultivator
-Weeder
-Dandelion puller
-Scuffle hoe
-Stirrup hoe
 Broadfork
-Soil test kit
-Rain gauge
-Garden thermometer
-Seed tray
-Seedling pots
-Peat pots
-Grow lights
-Heat mat
-Plant ties
-Chicken wire
-Hardware cloth
-Bird netting
-Deer fence
-Electric fence
-Scare tape
-Owl decoy
-Motion-activated sprinkler
-Beehive
-Mason bee house
-Bat house
-Bug hotel | insect hotel
-Toad house
-Butterfly house
-Wormery
-Leaf mold
-Biochar
-Vermicompost
-Green manure
-Cover crop
-Mycorrhizae
-Hügelkultur
-Swale
-Keyhole garden
-Square foot garden
-Lasagna garden
-Straw bale garden
-Hydroponics
-Aquaponics
-Potager
-Parterre
-Knot garden
-Grotto
-Rill
-Pond liner
-Pond pump
-Bog garden
-Wildflower meadow
-Mixed border
-Herbaceous border
-
-[Rare]
-Pruning shears | pruners | secateurs
-Hedge clippers
-Loppers
-Spade
-Garden fork | pitchfork
-Cultivator
-Tiller
-Kneeling pad
-Sun hat
-Garden clogs
+Wheel hoe
+Stirrup hoe | hula hoe | scuffle hoe
+Draw hoe
+Warren hoe
+Cobrahead weeder | cobrahead
+Japanese hand hoe
+Transplanter
+Leaf grabbers | leaf scoops
+Dibber | dibble
+Bulb planter
+Hand fork | hand cultivator
+Weeder | dandelion weeder | weed puller
+Pruning saw
+Pole pruner | pole saw
+Scythe
+Sickle
+Machete
+Billhook
+Mattock
+Pickaxe | pick
+Post hole digger
+Soil tester | soil ph meter
+Thatching rake | dethatcher | scarifier
+Aerator | lawn aerator
+Spreader | seed spreader | fertilizer spreader | broadcast spreader
+Sprayer | pump sprayer | garden sprayer
 Hose reel
+Hose nozzle | spray nozzle
+Watering wand
 Soaker hose
 Drip irrigation
-Rain barrel
-Compost bin
-Compost tumbler
-Worm bin
-Potting soil
-Peat moss
-Manure
-Bone meal
-Plant food
-Slug pellets
-Netting
-Row cover
-Cold frame
-Cloche
-Plant markers | plant labels
-Stakes
-Tomato cage
-Bean poles
-Arbor
-Pergola
-Gazebo
-Archway
-Obelisk
-Sundial
-Water feature
-Koi pond
-Lily pad
-Frogs
-Toads
-Lizards
-Spiders
-Grasshoppers
-Caterpillars
-Aphids
-Beetles
-Moths
-Dragonflies
-Hummingbirds
-Robins
-Moles
-Gophers
-Voles
-Chipmunks
-Hose nozzle
-Spray bottle
+Leaf vacuum
+Edging knife | half-moon edger | half moon edger
+Edger | lawn edger
+Kneeling pad | kneeler | garden kneeler
 Garden cart
-Solar lights
-Fairy lights | string lights
-Garden flag
-Pink flamingo | lawn flamingo
-Fairy garden
-Rock garden
-Zen garden
-Herb garden
-Vegetable garden
-Flower bed
-Window box
-Hanging basket
-Topiary
-Espalier
-Succulents
-Lavender
-Marigolds
-Petunias
-Hydrangeas
-Peonies
-Lilies
-Irises
-Daffodils
-Hostas
-Ferns
-Boxwood
-Rosemary
-Thyme
-Parsley
-Chives
-Cilantro
-Dill
-Oregano
-Sage
-Kale
-Spinach
-Peas
-Beans
-Onions
-Garlic
-Potatoes
-Radishes
-Beets
-Eggplant
-Melons
-Watermelon
-Raspberries
-Blueberries
-Blackberries
-Apple tree
-Fruit trees
-
-[Schooler]
-Roses | rose
-Tulips
-Sunflowers
-Daisies
-Carrots
-Lettuce
-Cucumbers
-Peppers
-Zucchini
-Squash
-Pumpkins
-Strawberries
-Herbs
-Basil
-Mint
-Watering can
-Shovel
-Rake
-Hoe
-Trowel
-Gloves | gardening gloves
-Wheelbarrow
-Sprinkler
-Fence
-Gate
-Path | garden path
-Bench
-Birdbath | bird bath
-Bird feeder
-Birdhouse
-Bees | bee
-Butterflies
-Ladybugs
-Snails
-Slugs
-Ants
-Birds
-Squirrels
-Rabbits
-Seeds
-Bulbs
-Compost
-Mulch
-Fertilizer
-Pots | flower pot
-Planter
-Raised bed
+Bow rake
+Leaf rake
+Garden fork | digging fork | spading fork
+Cultivator
+Tiller | rototiller | rotavator
+Chainsaw
+Axe | ax
+Hatchet
+Grass shears
+Hedge trimmer | hedge shears | hedge clippers
+Loppers
+Compost bin | composter
+Rain barrel
 Trellis
-Scarecrow
-Shed | garden shed
-Greenhouse
-Fountain
-Pond
-Rocks | stones
-Stepping stones
-Statue
-Wind chime
-Grass | lawn
-Bush | shrub
-Hedge
-Tree
-Vine
-Ivy
-Moss
-Mushrooms
-Butterfly bush
-Hummingbird feeder
+Plant stakes | stakes | garden stakes
+Garden twine | twine
+Plant labels | plant markers
+Seed tray | seed starting tray
+Flower pot | pot | planter
+Bucket
+Tarp
 
-[Too Clever]
-Garden gnome | gnome
-Snake | garden snake
-
-[Plankton]
-Flowers | flower
-Dirt | soil
-Plants | plant
-Vegetables
-Tomatoes | tomato
-Worms | earthworm | worm
-Weeds | weed
+[Rare]
+Leaf blower | blower
+Weed whacker | string trimmer | weed eater | weed wacker | strimmer
+Pitchfork
+Sprinkler
+Garden gloves | gardening gloves | gloves
+Pruning shears | pruners | secateurs | clippers
+Watering can
 Garden hose | hose
 
+[Schooler]
+Wheelbarrow | wheel barrow
+Lawn mower | lawnmower | mower
+Trowel | hand trowel
+Hoe
+
+[Too Clever]
+Scissors
+Knife
+
+[Plankton]
+Shovel
+Rake
+Spade
+
 [Not accepted]
-Television
-Couch
-Oven
-Car
-Bed
+Garden gnome
+Bird bath
+Fence
+Seeds
+Fertilizer
+Soil
+Snow shovel
+Hammer
+Screwdriver
 
 # QUESTION
 id: q0149

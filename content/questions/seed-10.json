@@ -4865,1072 +4865,570 @@
   },
   {
     "id": "q0098",
-    "prompt": "Name a mountain or mountain range",
-    "category": "geography",
+    "prompt": "Name a character from The Office (US)",
+    "category": "movies-tv",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Mount Kosciuszko",
+        "text": "Hidetoshi Hasagawa",
         "aliases": [
-          "kosciuszko",
-          "kosciusko"
+          "hidetoshi"
         ],
         "tier": 100
       },
       {
-        "text": "Mount Logan",
-        "tier": 85
-      },
-      {
-        "text": "Mount Robson",
-        "tier": 85
-      },
-      {
-        "text": "Mount Assiniboine",
-        "tier": 85
-      },
-      {
-        "text": "Mount Saint Elias",
-        "tier": 85
-      },
-      {
-        "text": "Mount Foraker",
-        "tier": 85
-      },
-      {
-        "text": "Mount Hunter",
-        "tier": 85
-      },
-      {
-        "text": "Mount Sanford",
-        "tier": 85
-      },
-      {
-        "text": "Mount Baker",
-        "tier": 85
-      },
-      {
-        "text": "Mount Adams",
-        "tier": 85
-      },
-      {
-        "text": "Mount Jefferson",
-        "tier": 85
-      },
-      {
-        "text": "Mount Mitchell",
-        "tier": 85
-      },
-      {
-        "text": "Clingmans Dome",
-        "tier": 85
-      },
-      {
-        "text": "Mount Marcy",
-        "tier": 85
-      },
-      {
-        "text": "Mount Katahdin",
+        "text": "Nate Nickerson",
         "aliases": [
-          "katahdin"
+          "nate"
         ],
         "tier": 85
       },
       {
-        "text": "Mount Monadnock",
-        "tier": 85
-      },
-      {
-        "text": "Mount Elbert",
-        "tier": 85
-      },
-      {
-        "text": "Longs Peak",
-        "tier": 85
-      },
-      {
-        "text": "Maroon Bells",
-        "tier": 85
-      },
-      {
-        "text": "Mount Sneffels",
-        "tier": 85
-      },
-      {
-        "text": "Gannett Peak",
-        "tier": 85
-      },
-      {
-        "text": "Kings Peak",
-        "tier": 85
-      },
-      {
-        "text": "Borah Peak",
-        "tier": 85
-      },
-      {
-        "text": "Granite Peak",
-        "tier": 85
-      },
-      {
-        "text": "Humphreys Peak",
-        "tier": 85
-      },
-      {
-        "text": "Wheeler Peak",
-        "tier": 85
-      },
-      {
-        "text": "Guadalupe Peak",
-        "tier": 85
-      },
-      {
-        "text": "Harney Peak",
+        "text": "Hank Tate",
         "aliases": [
-          "black elk peak"
+          "hank"
         ],
         "tier": 85
       },
       {
-        "text": "Mount Mansfield",
-        "tier": 85
-      },
-      {
-        "text": "Mount Greylock",
-        "tier": 85
-      },
-      {
-        "text": "Spruce Knob",
-        "tier": 85
-      },
-      {
-        "text": "Brasstown Bald",
-        "tier": 85
-      },
-      {
-        "text": "Stone Mountain",
-        "tier": 85
-      },
-      {
-        "text": "Mount Tamalpais",
-        "tier": 85
-      },
-      {
-        "text": "El Capitan",
-        "tier": 85
-      },
-      {
-        "text": "Mount Diablo",
-        "tier": 85
-      },
-      {
-        "text": "Mount San Jacinto",
-        "tier": 85
-      },
-      {
-        "text": "Mount Baldy",
-        "tier": 85
-      },
-      {
-        "text": "Mount Lemmon",
-        "tier": 85
-      },
-      {
-        "text": "Mount Parnassus",
-        "tier": 85
-      },
-      {
-        "text": "Mount Pelion",
-        "tier": 85
-      },
-      {
-        "text": "Mount Ossa",
-        "tier": 85
-      },
-      {
-        "text": "Mount Taygetus",
-        "tier": 85
-      },
-      {
-        "text": "Monte Rosa",
-        "tier": 85
-      },
-      {
-        "text": "Eiger",
-        "tier": 85
-      },
-      {
-        "text": "Jungfrau",
-        "tier": 85
-      },
-      {
-        "text": "Monch",
-        "tier": 85
-      },
-      {
-        "text": "Grossglockner",
-        "tier": 85
-      },
-      {
-        "text": "Zugspitze",
-        "tier": 85
-      },
-      {
-        "text": "Triglav",
-        "tier": 85
-      },
-      {
-        "text": "Musala",
-        "tier": 85
-      },
-      {
-        "text": "Mount Erebus",
-        "tier": 85
-      },
-      {
-        "text": "Vinson Massif",
-        "tier": 85
-      },
-      {
-        "text": "Transantarctic Mountains",
-        "tier": 85
-      },
-      {
-        "text": "Mount Wilhelm",
-        "tier": 85
-      },
-      {
-        "text": "Puncak Jaya",
+        "text": "Val Johnson",
         "aliases": [
-          "carstensz pyramid"
+          "val"
         ],
         "tier": 85
       },
       {
-        "text": "Mount Semeru",
-        "tier": 85
-      },
-      {
-        "text": "Mount Rinjani",
-        "tier": 85
-      },
-      {
-        "text": "Mount Apo",
-        "tier": 85
-      },
-      {
-        "text": "Mount Halla",
+        "text": "Cathy Simms",
         "aliases": [
-          "hallasan"
+          "cathy"
         ],
         "tier": 85
       },
       {
-        "text": "Mount Baekdu",
+        "text": "Robert Lipton",
         "aliases": [
-          "paektu"
+          "senator lipton",
+          "the senator"
         ],
         "tier": 85
       },
       {
-        "text": "Mount Aso",
-        "tier": 85
-      },
-      {
-        "text": "Mount Tate",
-        "tier": 85
-      },
-      {
-        "text": "Mount Kita",
-        "tier": 85
-      },
-      {
-        "text": "Tirich Mir",
-        "tier": 85
-      },
-      {
-        "text": "Rakaposhi",
-        "tier": 85
-      },
-      {
-        "text": "Ama Dablam",
-        "tier": 85
-      },
-      {
-        "text": "Machapuchare",
-        "tier": 85
-      },
-      {
-        "text": "Nanda Devi",
-        "tier": 85
-      },
-      {
-        "text": "Kamet",
-        "tier": 85
-      },
-      {
-        "text": "Ismoil Somoni Peak",
-        "tier": 85
-      },
-      {
-        "text": "Jengish Chokusu",
-        "tier": 85
-      },
-      {
-        "text": "Khan Tengri",
-        "tier": 85
-      },
-      {
-        "text": "Belukha",
-        "tier": 85
-      },
-      {
-        "text": "Mount Damavand",
+        "text": "Danny Cordray",
         "aliases": [
-          "damavand"
+          "danny"
         ],
         "tier": 85
       },
       {
-        "text": "Mount Toubkal",
+        "text": "Carol Stills",
         "aliases": [
-          "toubkal"
+          "carol"
         ],
         "tier": 85
       },
       {
-        "text": "Ras Dashen",
+        "text": "Hunter",
         "tier": 85
       },
       {
-        "text": "Mount Meru",
+        "text": "Kenny Anderson",
+        "aliases": [
+          "kenny"
+        ],
         "tier": 85
       },
       {
-        "text": "Mount Stanley",
+        "text": "Josh Porter",
+        "aliases": [
+          "josh"
+        ],
         "tier": 85
       },
       {
-        "text": "Thabana Ntlenyana",
+        "text": "Ed Truck",
         "tier": 85
       },
       {
-        "text": "Kangchenjunga",
+        "text": "Tony Gardner",
         "aliases": [
-          "kanchenjunga"
+          "tony"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Devon White",
+        "aliases": [
+          "devon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dan Gore",
+        "tier": 85
+      },
+      {
+        "text": "Katy Moore",
+        "aliases": [
+          "katy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Brian",
+        "aliases": [
+          "brian the boom mic guy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Esther Bruegger",
+        "aliases": [
+          "esther"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cece Halpert",
+        "aliases": [
+          "cece"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Philip Halpert",
+        "aliases": [
+          "philip"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Astrid",
+        "tier": 85
+      },
+      {
+        "text": "Jordan Garfield",
+        "aliases": [
+          "jordan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Isabel Poreba",
+        "aliases": [
+          "isabel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rolf Ahl",
+        "aliases": [
+          "rolf"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jeb Schrute",
+        "aliases": [
+          "jeb"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fannie Schrute",
+        "aliases": [
+          "fannie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mr. Brown",
+        "tier": 85
+      },
+      {
+        "text": "Tom Halpert",
+        "aliases": [
+          "tom"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pete Halpert",
+        "tier": 85
+      },
+      {
+        "text": "Betsy Halpert",
+        "aliases": [
+          "betsy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gerald Halpert",
+        "aliases": [
+          "gerald"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Helene Beesly",
+        "aliases": [
+          "helene"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "William Beesly",
+        "tier": 85
+      },
+      {
+        "text": "Penny Beesly",
+        "aliases": [
+          "penny"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ben Franklin",
+        "tier": 85
+      },
+      {
+        "text": "Samuel L. Chang",
+        "tier": 85
+      },
+      {
+        "text": "Goldenface",
+        "tier": 85
+      },
+      {
+        "text": "Agent Michael Scarn",
+        "aliases": [
+          "michael scarn"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Date Mike",
+        "tier": 85
+      },
+      {
+        "text": "Recyclops",
+        "tier": 85
+      },
+      {
+        "text": "Scrantonicity",
+        "tier": 85
+      },
+      {
+        "text": "Packer",
+        "aliases": [
+          "todd packer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sensei Ira",
+        "aliases": [
+          "ira"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lonny Collins",
+        "aliases": [
+          "lonny"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Madge Madsen",
+        "aliases": [
+          "madge"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Glenn",
+        "tier": 85
+      },
+      {
+        "text": "Jerry DiCanio",
+        "aliases": [
+          "jerry"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rachael Wallace",
+        "tier": 85
+      },
+      {
+        "text": "Concierge Marie",
+        "aliases": [
+          "marie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Donna Newton",
+        "aliases": [
+          "donna"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Brenda Matlowe",
+        "aliases": [
+          "brenda"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mose Schrute",
+        "aliases": [
+          "mose"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Charles Miner",
+        "aliases": [
+          "charles"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Deangelo Vickers",
+        "aliases": [
+          "deangelo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Clark Green",
+        "aliases": [
+          "clark"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pete Miller",
+        "aliases": [
+          "plop"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nellie Bertram",
+        "aliases": [
+          "nellie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bob Vance",
+        "aliases": [
+          "bob vance vance refrigeration"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jo Bennett",
+        "aliases": [
+          "jo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Robert California",
+        "tier": 85
+      },
+      {
+        "text": "Gabe Lewis",
+        "aliases": [
+          "gabe"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "David Wallace",
+        "aliases": [
+          "wallace"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Karen Filippelli",
+        "aliases": [
+          "karen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Roy Anderson",
+        "aliases": [
+          "roy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jan Levinson",
+        "aliases": [
+          "jan",
+          "jan levinson-gould"
         ],
         "tier": 60
       },
       {
-        "text": "Lhotse",
-        "tier": 60
-      },
-      {
-        "text": "Makalu",
-        "tier": 60
-      },
-      {
-        "text": "Cho Oyu",
-        "tier": 60
-      },
-      {
-        "text": "Dhaulagiri",
-        "tier": 60
-      },
-      {
-        "text": "Manaslu",
-        "tier": 60
-      },
-      {
-        "text": "Nanga Parbat",
-        "tier": 60
-      },
-      {
-        "text": "Annapurna",
-        "tier": 60
-      },
-      {
-        "text": "Gasherbrum",
-        "tier": 60
-      },
-      {
-        "text": "Broad Peak",
-        "tier": 60
-      },
-      {
-        "text": "Shishapangma",
-        "tier": 60
-      },
-      {
-        "text": "Karakoram",
-        "tier": 60
-      },
-      {
-        "text": "Pamirs",
+        "text": "Holly Flax",
         "aliases": [
-          "pamir mountains"
+          "holly"
         ],
         "tier": 60
       },
       {
-        "text": "Tian Shan",
-        "tier": 60
-      },
-      {
-        "text": "Altai",
-        "tier": 60
-      },
-      {
-        "text": "Zagros",
-        "tier": 60
-      },
-      {
-        "text": "Taurus Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Mount Ararat",
+        "text": "Erin Hannon",
         "aliases": [
-          "ararat"
+          "erin"
         ],
         "tier": 60
       },
       {
-        "text": "Mount Kenya",
-        "tier": 60
-      },
-      {
-        "text": "Rwenzori",
-        "tier": 60
-      },
-      {
-        "text": "Drakensberg",
-        "tier": 60
-      },
-      {
-        "text": "Simien Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Mount Cameroon",
-        "tier": 60
-      },
-      {
-        "text": "Mount Elgon",
-        "tier": 60
-      },
-      {
-        "text": "Dolomites",
-        "tier": 60
-      },
-      {
-        "text": "Jura",
-        "tier": 60
-      },
-      {
-        "text": "Vosges",
-        "tier": 60
-      },
-      {
-        "text": "Black Forest",
-        "tier": 60
-      },
-      {
-        "text": "Harz",
-        "tier": 60
-      },
-      {
-        "text": "Sudetes",
-        "tier": 60
-      },
-      {
-        "text": "Tatras",
+        "text": "Darryl Philbin",
         "aliases": [
-          "tatra mountains"
+          "darryl"
         ],
         "tier": 60
       },
       {
-        "text": "Balkan Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Dinaric Alps",
-        "tier": 60
-      },
-      {
-        "text": "Pindus",
-        "tier": 60
-      },
-      {
-        "text": "Mount Athos",
-        "tier": 60
-      },
-      {
-        "text": "Scandinavian Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Snowdon",
+        "text": "Toby Flenderson",
         "aliases": [
-          "yr wyddfa"
+          "toby"
         ],
         "tier": 60
       },
       {
-        "text": "Scafell Pike",
-        "tier": 60
-      },
-      {
-        "text": "Grampians",
+        "text": "Kelly Kapoor",
         "aliases": [
-          "grampian mountains"
+          "kelly"
         ],
         "tier": 60
       },
       {
-        "text": "Mourne Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Carrantuohill",
-        "tier": 60
-      },
-      {
-        "text": "Brooks Range",
-        "tier": 60
-      },
-      {
-        "text": "Alaska Range",
-        "tier": 60
-      },
-      {
-        "text": "Coast Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Olympic Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Wasatch",
-        "tier": 60
-      },
-      {
-        "text": "Uinta Mountains",
-        "tier": 60
-      },
-      {
-        "text": "San Juan Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Sangre de Cristo",
-        "tier": 60
-      },
-      {
-        "text": "Bitterroot Range",
-        "tier": 60
-      },
-      {
-        "text": "Big Horn Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Wind River Range",
-        "tier": 60
-      },
-      {
-        "text": "Catskills",
-        "tier": 60
-      },
-      {
-        "text": "Berkshires",
-        "tier": 60
-      },
-      {
-        "text": "Green Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Poconos",
-        "tier": 60
-      },
-      {
-        "text": "Allegheny Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Ouachita Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Sierra Madre",
-        "tier": 60
-      },
-      {
-        "text": "Popocatepetl",
-        "tier": 60
-      },
-      {
-        "text": "Pico de Orizaba",
+        "text": "Creed Bratton",
         "aliases": [
-          "citlaltepetl"
+          "creed"
         ],
         "tier": 60
       },
       {
-        "text": "Chimborazo",
-        "tier": 60
-      },
-      {
-        "text": "Cotopaxi",
-        "tier": 60
-      },
-      {
-        "text": "Huascaran",
-        "tier": 60
-      },
-      {
-        "text": "Illimani",
-        "tier": 60
-      },
-      {
-        "text": "Ojos del Salado",
-        "tier": 60
-      },
-      {
-        "text": "Torres del Paine",
-        "tier": 60
-      },
-      {
-        "text": "Fitz Roy",
-        "tier": 60
-      },
-      {
-        "text": "Mauna Kea",
-        "tier": 60
-      },
-      {
-        "text": "Mauna Loa",
-        "tier": 60
-      },
-      {
-        "text": "Haleakala",
-        "tier": 60
-      },
-      {
-        "text": "Mount Cook",
+        "text": "Meredith Palmer",
         "aliases": [
-          "aoraki"
+          "meredith"
         ],
         "tier": 60
       },
       {
-        "text": "Southern Alps",
-        "tier": 60
-      },
-      {
-        "text": "Great Dividing Range",
-        "tier": 60
-      },
-      {
-        "text": "Blue Mountains",
-        "tier": 60
-      },
-      {
-        "text": "Mount Kinabalu",
+        "text": "Phyllis Vance",
         "aliases": [
-          "kinabalu"
+          "phyllis",
+          "phyllis lapin"
         ],
         "tier": 60
       },
       {
-        "text": "Mount Pinatubo",
+        "text": "Belsnickel",
+        "tier": 60
+      },
+      {
+        "text": "Ryan Howard",
         "aliases": [
-          "pinatubo"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mount Mayon",
-        "aliases": [
-          "mayon"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Krakatoa",
-        "tier": 60
-      },
-      {
-        "text": "Mount Tambora",
-        "aliases": [
-          "tambora"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mount Merapi",
-        "aliases": [
-          "merapi"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Jade Mountain",
-        "aliases": [
-          "yushan"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mount Hua",
-        "aliases": [
-          "huashan"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mount Tai",
-        "aliases": [
-          "taishan"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mount Kailash",
-        "aliases": [
-          "kailash"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Western Ghats",
-        "tier": 60
-      },
-      {
-        "text": "Eastern Ghats",
-        "tier": 60
-      },
-      {
-        "text": "Vindhya",
-        "tier": 60
-      },
-      {
-        "text": "Aravalli",
-        "tier": 60
-      },
-      {
-        "text": "Mount Abu",
-        "tier": 60
-      },
-      {
-        "text": "Mount Hermon",
-        "tier": 60
-      },
-      {
-        "text": "Jebel Musa",
-        "tier": 60
-      },
-      {
-        "text": "Mount Tabor",
-        "tier": 60
-      },
-      {
-        "text": "Mount Carmel",
-        "tier": 60
-      },
-      {
-        "text": "Mount of Olives",
-        "tier": 60
-      },
-      {
-        "text": "K2",
-        "tier": 30
-      },
-      {
-        "text": "Mount Fuji",
-        "aliases": [
-          "fuji"
+          "ryan"
         ],
         "tier": 30
       },
       {
-        "text": "Mount McKinley",
+        "text": "Andy Bernard",
         "aliases": [
-          "denali",
-          "mckinley"
+          "andy",
+          "nard dog"
         ],
         "tier": 30
       },
       {
-        "text": "Matterhorn",
-        "tier": 30
-      },
-      {
-        "text": "Mont Blanc",
-        "tier": 30
-      },
-      {
-        "text": "Mount St. Helens",
+        "text": "Angela Martin",
         "aliases": [
-          "st helens",
-          "mount saint helens"
+          "angela"
         ],
         "tier": 30
       },
       {
-        "text": "Mount Rainier",
+        "text": "Kevin Malone",
         "aliases": [
-          "rainier"
+          "kevin"
         ],
         "tier": 30
       },
       {
-        "text": "Mount Whitney",
+        "text": "Oscar Martinez",
         "aliases": [
-          "whitney"
+          "oscar"
         ],
         "tier": 30
       },
       {
-        "text": "Sierra Nevada",
-        "tier": 30
-      },
-      {
-        "text": "Cascades",
+        "text": "Stanley Hudson",
         "aliases": [
-          "cascade range"
+          "stanley"
         ],
         "tier": 30
       },
       {
-        "text": "Smoky Mountains",
-        "aliases": [
-          "great smoky mountains",
-          "smokies"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Blue Ridge Mountains",
-        "aliases": [
-          "blue ridge"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Urals",
-        "aliases": [
-          "ural mountains"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pyrenees",
-        "tier": 30
-      },
-      {
-        "text": "Atlas Mountains",
-        "aliases": [
-          "atlas"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mount Vesuvius",
-        "aliases": [
-          "vesuvius"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mount Etna",
-        "aliases": [
-          "etna"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mount Sinai",
-        "aliases": [
-          "sinai"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mount Hood",
-        "tier": 30
-      },
-      {
-        "text": "Mount Shasta",
-        "aliases": [
-          "shasta"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Grand Tetons",
-        "aliases": [
-          "tetons"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Adirondacks",
-        "aliases": [
-          "adirondack mountains"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "White Mountains",
-        "tier": 30
-      },
-      {
-        "text": "Ozarks",
-        "aliases": [
-          "ozark mountains"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Black Hills",
-        "tier": 30
-      },
-      {
-        "text": "Mount Washington",
-        "tier": 30
-      },
-      {
-        "text": "Ben Nevis",
-        "tier": 30
-      },
-      {
-        "text": "Table Mountain",
-        "tier": 30
-      },
-      {
-        "text": "Sugarloaf Mountain",
-        "aliases": [
-          "sugarloaf"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mount Elbrus",
-        "aliases": [
-          "elbrus"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Aconcagua",
-        "tier": 30
-      },
-      {
-        "text": "Carpathians",
-        "aliases": [
-          "carpathian mountains"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Apennines",
-        "tier": 30
-      },
-      {
-        "text": "Caucasus",
-        "tier": 30
-      },
-      {
-        "text": "Hindu Kush",
-        "tier": 30
-      },
-      {
-        "text": "Half Dome",
+        "text": "Prison Mike",
         "tier": 15
       },
       {
-        "text": "Uluru",
+        "text": "Michael Scott",
         "aliases": [
-          "ayers rock"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Mount Olympus",
-        "aliases": [
-          "olympus"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Pikes Peak",
-        "tier": 15
-      },
-      {
-        "text": "Mount Everest",
-        "aliases": [
-          "everest"
+          "michael"
         ],
         "tier": 10
       },
       {
-        "text": "Rocky Mountains",
+        "text": "Dwight Schrute",
         "aliases": [
-          "rockies",
-          "rocky mountain"
+          "dwight"
         ],
         "tier": 10
       },
       {
-        "text": "Himalayas",
+        "text": "Jim Halpert",
         "aliases": [
-          "himalaya"
+          "jim"
         ],
         "tier": 10
       },
       {
-        "text": "Alps",
-        "tier": 10
-      },
-      {
-        "text": "Andes",
-        "tier": 10
-      },
-      {
-        "text": "Appalachian Mountains",
+        "text": "Pam Beesly",
         "aliases": [
-          "appalachians",
-          "appalachia"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Mount Rushmore",
-        "aliases": [
-          "rushmore"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Mount Kilimanjaro",
-        "aliases": [
-          "kilimanjaro"
+          "pam",
+          "pam halpert"
         ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Hill",
-      "Valley",
-      "Volcano",
-      "Canyon",
-      "Grand Canyon",
-      "Mountain Dew"
-    ]
+      "David Brent",
+      "Gareth Keenan",
+      "Tim Canterbury",
+      "Dawn Tinsley",
+      "Leslie Knope",
+      "Ron Swanson",
+      "Jake Peralta",
+      "Chandler Bing",
+      "Steve Carell",
+      "John Krasinski"
+    ],
+    "notes": "Main and recurring characters, family members, and alter egos (Prison Mike, Belsnickel)."
   },
   {
     "id": "q0099",

@@ -340,134 +340,158 @@ Cheez-It
 id: q0014
 pool: unlimited
 category: everyday-objects
-prompt: Name something you'd find in a kitchen
+prompt: Name a cooking utensil, pot, pan, or kitchen gadget
+note: Hand tools, cookware, bakeware and countertop gadgets. Big built-in appliances (fridge, oven, dishwasher) don't count.
 
 [One in a Krillion]
-Lazy Susan | lazy suzan
+Mandoline | mandolin slicer
 
 [Deep Cut]
-Mandoline | mandoline slicer | mandolin
-Mortar and pestle | pestle | mortar
-Garlic press
-Salad spinner
-Zester | microplane
-Trivet
-Dish rack | dish drainer | drying rack
-Bread box | breadbox
-Baster | turkey baster
-Sifter | flour sifter
-Pastry brush
-Cheesecloth
-Meat thermometer | thermometer
-Kitchen scale | scale
-Egg timer | timer
-Funnel
-Skewer
-Cookie cutter
-Muffin tin | muffin pan
-Bundt pan
-Dutch oven
-Wok
-Saucepan
-Stockpot
-Steamer
-Butter dish
-Gravy boat
-Pizza cutter | pizza wheel
-Ice cream scoop | scoop
+Spider | spider strainer | spider skimmer
+Fish slice | fish spatula
+Bench scraper | dough scraper
+Pastry cutter | pastry blender
+Herb stripper
+Cherry pitter
+Avocado slicer
+Egg separator
+Egg slicer
+Food mill
+Potato ricer | ricer
+Spiralizer
+Splatter screen | splatter guard
+Cake tester
+Pie server | cake server
+Mortar and pestle | mortar | pestle
+Microplane | zester
+Citrus juicer | reamer | lemon squeezer | juicer
+Apple corer | corer
 Melon baller
-Apple corer
+Meat tenderizer | meat mallet
 Nutcracker
+Pepper mill | pepper grinder
+Salt shaker | salt and pepper shakers
+Skewers | skewer
+Trivet
+Sifter | flour sifter
+Piping bag | pastry bag
+Basting brush | pastry brush
+Baster | turkey baster
+Meat thermometer | thermometer
+Kitchen timer | egg timer | timer
+Kitchen scale | food scale | scale
+Funnel
+Cookie cutter
+Mixing bowl | bowl
+Salad spinner
+Garlic press
+Ice cream scoop
+Can opener | tin opener
+Bottle opener
+Corkscrew | wine opener
+Kitchen shears | kitchen scissors | scissors
+Cleaver | meat cleaver
+Paring knife
+Bread knife
+Chef's knife | chefs knife
+Carving knife
+Steak knife
+Knife sharpener | sharpening steel | honing rod | whetstone
+Slotted spoon
+Wooden spoon
+Rubber spatula | silicone spatula
+Turner | pancake turner
+Pizza cutter | pizza wheel
+Pizza stone
 Rolling pin
-Splatter guard
-Range hood | vent hood | extractor fan
-Backsplash
-Tupperware | food container
-Aluminum foil | tin foil | foil
-Plastic wrap | cling film | saran wrap
-Parchment paper
-Sponge
-Dish soap
-Dish towel | tea towel
+Measuring cups | measuring cup
+Measuring spoons | measuring spoon
+Colander
+Strainer | sieve
+Cutting board | chopping board
 Pot holder | potholder
 Oven mitt | oven glove
 Apron
-Paper towel | kitchen roll
-Napkin
-Placemat
-Coaster
-Spice rack
-Salt shaker | salt
-Pepper grinder | pepper mill | pepper shaker
-Magnets | fridge magnet
+Dish towel | tea towel
+Chopsticks
+Dutch oven
+Stockpot | stock pot
+Saucepan | sauce pan
+Skillet
+Cast iron skillet | cast iron pan
+Wok
+Griddle
+Grill pan
+Roasting pan
+Baking sheet | cookie sheet | sheet pan
+Muffin tin | muffin pan | cupcake pan
+Cake pan
+Loaf pan | bread pan
+Pie dish | pie pan | pie plate
+Casserole dish | baking dish
+Ramekin
+Springform pan
+Bundt pan
+Tart pan
+Cooling rack | wire rack
+Double boiler
+Pressure cooker
+Steamer | steamer basket
+Kettle | tea kettle | electric kettle
+Teapot
+French press
+Coffee maker | coffee machine
+Espresso machine
+Toaster
+Toaster oven
+Air fryer
+Slow cooker | crock pot | crockpot
+Instant Pot
+Rice cooker
+Blender
+Immersion blender | stick blender | hand blender
+Food processor
+Stand mixer | kitchenaid
+Hand mixer | electric mixer | mixer
+Waffle iron | waffle maker
+Sandwich maker | panini press
+Popcorn maker | popcorn machine
+Deep fryer
+Bread maker | bread machine
+Microwave | microwave oven
 
 [Rare]
 Ladle
-Colander | strainer
-Whisk
-Spatula
 Tongs
-Grater | cheese grater
-Can opener | tin opener
-Cutting board | chopping board
-Measuring cup | measuring spoon
-Peeler | vegetable peeler
-Corkscrew | bottle opener
-Baking sheet | baking tray | sheet pan
-Blender
-Kettle | tea kettle
-Dishwasher
-Freezer
-Coffee maker | coffee machine | coffee pot
-Pot
-Pan | frying pan | skillet
-Cabinet | cupboard
-Pantry
-Counter | countertop | worktop
-Trash can | garbage can | bin | garbage
-Faucet | tap
-Cookbook | recipe book
-Air fryer
-Food processor
-Stand mixer | mixer
-Slow cooker | crock pot | crockpot
-Rice cooker
-Toaster oven
-Island | kitchen island
-Drawer
+Whisk
+Peeler | vegetable peeler | potato peeler
+Grater | cheese grater | box grater
+Potato masher | masher
 
 [Schooler]
-Knife
-Fork
 Spoon
-Plate
-Bowl
-Cup | mug
-Glass
-Table
-Chair
-Food
-
-[Too Clever]
-Kitchen sink | everything but the kitchen sink
-Chef
-Cookie jar
+Fork
 
 [Plankton]
-Fridge | refrigerator | frige
-Stove | stovetop | cooktop | range
-Oven
-Microwave | microwave oven
-Sink
-Toaster
+Spatula
+Frying pan | fry pan
+Pot
+Pan
+Knife
 
 [Not accepted]
-Bed
-Toilet
-Shower
-Sofa
-Couch
-Bathtub
+Refrigerator
+Fridge
+Oven
+Stove
+Dishwasher
+Freezer
+Sink
+Table
+Food
+Napkin
+Plate
+Cup
 
 # QUESTION
 id: q0015

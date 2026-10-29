@@ -437,290 +437,242 @@ Jellyfish
 id: q0063
 pool: unlimited
 category: geography
-prompt: Name an island
-note: Real islands anywhere in the world. Island countries count.
+prompt: Name a country in the world
+note: The 193 UN members plus Vatican City, Palestine, Taiwan and Kosovo. Territories (Greenland, Puerto Rico) and parts of the UK (Scotland) don't count.
 
 [One in a Krillion]
-Tristan da Cunha
+Tuvalu
 
 [Deep Cut]
-Pitcairn
-Norfolk Island
-Lord Howe Island
-Christmas Island
-Cocos Islands
-Kangaroo Island
-Fraser Island | k'gari
-Rottnest Island
-Stewart Island
-Chatham Islands
-Vanuatu
 Nauru
-Tuvalu
 Kiribati
 Palau
 Marshall Islands
-Micronesia
+Micronesia | federated states of micronesia
+Vanuatu
 Solomon Islands
-New Caledonia
-Wallis and Futuna
-Niue
-Cook Islands | rarotonga
-Marquesas
-Tuamotu
-Kiritimati
-Midway
-Wake Island
-Diego Garcia
-Kerguelen
-Heard Island
-Bouvet Island
-Saint Helena | st helena
-Ascension Island
-Bioko
-Sao Tome
-Principe
-Lamu
-Pemba
-Mafia Island
-Comoros
-Mayotte
-Rodrigues
-Lakshadweep
-Andaman Islands
-Nicobar Islands
-Hormuz
-Kish
-Qeshm
-Lesbos
-Chios
-Samos
-Kos
-Naxos
-Paros
-Milos
-Ithaca
-Kefalonia
-Zakynthos
-Lampedusa
-Pantelleria
-Ischia
-Procida
-Murano
-Burano
-Hvar
-Brac
-Korcula
-Bornholm
-Saaremaa
-Aland
-Lofoten
-Jan Mayen
-Lundy
-Iona
-Lewis and Harris
-Anglesey
-Lindisfarne
-Jersey
-Guernsey
-Sark
-Alderney
-Heligoland
-Sylt
-Texel
-Mont Saint-Michel
-Belle-Ile
-Ile de Re
-Mackinac Island
-Isle Royale
-Catalina Island
-Channel Islands
-San Juan Islands
-Orcas Island
-Whidbey Island
-Outer Banks
-Assateague
-Chincoteague
-Sanibel
-Amelia Island
-Hilton Head
-Tybee Island
-Padre Island
-Galveston Island
-Block Island
-Fire Island
-Mount Desert Island
-Deer Isle
-Thousand Islands
-Manitoulin Island
-Anticosti
-Devon Island
-Banks Island
-Southampton Island
-Akimiski
-Aleutian Islands
-Attu
-St. Lawrence Island
-Kunashir
-
-[Rare]
-Kodiak
-Vancouver Island
-Newfoundland
-Baffin Island
-Prince Edward Island | pei
-Cape Breton
-Ellesmere Island
-Victoria Island
-Mallorca | majorca
-Ibiza
-Menorca
-Canary Islands | tenerife | gran canaria
-Madeira
-Azores
-Santorini
-Mykonos
-Rhodes
-Corfu
-Capri
-Elba
-Gotland
-Isle of Wight
-Skye | isle of skye
-Orkney
-Shetland
-Faroe Islands | faroes
-Svalbard
-Zanzibar
-Mauritius
-Seychelles
-Maldives
-Reunion | réunion
-Socotra
-Bahrain
-Hokkaido
-Honshu
-Kyushu
-Shikoku
-Okinawa
-Jeju
-Hainan
-Luzon
-Mindanao
-Cebu
-Palawan
-Boracay
-Phuket
-Langkawi
-Lombok
-Komodo
-Sulawesi
-Timor
-Guam
-Saipan
-Bora Bora
-Samoa
 Tonga
-Molokai
-Lanai
-Sakhalin
-Wrangel Island
-Novaya Zemlya
-Antigua
-St. Lucia | saint lucia
+Samoa | western samoa
+Comoros
+Sao Tome and Principe | são tomé and príncipe | sao tome
+Equatorial Guinea
+Guinea-Bissau | guinea bissau
+Djibouti
+Eritrea
+Eswatini | swaziland
+Lesotho
+Burundi
+Burkina Faso
+Mauritania
+Gabon
+Benin
+Togo
+Central African Republic | car
+Seychelles
+Mauritius
+Cape Verde | cabo verde
+Gambia | the gambia
+Malawi
+Brunei
+Bhutan
+Timor-Leste | east timor | timor leste
+Maldives
+Turkmenistan
+Tajikistan
+Kyrgyzstan | kyrgyz republic
+Moldova
+Montenegro
+North Macedonia | macedonia
+Liechtenstein
+San Marino
+Andorra
+Kosovo
+Saint Kitts and Nevis | st kitts and nevis | saint kitts
+Saint Lucia | st lucia
+Saint Vincent and the Grenadines | st vincent and the grenadines | saint vincent
+Antigua and Barbuda | antigua
 Grenada
 Dominica
-Martinique
-Guadeloupe
-St. Kitts
-Nevis
-St. Thomas
-St. John
-St. Croix
-Curacao | curaçao
-Bonaire
-Turks and Caicos
-Cayman Islands | grand cayman
-Cozumel
-Isla Mujeres
-Vieques
-Tobago
-Margarita
-Chiloe
-Tierra del Fuego
-Falkland Islands | falklands
-South Georgia
-Marajo
-Fernando de Noronha
+Suriname | surinam
+Guyana
+Belize
+Bahrain
+Oman
+Yemen
+Qatar
+Kuwait
+Laos | lao
+Mongolia
+Azerbaijan
+Armenia
+Georgia
+Belarus
+Latvia
+Lithuania
+Estonia
+Slovenia
+Slovakia
+Albania
+Bosnia and Herzegovina | bosnia | bosnia herzegovina
+Luxembourg
+Malta
+Cyprus
+Monaco
+
+[Rare]
+Botswana
+Namibia
+Zambia
+Mozambique
+Angola
+Mali
+Niger
+Chad
+Sierra Leone
+Liberia
+Cameroon
+Ivory Coast | côte d'ivoire | cote d'ivoire | cote divoire
+Democratic Republic of the Congo | drc | dr congo | congo-kinshasa | zaire
+Republic of the Congo | congo | congo-brazzaville
+South Sudan
+Sudan
+Tunisia
+Libya
+Senegal
+Rwanda
+Uganda
+Somalia
+Zimbabwe
+Ghana
+Algeria
+Tanzania
+Guinea
+Madagascar
+Sri Lanka
+Nepal
+Bangladesh
+Myanmar | burma
+Cambodia
+Uzbekistan
+Kazakhstan
+Jordan
+Lebanon
+Syria
+Iraq
+Iran
+Saudi Arabia
+United Arab Emirates | uae
+Afghanistan
+Pakistan
+Malaysia
+Singapore
+Indonesia
+Philippines
+Vietnam
+Thailand
+Taiwan
+North Korea | dprk
+Papua New Guinea | png
+Fiji
+New Zealand
+Paraguay
+Uruguay
+Bolivia
+Ecuador
+Venezuela
+Colombia
+Chile
+Peru
+Panama
+Costa Rica
+Nicaragua
+Honduras
+El Salvador
+Guatemala
+Haiti
+Dominican Republic
+Jamaica
+Bahamas | the bahamas
+Barbados
+Trinidad and Tobago | trinidad
+Cuba
+Serbia
+Croatia
+Bulgaria
+Romania
+Hungary
+Czech Republic | czechia
+Austria
+Switzerland
+Belgium
+Netherlands | holland
+Denmark
+Norway
+Sweden
+Finland
+Iceland
+Ireland
+Portugal
+Poland
+Ukraine
+Greece
+Turkey | türkiye | turkiye
+Israel
+Palestine | state of palestine
+Vatican City | vatican | holy see
 
 [Schooler]
-Puerto Rico
-Bahamas
-Fiji
-Bali
-Sicily
-Sardinia
-Corsica
-Crete
-Cyprus
-Malta
-Tasmania
-New Zealand
-Sri Lanka
-Philippines
-Taiwan
-Borneo
-Sumatra
-Java
-New Guinea | papua new guinea
-Great Britain | britain
-Maui
-Oahu
-Kauai
-Galapagos | galapagos islands
-Easter Island | rapa nui
-Tahiti
-Bermuda
-Aruba
-Barbados
-Trinidad
-Haiti | hispaniola
-Singapore
-Hong Kong
-Isle of Man
-Nantucket
-Martha's Vineyard
-Alcatraz
-Ellis Island
-Staten Island
-Key West
+Egypt
+Nigeria
+Kenya
+Ethiopia
+South Africa
+Morocco
+South Korea | korea | republic of korea
+Argentina
 
 [Too Clever]
-Australia
-Rhode Island
-Manhattan
-Long Island
+Germany
+United Kingdom | uk | great britain | britain
 
 [Plankton]
-Hawaii | big island
-Greenland
-Madagascar
+United States | usa | us | america | united states of america
+Canada
+Mexico
+Brazil
+China
 Japan
-Ireland
-Iceland
-Cuba
-Jamaica
+India
+Russia
+France
+Italy
+Spain
+Australia
 
 [Not accepted]
+England
+Scotland
+Wales
+Northern Ireland
+Greenland
+Puerto Rico
+Hong Kong
+Africa
+Europe
+Asia
+Antarctica
+Guam
+Tibet
+Hawaii
+Siberia
+Persia
+Yugoslavia
+Soviet Union
+Czechoslovakia
+Prussia
 Atlantis
-Gilligan's Island
-Neverland
-Treasure Island
-Skull Island
-Isla Nublar
-Pacific
-Caribbean
-Florida
+Wakanda
+Narnia
 
 # QUESTION
 id: q0064
@@ -1825,222 +1777,179 @@ Etsy
 # QUESTION
 id: q0070
 pool: unlimited
-category: everyday-objects
-prompt: Name something you'd find in a classroom
+category: movies-tv
+prompt: Name a Harry Potter spell, curse, charm, or potion
+note: From the books, films and games. Spell names (Accio) and their common English names (Summoning Charm) both count.
 
 [One in a Krillion]
-Abacus
+Langlock
 
 [Deep Cut]
-Chalk eraser | board eraser
-Chalk tray
-Pointer
-Laser pointer
-Bell
-Timer
-Sand timer | hourglass
-Behavior chart
-Sticker chart
-Stickers
-Stamps
-Gold stars
-Treasure box | prize box
-Suggestion box
-Lost and found
-Mailbox
-Turn-in tray | inbox
-Clipboard
-Magnetic letters
-Pocket chart
-Weather chart
-Job chart
-Birthday wall
-Anchor chart
-Exit tickets
-Bathroom pass
-Lanyard
-Name tags
-Name plates
-Desk caddy
-Supply bin
-Book bin
-Library books
-Novel
-Workbook
-Composition book
-Spiral notebook
-Loose leaf
-Scantron
-Answer key
-Detention slip
-Permission slip
-Field trip form
-Yearbook
-Diploma
-Trophy
-Pencil grip
-Mechanical pencil
-Fountain pen
-Correction tape | white-out
-Glitter
-Pipe cleaners
-Pom poms
-Googly eyes
-Popsicle sticks
-Yarn
-Felt
-Cardboard
-Butcher paper
-Laminator
-Paper cutter
-Three-hole punch
-Book cart
-Standing desk
-Wobble stool
-Yoga ball
-Fidget spinner
-Stress ball
+Muffliato | muffliato charm
+Sectumsempra
+Levicorpus
+Liberacorpus
+Tarantallegra
+Rictusempra
+Serpensortia
+Morsmordre | dark mark spell
+Sonorus
+Quietus
+Confundo | confundus charm | confundus
+Diffindo
+Engorgio
+Reducio
+Reducto
+Episkey
+Ferula
+Impedimenta | impediment jinx
+Mobilicorpus
+Mobiliarbus
+Oppugno
+Avis
+Orchideous
+Densaugeo
+Furnunculus
+Rennervate | enervate
+Colloportus
+Portus
+Prior Incantato | priori incantatem
+Deletrius
+Scourgify
+Tergeo
+Anapneo
+Relashio
+Waddiwasi
+Specialis Revelio
+Homenum Revelio
+Salvio Hexia
+Protego Totalum
+Repello Muggletum
+Cave Inimicum
+Fianto Duri
+Piertotum Locomotor
+Geminio | gemino curse
+Descendo
+Expulso
+Glisseo
+Bombarda
+Duro
+Brackium Emendo
+Vulnera Sanentur
+Incarcerous
+Evanesco | vanishing spell
+Aparecium
+Dissendium
+Flipendo
+Depulso
+Arresto Momentum
+Revelio
+Confringo
+Glacius
+Ventus
+Locomotor | locomotor wibbly | jelly-legs jinx
+Point Me | four-point spell
+Meteolojinx Recanto
+Immobulus
+Anteoculatia
+Fidelius Charm | fidelius
+Disillusionment Charm
+Bat-Bogey Hex | bat bogey hex
+Tickling Charm
+Cheering Charm
+Imperturbable Charm
+Protean Charm
+Sticking Charm | permanent sticking charm
+Bubble-Head Charm | bubble head charm
+Freezing Charm
+Shield Charm
+Full Body-Bind Curse | body bind | full body bind
+Memory Charm
+Levitation Charm
+Summoning Charm
+Disarming Charm
+Stunning Spell | stunner
+Killing Curse
+Cruciatus Curse | cruciatus
+Imperius Curse | imperius
+Unforgivable Curses | unforgivable curse
+Unbreakable Vow
+Draught of Living Death | draught of the living death
+Wolfsbane Potion | wolfsbane
+Pepperup Potion | pepper-up potion
+Skele-Gro | skelegro
+Mandrake Restorative Draught | mandrake draught
+Shrinking Solution
+Swelling Solution
+Draught of Peace
+Elixir of Life
+Wit-Sharpening Potion
+Babbling Beverage
+Calming Draught
+Dreamless Sleep Potion | dreamless sleep
+Forgetfulness Potion
+Hair-Raising Potion
+Strengthening Solution
+Confusing Concoction
+Drink of Despair | draught of despair | emerald potion
+Ageing Potion | aging potion
+Sleeping Draught
+Befuddlement Draught
+Elixir to Induce Euphoria | euphoria elixir
+Hiccoughing Solution
+Cure for Boils
+Baruffio's Brain Elixir | brain elixir
+Antidote to Common Poisons | antidote
+Murtlap Essence
+Essence of Dittany | dittany
+Blood-Replenishing Potion
+Wiggenweld Potion | wiggenweld
 
 [Rare]
-Highlighter
-Colored pencils
-Construction paper
-Lined paper | notebook paper
-Graph paper
-Index cards
-Sticky notes | post-it notes | post its
-Paper clips | paperclip
-Thumbtacks | push pins
-Hole punch
-Rubber bands
-Protractor
-Compass
-Pencil case | pencil box
-Lunchbox | lunch box
-Water bottle
-Hand sanitizer
-Tissues
-Bookmark
-Dictionary
-Thesaurus
-Atlas
-Encyclopedia
-Planner
-Calendar
-Schedule
-Hall pass
-Attendance sheet
-Seating chart
-Gradebook
-Report card
-Test | quiz | exam
-Homework
-Worksheet
-Rubric
-Syllabus
-Lesson plan
-Podium | lectern
-Teacher's desk
-Filing cabinet
-Cubbies | cubby
-Coat hooks | coat rack
-Rug | carpet
-Bean bag
-Reading corner
-Fish tank
-Plant
-Pencil cup
-Speaker
-Intercom
-Fire alarm
-Smoke detector
-Thermostat
-Light switch
-Outlet
-Ceiling fan
-Air conditioner
-Heater
-Blinds
-Alphabet chart | alphabet poster
-Number line
-Periodic table
-Word wall
-Easel
-Paint
-Paintbrush
-Clay
-Play-Doh
-Legos
-Blocks
-Flashcards
-Microscope
-Beaker
-Test tube
-Bunsen burner
-Goggles
-Lab coat
-Skeleton model
-Chromebook
-Headphones
-Document camera
-Overhead projector
-Television | tv
-Printer
-Copier
+Lumos Maxima
+Reparo
+Incendio
+Aguamenti
+Finite Incantatem | finite
+Silencio
+Patronus Charm | patronus
 
 [Schooler]
-Pen
-Paper
-Notebook
-Eraser
-Marker | dry erase marker
-Chalk
-Ruler
-Scissors
-Glue | glue stick
-Backpack
-Clock
-Flag
-Map
-Globe
-Computer
-Projector
-Calculator
-Pencil sharpener | sharpener
-Crayons | crayon
-Poster
-Bulletin board
-Window
-Door
-Trash can | wastebasket
-Bookshelf
-Tape
-Stapler
-Folder
-Binder
-Smartboard | smart board
-Laptop
-Tablet | ipad
-Locker
+Nox
+Riddikulus
+Obliviate
+Protego
+Petrificus Totalus | petrificus
+Crucio
+Imperio
+Stupefy
+Amortentia
+Veritaserum
+Felix Felicis | liquid luck
 
 [Too Clever]
-Apple
-Class pet | hamster | classroom pet
-Gum
+Love potion
 
 [Plankton]
-Desk
-Chair
-Whiteboard | dry erase board
-Chalkboard | blackboard
-Teacher
-Pencil
-Book | textbook
-Students | student
+Expecto Patronum
+Accio
+Alohomora
+Lumos
+Polyjuice Potion | polyjuice
+Expelliarmus
+Wingardium Leviosa | wingardium leviosa | leviosa | levioso
+Avada Kedavra | avada kadavra
 
 [Not accepted]
-Bed
-Toilet
-Car
-Stove
-Couch
+Abracadabra
+Hocus Pocus
+Bibbidi-Bobbidi-Boo
+Butterbeer
+Gillyweed
+Bezoar
+Sorcerer's Stone
+Philosopher's Stone
+Horcrux
+Quidditch
+Muggle
+Bertie Bott's

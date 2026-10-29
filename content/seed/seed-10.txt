@@ -1181,250 +1181,118 @@ Butter
 # QUESTION
 id: q0098
 pool: unlimited
-category: geography
-prompt: Name a mountain or mountain range
+category: movies-tv
+prompt: Name a character from The Office (US)
+note: Main and recurring characters, family members, and alter egos (Prison Mike, Belsnickel).
 
 [One in a Krillion]
-Mount Kosciuszko | kosciuszko | kosciusko
+Hidetoshi Hasagawa | hidetoshi
 
 [Deep Cut]
-Mount Logan
-Mount Robson
-Mount Assiniboine
-Mount Saint Elias
-Mount Foraker
-Mount Hunter
-Mount Sanford
-Mount Baker
-Mount Adams
-Mount Jefferson
-Mount Mitchell
-Clingmans Dome
-Mount Marcy
-Mount Katahdin | katahdin
-Mount Monadnock
-Mount Elbert
-Longs Peak
-Maroon Bells
-Mount Sneffels
-Gannett Peak
-Kings Peak
-Borah Peak
-Granite Peak
-Humphreys Peak
-Wheeler Peak
-Guadalupe Peak
-Harney Peak | black elk peak
-Mount Mansfield
-Mount Greylock
-Spruce Knob
-Brasstown Bald
-Stone Mountain
-Mount Tamalpais
-El Capitan
-Mount Diablo
-Mount San Jacinto
-Mount Baldy
-Mount Lemmon
-Mount Parnassus
-Mount Pelion
-Mount Ossa
-Mount Taygetus
-Monte Rosa
-Eiger
-Jungfrau
-Monch
-Grossglockner
-Zugspitze
-Triglav
-Musala
-Mount Erebus
-Vinson Massif
-Transantarctic Mountains
-Mount Wilhelm
-Puncak Jaya | carstensz pyramid
-Mount Semeru
-Mount Rinjani
-Mount Apo
-Mount Halla | hallasan
-Mount Baekdu | paektu
-Mount Aso
-Mount Tate
-Mount Kita
-Tirich Mir
-Rakaposhi
-Ama Dablam
-Machapuchare
-Nanda Devi
-Kamet
-Ismoil Somoni Peak
-Jengish Chokusu
-Khan Tengri
-Belukha
-Mount Damavand | damavand
-Mount Toubkal | toubkal
-Ras Dashen
-Mount Meru
-Mount Stanley
-Thabana Ntlenyana
+Nate Nickerson | nate
+Hank Tate | hank
+Val Johnson | val
+Cathy Simms | cathy
+Robert Lipton | senator lipton | the senator
+Danny Cordray | danny
+Carol Stills | carol
+Hunter
+Kenny Anderson | kenny
+Josh Porter | josh
+Ed Truck
+Tony Gardner | tony
+Devon White | devon
+Dan Gore
+Katy Moore | katy
+Brian | brian the boom mic guy
+Esther Bruegger | esther
+Cece Halpert | cece
+Philip Halpert | philip
+Astrid
+Jordan Garfield | jordan
+Isabel Poreba | isabel
+Rolf Ahl | rolf
+Jeb Schrute | jeb
+Fannie Schrute | fannie
+Mr. Brown
+Tom Halpert | tom
+Pete Halpert
+Betsy Halpert | betsy
+Gerald Halpert | gerald
+Helene Beesly | helene
+William Beesly
+Penny Beesly | penny
+Ben Franklin
+Samuel L. Chang
+Goldenface
+Agent Michael Scarn | michael scarn
+Date Mike
+Recyclops
+Scrantonicity
+Packer | todd packer
+Sensei Ira | ira
+Lonny Collins | lonny
+Madge Madsen | madge
+Glenn
+Jerry DiCanio | jerry
+Rachael Wallace
+Concierge Marie | marie
+Donna Newton | donna
+Brenda Matlowe | brenda
+Mose Schrute | mose
+Charles Miner | charles
+Deangelo Vickers | deangelo
+Clark Green | clark
+Pete Miller | plop
+Nellie Bertram | nellie
+Bob Vance | bob vance vance refrigeration
+Jo Bennett | jo
+Robert California
+Gabe Lewis | gabe
+David Wallace | wallace
+Karen Filippelli | karen
+Roy Anderson | roy
 
 [Rare]
-Kangchenjunga | kanchenjunga
-Lhotse
-Makalu
-Cho Oyu
-Dhaulagiri
-Manaslu
-Nanga Parbat
-Annapurna
-Gasherbrum
-Broad Peak
-Shishapangma
-Karakoram
-Pamirs | pamir mountains
-Tian Shan
-Altai
-Zagros
-Taurus Mountains
-Mount Ararat | ararat
-Mount Kenya
-Rwenzori
-Drakensberg
-Simien Mountains
-Mount Cameroon
-Mount Elgon
-Dolomites
-Jura
-Vosges
-Black Forest
-Harz
-Sudetes
-Tatras | tatra mountains
-Balkan Mountains
-Dinaric Alps
-Pindus
-Mount Athos
-Scandinavian Mountains
-Snowdon | yr wyddfa
-Scafell Pike
-Grampians | grampian mountains
-Mourne Mountains
-Carrantuohill
-Brooks Range
-Alaska Range
-Coast Mountains
-Olympic Mountains
-Wasatch
-Uinta Mountains
-San Juan Mountains
-Sangre de Cristo
-Bitterroot Range
-Big Horn Mountains
-Wind River Range
-Catskills
-Berkshires
-Green Mountains
-Poconos
-Allegheny Mountains
-Ouachita Mountains
-Sierra Madre
-Popocatepetl
-Pico de Orizaba | citlaltepetl
-Chimborazo
-Cotopaxi
-Huascaran
-Illimani
-Ojos del Salado
-Torres del Paine
-Fitz Roy
-Mauna Kea
-Mauna Loa
-Haleakala
-Mount Cook | aoraki
-Southern Alps
-Great Dividing Range
-Blue Mountains
-Mount Kinabalu | kinabalu
-Mount Pinatubo | pinatubo
-Mount Mayon | mayon
-Krakatoa
-Mount Tambora | tambora
-Mount Merapi | merapi
-Jade Mountain | yushan
-Mount Hua | huashan
-Mount Tai | taishan
-Mount Kailash | kailash
-Western Ghats
-Eastern Ghats
-Vindhya
-Aravalli
-Mount Abu
-Mount Hermon
-Jebel Musa
-Mount Tabor
-Mount Carmel
-Mount of Olives
+Jan Levinson | jan | jan levinson-gould
+Holly Flax | holly
+Erin Hannon | erin
+Darryl Philbin | darryl
+Toby Flenderson | toby
+Kelly Kapoor | kelly
+Creed Bratton | creed
+Meredith Palmer | meredith
+Phyllis Vance | phyllis | phyllis lapin
+Belsnickel
 
 [Schooler]
-K2
-Mount Fuji | fuji
-Mount McKinley | denali | mckinley
-Matterhorn
-Mont Blanc
-Mount St. Helens | st helens | mount saint helens
-Mount Rainier | rainier
-Mount Whitney | whitney
-Sierra Nevada
-Cascades | cascade range
-Smoky Mountains | great smoky mountains | smokies
-Blue Ridge Mountains | blue ridge
-Urals | ural mountains
-Pyrenees
-Atlas Mountains | atlas
-Mount Vesuvius | vesuvius
-Mount Etna | etna
-Mount Sinai | sinai
-Mount Hood
-Mount Shasta | shasta
-Grand Tetons | tetons
-Adirondacks | adirondack mountains
-White Mountains
-Ozarks | ozark mountains
-Black Hills
-Mount Washington
-Ben Nevis
-Table Mountain
-Sugarloaf Mountain | sugarloaf
-Mount Elbrus | elbrus
-Aconcagua
-Carpathians | carpathian mountains
-Apennines
-Caucasus
-Hindu Kush
+Ryan Howard | ryan
+Andy Bernard | andy | nard dog
+Angela Martin | angela
+Kevin Malone | kevin
+Oscar Martinez | oscar
+Stanley Hudson | stanley
 
 [Too Clever]
-Half Dome
-Uluru | ayers rock
-Mount Olympus | olympus
-Pikes Peak
+Prison Mike
 
 [Plankton]
-Mount Everest | everest
-Rocky Mountains | rockies | rocky mountain
-Himalayas | himalaya
-Alps
-Andes
-Appalachian Mountains | appalachians | appalachia
-Mount Rushmore | rushmore
-Mount Kilimanjaro | kilimanjaro
+Michael Scott | michael
+Dwight Schrute | dwight
+Jim Halpert | jim
+Pam Beesly | pam | pam halpert
 
 [Not accepted]
-Hill
-Valley
-Volcano
-Canyon
-Grand Canyon
-Mountain Dew
+David Brent
+Gareth Keenan
+Tim Canterbury
+Dawn Tinsley
+Leslie Knope
+Ron Swanson
+Jake Peralta
+Chandler Bing
+Steve Carell
+John Krasinski
 
 # QUESTION
 id: q0099

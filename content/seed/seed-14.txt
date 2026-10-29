@@ -1,317 +1,133 @@
 # QUESTION
 id: q0131
 pool: reserve
-category: history
-prompt: Name a famous landmark or monument
+category: movies-tv
+prompt: Name a James Bond movie, actor, or character
+note: Bond films (including Casino Royale 1967 and Never Say Never Again), the actors who played Bond, and characters from the films.
 
 [One in a Krillion]
-Moai | easter island heads | easter island statues
+Nick Nack
 
 [Deep Cut]
-Göbekli Tepe | gobekli tepe
-Skara Brae
-Newgrange
-Carnac stones
-Avebury
-Callanish Stones
-Ring of Brodgar
-Silbury Hill
-Uffington White Horse
-Cerne Abbas Giant
-Long Man of Wilmington
-Ggantija
-Hal Saflieni Hypogeum
-Lascaux
-Altamira
-Chauvet Cave
-Mohenjo-daro
-Persepolis
-Ziggurat of Ur
-Babylon
-Ishtar Gate
-Nineveh
-Palmyra
-Baalbek
-Jerash
-Great Zimbabwe
-Lalibela
-Aksum obelisk
-Timbuktu
-Leptis Magna
-Carthage
-Volubilis
-Djemaa el-Fna
-Hassan II Mosque
-Kairouan
-Mount Nemrut
-Ephesus
-Troy
-Pergamon
-Hierapolis
-Sumela Monastery
-Rila Monastery
-Bran Castle
-Corvin Castle
-Peles Castle
-Wawel Castle
-Malbork Castle
-Wieliczka Salt Mine
-Auschwitz
-Hallgrimskirkja
-Nidaros Cathedral
-Stave church
-Kronborg Castle
-Tivoli Gardens
-Vasa Museum
-Drottningholm
-Suomenlinna
-Kizhi Pogost
-Motherland Calls
-Mamayev Kurgan
-Derinkuyu
-Ani ruins
-Geghard
-Tatev Monastery
-Gergeti Trinity Church
-Registan
-Shah-i-Zinda
-Bukhara Ark
-Minaret of Jam
-Bamiyan Buddhas
-Sanchi Stupa
-Ajanta Caves
-Ellora Caves
-Konark Sun Temple
-Khajuraho
-Hampi
-Meenakshi Temple
-Brihadeeswarar Temple
-Paro Taktsang | tiger's nest
-Boudhanath
-Swayambhunath
-Leshan Giant Buddha
-Mogao Caves
-Hanging Temple
-Yungang Grottoes
-Longmen Grottoes
-Jiayuguan
-Tulou
-Mausoleum of Qin Shi Huang
-Todai-ji
-Kiyomizu-dera
-Ryoan-ji
-Nikko Toshogu
-Bulguksa
-Seokguram
-Hwaseong Fortress
-Ta Prohm
-Bayon
-Preah Vihear
-My Son Sanctuary
-Hue Imperial City
-Rice Terraces of Banaue | banaue rice terraces
-Wat Phra Kaew
-Ayutthaya
-Sukhothai
-Plain of Jars
-Tanah Lot
-Uluwatu
-Nan Madol
-Sky Tower
-Cahokia
-Mesa Verde
-Chaco Canyon
-Serpent Mound
-Taos Pueblo
-Spiro Mounds
-Poverty Point
-Mission San Juan Capistrano
-Hearst Castle
-Biltmore Estate
-Monticello
-Mount Vernon
-Fort Sumter
-Gettysburg
-Pearl Harbor
-USS Arizona Memorial
-Iolani Palace
+On Her Majesty's Secret Service | ohmss
+The Man with the Golden Gun | man with the golden gun
+For Your Eyes Only
+Octopussy
+A View to a Kill | view to a kill
+The Living Daylights | living daylights
+Licence to Kill | license to kill
+The World Is Not Enough | world is not enough
+Quantum of Solace
+Never Say Never Again
+Tee Hee
+Baron Samedi
+Hugo Drax | drax
+Karl Stromberg | stromberg
+Kristatos
+Kamal Khan
+Max Zorin | zorin
+May Day
+Koskov | general koskov
+Brad Whitaker
+Franz Sanchez | sanchez
+Alec Trevelyan | trevelyan | 006
+Xenia Onatopp | onatopp
+Elliot Carver | carver
+Elektra King
+Renard
+Gustav Graves
+Zao
+Dominic Greene
+Lyutsifer Safin | safin
+Mr. White
+Red Grant
+Rosa Klebb
+Emilio Largo | largo
+Honey Ryder
+Tracy di Vicenzo | tracy | teresa di vicenzo
+Solitaire
+Tiffany Case
+Mary Goodnight
+Anya Amasova | triple x
+Holly Goodhead
+Stacey Sutton
+Kara Milovy
+Pam Bouvier
+Natalya Simonova
+Wai Lin
+Christmas Jones
+Jinx | jinx johnson
+Camille Montes | camille
+Madeleine Swann
+Strawberry Fields
+Severine
+Domino
+Tatiana Romanova
+Kissy Suzuki
+Paloma
+Nomi
+Bill Tanner
+Valentin Zukovsky | zukovsky
+Rene Mathis | mathis
+Jack Wade
+General Gogol
+Sheriff J.W. Pepper | jw pepper
+David Niven
+Barry Nelson
+Mr. Big | kananga
+Francisco Scaramanga | scaramanga
+Raoul Silva | silva
+Le Chiffre
 
 [Rare]
-Alhambra
-Mont-Saint-Michel | mont saint michel
-Palace of Versailles | versailles
-Westminster Abbey
-Edinburgh Castle
-Giant's Causeway
-Blarney Castle
-Windsor Castle
-Hadrian's Wall
-Atomium
-Little Mermaid statue
-Manneken Pis
-Anne Frank House
-Rijksmuseum
-Cologne Cathedral
-Berlin Wall
-Charles Bridge
-Hagia Sophia
-Blue Mosque
-Topkapi Palace
-Meteora
-Delphi
-Knossos
-Pompeii
-Florence Cathedral | duomo
-Ponte Vecchio
-St. Mark's Basilica
-Rialto Bridge
-Doge's Palace
-Uffizi
-Milan Cathedral
-Schonbrunn Palace
-Hermitage
-Peterhof
-Burj Al Arab
-Sheikh Zayed Grand Mosque
-Dome of the Rock
-Western Wall | wailing wall
-Church of the Holy Sepulchre
-Masada
-Valley of the Kings
-Abu Simbel
-Karnak
-Luxor Temple
-Great Mosque of Djenne
-Robben Island
-Petronas Towers
-Marina Bay Sands
-Merlion
-Gardens by the Bay
-Borobudur
-Prambanan
-Bagan
-Shwedagon Pagoda
-Grand Palace
-Wat Arun
-Terracotta Army | terracotta warriors
-Potala Palace
-Temple of Heaven
-Summer Palace
-The Bund
-Oriental Pearl Tower
-Victoria Peak
-Tokyo Tower
-Tokyo Skytree
-Fushimi Inari
-Kinkaku-ji | golden pavilion
-Itsukushima Shrine
-Himeji Castle
-Hiroshima Peace Memorial | atomic bomb dome
-Gyeongbokgung
-Taipei 101
-Lotus Temple
-Qutub Minar
-Gateway of India
-Red Fort
-Hawa Mahal
-Amber Fort
-Mysore Palace
-Sigiriya
-Harbour Bridge | sydney harbour bridge
-Teotihuacan
-Tikal
-Palenque
-Christ of the Andes
-Nazca Lines
-Panama Canal
-Alcatraz
-Hollywood Walk of Fame
-Griffith Observatory
-Vietnam Veterans Memorial
-Jefferson Memorial
-Martin Luther King Jr. Memorial
-Arlington National Cemetery
-Independence Hall
-Plymouth Rock
-Willis Tower | sears tower
-Cloud Gate | the bean
-Chrysler Building
-One World Trade Center | freedom tower
-9/11 Memorial
-Rockefeller Center
-Flatiron Building
-Grand Central Terminal
-Ellis Island
-Crazy Horse Memorial
-Corn Palace
-Paul Bunyan statue
+Dr. No | doctor no
+From Russia with Love
+Thunderball
+You Only Live Twice
+Diamonds Are Forever
+Live and Let Die
+The Spy Who Loved Me | spy who loved me
+Moonraker
+Tomorrow Never Dies
+Die Another Day
+Spectre
+No Time to Die
+George Lazenby
+Timothy Dalton
+Felix Leiter
+Blofeld | ernst stavro blofeld
+Jaws
+Oddjob | odd job
+Pussy Galore
+Vesper Lynd | vesper
+Moneypenny | miss moneypenny
 
 [Schooler]
-Stonehenge
-Leaning Tower of Pisa | tower of pisa
-Golden Gate Bridge
-Machu Picchu
-Christ the Redeemer
-Sydney Opera House
-Empire State Building
-White House
-Lincoln Memorial
-Washington Monument
-Space Needle
-Gateway Arch | st louis arch
-Arc de Triomphe
-Notre-Dame | notre dame
-Louvre
-Parthenon | acropolis
-Petra
-Chichen Itza
-Angkor Wat
-Burj Khalifa
-Kremlin
-St. Basil's Cathedral
-Buckingham Palace
-Tower of London
-Tower Bridge
-London Eye
-Sagrada Familia
-Brandenburg Gate
-Neuschwanstein Castle
-Vatican | st peter's basilica
-Sistine Chapel
-Trevi Fountain
-Pantheon
-Alamo
-Liberty Bell
-Hoover Dam
-Brooklyn Bridge
-Capitol | us capitol
-Sphinx | great sphinx
-Forbidden City
-CN Tower
-Golden Temple
+Goldfinger | auric goldfinger
+GoldenEye | golden eye
+Casino Royale
+Skyfall | sky fall
+Pierce Brosnan
+Roger Moore
 
 [Too Clever]
-Hollywood sign
-Cadillac Ranch
-Carhenge
+M
+Q
 
 [Plankton]
-Eiffel Tower
-Statue of Liberty
-Great Wall of China | great wall
-Pyramids of Giza | pyramids | great pyramid
-Taj Mahal
-Colosseum | coliseum
-Big Ben
-Mount Rushmore
+James Bond | bond | 007
+Sean Connery
+Daniel Craig
 
 [Not accepted]
-My house
-McDonald's
-Walmart
-Hogwarts
-Narnia
-Atlantis
+Austin Powers
+Ethan Hunt
+Jason Bourne
+Mission Impossible
+Kingsman
+Johnny English
+Idris Elba
+Tom Cruise
 
 # QUESTION
 id: q0132
@@ -550,374 +366,182 @@ Holocaust
 id: q0133
 pool: unlimited
 category: games-toys
-prompt: Name a video game or video game series
+prompt: Name a character from the Super Mario games
+note: Characters and enemies from Super Mario platformers, Mario Kart, Mario Party and the Mario RPGs (Paper Mario, Mario & Luigi). Donkey Kong characters who appear in Mario games count.
 
 [One in a Krillion]
-Goat Simulator
+Mouser
+
+[Deep Cut]
+Wart
+Tryclyde
+Fryguy
+Clawgrip
+Pidgit
+Snifit
+Ninji
+Phanto
+Tatanga
+King Bob-omb | king bob omb | big bob-omb
+Bob-omb Buddy
+Koopa the Quick
+Mips
+Whomp King
+Big Boo
+Eyerok
+Chuckya
+Ukiki
+Klepto
+Il Piantissimo
+Gooper Blooper
+Shadow Mario
+F.L.U.D.D. | fludd
+Pianta | piantas
+Noki | nokis
+Topper
+Hariet
+Rango
+Spewart
+Madame Broode
+Broodals
+Tiara
+Prince Florian | florian
+Poplin
+Talking Flower
+Starlow
+Prince Peasley
+Fawful
+Cackletta
+Popple
+Geno
+Mallow
+Smithy
+Kersti
+Olivia
+Bobby
+Huey
+Goombella
+Koops
+Vivian
+Flurrie
+Admiral Bobbery | bobbery
+Ms. Mowz | ms mowz
+Count Bleck
+Dimentio
+Tippi
+Kooper
+Goombario
+Bombette
+Parakarry
+Bow | lady bow
+Watt
+Sushie
+Lakilester
+Shadow Queen
+Sir Grodus | grodus
+Kammy Koopa | kammy
+Toadsworth
+Toadbert
+Professor E. Gadd | e gadd | e. gadd | professor gadd
+Nabbit
+Lubba
+Luma | lumas
+Cranky Kong
+Funky Kong
+Dixie Kong
+King K. Rool | king k rool | k rool
+Baby Mario
+Baby Luigi
+Baby Peach
+Baby Daisy
+Baby Rosalina
+Metal Mario
+Dry Bowser
+Pink Gold Peach
+Tanooki Mario
+Paratroopa | koopa paratroopa
+Spiny
+Blooper
+Cheep Cheep | cheep-cheep
+Thwomp
+Whomp
+Buzzy Beetle
+Monty Mole
+Pokey
+Wiggler
+Fuzzy
+Magikoopa
+Rex
+Dino Piranha
+Hammer Bro | hammer bros | hammer brothers
+Boomerang Bro
+Fire Bro
+Sledge Bro
+Lava Bubble | podoboo
+Bullet Bill
+Banzai Bill
+Dry Bones
+Boom Boom
+Pom Pom
+Petey Piranha | petey
+Larry Koopa | larry
+Morton Koopa Jr. | morton
+Wendy O. Koopa | wendy | wendy koopa
+Iggy Koopa | iggy
+Roy Koopa | roy
+Lemmy Koopa | lemmy
+Ludwig von Koopa | ludwig
+Koopalings | koopaling
+Captain Toad
+Cappy
+Toadette
 
 [Rare]
-Hades
-Celeste
-Destiny
-Control
-Inside
-Limbo
-Journey
-Braid
-Hitman
-Rust
-Thief
-Prey
-Lemmings
-Spore
-Joust
-Defender
-Gauntlet
-Rampage
-Horizon Zero Dawn | horizon
-Mafia
-Zork
-Pitfall!
-Missile Command
-Robotron
-Paperboy
-Double Dragon
-Golden Axe
-Altered Beast
-Streets of Rage
-NBA Jam
-NFL Blitz
-Tecmo Bowl
-Bubble Bobble
-Kid Icarus
-Ice Climber
-Balloon Fight
-Earthworm Jim
-Ecco the Dolphin
-Toejam & Earl
-Vectorman
-Comix Zone
-Shinobi
-Phantasy Star
-Secret of Mana
-Xenogears
-Star Ocean
-Suikoden
-Breath of Fire
-Wild Arms
-Legend of Dragoon
-Parasite Eve
-Vagrant Story
-Twisted Metal
-Jak and Daxter
-Ratchet & Clank
-Sly Cooper
-Ape Escape
-Parappa the Rapper
-Katamari Damacy
-Okami
-Shadow of the Colossus
-Ico
-Devil May Cry
-Bayonetta
-Ninja Gaiden
-Onimusha
-Dino Crisis
-Fatal Frame
-Dead Space
-Left 4 Dead
-Team Fortress 2
-Garry's Mod
-Black & White
-Theme Park
-RollerCoaster Tycoon
-Zoo Tycoon
-Planet Coaster
-Cities: Skylines
-Factorio
-Rimworld
-Dwarf Fortress
-Kerbal Space Program
-Subnautica
-No Man's Sky
-Valheim
-DayZ
-PUBG
-Escape from Tarkov
-Dota 2 | dota
-Heroes of the Storm
-Smite
-Hearthstone
-Gwent
-Slay the Spire
-Inscryption
-Outer Wilds
-Disco Elysium
-Return of the Obra Dinn
-Papers, Please
-The Stanley Parable
-Firewatch
-Gone Home
-What Remains of Edith Finch
-Super Meat Boy
-Shovel Knight
-Ori and the Blind Forest
-Spelunky
-The Binding of Isaac
-Enter the Gungeon
-Dead Cells
-Risk of Rain
-Vampire Survivors
-Beat Saber
-Half-Life: Alyx
-Superhot
-Pistol Whip
-Untitled Goose Game
-Stray
-It Takes Two
-A Way Out
-Overcooked
-Unravel
-Little Nightmares
-Five Nights at Freddy's | fnaf
-Bendy and the Ink Machine
-Poppy Playtime
-Phasmophobia
-Dead by Daylight
-Friday the 13th
-Outlast
-Amnesia
-Alan Wake
-Max Payne
-Saints Row
-Watch Dogs
-Far Cry
-Just Cause
-Sleeping Dogs
-Yakuza | like a dragon
-Ghost of Tsushima
-Days Gone
-Death Stranding
-Spider-Man | marvel's spider-man
-Batman: Arkham | arkham asylum | arkham city
-Infamous
-Sunset Overdrive
-Titanfall
-Splinter Cell
-Deus Ex
-Dishonored
-System Shock
-Star Wars: Knights of the Old Republic | kotor
-Jedi: Fallen Order
-Battlefront
-Lego Star Wars
-Lego Batman
-Skylanders
-Disney Infinity
-Ty the Tasmanian Tiger
-Banjo-Tooie
-Conker's Bad Fur Day
-Perfect Dark
-Diddy Kong Racing
-1080 Snowboarding
-Pilotwings
-Mario Golf
-Mario Tennis
-Wario Ware
-Rhythm Heaven
-Professor Layton
-Phoenix Wright | ace attorney
-Fire Emblem
-Advance Wars
-Golden Sun
-Xenoblade Chronicles
-Octopath Traveler
-Bravely Default
-Monster Hunter
-Dragon's Dogma
-Nier Automata | nier
-Sekiro
-Bloodborne
-Demon's Souls
-Lies of P
-Armored Core
-Ace Combat
-Burnout
-Crazy Taxi
-Jet Set Radio
-Shenmue
-Space Channel 5
-Samba de Amigo
-Chu Chu Rocket
-Sonic Adventure
-NiGHTS into Dreams
-Virtua Fighter
-Soulcalibur
-Dead or Alive
-King of Fighters
-Guilty Gear
-BlazBlue
-Marvel vs. Capcom
-Killer Instinct
-Primal Rage
-Clay Fighter
-Brawlhalla
-MultiVersus
+Kamek
+Lakitu
+Birdo
+Shy Guy
+Chain Chomp
+Piranha Plant
+King Boo
+Bowser Jr. | bowser junior | bowser jr
+Rosalina | rosalina and luma
+Diddy Kong | diddy
+Koopa Troopa | koopa
+Boo
+Princess Daisy | daisy
 
 [Schooler]
-Grand Theft Auto | gta
-Halo
-Mario Kart
-Sonic the Hedgehog | sonic
-Street Fighter
-Mortal Kombat
-Donkey Kong
-Space Invaders
-Galaga
-Frogger
-Asteroids
-Centipede
-The Sims | sims
-SimCity
-Roblox
-Among Us
-Animal Crossing
-Super Smash Bros. | smash bros | smash
-Madden NFL | madden
-FIFA | ea sports fc
-NBA 2K | 2k
-Wii Sports
-Guitar Hero
-Rock Band
-Just Dance
-Angry Birds
-Candy Crush
-Fruit Ninja
-Temple Run
-Subway Surfers
-Flappy Bird
-Doom
-Final Fantasy
-World of Warcraft | wow
-League of Legends | lol
-Overwatch
-Apex Legends
-Valorant
-Counter-Strike | csgo | cs go
-Red Dead Redemption
-The Last of Us
-God of War
-Uncharted
-Assassin's Creed
-Skyrim | elder scrolls
-Fallout
-Resident Evil
-Silent Hill
-Metroid
-Kirby
-Pikmin
-Splatoon
-Crash Bandicoot
-Spyro
-Tony Hawk's Pro Skater | tony hawk
-Need for Speed
-Gran Turismo
-Forza
-Rocket League
-Fall Guys
-Elden Ring
-Dark Souls
-Bioshock
-Portal
-Half-Life | half life
-Mass Effect
-Diablo
-StarCraft
-Warcraft
-Civilization | civ
-Age of Empires
-Stardew Valley
-Terraria
-Undertale
-Cuphead
-Hollow Knight
-Baldur's Gate
-Cyberpunk 2077
-The Witcher
-Borderlands
-Gears of War
-Battlefield
-Rainbow Six
-Metal Gear Solid | metal gear
-Kingdom Hearts
-Dragon Quest
-Persona
-Tekken
-Super Mario 64
-Mario Party
-Paper Mario
-Luigi's Mansion
-Banjo-Kazooie
-GoldenEye 007 | goldeneye
-Star Fox
-F-Zero
-Earthbound
-Chrono Trigger
-Castlevania
-Mega Man
-Contra
-Punch-Out!! | punch out
-Excitebike
-Dig Dug
-Q*bert | qbert
-Burger Time
-Donkey Kong Country
-Ms. Pac-Man
-Oregon Trail
-Where in the World Is Carmen Sandiego?
-Myst
-Prince of Persia
-Wolfenstein
-Quake
-Tomb Raider
-Genshin Impact
-Clash of Clans
-Clash Royale
-Pokemon Go
-Wordle
-Words with Friends
-Farmville
-Club Penguin
-Neopets
-RuneScape
-Second Life
-Palworld
-Lethal Company
-Baldur's Gate 3
-Balatro
+Goomba
+Waluigi
 
 [Too Clever]
-Pong
-E.T. the Extra-Terrestrial | e.t. atari | et
-Duck Hunt
+Pauline
 
 [Plankton]
-Super Mario Bros. | super mario | mario | mario bros
-Minecraft
-Fortnite
-Tetris
-Pac-Man | pacman
-Call of Duty | cod
-The Legend of Zelda | zelda | legend of zelda
-Pokemon | pokémon
+Mario
+Luigi
+Princess Peach | peach | princess toadstool
+Bowser | king koopa
+Yoshi
+Toad
+Wario
+Donkey Kong | dk
 
 [Not accepted]
-Chess
-Monopoly
-Uno
-Xbox
-PlayStation
-Nintendo
+Sonic
+Link
+Zelda
+Kirby
+Pikachu
+Samus
+Crash Bandicoot
+Pac-Man
+Fox McCloud
+Bowsette
+Super Mushroom
+Super Star
+Fire Flower
 
 # QUESTION
 id: q0134

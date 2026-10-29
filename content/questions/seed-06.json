@@ -4057,802 +4057,530 @@
   },
   {
     "id": "q0057",
-    "prompt": "Name a word ending in \"-phobia\"",
-    "category": "words-language",
+    "prompt": "Name a space, token, or piece from classic Monopoly (US or UK board)",
+    "category": "games-toys",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Hippopotomonstrosesquippedaliophobia",
+        "text": "Marvin Gardens",
         "aliases": [
-          "hippopotomonstrosesquipedaliophobia"
+          "marvin garden"
         ],
         "tier": 100
       },
       {
-        "text": "Pogonophobia",
+        "text": "Old Kent Road",
         "tier": 85
       },
       {
-        "text": "Chaetophobia",
-        "tier": 85
-      },
-      {
-        "text": "Omphalophobia",
-        "tier": 85
-      },
-      {
-        "text": "Podophobia",
-        "tier": 85
-      },
-      {
-        "text": "Chirophobia",
-        "tier": 85
-      },
-      {
-        "text": "Ommetaphobia",
-        "tier": 85
-      },
-      {
-        "text": "Genuphobia",
-        "tier": 85
-      },
-      {
-        "text": "Cherophobia",
-        "tier": 85
-      },
-      {
-        "text": "Euphobia",
-        "tier": 85
-      },
-      {
-        "text": "Ablutophobia",
-        "tier": 85
-      },
-      {
-        "text": "Lutraphobia",
-        "tier": 85
-      },
-      {
-        "text": "Pentheraphobia",
-        "tier": 85
-      },
-      {
-        "text": "Novercaphobia",
-        "tier": 85
-      },
-      {
-        "text": "Soceraphobia",
-        "tier": 85
-      },
-      {
-        "text": "Pteronophobia",
-        "tier": 85
-      },
-      {
-        "text": "Xanthophobia",
-        "tier": 85
-      },
-      {
-        "text": "Chromophobia",
-        "tier": 85
-      },
-      {
-        "text": "Leukophobia",
-        "tier": 85
-      },
-      {
-        "text": "Melanophobia",
-        "tier": 85
-      },
-      {
-        "text": "Porphyrophobia",
-        "tier": 85
-      },
-      {
-        "text": "Erythrophobia",
-        "tier": 85
-      },
-      {
-        "text": "Cyclophobia",
-        "tier": 85
-      },
-      {
-        "text": "Ballistophobia",
-        "tier": 85
-      },
-      {
-        "text": "Hoplophobia",
-        "tier": 85
-      },
-      {
-        "text": "Bromidrosiphobia",
-        "tier": 85
-      },
-      {
-        "text": "Atelophobia",
-        "tier": 85
-      },
-      {
-        "text": "Decidophobia",
-        "tier": 85
-      },
-      {
-        "text": "Kinemortophobia",
-        "tier": 85
-      },
-      {
-        "text": "Allodoxaphobia",
-        "tier": 85
-      },
-      {
-        "text": "Anuptaphobia",
-        "tier": 85
-      },
-      {
-        "text": "Geliophobia",
-        "tier": 85
-      },
-      {
-        "text": "Hedonophobia",
-        "tier": 85
-      },
-      {
-        "text": "Ideophobia",
-        "tier": 85
-      },
-      {
-        "text": "Kenophobia",
-        "tier": 85
-      },
-      {
-        "text": "Levophobia",
-        "tier": 85
-      },
-      {
-        "text": "Dextrophobia",
-        "tier": 85
-      },
-      {
-        "text": "Metrophobia",
-        "tier": 85
-      },
-      {
-        "text": "Nephophobia",
-        "tier": 85
-      },
-      {
-        "text": "Optophobia",
-        "tier": 85
-      },
-      {
-        "text": "Papyrophobia",
-        "tier": 85
-      },
-      {
-        "text": "Plutophobia",
-        "tier": 85
-      },
-      {
-        "text": "Politicophobia",
-        "tier": 85
-      },
-      {
-        "text": "Russophobia",
-        "tier": 85
-      },
-      {
-        "text": "Francophobia",
-        "tier": 85
-      },
-      {
-        "text": "Anglophobia",
-        "tier": 85
-      },
-      {
-        "text": "Sinophobia",
-        "tier": 85
-      },
-      {
-        "text": "Teutophobia",
-        "tier": 85
-      },
-      {
-        "text": "Hispanophobia",
-        "tier": 85
-      },
-      {
-        "text": "Hellenophobia",
-        "tier": 85
-      },
-      {
-        "text": "Japanophobia",
-        "tier": 85
-      },
-      {
-        "text": "Judeophobia",
-        "tier": 85
-      },
-      {
-        "text": "Christophobia",
-        "tier": 85
-      },
-      {
-        "text": "Hagiophobia",
-        "tier": 85
-      },
-      {
-        "text": "Theophobia",
-        "tier": 85
-      },
-      {
-        "text": "Satanophobia",
-        "tier": 85
-      },
-      {
-        "text": "Uranophobia",
-        "tier": 85
-      },
-      {
-        "text": "Demonophobia",
-        "tier": 85
-      },
-      {
-        "text": "Wiccaphobia",
-        "tier": 85
-      },
-      {
-        "text": "Coimetrophobia",
-        "tier": 85
-      },
-      {
-        "text": "Taphophobia",
-        "tier": 85
-      },
-      {
-        "text": "Barophobia",
-        "tier": 85
-      },
-      {
-        "text": "Basiphobia",
-        "tier": 85
-      },
-      {
-        "text": "Kopophobia",
-        "tier": 85
-      },
-      {
-        "text": "Ponophobia",
-        "tier": 85
-      },
-      {
-        "text": "Phagophobia",
-        "tier": 85
-      },
-      {
-        "text": "Pnigophobia",
-        "tier": 85
-      },
-      {
-        "text": "Ancraophobia",
-        "tier": 85
-      },
-      {
-        "text": "Phonophobia",
+        "text": "Whitechapel Road",
         "aliases": [
-          "ligyrophobia"
+          "whitechapel"
         ],
         "tier": 85
       },
       {
-        "text": "Acousticophobia",
+        "text": "King's Cross Station",
+        "aliases": [
+          "kings cross station",
+          "kings cross"
+        ],
         "tier": 85
       },
       {
-        "text": "Melophobia",
+        "text": "The Angel Islington",
+        "aliases": [
+          "angel islington",
+          "the angel"
+        ],
         "tier": 85
       },
       {
-        "text": "Gephyrophobia",
-        "tier": 60
+        "text": "Euston Road",
+        "tier": 85
       },
       {
-        "text": "Hodophobia",
-        "tier": 60
+        "text": "Pentonville Road",
+        "tier": 85
       },
       {
-        "text": "Amaxophobia",
-        "tier": 60
+        "text": "Pall Mall",
+        "tier": 85
       },
       {
-        "text": "Siderodromophobia",
-        "tier": 60
+        "text": "Whitehall",
+        "tier": 85
       },
       {
-        "text": "Nosophobia",
-        "tier": 60
+        "text": "Northumberland Avenue",
+        "tier": 85
       },
       {
-        "text": "Iatrophobia",
-        "tier": 60
-      },
-      {
-        "text": "Dentophobia",
+        "text": "Marylebone Station",
         "aliases": [
-          "odontophobia"
+          "marylebone"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bow Street",
+        "tier": 85
+      },
+      {
+        "text": "Marlborough Street",
+        "tier": 85
+      },
+      {
+        "text": "Vine Street",
+        "tier": 85
+      },
+      {
+        "text": "Strand",
+        "aliases": [
+          "the strand"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fleet Street",
+        "tier": 85
+      },
+      {
+        "text": "Trafalgar Square",
+        "tier": 85
+      },
+      {
+        "text": "Fenchurch Street Station",
+        "aliases": [
+          "fenchurch street"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Leicester Square",
+        "tier": 85
+      },
+      {
+        "text": "Coventry Street",
+        "tier": 85
+      },
+      {
+        "text": "Piccadilly",
+        "tier": 85
+      },
+      {
+        "text": "Regent Street",
+        "tier": 85
+      },
+      {
+        "text": "Oxford Street",
+        "tier": 85
+      },
+      {
+        "text": "Bond Street",
+        "tier": 85
+      },
+      {
+        "text": "Liverpool Street Station",
+        "aliases": [
+          "liverpool street"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Park Lane",
+        "tier": 85
+      },
+      {
+        "text": "Mayfair",
+        "tier": 85
+      },
+      {
+        "text": "Super Tax",
+        "tier": 85
+      },
+      {
+        "text": "Cannon",
+        "tier": 85
+      },
+      {
+        "text": "Horse and rider",
+        "aliases": [
+          "horse",
+          "horse and rider token"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Purse",
+        "aliases": [
+          "money bag",
+          "sack of money"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rubber ducky",
+        "aliases": [
+          "rubber duck",
+          "duck"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "T-Rex",
+        "aliases": [
+          "t rex",
+          "dinosaur"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Penguin",
+        "tier": 85
+      },
+      {
+        "text": "Wheelbarrow",
+        "aliases": [
+          "wheel barrow"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Iron",
+        "tier": 85
+      },
+      {
+        "text": "Thimble",
+        "tier": 85
+      },
+      {
+        "text": "Short Line",
+        "aliases": [
+          "short line railroad"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "B&O Railroad",
+        "aliases": [
+          "b and o railroad",
+          "b&o",
+          "baltimore and ohio railroad"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mediterranean Avenue",
+        "aliases": [
+          "mediterranean"
         ],
         "tier": 60
       },
       {
-        "text": "Pharmacophobia",
-        "tier": 60
-      },
-      {
-        "text": "Tomophobia",
-        "tier": 60
-      },
-      {
-        "text": "Algophobia",
-        "tier": 60
-      },
-      {
-        "text": "Atychiphobia",
-        "tier": 60
-      },
-      {
-        "text": "Kakorrhaphiophobia",
-        "tier": 60
-      },
-      {
-        "text": "Philophobia",
-        "tier": 60
-      },
-      {
-        "text": "Gamophobia",
-        "tier": 60
-      },
-      {
-        "text": "Pediophobia",
-        "tier": 60
-      },
-      {
-        "text": "Automatonophobia",
-        "tier": 60
-      },
-      {
-        "text": "Spectrophobia",
+        "text": "Baltic Avenue",
         "aliases": [
-          "phasmophobia"
+          "baltic"
         ],
         "tier": 60
       },
       {
-        "text": "Bibliophobia",
-        "tier": 60
-      },
-      {
-        "text": "Logophobia",
-        "tier": 60
-      },
-      {
-        "text": "Sesquipedalophobia",
-        "tier": 60
-      },
-      {
-        "text": "Hexakosioihexekontahexaphobia",
-        "tier": 60
-      },
-      {
-        "text": "Paraskevidekatriaphobia",
+        "text": "Oriental Avenue",
         "aliases": [
-          "friggatriskaidekaphobia"
+          "oriental"
         ],
         "tier": 60
       },
       {
-        "text": "Tetraphobia",
-        "tier": 60
-      },
-      {
-        "text": "Numerophobia",
+        "text": "Vermont Avenue",
         "aliases": [
-          "arithmophobia"
+          "vermont"
         ],
         "tier": 60
       },
       {
-        "text": "Chronophobia",
-        "tier": 60
-      },
-      {
-        "text": "Somniphobia",
+        "text": "Connecticut Avenue",
         "aliases": [
-          "hypnophobia"
+          "connecticut"
         ],
         "tier": 60
       },
       {
-        "text": "Oneirophobia",
-        "tier": 60
-      },
-      {
-        "text": "Catoptrophobia",
+        "text": "St. Charles Place",
         "aliases": [
-          "eisoptrophobia"
+          "st charles place",
+          "saint charles place"
         ],
         "tier": 60
       },
       {
-        "text": "Scopophobia",
+        "text": "States Avenue",
         "tier": 60
       },
       {
-        "text": "Ergophobia",
+        "text": "Virginia Avenue",
         "tier": 60
       },
       {
-        "text": "Didaskaleinophobia",
-        "tier": 60
-      },
-      {
-        "text": "Sociophobia",
-        "tier": 60
-      },
-      {
-        "text": "Anthropophobia",
-        "tier": 60
-      },
-      {
-        "text": "Autophobia",
+        "text": "St. James Place",
         "aliases": [
-          "monophobia"
+          "st james place",
+          "saint james place"
         ],
         "tier": 60
       },
       {
-        "text": "Ecophobia",
-        "tier": 60
-      },
-      {
-        "text": "Nomophobia",
-        "tier": 60
-      },
-      {
-        "text": "Cyberphobia",
-        "tier": 60
-      },
-      {
-        "text": "Mechanophobia",
-        "tier": 60
-      },
-      {
-        "text": "Ombrophobia",
-        "tier": 60
-      },
-      {
-        "text": "Chionophobia",
-        "tier": 60
-      },
-      {
-        "text": "Lilapsophobia",
-        "tier": 60
-      },
-      {
-        "text": "Anemophobia",
-        "tier": 60
-      },
-      {
-        "text": "Heliophobia",
-        "tier": 60
-      },
-      {
-        "text": "Selenophobia",
-        "tier": 60
-      },
-      {
-        "text": "Cryophobia",
-        "tier": 60
-      },
-      {
-        "text": "Thermophobia",
-        "tier": 60
-      },
-      {
-        "text": "Thalassophobia",
-        "tier": 60
-      },
-      {
-        "text": "Bathophobia",
-        "tier": 60
-      },
-      {
-        "text": "Potamophobia",
-        "tier": 60
-      },
-      {
-        "text": "Limnophobia",
-        "tier": 60
-      },
-      {
-        "text": "Cymophobia",
-        "tier": 60
-      },
-      {
-        "text": "Hylophobia",
-        "tier": 60
-      },
-      {
-        "text": "Anthophobia",
-        "tier": 60
-      },
-      {
-        "text": "Dendrophobia",
-        "tier": 60
-      },
-      {
-        "text": "Lachanophobia",
-        "tier": 60
-      },
-      {
-        "text": "Mageirocophobia",
-        "tier": 60
-      },
-      {
-        "text": "Sitophobia",
+        "text": "Tennessee Avenue",
         "aliases": [
-          "cibophobia"
+          "tennessee"
         ],
         "tier": 60
       },
       {
-        "text": "Deipnophobia",
+        "text": "New York Avenue",
         "tier": 60
       },
       {
-        "text": "Alektorophobia",
-        "tier": 60
-      },
-      {
-        "text": "Equinophobia",
+        "text": "Kentucky Avenue",
         "aliases": [
-          "hippophobia"
+          "kentucky"
         ],
         "tier": 60
       },
       {
-        "text": "Zoophobia",
-        "tier": 60
-      },
-      {
-        "text": "Herpetophobia",
-        "tier": 60
-      },
-      {
-        "text": "Ichthyophobia",
-        "tier": 60
-      },
-      {
-        "text": "Selachophobia",
+        "text": "Indiana Avenue",
         "aliases": [
-          "galeophobia"
+          "indiana"
         ],
         "tier": 60
       },
       {
-        "text": "Myrmecophobia",
+        "text": "Illinois Avenue",
+        "aliases": [
+          "illinois"
+        ],
         "tier": 60
       },
       {
-        "text": "Spheksophobia",
+        "text": "Atlantic Avenue",
+        "aliases": [
+          "atlantic"
+        ],
         "tier": 60
       },
       {
-        "text": "Lepidopterophobia",
+        "text": "Ventnor Avenue",
+        "aliases": [
+          "ventnor"
+        ],
         "tier": 60
       },
       {
-        "text": "Vermiphobia",
+        "text": "Pacific Avenue",
+        "aliases": [
+          "pacific"
+        ],
         "tier": 60
       },
       {
-        "text": "Bacteriophobia",
+        "text": "North Carolina Avenue",
+        "aliases": [
+          "north carolina"
+        ],
         "tier": 60
       },
       {
-        "text": "Aquaphobia",
+        "text": "Pennsylvania Avenue",
+        "tier": 60
+      },
+      {
+        "text": "Reading Railroad",
         "aliases": [
-          "hydrophobia"
+          "reading"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pennsylvania Railroad",
+        "tier": 60
+      },
+      {
+        "text": "Electric Company",
+        "tier": 60
+      },
+      {
+        "text": "Water Works",
+        "aliases": [
+          "waterworks"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Income Tax",
+        "tier": 60
+      },
+      {
+        "text": "Luxury Tax",
+        "tier": 60
+      },
+      {
+        "text": "Title deed",
+        "aliases": [
+          "deed",
+          "property card"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Banker",
+        "aliases": [
+          "bank"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rich Uncle Pennybags",
+        "aliases": [
+          "mr monopoly",
+          "uncle pennybags",
+          "mr. monopoly"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cat",
+        "tier": 60
+      },
+      {
+        "text": "Park Place",
+        "tier": 30
+      },
+      {
+        "text": "Free Parking",
+        "tier": 30
+      },
+      {
+        "text": "Community Chest",
+        "tier": 30
+      },
+      {
+        "text": "Chance",
+        "tier": 30
+      },
+      {
+        "text": "Just Visiting",
+        "tier": 30
+      },
+      {
+        "text": "Go to Jail",
+        "tier": 30
+      },
+      {
+        "text": "Battleship",
+        "aliases": [
+          "ship"
         ],
         "tier": 30
       },
       {
-        "text": "Germaphobia",
+        "text": "Top hat",
         "aliases": [
-          "germophobia",
-          "mysophobia"
+          "hat"
         ],
         "tier": 30
       },
       {
-        "text": "Technophobia",
-        "tier": 30
-      },
-      {
-        "text": "Nyctophobia",
+        "text": "Boot",
         "aliases": [
-          "achluophobia"
+          "shoe"
         ],
         "tier": 30
       },
       {
-        "text": "Ophidiophobia",
-        "tier": 30
-      },
-      {
-        "text": "Coulrophobia",
-        "tier": 30
-      },
-      {
-        "text": "Trypophobia",
-        "tier": 30
-      },
-      {
-        "text": "Aerophobia",
+        "text": "Scottie dog",
         "aliases": [
-          "aviophobia"
+          "dog",
+          "scotty dog"
         ],
         "tier": 30
       },
       {
-        "text": "Cynophobia",
-        "tier": 30
-      },
-      {
-        "text": "Islamophobia",
-        "tier": 30
-      },
-      {
-        "text": "Transphobia",
-        "tier": 30
-      },
-      {
-        "text": "Hemophobia",
+        "text": "Race car",
         "aliases": [
-          "hematophobia"
+          "car",
+          "racecar"
         ],
         "tier": 30
       },
       {
-        "text": "Glossophobia",
-        "tier": 30
-      },
-      {
-        "text": "Thanatophobia",
-        "tier": 30
-      },
-      {
-        "text": "Necrophobia",
-        "tier": 30
-      },
-      {
-        "text": "Pyrophobia",
-        "tier": 30
-      },
-      {
-        "text": "Astraphobia",
+        "text": "Houses",
         "aliases": [
-          "astrophobia",
-          "brontophobia"
+          "house",
+          "green house"
         ],
         "tier": 30
       },
       {
-        "text": "Emetophobia",
-        "tier": 30
-      },
-      {
-        "text": "Trypanophobia",
-        "tier": 30
-      },
-      {
-        "text": "Social phobia",
-        "tier": 30
-      },
-      {
-        "text": "Biphobia",
-        "tier": 30
-      },
-      {
-        "text": "Androphobia",
-        "tier": 30
-      },
-      {
-        "text": "Gynophobia",
-        "tier": 30
-      },
-      {
-        "text": "Ailurophobia",
+        "text": "Hotels",
         "aliases": [
-          "felinophobia"
+          "hotel",
+          "red hotel"
         ],
         "tier": 30
       },
       {
-        "text": "Entomophobia",
+        "text": "Get Out of Jail Free card",
         "aliases": [
-          "insectophobia"
+          "get out of jail free"
         ],
         "tier": 30
       },
       {
-        "text": "Musophobia",
-        "tier": 30
-      },
-      {
-        "text": "Apiphobia",
+        "text": "Railroad",
         "aliases": [
-          "melissophobia"
+          "railroads"
         ],
         "tier": 30
       },
       {
-        "text": "Ornithophobia",
-        "tier": 30
-      },
-      {
-        "text": "Batrachophobia",
-        "tier": 30
-      },
-      {
-        "text": "Chiroptophobia",
-        "tier": 30
-      },
-      {
-        "text": "Phobophobia",
+        "text": "Dice",
+        "aliases": [
+          "die"
+        ],
         "tier": 15
       },
       {
-        "text": "Triskaidekaphobia",
-        "tier": 15
-      },
-      {
-        "text": "Arachibutyrophobia",
-        "tier": 15
-      },
-      {
-        "text": "Arachnophobia",
+        "text": "Money",
         "aliases": [
-          "arachnaphobia"
+          "monopoly money",
+          "cash"
         ],
+        "tier": 15
+      },
+      {
+        "text": "Boardwalk",
         "tier": 10
       },
       {
-        "text": "Claustrophobia",
+        "text": "Go",
         "tier": 10
       },
       {
-        "text": "Agoraphobia",
-        "tier": 10
-      },
-      {
-        "text": "Acrophobia",
-        "tier": 10
-      },
-      {
-        "text": "Homophobia",
-        "tier": 10
-      },
-      {
-        "text": "Xenophobia",
+        "text": "Jail",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Phobia",
-      "Fear",
-      "Scared",
-      "Anxiety",
-      "Misophonia"
-    ]
+      "Wall Street",
+      "Broadway",
+      "Times Square",
+      "Park Avenue",
+      "Lombard Street",
+      "Fifth Avenue",
+      "Bus",
+      "Airport"
+    ],
+    "notes": "The spaces on the standard US (Atlantic City) and UK (London) boards, the classic tokens, and the other pieces in the box."
   },
   {
     "id": "q0058",
@@ -6396,818 +6124,396 @@
   },
   {
     "id": "q0060",
-    "prompt": "Name something you'd find in a bathroom",
-    "category": "everyday-objects",
+    "prompt": "Name a Looney Tunes character",
+    "category": "movies-tv",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Bidet",
+        "text": "Gossamer",
         "tier": 100
       },
       {
-        "text": "Pumice stone",
-        "tier": 85
-      },
-      {
-        "text": "Foot file",
-        "tier": 85
-      },
-      {
-        "text": "Exfoliator",
-        "tier": 85
-      },
-      {
-        "text": "Toner",
-        "tier": 85
-      },
-      {
-        "text": "Serum",
-        "tier": 85
-      },
-      {
-        "text": "Retinol",
-        "tier": 85
-      },
-      {
-        "text": "Face mask",
+        "text": "Hector the Bulldog",
         "aliases": [
-          "sheet mask"
+          "hector"
         ],
         "tier": 85
       },
       {
-        "text": "Clay mask",
-        "tier": 85
-      },
-      {
-        "text": "Eye cream",
-        "tier": 85
-      },
-      {
-        "text": "Lip balm",
+        "text": "Henery Hawk",
         "aliases": [
-          "chapstick"
+          "henry hawk"
         ],
         "tier": 85
       },
       {
-        "text": "Dry shampoo",
-        "tier": 85
-      },
-      {
-        "text": "Leave-in conditioner",
-        "tier": 85
-      },
-      {
-        "text": "Hair oil",
-        "tier": 85
-      },
-      {
-        "text": "Hair mask",
-        "tier": 85
-      },
-      {
-        "text": "Beard oil",
-        "tier": 85
-      },
-      {
-        "text": "Beard trimmer",
-        "tier": 85
-      },
-      {
-        "text": "Nose hair trimmer",
-        "tier": 85
-      },
-      {
-        "text": "Styptic pencil",
-        "tier": 85
-      },
-      {
-        "text": "Shaving brush",
-        "tier": 85
-      },
-      {
-        "text": "Safety razor",
-        "tier": 85
-      },
-      {
-        "text": "Straight razor",
-        "tier": 85
-      },
-      {
-        "text": "Strop",
-        "tier": 85
-      },
-      {
-        "text": "Water flosser",
+        "text": "Barnyard Dawg",
         "aliases": [
-          "waterpik"
+          "barnyard dog"
         ],
         "tier": 85
       },
       {
-        "text": "Tongue scraper",
+        "text": "Miss Prissy",
         "tier": 85
       },
       {
-        "text": "Denture cleaner",
-        "tier": 85
-      },
-      {
-        "text": "Retainer",
-        "tier": 85
-      },
-      {
-        "text": "Night guard",
-        "tier": 85
-      },
-      {
-        "text": "Eyelash curler",
-        "tier": 85
-      },
-      {
-        "text": "Mascara",
-        "tier": 85
-      },
-      {
-        "text": "Eyeliner",
-        "tier": 85
-      },
-      {
-        "text": "Lipstick",
-        "tier": 85
-      },
-      {
-        "text": "Foundation",
-        "tier": 85
-      },
-      {
-        "text": "Concealer",
-        "tier": 85
-      },
-      {
-        "text": "Blush",
-        "tier": 85
-      },
-      {
-        "text": "Bronzer",
-        "tier": 85
-      },
-      {
-        "text": "Highlighter",
-        "tier": 85
-      },
-      {
-        "text": "Setting spray",
-        "tier": 85
-      },
-      {
-        "text": "Makeup brushes",
-        "tier": 85
-      },
-      {
-        "text": "Beauty blender",
-        "tier": 85
-      },
-      {
-        "text": "Cotton pads",
-        "tier": 85
-      },
-      {
-        "text": "Nail polish",
-        "tier": 85
-      },
-      {
-        "text": "Nail polish remover",
-        "tier": 85
-      },
-      {
-        "text": "Cuticle pusher",
-        "tier": 85
-      },
-      {
-        "text": "Bath pillow",
-        "tier": 85
-      },
-      {
-        "text": "Caddy",
+        "text": "Sylvester Jr.",
         "aliases": [
-          "shower caddy"
+          "sylvester junior"
         ],
         "tier": 85
       },
       {
-        "text": "Grab bar",
+        "text": "Hippety Hopper",
         "tier": 85
       },
       {
-        "text": "Shower chair",
-        "tier": 85
-      },
-      {
-        "text": "Toilet roll holder",
-        "tier": 85
-      },
-      {
-        "text": "Bowl cleaner",
-        "tier": 85
-      },
-      {
-        "text": "Toilet bowl",
-        "tier": 85
-      },
-      {
-        "text": "Wax ring",
-        "tier": 85
-      },
-      {
-        "text": "Flapper",
-        "tier": 85
-      },
-      {
-        "text": "Ballcock",
-        "tier": 85
-      },
-      {
-        "text": "P-trap",
-        "tier": 85
-      },
-      {
-        "text": "Drain",
-        "tier": 85
-      },
-      {
-        "text": "Hair catcher",
-        "tier": 85
-      },
-      {
-        "text": "Overflow",
-        "tier": 85
-      },
-      {
-        "text": "Diffuser",
-        "tier": 85
-      },
-      {
-        "text": "Potpourri",
-        "tier": 85
-      },
-      {
-        "text": "Matches",
-        "tier": 85
-      },
-      {
-        "text": "Poo-Pourri",
+        "text": "Penelope Pussycat",
         "aliases": [
-          "poo pourri"
+          "penelope"
         ],
         "tier": 85
       },
       {
-        "text": "Sitz bath",
+        "text": "Ralph Wolf",
         "tier": 85
       },
       {
-        "text": "Shower head",
+        "text": "Sam Sheepdog",
+        "tier": 85
+      },
+      {
+        "text": "Marc Antony",
         "aliases": [
-          "showerhead"
+          "marc antony and pussyfoot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pussyfoot",
+        "tier": 85
+      },
+      {
+        "text": "Charlie Dog",
+        "tier": 85
+      },
+      {
+        "text": "Beaky Buzzard",
+        "tier": 85
+      },
+      {
+        "text": "Cecil Turtle",
+        "tier": 85
+      },
+      {
+        "text": "Witch Hazel",
+        "tier": 85
+      },
+      {
+        "text": "Rocky and Mugsy",
+        "aliases": [
+          "rocky",
+          "mugsy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bosko",
+        "tier": 85
+      },
+      {
+        "text": "Goofy Gophers",
+        "aliases": [
+          "mac and tosh"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Claude Cat",
+        "tier": 85
+      },
+      {
+        "text": "Hubie and Bertie",
+        "aliases": [
+          "hubie",
+          "bertie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pete Puma",
+        "tier": 85
+      },
+      {
+        "text": "Nasty Canasta",
+        "tier": 85
+      },
+      {
+        "text": "Count Bloodcount",
+        "tier": 85
+      },
+      {
+        "text": "Slowpoke Rodriguez",
+        "tier": 85
+      },
+      {
+        "text": "K-9",
+        "aliases": [
+          "k9"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Instant Martians",
+        "tier": 85
+      },
+      {
+        "text": "She-Devil",
+        "tier": 85
+      },
+      {
+        "text": "Blacque Jacque Shellacque",
+        "tier": 85
+      },
+      {
+        "text": "Toro the Bull",
+        "tier": 85
+      },
+      {
+        "text": "Cool Cat",
+        "tier": 85
+      },
+      {
+        "text": "Merlin the Magic Mouse",
+        "tier": 85
+      },
+      {
+        "text": "Egghead",
+        "tier": 85
+      },
+      {
+        "text": "Inki",
+        "tier": 85
+      },
+      {
+        "text": "Sniffles",
+        "tier": 85
+      },
+      {
+        "text": "Conrad the Cat",
+        "tier": 85
+      },
+      {
+        "text": "The Crusher",
+        "tier": 85
+      },
+      {
+        "text": "Gabby Goat",
+        "tier": 85
+      },
+      {
+        "text": "Hugo the Abominable Snowman",
+        "aliases": [
+          "hugo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Babbit and Catstello",
+        "tier": 85
+      },
+      {
+        "text": "Willoughby",
+        "tier": 85
+      },
+      {
+        "text": "Ralph Phillips",
+        "tier": 85
+      },
+      {
+        "text": "Tina Russo Duck",
+        "aliases": [
+          "tina russo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Duck Dodgers",
+        "tier": 85
+      },
+      {
+        "text": "Cadet",
+        "aliases": [
+          "space cadet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Three Bears",
+        "aliases": [
+          "papa bear",
+          "mama bear",
+          "junyer bear"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Honey Bunny",
+        "tier": 85
+      },
+      {
+        "text": "Buddy",
+        "tier": 85
+      },
+      {
+        "text": "Petunia Pig",
+        "aliases": [
+          "petunia"
         ],
         "tier": 60
       },
       {
-        "text": "Shower cap",
+        "text": "Granny",
         "tier": 60
       },
       {
-        "text": "Bath bomb",
-        "tier": 60
-      },
-      {
-        "text": "Bubble bath",
-        "tier": 60
-      },
-      {
-        "text": "Bath salts",
-        "tier": 60
-      },
-      {
-        "text": "Candle",
-        "tier": 60
-      },
-      {
-        "text": "Cabinet",
-        "tier": 60
-      },
-      {
-        "text": "Vanity",
-        "tier": 60
-      },
-      {
-        "text": "Counter",
-        "tier": 60
-      },
-      {
-        "text": "Drawer",
-        "tier": 60
-      },
-      {
-        "text": "Hamper",
+        "text": "Elmer Fudd",
         "aliases": [
-          "laundry basket"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Robe",
-        "aliases": [
-          "bathrobe"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Slippers",
-        "tier": 60
-      },
-      {
-        "text": "Tweezers",
-        "tier": 60
-      },
-      {
-        "text": "Nail clippers",
-        "tier": 60
-      },
-      {
-        "text": "Nail file",
-        "tier": 60
-      },
-      {
-        "text": "Cotton balls",
-        "tier": 60
-      },
-      {
-        "text": "Makeup remover",
-        "tier": 60
-      },
-      {
-        "text": "Face wash",
-        "aliases": [
-          "cleanser"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Moisturizer",
-        "tier": 60
-      },
-      {
-        "text": "Sunscreen",
-        "tier": 60
-      },
-      {
-        "text": "Hair gel",
-        "aliases": [
-          "gel"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hairspray",
-        "tier": 60
-      },
-      {
-        "text": "Mousse",
-        "tier": 60
-      },
-      {
-        "text": "Curling iron",
-        "tier": 60
-      },
-      {
-        "text": "Straightener",
-        "aliases": [
-          "flat iron"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Electric razor",
-        "aliases": [
-          "shaver"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Aftershave",
-        "tier": 60
-      },
-      {
-        "text": "Contact lens case",
-        "aliases": [
-          "contacts"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Glasses",
-        "tier": 60
-      },
-      {
-        "text": "Band-aids",
-        "aliases": [
-          "bandages",
-          "bandaid"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "First aid kit",
-        "tier": 60
-      },
-      {
-        "text": "Medicine",
-        "aliases": [
-          "pills"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Vitamins",
-        "tier": 60
-      },
-      {
-        "text": "Thermometer",
-        "tier": 60
-      },
-      {
-        "text": "Hair ties",
-        "tier": 60
-      },
-      {
-        "text": "Bobby pins",
-        "tier": 60
-      },
-      {
-        "text": "Toothbrush holder",
-        "tier": 60
-      },
-      {
-        "text": "Soap dish",
-        "tier": 60
-      },
-      {
-        "text": "Soap dispenser",
-        "tier": 60
-      },
-      {
-        "text": "Grout",
-        "tier": 60
-      },
-      {
-        "text": "Tiles",
-        "aliases": [
-          "tile"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Window",
-        "tier": 60
-      },
-      {
-        "text": "Outlet",
-        "tier": 60
-      },
-      {
-        "text": "Nightlight",
-        "tier": 60
-      },
-      {
-        "text": "Toilet tank",
-        "tier": 60
-      },
-      {
-        "text": "Squeegee",
-        "tier": 60
-      },
-      {
-        "text": "Cleaning spray",
-        "aliases": [
-          "cleaner"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bleach",
-        "tier": 60
-      },
-      {
-        "text": "Sponge",
-        "tier": 60
-      },
-      {
-        "text": "Rubber gloves",
-        "tier": 60
-      },
-      {
-        "text": "Shelf",
-        "tier": 60
-      },
-      {
-        "text": "Hook",
-        "tier": 60
-      },
-      {
-        "text": "Towel warmer",
-        "tier": 60
-      },
-      {
-        "text": "Heat lamp",
-        "tier": 60
-      },
-      {
-        "text": "Jacuzzi",
-        "aliases": [
-          "hot tub"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Urinal",
-        "tier": 60
-      },
-      {
-        "text": "Tampons",
-        "tier": 60
-      },
-      {
-        "text": "Pads",
-        "tier": 60
-      },
-      {
-        "text": "Diapers",
-        "tier": 60
-      },
-      {
-        "text": "Potty",
-        "aliases": [
-          "potty seat"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Step stool",
-        "tier": 60
-      },
-      {
-        "text": "Bath toys",
-        "tier": 60
-      },
-      {
-        "text": "Shampoo",
-        "tier": 30
-      },
-      {
-        "text": "Conditioner",
-        "tier": 30
-      },
-      {
-        "text": "Body wash",
-        "tier": 30
-      },
-      {
-        "text": "Hand soap",
-        "tier": 30
-      },
-      {
-        "text": "Shower curtain",
-        "tier": 30
-      },
-      {
-        "text": "Bath mat",
-        "aliases": [
-          "bathmat"
+          "elmer"
         ],
         "tier": 30
       },
       {
-        "text": "Plunger",
+        "text": "Yosemite Sam",
         "tier": 30
       },
       {
-        "text": "Toilet brush",
-        "tier": 30
-      },
-      {
-        "text": "Hairbrush",
+        "text": "Marvin the Martian",
         "aliases": [
-          "brush"
+          "marvin"
         ],
         "tier": 30
       },
       {
-        "text": "Comb",
-        "tier": 30
-      },
-      {
-        "text": "Hair dryer",
+        "text": "Foghorn Leghorn",
         "aliases": [
-          "blow dryer"
+          "foghorn"
         ],
         "tier": 30
       },
       {
-        "text": "Razor",
-        "tier": 30
-      },
-      {
-        "text": "Shaving cream",
-        "tier": 30
-      },
-      {
-        "text": "Deodorant",
-        "tier": 30
-      },
-      {
-        "text": "Floss",
+        "text": "Pepé Le Pew",
         "aliases": [
-          "dental floss"
+          "pepe le pew",
+          "pepe"
         ],
         "tier": 30
       },
       {
-        "text": "Mouthwash",
-        "tier": 30
-      },
-      {
-        "text": "Lotion",
-        "tier": 30
-      },
-      {
-        "text": "Tissues",
+        "text": "Speedy Gonzales",
         "aliases": [
-          "kleenex",
-          "tissue"
+          "speedy"
         ],
         "tier": 30
       },
       {
-        "text": "Medicine cabinet",
-        "tier": 30
-      },
-      {
-        "text": "Trash can",
+        "text": "Michigan J. Frog",
         "aliases": [
-          "wastebasket",
-          "bin"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Scale",
-        "aliases": [
-          "bathroom scale"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Faucet",
-        "aliases": [
-          "tap"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Towel rack",
-        "tier": 30
-      },
-      {
-        "text": "Cotton swabs",
-        "aliases": [
-          "q-tips",
-          "q tips"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Makeup",
-        "tier": 30
-      },
-      {
-        "text": "Perfume",
-        "aliases": [
-          "cologne"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hand towel",
-        "tier": 30
-      },
-      {
-        "text": "Washcloth",
-        "aliases": [
-          "flannel"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Loofah",
-        "aliases": [
-          "luffa"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Air freshener",
-        "tier": 30
-      },
-      {
-        "text": "Light",
-        "tier": 30
-      },
-      {
-        "text": "Fan",
-        "aliases": [
-          "exhaust fan"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Toilet seat",
-        "tier": 30
-      },
-      {
-        "text": "Rubber duck",
-        "aliases": [
-          "rubber ducky"
+          "michigan j frog",
+          "michigan frog"
         ],
         "tier": 15
       },
       {
-        "text": "Magazine",
-        "tier": 15
-      },
-      {
-        "text": "Phone",
-        "tier": 15
-      },
-      {
-        "text": "Toilet",
-        "tier": 10
-      },
-      {
-        "text": "Sink",
-        "tier": 10
-      },
-      {
-        "text": "Shower",
-        "tier": 10
-      },
-      {
-        "text": "Bathtub",
+        "text": "Lola Bunny",
         "aliases": [
-          "tub",
-          "bath"
+          "lola"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Bugs Bunny",
+        "aliases": [
+          "bugs"
         ],
         "tier": 10
       },
       {
-        "text": "Toothbrush",
-        "tier": 10
-      },
-      {
-        "text": "Toothpaste",
-        "tier": 10
-      },
-      {
-        "text": "Towel",
-        "tier": 10
-      },
-      {
-        "text": "Mirror",
-        "tier": 10
-      },
-      {
-        "text": "Soap",
-        "tier": 10
-      },
-      {
-        "text": "Toilet paper",
+        "text": "Daffy Duck",
         "aliases": [
-          "tp",
-          "loo roll"
+          "daffy"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Tweety",
+        "aliases": [
+          "tweety bird",
+          "tweety pie"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sylvester",
+        "aliases": [
+          "sylvester the cat"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Porky Pig",
+        "aliases": [
+          "porky"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Road Runner",
+        "aliases": [
+          "roadrunner"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Wile E. Coyote",
+        "aliases": [
+          "wile e coyote",
+          "coyote",
+          "wile coyote"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Tasmanian Devil",
+        "aliases": [
+          "taz"
         ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Bed",
-      "Couch",
-      "Fridge",
-      "Stove",
-      "Television",
-      "tv",
-      "Kitchen sink"
-    ]
+      "Mickey Mouse",
+      "Scooby-Doo",
+      "Tom",
+      "Jerry",
+      "Woody Woodpecker",
+      "Buster Bunny",
+      "Babs Bunny",
+      "Plucky Duck",
+      "Yakko",
+      "Wakko",
+      "Dot",
+      "Pinky",
+      "Brain",
+      "Fred Flintstone",
+      "Garfield",
+      "Popeye",
+      "Betty Boop",
+      "Felix the Cat",
+      "Michael Jordan",
+      "Monstars"
+    ],
+    "notes": "Characters from the Warner Bros. Looney Tunes and Merrie Melodies cartoons and their films. Tiny Toons characters don't count."
   }
 ]

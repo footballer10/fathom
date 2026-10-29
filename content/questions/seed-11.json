@@ -7604,1029 +7604,309 @@
   },
   {
     "id": "q0108",
-    "prompt": "Name a lake",
+    "prompt": "Name a US state or Canadian province or territory",
     "category": "geography",
     "status": "reserve",
     "answers": [
       {
-        "text": "Lake Titicaca",
-        "aliases": [
-          "titicaca"
-        ],
+        "text": "Nunavut",
         "tier": 100
       },
       {
-        "text": "Lake Vostok",
-        "tier": 85
-      },
-      {
-        "text": "Lake Peigneur",
-        "tier": 85
-      },
-      {
-        "text": "Lake Nyos",
-        "tier": 85
-      },
-      {
-        "text": "Lake Hillier",
-        "tier": 85
-      },
-      {
-        "text": "Spotted Lake",
-        "tier": 85
-      },
-      {
-        "text": "Lake Karachay",
-        "tier": 85
-      },
-      {
-        "text": "Boiling Lake",
-        "tier": 85
-      },
-      {
-        "text": "Lake Abraham",
-        "tier": 85
-      },
-      {
-        "text": "Plitvice Lakes",
-        "tier": 85
-      },
-      {
-        "text": "Lake Khanka",
-        "tier": 85
-      },
-      {
-        "text": "Lake Hovsgol",
+        "text": "Northwest Territories",
         "aliases": [
-          "khovsgol"
+          "nwt"
         ],
         "tier": 85
       },
       {
-        "text": "Lake Uvs",
-        "tier": 85
-      },
-      {
-        "text": "Lake Zaysan",
-        "tier": 85
-      },
-      {
-        "text": "Lake Tengiz",
-        "tier": 85
-      },
-      {
-        "text": "Lake Alakol",
-        "tier": 85
-      },
-      {
-        "text": "Sarez Lake",
-        "tier": 85
-      },
-      {
-        "text": "Lake Karakul",
-        "tier": 85
-      },
-      {
-        "text": "Son-Kul",
-        "tier": 85
-      },
-      {
-        "text": "Lake Biwa",
+        "text": "Yukon",
         "aliases": [
-          "biwa"
+          "yukon territory"
         ],
         "tier": 85
       },
       {
-        "text": "Lake Kawaguchi",
-        "tier": 85
-      },
-      {
-        "text": "Lake Ashi",
-        "tier": 85
-      },
-      {
-        "text": "Lake Towada",
-        "tier": 85
-      },
-      {
-        "text": "Lake Kussharo",
-        "tier": 85
-      },
-      {
-        "text": "Lake Mashu",
-        "tier": 85
-      },
-      {
-        "text": "Lake Sapanca",
-        "tier": 85
-      },
-      {
-        "text": "Lake Egirdir",
-        "tier": 85
-      },
-      {
-        "text": "Lake Tuz",
-        "tier": 85
-      },
-      {
-        "text": "Lake Hula",
-        "tier": 85
-      },
-      {
-        "text": "Sea of Galilee",
+        "text": "Prince Edward Island",
         "aliases": [
-          "lake tiberias",
-          "kinneret"
+          "pei"
         ],
         "tier": 85
       },
       {
-        "text": "Lake Qarun",
+        "text": "New Brunswick",
         "tier": 85
       },
       {
-        "text": "Lake Mweru",
-        "tier": 85
-      },
-      {
-        "text": "Lake Bangweulu",
-        "tier": 85
-      },
-      {
-        "text": "Lake Rukwa",
-        "tier": 85
-      },
-      {
-        "text": "Lake Kyoga",
-        "tier": 85
-      },
-      {
-        "text": "Lake Bosumtwi",
-        "tier": 85
-      },
-      {
-        "text": "Lake Ihema",
-        "tier": 85
-      },
-      {
-        "text": "Lake Toncontin",
-        "tier": 85
-      },
-      {
-        "text": "Lake Junin",
-        "tier": 85
-      },
-      {
-        "text": "Lake Uru Uru",
-        "tier": 85
-      },
-      {
-        "text": "Lake Coipasa",
-        "tier": 85
-      },
-      {
-        "text": "Mar Chiquita",
-        "tier": 85
-      },
-      {
-        "text": "Lake Buenos Aires",
-        "tier": 85
-      },
-      {
-        "text": "Lake Fagnano",
-        "tier": 85
-      },
-      {
-        "text": "Lake Nahuel Huapi",
-        "tier": 85
-      },
-      {
-        "text": "Lake Argentino",
-        "tier": 85
-      },
-      {
-        "text": "Lake Viedma",
-        "tier": 85
-      },
-      {
-        "text": "Lake Ranco",
-        "tier": 85
-      },
-      {
-        "text": "Lake Sarmiento",
-        "tier": 85
-      },
-      {
-        "text": "Lake Pukaki",
-        "tier": 85
-      },
-      {
-        "text": "Lake Rotorua",
-        "tier": 85
-      },
-      {
-        "text": "Lake Manapouri",
-        "tier": 85
-      },
-      {
-        "text": "Lake Te Anau",
-        "tier": 85
-      },
-      {
-        "text": "Lake Hauroko",
-        "tier": 85
-      },
-      {
-        "text": "Lake Burley Griffin",
-        "tier": 85
-      },
-      {
-        "text": "Lake Pedder",
-        "tier": 85
-      },
-      {
-        "text": "Lake St Clair",
-        "tier": 85
-      },
-      {
-        "text": "Lake Gairdner",
-        "tier": 85
-      },
-      {
-        "text": "Lake Torrens",
-        "tier": 85
-      },
-      {
-        "text": "Lake Frome",
-        "tier": 85
-      },
-      {
-        "text": "Lake Mackay",
-        "tier": 85
-      },
-      {
-        "text": "Lake Disappointment",
-        "tier": 85
-      },
-      {
-        "text": "Lake Maggiore",
+        "text": "Newfoundland and Labrador",
         "aliases": [
-          "maggiore"
+          "newfoundland",
+          "labrador"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Saskatchewan",
+        "aliases": [
+          "saskatchewen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Manitoba",
+        "tier": 85
+      },
+      {
+        "text": "North Dakota",
+        "tier": 85
+      },
+      {
+        "text": "South Dakota",
+        "tier": 85
+      },
+      {
+        "text": "Wyoming",
+        "tier": 85
+      },
+      {
+        "text": "Montana",
+        "tier": 85
+      },
+      {
+        "text": "Idaho",
+        "tier": 85
+      },
+      {
+        "text": "Delaware",
+        "tier": 85
+      },
+      {
+        "text": "Rhode Island",
+        "tier": 85
+      },
+      {
+        "text": "Vermont",
+        "tier": 85
+      },
+      {
+        "text": "New Hampshire",
+        "tier": 85
+      },
+      {
+        "text": "Nova Scotia",
+        "tier": 60
+      },
+      {
+        "text": "Alberta",
+        "tier": 60
+      },
+      {
+        "text": "British Columbia",
+        "aliases": [
+          "bc"
         ],
         "tier": 60
       },
       {
-        "text": "Lake Ladoga",
+        "text": "Nebraska",
+        "tier": 60
+      },
+      {
+        "text": "Kansas",
+        "tier": 60
+      },
+      {
+        "text": "Iowa",
+        "tier": 60
+      },
+      {
+        "text": "Oklahoma",
+        "tier": 60
+      },
+      {
+        "text": "Arkansas",
+        "tier": 60
+      },
+      {
+        "text": "Mississippi",
+        "tier": 60
+      },
+      {
+        "text": "Alabama",
+        "tier": 60
+      },
+      {
+        "text": "Kentucky",
+        "tier": 60
+      },
+      {
+        "text": "West Virginia",
+        "tier": 60
+      },
+      {
+        "text": "Maryland",
+        "tier": 60
+      },
+      {
+        "text": "Connecticut",
+        "tier": 60
+      },
+      {
+        "text": "Maine",
+        "tier": 60
+      },
+      {
+        "text": "Minnesota",
+        "tier": 60
+      },
+      {
+        "text": "Wisconsin",
+        "tier": 60
+      },
+      {
+        "text": "Indiana",
+        "tier": 60
+      },
+      {
+        "text": "Missouri",
+        "tier": 60
+      },
+      {
+        "text": "Louisiana",
+        "tier": 60
+      },
+      {
+        "text": "South Carolina",
+        "tier": 60
+      },
+      {
+        "text": "New Mexico",
+        "tier": 60
+      },
+      {
+        "text": "Utah",
+        "tier": 60
+      },
+      {
+        "text": "Nevada",
+        "tier": 60
+      },
+      {
+        "text": "Oregon",
+        "tier": 60
+      },
+      {
+        "text": "Ontario",
+        "tier": 30
+      },
+      {
+        "text": "Quebec",
         "aliases": [
-          "ladoga"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Onega",
-        "aliases": [
-          "onega"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Vanern",
-        "aliases": [
-          "vanern",
-          "vänern"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Vattern",
-        "tier": 60
-      },
-      {
-        "text": "Lake Inari",
-        "tier": 60
-      },
-      {
-        "text": "Lake Saimaa",
-        "aliases": [
-          "saimaa"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Ohrid",
-        "aliases": [
-          "ohrid"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Prespa",
-        "tier": 60
-      },
-      {
-        "text": "Lake Annecy",
-        "aliases": [
-          "annecy"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Zurich",
-        "tier": 60
-      },
-      {
-        "text": "Lake Neuchatel",
-        "tier": 60
-      },
-      {
-        "text": "Lake Hallstatt",
-        "tier": 60
-      },
-      {
-        "text": "Lake Wolfgang",
-        "tier": 60
-      },
-      {
-        "text": "Lake Starnberg",
-        "tier": 60
-      },
-      {
-        "text": "Lough Neagh",
-        "aliases": [
-          "neagh"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Windermere",
-        "aliases": [
-          "windermere"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Loch Morar",
-        "tier": 60
-      },
-      {
-        "text": "Loch Awe",
-        "tier": 60
-      },
-      {
-        "text": "Lake Van",
-        "tier": 60
-      },
-      {
-        "text": "Lake Urmia",
-        "tier": 60
-      },
-      {
-        "text": "Lake Sevan",
-        "tier": 60
-      },
-      {
-        "text": "Issyk-Kul",
-        "tier": 60
-      },
-      {
-        "text": "Lake Balkhash",
-        "aliases": [
-          "balkhash"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Qinghai",
-        "aliases": [
-          "qinghai"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "West Lake",
-        "tier": 60
-      },
-      {
-        "text": "Dongting Lake",
-        "tier": 60
-      },
-      {
-        "text": "Poyang Lake",
-        "tier": 60
-      },
-      {
-        "text": "Tonle Sap",
-        "tier": 60
-      },
-      {
-        "text": "Inle Lake",
-        "tier": 60
-      },
-      {
-        "text": "Dal Lake",
-        "tier": 60
-      },
-      {
-        "text": "Pangong Lake",
-        "aliases": [
-          "pangong tso"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Toba",
-        "aliases": [
-          "toba"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Taupo",
-        "aliases": [
-          "taupo"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Wakatipu",
-        "tier": 60
-      },
-      {
-        "text": "Lake Tekapo",
-        "tier": 60
-      },
-      {
-        "text": "Lake Eyre",
-        "aliases": [
-          "kati thanda"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Argyle",
-        "tier": 60
-      },
-      {
-        "text": "Lake Turkana",
-        "aliases": [
-          "turkana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Albert",
-        "tier": 60
-      },
-      {
-        "text": "Lake Edward",
-        "tier": 60
-      },
-      {
-        "text": "Lake Kivu",
-        "aliases": [
-          "kivu"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Volta",
-        "aliases": [
-          "volta"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Kariba",
-        "aliases": [
-          "kariba"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Nasser",
-        "aliases": [
-          "nasser"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Tana",
-        "aliases": [
-          "tana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Assal",
-        "tier": 60
-      },
-      {
-        "text": "Lake Natron",
-        "tier": 60
-      },
-      {
-        "text": "Lake Nakuru",
-        "tier": 60
-      },
-      {
-        "text": "Lake Retba",
-        "aliases": [
-          "pink lake"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Maracaibo",
-        "aliases": [
-          "maracaibo"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Nicaragua",
-        "aliases": [
-          "nicaragua"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Atitlan",
-        "aliases": [
-          "atitlan"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Chapala",
-        "tier": 60
-      },
-      {
-        "text": "Lake Texcoco",
-        "tier": 60
-      },
-      {
-        "text": "General Carrera Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Llanquihue",
-        "tier": 60
-      },
-      {
-        "text": "Lake Poopo",
-        "tier": 60
-      },
-      {
-        "text": "Lake Athabasca",
-        "tier": 60
-      },
-      {
-        "text": "Reindeer Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Nipigon",
-        "tier": 60
-      },
-      {
-        "text": "Lake Simcoe",
-        "tier": 60
-      },
-      {
-        "text": "Lake Muskoka",
-        "tier": 60
-      },
-      {
-        "text": "Lake Manitoba",
-        "tier": 60
-      },
-      {
-        "text": "Moraine Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Minnewanka",
-        "tier": 60
-      },
-      {
-        "text": "Lake Winnebago",
-        "tier": 60
-      },
-      {
-        "text": "Lake Mille Lacs",
-        "aliases": [
-          "mille lacs"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lake Itasca",
-        "aliases": [
-          "itasca"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Red Lake",
-        "tier": 60
-      },
-      {
-        "text": "Leech Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake of the Woods",
-        "tier": 60
-      },
-      {
-        "text": "Lake Okoboji",
-        "tier": 60
-      },
-      {
-        "text": "Flathead Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Coeur d'Alene",
-        "tier": 60
-      },
-      {
-        "text": "Lake Pend Oreille",
-        "tier": 60
-      },
-      {
-        "text": "Yellowstone Lake",
-        "tier": 60
-      },
-      {
-        "text": "Jackson Lake",
-        "tier": 60
-      },
-      {
-        "text": "Bear Lake",
-        "tier": 60
-      },
-      {
-        "text": "Utah Lake",
-        "tier": 60
-      },
-      {
-        "text": "Pyramid Lake",
-        "tier": 60
-      },
-      {
-        "text": "Mono Lake",
-        "tier": 60
-      },
-      {
-        "text": "Clear Lake",
-        "tier": 60
-      },
-      {
-        "text": "Big Bear Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Arrowhead",
-        "tier": 60
-      },
-      {
-        "text": "Salton Sea",
-        "tier": 60
-      },
-      {
-        "text": "Lake Chelan",
-        "tier": 60
-      },
-      {
-        "text": "Lake Washington",
-        "tier": 60
-      },
-      {
-        "text": "Lake Union",
-        "tier": 60
-      },
-      {
-        "text": "Diamond Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Travis",
-        "tier": 60
-      },
-      {
-        "text": "Lake Texoma",
-        "tier": 60
-      },
-      {
-        "text": "Toledo Bend",
-        "tier": 60
-      },
-      {
-        "text": "Lake Murray",
-        "tier": 60
-      },
-      {
-        "text": "Lake Norman",
-        "tier": 60
-      },
-      {
-        "text": "Lake Martin",
-        "tier": 60
-      },
-      {
-        "text": "Kentucky Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Cumberland",
-        "tier": 60
-      },
-      {
-        "text": "Smith Mountain Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Wallenpaupack",
-        "tier": 60
-      },
-      {
-        "text": "Seneca Lake",
-        "tier": 60
-      },
-      {
-        "text": "Cayuga Lake",
-        "tier": 60
-      },
-      {
-        "text": "Finger Lakes",
-        "tier": 60
-      },
-      {
-        "text": "Lake Winnipesaukee",
-        "aliases": [
-          "winnipesaukee"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Moosehead Lake",
-        "tier": 60
-      },
-      {
-        "text": "Lake Memphremagog",
-        "tier": 60
-      },
-      {
-        "text": "Lake Victoria",
-        "aliases": [
-          "victoria"
+          "québec"
         ],
         "tier": 30
       },
       {
-        "text": "Lake Baikal",
+        "text": "Washington",
         "aliases": [
-          "baikal"
+          "washington state"
         ],
         "tier": 30
       },
       {
-        "text": "Lake Placid",
+        "text": "Colorado",
         "tier": 30
       },
       {
-        "text": "Lake Geneva",
+        "text": "Arizona",
+        "tier": 30
+      },
+      {
+        "text": "Georgia",
+        "tier": 30
+      },
+      {
+        "text": "North Carolina",
+        "tier": 30
+      },
+      {
+        "text": "Virginia",
+        "tier": 30
+      },
+      {
+        "text": "Tennessee",
+        "tier": 30
+      },
+      {
+        "text": "Ohio",
+        "tier": 30
+      },
+      {
+        "text": "Michigan",
+        "tier": 30
+      },
+      {
+        "text": "Illinois",
+        "tier": 30
+      },
+      {
+        "text": "Pennsylvania",
         "aliases": [
-          "lac leman"
+          "pennsylvannia"
         ],
         "tier": 30
       },
       {
-        "text": "Lake Como",
+        "text": "New Jersey",
+        "tier": 30
+      },
+      {
+        "text": "Massachusetts",
         "aliases": [
-          "como"
+          "massachusets"
         ],
         "tier": 30
       },
       {
-        "text": "Crater Lake",
-        "tier": 30
-      },
-      {
-        "text": "Lake Champlain",
-        "aliases": [
-          "champlain"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Okeechobee",
-        "aliases": [
-          "okeechobee"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Mead",
-        "aliases": [
-          "mead"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Powell",
-        "aliases": [
-          "powell"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Winnipeg",
-        "aliases": [
-          "winnipeg"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Great Bear Lake",
-        "tier": 30
-      },
-      {
-        "text": "Great Slave Lake",
-        "tier": 30
-      },
-      {
-        "text": "Lake Louise",
-        "tier": 30
-      },
-      {
-        "text": "Lake Minnetonka",
-        "aliases": [
-          "minnetonka"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake of the Ozarks",
-        "tier": 30
-      },
-      {
-        "text": "Lake Lanier",
-        "aliases": [
-          "lanier"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Pontchartrain",
-        "aliases": [
-          "pontchartrain"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake George",
-        "tier": 30
-      },
-      {
-        "text": "Lake Havasu",
-        "aliases": [
-          "havasu"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Tanganyika",
-        "aliases": [
-          "tanganyika"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Malawi",
-        "aliases": [
-          "lake nyasa"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Chad",
-        "tier": 30
-      },
-      {
-        "text": "Aral Sea",
-        "tier": 30
-      },
-      {
-        "text": "Lake Garda",
-        "aliases": [
-          "garda"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Lucerne",
-        "tier": 30
-      },
-      {
-        "text": "Lake Constance",
-        "aliases": [
-          "bodensee"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lake Balaton",
-        "aliases": [
-          "balaton"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Loch Lomond",
-        "tier": 30
-      },
-      {
-        "text": "Lake Bled",
-        "aliases": [
-          "bled"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Caspian Sea",
+        "text": "Alaska",
         "tier": 15
       },
       {
-        "text": "Walden Pond",
+        "text": "Hawaii",
         "tier": 15
       },
       {
-        "text": "Loch Ness",
-        "tier": 15
-      },
-      {
-        "text": "Dead Sea",
-        "tier": 15
-      },
-      {
-        "text": "Lake Superior",
-        "aliases": [
-          "superior"
-        ],
+        "text": "California",
         "tier": 10
       },
       {
-        "text": "Lake Michigan",
-        "aliases": [
-          "michigan"
-        ],
+        "text": "Texas",
         "tier": 10
       },
       {
-        "text": "Lake Erie",
-        "aliases": [
-          "erie"
-        ],
+        "text": "Florida",
         "tier": 10
       },
       {
-        "text": "Lake Huron",
-        "aliases": [
-          "huron"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Lake Ontario",
-        "aliases": [
-          "ontario"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Lake Tahoe",
-        "aliases": [
-          "tahoe"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Great Salt Lake",
+        "text": "New York",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Pacific Ocean",
-      "Atlantic Ocean",
-      "Mississippi River",
-      "Niagara Falls",
-      "Red Sea",
-      "Black Sea",
-      "Mediterranean"
-    ]
+      "Puerto Rico",
+      "Guam",
+      "Washington DC",
+      "District of Columbia",
+      "Greenland",
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Mexico",
+      "Canada",
+      "Dakota",
+      "Virginia City"
+    ],
+    "notes": "The 50 US states plus Canada's 10 provinces and 3 territories."
   },
   {
     "id": "q0109",

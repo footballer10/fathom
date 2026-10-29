@@ -307,292 +307,102 @@ Teen
 id: q0083
 pool: reserve
 category: geography
-prompt: Name a city in Europe
+prompt: Name a country in Europe or South America
+note: Countries that are at least partly in Europe (Russia, Turkey, Kazakhstan, the Caucasus count) or in South America. Territories (French Guiana, Greenland) don't count.
 
 [One in a Krillion]
-Reykjavik | reykjavík
+Liechtenstein
 
 [Deep Cut]
-Aarhus
-Odense
-Tampere
-Turku
-Uppsala
-Trondheim
-Stavanger
-Tromso
-Akureyri
-Tartu
-Kaunas
-Lodz
-Katowice
-Brno
-Ostrava
-Cesky Krumlov
-Kosice
-Debrecen
-Szeged
-Pecs
-Cluj-Napoca | cluj
-Timisoara
-Brasov
-Constanta
-Varna
-Plovdiv
-Novi Sad
-Nis
-Mostar
-Kotor
-Ohrid
-Patras
-Heraklion
-Rhodes
-Corfu
-Zakynthos
-Larnaca
-Limassol
-Mdina
-Andorra la Vella
 San Marino
-Vaduz
-Coimbra
-Faro
-Braga
-Funchal
-Zaragoza
-Valladolid
-Murcia
-Alicante
-Cadiz
-Santiago de Compostela
-Oviedo
-Pamplona
-Montpellier
-Rennes
-Reims
-Dijon
-Grenoble
-Chamonix
-Annecy
-Carcassonne
-Rouen
-Le Havre
-Calais
-Ajaccio
-Trieste
-Padua
-Parma
-Modena
-Ravenna
-Rimini
-Perugia
-Assisi
-Lecce
-Catania
-Syracuse
-Cagliari
-Bergamo
-Como
-Freiburg
-Rothenburg
-Trier
-Aachen
-Mainz
-Wurzburg
-Regensburg
-Potsdam
-Rostock
-Lubeck
-Kiel
-Linz
-Hallstatt
-Zermatt
-Interlaken
-Lugano
-St. Moritz
-Davos
-Maastricht
-Groningen
-Haarlem
-Leiden
-Namur
-Leuven
-Canterbury
-Brighton
-Plymouth
-Norwich
-Stratford-upon-Avon
-Dundee
-Stirling
-St Andrews
-Swansea
-Derry
-Limerick
-Kilkenny
-Waterford
+Andorra
+Moldova
+Montenegro
+North Macedonia | macedonia
+Kosovo
+Vatican City | vatican | holy see
+Monaco
+Malta
+Luxembourg
+Suriname | surinam
+Guyana
+Kazakhstan
+Azerbaijan
+Armenia
+Belarus
+Slovenia
+Slovakia
+Latvia
+Lithuania
+Estonia
+Albania
+Bosnia and Herzegovina | bosnia
+Cyprus
+Georgia
 
 [Rare]
-Bordeaux
-Toulouse
-Strasbourg
-Lille
-Nantes
-Cannes
-Avignon
-Granada
-Malaga | málaga
-Bilbao
-San Sebastian
-Ibiza
-Palma
-Toledo
-Salamanca
-Cordoba
-Turin | torino
-Genoa
-Bologna
-Verona
-Pisa
-Siena
-Palermo
-Bari
-Sorrento
-Amalfi
-Dresden
-Leipzig
-Stuttgart
-Dusseldorf | düsseldorf
-Heidelberg
-Nuremberg
-Bremen
-Hanover
-Bonn
-Innsbruck
-Graz
-Bern
-Basel
-Lucerne
-Lausanne
-Luxembourg
-Ghent
-Liege
-Utrecht
-Eindhoven
-Delft
-Leeds
-Sheffield
-Bristol
-Newcastle
-Bath
-York
-Cardiff
-Cork
-Galway
-Aberdeen
-Inverness
-Gothenburg
-Malmo | malmö
-Bergen
-Tallinn
-Riga
-Vilnius
-Gdansk
-Wroclaw
-Poznan
-Bratislava
-Ljubljana
-Zagreb
-Belgrade
-Sarajevo
-Sofia
-Bucharest
-Thessaloniki
-Mykonos
-Valletta
-Minsk
-Chisinau
-Tirana
-Skopje
-Podgorica
-Lviv
-Odessa | odesa
-Kharkiv
-Nicosia
+Paraguay
+Uruguay
+Bolivia
+Ecuador
+Serbia
+Croatia
+Bulgaria
+Romania
+Hungary
+Czech Republic | czechia
+Austria
+Switzerland
+Belgium
+Netherlands | holland
+Denmark
+Finland
+Iceland
+Ukraine
+Venezuela
+Turkey | türkiye | turkiye
 
 [Schooler]
-Athens
-Dublin
-Lisbon
-Vienna
-Prague
-Budapest
-Brussels
-Munich
-Milan
-Florence
-Naples
-Edinburgh
-Manchester
-Liverpool
-Stockholm
-Oslo
-Copenhagen
-Helsinki
-Warsaw
-Zurich | zürich
-Geneva
-Monaco | monte carlo
-Nice
-Marseille
-Lyon
-Seville
-Valencia
-Porto
-Hamburg
-Frankfurt
-Cologne | köln
-Kyiv | kiev
-Saint Petersburg | st petersburg
-Krakow | kraków
-Salzburg
-Glasgow
-Birmingham
-Oxford
-Cambridge
-Belfast
-Rotterdam
-The Hague | den haag
-Antwerp
-Bruges | brugge
-Dubrovnik
-Split
-Santorini
+Colombia
+Chile
+Peru
+Argentina
+Portugal
+Poland
+Norway
+Sweden
+Ireland
+Greece
+Russia
 
 [Too Clever]
-Istanbul
-Moscow
-Vatican City | vatican
+United Kingdom | uk | great britain | britain
 
 [Plankton]
-Paris
-London
-Rome
-Berlin
-Madrid
-Barcelona
-Amsterdam
-Venice
-
-[Not accepted]
-Europe
-England
 France
 Germany
 Italy
-New York
-Tokyo
-Cairo
-Jerusalem
+Spain
+Brazil
+
+[Not accepted]
+England
+Scotland
+Wales
+Northern Ireland
+French Guiana
+Falkland Islands
+Greenland
+Mexico
+Panama
+Costa Rica
+Cuba
+Australia
+Canada
+United States
+Morocco
+Egypt
+Israel
 
 # QUESTION
 id: q0084

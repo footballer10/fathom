@@ -1685,237 +1685,97 @@ Tea
 id: q0108
 pool: reserve
 category: geography
-prompt: Name a lake
+prompt: Name a US state or Canadian province or territory
+note: The 50 US states plus Canada's 10 provinces and 3 territories.
 
 [One in a Krillion]
-Lake Titicaca | titicaca
+Nunavut
 
 [Deep Cut]
-Lake Vostok
-Lake Peigneur
-Lake Nyos
-Lake Hillier
-Spotted Lake
-Lake Karachay
-Boiling Lake
-Lake Abraham
-Plitvice Lakes
-Lake Khanka
-Lake Hovsgol | khovsgol
-Lake Uvs
-Lake Zaysan
-Lake Tengiz
-Lake Alakol
-Sarez Lake
-Lake Karakul
-Son-Kul
-Lake Biwa | biwa
-Lake Kawaguchi
-Lake Ashi
-Lake Towada
-Lake Kussharo
-Lake Mashu
-Lake Sapanca
-Lake Egirdir
-Lake Tuz
-Lake Hula
-Sea of Galilee | lake tiberias | kinneret
-Lake Qarun
-Lake Mweru
-Lake Bangweulu
-Lake Rukwa
-Lake Kyoga
-Lake Bosumtwi
-Lake Ihema
-Lake Toncontin
-Lake Junin
-Lake Uru Uru
-Lake Coipasa
-Mar Chiquita
-Lake Buenos Aires
-Lake Fagnano
-Lake Nahuel Huapi
-Lake Argentino
-Lake Viedma
-Lake Ranco
-Lake Sarmiento
-Lake Pukaki
-Lake Rotorua
-Lake Manapouri
-Lake Te Anau
-Lake Hauroko
-Lake Burley Griffin
-Lake Pedder
-Lake St Clair
-Lake Gairdner
-Lake Torrens
-Lake Frome
-Lake Mackay
-Lake Disappointment
+Northwest Territories | nwt
+Yukon | yukon territory
+Prince Edward Island | pei
+New Brunswick
+Newfoundland and Labrador | newfoundland | labrador
+Saskatchewan | saskatchewen
+Manitoba
+North Dakota
+South Dakota
+Wyoming
+Montana
+Idaho
+Delaware
+Rhode Island
+Vermont
+New Hampshire
 
 [Rare]
-Lake Maggiore | maggiore
-Lake Ladoga | ladoga
-Lake Onega | onega
-Lake Vanern | vanern | vänern
-Lake Vattern
-Lake Inari
-Lake Saimaa | saimaa
-Lake Ohrid | ohrid
-Lake Prespa
-Lake Annecy | annecy
-Lake Zurich
-Lake Neuchatel
-Lake Hallstatt
-Lake Wolfgang
-Lake Starnberg
-Lough Neagh | neagh
-Lake Windermere | windermere
-Loch Morar
-Loch Awe
-Lake Van
-Lake Urmia
-Lake Sevan
-Issyk-Kul
-Lake Balkhash | balkhash
-Lake Qinghai | qinghai
-West Lake
-Dongting Lake
-Poyang Lake
-Tonle Sap
-Inle Lake
-Dal Lake
-Pangong Lake | pangong tso
-Lake Toba | toba
-Lake Taupo | taupo
-Lake Wakatipu
-Lake Tekapo
-Lake Eyre | kati thanda
-Lake Argyle
-Lake Turkana | turkana
-Lake Albert
-Lake Edward
-Lake Kivu | kivu
-Lake Volta | volta
-Lake Kariba | kariba
-Lake Nasser | nasser
-Lake Tana | tana
-Lake Assal
-Lake Natron
-Lake Nakuru
-Lake Retba | pink lake
-Lake Maracaibo | maracaibo
-Lake Nicaragua | nicaragua
-Lake Atitlan | atitlan
-Lake Chapala
-Lake Texcoco
-General Carrera Lake
-Lake Llanquihue
-Lake Poopo
-Lake Athabasca
-Reindeer Lake
-Lake Nipigon
-Lake Simcoe
-Lake Muskoka
-Lake Manitoba
-Moraine Lake
-Lake Minnewanka
-Lake Winnebago
-Lake Mille Lacs | mille lacs
-Lake Itasca | itasca
-Red Lake
-Leech Lake
-Lake of the Woods
-Lake Okoboji
-Flathead Lake
-Lake Coeur d'Alene
-Lake Pend Oreille
-Yellowstone Lake
-Jackson Lake
-Bear Lake
-Utah Lake
-Pyramid Lake
-Mono Lake
-Clear Lake
-Big Bear Lake
-Lake Arrowhead
-Salton Sea
-Lake Chelan
-Lake Washington
-Lake Union
-Diamond Lake
-Lake Travis
-Lake Texoma
-Toledo Bend
-Lake Murray
-Lake Norman
-Lake Martin
-Kentucky Lake
-Lake Cumberland
-Smith Mountain Lake
-Lake Wallenpaupack
-Seneca Lake
-Cayuga Lake
-Finger Lakes
-Lake Winnipesaukee | winnipesaukee
-Moosehead Lake
-Lake Memphremagog
+Nova Scotia
+Alberta
+British Columbia | bc
+Nebraska
+Kansas
+Iowa
+Oklahoma
+Arkansas
+Mississippi
+Alabama
+Kentucky
+West Virginia
+Maryland
+Connecticut
+Maine
+Minnesota
+Wisconsin
+Indiana
+Missouri
+Louisiana
+South Carolina
+New Mexico
+Utah
+Nevada
+Oregon
 
 [Schooler]
-Lake Victoria | victoria
-Lake Baikal | baikal
-Lake Placid
-Lake Geneva | lac leman
-Lake Como | como
-Crater Lake
-Lake Champlain | champlain
-Lake Okeechobee | okeechobee
-Lake Mead | mead
-Lake Powell | powell
-Lake Winnipeg | winnipeg
-Great Bear Lake
-Great Slave Lake
-Lake Louise
-Lake Minnetonka | minnetonka
-Lake of the Ozarks
-Lake Lanier | lanier
-Lake Pontchartrain | pontchartrain
-Lake George
-Lake Havasu | havasu
-Lake Tanganyika | tanganyika
-Lake Malawi | lake nyasa
-Lake Chad
-Aral Sea
-Lake Garda | garda
-Lake Lucerne
-Lake Constance | bodensee
-Lake Balaton | balaton
-Loch Lomond
-Lake Bled | bled
+Ontario
+Quebec | québec
+Washington | washington state
+Colorado
+Arizona
+Georgia
+North Carolina
+Virginia
+Tennessee
+Ohio
+Michigan
+Illinois
+Pennsylvania | pennsylvannia
+New Jersey
+Massachusetts | massachusets
 
 [Too Clever]
-Caspian Sea
-Walden Pond
-Loch Ness
-Dead Sea
+Alaska
+Hawaii
 
 [Plankton]
-Lake Superior | superior
-Lake Michigan | michigan
-Lake Erie | erie
-Lake Huron | huron
-Lake Ontario | ontario
-Lake Tahoe | tahoe
-Great Salt Lake
+California
+Texas
+Florida
+New York
 
 [Not accepted]
-Pacific Ocean
-Atlantic Ocean
-Mississippi River
-Niagara Falls
-Red Sea
-Black Sea
-Mediterranean
+Puerto Rico
+Guam
+Washington DC
+District of Columbia
+Greenland
+Toronto
+Vancouver
+Montreal
+Mexico
+Canada
+Dakota
+Virginia City
 
 # QUESTION
 id: q0109

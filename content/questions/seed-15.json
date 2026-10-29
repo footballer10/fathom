@@ -5594,915 +5594,579 @@
   },
   {
     "id": "q0147",
-    "prompt": "Name something you'd see on a road or highway",
+    "prompt": "Name a road or traffic sign",
     "category": "vehicles",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Botts' dots",
-        "aliases": [
-          "botts dots"
-        ],
+        "text": "Kangaroo crossing",
         "tier": 100
       },
       {
-        "text": "Cat's eyes",
-        "tier": 85
-      },
-      {
-        "text": "Raised pavement markers",
-        "tier": 85
-      },
-      {
-        "text": "Delineator posts",
-        "tier": 85
-      },
-      {
-        "text": "Bollard",
-        "tier": 85
-      },
-      {
-        "text": "Speed table",
-        "tier": 85
-      },
-      {
-        "text": "Chicane",
-        "tier": 85
-      },
-      {
-        "text": "Pinch point",
-        "tier": 85
-      },
-      {
-        "text": "Diverter",
-        "tier": 85
-      },
-      {
-        "text": "Bulb-out",
-        "tier": 85
-      },
-      {
-        "text": "Pork chop island",
-        "tier": 85
-      },
-      {
-        "text": "Gore point",
-        "tier": 85
-      },
-      {
-        "text": "Crash attenuator",
+        "text": "Tsunami evacuation route",
         "aliases": [
-          "impact attenuator"
+          "tsunami zone"
         ],
         "tier": 85
       },
       {
-        "text": "Sand barrels",
+        "text": "Emergency snow route",
+        "aliases": [
+          "snow route"
+        ],
         "tier": 85
       },
       {
-        "text": "Cable barrier",
+        "text": "Tow-away zone",
+        "aliases": [
+          "tow away zone"
+        ],
         "tier": 85
       },
       {
-        "text": "Arrow board",
+        "text": "Hidden driveway",
         "tier": 85
       },
       {
-        "text": "Message board trailer",
+        "text": "Truck crossing",
         "tier": 85
       },
       {
-        "text": "Pilot car",
+        "text": "Fire station",
         "tier": 85
       },
       {
-        "text": "Escort vehicle",
+        "text": "Flagger ahead",
+        "aliases": [
+          "flagman ahead"
+        ],
         "tier": 85
       },
       {
-        "text": "Oversize load",
+        "text": "Uneven lanes",
         "tier": 85
       },
       {
-        "text": "Wide load sign",
+        "text": "Soft shoulder",
         "tier": 85
       },
       {
-        "text": "Slow-moving vehicle sign",
+        "text": "Loose gravel",
         "tier": 85
       },
       {
-        "text": "Amish buggy",
+        "text": "Dip",
         "tier": 85
       },
       {
-        "text": "Tractor",
+        "text": "Bump",
         "tier": 85
       },
       {
-        "text": "Combine",
+        "text": "Added lane",
         "tier": 85
       },
       {
-        "text": "Golf cart",
+        "text": "Right lane must turn right",
+        "aliases": [
+          "right lane must exit"
+        ],
         "tier": 85
       },
       {
-        "text": "Moped",
+        "text": "No bicycles",
         "tier": 85
       },
       {
-        "text": "Scooter",
+        "text": "No pedestrians",
         "tier": 85
       },
       {
-        "text": "Electric scooter",
+        "text": "No trucks",
         "tier": 85
       },
       {
-        "text": "Rollerblader",
+        "text": "Moose crossing",
         "tier": 85
       },
       {
-        "text": "Skateboarder",
+        "text": "Cattle crossing",
+        "aliases": [
+          "cow crossing"
+        ],
         "tier": 85
       },
       {
-        "text": "Horse and rider",
+        "text": "Low clearance",
         "tier": 85
       },
       {
-        "text": "Roadside vendor",
+        "text": "Weight limit",
         "tier": 85
       },
       {
-        "text": "Fruit stand",
-        "tier": 85
-      },
-      {
-        "text": "Fireworks stand",
-        "tier": 85
-      },
-      {
-        "text": "Roadside memorial",
-        "tier": 85
-      },
-      {
-        "text": "Adopt-a-Highway sign",
-        "tier": 85
-      },
-      {
-        "text": "Litter crew",
-        "tier": 85
-      },
-      {
-        "text": "Mowing crew",
-        "tier": 85
-      },
-      {
-        "text": "Bridge inspector",
-        "tier": 85
-      },
-      {
-        "text": "Toll collector",
-        "tier": 85
-      },
-      {
-        "text": "Weigh-in-motion",
-        "tier": 85
-      },
-      {
-        "text": "Brake check area",
-        "tier": 85
-      },
-      {
-        "text": "Chain-up area",
-        "tier": 85
-      },
-      {
-        "text": "Truck escape ramp",
-        "tier": 85
-      },
-      {
-        "text": "Jake brake sign",
-        "tier": 85
-      },
-      {
-        "text": "Hidden driveway sign",
-        "tier": 85
-      },
-      {
-        "text": "Blind curve",
-        "tier": 85
-      },
-      {
-        "text": "Switchback",
-        "tier": 85
-      },
-      {
-        "text": "Hairpin turn",
-        "tier": 85
-      },
-      {
-        "text": "Grade sign",
-        "tier": 85
-      },
-      {
-        "text": "Steep hill",
-        "tier": 85
-      },
-      {
-        "text": "Falling rocks sign",
-        "tier": 85
-      },
-      {
-        "text": "Rockfall netting",
-        "tier": 85
-      },
-      {
-        "text": "Low clearance sign",
-        "tier": 85
-      },
-      {
-        "text": "Height restriction",
-        "tier": 85
-      },
-      {
-        "text": "Weight limit sign",
+        "text": "Narrow bridge",
         "tier": 85
       },
       {
         "text": "Bridge ices before road",
+        "aliases": [
+          "ice on bridge"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Watch for ice",
+        "aliases": [
+          "ice warning"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Side road",
+        "tier": 85
+      },
+      {
+        "text": "T intersection",
+        "tier": 85
+      },
+      {
+        "text": "Y intersection",
+        "tier": 85
+      },
+      {
+        "text": "Cross road",
+        "aliases": [
+          "intersection ahead",
+          "crossroads"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Two-way traffic",
+        "aliases": [
+          "two way traffic"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Divided highway",
+        "aliases": [
+          "divided highway begins",
+          "divided highway ends"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lane ends",
+        "tier": 85
+      },
+      {
+        "text": "Keep left",
+        "tier": 85
+      },
+      {
+        "text": "Keep right",
+        "tier": 85
+      },
+      {
+        "text": "Stop ahead",
+        "tier": 85
+      },
+      {
+        "text": "Yield ahead",
+        "tier": 85
+      },
+      {
+        "text": "Signal ahead",
+        "aliases": [
+          "traffic light ahead",
+          "traffic signal ahead"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Winding road",
+        "tier": 85
+      },
+      {
+        "text": "Sharp turn",
+        "aliases": [
+          "sharp curve"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Steep hill",
+        "aliases": [
+          "hill",
+          "grade",
+          "steep grade",
+          "truck hill"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "HOV lane",
+        "aliases": [
+          "carpool lane"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Toll",
+        "aliases": [
+          "toll road",
+          "toll booth sign"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Exit only",
+        "tier": 85
+      },
+      {
+        "text": "Rest area",
+        "aliases": [
+          "rest stop"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gas food lodging",
+        "aliases": [
+          "services"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hospital",
+        "tier": 85
+      },
+      {
+        "text": "Airport",
+        "tier": 85
+      },
+      {
+        "text": "Mile marker",
+        "aliases": [
+          "mile post"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Route marker",
+        "aliases": [
+          "route sign"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Interstate sign",
+        "aliases": [
+          "interstate shield"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pass with care",
+        "tier": 85
+      },
+      {
+        "text": "End road work",
+        "aliases": [
+          "end construction"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Playground",
+        "aliases": [
+          "playground ahead"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wildlife crossing",
+        "tier": 85
+      },
+      {
+        "text": "Falling rocks",
+        "aliases": [
+          "rockfall"
+        ],
         "tier": 85
       },
       {
         "text": "Slippery when wet",
+        "aliases": [
+          "slippery road"
+        ],
         "tier": 85
       },
       {
-        "text": "Jersey barrier",
-        "tier": 60
-      },
-      {
-        "text": "Concrete barrier",
-        "tier": 60
-      },
-      {
-        "text": "Barrel",
+        "text": "Speed hump",
         "aliases": [
-          "construction barrel"
+          "speed bump"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Flagger",
+        "text": "No passing zone",
         "aliases": [
-          "flagman"
+          "no passing"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Road crew",
-        "tier": 60
+        "text": "Do not pass",
+        "tier": 85
       },
       {
-        "text": "Paving machine",
-        "aliases": [
-          "paver"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Steamroller",
-        "tier": 60
-      },
-      {
-        "text": "Manhole cover",
-        "aliases": [
-          "manhole"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Storm drain",
-        "tier": 60
-      },
-      {
-        "text": "Bus stop",
-        "tier": 60
+        "text": "Share the road",
+        "tier": 85
       },
       {
         "text": "Bike lane",
-        "tier": 60
-      },
-      {
-        "text": "Cul-de-sac",
-        "tier": 60
-      },
-      {
-        "text": "Dead end sign",
-        "tier": 60
-      },
-      {
-        "text": "Cattle guard",
-        "tier": 60
-      },
-      {
-        "text": "Cattle crossing",
-        "tier": 60
-      },
-      {
-        "text": "Deer crossing sign",
-        "tier": 60
-      },
-      {
-        "text": "Moose crossing",
-        "tier": 60
-      },
-      {
-        "text": "Animal crossing",
-        "tier": 60
-      },
-      {
-        "text": "Wildlife overpass",
-        "tier": 60
-      },
-      {
-        "text": "Weigh station",
-        "tier": 60
-      },
-      {
-        "text": "Truck stop",
-        "tier": 60
-      },
-      {
-        "text": "Welcome sign",
         "aliases": [
-          "state line sign"
+          "bicycle lane"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "County line",
-        "tier": 60
-      },
-      {
-        "text": "Interstate sign",
-        "tier": 60
-      },
-      {
-        "text": "Route sign",
-        "tier": 60
-      },
-      {
-        "text": "Highway patrol",
+        "text": "Handicapped parking",
         "aliases": [
-          "state trooper"
+          "accessible parking",
+          "disabled parking"
         ],
-        "tier": 60
-      },
-      {
-        "text": "Tow truck",
-        "tier": 60
-      },
-      {
-        "text": "Broken down car",
-        "tier": 60
-      },
-      {
-        "text": "Flat tire",
-        "tier": 60
-      },
-      {
-        "text": "Car accident",
-        "aliases": [
-          "crash",
-          "wreck"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Traffic jam",
-        "tier": 60
-      },
-      {
-        "text": "Carpool lane",
-        "aliases": [
-          "hov lane"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Express lane",
-        "tier": 60
-      },
-      {
-        "text": "Toll road",
-        "tier": 60
-      },
-      {
-        "text": "EZ-Pass",
-        "aliases": [
-          "toll transponder"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chevron sign",
-        "tier": 60
-      },
-      {
-        "text": "Curve sign",
-        "tier": 60
-      },
-      {
-        "text": "School zone",
-        "tier": 60
-      },
-      {
-        "text": "School bus",
-        "tier": 60
-      },
-      {
-        "text": "Ice cream truck",
-        "tier": 60
-      },
-      {
-        "text": "Garbage truck",
-        "tier": 60
-      },
-      {
-        "text": "Mail truck",
-        "tier": 60
-      },
-      {
-        "text": "RV",
-        "aliases": [
-          "motorhome"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Camper",
-        "tier": 60
-      },
-      {
-        "text": "Trailer",
-        "tier": 60
-      },
-      {
-        "text": "Boat trailer",
-        "tier": 60
-      },
-      {
-        "text": "Horse trailer",
-        "tier": 60
-      },
-      {
-        "text": "Car carrier",
-        "tier": 60
-      },
-      {
-        "text": "Tanker truck",
-        "tier": 60
-      },
-      {
-        "text": "Log truck",
-        "tier": 60
-      },
-      {
-        "text": "Cement mixer",
-        "tier": 60
-      },
-      {
-        "text": "Dump truck",
-        "tier": 60
-      },
-      {
-        "text": "Street sweeper",
-        "tier": 60
-      },
-      {
-        "text": "Snowplow",
-        "tier": 60
-      },
-      {
-        "text": "Salt truck",
-        "tier": 60
-      },
-      {
-        "text": "Overhead sign",
-        "tier": 60
-      },
-      {
-        "text": "Variable message sign",
-        "tier": 60
-      },
-      {
-        "text": "Amber alert sign",
-        "tier": 60
-      },
-      {
-        "text": "Traffic camera",
-        "tier": 60
-      },
-      {
-        "text": "Emergency call box",
-        "tier": 60
-      },
-      {
-        "text": "Rest area",
-        "tier": 60
-      },
-      {
-        "text": "Picnic area",
-        "tier": 60
-      },
-      {
-        "text": "Scenic overlook",
-        "tier": 60
-      },
-      {
-        "text": "Historical marker",
-        "tier": 60
-      },
-      {
-        "text": "Exit number",
-        "tier": 60
-      },
-      {
-        "text": "Cloverleaf",
-        "tier": 60
-      },
-      {
-        "text": "Interchange",
-        "tier": 60
-      },
-      {
-        "text": "Frontage road",
-        "tier": 60
-      },
-      {
-        "text": "Service road",
-        "tier": 60
-      },
-      {
-        "text": "Access road",
-        "tier": 60
-      },
-      {
-        "text": "Gravel shoulder",
-        "tier": 60
-      },
-      {
-        "text": "Breakdown lane",
-        "tier": 60
-      },
-      {
-        "text": "Runaway truck ramp",
-        "tier": 60
-      },
-      {
-        "text": "Avalanche shed",
-        "tier": 60
-      },
-      {
-        "text": "Snow fence",
-        "tier": 60
-      },
-      {
-        "text": "Sound wall",
-        "aliases": [
-          "noise barrier"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Motorcycle",
-        "tier": 30
-      },
-      {
-        "text": "Bicycle",
-        "tier": 30
-      },
-      {
-        "text": "Semi truck",
-        "aliases": [
-          "semi",
-          "18-wheeler"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Police car",
-        "tier": 30
-      },
-      {
-        "text": "Ambulance",
-        "tier": 30
-      },
-      {
-        "text": "Fire truck",
-        "tier": 30
-      },
-      {
-        "text": "Taxi",
-        "tier": 30
-      },
-      {
-        "text": "Van",
-        "tier": 30
-      },
-      {
-        "text": "SUV",
-        "tier": 30
-      },
-      {
-        "text": "Exit sign",
-        "tier": 30
-      },
-      {
-        "text": "Billboard",
-        "tier": 30
-      },
-      {
-        "text": "Guardrail",
-        "tier": 30
-      },
-      {
-        "text": "Median",
-        "tier": 30
-      },
-      {
-        "text": "Shoulder",
-        "tier": 30
-      },
-      {
-        "text": "Lane",
-        "tier": 30
-      },
-      {
-        "text": "Crosswalk",
-        "tier": 30
-      },
-      {
-        "text": "Overpass",
-        "tier": 30
-      },
-      {
-        "text": "Bridge",
-        "tier": 30
-      },
-      {
-        "text": "Tunnel",
-        "tier": 30
-      },
-      {
-        "text": "Toll booth",
-        "tier": 30
-      },
-      {
-        "text": "Gas station",
-        "tier": 30
-      },
-      {
-        "text": "Rest stop",
-        "tier": 30
-      },
-      {
-        "text": "Mile marker",
-        "tier": 30
-      },
-      {
-        "text": "Road sign",
-        "tier": 30
-      },
-      {
-        "text": "Yield sign",
-        "tier": 30
-      },
-      {
-        "text": "Speed bump",
-        "tier": 30
-      },
-      {
-        "text": "Traffic cone",
-        "aliases": [
-          "cone"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Construction zone",
-        "aliases": [
-          "road work"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Detour sign",
-        "tier": 30
-      },
-      {
-        "text": "Street light",
-        "aliases": [
-          "streetlight",
-          "lamppost"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Reflectors",
-        "tier": 30
-      },
-      {
-        "text": "Rumble strips",
-        "tier": 30
-      },
-      {
-        "text": "Intersection",
-        "tier": 30
+        "tier": 85
       },
       {
         "text": "Roundabout",
         "aliases": [
-          "traffic circle"
+          "traffic circle",
+          "roundabout ahead"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "On-ramp",
+        "text": "Detour",
+        "tier": 85
+      },
+      {
+        "text": "Dead end",
         "aliases": [
-          "ramp"
+          "no outlet",
+          "no through road"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Off-ramp",
-        "tier": 30
+        "text": "Wrong way",
+        "tier": 85
       },
       {
-        "text": "Hitchhiker",
-        "tier": 30
-      },
-      {
-        "text": "Deer",
-        "tier": 30
-      },
-      {
-        "text": "Litter",
+        "text": "Do not enter",
         "aliases": [
-          "trash"
+          "no entry"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Tire tracks",
-        "tier": 30
+        "text": "No stopping",
+        "tier": 85
       },
       {
-        "text": "Skid marks",
-        "tier": 30
+        "text": "No left turn",
+        "tier": 85
       },
       {
-        "text": "Puddle",
-        "tier": 30
+        "text": "No right turn",
+        "tier": 85
       },
       {
-        "text": "Ice",
+        "text": "No turn on red",
+        "tier": 85
+      },
+      {
+        "text": "Curve ahead",
         "aliases": [
-          "black ice"
+          "curve"
         ],
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Speed trap",
-        "tier": 30
-      },
-      {
-        "text": "Speed camera",
-        "tier": 30
-      },
-      {
-        "text": "Wrong way sign",
-        "tier": 30
-      },
-      {
-        "text": "Merge sign",
-        "tier": 30
-      },
-      {
-        "text": "One way sign",
-        "tier": 30
+        "text": "Merge",
+        "aliases": [
+          "merging traffic"
+        ],
+        "tier": 85
       },
       {
         "text": "Railroad crossing",
-        "tier": 30
-      },
-      {
-        "text": "Train",
-        "tier": 30
-      },
-      {
-        "text": "Pedestrian",
-        "tier": 30
-      },
-      {
-        "text": "Cyclist",
-        "tier": 30
-      },
-      {
-        "text": "Jaywalker",
-        "tier": 30
-      },
-      {
-        "text": "Crossing guard",
-        "tier": 30
-      },
-      {
-        "text": "Chicken crossing the road",
         "aliases": [
-          "chicken"
+          "railway crossing",
+          "crossbuck",
+          "train crossing"
         ],
-        "tier": 15
+        "tier": 85
       },
       {
-        "text": "Roadkill",
-        "tier": 15
-      },
-      {
-        "text": "Road rage",
-        "tier": 15
-      },
-      {
-        "text": "Car",
-        "tier": 10
-      },
-      {
-        "text": "Truck",
-        "tier": 10
-      },
-      {
-        "text": "Stop sign",
-        "tier": 10
-      },
-      {
-        "text": "Traffic light",
+        "text": "Pedestrian crossing",
         "aliases": [
-          "stoplight",
-          "traffic signal"
+          "crosswalk",
+          "ped crossing"
         ],
-        "tier": 10
+        "tier": 85
       },
       {
-        "text": "Speed limit sign",
-        "tier": 10
-      },
-      {
-        "text": "Pothole",
-        "tier": 10
-      },
-      {
-        "text": "Lines",
+        "text": "Deer crossing",
         "aliases": [
-          "road lines",
-          "lane lines"
+          "animal crossing"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Children at play",
+        "aliases": [
+          "slow children"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "One way",
+        "tier": 60
+      },
+      {
+        "text": "No U-turn",
+        "aliases": [
+          "no u turn"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "School zone",
+        "aliases": [
+          "school crossing",
+          "school"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Road work",
+        "aliases": [
+          "road work ahead",
+          "construction",
+          "men at work",
+          "construction zone"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "No parking",
+        "tier": 60
+      },
+      {
+        "text": "Exit",
+        "tier": 60
+      },
+      {
+        "text": "Speed limit",
+        "tier": 30
+      },
+      {
+        "text": "Stop",
+        "aliases": [
+          "stop sign"
         ],
         "tier": 10
       },
       {
-        "text": "Bus",
+        "text": "Yield",
+        "aliases": [
+          "yield sign",
+          "give way"
+        ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Airplane",
-      "Boat",
-      "Ocean",
-      "Couch",
-      "Bed"
-    ]
+      "Billboard",
+      "Traffic light",
+      "Street light",
+      "Mailbox",
+      "Cone",
+      "Guardrail",
+      "Pothole",
+      "Crosswalk button",
+      "Parking meter"
+    ],
+    "notes": "Regulatory, warning and guide signs drivers see (US, UK, and other countries). Name the sign by what it says or shows."
   },
   {
     "id": "q0148",
-    "prompt": "Name something you'd find in a garden",
-    "category": "nature",
+    "prompt": "Name a gardening tool",
+    "category": "everyday-objects",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Gazing ball",
+        "text": "Hori hori",
         "aliases": [
-          "gazing globe"
+          "hori hori knife"
         ],
         "tier": 100
       },
       {
-        "text": "Dibber",
+        "text": "Broadfork",
         "tier": 85
       },
       {
-        "text": "Hori hori",
+        "text": "Wheel hoe",
+        "tier": 85
+      },
+      {
+        "text": "Stirrup hoe",
+        "aliases": [
+          "hula hoe",
+          "scuffle hoe"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Draw hoe",
+        "tier": 85
+      },
+      {
+        "text": "Warren hoe",
+        "tier": 85
+      },
+      {
+        "text": "Cobrahead weeder",
+        "aliases": [
+          "cobrahead"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Japanese hand hoe",
+        "tier": 85
+      },
+      {
+        "text": "Transplanter",
+        "tier": 85
+      },
+      {
+        "text": "Leaf grabbers",
+        "aliases": [
+          "leaf scoops"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dibber",
+        "aliases": [
+          "dibble"
+        ],
         "tier": 85
       },
       {
@@ -6510,23 +6174,153 @@
         "tier": 85
       },
       {
-        "text": "Soil knife",
+        "text": "Hand fork",
+        "aliases": [
+          "hand cultivator"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Weeder",
+        "aliases": [
+          "dandelion weeder",
+          "weed puller"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pruning saw",
+        "tier": 85
+      },
+      {
+        "text": "Pole pruner",
+        "aliases": [
+          "pole saw"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Scythe",
+        "tier": 85
+      },
+      {
+        "text": "Sickle",
+        "tier": 85
+      },
+      {
+        "text": "Machete",
+        "tier": 85
+      },
+      {
+        "text": "Billhook",
+        "tier": 85
+      },
+      {
+        "text": "Mattock",
+        "tier": 85
+      },
+      {
+        "text": "Pickaxe",
+        "aliases": [
+          "pick"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Post hole digger",
+        "tier": 85
+      },
+      {
+        "text": "Soil tester",
+        "aliases": [
+          "soil ph meter"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Thatching rake",
+        "aliases": [
+          "dethatcher",
+          "scarifier"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Aerator",
+        "aliases": [
+          "lawn aerator"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Spreader",
+        "aliases": [
+          "seed spreader",
+          "fertilizer spreader",
+          "broadcast spreader"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sprayer",
+        "aliases": [
+          "pump sprayer",
+          "garden sprayer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hose reel",
+        "tier": 85
+      },
+      {
+        "text": "Hose nozzle",
+        "aliases": [
+          "spray nozzle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Watering wand",
+        "tier": 85
+      },
+      {
+        "text": "Soaker hose",
+        "tier": 85
+      },
+      {
+        "text": "Drip irrigation",
+        "tier": 85
+      },
+      {
+        "text": "Leaf vacuum",
+        "tier": 85
+      },
+      {
+        "text": "Edging knife",
+        "aliases": [
+          "half-moon edger",
+          "half moon edger"
+        ],
         "tier": 85
       },
       {
         "text": "Edger",
+        "aliases": [
+          "lawn edger"
+        ],
         "tier": 85
       },
       {
-        "text": "Half-moon edger",
+        "text": "Kneeling pad",
+        "aliases": [
+          "kneeler",
+          "garden kneeler"
+        ],
         "tier": 85
       },
       {
-        "text": "Thatch rake",
-        "tier": 85
-      },
-      {
-        "text": "Leaf rake",
+        "text": "Garden cart",
         "tier": 85
       },
       {
@@ -6534,757 +6328,193 @@
         "tier": 85
       },
       {
-        "text": "Hand cultivator",
+        "text": "Leaf rake",
         "tier": 85
       },
       {
-        "text": "Weeder",
-        "tier": 85
-      },
-      {
-        "text": "Dandelion puller",
-        "tier": 85
-      },
-      {
-        "text": "Scuffle hoe",
-        "tier": 85
-      },
-      {
-        "text": "Stirrup hoe",
-        "tier": 85
-      },
-      {
-        "text": "Broadfork",
-        "tier": 85
-      },
-      {
-        "text": "Soil test kit",
-        "tier": 85
-      },
-      {
-        "text": "Rain gauge",
-        "tier": 85
-      },
-      {
-        "text": "Garden thermometer",
-        "tier": 85
-      },
-      {
-        "text": "Seed tray",
-        "tier": 85
-      },
-      {
-        "text": "Seedling pots",
-        "tier": 85
-      },
-      {
-        "text": "Peat pots",
-        "tier": 85
-      },
-      {
-        "text": "Grow lights",
-        "tier": 85
-      },
-      {
-        "text": "Heat mat",
-        "tier": 85
-      },
-      {
-        "text": "Plant ties",
-        "tier": 85
-      },
-      {
-        "text": "Chicken wire",
-        "tier": 85
-      },
-      {
-        "text": "Hardware cloth",
-        "tier": 85
-      },
-      {
-        "text": "Bird netting",
-        "tier": 85
-      },
-      {
-        "text": "Deer fence",
-        "tier": 85
-      },
-      {
-        "text": "Electric fence",
-        "tier": 85
-      },
-      {
-        "text": "Scare tape",
-        "tier": 85
-      },
-      {
-        "text": "Owl decoy",
-        "tier": 85
-      },
-      {
-        "text": "Motion-activated sprinkler",
-        "tier": 85
-      },
-      {
-        "text": "Beehive",
-        "tier": 85
-      },
-      {
-        "text": "Mason bee house",
-        "tier": 85
-      },
-      {
-        "text": "Bat house",
-        "tier": 85
-      },
-      {
-        "text": "Bug hotel",
+        "text": "Garden fork",
         "aliases": [
-          "insect hotel"
+          "digging fork",
+          "spading fork"
         ],
         "tier": 85
       },
       {
-        "text": "Toad house",
+        "text": "Cultivator",
         "tier": 85
       },
       {
-        "text": "Butterfly house",
+        "text": "Tiller",
+        "aliases": [
+          "rototiller",
+          "rotavator"
+        ],
         "tier": 85
       },
       {
-        "text": "Wormery",
+        "text": "Chainsaw",
         "tier": 85
       },
       {
-        "text": "Leaf mold",
+        "text": "Axe",
+        "aliases": [
+          "ax"
+        ],
         "tier": 85
       },
       {
-        "text": "Biochar",
+        "text": "Hatchet",
         "tier": 85
       },
       {
-        "text": "Vermicompost",
+        "text": "Grass shears",
         "tier": 85
       },
       {
-        "text": "Green manure",
+        "text": "Hedge trimmer",
+        "aliases": [
+          "hedge shears",
+          "hedge clippers"
+        ],
         "tier": 85
       },
       {
-        "text": "Cover crop",
+        "text": "Loppers",
         "tier": 85
       },
       {
-        "text": "Mycorrhizae",
+        "text": "Compost bin",
+        "aliases": [
+          "composter"
+        ],
         "tier": 85
       },
       {
-        "text": "Hügelkultur",
+        "text": "Rain barrel",
         "tier": 85
       },
       {
-        "text": "Swale",
+        "text": "Trellis",
         "tier": 85
       },
       {
-        "text": "Keyhole garden",
+        "text": "Plant stakes",
+        "aliases": [
+          "stakes",
+          "garden stakes"
+        ],
         "tier": 85
       },
       {
-        "text": "Square foot garden",
+        "text": "Garden twine",
+        "aliases": [
+          "twine"
+        ],
         "tier": 85
       },
       {
-        "text": "Lasagna garden",
+        "text": "Plant labels",
+        "aliases": [
+          "plant markers"
+        ],
         "tier": 85
       },
       {
-        "text": "Straw bale garden",
+        "text": "Seed tray",
+        "aliases": [
+          "seed starting tray"
+        ],
         "tier": 85
       },
       {
-        "text": "Hydroponics",
+        "text": "Flower pot",
+        "aliases": [
+          "pot",
+          "planter"
+        ],
         "tier": 85
       },
       {
-        "text": "Aquaponics",
+        "text": "Bucket",
         "tier": 85
       },
       {
-        "text": "Potager",
+        "text": "Tarp",
         "tier": 85
       },
       {
-        "text": "Parterre",
-        "tier": 85
+        "text": "Leaf blower",
+        "aliases": [
+          "blower"
+        ],
+        "tier": 60
       },
       {
-        "text": "Knot garden",
-        "tier": 85
+        "text": "Weed whacker",
+        "aliases": [
+          "string trimmer",
+          "weed eater",
+          "weed wacker",
+          "strimmer"
+        ],
+        "tier": 60
       },
       {
-        "text": "Grotto",
-        "tier": 85
+        "text": "Pitchfork",
+        "tier": 60
       },
       {
-        "text": "Rill",
-        "tier": 85
+        "text": "Sprinkler",
+        "tier": 60
       },
       {
-        "text": "Pond liner",
-        "tier": 85
-      },
-      {
-        "text": "Pond pump",
-        "tier": 85
-      },
-      {
-        "text": "Bog garden",
-        "tier": 85
-      },
-      {
-        "text": "Wildflower meadow",
-        "tier": 85
-      },
-      {
-        "text": "Mixed border",
-        "tier": 85
-      },
-      {
-        "text": "Herbaceous border",
-        "tier": 85
+        "text": "Garden gloves",
+        "aliases": [
+          "gardening gloves",
+          "gloves"
+        ],
+        "tier": 60
       },
       {
         "text": "Pruning shears",
         "aliases": [
           "pruners",
-          "secateurs"
+          "secateurs",
+          "clippers"
         ],
         "tier": 60
-      },
-      {
-        "text": "Hedge clippers",
-        "tier": 60
-      },
-      {
-        "text": "Loppers",
-        "tier": 60
-      },
-      {
-        "text": "Spade",
-        "tier": 60
-      },
-      {
-        "text": "Garden fork",
-        "aliases": [
-          "pitchfork"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cultivator",
-        "tier": 60
-      },
-      {
-        "text": "Tiller",
-        "tier": 60
-      },
-      {
-        "text": "Kneeling pad",
-        "tier": 60
-      },
-      {
-        "text": "Sun hat",
-        "tier": 60
-      },
-      {
-        "text": "Garden clogs",
-        "tier": 60
-      },
-      {
-        "text": "Hose reel",
-        "tier": 60
-      },
-      {
-        "text": "Soaker hose",
-        "tier": 60
-      },
-      {
-        "text": "Drip irrigation",
-        "tier": 60
-      },
-      {
-        "text": "Rain barrel",
-        "tier": 60
-      },
-      {
-        "text": "Compost bin",
-        "tier": 60
-      },
-      {
-        "text": "Compost tumbler",
-        "tier": 60
-      },
-      {
-        "text": "Worm bin",
-        "tier": 60
-      },
-      {
-        "text": "Potting soil",
-        "tier": 60
-      },
-      {
-        "text": "Peat moss",
-        "tier": 60
-      },
-      {
-        "text": "Manure",
-        "tier": 60
-      },
-      {
-        "text": "Bone meal",
-        "tier": 60
-      },
-      {
-        "text": "Plant food",
-        "tier": 60
-      },
-      {
-        "text": "Slug pellets",
-        "tier": 60
-      },
-      {
-        "text": "Netting",
-        "tier": 60
-      },
-      {
-        "text": "Row cover",
-        "tier": 60
-      },
-      {
-        "text": "Cold frame",
-        "tier": 60
-      },
-      {
-        "text": "Cloche",
-        "tier": 60
-      },
-      {
-        "text": "Plant markers",
-        "aliases": [
-          "plant labels"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Stakes",
-        "tier": 60
-      },
-      {
-        "text": "Tomato cage",
-        "tier": 60
-      },
-      {
-        "text": "Bean poles",
-        "tier": 60
-      },
-      {
-        "text": "Arbor",
-        "tier": 60
-      },
-      {
-        "text": "Pergola",
-        "tier": 60
-      },
-      {
-        "text": "Gazebo",
-        "tier": 60
-      },
-      {
-        "text": "Archway",
-        "tier": 60
-      },
-      {
-        "text": "Obelisk",
-        "tier": 60
-      },
-      {
-        "text": "Sundial",
-        "tier": 60
-      },
-      {
-        "text": "Water feature",
-        "tier": 60
-      },
-      {
-        "text": "Koi pond",
-        "tier": 60
-      },
-      {
-        "text": "Lily pad",
-        "tier": 60
-      },
-      {
-        "text": "Frogs",
-        "tier": 60
-      },
-      {
-        "text": "Toads",
-        "tier": 60
-      },
-      {
-        "text": "Lizards",
-        "tier": 60
-      },
-      {
-        "text": "Spiders",
-        "tier": 60
-      },
-      {
-        "text": "Grasshoppers",
-        "tier": 60
-      },
-      {
-        "text": "Caterpillars",
-        "tier": 60
-      },
-      {
-        "text": "Aphids",
-        "tier": 60
-      },
-      {
-        "text": "Beetles",
-        "tier": 60
-      },
-      {
-        "text": "Moths",
-        "tier": 60
-      },
-      {
-        "text": "Dragonflies",
-        "tier": 60
-      },
-      {
-        "text": "Hummingbirds",
-        "tier": 60
-      },
-      {
-        "text": "Robins",
-        "tier": 60
-      },
-      {
-        "text": "Moles",
-        "tier": 60
-      },
-      {
-        "text": "Gophers",
-        "tier": 60
-      },
-      {
-        "text": "Voles",
-        "tier": 60
-      },
-      {
-        "text": "Chipmunks",
-        "tier": 60
-      },
-      {
-        "text": "Hose nozzle",
-        "tier": 60
-      },
-      {
-        "text": "Spray bottle",
-        "tier": 60
-      },
-      {
-        "text": "Garden cart",
-        "tier": 60
-      },
-      {
-        "text": "Solar lights",
-        "tier": 60
-      },
-      {
-        "text": "Fairy lights",
-        "aliases": [
-          "string lights"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Garden flag",
-        "tier": 60
-      },
-      {
-        "text": "Pink flamingo",
-        "aliases": [
-          "lawn flamingo"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Fairy garden",
-        "tier": 60
-      },
-      {
-        "text": "Rock garden",
-        "tier": 60
-      },
-      {
-        "text": "Zen garden",
-        "tier": 60
-      },
-      {
-        "text": "Herb garden",
-        "tier": 60
-      },
-      {
-        "text": "Vegetable garden",
-        "tier": 60
-      },
-      {
-        "text": "Flower bed",
-        "tier": 60
-      },
-      {
-        "text": "Window box",
-        "tier": 60
-      },
-      {
-        "text": "Hanging basket",
-        "tier": 60
-      },
-      {
-        "text": "Topiary",
-        "tier": 60
-      },
-      {
-        "text": "Espalier",
-        "tier": 60
-      },
-      {
-        "text": "Succulents",
-        "tier": 60
-      },
-      {
-        "text": "Lavender",
-        "tier": 60
-      },
-      {
-        "text": "Marigolds",
-        "tier": 60
-      },
-      {
-        "text": "Petunias",
-        "tier": 60
-      },
-      {
-        "text": "Hydrangeas",
-        "tier": 60
-      },
-      {
-        "text": "Peonies",
-        "tier": 60
-      },
-      {
-        "text": "Lilies",
-        "tier": 60
-      },
-      {
-        "text": "Irises",
-        "tier": 60
-      },
-      {
-        "text": "Daffodils",
-        "tier": 60
-      },
-      {
-        "text": "Hostas",
-        "tier": 60
-      },
-      {
-        "text": "Ferns",
-        "tier": 60
-      },
-      {
-        "text": "Boxwood",
-        "tier": 60
-      },
-      {
-        "text": "Rosemary",
-        "tier": 60
-      },
-      {
-        "text": "Thyme",
-        "tier": 60
-      },
-      {
-        "text": "Parsley",
-        "tier": 60
-      },
-      {
-        "text": "Chives",
-        "tier": 60
-      },
-      {
-        "text": "Cilantro",
-        "tier": 60
-      },
-      {
-        "text": "Dill",
-        "tier": 60
-      },
-      {
-        "text": "Oregano",
-        "tier": 60
-      },
-      {
-        "text": "Sage",
-        "tier": 60
-      },
-      {
-        "text": "Kale",
-        "tier": 60
-      },
-      {
-        "text": "Spinach",
-        "tier": 60
-      },
-      {
-        "text": "Peas",
-        "tier": 60
-      },
-      {
-        "text": "Beans",
-        "tier": 60
-      },
-      {
-        "text": "Onions",
-        "tier": 60
-      },
-      {
-        "text": "Garlic",
-        "tier": 60
-      },
-      {
-        "text": "Potatoes",
-        "tier": 60
-      },
-      {
-        "text": "Radishes",
-        "tier": 60
-      },
-      {
-        "text": "Beets",
-        "tier": 60
-      },
-      {
-        "text": "Eggplant",
-        "tier": 60
-      },
-      {
-        "text": "Melons",
-        "tier": 60
-      },
-      {
-        "text": "Watermelon",
-        "tier": 60
-      },
-      {
-        "text": "Raspberries",
-        "tier": 60
-      },
-      {
-        "text": "Blueberries",
-        "tier": 60
-      },
-      {
-        "text": "Blackberries",
-        "tier": 60
-      },
-      {
-        "text": "Apple tree",
-        "tier": 60
-      },
-      {
-        "text": "Fruit trees",
-        "tier": 60
-      },
-      {
-        "text": "Roses",
-        "aliases": [
-          "rose"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Tulips",
-        "tier": 30
-      },
-      {
-        "text": "Sunflowers",
-        "tier": 30
-      },
-      {
-        "text": "Daisies",
-        "tier": 30
-      },
-      {
-        "text": "Carrots",
-        "tier": 30
-      },
-      {
-        "text": "Lettuce",
-        "tier": 30
-      },
-      {
-        "text": "Cucumbers",
-        "tier": 30
-      },
-      {
-        "text": "Peppers",
-        "tier": 30
-      },
-      {
-        "text": "Zucchini",
-        "tier": 30
-      },
-      {
-        "text": "Squash",
-        "tier": 30
-      },
-      {
-        "text": "Pumpkins",
-        "tier": 30
-      },
-      {
-        "text": "Strawberries",
-        "tier": 30
-      },
-      {
-        "text": "Herbs",
-        "tier": 30
-      },
-      {
-        "text": "Basil",
-        "tier": 30
-      },
-      {
-        "text": "Mint",
-        "tier": 30
       },
       {
         "text": "Watering can",
+        "tier": 60
+      },
+      {
+        "text": "Garden hose",
+        "aliases": [
+          "hose"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wheelbarrow",
+        "aliases": [
+          "wheel barrow"
+        ],
         "tier": 30
       },
       {
-        "text": "Shovel",
+        "text": "Lawn mower",
+        "aliases": [
+          "lawnmower",
+          "mower"
+        ],
         "tier": 30
       },
       {
-        "text": "Rake",
+        "text": "Trowel",
+        "aliases": [
+          "hand trowel"
+        ],
         "tier": 30
       },
       {
@@ -7292,300 +6522,38 @@
         "tier": 30
       },
       {
-        "text": "Trowel",
-        "tier": 30
-      },
-      {
-        "text": "Gloves",
-        "aliases": [
-          "gardening gloves"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Wheelbarrow",
-        "tier": 30
-      },
-      {
-        "text": "Sprinkler",
-        "tier": 30
-      },
-      {
-        "text": "Fence",
-        "tier": 30
-      },
-      {
-        "text": "Gate",
-        "tier": 30
-      },
-      {
-        "text": "Path",
-        "aliases": [
-          "garden path"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bench",
-        "tier": 30
-      },
-      {
-        "text": "Birdbath",
-        "aliases": [
-          "bird bath"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bird feeder",
-        "tier": 30
-      },
-      {
-        "text": "Birdhouse",
-        "tier": 30
-      },
-      {
-        "text": "Bees",
-        "aliases": [
-          "bee"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Butterflies",
-        "tier": 30
-      },
-      {
-        "text": "Ladybugs",
-        "tier": 30
-      },
-      {
-        "text": "Snails",
-        "tier": 30
-      },
-      {
-        "text": "Slugs",
-        "tier": 30
-      },
-      {
-        "text": "Ants",
-        "tier": 30
-      },
-      {
-        "text": "Birds",
-        "tier": 30
-      },
-      {
-        "text": "Squirrels",
-        "tier": 30
-      },
-      {
-        "text": "Rabbits",
-        "tier": 30
-      },
-      {
-        "text": "Seeds",
-        "tier": 30
-      },
-      {
-        "text": "Bulbs",
-        "tier": 30
-      },
-      {
-        "text": "Compost",
-        "tier": 30
-      },
-      {
-        "text": "Mulch",
-        "tier": 30
-      },
-      {
-        "text": "Fertilizer",
-        "tier": 30
-      },
-      {
-        "text": "Pots",
-        "aliases": [
-          "flower pot"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Planter",
-        "tier": 30
-      },
-      {
-        "text": "Raised bed",
-        "tier": 30
-      },
-      {
-        "text": "Trellis",
-        "tier": 30
-      },
-      {
-        "text": "Scarecrow",
-        "tier": 30
-      },
-      {
-        "text": "Shed",
-        "aliases": [
-          "garden shed"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Greenhouse",
-        "tier": 30
-      },
-      {
-        "text": "Fountain",
-        "tier": 30
-      },
-      {
-        "text": "Pond",
-        "tier": 30
-      },
-      {
-        "text": "Rocks",
-        "aliases": [
-          "stones"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Stepping stones",
-        "tier": 30
-      },
-      {
-        "text": "Statue",
-        "tier": 30
-      },
-      {
-        "text": "Wind chime",
-        "tier": 30
-      },
-      {
-        "text": "Grass",
-        "aliases": [
-          "lawn"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bush",
-        "aliases": [
-          "shrub"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hedge",
-        "tier": 30
-      },
-      {
-        "text": "Tree",
-        "tier": 30
-      },
-      {
-        "text": "Vine",
-        "tier": 30
-      },
-      {
-        "text": "Ivy",
-        "tier": 30
-      },
-      {
-        "text": "Moss",
-        "tier": 30
-      },
-      {
-        "text": "Mushrooms",
-        "tier": 30
-      },
-      {
-        "text": "Butterfly bush",
-        "tier": 30
-      },
-      {
-        "text": "Hummingbird feeder",
-        "tier": 30
-      },
-      {
-        "text": "Garden gnome",
-        "aliases": [
-          "gnome"
-        ],
+        "text": "Scissors",
         "tier": 15
       },
       {
-        "text": "Snake",
-        "aliases": [
-          "garden snake"
-        ],
+        "text": "Knife",
         "tier": 15
       },
       {
-        "text": "Flowers",
-        "aliases": [
-          "flower"
-        ],
+        "text": "Shovel",
         "tier": 10
       },
       {
-        "text": "Dirt",
-        "aliases": [
-          "soil"
-        ],
+        "text": "Rake",
         "tier": 10
       },
       {
-        "text": "Plants",
-        "aliases": [
-          "plant"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Vegetables",
-        "tier": 10
-      },
-      {
-        "text": "Tomatoes",
-        "aliases": [
-          "tomato"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Worms",
-        "aliases": [
-          "earthworm",
-          "worm"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Weeds",
-        "aliases": [
-          "weed"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Garden hose",
-        "aliases": [
-          "hose"
-        ],
+        "text": "Spade",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Television",
-      "Couch",
-      "Oven",
-      "Car",
-      "Bed"
-    ]
+      "Garden gnome",
+      "Bird bath",
+      "Fence",
+      "Seeds",
+      "Fertilizer",
+      "Soil",
+      "Snow shovel",
+      "Hammer",
+      "Screwdriver"
+    ],
+    "notes": "Hand tools, power tools and equipment used to dig, cut, water, weed, plant, and care for a garden or lawn."
   },
   {
     "id": "q0149",

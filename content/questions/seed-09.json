@@ -1136,1118 +1136,311 @@
   },
   {
     "id": "q0083",
-    "prompt": "Name a city in Europe",
+    "prompt": "Name a country in Europe or South America",
     "category": "geography",
     "status": "reserve",
     "answers": [
       {
-        "text": "Reykjavik",
-        "aliases": [
-          "reykjavík"
-        ],
+        "text": "Liechtenstein",
         "tier": 100
-      },
-      {
-        "text": "Aarhus",
-        "tier": 85
-      },
-      {
-        "text": "Odense",
-        "tier": 85
-      },
-      {
-        "text": "Tampere",
-        "tier": 85
-      },
-      {
-        "text": "Turku",
-        "tier": 85
-      },
-      {
-        "text": "Uppsala",
-        "tier": 85
-      },
-      {
-        "text": "Trondheim",
-        "tier": 85
-      },
-      {
-        "text": "Stavanger",
-        "tier": 85
-      },
-      {
-        "text": "Tromso",
-        "tier": 85
-      },
-      {
-        "text": "Akureyri",
-        "tier": 85
-      },
-      {
-        "text": "Tartu",
-        "tier": 85
-      },
-      {
-        "text": "Kaunas",
-        "tier": 85
-      },
-      {
-        "text": "Lodz",
-        "tier": 85
-      },
-      {
-        "text": "Katowice",
-        "tier": 85
-      },
-      {
-        "text": "Brno",
-        "tier": 85
-      },
-      {
-        "text": "Ostrava",
-        "tier": 85
-      },
-      {
-        "text": "Cesky Krumlov",
-        "tier": 85
-      },
-      {
-        "text": "Kosice",
-        "tier": 85
-      },
-      {
-        "text": "Debrecen",
-        "tier": 85
-      },
-      {
-        "text": "Szeged",
-        "tier": 85
-      },
-      {
-        "text": "Pecs",
-        "tier": 85
-      },
-      {
-        "text": "Cluj-Napoca",
-        "aliases": [
-          "cluj"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Timisoara",
-        "tier": 85
-      },
-      {
-        "text": "Brasov",
-        "tier": 85
-      },
-      {
-        "text": "Constanta",
-        "tier": 85
-      },
-      {
-        "text": "Varna",
-        "tier": 85
-      },
-      {
-        "text": "Plovdiv",
-        "tier": 85
-      },
-      {
-        "text": "Novi Sad",
-        "tier": 85
-      },
-      {
-        "text": "Nis",
-        "tier": 85
-      },
-      {
-        "text": "Mostar",
-        "tier": 85
-      },
-      {
-        "text": "Kotor",
-        "tier": 85
-      },
-      {
-        "text": "Ohrid",
-        "tier": 85
-      },
-      {
-        "text": "Patras",
-        "tier": 85
-      },
-      {
-        "text": "Heraklion",
-        "tier": 85
-      },
-      {
-        "text": "Rhodes",
-        "tier": 85
-      },
-      {
-        "text": "Corfu",
-        "tier": 85
-      },
-      {
-        "text": "Zakynthos",
-        "tier": 85
-      },
-      {
-        "text": "Larnaca",
-        "tier": 85
-      },
-      {
-        "text": "Limassol",
-        "tier": 85
-      },
-      {
-        "text": "Mdina",
-        "tier": 85
-      },
-      {
-        "text": "Andorra la Vella",
-        "tier": 85
       },
       {
         "text": "San Marino",
         "tier": 85
       },
       {
-        "text": "Vaduz",
+        "text": "Andorra",
         "tier": 85
       },
       {
-        "text": "Coimbra",
+        "text": "Moldova",
         "tier": 85
       },
       {
-        "text": "Faro",
+        "text": "Montenegro",
         "tier": 85
       },
       {
-        "text": "Braga",
-        "tier": 85
-      },
-      {
-        "text": "Funchal",
-        "tier": 85
-      },
-      {
-        "text": "Zaragoza",
-        "tier": 85
-      },
-      {
-        "text": "Valladolid",
-        "tier": 85
-      },
-      {
-        "text": "Murcia",
-        "tier": 85
-      },
-      {
-        "text": "Alicante",
-        "tier": 85
-      },
-      {
-        "text": "Cadiz",
-        "tier": 85
-      },
-      {
-        "text": "Santiago de Compostela",
-        "tier": 85
-      },
-      {
-        "text": "Oviedo",
-        "tier": 85
-      },
-      {
-        "text": "Pamplona",
-        "tier": 85
-      },
-      {
-        "text": "Montpellier",
-        "tier": 85
-      },
-      {
-        "text": "Rennes",
-        "tier": 85
-      },
-      {
-        "text": "Reims",
-        "tier": 85
-      },
-      {
-        "text": "Dijon",
-        "tier": 85
-      },
-      {
-        "text": "Grenoble",
-        "tier": 85
-      },
-      {
-        "text": "Chamonix",
-        "tier": 85
-      },
-      {
-        "text": "Annecy",
-        "tier": 85
-      },
-      {
-        "text": "Carcassonne",
-        "tier": 85
-      },
-      {
-        "text": "Rouen",
-        "tier": 85
-      },
-      {
-        "text": "Le Havre",
-        "tier": 85
-      },
-      {
-        "text": "Calais",
-        "tier": 85
-      },
-      {
-        "text": "Ajaccio",
-        "tier": 85
-      },
-      {
-        "text": "Trieste",
-        "tier": 85
-      },
-      {
-        "text": "Padua",
-        "tier": 85
-      },
-      {
-        "text": "Parma",
-        "tier": 85
-      },
-      {
-        "text": "Modena",
-        "tier": 85
-      },
-      {
-        "text": "Ravenna",
-        "tier": 85
-      },
-      {
-        "text": "Rimini",
-        "tier": 85
-      },
-      {
-        "text": "Perugia",
-        "tier": 85
-      },
-      {
-        "text": "Assisi",
-        "tier": 85
-      },
-      {
-        "text": "Lecce",
-        "tier": 85
-      },
-      {
-        "text": "Catania",
-        "tier": 85
-      },
-      {
-        "text": "Syracuse",
-        "tier": 85
-      },
-      {
-        "text": "Cagliari",
-        "tier": 85
-      },
-      {
-        "text": "Bergamo",
-        "tier": 85
-      },
-      {
-        "text": "Como",
-        "tier": 85
-      },
-      {
-        "text": "Freiburg",
-        "tier": 85
-      },
-      {
-        "text": "Rothenburg",
-        "tier": 85
-      },
-      {
-        "text": "Trier",
-        "tier": 85
-      },
-      {
-        "text": "Aachen",
-        "tier": 85
-      },
-      {
-        "text": "Mainz",
-        "tier": 85
-      },
-      {
-        "text": "Wurzburg",
-        "tier": 85
-      },
-      {
-        "text": "Regensburg",
-        "tier": 85
-      },
-      {
-        "text": "Potsdam",
-        "tier": 85
-      },
-      {
-        "text": "Rostock",
-        "tier": 85
-      },
-      {
-        "text": "Lubeck",
-        "tier": 85
-      },
-      {
-        "text": "Kiel",
-        "tier": 85
-      },
-      {
-        "text": "Linz",
-        "tier": 85
-      },
-      {
-        "text": "Hallstatt",
-        "tier": 85
-      },
-      {
-        "text": "Zermatt",
-        "tier": 85
-      },
-      {
-        "text": "Interlaken",
-        "tier": 85
-      },
-      {
-        "text": "Lugano",
-        "tier": 85
-      },
-      {
-        "text": "St. Moritz",
-        "tier": 85
-      },
-      {
-        "text": "Davos",
-        "tier": 85
-      },
-      {
-        "text": "Maastricht",
-        "tier": 85
-      },
-      {
-        "text": "Groningen",
-        "tier": 85
-      },
-      {
-        "text": "Haarlem",
-        "tier": 85
-      },
-      {
-        "text": "Leiden",
-        "tier": 85
-      },
-      {
-        "text": "Namur",
-        "tier": 85
-      },
-      {
-        "text": "Leuven",
-        "tier": 85
-      },
-      {
-        "text": "Canterbury",
-        "tier": 85
-      },
-      {
-        "text": "Brighton",
-        "tier": 85
-      },
-      {
-        "text": "Plymouth",
-        "tier": 85
-      },
-      {
-        "text": "Norwich",
-        "tier": 85
-      },
-      {
-        "text": "Stratford-upon-Avon",
-        "tier": 85
-      },
-      {
-        "text": "Dundee",
-        "tier": 85
-      },
-      {
-        "text": "Stirling",
-        "tier": 85
-      },
-      {
-        "text": "St Andrews",
-        "tier": 85
-      },
-      {
-        "text": "Swansea",
-        "tier": 85
-      },
-      {
-        "text": "Derry",
-        "tier": 85
-      },
-      {
-        "text": "Limerick",
-        "tier": 85
-      },
-      {
-        "text": "Kilkenny",
-        "tier": 85
-      },
-      {
-        "text": "Waterford",
-        "tier": 85
-      },
-      {
-        "text": "Bordeaux",
-        "tier": 60
-      },
-      {
-        "text": "Toulouse",
-        "tier": 60
-      },
-      {
-        "text": "Strasbourg",
-        "tier": 60
-      },
-      {
-        "text": "Lille",
-        "tier": 60
-      },
-      {
-        "text": "Nantes",
-        "tier": 60
-      },
-      {
-        "text": "Cannes",
-        "tier": 60
-      },
-      {
-        "text": "Avignon",
-        "tier": 60
-      },
-      {
-        "text": "Granada",
-        "tier": 60
-      },
-      {
-        "text": "Malaga",
+        "text": "North Macedonia",
         "aliases": [
-          "málaga"
+          "macedonia"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Bilbao",
-        "tier": 60
-      },
-      {
-        "text": "San Sebastian",
-        "tier": 60
-      },
-      {
-        "text": "Ibiza",
-        "tier": 60
-      },
-      {
-        "text": "Palma",
-        "tier": 60
-      },
-      {
-        "text": "Toledo",
-        "tier": 60
-      },
-      {
-        "text": "Salamanca",
-        "tier": 60
-      },
-      {
-        "text": "Cordoba",
-        "tier": 60
-      },
-      {
-        "text": "Turin",
-        "aliases": [
-          "torino"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Genoa",
-        "tier": 60
-      },
-      {
-        "text": "Bologna",
-        "tier": 60
-      },
-      {
-        "text": "Verona",
-        "tier": 60
-      },
-      {
-        "text": "Pisa",
-        "tier": 60
-      },
-      {
-        "text": "Siena",
-        "tier": 60
-      },
-      {
-        "text": "Palermo",
-        "tier": 60
-      },
-      {
-        "text": "Bari",
-        "tier": 60
-      },
-      {
-        "text": "Sorrento",
-        "tier": 60
-      },
-      {
-        "text": "Amalfi",
-        "tier": 60
-      },
-      {
-        "text": "Dresden",
-        "tier": 60
-      },
-      {
-        "text": "Leipzig",
-        "tier": 60
-      },
-      {
-        "text": "Stuttgart",
-        "tier": 60
-      },
-      {
-        "text": "Dusseldorf",
-        "aliases": [
-          "düsseldorf"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Heidelberg",
-        "tier": 60
-      },
-      {
-        "text": "Nuremberg",
-        "tier": 60
-      },
-      {
-        "text": "Bremen",
-        "tier": 60
-      },
-      {
-        "text": "Hanover",
-        "tier": 60
-      },
-      {
-        "text": "Bonn",
-        "tier": 60
-      },
-      {
-        "text": "Innsbruck",
-        "tier": 60
-      },
-      {
-        "text": "Graz",
-        "tier": 60
-      },
-      {
-        "text": "Bern",
-        "tier": 60
-      },
-      {
-        "text": "Basel",
-        "tier": 60
-      },
-      {
-        "text": "Lucerne",
-        "tier": 60
-      },
-      {
-        "text": "Lausanne",
-        "tier": 60
-      },
-      {
-        "text": "Luxembourg",
-        "tier": 60
-      },
-      {
-        "text": "Ghent",
-        "tier": 60
-      },
-      {
-        "text": "Liege",
-        "tier": 60
-      },
-      {
-        "text": "Utrecht",
-        "tier": 60
-      },
-      {
-        "text": "Eindhoven",
-        "tier": 60
-      },
-      {
-        "text": "Delft",
-        "tier": 60
-      },
-      {
-        "text": "Leeds",
-        "tier": 60
-      },
-      {
-        "text": "Sheffield",
-        "tier": 60
-      },
-      {
-        "text": "Bristol",
-        "tier": 60
-      },
-      {
-        "text": "Newcastle",
-        "tier": 60
-      },
-      {
-        "text": "Bath",
-        "tier": 60
-      },
-      {
-        "text": "York",
-        "tier": 60
-      },
-      {
-        "text": "Cardiff",
-        "tier": 60
-      },
-      {
-        "text": "Cork",
-        "tier": 60
-      },
-      {
-        "text": "Galway",
-        "tier": 60
-      },
-      {
-        "text": "Aberdeen",
-        "tier": 60
-      },
-      {
-        "text": "Inverness",
-        "tier": 60
-      },
-      {
-        "text": "Gothenburg",
-        "tier": 60
-      },
-      {
-        "text": "Malmo",
-        "aliases": [
-          "malmö"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bergen",
-        "tier": 60
-      },
-      {
-        "text": "Tallinn",
-        "tier": 60
-      },
-      {
-        "text": "Riga",
-        "tier": 60
-      },
-      {
-        "text": "Vilnius",
-        "tier": 60
-      },
-      {
-        "text": "Gdansk",
-        "tier": 60
-      },
-      {
-        "text": "Wroclaw",
-        "tier": 60
-      },
-      {
-        "text": "Poznan",
-        "tier": 60
-      },
-      {
-        "text": "Bratislava",
-        "tier": 60
-      },
-      {
-        "text": "Ljubljana",
-        "tier": 60
-      },
-      {
-        "text": "Zagreb",
-        "tier": 60
-      },
-      {
-        "text": "Belgrade",
-        "tier": 60
-      },
-      {
-        "text": "Sarajevo",
-        "tier": 60
-      },
-      {
-        "text": "Sofia",
-        "tier": 60
-      },
-      {
-        "text": "Bucharest",
-        "tier": 60
-      },
-      {
-        "text": "Thessaloniki",
-        "tier": 60
-      },
-      {
-        "text": "Mykonos",
-        "tier": 60
-      },
-      {
-        "text": "Valletta",
-        "tier": 60
-      },
-      {
-        "text": "Minsk",
-        "tier": 60
-      },
-      {
-        "text": "Chisinau",
-        "tier": 60
-      },
-      {
-        "text": "Tirana",
-        "tier": 60
-      },
-      {
-        "text": "Skopje",
-        "tier": 60
-      },
-      {
-        "text": "Podgorica",
-        "tier": 60
-      },
-      {
-        "text": "Lviv",
-        "tier": 60
-      },
-      {
-        "text": "Odessa",
-        "aliases": [
-          "odesa"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Kharkiv",
-        "tier": 60
-      },
-      {
-        "text": "Nicosia",
-        "tier": 60
-      },
-      {
-        "text": "Athens",
-        "tier": 30
-      },
-      {
-        "text": "Dublin",
-        "tier": 30
-      },
-      {
-        "text": "Lisbon",
-        "tier": 30
-      },
-      {
-        "text": "Vienna",
-        "tier": 30
-      },
-      {
-        "text": "Prague",
-        "tier": 30
-      },
-      {
-        "text": "Budapest",
-        "tier": 30
-      },
-      {
-        "text": "Brussels",
-        "tier": 30
-      },
-      {
-        "text": "Munich",
-        "tier": 30
-      },
-      {
-        "text": "Milan",
-        "tier": 30
-      },
-      {
-        "text": "Florence",
-        "tier": 30
-      },
-      {
-        "text": "Naples",
-        "tier": 30
-      },
-      {
-        "text": "Edinburgh",
-        "tier": 30
-      },
-      {
-        "text": "Manchester",
-        "tier": 30
-      },
-      {
-        "text": "Liverpool",
-        "tier": 30
-      },
-      {
-        "text": "Stockholm",
-        "tier": 30
-      },
-      {
-        "text": "Oslo",
-        "tier": 30
-      },
-      {
-        "text": "Copenhagen",
-        "tier": 30
-      },
-      {
-        "text": "Helsinki",
-        "tier": 30
-      },
-      {
-        "text": "Warsaw",
-        "tier": 30
-      },
-      {
-        "text": "Zurich",
-        "aliases": [
-          "zürich"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Geneva",
-        "tier": 30
-      },
-      {
-        "text": "Monaco",
-        "aliases": [
-          "monte carlo"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Nice",
-        "tier": 30
-      },
-      {
-        "text": "Marseille",
-        "tier": 30
-      },
-      {
-        "text": "Lyon",
-        "tier": 30
-      },
-      {
-        "text": "Seville",
-        "tier": 30
-      },
-      {
-        "text": "Valencia",
-        "tier": 30
-      },
-      {
-        "text": "Porto",
-        "tier": 30
-      },
-      {
-        "text": "Hamburg",
-        "tier": 30
-      },
-      {
-        "text": "Frankfurt",
-        "tier": 30
-      },
-      {
-        "text": "Cologne",
-        "aliases": [
-          "köln"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Kyiv",
-        "aliases": [
-          "kiev"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Saint Petersburg",
-        "aliases": [
-          "st petersburg"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Krakow",
-        "aliases": [
-          "kraków"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Salzburg",
-        "tier": 30
-      },
-      {
-        "text": "Glasgow",
-        "tier": 30
-      },
-      {
-        "text": "Birmingham",
-        "tier": 30
-      },
-      {
-        "text": "Oxford",
-        "tier": 30
-      },
-      {
-        "text": "Cambridge",
-        "tier": 30
-      },
-      {
-        "text": "Belfast",
-        "tier": 30
-      },
-      {
-        "text": "Rotterdam",
-        "tier": 30
-      },
-      {
-        "text": "The Hague",
-        "aliases": [
-          "den haag"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Antwerp",
-        "tier": 30
-      },
-      {
-        "text": "Bruges",
-        "aliases": [
-          "brugge"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Dubrovnik",
-        "tier": 30
-      },
-      {
-        "text": "Split",
-        "tier": 30
-      },
-      {
-        "text": "Santorini",
-        "tier": 30
-      },
-      {
-        "text": "Istanbul",
-        "tier": 15
-      },
-      {
-        "text": "Moscow",
-        "tier": 15
+        "text": "Kosovo",
+        "tier": 85
       },
       {
         "text": "Vatican City",
         "aliases": [
-          "vatican"
+          "vatican",
+          "holy see"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Monaco",
+        "tier": 85
+      },
+      {
+        "text": "Malta",
+        "tier": 85
+      },
+      {
+        "text": "Luxembourg",
+        "tier": 85
+      },
+      {
+        "text": "Suriname",
+        "aliases": [
+          "surinam"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Guyana",
+        "tier": 85
+      },
+      {
+        "text": "Kazakhstan",
+        "tier": 85
+      },
+      {
+        "text": "Azerbaijan",
+        "tier": 85
+      },
+      {
+        "text": "Armenia",
+        "tier": 85
+      },
+      {
+        "text": "Belarus",
+        "tier": 85
+      },
+      {
+        "text": "Slovenia",
+        "tier": 85
+      },
+      {
+        "text": "Slovakia",
+        "tier": 85
+      },
+      {
+        "text": "Latvia",
+        "tier": 85
+      },
+      {
+        "text": "Lithuania",
+        "tier": 85
+      },
+      {
+        "text": "Estonia",
+        "tier": 85
+      },
+      {
+        "text": "Albania",
+        "tier": 85
+      },
+      {
+        "text": "Bosnia and Herzegovina",
+        "aliases": [
+          "bosnia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cyprus",
+        "tier": 85
+      },
+      {
+        "text": "Georgia",
+        "tier": 85
+      },
+      {
+        "text": "Paraguay",
+        "tier": 60
+      },
+      {
+        "text": "Uruguay",
+        "tier": 60
+      },
+      {
+        "text": "Bolivia",
+        "tier": 60
+      },
+      {
+        "text": "Ecuador",
+        "tier": 60
+      },
+      {
+        "text": "Serbia",
+        "tier": 60
+      },
+      {
+        "text": "Croatia",
+        "tier": 60
+      },
+      {
+        "text": "Bulgaria",
+        "tier": 60
+      },
+      {
+        "text": "Romania",
+        "tier": 60
+      },
+      {
+        "text": "Hungary",
+        "tier": 60
+      },
+      {
+        "text": "Czech Republic",
+        "aliases": [
+          "czechia"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Austria",
+        "tier": 60
+      },
+      {
+        "text": "Switzerland",
+        "tier": 60
+      },
+      {
+        "text": "Belgium",
+        "tier": 60
+      },
+      {
+        "text": "Netherlands",
+        "aliases": [
+          "holland"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Denmark",
+        "tier": 60
+      },
+      {
+        "text": "Finland",
+        "tier": 60
+      },
+      {
+        "text": "Iceland",
+        "tier": 60
+      },
+      {
+        "text": "Ukraine",
+        "tier": 60
+      },
+      {
+        "text": "Venezuela",
+        "tier": 60
+      },
+      {
+        "text": "Turkey",
+        "aliases": [
+          "türkiye",
+          "turkiye"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Colombia",
+        "tier": 30
+      },
+      {
+        "text": "Chile",
+        "tier": 30
+      },
+      {
+        "text": "Peru",
+        "tier": 30
+      },
+      {
+        "text": "Argentina",
+        "tier": 30
+      },
+      {
+        "text": "Portugal",
+        "tier": 30
+      },
+      {
+        "text": "Poland",
+        "tier": 30
+      },
+      {
+        "text": "Norway",
+        "tier": 30
+      },
+      {
+        "text": "Sweden",
+        "tier": 30
+      },
+      {
+        "text": "Ireland",
+        "tier": 30
+      },
+      {
+        "text": "Greece",
+        "tier": 30
+      },
+      {
+        "text": "Russia",
+        "tier": 30
+      },
+      {
+        "text": "United Kingdom",
+        "aliases": [
+          "uk",
+          "great britain",
+          "britain"
         ],
         "tier": 15
       },
       {
-        "text": "Paris",
+        "text": "France",
         "tier": 10
       },
       {
-        "text": "London",
+        "text": "Germany",
         "tier": 10
       },
       {
-        "text": "Rome",
+        "text": "Italy",
         "tier": 10
       },
       {
-        "text": "Berlin",
+        "text": "Spain",
         "tier": 10
       },
       {
-        "text": "Madrid",
-        "tier": 10
-      },
-      {
-        "text": "Barcelona",
-        "tier": 10
-      },
-      {
-        "text": "Amsterdam",
-        "tier": 10
-      },
-      {
-        "text": "Venice",
+        "text": "Brazil",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Europe",
       "England",
-      "France",
-      "Germany",
-      "Italy",
-      "New York",
-      "Tokyo",
-      "Cairo",
-      "Jerusalem"
-    ]
+      "Scotland",
+      "Wales",
+      "Northern Ireland",
+      "French Guiana",
+      "Falkland Islands",
+      "Greenland",
+      "Mexico",
+      "Panama",
+      "Costa Rica",
+      "Cuba",
+      "Australia",
+      "Canada",
+      "United States",
+      "Morocco",
+      "Egypt",
+      "Israel"
+    ],
+    "notes": "Countries that are at least partly in Europe (Russia, Turkey, Kazakhstan, the Caucasus count) or in South America. Territories (French Guiana, Greenland) don't count."
   },
   {
     "id": "q0084",

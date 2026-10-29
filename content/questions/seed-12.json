@@ -2473,1279 +2473,435 @@
   },
   {
     "id": "q0114",
-    "prompt": "Name a disease or illness",
+    "prompt": "Name an organ or gland in the human body",
     "category": "body-health",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Scurvy",
+        "text": "Mesentery",
         "tier": 100
       },
       {
-        "text": "Kuru",
-        "tier": 85
-      },
-      {
-        "text": "Creutzfeldt-Jakob",
+        "text": "Pineal gland",
         "aliases": [
-          "cjd"
+          "pineal"
         ],
         "tier": 85
       },
       {
-        "text": "Fatal familial insomnia",
-        "tier": 85
-      },
-      {
-        "text": "Progeria",
-        "tier": 85
-      },
-      {
-        "text": "Fibrodysplasia ossificans progressiva",
+        "text": "Parathyroid gland",
         "aliases": [
-          "fop"
+          "parathyroid",
+          "parathyroids"
         ],
         "tier": 85
       },
       {
-        "text": "Alice in Wonderland syndrome",
+        "text": "Hypothalamus",
         "tier": 85
       },
       {
-        "text": "Foreign accent syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Exploding head syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Capgras syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Cotard's syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Munchausen syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Stendhal syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Jerusalem syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Paris syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Morgellons",
-        "tier": 85
-      },
-      {
-        "text": "Porphyria",
-        "tier": 85
-      },
-      {
-        "text": "Hemochromatosis",
-        "tier": 85
-      },
-      {
-        "text": "Wilson's disease",
-        "tier": 85
-      },
-      {
-        "text": "Gaucher disease",
-        "tier": 85
-      },
-      {
-        "text": "Fabry disease",
-        "tier": 85
-      },
-      {
-        "text": "Pompe disease",
-        "tier": 85
-      },
-      {
-        "text": "Niemann-Pick",
-        "tier": 85
-      },
-      {
-        "text": "Batten disease",
-        "tier": 85
-      },
-      {
-        "text": "Krabbe disease",
-        "tier": 85
-      },
-      {
-        "text": "Moyamoya",
-        "tier": 85
-      },
-      {
-        "text": "Kawasaki disease",
-        "tier": 85
-      },
-      {
-        "text": "Behcet's disease",
-        "tier": 85
-      },
-      {
-        "text": "Sarcoidosis",
-        "tier": 85
-      },
-      {
-        "text": "Amyloidosis",
-        "tier": 85
-      },
-      {
-        "text": "Scleroderma",
-        "tier": 85
-      },
-      {
-        "text": "Sjogren's syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Myasthenia gravis",
-        "tier": 85
-      },
-      {
-        "text": "Guillain-Barre",
-        "tier": 85
-      },
-      {
-        "text": "Bell's palsy",
-        "tier": 85
-      },
-      {
-        "text": "Trigeminal neuralgia",
-        "tier": 85
-      },
-      {
-        "text": "Restless legs syndrome",
-        "tier": 85
-      },
-      {
-        "text": "Raynaud's",
-        "tier": 85
-      },
-      {
-        "text": "Erythromelalgia",
-        "tier": 85
-      },
-      {
-        "text": "Dercum's disease",
-        "tier": 85
-      },
-      {
-        "text": "Harlequin ichthyosis",
-        "tier": 85
-      },
-      {
-        "text": "Epidermolysis bullosa",
-        "tier": 85
-      },
-      {
-        "text": "Xeroderma pigmentosum",
-        "tier": 85
-      },
-      {
-        "text": "Vitiligo",
-        "tier": 85
-      },
-      {
-        "text": "Rosacea",
-        "tier": 85
-      },
-      {
-        "text": "Hives",
-        "tier": 85
-      },
-      {
-        "text": "Dropsy",
-        "tier": 85
-      },
-      {
-        "text": "Consumption",
-        "tier": 85
-      },
-      {
-        "text": "Grippe",
-        "tier": 85
-      },
-      {
-        "text": "Ague",
-        "tier": 85
-      },
-      {
-        "text": "Quinsy",
-        "tier": 85
-      },
-      {
-        "text": "Scrofula",
-        "tier": 85
-      },
-      {
-        "text": "St. Vitus' dance",
-        "tier": 85
-      },
-      {
-        "text": "Sweating sickness",
-        "tier": 85
-      },
-      {
-        "text": "Ergotism",
-        "tier": 85
-      },
-      {
-        "text": "Milk sickness",
-        "tier": 85
-      },
-      {
-        "text": "Phossy jaw",
-        "tier": 85
-      },
-      {
-        "text": "Black lung",
-        "tier": 85
-      },
-      {
-        "text": "Brown lung",
-        "tier": 85
-      },
-      {
-        "text": "Mesothelioma",
-        "tier": 85
-      },
-      {
-        "text": "Silicosis",
-        "tier": 85
-      },
-      {
-        "text": "Asbestosis",
-        "tier": 85
-      },
-      {
-        "text": "Caisson disease",
+        "text": "Thymus",
         "aliases": [
-          "the bends"
+          "thymus gland"
         ],
         "tier": 85
       },
       {
-        "text": "Trench foot",
+        "text": "Adenoids",
+        "aliases": [
+          "adenoid"
+        ],
         "tier": 85
       },
       {
-        "text": "Shell shock",
+        "text": "Seminal vesicles",
+        "aliases": [
+          "seminal vesicle"
+        ],
         "tier": 85
       },
       {
-        "text": "Rickets",
-        "tier": 60
+        "text": "Epididymis",
+        "tier": 85
       },
       {
-        "text": "Beriberi",
-        "tier": 60
+        "text": "Vas deferens",
+        "tier": 85
       },
       {
-        "text": "Pellagra",
-        "tier": 60
-      },
-      {
-        "text": "Goiter",
-        "tier": 60
-      },
-      {
-        "text": "Kwashiorkor",
-        "tier": 60
-      },
-      {
-        "text": "Typhus",
-        "tier": 60
-      },
-      {
-        "text": "Anthrax",
-        "tier": 60
-      },
-      {
-        "text": "Botulism",
-        "tier": 60
-      },
-      {
-        "text": "Listeria",
-        "tier": 60
-      },
-      {
-        "text": "Salmonella",
-        "tier": 60
-      },
-      {
-        "text": "E. coli",
-        "tier": 60
-      },
-      {
-        "text": "MRSA",
-        "tier": 60
-      },
-      {
-        "text": "Giardia",
-        "tier": 60
-      },
-      {
-        "text": "Hookworm",
-        "tier": 60
-      },
-      {
-        "text": "Tapeworm",
-        "tier": 60
-      },
-      {
-        "text": "Pinworm",
-        "tier": 60
-      },
-      {
-        "text": "Scabies",
-        "tier": 60
-      },
-      {
-        "text": "Impetigo",
-        "tier": 60
-      },
-      {
-        "text": "Cellulitis",
-        "tier": 60
-      },
-      {
-        "text": "Fifth disease",
-        "tier": 60
-      },
-      {
-        "text": "Roseola",
-        "tier": 60
-      },
-      {
-        "text": "Croup",
-        "tier": 60
-      },
-      {
-        "text": "Bronchiolitis",
-        "tier": 60
-      },
-      {
-        "text": "Emphysema",
-        "tier": 60
-      },
-      {
-        "text": "COPD",
-        "tier": 60
-      },
-      {
-        "text": "Pulmonary fibrosis",
-        "tier": 60
-      },
-      {
-        "text": "Lung cancer",
-        "tier": 60
-      },
-      {
-        "text": "Breast cancer",
-        "tier": 60
-      },
-      {
-        "text": "Skin cancer",
+        "text": "Fallopian tubes",
         "aliases": [
-          "melanoma"
+          "fallopian tube",
+          "oviduct"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cervix",
+        "tier": 85
+      },
+      {
+        "text": "Ureters",
+        "aliases": [
+          "ureter"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Urethra",
+        "tier": 85
+      },
+      {
+        "text": "Duodenum",
+        "tier": 85
+      },
+      {
+        "text": "Jejunum",
+        "tier": 85
+      },
+      {
+        "text": "Ileum",
+        "tier": 85
+      },
+      {
+        "text": "Cecum",
+        "aliases": [
+          "caecum"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Parotid gland",
+        "aliases": [
+          "parotid"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sebaceous glands",
+        "aliases": [
+          "sebaceous gland",
+          "oil gland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sweat glands",
+        "aliases": [
+          "sweat gland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lacrimal glands",
+        "aliases": [
+          "lacrimal gland",
+          "tear gland",
+          "tear glands"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bulbourethral gland",
+        "aliases": [
+          "cowper's gland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Interstitium",
+        "tier": 85
+      },
+      {
+        "text": "Brainstem",
+        "aliases": [
+          "brain stem"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cerebellum",
+        "tier": 85
+      },
+      {
+        "text": "Cerebrum",
+        "tier": 85
+      },
+      {
+        "text": "Medulla oblongata",
+        "aliases": [
+          "medulla"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bone marrow",
+        "aliases": [
+          "marrow"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lymph nodes",
+        "aliases": [
+          "lymph node",
+          "lymph glands"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Salivary glands",
+        "aliases": [
+          "salivary gland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mammary glands",
+        "aliases": [
+          "mammary gland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pharynx",
+        "tier": 85
+      },
+      {
+        "text": "Larynx",
+        "aliases": [
+          "voice box"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Trachea",
+        "aliases": [
+          "windpipe"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Esophagus",
+        "aliases": [
+          "oesophagus",
+          "gullet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Diaphragm",
+        "tier": 85
+      },
+      {
+        "text": "Spinal cord",
+        "tier": 85
+      },
+      {
+        "text": "Pituitary gland",
+        "aliases": [
+          "pituitary"
         ],
         "tier": 60
       },
       {
-        "text": "Prostate cancer",
-        "tier": 60
-      },
-      {
-        "text": "Colon cancer",
-        "tier": 60
-      },
-      {
-        "text": "Lymphoma",
-        "tier": 60
-      },
-      {
-        "text": "Myeloma",
-        "tier": 60
-      },
-      {
-        "text": "Sarcoma",
-        "tier": 60
-      },
-      {
-        "text": "Brain tumor",
-        "tier": 60
-      },
-      {
-        "text": "Crohn's disease",
+        "text": "Adrenal glands",
         "aliases": [
-          "crohns"
+          "adrenal gland",
+          "adrenals"
         ],
         "tier": 60
       },
       {
-        "text": "Ulcerative colitis",
-        "tier": 60
-      },
-      {
-        "text": "IBS",
+        "text": "Thyroid",
         "aliases": [
-          "irritable bowel syndrome"
+          "thyroid gland"
         ],
         "tier": 60
       },
       {
-        "text": "GERD",
+        "text": "Ovaries",
         "aliases": [
-          "acid reflux"
+          "ovary"
         ],
         "tier": 60
       },
       {
-        "text": "Ulcer",
-        "tier": 60
-      },
-      {
-        "text": "Gallstones",
-        "tier": 60
-      },
-      {
-        "text": "Pancreatitis",
-        "tier": 60
-      },
-      {
-        "text": "Cirrhosis",
-        "tier": 60
-      },
-      {
-        "text": "Hepatitis C",
-        "tier": 60
-      },
-      {
-        "text": "Hepatitis B",
-        "tier": 60
-      },
-      {
-        "text": "Kidney disease",
-        "tier": 60
-      },
-      {
-        "text": "Kidney failure",
-        "tier": 60
-      },
-      {
-        "text": "Heart attack",
-        "tier": 60
-      },
-      {
-        "text": "Angina",
-        "tier": 60
-      },
-      {
-        "text": "Arrhythmia",
-        "tier": 60
-      },
-      {
-        "text": "Atrial fibrillation",
+        "text": "Testicles",
         "aliases": [
-          "afib"
+          "testes",
+          "testis",
+          "testicle"
         ],
         "tier": 60
       },
       {
-        "text": "Heart failure",
-        "tier": 60
-      },
-      {
-        "text": "Atherosclerosis",
-        "tier": 60
-      },
-      {
-        "text": "Aneurysm",
-        "tier": 60
-      },
-      {
-        "text": "Blood clot",
+        "text": "Uterus",
         "aliases": [
-          "dvt"
+          "womb"
         ],
         "tier": 60
       },
       {
-        "text": "Varicose veins",
-        "tier": 60
-      },
-      {
-        "text": "Thyroid disease",
-        "tier": 60
-      },
-      {
-        "text": "Hypothyroidism",
-        "tier": 60
-      },
-      {
-        "text": "Hyperthyroidism",
-        "tier": 60
-      },
-      {
-        "text": "Graves' disease",
-        "tier": 60
-      },
-      {
-        "text": "Hashimoto's",
-        "tier": 60
-      },
-      {
-        "text": "Addison's disease",
-        "tier": 60
-      },
-      {
-        "text": "Cushing's syndrome",
-        "tier": 60
-      },
-      {
-        "text": "Type 1 diabetes",
-        "tier": 60
-      },
-      {
-        "text": "Type 2 diabetes",
-        "tier": 60
-      },
-      {
-        "text": "Fibromyalgia",
-        "tier": 60
-      },
-      {
-        "text": "Chronic fatigue syndrome",
-        "tier": 60
-      },
-      {
-        "text": "Rheumatoid arthritis",
-        "tier": 60
-      },
-      {
-        "text": "Osteoarthritis",
-        "tier": 60
-      },
-      {
-        "text": "Scoliosis",
-        "tier": 60
-      },
-      {
-        "text": "Carpal tunnel",
-        "tier": 60
-      },
-      {
-        "text": "Tendinitis",
-        "tier": 60
-      },
-      {
-        "text": "Bursitis",
-        "tier": 60
-      },
-      {
-        "text": "Glaucoma",
-        "tier": 60
-      },
-      {
-        "text": "Cataracts",
-        "tier": 60
-      },
-      {
-        "text": "Macular degeneration",
-        "tier": 60
-      },
-      {
-        "text": "Vertigo",
-        "tier": 60
-      },
-      {
-        "text": "Tinnitus",
-        "tier": 60
-      },
-      {
-        "text": "Narcolepsy",
-        "tier": 60
-      },
-      {
-        "text": "Insomnia",
-        "tier": 60
-      },
-      {
-        "text": "Sleep apnea",
-        "tier": 60
-      },
-      {
-        "text": "Bipolar disorder",
-        "tier": 60
-      },
-      {
-        "text": "Schizophrenia",
-        "tier": 60
-      },
-      {
-        "text": "OCD",
-        "tier": 60
-      },
-      {
-        "text": "PTSD",
-        "tier": 60
-      },
-      {
-        "text": "Anorexia",
-        "tier": 60
-      },
-      {
-        "text": "Bulimia",
-        "tier": 60
-      },
-      {
-        "text": "Tourette's",
-        "tier": 60
-      },
-      {
-        "text": "Down syndrome",
-        "tier": 60
-      },
-      {
-        "text": "Huntington's disease",
-        "tier": 60
-      },
-      {
-        "text": "Muscular dystrophy",
-        "tier": 60
-      },
-      {
-        "text": "Cerebral palsy",
-        "tier": 60
-      },
-      {
-        "text": "Spina bifida",
-        "tier": 60
-      },
-      {
-        "text": "Hydrocephalus",
-        "tier": 60
-      },
-      {
-        "text": "Tay-Sachs",
-        "tier": 60
-      },
-      {
-        "text": "Marfan syndrome",
-        "tier": 60
-      },
-      {
-        "text": "Ehlers-Danlos",
-        "tier": 60
-      },
-      {
-        "text": "Polycystic ovary syndrome",
+        "text": "Prostate",
         "aliases": [
-          "pcos"
+          "prostate gland"
         ],
         "tier": 60
       },
       {
-        "text": "Endometriosis",
-        "tier": 60
-      },
-      {
-        "text": "Preeclampsia",
-        "tier": 60
-      },
-      {
-        "text": "Jaundice",
-        "tier": 60
-      },
-      {
-        "text": "Sudden infant death syndrome",
+        "text": "Gallbladder",
         "aliases": [
-          "sids"
+          "gall bladder"
         ],
         "tier": 60
       },
       {
-        "text": "Legionnaires' disease",
+        "text": "Spleen",
         "tier": 60
       },
       {
-        "text": "Chagas disease",
+        "text": "Pancreas",
         "tier": 60
       },
       {
-        "text": "Sleeping sickness",
+        "text": "Appendix",
         "tier": 60
       },
       {
-        "text": "River blindness",
+        "text": "Tonsils",
+        "aliases": [
+          "tonsil"
+        ],
         "tier": 60
       },
       {
-        "text": "Elephantiasis",
+        "text": "Rectum",
         "tier": 60
       },
       {
-        "text": "Leishmaniasis",
+        "text": "Anus",
         "tier": 60
       },
       {
-        "text": "Schistosomiasis",
+        "text": "Colon",
+        "aliases": [
+          "large intestine"
+        ],
         "tier": 60
       },
       {
-        "text": "Guinea worm",
+        "text": "Small intestine",
         "tier": 60
       },
       {
-        "text": "Yaws",
+        "text": "Bladder",
+        "aliases": [
+          "urinary bladder"
+        ],
         "tier": 60
       },
       {
-        "text": "Trachoma",
+        "text": "Vagina",
         "tier": 60
       },
       {
-        "text": "Hantavirus",
+        "text": "Penis",
         "tier": 60
       },
       {
-        "text": "Lassa fever",
+        "text": "Breasts",
+        "aliases": [
+          "breast"
+        ],
         "tier": 60
       },
       {
-        "text": "Marburg",
-        "tier": 60
-      },
-      {
-        "text": "Rocky Mountain spotted fever",
-        "tier": 60
-      },
-      {
-        "text": "Valley fever",
-        "tier": 60
-      },
-      {
-        "text": "Histoplasmosis",
-        "tier": 60
-      },
-      {
-        "text": "Toxoplasmosis",
-        "tier": 60
-      },
-      {
-        "text": "Cat scratch fever",
-        "tier": 60
-      },
-      {
-        "text": "Altitude sickness",
-        "tier": 60
-      },
-      {
-        "text": "Heat stroke",
-        "tier": 60
-      },
-      {
-        "text": "Hypothermia",
-        "tier": 60
-      },
-      {
-        "text": "Malaria",
-        "tier": 30
-      },
-      {
-        "text": "Tuberculosis",
+        "text": "Intestines",
         "aliases": [
-          "tb"
+          "intestine",
+          "bowels",
+          "guts"
         ],
         "tier": 30
       },
       {
-        "text": "Pneumonia",
-        "tier": 30
-      },
-      {
-        "text": "Asthma",
-        "tier": 30
-      },
-      {
-        "text": "Bronchitis",
-        "tier": 30
-      },
-      {
-        "text": "Strep throat",
+        "text": "Eyes",
         "aliases": [
-          "strep"
+          "eye"
         ],
         "tier": 30
       },
       {
-        "text": "Mumps",
-        "tier": 30
-      },
-      {
-        "text": "Polio",
-        "tier": 30
-      },
-      {
-        "text": "Smallpox",
-        "tier": 30
-      },
-      {
-        "text": "Ebola",
-        "tier": 30
-      },
-      {
-        "text": "HIV",
+        "text": "Ears",
         "aliases": [
-          "aids"
+          "ear"
         ],
         "tier": 30
       },
       {
-        "text": "Hepatitis",
+        "text": "Tongue",
         "tier": 30
       },
       {
-        "text": "Alzheimer's",
-        "aliases": [
-          "alzheimers"
-        ],
+        "text": "Nose",
         "tier": 30
       },
       {
-        "text": "Parkinson's",
-        "aliases": [
-          "parkinsons"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Arthritis",
-        "tier": 30
-      },
-      {
-        "text": "Heart disease",
-        "tier": 30
-      },
-      {
-        "text": "Stroke",
-        "tier": 30
-      },
-      {
-        "text": "Leukemia",
-        "tier": 30
-      },
-      {
-        "text": "Lupus",
-        "tier": 30
-      },
-      {
-        "text": "Celiac disease",
-        "aliases": [
-          "celiac"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lyme disease",
-        "aliases": [
-          "lyme"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Rabies",
-        "tier": 30
-      },
-      {
-        "text": "Tetanus",
-        "tier": 30
-      },
-      {
-        "text": "Whooping cough",
-        "aliases": [
-          "pertussis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cholera",
-        "tier": 30
-      },
-      {
-        "text": "Dengue",
-        "aliases": [
-          "dengue fever"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Yellow fever",
-        "tier": 30
-      },
-      {
-        "text": "Typhoid",
-        "tier": 30
-      },
-      {
-        "text": "Mono",
-        "aliases": [
-          "mononucleosis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pink eye",
-        "aliases": [
-          "conjunctivitis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ear infection",
-        "tier": 30
-      },
-      {
-        "text": "Sinus infection",
-        "aliases": [
-          "sinusitis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Food poisoning",
-        "tier": 30
-      },
-      {
-        "text": "Stomach flu",
-        "aliases": [
-          "gastroenteritis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Shingles",
-        "tier": 30
-      },
-      {
-        "text": "Herpes",
-        "tier": 30
-      },
-      {
-        "text": "Chlamydia",
-        "tier": 30
-      },
-      {
-        "text": "Gonorrhea",
-        "tier": 30
-      },
-      {
-        "text": "Syphilis",
-        "tier": 30
-      },
-      {
-        "text": "Hypertension",
-        "aliases": [
-          "high blood pressure"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Obesity",
-        "tier": 30
-      },
-      {
-        "text": "Anemia",
-        "tier": 30
-      },
-      {
-        "text": "Epilepsy",
-        "tier": 30
-      },
-      {
-        "text": "Migraine",
-        "tier": 30
-      },
-      {
-        "text": "Depression",
-        "tier": 30
-      },
-      {
-        "text": "Anxiety",
-        "tier": 30
-      },
-      {
-        "text": "Autism",
-        "tier": 30
-      },
-      {
-        "text": "ADHD",
-        "tier": 30
-      },
-      {
-        "text": "Dementia",
-        "tier": 30
-      },
-      {
-        "text": "Multiple sclerosis",
-        "aliases": [
-          "ms"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "ALS",
-        "aliases": [
-          "lou gehrig's disease"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Cystic fibrosis",
-        "tier": 30
-      },
-      {
-        "text": "Sickle cell",
-        "aliases": [
-          "sickle cell anemia"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hemophilia",
-        "tier": 30
-      },
-      {
-        "text": "Scarlet fever",
-        "tier": 30
-      },
-      {
-        "text": "Rubella",
-        "aliases": [
-          "german measles"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Norovirus",
-        "tier": 30
-      },
-      {
-        "text": "RSV",
-        "tier": 30
-      },
-      {
-        "text": "Hand, foot and mouth",
-        "aliases": [
-          "hand foot and mouth disease"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Ringworm",
-        "tier": 30
-      },
-      {
-        "text": "Athlete's foot",
-        "tier": 30
-      },
-      {
-        "text": "Allergies",
-        "tier": 30
-      },
-      {
-        "text": "Eczema",
-        "tier": 30
-      },
-      {
-        "text": "Psoriasis",
-        "tier": 30
-      },
-      {
-        "text": "Acne",
-        "tier": 30
-      },
-      {
-        "text": "Gout",
-        "tier": 30
-      },
-      {
-        "text": "Osteoporosis",
-        "tier": 30
-      },
-      {
-        "text": "Kidney stones",
-        "tier": 30
-      },
-      {
-        "text": "Appendicitis",
-        "tier": 30
-      },
-      {
-        "text": "Tonsillitis",
-        "tier": 30
-      },
-      {
-        "text": "Laryngitis",
-        "tier": 30
-      },
-      {
-        "text": "Meningitis",
-        "tier": 30
-      },
-      {
-        "text": "Encephalitis",
-        "tier": 30
-      },
-      {
-        "text": "Sepsis",
-        "tier": 30
-      },
-      {
-        "text": "Gangrene",
-        "tier": 30
-      },
-      {
-        "text": "Leprosy",
-        "tier": 30
-      },
-      {
-        "text": "Diphtheria",
-        "tier": 30
-      },
-      {
-        "text": "Zika",
-        "tier": 30
-      },
-      {
-        "text": "West Nile virus",
-        "aliases": [
-          "west nile"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mad cow disease",
-        "aliases": [
-          "bse"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bird flu",
-        "aliases": [
-          "avian flu"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Swine flu",
-        "aliases": [
-          "h1n1"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "SARS",
-        "tier": 30
-      },
-      {
-        "text": "MERS",
-        "tier": 30
-      },
-      {
-        "text": "Monkeypox",
-        "aliases": [
-          "mpox"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Lice",
+        "text": "Skin",
         "tier": 15
       },
       {
-        "text": "Dancing plague",
+        "text": "Placenta",
         "tier": 15
       },
       {
-        "text": "Bubonic plague",
-        "aliases": [
-          "black death",
-          "plague"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Cooties",
-        "tier": 15
-      },
-      {
-        "text": "Cancer",
+        "text": "Heart",
         "tier": 10
       },
       {
-        "text": "Flu",
+        "text": "Brain",
+        "tier": 10
+      },
+      {
+        "text": "Lungs",
         "aliases": [
-          "influenza"
+          "lung"
         ],
         "tier": 10
       },
       {
-        "text": "Cold",
+        "text": "Liver",
+        "tier": 10
+      },
+      {
+        "text": "Kidneys",
         "aliases": [
-          "common cold"
+          "kidney"
         ],
         "tier": 10
       },
       {
-        "text": "COVID",
-        "aliases": [
-          "covid-19",
-          "coronavirus",
-          "covid 19"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Diabetes",
-        "tier": 10
-      },
-      {
-        "text": "Chickenpox",
-        "aliases": [
-          "chicken pox"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Measles",
+        "text": "Stomach",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Headache",
-      "Cough",
-      "Fever",
-      "Sneeze",
-      "Broken arm",
-      "Bruise",
-      "Hangover"
-    ]
+      "Blood",
+      "Bones",
+      "Muscles",
+      "Hair",
+      "Nails",
+      "Teeth",
+      "Veins",
+      "Arteries",
+      "Nerves",
+      "Skeleton",
+      "Ribs",
+      "Skull"
+    ],
+    "notes": "Organs and glands (including organ systems' main parts like the colon or spinal cord). Bones, muscles, and fluids don't count."
   },
   {
     "id": "q0115",
@@ -5744,28 +4900,16 @@
   },
   {
     "id": "q0117",
-    "prompt": "Name something you'd find in a science lab",
+    "prompt": "Name a piece of science lab equipment",
     "category": "science",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Erlenmeyer flask",
+        "text": "Soxhlet extractor",
         "aliases": [
-          "erlenmeyer"
+          "soxhlet"
         ],
         "tier": 100
-      },
-      {
-        "text": "Kipp's apparatus",
-        "tier": 85
-      },
-      {
-        "text": "Soxhlet extractor",
-        "tier": 85
-      },
-      {
-        "text": "Dean-Stark apparatus",
-        "tier": 85
       },
       {
         "text": "Schlenk line",
@@ -5774,7 +4918,8 @@
       {
         "text": "Rotary evaporator",
         "aliases": [
-          "rotovap"
+          "rotovap",
+          "rotavap"
         ],
         "tier": 85
       },
@@ -5783,60 +4928,284 @@
         "tier": 85
       },
       {
-        "text": "Allihn condenser",
-        "tier": 85
-      },
-      {
-        "text": "Vigreux column",
-        "tier": 85
-      },
-      {
-        "text": "Kjeldahl flask",
-        "tier": 85
-      },
-      {
-        "text": "Thiele tube",
-        "tier": 85
-      },
-      {
-        "text": "Mel-Temp",
+        "text": "Dewar flask",
         "aliases": [
-          "melting point apparatus"
+          "dewar"
         ],
         "tier": 85
       },
       {
-        "text": "Refractometer",
+        "text": "Kipp's apparatus",
+        "aliases": [
+          "kipps apparatus"
+        ],
         "tier": 85
       },
       {
-        "text": "Polarimeter",
+        "text": "Cuvette",
         "tier": 85
       },
       {
-        "text": "Calorimeter",
+        "text": "Well plate",
+        "aliases": [
+          "microplate",
+          "microtiter plate"
+        ],
         "tier": 85
       },
       {
-        "text": "Bomb calorimeter",
-        "tier": 85
-      },
-      {
-        "text": "Gas chromatograph",
-        "tier": 85
-      },
-      {
-        "text": "HPLC",
+        "text": "Thermocycler",
+        "aliases": [
+          "pcr machine"
+        ],
         "tier": 85
       },
       {
         "text": "Mass spectrometer",
+        "aliases": [
+          "mass spec"
+        ],
         "tier": 85
       },
       {
         "text": "NMR machine",
         "aliases": [
-          "nmr"
+          "nmr",
+          "nmr spectrometer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Calorimeter",
+        "aliases": [
+          "bomb calorimeter"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hydrometer",
+        "tier": 85
+      },
+      {
+        "text": "Manometer",
+        "tier": 85
+      },
+      {
+        "text": "Glovebox",
+        "aliases": [
+          "glove box"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Laminar flow hood",
+        "aliases": [
+          "laminar flow cabinet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vortex mixer",
+        "aliases": [
+          "vortexer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Desiccator",
+        "tier": 85
+      },
+      {
+        "text": "Clay triangle",
+        "aliases": [
+          "pipe clay triangle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Inoculating loop",
+        "aliases": [
+          "wire loop"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gas syringe",
+        "tier": 85
+      },
+      {
+        "text": "Spectroscope",
+        "tier": 85
+      },
+      {
+        "text": "Oscilloscope",
+        "tier": 85
+      },
+      {
+        "text": "Ammeter",
+        "tier": 85
+      },
+      {
+        "text": "Voltmeter",
+        "tier": 85
+      },
+      {
+        "text": "Multimeter",
+        "tier": 85
+      },
+      {
+        "text": "Retort",
+        "aliases": [
+          "retort flask"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Separatory funnel",
+        "aliases": [
+          "sep funnel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Buchner funnel",
+        "aliases": [
+          "büchner funnel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Volumetric flask",
+        "tier": 85
+      },
+      {
+        "text": "Round-bottom flask",
+        "aliases": [
+          "round bottom flask"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Florence flask",
+        "tier": 85
+      },
+      {
+        "text": "Weighing boat",
+        "aliases": [
+          "weigh boat"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Scoopula",
+        "tier": 85
+      },
+      {
+        "text": "Pipette bulb",
+        "aliases": [
+          "pipette filler"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Micropipette",
+        "tier": 85
+      },
+      {
+        "text": "Evaporating dish",
+        "tier": 85
+      },
+      {
+        "text": "Crucible",
+        "tier": 85
+      },
+      {
+        "text": "Watch glass",
+        "tier": 85
+      },
+      {
+        "text": "Wire gauze",
+        "tier": 85
+      },
+      {
+        "text": "Ring stand",
+        "aliases": [
+          "retort stand"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Utility clamp",
+        "aliases": [
+          "clamp"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alcohol burner",
+        "aliases": [
+          "spirit lamp"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Distillation apparatus",
+        "aliases": [
+          "still"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Condenser",
+        "tier": 85
+      },
+      {
+        "text": "Autoclave",
+        "tier": 85
+      },
+      {
+        "text": "Water bath",
+        "tier": 85
+      },
+      {
+        "text": "Incubator",
+        "tier": 85
+      },
+      {
+        "text": "Chromatography paper",
+        "tier": 85
+      },
+      {
+        "text": "Gel electrophoresis",
+        "aliases": [
+          "electrophoresis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Agar plate",
+        "tier": 85
+      },
+      {
+        "text": "Bell jar",
+        "tier": 85
+      },
+      {
+        "text": "Barometer",
+        "tier": 85
+      },
+      {
+        "text": "Spring scale",
+        "aliases": [
+          "newton meter",
+          "spring balance"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Triple beam balance",
+        "aliases": [
+          "triple beam"
         ],
         "tier": 85
       },
@@ -5845,59 +5214,50 @@
         "tier": 85
       },
       {
-        "text": "Top-loading balance",
+        "text": "Lab notebook",
         "tier": 85
       },
       {
-        "text": "Triple beam balance",
+        "text": "Dissecting tray",
+        "aliases": [
+          "dissection tray"
+        ],
         "tier": 85
       },
       {
-        "text": "Spring scale",
+        "text": "Scalpel",
         "tier": 85
       },
       {
-        "text": "Clay triangle",
+        "text": "Forceps",
         "tier": 85
       },
       {
-        "text": "Pipe-stem triangle",
+        "text": "Tweezers",
         "tier": 85
       },
       {
-        "text": "Crucible tongs",
+        "text": "Prism",
         "tier": 85
       },
       {
-        "text": "Beaker tongs",
+        "text": "Lens",
         "tier": 85
       },
       {
-        "text": "Test tube holder",
+        "text": "Magnet",
         "tier": 85
       },
       {
-        "text": "Utility clamp",
+        "text": "Tripod",
         "tier": 85
       },
       {
-        "text": "Burette clamp",
-        "tier": 85
-      },
-      {
-        "text": "Iron ring",
-        "tier": 85
-      },
-      {
-        "text": "Wire mesh",
-        "tier": 85
-      },
-      {
-        "text": "Boiling chips",
-        "tier": 85
-      },
-      {
-        "text": "Rubber stopper",
+        "text": "Stopper",
+        "aliases": [
+          "rubber stopper",
+          "bung"
+        ],
         "tier": 85
       },
       {
@@ -5905,11 +5265,44 @@
         "tier": 85
       },
       {
-        "text": "Parafilm",
+        "text": "Rubber tubing",
+        "aliases": [
+          "tubing"
+        ],
         "tier": 85
       },
       {
-        "text": "Septum",
+        "text": "Test tube holder",
+        "tier": 85
+      },
+      {
+        "text": "Test tube rack",
+        "tier": 85
+      },
+      {
+        "text": "Crucible tongs",
+        "aliases": [
+          "tongs"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Eyewash station",
+        "aliases": [
+          "eye wash"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Safety shower",
+        "tier": 85
+      },
+      {
+        "text": "Fire blanket",
+        "tier": 85
+      },
+      {
+        "text": "Fire extinguisher",
         "tier": 85
       },
       {
@@ -5917,166 +5310,111 @@
         "tier": 85
       },
       {
-        "text": "Cannula",
+        "text": "Stopwatch",
         "tier": 85
       },
       {
-        "text": "Needle",
-        "tier": 85
-      },
-      {
-        "text": "Inoculating loop",
-        "tier": 85
-      },
-      {
-        "text": "Streak plate",
-        "tier": 85
-      },
-      {
-        "text": "Spreader",
-        "tier": 85
-      },
-      {
-        "text": "Colony counter",
-        "tier": 85
-      },
-      {
-        "text": "Anaerobic jar",
-        "tier": 85
-      },
-      {
-        "text": "Shaker incubator",
-        "tier": 85
-      },
-      {
-        "text": "Lyophilizer",
+        "text": "Meter stick",
         "aliases": [
-          "freeze dryer"
+          "metre stick",
+          "ruler"
         ],
         "tier": 85
       },
       {
-        "text": "Sonicator",
+        "text": "Wash bottle",
+        "aliases": [
+          "squeeze bottle"
+        ],
         "tier": 85
       },
       {
-        "text": "Homogenizer",
+        "text": "Litmus paper",
+        "aliases": [
+          "ph paper"
+        ],
         "tier": 85
       },
       {
-        "text": "Microtome",
+        "text": "pH meter",
+        "aliases": [
+          "ph probe"
+        ],
         "tier": 85
       },
       {
-        "text": "Cryostat",
+        "text": "Filter paper",
         "tier": 85
       },
       {
-        "text": "Flow cytometer",
+        "text": "Stirring rod",
+        "aliases": [
+          "glass rod"
+        ],
         "tier": 85
       },
       {
-        "text": "Plate reader",
+        "text": "Magnetic stirrer",
+        "aliases": [
+          "stir bar",
+          "stir plate"
+        ],
         "tier": 85
       },
       {
-        "text": "Sequencer",
+        "text": "Hot plate",
+        "aliases": [
+          "hotplate"
+        ],
         "tier": 85
       },
       {
-        "text": "Gel doc",
+        "text": "Oven",
+        "aliases": [
+          "drying oven"
+        ],
         "tier": 85
       },
       {
-        "text": "Transilluminator",
+        "text": "Mortar and pestle",
+        "aliases": [
+          "mortar",
+          "pestle"
+        ],
         "tier": 85
       },
       {
-        "text": "UV lamp",
+        "text": "Spatula",
         "tier": 85
       },
       {
-        "text": "Geiger counter",
+        "text": "Cover slip",
+        "aliases": [
+          "coverslip"
+        ],
         "tier": 85
       },
       {
-        "text": "Van de Graaff generator",
+        "text": "Glass slide",
+        "aliases": [
+          "microscope slide",
+          "slide"
+        ],
         "tier": 85
       },
       {
-        "text": "Tesla coil",
+        "text": "Magnifying glass",
+        "aliases": [
+          "magnifier"
+        ],
         "tier": 85
       },
       {
-        "text": "Wimshurst machine",
+        "text": "Fume hood",
         "tier": 85
       },
       {
-        "text": "Leyden jar",
-        "tier": 85
-      },
-      {
-        "text": "Galvanometer",
-        "tier": 85
-      },
-      {
-        "text": "Rheostat",
-        "tier": 85
-      },
-      {
-        "text": "Breadboard",
-        "tier": 85
-      },
-      {
-        "text": "Soldering iron",
-        "tier": 85
-      },
-      {
-        "text": "Volumetric flask",
-        "tier": 60
-      },
-      {
-        "text": "Florence flask",
-        "tier": 60
-      },
-      {
-        "text": "Round-bottom flask",
-        "tier": 60
-      },
-      {
-        "text": "Distillation apparatus",
-        "tier": 60
-      },
-      {
-        "text": "Condenser",
-        "tier": 60
-      },
-      {
-        "text": "Separatory funnel",
-        "tier": 60
-      },
-      {
-        "text": "Buchner funnel",
-        "tier": 60
-      },
-      {
-        "text": "Watch glass",
-        "tier": 60
-      },
-      {
-        "text": "Evaporating dish",
-        "tier": 60
-      },
-      {
-        "text": "Desiccator",
-        "tier": 60
-      },
-      {
-        "text": "Autoclave",
-        "tier": 60
-      },
-      {
-        "text": "Incubator",
+        "text": "Centrifuge",
         "tier": 60
       },
       {
@@ -6084,466 +5422,93 @@
         "tier": 60
       },
       {
-        "text": "Spectrometer",
-        "tier": 60
-      },
-      {
-        "text": "Oscilloscope",
-        "tier": 60
-      },
-      {
-        "text": "Multimeter",
-        "tier": 60
-      },
-      {
-        "text": "Voltmeter",
-        "tier": 60
-      },
-      {
-        "text": "Ammeter",
-        "tier": 60
-      },
-      {
-        "text": "Power supply",
-        "tier": 60
-      },
-      {
-        "text": "Laser",
-        "tier": 60
-      },
-      {
-        "text": "Prism",
-        "tier": 60
-      },
-      {
-        "text": "Lens",
-        "tier": 60
-      },
-      {
-        "text": "Telescope",
-        "tier": 60
-      },
-      {
-        "text": "Vernier caliper",
-        "tier": 60
-      },
-      {
-        "text": "Micrometer",
-        "tier": 60
-      },
-      {
-        "text": "Stopwatch",
-        "tier": 60
-      },
-      {
-        "text": "Timer",
-        "tier": 60
-      },
-      {
-        "text": "pH meter",
-        "tier": 60
-      },
-      {
-        "text": "Hydrometer",
-        "tier": 60
-      },
-      {
-        "text": "Barometer",
-        "tier": 60
-      },
-      {
-        "text": "Hygrometer",
-        "tier": 60
-      },
-      {
-        "text": "Magnet",
-        "tier": 60
-      },
-      {
-        "text": "Magnetic stirrer",
+        "text": "Burette",
         "aliases": [
-          "stir plate"
+          "buret"
         ],
         "tier": 60
       },
       {
-        "text": "Stir bar",
-        "tier": 60
-      },
-      {
-        "text": "Vortex mixer",
-        "tier": 60
-      },
-      {
-        "text": "Water bath",
-        "tier": 60
-      },
-      {
-        "text": "Heating mantle",
-        "tier": 60
-      },
-      {
-        "text": "Oven",
-        "tier": 60
-      },
-      {
-        "text": "Freezer",
-        "tier": 60
-      },
-      {
-        "text": "Refrigerator",
-        "tier": 60
-      },
-      {
-        "text": "Liquid nitrogen",
-        "tier": 60
-      },
-      {
-        "text": "Dry ice",
-        "tier": 60
-      },
-      {
-        "text": "Cryogenic freezer",
-        "tier": 60
-      },
-      {
-        "text": "Biosafety cabinet",
-        "tier": 60
-      },
-      {
-        "text": "Laminar flow hood",
-        "tier": 60
-      },
-      {
-        "text": "Glove box",
-        "tier": 60
-      },
-      {
-        "text": "Wash bottle",
+        "text": "Erlenmeyer flask",
         "aliases": [
-          "squirt bottle"
+          "conical flask"
         ],
         "tier": 60
       },
       {
-        "text": "Reagent bottle",
-        "tier": 60
-      },
-      {
-        "text": "Dropper bottle",
-        "tier": 60
-      },
-      {
-        "text": "Sharps container",
-        "tier": 60
-      },
-      {
-        "text": "Biohazard bin",
-        "tier": 60
-      },
-      {
-        "text": "Chemical waste container",
-        "tier": 60
-      },
-      {
-        "text": "Lab apron",
-        "tier": 60
-      },
-      {
-        "text": "Face shield",
-        "tier": 60
-      },
-      {
-        "text": "Respirator",
-        "tier": 60
-      },
-      {
-        "text": "Safety glasses",
-        "tier": 60
-      },
-      {
-        "text": "Cell culture",
-        "tier": 60
-      },
-      {
-        "text": "Specimen jar",
-        "tier": 60
-      },
-      {
-        "text": "Formaldehyde",
-        "tier": 60
-      },
-      {
-        "text": "Dissection kit",
-        "tier": 60
-      },
-      {
-        "text": "Scalpel",
-        "tier": 60
-      },
-      {
-        "text": "Forceps",
-        "tier": 60
-      },
-      {
-        "text": "Probe",
-        "tier": 60
-      },
-      {
-        "text": "Dissecting pan",
-        "tier": 60
-      },
-      {
-        "text": "Microcentrifuge tube",
+        "text": "Graduated cylinder",
         "aliases": [
-          "eppendorf tube"
+          "measuring cylinder"
         ],
         "tier": 60
       },
       {
-        "text": "Micropipette",
-        "tier": 60
-      },
-      {
-        "text": "Pipette tips",
-        "tier": 60
-      },
-      {
-        "text": "PCR machine",
+        "text": "Dropper",
         "aliases": [
-          "thermocycler"
+          "eye dropper",
+          "eyedropper"
         ],
         "tier": 60
       },
       {
-        "text": "Gel electrophoresis",
+        "text": "Funnel",
         "tier": 60
       },
       {
-        "text": "Western blot",
+        "text": "Thermometer",
         "tier": 60
       },
       {
-        "text": "Fluorescent microscope",
-        "tier": 60
-      },
-      {
-        "text": "Electron microscope",
-        "tier": 60
-      },
-      {
-        "text": "Hemocytometer",
-        "tier": 60
-      },
-      {
-        "text": "Cuvette",
-        "tier": 60
-      },
-      {
-        "text": "Bottle brush",
-        "tier": 60
-      },
-      {
-        "text": "Clipboard",
-        "tier": 60
-      },
-      {
-        "text": "Lab manual",
-        "tier": 60
-      },
-      {
-        "text": "MSDS",
+        "text": "Balance",
         "aliases": [
-          "safety data sheet"
+          "scale",
+          "lab scale"
         ],
         "tier": 60
       },
       {
-        "text": "Fire blanket",
+        "text": "Lab coat",
         "tier": 60
       },
       {
-        "text": "First aid kit",
+        "text": "Gloves",
+        "aliases": [
+          "lab gloves"
+        ],
         "tier": 60
+      },
+      {
+        "text": "Petri dish",
+        "tier": 60
+      },
+      {
+        "text": "Pipette",
+        "aliases": [
+          "pipet"
+        ],
+        "tier": 30
       },
       {
         "text": "Flask",
         "tier": 30
       },
       {
-        "text": "Graduated cylinder",
-        "tier": 30
-      },
-      {
-        "text": "Pipette",
+        "text": "Safety goggles",
         "aliases": [
-          "pipet",
-          "dropper"
+          "goggles"
         ],
-        "tier": 30
-      },
-      {
-        "text": "Burette",
-        "aliases": [
-          "buret"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Scale",
-        "aliases": [
-          "balance"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Thermometer",
-        "tier": 30
-      },
-      {
-        "text": "Test tube rack",
-        "tier": 30
-      },
-      {
-        "text": "Tongs",
-        "tier": 30
-      },
-      {
-        "text": "Gloves",
-        "tier": 30
-      },
-      {
-        "text": "Slides",
-        "aliases": [
-          "microscope slide"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Funnel",
-        "tier": 30
-      },
-      {
-        "text": "Magnifying glass",
         "tier": 30
       },
       {
         "text": "Periodic table",
-        "tier": 30
+        "tier": 15
       },
       {
-        "text": "Chemicals",
-        "tier": 30
-      },
-      {
-        "text": "Fume hood",
-        "tier": 30
-      },
-      {
-        "text": "Eyewash station",
-        "tier": 30
-      },
-      {
-        "text": "Fire extinguisher",
-        "tier": 30
-      },
-      {
-        "text": "Safety shower",
-        "tier": 30
-      },
-      {
-        "text": "Centrifuge",
-        "tier": 30
-      },
-      {
-        "text": "Hot plate",
-        "tier": 30
-      },
-      {
-        "text": "Stirring rod",
+        "text": "Skeleton model",
         "aliases": [
-          "glass rod"
+          "skeleton"
         ],
-        "tier": 30
-      },
-      {
-        "text": "Spatula",
-        "tier": 30
-      },
-      {
-        "text": "Ring stand",
-        "tier": 30
-      },
-      {
-        "text": "Clamp",
-        "tier": 30
-      },
-      {
-        "text": "Tripod",
-        "tier": 30
-      },
-      {
-        "text": "Wire gauze",
-        "tier": 30
-      },
-      {
-        "text": "Crucible",
-        "tier": 30
-      },
-      {
-        "text": "Mortar and pestle",
-        "tier": 30
-      },
-      {
-        "text": "Filter paper",
-        "tier": 30
-      },
-      {
-        "text": "Litmus paper",
-        "tier": 30
-      },
-      {
-        "text": "pH strips",
-        "tier": 30
-      },
-      {
-        "text": "Computer",
-        "tier": 30
-      },
-      {
-        "text": "Notebook",
-        "aliases": [
-          "lab notebook"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sink",
-        "tier": 30
-      },
-      {
-        "text": "Lab bench",
-        "tier": 30
-      },
-      {
-        "text": "Stool",
-        "tier": 30
-      },
-      {
-        "text": "Skeleton",
         "tier": 15
-      },
-      {
-        "text": "Petri dish",
-        "tier": 15
-      },
-      {
-        "text": "Lab rat",
-        "tier": 15
-      },
-      {
-        "text": "Microscope",
-        "tier": 10
       },
       {
         "text": "Beaker",
@@ -6554,33 +5519,28 @@
         "tier": 10
       },
       {
-        "text": "Goggles",
+        "text": "Bunsen burner",
         "aliases": [
-          "safety goggles"
+          "bunsen"
         ],
         "tier": 10
       },
       {
-        "text": "Lab coat",
-        "tier": 10
-      },
-      {
-        "text": "Bunsen burner",
-        "tier": 10
-      },
-      {
-        "text": "Scientist",
+        "text": "Microscope",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Chalkboard",
-      "Lunch",
-      "Bed",
-      "Couch",
-      "Television",
-      "tv"
-    ]
+      "Chemicals",
+      "Acid",
+      "Water",
+      "Computer",
+      "Whiteboard",
+      "Desk",
+      "Calculator",
+      "Pencil"
+    ],
+    "notes": "Equipment, glassware, instruments and safety gear found in school or research labs. Chemicals don't count."
   },
   {
     "id": "q0118",

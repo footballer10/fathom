@@ -1,650 +1,707 @@
 [
   {
     "id": "q0071",
-    "prompt": "Name an ice cream flavor",
-    "category": "food",
+    "prompt": "Name a Disney princess or Disney/Pixar animated villain",
+    "category": "movies-tv",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Superman ice cream",
-        "aliases": [
-          "superman"
-        ],
+        "text": "Chernabog",
         "tier": 100
       },
       {
-        "text": "Grape-Nuts",
+        "text": "Stromboli",
         "tier": 85
       },
       {
-        "text": "Sweet corn",
-        "tier": 85
-      },
-      {
-        "text": "Avocado",
-        "tier": 85
-      },
-      {
-        "text": "Olive oil",
-        "tier": 85
-      },
-      {
-        "text": "Goat cheese",
-        "tier": 85
-      },
-      {
-        "text": "Blue moon",
-        "tier": 85
-      },
-      {
-        "text": "Teaberry",
-        "tier": 85
-      },
-      {
-        "text": "Frozen custard",
-        "tier": 85
-      },
-      {
-        "text": "Malted milk",
-        "tier": 85
-      },
-      {
-        "text": "Brown butter",
-        "tier": 85
-      },
-      {
-        "text": "Burnt sugar",
-        "tier": 85
-      },
-      {
-        "text": "Earl Grey",
-        "tier": 85
-      },
-      {
-        "text": "Rose",
-        "tier": 85
-      },
-      {
-        "text": "Saffron",
+        "text": "Honest John",
         "aliases": [
-          "kulfi"
+          "foulfellow",
+          "j. worthington foulfellow"
         ],
         "tier": 85
       },
       {
-        "text": "Cardamom",
+        "text": "Gideon",
         "tier": 85
       },
       {
-        "text": "Ginger",
-        "tier": 85
-      },
-      {
-        "text": "Black pepper",
-        "tier": 85
-      },
-      {
-        "text": "Basil",
-        "tier": 85
-      },
-      {
-        "text": "Jalapeno",
-        "tier": 85
-      },
-      {
-        "text": "Bacon",
-        "tier": 85
-      },
-      {
-        "text": "Beer",
-        "tier": 85
-      },
-      {
-        "text": "Bourbon",
-        "tier": 85
-      },
-      {
-        "text": "Champagne",
-        "tier": 85
-      },
-      {
-        "text": "Whiskey",
-        "tier": 85
-      },
-      {
-        "text": "Mezcal",
-        "tier": 85
-      },
-      {
-        "text": "Durian",
-        "tier": 85
-      },
-      {
-        "text": "Jackfruit",
-        "tier": 85
-      },
-      {
-        "text": "Guava",
-        "tier": 85
-      },
-      {
-        "text": "Soursop",
-        "tier": 85
-      },
-      {
-        "text": "Mamey",
-        "tier": 85
-      },
-      {
-        "text": "Lucuma",
-        "tier": 85
-      },
-      {
-        "text": "Cherimoya",
-        "tier": 85
-      },
-      {
-        "text": "Sapote",
-        "tier": 85
-      },
-      {
-        "text": "Persimmon",
-        "tier": 85
-      },
-      {
-        "text": "Fig",
-        "tier": 85
-      },
-      {
-        "text": "Prickly pear",
-        "tier": 85
-      },
-      {
-        "text": "Elderflower",
-        "tier": 85
-      },
-      {
-        "text": "Hibiscus",
-        "tier": 85
-      },
-      {
-        "text": "Violet",
-        "tier": 85
-      },
-      {
-        "text": "Pandan",
-        "tier": 85
-      },
-      {
-        "text": "Kinako",
-        "tier": 85
-      },
-      {
-        "text": "Hojicha",
-        "tier": 85
-      },
-      {
-        "text": "Yuzu",
-        "tier": 85
-      },
-      {
-        "text": "Sesame",
-        "tier": 85
-      },
-      {
-        "text": "Pine nut",
-        "tier": 85
-      },
-      {
-        "text": "Chestnut",
-        "tier": 85
-      },
-      {
-        "text": "Marzipan",
-        "tier": 85
-      },
-      {
-        "text": "Nougat",
-        "tier": 85
-      },
-      {
-        "text": "Halva",
-        "tier": 85
-      },
-      {
-        "text": "Baklava",
-        "tier": 85
-      },
-      {
-        "text": "Cannoli",
-        "tier": 85
-      },
-      {
-        "text": "Zabaglione",
-        "tier": 85
-      },
-      {
-        "text": "Gianduja",
-        "tier": 85
-      },
-      {
-        "text": "Amarena",
-        "tier": 85
-      },
-      {
-        "text": "Rum raisin",
-        "tier": 60
-      },
-      {
-        "text": "Maple walnut",
-        "tier": 60
-      },
-      {
-        "text": "Pralines and cream",
-        "tier": 60
-      },
-      {
-        "text": "Dulce de leche",
-        "tier": 60
-      },
-      {
-        "text": "Matcha",
+        "text": "The Coachman",
         "aliases": [
-          "green tea"
+          "coachman"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Monstro",
+        "tier": 85
+      },
+      {
+        "text": "Si and Am",
+        "aliases": [
+          "siamese cats"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rat",
+        "aliases": [
+          "the rat"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Diablo",
+        "tier": 85
+      },
+      {
+        "text": "Jasper and Horace",
+        "aliases": [
+          "jasper",
+          "horace"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Madam Mim",
+        "aliases": [
+          "madame mim"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kaa",
+        "tier": 85
+      },
+      {
+        "text": "Edgar",
+        "aliases": [
+          "edgar balthazar"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sir Hiss",
+        "tier": 85
+      },
+      {
+        "text": "Sheriff of Nottingham",
+        "tier": 85
+      },
+      {
+        "text": "Madame Medusa",
+        "aliases": [
+          "medusa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Snoops",
+        "tier": 85
+      },
+      {
+        "text": "Amos Slade",
+        "tier": 85
+      },
+      {
+        "text": "Horned King",
+        "aliases": [
+          "the horned king"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Creeper",
+        "tier": 85
+      },
+      {
+        "text": "Fidget",
+        "tier": 85
+      },
+      {
+        "text": "Sykes",
+        "tier": 85
+      },
+      {
+        "text": "Flotsam and Jetsam",
+        "aliases": [
+          "flotsam",
+          "jetsam"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Percival McLeach",
+        "aliases": [
+          "mcleach"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "LeFou",
+        "aliases": [
+          "lefou"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shenzi",
+        "aliases": [
+          "banzai and ed",
+          "hyenas"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pain and Panic",
+        "aliases": [
+          "pain",
+          "panic"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nessus",
+        "tier": 85
+      },
+      {
+        "text": "Helga Sinclair",
+        "aliases": [
+          "helga"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Captain Gantu",
+        "aliases": [
+          "gantu"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "John Silver",
+        "aliases": [
+          "long john silver"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Scroop",
+        "tier": 85
+      },
+      {
+        "text": "Alameda Slim",
+        "tier": 85
+      },
+      {
+        "text": "Bowler Hat Guy",
+        "aliases": [
+          "goob"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Doris",
+        "tier": 85
+      },
+      {
+        "text": "Dr. Calico",
+        "aliases": [
+          "doctor calico"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Duke of Weselton",
+        "aliases": [
+          "duke of weaseltown"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Te Ka",
+        "aliases": [
+          "te kā"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Druun",
+        "tier": 85
+      },
+      {
+        "text": "King Candy",
+        "aliases": [
+          "turbo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pete",
+        "aliases": [
+          "peg leg pete"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Morgana",
+        "tier": 85
+      },
+      {
+        "text": "Kida",
+        "aliases": [
+          "princess kida"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Eilonwy",
+        "aliases": [
+          "princess eilonwy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vanellope von Schweetz",
+        "aliases": [
+          "vanellope"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Atta",
+        "aliases": [
+          "princess atta"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dot",
+        "aliases": [
+          "princess dot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Melody",
+        "tier": 85
+      },
+      {
+        "text": "Maid Marian",
+        "tier": 85
+      },
+      {
+        "text": "Stinky Pete",
+        "aliases": [
+          "the prospector"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sid",
+        "aliases": [
+          "sid phillips"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hopper",
+        "tier": 85
+      },
+      {
+        "text": "Randall",
+        "aliases": [
+          "randall boggs"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Henry J. Waternoose",
+        "aliases": [
+          "waternoose"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chef Skinner",
+        "aliases": [
+          "skinner"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Charles Muntz",
+        "aliases": [
+          "muntz"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chick Hicks",
+        "tier": 85
+      },
+      {
+        "text": "Professor Z",
+        "aliases": [
+          "professor zündapp"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mor'du",
+        "aliases": [
+          "mordu"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Evelyn Deavor",
+        "aliases": [
+          "screenslaver"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ernesto de la Cruz",
+        "aliases": [
+          "ernesto"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Al McWhiggin",
+        "aliases": [
+          "al",
+          "als toy barn"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Darla",
+        "tier": 85
+      },
+      {
+        "text": "Gabby Gabby",
+        "tier": 85
+      },
+      {
+        "text": "Auto",
+        "tier": 85
+      },
+      {
+        "text": "Miles Axlerod",
+        "tier": 85
+      },
+      {
+        "text": "The Underminer",
+        "aliases": [
+          "underminer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bomb Voyage",
+        "tier": 85
+      },
+      {
+        "text": "Zurg",
+        "aliases": [
+          "emperor zurg"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Queen Elinor",
+        "tier": 85
+      },
+      {
+        "text": "Queen Iduna",
+        "tier": 85
+      },
+      {
+        "text": "Lady Tremaine",
+        "aliases": [
+          "wicked stepmother",
+          "evil stepmother",
+          "stepmother"
         ],
         "tier": 60
       },
       {
-        "text": "Black sesame",
-        "tier": 60
-      },
-      {
-        "text": "Lavender",
-        "tier": 60
-      },
-      {
-        "text": "Honey lavender",
-        "tier": 60
-      },
-      {
-        "text": "Lemon",
-        "tier": 60
-      },
-      {
-        "text": "Orange creamsicle",
+        "text": "Anastasia",
         "aliases": [
-          "creamsicle"
+          "anastasia tremaine"
         ],
         "tier": 60
       },
       {
-        "text": "Key lime",
-        "tier": 60
-      },
-      {
-        "text": "Pumpkin",
-        "tier": 60
-      },
-      {
-        "text": "Peppermint",
-        "tier": 60
-      },
-      {
-        "text": "Eggnog",
-        "tier": 60
-      },
-      {
-        "text": "Gingerbread",
-        "tier": 60
-      },
-      {
-        "text": "Cinnamon",
-        "tier": 60
-      },
-      {
-        "text": "Chai",
-        "tier": 60
-      },
-      {
-        "text": "Espresso",
-        "tier": 60
-      },
-      {
-        "text": "Mocha",
-        "tier": 60
-      },
-      {
-        "text": "Tiramisu",
-        "tier": 60
-      },
-      {
-        "text": "Spumoni",
-        "tier": 60
-      },
-      {
-        "text": "Tutti frutti",
-        "tier": 60
-      },
-      {
-        "text": "Stracciatella",
-        "tier": 60
-      },
-      {
-        "text": "Hazelnut",
+        "text": "Drizella",
         "aliases": [
-          "nutella"
+          "drizella tremaine"
         ],
         "tier": 60
       },
       {
-        "text": "Almond",
+        "text": "Lucifer",
         "tier": 60
       },
       {
-        "text": "Chocolate almond",
+        "text": "Queen of Hearts",
         "tier": 60
       },
       {
-        "text": "Pecan",
+        "text": "Shere Khan",
         "tier": 60
       },
       {
-        "text": "Black walnut",
+        "text": "Prince John",
         "tier": 60
       },
       {
-        "text": "Maple bacon",
-        "tier": 60
-      },
-      {
-        "text": "Sweet cream",
-        "tier": 60
-      },
-      {
-        "text": "Cookie butter",
-        "tier": 60
-      },
-      {
-        "text": "Cinnamon roll",
-        "tier": 60
-      },
-      {
-        "text": "Apple pie",
-        "tier": 60
-      },
-      {
-        "text": "Blueberry",
-        "tier": 60
-      },
-      {
-        "text": "Blackberry",
-        "tier": 60
-      },
-      {
-        "text": "Huckleberry",
-        "tier": 60
-      },
-      {
-        "text": "Chunky Monkey",
-        "tier": 60
-      },
-      {
-        "text": "Phish Food",
-        "tier": 60
-      },
-      {
-        "text": "Half Baked",
-        "tier": 60
-      },
-      {
-        "text": "Americone Dream",
-        "tier": 60
-      },
-      {
-        "text": "Tonight Dough",
-        "tier": 60
-      },
-      {
-        "text": "Mud pie",
-        "tier": 60
-      },
-      {
-        "text": "Death by chocolate",
-        "tier": 60
-      },
-      {
-        "text": "Double chocolate",
-        "tier": 60
-      },
-      {
-        "text": "White chocolate",
-        "tier": 60
-      },
-      {
-        "text": "Dark chocolate",
-        "tier": 60
-      },
-      {
-        "text": "Pineapple",
-        "tier": 60
-      },
-      {
-        "text": "Passion fruit",
-        "tier": 60
-      },
-      {
-        "text": "Lychee",
-        "tier": 60
-      },
-      {
-        "text": "Coconut pineapple",
+        "text": "Professor Ratigan",
         "aliases": [
-          "pina colada"
+          "ratigan"
         ],
         "tier": 60
       },
       {
-        "text": "Ube",
+        "text": "Governor Ratcliffe",
+        "aliases": [
+          "ratcliffe"
+        ],
         "tier": 60
       },
       {
-        "text": "Taro",
+        "text": "Judge Claude Frollo",
+        "aliases": [
+          "frollo",
+          "judge frollo"
+        ],
         "tier": 60
       },
       {
-        "text": "Red bean",
+        "text": "Shan Yu",
         "tier": 60
       },
       {
-        "text": "Horchata",
+        "text": "Clayton",
         "tier": 60
       },
       {
-        "text": "Fior di latte",
+        "text": "Yzma",
         "tier": 60
       },
       {
-        "text": "Butter pecan",
-        "tier": 30
+        "text": "Kronk",
+        "tier": 60
       },
       {
-        "text": "Pistachio",
-        "tier": 30
-      },
-      {
-        "text": "Coffee",
-        "tier": 30
-      },
-      {
-        "text": "Chocolate chip",
-        "tier": 30
-      },
-      {
-        "text": "Birthday cake",
+        "text": "Commander Rourke",
         "aliases": [
-          "cake batter"
+          "rourke",
+          "lyle rourke"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dr. Facilier",
+        "aliases": [
+          "facilier",
+          "shadow man"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Prince Hans",
+        "aliases": [
+          "hans"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Yokai",
+        "aliases": [
+          "professor callaghan",
+          "robert callaghan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bellwether",
+        "aliases": [
+          "dawn bellwether"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tamatoa",
+        "tier": 60
+      },
+      {
+        "text": "King Magnifico",
+        "aliases": [
+          "magnifico"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Iago",
+        "tier": 60
+      },
+      {
+        "text": "Syndrome",
+        "tier": 60
+      },
+      {
+        "text": "Lotso",
+        "aliases": [
+          "lots-o'-huggin' bear",
+          "lotso huggin bear"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Raya",
+        "tier": 60
+      },
+      {
+        "text": "Merida",
+        "tier": 60
+      },
+      {
+        "text": "Tiana",
+        "tier": 60
+      },
+      {
+        "text": "Rapunzel",
+        "tier": 60
+      },
+      {
+        "text": "Pocahontas",
+        "tier": 60
+      },
+      {
+        "text": "Mulan",
+        "tier": 60
+      },
+      {
+        "text": "Captain Hook",
+        "aliases": [
+          "hook"
         ],
         "tier": 30
       },
       {
-        "text": "Salted caramel",
+        "text": "Cruella de Vil",
         "aliases": [
-          "caramel"
+          "cruella",
+          "cruella deville"
         ],
         "tier": 30
       },
       {
-        "text": "Cherry Garcia",
+        "text": "Gaston",
         "tier": 30
       },
       {
-        "text": "Mint",
+        "text": "Hades",
         "tier": 30
       },
       {
-        "text": "Rainbow sherbet",
+        "text": "Mother Gothel",
         "aliases": [
-          "sherbet"
+          "gothel"
         ],
         "tier": 30
       },
       {
-        "text": "Peanut butter",
-        "tier": 30
-      },
-      {
-        "text": "Peanut butter cup",
-        "tier": 30
-      },
-      {
-        "text": "Chocolate peanut butter",
-        "tier": 30
-      },
-      {
-        "text": "Coconut",
-        "tier": 30
-      },
-      {
-        "text": "Mango",
-        "tier": 30
-      },
-      {
-        "text": "Banana",
-        "tier": 30
-      },
-      {
-        "text": "Black cherry",
-        "tier": 30
-      },
-      {
-        "text": "Butterscotch",
-        "tier": 30
-      },
-      {
-        "text": "Toffee",
+        "text": "Evil Queen",
         "aliases": [
-          "english toffee"
+          "queen grimhilde",
+          "wicked queen",
+          "the evil queen"
         ],
         "tier": 30
       },
       {
-        "text": "Fudge brownie",
+        "text": "Aurora",
         "aliases": [
-          "brownie"
+          "sleeping beauty",
+          "briar rose"
         ],
         "tier": 30
       },
       {
-        "text": "Strawberry cheesecake",
-        "aliases": [
-          "cheesecake"
-        ],
+        "text": "Anna",
         "tier": 30
       },
       {
-        "text": "French vanilla",
+        "text": "Moana",
         "tier": 30
       },
       {
-        "text": "Cotton candy",
-        "tier": 30
-      },
-      {
-        "text": "Bubble gum",
-        "aliases": [
-          "bubblegum"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Peach",
-        "tier": 30
-      },
-      {
-        "text": "Raspberry",
-        "tier": 30
-      },
-      {
-        "text": "Licorice",
-        "aliases": [
-          "black licorice"
-        ],
+        "text": "Oogie Boogie",
         "tier": 15
       },
       {
-        "text": "Neapolitan",
-        "tier": 15
-      },
-      {
-        "text": "Moose Tracks",
-        "tier": 15
-      },
-      {
-        "text": "Vanilla",
+        "text": "Cinderella",
         "tier": 10
       },
       {
-        "text": "Chocolate",
+        "text": "Ariel",
         "tier": 10
       },
       {
-        "text": "Strawberry",
+        "text": "Belle",
         "tier": 10
       },
       {
-        "text": "Mint chocolate chip",
-        "aliases": [
-          "mint chip"
-        ],
+        "text": "Elsa",
         "tier": 10
       },
       {
-        "text": "Cookies and cream",
-        "aliases": [
-          "cookies n cream",
-          "cookies & cream"
-        ],
+        "text": "Snow White",
         "tier": 10
       },
       {
-        "text": "Rocky road",
+        "text": "Jasmine",
         "tier": 10
       },
       {
-        "text": "Cookie dough",
-        "aliases": [
-          "chocolate chip cookie dough"
-        ],
+        "text": "Maleficent",
+        "tier": 10
+      },
+      {
+        "text": "Ursula",
+        "tier": 10
+      },
+      {
+        "text": "Scar",
+        "tier": 10
+      },
+      {
+        "text": "Jafar",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Ice",
-      "Cone",
-      "Sprinkles",
-      "Sundae",
-      "Popsicle"
-    ]
+      "Darth Vader",
+      "Thanos",
+      "Megara",
+      "Esmeralda",
+      "Tinker Bell",
+      "Mickey Mouse",
+      "Shrek",
+      "Fiona",
+      "Lord Farquaad",
+      "Princess Peach",
+      "Princess Leia",
+      "Wonder Woman",
+      "Voldemort",
+      "Bowser",
+      "Barbie"
+    ],
+    "notes": "Princesses from Disney and Pixar animated films (official Disney Princesses plus Elsa, Anna and other animated princesses) and the villains of those films."
   },
   {
     "id": "q0072",
@@ -5831,821 +5888,536 @@
   },
   {
     "id": "q0080",
-    "prompt": "Name something you'd bring on a camping trip",
-    "category": "everyday-objects",
+    "prompt": "Name a character from the TV show Friends",
+    "category": "movies-tv",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Spork",
+        "text": "Ugly Naked Guy",
         "tier": 100
       },
       {
-        "text": "Bivy sack",
+        "text": "Princess Consuela Bananahammock",
         "aliases": [
-          "bivy"
+          "princess consuela",
+          "consuela bananahammock"
         ],
         "tier": 85
       },
       {
-        "text": "Emergency blanket",
+        "text": "Frank Buffay Sr.",
         "aliases": [
-          "space blanket"
+          "frank buffay senior"
         ],
         "tier": 85
       },
       {
-        "text": "Signal mirror",
-        "tier": 85
-      },
-      {
-        "text": "Fire steel",
+        "text": "Phoebe Abbott",
         "aliases": [
-          "ferro rod"
+          "phoebe sr",
+          "phoebe senior"
         ],
         "tier": 85
       },
       {
-        "text": "Flint",
+        "text": "Lily Buffay",
         "tier": 85
       },
       {
-        "text": "Tinder",
+        "text": "Jack Geller",
         "tier": 85
       },
       {
-        "text": "Cotton balls",
+        "text": "Judy Geller",
         "tier": 85
       },
       {
-        "text": "Vaseline",
+        "text": "Gloria Tribbiani",
         "tier": 85
       },
       {
-        "text": "Waterproof matches",
-        "tier": 85
-      },
-      {
-        "text": "Storm matches",
-        "tier": 85
-      },
-      {
-        "text": "Butane",
-        "tier": 85
-      },
-      {
-        "text": "Jetboil",
-        "tier": 85
-      },
-      {
-        "text": "Dutch oven",
-        "tier": 85
-      },
-      {
-        "text": "Pie iron",
-        "tier": 85
-      },
-      {
-        "text": "Foil packets",
+        "text": "Joey Tribbiani Sr.",
         "aliases": [
-          "tin foil"
+          "joseph tribbiani"
         ],
         "tier": 85
       },
       {
-        "text": "Dehydrated meals",
+        "text": "Nora Bing",
         "aliases": [
-          "freeze-dried food"
+          "nora tyler bing",
+          "mrs bing"
         ],
         "tier": 85
       },
       {
-        "text": "Instant noodles",
-        "tier": 85
-      },
-      {
-        "text": "Oatmeal packets",
-        "tier": 85
-      },
-      {
-        "text": "Hot cocoa",
-        "tier": 85
-      },
-      {
-        "text": "Tea bags",
-        "tier": 85
-      },
-      {
-        "text": "Collapsible bucket",
-        "tier": 85
-      },
-      {
-        "text": "Water jug",
-        "tier": 85
-      },
-      {
-        "text": "Solar shower",
-        "tier": 85
-      },
-      {
-        "text": "Camp toilet",
-        "tier": 85
-      },
-      {
-        "text": "Wag bag",
-        "tier": 85
-      },
-      {
-        "text": "Potty trowel",
-        "tier": 85
-      },
-      {
-        "text": "Bear hang rope",
-        "tier": 85
-      },
-      {
-        "text": "Bug zapper",
-        "tier": 85
-      },
-      {
-        "text": "Citronella candle",
-        "tier": 85
-      },
-      {
-        "text": "Tick remover",
-        "tier": 85
-      },
-      {
-        "text": "Snake bite kit",
-        "tier": 85
-      },
-      {
-        "text": "Moleskin",
-        "tier": 85
-      },
-      {
-        "text": "Blister bandages",
-        "tier": 85
-      },
-      {
-        "text": "Splint",
-        "tier": 85
-      },
-      {
-        "text": "Tourniquet",
-        "tier": 85
-      },
-      {
-        "text": "Satellite messenger",
-        "tier": 85
-      },
-      {
-        "text": "Two-way radio",
+        "text": "Charles Bing",
         "aliases": [
-          "walkie-talkies"
+          "helena handbasket"
         ],
         "tier": 85
       },
       {
-        "text": "Hammock straps",
-        "tier": 85
-      },
-      {
-        "text": "Underquilt",
-        "tier": 85
-      },
-      {
-        "text": "Camp pillow",
-        "tier": 85
-      },
-      {
-        "text": "Earplugs",
-        "tier": 85
-      },
-      {
-        "text": "Eye mask",
-        "tier": 85
-      },
-      {
-        "text": "Star chart",
-        "tier": 85
-      },
-      {
-        "text": "Field guide",
-        "tier": 85
-      },
-      {
-        "text": "Fishing license",
-        "tier": 85
-      },
-      {
-        "text": "Tackle box",
-        "tier": 85
-      },
-      {
-        "text": "Bait",
+        "text": "Leonard Green",
         "aliases": [
-          "worms"
+          "dr green",
+          "dr. green"
         ],
         "tier": 85
       },
       {
-        "text": "Kayak",
+        "text": "Sandra Green",
         "tier": 85
       },
       {
-        "text": "Canoe",
+        "text": "Jill Green",
         "tier": 85
       },
       {
-        "text": "Life jacket",
+        "text": "Amy Green",
         "tier": 85
       },
       {
-        "text": "Mountain bike",
+        "text": "Mr. Treeger",
+        "aliases": [
+          "treeger"
+        ],
         "tier": 85
       },
       {
-        "text": "Frisbee",
+        "text": "Hugsy",
         "tier": 85
       },
       {
-        "text": "Horseshoes",
+        "text": "Chick",
+        "aliases": [
+          "the chick"
+        ],
         "tier": 85
       },
       {
-        "text": "Cornhole",
+        "text": "Duck",
+        "aliases": [
+          "the duck"
+        ],
         "tier": 85
       },
       {
-        "text": "Ukulele",
+        "text": "Paolo",
         "tier": 85
       },
       {
-        "text": "Harmonica",
+        "text": "Julie",
         "tier": 85
       },
       {
-        "text": "Bluetooth speaker",
+        "text": "Kathy",
         "tier": 85
       },
       {
-        "text": "Hacky sack",
+        "text": "Janine Lacroix",
+        "aliases": [
+          "janine"
+        ],
         "tier": 85
       },
       {
-        "text": "Kite",
+        "text": "Tag Jones",
+        "aliases": [
+          "tag"
+        ],
         "tier": 85
       },
       {
-        "text": "Tent stakes",
+        "text": "Joshua Burgin",
         "aliases": [
-          "stakes"
+          "joshua"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pete Becker",
+        "aliases": [
+          "pete"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Barry Farber",
+        "aliases": [
+          "barry"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mindy Hunter",
+        "aliases": [
+          "mindy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fun Bobby",
+        "tier": 85
+      },
+      {
+        "text": "Charlie Wheeler",
+        "aliases": [
+          "charlie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elizabeth Stevens",
+        "aliases": [
+          "elizabeth"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paul Stevens",
+        "tier": 85
+      },
+      {
+        "text": "Mona",
+        "tier": 85
+      },
+      {
+        "text": "David",
+        "aliases": [
+          "scientist david"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gary",
+        "aliases": [
+          "officer gary"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Eddie Menuek",
+        "aliases": [
+          "eddie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Erica",
+        "tier": 85
+      },
+      {
+        "text": "Will Colbert",
+        "aliases": [
+          "will"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kip",
+        "tier": 85
+      },
+      {
+        "text": "Gavin Mitchell",
+        "aliases": [
+          "gavin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mark Robinson",
+        "aliases": [
+          "mark"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Joanna",
+        "tier": 85
+      },
+      {
+        "text": "Sophie",
+        "tier": 85
+      },
+      {
+        "text": "Mr. Zelner",
+        "aliases": [
+          "zelner"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Frank Jr. Jr.",
+        "tier": 85
+      },
+      {
+        "text": "Leslie Buffay",
+        "aliases": [
+          "leslie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chandler Buffay",
+        "tier": 85
+      },
+      {
+        "text": "Cookie Tribbiani",
+        "aliases": [
+          "cookie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mary Angela",
+        "tier": 85
+      },
+      {
+        "text": "Gina Tribbiani",
+        "aliases": [
+          "gina"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dina Tribbiani",
+        "aliases": [
+          "dina"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tina Tribbiani",
+        "aliases": [
+          "tina"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Veronica Tribbiani",
+        "aliases": [
+          "veronica"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mary Theresa",
+        "tier": 85
+      },
+      {
+        "text": "Dr. Drake Ramoray",
+        "aliases": [
+          "drake ramoray"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jasmine",
+        "tier": 85
+      },
+      {
+        "text": "Bonnie",
+        "tier": 85
+      },
+      {
+        "text": "Kristen Lang",
+        "aliases": [
+          "kristen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Steve",
+        "tier": 85
+      },
+      {
+        "text": "Precious",
+        "tier": 85
+      },
+      {
+        "text": "Kate Miller",
+        "tier": 85
+      },
+      {
+        "text": "Stu",
+        "tier": 85
+      },
+      {
+        "text": "Owen",
+        "tier": 85
+      },
+      {
+        "text": "Gunther",
+        "tier": 60
+      },
+      {
+        "text": "Janice",
+        "aliases": [
+          "janice litman goralnik",
+          "janice hosenstein"
         ],
         "tier": 60
       },
       {
-        "text": "Mallet",
-        "tier": 60
-      },
-      {
-        "text": "Multitool",
-        "tier": 60
-      },
-      {
-        "text": "Duct tape",
-        "tier": 60
-      },
-      {
-        "text": "Paracord",
-        "tier": 60
-      },
-      {
-        "text": "Carabiner",
-        "tier": 60
-      },
-      {
-        "text": "Whistle",
-        "tier": 60
-      },
-      {
-        "text": "Binoculars",
-        "tier": 60
-      },
-      {
-        "text": "Camera",
-        "tier": 60
-      },
-      {
-        "text": "Trail mix",
-        "tier": 60
-      },
-      {
-        "text": "Granola bars",
-        "tier": 60
-      },
-      {
-        "text": "Jerky",
+        "text": "Mike Hannigan",
         "aliases": [
-          "beef jerky"
+          "mike"
         ],
         "tier": 60
       },
       {
-        "text": "Canned food",
-        "tier": 60
-      },
-      {
-        "text": "Coffee",
-        "tier": 60
-      },
-      {
-        "text": "Percolator",
-        "tier": 60
-      },
-      {
-        "text": "Kettle",
-        "tier": 60
-      },
-      {
-        "text": "Mess kit",
-        "tier": 60
-      },
-      {
-        "text": "Plates",
-        "tier": 60
-      },
-      {
-        "text": "Cups",
-        "tier": 60
-      },
-      {
-        "text": "Utensils",
-        "tier": 60
-      },
-      {
-        "text": "Can opener",
-        "tier": 60
-      },
-      {
-        "text": "Roasting sticks",
+        "text": "Richard Burke",
         "aliases": [
-          "marshmallow sticks"
+          "richard"
         ],
         "tier": 60
       },
       {
-        "text": "Grill grate",
-        "tier": 60
-      },
-      {
-        "text": "Charcoal",
-        "tier": 60
-      },
-      {
-        "text": "Fire starter",
-        "tier": 60
-      },
-      {
-        "text": "Kindling",
-        "tier": 60
-      },
-      {
-        "text": "Newspaper",
-        "tier": 60
-      },
-      {
-        "text": "Water filter",
-        "tier": 60
-      },
-      {
-        "text": "Water purification tablets",
-        "tier": 60
-      },
-      {
-        "text": "Trash bags",
-        "tier": 60
-      },
-      {
-        "text": "Ziploc bags",
-        "tier": 60
-      },
-      {
-        "text": "Paper towels",
-        "tier": 60
-      },
-      {
-        "text": "Wet wipes",
-        "tier": 60
-      },
-      {
-        "text": "Hand sanitizer",
-        "tier": 60
-      },
-      {
-        "text": "Soap",
-        "tier": 60
-      },
-      {
-        "text": "Towel",
-        "tier": 60
-      },
-      {
-        "text": "Toothbrush",
-        "tier": 60
-      },
-      {
-        "text": "Deodorant",
-        "tier": 60
-      },
-      {
-        "text": "Change of clothes",
+        "text": "Emily Waltham",
         "aliases": [
-          "clothes"
+          "emily"
         ],
         "tier": 60
       },
       {
-        "text": "Socks",
-        "tier": 60
-      },
-      {
-        "text": "Hat",
-        "tier": 60
-      },
-      {
-        "text": "Sunglasses",
-        "tier": 60
-      },
-      {
-        "text": "Gloves",
-        "tier": 60
-      },
-      {
-        "text": "Jacket",
-        "tier": 60
-      },
-      {
-        "text": "Fleece",
-        "tier": 60
-      },
-      {
-        "text": "Long underwear",
+        "text": "Carol Willick",
         "aliases": [
-          "thermals"
+          "carol"
         ],
         "tier": 60
       },
       {
-        "text": "Swimsuit",
-        "tier": 60
-      },
-      {
-        "text": "Flip-flops",
-        "tier": 60
-      },
-      {
-        "text": "Camp shoes",
-        "tier": 60
-      },
-      {
-        "text": "Cards",
+        "text": "Susan Bunch",
         "aliases": [
-          "deck of cards"
+          "susan"
         ],
         "tier": 60
       },
       {
-        "text": "Board games",
-        "tier": 60
-      },
-      {
-        "text": "Book",
-        "tier": 60
-      },
-      {
-        "text": "Journal",
-        "tier": 60
-      },
-      {
-        "text": "Phone charger",
+        "text": "Ben Geller",
         "aliases": [
-          "power bank"
+          "ben"
         ],
         "tier": 60
       },
       {
-        "text": "Radio",
-        "tier": 60
-      },
-      {
-        "text": "Batteries",
-        "tier": 60
-      },
-      {
-        "text": "Bear canister",
-        "tier": 60
-      },
-      {
-        "text": "Dry bag",
-        "tier": 60
-      },
-      {
-        "text": "Trekking poles",
+        "text": "Emma Geller-Green",
         "aliases": [
-          "hiking poles"
+          "emma"
         ],
         "tier": 60
       },
       {
-        "text": "GPS",
-        "tier": 60
-      },
-      {
-        "text": "Sunhat",
-        "tier": 60
-      },
-      {
-        "text": "Lip balm",
-        "tier": 60
-      },
-      {
-        "text": "Medication",
-        "tier": 60
-      },
-      {
-        "text": "Insect net",
+        "text": "Frank Buffay Jr.",
         "aliases": [
-          "mosquito net"
+          "frank jr",
+          "frank"
         ],
         "tier": 60
       },
       {
-        "text": "Lantern fuel",
+        "text": "Alice Knight",
         "aliases": [
-          "propane"
+          "alice"
         ],
         "tier": 60
       },
       {
-        "text": "Cooler ice",
+        "text": "Ursula Buffay",
         "aliases": [
-          "ice"
+          "ursula"
         ],
         "tier": 60
       },
       {
-        "text": "Folding table",
-        "tier": 60
-      },
-      {
-        "text": "Shovel",
+        "text": "Estelle Leonard",
         "aliases": [
-          "trowel"
+          "estelle"
         ],
         "tier": 60
       },
       {
-        "text": "Saw",
+        "text": "Mr. Heckles",
         "aliases": [
-          "folding saw"
+          "heckles"
         ],
         "tier": 60
       },
       {
-        "text": "Tent footprint",
+        "text": "Marcel",
+        "aliases": [
+          "marcel the monkey"
+        ],
         "tier": 60
       },
       {
-        "text": "Rain fly",
-        "tier": 60
-      },
-      {
-        "text": "Bandana",
-        "tier": 60
-      },
-      {
-        "text": "Hand warmers",
-        "tier": 60
-      },
-      {
-        "text": "Bear bell",
-        "tier": 60
-      },
-      {
-        "text": "Lighter",
-        "tier": 30
-      },
-      {
-        "text": "Lantern",
-        "tier": 30
-      },
-      {
-        "text": "Cooler",
-        "tier": 30
-      },
-      {
-        "text": "Camp stove",
-        "aliases": [
-          "stove"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Backpack",
-        "tier": 30
-      },
-      {
-        "text": "Pillow",
-        "tier": 30
-      },
-      {
-        "text": "Blanket",
-        "tier": 30
-      },
-      {
-        "text": "Hot dogs",
-        "tier": 30
-      },
-      {
-        "text": "Graham crackers",
-        "tier": 30
-      },
-      {
-        "text": "Chocolate",
-        "tier": 30
-      },
-      {
-        "text": "Sunscreen",
-        "tier": 30
-      },
-      {
-        "text": "First aid kit",
-        "tier": 30
-      },
-      {
-        "text": "Map",
-        "tier": 30
-      },
-      {
-        "text": "Compass",
-        "tier": 30
-      },
-      {
-        "text": "Knife",
-        "aliases": [
-          "pocket knife"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hatchet",
-        "aliases": [
-          "axe"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Rope",
-        "tier": 30
-      },
-      {
-        "text": "Water bottle",
-        "tier": 30
-      },
-      {
-        "text": "Toilet paper",
-        "tier": 30
-      },
-      {
-        "text": "Camping chair",
-        "aliases": [
-          "chair"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sleeping pad",
-        "aliases": [
-          "air mattress"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hammock",
-        "tier": 30
-      },
-      {
-        "text": "Rain jacket",
-        "aliases": [
-          "raincoat"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Hiking boots",
-        "aliases": [
-          "boots"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Headlamp",
-        "tier": 30
-      },
-      {
-        "text": "Cooking pot",
-        "aliases": [
-          "pot"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Pan",
-        "aliases": [
-          "skillet"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Tarp",
-        "tier": 30
-      },
-      {
-        "text": "Fishing pole",
-        "aliases": [
-          "fishing rod"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "S'mores",
-        "aliases": [
-          "smores"
-        ],
+        "text": "Regina Phalange",
         "tier": 15
       },
       {
-        "text": "Bear spray",
+        "text": "Ken Adams",
         "tier": 15
       },
       {
-        "text": "Guitar",
-        "tier": 15
-      },
-      {
-        "text": "Bug spray",
+        "text": "Rachel Green",
         "aliases": [
-          "insect repellent",
-          "bug repellent"
+          "rachel"
         ],
         "tier": 10
       },
       {
-        "text": "Matches",
-        "tier": 10
-      },
-      {
-        "text": "Tent",
-        "tier": 10
-      },
-      {
-        "text": "Sleeping bag",
-        "tier": 10
-      },
-      {
-        "text": "Flashlight",
+        "text": "Monica Geller",
         "aliases": [
-          "torch"
+          "monica"
         ],
         "tier": 10
       },
       {
-        "text": "Marshmallows",
-        "tier": 10
-      },
-      {
-        "text": "Firewood",
+        "text": "Phoebe Buffay",
         "aliases": [
-          "wood"
+          "phoebe"
         ],
         "tier": 10
       },
       {
-        "text": "Food",
+        "text": "Joey Tribbiani",
+        "aliases": [
+          "joey"
+        ],
         "tier": 10
       },
       {
-        "text": "Water",
+        "text": "Chandler Bing",
+        "aliases": [
+          "chandler"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ross Geller",
+        "aliases": [
+          "ross"
+        ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Television",
-      "tv",
-      "Couch",
-      "Fridge",
-      "Bathtub",
-      "Car"
-    ]
+      "Sheldon Cooper",
+      "Ted Mosby",
+      "Barney Stinson",
+      "Michael Scott",
+      "Jerry Seinfeld",
+      "Kramer",
+      "George Costanza",
+      "Elaine Benes",
+      "Frasier Crane",
+      "Niles Crane",
+      "Central Perk",
+      "Matthew Perry",
+      "Jennifer Aniston",
+      "Smelly Cat"
+    ],
+    "notes": "Main and recurring characters, family members, and famous one-offs (Ugly Naked Guy, Mr. Heckles)."
   }
 ]

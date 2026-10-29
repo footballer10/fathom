@@ -1690,67 +1690,16 @@
   },
   {
     "id": "q0063",
-    "prompt": "Name an island",
+    "prompt": "Name a country in the world",
     "category": "geography",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Tristan da Cunha",
+        "text": "Tuvalu",
         "tier": 100
       },
       {
-        "text": "Pitcairn",
-        "tier": 85
-      },
-      {
-        "text": "Norfolk Island",
-        "tier": 85
-      },
-      {
-        "text": "Lord Howe Island",
-        "tier": 85
-      },
-      {
-        "text": "Christmas Island",
-        "tier": 85
-      },
-      {
-        "text": "Cocos Islands",
-        "tier": 85
-      },
-      {
-        "text": "Kangaroo Island",
-        "tier": 85
-      },
-      {
-        "text": "Fraser Island",
-        "aliases": [
-          "k'gari"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Rottnest Island",
-        "tier": 85
-      },
-      {
-        "text": "Stewart Island",
-        "tier": 85
-      },
-      {
-        "text": "Chatham Islands",
-        "tier": 85
-      },
-      {
-        "text": "Vanuatu",
-        "tier": 85
-      },
-      {
         "text": "Nauru",
-        "tier": 85
-      },
-      {
-        "text": "Tuvalu",
         "tier": 85
       },
       {
@@ -1767,6 +1716,13 @@
       },
       {
         "text": "Micronesia",
+        "aliases": [
+          "federated states of micronesia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vanuatu",
         "tier": 85
       },
       {
@@ -1774,93 +1730,14 @@
         "tier": 85
       },
       {
-        "text": "New Caledonia",
+        "text": "Tonga",
         "tier": 85
       },
       {
-        "text": "Wallis and Futuna",
-        "tier": 85
-      },
-      {
-        "text": "Niue",
-        "tier": 85
-      },
-      {
-        "text": "Cook Islands",
+        "text": "Samoa",
         "aliases": [
-          "rarotonga"
+          "western samoa"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Marquesas",
-        "tier": 85
-      },
-      {
-        "text": "Tuamotu",
-        "tier": 85
-      },
-      {
-        "text": "Kiritimati",
-        "tier": 85
-      },
-      {
-        "text": "Midway",
-        "tier": 85
-      },
-      {
-        "text": "Wake Island",
-        "tier": 85
-      },
-      {
-        "text": "Diego Garcia",
-        "tier": 85
-      },
-      {
-        "text": "Kerguelen",
-        "tier": 85
-      },
-      {
-        "text": "Heard Island",
-        "tier": 85
-      },
-      {
-        "text": "Bouvet Island",
-        "tier": 85
-      },
-      {
-        "text": "Saint Helena",
-        "aliases": [
-          "st helena"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Ascension Island",
-        "tier": 85
-      },
-      {
-        "text": "Bioko",
-        "tier": 85
-      },
-      {
-        "text": "Sao Tome",
-        "tier": 85
-      },
-      {
-        "text": "Principe",
-        "tier": 85
-      },
-      {
-        "text": "Lamu",
-        "tier": 85
-      },
-      {
-        "text": "Pemba",
-        "tier": 85
-      },
-      {
-        "text": "Mafia Island",
         "tier": 85
       },
       {
@@ -1868,904 +1745,837 @@
         "tier": 85
       },
       {
-        "text": "Mayotte",
-        "tier": 85
-      },
-      {
-        "text": "Rodrigues",
-        "tier": 85
-      },
-      {
-        "text": "Lakshadweep",
-        "tier": 85
-      },
-      {
-        "text": "Andaman Islands",
-        "tier": 85
-      },
-      {
-        "text": "Nicobar Islands",
-        "tier": 85
-      },
-      {
-        "text": "Hormuz",
-        "tier": 85
-      },
-      {
-        "text": "Kish",
-        "tier": 85
-      },
-      {
-        "text": "Qeshm",
-        "tier": 85
-      },
-      {
-        "text": "Lesbos",
-        "tier": 85
-      },
-      {
-        "text": "Chios",
-        "tier": 85
-      },
-      {
-        "text": "Samos",
-        "tier": 85
-      },
-      {
-        "text": "Kos",
-        "tier": 85
-      },
-      {
-        "text": "Naxos",
-        "tier": 85
-      },
-      {
-        "text": "Paros",
-        "tier": 85
-      },
-      {
-        "text": "Milos",
-        "tier": 85
-      },
-      {
-        "text": "Ithaca",
-        "tier": 85
-      },
-      {
-        "text": "Kefalonia",
-        "tier": 85
-      },
-      {
-        "text": "Zakynthos",
-        "tier": 85
-      },
-      {
-        "text": "Lampedusa",
-        "tier": 85
-      },
-      {
-        "text": "Pantelleria",
-        "tier": 85
-      },
-      {
-        "text": "Ischia",
-        "tier": 85
-      },
-      {
-        "text": "Procida",
-        "tier": 85
-      },
-      {
-        "text": "Murano",
-        "tier": 85
-      },
-      {
-        "text": "Burano",
-        "tier": 85
-      },
-      {
-        "text": "Hvar",
-        "tier": 85
-      },
-      {
-        "text": "Brac",
-        "tier": 85
-      },
-      {
-        "text": "Korcula",
-        "tier": 85
-      },
-      {
-        "text": "Bornholm",
-        "tier": 85
-      },
-      {
-        "text": "Saaremaa",
-        "tier": 85
-      },
-      {
-        "text": "Aland",
-        "tier": 85
-      },
-      {
-        "text": "Lofoten",
-        "tier": 85
-      },
-      {
-        "text": "Jan Mayen",
-        "tier": 85
-      },
-      {
-        "text": "Lundy",
-        "tier": 85
-      },
-      {
-        "text": "Iona",
-        "tier": 85
-      },
-      {
-        "text": "Lewis and Harris",
-        "tier": 85
-      },
-      {
-        "text": "Anglesey",
-        "tier": 85
-      },
-      {
-        "text": "Lindisfarne",
-        "tier": 85
-      },
-      {
-        "text": "Jersey",
-        "tier": 85
-      },
-      {
-        "text": "Guernsey",
-        "tier": 85
-      },
-      {
-        "text": "Sark",
-        "tier": 85
-      },
-      {
-        "text": "Alderney",
-        "tier": 85
-      },
-      {
-        "text": "Heligoland",
-        "tier": 85
-      },
-      {
-        "text": "Sylt",
-        "tier": 85
-      },
-      {
-        "text": "Texel",
-        "tier": 85
-      },
-      {
-        "text": "Mont Saint-Michel",
-        "tier": 85
-      },
-      {
-        "text": "Belle-Ile",
-        "tier": 85
-      },
-      {
-        "text": "Ile de Re",
-        "tier": 85
-      },
-      {
-        "text": "Mackinac Island",
-        "tier": 85
-      },
-      {
-        "text": "Isle Royale",
-        "tier": 85
-      },
-      {
-        "text": "Catalina Island",
-        "tier": 85
-      },
-      {
-        "text": "Channel Islands",
-        "tier": 85
-      },
-      {
-        "text": "San Juan Islands",
-        "tier": 85
-      },
-      {
-        "text": "Orcas Island",
-        "tier": 85
-      },
-      {
-        "text": "Whidbey Island",
-        "tier": 85
-      },
-      {
-        "text": "Outer Banks",
-        "tier": 85
-      },
-      {
-        "text": "Assateague",
-        "tier": 85
-      },
-      {
-        "text": "Chincoteague",
-        "tier": 85
-      },
-      {
-        "text": "Sanibel",
-        "tier": 85
-      },
-      {
-        "text": "Amelia Island",
-        "tier": 85
-      },
-      {
-        "text": "Hilton Head",
-        "tier": 85
-      },
-      {
-        "text": "Tybee Island",
-        "tier": 85
-      },
-      {
-        "text": "Padre Island",
-        "tier": 85
-      },
-      {
-        "text": "Galveston Island",
-        "tier": 85
-      },
-      {
-        "text": "Block Island",
-        "tier": 85
-      },
-      {
-        "text": "Fire Island",
-        "tier": 85
-      },
-      {
-        "text": "Mount Desert Island",
-        "tier": 85
-      },
-      {
-        "text": "Deer Isle",
-        "tier": 85
-      },
-      {
-        "text": "Thousand Islands",
-        "tier": 85
-      },
-      {
-        "text": "Manitoulin Island",
-        "tier": 85
-      },
-      {
-        "text": "Anticosti",
-        "tier": 85
-      },
-      {
-        "text": "Devon Island",
-        "tier": 85
-      },
-      {
-        "text": "Banks Island",
-        "tier": 85
-      },
-      {
-        "text": "Southampton Island",
-        "tier": 85
-      },
-      {
-        "text": "Akimiski",
-        "tier": 85
-      },
-      {
-        "text": "Aleutian Islands",
-        "tier": 85
-      },
-      {
-        "text": "Attu",
-        "tier": 85
-      },
-      {
-        "text": "St. Lawrence Island",
-        "tier": 85
-      },
-      {
-        "text": "Kunashir",
-        "tier": 85
-      },
-      {
-        "text": "Kodiak",
-        "tier": 60
-      },
-      {
-        "text": "Vancouver Island",
-        "tier": 60
-      },
-      {
-        "text": "Newfoundland",
-        "tier": 60
-      },
-      {
-        "text": "Baffin Island",
-        "tier": 60
-      },
-      {
-        "text": "Prince Edward Island",
+        "text": "Sao Tome and Principe",
         "aliases": [
-          "pei"
+          "são tomé and príncipe",
+          "sao tome"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Cape Breton",
-        "tier": 60
+        "text": "Equatorial Guinea",
+        "tier": 85
       },
       {
-        "text": "Ellesmere Island",
-        "tier": 60
-      },
-      {
-        "text": "Victoria Island",
-        "tier": 60
-      },
-      {
-        "text": "Mallorca",
+        "text": "Guinea-Bissau",
         "aliases": [
-          "majorca"
+          "guinea bissau"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Ibiza",
-        "tier": 60
+        "text": "Djibouti",
+        "tier": 85
       },
       {
-        "text": "Menorca",
-        "tier": 60
+        "text": "Eritrea",
+        "tier": 85
       },
       {
-        "text": "Canary Islands",
+        "text": "Eswatini",
         "aliases": [
-          "tenerife",
-          "gran canaria"
+          "swaziland"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Madeira",
-        "tier": 60
+        "text": "Lesotho",
+        "tier": 85
       },
       {
-        "text": "Azores",
-        "tier": 60
+        "text": "Burundi",
+        "tier": 85
       },
       {
-        "text": "Santorini",
-        "tier": 60
+        "text": "Burkina Faso",
+        "tier": 85
       },
       {
-        "text": "Mykonos",
-        "tier": 60
+        "text": "Mauritania",
+        "tier": 85
       },
       {
-        "text": "Rhodes",
-        "tier": 60
+        "text": "Gabon",
+        "tier": 85
       },
       {
-        "text": "Corfu",
-        "tier": 60
+        "text": "Benin",
+        "tier": 85
       },
       {
-        "text": "Capri",
-        "tier": 60
+        "text": "Togo",
+        "tier": 85
       },
       {
-        "text": "Elba",
-        "tier": 60
-      },
-      {
-        "text": "Gotland",
-        "tier": 60
-      },
-      {
-        "text": "Isle of Wight",
-        "tier": 60
-      },
-      {
-        "text": "Skye",
+        "text": "Central African Republic",
         "aliases": [
-          "isle of skye"
+          "car"
         ],
-        "tier": 60
-      },
-      {
-        "text": "Orkney",
-        "tier": 60
-      },
-      {
-        "text": "Shetland",
-        "tier": 60
-      },
-      {
-        "text": "Faroe Islands",
-        "aliases": [
-          "faroes"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Svalbard",
-        "tier": 60
-      },
-      {
-        "text": "Zanzibar",
-        "tier": 60
-      },
-      {
-        "text": "Mauritius",
-        "tier": 60
+        "tier": 85
       },
       {
         "text": "Seychelles",
-        "tier": 60
+        "tier": 85
+      },
+      {
+        "text": "Mauritius",
+        "tier": 85
+      },
+      {
+        "text": "Cape Verde",
+        "aliases": [
+          "cabo verde"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gambia",
+        "aliases": [
+          "the gambia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Malawi",
+        "tier": 85
+      },
+      {
+        "text": "Brunei",
+        "tier": 85
+      },
+      {
+        "text": "Bhutan",
+        "tier": 85
+      },
+      {
+        "text": "Timor-Leste",
+        "aliases": [
+          "east timor",
+          "timor leste"
+        ],
+        "tier": 85
       },
       {
         "text": "Maldives",
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Reunion",
+        "text": "Turkmenistan",
+        "tier": 85
+      },
+      {
+        "text": "Tajikistan",
+        "tier": 85
+      },
+      {
+        "text": "Kyrgyzstan",
         "aliases": [
-          "réunion"
+          "kyrgyz republic"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Socotra",
-        "tier": 60
+        "text": "Moldova",
+        "tier": 85
       },
       {
-        "text": "Bahrain",
-        "tier": 60
+        "text": "Montenegro",
+        "tier": 85
       },
       {
-        "text": "Hokkaido",
-        "tier": 60
-      },
-      {
-        "text": "Honshu",
-        "tier": 60
-      },
-      {
-        "text": "Kyushu",
-        "tier": 60
-      },
-      {
-        "text": "Shikoku",
-        "tier": 60
-      },
-      {
-        "text": "Okinawa",
-        "tier": 60
-      },
-      {
-        "text": "Jeju",
-        "tier": 60
-      },
-      {
-        "text": "Hainan",
-        "tier": 60
-      },
-      {
-        "text": "Luzon",
-        "tier": 60
-      },
-      {
-        "text": "Mindanao",
-        "tier": 60
-      },
-      {
-        "text": "Cebu",
-        "tier": 60
-      },
-      {
-        "text": "Palawan",
-        "tier": 60
-      },
-      {
-        "text": "Boracay",
-        "tier": 60
-      },
-      {
-        "text": "Phuket",
-        "tier": 60
-      },
-      {
-        "text": "Langkawi",
-        "tier": 60
-      },
-      {
-        "text": "Lombok",
-        "tier": 60
-      },
-      {
-        "text": "Komodo",
-        "tier": 60
-      },
-      {
-        "text": "Sulawesi",
-        "tier": 60
-      },
-      {
-        "text": "Timor",
-        "tier": 60
-      },
-      {
-        "text": "Guam",
-        "tier": 60
-      },
-      {
-        "text": "Saipan",
-        "tier": 60
-      },
-      {
-        "text": "Bora Bora",
-        "tier": 60
-      },
-      {
-        "text": "Samoa",
-        "tier": 60
-      },
-      {
-        "text": "Tonga",
-        "tier": 60
-      },
-      {
-        "text": "Molokai",
-        "tier": 60
-      },
-      {
-        "text": "Lanai",
-        "tier": 60
-      },
-      {
-        "text": "Sakhalin",
-        "tier": 60
-      },
-      {
-        "text": "Wrangel Island",
-        "tier": 60
-      },
-      {
-        "text": "Novaya Zemlya",
-        "tier": 60
-      },
-      {
-        "text": "Antigua",
-        "tier": 60
-      },
-      {
-        "text": "St. Lucia",
+        "text": "North Macedonia",
         "aliases": [
-          "saint lucia"
+          "macedonia"
         ],
-        "tier": 60
+        "tier": 85
+      },
+      {
+        "text": "Liechtenstein",
+        "tier": 85
+      },
+      {
+        "text": "San Marino",
+        "tier": 85
+      },
+      {
+        "text": "Andorra",
+        "tier": 85
+      },
+      {
+        "text": "Kosovo",
+        "tier": 85
+      },
+      {
+        "text": "Saint Kitts and Nevis",
+        "aliases": [
+          "st kitts and nevis",
+          "saint kitts"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Saint Lucia",
+        "aliases": [
+          "st lucia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "st vincent and the grenadines",
+          "saint vincent"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Antigua and Barbuda",
+        "aliases": [
+          "antigua"
+        ],
+        "tier": 85
       },
       {
         "text": "Grenada",
-        "tier": 60
+        "tier": 85
       },
       {
         "text": "Dominica",
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Martinique",
-        "tier": 60
-      },
-      {
-        "text": "Guadeloupe",
-        "tier": 60
-      },
-      {
-        "text": "St. Kitts",
-        "tier": 60
-      },
-      {
-        "text": "Nevis",
-        "tier": 60
-      },
-      {
-        "text": "St. Thomas",
-        "tier": 60
-      },
-      {
-        "text": "St. John",
-        "tier": 60
-      },
-      {
-        "text": "St. Croix",
-        "tier": 60
-      },
-      {
-        "text": "Curacao",
+        "text": "Suriname",
         "aliases": [
-          "curaçao"
+          "surinam"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Bonaire",
-        "tier": 60
+        "text": "Guyana",
+        "tier": 85
       },
       {
-        "text": "Turks and Caicos",
-        "tier": 60
+        "text": "Belize",
+        "tier": 85
       },
       {
-        "text": "Cayman Islands",
+        "text": "Bahrain",
+        "tier": 85
+      },
+      {
+        "text": "Oman",
+        "tier": 85
+      },
+      {
+        "text": "Yemen",
+        "tier": 85
+      },
+      {
+        "text": "Qatar",
+        "tier": 85
+      },
+      {
+        "text": "Kuwait",
+        "tier": 85
+      },
+      {
+        "text": "Laos",
         "aliases": [
-          "grand cayman"
+          "lao"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "Cozumel",
-        "tier": 60
+        "text": "Mongolia",
+        "tier": 85
       },
       {
-        "text": "Isla Mujeres",
-        "tier": 60
+        "text": "Azerbaijan",
+        "tier": 85
       },
       {
-        "text": "Vieques",
-        "tier": 60
+        "text": "Armenia",
+        "tier": 85
       },
       {
-        "text": "Tobago",
-        "tier": 60
+        "text": "Georgia",
+        "tier": 85
       },
       {
-        "text": "Margarita",
-        "tier": 60
+        "text": "Belarus",
+        "tier": 85
       },
       {
-        "text": "Chiloe",
-        "tier": 60
+        "text": "Latvia",
+        "tier": 85
       },
       {
-        "text": "Tierra del Fuego",
-        "tier": 60
+        "text": "Lithuania",
+        "tier": 85
       },
       {
-        "text": "Falkland Islands",
+        "text": "Estonia",
+        "tier": 85
+      },
+      {
+        "text": "Slovenia",
+        "tier": 85
+      },
+      {
+        "text": "Slovakia",
+        "tier": 85
+      },
+      {
+        "text": "Albania",
+        "tier": 85
+      },
+      {
+        "text": "Bosnia and Herzegovina",
         "aliases": [
-          "falklands"
+          "bosnia",
+          "bosnia herzegovina"
         ],
-        "tier": 60
+        "tier": 85
       },
       {
-        "text": "South Georgia",
-        "tier": 60
-      },
-      {
-        "text": "Marajo",
-        "tier": 60
-      },
-      {
-        "text": "Fernando de Noronha",
-        "tier": 60
-      },
-      {
-        "text": "Puerto Rico",
-        "tier": 30
-      },
-      {
-        "text": "Bahamas",
-        "tier": 30
-      },
-      {
-        "text": "Fiji",
-        "tier": 30
-      },
-      {
-        "text": "Bali",
-        "tier": 30
-      },
-      {
-        "text": "Sicily",
-        "tier": 30
-      },
-      {
-        "text": "Sardinia",
-        "tier": 30
-      },
-      {
-        "text": "Corsica",
-        "tier": 30
-      },
-      {
-        "text": "Crete",
-        "tier": 30
-      },
-      {
-        "text": "Cyprus",
-        "tier": 30
+        "text": "Luxembourg",
+        "tier": 85
       },
       {
         "text": "Malta",
-        "tier": 30
+        "tier": 85
       },
       {
-        "text": "Tasmania",
-        "tier": 30
+        "text": "Cyprus",
+        "tier": 85
       },
       {
-        "text": "New Zealand",
-        "tier": 30
+        "text": "Monaco",
+        "tier": 85
       },
       {
-        "text": "Sri Lanka",
-        "tier": 30
+        "text": "Botswana",
+        "tier": 60
       },
       {
-        "text": "Philippines",
-        "tier": 30
+        "text": "Namibia",
+        "tier": 60
       },
       {
-        "text": "Taiwan",
-        "tier": 30
+        "text": "Zambia",
+        "tier": 60
       },
       {
-        "text": "Borneo",
-        "tier": 30
+        "text": "Mozambique",
+        "tier": 60
       },
       {
-        "text": "Sumatra",
-        "tier": 30
+        "text": "Angola",
+        "tier": 60
       },
       {
-        "text": "Java",
-        "tier": 30
+        "text": "Mali",
+        "tier": 60
       },
       {
-        "text": "New Guinea",
+        "text": "Niger",
+        "tier": 60
+      },
+      {
+        "text": "Chad",
+        "tier": 60
+      },
+      {
+        "text": "Sierra Leone",
+        "tier": 60
+      },
+      {
+        "text": "Liberia",
+        "tier": 60
+      },
+      {
+        "text": "Cameroon",
+        "tier": 60
+      },
+      {
+        "text": "Ivory Coast",
         "aliases": [
-          "papua new guinea"
+          "côte d'ivoire",
+          "cote d'ivoire",
+          "cote divoire"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
-        "text": "Great Britain",
+        "text": "Democratic Republic of the Congo",
         "aliases": [
-          "britain"
+          "drc",
+          "dr congo",
+          "congo-kinshasa",
+          "zaire"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
-        "text": "Maui",
-        "tier": 30
-      },
-      {
-        "text": "Oahu",
-        "tier": 30
-      },
-      {
-        "text": "Kauai",
-        "tier": 30
-      },
-      {
-        "text": "Galapagos",
+        "text": "Republic of the Congo",
         "aliases": [
-          "galapagos islands"
+          "congo",
+          "congo-brazzaville"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
-        "text": "Easter Island",
-        "aliases": [
-          "rapa nui"
-        ],
-        "tier": 30
+        "text": "South Sudan",
+        "tier": 60
       },
       {
-        "text": "Tahiti",
-        "tier": 30
+        "text": "Sudan",
+        "tier": 60
       },
       {
-        "text": "Bermuda",
-        "tier": 30
+        "text": "Tunisia",
+        "tier": 60
       },
       {
-        "text": "Aruba",
-        "tier": 30
+        "text": "Libya",
+        "tier": 60
       },
       {
-        "text": "Barbados",
-        "tier": 30
+        "text": "Senegal",
+        "tier": 60
       },
       {
-        "text": "Trinidad",
-        "tier": 30
+        "text": "Rwanda",
+        "tier": 60
       },
       {
-        "text": "Haiti",
-        "aliases": [
-          "hispaniola"
-        ],
-        "tier": 30
+        "text": "Uganda",
+        "tier": 60
       },
       {
-        "text": "Singapore",
-        "tier": 30
+        "text": "Somalia",
+        "tier": 60
       },
       {
-        "text": "Hong Kong",
-        "tier": 30
+        "text": "Zimbabwe",
+        "tier": 60
       },
       {
-        "text": "Isle of Man",
-        "tier": 30
+        "text": "Ghana",
+        "tier": 60
       },
       {
-        "text": "Nantucket",
-        "tier": 30
+        "text": "Algeria",
+        "tier": 60
       },
       {
-        "text": "Martha's Vineyard",
-        "tier": 30
+        "text": "Tanzania",
+        "tier": 60
       },
       {
-        "text": "Alcatraz",
-        "tier": 30
-      },
-      {
-        "text": "Ellis Island",
-        "tier": 30
-      },
-      {
-        "text": "Staten Island",
-        "tier": 30
-      },
-      {
-        "text": "Key West",
-        "tier": 30
-      },
-      {
-        "text": "Australia",
-        "tier": 15
-      },
-      {
-        "text": "Rhode Island",
-        "tier": 15
-      },
-      {
-        "text": "Manhattan",
-        "tier": 15
-      },
-      {
-        "text": "Long Island",
-        "tier": 15
-      },
-      {
-        "text": "Hawaii",
-        "aliases": [
-          "big island"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Greenland",
-        "tier": 10
+        "text": "Guinea",
+        "tier": 60
       },
       {
         "text": "Madagascar",
+        "tier": 60
+      },
+      {
+        "text": "Sri Lanka",
+        "tier": 60
+      },
+      {
+        "text": "Nepal",
+        "tier": 60
+      },
+      {
+        "text": "Bangladesh",
+        "tier": 60
+      },
+      {
+        "text": "Myanmar",
+        "aliases": [
+          "burma"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cambodia",
+        "tier": 60
+      },
+      {
+        "text": "Uzbekistan",
+        "tier": 60
+      },
+      {
+        "text": "Kazakhstan",
+        "tier": 60
+      },
+      {
+        "text": "Jordan",
+        "tier": 60
+      },
+      {
+        "text": "Lebanon",
+        "tier": 60
+      },
+      {
+        "text": "Syria",
+        "tier": 60
+      },
+      {
+        "text": "Iraq",
+        "tier": 60
+      },
+      {
+        "text": "Iran",
+        "tier": 60
+      },
+      {
+        "text": "Saudi Arabia",
+        "tier": 60
+      },
+      {
+        "text": "United Arab Emirates",
+        "aliases": [
+          "uae"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Afghanistan",
+        "tier": 60
+      },
+      {
+        "text": "Pakistan",
+        "tier": 60
+      },
+      {
+        "text": "Malaysia",
+        "tier": 60
+      },
+      {
+        "text": "Singapore",
+        "tier": 60
+      },
+      {
+        "text": "Indonesia",
+        "tier": 60
+      },
+      {
+        "text": "Philippines",
+        "tier": 60
+      },
+      {
+        "text": "Vietnam",
+        "tier": 60
+      },
+      {
+        "text": "Thailand",
+        "tier": 60
+      },
+      {
+        "text": "Taiwan",
+        "tier": 60
+      },
+      {
+        "text": "North Korea",
+        "aliases": [
+          "dprk"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Papua New Guinea",
+        "aliases": [
+          "png"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fiji",
+        "tier": 60
+      },
+      {
+        "text": "New Zealand",
+        "tier": 60
+      },
+      {
+        "text": "Paraguay",
+        "tier": 60
+      },
+      {
+        "text": "Uruguay",
+        "tier": 60
+      },
+      {
+        "text": "Bolivia",
+        "tier": 60
+      },
+      {
+        "text": "Ecuador",
+        "tier": 60
+      },
+      {
+        "text": "Venezuela",
+        "tier": 60
+      },
+      {
+        "text": "Colombia",
+        "tier": 60
+      },
+      {
+        "text": "Chile",
+        "tier": 60
+      },
+      {
+        "text": "Peru",
+        "tier": 60
+      },
+      {
+        "text": "Panama",
+        "tier": 60
+      },
+      {
+        "text": "Costa Rica",
+        "tier": 60
+      },
+      {
+        "text": "Nicaragua",
+        "tier": 60
+      },
+      {
+        "text": "Honduras",
+        "tier": 60
+      },
+      {
+        "text": "El Salvador",
+        "tier": 60
+      },
+      {
+        "text": "Guatemala",
+        "tier": 60
+      },
+      {
+        "text": "Haiti",
+        "tier": 60
+      },
+      {
+        "text": "Dominican Republic",
+        "tier": 60
+      },
+      {
+        "text": "Jamaica",
+        "tier": 60
+      },
+      {
+        "text": "Bahamas",
+        "aliases": [
+          "the bahamas"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Barbados",
+        "tier": 60
+      },
+      {
+        "text": "Trinidad and Tobago",
+        "aliases": [
+          "trinidad"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cuba",
+        "tier": 60
+      },
+      {
+        "text": "Serbia",
+        "tier": 60
+      },
+      {
+        "text": "Croatia",
+        "tier": 60
+      },
+      {
+        "text": "Bulgaria",
+        "tier": 60
+      },
+      {
+        "text": "Romania",
+        "tier": 60
+      },
+      {
+        "text": "Hungary",
+        "tier": 60
+      },
+      {
+        "text": "Czech Republic",
+        "aliases": [
+          "czechia"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Austria",
+        "tier": 60
+      },
+      {
+        "text": "Switzerland",
+        "tier": 60
+      },
+      {
+        "text": "Belgium",
+        "tier": 60
+      },
+      {
+        "text": "Netherlands",
+        "aliases": [
+          "holland"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Denmark",
+        "tier": 60
+      },
+      {
+        "text": "Norway",
+        "tier": 60
+      },
+      {
+        "text": "Sweden",
+        "tier": 60
+      },
+      {
+        "text": "Finland",
+        "tier": 60
+      },
+      {
+        "text": "Iceland",
+        "tier": 60
+      },
+      {
+        "text": "Ireland",
+        "tier": 60
+      },
+      {
+        "text": "Portugal",
+        "tier": 60
+      },
+      {
+        "text": "Poland",
+        "tier": 60
+      },
+      {
+        "text": "Ukraine",
+        "tier": 60
+      },
+      {
+        "text": "Greece",
+        "tier": 60
+      },
+      {
+        "text": "Turkey",
+        "aliases": [
+          "türkiye",
+          "turkiye"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Israel",
+        "tier": 60
+      },
+      {
+        "text": "Palestine",
+        "aliases": [
+          "state of palestine"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Vatican City",
+        "aliases": [
+          "vatican",
+          "holy see"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Egypt",
+        "tier": 30
+      },
+      {
+        "text": "Nigeria",
+        "tier": 30
+      },
+      {
+        "text": "Kenya",
+        "tier": 30
+      },
+      {
+        "text": "Ethiopia",
+        "tier": 30
+      },
+      {
+        "text": "South Africa",
+        "tier": 30
+      },
+      {
+        "text": "Morocco",
+        "tier": 30
+      },
+      {
+        "text": "South Korea",
+        "aliases": [
+          "korea",
+          "republic of korea"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Argentina",
+        "tier": 30
+      },
+      {
+        "text": "Germany",
+        "tier": 15
+      },
+      {
+        "text": "United Kingdom",
+        "aliases": [
+          "uk",
+          "great britain",
+          "britain"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "United States",
+        "aliases": [
+          "usa",
+          "us",
+          "america",
+          "united states of america"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Canada",
+        "tier": 10
+      },
+      {
+        "text": "Mexico",
+        "tier": 10
+      },
+      {
+        "text": "Brazil",
+        "tier": 10
+      },
+      {
+        "text": "China",
         "tier": 10
       },
       {
@@ -2773,34 +2583,56 @@
         "tier": 10
       },
       {
-        "text": "Ireland",
+        "text": "India",
         "tier": 10
       },
       {
-        "text": "Iceland",
+        "text": "Russia",
         "tier": 10
       },
       {
-        "text": "Cuba",
+        "text": "France",
         "tier": 10
       },
       {
-        "text": "Jamaica",
+        "text": "Italy",
+        "tier": 10
+      },
+      {
+        "text": "Spain",
+        "tier": 10
+      },
+      {
+        "text": "Australia",
         "tier": 10
       }
     ],
     "nearMisses": [
+      "England",
+      "Scotland",
+      "Wales",
+      "Northern Ireland",
+      "Greenland",
+      "Puerto Rico",
+      "Hong Kong",
+      "Africa",
+      "Europe",
+      "Asia",
+      "Antarctica",
+      "Guam",
+      "Tibet",
+      "Hawaii",
+      "Siberia",
+      "Persia",
+      "Yugoslavia",
+      "Soviet Union",
+      "Czechoslovakia",
+      "Prussia",
       "Atlantis",
-      "Gilligan's Island",
-      "Neverland",
-      "Treasure Island",
-      "Skull Island",
-      "Isla Nublar",
-      "Pacific",
-      "Caribbean",
-      "Florida"
+      "Wakanda",
+      "Narnia"
     ],
-    "notes": "Real islands anywhere in the world. Island countries count."
+    "notes": "The 193 UN members plus Vatican City, Palestine, Taiwan and Kosovo. Territories (Greenland, Puerto Rico) and parts of the UK (Scotland) don't count."
   },
   {
     "id": "q0064",
@@ -7214,902 +7046,736 @@
   },
   {
     "id": "q0070",
-    "prompt": "Name something you'd find in a classroom",
-    "category": "everyday-objects",
+    "prompt": "Name a Harry Potter spell, curse, charm, or potion",
+    "category": "movies-tv",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Abacus",
+        "text": "Langlock",
         "tier": 100
       },
       {
-        "text": "Chalk eraser",
+        "text": "Muffliato",
         "aliases": [
-          "board eraser"
+          "muffliato charm"
         ],
         "tier": 85
       },
       {
-        "text": "Chalk tray",
+        "text": "Sectumsempra",
         "tier": 85
       },
       {
-        "text": "Pointer",
+        "text": "Levicorpus",
         "tier": 85
       },
       {
-        "text": "Laser pointer",
+        "text": "Liberacorpus",
         "tier": 85
       },
       {
-        "text": "Bell",
+        "text": "Tarantallegra",
         "tier": 85
       },
       {
-        "text": "Timer",
+        "text": "Rictusempra",
         "tier": 85
       },
       {
-        "text": "Sand timer",
+        "text": "Serpensortia",
+        "tier": 85
+      },
+      {
+        "text": "Morsmordre",
         "aliases": [
-          "hourglass"
+          "dark mark spell"
         ],
         "tier": 85
       },
       {
-        "text": "Behavior chart",
+        "text": "Sonorus",
         "tier": 85
       },
       {
-        "text": "Sticker chart",
+        "text": "Quietus",
         "tier": 85
       },
       {
-        "text": "Stickers",
-        "tier": 85
-      },
-      {
-        "text": "Stamps",
-        "tier": 85
-      },
-      {
-        "text": "Gold stars",
-        "tier": 85
-      },
-      {
-        "text": "Treasure box",
+        "text": "Confundo",
         "aliases": [
-          "prize box"
+          "confundus charm",
+          "confundus"
         ],
         "tier": 85
       },
       {
-        "text": "Suggestion box",
+        "text": "Diffindo",
         "tier": 85
       },
       {
-        "text": "Lost and found",
+        "text": "Engorgio",
         "tier": 85
       },
       {
-        "text": "Mailbox",
+        "text": "Reducio",
         "tier": 85
       },
       {
-        "text": "Turn-in tray",
+        "text": "Reducto",
+        "tier": 85
+      },
+      {
+        "text": "Episkey",
+        "tier": 85
+      },
+      {
+        "text": "Ferula",
+        "tier": 85
+      },
+      {
+        "text": "Impedimenta",
         "aliases": [
-          "inbox"
+          "impediment jinx"
         ],
         "tier": 85
       },
       {
-        "text": "Clipboard",
+        "text": "Mobilicorpus",
         "tier": 85
       },
       {
-        "text": "Magnetic letters",
+        "text": "Mobiliarbus",
         "tier": 85
       },
       {
-        "text": "Pocket chart",
+        "text": "Oppugno",
         "tier": 85
       },
       {
-        "text": "Weather chart",
+        "text": "Avis",
         "tier": 85
       },
       {
-        "text": "Job chart",
+        "text": "Orchideous",
         "tier": 85
       },
       {
-        "text": "Birthday wall",
+        "text": "Densaugeo",
         "tier": 85
       },
       {
-        "text": "Anchor chart",
+        "text": "Furnunculus",
         "tier": 85
       },
       {
-        "text": "Exit tickets",
-        "tier": 85
-      },
-      {
-        "text": "Bathroom pass",
-        "tier": 85
-      },
-      {
-        "text": "Lanyard",
-        "tier": 85
-      },
-      {
-        "text": "Name tags",
-        "tier": 85
-      },
-      {
-        "text": "Name plates",
-        "tier": 85
-      },
-      {
-        "text": "Desk caddy",
-        "tier": 85
-      },
-      {
-        "text": "Supply bin",
-        "tier": 85
-      },
-      {
-        "text": "Book bin",
-        "tier": 85
-      },
-      {
-        "text": "Library books",
-        "tier": 85
-      },
-      {
-        "text": "Novel",
-        "tier": 85
-      },
-      {
-        "text": "Workbook",
-        "tier": 85
-      },
-      {
-        "text": "Composition book",
-        "tier": 85
-      },
-      {
-        "text": "Spiral notebook",
-        "tier": 85
-      },
-      {
-        "text": "Loose leaf",
-        "tier": 85
-      },
-      {
-        "text": "Scantron",
-        "tier": 85
-      },
-      {
-        "text": "Answer key",
-        "tier": 85
-      },
-      {
-        "text": "Detention slip",
-        "tier": 85
-      },
-      {
-        "text": "Permission slip",
-        "tier": 85
-      },
-      {
-        "text": "Field trip form",
-        "tier": 85
-      },
-      {
-        "text": "Yearbook",
-        "tier": 85
-      },
-      {
-        "text": "Diploma",
-        "tier": 85
-      },
-      {
-        "text": "Trophy",
-        "tier": 85
-      },
-      {
-        "text": "Pencil grip",
-        "tier": 85
-      },
-      {
-        "text": "Mechanical pencil",
-        "tier": 85
-      },
-      {
-        "text": "Fountain pen",
-        "tier": 85
-      },
-      {
-        "text": "Correction tape",
+        "text": "Rennervate",
         "aliases": [
-          "white-out"
+          "enervate"
         ],
         "tier": 85
       },
       {
-        "text": "Glitter",
+        "text": "Colloportus",
         "tier": 85
       },
       {
-        "text": "Pipe cleaners",
+        "text": "Portus",
         "tier": 85
       },
       {
-        "text": "Pom poms",
+        "text": "Prior Incantato",
+        "aliases": [
+          "priori incantatem"
+        ],
         "tier": 85
       },
       {
-        "text": "Googly eyes",
+        "text": "Deletrius",
         "tier": 85
       },
       {
-        "text": "Popsicle sticks",
+        "text": "Scourgify",
         "tier": 85
       },
       {
-        "text": "Yarn",
+        "text": "Tergeo",
         "tier": 85
       },
       {
-        "text": "Felt",
+        "text": "Anapneo",
         "tier": 85
       },
       {
-        "text": "Cardboard",
+        "text": "Relashio",
         "tier": 85
       },
       {
-        "text": "Butcher paper",
+        "text": "Waddiwasi",
         "tier": 85
       },
       {
-        "text": "Laminator",
+        "text": "Specialis Revelio",
         "tier": 85
       },
       {
-        "text": "Paper cutter",
+        "text": "Homenum Revelio",
         "tier": 85
       },
       {
-        "text": "Three-hole punch",
+        "text": "Salvio Hexia",
         "tier": 85
       },
       {
-        "text": "Book cart",
+        "text": "Protego Totalum",
         "tier": 85
       },
       {
-        "text": "Standing desk",
+        "text": "Repello Muggletum",
         "tier": 85
       },
       {
-        "text": "Wobble stool",
+        "text": "Cave Inimicum",
         "tier": 85
       },
       {
-        "text": "Yoga ball",
+        "text": "Fianto Duri",
         "tier": 85
       },
       {
-        "text": "Fidget spinner",
+        "text": "Piertotum Locomotor",
         "tier": 85
       },
       {
-        "text": "Stress ball",
+        "text": "Geminio",
+        "aliases": [
+          "gemino curse"
+        ],
         "tier": 85
       },
       {
-        "text": "Highlighter",
-        "tier": 60
+        "text": "Descendo",
+        "tier": 85
       },
       {
-        "text": "Colored pencils",
-        "tier": 60
+        "text": "Expulso",
+        "tier": 85
       },
       {
-        "text": "Construction paper",
-        "tier": 60
+        "text": "Glisseo",
+        "tier": 85
       },
       {
-        "text": "Lined paper",
+        "text": "Bombarda",
+        "tier": 85
+      },
+      {
+        "text": "Duro",
+        "tier": 85
+      },
+      {
+        "text": "Brackium Emendo",
+        "tier": 85
+      },
+      {
+        "text": "Vulnera Sanentur",
+        "tier": 85
+      },
+      {
+        "text": "Incarcerous",
+        "tier": 85
+      },
+      {
+        "text": "Evanesco",
         "aliases": [
-          "notebook paper"
+          "vanishing spell"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Aparecium",
+        "tier": 85
+      },
+      {
+        "text": "Dissendium",
+        "tier": 85
+      },
+      {
+        "text": "Flipendo",
+        "tier": 85
+      },
+      {
+        "text": "Depulso",
+        "tier": 85
+      },
+      {
+        "text": "Arresto Momentum",
+        "tier": 85
+      },
+      {
+        "text": "Revelio",
+        "tier": 85
+      },
+      {
+        "text": "Confringo",
+        "tier": 85
+      },
+      {
+        "text": "Glacius",
+        "tier": 85
+      },
+      {
+        "text": "Ventus",
+        "tier": 85
+      },
+      {
+        "text": "Locomotor",
+        "aliases": [
+          "locomotor wibbly",
+          "jelly-legs jinx"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Point Me",
+        "aliases": [
+          "four-point spell"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Meteolojinx Recanto",
+        "tier": 85
+      },
+      {
+        "text": "Immobulus",
+        "tier": 85
+      },
+      {
+        "text": "Anteoculatia",
+        "tier": 85
+      },
+      {
+        "text": "Fidelius Charm",
+        "aliases": [
+          "fidelius"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Disillusionment Charm",
+        "tier": 85
+      },
+      {
+        "text": "Bat-Bogey Hex",
+        "aliases": [
+          "bat bogey hex"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tickling Charm",
+        "tier": 85
+      },
+      {
+        "text": "Cheering Charm",
+        "tier": 85
+      },
+      {
+        "text": "Imperturbable Charm",
+        "tier": 85
+      },
+      {
+        "text": "Protean Charm",
+        "tier": 85
+      },
+      {
+        "text": "Sticking Charm",
+        "aliases": [
+          "permanent sticking charm"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bubble-Head Charm",
+        "aliases": [
+          "bubble head charm"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Freezing Charm",
+        "tier": 85
+      },
+      {
+        "text": "Shield Charm",
+        "tier": 85
+      },
+      {
+        "text": "Full Body-Bind Curse",
+        "aliases": [
+          "body bind",
+          "full body bind"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Memory Charm",
+        "tier": 85
+      },
+      {
+        "text": "Levitation Charm",
+        "tier": 85
+      },
+      {
+        "text": "Summoning Charm",
+        "tier": 85
+      },
+      {
+        "text": "Disarming Charm",
+        "tier": 85
+      },
+      {
+        "text": "Stunning Spell",
+        "aliases": [
+          "stunner"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Killing Curse",
+        "tier": 85
+      },
+      {
+        "text": "Cruciatus Curse",
+        "aliases": [
+          "cruciatus"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Imperius Curse",
+        "aliases": [
+          "imperius"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Unforgivable Curses",
+        "aliases": [
+          "unforgivable curse"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Unbreakable Vow",
+        "tier": 85
+      },
+      {
+        "text": "Draught of Living Death",
+        "aliases": [
+          "draught of the living death"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wolfsbane Potion",
+        "aliases": [
+          "wolfsbane"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pepperup Potion",
+        "aliases": [
+          "pepper-up potion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Skele-Gro",
+        "aliases": [
+          "skelegro"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mandrake Restorative Draught",
+        "aliases": [
+          "mandrake draught"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shrinking Solution",
+        "tier": 85
+      },
+      {
+        "text": "Swelling Solution",
+        "tier": 85
+      },
+      {
+        "text": "Draught of Peace",
+        "tier": 85
+      },
+      {
+        "text": "Elixir of Life",
+        "tier": 85
+      },
+      {
+        "text": "Wit-Sharpening Potion",
+        "tier": 85
+      },
+      {
+        "text": "Babbling Beverage",
+        "tier": 85
+      },
+      {
+        "text": "Calming Draught",
+        "tier": 85
+      },
+      {
+        "text": "Dreamless Sleep Potion",
+        "aliases": [
+          "dreamless sleep"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Forgetfulness Potion",
+        "tier": 85
+      },
+      {
+        "text": "Hair-Raising Potion",
+        "tier": 85
+      },
+      {
+        "text": "Strengthening Solution",
+        "tier": 85
+      },
+      {
+        "text": "Confusing Concoction",
+        "tier": 85
+      },
+      {
+        "text": "Drink of Despair",
+        "aliases": [
+          "draught of despair",
+          "emerald potion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ageing Potion",
+        "aliases": [
+          "aging potion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sleeping Draught",
+        "tier": 85
+      },
+      {
+        "text": "Befuddlement Draught",
+        "tier": 85
+      },
+      {
+        "text": "Elixir to Induce Euphoria",
+        "aliases": [
+          "euphoria elixir"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hiccoughing Solution",
+        "tier": 85
+      },
+      {
+        "text": "Cure for Boils",
+        "tier": 85
+      },
+      {
+        "text": "Baruffio's Brain Elixir",
+        "aliases": [
+          "brain elixir"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Antidote to Common Poisons",
+        "aliases": [
+          "antidote"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Murtlap Essence",
+        "tier": 85
+      },
+      {
+        "text": "Essence of Dittany",
+        "aliases": [
+          "dittany"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Blood-Replenishing Potion",
+        "tier": 85
+      },
+      {
+        "text": "Wiggenweld Potion",
+        "aliases": [
+          "wiggenweld"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lumos Maxima",
+        "tier": 60
+      },
+      {
+        "text": "Reparo",
+        "tier": 60
+      },
+      {
+        "text": "Incendio",
+        "tier": 60
+      },
+      {
+        "text": "Aguamenti",
+        "tier": 60
+      },
+      {
+        "text": "Finite Incantatem",
+        "aliases": [
+          "finite"
         ],
         "tier": 60
       },
       {
-        "text": "Graph paper",
+        "text": "Silencio",
         "tier": 60
       },
       {
-        "text": "Index cards",
-        "tier": 60
-      },
-      {
-        "text": "Sticky notes",
+        "text": "Patronus Charm",
         "aliases": [
-          "post-it notes",
-          "post its"
+          "patronus"
         ],
         "tier": 60
       },
       {
-        "text": "Paper clips",
-        "aliases": [
-          "paperclip"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Thumbtacks",
-        "aliases": [
-          "push pins"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hole punch",
-        "tier": 60
-      },
-      {
-        "text": "Rubber bands",
-        "tier": 60
-      },
-      {
-        "text": "Protractor",
-        "tier": 60
-      },
-      {
-        "text": "Compass",
-        "tier": 60
-      },
-      {
-        "text": "Pencil case",
-        "aliases": [
-          "pencil box"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lunchbox",
-        "aliases": [
-          "lunch box"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Water bottle",
-        "tier": 60
-      },
-      {
-        "text": "Hand sanitizer",
-        "tier": 60
-      },
-      {
-        "text": "Tissues",
-        "tier": 60
-      },
-      {
-        "text": "Bookmark",
-        "tier": 60
-      },
-      {
-        "text": "Dictionary",
-        "tier": 60
-      },
-      {
-        "text": "Thesaurus",
-        "tier": 60
-      },
-      {
-        "text": "Atlas",
-        "tier": 60
-      },
-      {
-        "text": "Encyclopedia",
-        "tier": 60
-      },
-      {
-        "text": "Planner",
-        "tier": 60
-      },
-      {
-        "text": "Calendar",
-        "tier": 60
-      },
-      {
-        "text": "Schedule",
-        "tier": 60
-      },
-      {
-        "text": "Hall pass",
-        "tier": 60
-      },
-      {
-        "text": "Attendance sheet",
-        "tier": 60
-      },
-      {
-        "text": "Seating chart",
-        "tier": 60
-      },
-      {
-        "text": "Gradebook",
-        "tier": 60
-      },
-      {
-        "text": "Report card",
-        "tier": 60
-      },
-      {
-        "text": "Test",
-        "aliases": [
-          "quiz",
-          "exam"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Homework",
-        "tier": 60
-      },
-      {
-        "text": "Worksheet",
-        "tier": 60
-      },
-      {
-        "text": "Rubric",
-        "tier": 60
-      },
-      {
-        "text": "Syllabus",
-        "tier": 60
-      },
-      {
-        "text": "Lesson plan",
-        "tier": 60
-      },
-      {
-        "text": "Podium",
-        "aliases": [
-          "lectern"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Teacher's desk",
-        "tier": 60
-      },
-      {
-        "text": "Filing cabinet",
-        "tier": 60
-      },
-      {
-        "text": "Cubbies",
-        "aliases": [
-          "cubby"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Coat hooks",
-        "aliases": [
-          "coat rack"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Rug",
-        "aliases": [
-          "carpet"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bean bag",
-        "tier": 60
-      },
-      {
-        "text": "Reading corner",
-        "tier": 60
-      },
-      {
-        "text": "Fish tank",
-        "tier": 60
-      },
-      {
-        "text": "Plant",
-        "tier": 60
-      },
-      {
-        "text": "Pencil cup",
-        "tier": 60
-      },
-      {
-        "text": "Speaker",
-        "tier": 60
-      },
-      {
-        "text": "Intercom",
-        "tier": 60
-      },
-      {
-        "text": "Fire alarm",
-        "tier": 60
-      },
-      {
-        "text": "Smoke detector",
-        "tier": 60
-      },
-      {
-        "text": "Thermostat",
-        "tier": 60
-      },
-      {
-        "text": "Light switch",
-        "tier": 60
-      },
-      {
-        "text": "Outlet",
-        "tier": 60
-      },
-      {
-        "text": "Ceiling fan",
-        "tier": 60
-      },
-      {
-        "text": "Air conditioner",
-        "tier": 60
-      },
-      {
-        "text": "Heater",
-        "tier": 60
-      },
-      {
-        "text": "Blinds",
-        "tier": 60
-      },
-      {
-        "text": "Alphabet chart",
-        "aliases": [
-          "alphabet poster"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Number line",
-        "tier": 60
-      },
-      {
-        "text": "Periodic table",
-        "tier": 60
-      },
-      {
-        "text": "Word wall",
-        "tier": 60
-      },
-      {
-        "text": "Easel",
-        "tier": 60
-      },
-      {
-        "text": "Paint",
-        "tier": 60
-      },
-      {
-        "text": "Paintbrush",
-        "tier": 60
-      },
-      {
-        "text": "Clay",
-        "tier": 60
-      },
-      {
-        "text": "Play-Doh",
-        "tier": 60
-      },
-      {
-        "text": "Legos",
-        "tier": 60
-      },
-      {
-        "text": "Blocks",
-        "tier": 60
-      },
-      {
-        "text": "Flashcards",
-        "tier": 60
-      },
-      {
-        "text": "Microscope",
-        "tier": 60
-      },
-      {
-        "text": "Beaker",
-        "tier": 60
-      },
-      {
-        "text": "Test tube",
-        "tier": 60
-      },
-      {
-        "text": "Bunsen burner",
-        "tier": 60
-      },
-      {
-        "text": "Goggles",
-        "tier": 60
-      },
-      {
-        "text": "Lab coat",
-        "tier": 60
-      },
-      {
-        "text": "Skeleton model",
-        "tier": 60
-      },
-      {
-        "text": "Chromebook",
-        "tier": 60
-      },
-      {
-        "text": "Headphones",
-        "tier": 60
-      },
-      {
-        "text": "Document camera",
-        "tier": 60
-      },
-      {
-        "text": "Overhead projector",
-        "tier": 60
-      },
-      {
-        "text": "Television",
-        "aliases": [
-          "tv"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Printer",
-        "tier": 60
-      },
-      {
-        "text": "Copier",
-        "tier": 60
-      },
-      {
-        "text": "Pen",
+        "text": "Nox",
         "tier": 30
       },
       {
-        "text": "Paper",
+        "text": "Riddikulus",
         "tier": 30
       },
       {
-        "text": "Notebook",
+        "text": "Obliviate",
         "tier": 30
       },
       {
-        "text": "Eraser",
+        "text": "Protego",
         "tier": 30
       },
       {
-        "text": "Marker",
+        "text": "Petrificus Totalus",
         "aliases": [
-          "dry erase marker"
+          "petrificus"
         ],
         "tier": 30
       },
       {
-        "text": "Chalk",
+        "text": "Crucio",
         "tier": 30
       },
       {
-        "text": "Ruler",
+        "text": "Imperio",
         "tier": 30
       },
       {
-        "text": "Scissors",
+        "text": "Stupefy",
         "tier": 30
       },
       {
-        "text": "Glue",
+        "text": "Amortentia",
+        "tier": 30
+      },
+      {
+        "text": "Veritaserum",
+        "tier": 30
+      },
+      {
+        "text": "Felix Felicis",
         "aliases": [
-          "glue stick"
+          "liquid luck"
         ],
         "tier": 30
       },
       {
-        "text": "Backpack",
-        "tier": 30
-      },
-      {
-        "text": "Clock",
-        "tier": 30
-      },
-      {
-        "text": "Flag",
-        "tier": 30
-      },
-      {
-        "text": "Map",
-        "tier": 30
-      },
-      {
-        "text": "Globe",
-        "tier": 30
-      },
-      {
-        "text": "Computer",
-        "tier": 30
-      },
-      {
-        "text": "Projector",
-        "tier": 30
-      },
-      {
-        "text": "Calculator",
-        "tier": 30
-      },
-      {
-        "text": "Pencil sharpener",
-        "aliases": [
-          "sharpener"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Crayons",
-        "aliases": [
-          "crayon"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Poster",
-        "tier": 30
-      },
-      {
-        "text": "Bulletin board",
-        "tier": 30
-      },
-      {
-        "text": "Window",
-        "tier": 30
-      },
-      {
-        "text": "Door",
-        "tier": 30
-      },
-      {
-        "text": "Trash can",
-        "aliases": [
-          "wastebasket"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bookshelf",
-        "tier": 30
-      },
-      {
-        "text": "Tape",
-        "tier": 30
-      },
-      {
-        "text": "Stapler",
-        "tier": 30
-      },
-      {
-        "text": "Folder",
-        "tier": 30
-      },
-      {
-        "text": "Binder",
-        "tier": 30
-      },
-      {
-        "text": "Smartboard",
-        "aliases": [
-          "smart board"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Laptop",
-        "tier": 30
-      },
-      {
-        "text": "Tablet",
-        "aliases": [
-          "ipad"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Locker",
-        "tier": 30
-      },
-      {
-        "text": "Apple",
+        "text": "Love potion",
         "tier": 15
       },
       {
-        "text": "Class pet",
-        "aliases": [
-          "hamster",
-          "classroom pet"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Gum",
-        "tier": 15
-      },
-      {
-        "text": "Desk",
+        "text": "Expecto Patronum",
         "tier": 10
       },
       {
-        "text": "Chair",
+        "text": "Accio",
         "tier": 10
       },
       {
-        "text": "Whiteboard",
+        "text": "Alohomora",
+        "tier": 10
+      },
+      {
+        "text": "Lumos",
+        "tier": 10
+      },
+      {
+        "text": "Polyjuice Potion",
         "aliases": [
-          "dry erase board"
+          "polyjuice"
         ],
         "tier": 10
       },
       {
-        "text": "Chalkboard",
+        "text": "Expelliarmus",
+        "tier": 10
+      },
+      {
+        "text": "Wingardium Leviosa",
         "aliases": [
-          "blackboard"
+          "wingardium leviosa",
+          "leviosa",
+          "levioso"
         ],
         "tier": 10
       },
       {
-        "text": "Teacher",
-        "tier": 10
-      },
-      {
-        "text": "Pencil",
-        "tier": 10
-      },
-      {
-        "text": "Book",
+        "text": "Avada Kedavra",
         "aliases": [
-          "textbook"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Students",
-        "aliases": [
-          "student"
+          "avada kadavra"
         ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Bed",
-      "Toilet",
-      "Car",
-      "Stove",
-      "Couch"
-    ]
+      "Abracadabra",
+      "Hocus Pocus",
+      "Bibbidi-Bobbidi-Boo",
+      "Butterbeer",
+      "Gillyweed",
+      "Bezoar",
+      "Sorcerer's Stone",
+      "Philosopher's Stone",
+      "Horcrux",
+      "Quidditch",
+      "Muggle",
+      "Bertie Bott's"
+    ],
+    "notes": "From the books, films and games. Spell names (Accio) and their common English names (Summoning Charm) both count."
   }
 ]

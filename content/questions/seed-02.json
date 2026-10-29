@@ -1425,45 +1425,163 @@
   },
   {
     "id": "q0014",
-    "prompt": "Name something you'd find in a kitchen",
+    "prompt": "Name a cooking utensil, pot, pan, or kitchen gadget",
     "category": "everyday-objects",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Lazy Susan",
+        "text": "Mandoline",
         "aliases": [
-          "lazy suzan"
+          "mandolin slicer"
         ],
         "tier": 100
       },
       {
-        "text": "Mandoline",
+        "text": "Spider",
         "aliases": [
-          "mandoline slicer",
-          "mandolin"
+          "spider strainer",
+          "spider skimmer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fish slice",
+        "aliases": [
+          "fish spatula"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bench scraper",
+        "aliases": [
+          "dough scraper"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pastry cutter",
+        "aliases": [
+          "pastry blender"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Herb stripper",
+        "tier": 85
+      },
+      {
+        "text": "Cherry pitter",
+        "tier": 85
+      },
+      {
+        "text": "Avocado slicer",
+        "tier": 85
+      },
+      {
+        "text": "Egg separator",
+        "tier": 85
+      },
+      {
+        "text": "Egg slicer",
+        "tier": 85
+      },
+      {
+        "text": "Food mill",
+        "tier": 85
+      },
+      {
+        "text": "Potato ricer",
+        "aliases": [
+          "ricer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Spiralizer",
+        "tier": 85
+      },
+      {
+        "text": "Splatter screen",
+        "aliases": [
+          "splatter guard"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cake tester",
+        "tier": 85
+      },
+      {
+        "text": "Pie server",
+        "aliases": [
+          "cake server"
         ],
         "tier": 85
       },
       {
         "text": "Mortar and pestle",
         "aliases": [
-          "pestle",
-          "mortar"
+          "mortar",
+          "pestle"
         ],
         "tier": 85
       },
       {
-        "text": "Garlic press",
-        "tier": 85
-      },
-      {
-        "text": "Salad spinner",
-        "tier": 85
-      },
-      {
-        "text": "Zester",
+        "text": "Microplane",
         "aliases": [
-          "microplane"
+          "zester"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Citrus juicer",
+        "aliases": [
+          "reamer",
+          "lemon squeezer",
+          "juicer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Apple corer",
+        "aliases": [
+          "corer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Melon baller",
+        "tier": 85
+      },
+      {
+        "text": "Meat tenderizer",
+        "aliases": [
+          "meat mallet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nutcracker",
+        "tier": 85
+      },
+      {
+        "text": "Pepper mill",
+        "aliases": [
+          "pepper grinder"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Salt shaker",
+        "aliases": [
+          "salt and pepper shakers"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Skewers",
+        "aliases": [
+          "skewer"
         ],
         "tier": 85
       },
@@ -1472,17 +1590,23 @@
         "tier": 85
       },
       {
-        "text": "Dish rack",
+        "text": "Sifter",
         "aliases": [
-          "dish drainer",
-          "drying rack"
+          "flour sifter"
         ],
         "tier": 85
       },
       {
-        "text": "Bread box",
+        "text": "Piping bag",
         "aliases": [
-          "breadbox"
+          "pastry bag"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Basting brush",
+        "aliases": [
+          "pastry brush"
         ],
         "tier": 85
       },
@@ -1494,21 +1618,6 @@
         "tier": 85
       },
       {
-        "text": "Sifter",
-        "aliases": [
-          "flour sifter"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pastry brush",
-        "tier": 85
-      },
-      {
-        "text": "Cheesecloth",
-        "tier": 85
-      },
-      {
         "text": "Meat thermometer",
         "aliases": [
           "thermometer"
@@ -1516,16 +1625,18 @@
         "tier": 85
       },
       {
-        "text": "Kitchen scale",
+        "text": "Kitchen timer",
         "aliases": [
-          "scale"
+          "egg timer",
+          "timer"
         ],
         "tier": 85
       },
       {
-        "text": "Egg timer",
+        "text": "Kitchen scale",
         "aliases": [
-          "timer"
+          "food scale",
+          "scale"
         ],
         "tier": 85
       },
@@ -1534,50 +1645,113 @@
         "tier": 85
       },
       {
-        "text": "Skewer",
-        "tier": 85
-      },
-      {
         "text": "Cookie cutter",
         "tier": 85
       },
       {
-        "text": "Muffin tin",
+        "text": "Mixing bowl",
         "aliases": [
-          "muffin pan"
+          "bowl"
         ],
         "tier": 85
       },
       {
-        "text": "Bundt pan",
+        "text": "Salad spinner",
         "tier": 85
       },
       {
-        "text": "Dutch oven",
+        "text": "Garlic press",
         "tier": 85
       },
       {
-        "text": "Wok",
+        "text": "Ice cream scoop",
         "tier": 85
       },
       {
-        "text": "Saucepan",
+        "text": "Can opener",
+        "aliases": [
+          "tin opener"
+        ],
         "tier": 85
       },
       {
-        "text": "Stockpot",
+        "text": "Bottle opener",
         "tier": 85
       },
       {
-        "text": "Steamer",
+        "text": "Corkscrew",
+        "aliases": [
+          "wine opener"
+        ],
         "tier": 85
       },
       {
-        "text": "Butter dish",
+        "text": "Kitchen shears",
+        "aliases": [
+          "kitchen scissors",
+          "scissors"
+        ],
         "tier": 85
       },
       {
-        "text": "Gravy boat",
+        "text": "Cleaver",
+        "aliases": [
+          "meat cleaver"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paring knife",
+        "tier": 85
+      },
+      {
+        "text": "Bread knife",
+        "tier": 85
+      },
+      {
+        "text": "Chef's knife",
+        "aliases": [
+          "chefs knife"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Carving knife",
+        "tier": 85
+      },
+      {
+        "text": "Steak knife",
+        "tier": 85
+      },
+      {
+        "text": "Knife sharpener",
+        "aliases": [
+          "sharpening steel",
+          "honing rod",
+          "whetstone"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Slotted spoon",
+        "tier": 85
+      },
+      {
+        "text": "Wooden spoon",
+        "tier": 85
+      },
+      {
+        "text": "Rubber spatula",
+        "aliases": [
+          "silicone spatula"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Turner",
+        "aliases": [
+          "pancake turner"
+        ],
         "tier": 85
       },
       {
@@ -1588,22 +1762,7 @@
         "tier": 85
       },
       {
-        "text": "Ice cream scoop",
-        "aliases": [
-          "scoop"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Melon baller",
-        "tier": 85
-      },
-      {
-        "text": "Apple corer",
-        "tier": 85
-      },
-      {
-        "text": "Nutcracker",
+        "text": "Pizza stone",
         "tier": 85
       },
       {
@@ -1611,60 +1770,34 @@
         "tier": 85
       },
       {
-        "text": "Splatter guard",
-        "tier": 85
-      },
-      {
-        "text": "Range hood",
+        "text": "Measuring cups",
         "aliases": [
-          "vent hood",
-          "extractor fan"
+          "measuring cup"
         ],
         "tier": 85
       },
       {
-        "text": "Backsplash",
-        "tier": 85
-      },
-      {
-        "text": "Tupperware",
+        "text": "Measuring spoons",
         "aliases": [
-          "food container"
+          "measuring spoon"
         ],
         "tier": 85
       },
       {
-        "text": "Aluminum foil",
+        "text": "Colander",
+        "tier": 85
+      },
+      {
+        "text": "Strainer",
         "aliases": [
-          "tin foil",
-          "foil"
+          "sieve"
         ],
         "tier": 85
       },
       {
-        "text": "Plastic wrap",
+        "text": "Cutting board",
         "aliases": [
-          "cling film",
-          "saran wrap"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Parchment paper",
-        "tier": 85
-      },
-      {
-        "text": "Sponge",
-        "tier": 85
-      },
-      {
-        "text": "Dish soap",
-        "tier": 85
-      },
-      {
-        "text": "Dish towel",
-        "aliases": [
-          "tea towel"
+          "chopping board"
         ],
         "tier": 85
       },
@@ -1687,47 +1820,263 @@
         "tier": 85
       },
       {
-        "text": "Paper towel",
+        "text": "Dish towel",
         "aliases": [
-          "kitchen roll"
+          "tea towel"
         ],
         "tier": 85
       },
       {
-        "text": "Napkin",
+        "text": "Chopsticks",
         "tier": 85
       },
       {
-        "text": "Placemat",
+        "text": "Dutch oven",
         "tier": 85
       },
       {
-        "text": "Coaster",
-        "tier": 85
-      },
-      {
-        "text": "Spice rack",
-        "tier": 85
-      },
-      {
-        "text": "Salt shaker",
+        "text": "Stockpot",
         "aliases": [
-          "salt"
+          "stock pot"
         ],
         "tier": 85
       },
       {
-        "text": "Pepper grinder",
+        "text": "Saucepan",
         "aliases": [
-          "pepper mill",
-          "pepper shaker"
+          "sauce pan"
         ],
         "tier": 85
       },
       {
-        "text": "Magnets",
+        "text": "Skillet",
+        "tier": 85
+      },
+      {
+        "text": "Cast iron skillet",
         "aliases": [
-          "fridge magnet"
+          "cast iron pan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wok",
+        "tier": 85
+      },
+      {
+        "text": "Griddle",
+        "tier": 85
+      },
+      {
+        "text": "Grill pan",
+        "tier": 85
+      },
+      {
+        "text": "Roasting pan",
+        "tier": 85
+      },
+      {
+        "text": "Baking sheet",
+        "aliases": [
+          "cookie sheet",
+          "sheet pan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Muffin tin",
+        "aliases": [
+          "muffin pan",
+          "cupcake pan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cake pan",
+        "tier": 85
+      },
+      {
+        "text": "Loaf pan",
+        "aliases": [
+          "bread pan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pie dish",
+        "aliases": [
+          "pie pan",
+          "pie plate"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Casserole dish",
+        "aliases": [
+          "baking dish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ramekin",
+        "tier": 85
+      },
+      {
+        "text": "Springform pan",
+        "tier": 85
+      },
+      {
+        "text": "Bundt pan",
+        "tier": 85
+      },
+      {
+        "text": "Tart pan",
+        "tier": 85
+      },
+      {
+        "text": "Cooling rack",
+        "aliases": [
+          "wire rack"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Double boiler",
+        "tier": 85
+      },
+      {
+        "text": "Pressure cooker",
+        "tier": 85
+      },
+      {
+        "text": "Steamer",
+        "aliases": [
+          "steamer basket"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kettle",
+        "aliases": [
+          "tea kettle",
+          "electric kettle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Teapot",
+        "tier": 85
+      },
+      {
+        "text": "French press",
+        "tier": 85
+      },
+      {
+        "text": "Coffee maker",
+        "aliases": [
+          "coffee machine"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Espresso machine",
+        "tier": 85
+      },
+      {
+        "text": "Toaster",
+        "tier": 85
+      },
+      {
+        "text": "Toaster oven",
+        "tier": 85
+      },
+      {
+        "text": "Air fryer",
+        "tier": 85
+      },
+      {
+        "text": "Slow cooker",
+        "aliases": [
+          "crock pot",
+          "crockpot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Instant Pot",
+        "tier": 85
+      },
+      {
+        "text": "Rice cooker",
+        "tier": 85
+      },
+      {
+        "text": "Blender",
+        "tier": 85
+      },
+      {
+        "text": "Immersion blender",
+        "aliases": [
+          "stick blender",
+          "hand blender"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Food processor",
+        "tier": 85
+      },
+      {
+        "text": "Stand mixer",
+        "aliases": [
+          "kitchenaid"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hand mixer",
+        "aliases": [
+          "electric mixer",
+          "mixer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Waffle iron",
+        "aliases": [
+          "waffle maker"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sandwich maker",
+        "aliases": [
+          "panini press"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Popcorn maker",
+        "aliases": [
+          "popcorn machine"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Deep fryer",
+        "tier": 85
+      },
+      {
+        "text": "Bread maker",
+        "aliases": [
+          "bread machine"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Microwave",
+        "aliases": [
+          "microwave oven"
         ],
         "tier": 85
       },
@@ -1736,10 +2085,7 @@
         "tier": 60
       },
       {
-        "text": "Colander",
-        "aliases": [
-          "strainer"
-        ],
+        "text": "Tongs",
         "tier": 60
       },
       {
@@ -1747,188 +2093,30 @@
         "tier": 60
       },
       {
-        "text": "Spatula",
-        "tier": 60
-      },
-      {
-        "text": "Tongs",
+        "text": "Peeler",
+        "aliases": [
+          "vegetable peeler",
+          "potato peeler"
+        ],
         "tier": 60
       },
       {
         "text": "Grater",
         "aliases": [
-          "cheese grater"
+          "cheese grater",
+          "box grater"
         ],
         "tier": 60
       },
       {
-        "text": "Can opener",
+        "text": "Potato masher",
         "aliases": [
-          "tin opener"
+          "masher"
         ],
         "tier": 60
       },
       {
-        "text": "Cutting board",
-        "aliases": [
-          "chopping board"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Measuring cup",
-        "aliases": [
-          "measuring spoon"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Peeler",
-        "aliases": [
-          "vegetable peeler"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Corkscrew",
-        "aliases": [
-          "bottle opener"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Baking sheet",
-        "aliases": [
-          "baking tray",
-          "sheet pan"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Blender",
-        "tier": 60
-      },
-      {
-        "text": "Kettle",
-        "aliases": [
-          "tea kettle"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Dishwasher",
-        "tier": 60
-      },
-      {
-        "text": "Freezer",
-        "tier": 60
-      },
-      {
-        "text": "Coffee maker",
-        "aliases": [
-          "coffee machine",
-          "coffee pot"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Pot",
-        "tier": 60
-      },
-      {
-        "text": "Pan",
-        "aliases": [
-          "frying pan",
-          "skillet"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cabinet",
-        "aliases": [
-          "cupboard"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Pantry",
-        "tier": 60
-      },
-      {
-        "text": "Counter",
-        "aliases": [
-          "countertop",
-          "worktop"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Trash can",
-        "aliases": [
-          "garbage can",
-          "bin",
-          "garbage"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Faucet",
-        "aliases": [
-          "tap"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cookbook",
-        "aliases": [
-          "recipe book"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Air fryer",
-        "tier": 60
-      },
-      {
-        "text": "Food processor",
-        "tier": 60
-      },
-      {
-        "text": "Stand mixer",
-        "aliases": [
-          "mixer"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Slow cooker",
-        "aliases": [
-          "crock pot",
-          "crockpot"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Rice cooker",
-        "tier": 60
-      },
-      {
-        "text": "Toaster oven",
-        "tier": 60
-      },
-      {
-        "text": "Island",
-        "aliases": [
-          "kitchen island"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Drawer",
-        "tier": 60
-      },
-      {
-        "text": "Knife",
+        "text": "Spoon",
         "tier": 30
       },
       {
@@ -1936,100 +2124,44 @@
         "tier": 30
       },
       {
-        "text": "Spoon",
-        "tier": 30
+        "text": "Spatula",
+        "tier": 10
       },
       {
-        "text": "Plate",
-        "tier": 30
-      },
-      {
-        "text": "Bowl",
-        "tier": 30
-      },
-      {
-        "text": "Cup",
+        "text": "Frying pan",
         "aliases": [
-          "mug"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Glass",
-        "tier": 30
-      },
-      {
-        "text": "Table",
-        "tier": 30
-      },
-      {
-        "text": "Chair",
-        "tier": 30
-      },
-      {
-        "text": "Food",
-        "tier": 30
-      },
-      {
-        "text": "Kitchen sink",
-        "aliases": [
-          "everything but the kitchen sink"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Chef",
-        "tier": 15
-      },
-      {
-        "text": "Cookie jar",
-        "tier": 15
-      },
-      {
-        "text": "Fridge",
-        "aliases": [
-          "refrigerator",
-          "frige"
+          "fry pan"
         ],
         "tier": 10
       },
       {
-        "text": "Stove",
-        "aliases": [
-          "stovetop",
-          "cooktop",
-          "range"
-        ],
+        "text": "Pot",
         "tier": 10
       },
       {
-        "text": "Oven",
+        "text": "Pan",
         "tier": 10
       },
       {
-        "text": "Microwave",
-        "aliases": [
-          "microwave oven"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Sink",
-        "tier": 10
-      },
-      {
-        "text": "Toaster",
+        "text": "Knife",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Bed",
-      "Toilet",
-      "Shower",
-      "Sofa",
-      "Couch",
-      "Bathtub"
-    ]
+      "Refrigerator",
+      "Fridge",
+      "Oven",
+      "Stove",
+      "Dishwasher",
+      "Freezer",
+      "Sink",
+      "Table",
+      "Food",
+      "Napkin",
+      "Plate",
+      "Cup"
+    ],
+    "notes": "Hand tools, cookware, bakeware and countertop gadgets. Big built-in appliances (fridge, oven, dishwasher) don't count."
   },
   {
     "id": "q0015",

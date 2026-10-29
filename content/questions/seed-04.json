@@ -5347,671 +5347,442 @@
   },
   {
     "id": "q0039",
-    "prompt": "Name a tech company",
-    "category": "brands",
+    "prompt": "Name a currency used by a country today",
+    "category": "geography",
     "status": "reserve",
     "answers": [
       {
-        "text": "Xerox",
+        "text": "Ngultrum",
         "tier": 100
       },
       {
-        "text": "Palantir",
+        "text": "Rufiyaa",
         "tier": 85
       },
       {
-        "text": "Snowflake",
-        "tier": 85
-      },
-      {
-        "text": "ServiceNow",
-        "tier": 85
-      },
-      {
-        "text": "Workday",
-        "tier": 85
-      },
-      {
-        "text": "Atlassian",
-        "tier": 85
-      },
-      {
-        "text": "Autodesk",
-        "tier": 85
-      },
-      {
-        "text": "Intuit",
-        "tier": 85
-      },
-      {
-        "text": "VMware",
-        "tier": 85
-      },
-      {
-        "text": "Broadcom",
-        "tier": 85
-      },
-      {
-        "text": "Texas Instruments",
-        "tier": 85
-      },
-      {
-        "text": "Micron",
-        "tier": 85
-      },
-      {
-        "text": "Western Digital",
-        "tier": 85
-      },
-      {
-        "text": "Seagate",
-        "tier": 85
-      },
-      {
-        "text": "SanDisk",
-        "tier": 85
-      },
-      {
-        "text": "Kingston",
-        "tier": 85
-      },
-      {
-        "text": "Corsair",
-        "tier": 85
-      },
-      {
-        "text": "Razer",
-        "tier": 85
-      },
-      {
-        "text": "MSI",
-        "tier": 85
-      },
-      {
-        "text": "Gigabyte",
-        "tier": 85
-      },
-      {
-        "text": "Foxconn",
-        "tier": 85
-      },
-      {
-        "text": "TSMC",
-        "tier": 85
-      },
-      {
-        "text": "ASML",
-        "tier": 85
-      },
-      {
-        "text": "Arm",
-        "tier": 85
-      },
-      {
-        "text": "SAP",
-        "tier": 85
-      },
-      {
-        "text": "Infosys",
-        "tier": 85
-      },
-      {
-        "text": "Wipro",
-        "tier": 85
-      },
-      {
-        "text": "Tata Consultancy",
+        "text": "Pa'anga",
         "aliases": [
-          "tcs"
+          "paanga"
         ],
         "tier": 85
       },
       {
-        "text": "Rakuten",
+        "text": "Vatu",
         "tier": 85
       },
       {
-        "text": "Sega",
+        "text": "Tala",
         "tier": 85
       },
       {
-        "text": "Atari",
+        "text": "Kina",
         "tier": 85
       },
       {
-        "text": "Commodore",
+        "text": "Pataca",
         "tier": 85
       },
       {
-        "text": "Compaq",
-        "tier": 85
-      },
-      {
-        "text": "Gateway",
-        "tier": 85
-      },
-      {
-        "text": "Palm",
-        "tier": 85
-      },
-      {
-        "text": "Sun Microsystems",
-        "tier": 85
-      },
-      {
-        "text": "Netscape",
-        "tier": 85
-      },
-      {
-        "text": "AOL",
-        "tier": 85
-      },
-      {
-        "text": "Napster",
-        "tier": 85
-      },
-      {
-        "text": "Blockbuster",
-        "tier": 85
-      },
-      {
-        "text": "Kodak",
-        "tier": 85
-      },
-      {
-        "text": "Polaroid",
-        "tier": 85
-      },
-      {
-        "text": "Unisys",
-        "tier": 85
-      },
-      {
-        "text": "Red Hat",
-        "tier": 85
-      },
-      {
-        "text": "GitHub",
-        "tier": 85
-      },
-      {
-        "text": "GitLab",
-        "tier": 85
-      },
-      {
-        "text": "Mozilla",
-        "tier": 85
-      },
-      {
-        "text": "Wikipedia",
-        "tier": 85
-      },
-      {
-        "text": "Duolingo",
-        "tier": 85
-      },
-      {
-        "text": "Peloton",
-        "tier": 85
-      },
-      {
-        "text": "Ring",
-        "tier": 85
-      },
-      {
-        "text": "Nest",
-        "tier": 85
-      },
-      {
-        "text": "Waymo",
-        "tier": 85
-      },
-      {
-        "text": "Cruise",
-        "tier": 85
-      },
-      {
-        "text": "Coinbase",
-        "tier": 85
-      },
-      {
-        "text": "Robinhood",
-        "tier": 85
-      },
-      {
-        "text": "Venmo",
-        "tier": 85
-      },
-      {
-        "text": "Cash App",
-        "tier": 85
-      },
-      {
-        "text": "Etsy",
-        "tier": 85
-      },
-      {
-        "text": "Wayfair",
-        "tier": 85
-      },
-      {
-        "text": "Zillow",
-        "tier": 85
-      },
-      {
-        "text": "Yelp",
-        "tier": 85
-      },
-      {
-        "text": "Tumblr",
-        "tier": 85
-      },
-      {
-        "text": "Quora",
-        "tier": 85
-      },
-      {
-        "text": "Hulu",
-        "tier": 85
-      },
-      {
-        "text": "Pandora",
-        "tier": 85
-      },
-      {
-        "text": "SoundCloud",
-        "tier": 85
-      },
-      {
-        "text": "Shazam",
-        "tier": 85
-      },
-      {
-        "text": "Grammarly",
-        "tier": 85
-      },
-      {
-        "text": "Canva",
-        "tier": 85
-      },
-      {
-        "text": "Figma",
-        "tier": 85
-      },
-      {
-        "text": "Notion",
-        "tier": 85
-      },
-      {
-        "text": "Asana",
-        "tier": 85
-      },
-      {
-        "text": "Trello",
-        "tier": 85
-      },
-      {
-        "text": "Salesforce",
-        "tier": 60
-      },
-      {
-        "text": "Qualcomm",
-        "tier": 60
-      },
-      {
-        "text": "AMD",
-        "tier": 60
-      },
-      {
-        "text": "Asus",
-        "tier": 60
-      },
-      {
-        "text": "Acer",
-        "tier": 60
-      },
-      {
-        "text": "LG",
-        "tier": 60
-      },
-      {
-        "text": "Panasonic",
-        "tier": 60
-      },
-      {
-        "text": "Toshiba",
-        "tier": 60
-      },
-      {
-        "text": "Huawei",
-        "tier": 60
-      },
-      {
-        "text": "Xiaomi",
-        "tier": 60
-      },
-      {
-        "text": "Alibaba",
-        "tier": 60
-      },
-      {
-        "text": "Tencent",
-        "tier": 60
-      },
-      {
-        "text": "Baidu",
-        "tier": 60
-      },
-      {
-        "text": "eBay",
+        "text": "Tugrik",
         "aliases": [
-          "ebay"
+          "togrog",
+          "tughrik"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Somoni",
+        "tier": 85
+      },
+      {
+        "text": "Tenge",
+        "tier": 85
+      },
+      {
+        "text": "Som",
+        "aliases": [
+          "sum",
+          "so'm"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Manat",
+        "tier": 85
+      },
+      {
+        "text": "Dram",
+        "tier": 85
+      },
+      {
+        "text": "Lari",
+        "tier": 85
+      },
+      {
+        "text": "Denar",
+        "tier": 85
+      },
+      {
+        "text": "Lek",
+        "tier": 85
+      },
+      {
+        "text": "Afghani",
+        "tier": 85
+      },
+      {
+        "text": "Kyat",
+        "tier": 85
+      },
+      {
+        "text": "Kip",
+        "tier": 85
+      },
+      {
+        "text": "Riel",
+        "tier": 85
+      },
+      {
+        "text": "Ariary",
+        "tier": 85
+      },
+      {
+        "text": "Ouguiya",
+        "tier": 85
+      },
+      {
+        "text": "Dalasi",
+        "tier": 85
+      },
+      {
+        "text": "Leone",
+        "tier": 85
+      },
+      {
+        "text": "Lilangeni",
+        "tier": 85
+      },
+      {
+        "text": "Loti",
+        "tier": 85
+      },
+      {
+        "text": "Pula",
+        "tier": 85
+      },
+      {
+        "text": "Metical",
+        "tier": 85
+      },
+      {
+        "text": "Kwanza",
+        "tier": 85
+      },
+      {
+        "text": "Kwacha",
+        "tier": 85
+      },
+      {
+        "text": "Nakfa",
+        "tier": 85
+      },
+      {
+        "text": "Birr",
+        "tier": 85
+      },
+      {
+        "text": "Cedi",
+        "tier": 85
+      },
+      {
+        "text": "Dobra",
+        "tier": 85
+      },
+      {
+        "text": "Gourde",
+        "tier": 85
+      },
+      {
+        "text": "Lempira",
+        "tier": 85
+      },
+      {
+        "text": "Cordoba",
+        "aliases": [
+          "córdoba"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Balboa",
+        "tier": 85
+      },
+      {
+        "text": "Guarani",
+        "aliases": [
+          "guaraní"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Boliviano",
+        "tier": 85
+      },
+      {
+        "text": "Hryvnia",
+        "aliases": [
+          "hryvnya",
+          "grivna"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Taka",
+        "tier": 85
+      },
+      {
+        "text": "Rupiah",
+        "tier": 85
+      },
+      {
+        "text": "Ringgit",
+        "tier": 85
+      },
+      {
+        "text": "Florin",
+        "aliases": [
+          "aruban florin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Guilder",
+        "aliases": [
+          "caribbean guilder",
+          "antillean guilder"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Baht",
+        "tier": 60
+      },
+      {
+        "text": "Dong",
+        "tier": 60
+      },
+      {
+        "text": "Won",
+        "tier": 60
+      },
+      {
+        "text": "Zloty",
+        "aliases": [
+          "złoty"
         ],
         "tier": 60
       },
       {
-        "text": "PayPal",
+        "text": "Forint",
         "tier": 60
       },
       {
-        "text": "Zoom",
+        "text": "Koruna",
         "tier": 60
       },
       {
-        "text": "Slack",
+        "text": "Leu",
         "tier": 60
       },
       {
-        "text": "Dropbox",
+        "text": "Krone",
         "tier": 60
       },
       {
-        "text": "Reddit",
-        "tier": 60
-      },
-      {
-        "text": "Pinterest",
-        "tier": 60
-      },
-      {
-        "text": "LinkedIn",
-        "tier": 60
-      },
-      {
-        "text": "Lyft",
-        "tier": 60
-      },
-      {
-        "text": "DoorDash",
-        "tier": 60
-      },
-      {
-        "text": "Shopify",
-        "tier": 60
-      },
-      {
-        "text": "Square",
+        "text": "Krona",
         "aliases": [
-          "block"
+          "króna"
         ],
         "tier": 60
       },
       {
-        "text": "Stripe",
+        "text": "Dinar",
         "tier": 60
       },
       {
-        "text": "SpaceX",
+        "text": "Dirham",
         "tier": 60
       },
       {
-        "text": "Anthropic",
+        "text": "Riyal",
         "tier": 60
       },
       {
-        "text": "Motorola",
+        "text": "Rial",
         "tier": 60
       },
       {
-        "text": "Nokia",
-        "tier": 60
-      },
-      {
-        "text": "Ericsson",
-        "tier": 60
-      },
-      {
-        "text": "Logitech",
-        "tier": 60
-      },
-      {
-        "text": "Canon",
-        "tier": 60
-      },
-      {
-        "text": "Nikon",
-        "tier": 60
-      },
-      {
-        "text": "Fujitsu",
-        "tier": 60
-      },
-      {
-        "text": "Philips",
-        "tier": 60
-      },
-      {
-        "text": "Siemens",
-        "tier": 60
-      },
-      {
-        "text": "Garmin",
-        "tier": 60
-      },
-      {
-        "text": "Fitbit",
-        "tier": 60
-      },
-      {
-        "text": "GoPro",
-        "tier": 60
-      },
-      {
-        "text": "Roku",
-        "tier": 60
-      },
-      {
-        "text": "Sonos",
-        "tier": 60
-      },
-      {
-        "text": "Instagram",
-        "tier": 60
-      },
-      {
-        "text": "WhatsApp",
-        "tier": 60
-      },
-      {
-        "text": "YouTube",
-        "tier": 60
-      },
-      {
-        "text": "Twitch",
-        "tier": 60
-      },
-      {
-        "text": "Discord",
-        "tier": 60
-      },
-      {
-        "text": "Valve",
-        "tier": 60
-      },
-      {
-        "text": "Nintendo",
-        "tier": 60
-      },
-      {
-        "text": "Activision",
-        "tier": 60
-      },
-      {
-        "text": "Electronic Arts",
+        "text": "Shekel",
         "aliases": [
-          "ea"
+          "sheqel",
+          "new shekel"
         ],
         "tier": 60
       },
       {
-        "text": "Epic Games",
+        "text": "Lira",
+        "aliases": [
+          "turkish lira"
+        ],
         "tier": 60
       },
       {
-        "text": "Roblox",
+        "text": "Rand",
         "tier": 60
       },
       {
-        "text": "Netflix",
-        "tier": 30
+        "text": "Naira",
+        "tier": 60
       },
       {
-        "text": "IBM",
-        "tier": 30
+        "text": "Shilling",
+        "tier": 60
       },
       {
-        "text": "Intel",
-        "tier": 30
-      },
-      {
-        "text": "Nvidia",
-        "tier": 30
-      },
-      {
-        "text": "Dell",
-        "tier": 30
-      },
-      {
-        "text": "HP",
+        "text": "Real",
         "aliases": [
-          "hewlett-packard",
-          "hewlett packard"
+          "brazilian real"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sol",
+        "aliases": [
+          "peruvian sol"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Colon",
+        "aliases": [
+          "colón"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Quetzal",
+        "tier": 60
+      },
+      {
+        "text": "Bolivar",
+        "aliases": [
+          "bolívar"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Escudo",
+        "tier": 60
+      },
+      {
+        "text": "Mark",
+        "aliases": [
+          "convertible mark"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Franc",
+        "aliases": [
+          "swiss franc",
+          "cfa franc"
         ],
         "tier": 30
       },
       {
-        "text": "Sony",
-        "tier": 30
-      },
-      {
-        "text": "Uber",
-        "tier": 30
-      },
-      {
-        "text": "Twitter",
+        "text": "Yuan",
         "aliases": [
-          "x"
+          "renminbi",
+          "rmb",
+          "chinese yuan"
         ],
         "tier": 30
       },
       {
-        "text": "Snapchat",
-        "aliases": [
-          "snap"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "TikTok",
-        "aliases": [
-          "bytedance"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Spotify",
-        "tier": 30
-      },
-      {
-        "text": "Adobe",
-        "tier": 30
-      },
-      {
-        "text": "Oracle",
-        "tier": 30
-      },
-      {
-        "text": "Lenovo",
-        "tier": 30
-      },
-      {
-        "text": "Cisco",
-        "tier": 30
-      },
-      {
-        "text": "Airbnb",
-        "tier": 30
-      },
-      {
-        "text": "OpenAI",
-        "tier": 30
-      },
-      {
-        "text": "Yahoo",
-        "tier": 30
-      },
-      {
-        "text": "BlackBerry",
+        "text": "Bitcoin",
         "tier": 15
       },
       {
-        "text": "MySpace",
-        "tier": 15
-      },
-      {
-        "text": "Apple",
-        "tier": 10
-      },
-      {
-        "text": "Google",
+        "text": "Dollar",
         "aliases": [
-          "alphabet"
+          "us dollar",
+          "dollars"
         ],
         "tier": 10
       },
       {
-        "text": "Microsoft",
-        "tier": 10
-      },
-      {
-        "text": "Amazon",
-        "tier": 10
-      },
-      {
-        "text": "Meta",
+        "text": "Euro",
         "aliases": [
-          "facebook"
+          "euros"
         ],
         "tier": 10
       },
       {
-        "text": "Samsung",
+        "text": "Pound",
+        "aliases": [
+          "pound sterling",
+          "sterling",
+          "british pound",
+          "pounds"
+        ],
         "tier": 10
       },
       {
-        "text": "Tesla",
+        "text": "Yen",
+        "aliases": [
+          "japanese yen"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Peso",
+        "aliases": [
+          "pesos"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Rupee",
+        "aliases": [
+          "rupees"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ruble",
+        "aliases": [
+          "rouble",
+          "rubles"
+        ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Skynet",
-      "Walmart",
-      "Target",
-      "Coca-Cola",
-      "McDonald's",
-      "Nike",
-      "Disney"
-    ]
+      "Drachma",
+      "Deutsche Mark",
+      "Peseta",
+      "Doubloon",
+      "Ducat",
+      "Kuna",
+      "Markka",
+      "Lev",
+      "Sucre",
+      "Dogecoin",
+      "Ethereum",
+      "Gold",
+      "Credit card"
+    ],
+    "notes": "Current national currencies, by name (dollar, yen, rupee...). Currencies replaced by the euro or otherwise retired don't count."
   },
   {
     "id": "q0040",

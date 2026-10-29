@@ -1,1252 +1,541 @@
 [
   {
     "id": "q0131",
-    "prompt": "Name a famous landmark or monument",
-    "category": "history",
+    "prompt": "Name a James Bond movie, actor, or character",
+    "category": "movies-tv",
     "status": "reserve",
     "answers": [
       {
-        "text": "Moai",
-        "aliases": [
-          "easter island heads",
-          "easter island statues"
-        ],
+        "text": "Nick Nack",
         "tier": 100
       },
       {
-        "text": "Göbekli Tepe",
+        "text": "On Her Majesty's Secret Service",
         "aliases": [
-          "gobekli tepe"
+          "ohmss"
         ],
         "tier": 85
       },
       {
-        "text": "Skara Brae",
-        "tier": 85
-      },
-      {
-        "text": "Newgrange",
-        "tier": 85
-      },
-      {
-        "text": "Carnac stones",
-        "tier": 85
-      },
-      {
-        "text": "Avebury",
-        "tier": 85
-      },
-      {
-        "text": "Callanish Stones",
-        "tier": 85
-      },
-      {
-        "text": "Ring of Brodgar",
-        "tier": 85
-      },
-      {
-        "text": "Silbury Hill",
-        "tier": 85
-      },
-      {
-        "text": "Uffington White Horse",
-        "tier": 85
-      },
-      {
-        "text": "Cerne Abbas Giant",
-        "tier": 85
-      },
-      {
-        "text": "Long Man of Wilmington",
-        "tier": 85
-      },
-      {
-        "text": "Ggantija",
-        "tier": 85
-      },
-      {
-        "text": "Hal Saflieni Hypogeum",
-        "tier": 85
-      },
-      {
-        "text": "Lascaux",
-        "tier": 85
-      },
-      {
-        "text": "Altamira",
-        "tier": 85
-      },
-      {
-        "text": "Chauvet Cave",
-        "tier": 85
-      },
-      {
-        "text": "Mohenjo-daro",
-        "tier": 85
-      },
-      {
-        "text": "Persepolis",
-        "tier": 85
-      },
-      {
-        "text": "Ziggurat of Ur",
-        "tier": 85
-      },
-      {
-        "text": "Babylon",
-        "tier": 85
-      },
-      {
-        "text": "Ishtar Gate",
-        "tier": 85
-      },
-      {
-        "text": "Nineveh",
-        "tier": 85
-      },
-      {
-        "text": "Palmyra",
-        "tier": 85
-      },
-      {
-        "text": "Baalbek",
-        "tier": 85
-      },
-      {
-        "text": "Jerash",
-        "tier": 85
-      },
-      {
-        "text": "Great Zimbabwe",
-        "tier": 85
-      },
-      {
-        "text": "Lalibela",
-        "tier": 85
-      },
-      {
-        "text": "Aksum obelisk",
-        "tier": 85
-      },
-      {
-        "text": "Timbuktu",
-        "tier": 85
-      },
-      {
-        "text": "Leptis Magna",
-        "tier": 85
-      },
-      {
-        "text": "Carthage",
-        "tier": 85
-      },
-      {
-        "text": "Volubilis",
-        "tier": 85
-      },
-      {
-        "text": "Djemaa el-Fna",
-        "tier": 85
-      },
-      {
-        "text": "Hassan II Mosque",
-        "tier": 85
-      },
-      {
-        "text": "Kairouan",
-        "tier": 85
-      },
-      {
-        "text": "Mount Nemrut",
-        "tier": 85
-      },
-      {
-        "text": "Ephesus",
-        "tier": 85
-      },
-      {
-        "text": "Troy",
-        "tier": 85
-      },
-      {
-        "text": "Pergamon",
-        "tier": 85
-      },
-      {
-        "text": "Hierapolis",
-        "tier": 85
-      },
-      {
-        "text": "Sumela Monastery",
-        "tier": 85
-      },
-      {
-        "text": "Rila Monastery",
-        "tier": 85
-      },
-      {
-        "text": "Bran Castle",
-        "tier": 85
-      },
-      {
-        "text": "Corvin Castle",
-        "tier": 85
-      },
-      {
-        "text": "Peles Castle",
-        "tier": 85
-      },
-      {
-        "text": "Wawel Castle",
-        "tier": 85
-      },
-      {
-        "text": "Malbork Castle",
-        "tier": 85
-      },
-      {
-        "text": "Wieliczka Salt Mine",
-        "tier": 85
-      },
-      {
-        "text": "Auschwitz",
-        "tier": 85
-      },
-      {
-        "text": "Hallgrimskirkja",
-        "tier": 85
-      },
-      {
-        "text": "Nidaros Cathedral",
-        "tier": 85
-      },
-      {
-        "text": "Stave church",
-        "tier": 85
-      },
-      {
-        "text": "Kronborg Castle",
-        "tier": 85
-      },
-      {
-        "text": "Tivoli Gardens",
-        "tier": 85
-      },
-      {
-        "text": "Vasa Museum",
-        "tier": 85
-      },
-      {
-        "text": "Drottningholm",
-        "tier": 85
-      },
-      {
-        "text": "Suomenlinna",
-        "tier": 85
-      },
-      {
-        "text": "Kizhi Pogost",
-        "tier": 85
-      },
-      {
-        "text": "Motherland Calls",
-        "tier": 85
-      },
-      {
-        "text": "Mamayev Kurgan",
-        "tier": 85
-      },
-      {
-        "text": "Derinkuyu",
-        "tier": 85
-      },
-      {
-        "text": "Ani ruins",
-        "tier": 85
-      },
-      {
-        "text": "Geghard",
-        "tier": 85
-      },
-      {
-        "text": "Tatev Monastery",
-        "tier": 85
-      },
-      {
-        "text": "Gergeti Trinity Church",
-        "tier": 85
-      },
-      {
-        "text": "Registan",
-        "tier": 85
-      },
-      {
-        "text": "Shah-i-Zinda",
-        "tier": 85
-      },
-      {
-        "text": "Bukhara Ark",
-        "tier": 85
-      },
-      {
-        "text": "Minaret of Jam",
-        "tier": 85
-      },
-      {
-        "text": "Bamiyan Buddhas",
-        "tier": 85
-      },
-      {
-        "text": "Sanchi Stupa",
-        "tier": 85
-      },
-      {
-        "text": "Ajanta Caves",
-        "tier": 85
-      },
-      {
-        "text": "Ellora Caves",
-        "tier": 85
-      },
-      {
-        "text": "Konark Sun Temple",
-        "tier": 85
-      },
-      {
-        "text": "Khajuraho",
-        "tier": 85
-      },
-      {
-        "text": "Hampi",
-        "tier": 85
-      },
-      {
-        "text": "Meenakshi Temple",
-        "tier": 85
-      },
-      {
-        "text": "Brihadeeswarar Temple",
-        "tier": 85
-      },
-      {
-        "text": "Paro Taktsang",
+        "text": "The Man with the Golden Gun",
         "aliases": [
-          "tiger's nest"
+          "man with the golden gun"
         ],
         "tier": 85
       },
       {
-        "text": "Boudhanath",
+        "text": "For Your Eyes Only",
         "tier": 85
       },
       {
-        "text": "Swayambhunath",
+        "text": "Octopussy",
         "tier": 85
       },
       {
-        "text": "Leshan Giant Buddha",
-        "tier": 85
-      },
-      {
-        "text": "Mogao Caves",
-        "tier": 85
-      },
-      {
-        "text": "Hanging Temple",
-        "tier": 85
-      },
-      {
-        "text": "Yungang Grottoes",
-        "tier": 85
-      },
-      {
-        "text": "Longmen Grottoes",
-        "tier": 85
-      },
-      {
-        "text": "Jiayuguan",
-        "tier": 85
-      },
-      {
-        "text": "Tulou",
-        "tier": 85
-      },
-      {
-        "text": "Mausoleum of Qin Shi Huang",
-        "tier": 85
-      },
-      {
-        "text": "Todai-ji",
-        "tier": 85
-      },
-      {
-        "text": "Kiyomizu-dera",
-        "tier": 85
-      },
-      {
-        "text": "Ryoan-ji",
-        "tier": 85
-      },
-      {
-        "text": "Nikko Toshogu",
-        "tier": 85
-      },
-      {
-        "text": "Bulguksa",
-        "tier": 85
-      },
-      {
-        "text": "Seokguram",
-        "tier": 85
-      },
-      {
-        "text": "Hwaseong Fortress",
-        "tier": 85
-      },
-      {
-        "text": "Ta Prohm",
-        "tier": 85
-      },
-      {
-        "text": "Bayon",
-        "tier": 85
-      },
-      {
-        "text": "Preah Vihear",
-        "tier": 85
-      },
-      {
-        "text": "My Son Sanctuary",
-        "tier": 85
-      },
-      {
-        "text": "Hue Imperial City",
-        "tier": 85
-      },
-      {
-        "text": "Rice Terraces of Banaue",
+        "text": "A View to a Kill",
         "aliases": [
-          "banaue rice terraces"
+          "view to a kill"
         ],
         "tier": 85
       },
       {
-        "text": "Wat Phra Kaew",
-        "tier": 85
-      },
-      {
-        "text": "Ayutthaya",
-        "tier": 85
-      },
-      {
-        "text": "Sukhothai",
-        "tier": 85
-      },
-      {
-        "text": "Plain of Jars",
-        "tier": 85
-      },
-      {
-        "text": "Tanah Lot",
-        "tier": 85
-      },
-      {
-        "text": "Uluwatu",
-        "tier": 85
-      },
-      {
-        "text": "Nan Madol",
-        "tier": 85
-      },
-      {
-        "text": "Sky Tower",
-        "tier": 85
-      },
-      {
-        "text": "Cahokia",
-        "tier": 85
-      },
-      {
-        "text": "Mesa Verde",
-        "tier": 85
-      },
-      {
-        "text": "Chaco Canyon",
-        "tier": 85
-      },
-      {
-        "text": "Serpent Mound",
-        "tier": 85
-      },
-      {
-        "text": "Taos Pueblo",
-        "tier": 85
-      },
-      {
-        "text": "Spiro Mounds",
-        "tier": 85
-      },
-      {
-        "text": "Poverty Point",
-        "tier": 85
-      },
-      {
-        "text": "Mission San Juan Capistrano",
-        "tier": 85
-      },
-      {
-        "text": "Hearst Castle",
-        "tier": 85
-      },
-      {
-        "text": "Biltmore Estate",
-        "tier": 85
-      },
-      {
-        "text": "Monticello",
-        "tier": 85
-      },
-      {
-        "text": "Mount Vernon",
-        "tier": 85
-      },
-      {
-        "text": "Fort Sumter",
-        "tier": 85
-      },
-      {
-        "text": "Gettysburg",
-        "tier": 85
-      },
-      {
-        "text": "Pearl Harbor",
-        "tier": 85
-      },
-      {
-        "text": "USS Arizona Memorial",
-        "tier": 85
-      },
-      {
-        "text": "Iolani Palace",
-        "tier": 85
-      },
-      {
-        "text": "Alhambra",
-        "tier": 60
-      },
-      {
-        "text": "Mont-Saint-Michel",
+        "text": "The Living Daylights",
         "aliases": [
-          "mont saint michel"
+          "living daylights"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Licence to Kill",
+        "aliases": [
+          "license to kill"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "The World Is Not Enough",
+        "aliases": [
+          "world is not enough"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Quantum of Solace",
+        "tier": 85
+      },
+      {
+        "text": "Never Say Never Again",
+        "tier": 85
+      },
+      {
+        "text": "Tee Hee",
+        "tier": 85
+      },
+      {
+        "text": "Baron Samedi",
+        "tier": 85
+      },
+      {
+        "text": "Hugo Drax",
+        "aliases": [
+          "drax"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Karl Stromberg",
+        "aliases": [
+          "stromberg"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kristatos",
+        "tier": 85
+      },
+      {
+        "text": "Kamal Khan",
+        "tier": 85
+      },
+      {
+        "text": "Max Zorin",
+        "aliases": [
+          "zorin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "May Day",
+        "tier": 85
+      },
+      {
+        "text": "Koskov",
+        "aliases": [
+          "general koskov"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Brad Whitaker",
+        "tier": 85
+      },
+      {
+        "text": "Franz Sanchez",
+        "aliases": [
+          "sanchez"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alec Trevelyan",
+        "aliases": [
+          "trevelyan",
+          "006"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Xenia Onatopp",
+        "aliases": [
+          "onatopp"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elliot Carver",
+        "aliases": [
+          "carver"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elektra King",
+        "tier": 85
+      },
+      {
+        "text": "Renard",
+        "tier": 85
+      },
+      {
+        "text": "Gustav Graves",
+        "tier": 85
+      },
+      {
+        "text": "Zao",
+        "tier": 85
+      },
+      {
+        "text": "Dominic Greene",
+        "tier": 85
+      },
+      {
+        "text": "Lyutsifer Safin",
+        "aliases": [
+          "safin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mr. White",
+        "tier": 85
+      },
+      {
+        "text": "Red Grant",
+        "tier": 85
+      },
+      {
+        "text": "Rosa Klebb",
+        "tier": 85
+      },
+      {
+        "text": "Emilio Largo",
+        "aliases": [
+          "largo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Honey Ryder",
+        "tier": 85
+      },
+      {
+        "text": "Tracy di Vicenzo",
+        "aliases": [
+          "tracy",
+          "teresa di vicenzo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Solitaire",
+        "tier": 85
+      },
+      {
+        "text": "Tiffany Case",
+        "tier": 85
+      },
+      {
+        "text": "Mary Goodnight",
+        "tier": 85
+      },
+      {
+        "text": "Anya Amasova",
+        "aliases": [
+          "triple x"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Holly Goodhead",
+        "tier": 85
+      },
+      {
+        "text": "Stacey Sutton",
+        "tier": 85
+      },
+      {
+        "text": "Kara Milovy",
+        "tier": 85
+      },
+      {
+        "text": "Pam Bouvier",
+        "tier": 85
+      },
+      {
+        "text": "Natalya Simonova",
+        "tier": 85
+      },
+      {
+        "text": "Wai Lin",
+        "tier": 85
+      },
+      {
+        "text": "Christmas Jones",
+        "tier": 85
+      },
+      {
+        "text": "Jinx",
+        "aliases": [
+          "jinx johnson"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Camille Montes",
+        "aliases": [
+          "camille"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Madeleine Swann",
+        "tier": 85
+      },
+      {
+        "text": "Strawberry Fields",
+        "tier": 85
+      },
+      {
+        "text": "Severine",
+        "tier": 85
+      },
+      {
+        "text": "Domino",
+        "tier": 85
+      },
+      {
+        "text": "Tatiana Romanova",
+        "tier": 85
+      },
+      {
+        "text": "Kissy Suzuki",
+        "tier": 85
+      },
+      {
+        "text": "Paloma",
+        "tier": 85
+      },
+      {
+        "text": "Nomi",
+        "tier": 85
+      },
+      {
+        "text": "Bill Tanner",
+        "tier": 85
+      },
+      {
+        "text": "Valentin Zukovsky",
+        "aliases": [
+          "zukovsky"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rene Mathis",
+        "aliases": [
+          "mathis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jack Wade",
+        "tier": 85
+      },
+      {
+        "text": "General Gogol",
+        "tier": 85
+      },
+      {
+        "text": "Sheriff J.W. Pepper",
+        "aliases": [
+          "jw pepper"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "David Niven",
+        "tier": 85
+      },
+      {
+        "text": "Barry Nelson",
+        "tier": 85
+      },
+      {
+        "text": "Mr. Big",
+        "aliases": [
+          "kananga"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Francisco Scaramanga",
+        "aliases": [
+          "scaramanga"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Raoul Silva",
+        "aliases": [
+          "silva"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Le Chiffre",
+        "tier": 85
+      },
+      {
+        "text": "Dr. No",
+        "aliases": [
+          "doctor no"
         ],
         "tier": 60
       },
       {
-        "text": "Palace of Versailles",
+        "text": "From Russia with Love",
+        "tier": 60
+      },
+      {
+        "text": "Thunderball",
+        "tier": 60
+      },
+      {
+        "text": "You Only Live Twice",
+        "tier": 60
+      },
+      {
+        "text": "Diamonds Are Forever",
+        "tier": 60
+      },
+      {
+        "text": "Live and Let Die",
+        "tier": 60
+      },
+      {
+        "text": "The Spy Who Loved Me",
         "aliases": [
-          "versailles"
+          "spy who loved me"
         ],
         "tier": 60
       },
       {
-        "text": "Westminster Abbey",
+        "text": "Moonraker",
         "tier": 60
       },
       {
-        "text": "Edinburgh Castle",
+        "text": "Tomorrow Never Dies",
         "tier": 60
       },
       {
-        "text": "Giant's Causeway",
+        "text": "Die Another Day",
         "tier": 60
       },
       {
-        "text": "Blarney Castle",
+        "text": "Spectre",
         "tier": 60
       },
       {
-        "text": "Windsor Castle",
+        "text": "No Time to Die",
         "tier": 60
       },
       {
-        "text": "Hadrian's Wall",
+        "text": "George Lazenby",
         "tier": 60
       },
       {
-        "text": "Atomium",
+        "text": "Timothy Dalton",
         "tier": 60
       },
       {
-        "text": "Little Mermaid statue",
+        "text": "Felix Leiter",
         "tier": 60
       },
       {
-        "text": "Manneken Pis",
-        "tier": 60
-      },
-      {
-        "text": "Anne Frank House",
-        "tier": 60
-      },
-      {
-        "text": "Rijksmuseum",
-        "tier": 60
-      },
-      {
-        "text": "Cologne Cathedral",
-        "tier": 60
-      },
-      {
-        "text": "Berlin Wall",
-        "tier": 60
-      },
-      {
-        "text": "Charles Bridge",
-        "tier": 60
-      },
-      {
-        "text": "Hagia Sophia",
-        "tier": 60
-      },
-      {
-        "text": "Blue Mosque",
-        "tier": 60
-      },
-      {
-        "text": "Topkapi Palace",
-        "tier": 60
-      },
-      {
-        "text": "Meteora",
-        "tier": 60
-      },
-      {
-        "text": "Delphi",
-        "tier": 60
-      },
-      {
-        "text": "Knossos",
-        "tier": 60
-      },
-      {
-        "text": "Pompeii",
-        "tier": 60
-      },
-      {
-        "text": "Florence Cathedral",
+        "text": "Blofeld",
         "aliases": [
-          "duomo"
+          "ernst stavro blofeld"
         ],
         "tier": 60
       },
       {
-        "text": "Ponte Vecchio",
+        "text": "Jaws",
         "tier": 60
       },
       {
-        "text": "St. Mark's Basilica",
-        "tier": 60
-      },
-      {
-        "text": "Rialto Bridge",
-        "tier": 60
-      },
-      {
-        "text": "Doge's Palace",
-        "tier": 60
-      },
-      {
-        "text": "Uffizi",
-        "tier": 60
-      },
-      {
-        "text": "Milan Cathedral",
-        "tier": 60
-      },
-      {
-        "text": "Schonbrunn Palace",
-        "tier": 60
-      },
-      {
-        "text": "Hermitage",
-        "tier": 60
-      },
-      {
-        "text": "Peterhof",
-        "tier": 60
-      },
-      {
-        "text": "Burj Al Arab",
-        "tier": 60
-      },
-      {
-        "text": "Sheikh Zayed Grand Mosque",
-        "tier": 60
-      },
-      {
-        "text": "Dome of the Rock",
-        "tier": 60
-      },
-      {
-        "text": "Western Wall",
+        "text": "Oddjob",
         "aliases": [
-          "wailing wall"
+          "odd job"
         ],
         "tier": 60
       },
       {
-        "text": "Church of the Holy Sepulchre",
+        "text": "Pussy Galore",
         "tier": 60
       },
       {
-        "text": "Masada",
-        "tier": 60
-      },
-      {
-        "text": "Valley of the Kings",
-        "tier": 60
-      },
-      {
-        "text": "Abu Simbel",
-        "tier": 60
-      },
-      {
-        "text": "Karnak",
-        "tier": 60
-      },
-      {
-        "text": "Luxor Temple",
-        "tier": 60
-      },
-      {
-        "text": "Great Mosque of Djenne",
-        "tier": 60
-      },
-      {
-        "text": "Robben Island",
-        "tier": 60
-      },
-      {
-        "text": "Petronas Towers",
-        "tier": 60
-      },
-      {
-        "text": "Marina Bay Sands",
-        "tier": 60
-      },
-      {
-        "text": "Merlion",
-        "tier": 60
-      },
-      {
-        "text": "Gardens by the Bay",
-        "tier": 60
-      },
-      {
-        "text": "Borobudur",
-        "tier": 60
-      },
-      {
-        "text": "Prambanan",
-        "tier": 60
-      },
-      {
-        "text": "Bagan",
-        "tier": 60
-      },
-      {
-        "text": "Shwedagon Pagoda",
-        "tier": 60
-      },
-      {
-        "text": "Grand Palace",
-        "tier": 60
-      },
-      {
-        "text": "Wat Arun",
-        "tier": 60
-      },
-      {
-        "text": "Terracotta Army",
+        "text": "Vesper Lynd",
         "aliases": [
-          "terracotta warriors"
+          "vesper"
         ],
         "tier": 60
       },
       {
-        "text": "Potala Palace",
-        "tier": 60
-      },
-      {
-        "text": "Temple of Heaven",
-        "tier": 60
-      },
-      {
-        "text": "Summer Palace",
-        "tier": 60
-      },
-      {
-        "text": "The Bund",
-        "tier": 60
-      },
-      {
-        "text": "Oriental Pearl Tower",
-        "tier": 60
-      },
-      {
-        "text": "Victoria Peak",
-        "tier": 60
-      },
-      {
-        "text": "Tokyo Tower",
-        "tier": 60
-      },
-      {
-        "text": "Tokyo Skytree",
-        "tier": 60
-      },
-      {
-        "text": "Fushimi Inari",
-        "tier": 60
-      },
-      {
-        "text": "Kinkaku-ji",
+        "text": "Moneypenny",
         "aliases": [
-          "golden pavilion"
+          "miss moneypenny"
         ],
         "tier": 60
       },
       {
-        "text": "Itsukushima Shrine",
-        "tier": 60
-      },
-      {
-        "text": "Himeji Castle",
-        "tier": 60
-      },
-      {
-        "text": "Hiroshima Peace Memorial",
+        "text": "Goldfinger",
         "aliases": [
-          "atomic bomb dome"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Gyeongbokgung",
-        "tier": 60
-      },
-      {
-        "text": "Taipei 101",
-        "tier": 60
-      },
-      {
-        "text": "Lotus Temple",
-        "tier": 60
-      },
-      {
-        "text": "Qutub Minar",
-        "tier": 60
-      },
-      {
-        "text": "Gateway of India",
-        "tier": 60
-      },
-      {
-        "text": "Red Fort",
-        "tier": 60
-      },
-      {
-        "text": "Hawa Mahal",
-        "tier": 60
-      },
-      {
-        "text": "Amber Fort",
-        "tier": 60
-      },
-      {
-        "text": "Mysore Palace",
-        "tier": 60
-      },
-      {
-        "text": "Sigiriya",
-        "tier": 60
-      },
-      {
-        "text": "Harbour Bridge",
-        "aliases": [
-          "sydney harbour bridge"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Teotihuacan",
-        "tier": 60
-      },
-      {
-        "text": "Tikal",
-        "tier": 60
-      },
-      {
-        "text": "Palenque",
-        "tier": 60
-      },
-      {
-        "text": "Christ of the Andes",
-        "tier": 60
-      },
-      {
-        "text": "Nazca Lines",
-        "tier": 60
-      },
-      {
-        "text": "Panama Canal",
-        "tier": 60
-      },
-      {
-        "text": "Alcatraz",
-        "tier": 60
-      },
-      {
-        "text": "Hollywood Walk of Fame",
-        "tier": 60
-      },
-      {
-        "text": "Griffith Observatory",
-        "tier": 60
-      },
-      {
-        "text": "Vietnam Veterans Memorial",
-        "tier": 60
-      },
-      {
-        "text": "Jefferson Memorial",
-        "tier": 60
-      },
-      {
-        "text": "Martin Luther King Jr. Memorial",
-        "tier": 60
-      },
-      {
-        "text": "Arlington National Cemetery",
-        "tier": 60
-      },
-      {
-        "text": "Independence Hall",
-        "tier": 60
-      },
-      {
-        "text": "Plymouth Rock",
-        "tier": 60
-      },
-      {
-        "text": "Willis Tower",
-        "aliases": [
-          "sears tower"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cloud Gate",
-        "aliases": [
-          "the bean"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chrysler Building",
-        "tier": 60
-      },
-      {
-        "text": "One World Trade Center",
-        "aliases": [
-          "freedom tower"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "9/11 Memorial",
-        "tier": 60
-      },
-      {
-        "text": "Rockefeller Center",
-        "tier": 60
-      },
-      {
-        "text": "Flatiron Building",
-        "tier": 60
-      },
-      {
-        "text": "Grand Central Terminal",
-        "tier": 60
-      },
-      {
-        "text": "Ellis Island",
-        "tier": 60
-      },
-      {
-        "text": "Crazy Horse Memorial",
-        "tier": 60
-      },
-      {
-        "text": "Corn Palace",
-        "tier": 60
-      },
-      {
-        "text": "Paul Bunyan statue",
-        "tier": 60
-      },
-      {
-        "text": "Stonehenge",
-        "tier": 30
-      },
-      {
-        "text": "Leaning Tower of Pisa",
-        "aliases": [
-          "tower of pisa"
+          "auric goldfinger"
         ],
         "tier": 30
       },
       {
-        "text": "Golden Gate Bridge",
-        "tier": 30
-      },
-      {
-        "text": "Machu Picchu",
-        "tier": 30
-      },
-      {
-        "text": "Christ the Redeemer",
-        "tier": 30
-      },
-      {
-        "text": "Sydney Opera House",
-        "tier": 30
-      },
-      {
-        "text": "Empire State Building",
-        "tier": 30
-      },
-      {
-        "text": "White House",
-        "tier": 30
-      },
-      {
-        "text": "Lincoln Memorial",
-        "tier": 30
-      },
-      {
-        "text": "Washington Monument",
-        "tier": 30
-      },
-      {
-        "text": "Space Needle",
-        "tier": 30
-      },
-      {
-        "text": "Gateway Arch",
+        "text": "GoldenEye",
         "aliases": [
-          "st louis arch"
+          "golden eye"
         ],
         "tier": 30
       },
       {
-        "text": "Arc de Triomphe",
+        "text": "Casino Royale",
         "tier": 30
       },
       {
-        "text": "Notre-Dame",
+        "text": "Skyfall",
         "aliases": [
-          "notre dame"
+          "sky fall"
         ],
         "tier": 30
       },
       {
-        "text": "Louvre",
+        "text": "Pierce Brosnan",
         "tier": 30
       },
       {
-        "text": "Parthenon",
-        "aliases": [
-          "acropolis"
-        ],
+        "text": "Roger Moore",
         "tier": 30
       },
       {
-        "text": "Petra",
-        "tier": 30
-      },
-      {
-        "text": "Chichen Itza",
-        "tier": 30
-      },
-      {
-        "text": "Angkor Wat",
-        "tier": 30
-      },
-      {
-        "text": "Burj Khalifa",
-        "tier": 30
-      },
-      {
-        "text": "Kremlin",
-        "tier": 30
-      },
-      {
-        "text": "St. Basil's Cathedral",
-        "tier": 30
-      },
-      {
-        "text": "Buckingham Palace",
-        "tier": 30
-      },
-      {
-        "text": "Tower of London",
-        "tier": 30
-      },
-      {
-        "text": "Tower Bridge",
-        "tier": 30
-      },
-      {
-        "text": "London Eye",
-        "tier": 30
-      },
-      {
-        "text": "Sagrada Familia",
-        "tier": 30
-      },
-      {
-        "text": "Brandenburg Gate",
-        "tier": 30
-      },
-      {
-        "text": "Neuschwanstein Castle",
-        "tier": 30
-      },
-      {
-        "text": "Vatican",
-        "aliases": [
-          "st peter's basilica"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sistine Chapel",
-        "tier": 30
-      },
-      {
-        "text": "Trevi Fountain",
-        "tier": 30
-      },
-      {
-        "text": "Pantheon",
-        "tier": 30
-      },
-      {
-        "text": "Alamo",
-        "tier": 30
-      },
-      {
-        "text": "Liberty Bell",
-        "tier": 30
-      },
-      {
-        "text": "Hoover Dam",
-        "tier": 30
-      },
-      {
-        "text": "Brooklyn Bridge",
-        "tier": 30
-      },
-      {
-        "text": "Capitol",
-        "aliases": [
-          "us capitol"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Sphinx",
-        "aliases": [
-          "great sphinx"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Forbidden City",
-        "tier": 30
-      },
-      {
-        "text": "CN Tower",
-        "tier": 30
-      },
-      {
-        "text": "Golden Temple",
-        "tier": 30
-      },
-      {
-        "text": "Hollywood sign",
+        "text": "M",
         "tier": 15
       },
       {
-        "text": "Cadillac Ranch",
+        "text": "Q",
         "tier": 15
       },
       {
-        "text": "Carhenge",
-        "tier": 15
-      },
-      {
-        "text": "Eiffel Tower",
-        "tier": 10
-      },
-      {
-        "text": "Statue of Liberty",
-        "tier": 10
-      },
-      {
-        "text": "Great Wall of China",
+        "text": "James Bond",
         "aliases": [
-          "great wall"
+          "bond",
+          "007"
         ],
         "tier": 10
       },
       {
-        "text": "Pyramids of Giza",
-        "aliases": [
-          "pyramids",
-          "great pyramid"
-        ],
+        "text": "Sean Connery",
         "tier": 10
       },
       {
-        "text": "Taj Mahal",
-        "tier": 10
-      },
-      {
-        "text": "Colosseum",
-        "aliases": [
-          "coliseum"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Big Ben",
-        "tier": 10
-      },
-      {
-        "text": "Mount Rushmore",
+        "text": "Daniel Craig",
         "tier": 10
       }
     ],
     "nearMisses": [
-      "My house",
-      "McDonald's",
-      "Walmart",
-      "Hogwarts",
-      "Narnia",
-      "Atlantis"
-    ]
+      "Austin Powers",
+      "Ethan Hunt",
+      "Jason Bourne",
+      "Mission Impossible",
+      "Kingsman",
+      "Johnny English",
+      "Idris Elba",
+      "Tom Cruise"
+    ],
+    "notes": "Bond films (including Casino Royale 1967 and Never Say Never Again), the actors who played Bond, and characters from the films."
   },
   {
     "id": "q0132",
@@ -2179,1521 +1468,725 @@
   },
   {
     "id": "q0133",
-    "prompt": "Name a video game or video game series",
+    "prompt": "Name a character from the Super Mario games",
     "category": "games-toys",
     "status": "unlimited",
     "answers": [
       {
-        "text": "Goat Simulator",
+        "text": "Mouser",
         "tier": 100
       },
       {
-        "text": "Hades",
-        "tier": 60
+        "text": "Wart",
+        "tier": 85
       },
       {
-        "text": "Celeste",
-        "tier": 60
+        "text": "Tryclyde",
+        "tier": 85
       },
       {
-        "text": "Destiny",
-        "tier": 60
+        "text": "Fryguy",
+        "tier": 85
       },
       {
-        "text": "Control",
-        "tier": 60
+        "text": "Clawgrip",
+        "tier": 85
       },
       {
-        "text": "Inside",
-        "tier": 60
+        "text": "Pidgit",
+        "tier": 85
       },
       {
-        "text": "Limbo",
-        "tier": 60
+        "text": "Snifit",
+        "tier": 85
       },
       {
-        "text": "Journey",
-        "tier": 60
+        "text": "Ninji",
+        "tier": 85
       },
       {
-        "text": "Braid",
-        "tier": 60
+        "text": "Phanto",
+        "tier": 85
       },
       {
-        "text": "Hitman",
-        "tier": 60
+        "text": "Tatanga",
+        "tier": 85
       },
       {
-        "text": "Rust",
-        "tier": 60
-      },
-      {
-        "text": "Thief",
-        "tier": 60
-      },
-      {
-        "text": "Prey",
-        "tier": 60
-      },
-      {
-        "text": "Lemmings",
-        "tier": 60
-      },
-      {
-        "text": "Spore",
-        "tier": 60
-      },
-      {
-        "text": "Joust",
-        "tier": 60
-      },
-      {
-        "text": "Defender",
-        "tier": 60
-      },
-      {
-        "text": "Gauntlet",
-        "tier": 60
-      },
-      {
-        "text": "Rampage",
-        "tier": 60
-      },
-      {
-        "text": "Horizon Zero Dawn",
+        "text": "King Bob-omb",
         "aliases": [
-          "horizon"
+          "king bob omb",
+          "big bob-omb"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bob-omb Buddy",
+        "tier": 85
+      },
+      {
+        "text": "Koopa the Quick",
+        "tier": 85
+      },
+      {
+        "text": "Mips",
+        "tier": 85
+      },
+      {
+        "text": "Whomp King",
+        "tier": 85
+      },
+      {
+        "text": "Big Boo",
+        "tier": 85
+      },
+      {
+        "text": "Eyerok",
+        "tier": 85
+      },
+      {
+        "text": "Chuckya",
+        "tier": 85
+      },
+      {
+        "text": "Ukiki",
+        "tier": 85
+      },
+      {
+        "text": "Klepto",
+        "tier": 85
+      },
+      {
+        "text": "Il Piantissimo",
+        "tier": 85
+      },
+      {
+        "text": "Gooper Blooper",
+        "tier": 85
+      },
+      {
+        "text": "Shadow Mario",
+        "tier": 85
+      },
+      {
+        "text": "F.L.U.D.D.",
+        "aliases": [
+          "fludd"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pianta",
+        "aliases": [
+          "piantas"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Noki",
+        "aliases": [
+          "nokis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Topper",
+        "tier": 85
+      },
+      {
+        "text": "Hariet",
+        "tier": 85
+      },
+      {
+        "text": "Rango",
+        "tier": 85
+      },
+      {
+        "text": "Spewart",
+        "tier": 85
+      },
+      {
+        "text": "Madame Broode",
+        "tier": 85
+      },
+      {
+        "text": "Broodals",
+        "tier": 85
+      },
+      {
+        "text": "Tiara",
+        "tier": 85
+      },
+      {
+        "text": "Prince Florian",
+        "aliases": [
+          "florian"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Poplin",
+        "tier": 85
+      },
+      {
+        "text": "Talking Flower",
+        "tier": 85
+      },
+      {
+        "text": "Starlow",
+        "tier": 85
+      },
+      {
+        "text": "Prince Peasley",
+        "tier": 85
+      },
+      {
+        "text": "Fawful",
+        "tier": 85
+      },
+      {
+        "text": "Cackletta",
+        "tier": 85
+      },
+      {
+        "text": "Popple",
+        "tier": 85
+      },
+      {
+        "text": "Geno",
+        "tier": 85
+      },
+      {
+        "text": "Mallow",
+        "tier": 85
+      },
+      {
+        "text": "Smithy",
+        "tier": 85
+      },
+      {
+        "text": "Kersti",
+        "tier": 85
+      },
+      {
+        "text": "Olivia",
+        "tier": 85
+      },
+      {
+        "text": "Bobby",
+        "tier": 85
+      },
+      {
+        "text": "Huey",
+        "tier": 85
+      },
+      {
+        "text": "Goombella",
+        "tier": 85
+      },
+      {
+        "text": "Koops",
+        "tier": 85
+      },
+      {
+        "text": "Vivian",
+        "tier": 85
+      },
+      {
+        "text": "Flurrie",
+        "tier": 85
+      },
+      {
+        "text": "Admiral Bobbery",
+        "aliases": [
+          "bobbery"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ms. Mowz",
+        "aliases": [
+          "ms mowz"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Count Bleck",
+        "tier": 85
+      },
+      {
+        "text": "Dimentio",
+        "tier": 85
+      },
+      {
+        "text": "Tippi",
+        "tier": 85
+      },
+      {
+        "text": "Kooper",
+        "tier": 85
+      },
+      {
+        "text": "Goombario",
+        "tier": 85
+      },
+      {
+        "text": "Bombette",
+        "tier": 85
+      },
+      {
+        "text": "Parakarry",
+        "tier": 85
+      },
+      {
+        "text": "Bow",
+        "aliases": [
+          "lady bow"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Watt",
+        "tier": 85
+      },
+      {
+        "text": "Sushie",
+        "tier": 85
+      },
+      {
+        "text": "Lakilester",
+        "tier": 85
+      },
+      {
+        "text": "Shadow Queen",
+        "tier": 85
+      },
+      {
+        "text": "Sir Grodus",
+        "aliases": [
+          "grodus"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kammy Koopa",
+        "aliases": [
+          "kammy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Toadsworth",
+        "tier": 85
+      },
+      {
+        "text": "Toadbert",
+        "tier": 85
+      },
+      {
+        "text": "Professor E. Gadd",
+        "aliases": [
+          "e gadd",
+          "e. gadd",
+          "professor gadd"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nabbit",
+        "tier": 85
+      },
+      {
+        "text": "Lubba",
+        "tier": 85
+      },
+      {
+        "text": "Luma",
+        "aliases": [
+          "lumas"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cranky Kong",
+        "tier": 85
+      },
+      {
+        "text": "Funky Kong",
+        "tier": 85
+      },
+      {
+        "text": "Dixie Kong",
+        "tier": 85
+      },
+      {
+        "text": "King K. Rool",
+        "aliases": [
+          "king k rool",
+          "k rool"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Baby Mario",
+        "tier": 85
+      },
+      {
+        "text": "Baby Luigi",
+        "tier": 85
+      },
+      {
+        "text": "Baby Peach",
+        "tier": 85
+      },
+      {
+        "text": "Baby Daisy",
+        "tier": 85
+      },
+      {
+        "text": "Baby Rosalina",
+        "tier": 85
+      },
+      {
+        "text": "Metal Mario",
+        "tier": 85
+      },
+      {
+        "text": "Dry Bowser",
+        "tier": 85
+      },
+      {
+        "text": "Pink Gold Peach",
+        "tier": 85
+      },
+      {
+        "text": "Tanooki Mario",
+        "tier": 85
+      },
+      {
+        "text": "Paratroopa",
+        "aliases": [
+          "koopa paratroopa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Spiny",
+        "tier": 85
+      },
+      {
+        "text": "Blooper",
+        "tier": 85
+      },
+      {
+        "text": "Cheep Cheep",
+        "aliases": [
+          "cheep-cheep"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Thwomp",
+        "tier": 85
+      },
+      {
+        "text": "Whomp",
+        "tier": 85
+      },
+      {
+        "text": "Buzzy Beetle",
+        "tier": 85
+      },
+      {
+        "text": "Monty Mole",
+        "tier": 85
+      },
+      {
+        "text": "Pokey",
+        "tier": 85
+      },
+      {
+        "text": "Wiggler",
+        "tier": 85
+      },
+      {
+        "text": "Fuzzy",
+        "tier": 85
+      },
+      {
+        "text": "Magikoopa",
+        "tier": 85
+      },
+      {
+        "text": "Rex",
+        "tier": 85
+      },
+      {
+        "text": "Dino Piranha",
+        "tier": 85
+      },
+      {
+        "text": "Hammer Bro",
+        "aliases": [
+          "hammer bros",
+          "hammer brothers"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Boomerang Bro",
+        "tier": 85
+      },
+      {
+        "text": "Fire Bro",
+        "tier": 85
+      },
+      {
+        "text": "Sledge Bro",
+        "tier": 85
+      },
+      {
+        "text": "Lava Bubble",
+        "aliases": [
+          "podoboo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bullet Bill",
+        "tier": 85
+      },
+      {
+        "text": "Banzai Bill",
+        "tier": 85
+      },
+      {
+        "text": "Dry Bones",
+        "tier": 85
+      },
+      {
+        "text": "Boom Boom",
+        "tier": 85
+      },
+      {
+        "text": "Pom Pom",
+        "tier": 85
+      },
+      {
+        "text": "Petey Piranha",
+        "aliases": [
+          "petey"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Larry Koopa",
+        "aliases": [
+          "larry"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Morton Koopa Jr.",
+        "aliases": [
+          "morton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wendy O. Koopa",
+        "aliases": [
+          "wendy",
+          "wendy koopa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Iggy Koopa",
+        "aliases": [
+          "iggy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Roy Koopa",
+        "aliases": [
+          "roy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lemmy Koopa",
+        "aliases": [
+          "lemmy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ludwig von Koopa",
+        "aliases": [
+          "ludwig"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Koopalings",
+        "aliases": [
+          "koopaling"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Captain Toad",
+        "tier": 85
+      },
+      {
+        "text": "Cappy",
+        "tier": 85
+      },
+      {
+        "text": "Toadette",
+        "tier": 85
+      },
+      {
+        "text": "Kamek",
+        "tier": 60
+      },
+      {
+        "text": "Lakitu",
+        "tier": 60
+      },
+      {
+        "text": "Birdo",
+        "tier": 60
+      },
+      {
+        "text": "Shy Guy",
+        "tier": 60
+      },
+      {
+        "text": "Chain Chomp",
+        "tier": 60
+      },
+      {
+        "text": "Piranha Plant",
+        "tier": 60
+      },
+      {
+        "text": "King Boo",
+        "tier": 60
+      },
+      {
+        "text": "Bowser Jr.",
+        "aliases": [
+          "bowser junior",
+          "bowser jr"
         ],
         "tier": 60
       },
       {
-        "text": "Mafia",
-        "tier": 60
-      },
-      {
-        "text": "Zork",
-        "tier": 60
-      },
-      {
-        "text": "Pitfall!",
-        "tier": 60
-      },
-      {
-        "text": "Missile Command",
-        "tier": 60
-      },
-      {
-        "text": "Robotron",
-        "tier": 60
-      },
-      {
-        "text": "Paperboy",
-        "tier": 60
-      },
-      {
-        "text": "Double Dragon",
-        "tier": 60
-      },
-      {
-        "text": "Golden Axe",
-        "tier": 60
-      },
-      {
-        "text": "Altered Beast",
-        "tier": 60
-      },
-      {
-        "text": "Streets of Rage",
-        "tier": 60
-      },
-      {
-        "text": "NBA Jam",
-        "tier": 60
-      },
-      {
-        "text": "NFL Blitz",
-        "tier": 60
-      },
-      {
-        "text": "Tecmo Bowl",
-        "tier": 60
-      },
-      {
-        "text": "Bubble Bobble",
-        "tier": 60
-      },
-      {
-        "text": "Kid Icarus",
-        "tier": 60
-      },
-      {
-        "text": "Ice Climber",
-        "tier": 60
-      },
-      {
-        "text": "Balloon Fight",
-        "tier": 60
-      },
-      {
-        "text": "Earthworm Jim",
-        "tier": 60
-      },
-      {
-        "text": "Ecco the Dolphin",
-        "tier": 60
-      },
-      {
-        "text": "Toejam & Earl",
-        "tier": 60
-      },
-      {
-        "text": "Vectorman",
-        "tier": 60
-      },
-      {
-        "text": "Comix Zone",
-        "tier": 60
-      },
-      {
-        "text": "Shinobi",
-        "tier": 60
-      },
-      {
-        "text": "Phantasy Star",
-        "tier": 60
-      },
-      {
-        "text": "Secret of Mana",
-        "tier": 60
-      },
-      {
-        "text": "Xenogears",
-        "tier": 60
-      },
-      {
-        "text": "Star Ocean",
-        "tier": 60
-      },
-      {
-        "text": "Suikoden",
-        "tier": 60
-      },
-      {
-        "text": "Breath of Fire",
-        "tier": 60
-      },
-      {
-        "text": "Wild Arms",
-        "tier": 60
-      },
-      {
-        "text": "Legend of Dragoon",
-        "tier": 60
-      },
-      {
-        "text": "Parasite Eve",
-        "tier": 60
-      },
-      {
-        "text": "Vagrant Story",
-        "tier": 60
-      },
-      {
-        "text": "Twisted Metal",
-        "tier": 60
-      },
-      {
-        "text": "Jak and Daxter",
-        "tier": 60
-      },
-      {
-        "text": "Ratchet & Clank",
-        "tier": 60
-      },
-      {
-        "text": "Sly Cooper",
-        "tier": 60
-      },
-      {
-        "text": "Ape Escape",
-        "tier": 60
-      },
-      {
-        "text": "Parappa the Rapper",
-        "tier": 60
-      },
-      {
-        "text": "Katamari Damacy",
-        "tier": 60
-      },
-      {
-        "text": "Okami",
-        "tier": 60
-      },
-      {
-        "text": "Shadow of the Colossus",
-        "tier": 60
-      },
-      {
-        "text": "Ico",
-        "tier": 60
-      },
-      {
-        "text": "Devil May Cry",
-        "tier": 60
-      },
-      {
-        "text": "Bayonetta",
-        "tier": 60
-      },
-      {
-        "text": "Ninja Gaiden",
-        "tier": 60
-      },
-      {
-        "text": "Onimusha",
-        "tier": 60
-      },
-      {
-        "text": "Dino Crisis",
-        "tier": 60
-      },
-      {
-        "text": "Fatal Frame",
-        "tier": 60
-      },
-      {
-        "text": "Dead Space",
-        "tier": 60
-      },
-      {
-        "text": "Left 4 Dead",
-        "tier": 60
-      },
-      {
-        "text": "Team Fortress 2",
-        "tier": 60
-      },
-      {
-        "text": "Garry's Mod",
-        "tier": 60
-      },
-      {
-        "text": "Black & White",
-        "tier": 60
-      },
-      {
-        "text": "Theme Park",
-        "tier": 60
-      },
-      {
-        "text": "RollerCoaster Tycoon",
-        "tier": 60
-      },
-      {
-        "text": "Zoo Tycoon",
-        "tier": 60
-      },
-      {
-        "text": "Planet Coaster",
-        "tier": 60
-      },
-      {
-        "text": "Cities: Skylines",
-        "tier": 60
-      },
-      {
-        "text": "Factorio",
-        "tier": 60
-      },
-      {
-        "text": "Rimworld",
-        "tier": 60
-      },
-      {
-        "text": "Dwarf Fortress",
-        "tier": 60
-      },
-      {
-        "text": "Kerbal Space Program",
-        "tier": 60
-      },
-      {
-        "text": "Subnautica",
-        "tier": 60
-      },
-      {
-        "text": "No Man's Sky",
-        "tier": 60
-      },
-      {
-        "text": "Valheim",
-        "tier": 60
-      },
-      {
-        "text": "DayZ",
-        "tier": 60
-      },
-      {
-        "text": "PUBG",
-        "tier": 60
-      },
-      {
-        "text": "Escape from Tarkov",
-        "tier": 60
-      },
-      {
-        "text": "Dota 2",
+        "text": "Rosalina",
         "aliases": [
-          "dota"
+          "rosalina and luma"
         ],
         "tier": 60
       },
       {
-        "text": "Heroes of the Storm",
-        "tier": 60
-      },
-      {
-        "text": "Smite",
-        "tier": 60
-      },
-      {
-        "text": "Hearthstone",
-        "tier": 60
-      },
-      {
-        "text": "Gwent",
-        "tier": 60
-      },
-      {
-        "text": "Slay the Spire",
-        "tier": 60
-      },
-      {
-        "text": "Inscryption",
-        "tier": 60
-      },
-      {
-        "text": "Outer Wilds",
-        "tier": 60
-      },
-      {
-        "text": "Disco Elysium",
-        "tier": 60
-      },
-      {
-        "text": "Return of the Obra Dinn",
-        "tier": 60
-      },
-      {
-        "text": "Papers, Please",
-        "tier": 60
-      },
-      {
-        "text": "The Stanley Parable",
-        "tier": 60
-      },
-      {
-        "text": "Firewatch",
-        "tier": 60
-      },
-      {
-        "text": "Gone Home",
-        "tier": 60
-      },
-      {
-        "text": "What Remains of Edith Finch",
-        "tier": 60
-      },
-      {
-        "text": "Super Meat Boy",
-        "tier": 60
-      },
-      {
-        "text": "Shovel Knight",
-        "tier": 60
-      },
-      {
-        "text": "Ori and the Blind Forest",
-        "tier": 60
-      },
-      {
-        "text": "Spelunky",
-        "tier": 60
-      },
-      {
-        "text": "The Binding of Isaac",
-        "tier": 60
-      },
-      {
-        "text": "Enter the Gungeon",
-        "tier": 60
-      },
-      {
-        "text": "Dead Cells",
-        "tier": 60
-      },
-      {
-        "text": "Risk of Rain",
-        "tier": 60
-      },
-      {
-        "text": "Vampire Survivors",
-        "tier": 60
-      },
-      {
-        "text": "Beat Saber",
-        "tier": 60
-      },
-      {
-        "text": "Half-Life: Alyx",
-        "tier": 60
-      },
-      {
-        "text": "Superhot",
-        "tier": 60
-      },
-      {
-        "text": "Pistol Whip",
-        "tier": 60
-      },
-      {
-        "text": "Untitled Goose Game",
-        "tier": 60
-      },
-      {
-        "text": "Stray",
-        "tier": 60
-      },
-      {
-        "text": "It Takes Two",
-        "tier": 60
-      },
-      {
-        "text": "A Way Out",
-        "tier": 60
-      },
-      {
-        "text": "Overcooked",
-        "tier": 60
-      },
-      {
-        "text": "Unravel",
-        "tier": 60
-      },
-      {
-        "text": "Little Nightmares",
-        "tier": 60
-      },
-      {
-        "text": "Five Nights at Freddy's",
+        "text": "Diddy Kong",
         "aliases": [
-          "fnaf"
+          "diddy"
         ],
         "tier": 60
       },
       {
-        "text": "Bendy and the Ink Machine",
-        "tier": 60
-      },
-      {
-        "text": "Poppy Playtime",
-        "tier": 60
-      },
-      {
-        "text": "Phasmophobia",
-        "tier": 60
-      },
-      {
-        "text": "Dead by Daylight",
-        "tier": 60
-      },
-      {
-        "text": "Friday the 13th",
-        "tier": 60
-      },
-      {
-        "text": "Outlast",
-        "tier": 60
-      },
-      {
-        "text": "Amnesia",
-        "tier": 60
-      },
-      {
-        "text": "Alan Wake",
-        "tier": 60
-      },
-      {
-        "text": "Max Payne",
-        "tier": 60
-      },
-      {
-        "text": "Saints Row",
-        "tier": 60
-      },
-      {
-        "text": "Watch Dogs",
-        "tier": 60
-      },
-      {
-        "text": "Far Cry",
-        "tier": 60
-      },
-      {
-        "text": "Just Cause",
-        "tier": 60
-      },
-      {
-        "text": "Sleeping Dogs",
-        "tier": 60
-      },
-      {
-        "text": "Yakuza",
+        "text": "Koopa Troopa",
         "aliases": [
-          "like a dragon"
+          "koopa"
         ],
         "tier": 60
       },
       {
-        "text": "Ghost of Tsushima",
+        "text": "Boo",
         "tier": 60
       },
       {
-        "text": "Days Gone",
-        "tier": 60
-      },
-      {
-        "text": "Death Stranding",
-        "tier": 60
-      },
-      {
-        "text": "Spider-Man",
+        "text": "Princess Daisy",
         "aliases": [
-          "marvel's spider-man"
+          "daisy"
         ],
         "tier": 60
       },
       {
-        "text": "Batman: Arkham",
-        "aliases": [
-          "arkham asylum",
-          "arkham city"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Infamous",
-        "tier": 60
-      },
-      {
-        "text": "Sunset Overdrive",
-        "tier": 60
-      },
-      {
-        "text": "Titanfall",
-        "tier": 60
-      },
-      {
-        "text": "Splinter Cell",
-        "tier": 60
-      },
-      {
-        "text": "Deus Ex",
-        "tier": 60
-      },
-      {
-        "text": "Dishonored",
-        "tier": 60
-      },
-      {
-        "text": "System Shock",
-        "tier": 60
-      },
-      {
-        "text": "Star Wars: Knights of the Old Republic",
-        "aliases": [
-          "kotor"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Jedi: Fallen Order",
-        "tier": 60
-      },
-      {
-        "text": "Battlefront",
-        "tier": 60
-      },
-      {
-        "text": "Lego Star Wars",
-        "tier": 60
-      },
-      {
-        "text": "Lego Batman",
-        "tier": 60
-      },
-      {
-        "text": "Skylanders",
-        "tier": 60
-      },
-      {
-        "text": "Disney Infinity",
-        "tier": 60
-      },
-      {
-        "text": "Ty the Tasmanian Tiger",
-        "tier": 60
-      },
-      {
-        "text": "Banjo-Tooie",
-        "tier": 60
-      },
-      {
-        "text": "Conker's Bad Fur Day",
-        "tier": 60
-      },
-      {
-        "text": "Perfect Dark",
-        "tier": 60
-      },
-      {
-        "text": "Diddy Kong Racing",
-        "tier": 60
-      },
-      {
-        "text": "1080 Snowboarding",
-        "tier": 60
-      },
-      {
-        "text": "Pilotwings",
-        "tier": 60
-      },
-      {
-        "text": "Mario Golf",
-        "tier": 60
-      },
-      {
-        "text": "Mario Tennis",
-        "tier": 60
-      },
-      {
-        "text": "Wario Ware",
-        "tier": 60
-      },
-      {
-        "text": "Rhythm Heaven",
-        "tier": 60
-      },
-      {
-        "text": "Professor Layton",
-        "tier": 60
-      },
-      {
-        "text": "Phoenix Wright",
-        "aliases": [
-          "ace attorney"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Fire Emblem",
-        "tier": 60
-      },
-      {
-        "text": "Advance Wars",
-        "tier": 60
-      },
-      {
-        "text": "Golden Sun",
-        "tier": 60
-      },
-      {
-        "text": "Xenoblade Chronicles",
-        "tier": 60
-      },
-      {
-        "text": "Octopath Traveler",
-        "tier": 60
-      },
-      {
-        "text": "Bravely Default",
-        "tier": 60
-      },
-      {
-        "text": "Monster Hunter",
-        "tier": 60
-      },
-      {
-        "text": "Dragon's Dogma",
-        "tier": 60
-      },
-      {
-        "text": "Nier Automata",
-        "aliases": [
-          "nier"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sekiro",
-        "tier": 60
-      },
-      {
-        "text": "Bloodborne",
-        "tier": 60
-      },
-      {
-        "text": "Demon's Souls",
-        "tier": 60
-      },
-      {
-        "text": "Lies of P",
-        "tier": 60
-      },
-      {
-        "text": "Armored Core",
-        "tier": 60
-      },
-      {
-        "text": "Ace Combat",
-        "tier": 60
-      },
-      {
-        "text": "Burnout",
-        "tier": 60
-      },
-      {
-        "text": "Crazy Taxi",
-        "tier": 60
-      },
-      {
-        "text": "Jet Set Radio",
-        "tier": 60
-      },
-      {
-        "text": "Shenmue",
-        "tier": 60
-      },
-      {
-        "text": "Space Channel 5",
-        "tier": 60
-      },
-      {
-        "text": "Samba de Amigo",
-        "tier": 60
-      },
-      {
-        "text": "Chu Chu Rocket",
-        "tier": 60
-      },
-      {
-        "text": "Sonic Adventure",
-        "tier": 60
-      },
-      {
-        "text": "NiGHTS into Dreams",
-        "tier": 60
-      },
-      {
-        "text": "Virtua Fighter",
-        "tier": 60
-      },
-      {
-        "text": "Soulcalibur",
-        "tier": 60
-      },
-      {
-        "text": "Dead or Alive",
-        "tier": 60
-      },
-      {
-        "text": "King of Fighters",
-        "tier": 60
-      },
-      {
-        "text": "Guilty Gear",
-        "tier": 60
-      },
-      {
-        "text": "BlazBlue",
-        "tier": 60
-      },
-      {
-        "text": "Marvel vs. Capcom",
-        "tier": 60
-      },
-      {
-        "text": "Killer Instinct",
-        "tier": 60
-      },
-      {
-        "text": "Primal Rage",
-        "tier": 60
-      },
-      {
-        "text": "Clay Fighter",
-        "tier": 60
-      },
-      {
-        "text": "Brawlhalla",
-        "tier": 60
-      },
-      {
-        "text": "MultiVersus",
-        "tier": 60
-      },
-      {
-        "text": "Grand Theft Auto",
-        "aliases": [
-          "gta"
-        ],
+        "text": "Goomba",
         "tier": 30
       },
       {
-        "text": "Halo",
+        "text": "Waluigi",
         "tier": 30
       },
       {
-        "text": "Mario Kart",
-        "tier": 30
+        "text": "Pauline",
+        "tier": 15
       },
       {
-        "text": "Sonic the Hedgehog",
+        "text": "Mario",
+        "tier": 10
+      },
+      {
+        "text": "Luigi",
+        "tier": 10
+      },
+      {
+        "text": "Princess Peach",
         "aliases": [
-          "sonic"
+          "peach",
+          "princess toadstool"
         ],
-        "tier": 30
+        "tier": 10
       },
       {
-        "text": "Street Fighter",
-        "tier": 30
+        "text": "Bowser",
+        "aliases": [
+          "king koopa"
+        ],
+        "tier": 10
       },
       {
-        "text": "Mortal Kombat",
-        "tier": 30
+        "text": "Yoshi",
+        "tier": 10
+      },
+      {
+        "text": "Toad",
+        "tier": 10
+      },
+      {
+        "text": "Wario",
+        "tier": 10
       },
       {
         "text": "Donkey Kong",
-        "tier": 30
-      },
-      {
-        "text": "Space Invaders",
-        "tier": 30
-      },
-      {
-        "text": "Galaga",
-        "tier": 30
-      },
-      {
-        "text": "Frogger",
-        "tier": 30
-      },
-      {
-        "text": "Asteroids",
-        "tier": 30
-      },
-      {
-        "text": "Centipede",
-        "tier": 30
-      },
-      {
-        "text": "The Sims",
         "aliases": [
-          "sims"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "SimCity",
-        "tier": 30
-      },
-      {
-        "text": "Roblox",
-        "tier": 30
-      },
-      {
-        "text": "Among Us",
-        "tier": 30
-      },
-      {
-        "text": "Animal Crossing",
-        "tier": 30
-      },
-      {
-        "text": "Super Smash Bros.",
-        "aliases": [
-          "smash bros",
-          "smash"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Madden NFL",
-        "aliases": [
-          "madden"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "FIFA",
-        "aliases": [
-          "ea sports fc"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "NBA 2K",
-        "aliases": [
-          "2k"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Wii Sports",
-        "tier": 30
-      },
-      {
-        "text": "Guitar Hero",
-        "tier": 30
-      },
-      {
-        "text": "Rock Band",
-        "tier": 30
-      },
-      {
-        "text": "Just Dance",
-        "tier": 30
-      },
-      {
-        "text": "Angry Birds",
-        "tier": 30
-      },
-      {
-        "text": "Candy Crush",
-        "tier": 30
-      },
-      {
-        "text": "Fruit Ninja",
-        "tier": 30
-      },
-      {
-        "text": "Temple Run",
-        "tier": 30
-      },
-      {
-        "text": "Subway Surfers",
-        "tier": 30
-      },
-      {
-        "text": "Flappy Bird",
-        "tier": 30
-      },
-      {
-        "text": "Doom",
-        "tier": 30
-      },
-      {
-        "text": "Final Fantasy",
-        "tier": 30
-      },
-      {
-        "text": "World of Warcraft",
-        "aliases": [
-          "wow"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "League of Legends",
-        "aliases": [
-          "lol"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Overwatch",
-        "tier": 30
-      },
-      {
-        "text": "Apex Legends",
-        "tier": 30
-      },
-      {
-        "text": "Valorant",
-        "tier": 30
-      },
-      {
-        "text": "Counter-Strike",
-        "aliases": [
-          "csgo",
-          "cs go"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Red Dead Redemption",
-        "tier": 30
-      },
-      {
-        "text": "The Last of Us",
-        "tier": 30
-      },
-      {
-        "text": "God of War",
-        "tier": 30
-      },
-      {
-        "text": "Uncharted",
-        "tier": 30
-      },
-      {
-        "text": "Assassin's Creed",
-        "tier": 30
-      },
-      {
-        "text": "Skyrim",
-        "aliases": [
-          "elder scrolls"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Fallout",
-        "tier": 30
-      },
-      {
-        "text": "Resident Evil",
-        "tier": 30
-      },
-      {
-        "text": "Silent Hill",
-        "tier": 30
-      },
-      {
-        "text": "Metroid",
-        "tier": 30
-      },
-      {
-        "text": "Kirby",
-        "tier": 30
-      },
-      {
-        "text": "Pikmin",
-        "tier": 30
-      },
-      {
-        "text": "Splatoon",
-        "tier": 30
-      },
-      {
-        "text": "Crash Bandicoot",
-        "tier": 30
-      },
-      {
-        "text": "Spyro",
-        "tier": 30
-      },
-      {
-        "text": "Tony Hawk's Pro Skater",
-        "aliases": [
-          "tony hawk"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Need for Speed",
-        "tier": 30
-      },
-      {
-        "text": "Gran Turismo",
-        "tier": 30
-      },
-      {
-        "text": "Forza",
-        "tier": 30
-      },
-      {
-        "text": "Rocket League",
-        "tier": 30
-      },
-      {
-        "text": "Fall Guys",
-        "tier": 30
-      },
-      {
-        "text": "Elden Ring",
-        "tier": 30
-      },
-      {
-        "text": "Dark Souls",
-        "tier": 30
-      },
-      {
-        "text": "Bioshock",
-        "tier": 30
-      },
-      {
-        "text": "Portal",
-        "tier": 30
-      },
-      {
-        "text": "Half-Life",
-        "aliases": [
-          "half life"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mass Effect",
-        "tier": 30
-      },
-      {
-        "text": "Diablo",
-        "tier": 30
-      },
-      {
-        "text": "StarCraft",
-        "tier": 30
-      },
-      {
-        "text": "Warcraft",
-        "tier": 30
-      },
-      {
-        "text": "Civilization",
-        "aliases": [
-          "civ"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Age of Empires",
-        "tier": 30
-      },
-      {
-        "text": "Stardew Valley",
-        "tier": 30
-      },
-      {
-        "text": "Terraria",
-        "tier": 30
-      },
-      {
-        "text": "Undertale",
-        "tier": 30
-      },
-      {
-        "text": "Cuphead",
-        "tier": 30
-      },
-      {
-        "text": "Hollow Knight",
-        "tier": 30
-      },
-      {
-        "text": "Baldur's Gate",
-        "tier": 30
-      },
-      {
-        "text": "Cyberpunk 2077",
-        "tier": 30
-      },
-      {
-        "text": "The Witcher",
-        "tier": 30
-      },
-      {
-        "text": "Borderlands",
-        "tier": 30
-      },
-      {
-        "text": "Gears of War",
-        "tier": 30
-      },
-      {
-        "text": "Battlefield",
-        "tier": 30
-      },
-      {
-        "text": "Rainbow Six",
-        "tier": 30
-      },
-      {
-        "text": "Metal Gear Solid",
-        "aliases": [
-          "metal gear"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Kingdom Hearts",
-        "tier": 30
-      },
-      {
-        "text": "Dragon Quest",
-        "tier": 30
-      },
-      {
-        "text": "Persona",
-        "tier": 30
-      },
-      {
-        "text": "Tekken",
-        "tier": 30
-      },
-      {
-        "text": "Super Mario 64",
-        "tier": 30
-      },
-      {
-        "text": "Mario Party",
-        "tier": 30
-      },
-      {
-        "text": "Paper Mario",
-        "tier": 30
-      },
-      {
-        "text": "Luigi's Mansion",
-        "tier": 30
-      },
-      {
-        "text": "Banjo-Kazooie",
-        "tier": 30
-      },
-      {
-        "text": "GoldenEye 007",
-        "aliases": [
-          "goldeneye"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Star Fox",
-        "tier": 30
-      },
-      {
-        "text": "F-Zero",
-        "tier": 30
-      },
-      {
-        "text": "Earthbound",
-        "tier": 30
-      },
-      {
-        "text": "Chrono Trigger",
-        "tier": 30
-      },
-      {
-        "text": "Castlevania",
-        "tier": 30
-      },
-      {
-        "text": "Mega Man",
-        "tier": 30
-      },
-      {
-        "text": "Contra",
-        "tier": 30
-      },
-      {
-        "text": "Punch-Out!!",
-        "aliases": [
-          "punch out"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Excitebike",
-        "tier": 30
-      },
-      {
-        "text": "Dig Dug",
-        "tier": 30
-      },
-      {
-        "text": "Q*bert",
-        "aliases": [
-          "qbert"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Burger Time",
-        "tier": 30
-      },
-      {
-        "text": "Donkey Kong Country",
-        "tier": 30
-      },
-      {
-        "text": "Ms. Pac-Man",
-        "tier": 30
-      },
-      {
-        "text": "Oregon Trail",
-        "tier": 30
-      },
-      {
-        "text": "Where in the World Is Carmen Sandiego?",
-        "tier": 30
-      },
-      {
-        "text": "Myst",
-        "tier": 30
-      },
-      {
-        "text": "Prince of Persia",
-        "tier": 30
-      },
-      {
-        "text": "Wolfenstein",
-        "tier": 30
-      },
-      {
-        "text": "Quake",
-        "tier": 30
-      },
-      {
-        "text": "Tomb Raider",
-        "tier": 30
-      },
-      {
-        "text": "Genshin Impact",
-        "tier": 30
-      },
-      {
-        "text": "Clash of Clans",
-        "tier": 30
-      },
-      {
-        "text": "Clash Royale",
-        "tier": 30
-      },
-      {
-        "text": "Pokemon Go",
-        "tier": 30
-      },
-      {
-        "text": "Wordle",
-        "tier": 30
-      },
-      {
-        "text": "Words with Friends",
-        "tier": 30
-      },
-      {
-        "text": "Farmville",
-        "tier": 30
-      },
-      {
-        "text": "Club Penguin",
-        "tier": 30
-      },
-      {
-        "text": "Neopets",
-        "tier": 30
-      },
-      {
-        "text": "RuneScape",
-        "tier": 30
-      },
-      {
-        "text": "Second Life",
-        "tier": 30
-      },
-      {
-        "text": "Palworld",
-        "tier": 30
-      },
-      {
-        "text": "Lethal Company",
-        "tier": 30
-      },
-      {
-        "text": "Baldur's Gate 3",
-        "tier": 30
-      },
-      {
-        "text": "Balatro",
-        "tier": 30
-      },
-      {
-        "text": "Pong",
-        "tier": 15
-      },
-      {
-        "text": "E.T. the Extra-Terrestrial",
-        "aliases": [
-          "e.t. atari",
-          "et"
-        ],
-        "tier": 15
-      },
-      {
-        "text": "Duck Hunt",
-        "tier": 15
-      },
-      {
-        "text": "Super Mario Bros.",
-        "aliases": [
-          "super mario",
-          "mario",
-          "mario bros"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Minecraft",
-        "tier": 10
-      },
-      {
-        "text": "Fortnite",
-        "tier": 10
-      },
-      {
-        "text": "Tetris",
-        "tier": 10
-      },
-      {
-        "text": "Pac-Man",
-        "aliases": [
-          "pacman"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Call of Duty",
-        "aliases": [
-          "cod"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "The Legend of Zelda",
-        "aliases": [
-          "zelda",
-          "legend of zelda"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Pokemon",
-        "aliases": [
-          "pokémon"
+          "dk"
         ],
         "tier": 10
       }
     ],
     "nearMisses": [
-      "Chess",
-      "Monopoly",
-      "Uno",
-      "Xbox",
-      "PlayStation",
-      "Nintendo"
-    ]
+      "Sonic",
+      "Link",
+      "Zelda",
+      "Kirby",
+      "Pikachu",
+      "Samus",
+      "Crash Bandicoot",
+      "Pac-Man",
+      "Fox McCloud",
+      "Bowsette",
+      "Super Mushroom",
+      "Super Star",
+      "Fire Flower"
+    ],
+    "notes": "Characters and enemies from Super Mario platformers, Mario Kart, Mario Party and the Mario RPGs (Paper Mario, Mario & Luigi). Donkey Kong characters who appear in Mario games count."
   },
   {
     "id": "q0134",

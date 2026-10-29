@@ -1326,184 +1326,117 @@ Tatooine
 # QUESTION
 id: q0039
 pool: reserve
-category: brands
-prompt: Name a tech company
+category: geography
+prompt: Name a currency used by a country today
+note: Current national currencies, by name (dollar, yen, rupee...). Currencies replaced by the euro or otherwise retired don't count.
 
 [One in a Krillion]
-Xerox
+Ngultrum
 
 [Deep Cut]
-Palantir
-Snowflake
-ServiceNow
-Workday
-Atlassian
-Autodesk
-Intuit
-VMware
-Broadcom
-Texas Instruments
-Micron
-Western Digital
-Seagate
-SanDisk
-Kingston
-Corsair
-Razer
-MSI
-Gigabyte
-Foxconn
-TSMC
-ASML
-Arm
-SAP
-Infosys
-Wipro
-Tata Consultancy | tcs
-Rakuten
-Sega
-Atari
-Commodore
-Compaq
-Gateway
-Palm
-Sun Microsystems
-Netscape
-AOL
-Napster
-Blockbuster
-Kodak
-Polaroid
-Unisys
-Red Hat
-GitHub
-GitLab
-Mozilla
-Wikipedia
-Duolingo
-Peloton
-Ring
-Nest
-Waymo
-Cruise
-Coinbase
-Robinhood
-Venmo
-Cash App
-Etsy
-Wayfair
-Zillow
-Yelp
-Tumblr
-Quora
-Hulu
-Pandora
-SoundCloud
-Shazam
-Grammarly
-Canva
-Figma
-Notion
-Asana
-Trello
+Rufiyaa
+Pa'anga | paanga
+Vatu
+Tala
+Kina
+Pataca
+Tugrik | togrog | tughrik
+Somoni
+Tenge
+Som | sum | so'm
+Manat
+Dram
+Lari
+Denar
+Lek
+Afghani
+Kyat
+Kip
+Riel
+Ariary
+Ouguiya
+Dalasi
+Leone
+Lilangeni
+Loti
+Pula
+Metical
+Kwanza
+Kwacha
+Nakfa
+Birr
+Cedi
+Dobra
+Gourde
+Lempira
+Cordoba | córdoba
+Balboa
+Guarani | guaraní
+Boliviano
+Hryvnia | hryvnya | grivna
+Taka
+Rupiah
+Ringgit
+Florin | aruban florin
+Guilder | caribbean guilder | antillean guilder
 
 [Rare]
-Salesforce
-Qualcomm
-AMD
-Asus
-Acer
-LG
-Panasonic
-Toshiba
-Huawei
-Xiaomi
-Alibaba
-Tencent
-Baidu
-eBay | ebay
-PayPal
-Zoom
-Slack
-Dropbox
-Reddit
-Pinterest
-LinkedIn
-Lyft
-DoorDash
-Shopify
-Square | block
-Stripe
-SpaceX
-Anthropic
-Motorola
-Nokia
-Ericsson
-Logitech
-Canon
-Nikon
-Fujitsu
-Philips
-Siemens
-Garmin
-Fitbit
-GoPro
-Roku
-Sonos
-Instagram
-WhatsApp
-YouTube
-Twitch
-Discord
-Valve
-Nintendo
-Activision
-Electronic Arts | ea
-Epic Games
-Roblox
+Baht
+Dong
+Won
+Zloty | złoty
+Forint
+Koruna
+Leu
+Krone
+Krona | króna
+Dinar
+Dirham
+Riyal
+Rial
+Shekel | sheqel | new shekel
+Lira | turkish lira
+Rand
+Naira
+Shilling
+Real | brazilian real
+Sol | peruvian sol
+Colon | colón
+Quetzal
+Bolivar | bolívar
+Escudo
+Mark | convertible mark
 
 [Schooler]
-Netflix
-IBM
-Intel
-Nvidia
-Dell
-HP | hewlett-packard | hewlett packard
-Sony
-Uber
-Twitter | x
-Snapchat | snap
-TikTok | bytedance
-Spotify
-Adobe
-Oracle
-Lenovo
-Cisco
-Airbnb
-OpenAI
-Yahoo
+Franc | swiss franc | cfa franc
+Yuan | renminbi | rmb | chinese yuan
 
 [Too Clever]
-BlackBerry
-MySpace
+Bitcoin
 
 [Plankton]
-Apple
-Google | alphabet
-Microsoft
-Amazon
-Meta | facebook
-Samsung
-Tesla
+Dollar | us dollar | dollars
+Euro | euros
+Pound | pound sterling | sterling | british pound | pounds
+Yen | japanese yen
+Peso | pesos
+Rupee | rupees
+Ruble | rouble | rubles
 
 [Not accepted]
-Skynet
-Walmart
-Target
-Coca-Cola
-McDonald's
-Nike
-Disney
+Drachma
+Deutsche Mark
+Peseta
+Doubloon
+Ducat
+Kuna
+Markka
+Lev
+Sucre
+Dogecoin
+Ethereum
+Gold
+Credit card
 
 # QUESTION
 id: q0040
