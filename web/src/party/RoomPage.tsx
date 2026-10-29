@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, useAnimationControls } from "framer-motion";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   BATTLE_DEFAULTS,
   CATEGORIES,
@@ -16,6 +16,7 @@ import { NicknamePrompt, getNickname } from "../nickname";
 import { navigate } from "../router";
 import { useSettings } from "../settings";
 import { sounds } from "../sound";
+import { Podium } from "./Podium";
 import { PufferArena } from "./PufferArena";
 import { useRoom } from "./useRoom";
 import type { RoomEvent } from "./useRoom";
@@ -506,6 +507,8 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
 function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapshot; isHost: boolean; send: Send; reducedMotion: boolean }) {
   const results = state.results?.results ?? [];
   const [showPodium, setShowPodium] = useState(reducedMotion);
+  const [podiumDone, setPodiumDone] = useState(reducedMotion);
+  const onPodiumDone = useCallback(() => setPodiumDone(true), []);
   const maxDepth = Math.max(1000, ...results.map((r) => r.depth));
   useEffect(() => {
     if (reducedMotion) return;
@@ -543,51 +546,41 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
         </div>
       ) : (
         <>
-          <div className="podium">
-            {[1, 0, 2].map((i) =>
-              results[i] ? (
-                <motion.div
-                  key={results[i].playerId}
-                  className={`podium-step podium-${i + 1}`}
-                  initial={reducedMotion ? false : { y: 40, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.2 * (2 - i) }}
-                >
-                  <div className="podium-medal">{["🥇", "🥈", "🥉"][i]}</div>
-                  <div className="podium-name">{results[i].nickname}</div>
-                  <div className="podium-depth">{formatDepth(results[i].depth)}</div>
-                  <div className="podium-block">{i + 1}</div>
-                </motion.div>
-              ) : null,
+          <Podium results={results} you={state.you} reducedMotion={reducedMotion} onDone={onPodiumDone} />
+          <motion.div
+            className="finale-rest"
+            initial={reducedMotion ? false : { opacity: 0, y: 30 }}
+            animate={podiumDone ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            {state.results?.bestAnswer && (
+              <p className="center">
+                Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
+              </p>
             )}
-          </div>
-          {state.results?.bestAnswer && (
-            <p className="center">
-              Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
-            </p>
-          )}
-          {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} />}
-          <div className="card">
-            <ol className="leaderboard">
-              {results.map((r) => (
-                <li key={r.playerId} className={r.playerId === state.you ? "me" : ""}>
-                  <span className="lb-rank">{r.rank}</span>
-                  <span className="lb-name">{r.nickname}</span>
-                  <span className="lb-depth">{formatDepth(r.depth)}</span>
-                  <span className="muted small">{(r.timeUsedMs / 1000).toFixed(1)}s</span>
-                </li>
-              ))}
-            </ol>
-          </div>
-          <div className="center">
-            {isHost ? (
-              <button className="btn btn--primary" onClick={() => send({ type: "lobby" })}>
-                Back to the lobby
-              </button>
-            ) : (
-              <p className="muted">The host can start another round.</p>
-            )}
-          </div>
+            {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} />}
+            <div className="card">
+              <ol className="leaderboard">
+                {results.map((r) => (
+                  <li key={r.playerId} className={r.playerId === state.you ? "me" : ""}>
+                    <span className="lb-rank">{r.rank}</span>
+                    <span className="lb-name">{r.nickname}</span>
+                    <span className="lb-depth">{formatDepth(r.depth)}</span>
+                    <span className="muted small">{(r.timeUsedMs / 1000).toFixed(1)}s</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+            <div className="center">
+              {isHost ? (
+                <button className="btn btn--primary" onClick={() => send({ type: "lobby" })}>
+                  Back to the lobby
+                </button>
+              ) : (
+                <p className="muted">The host can start another round.</p>
+              )}
+            </div>
+          </motion.div>
         </>
       )}
     </div>
