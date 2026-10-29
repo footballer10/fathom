@@ -1094,6 +1094,169 @@ Pyramidalis
 Levator ani
 Coccygeus
 Puborectalis
+Extensor pollicis longus
+Extensor pollicis brevis
+Flexor pollicis longus
+Flexor pollicis brevis
+Abductor pollicis longus
+Adductor pollicis
+Abductor digiti minimi
+Flexor digiti minimi
+Opponens digiti minimi
+Flexor digitorum superficialis
+Flexor digitorum profundus
+Extensor indicis
+Extensor digiti minimi
+Extensor carpi ulnaris
+Pronator quadratus
+Palmaris brevis
+Dorsal interossei
+Palmar interossei
+Plantar interossei
+Quadratus plantae
+Flexor digitorum brevis
+Flexor digitorum longus
+Extensor digitorum longus
+Extensor digitorum brevis
+Fibularis longus | peroneus longus
+Fibularis brevis | peroneus brevis
+Fibularis tertius | peroneus tertius
+Achilles | achilles muscle
+Triceps surae
+Hip adductors
+Adductor longus
+Adductor brevis
+Obturator internus
+Obturator externus
+Superior gemellus
+Inferior gemellus
+Iliacus
+Psoas major
+Psoas minor
+Rectus capitis
+Obliquus capitis
+Longissimus
+Iliocostalis
+Spinalis
+Rotatores
+Interspinales
+Intertransversarii
+Serratus posterior
+Levatores costarum
+Transversus thoracis
+Subcostal
+External intercostals
+Internal intercostals
+Innermost intercostals
+Cremaster muscle
+Bulbospongiosus
+Ischiocavernosus
+External anal sphincter
+Internal anal sphincter
+Urethral sphincter
+Perineal muscles
+Pelvic diaphragm
+Temporoparietalis
+Occipitofrontalis
+Occipitalis
+Auricular muscles
+Depressor labii inferioris
+Levator anguli oris
+Levator labii superioris alaeque nasi
+Zygomaticus major
+Zygomaticus minor
+Depressor septi nasi
+Medial pterygoid
+Lateral pterygoid
+Genioglossus
+Hyoglossus
+Styloglossus
+Palatoglossus
+Palatopharyngeus
+Levator veli palatini
+Tensor veli palatini
+Uvula muscle | musculus uvulae
+Superior pharyngeal constrictor
+Middle pharyngeal constrictor
+Inferior pharyngeal constrictor
+Stylopharyngeus
+Cricothyroid
+Posterior cricoarytenoid
+Lateral cricoarytenoid
+Thyroarytenoid
+Vocalis
+Superior rectus
+Inferior rectus
+Medial rectus
+Lateral rectus
+Superior oblique
+Inferior oblique
+Levator palpebrae superioris
+Iris dilator
+Iris sphincter
+Scalenus anterior
+Scalenus medius
+Scalenus posterior
+Splenius capitis
+Splenius cervicis
+Semispinalis capitis
+Longus capitis
+Serratus
+Middle trapezius
+Lower trapezius
+Anterior deltoid | front delt
+Lateral deltoid | side delt
+Posterior deltoid | rear delt
+Upper chest
+Lower chest
+Inner thigh
+Outer thigh
+Shin muscles
+Forearm flexors
+Forearm extensors
+Wrist flexors
+Wrist extensors
+Grip muscles
+Finger flexors
+Back muscles
+Upper back
+Mid back
+Chest
+Stomach muscles
+V-line | adonis belt
+Neck flexors
+Neck extensors
+Pelvic muscles
+Facial muscles
+Eye muscles
+Tongue muscles
+Throat muscles
+Uterus | myometrium
+Bladder muscle
+Esophageal muscles
+Intestinal muscles
+Arterial smooth muscle
+Erector pili
+Gastroc
+Hammies
+Quadriceps femoris
+Hip extensors
+Hip rotators
+Deep six | deep hip rotators
+Spinal erectors
+Paraspinals
+Transversospinalis
+QL
+VMO
+SITS muscles
+Biceps femoris
+Thenar eminence
+Hypothenar eminence
+Rotator
+Levator
+Depressor
+Constrictor
+Dilator
 
 [Rare]
 Gluteus medius
@@ -1152,12 +1315,12 @@ Extensors
 
 [Schooler]
 Pecs | pectorals | chest muscles | pectoralis
-Deltoids | delts | shoulders
+Deltoids | delts | shoulders | shoulder muscles
 Lats | latissimus dorsi
 Traps | trapezius
 Obliques
 Forearms | forearm
-Gluteus maximus
+Gluteus maximus | glute max
 Rotator cuff
 Hip flexors
 Groin | adductors
@@ -1169,17 +1332,17 @@ Rhomboids
 
 [Too Clever]
 Diaphragm
-Heart
+Heart | myocardium
 Tongue
 
 [Plankton]
-Biceps | bicep
-Triceps | tricep
+Biceps | bicep | biceps brachii
+Triceps | tricep | triceps brachii
 Abs | abdominals | six pack
 Quads | quadriceps | quad
 Hamstrings | hamstring
-Calves | calf
-Glutes | gluteus | butt
+Calves | calf | calf muscle
+Glutes | gluteus | butt | butt muscles
 
 [Not accepted]
 Bone
@@ -1188,6 +1351,10 @@ Ligament
 Skin
 Fat
 Brain
+Cartilage
+Liver
+Lungs
+Blood
 
 # QUESTION
 id: q0105
@@ -1699,6 +1866,299 @@ Radiation fog
 Valley fog
 Pogonip
 Steam fog
+Rain shower
+Light rain
+Heavy rain
+Torrential rain
+Cloudburst
+Deluge
+Monsoon rain
+Acid rain
+Blood rain
+Red rain
+Rainstorm
+Thunder shower
+Spitting
+Sprinkle
+Mizzle
+Scotch mist
+Pea souper
+Freezing drizzle
+Wintry mix
+Snow squall
+Snow shower
+Snowfall
+Heavy snow
+Ocean-effect snow
+Upslope snow
+Ground blizzard
+Snowdrift
+Powder snow
+Wet snow
+Slush
+Sleet storm
+Ice crystals
+Hailstone
+Soft hail
+Small hail
+Frost flowers
+Frost heave
+Hard freeze
+Killing frost
+Ground frost
+Air frost
+Cold wave
+Cold spell
+Deep freeze
+Big freeze
+Freeze-thaw
+Thaw
+January thaw
+Blackberry winter
+Dogwood winter
+Old wives' summer
+St. Martin's summer
+Heat burst
+Heat dome
+Hot spell
+Scorcher
+Muggy
+Sweltering
+Balmy
+Mild
+Dry spell
+Megadrought
+Dust bowl
+Duster
+Brownout
+Bushfire
+Forest fire
+Volcanic ash cloud
+Vog
+Sea breeze
+Land breeze
+Mountain breeze
+Valley breeze
+Katabatic wind
+Anabatic wind
+Trade winds
+Westerlies
+Easterlies
+Doldrums
+Horse latitudes
+Roaring Forties
+Furious Fifties
+Screaming Sixties
+Gale force wind
+Strong wind
+Windstorm
+European windstorm
+Crosswind
+Headwind
+Tailwind
+Whirlwind
+Wind shear
+Clear-air turbulence
+Turbulence
+Calm
+Dead calm
+Still air
+Squall line
+Bow echo
+Mesocyclone
+Hook echo
+Multi-vortex tornado
+Wedge tornado
+Rope tornado
+Tornado outbreak
+Hurricane eye | eye of the storm
+Eyewall
+Rainband
+Tropical depression
+Tropical wave
+Tropical disturbance
+Subtropical storm
+Post-tropical cyclone
+Extratropical cyclone
+Superstorm
+Super typhoon
+Baguio
+Kona storm
+Polar low
+Alberta clipper
+Panhandle hook
+Colorado low
+Gulf low
+Blue norther
+Norther
+Texas norther
+Northeaster
+Southeaster
+Black blizzard
+Simoon
+Leveche
+Tramontane
+Levant
+Gregale
+Ostro
+Libeccio
+Etesian | meltemi
+Bise
+Vardar
+Koshava
+Burster
+Nor'wester
+Elephanta
+Loo
+Kalbaishakhi | nor'wester india
+Mango showers
+Plum rain | meiyu
+Yamase
+Oroshi
+Karakkaze
+Datoo
+Brisa
+Papagayo
+Tehuantepecer
+Surazo
+Friagem
+Suestada
+Puelche
+Raco
+Collada
+Chocolatero
+Tule fog
+June gloom
+May gray
+Marine layer
+Sea smoke
+Arctic sea smoke
+Hill fog
+Upslope fog
+Frontal fog
+Evaporation fog
+Precipitation fog
+Freezing mist
+Brume
+Smaze
+Photochemical smog
+Inversion layer
+Heat haze
+Mirage
+Fata Morgana
+Looming
+Light pillar
+Sun pillar
+Circumzenithal arc
+Circumhorizontal arc | fire rainbow
+Moon halo
+22° halo
+Parhelion
+Paraselene | moon dog
+Corona
+Iridescent clouds
+Brocken spectre
+Heiligenschein
+Belt of Venus
+Earth's shadow
+Alpenglow
+Red sky
+Blue hour
+Golden hour
+Afterglow
+Airglow
+Southern lights | aurora australis
+STEVE
+Lightning bolt
+Forked lightning
+Cloud-to-ground lightning
+Intracloud lightning
+Bead lightning
+Ribbon lightning
+Dry lightning
+Positive lightning
+Volcanic lightning
+Red sprite | sprites
+Elves
+Thunderclap
+Cumulus congestus
+Towering cumulus
+Altostratus
+Cirrostratus
+Cirrocumulus
+Stratocumulus
+Contrail
+Distrail
+Pileus
+Velum
+Anvil cloud
+Overshooting top
+Arcus cloud
+Funnel
+Tuba
+Scud
+Fractus
+Mackerel sky
+Mare's tails
+Cloud street
+Wave cloud
+Banner cloud
+Cap cloud
+Hole-punch cloud
+Undulatus
+Fog bank
+Overcast sky
+Mostly sunny
+Mostly cloudy
+Partly sunny
+Fair weather
+Bright and sunny
+Blue skies
+Grey skies
+Dreary
+Gloomy
+Bitter cold
+Freezing
+Chilly
+Nippy
+Crisp
+Brisk
+Arid
+Gusty
+Blustery
+Breezy
+Stormy
+Rainy
+Snowy
+Icy
+Foggy
+Misty
+Hazy
+Smoggy
+Frosty
+Precipitation
+Dew point
+Relative humidity
+Air pressure
+Pressure system
+Occluded front
+Stationary front
+Dry line
+Blocking high
+Omega block
+Cut-off low
+Heat low
+El Niño Southern Oscillation | enso
+Polar jet
+Subtropical jet
+Rossby wave
+Spring
+Summer
+Autumn | fall
+Winter
+Rainy season
+Dry season
+Wet season
 
 [Rare]
 Derecho
@@ -1825,8 +2285,14 @@ Volcano
 Temperature
 Thermometer
 Season
-Winter
 Climate
+Avalanche
+Landslide
+Meteor
+Eclipse
+Tide
+Asteroid
+Solar flare
 
 # QUESTION
 id: q0107
@@ -1903,6 +2369,310 @@ Saoto
 Sopa de pescado
 Chilate
 Tripe soup
+Chicken soup
+Chicken broth
+Beef broth
+Vegetable broth
+Pot liquor
+Corn soup
+Sweet corn soup
+Chicken corn soup
+Crab and corn soup
+Shrimp bisque
+Tomato bisque
+Roasted red pepper soup
+Red pepper soup
+Green pea soup
+Yellow pea soup
+Ham and bean soup
+Navy bean soup
+White bean soup
+Senate bean soup
+Tuscan bean soup
+Lentil soup
+Red lentil soup
+Dal
+Coconut soup
+Thai coconut soup
+Curry laksa
+Asam laksa
+Khao soi
+Boat noodles
+Kuay teow
+Jok
+Rice soup
+Khao tom
+Tom jued
+Kaeng jued
+Canh
+Canh bi
+Bún riêu
+Bún thịt nướng
+Pho ga
+Pho bo
+Mi quang
+Cao lau
+Wonton noodle soup
+Beef noodle soup
+Taiwanese beef noodle soup
+Lanzhou noodle soup
+Dan dan noodles
+Crossing the bridge noodles
+Egg flower soup
+Corn egg drop soup
+Winter melon soup
+Lotus root soup
+Pork rib soup
+Fish maw soup
+Snake soup
+Shark's fin
+Bird's nest
+Double-boiled soup
+Herbal soup
+Chicken herbal soup
+Dong quai soup
+Ginseng chicken soup
+Seolleongtang
+Gomtang
+Kalguksu
+Sujebi
+Haejangguk
+Budae jjigae
+Gamjatang
+Yukgaejang
+Miyeokguk
+Kongnamul guk
+Maeuntang
+Dakdoritang
+Tonjiru
+Kenchinjiru
+Osuimono
+Zoni
+Nabe
+Sukiyaki
+Shabu-shabu
+Oden
+Chanko nabe
+Yudofu
+Shio ramen
+Miso ramen
+Tsukemen
+Champon
+Kitsune udon
+Tempura udon
+Somen
+Sopa de lima Yucatan
+Sopa de tortilla
+Caldo tlalpeño
+Caldo de camarón
+Caldo de siete mares | siete mares
+Caldo de mariscos
+Sopa azteca
+Sopa de frijol
+Sopa de elote
+Crema de elote
+Sopa de flor de calabaza
+Sopa de albóndigas
+Caldo de queso
+Caldillo
+Sopa de letras
+Sopa de pollo
+Sopa de res
+Sopa de mariscos
+Sopa de verduras
+Caldo gallego
+Cocido
+Olla podrida
+Fabada
+Pote
+Sopa castellana
+Sopa de cebolla
+Crema de calabaza
+Garbure
+Pistou soup | soupe au pistou
+Soupe à l'oignon
+Potage Parmentier
+Potage Saint-Germain
+Crème Dubarry
+Bisque de homard
+Soupe de poisson
+Bourride
+Pot-au-feu
+Petite marmite
+Consommé Célestine
+Minestra
+Minestrone alla genovese
+Zuppa di pesce
+Acquacotta
+Pappa al pomodoro
+Brodo
+Tortellini in brodo
+Cappelletti in brodo
+Passatelli in brodo
+Zuppa di cipolle
+Zuppa pavese
+Zuppa inglese
+Burrida
+Brodetto
+Cacciucco
+Escarole soup
+Pastina soup
+Stracciatella alla romana
+Gulyásleves | gulyas
+Gulaschsuppe
+Fisherman's soup
+Bableves
+Meggyleves | cold cherry soup
+Gyümölcsleves
+Kartoffelsuppe | potato soup german
+Linsensuppe
+Grießnockerlsuppe
+Kaspressknödelsuppe
+Fritattensuppe
+Hochzeitssuppe
+Biersuppe
+Brotsuppe
+Rumfordsuppe
+Hühnersuppe
+Rindssuppe
+Zupa ogórkowa | cucumber soup polish
+Zupa grzybowa
+Zupa pomidorowa
+Kapuśniak
+Krupnik
+Rosół
+Barszcz
+Czernina
+Chłodnik
+Kwaśnica
+Shchavel soup | green borscht
+Kholodnik
+Svekolnik
+Pelmeni soup
+Kulesh
+Kharcho soup
+Chikhirtma
+Bozbash
+Piti
+Dovga
+Spas
+Khash
+Ciorbă
+Ciorbă de burtă
+Ciorbă de perișoare
+Ciorbă de fasole
+Supă de găluște
+Čorba
+Riblja čorba
+Teleća čorba
+Jota soup
+Paradižnikova juha
+Leek soup
+Cabbage and potato
+Colcannon soup
+Irish potato soup
+Welsh cawl
+Partan bree
+Bawd bree
+Hotch potch
+Lentil and bacon
+Mock turtle soup
+Wild mushroom soup
+Cream of broccoli
+Broccoli soup
+Spinach soup
+Kale soup
+Canja
+Açorda
+Sopa de feijão
+Moqueca
+Vatapá
+Tacacá
+Caldo de feijão
+Sancocho de gallina
+Ajiaco bogotano
+Sopa de quinua | quinoa soup
+Chupe de camarones
+Parihuela
+Aguadito
+Shambar
+Chairo paceño
+Locro de papa
+Encebollado
+Caldo de bolas
+Biche
+Sopa de lentejas
+Sopa de gandules
+Asopao
+Mannish water
+Red pea soup
+Fish tea
+Goat water
+Conch chowder
+Bahamian souse | souse
+Bouyon
+Soup joumou
+Light soup
+Palm nut soup | banga soup
+Abenkwan
+Afang soup
+Edikang ikong
+Efo riro
+Oha soup
+Nsala
+Bitterleaf soup
+Okazi soup
+Mafé
+Domoda
+Bouillon Senegalese
+Shorbat adas
+Shorbat freekeh
+Molokhia
+Bissara
+Lablabi
+Chorba frik
+Mercimek çorbası
+Ezogelin
+Yayla çorbası
+Tarhana
+İşkembe çorbası
+Düğün çorbası
+Kelle paça
+Ash-e reshteh
+Ash-e jo
+Ab-e gusht
+Kale pache
+Kibbeh soup
+Shishbarak
+Adas
+Lentil shorba
+Paya
+Haleem soup
+Kadhi
+Thenthuk
+Gyathuk
+Jhol momo
+Soto ayam
+Sop buntut | oxtail soup indonesian
+Rawon
+Sayur asem
+Sayur lodeh
+Coto Makassar
+Konro
+Tekwan
+Mie bakso | bakso
+Mee soto
+Mee rebus
+Sup kambing
+Fish soup Singapore
+Sinigang na baboy
+Sinigang na hipon
+Nilaga
+Pancit molo
+Arroz caldo
+Goto
+Mami
+La Paz batchoy
 
 [Rare]
 Mulligatawny
@@ -1957,7 +2727,7 @@ Udon soup
 Soba soup
 Tonkotsu
 Shoyu ramen
-Oxtail soup
+Oxtail soup | oxtail
 Turtle soup
 Snapper soup
 Crab bisque
@@ -2033,15 +2803,15 @@ Tortilla soup
 Chicken tortilla
 Gumbo
 Bisque | lobster bisque
-Borscht
+Borscht | borsch | borshch | bortsch
 Chicken and rice
 Beef barley
 Italian wedding
 Zuppa Toscana
 Tom yum
 Tom kha
-Pozole
-Menudo
+Pozole | pozole rojo | pozole blanco | posole
+Menudo | menudo rojo
 Cabbage soup
 Cauliflower soup
 Carrot ginger
@@ -2073,6 +2843,11 @@ Cereal
 Smoothie
 Coffee
 Tea
+Pizza
+Spaghetti
+Oatmeal
+Milkshake
+Juice
 
 # QUESTION
 id: q0108
@@ -2222,6 +2997,138 @@ Small Fortune
 Generation Gap
 The 1% Club
 Jeopardy Masters
+Celebrity Family Feud | family feud celebrity
+Deal or No Deal Island
+The Joe Schmo Show
+MasterChef
+Iron Chef
+Cutthroat Kitchen
+Worst Cooks in America
+RuPaul's Drag Race | drag race
+The Voice
+American Idol
+America's Got Talent
+X Factor
+The Masked Singer
+Star Search
+Puttin' on the Hits
+Lip Sync Battle
+I Can See Your Voice
+Game of Talents
+Snake in the Grass
+Mental Samurai
+The Hustler
+$25,000 Pyramid
+$10,000 Pyramid
+Password Plus
+Super Password Plus
+I've Got a Secret
+You Bet Your Life
+People Are Funny
+Dotto
+The Big Surprise
+Strike It Rich
+Break the Bank
+Video Village
+Treasure Hunt
+The Bachelorette
+Spartan: Ultimate Team Challenge
+American Gladiators | gladiators
+Battle of the Network Stars
+The Challenge
+Survivor Australia
+Celebrity Big Brother
+The Traitors
+The Mole
+Squid Game: The Challenge
+Beast Games
+Physical: 100
+The Genius
+The Devil's Plan
+Jet Lag: The Game
+Hunted
+Race Across the World
+The Island
+Shipwrecked
+Treasure Island
+Debt
+Idiotest
+Skin Wars
+Mind of a Man
+Hollywood Game Night
+Celebrity Name Game
+Mad Libs game show
+BattleBots
+Robot Wars
+Scrapheap Challenge
+Beat the Geeks
+The Million Second Quiz
+Duel
+Million Dollar Money Drop
+It's Academic
+Jeopardy! National College Championship
+Reach for the Top
+Brain Busters
+Turn Ben Stein On
+BrainSurge
+Double Dare 2000
+Family Double Dare
+My Family's Got Guts
+Global Guts
+Make the Grade
+Slime Time Live
+Treasure Hunters
+The Generation Game
+Bruce's Price Is Right
+Pointless Celebrities
+Fifteen to One
+Going for Gold
+Ready Steady Cook
+I'm a Celebrity... Get Me Out of Here! | i'm a celebrity
+Hey Hey It's Saturday
+Temptation
+Million Dollar Minute
+Hard Quiz
+Have You Been Paying Attention?
+Spicks and Specks
+Gruen
+A Question of Sport
+Never Mind the Buzzcocks
+Would I Lie to You?
+8 Out of 10 Cats
+8 Out of 10 Cats Does Countdown
+Have I Got News for You
+Mock the Week
+Celebrity Juice
+Big Fat Quiz of the Year
+The Big Fat Quiz
+Richard Osman's House of Games | house of games
+The Wheel UK
+The Tower
+Des chiffres et des lettres
+Questions pour un champion
+Wer wird Millionär?
+Wetten, dass..?
+Schlag den Raab
+VS Arashi
+Running Man
+Infinite Challenge
+2 Days & 1 Night
+Siempre en Domingo
+Sábado Gigante
+Caiga Quien Caiga
+Pasapalabra
+El precio justo
+¿Quién quiere ser millonario?
+Show do Milhão
+Roda a Roda
+Caldeirão do Huck
+Domingão do Faustão
+Kaun Banega Crorepati | kbc
+Dus Ka Dum
+Bournvita Quiz Contest
+Wheel Smart
+Pop Culture Jeopardy!
 
 [Rare]
 Concentration
@@ -2341,10 +3248,14 @@ Beat Shazam
 The Bachelor
 Love Island
 Whose Line Is It Anyway | whose line
+Love Is Blind
+Too Hot to Handle
+Dancing with the Stars
+Hell's Kitchen
 
 [Plankton]
 Jeopardy! | jeopardy
-Wheel of Fortune
+Wheel of Fortune | wheel
 The Price Is Right | price is right
 Family Feud
 Who Wants to Be a Millionaire | millionaire
@@ -2358,6 +3269,12 @@ Seinfeld
 SpongeBob
 Game of Thrones
 Monopoly
+Grey's Anatomy
+The Simpsons
+Breaking Bad
+Stranger Things
+Squid Game
+Mario Kart
 
 # QUESTION
 id: q0110
