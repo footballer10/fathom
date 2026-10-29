@@ -3076,6 +3076,214 @@
         "tier": 85
       },
       {
+        "text": "Pubic bone",
+        "tier": 85
+      },
+      {
+        "text": "Sit bones",
+        "aliases": [
+          "ischial tuberosity"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Iliac crest",
+        "tier": 85
+      },
+      {
+        "text": "Acetabulum",
+        "tier": 85
+      },
+      {
+        "text": "Greater trochanter",
+        "tier": 85
+      },
+      {
+        "text": "Lesser trochanter",
+        "tier": 85
+      },
+      {
+        "text": "Femoral head",
+        "tier": 85
+      },
+      {
+        "text": "Femoral neck",
+        "tier": 85
+      },
+      {
+        "text": "Medial epicondyle",
+        "tier": 85
+      },
+      {
+        "text": "Lateral epicondyle",
+        "tier": 85
+      },
+      {
+        "text": "Condyle",
+        "tier": 85
+      },
+      {
+        "text": "Tibial tuberosity",
+        "tier": 85
+      },
+      {
+        "text": "Tibial plateau",
+        "tier": 85
+      },
+      {
+        "text": "Medial malleolus",
+        "tier": 85
+      },
+      {
+        "text": "Lateral malleolus",
+        "tier": 85
+      },
+      {
+        "text": "Coracoid process",
+        "tier": 85
+      },
+      {
+        "text": "Glenoid",
+        "tier": 85
+      },
+      {
+        "text": "Spine of scapula",
+        "tier": 85
+      },
+      {
+        "text": "Humeral head",
+        "tier": 85
+      },
+      {
+        "text": "Radial head",
+        "tier": 85
+      },
+      {
+        "text": "Styloid process",
+        "tier": 85
+      },
+      {
+        "text": "Mastoid process",
+        "tier": 85
+      },
+      {
+        "text": "Spinous process",
+        "tier": 85
+      },
+      {
+        "text": "Transverse process",
+        "tier": 85
+      },
+      {
+        "text": "Zygomatic arch",
+        "tier": 85
+      },
+      {
+        "text": "Orbit",
+        "aliases": [
+          "eye socket"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mandibular condyle",
+        "tier": 85
+      },
+      {
+        "text": "Alveolar process",
+        "tier": 85
+      },
+      {
+        "text": "Hard palate",
+        "tier": 85
+      },
+      {
+        "text": "Cribriform plate",
+        "tier": 85
+      },
+      {
+        "text": "Sella turcica",
+        "tier": 85
+      },
+      {
+        "text": "Clivus",
+        "tier": 85
+      },
+      {
+        "text": "Foramen magnum",
+        "tier": 85
+      },
+      {
+        "text": "Superior nasal concha",
+        "tier": 85
+      },
+      {
+        "text": "Middle nasal concha",
+        "tier": 85
+      },
+      {
+        "text": "First rib",
+        "tier": 85
+      },
+      {
+        "text": "Twelfth rib",
+        "tier": 85
+      },
+      {
+        "text": "Cervical rib",
+        "tier": 85
+      },
+      {
+        "text": "Seventh cervical vertebra",
+        "aliases": [
+          "vertebra prominens"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lumbar vertebra",
+        "tier": 85
+      },
+      {
+        "text": "Thoracic vertebra",
+        "tier": 85
+      },
+      {
+        "text": "Cervical vertebra",
+        "tier": 85
+      },
+      {
+        "text": "Shoulder girdle",
+        "tier": 85
+      },
+      {
+        "text": "Skull cap",
+        "aliases": [
+          "calvaria"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Occiput",
+        "tier": 85
+      },
+      {
+        "text": "Accessory navicular",
+        "tier": 85
+      },
+      {
+        "text": "Os peroneum",
+        "tier": 85
+      },
+      {
+        "text": "Os acromiale",
+        "tier": 85
+      },
+      {
+        "text": "Cyamella",
+        "tier": 85
+      },
+      {
         "text": "Maxilla",
         "aliases": [
           "upper jaw"
@@ -3156,6 +3364,9 @@
       },
       {
         "text": "Talus",
+        "aliases": [
+          "astragalus"
+        ],
         "tier": 60
       },
       {
@@ -3244,7 +3455,8 @@
       {
         "text": "Middle ear bones",
         "aliases": [
-          "ossicles"
+          "ossicles",
+          "auditory ossicles"
         ],
         "tier": 60
       },
@@ -3276,7 +3488,9 @@
         "text": "Pelvis",
         "aliases": [
           "hip bone",
-          "hipbone"
+          "hipbone",
+          "pelvic bone",
+          "pelvic girdle"
         ],
         "tier": 30
       },
@@ -3343,7 +3557,8 @@
       {
         "text": "Heel bone",
         "aliases": [
-          "calcaneus"
+          "calcaneus",
+          "calcaneum"
         ],
         "tier": 30
       },
@@ -3351,7 +3566,8 @@
         "text": "Cheekbone",
         "aliases": [
           "zygomatic",
-          "zygomatic bone"
+          "zygomatic bone",
+          "malar bone"
         ],
         "tier": 30
       },
@@ -3389,6 +3605,9 @@
       },
       {
         "text": "Funny bone",
+        "aliases": [
+          "ulnar nerve"
+        ],
         "tier": 15
       },
       {
@@ -3425,7 +3644,8 @@
         "text": "Spine",
         "aliases": [
           "backbone",
-          "spinal column"
+          "spinal column",
+          "vertebral column"
         ],
         "tier": 10
       },
@@ -3461,7 +3681,10 @@
       "Ligament",
       "Nail",
       "Heart",
-      "Brain"
+      "Brain",
+      "Tooth",
+      "Wishbone",
+      "T-bone"
     ]
   },
   {
@@ -3652,6 +3875,1498 @@
       },
       {
         "text": "Draisine",
+        "tier": 85
+      },
+      {
+        "text": "Coupe",
+        "tier": 85
+      },
+      {
+        "text": "Roadster",
+        "tier": 85
+      },
+      {
+        "text": "Crossover",
+        "tier": 85
+      },
+      {
+        "text": "Compact car",
+        "tier": 85
+      },
+      {
+        "text": "Subcompact",
+        "tier": 85
+      },
+      {
+        "text": "Microcar",
+        "tier": 85
+      },
+      {
+        "text": "Kei car",
+        "tier": 85
+      },
+      {
+        "text": "Smart car",
+        "tier": 85
+      },
+      {
+        "text": "Supercar",
+        "tier": 85
+      },
+      {
+        "text": "Hypercar",
+        "tier": 85
+      },
+      {
+        "text": "Muscle car",
+        "tier": 85
+      },
+      {
+        "text": "Pony car",
+        "tier": 85
+      },
+      {
+        "text": "Hot rod",
+        "tier": 85
+      },
+      {
+        "text": "Lowrider",
+        "tier": 85
+      },
+      {
+        "text": "Dragster",
+        "tier": 85
+      },
+      {
+        "text": "Funny car",
+        "tier": 85
+      },
+      {
+        "text": "Stock car",
+        "tier": 85
+      },
+      {
+        "text": "Formula One car",
+        "aliases": [
+          "f1 car"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "IndyCar",
+        "tier": 85
+      },
+      {
+        "text": "Rally car",
+        "tier": 85
+      },
+      {
+        "text": "Kit car",
+        "tier": 85
+      },
+      {
+        "text": "Sandrail",
+        "tier": 85
+      },
+      {
+        "text": "Rock crawler",
+        "tier": 85
+      },
+      {
+        "text": "Monster truck",
+        "tier": 85
+      },
+      {
+        "text": "Lifted truck",
+        "tier": 85
+      },
+      {
+        "text": "Off-roader",
+        "tier": 85
+      },
+      {
+        "text": "4x4",
+        "tier": 85
+      },
+      {
+        "text": "Utility vehicle",
+        "aliases": [
+          "ute"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Panel van",
+        "tier": 85
+      },
+      {
+        "text": "Camper van",
+        "tier": 85
+      },
+      {
+        "text": "Conversion van",
+        "tier": 85
+      },
+      {
+        "text": "Sprinter van",
+        "tier": 85
+      },
+      {
+        "text": "Cargo van",
+        "tier": 85
+      },
+      {
+        "text": "Step van",
+        "tier": 85
+      },
+      {
+        "text": "Travel trailer",
+        "tier": 85
+      },
+      {
+        "text": "Fifth-wheel trailer",
+        "tier": 85
+      },
+      {
+        "text": "Pop-up camper",
+        "tier": 85
+      },
+      {
+        "text": "Teardrop trailer",
+        "tier": 85
+      },
+      {
+        "text": "Horse trailer",
+        "tier": 85
+      },
+      {
+        "text": "Boat trailer",
+        "tier": 85
+      },
+      {
+        "text": "Utility trailer",
+        "tier": 85
+      },
+      {
+        "text": "Semi-trailer",
+        "tier": 85
+      },
+      {
+        "text": "Road train",
+        "tier": 85
+      },
+      {
+        "text": "Logging truck",
+        "tier": 85
+      },
+      {
+        "text": "Cattle truck",
+        "tier": 85
+      },
+      {
+        "text": "Car carrier",
+        "tier": 85
+      },
+      {
+        "text": "Fuel tanker",
+        "tier": 85
+      },
+      {
+        "text": "Milk tanker",
+        "tier": 85
+      },
+      {
+        "text": "Refrigerated truck",
+        "aliases": [
+          "reefer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Moving truck",
+        "tier": 85
+      },
+      {
+        "text": "Bucket truck",
+        "tier": 85
+      },
+      {
+        "text": "Cherry picker",
+        "tier": 85
+      },
+      {
+        "text": "Boom lift",
+        "tier": 85
+      },
+      {
+        "text": "Scissor lift",
+        "tier": 85
+      },
+      {
+        "text": "Reach stacker",
+        "tier": 85
+      },
+      {
+        "text": "Straddle carrier",
+        "tier": 85
+      },
+      {
+        "text": "Pallet jack",
+        "tier": 85
+      },
+      {
+        "text": "Wheel loader",
+        "tier": 85
+      },
+      {
+        "text": "Front loader",
+        "tier": 85
+      },
+      {
+        "text": "Grader",
+        "aliases": [
+          "motor grader"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Scraper",
+        "tier": 85
+      },
+      {
+        "text": "Trencher",
+        "tier": 85
+      },
+      {
+        "text": "Compactor",
+        "tier": 85
+      },
+      {
+        "text": "Road roller",
+        "tier": 85
+      },
+      {
+        "text": "Paver",
+        "tier": 85
+      },
+      {
+        "text": "Pile driver",
+        "tier": 85
+      },
+      {
+        "text": "Drill rig",
+        "tier": 85
+      },
+      {
+        "text": "Concrete pump",
+        "tier": 85
+      },
+      {
+        "text": "Mobile crane",
+        "tier": 85
+      },
+      {
+        "text": "Tower crane",
+        "tier": 85
+      },
+      {
+        "text": "Crawler crane",
+        "tier": 85
+      },
+      {
+        "text": "Dragline",
+        "tier": 85
+      },
+      {
+        "text": "Mining truck",
+        "tier": 85
+      },
+      {
+        "text": "Haul truck",
+        "tier": 85
+      },
+      {
+        "text": "Articulated hauler",
+        "tier": 85
+      },
+      {
+        "text": "Telehandler",
+        "tier": 85
+      },
+      {
+        "text": "Feller buncher",
+        "tier": 85
+      },
+      {
+        "text": "Skidder",
+        "tier": 85
+      },
+      {
+        "text": "Forwarder",
+        "tier": 85
+      },
+      {
+        "text": "Harvester",
+        "tier": 85
+      },
+      {
+        "text": "Cotton picker",
+        "tier": 85
+      },
+      {
+        "text": "Baler",
+        "tier": 85
+      },
+      {
+        "text": "Hay wagon",
+        "tier": 85
+      },
+      {
+        "text": "Grain truck",
+        "tier": 85
+      },
+      {
+        "text": "Sprayer",
+        "tier": 85
+      },
+      {
+        "text": "Seed drill",
+        "tier": 85
+      },
+      {
+        "text": "Mower",
+        "tier": 85
+      },
+      {
+        "text": "Zero-turn mower",
+        "tier": 85
+      },
+      {
+        "text": "Garden tractor",
+        "tier": 85
+      },
+      {
+        "text": "Snowblower",
+        "tier": 85
+      },
+      {
+        "text": "Snow groomer",
+        "tier": 85
+      },
+      {
+        "text": "Airport tug",
+        "tier": 85
+      },
+      {
+        "text": "Baggage tractor",
+        "tier": 85
+      },
+      {
+        "text": "Pushback tractor",
+        "tier": 85
+      },
+      {
+        "text": "Fuel bowser",
+        "tier": 85
+      },
+      {
+        "text": "Airstair truck",
+        "tier": 85
+      },
+      {
+        "text": "Catering truck",
+        "tier": 85
+      },
+      {
+        "text": "Ladder truck",
+        "tier": 85
+      },
+      {
+        "text": "Hook and ladder",
+        "tier": 85
+      },
+      {
+        "text": "Pumper",
+        "tier": 85
+      },
+      {
+        "text": "Brush truck",
+        "tier": 85
+      },
+      {
+        "text": "Rescue truck",
+        "tier": 85
+      },
+      {
+        "text": "Paramedic unit",
+        "tier": 85
+      },
+      {
+        "text": "Squad car",
+        "tier": 85
+      },
+      {
+        "text": "Patrol car",
+        "tier": 85
+      },
+      {
+        "text": "Cruiser",
+        "tier": 85
+      },
+      {
+        "text": "Unmarked car",
+        "tier": 85
+      },
+      {
+        "text": "SWAT van",
+        "tier": 85
+      },
+      {
+        "text": "Prison bus",
+        "tier": 85
+      },
+      {
+        "text": "Armored truck",
+        "tier": 85
+      },
+      {
+        "text": "Bank truck",
+        "tier": 85
+      },
+      {
+        "text": "Garbage compactor",
+        "tier": 85
+      },
+      {
+        "text": "Recycling truck",
+        "tier": 85
+      },
+      {
+        "text": "Street sweeper truck",
+        "tier": 85
+      },
+      {
+        "text": "Septic truck",
+        "tier": 85
+      },
+      {
+        "text": "Vacuum truck",
+        "tier": 85
+      },
+      {
+        "text": "Water truck",
+        "tier": 85
+      },
+      {
+        "text": "Utility truck",
+        "tier": 85
+      },
+      {
+        "text": "Mail van",
+        "tier": 85
+      },
+      {
+        "text": "Postal truck",
+        "tier": 85
+      },
+      {
+        "text": "Milk float",
+        "tier": 85
+      },
+      {
+        "text": "Ice cream van",
+        "tier": 85
+      },
+      {
+        "text": "Hot dog cart",
+        "tier": 85
+      },
+      {
+        "text": "Taco truck",
+        "tier": 85
+      },
+      {
+        "text": "Bookmobile",
+        "tier": 85
+      },
+      {
+        "text": "Bloodmobile",
+        "tier": 85
+      },
+      {
+        "text": "Popemobile",
+        "tier": 85
+      },
+      {
+        "text": "Presidential limousine",
+        "aliases": [
+          "the beast"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Party bus",
+        "tier": 85
+      },
+      {
+        "text": "Tour bus",
+        "tier": 85
+      },
+      {
+        "text": "Sightseeing bus",
+        "tier": 85
+      },
+      {
+        "text": "Coach",
+        "tier": 85
+      },
+      {
+        "text": "Motorcoach",
+        "tier": 85
+      },
+      {
+        "text": "Articulated bus",
+        "aliases": [
+          "bendy bus"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shuttle bus",
+        "tier": 85
+      },
+      {
+        "text": "Airport shuttle",
+        "tier": 85
+      },
+      {
+        "text": "Hotel shuttle",
+        "tier": 85
+      },
+      {
+        "text": "Short bus",
+        "tier": 85
+      },
+      {
+        "text": "Charter bus",
+        "tier": 85
+      },
+      {
+        "text": "Intercity bus",
+        "tier": 85
+      },
+      {
+        "text": "Light rail",
+        "tier": 85
+      },
+      {
+        "text": "Cable railway",
+        "tier": 85
+      },
+      {
+        "text": "Rack railway",
+        "aliases": [
+          "cog railway"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elevated train",
+        "aliases": [
+          "el"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Commuter train",
+        "tier": 85
+      },
+      {
+        "text": "Regional train",
+        "tier": 85
+      },
+      {
+        "text": "Sleeper train",
+        "tier": 85
+      },
+      {
+        "text": "Dining car",
+        "tier": 85
+      },
+      {
+        "text": "Boxcar",
+        "tier": 85
+      },
+      {
+        "text": "Hopper car",
+        "tier": 85
+      },
+      {
+        "text": "Flatcar",
+        "tier": 85
+      },
+      {
+        "text": "Tank car",
+        "tier": 85
+      },
+      {
+        "text": "Gondola car",
+        "tier": 85
+      },
+      {
+        "text": "Autorack",
+        "tier": 85
+      },
+      {
+        "text": "Passenger car",
+        "tier": 85
+      },
+      {
+        "text": "Sleeping car",
+        "tier": 85
+      },
+      {
+        "text": "Observation car",
+        "tier": 85
+      },
+      {
+        "text": "Steam locomotive",
+        "tier": 85
+      },
+      {
+        "text": "Diesel locomotive",
+        "tier": 85
+      },
+      {
+        "text": "Electric locomotive",
+        "tier": 85
+      },
+      {
+        "text": "Switcher",
+        "tier": 85
+      },
+      {
+        "text": "Rail motor",
+        "tier": 85
+      },
+      {
+        "text": "Speeder",
+        "tier": 85
+      },
+      {
+        "text": "Velocipede",
+        "tier": 85
+      },
+      {
+        "text": "Pump trolley",
+        "tier": 85
+      },
+      {
+        "text": "Bumper car",
+        "tier": 85
+      },
+      {
+        "text": "Go-cart",
+        "tier": 85
+      },
+      {
+        "text": "Pedal car",
+        "tier": 85
+      },
+      {
+        "text": "Soapbox derby car",
+        "tier": 85
+      },
+      {
+        "text": "Kiddie car",
+        "tier": 85
+      },
+      {
+        "text": "Baby carriage",
+        "tier": 85
+      },
+      {
+        "text": "Pushchair",
+        "tier": 85
+      },
+      {
+        "text": "Wagon cart",
+        "tier": 85
+      },
+      {
+        "text": "Handcart",
+        "tier": 85
+      },
+      {
+        "text": "Pushcart",
+        "tier": 85
+      },
+      {
+        "text": "Auto rickshaw",
+        "tier": 85
+      },
+      {
+        "text": "Motor scooter",
+        "tier": 85
+      },
+      {
+        "text": "Cruiser motorcycle",
+        "tier": 85
+      },
+      {
+        "text": "Chopper",
+        "tier": 85
+      },
+      {
+        "text": "Sport bike",
+        "tier": 85
+      },
+      {
+        "text": "Touring motorcycle",
+        "tier": 85
+      },
+      {
+        "text": "Dual-sport",
+        "tier": 85
+      },
+      {
+        "text": "Enduro",
+        "tier": 85
+      },
+      {
+        "text": "Motocross bike",
+        "tier": 85
+      },
+      {
+        "text": "Trials bike",
+        "tier": 85
+      },
+      {
+        "text": "Pit bike",
+        "tier": 85
+      },
+      {
+        "text": "Minibike",
+        "tier": 85
+      },
+      {
+        "text": "Pocket bike",
+        "tier": 85
+      },
+      {
+        "text": "Electric scooter",
+        "aliases": [
+          "e-scooter"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kick scooter",
+        "tier": 85
+      },
+      {
+        "text": "Electric skateboard",
+        "tier": 85
+      },
+      {
+        "text": "Onewheel",
+        "tier": 85
+      },
+      {
+        "text": "Sledge",
+        "tier": 85
+      },
+      {
+        "text": "Luge",
+        "tier": 85
+      },
+      {
+        "text": "Skeleton sled",
+        "tier": 85
+      },
+      {
+        "text": "Reindeer sled",
+        "tier": 85
+      },
+      {
+        "text": "Troika",
+        "tier": 85
+      },
+      {
+        "text": "Surrey",
+        "tier": 85
+      },
+      {
+        "text": "Hackney carriage",
+        "tier": 85
+      },
+      {
+        "text": "Gig",
+        "tier": 85
+      },
+      {
+        "text": "Trap",
+        "tier": 85
+      },
+      {
+        "text": "Cart",
+        "tier": 85
+      },
+      {
+        "text": "Oxcart",
+        "tier": 85
+      },
+      {
+        "text": "Bullock cart",
+        "tier": 85
+      },
+      {
+        "text": "Tonga",
+        "tier": 85
+      },
+      {
+        "text": "Tanga",
+        "tier": 85
+      },
+      {
+        "text": "Calash",
+        "tier": 85
+      },
+      {
+        "text": "Cabriolet",
+        "tier": 85
+      },
+      {
+        "text": "Victoria",
+        "tier": 85
+      },
+      {
+        "text": "Barouche",
+        "tier": 85
+      },
+      {
+        "text": "Stanhope",
+        "tier": 85
+      },
+      {
+        "text": "Curricle",
+        "tier": 85
+      },
+      {
+        "text": "Dogcart",
+        "tier": 85
+      },
+      {
+        "text": "Buckboard",
+        "tier": 85
+      },
+      {
+        "text": "Chuckwagon",
+        "tier": 85
+      },
+      {
+        "text": "Conestoga wagon",
+        "tier": 85
+      },
+      {
+        "text": "Prairie schooner",
+        "tier": 85
+      },
+      {
+        "text": "Mule train",
+        "tier": 85
+      },
+      {
+        "text": "Camel caravan",
+        "tier": 85
+      },
+      {
+        "text": "Litter",
+        "tier": 85
+      },
+      {
+        "text": "Palanquin",
+        "tier": 85
+      },
+      {
+        "text": "Sedan chair",
+        "tier": 85
+      },
+      {
+        "text": "Travois",
+        "tier": 85
+      },
+      {
+        "text": "Bicycle taxi",
+        "tier": 85
+      },
+      {
+        "text": "Cargo bike",
+        "tier": 85
+      },
+      {
+        "text": "Bakfiets",
+        "tier": 85
+      },
+      {
+        "text": "Fat bike",
+        "tier": 85
+      },
+      {
+        "text": "Mountain bike",
+        "tier": 85
+      },
+      {
+        "text": "Road bike",
+        "tier": 85
+      },
+      {
+        "text": "BMX",
+        "tier": 85
+      },
+      {
+        "text": "Fixie",
+        "tier": 85
+      },
+      {
+        "text": "Folding bike",
+        "tier": 85
+      },
+      {
+        "text": "Cruiser bike",
+        "tier": 85
+      },
+      {
+        "text": "Hybrid bike",
+        "tier": 85
+      },
+      {
+        "text": "Gravel bike",
+        "tier": 85
+      },
+      {
+        "text": "Electric bike",
+        "tier": 85
+      },
+      {
+        "text": "Balance bike",
+        "tier": 85
+      },
+      {
+        "text": "Quadricycle",
+        "tier": 85
+      },
+      {
+        "text": "Handcycle",
+        "tier": 85
+      },
+      {
+        "text": "Recumbent trike",
+        "tier": 85
+      },
+      {
+        "text": "Boneshaker",
+        "tier": 85
+      },
+      {
+        "text": "Dandy horse",
+        "tier": 85
+      },
+      {
+        "text": "Safety bicycle",
+        "tier": 85
+      },
+      {
+        "text": "Jet boat",
+        "tier": 85
+      },
+      {
+        "text": "Bass boat",
+        "tier": 85
+      },
+      {
+        "text": "Pontoon boat",
+        "tier": 85
+      },
+      {
+        "text": "Ski boat",
+        "tier": 85
+      },
+      {
+        "text": "Wakeboard boat",
+        "tier": 85
+      },
+      {
+        "text": "Cabin cruiser",
+        "tier": 85
+      },
+      {
+        "text": "Motorboat",
+        "tier": 85
+      },
+      {
+        "text": "Runabout",
+        "tier": 85
+      },
+      {
+        "text": "Dory",
+        "tier": 85
+      },
+      {
+        "text": "Skiff",
+        "tier": 85
+      },
+      {
+        "text": "Jon boat",
+        "tier": 85
+      },
+      {
+        "text": "Junk",
+        "tier": 85
+      },
+      {
+        "text": "Longboat",
+        "tier": 85
+      },
+      {
+        "text": "Waka",
+        "tier": 85
+      },
+      {
+        "text": "Proa",
+        "tier": 85
+      },
+      {
+        "text": "Pedal boat",
+        "tier": 85
+      },
+      {
+        "text": "Paddle boat",
+        "tier": 85
+      },
+      {
+        "text": "Inflatable boat",
+        "tier": 85
+      },
+      {
+        "text": "RIB",
+        "tier": 85
+      },
+      {
+        "text": "Zodiac",
+        "tier": 85
+      },
+      {
+        "text": "Life raft",
+        "tier": 85
+      },
+      {
+        "text": "Ice yacht",
+        "aliases": [
+          "iceboat"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Land yacht",
+        "tier": 85
+      },
+      {
+        "text": "Sand yacht",
+        "tier": 85
+      },
+      {
+        "text": "Container ship",
+        "tier": 85
+      },
+      {
+        "text": "Bulk carrier",
+        "tier": 85
+      },
+      {
+        "text": "Oil tanker",
+        "tier": 85
+      },
+      {
+        "text": "Supertanker",
+        "tier": 85
+      },
+      {
+        "text": "Car carrier ship",
+        "tier": 85
+      },
+      {
+        "text": "Roll-on/roll-off",
+        "aliases": [
+          "ro-ro"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Icebreaker",
+        "tier": 85
+      },
+      {
+        "text": "Research vessel",
+        "tier": 85
+      },
+      {
+        "text": "Hospital ship",
+        "tier": 85
+      },
+      {
+        "text": "Troopship",
+        "tier": 85
+      },
+      {
+        "text": "Minesweeper",
+        "tier": 85
+      },
+      {
+        "text": "Patrol boat",
+        "tier": 85
+      },
+      {
+        "text": "Cutter",
+        "tier": 85
+      },
+      {
+        "text": "Gunboat",
+        "tier": 85
+      },
+      {
+        "text": "Torpedo boat",
+        "tier": 85
+      },
+      {
+        "text": "PT boat",
+        "tier": 85
+      },
+      {
+        "text": "Battlecruiser",
+        "tier": 85
+      },
+      {
+        "text": "Dreadnought",
+        "tier": 85
+      },
+      {
+        "text": "Ironclad",
+        "tier": 85
+      },
+      {
+        "text": "Man-of-war",
+        "tier": 85
+      },
+      {
+        "text": "Ship of the line",
+        "tier": 85
+      },
+      {
+        "text": "Trireme",
+        "tier": 85
+      },
+      {
+        "text": "Galley",
+        "tier": 85
+      },
+      {
+        "text": "Cog",
+        "tier": 85
+      },
+      {
+        "text": "Caravel",
+        "tier": 85
+      },
+      {
+        "text": "Carrack",
+        "tier": 85
+      },
+      {
+        "text": "Brig",
+        "tier": 85
+      },
+      {
+        "text": "Brigantine",
+        "tier": 85
+      },
+      {
+        "text": "Sloop",
+        "tier": 85
+      },
+      {
+        "text": "Ketch",
+        "tier": 85
+      },
+      {
+        "text": "Yawl",
+        "tier": 85
+      },
+      {
+        "text": "Barque",
+        "tier": 85
+      },
+      {
+        "text": "Windjammer",
+        "tier": 85
+      },
+      {
+        "text": "Tall ship",
+        "tier": 85
+      },
+      {
+        "text": "Steamship",
+        "tier": 85
+      },
+      {
+        "text": "Ocean liner",
+        "tier": 85
+      },
+      {
+        "text": "Paddle wheeler",
+        "tier": 85
+      },
+      {
+        "text": "Narrowboat",
+        "tier": 85
+      },
+      {
+        "text": "Canal boat",
+        "tier": 85
+      },
+      {
+        "text": "Ferryboat",
+        "tier": 85
+      },
+      {
+        "text": "Water taxi",
+        "tier": 85
+      },
+      {
+        "text": "Vaporetto",
+        "tier": 85
+      },
+      {
+        "text": "Aquaplane",
+        "tier": 85
+      },
+      {
+        "text": "Jetfoil",
+        "tier": 85
+      },
+      {
+        "text": "U-boat",
+        "tier": 85
+      },
+      {
+        "text": "Midget submarine",
+        "tier": 85
+      },
+      {
+        "text": "Bathysphere",
+        "tier": 85
+      },
+      {
+        "text": "ROV",
+        "tier": 85
+      },
+      {
+        "text": "Underwater drone",
+        "tier": 85
+      },
+      {
+        "text": "Airliner",
+        "tier": 85
+      },
+      {
+        "text": "Jumbo jet",
+        "tier": 85
+      },
+      {
+        "text": "Jet plane",
+        "tier": 85
+      },
+      {
+        "text": "Propeller plane",
+        "tier": 85
+      },
+      {
+        "text": "Turboprop",
+        "tier": 85
+      },
+      {
+        "text": "Cargo plane",
+        "tier": 85
+      },
+      {
+        "text": "Bush plane",
+        "tier": 85
+      },
+      {
+        "text": "Floatplane",
+        "tier": 85
+      },
+      {
+        "text": "Flying boat",
+        "tier": 85
+      },
+      {
+        "text": "Amphibian aircraft",
+        "tier": 85
+      },
+      {
+        "text": "Crop duster",
+        "tier": 85
+      },
+      {
+        "text": "Air ambulance",
+        "tier": 85
+      },
+      {
+        "text": "Air tanker",
+        "tier": 85
+      },
+      {
+        "text": "Fighter jet",
+        "tier": 85
+      },
+      {
+        "text": "Bomber",
+        "tier": 85
+      },
+      {
+        "text": "Stealth bomber",
+        "tier": 85
+      },
+      {
+        "text": "Spy plane",
+        "tier": 85
+      },
+      {
+        "text": "Gunship",
+        "tier": 85
+      },
+      {
+        "text": "Attack helicopter",
+        "tier": 85
+      },
+      {
+        "text": "Private jet",
+        "tier": 85
+      },
+      {
+        "text": "Business jet",
+        "tier": 85
+      },
+      {
+        "text": "Sailplane",
+        "tier": 85
+      },
+      {
+        "text": "Motor glider",
+        "tier": 85
+      },
+      {
+        "text": "Microlight",
+        "tier": 85
+      },
+      {
+        "text": "Gyroplane",
+        "tier": 85
+      },
+      {
+        "text": "Quadcopter",
+        "tier": 85
+      },
+      {
+        "text": "Multicopter",
+        "tier": 85
+      },
+      {
+        "text": "eVTOL",
+        "tier": 85
+      },
+      {
+        "text": "Air taxi",
+        "tier": 85
+      },
+      {
+        "text": "Flying car",
+        "tier": 85
+      },
+      {
+        "text": "Hoverbike",
+        "tier": 85
+      },
+      {
+        "text": "Paraglider",
+        "tier": 85
+      },
+      {
+        "text": "Powered paraglider",
+        "tier": 85
+      },
+      {
+        "text": "Balloon",
+        "tier": 85
+      },
+      {
+        "text": "Gas balloon",
+        "tier": 85
+      },
+      {
+        "text": "Weather balloon",
+        "tier": 85
+      },
+      {
+        "text": "Dirigible",
+        "tier": 85
+      },
+      {
+        "text": "Rigid airship",
+        "tier": 85
+      },
+      {
+        "text": "Space capsule",
+        "tier": 85
+      },
+      {
+        "text": "Space probe",
+        "tier": 85
+      },
+      {
+        "text": "Lunar module",
+        "tier": 85
+      },
+      {
+        "text": "Lander",
+        "tier": 85
+      },
+      {
+        "text": "Rover",
+        "tier": 85
+      },
+      {
+        "text": "Space plane",
+        "tier": 85
+      },
+      {
+        "text": "Space tug",
+        "tier": 85
+      },
+      {
+        "text": "Orbiter",
+        "tier": 85
+      },
+      {
+        "text": "Escape pod",
+        "tier": 85
+      },
+      {
+        "text": "Flying saucer",
+        "aliases": [
+          "ufo"
+        ],
         "tier": 85
       },
       {
@@ -4344,6 +6059,34 @@
         "tier": 15
       },
       {
+        "text": "Horse",
+        "tier": 15
+      },
+      {
+        "text": "Camel",
+        "tier": 15
+      },
+      {
+        "text": "Elephant",
+        "tier": 15
+      },
+      {
+        "text": "Magic carpet",
+        "tier": 15
+      },
+      {
+        "text": "Broomstick",
+        "tier": 15
+      },
+      {
+        "text": "Time machine",
+        "tier": 15
+      },
+      {
+        "text": "Roller coaster",
+        "tier": 15
+      },
+      {
         "text": "Car",
         "tier": 10
       },
@@ -4387,13 +6130,17 @@
       }
     ],
     "nearMisses": [
-      "Horse",
-      "Elephant",
-      "Camel",
       "Road",
       "Garage",
       "Engine",
-      "Wheel"
+      "Wheel",
+      "Highway",
+      "Bridge",
+      "Tunnel",
+      "Parking lot",
+      "Gas station",
+      "Tire",
+      "Steering wheel"
     ]
   },
   {
@@ -4494,6 +6241,9 @@
       },
       {
         "text": "Gentian",
+        "aliases": [
+          "gentiana"
+        ],
         "tier": 85
       },
       {
@@ -4668,6 +6418,1014 @@
         "tier": 85
       },
       {
+        "text": "Abelia",
+        "tier": 85
+      },
+      {
+        "text": "Acanthus",
+        "tier": 85
+      },
+      {
+        "text": "Achillea",
+        "tier": 85
+      },
+      {
+        "text": "Aconite",
+        "aliases": [
+          "monkshood",
+          "wolfsbane"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "African violet",
+        "tier": 85
+      },
+      {
+        "text": "Ageratum",
+        "tier": 85
+      },
+      {
+        "text": "Ajuga",
+        "tier": 85
+      },
+      {
+        "text": "Allamanda",
+        "tier": 85
+      },
+      {
+        "text": "Alyssum",
+        "aliases": [
+          "sweet alyssum"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Angel's trumpet",
+        "aliases": [
+          "brugmansia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Angelonia",
+        "tier": 85
+      },
+      {
+        "text": "Anise hyssop",
+        "tier": 85
+      },
+      {
+        "text": "Arabis",
+        "tier": 85
+      },
+      {
+        "text": "Armeria",
+        "aliases": [
+          "sea thrift"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Arnica",
+        "tier": 85
+      },
+      {
+        "text": "Artemisia",
+        "tier": 85
+      },
+      {
+        "text": "Aubrieta",
+        "tier": 85
+      },
+      {
+        "text": "Baptisia",
+        "aliases": [
+          "false indigo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bellflower",
+        "tier": 85
+      },
+      {
+        "text": "Bergenia",
+        "tier": 85
+      },
+      {
+        "text": "Bittersweet",
+        "tier": 85
+      },
+      {
+        "text": "Blanket flower",
+        "tier": 85
+      },
+      {
+        "text": "Blazing star",
+        "tier": 85
+      },
+      {
+        "text": "Bloodroot",
+        "tier": 85
+      },
+      {
+        "text": "Blue-eyed grass",
+        "tier": 85
+      },
+      {
+        "text": "Borage",
+        "tier": 85
+      },
+      {
+        "text": "Bottlebrush",
+        "tier": 85
+      },
+      {
+        "text": "Bouvardia",
+        "tier": 85
+      },
+      {
+        "text": "Brodiaea",
+        "tier": 85
+      },
+      {
+        "text": "Brunnera",
+        "tier": 85
+      },
+      {
+        "text": "Buddleia",
+        "aliases": [
+          "butterfly bush"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bugleweed",
+        "tier": 85
+      },
+      {
+        "text": "Butterfly weed",
+        "tier": 85
+      },
+      {
+        "text": "Caladium",
+        "tier": 85
+      },
+      {
+        "text": "California poppy",
+        "tier": 85
+      },
+      {
+        "text": "Calibrachoa",
+        "aliases": [
+          "million bells"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Camas",
+        "tier": 85
+      },
+      {
+        "text": "Candytuft",
+        "tier": 85
+      },
+      {
+        "text": "Canterbury bells",
+        "tier": 85
+      },
+      {
+        "text": "Cape primrose",
+        "aliases": [
+          "streptocarpus"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cardinal flower",
+        "tier": 85
+      },
+      {
+        "text": "Carolina jasmine",
+        "tier": 85
+      },
+      {
+        "text": "Catmint",
+        "aliases": [
+          "nepeta"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chinese lantern",
+        "tier": 85
+      },
+      {
+        "text": "Chionodoxa",
+        "aliases": [
+          "glory of the snow"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Christmas cactus",
+        "tier": 85
+      },
+      {
+        "text": "Christmas rose",
+        "tier": 85
+      },
+      {
+        "text": "Cinquefoil",
+        "tier": 85
+      },
+      {
+        "text": "Cleome",
+        "aliases": [
+          "spider flower"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Clarkia",
+        "tier": 85
+      },
+      {
+        "text": "Cockscomb",
+        "tier": 85
+      },
+      {
+        "text": "Coleus",
+        "tier": 85
+      },
+      {
+        "text": "Colchicum",
+        "tier": 85
+      },
+      {
+        "text": "Coral bells",
+        "aliases": [
+          "heuchera"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Corydalis",
+        "tier": 85
+      },
+      {
+        "text": "Cowslip",
+        "tier": 85
+      },
+      {
+        "text": "Crane's bill",
+        "tier": 85
+      },
+      {
+        "text": "Creeping phlox",
+        "tier": 85
+      },
+      {
+        "text": "Crown imperial",
+        "tier": 85
+      },
+      {
+        "text": "Cuphea",
+        "tier": 85
+      },
+      {
+        "text": "Cymbidium",
+        "tier": 85
+      },
+      {
+        "text": "Cypress vine",
+        "tier": 85
+      },
+      {
+        "text": "Daphne",
+        "tier": 85
+      },
+      {
+        "text": "Datura",
+        "tier": 85
+      },
+      {
+        "text": "Dendrobium",
+        "tier": 85
+      },
+      {
+        "text": "Desert rose",
+        "tier": 85
+      },
+      {
+        "text": "Deutzia",
+        "tier": 85
+      },
+      {
+        "text": "Dusty miller",
+        "tier": 85
+      },
+      {
+        "text": "Easter lily",
+        "tier": 85
+      },
+      {
+        "text": "Elderflower",
+        "tier": 85
+      },
+      {
+        "text": "English daisy",
+        "tier": 85
+      },
+      {
+        "text": "Epimedium",
+        "tier": 85
+      },
+      {
+        "text": "Evening primrose",
+        "tier": 85
+      },
+      {
+        "text": "Everlasting flower",
+        "tier": 85
+      },
+      {
+        "text": "Fairy duster",
+        "tier": 85
+      },
+      {
+        "text": "Fan flower",
+        "tier": 85
+      },
+      {
+        "text": "Feverfew",
+        "tier": 85
+      },
+      {
+        "text": "Firecracker plant",
+        "tier": 85
+      },
+      {
+        "text": "Flame lily",
+        "tier": 85
+      },
+      {
+        "text": "Fleabane",
+        "tier": 85
+      },
+      {
+        "text": "Floss flower",
+        "tier": 85
+      },
+      {
+        "text": "Flowering tobacco",
+        "aliases": [
+          "nicotiana"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Forsythia",
+        "tier": 85
+      },
+      {
+        "text": "Four o'clock",
+        "tier": 85
+      },
+      {
+        "text": "Fritillaria",
+        "tier": 85
+      },
+      {
+        "text": "Gaura",
+        "tier": 85
+      },
+      {
+        "text": "Geum",
+        "tier": 85
+      },
+      {
+        "text": "Gilia",
+        "tier": 85
+      },
+      {
+        "text": "Ginger lily",
+        "tier": 85
+      },
+      {
+        "text": "Globe amaranth",
+        "tier": 85
+      },
+      {
+        "text": "Globe thistle",
+        "tier": 85
+      },
+      {
+        "text": "Gloriosa",
+        "tier": 85
+      },
+      {
+        "text": "Gloxinia",
+        "tier": 85
+      },
+      {
+        "text": "Godetia",
+        "tier": 85
+      },
+      {
+        "text": "Heath",
+        "tier": 85
+      },
+      {
+        "text": "Hebe",
+        "tier": 85
+      },
+      {
+        "text": "Hepatica",
+        "tier": 85
+      },
+      {
+        "text": "Hesperis",
+        "tier": 85
+      },
+      {
+        "text": "Hoya",
+        "aliases": [
+          "wax plant"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hyssop",
+        "tier": 85
+      },
+      {
+        "text": "Iberis",
+        "tier": 85
+      },
+      {
+        "text": "Ice plant",
+        "tier": 85
+      },
+      {
+        "text": "Indian paintbrush",
+        "tier": 85
+      },
+      {
+        "text": "Jack-in-the-pulpit",
+        "tier": 85
+      },
+      {
+        "text": "Jacob's ladder",
+        "tier": 85
+      },
+      {
+        "text": "Japanese iris",
+        "tier": 85
+      },
+      {
+        "text": "Jasmine nightshade",
+        "tier": 85
+      },
+      {
+        "text": "Joe-Pye weed",
+        "tier": 85
+      },
+      {
+        "text": "Jonquil",
+        "tier": 85
+      },
+      {
+        "text": "Kangaroo paw",
+        "tier": 85
+      },
+      {
+        "text": "Kerria",
+        "tier": 85
+      },
+      {
+        "text": "Knapweed",
+        "tier": 85
+      },
+      {
+        "text": "Lady's mantle",
+        "tier": 85
+      },
+      {
+        "text": "Lady's slipper",
+        "tier": 85
+      },
+      {
+        "text": "Lamb's ear",
+        "tier": 85
+      },
+      {
+        "text": "Lenten rose",
+        "tier": 85
+      },
+      {
+        "text": "Leucojum",
+        "tier": 85
+      },
+      {
+        "text": "Lewisia",
+        "tier": 85
+      },
+      {
+        "text": "Ligularia",
+        "tier": 85
+      },
+      {
+        "text": "Lily of the Nile",
+        "tier": 85
+      },
+      {
+        "text": "Linaria",
+        "aliases": [
+          "toadflax"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lungwort",
+        "tier": 85
+      },
+      {
+        "text": "Mallow",
+        "tier": 85
+      },
+      {
+        "text": "Maltese cross",
+        "tier": 85
+      },
+      {
+        "text": "Mariposa lily",
+        "tier": 85
+      },
+      {
+        "text": "Meadowsweet",
+        "tier": 85
+      },
+      {
+        "text": "Mexican sunflower",
+        "tier": 85
+      },
+      {
+        "text": "Michaelmas daisy",
+        "tier": 85
+      },
+      {
+        "text": "Mignonette",
+        "tier": 85
+      },
+      {
+        "text": "Mock orange",
+        "tier": 85
+      },
+      {
+        "text": "Montbretia",
+        "tier": 85
+      },
+      {
+        "text": "Moss rose",
+        "aliases": [
+          "portulaca"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mountain laurel",
+        "tier": 85
+      },
+      {
+        "text": "Mullein",
+        "tier": 85
+      },
+      {
+        "text": "Narcissus",
+        "tier": 85
+      },
+      {
+        "text": "Nemophila",
+        "tier": 85
+      },
+      {
+        "text": "New Guinea impatiens",
+        "tier": 85
+      },
+      {
+        "text": "Obedient plant",
+        "tier": 85
+      },
+      {
+        "text": "Ornamental onion",
+        "tier": 85
+      },
+      {
+        "text": "Ox-eye daisy",
+        "tier": 85
+      },
+      {
+        "text": "Painted daisy",
+        "tier": 85
+      },
+      {
+        "text": "Pasque flower",
+        "tier": 85
+      },
+      {
+        "text": "Pentas",
+        "tier": 85
+      },
+      {
+        "text": "Pieris",
+        "tier": 85
+      },
+      {
+        "text": "Pinks",
+        "tier": 85
+      },
+      {
+        "text": "Plum blossom",
+        "tier": 85
+      },
+      {
+        "text": "Poached egg plant",
+        "tier": 85
+      },
+      {
+        "text": "Pot marigold",
+        "tier": 85
+      },
+      {
+        "text": "Prairie smoke",
+        "tier": 85
+      },
+      {
+        "text": "Pulmonaria",
+        "tier": 85
+      },
+      {
+        "text": "Purple coneflower",
+        "tier": 85
+      },
+      {
+        "text": "Pussy willow",
+        "tier": 85
+      },
+      {
+        "text": "Quince blossom",
+        "tier": 85
+      },
+      {
+        "text": "Rain lily",
+        "tier": 85
+      },
+      {
+        "text": "Rock rose",
+        "aliases": [
+          "cistus"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rose of Sharon",
+        "tier": 85
+      },
+      {
+        "text": "Rose mallow",
+        "tier": 85
+      },
+      {
+        "text": "Russian sage",
+        "tier": 85
+      },
+      {
+        "text": "Salpiglossis",
+        "tier": 85
+      },
+      {
+        "text": "Saxifrage",
+        "tier": 85
+      },
+      {
+        "text": "Scarlet pimpernel",
+        "tier": 85
+      },
+      {
+        "text": "Sea lavender",
+        "tier": 85
+      },
+      {
+        "text": "Shooting star",
+        "tier": 85
+      },
+      {
+        "text": "Siberian iris",
+        "tier": 85
+      },
+      {
+        "text": "Skunk cabbage",
+        "tier": 85
+      },
+      {
+        "text": "Snow-in-summer",
+        "tier": 85
+      },
+      {
+        "text": "Snowflake",
+        "tier": 85
+      },
+      {
+        "text": "Soapwort",
+        "tier": 85
+      },
+      {
+        "text": "Solomon's seal",
+        "tier": 85
+      },
+      {
+        "text": "Spanish bluebell",
+        "tier": 85
+      },
+      {
+        "text": "Speedwell",
+        "tier": 85
+      },
+      {
+        "text": "Spiderwort",
+        "tier": 85
+      },
+      {
+        "text": "Spirea",
+        "tier": 85
+      },
+      {
+        "text": "Spring beauty",
+        "tier": 85
+      },
+      {
+        "text": "Squill",
+        "tier": 85
+      },
+      {
+        "text": "Star jasmine",
+        "tier": 85
+      },
+      {
+        "text": "Star of Bethlehem",
+        "tier": 85
+      },
+      {
+        "text": "Starflower",
+        "tier": 85
+      },
+      {
+        "text": "Stephanotis",
+        "tier": 85
+      },
+      {
+        "text": "Stonecrop",
+        "tier": 85
+      },
+      {
+        "text": "Sundrop",
+        "tier": 85
+      },
+      {
+        "text": "Sunrose",
+        "tier": 85
+      },
+      {
+        "text": "Swamp milkweed",
+        "tier": 85
+      },
+      {
+        "text": "Sweet woodruff",
+        "tier": 85
+      },
+      {
+        "text": "Tansy",
+        "tier": 85
+      },
+      {
+        "text": "Tickseed",
+        "tier": 85
+      },
+      {
+        "text": "Tithonia",
+        "tier": 85
+      },
+      {
+        "text": "Toad lily",
+        "tier": 85
+      },
+      {
+        "text": "Trumpet vine",
+        "tier": 85
+      },
+      {
+        "text": "Turtlehead",
+        "tier": 85
+      },
+      {
+        "text": "Twinflower",
+        "tier": 85
+      },
+      {
+        "text": "Valerian",
+        "tier": 85
+      },
+      {
+        "text": "Verbascum",
+        "tier": 85
+      },
+      {
+        "text": "Viburnum",
+        "tier": 85
+      },
+      {
+        "text": "Viola",
+        "tier": 85
+      },
+      {
+        "text": "Virginia bluebells",
+        "tier": 85
+      },
+      {
+        "text": "Water hyacinth",
+        "tier": 85
+      },
+      {
+        "text": "Wild rose",
+        "tier": 85
+      },
+      {
+        "text": "Windflower",
+        "tier": 85
+      },
+      {
+        "text": "Winter aconite",
+        "tier": 85
+      },
+      {
+        "text": "Winter jasmine",
+        "tier": 85
+      },
+      {
+        "text": "Wishbone flower",
+        "tier": 85
+      },
+      {
+        "text": "Wood anemone",
+        "tier": 85
+      },
+      {
+        "text": "Wood sorrel",
+        "tier": 85
+      },
+      {
+        "text": "Woodland phlox",
+        "tier": 85
+      },
+      {
+        "text": "Yellow flag",
+        "tier": 85
+      },
+      {
+        "text": "Lily of the Incas",
+        "tier": 85
+      },
+      {
+        "text": "Oriental poppy",
+        "tier": 85
+      },
+      {
+        "text": "Iceland poppy",
+        "tier": 85
+      },
+      {
+        "text": "Shirley poppy",
+        "tier": 85
+      },
+      {
+        "text": "Blue poppy",
+        "tier": 85
+      },
+      {
+        "text": "Matilija poppy",
+        "tier": 85
+      },
+      {
+        "text": "Opium poppy",
+        "tier": 85
+      },
+      {
+        "text": "Corn poppy",
+        "tier": 85
+      },
+      {
+        "text": "Damask rose",
+        "tier": 85
+      },
+      {
+        "text": "Tea rose",
+        "tier": 85
+      },
+      {
+        "text": "Climbing rose",
+        "tier": 85
+      },
+      {
+        "text": "Floribunda",
+        "tier": 85
+      },
+      {
+        "text": "Hybrid tea",
+        "tier": 85
+      },
+      {
+        "text": "English rose",
+        "tier": 85
+      },
+      {
+        "text": "Musk rose",
+        "tier": 85
+      },
+      {
+        "text": "Dog rose",
+        "tier": 85
+      },
+      {
+        "text": "Cabbage rose",
+        "tier": 85
+      },
+      {
+        "text": "Rugosa rose",
+        "tier": 85
+      },
+      {
+        "text": "Blue lotus",
+        "tier": 85
+      },
+      {
+        "text": "Night-blooming jasmine",
+        "tier": 85
+      },
+      {
+        "text": "Queen of the night",
+        "tier": 85
+      },
+      {
+        "text": "Evening star",
+        "tier": 85
+      },
+      {
+        "text": "Middlemist red",
+        "tier": 85
+      },
+      {
+        "text": "Kadupul",
+        "tier": 85
+      },
+      {
+        "text": "Juliet rose",
+        "tier": 85
+      },
+      {
+        "text": "Gold of Kinabalu",
+        "tier": 85
+      },
+      {
+        "text": "Lady of the night",
+        "tier": 85
+      },
+      {
+        "text": "Black bat flower",
+        "tier": 85
+      },
+      {
+        "text": "Hooker's lips",
+        "tier": 85
+      },
+      {
+        "text": "Flying duck orchid",
+        "tier": 85
+      },
+      {
+        "text": "Naked man orchid",
+        "tier": 85
+      },
+      {
+        "text": "Swaddled babies orchid",
+        "tier": 85
+      },
+      {
+        "text": "Laughing bumblebee orchid",
+        "tier": 85
+      },
+      {
         "text": "Amaryllis",
         "tier": 60
       },
@@ -4713,7 +7471,8 @@
       {
         "text": "Gerbera",
         "aliases": [
-          "gerbera daisy"
+          "gerbera daisy",
+          "transvaal daisy"
         ],
         "tier": 60
       },
@@ -4742,6 +7501,9 @@
       },
       {
         "text": "Moonflower",
+        "aliases": [
+          "moonflower vine"
+        ],
         "tier": 60
       },
       {
@@ -4992,6 +7754,9 @@
       },
       {
         "text": "Peony",
+        "aliases": [
+          "paeonia"
+        ],
         "tier": 30
       },
       {
@@ -5004,6 +7769,10 @@
       },
       {
         "text": "Hydrangea",
+        "aliases": [
+          "bigleaf hydrangea",
+          "mophead hydrangea"
+        ],
         "tier": 30
       },
       {
@@ -5040,6 +7809,10 @@
       },
       {
         "text": "Lotus",
+        "aliases": [
+          "lotus flower",
+          "sacred lotus"
+        ],
         "tier": 30
       },
       {
@@ -5056,6 +7829,9 @@
       },
       {
         "text": "Geranium",
+        "aliases": [
+          "pelargonium"
+        ],
         "tier": 30
       },
       {
@@ -5064,6 +7840,9 @@
       },
       {
         "text": "Morning glory",
+        "aliases": [
+          "ipomoea"
+        ],
         "tier": 30
       },
       {
@@ -5087,6 +7866,9 @@
       },
       {
         "text": "Cherry blossom",
+        "aliases": [
+          "sakura"
+        ],
         "tier": 30
       },
       {
@@ -5111,6 +7893,10 @@
       },
       {
         "text": "Calla lily",
+        "aliases": [
+          "zantedeschia",
+          "arum lily"
+        ],
         "tier": 30
       },
       {
@@ -5131,6 +7917,10 @@
       },
       {
         "text": "Primrose",
+        "aliases": [
+          "primula",
+          "polyanthus"
+        ],
         "tier": 30
       },
       {
@@ -5143,6 +7933,10 @@
       },
       {
         "text": "Venus flytrap",
+        "tier": 15
+      },
+      {
+        "text": "Wildflower",
         "tier": 15
       },
       {
@@ -5159,6 +7953,9 @@
       },
       {
         "text": "Sunflower",
+        "aliases": [
+          "helianthus"
+        ],
         "tier": 10
       },
       {
@@ -5185,7 +7982,11 @@
       "Cactus",
       "Fern",
       "Moss",
-      "Seed"
+      "Seed",
+      "Bulb",
+      "Stem",
+      "Petal",
+      "Pollen"
     ]
   },
   {
@@ -5196,6 +7997,9 @@
     "answers": [
       {
         "text": "Pumpernickel",
+        "aliases": [
+          "pumpernickel bread"
+        ],
         "tier": 100
       },
       {
@@ -5282,6 +8086,9 @@
       },
       {
         "text": "Lefse",
+        "aliases": [
+          "lefse bread"
+        ],
         "tier": 85
       },
       {
@@ -5335,7 +8142,8 @@
       {
         "text": "Bao",
         "aliases": [
-          "steamed bun"
+          "steamed bun",
+          "bao bun"
         ],
         "tier": 85
       },
@@ -5361,14 +8169,24 @@
       },
       {
         "text": "Pan de muerto",
+        "aliases": [
+          "pan de muerto bread"
+        ],
         "tier": 85
       },
       {
         "text": "Rosca de reyes",
+        "aliases": [
+          "roscon de reyes",
+          "king cake"
+        ],
         "tier": 85
       },
       {
         "text": "Telera",
+        "aliases": [
+          "telera roll"
+        ],
         "tier": 85
       },
       {
@@ -5594,6 +8412,938 @@
         "tier": 85
       },
       {
+        "text": "Brown bread",
+        "tier": 85
+      },
+      {
+        "text": "Granary",
+        "tier": 85
+      },
+      {
+        "text": "Wholemeal",
+        "tier": 85
+      },
+      {
+        "text": "Spelt bread",
+        "tier": 85
+      },
+      {
+        "text": "Einkorn bread",
+        "tier": 85
+      },
+      {
+        "text": "Emmer bread",
+        "tier": 85
+      },
+      {
+        "text": "Barley bread",
+        "tier": 85
+      },
+      {
+        "text": "Millet bread",
+        "tier": 85
+      },
+      {
+        "text": "Buckwheat bread",
+        "tier": 85
+      },
+      {
+        "text": "Gluten-free bread",
+        "tier": 85
+      },
+      {
+        "text": "Keto bread",
+        "tier": 85
+      },
+      {
+        "text": "Cloud bread",
+        "tier": 85
+      },
+      {
+        "text": "Flaxseed bread",
+        "tier": 85
+      },
+      {
+        "text": "Sunflower bread",
+        "tier": 85
+      },
+      {
+        "text": "Pumpkin bread",
+        "tier": 85
+      },
+      {
+        "text": "Carrot bread",
+        "tier": 85
+      },
+      {
+        "text": "Date bread",
+        "tier": 85
+      },
+      {
+        "text": "Nut bread",
+        "tier": 85
+      },
+      {
+        "text": "Walnut bread",
+        "tier": 85
+      },
+      {
+        "text": "Olive bread",
+        "tier": 85
+      },
+      {
+        "text": "Onion bread",
+        "tier": 85
+      },
+      {
+        "text": "Herb bread",
+        "tier": 85
+      },
+      {
+        "text": "Garlic knots",
+        "tier": 85
+      },
+      {
+        "text": "Bread bowl",
+        "tier": 85
+      },
+      {
+        "text": "Peasant bread",
+        "tier": 85
+      },
+      {
+        "text": "Vienna bread",
+        "tier": 85
+      },
+      {
+        "text": "Cuban bread",
+        "tier": 85
+      },
+      {
+        "text": "Pan de agua",
+        "tier": 85
+      },
+      {
+        "text": "Pan sobao",
+        "tier": 85
+      },
+      {
+        "text": "Portuguese sweet bread",
+        "aliases": [
+          "pao doce"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hawaiian sweet bread",
+        "tier": 85
+      },
+      {
+        "text": "Japanese milk bread",
+        "tier": 85
+      },
+      {
+        "text": "Hokkaido milk bread",
+        "tier": 85
+      },
+      {
+        "text": "Pineapple bun",
+        "aliases": [
+          "bolo bao"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cocktail bun",
+        "tier": 85
+      },
+      {
+        "text": "Char siu bao",
+        "tier": 85
+      },
+      {
+        "text": "Banh mi",
+        "tier": 85
+      },
+      {
+        "text": "Ensaymada",
+        "tier": 85
+      },
+      {
+        "text": "Spanish bread",
+        "tier": 85
+      },
+      {
+        "text": "Monay",
+        "tier": 85
+      },
+      {
+        "text": "Pan de coco",
+        "tier": 85
+      },
+      {
+        "text": "Ube bread",
+        "tier": 85
+      },
+      {
+        "text": "Hopia",
+        "tier": 85
+      },
+      {
+        "text": "Taro bun",
+        "tier": 85
+      },
+      {
+        "text": "Red bean bun",
+        "tier": 85
+      },
+      {
+        "text": "Curry bread",
+        "aliases": [
+          "kare pan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cream bun",
+        "tier": 85
+      },
+      {
+        "text": "Kanelbulle",
+        "tier": 85
+      },
+      {
+        "text": "Semla",
+        "tier": 85
+      },
+      {
+        "text": "Kardemummabulle",
+        "tier": 85
+      },
+      {
+        "text": "Pulla",
+        "tier": 85
+      },
+      {
+        "text": "Korvapuusti",
+        "tier": 85
+      },
+      {
+        "text": "Rieska",
+        "tier": 85
+      },
+      {
+        "text": "Ruisleipä",
+        "tier": 85
+      },
+      {
+        "text": "Hapankorppu",
+        "tier": 85
+      },
+      {
+        "text": "Flatbrød",
+        "tier": 85
+      },
+      {
+        "text": "Wienerbrød",
+        "tier": 85
+      },
+      {
+        "text": "Franskbrød",
+        "tier": 85
+      },
+      {
+        "text": "Rúgbrauð",
+        "tier": 85
+      },
+      {
+        "text": "Laufabrauð",
+        "tier": 85
+      },
+      {
+        "text": "Pain complet",
+        "tier": 85
+      },
+      {
+        "text": "Pain aux noix",
+        "tier": 85
+      },
+      {
+        "text": "Pain aux raisins",
+        "tier": 85
+      },
+      {
+        "text": "Pain aux céréales",
+        "tier": 85
+      },
+      {
+        "text": "Pain viennois",
+        "tier": 85
+      },
+      {
+        "text": "Pain brié",
+        "tier": 85
+      },
+      {
+        "text": "Couronne",
+        "tier": 85
+      },
+      {
+        "text": "Pain de seigle",
+        "tier": 85
+      },
+      {
+        "text": "Pain de Beaucaire",
+        "tier": 85
+      },
+      {
+        "text": "Pain d'Aix",
+        "tier": 85
+      },
+      {
+        "text": "Michette",
+        "tier": 85
+      },
+      {
+        "text": "Flûte",
+        "tier": 85
+      },
+      {
+        "text": "Fougasse provençale",
+        "tier": 85
+      },
+      {
+        "text": "Socca",
+        "tier": 85
+      },
+      {
+        "text": "Tarte flambée",
+        "tier": 85
+      },
+      {
+        "text": "Brioche Nanterre",
+        "tier": 85
+      },
+      {
+        "text": "Brioche à tête",
+        "tier": 85
+      },
+      {
+        "text": "Pain au lait",
+        "tier": 85
+      },
+      {
+        "text": "Chouquette",
+        "tier": 85
+      },
+      {
+        "text": "Pane toscano",
+        "tier": 85
+      },
+      {
+        "text": "Pane di Altamura",
+        "tier": 85
+      },
+      {
+        "text": "Pane casereccio",
+        "tier": 85
+      },
+      {
+        "text": "Michetta",
+        "aliases": [
+          "rosetta"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ciabattina",
+        "tier": 85
+      },
+      {
+        "text": "Pane siciliano",
+        "tier": 85
+      },
+      {
+        "text": "Coppia ferrarese",
+        "tier": 85
+      },
+      {
+        "text": "Pinza",
+        "tier": 85
+      },
+      {
+        "text": "Tigella",
+        "tier": 85
+      },
+      {
+        "text": "Crescentina",
+        "tier": 85
+      },
+      {
+        "text": "Taralli",
+        "tier": 85
+      },
+      {
+        "text": "Friselle",
+        "tier": 85
+      },
+      {
+        "text": "Pizza bianca",
+        "tier": 85
+      },
+      {
+        "text": "Focaccia di Recco",
+        "tier": 85
+      },
+      {
+        "text": "Sfincione",
+        "tier": 85
+      },
+      {
+        "text": "Panettone gastronomico",
+        "tier": 85
+      },
+      {
+        "text": "Colomba",
+        "tier": 85
+      },
+      {
+        "text": "Pandolce",
+        "tier": 85
+      },
+      {
+        "text": "Panforte",
+        "tier": 85
+      },
+      {
+        "text": "Bretzel",
+        "tier": 85
+      },
+      {
+        "text": "Laugenstange",
+        "tier": 85
+      },
+      {
+        "text": "Seelen",
+        "tier": 85
+      },
+      {
+        "text": "Kartoffelbrot",
+        "tier": 85
+      },
+      {
+        "text": "Graubrot",
+        "tier": 85
+      },
+      {
+        "text": "Weizenbrot",
+        "tier": 85
+      },
+      {
+        "text": "Toastbrot",
+        "tier": 85
+      },
+      {
+        "text": "Zwieback",
+        "tier": 85
+      },
+      {
+        "text": "Rusk",
+        "tier": 85
+      },
+      {
+        "text": "Biscotti",
+        "tier": 85
+      },
+      {
+        "text": "Hardtack",
+        "tier": 85
+      },
+      {
+        "text": "Ship's biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Melba",
+        "tier": 85
+      },
+      {
+        "text": "Malt loaf",
+        "tier": 85
+      },
+      {
+        "text": "Fruit loaf",
+        "tier": 85
+      },
+      {
+        "text": "Currant bread",
+        "tier": 85
+      },
+      {
+        "text": "Parker House roll",
+        "tier": 85
+      },
+      {
+        "text": "Cloverleaf roll",
+        "tier": 85
+      },
+      {
+        "text": "Knot roll",
+        "tier": 85
+      },
+      {
+        "text": "Hero roll",
+        "tier": 85
+      },
+      {
+        "text": "Grinder roll",
+        "tier": 85
+      },
+      {
+        "text": "Pan francés",
+        "tier": 85
+      },
+      {
+        "text": "Pan Cubano",
+        "tier": 85
+      },
+      {
+        "text": "Medianoche bread",
+        "tier": 85
+      },
+      {
+        "text": "Birote",
+        "tier": 85
+      },
+      {
+        "text": "Pan de leña",
+        "tier": 85
+      },
+      {
+        "text": "Orejas",
+        "tier": 85
+      },
+      {
+        "text": "Cuernos",
+        "tier": 85
+      },
+      {
+        "text": "Marranitos",
+        "tier": 85
+      },
+      {
+        "text": "Puerquitos",
+        "tier": 85
+      },
+      {
+        "text": "Polvorones",
+        "tier": 85
+      },
+      {
+        "text": "Pan de elote",
+        "tier": 85
+      },
+      {
+        "text": "Pan de horno",
+        "tier": 85
+      },
+      {
+        "text": "Pan amasado",
+        "tier": 85
+      },
+      {
+        "text": "Sopaipilla",
+        "tier": 85
+      },
+      {
+        "text": "Arepa de huevo",
+        "tier": 85
+      },
+      {
+        "text": "Cachapa",
+        "tier": 85
+      },
+      {
+        "text": "Pan de jamón",
+        "tier": 85
+      },
+      {
+        "text": "Chipa guazú",
+        "tier": 85
+      },
+      {
+        "text": "Torta frita",
+        "tier": 85
+      },
+      {
+        "text": "Tortilla de harina",
+        "tier": 85
+      },
+      {
+        "text": "Flour tortilla",
+        "tier": 85
+      },
+      {
+        "text": "Corn tortilla",
+        "tier": 85
+      },
+      {
+        "text": "Gordita",
+        "tier": 85
+      },
+      {
+        "text": "Sope",
+        "tier": 85
+      },
+      {
+        "text": "Tlayuda",
+        "tier": 85
+      },
+      {
+        "text": "Huarache",
+        "tier": 85
+      },
+      {
+        "text": "Memela",
+        "tier": 85
+      },
+      {
+        "text": "Garlic naan",
+        "tier": 85
+      },
+      {
+        "text": "Butter naan",
+        "tier": 85
+      },
+      {
+        "text": "Peshwari naan",
+        "tier": 85
+      },
+      {
+        "text": "Tandoori roti",
+        "tier": 85
+      },
+      {
+        "text": "Rumali roti",
+        "tier": 85
+      },
+      {
+        "text": "Missi roti",
+        "tier": 85
+      },
+      {
+        "text": "Makki di roti",
+        "tier": 85
+      },
+      {
+        "text": "Thepla",
+        "tier": 85
+      },
+      {
+        "text": "Bhakri",
+        "tier": 85
+      },
+      {
+        "text": "Pav",
+        "tier": 85
+      },
+      {
+        "text": "Pav bun",
+        "tier": 85
+      },
+      {
+        "text": "Ladi pav",
+        "tier": 85
+      },
+      {
+        "text": "Luchi",
+        "tier": 85
+      },
+      {
+        "text": "Kachori",
+        "tier": 85
+      },
+      {
+        "text": "Sheermal",
+        "tier": 85
+      },
+      {
+        "text": "Taftan",
+        "tier": 85
+      },
+      {
+        "text": "Matnakash",
+        "tier": 85
+      },
+      {
+        "text": "Tonir bread",
+        "tier": 85
+      },
+      {
+        "text": "Tandoor bread",
+        "tier": 85
+      },
+      {
+        "text": "Afghan bread",
+        "tier": 85
+      },
+      {
+        "text": "Khubz",
+        "tier": 85
+      },
+      {
+        "text": "Markook",
+        "tier": 85
+      },
+      {
+        "text": "Saj",
+        "tier": 85
+      },
+      {
+        "text": "Ka'ak",
+        "tier": 85
+      },
+      {
+        "text": "Bazlama",
+        "tier": 85
+      },
+      {
+        "text": "Yufka",
+        "tier": 85
+      },
+      {
+        "text": "Koulouri",
+        "tier": 85
+      },
+      {
+        "text": "Tsoureki",
+        "tier": 85
+      },
+      {
+        "text": "Lagana",
+        "tier": 85
+      },
+      {
+        "text": "Christopsomo",
+        "tier": 85
+      },
+      {
+        "text": "Eliopsomo",
+        "tier": 85
+      },
+      {
+        "text": "Paximadi",
+        "tier": 85
+      },
+      {
+        "text": "Dakos",
+        "tier": 85
+      },
+      {
+        "text": "Pastéis",
+        "tier": 85
+      },
+      {
+        "text": "Broa",
+        "tier": 85
+      },
+      {
+        "text": "Pão de ló",
+        "tier": 85
+      },
+      {
+        "text": "Bolo do caco",
+        "tier": 85
+      },
+      {
+        "text": "Papo-seco",
+        "tier": 85
+      },
+      {
+        "text": "Regueifa",
+        "tier": 85
+      },
+      {
+        "text": "Pan gallego",
+        "tier": 85
+      },
+      {
+        "text": "Pan de cristal",
+        "tier": 85
+      },
+      {
+        "text": "Pan con tomate",
+        "tier": 85
+      },
+      {
+        "text": "Mollete",
+        "tier": 85
+      },
+      {
+        "text": "Pan cateto",
+        "tier": 85
+      },
+      {
+        "text": "Ensaïmada",
+        "tier": 85
+      },
+      {
+        "text": "Tortell",
+        "tier": 85
+      },
+      {
+        "text": "Coca",
+        "tier": 85
+      },
+      {
+        "text": "Hua juan",
+        "tier": 85
+      },
+      {
+        "text": "Gua bao",
+        "tier": 85
+      },
+      {
+        "text": "Jianbing",
+        "tier": 85
+      },
+      {
+        "text": "Bing",
+        "tier": 85
+      },
+      {
+        "text": "Laobing",
+        "tier": 85
+      },
+      {
+        "text": "Roujiamo",
+        "tier": 85
+      },
+      {
+        "text": "Nang",
+        "tier": 85
+      },
+      {
+        "text": "Uyghur bread",
+        "tier": 85
+      },
+      {
+        "text": "Tibetan bread",
+        "tier": 85
+      },
+      {
+        "text": "Tingmo",
+        "tier": 85
+      },
+      {
+        "text": "Amritsari kulcha",
+        "tier": 85
+      },
+      {
+        "text": "Roti john",
+        "tier": 85
+      },
+      {
+        "text": "Roti prata",
+        "tier": 85
+      },
+      {
+        "text": "Roti jala",
+        "tier": 85
+      },
+      {
+        "text": "Roti boy",
+        "tier": 85
+      },
+      {
+        "text": "Buttermilk biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Drop biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Angel biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Cheddar Bay biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Cathead biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Beaten biscuit",
+        "tier": 85
+      },
+      {
+        "text": "Popover",
+        "tier": 85
+      },
+      {
+        "text": "Yorkshire pudding",
+        "tier": 85
+      },
+      {
+        "text": "Dutch baby",
+        "tier": 85
+      },
+      {
+        "text": "No-knead bread",
+        "tier": 85
+      },
+      {
+        "text": "Beer bread",
+        "tier": 85
+      },
+      {
+        "text": "Irish brown bread",
+        "tier": 85
+      },
+      {
+        "text": "Wheaten bread",
+        "tier": 85
+      },
+      {
+        "text": "Treacle bread",
+        "tier": 85
+      },
+      {
+        "text": "Guinness bread",
+        "tier": 85
+      },
+      {
+        "text": "Blaa",
+        "tier": 85
+      },
+      {
+        "text": "Batata bread",
+        "tier": 85
+      },
+      {
+        "text": "Sweet potato bread",
+        "tier": 85
+      },
+      {
+        "text": "Corn pone",
+        "tier": 85
+      },
+      {
+        "text": "Ashcake",
+        "tier": 85
+      },
+      {
+        "text": "Navajo frybread",
+        "tier": 85
+      },
+      {
+        "text": "Piki",
+        "tier": 85
+      },
+      {
         "text": "Sprouted bread",
         "aliases": [
           "ezekiel bread"
@@ -5621,6 +9371,9 @@
       },
       {
         "text": "Bolillo",
+        "aliases": [
+          "bolillo roll"
+        ],
         "tier": 60
       },
       {
@@ -5657,22 +9410,38 @@
       },
       {
         "text": "Bhatura",
+        "aliases": [
+          "bhatoora"
+        ],
         "tier": 60
       },
       {
         "text": "Kulcha",
+        "aliases": [
+          "kulcha bread"
+        ],
         "tier": 60
       },
       {
         "text": "Lavash",
+        "aliases": [
+          "lavash bread"
+        ],
         "tier": 60
       },
       {
         "text": "Barbari",
+        "aliases": [
+          "barbari bread",
+          "nan-e barbari"
+        ],
         "tier": 60
       },
       {
         "text": "Sangak",
+        "aliases": [
+          "sangak bread"
+        ],
         "tier": 60
       },
       {
@@ -5681,10 +9450,16 @@
       },
       {
         "text": "Simit",
+        "aliases": [
+          "simit bread"
+        ],
         "tier": 60
       },
       {
         "text": "Pide",
+        "aliases": [
+          "pide bread"
+        ],
         "tier": 60
       },
       {
@@ -5769,6 +9544,9 @@
       },
       {
         "text": "Bannock",
+        "aliases": [
+          "bannock bread"
+        ],
         "tier": 60
       },
       {
@@ -5777,6 +9555,9 @@
       },
       {
         "text": "Johnnycake",
+        "aliases": [
+          "hoecake"
+        ],
         "tier": 60
       },
       {
@@ -5837,12 +9618,17 @@
       {
         "text": "Pita",
         "aliases": [
-          "pita bread"
+          "pita bread",
+          "pita pocket",
+          "pocket bread"
         ],
         "tier": 30
       },
       {
         "text": "Naan",
+        "aliases": [
+          "naan bread"
+        ],
         "tier": 30
       },
       {
@@ -5878,12 +9664,16 @@
       {
         "text": "Bun",
         "aliases": [
-          "hamburger bun"
+          "hamburger bun",
+          "burger bun"
         ],
         "tier": 30
       },
       {
         "text": "Hot dog bun",
+        "aliases": [
+          "hot dog roll"
+        ],
         "tier": 30
       },
       {
@@ -6000,9 +9790,36 @@
         "tier": 15
       },
       {
+        "text": "French toast",
+        "tier": 15
+      },
+      {
+        "text": "Croutons",
+        "tier": 15
+      },
+      {
+        "text": "Stuffing",
+        "tier": 15
+      },
+      {
+        "text": "Pancake",
+        "tier": 15
+      },
+      {
+        "text": "Bread pudding",
+        "tier": 15
+      },
+      {
+        "text": "Garlic toast",
+        "tier": 15
+      },
+      {
         "text": "White bread",
         "aliases": [
-          "white"
+          "white",
+          "sandwich bread",
+          "sliced bread",
+          "wonder bread"
         ],
         "tier": 10
       },
@@ -6032,7 +9849,8 @@
       {
         "text": "Baguette",
         "aliases": [
-          "french bread"
+          "french bread",
+          "baguette tradition"
         ],
         "tier": 10
       },
@@ -6052,7 +9870,10 @@
       "Donut",
       "Pie",
       "Rice",
-      "Butter"
+      "Butter",
+      "Cereal",
+      "Pasta",
+      "Jam"
     ]
   },
   {
