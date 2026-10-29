@@ -2565,6 +2565,247 @@ Flexing
 Tutting
 Waacking
 Litefeet
+Balboa
+Bal-Swing
+Collegiate shag
+Carolina shag
+St. Louis shag
+Slow dance
+Slow drag
+Fishtail
+Peabody
+American Smooth
+American Rhythm
+International Standard
+International Latin
+Samba de gafieira
+Samba de roda
+Samba no pé
+Axé
+Maxixe
+Carimbó
+Bomba
+Plena
+Danza
+Seis
+Cueca
+Cumbia villera
+Salsa casino | casino
+Rueda de casino
+Guaguancó
+Rumba flamenca
+Bulerías
+Alegrías
+Soleá
+Zapateado
+Malambo
+Candombe
+Huayno
+Diablada
+Caporales
+Tinku
+Saya
+Morenada
+Danza de tijeras | scissors dance
+Jarabe tapatío | mexican hat dance
+Concheros
+Danza de los Viejitos
+Matachines
+Quebradita
+Duranguense
+Punta
+Paranda
+Merengue típico
+Kompa
+Zouk-love
+Gwo ka
+Bèlè
+Calinda
+Wining
+Daggering
+Skanking
+Pogo
+Moshing
+Big Apple
+Suzie Q
+Truckin'
+Shorty George
+Black Bottom
+Turkey trot
+Grizzly bear
+Bunny hug
+Tango argentino
+Milonga
+Canyengue
+Tango nuevo
+Ballroom tango
+Finnish tango
+Polka-mazurka
+Schottische
+Varsovienne
+Galop
+Cotillion
+Lancers
+Sir Roger de Coverley
+Virginia reel
+Strathspey
+Set dancing
+Appalachian clogging
+Flatfoot
+Hambo
+Polska
+Springar
+Halling
+Pols
+Kolo
+Horo
+Khorumi
+Kartuli
+Hasapiko
+Zeibekiko
+Kalamatianos
+Tsamiko
+Syrtos
+Pentozali
+Halay
+Horon
+Zeybek
+Tarab
+Khaleegy
+Ardah
+Yowla
+Dabke Lebanese
+Sufi whirling
+Sema
+Raqs baladi
+Saidi
+Shaabi
+Ghawazee
+Tribal fusion
+ATS | american tribal style
+Giddha
+Kalbelia
+Bihu
+Yakshagana
+Ramvong
+Fon
+Likay
+Saman
+Jaipongan
+Tor-tor
+Cha-cha Philippine
+Singkil
+Pangalay
+Itik-itik
+Maglalatik
+Noh
+Odori
+Eisa
+Yosakoi
+Buchaechum | fan dance korean
+Talchum
+Salpuri
+Ganggangsullae
+Samulnori
+Biyelgee
+Lion dance Chinese
+Yangko
+Melbourne shuffle
+Jumpstyle
+Tecktonik
+Hardstyle shuffle
+Liquid dancing
+Gloving
+Poi spinning
+Lofting
+Jacking
+Burlesque
+Cabaret
+Lyrical
+Contact improvisation
+Gaga
+Horton
+Graham technique
+Limón technique
+Cunningham technique
+Release technique
+Neoclassical ballet
+Contemporary ballet
+Romantic ballet
+Classical ballet
+Ballet d'action
+Ballroom latin
+Dancesport
+Aerial silks
+Lyra
+Zumba
+Jazzercise
+Barre
+Bokwa
+B-boying
+Uprock
+Boogaloo
+Electric boogaloo
+The Robot
+Strobing
+Waving
+Ticking
+Bone breaking
+Memphis jookin
+Chicago footwork
+Detroit jit
+Lite feet
+Hit dem folks
+Milly Rock
+Orange Justice
+Griddy
+Carlton
+The Worm
+Chicken noodle soup
+Crank That | soulja boy
+Lean wit it rock wit it
+Bernie
+Tootsie roll
+Bankhead bounce
+Toot it and boot it
+Kid 'n Play kickstep
+Cowboy cha-cha
+Ten-step
+Country swing
+Double shuffle
+Time Warp
+Madison
+Stroll
+Loco-motion
+Hitch hike
+Frug
+Jerk
+Freddie
+Shimmy
+Hully gully
+Funky chicken
+Hokey cokey
+Ring a ring o' roses
+Chicken dance polka
+Krakowiak
+Oberek
+Kujawiak
+Czardas
+Verbunkos
+Sârba
+Ciuleandra
+Moresca
+Pizzica
+Furlana
+Forlana
+Siciliana
+Volta
+La volta
+Canary
+Pavan
+Basse danse
+Carole
+Rondeau
 
 [Rare]
 Jive
@@ -2669,7 +2910,7 @@ Square dancing | square dance
 Belly dancing | belly dance
 Flamenco
 Cha-cha | cha cha | cha-cha-cha
-Rumba
+Rumba | rhumba
 Samba
 Foxtrot
 Quickstep
@@ -2725,12 +2966,19 @@ Singing
 Party
 Prom
 Guitar
+Concert
+Karaoke
+Jumping
+Walking
+Running
+Swimming
 
 # QUESTION
 id: q0100
 pool: unlimited
 category: movies-tv
 prompt: Name a movie that won the Oscar for Best Picture
+note: Every Best Picture winner from Wings (1929) through One Battle After Another (2026).
 
 [One in a Krillion]
 Wings
@@ -2774,6 +3022,7 @@ Mrs. Miniver
 Rebecca
 Hamlet
 All Quiet on the Western Front
+One Battle After Another
 
 [Schooler]
 Schindler's List | schindlers list
@@ -2853,3 +3102,13 @@ The Dark Knight
 Avengers
 Barbie
 Top Gun
+The Shawshank Redemption
+Goodfellas
+Saving Private Ryan
+Brokeback Mountain
+The Social Network
+Inception
+Black Panther
+Jurassic Park
+The Wizard of Oz
+Back to the Future
