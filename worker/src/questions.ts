@@ -118,8 +118,11 @@ export async function getDailySet(env: Env, date: string): Promise<string[]> {
     .all<{ id: string; daily_slot: number }>();
 
   const slots: (string | null)[] = Array(QUESTIONS_PER_DAY).fill(null);
-  for (const q of scheduled) if (q.daily_slot >= 1 && q.daily_slot <= QUESTIONS_PER_DAY) slots[q.daily_slot - 1] = q.id;
-  const open = slots.map((id, i) => (id ? -1 : i)).filter((i) => i >= 0);
+  const fillScheduled = (rows: { id: string; daily_slot: number }[]) => {
+    for (const q of rows) if (q.daily_slot >= 1 && q.daily_slot <= QUESTIONS_PER_DAY) slots[q.daily_slot - 1] = q.id;
+  };
+  fillScheduled(scheduled);
+  let open = slots.map((id, i) => (id ? -1 : i)).filter((i) => i >= 0);
 
   if (open.length) {
     const { results: reserve } = await env.DB.prepare(
@@ -127,16 +130,26 @@ export async function getDailySet(env: Env, date: string): Promise<string[]> {
     )
       .bind(open.length)
       .all<{ id: string }>();
-    const stmts = [];
-    for (const r of reserve) {
-      const slot = open.shift()!;
-      slots[slot] = r.id;
-      // Reserve questions become this day's scheduled questions (and join Unlimited once aired).
-      stmts.push(
-        env.DB.prepare("UPDATE questions SET status = 'scheduled', daily_date = ?, daily_slot = ? WHERE id = ?").bind(date, slot + 1, r.id),
-      );
+    // Reserve questions become this day's scheduled questions (and join Unlimited once aired).
+    // Each claim only succeeds if the slot is still empty, so two requests building the same
+    // day at once can't collide; afterwards we re-read who actually holds each slot.
+    const stmts = reserve.map((r, i) =>
+      env.DB.prepare(
+        `UPDATE questions SET status = 'scheduled', daily_date = ?1, daily_slot = ?2
+         WHERE id = ?3 AND status = 'reserve'
+           AND NOT EXISTS (SELECT 1 FROM questions WHERE daily_date = ?1 AND daily_slot = ?2)`,
+      ).bind(date, open[i] + 1, r.id),
+    );
+    if (stmts.length) {
+      await env.DB.batch(stmts);
+      const { results: claimed } = await env.DB.prepare(
+        "SELECT id, daily_slot FROM questions WHERE daily_date = ? AND status != 'retired' ORDER BY daily_slot",
+      )
+        .bind(date)
+        .all<{ id: string; daily_slot: number }>();
+      fillScheduled(claimed);
+      open = slots.map((id, i) => (id ? -1 : i)).filter((i) => i >= 0);
     }
-    if (stmts.length) await env.DB.batch(stmts);
   }
 
   if (open.length) {

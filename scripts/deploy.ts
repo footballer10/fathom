@@ -22,7 +22,21 @@ console.log("\nApplying database migrations...");
 wrangler(["d1", "migrations", "apply", "fathom", "--remote"]);
 
 console.log("\nDeploying...");
-const out = wrangler(["deploy"], { capture: true });
+let out = "";
+try {
+  out = wrangler(["deploy"], { capture: true });
+} catch {
+  console.error(`
+Deploy didn't finish. The most common reason on a new Cloudflare account:
+you haven't picked your free workers.dev address yet.
+
+  1. Open https://dash.cloudflare.com and log in.
+  2. Click "Workers & Pages" in the left menu (Compute, then Workers & Pages on some accounts).
+  3. If it asks you to choose a subdomain, type a short name (e.g. your-name) and confirm.
+  4. Wait a minute, then run: npm run deploy
+`);
+  process.exit(1);
+}
 process.stdout.write(out);
 const url = out.match(/https:\/\/[^\s]+\.workers\.dev/)?.[0];
 
