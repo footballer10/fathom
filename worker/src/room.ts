@@ -8,7 +8,7 @@ import {
   nicknameProblem,
   pointsToDepth,
   tierInfo,
-} from "@krillion/shared";
+} from "@fathom/shared";
 import type {
   BattleSettings,
   BestAnswer,
@@ -25,7 +25,7 @@ import type {
   ServerMessage,
   TierPoints,
   UsedAnswer,
-} from "@krillion/shared";
+} from "@fathom/shared";
 import type { Env } from "./env";
 import { getIndex, getQuestions, pickRoomQuestions } from "./questions";
 

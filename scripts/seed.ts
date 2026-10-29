@@ -24,7 +24,7 @@ if (!result.ok) {
 console.log(`Seed bank OK: ${questions.length} questions.`);
 
 console.log(`\nApplying database migrations (${target})...`);
-wrangler(["d1", "migrations", "apply", "krillion", target, ...(target === "--remote" ? [] : [])], {});
+wrangler(["d1", "migrations", "apply", "fathom", target, ...(target === "--remote" ? [] : [])], {});
 
 const sql = (v: unknown) => (v === null || v === undefined ? "NULL" : typeof v === "number" ? String(v) : `'${String(v).replace(/'/g, "''")}'`);
 const now = Date.now();
@@ -62,7 +62,7 @@ writeFileSync(join(tmp, "seed.sql"), lines.join("\n") + "\n");
 writeFileSync(join(tmp, "kv.json"), JSON.stringify(kv));
 
 console.log(`\nInserting questions (${target})...`);
-wrangler(["d1", "execute", "krillion", target, "--file", join(".wrangler", "seed", "seed.sql"), ...(target === "--remote" ? ["--yes"] : [])], { capture: true });
+wrangler(["d1", "execute", "fathom", target, "--file", join(".wrangler", "seed", "seed.sql"), ...(target === "--remote" ? ["--yes"] : [])], { capture: true });
 
 console.log(`\nWriting ${kv.length} answer indexes to KV (${target})...`);
 wrangler(["kv", "bulk", "put", join(".wrangler", "seed", "kv.json"), "--binding", "KV", target]);

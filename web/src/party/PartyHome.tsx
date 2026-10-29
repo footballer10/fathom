@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { isRoomCode } from "@krillion/shared";
+import { isRoomCode } from "@fathom/shared";
 import { api } from "../api";
 import { navigate } from "../router";
 

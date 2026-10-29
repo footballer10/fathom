@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { MISS_EMOJI, formatDepth, shareCardText, tierInfo } from "@krillion/shared";
-import type { FinishResponse, RevealResponse } from "@krillion/shared";
+import { MISS_EMOJI, formatDepth, shareCardText, tierInfo } from "@fathom/shared";
+import type { FinishResponse, RevealResponse } from "@fathom/shared";
 import { api, serverNow } from "../api";
 import { RevealPanel } from "./RevealPanel";
 

@@ -9,8 +9,8 @@ import {
   parsePlainText,
   tierInfo,
   validateQuestions,
-} from "@krillion/shared";
-import type { ParsedFixes, ParsedQuestion, QuestionReport, TierPoints } from "@krillion/shared";
+} from "@fathom/shared";
+import type { ParsedFixes, ParsedQuestion, QuestionReport, TierPoints } from "@fathom/shared";
 import { navigate } from "../router";
 import { AdminError, admin, getToken, setToken } from "./adminApi";
 import type { AdminStatus, ScheduleDay } from "./adminApi";

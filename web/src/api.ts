@@ -6,7 +6,7 @@ import type {
   GuessResponse,
   RevealResponse,
   SessionState,
-} from "@krillion/shared";
+} from "@fathom/shared";
 import { getPlayerId } from "./player";
 
 /**

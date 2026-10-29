@@ -1,4 +1,4 @@
-# Krillion Unlimited
+# Fathom
 
 A free deep-sea trivia game. You get an open-ended prompt like "Name a fruit" and type one valid
 answer before the timer runs out. Rarer answers score more, and every point sinks your diver 10 meters.
@@ -46,7 +46,7 @@ To test Party mode alone, open the site in two browser windows (one normal, one 
    ```
 
 2. Publish the site. At the end it prints your live address, like
-   `https://krillion-unlimited.<your-name>.workers.dev`:
+   `https://fathom.<your-name>.workers.dev`:
 
    ```bash
    npm run deploy

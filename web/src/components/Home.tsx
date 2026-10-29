@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { APP_NAME, QUESTION_SECONDS, TIERS, WRONG_GUESS_PENALTY_SECONDS } from "@krillion/shared";
-import type { Category } from "@krillion/shared";
+import { APP_NAME, QUESTION_SECONDS, TIERS, WRONG_GUESS_PENALTY_SECONDS } from "@fathom/shared";
+import type { Category } from "@fathom/shared";
 import { api } from "../api";
 import type { DailyStatus } from "../api";
 import { navigate } from "../router";

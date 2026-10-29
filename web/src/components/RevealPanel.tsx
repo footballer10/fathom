@@ -1,5 +1,5 @@
-import { TIERS } from "@krillion/shared";
-import type { RevealResponse } from "@krillion/shared";
+import { TIERS } from "@fathom/shared";
+import type { RevealResponse } from "@fathom/shared";
 
 /** The full valid-answer list for a finished question, grouped by tier, with the player's pick highlighted. */
 export function RevealPanel({ reveal, compact = false }: { reveal: RevealResponse; compact?: boolean }) {

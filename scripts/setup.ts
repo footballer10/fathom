@@ -30,27 +30,27 @@ if (!loggedIn()) {
 console.log("\nStep 2/4: database and key-value storage");
 const findD1 = () => {
   const list = JSON.parse(wrangler(["d1", "list", "--json"], { capture: true })) as { name: string; uuid: string }[];
-  return list.find((d) => d.name === "krillion")?.uuid;
+  return list.find((d) => d.name === "fathom")?.uuid;
 };
 let d1 = findD1();
 if (!d1) {
-  wrangler(["d1", "create", "krillion"], { capture: true });
+  wrangler(["d1", "create", "fathom"], { capture: true });
   d1 = findD1();
 }
 if (!d1) throw new Error("Couldn't create the D1 database");
-console.log(`  D1 database: krillion (${d1})`);
+console.log(`  D1 database: fathom (${d1})`);
 
 const findKv = () => {
   const list = JSON.parse(wrangler(["kv", "namespace", "list"], { capture: true })) as { id: string; title: string }[];
-  return list.find((n) => n.title === "krillion-unlimited-KV" || n.title === "krillion-kv" || n.title.endsWith("krillion-kv"))?.id;
+  return list.find((n) => n.title === "fathom-kv" || n.title.endsWith("fathom-kv"))?.id;
 };
 let kv = findKv();
 if (!kv) {
-  wrangler(["kv", "namespace", "create", "krillion-kv"], { capture: true });
+  wrangler(["kv", "namespace", "create", "fathom-kv"], { capture: true });
   kv = findKv();
 }
 if (!kv) throw new Error("Couldn't create the KV namespace");
-console.log(`  KV namespace: krillion-kv (${kv})`);
+console.log(`  KV namespace: fathom-kv (${kv})`);
 
 console.log("\nStep 3/4: saving IDs to worker/wrangler.jsonc");
 const cfgPath = join(WORKER_DIR, "wrangler.jsonc");

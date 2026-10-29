@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
-import { TIMER_WARNING_SECONDS } from "@krillion/shared";
+import { TIMER_WARNING_SECONDS } from "@fathom/shared";
 import { serverNow } from "../api";
 
 /**

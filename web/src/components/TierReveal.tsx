@@ -1,8 +1,8 @@
 import { animate, motion, useMotionValue, useTransform } from "framer-motion";
 import { useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
-import { MISS_EMOJI, formatDepth, pointsToDepth, tierInfo } from "@krillion/shared";
-import type { TierPoints } from "@krillion/shared";
+import { MISS_EMOJI, formatDepth, pointsToDepth, tierInfo } from "@fathom/shared";
+import type { TierPoints } from "@fathom/shared";
 
 /** How big the celebration gets per tier. */
 const BURST_SIZE: Record<TierPoints, number> = { 10: 0, 15: 6, 30: 10, 60: 16, 85: 26, 100: 44 };

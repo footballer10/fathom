@@ -1,7 +1,7 @@
 import { MotionConfig, animate, useMotionValue } from "framer-motion";
 import { useCallback, useEffect, useState } from "react";
-import { APP_NAME, pointsToDepth } from "@krillion/shared";
-import type { Category, FinishResponse, GameMode } from "@krillion/shared";
+import { APP_NAME, pointsToDepth } from "@fathom/shared";
+import type { Category, FinishResponse, GameMode } from "@fathom/shared";
 import { DepthGauge, DepthPill } from "./components/DepthGauge";
 import { EndScreen } from "./components/EndScreen";
 import { Game } from "./components/Game";

@@ -1,5 +1,5 @@
 {
-  "name": "@krillion/web",
+  "name": "@fathom/web",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@krillion/shared": "*",
+    "@fathom/shared": "*",
     "framer-motion": "^12.23.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

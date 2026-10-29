@@ -3,7 +3,7 @@
  * and the web app, worker, and scripts all read from this one file.
  */
 
-export const APP_NAME = "Krillion Unlimited";
+export const APP_NAME = "Fathom";
 
 /** The Daily set resets at midnight in this time zone (DST is handled automatically). */
 export const DAILY_RESET_TZ = "America/Denver";

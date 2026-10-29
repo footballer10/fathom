@@ -7,8 +7,8 @@ import {
   MISS_EMOJI,
   formatDepth,
   tierInfo,
-} from "@krillion/shared";
-import type { BattleSettings, Category, DiveSettings, RevealAnswer, RoomSnapshot, TierPoints } from "@krillion/shared";
+} from "@fathom/shared";
+import type { BattleSettings, Category, DiveSettings, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
 import { serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
 import { TimerRing } from "../components/TimerRing";

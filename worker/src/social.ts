@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
-import { dailyNumberFor, nicknameProblem, pointsToDepth, zoneForDepth } from "@krillion/shared";
+import { dailyNumberFor, nicknameProblem, pointsToDepth, zoneForDepth } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { today } from "./questions";

@@ -1,6 +1,6 @@
 /** Admin API client. The token lives in this browser's localStorage only. */
 
-const KEY = "krillion.adminToken";
+const KEY = "fathom.adminToken";
 
 export function getToken(): string {
   try {

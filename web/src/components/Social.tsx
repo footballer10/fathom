@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { MISS_EMOJI, formatDepth, tierInfo } from "@krillion/shared";
-import type { TierPoints } from "@krillion/shared";
+import { MISS_EMOJI, formatDepth, tierInfo } from "@fathom/shared";
+import type { TierPoints } from "@fathom/shared";
 import { api } from "../api";
 import type { LeaderboardRow, PlayerStats, Profile } from "../api";
 import { NicknamePrompt, getNickname } from "../nickname";

@@ -12,7 +12,7 @@ export function pointsToDepth(points: number): number {
 
 /**
  * Spoiler-free share text, e.g.
- *   Krillion Unlimited #42 — 3,650 m (Midnight Zone)
+ *   Fathom #42 — 3,650 m (Midnight Zone)
  *   🐟🐚🦐🦑🐚❌🐋
  */
 export function shareCardText(opts: {

@@ -1,7 +1,7 @@
 import { motion, useMotionValueEvent, useTransform } from "framer-motion";
 import type { MotionValue } from "framer-motion";
 import { useState } from "react";
-import { ZONES, formatDepth, zoneForDepth } from "@krillion/shared";
+import { ZONES, formatDepth, zoneForDepth } from "@fathom/shared";
 
 /** Bottom of the gauge: a perfect game (700 points). */
 export const GAUGE_MAX_DEPTH = 7000;

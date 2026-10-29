@@ -1,4 +1,4 @@
-import { TIERS, addDays, pointsToDepth } from "@krillion/shared";
+import { TIERS, addDays, pointsToDepth } from "@fathom/shared";
 import type { Env } from "./env";
 import { today } from "./questions";
 

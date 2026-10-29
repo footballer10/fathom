@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { ClientMessage, RevealAnswer, RoomSnapshot, ServerMessage } from "@krillion/shared";
+import type { ClientMessage, RevealAnswer, RoomSnapshot, ServerMessage } from "@fathom/shared";
 import { syncClock } from "../api";
 import { getPlayerId } from "../player";
 

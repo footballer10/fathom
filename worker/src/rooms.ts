@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { ROOM_CODE_LETTERS, isRoomCode } from "@krillion/shared";
+import { ROOM_CODE_LETTERS, isRoomCode } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 

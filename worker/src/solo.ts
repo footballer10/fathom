@@ -13,7 +13,7 @@ import {
   normalize,
   pointsToDepth,
   zoneForDepth,
-} from "@krillion/shared";
+} from "@fathom/shared";
 import type {
   Category,
   DailyInfo,
@@ -24,7 +24,7 @@ import type {
   RevealResponse,
   SessionState,
   TierPoints,
-} from "@krillion/shared";
+} from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { UNLIMITED_WHERE, getDailySet, getIndex, getQuestions, today, unlimitedParams } from "./questions";

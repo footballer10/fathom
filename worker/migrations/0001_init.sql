@@ -1,4 +1,4 @@
--- Krillion Unlimited D1 schema.
+-- Fathom D1 schema.
 -- Each question's answers/aliases/near-misses live in one JSON column
 -- (questions.data) instead of separate rows. That keeps a whole week's import
 -- to ~150 row writes, well inside D1's free-tier write limits.

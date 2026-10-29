@@ -47,6 +47,6 @@ describe("zones and share card", () => {
   it("builds a spoiler-free share card", () => {
     expect(
       shareCardText({ dailyNumber: 42, totalPoints: 365, tiers: [30, 60, 10, 85, 60, null, 100] }),
-    ).toBe("Krillion Unlimited #42 — 3,650 m (Midnight Zone)\n🐟🐚🦐🦑🐚❌🐋");
+    ).toBe("Fathom #42 — 3,650 m (Midnight Zone)\n🐟🐚🦐🦑🐚❌🐋");
   });
 });

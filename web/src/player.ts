@@ -1,5 +1,5 @@
 /** Anonymous player identity: a random UUID kept in localStorage (no accounts). */
-const KEY = "krillion.playerId";
+const KEY = "fathom.playerId";
 
 function randomId(): string {
   if (typeof crypto !== "undefined" && "randomUUID" in crypto) return crypto.randomUUID();

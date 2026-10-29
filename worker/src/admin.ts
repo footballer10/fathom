@@ -12,8 +12,8 @@ import {
   normalizePrompt,
   serializeQuestion,
   validateQuestion,
-} from "@krillion/shared";
-import type { Category, ParsedFixes, ParsedQuestion, TierPoints } from "@krillion/shared";
+} from "@fathom/shared";
+import type { Category, ParsedFixes, ParsedQuestion, TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { UNLIMITED_WHERE, forgetIndex, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";

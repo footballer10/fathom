@@ -1,7 +1,7 @@
 import { AnimatePresence, motion, useAnimationControls } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { DEADLINE_GRACE_MS, QUESTION_SECONDS, WRONG_GUESS_PENALTY_SECONDS } from "@krillion/shared";
-import type { Category, FinishResponse, GameMode, RevealResponse, SessionState, TierPoints } from "@krillion/shared";
+import { DEADLINE_GRACE_MS, QUESTION_SECONDS, WRONG_GUESS_PENALTY_SECONDS } from "@fathom/shared";
+import type { Category, FinishResponse, GameMode, RevealResponse, SessionState, TierPoints } from "@fathom/shared";
 import { api } from "../api";
 import { useSettings } from "../settings";
 import { sounds } from "../sound";

@@ -4,8 +4,8 @@ import {
   buildIndex,
   dailyDateFor,
   normalizePrompt,
-} from "@krillion/shared";
-import type { AnswerIndex, Category, TierPoints } from "@krillion/shared";
+} from "@fathom/shared";
+import type { AnswerIndex, Category, TierPoints } from "@fathom/shared";
 import type { Env } from "./env";
 
 /** One stored answer. IDs are stable forever (plays and stats point at them). */

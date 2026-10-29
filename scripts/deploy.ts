@@ -19,7 +19,7 @@ const b = spawnSync("npm", ["run", "build", "-w", "web"], { cwd: ROOT, stdio: "i
 if (b.status !== 0) process.exit(b.status ?? 1);
 
 console.log("\nApplying database migrations...");
-wrangler(["d1", "migrations", "apply", "krillion", "--remote"]);
+wrangler(["d1", "migrations", "apply", "fathom", "--remote"]);
 
 console.log("\nDeploying...");
 const out = wrangler(["deploy"], { capture: true });

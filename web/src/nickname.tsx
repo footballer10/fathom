@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { nicknameProblem } from "@krillion/shared";
+import { nicknameProblem } from "@fathom/shared";
 import { api } from "./api";
 
-const KEY = "krillion.nickname";
+const KEY = "fathom.nickname";
 
 export function getNickname(): string | null {
   try {

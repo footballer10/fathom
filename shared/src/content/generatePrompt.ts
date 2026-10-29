@@ -81,7 +81,7 @@ export function buildGeneratePrompt(opts: {
   const schedule = days.map((d, i) => `Reply ${i + 1}: ${d.date}, slots ${d.openSlots.join(", ")}`).join("\n");
   const unlimitedReplies = Math.ceil(opts.unlimitedCount / QUESTIONS_PER_DAY);
 
-  return `You are writing questions for a free trivia game called Krillion Unlimited. Players see an open-ended prompt (like "Name a fruit") and type one valid answer; rarer answers score more.
+  return `You are writing questions for a free trivia game called Fathom. Players see an open-ended prompt (like "Name a fruit") and type one valid answer; rarer answers score more.
 
 I need ${dailyTotal} Daily questions${opts.unlimitedCount ? ` and ${opts.unlimitedCount} extra Unlimited questions` : ""}. A full set won't fit in one reply, so write ONE DAY (up to ${QUESTIONS_PER_DAY} questions) PER REPLY, then stop and wait. When I say "next", continue with the next batch until everything is done.
 
