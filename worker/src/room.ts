@@ -28,7 +28,7 @@ import type {
   UsedAnswer,
 } from "@fathom/shared";
 import type { Env } from "./env";
-import { getIndex, getQuestions, pickRoomQuestions } from "./questions";
+import { getIndex, getQuestions, markRoomSeen, pickRoomQuestions } from "./questions";
 
 /**
  * One party room (Dive or Battle) per 4-letter code.
@@ -430,7 +430,7 @@ export class Room extends DurableObject<Env> {
 
     if (s.kind === "dive") {
       const set = s.settings as DiveSettings;
-      const ids = await pickRoomQuestions(this.env, set.source, set.category, set.questionCount, now);
+      const ids = await pickRoomQuestions(this.env, set.source, set.category, set.questionCount, now, this.roomPlayerIds());
       if (!ids.length) return this.send(ws, { type: "error", message: "No questions available for those settings" });
       s.dive = {
         questionIds: ids,
@@ -455,10 +455,11 @@ export class Room extends DurableObject<Env> {
       return this.send(ws, { type: "error", message: `Battle needs at least ${BATTLE_DEFAULTS.minPlayers} players` });
     }
     const set = s.settings as BattleSettings;
-    const ids = await pickRoomQuestions(this.env, set.source, set.category, 30, now);
+    const ids = await pickRoomQuestions(this.env, set.source, set.category, 30, now, this.roomPlayerIds());
     if (!ids.length) return this.send(ws, { type: "error", message: "No questions available for those settings" });
     for (const p of players) p.lives = set.lives;
     const q = (await getQuestions(this.env, [ids[0]])).get(ids[0])!;
+    await markRoomSeen(this.env, this.roomPlayerIds(), ids[0], now);
     s.battle = {
       questionIds: ids,
       qPos: 0,
@@ -492,6 +493,7 @@ export class Room extends DurableObject<Env> {
     const d = s.dive!;
     const qid = d.questionIds[i];
     const q = (await getQuestions(this.env, [qid])).get(qid)!;
+    await markRoomSeen(this.env, this.roomPlayerIds(), qid, now);
     const timer = (s.settings as DiveSettings).timerSeconds;
     Object.assign(d, {
       index: i,
@@ -731,13 +733,14 @@ export class Room extends DurableObject<Env> {
 
     b.qPos += 1;
     if (b.qPos >= b.questionIds.length) {
-      const more = await pickRoomQuestions(this.env, set.source, set.category, 30, now);
+      const more = await pickRoomQuestions(this.env, set.source, set.category, 30, now, this.roomPlayerIds());
       b.questionIds.push(...more.filter((id) => !b.questionIds.includes(id)));
       if (b.qPos >= b.questionIds.length) b.qPos = 0;
     }
     const qid = b.questionIds[b.qPos];
     const q = (await getQuestions(this.env, [qid])).get(qid)!;
     await getIndex(this.env, qid);
+    await markRoomSeen(this.env, this.roomPlayerIds(), qid, now);
     if (set.speedUp) b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
     Object.assign(b, { prompt: q.prompt, category: q.category, round: b.round + 1, used: [], usedIds: [], accepted: 0, failed: 0, spectatorGuesses: [] });
     s.phase = "rotate";
@@ -765,6 +768,13 @@ export class Room extends DurableObject<Env> {
     if (s.kind === "dive" && s.dive) await this.diveGuess(ws, pid, text, now);
     else if (s.kind === "battle" && s.battle) await this.battleGuess(ws, pid, text, now);
     await this.commit();
+  }
+
+  /** Everyone playing in the room (not spectators), for picking unseen questions. */
+  private roomPlayerIds(): string[] {
+    return Object.values(this.s!.seats)
+      .filter((x) => !x.spectator)
+      .map((x) => x.id);
   }
 
   private gameOver(best: Best) {

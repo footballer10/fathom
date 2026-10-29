@@ -207,19 +207,36 @@ export async function pickRoomQuestions(
   category: Category | undefined,
   count: number,
   now = Date.now(),
+  playerIds: string[] = [],
 ): Promise<string[]> {
   const ids: string[] = source === "daily" ? (await getDailySet(env, today(now))).slice(0, count) : [];
   if (ids.length < count) {
     const [date, todays] = await unlimitedParams(env, now);
     const exclude = JSON.stringify([...JSON.parse(todays), ...ids]);
-    const catClause = source === "category" && category ? " AND category = ?3" : "";
+    const catClause = source === "category" && category ? " AND category = ?4" : "";
+    // Questions fewer people in the room have seen come first, so a group doesn't keep getting
+    // the same prompts (the same "seen" list solo Unlimited uses).
     const stmt = env.DB.prepare(
-      `SELECT id FROM questions WHERE ${UNLIMITED_WHERE}${catClause} ORDER BY RANDOM() LIMIT ${Math.max(1, count - ids.length)}`,
+      `SELECT id FROM questions WHERE ${UNLIMITED_WHERE}${catClause}
+       ORDER BY (SELECT COUNT(*) FROM seen WHERE seen.question_id = questions.id AND seen.player_id IN (SELECT value FROM json_each(?3))), RANDOM()
+       LIMIT ${Math.max(1, count - ids.length)}`,
     );
-    const { results } = await (catClause ? stmt.bind(date, exclude, category) : stmt.bind(date, exclude)).all<{ id: string }>();
+    const players = JSON.stringify(playerIds);
+    const { results } = await (catClause ? stmt.bind(date, exclude, players, category) : stmt.bind(date, exclude, players)).all<{ id: string }>();
     ids.push(...results.map((r) => r.id));
   }
   return ids;
+}
+
+/** Remember that everyone in a room has now seen a question. */
+export async function markRoomSeen(env: Env, playerIds: string[], questionId: string, now = Date.now()) {
+  if (!playerIds.length) return;
+  await env.DB.batch(
+    playerIds.flatMap((pid) => [
+      env.DB.prepare("INSERT OR IGNORE INTO players (id, created_at) VALUES (?, ?)").bind(pid, now),
+      env.DB.prepare("INSERT OR REPLACE INTO seen (player_id, question_id, seen_at) VALUES (?, ?, ?)").bind(pid, questionId, now),
+    ]),
+  );
 }
 
 let launchDay: string | null = null;

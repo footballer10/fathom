@@ -32,7 +32,8 @@
     "remove": "tsx scripts/remove.ts",
     "sim:dive": "tsx scripts/sim/dive.ts",
     "sim:battle": "tsx scripts/sim/battle.ts",
-    "sim": "tsx scripts/sim/dive.ts && tsx scripts/sim/battle.ts"
+    "sim": "tsx scripts/sim/dive.ts && tsx scripts/sim/battle.ts && tsx scripts/sim/repeats.ts",
+    "sim:repeats": "tsx scripts/sim/repeats.ts"
   },
   "devDependencies": {
     "@types/ws": "^8.18.2",

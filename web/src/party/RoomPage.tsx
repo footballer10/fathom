@@ -494,10 +494,10 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
         )}
       </div>
       {answers.length > 0 && (
-        <details className="answers-details" open>
-          <summary>All {answers.length} valid answers</summary>
-          <RevealPanel reveal={{ index: d.index, prompt: d.prompt, answers, playerAnswerId: null }} compact />
-        </details>
+        <div className="answers-details">
+          <h3 className="answers-heading">All {answers.length} valid answers</h3>
+          <RevealPanel reveal={{ index: d.index, prompt: d.prompt, answers, playerAnswerId: null }} />
+        </div>
       )}
     </div>
   );
