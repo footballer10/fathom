@@ -1,0 +1,9876 @@
+[
+  {
+    "id": "q0131",
+    "prompt": "Name a famous landmark or monument",
+    "category": "history",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Moai",
+        "aliases": [
+          "easter island heads",
+          "easter island statues"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Eiffel Tower",
+        "tier": 10
+      },
+      {
+        "text": "Statue of Liberty",
+        "tier": 10
+      },
+      {
+        "text": "Great Wall of China",
+        "aliases": [
+          "great wall"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pyramids of Giza",
+        "aliases": [
+          "pyramids",
+          "great pyramid"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Taj Mahal",
+        "tier": 10
+      },
+      {
+        "text": "Colosseum",
+        "aliases": [
+          "coliseum"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Big Ben",
+        "tier": 10
+      },
+      {
+        "text": "Mount Rushmore",
+        "tier": 10
+      },
+      {
+        "text": "Hollywood sign",
+        "tier": 15
+      },
+      {
+        "text": "Cadillac Ranch",
+        "tier": 15
+      },
+      {
+        "text": "Carhenge",
+        "tier": 15
+      },
+      {
+        "text": "Stonehenge",
+        "tier": 30
+      },
+      {
+        "text": "Leaning Tower of Pisa",
+        "aliases": [
+          "tower of pisa"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Golden Gate Bridge",
+        "tier": 30
+      },
+      {
+        "text": "Machu Picchu",
+        "tier": 30
+      },
+      {
+        "text": "Christ the Redeemer",
+        "tier": 30
+      },
+      {
+        "text": "Sydney Opera House",
+        "tier": 30
+      },
+      {
+        "text": "Empire State Building",
+        "tier": 30
+      },
+      {
+        "text": "White House",
+        "tier": 30
+      },
+      {
+        "text": "Lincoln Memorial",
+        "tier": 30
+      },
+      {
+        "text": "Washington Monument",
+        "tier": 30
+      },
+      {
+        "text": "Space Needle",
+        "tier": 30
+      },
+      {
+        "text": "Gateway Arch",
+        "aliases": [
+          "st louis arch"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Arc de Triomphe",
+        "tier": 30
+      },
+      {
+        "text": "Notre-Dame",
+        "aliases": [
+          "notre dame"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Louvre",
+        "tier": 30
+      },
+      {
+        "text": "Parthenon",
+        "aliases": [
+          "acropolis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Petra",
+        "tier": 30
+      },
+      {
+        "text": "Chichen Itza",
+        "tier": 30
+      },
+      {
+        "text": "Angkor Wat",
+        "tier": 30
+      },
+      {
+        "text": "Burj Khalifa",
+        "tier": 30
+      },
+      {
+        "text": "Kremlin",
+        "tier": 30
+      },
+      {
+        "text": "St. Basil's Cathedral",
+        "tier": 30
+      },
+      {
+        "text": "Buckingham Palace",
+        "tier": 30
+      },
+      {
+        "text": "Tower of London",
+        "tier": 30
+      },
+      {
+        "text": "Tower Bridge",
+        "tier": 30
+      },
+      {
+        "text": "London Eye",
+        "tier": 30
+      },
+      {
+        "text": "Sagrada Familia",
+        "tier": 30
+      },
+      {
+        "text": "Brandenburg Gate",
+        "tier": 30
+      },
+      {
+        "text": "Neuschwanstein Castle",
+        "tier": 30
+      },
+      {
+        "text": "Vatican",
+        "aliases": [
+          "st peter's basilica"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sistine Chapel",
+        "tier": 30
+      },
+      {
+        "text": "Trevi Fountain",
+        "tier": 30
+      },
+      {
+        "text": "Pantheon",
+        "tier": 30
+      },
+      {
+        "text": "Alamo",
+        "tier": 30
+      },
+      {
+        "text": "Liberty Bell",
+        "tier": 30
+      },
+      {
+        "text": "Hoover Dam",
+        "tier": 30
+      },
+      {
+        "text": "Brooklyn Bridge",
+        "tier": 30
+      },
+      {
+        "text": "Capitol",
+        "aliases": [
+          "us capitol"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sphinx",
+        "aliases": [
+          "great sphinx"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Forbidden City",
+        "tier": 30
+      },
+      {
+        "text": "CN Tower",
+        "tier": 30
+      },
+      {
+        "text": "Golden Temple",
+        "tier": 30
+      },
+      {
+        "text": "Alhambra",
+        "tier": 60
+      },
+      {
+        "text": "Mont-Saint-Michel",
+        "aliases": [
+          "mont saint michel"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Palace of Versailles",
+        "aliases": [
+          "versailles"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Westminster Abbey",
+        "tier": 60
+      },
+      {
+        "text": "Edinburgh Castle",
+        "tier": 60
+      },
+      {
+        "text": "Giant's Causeway",
+        "tier": 60
+      },
+      {
+        "text": "Blarney Castle",
+        "tier": 60
+      },
+      {
+        "text": "Windsor Castle",
+        "tier": 60
+      },
+      {
+        "text": "Hadrian's Wall",
+        "tier": 60
+      },
+      {
+        "text": "Atomium",
+        "tier": 60
+      },
+      {
+        "text": "Little Mermaid statue",
+        "tier": 60
+      },
+      {
+        "text": "Manneken Pis",
+        "tier": 60
+      },
+      {
+        "text": "Anne Frank House",
+        "tier": 60
+      },
+      {
+        "text": "Rijksmuseum",
+        "tier": 60
+      },
+      {
+        "text": "Cologne Cathedral",
+        "tier": 60
+      },
+      {
+        "text": "Berlin Wall",
+        "tier": 60
+      },
+      {
+        "text": "Charles Bridge",
+        "tier": 60
+      },
+      {
+        "text": "Hagia Sophia",
+        "tier": 60
+      },
+      {
+        "text": "Blue Mosque",
+        "tier": 60
+      },
+      {
+        "text": "Topkapi Palace",
+        "tier": 60
+      },
+      {
+        "text": "Meteora",
+        "tier": 60
+      },
+      {
+        "text": "Delphi",
+        "tier": 60
+      },
+      {
+        "text": "Knossos",
+        "tier": 60
+      },
+      {
+        "text": "Pompeii",
+        "tier": 60
+      },
+      {
+        "text": "Florence Cathedral",
+        "aliases": [
+          "duomo"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ponte Vecchio",
+        "tier": 60
+      },
+      {
+        "text": "St. Mark's Basilica",
+        "tier": 60
+      },
+      {
+        "text": "Rialto Bridge",
+        "tier": 60
+      },
+      {
+        "text": "Doge's Palace",
+        "tier": 60
+      },
+      {
+        "text": "Uffizi",
+        "tier": 60
+      },
+      {
+        "text": "Milan Cathedral",
+        "tier": 60
+      },
+      {
+        "text": "Schonbrunn Palace",
+        "tier": 60
+      },
+      {
+        "text": "Hermitage",
+        "tier": 60
+      },
+      {
+        "text": "Peterhof",
+        "tier": 60
+      },
+      {
+        "text": "Burj Al Arab",
+        "tier": 60
+      },
+      {
+        "text": "Sheikh Zayed Grand Mosque",
+        "tier": 60
+      },
+      {
+        "text": "Dome of the Rock",
+        "tier": 60
+      },
+      {
+        "text": "Western Wall",
+        "aliases": [
+          "wailing wall"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Church of the Holy Sepulchre",
+        "tier": 60
+      },
+      {
+        "text": "Masada",
+        "tier": 60
+      },
+      {
+        "text": "Valley of the Kings",
+        "tier": 60
+      },
+      {
+        "text": "Abu Simbel",
+        "tier": 60
+      },
+      {
+        "text": "Karnak",
+        "tier": 60
+      },
+      {
+        "text": "Luxor Temple",
+        "tier": 60
+      },
+      {
+        "text": "Great Mosque of Djenne",
+        "tier": 60
+      },
+      {
+        "text": "Robben Island",
+        "tier": 60
+      },
+      {
+        "text": "Petronas Towers",
+        "tier": 60
+      },
+      {
+        "text": "Marina Bay Sands",
+        "tier": 60
+      },
+      {
+        "text": "Merlion",
+        "tier": 60
+      },
+      {
+        "text": "Gardens by the Bay",
+        "tier": 60
+      },
+      {
+        "text": "Borobudur",
+        "tier": 60
+      },
+      {
+        "text": "Prambanan",
+        "tier": 60
+      },
+      {
+        "text": "Bagan",
+        "tier": 60
+      },
+      {
+        "text": "Shwedagon Pagoda",
+        "tier": 60
+      },
+      {
+        "text": "Grand Palace",
+        "tier": 60
+      },
+      {
+        "text": "Wat Arun",
+        "tier": 60
+      },
+      {
+        "text": "Terracotta Army",
+        "aliases": [
+          "terracotta warriors"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Potala Palace",
+        "tier": 60
+      },
+      {
+        "text": "Temple of Heaven",
+        "tier": 60
+      },
+      {
+        "text": "Summer Palace",
+        "tier": 60
+      },
+      {
+        "text": "The Bund",
+        "tier": 60
+      },
+      {
+        "text": "Oriental Pearl Tower",
+        "tier": 60
+      },
+      {
+        "text": "Victoria Peak",
+        "tier": 60
+      },
+      {
+        "text": "Tokyo Tower",
+        "tier": 60
+      },
+      {
+        "text": "Tokyo Skytree",
+        "tier": 60
+      },
+      {
+        "text": "Fushimi Inari",
+        "tier": 60
+      },
+      {
+        "text": "Kinkaku-ji",
+        "aliases": [
+          "golden pavilion"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Itsukushima Shrine",
+        "tier": 60
+      },
+      {
+        "text": "Himeji Castle",
+        "tier": 60
+      },
+      {
+        "text": "Hiroshima Peace Memorial",
+        "aliases": [
+          "atomic bomb dome"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gyeongbokgung",
+        "tier": 60
+      },
+      {
+        "text": "Taipei 101",
+        "tier": 60
+      },
+      {
+        "text": "Lotus Temple",
+        "tier": 60
+      },
+      {
+        "text": "Qutub Minar",
+        "tier": 60
+      },
+      {
+        "text": "Gateway of India",
+        "tier": 60
+      },
+      {
+        "text": "Red Fort",
+        "tier": 60
+      },
+      {
+        "text": "Hawa Mahal",
+        "tier": 60
+      },
+      {
+        "text": "Amber Fort",
+        "tier": 60
+      },
+      {
+        "text": "Mysore Palace",
+        "tier": 60
+      },
+      {
+        "text": "Sigiriya",
+        "tier": 60
+      },
+      {
+        "text": "Harbour Bridge",
+        "aliases": [
+          "sydney harbour bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Teotihuacan",
+        "tier": 60
+      },
+      {
+        "text": "Tikal",
+        "tier": 60
+      },
+      {
+        "text": "Palenque",
+        "tier": 60
+      },
+      {
+        "text": "Christ of the Andes",
+        "tier": 60
+      },
+      {
+        "text": "Nazca Lines",
+        "tier": 60
+      },
+      {
+        "text": "Panama Canal",
+        "tier": 60
+      },
+      {
+        "text": "Alcatraz",
+        "tier": 60
+      },
+      {
+        "text": "Hollywood Walk of Fame",
+        "tier": 60
+      },
+      {
+        "text": "Griffith Observatory",
+        "tier": 60
+      },
+      {
+        "text": "Vietnam Veterans Memorial",
+        "tier": 60
+      },
+      {
+        "text": "Jefferson Memorial",
+        "tier": 60
+      },
+      {
+        "text": "Martin Luther King Jr. Memorial",
+        "tier": 60
+      },
+      {
+        "text": "Arlington National Cemetery",
+        "tier": 60
+      },
+      {
+        "text": "Independence Hall",
+        "tier": 60
+      },
+      {
+        "text": "Plymouth Rock",
+        "tier": 60
+      },
+      {
+        "text": "Willis Tower",
+        "aliases": [
+          "sears tower"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cloud Gate",
+        "aliases": [
+          "the bean"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chrysler Building",
+        "tier": 60
+      },
+      {
+        "text": "One World Trade Center",
+        "aliases": [
+          "freedom tower"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "9/11 Memorial",
+        "tier": 60
+      },
+      {
+        "text": "Rockefeller Center",
+        "tier": 60
+      },
+      {
+        "text": "Flatiron Building",
+        "tier": 60
+      },
+      {
+        "text": "Grand Central Terminal",
+        "tier": 60
+      },
+      {
+        "text": "Ellis Island",
+        "tier": 60
+      },
+      {
+        "text": "Crazy Horse Memorial",
+        "tier": 60
+      },
+      {
+        "text": "Corn Palace",
+        "tier": 60
+      },
+      {
+        "text": "Paul Bunyan statue",
+        "tier": 60
+      },
+      {
+        "text": "Göbekli Tepe",
+        "aliases": [
+          "gobekli tepe"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Skara Brae",
+        "tier": 85
+      },
+      {
+        "text": "Newgrange",
+        "tier": 85
+      },
+      {
+        "text": "Carnac stones",
+        "tier": 85
+      },
+      {
+        "text": "Avebury",
+        "tier": 85
+      },
+      {
+        "text": "Callanish Stones",
+        "tier": 85
+      },
+      {
+        "text": "Ring of Brodgar",
+        "tier": 85
+      },
+      {
+        "text": "Silbury Hill",
+        "tier": 85
+      },
+      {
+        "text": "Uffington White Horse",
+        "tier": 85
+      },
+      {
+        "text": "Cerne Abbas Giant",
+        "tier": 85
+      },
+      {
+        "text": "Long Man of Wilmington",
+        "tier": 85
+      },
+      {
+        "text": "Ggantija",
+        "tier": 85
+      },
+      {
+        "text": "Hal Saflieni Hypogeum",
+        "tier": 85
+      },
+      {
+        "text": "Lascaux",
+        "tier": 85
+      },
+      {
+        "text": "Altamira",
+        "tier": 85
+      },
+      {
+        "text": "Chauvet Cave",
+        "tier": 85
+      },
+      {
+        "text": "Mohenjo-daro",
+        "tier": 85
+      },
+      {
+        "text": "Persepolis",
+        "tier": 85
+      },
+      {
+        "text": "Ziggurat of Ur",
+        "tier": 85
+      },
+      {
+        "text": "Babylon",
+        "tier": 85
+      },
+      {
+        "text": "Ishtar Gate",
+        "tier": 85
+      },
+      {
+        "text": "Nineveh",
+        "tier": 85
+      },
+      {
+        "text": "Palmyra",
+        "tier": 85
+      },
+      {
+        "text": "Baalbek",
+        "tier": 85
+      },
+      {
+        "text": "Jerash",
+        "tier": 85
+      },
+      {
+        "text": "Great Zimbabwe",
+        "tier": 85
+      },
+      {
+        "text": "Lalibela",
+        "tier": 85
+      },
+      {
+        "text": "Aksum obelisk",
+        "tier": 85
+      },
+      {
+        "text": "Timbuktu",
+        "tier": 85
+      },
+      {
+        "text": "Leptis Magna",
+        "tier": 85
+      },
+      {
+        "text": "Carthage",
+        "tier": 85
+      },
+      {
+        "text": "Volubilis",
+        "tier": 85
+      },
+      {
+        "text": "Djemaa el-Fna",
+        "tier": 85
+      },
+      {
+        "text": "Hassan II Mosque",
+        "tier": 85
+      },
+      {
+        "text": "Kairouan",
+        "tier": 85
+      },
+      {
+        "text": "Mount Nemrut",
+        "tier": 85
+      },
+      {
+        "text": "Ephesus",
+        "tier": 85
+      },
+      {
+        "text": "Troy",
+        "tier": 85
+      },
+      {
+        "text": "Pergamon",
+        "tier": 85
+      },
+      {
+        "text": "Hierapolis",
+        "tier": 85
+      },
+      {
+        "text": "Sumela Monastery",
+        "tier": 85
+      },
+      {
+        "text": "Rila Monastery",
+        "tier": 85
+      },
+      {
+        "text": "Bran Castle",
+        "tier": 85
+      },
+      {
+        "text": "Corvin Castle",
+        "tier": 85
+      },
+      {
+        "text": "Peles Castle",
+        "tier": 85
+      },
+      {
+        "text": "Wawel Castle",
+        "tier": 85
+      },
+      {
+        "text": "Malbork Castle",
+        "tier": 85
+      },
+      {
+        "text": "Wieliczka Salt Mine",
+        "tier": 85
+      },
+      {
+        "text": "Auschwitz",
+        "tier": 85
+      },
+      {
+        "text": "Hallgrimskirkja",
+        "tier": 85
+      },
+      {
+        "text": "Nidaros Cathedral",
+        "tier": 85
+      },
+      {
+        "text": "Stave church",
+        "tier": 85
+      },
+      {
+        "text": "Kronborg Castle",
+        "tier": 85
+      },
+      {
+        "text": "Tivoli Gardens",
+        "tier": 85
+      },
+      {
+        "text": "Vasa Museum",
+        "tier": 85
+      },
+      {
+        "text": "Drottningholm",
+        "tier": 85
+      },
+      {
+        "text": "Suomenlinna",
+        "tier": 85
+      },
+      {
+        "text": "Kizhi Pogost",
+        "tier": 85
+      },
+      {
+        "text": "Motherland Calls",
+        "tier": 85
+      },
+      {
+        "text": "Mamayev Kurgan",
+        "tier": 85
+      },
+      {
+        "text": "Derinkuyu",
+        "tier": 85
+      },
+      {
+        "text": "Ani ruins",
+        "tier": 85
+      },
+      {
+        "text": "Geghard",
+        "tier": 85
+      },
+      {
+        "text": "Tatev Monastery",
+        "tier": 85
+      },
+      {
+        "text": "Gergeti Trinity Church",
+        "tier": 85
+      },
+      {
+        "text": "Registan",
+        "tier": 85
+      },
+      {
+        "text": "Shah-i-Zinda",
+        "tier": 85
+      },
+      {
+        "text": "Bukhara Ark",
+        "tier": 85
+      },
+      {
+        "text": "Minaret of Jam",
+        "tier": 85
+      },
+      {
+        "text": "Bamiyan Buddhas",
+        "tier": 85
+      },
+      {
+        "text": "Sanchi Stupa",
+        "tier": 85
+      },
+      {
+        "text": "Ajanta Caves",
+        "tier": 85
+      },
+      {
+        "text": "Ellora Caves",
+        "tier": 85
+      },
+      {
+        "text": "Konark Sun Temple",
+        "tier": 85
+      },
+      {
+        "text": "Khajuraho",
+        "tier": 85
+      },
+      {
+        "text": "Hampi",
+        "tier": 85
+      },
+      {
+        "text": "Meenakshi Temple",
+        "tier": 85
+      },
+      {
+        "text": "Brihadeeswarar Temple",
+        "tier": 85
+      },
+      {
+        "text": "Paro Taktsang",
+        "aliases": [
+          "tiger's nest"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Boudhanath",
+        "tier": 85
+      },
+      {
+        "text": "Swayambhunath",
+        "tier": 85
+      },
+      {
+        "text": "Leshan Giant Buddha",
+        "tier": 85
+      },
+      {
+        "text": "Mogao Caves",
+        "tier": 85
+      },
+      {
+        "text": "Hanging Temple",
+        "tier": 85
+      },
+      {
+        "text": "Yungang Grottoes",
+        "tier": 85
+      },
+      {
+        "text": "Longmen Grottoes",
+        "tier": 85
+      },
+      {
+        "text": "Jiayuguan",
+        "tier": 85
+      },
+      {
+        "text": "Tulou",
+        "tier": 85
+      },
+      {
+        "text": "Mausoleum of Qin Shi Huang",
+        "tier": 85
+      },
+      {
+        "text": "Todai-ji",
+        "tier": 85
+      },
+      {
+        "text": "Kiyomizu-dera",
+        "tier": 85
+      },
+      {
+        "text": "Ryoan-ji",
+        "tier": 85
+      },
+      {
+        "text": "Nikko Toshogu",
+        "tier": 85
+      },
+      {
+        "text": "Bulguksa",
+        "tier": 85
+      },
+      {
+        "text": "Seokguram",
+        "tier": 85
+      },
+      {
+        "text": "Hwaseong Fortress",
+        "tier": 85
+      },
+      {
+        "text": "Ta Prohm",
+        "tier": 85
+      },
+      {
+        "text": "Bayon",
+        "tier": 85
+      },
+      {
+        "text": "Preah Vihear",
+        "tier": 85
+      },
+      {
+        "text": "My Son Sanctuary",
+        "tier": 85
+      },
+      {
+        "text": "Hue Imperial City",
+        "tier": 85
+      },
+      {
+        "text": "Rice Terraces of Banaue",
+        "aliases": [
+          "banaue rice terraces"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wat Phra Kaew",
+        "tier": 85
+      },
+      {
+        "text": "Ayutthaya",
+        "tier": 85
+      },
+      {
+        "text": "Sukhothai",
+        "tier": 85
+      },
+      {
+        "text": "Plain of Jars",
+        "tier": 85
+      },
+      {
+        "text": "Tanah Lot",
+        "tier": 85
+      },
+      {
+        "text": "Uluwatu",
+        "tier": 85
+      },
+      {
+        "text": "Nan Madol",
+        "tier": 85
+      },
+      {
+        "text": "Sky Tower",
+        "tier": 85
+      },
+      {
+        "text": "Cahokia",
+        "tier": 85
+      },
+      {
+        "text": "Mesa Verde",
+        "tier": 85
+      },
+      {
+        "text": "Chaco Canyon",
+        "tier": 85
+      },
+      {
+        "text": "Serpent Mound",
+        "tier": 85
+      },
+      {
+        "text": "Taos Pueblo",
+        "tier": 85
+      },
+      {
+        "text": "Spiro Mounds",
+        "tier": 85
+      },
+      {
+        "text": "Poverty Point",
+        "tier": 85
+      },
+      {
+        "text": "Mission San Juan Capistrano",
+        "tier": 85
+      },
+      {
+        "text": "Hearst Castle",
+        "tier": 85
+      },
+      {
+        "text": "Biltmore Estate",
+        "tier": 85
+      },
+      {
+        "text": "Monticello",
+        "tier": 85
+      },
+      {
+        "text": "Mount Vernon",
+        "tier": 85
+      },
+      {
+        "text": "Fort Sumter",
+        "tier": 85
+      },
+      {
+        "text": "Gettysburg",
+        "tier": 85
+      },
+      {
+        "text": "Pearl Harbor",
+        "tier": 85
+      },
+      {
+        "text": "USS Arizona Memorial",
+        "tier": 85
+      },
+      {
+        "text": "Iolani Palace",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "My house",
+      "McDonald's",
+      "Walmart",
+      "Hogwarts",
+      "Narnia",
+      "Atlantis"
+    ]
+  },
+  {
+    "id": "q0132",
+    "prompt": "Name a war",
+    "category": "history",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "War of Jenkins' Ear",
+        "aliases": [
+          "war of jenkins ear"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "World War II",
+        "aliases": [
+          "world war 2",
+          "ww2",
+          "wwii",
+          "second world war"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "World War I",
+        "aliases": [
+          "world war 1",
+          "ww1",
+          "wwi",
+          "first world war",
+          "great war"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Civil War",
+        "aliases": [
+          "american civil war"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Vietnam War",
+        "aliases": [
+          "vietnam"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Revolutionary War",
+        "aliases": [
+          "american revolution",
+          "war of independence"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Korean War",
+        "aliases": [
+          "korea"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Cold War",
+        "tier": 10
+      },
+      {
+        "text": "Emu War",
+        "tier": 15
+      },
+      {
+        "text": "Pig War",
+        "tier": 15
+      },
+      {
+        "text": "Pastry War",
+        "tier": 15
+      },
+      {
+        "text": "War of 1812",
+        "tier": 30
+      },
+      {
+        "text": "Gulf War",
+        "aliases": [
+          "persian gulf war",
+          "desert storm"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Iraq War",
+        "tier": 30
+      },
+      {
+        "text": "War in Afghanistan",
+        "aliases": [
+          "afghanistan war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mexican-American War",
+        "aliases": [
+          "mexican american war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Spanish-American War",
+        "aliases": [
+          "spanish american war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "French and Indian War",
+        "tier": 30
+      },
+      {
+        "text": "Hundred Years' War",
+        "aliases": [
+          "hundred years war",
+          "100 years war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Napoleonic Wars",
+        "tier": 30
+      },
+      {
+        "text": "Trojan War",
+        "tier": 30
+      },
+      {
+        "text": "Peloponnesian War",
+        "tier": 30
+      },
+      {
+        "text": "Punic Wars",
+        "tier": 30
+      },
+      {
+        "text": "Crusades",
+        "tier": 30
+      },
+      {
+        "text": "Wars of the Roses",
+        "aliases": [
+          "war of the roses"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Thirty Years' War",
+        "aliases": [
+          "thirty years war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Seven Years' War",
+        "aliases": [
+          "seven years war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Crimean War",
+        "tier": 30
+      },
+      {
+        "text": "Boer War",
+        "tier": 30
+      },
+      {
+        "text": "Russian Civil War",
+        "tier": 30
+      },
+      {
+        "text": "Spanish Civil War",
+        "tier": 30
+      },
+      {
+        "text": "Falklands War",
+        "tier": 30
+      },
+      {
+        "text": "Six-Day War",
+        "aliases": [
+          "six day war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Yom Kippur War",
+        "tier": 30
+      },
+      {
+        "text": "Bosnian War",
+        "tier": 30
+      },
+      {
+        "text": "Kosovo War",
+        "tier": 30
+      },
+      {
+        "text": "Russia-Ukraine war",
+        "aliases": [
+          "ukraine war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Opium Wars",
+        "aliases": [
+          "opium war"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Indian Wars",
+        "tier": 30
+      },
+      {
+        "text": "Persian Wars",
+        "aliases": [
+          "greco-persian wars"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "English Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Irish War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Mexican Revolution",
+        "tier": 60
+      },
+      {
+        "text": "Haitian Revolution",
+        "tier": 60
+      },
+      {
+        "text": "Texas Revolution",
+        "tier": 60
+      },
+      {
+        "text": "Black Hawk War",
+        "tier": 60
+      },
+      {
+        "text": "Seminole Wars",
+        "tier": 60
+      },
+      {
+        "text": "King Philip's War",
+        "tier": 60
+      },
+      {
+        "text": "Pequot War",
+        "tier": 60
+      },
+      {
+        "text": "Queen Anne's War",
+        "tier": 60
+      },
+      {
+        "text": "King William's War",
+        "tier": 60
+      },
+      {
+        "text": "Pontiac's War",
+        "tier": 60
+      },
+      {
+        "text": "Barbary Wars",
+        "tier": 60
+      },
+      {
+        "text": "Quasi-War",
+        "tier": 60
+      },
+      {
+        "text": "Philippine-American War",
+        "tier": 60
+      },
+      {
+        "text": "Banana Wars",
+        "tier": 60
+      },
+      {
+        "text": "Boxer Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Taiping Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Sino-Japanese War",
+        "tier": 60
+      },
+      {
+        "text": "Russo-Japanese War",
+        "tier": 60
+      },
+      {
+        "text": "Russo-Turkish War",
+        "tier": 60
+      },
+      {
+        "text": "Franco-Prussian War",
+        "tier": 60
+      },
+      {
+        "text": "Austro-Prussian War",
+        "tier": 60
+      },
+      {
+        "text": "Wars of Italian Unification",
+        "tier": 60
+      },
+      {
+        "text": "Balkan Wars",
+        "tier": 60
+      },
+      {
+        "text": "Greco-Turkish War",
+        "tier": 60
+      },
+      {
+        "text": "Turkish War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Winter War",
+        "tier": 60
+      },
+      {
+        "text": "Continuation War",
+        "tier": 60
+      },
+      {
+        "text": "Chinese Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Greek Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Indochina War",
+        "aliases": [
+          "first indochina war"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Algerian War",
+        "tier": 60
+      },
+      {
+        "text": "Iran-Iraq War",
+        "tier": 60
+      },
+      {
+        "text": "Soviet-Afghan War",
+        "tier": 60
+      },
+      {
+        "text": "Lebanese Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Nicaraguan Revolution",
+        "tier": 60
+      },
+      {
+        "text": "Salvadoran Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Angolan Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Mozambican Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Nigerian Civil War",
+        "aliases": [
+          "biafran war"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rwandan Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Congo Wars",
+        "aliases": [
+          "second congo war"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sierra Leone Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Liberian Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Somali Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Sudanese Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Eritrean War of Independence",
+        "tier": 60
+      },
+      {
+        "text": "Ethiopian-Eritrean War",
+        "tier": 60
+      },
+      {
+        "text": "Sri Lankan Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Bangladesh Liberation War",
+        "tier": 60
+      },
+      {
+        "text": "Indo-Pakistani War",
+        "tier": 60
+      },
+      {
+        "text": "Kargil War",
+        "tier": 60
+      },
+      {
+        "text": "Chechen War",
+        "tier": 60
+      },
+      {
+        "text": "Russo-Georgian War",
+        "tier": 60
+      },
+      {
+        "text": "Syrian Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Yemeni Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Libyan Civil War",
+        "tier": 60
+      },
+      {
+        "text": "War on Terror",
+        "tier": 60
+      },
+      {
+        "text": "Gallic Wars",
+        "tier": 60
+      },
+      {
+        "text": "Roman Civil War",
+        "tier": 60
+      },
+      {
+        "text": "Jewish-Roman War",
+        "tier": 60
+      },
+      {
+        "text": "Samnite Wars",
+        "tier": 60
+      },
+      {
+        "text": "Macedonian Wars",
+        "tier": 60
+      },
+      {
+        "text": "Mithridatic Wars",
+        "tier": 60
+      },
+      {
+        "text": "Byzantine-Sassanid War",
+        "tier": 60
+      },
+      {
+        "text": "Reconquista",
+        "tier": 60
+      },
+      {
+        "text": "War of the Spanish Succession",
+        "tier": 60
+      },
+      {
+        "text": "War of the Austrian Succession",
+        "tier": 60
+      },
+      {
+        "text": "Great Northern War",
+        "tier": 60
+      },
+      {
+        "text": "Nine Years' War",
+        "tier": 60
+      },
+      {
+        "text": "Eighty Years' War",
+        "tier": 60
+      },
+      {
+        "text": "Italian Wars",
+        "tier": 60
+      },
+      {
+        "text": "French Wars of Religion",
+        "tier": 60
+      },
+      {
+        "text": "Schmalkaldic War",
+        "tier": 60
+      },
+      {
+        "text": "Hussite Wars",
+        "tier": 60
+      },
+      {
+        "text": "Albigensian Crusade",
+        "tier": 60
+      },
+      {
+        "text": "War of the Pacific",
+        "tier": 60
+      },
+      {
+        "text": "Paraguayan War",
+        "aliases": [
+          "war of the triple alliance"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chaco War",
+        "tier": 60
+      },
+      {
+        "text": "Football War",
+        "tier": 60
+      },
+      {
+        "text": "Toledo War",
+        "tier": 60
+      },
+      {
+        "text": "Aroostook War",
+        "tier": 60
+      },
+      {
+        "text": "Anglo-Zanzibar War",
+        "tier": 60
+      },
+      {
+        "text": "Cod Wars",
+        "tier": 60
+      },
+      {
+        "text": "Whiskey Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Shays' Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Bacon's Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Nat Turner's Rebellion",
+        "tier": 60
+      },
+      {
+        "text": "Mormon War",
+        "tier": 60
+      },
+      {
+        "text": "Utah War",
+        "tier": 60
+      },
+      {
+        "text": "Johnson County War",
+        "tier": 60
+      },
+      {
+        "text": "Lincoln County War",
+        "tier": 60
+      },
+      {
+        "text": "Red River War",
+        "tier": 60
+      },
+      {
+        "text": "Great Sioux War",
+        "tier": 60
+      },
+      {
+        "text": "Nez Perce War",
+        "tier": 60
+      },
+      {
+        "text": "Apache Wars",
+        "tier": 60
+      },
+      {
+        "text": "Modoc War",
+        "tier": 60
+      },
+      {
+        "text": "Ghost Dance War",
+        "tier": 60
+      },
+      {
+        "text": "War of the Bavarian Succession",
+        "aliases": [
+          "potato war"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "War of the Polish Succession",
+        "tier": 85
+      },
+      {
+        "text": "War of the Quadruple Alliance",
+        "tier": 85
+      },
+      {
+        "text": "War of the Grand Alliance",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Dutch Wars",
+        "tier": 85
+      },
+      {
+        "text": "Dutch-Portuguese War",
+        "tier": 85
+      },
+      {
+        "text": "Kalmar War",
+        "tier": 85
+      },
+      {
+        "text": "Torstenson War",
+        "tier": 85
+      },
+      {
+        "text": "Scanian War",
+        "tier": 85
+      },
+      {
+        "text": "Livonian War",
+        "tier": 85
+      },
+      {
+        "text": "Polish-Muscovite War",
+        "tier": 85
+      },
+      {
+        "text": "Russo-Persian War",
+        "tier": 85
+      },
+      {
+        "text": "Russo-Swedish War",
+        "tier": 85
+      },
+      {
+        "text": "Ottoman-Habsburg wars",
+        "tier": 85
+      },
+      {
+        "text": "Long Turkish War",
+        "tier": 85
+      },
+      {
+        "text": "Great Turkish War",
+        "tier": 85
+      },
+      {
+        "text": "Cretan War",
+        "tier": 85
+      },
+      {
+        "text": "Morean War",
+        "tier": 85
+      },
+      {
+        "text": "War of Candia",
+        "tier": 85
+      },
+      {
+        "text": "Ottoman-Venetian War",
+        "tier": 85
+      },
+      {
+        "text": "Mughal-Maratha Wars",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Mysore Wars",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Maratha Wars",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Sikh Wars",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Afghan Wars",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Burmese Wars",
+        "tier": 85
+      },
+      {
+        "text": "Anglo-Zulu War",
+        "aliases": [
+          "zulu war"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Xhosa Wars",
+        "tier": 85
+      },
+      {
+        "text": "Ashanti Wars",
+        "tier": 85
+      },
+      {
+        "text": "Mahdist War",
+        "tier": 85
+      },
+      {
+        "text": "Herero Wars",
+        "tier": 85
+      },
+      {
+        "text": "Maji Maji Rebellion",
+        "tier": 85
+      },
+      {
+        "text": "Rif War",
+        "tier": 85
+      },
+      {
+        "text": "Italo-Ethiopian War",
+        "tier": 85
+      },
+      {
+        "text": "Italo-Turkish War",
+        "tier": 85
+      },
+      {
+        "text": "Greco-Italian War",
+        "tier": 85
+      },
+      {
+        "text": "Soviet-Japanese War",
+        "tier": 85
+      },
+      {
+        "text": "Sino-Indian War",
+        "tier": 85
+      },
+      {
+        "text": "Sino-Vietnamese War",
+        "tier": 85
+      },
+      {
+        "text": "Cambodian-Vietnamese War",
+        "tier": 85
+      },
+      {
+        "text": "Laotian Civil War",
+        "tier": 85
+      },
+      {
+        "text": "Mau Mau Uprising",
+        "tier": 85
+      },
+      {
+        "text": "Indonesian War of Independence",
+        "tier": 85
+      },
+      {
+        "text": "Konfrontasi",
+        "tier": 85
+      },
+      {
+        "text": "Dhofar Rebellion",
+        "tier": 85
+      },
+      {
+        "text": "North Yemen Civil War",
+        "tier": 85
+      },
+      {
+        "text": "Western Sahara War",
+        "tier": 85
+      },
+      {
+        "text": "Ogaden War",
+        "tier": 85
+      },
+      {
+        "text": "Uganda-Tanzania War",
+        "tier": 85
+      },
+      {
+        "text": "Toyota War",
+        "tier": 85
+      },
+      {
+        "text": "Cenepa War",
+        "tier": 85
+      },
+      {
+        "text": "Paquisha War",
+        "tier": 85
+      },
+      {
+        "text": "Nagorno-Karabakh War",
+        "tier": 85
+      },
+      {
+        "text": "Transnistria War",
+        "tier": 85
+      },
+      {
+        "text": "Croatian War of Independence",
+        "tier": 85
+      },
+      {
+        "text": "Ten-Day War",
+        "tier": 85
+      },
+      {
+        "text": "Abkhazian War",
+        "tier": 85
+      },
+      {
+        "text": "Tajik Civil War",
+        "tier": 85
+      },
+      {
+        "text": "War of the Golden Stool",
+        "tier": 85
+      },
+      {
+        "text": "War of the Three Kingdoms",
+        "tier": 85
+      },
+      {
+        "text": "War of the League of Cambrai",
+        "tier": 85
+      },
+      {
+        "text": "War of Chioggia",
+        "tier": 85
+      },
+      {
+        "text": "War of the Eight Saints",
+        "tier": 85
+      },
+      {
+        "text": "War of the Breton Succession",
+        "tier": 85
+      },
+      {
+        "text": "War of the Two Peters",
+        "tier": 85
+      },
+      {
+        "text": "Peninsular War",
+        "tier": 85
+      },
+      {
+        "text": "War of the Fifth Coalition",
+        "tier": 85
+      },
+      {
+        "text": "War of the Sixth Coalition",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Battle of Gettysburg",
+      "D-Day",
+      "Pearl Harbor",
+      "Battle of Hastings",
+      "Waterloo",
+      "Holocaust"
+    ]
+  },
+  {
+    "id": "q0133",
+    "prompt": "Name a video game or video game series",
+    "category": "games-toys",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Goat Simulator",
+        "tier": 100
+      },
+      {
+        "text": "Super Mario Bros.",
+        "aliases": [
+          "super mario",
+          "mario",
+          "mario bros"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Minecraft",
+        "tier": 10
+      },
+      {
+        "text": "Fortnite",
+        "tier": 10
+      },
+      {
+        "text": "Tetris",
+        "tier": 10
+      },
+      {
+        "text": "Pac-Man",
+        "aliases": [
+          "pacman"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Call of Duty",
+        "aliases": [
+          "cod"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "The Legend of Zelda",
+        "aliases": [
+          "zelda",
+          "legend of zelda"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pokemon",
+        "aliases": [
+          "pokémon"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pong",
+        "tier": 15
+      },
+      {
+        "text": "E.T. the Extra-Terrestrial",
+        "aliases": [
+          "e.t. atari",
+          "et"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Duck Hunt",
+        "tier": 15
+      },
+      {
+        "text": "Grand Theft Auto",
+        "aliases": [
+          "gta"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Halo",
+        "tier": 30
+      },
+      {
+        "text": "Mario Kart",
+        "tier": 30
+      },
+      {
+        "text": "Sonic the Hedgehog",
+        "aliases": [
+          "sonic"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Street Fighter",
+        "tier": 30
+      },
+      {
+        "text": "Mortal Kombat",
+        "tier": 30
+      },
+      {
+        "text": "Donkey Kong",
+        "tier": 30
+      },
+      {
+        "text": "Space Invaders",
+        "tier": 30
+      },
+      {
+        "text": "Galaga",
+        "tier": 30
+      },
+      {
+        "text": "Frogger",
+        "tier": 30
+      },
+      {
+        "text": "Asteroids",
+        "tier": 30
+      },
+      {
+        "text": "Centipede",
+        "tier": 30
+      },
+      {
+        "text": "The Sims",
+        "aliases": [
+          "sims"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "SimCity",
+        "tier": 30
+      },
+      {
+        "text": "Roblox",
+        "tier": 30
+      },
+      {
+        "text": "Among Us",
+        "tier": 30
+      },
+      {
+        "text": "Animal Crossing",
+        "tier": 30
+      },
+      {
+        "text": "Super Smash Bros.",
+        "aliases": [
+          "smash bros",
+          "smash"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Madden NFL",
+        "aliases": [
+          "madden"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "FIFA",
+        "aliases": [
+          "ea sports fc"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "NBA 2K",
+        "aliases": [
+          "2k"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wii Sports",
+        "tier": 30
+      },
+      {
+        "text": "Guitar Hero",
+        "tier": 30
+      },
+      {
+        "text": "Rock Band",
+        "tier": 30
+      },
+      {
+        "text": "Just Dance",
+        "tier": 30
+      },
+      {
+        "text": "Angry Birds",
+        "tier": 30
+      },
+      {
+        "text": "Candy Crush",
+        "tier": 30
+      },
+      {
+        "text": "Fruit Ninja",
+        "tier": 30
+      },
+      {
+        "text": "Temple Run",
+        "tier": 30
+      },
+      {
+        "text": "Subway Surfers",
+        "tier": 30
+      },
+      {
+        "text": "Flappy Bird",
+        "tier": 30
+      },
+      {
+        "text": "Doom",
+        "tier": 30
+      },
+      {
+        "text": "Final Fantasy",
+        "tier": 30
+      },
+      {
+        "text": "World of Warcraft",
+        "aliases": [
+          "wow"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "League of Legends",
+        "aliases": [
+          "lol"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Overwatch",
+        "tier": 30
+      },
+      {
+        "text": "Apex Legends",
+        "tier": 30
+      },
+      {
+        "text": "Valorant",
+        "tier": 30
+      },
+      {
+        "text": "Counter-Strike",
+        "aliases": [
+          "csgo",
+          "cs go"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Red Dead Redemption",
+        "tier": 30
+      },
+      {
+        "text": "The Last of Us",
+        "tier": 30
+      },
+      {
+        "text": "God of War",
+        "tier": 30
+      },
+      {
+        "text": "Uncharted",
+        "tier": 30
+      },
+      {
+        "text": "Assassin's Creed",
+        "tier": 30
+      },
+      {
+        "text": "Skyrim",
+        "aliases": [
+          "elder scrolls"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fallout",
+        "tier": 30
+      },
+      {
+        "text": "Resident Evil",
+        "tier": 30
+      },
+      {
+        "text": "Silent Hill",
+        "tier": 30
+      },
+      {
+        "text": "Metroid",
+        "tier": 30
+      },
+      {
+        "text": "Kirby",
+        "tier": 30
+      },
+      {
+        "text": "Pikmin",
+        "tier": 30
+      },
+      {
+        "text": "Splatoon",
+        "tier": 30
+      },
+      {
+        "text": "Crash Bandicoot",
+        "tier": 30
+      },
+      {
+        "text": "Spyro",
+        "tier": 30
+      },
+      {
+        "text": "Tony Hawk's Pro Skater",
+        "aliases": [
+          "tony hawk"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Need for Speed",
+        "tier": 30
+      },
+      {
+        "text": "Gran Turismo",
+        "tier": 30
+      },
+      {
+        "text": "Forza",
+        "tier": 30
+      },
+      {
+        "text": "Rocket League",
+        "tier": 30
+      },
+      {
+        "text": "Fall Guys",
+        "tier": 30
+      },
+      {
+        "text": "Elden Ring",
+        "tier": 30
+      },
+      {
+        "text": "Dark Souls",
+        "tier": 30
+      },
+      {
+        "text": "Bioshock",
+        "tier": 30
+      },
+      {
+        "text": "Portal",
+        "tier": 30
+      },
+      {
+        "text": "Half-Life",
+        "aliases": [
+          "half life"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mass Effect",
+        "tier": 30
+      },
+      {
+        "text": "Diablo",
+        "tier": 30
+      },
+      {
+        "text": "StarCraft",
+        "tier": 30
+      },
+      {
+        "text": "Warcraft",
+        "tier": 30
+      },
+      {
+        "text": "Civilization",
+        "aliases": [
+          "civ"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Age of Empires",
+        "tier": 30
+      },
+      {
+        "text": "Stardew Valley",
+        "tier": 30
+      },
+      {
+        "text": "Terraria",
+        "tier": 30
+      },
+      {
+        "text": "Undertale",
+        "tier": 30
+      },
+      {
+        "text": "Cuphead",
+        "tier": 30
+      },
+      {
+        "text": "Hollow Knight",
+        "tier": 30
+      },
+      {
+        "text": "Baldur's Gate",
+        "tier": 30
+      },
+      {
+        "text": "Cyberpunk 2077",
+        "tier": 30
+      },
+      {
+        "text": "The Witcher",
+        "tier": 30
+      },
+      {
+        "text": "Borderlands",
+        "tier": 30
+      },
+      {
+        "text": "Gears of War",
+        "tier": 30
+      },
+      {
+        "text": "Battlefield",
+        "tier": 30
+      },
+      {
+        "text": "Rainbow Six",
+        "tier": 30
+      },
+      {
+        "text": "Metal Gear Solid",
+        "aliases": [
+          "metal gear"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kingdom Hearts",
+        "tier": 30
+      },
+      {
+        "text": "Dragon Quest",
+        "tier": 30
+      },
+      {
+        "text": "Persona",
+        "tier": 30
+      },
+      {
+        "text": "Tekken",
+        "tier": 30
+      },
+      {
+        "text": "Super Mario 64",
+        "tier": 30
+      },
+      {
+        "text": "Mario Party",
+        "tier": 30
+      },
+      {
+        "text": "Paper Mario",
+        "tier": 30
+      },
+      {
+        "text": "Luigi's Mansion",
+        "tier": 30
+      },
+      {
+        "text": "Banjo-Kazooie",
+        "tier": 30
+      },
+      {
+        "text": "GoldenEye 007",
+        "aliases": [
+          "goldeneye"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Star Fox",
+        "tier": 30
+      },
+      {
+        "text": "F-Zero",
+        "tier": 30
+      },
+      {
+        "text": "Earthbound",
+        "tier": 30
+      },
+      {
+        "text": "Chrono Trigger",
+        "tier": 30
+      },
+      {
+        "text": "Castlevania",
+        "tier": 30
+      },
+      {
+        "text": "Mega Man",
+        "tier": 30
+      },
+      {
+        "text": "Contra",
+        "tier": 30
+      },
+      {
+        "text": "Punch-Out!!",
+        "aliases": [
+          "punch out"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Excitebike",
+        "tier": 30
+      },
+      {
+        "text": "Dig Dug",
+        "tier": 30
+      },
+      {
+        "text": "Q*bert",
+        "aliases": [
+          "qbert"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Burger Time",
+        "tier": 30
+      },
+      {
+        "text": "Donkey Kong Country",
+        "tier": 30
+      },
+      {
+        "text": "Ms. Pac-Man",
+        "tier": 30
+      },
+      {
+        "text": "Oregon Trail",
+        "tier": 30
+      },
+      {
+        "text": "Where in the World Is Carmen Sandiego?",
+        "tier": 30
+      },
+      {
+        "text": "Myst",
+        "tier": 30
+      },
+      {
+        "text": "Prince of Persia",
+        "tier": 30
+      },
+      {
+        "text": "Wolfenstein",
+        "tier": 30
+      },
+      {
+        "text": "Quake",
+        "tier": 30
+      },
+      {
+        "text": "Tomb Raider",
+        "tier": 30
+      },
+      {
+        "text": "Genshin Impact",
+        "tier": 30
+      },
+      {
+        "text": "Clash of Clans",
+        "tier": 30
+      },
+      {
+        "text": "Clash Royale",
+        "tier": 30
+      },
+      {
+        "text": "Pokemon Go",
+        "tier": 30
+      },
+      {
+        "text": "Wordle",
+        "tier": 30
+      },
+      {
+        "text": "Words with Friends",
+        "tier": 30
+      },
+      {
+        "text": "Farmville",
+        "tier": 30
+      },
+      {
+        "text": "Club Penguin",
+        "tier": 30
+      },
+      {
+        "text": "Neopets",
+        "tier": 30
+      },
+      {
+        "text": "RuneScape",
+        "tier": 30
+      },
+      {
+        "text": "Second Life",
+        "tier": 30
+      },
+      {
+        "text": "Palworld",
+        "tier": 30
+      },
+      {
+        "text": "Lethal Company",
+        "tier": 30
+      },
+      {
+        "text": "Baldur's Gate 3",
+        "tier": 30
+      },
+      {
+        "text": "Balatro",
+        "tier": 30
+      },
+      {
+        "text": "Hades",
+        "tier": 60
+      },
+      {
+        "text": "Celeste",
+        "tier": 60
+      },
+      {
+        "text": "Destiny",
+        "tier": 60
+      },
+      {
+        "text": "Control",
+        "tier": 60
+      },
+      {
+        "text": "Inside",
+        "tier": 60
+      },
+      {
+        "text": "Limbo",
+        "tier": 60
+      },
+      {
+        "text": "Journey",
+        "tier": 60
+      },
+      {
+        "text": "Braid",
+        "tier": 60
+      },
+      {
+        "text": "Hitman",
+        "tier": 60
+      },
+      {
+        "text": "Rust",
+        "tier": 60
+      },
+      {
+        "text": "Thief",
+        "tier": 60
+      },
+      {
+        "text": "Prey",
+        "tier": 60
+      },
+      {
+        "text": "Lemmings",
+        "tier": 60
+      },
+      {
+        "text": "Spore",
+        "tier": 60
+      },
+      {
+        "text": "Joust",
+        "tier": 60
+      },
+      {
+        "text": "Defender",
+        "tier": 60
+      },
+      {
+        "text": "Gauntlet",
+        "tier": 60
+      },
+      {
+        "text": "Rampage",
+        "tier": 60
+      },
+      {
+        "text": "Horizon Zero Dawn",
+        "aliases": [
+          "horizon"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mafia",
+        "tier": 60
+      },
+      {
+        "text": "Zork",
+        "tier": 60
+      },
+      {
+        "text": "Pitfall!",
+        "tier": 60
+      },
+      {
+        "text": "Missile Command",
+        "tier": 60
+      },
+      {
+        "text": "Robotron",
+        "tier": 60
+      },
+      {
+        "text": "Paperboy",
+        "tier": 60
+      },
+      {
+        "text": "Double Dragon",
+        "tier": 60
+      },
+      {
+        "text": "Golden Axe",
+        "tier": 60
+      },
+      {
+        "text": "Altered Beast",
+        "tier": 60
+      },
+      {
+        "text": "Streets of Rage",
+        "tier": 60
+      },
+      {
+        "text": "NBA Jam",
+        "tier": 60
+      },
+      {
+        "text": "NFL Blitz",
+        "tier": 60
+      },
+      {
+        "text": "Tecmo Bowl",
+        "tier": 60
+      },
+      {
+        "text": "Bubble Bobble",
+        "tier": 60
+      },
+      {
+        "text": "Kid Icarus",
+        "tier": 60
+      },
+      {
+        "text": "Ice Climber",
+        "tier": 60
+      },
+      {
+        "text": "Balloon Fight",
+        "tier": 60
+      },
+      {
+        "text": "Earthworm Jim",
+        "tier": 60
+      },
+      {
+        "text": "Ecco the Dolphin",
+        "tier": 60
+      },
+      {
+        "text": "Toejam & Earl",
+        "tier": 60
+      },
+      {
+        "text": "Vectorman",
+        "tier": 60
+      },
+      {
+        "text": "Comix Zone",
+        "tier": 60
+      },
+      {
+        "text": "Shinobi",
+        "tier": 60
+      },
+      {
+        "text": "Phantasy Star",
+        "tier": 60
+      },
+      {
+        "text": "Secret of Mana",
+        "tier": 60
+      },
+      {
+        "text": "Xenogears",
+        "tier": 60
+      },
+      {
+        "text": "Star Ocean",
+        "tier": 60
+      },
+      {
+        "text": "Suikoden",
+        "tier": 60
+      },
+      {
+        "text": "Breath of Fire",
+        "tier": 60
+      },
+      {
+        "text": "Wild Arms",
+        "tier": 60
+      },
+      {
+        "text": "Legend of Dragoon",
+        "tier": 60
+      },
+      {
+        "text": "Parasite Eve",
+        "tier": 60
+      },
+      {
+        "text": "Vagrant Story",
+        "tier": 60
+      },
+      {
+        "text": "Twisted Metal",
+        "tier": 60
+      },
+      {
+        "text": "Jak and Daxter",
+        "tier": 60
+      },
+      {
+        "text": "Ratchet & Clank",
+        "tier": 60
+      },
+      {
+        "text": "Sly Cooper",
+        "tier": 60
+      },
+      {
+        "text": "Ape Escape",
+        "tier": 60
+      },
+      {
+        "text": "Parappa the Rapper",
+        "tier": 60
+      },
+      {
+        "text": "Katamari Damacy",
+        "tier": 60
+      },
+      {
+        "text": "Okami",
+        "tier": 60
+      },
+      {
+        "text": "Shadow of the Colossus",
+        "tier": 60
+      },
+      {
+        "text": "Ico",
+        "tier": 60
+      },
+      {
+        "text": "Devil May Cry",
+        "tier": 60
+      },
+      {
+        "text": "Bayonetta",
+        "tier": 60
+      },
+      {
+        "text": "Ninja Gaiden",
+        "tier": 60
+      },
+      {
+        "text": "Onimusha",
+        "tier": 60
+      },
+      {
+        "text": "Dino Crisis",
+        "tier": 60
+      },
+      {
+        "text": "Fatal Frame",
+        "tier": 60
+      },
+      {
+        "text": "Dead Space",
+        "tier": 60
+      },
+      {
+        "text": "Left 4 Dead",
+        "tier": 60
+      },
+      {
+        "text": "Team Fortress 2",
+        "tier": 60
+      },
+      {
+        "text": "Garry's Mod",
+        "tier": 60
+      },
+      {
+        "text": "Black & White",
+        "tier": 60
+      },
+      {
+        "text": "Theme Park",
+        "tier": 60
+      },
+      {
+        "text": "RollerCoaster Tycoon",
+        "tier": 60
+      },
+      {
+        "text": "Zoo Tycoon",
+        "tier": 60
+      },
+      {
+        "text": "Planet Coaster",
+        "tier": 60
+      },
+      {
+        "text": "Cities: Skylines",
+        "tier": 60
+      },
+      {
+        "text": "Factorio",
+        "tier": 60
+      },
+      {
+        "text": "Rimworld",
+        "tier": 60
+      },
+      {
+        "text": "Dwarf Fortress",
+        "tier": 60
+      },
+      {
+        "text": "Kerbal Space Program",
+        "tier": 60
+      },
+      {
+        "text": "Subnautica",
+        "tier": 60
+      },
+      {
+        "text": "No Man's Sky",
+        "tier": 60
+      },
+      {
+        "text": "Valheim",
+        "tier": 60
+      },
+      {
+        "text": "DayZ",
+        "tier": 60
+      },
+      {
+        "text": "PUBG",
+        "tier": 60
+      },
+      {
+        "text": "Escape from Tarkov",
+        "tier": 60
+      },
+      {
+        "text": "Dota 2",
+        "aliases": [
+          "dota"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Heroes of the Storm",
+        "tier": 60
+      },
+      {
+        "text": "Smite",
+        "tier": 60
+      },
+      {
+        "text": "Hearthstone",
+        "tier": 60
+      },
+      {
+        "text": "Gwent",
+        "tier": 60
+      },
+      {
+        "text": "Slay the Spire",
+        "tier": 60
+      },
+      {
+        "text": "Inscryption",
+        "tier": 60
+      },
+      {
+        "text": "Outer Wilds",
+        "tier": 60
+      },
+      {
+        "text": "Disco Elysium",
+        "tier": 60
+      },
+      {
+        "text": "Return of the Obra Dinn",
+        "tier": 60
+      },
+      {
+        "text": "Papers, Please",
+        "tier": 60
+      },
+      {
+        "text": "The Stanley Parable",
+        "tier": 60
+      },
+      {
+        "text": "Firewatch",
+        "tier": 60
+      },
+      {
+        "text": "Gone Home",
+        "tier": 60
+      },
+      {
+        "text": "What Remains of Edith Finch",
+        "tier": 60
+      },
+      {
+        "text": "Super Meat Boy",
+        "tier": 60
+      },
+      {
+        "text": "Shovel Knight",
+        "tier": 60
+      },
+      {
+        "text": "Ori and the Blind Forest",
+        "tier": 60
+      },
+      {
+        "text": "Spelunky",
+        "tier": 60
+      },
+      {
+        "text": "The Binding of Isaac",
+        "tier": 60
+      },
+      {
+        "text": "Enter the Gungeon",
+        "tier": 60
+      },
+      {
+        "text": "Dead Cells",
+        "tier": 60
+      },
+      {
+        "text": "Risk of Rain",
+        "tier": 60
+      },
+      {
+        "text": "Vampire Survivors",
+        "tier": 60
+      },
+      {
+        "text": "Beat Saber",
+        "tier": 60
+      },
+      {
+        "text": "Half-Life: Alyx",
+        "tier": 60
+      },
+      {
+        "text": "Superhot",
+        "tier": 60
+      },
+      {
+        "text": "Pistol Whip",
+        "tier": 60
+      },
+      {
+        "text": "Untitled Goose Game",
+        "tier": 60
+      },
+      {
+        "text": "Stray",
+        "tier": 60
+      },
+      {
+        "text": "It Takes Two",
+        "tier": 60
+      },
+      {
+        "text": "A Way Out",
+        "tier": 60
+      },
+      {
+        "text": "Overcooked",
+        "tier": 60
+      },
+      {
+        "text": "Unravel",
+        "tier": 60
+      },
+      {
+        "text": "Little Nightmares",
+        "tier": 60
+      },
+      {
+        "text": "Five Nights at Freddy's",
+        "aliases": [
+          "fnaf"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bendy and the Ink Machine",
+        "tier": 60
+      },
+      {
+        "text": "Poppy Playtime",
+        "tier": 60
+      },
+      {
+        "text": "Phasmophobia",
+        "tier": 60
+      },
+      {
+        "text": "Dead by Daylight",
+        "tier": 60
+      },
+      {
+        "text": "Friday the 13th",
+        "tier": 60
+      },
+      {
+        "text": "Outlast",
+        "tier": 60
+      },
+      {
+        "text": "Amnesia",
+        "tier": 60
+      },
+      {
+        "text": "Alan Wake",
+        "tier": 60
+      },
+      {
+        "text": "Max Payne",
+        "tier": 60
+      },
+      {
+        "text": "Saints Row",
+        "tier": 60
+      },
+      {
+        "text": "Watch Dogs",
+        "tier": 60
+      },
+      {
+        "text": "Far Cry",
+        "tier": 60
+      },
+      {
+        "text": "Just Cause",
+        "tier": 60
+      },
+      {
+        "text": "Sleeping Dogs",
+        "tier": 60
+      },
+      {
+        "text": "Yakuza",
+        "aliases": [
+          "like a dragon"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ghost of Tsushima",
+        "tier": 60
+      },
+      {
+        "text": "Days Gone",
+        "tier": 60
+      },
+      {
+        "text": "Death Stranding",
+        "tier": 60
+      },
+      {
+        "text": "Spider-Man",
+        "aliases": [
+          "marvel's spider-man"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Batman: Arkham",
+        "aliases": [
+          "arkham asylum",
+          "arkham city"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Infamous",
+        "tier": 60
+      },
+      {
+        "text": "Sunset Overdrive",
+        "tier": 60
+      },
+      {
+        "text": "Titanfall",
+        "tier": 60
+      },
+      {
+        "text": "Splinter Cell",
+        "tier": 60
+      },
+      {
+        "text": "Deus Ex",
+        "tier": 60
+      },
+      {
+        "text": "Dishonored",
+        "tier": 60
+      },
+      {
+        "text": "System Shock",
+        "tier": 60
+      },
+      {
+        "text": "Star Wars: Knights of the Old Republic",
+        "aliases": [
+          "kotor"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jedi: Fallen Order",
+        "tier": 60
+      },
+      {
+        "text": "Battlefront",
+        "tier": 60
+      },
+      {
+        "text": "Lego Star Wars",
+        "tier": 60
+      },
+      {
+        "text": "Lego Batman",
+        "tier": 60
+      },
+      {
+        "text": "Skylanders",
+        "tier": 60
+      },
+      {
+        "text": "Disney Infinity",
+        "tier": 60
+      },
+      {
+        "text": "Ty the Tasmanian Tiger",
+        "tier": 60
+      },
+      {
+        "text": "Banjo-Tooie",
+        "tier": 60
+      },
+      {
+        "text": "Conker's Bad Fur Day",
+        "tier": 60
+      },
+      {
+        "text": "Perfect Dark",
+        "tier": 60
+      },
+      {
+        "text": "Diddy Kong Racing",
+        "tier": 60
+      },
+      {
+        "text": "1080 Snowboarding",
+        "tier": 60
+      },
+      {
+        "text": "Pilotwings",
+        "tier": 60
+      },
+      {
+        "text": "Mario Golf",
+        "tier": 60
+      },
+      {
+        "text": "Mario Tennis",
+        "tier": 60
+      },
+      {
+        "text": "Wario Ware",
+        "tier": 60
+      },
+      {
+        "text": "Rhythm Heaven",
+        "tier": 60
+      },
+      {
+        "text": "Professor Layton",
+        "tier": 60
+      },
+      {
+        "text": "Phoenix Wright",
+        "aliases": [
+          "ace attorney"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fire Emblem",
+        "tier": 60
+      },
+      {
+        "text": "Advance Wars",
+        "tier": 60
+      },
+      {
+        "text": "Golden Sun",
+        "tier": 60
+      },
+      {
+        "text": "Xenoblade Chronicles",
+        "tier": 60
+      },
+      {
+        "text": "Octopath Traveler",
+        "tier": 60
+      },
+      {
+        "text": "Bravely Default",
+        "tier": 60
+      },
+      {
+        "text": "Monster Hunter",
+        "tier": 60
+      },
+      {
+        "text": "Dragon's Dogma",
+        "tier": 60
+      },
+      {
+        "text": "Nier Automata",
+        "aliases": [
+          "nier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sekiro",
+        "tier": 60
+      },
+      {
+        "text": "Bloodborne",
+        "tier": 60
+      },
+      {
+        "text": "Demon's Souls",
+        "tier": 60
+      },
+      {
+        "text": "Lies of P",
+        "tier": 60
+      },
+      {
+        "text": "Armored Core",
+        "tier": 60
+      },
+      {
+        "text": "Ace Combat",
+        "tier": 60
+      },
+      {
+        "text": "Burnout",
+        "tier": 60
+      },
+      {
+        "text": "Crazy Taxi",
+        "tier": 60
+      },
+      {
+        "text": "Jet Set Radio",
+        "tier": 60
+      },
+      {
+        "text": "Shenmue",
+        "tier": 60
+      },
+      {
+        "text": "Space Channel 5",
+        "tier": 60
+      },
+      {
+        "text": "Samba de Amigo",
+        "tier": 60
+      },
+      {
+        "text": "Chu Chu Rocket",
+        "tier": 60
+      },
+      {
+        "text": "Sonic Adventure",
+        "tier": 60
+      },
+      {
+        "text": "NiGHTS into Dreams",
+        "tier": 60
+      },
+      {
+        "text": "Virtua Fighter",
+        "tier": 60
+      },
+      {
+        "text": "Soulcalibur",
+        "tier": 60
+      },
+      {
+        "text": "Dead or Alive",
+        "tier": 60
+      },
+      {
+        "text": "King of Fighters",
+        "tier": 60
+      },
+      {
+        "text": "Guilty Gear",
+        "tier": 60
+      },
+      {
+        "text": "BlazBlue",
+        "tier": 60
+      },
+      {
+        "text": "Marvel vs. Capcom",
+        "tier": 60
+      },
+      {
+        "text": "Killer Instinct",
+        "tier": 60
+      },
+      {
+        "text": "Primal Rage",
+        "tier": 60
+      },
+      {
+        "text": "Clay Fighter",
+        "tier": 60
+      },
+      {
+        "text": "Brawlhalla",
+        "tier": 60
+      },
+      {
+        "text": "MultiVersus",
+        "tier": 60
+      }
+    ],
+    "nearMisses": [
+      "Chess",
+      "Monopoly",
+      "Uno",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ]
+  },
+  {
+    "id": "q0134",
+    "prompt": "Name a party game or outdoor game (like tag)",
+    "category": "games-toys",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Sardines",
+        "tier": 100
+      },
+      {
+        "text": "Tag",
+        "tier": 10
+      },
+      {
+        "text": "Hide and seek",
+        "aliases": [
+          "hide-and-seek"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Charades",
+        "tier": 10
+      },
+      {
+        "text": "Musical chairs",
+        "tier": 10
+      },
+      {
+        "text": "Truth or dare",
+        "tier": 10
+      },
+      {
+        "text": "Red Rover",
+        "tier": 10
+      },
+      {
+        "text": "Simon Says",
+        "tier": 10
+      },
+      {
+        "text": "Beer pong",
+        "tier": 15
+      },
+      {
+        "text": "Spin the bottle",
+        "tier": 15
+      },
+      {
+        "text": "Seven minutes in heaven",
+        "tier": 15
+      },
+      {
+        "text": "Duck, duck, goose",
+        "aliases": [
+          "duck duck goose"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Freeze tag",
+        "tier": 30
+      },
+      {
+        "text": "Capture the flag",
+        "tier": 30
+      },
+      {
+        "text": "Hopscotch",
+        "tier": 30
+      },
+      {
+        "text": "Jump rope",
+        "aliases": [
+          "double dutch"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Red light, green light",
+        "aliases": [
+          "red light green light"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kickball",
+        "tier": 30
+      },
+      {
+        "text": "Dodgeball",
+        "tier": 30
+      },
+      {
+        "text": "Four square",
+        "tier": 30
+      },
+      {
+        "text": "Tetherball",
+        "tier": 30
+      },
+      {
+        "text": "Hot potato",
+        "tier": 30
+      },
+      {
+        "text": "Pin the tail on the donkey",
+        "tier": 30
+      },
+      {
+        "text": "Musical statues",
+        "tier": 30
+      },
+      {
+        "text": "Telephone",
+        "aliases": [
+          "whisper down the lane",
+          "chinese whispers"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Twenty Questions",
+        "aliases": [
+          "20 questions"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "I Spy",
+        "tier": 30
+      },
+      {
+        "text": "Never Have I Ever",
+        "tier": 30
+      },
+      {
+        "text": "Would You Rather",
+        "tier": 30
+      },
+      {
+        "text": "Two Truths and a Lie",
+        "tier": 30
+      },
+      {
+        "text": "Mafia",
+        "aliases": [
+          "werewolf"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Heads Up",
+        "tier": 30
+      },
+      {
+        "text": "Cornhole",
+        "aliases": [
+          "bean bag toss"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ladder toss",
+        "aliases": [
+          "ladder golf"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Horseshoes",
+        "tier": 30
+      },
+      {
+        "text": "Bocce",
+        "tier": 30
+      },
+      {
+        "text": "Croquet",
+        "tier": 30
+      },
+      {
+        "text": "Ultimate frisbee",
+        "tier": 30
+      },
+      {
+        "text": "Water balloon fight",
+        "tier": 30
+      },
+      {
+        "text": "Sack race",
+        "tier": 30
+      },
+      {
+        "text": "Three-legged race",
+        "tier": 30
+      },
+      {
+        "text": "Egg and spoon race",
+        "tier": 30
+      },
+      {
+        "text": "Tug of war",
+        "tier": 30
+      },
+      {
+        "text": "Limbo",
+        "tier": 30
+      },
+      {
+        "text": "Marco Polo",
+        "tier": 30
+      },
+      {
+        "text": "Sharks and minnows",
+        "tier": 30
+      },
+      {
+        "text": "Kick the can",
+        "tier": 30
+      },
+      {
+        "text": "Ghost in the graveyard",
+        "tier": 30
+      },
+      {
+        "text": "Mother May I",
+        "tier": 30
+      },
+      {
+        "text": "What Time Is It, Mr. Fox?",
+        "aliases": [
+          "mr fox"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Statues",
+        "tier": 30
+      },
+      {
+        "text": "Leapfrog",
+        "tier": 30
+      },
+      {
+        "text": "Ring around the rosie",
+        "tier": 30
+      },
+      {
+        "text": "London Bridge",
+        "tier": 30
+      },
+      {
+        "text": "Piñata",
+        "aliases": [
+          "pinata"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bobbing for apples",
+        "tier": 30
+      },
+      {
+        "text": "Scavenger hunt",
+        "tier": 30
+      },
+      {
+        "text": "Treasure hunt",
+        "tier": 30
+      },
+      {
+        "text": "Easter egg hunt",
+        "tier": 30
+      },
+      {
+        "text": "Rock paper scissors",
+        "tier": 30
+      },
+      {
+        "text": "Thumb war",
+        "tier": 30
+      },
+      {
+        "text": "Flip cup",
+        "tier": 30
+      },
+      {
+        "text": "Kings cup",
+        "tier": 30
+      },
+      {
+        "text": "Paranoia",
+        "tier": 30
+      },
+      {
+        "text": "Mad Libs",
+        "tier": 30
+      },
+      {
+        "text": "Spoons",
+        "tier": 30
+      },
+      {
+        "text": "Wink murder",
+        "aliases": [
+          "murder in the dark"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sleeping lions",
+        "tier": 30
+      },
+      {
+        "text": "Heads Up Seven Up",
+        "aliases": [
+          "heads up 7 up"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Silent ball",
+        "tier": 30
+      },
+      {
+        "text": "Manhunt",
+        "tier": 60
+      },
+      {
+        "text": "Flashlight tag",
+        "tier": 60
+      },
+      {
+        "text": "Cops and robbers",
+        "tier": 60
+      },
+      {
+        "text": "Blind man's bluff",
+        "tier": 60
+      },
+      {
+        "text": "British bulldog",
+        "tier": 60
+      },
+      {
+        "text": "Stuck in the mud",
+        "tier": 60
+      },
+      {
+        "text": "Octopus tag",
+        "tier": 60
+      },
+      {
+        "text": "Zombie tag",
+        "tier": 60
+      },
+      {
+        "text": "Shadow tag",
+        "tier": 60
+      },
+      {
+        "text": "TV tag",
+        "tier": 60
+      },
+      {
+        "text": "Freeze dance",
+        "tier": 60
+      },
+      {
+        "text": "Hokey pokey",
+        "tier": 60
+      },
+      {
+        "text": "Conga line",
+        "tier": 60
+      },
+      {
+        "text": "Chicken fight",
+        "tier": 60
+      },
+      {
+        "text": "Wheelbarrow race",
+        "tier": 60
+      },
+      {
+        "text": "Potato sack race",
+        "tier": 60
+      },
+      {
+        "text": "Relay race",
+        "tier": 60
+      },
+      {
+        "text": "Tag rugby",
+        "tier": 60
+      },
+      {
+        "text": "Wiffle ball",
+        "tier": 60
+      },
+      {
+        "text": "Stickball",
+        "tier": 60
+      },
+      {
+        "text": "Stoopball",
+        "tier": 60
+      },
+      {
+        "text": "Spud",
+        "tier": 60
+      },
+      {
+        "text": "Butts up",
+        "tier": 60
+      },
+      {
+        "text": "Wall ball",
+        "tier": 60
+      },
+      {
+        "text": "Pickle",
+        "aliases": [
+          "hot box"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Running bases",
+        "tier": 60
+      },
+      {
+        "text": "Gaga ball",
+        "aliases": [
+          "gaga"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Spikeball",
+        "tier": 60
+      },
+      {
+        "text": "Kan Jam",
+        "tier": 60
+      },
+      {
+        "text": "Washers",
+        "tier": 60
+      },
+      {
+        "text": "Lawn darts",
+        "aliases": [
+          "jarts"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kubb",
+        "tier": 60
+      },
+      {
+        "text": "Molkky",
+        "tier": 60
+      },
+      {
+        "text": "Quoits",
+        "tier": 60
+      },
+      {
+        "text": "Ring toss",
+        "tier": 60
+      },
+      {
+        "text": "Elastics",
+        "aliases": [
+          "chinese jump rope"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Clapping games",
+        "aliases": [
+          "patty cake"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Miss Mary Mack",
+        "tier": 60
+      },
+      {
+        "text": "Celebrity",
+        "tier": 60
+      },
+      {
+        "text": "Fishbowl",
+        "tier": 60
+      },
+      {
+        "text": "Salad bowl",
+        "tier": 60
+      },
+      {
+        "text": "Taboo",
+        "tier": 60
+      },
+      {
+        "text": "Codenames",
+        "tier": 60
+      },
+      {
+        "text": "Catch Phrase",
+        "tier": 60
+      },
+      {
+        "text": "Password",
+        "tier": 60
+      },
+      {
+        "text": "Scattergories",
+        "tier": 60
+      },
+      {
+        "text": "Boggle",
+        "tier": 60
+      },
+      {
+        "text": "Balderdash",
+        "tier": 60
+      },
+      {
+        "text": "Murder mystery",
+        "tier": 60
+      },
+      {
+        "text": "Secret Hitler",
+        "tier": 60
+      },
+      {
+        "text": "The Resistance",
+        "tier": 60
+      },
+      {
+        "text": "One Night Ultimate Werewolf",
+        "tier": 60
+      },
+      {
+        "text": "Telestrations",
+        "tier": 60
+      },
+      {
+        "text": "Quiplash",
+        "tier": 60
+      },
+      {
+        "text": "Jackbox",
+        "tier": 60
+      },
+      {
+        "text": "Fibbage",
+        "tier": 60
+      },
+      {
+        "text": "Drawful",
+        "tier": 60
+      },
+      {
+        "text": "Wavelength",
+        "tier": 60
+      },
+      {
+        "text": "Just One",
+        "tier": 60
+      },
+      {
+        "text": "Snake Oil",
+        "tier": 60
+      },
+      {
+        "text": "Duck Duck Gray Duck",
+        "tier": 60
+      },
+      {
+        "text": "Fruit basket upset",
+        "tier": 60
+      },
+      {
+        "text": "Shoe scramble",
+        "tier": 60
+      },
+      {
+        "text": "Musical hats",
+        "tier": 60
+      },
+      {
+        "text": "Pass the parcel",
+        "tier": 60
+      },
+      {
+        "text": "Hunt the thimble",
+        "tier": 60
+      },
+      {
+        "text": "Squeak piggy squeak",
+        "tier": 60
+      },
+      {
+        "text": "Grandmother's footsteps",
+        "tier": 60
+      },
+      {
+        "text": "Capture the Castle",
+        "tier": 60
+      },
+      {
+        "text": "Kabaddi",
+        "tier": 85
+      },
+      {
+        "text": "Kho kho",
+        "tier": 85
+      },
+      {
+        "text": "Gilli danda",
+        "tier": 85
+      },
+      {
+        "text": "Pitthu",
+        "aliases": [
+          "seven stones",
+          "lagori"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sepak raga",
+        "tier": 85
+      },
+      {
+        "text": "Tuho",
+        "tier": 85
+      },
+      {
+        "text": "Jegichagi",
+        "tier": 85
+      },
+      {
+        "text": "Yut nori",
+        "tier": 85
+      },
+      {
+        "text": "Ddakji",
+        "tier": 85
+      },
+      {
+        "text": "Gonggi",
+        "tier": 85
+      },
+      {
+        "text": "Daruma-san ga koronda",
+        "tier": 85
+      },
+      {
+        "text": "Hanetsuki",
+        "tier": 85
+      },
+      {
+        "text": "Menko",
+        "tier": 85
+      },
+      {
+        "text": "Bao",
+        "tier": 85
+      },
+      {
+        "text": "Ampe",
+        "tier": 85
+      },
+      {
+        "text": "Kudoo",
+        "tier": 85
+      },
+      {
+        "text": "Tsoro",
+        "tier": 85
+      },
+      {
+        "text": "Morabaraba",
+        "tier": 85
+      },
+      {
+        "text": "Marrabenta",
+        "tier": 85
+      },
+      {
+        "text": "Kick the stick",
+        "tier": 85
+      },
+      {
+        "text": "Rounders",
+        "tier": 85
+      },
+      {
+        "text": "Stool ball",
+        "tier": 85
+      },
+      {
+        "text": "Knur and spell",
+        "tier": 85
+      },
+      {
+        "text": "Bat and trap",
+        "tier": 85
+      },
+      {
+        "text": "Aunt Sally",
+        "tier": 85
+      },
+      {
+        "text": "Skittles",
+        "tier": 85
+      },
+      {
+        "text": "Shove ha'penny",
+        "tier": 85
+      },
+      {
+        "text": "Bar billiards",
+        "tier": 85
+      },
+      {
+        "text": "Toad in the hole",
+        "tier": 85
+      },
+      {
+        "text": "Conkers",
+        "tier": 85
+      },
+      {
+        "text": "Pooh sticks",
+        "tier": 85
+      },
+      {
+        "text": "Tlachtli",
+        "tier": 85
+      },
+      {
+        "text": "Ulama",
+        "tier": 85
+      },
+      {
+        "text": "Chunkey",
+        "tier": 85
+      },
+      {
+        "text": "Hoop and stick",
+        "tier": 85
+      },
+      {
+        "text": "Battledore and shuttlecock",
+        "tier": 85
+      },
+      {
+        "text": "Jianzi",
+        "tier": 85
+      },
+      {
+        "text": "Chinlone",
+        "tier": 85
+      },
+      {
+        "text": "Keepy-uppy",
+        "tier": 85
+      },
+      {
+        "text": "Kick-ups",
+        "tier": 85
+      },
+      {
+        "text": "World cup",
+        "tier": 85
+      },
+      {
+        "text": "Three and in",
+        "tier": 85
+      },
+      {
+        "text": "Monkey in the middle",
+        "aliases": [
+          "piggy in the middle",
+          "keep away"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wall tag",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Video games",
+      "Fortnite",
+      "Chess",
+      "Monopoly",
+      "Football",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "q0135",
+    "prompt": "Name a job where people wear a uniform",
+    "category": "jobs-people",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Beefeater",
+        "aliases": [
+          "yeoman warder"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Police officer",
+        "aliases": [
+          "cop",
+          "policeman"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Firefighter",
+        "aliases": [
+          "fireman"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Nurse",
+        "tier": 10
+      },
+      {
+        "text": "Soldier",
+        "tier": 10
+      },
+      {
+        "text": "Pilot",
+        "tier": 10
+      },
+      {
+        "text": "Mail carrier",
+        "aliases": [
+          "mailman",
+          "postman"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Referee",
+        "tier": 15
+      },
+      {
+        "text": "Mascot",
+        "tier": 15
+      },
+      {
+        "text": "Costume character",
+        "aliases": [
+          "disney character"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Flight attendant",
+        "aliases": [
+          "stewardess"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Chef",
+        "tier": 30
+      },
+      {
+        "text": "Waiter",
+        "aliases": [
+          "waitress",
+          "server"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Security guard",
+        "tier": 30
+      },
+      {
+        "text": "Sailor",
+        "tier": 30
+      },
+      {
+        "text": "Marine",
+        "tier": 30
+      },
+      {
+        "text": "Paramedic",
+        "aliases": [
+          "emt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Janitor",
+        "aliases": [
+          "custodian"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bus driver",
+        "tier": 30
+      },
+      {
+        "text": "Train conductor",
+        "aliases": [
+          "conductor"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Delivery driver",
+        "aliases": [
+          "ups driver",
+          "fedex driver"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fast food worker",
+        "tier": 30
+      },
+      {
+        "text": "Cashier",
+        "tier": 30
+      },
+      {
+        "text": "Mechanic",
+        "tier": 30
+      },
+      {
+        "text": "Construction worker",
+        "tier": 30
+      },
+      {
+        "text": "Lifeguard",
+        "tier": 30
+      },
+      {
+        "text": "Park ranger",
+        "aliases": [
+          "ranger"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Zookeeper",
+        "tier": 30
+      },
+      {
+        "text": "Nun",
+        "tier": 30
+      },
+      {
+        "text": "Priest",
+        "tier": 30
+      },
+      {
+        "text": "Judge",
+        "tier": 30
+      },
+      {
+        "text": "Athlete",
+        "tier": 30
+      },
+      {
+        "text": "Baseball player",
+        "tier": 30
+      },
+      {
+        "text": "Football player",
+        "tier": 30
+      },
+      {
+        "text": "Cheerleader",
+        "tier": 30
+      },
+      {
+        "text": "Umpire",
+        "tier": 30
+      },
+      {
+        "text": "Jockey",
+        "tier": 30
+      },
+      {
+        "text": "Astronaut",
+        "tier": 30
+      },
+      {
+        "text": "Bellhop",
+        "tier": 30
+      },
+      {
+        "text": "Doorman",
+        "tier": 30
+      },
+      {
+        "text": "Valet",
+        "tier": 30
+      },
+      {
+        "text": "Butler",
+        "tier": 30
+      },
+      {
+        "text": "Maid",
+        "aliases": [
+          "housekeeper"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Barista",
+        "tier": 30
+      },
+      {
+        "text": "Bartender",
+        "tier": 30
+      },
+      {
+        "text": "Garbage collector",
+        "aliases": [
+          "sanitation worker"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Crossing guard",
+        "tier": 30
+      },
+      {
+        "text": "Prison guard",
+        "aliases": [
+          "correctional officer"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sheriff",
+        "tier": 30
+      },
+      {
+        "text": "State trooper",
+        "tier": 30
+      },
+      {
+        "text": "Border patrol",
+        "tier": 30
+      },
+      {
+        "text": "TSA agent",
+        "tier": 30
+      },
+      {
+        "text": "Customs officer",
+        "tier": 30
+      },
+      {
+        "text": "Usher",
+        "tier": 30
+      },
+      {
+        "text": "Ticket taker",
+        "tier": 30
+      },
+      {
+        "text": "Ride operator",
+        "tier": 30
+      },
+      {
+        "text": "Hotel clerk",
+        "aliases": [
+          "front desk clerk"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Receptionist",
+        "tier": 30
+      },
+      {
+        "text": "Bank teller",
+        "tier": 30
+      },
+      {
+        "text": "Car salesman",
+        "tier": 30
+      },
+      {
+        "text": "Pizza delivery",
+        "tier": 30
+      },
+      {
+        "text": "Scout",
+        "aliases": [
+          "boy scout",
+          "girl scout"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Band member",
+        "aliases": [
+          "marching band"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Choir member",
+        "tier": 30
+      },
+      {
+        "text": "Coast guard",
+        "tier": 60
+      },
+      {
+        "text": "Air force pilot",
+        "tier": 60
+      },
+      {
+        "text": "Navy SEAL",
+        "tier": 60
+      },
+      {
+        "text": "Army ranger",
+        "tier": 60
+      },
+      {
+        "text": "Military police",
+        "tier": 60
+      },
+      {
+        "text": "National guard",
+        "tier": 60
+      },
+      {
+        "text": "Secret service agent",
+        "tier": 60
+      },
+      {
+        "text": "FBI agent",
+        "tier": 60
+      },
+      {
+        "text": "SWAT officer",
+        "tier": 60
+      },
+      {
+        "text": "K9 officer",
+        "tier": 60
+      },
+      {
+        "text": "Detective",
+        "tier": 60
+      },
+      {
+        "text": "Game warden",
+        "tier": 60
+      },
+      {
+        "text": "Forest ranger",
+        "tier": 60
+      },
+      {
+        "text": "Smokejumper",
+        "tier": 60
+      },
+      {
+        "text": "Wildland firefighter",
+        "tier": 60
+      },
+      {
+        "text": "Search and rescue",
+        "tier": 60
+      },
+      {
+        "text": "Ski patrol",
+        "tier": 60
+      },
+      {
+        "text": "Ship captain",
+        "tier": 60
+      },
+      {
+        "text": "First mate",
+        "tier": 60
+      },
+      {
+        "text": "Deckhand",
+        "tier": 60
+      },
+      {
+        "text": "Ferry operator",
+        "tier": 60
+      },
+      {
+        "text": "Tugboat captain",
+        "tier": 60
+      },
+      {
+        "text": "Harbor pilot",
+        "tier": 60
+      },
+      {
+        "text": "Air traffic controller",
+        "tier": 60
+      },
+      {
+        "text": "Ground crew",
+        "tier": 60
+      },
+      {
+        "text": "Baggage handler",
+        "tier": 60
+      },
+      {
+        "text": "Gate agent",
+        "tier": 60
+      },
+      {
+        "text": "Railway worker",
+        "tier": 60
+      },
+      {
+        "text": "Subway operator",
+        "tier": 60
+      },
+      {
+        "text": "Tram driver",
+        "tier": 60
+      },
+      {
+        "text": "Target employee",
+        "tier": 60
+      },
+      {
+        "text": "Walmart greeter",
+        "tier": 60
+      },
+      {
+        "text": "Theme park employee",
+        "tier": 60
+      },
+      {
+        "text": "Disney cast member",
+        "tier": 60
+      },
+      {
+        "text": "Butcher",
+        "tier": 60
+      },
+      {
+        "text": "Baker",
+        "tier": 60
+      },
+      {
+        "text": "Line cook",
+        "tier": 60
+      },
+      {
+        "text": "Sous chef",
+        "tier": 60
+      },
+      {
+        "text": "Pastry chef",
+        "tier": 60
+      },
+      {
+        "text": "Dishwasher",
+        "tier": 60
+      },
+      {
+        "text": "Busboy",
+        "tier": 60
+      },
+      {
+        "text": "Concierge",
+        "tier": 60
+      },
+      {
+        "text": "Porter",
+        "tier": 60
+      },
+      {
+        "text": "Footman",
+        "tier": 60
+      },
+      {
+        "text": "Chambermaid",
+        "tier": 60
+      },
+      {
+        "text": "Nanny",
+        "tier": 60
+      },
+      {
+        "text": "Au pair",
+        "tier": 60
+      },
+      {
+        "text": "Laundry worker",
+        "tier": 60
+      },
+      {
+        "text": "Golf caddie",
+        "aliases": [
+          "caddy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ball boy",
+        "tier": 60
+      },
+      {
+        "text": "Racecar driver",
+        "aliases": [
+          "race car driver"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pit crew",
+        "tier": 60
+      },
+      {
+        "text": "Boxer",
+        "tier": 60
+      },
+      {
+        "text": "Wrestler",
+        "tier": 60
+      },
+      {
+        "text": "Hockey player",
+        "tier": 60
+      },
+      {
+        "text": "Soccer player",
+        "tier": 60
+      },
+      {
+        "text": "Basketball player",
+        "tier": 60
+      },
+      {
+        "text": "Gymnast",
+        "tier": 60
+      },
+      {
+        "text": "Swimmer",
+        "tier": 60
+      },
+      {
+        "text": "Fencer",
+        "tier": 60
+      },
+      {
+        "text": "Martial artist",
+        "tier": 60
+      },
+      {
+        "text": "Karate instructor",
+        "tier": 60
+      },
+      {
+        "text": "Yoga instructor",
+        "tier": 60
+      },
+      {
+        "text": "Fitness instructor",
+        "tier": 60
+      },
+      {
+        "text": "Gym teacher",
+        "tier": 60
+      },
+      {
+        "text": "School nurse",
+        "tier": 60
+      },
+      {
+        "text": "Lunch lady",
+        "tier": 60
+      },
+      {
+        "text": "School bus driver",
+        "tier": 60
+      },
+      {
+        "text": "Teacher's aide",
+        "tier": 60
+      },
+      {
+        "text": "Pope",
+        "tier": 60
+      },
+      {
+        "text": "Bishop",
+        "tier": 60
+      },
+      {
+        "text": "Monk",
+        "tier": 60
+      },
+      {
+        "text": "Rabbi",
+        "tier": 60
+      },
+      {
+        "text": "Imam",
+        "tier": 60
+      },
+      {
+        "text": "Choir director",
+        "tier": 60
+      },
+      {
+        "text": "Orchestra musician",
+        "tier": 60
+      },
+      {
+        "text": "Royal guard",
+        "tier": 60
+      },
+      {
+        "text": "Queen's guard",
+        "tier": 60
+      },
+      {
+        "text": "Swiss Guard",
+        "tier": 60
+      },
+      {
+        "text": "Honor guard",
+        "tier": 60
+      },
+      {
+        "text": "Bagpiper",
+        "tier": 60
+      },
+      {
+        "text": "Drum major",
+        "tier": 60
+      },
+      {
+        "text": "Majorette",
+        "tier": 60
+      },
+      {
+        "text": "Color guard",
+        "tier": 60
+      },
+      {
+        "text": "Flag bearer",
+        "tier": 60
+      },
+      {
+        "text": "Cadet",
+        "tier": 60
+      },
+      {
+        "text": "Midshipman",
+        "tier": 60
+      },
+      {
+        "text": "ROTC",
+        "tier": 60
+      },
+      {
+        "text": "Boy Scout leader",
+        "tier": 60
+      },
+      {
+        "text": "Girl Scout leader",
+        "tier": 60
+      },
+      {
+        "text": "Cub Scout",
+        "tier": 60
+      },
+      {
+        "text": "Gondolier",
+        "tier": 85
+      },
+      {
+        "text": "Mountie",
+        "aliases": [
+          "rcmp"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bobby",
+        "aliases": [
+          "british police officer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gendarme",
+        "tier": 85
+      },
+      {
+        "text": "Carabiniere",
+        "tier": 85
+      },
+      {
+        "text": "Guardia Civil",
+        "tier": 85
+      },
+      {
+        "text": "Evzone",
+        "tier": 85
+      },
+      {
+        "text": "Yeoman of the Guard",
+        "tier": 85
+      },
+      {
+        "text": "Chelsea pensioner",
+        "tier": 85
+      },
+      {
+        "text": "Lollipop lady",
+        "tier": 85
+      },
+      {
+        "text": "Traffic warden",
+        "tier": 85
+      },
+      {
+        "text": "Meter maid",
+        "tier": 85
+      },
+      {
+        "text": "Parking enforcement officer",
+        "tier": 85
+      },
+      {
+        "text": "Toll booth operator",
+        "tier": 85
+      },
+      {
+        "text": "Elevator operator",
+        "tier": 85
+      },
+      {
+        "text": "Lift attendant",
+        "tier": 85
+      },
+      {
+        "text": "Cigarette girl",
+        "tier": 85
+      },
+      {
+        "text": "Hat check girl",
+        "tier": 85
+      },
+      {
+        "text": "Soda jerk",
+        "tier": 85
+      },
+      {
+        "text": "Carhop",
+        "tier": 85
+      },
+      {
+        "text": "Milkman",
+        "tier": 85
+      },
+      {
+        "text": "Paperboy",
+        "tier": 85
+      },
+      {
+        "text": "Telegram boy",
+        "tier": 85
+      },
+      {
+        "text": "Town crier",
+        "tier": 85
+      },
+      {
+        "text": "Lamplighter",
+        "tier": 85
+      },
+      {
+        "text": "Chimney sweep",
+        "tier": 85
+      },
+      {
+        "text": "Knife sharpener",
+        "tier": 85
+      },
+      {
+        "text": "Rag-and-bone man",
+        "tier": 85
+      },
+      {
+        "text": "Gas station attendant",
+        "tier": 85
+      },
+      {
+        "text": "Service station attendant",
+        "tier": 85
+      },
+      {
+        "text": "Pump jockey",
+        "tier": 85
+      },
+      {
+        "text": "Ice cream man",
+        "tier": 85
+      },
+      {
+        "text": "Hot dog vendor",
+        "tier": 85
+      },
+      {
+        "text": "Street sweeper",
+        "tier": 85
+      },
+      {
+        "text": "Snow plow driver",
+        "tier": 85
+      },
+      {
+        "text": "Road crew",
+        "tier": 85
+      },
+      {
+        "text": "Flagger",
+        "tier": 85
+      },
+      {
+        "text": "Surveyor",
+        "tier": 85
+      },
+      {
+        "text": "Hazmat worker",
+        "tier": 85
+      },
+      {
+        "text": "Bomb technician",
+        "tier": 85
+      },
+      {
+        "text": "Bomb squad",
+        "tier": 85
+      },
+      {
+        "text": "Riot police",
+        "tier": 85
+      },
+      {
+        "text": "Mounted police",
+        "tier": 85
+      },
+      {
+        "text": "Harbor police",
+        "tier": 85
+      },
+      {
+        "text": "Transit police",
+        "tier": 85
+      },
+      {
+        "text": "Campus police",
+        "tier": 85
+      },
+      {
+        "text": "Mall cop",
+        "tier": 85
+      },
+      {
+        "text": "Bouncer",
+        "tier": 85
+      },
+      {
+        "text": "Bodyguard",
+        "tier": 85
+      },
+      {
+        "text": "Armored car guard",
+        "tier": 85
+      },
+      {
+        "text": "Courier",
+        "tier": 85
+      },
+      {
+        "text": "Bike messenger",
+        "tier": 85
+      },
+      {
+        "text": "Rickshaw driver",
+        "tier": 85
+      },
+      {
+        "text": "Pedicab driver",
+        "tier": 85
+      },
+      {
+        "text": "Stagehand",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "CEO",
+      "Lawyer",
+      "Writer",
+      "Artist",
+      "Programmer",
+      "Influencer"
+    ]
+  },
+  {
+    "id": "q0136",
+    "prompt": "Name a job on a movie set or in filmmaking",
+    "category": "jobs-people",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Best boy",
+        "tier": 100
+      },
+      {
+        "text": "Director",
+        "tier": 10
+      },
+      {
+        "text": "Actor",
+        "aliases": [
+          "actress"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Producer",
+        "tier": 10
+      },
+      {
+        "text": "Camera operator",
+        "aliases": [
+          "cameraman"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Writer",
+        "aliases": [
+          "screenwriter"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Stunt double",
+        "aliases": [
+          "stuntman",
+          "stunt performer"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Extra",
+        "aliases": [
+          "background actor"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Animal trainer",
+        "aliases": [
+          "wrangler"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Stand-in",
+        "tier": 15
+      },
+      {
+        "text": "Craft services",
+        "aliases": [
+          "craft service"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cinematographer",
+        "aliases": [
+          "director of photography",
+          "dp"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Editor",
+        "aliases": [
+          "film editor"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Makeup artist",
+        "tier": 30
+      },
+      {
+        "text": "Hair stylist",
+        "tier": 30
+      },
+      {
+        "text": "Costume designer",
+        "tier": 30
+      },
+      {
+        "text": "Sound engineer",
+        "aliases": [
+          "sound mixer"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Boom operator",
+        "tier": 30
+      },
+      {
+        "text": "Composer",
+        "tier": 30
+      },
+      {
+        "text": "Casting director",
+        "tier": 30
+      },
+      {
+        "text": "Production assistant",
+        "aliases": [
+          "pa"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Assistant director",
+        "aliases": [
+          "ad"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Set designer",
+        "tier": 30
+      },
+      {
+        "text": "Production designer",
+        "tier": 30
+      },
+      {
+        "text": "Art director",
+        "tier": 30
+      },
+      {
+        "text": "Prop master",
+        "aliases": [
+          "props"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Special effects",
+        "aliases": [
+          "sfx"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Visual effects",
+        "aliases": [
+          "vfx artist"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Animator",
+        "tier": 30
+      },
+      {
+        "text": "Lighting technician",
+        "tier": 30
+      },
+      {
+        "text": "Gaffer",
+        "tier": 30
+      },
+      {
+        "text": "Grip",
+        "tier": 30
+      },
+      {
+        "text": "Key grip",
+        "tier": 30
+      },
+      {
+        "text": "Dolly grip",
+        "tier": 30
+      },
+      {
+        "text": "Script supervisor",
+        "tier": 30
+      },
+      {
+        "text": "Location manager",
+        "tier": 30
+      },
+      {
+        "text": "Stunt coordinator",
+        "tier": 30
+      },
+      {
+        "text": "Choreographer",
+        "tier": 30
+      },
+      {
+        "text": "Voice actor",
+        "tier": 30
+      },
+      {
+        "text": "Narrator",
+        "tier": 30
+      },
+      {
+        "text": "Double",
+        "aliases": [
+          "body double"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Executive producer",
+        "tier": 30
+      },
+      {
+        "text": "Line producer",
+        "tier": 30
+      },
+      {
+        "text": "Showrunner",
+        "tier": 30
+      },
+      {
+        "text": "Studio executive",
+        "tier": 30
+      },
+      {
+        "text": "Agent",
+        "tier": 30
+      },
+      {
+        "text": "Publicist",
+        "tier": 30
+      },
+      {
+        "text": "Clapper loader",
+        "aliases": [
+          "clapper"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Focus puller",
+        "tier": 30
+      },
+      {
+        "text": "Storyboard artist",
+        "tier": 30
+      },
+      {
+        "text": "Concept artist",
+        "tier": 30
+      },
+      {
+        "text": "Foley artist",
+        "tier": 30
+      },
+      {
+        "text": "Colorist",
+        "tier": 30
+      },
+      {
+        "text": "Sound designer",
+        "tier": 30
+      },
+      {
+        "text": "Music supervisor",
+        "tier": 30
+      },
+      {
+        "text": "Dialogue coach",
+        "tier": 30
+      },
+      {
+        "text": "Acting coach",
+        "tier": 30
+      },
+      {
+        "text": "Intimacy coordinator",
+        "tier": 30
+      },
+      {
+        "text": "Caterer",
+        "tier": 30
+      },
+      {
+        "text": "Medic",
+        "aliases": [
+          "set medic"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Set dresser",
+        "tier": 30
+      },
+      {
+        "text": "Costume assistant",
+        "tier": 30
+      },
+      {
+        "text": "Wardrobe supervisor",
+        "tier": 30
+      },
+      {
+        "text": "Unit production manager",
+        "tier": 30
+      },
+      {
+        "text": "Production coordinator",
+        "tier": 30
+      },
+      {
+        "text": "Location scout",
+        "tier": 30
+      },
+      {
+        "text": "Second unit director",
+        "tier": 30
+      },
+      {
+        "text": "Assistant camera",
+        "tier": 30
+      },
+      {
+        "text": "Steadicam operator",
+        "tier": 30
+      },
+      {
+        "text": "Drone operator",
+        "tier": 30
+      },
+      {
+        "text": "Rigger",
+        "tier": 30
+      },
+      {
+        "text": "Pyrotechnician",
+        "tier": 30
+      },
+      {
+        "text": "Armorer",
+        "tier": 30
+      },
+      {
+        "text": "Puppeteer",
+        "tier": 30
+      },
+      {
+        "text": "Makeup effects artist",
+        "aliases": [
+          "prosthetics"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Matte painter",
+        "tier": 30
+      },
+      {
+        "text": "Rotoscope artist",
+        "tier": 30
+      },
+      {
+        "text": "Compositor",
+        "tier": 30
+      },
+      {
+        "text": "Motion capture actor",
+        "tier": 30
+      },
+      {
+        "text": "Digital imaging technician",
+        "aliases": [
+          "dit"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Data wrangler",
+        "tier": 30
+      },
+      {
+        "text": "Video assist",
+        "tier": 30
+      },
+      {
+        "text": "Re-recording mixer",
+        "tier": 30
+      },
+      {
+        "text": "Supervising sound editor",
+        "tier": 30
+      },
+      {
+        "text": "Dialogue editor",
+        "tier": 30
+      },
+      {
+        "text": "ADR mixer",
+        "tier": 30
+      },
+      {
+        "text": "Orchestrator",
+        "tier": 30
+      },
+      {
+        "text": "Session musician",
+        "tier": 30
+      },
+      {
+        "text": "Script doctor",
+        "tier": 30
+      },
+      {
+        "text": "Story editor",
+        "tier": 30
+      },
+      {
+        "text": "Script reader",
+        "tier": 30
+      },
+      {
+        "text": "Development executive",
+        "tier": 30
+      },
+      {
+        "text": "Sales agent",
+        "tier": 30
+      },
+      {
+        "text": "Festival programmer",
+        "tier": 30
+      },
+      {
+        "text": "Trailer editor",
+        "tier": 30
+      },
+      {
+        "text": "Poster designer",
+        "tier": 30
+      },
+      {
+        "text": "Title designer",
+        "tier": 30
+      },
+      {
+        "text": "Subtitler",
+        "tier": 30
+      },
+      {
+        "text": "Dubbing artist",
+        "tier": 30
+      },
+      {
+        "text": "Electrician",
+        "tier": 60
+      },
+      {
+        "text": "Carpenter",
+        "tier": 60
+      },
+      {
+        "text": "Painter",
+        "tier": 60
+      },
+      {
+        "text": "Driver",
+        "tier": 60
+      },
+      {
+        "text": "Juicer",
+        "tier": 60
+      },
+      {
+        "text": "Best girl",
+        "tier": 60
+      },
+      {
+        "text": "Third assistant director",
+        "tier": 60
+      },
+      {
+        "text": "Key PA",
+        "tier": 60
+      },
+      {
+        "text": "Office PA",
+        "tier": 60
+      },
+      {
+        "text": "Set PA",
+        "tier": 60
+      },
+      {
+        "text": "Runner",
+        "tier": 60
+      },
+      {
+        "text": "Swing gang",
+        "tier": 60
+      },
+      {
+        "text": "Greensman",
+        "tier": 60
+      },
+      {
+        "text": "Leadman",
+        "tier": 60
+      },
+      {
+        "text": "Buyer",
+        "tier": 60
+      },
+      {
+        "text": "Prop maker",
+        "tier": 60
+      },
+      {
+        "text": "Scenic artist",
+        "tier": 60
+      },
+      {
+        "text": "Plasterer",
+        "tier": 60
+      },
+      {
+        "text": "Model maker",
+        "tier": 60
+      },
+      {
+        "text": "Miniatures artist",
+        "tier": 60
+      },
+      {
+        "text": "Creature designer",
+        "tier": 60
+      },
+      {
+        "text": "Character designer",
+        "tier": 60
+      },
+      {
+        "text": "Layout artist",
+        "tier": 60
+      },
+      {
+        "text": "Rigging artist",
+        "tier": 60
+      },
+      {
+        "text": "Lighting artist",
+        "tier": 60
+      },
+      {
+        "text": "Texture artist",
+        "tier": 60
+      },
+      {
+        "text": "Effects animator",
+        "tier": 60
+      },
+      {
+        "text": "Inbetweener",
+        "tier": 60
+      },
+      {
+        "text": "Key animator",
+        "tier": 60
+      },
+      {
+        "text": "Background artist",
+        "tier": 60
+      },
+      {
+        "text": "Ink and paint artist",
+        "tier": 60
+      },
+      {
+        "text": "Stop-motion animator",
+        "tier": 60
+      },
+      {
+        "text": "Claymation animator",
+        "tier": 60
+      },
+      {
+        "text": "Cel painter",
+        "tier": 60
+      },
+      {
+        "text": "Animation director",
+        "tier": 60
+      },
+      {
+        "text": "Voice director",
+        "tier": 60
+      },
+      {
+        "text": "Casting associate",
+        "tier": 60
+      },
+      {
+        "text": "Extras casting",
+        "tier": 60
+      },
+      {
+        "text": "Background coordinator",
+        "tier": 60
+      },
+      {
+        "text": "Picture car coordinator",
+        "tier": 60
+      },
+      {
+        "text": "Transportation captain",
+        "tier": 60
+      },
+      {
+        "text": "Teamster",
+        "tier": 60
+      },
+      {
+        "text": "Honeywagon driver",
+        "tier": 60
+      },
+      {
+        "text": "Base camp manager",
+        "tier": 60
+      },
+      {
+        "text": "Craft service manager",
+        "tier": 60
+      },
+      {
+        "text": "Set nurse",
+        "tier": 60
+      },
+      {
+        "text": "Set teacher",
+        "aliases": [
+          "studio teacher"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Child wrangler",
+        "tier": 60
+      },
+      {
+        "text": "Stunt rigger",
+        "tier": 60
+      },
+      {
+        "text": "Fight choreographer",
+        "tier": 60
+      },
+      {
+        "text": "Fight coordinator",
+        "tier": 60
+      },
+      {
+        "text": "Weapons master",
+        "tier": 60
+      },
+      {
+        "text": "Dialect coach",
+        "tier": 60
+      },
+      {
+        "text": "Movement coach",
+        "tier": 60
+      },
+      {
+        "text": "Historical advisor",
+        "tier": 60
+      },
+      {
+        "text": "Technical advisor",
+        "tier": 60
+      },
+      {
+        "text": "Military advisor",
+        "tier": 60
+      },
+      {
+        "text": "Medical advisor",
+        "tier": 60
+      },
+      {
+        "text": "Science advisor",
+        "tier": 60
+      },
+      {
+        "text": "Publicity still photographer",
+        "aliases": [
+          "unit photographer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "EPK producer",
+        "tier": 60
+      },
+      {
+        "text": "Behind-the-scenes videographer",
+        "tier": 60
+      },
+      {
+        "text": "Marketing executive",
+        "tier": 60
+      },
+      {
+        "text": "Legal clearance",
+        "tier": 60
+      },
+      {
+        "text": "Clearance coordinator",
+        "tier": 60
+      },
+      {
+        "text": "Negative cutter",
+        "tier": 60
+      },
+      {
+        "text": "Telecine operator",
+        "tier": 60
+      },
+      {
+        "text": "Film loader",
+        "tier": 60
+      },
+      {
+        "text": "Camera trainee",
+        "tier": 60
+      },
+      {
+        "text": "Underwater camera operator",
+        "tier": 60
+      },
+      {
+        "text": "Aerial cinematographer",
+        "tier": 60
+      },
+      {
+        "text": "Crane operator",
+        "tier": 60
+      },
+      {
+        "text": "Technocrane operator",
+        "tier": 60
+      },
+      {
+        "text": "Dolly track layer",
+        "tier": 60
+      },
+      {
+        "text": "Lamp operator",
+        "tier": 60
+      },
+      {
+        "text": "Rigging gaffer",
+        "tier": 60
+      },
+      {
+        "text": "Generator operator",
+        "tier": 60
+      },
+      {
+        "text": "Board operator",
+        "tier": 60
+      },
+      {
+        "text": "Playback operator",
+        "tier": 60
+      },
+      {
+        "text": "Cue card holder",
+        "tier": 60
+      },
+      {
+        "text": "Teleprompter operator",
+        "tier": 60
+      },
+      {
+        "text": "Boom swinger",
+        "tier": 60
+      },
+      {
+        "text": "Cable puller",
+        "aliases": [
+          "utility sound"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Production sound mixer",
+        "tier": 60
+      },
+      {
+        "text": "Foley walker",
+        "tier": 60
+      },
+      {
+        "text": "Foley mixer",
+        "tier": 60
+      },
+      {
+        "text": "Music editor",
+        "tier": 60
+      },
+      {
+        "text": "Temp music editor",
+        "tier": 60
+      },
+      {
+        "text": "Copyist",
+        "tier": 60
+      },
+      {
+        "text": "Music contractor",
+        "tier": 60
+      },
+      {
+        "text": "Choir master",
+        "tier": 60
+      },
+      {
+        "text": "Genny op",
+        "tier": 85
+      },
+      {
+        "text": "Rigging grip",
+        "tier": 85
+      },
+      {
+        "text": "Key rigging grip",
+        "tier": 85
+      },
+      {
+        "text": "Company grip",
+        "tier": 85
+      },
+      {
+        "text": "Leadwoman",
+        "tier": 85
+      },
+      {
+        "text": "On-set dresser",
+        "tier": 85
+      },
+      {
+        "text": "Set decorator",
+        "tier": 85
+      },
+      {
+        "text": "Construction coordinator",
+        "tier": 85
+      },
+      {
+        "text": "Construction foreman",
+        "tier": 85
+      },
+      {
+        "text": "Paint foreman",
+        "tier": 85
+      },
+      {
+        "text": "Standby painter",
+        "tier": 85
+      },
+      {
+        "text": "Standby props",
+        "tier": 85
+      },
+      {
+        "text": "Prop runner",
+        "tier": 85
+      },
+      {
+        "text": "Armorer assistant",
+        "tier": 85
+      },
+      {
+        "text": "Special effects supervisor",
+        "tier": 85
+      },
+      {
+        "text": "Effects technician",
+        "tier": 85
+      },
+      {
+        "text": "Atmospheric technician",
+        "tier": 85
+      },
+      {
+        "text": "Snow technician",
+        "tier": 85
+      },
+      {
+        "text": "Rain technician",
+        "tier": 85
+      },
+      {
+        "text": "Smoke technician",
+        "tier": 85
+      },
+      {
+        "text": "Puppet maker",
+        "tier": 85
+      },
+      {
+        "text": "Animatronics engineer",
+        "tier": 85
+      },
+      {
+        "text": "Robotics engineer",
+        "tier": 85
+      },
+      {
+        "text": "Creature performer",
+        "tier": 85
+      },
+      {
+        "text": "Suit performer",
+        "tier": 85
+      },
+      {
+        "text": "Digital double",
+        "tier": 85
+      },
+      {
+        "text": "Pre-viz artist",
+        "tier": 85
+      },
+      {
+        "text": "Post-viz artist",
+        "tier": 85
+      },
+      {
+        "text": "Matchmover",
+        "tier": 85
+      },
+      {
+        "text": "Tracking artist",
+        "tier": 85
+      },
+      {
+        "text": "Paint and roto",
+        "tier": 85
+      },
+      {
+        "text": "Look development artist",
+        "tier": 85
+      },
+      {
+        "text": "Pipeline TD",
+        "tier": 85
+      },
+      {
+        "text": "Technical director",
+        "tier": 85
+      },
+      {
+        "text": "Render wrangler",
+        "tier": 85
+      },
+      {
+        "text": "Lighting TD",
+        "tier": 85
+      },
+      {
+        "text": "Character TD",
+        "tier": 85
+      },
+      {
+        "text": "FX TD",
+        "tier": 85
+      },
+      {
+        "text": "Shot supervisor",
+        "tier": 85
+      },
+      {
+        "text": "Bidding producer",
+        "tier": 85
+      },
+      {
+        "text": "VFX producer",
+        "tier": 85
+      },
+      {
+        "text": "VFX coordinator",
+        "tier": 85
+      },
+      {
+        "text": "VFX editor",
+        "tier": 85
+      },
+      {
+        "text": "Assistant editor",
+        "tier": 85
+      },
+      {
+        "text": "Apprentice editor",
+        "tier": 85
+      },
+      {
+        "text": "Online editor",
+        "tier": 85
+      },
+      {
+        "text": "Conform artist",
+        "tier": 85
+      },
+      {
+        "text": "Grader",
+        "tier": 85
+      },
+      {
+        "text": "Finishing artist",
+        "tier": 85
+      },
+      {
+        "text": "Mastering engineer",
+        "tier": 85
+      },
+      {
+        "text": "QC technician",
+        "tier": 85
+      },
+      {
+        "text": "Delivery coordinator",
+        "tier": 85
+      },
+      {
+        "text": "Post-production supervisor",
+        "tier": 85
+      },
+      {
+        "text": "Post-production coordinator",
+        "tier": 85
+      },
+      {
+        "text": "Completion bond agent",
+        "tier": 85
+      },
+      {
+        "text": "Production auditor",
+        "tier": 85
+      },
+      {
+        "text": "Payroll accountant",
+        "tier": 85
+      },
+      {
+        "text": "Insurance broker",
+        "tier": 85
+      },
+      {
+        "text": "Unit publicist",
+        "tier": 85
+      },
+      {
+        "text": "Talent manager",
+        "tier": 85
+      },
+      {
+        "text": "Personal assistant",
+        "tier": 85
+      },
+      {
+        "text": "Driver captain",
+        "tier": 85
+      },
+      {
+        "text": "Facilities manager",
+        "tier": 85
+      },
+      {
+        "text": "Studio manager",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Audience",
+      "Popcorn seller",
+      "Ticket buyer",
+      "Fan",
+      "Movie theater",
+      "Popcorn"
+    ]
+  },
+  {
+    "id": "q0137",
+    "prompt": "Name something you'd find in a first aid kit",
+    "category": "body-health",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Moleskin",
+        "tier": 100
+      },
+      {
+        "text": "Band-Aid",
+        "aliases": [
+          "bandaid",
+          "band aid",
+          "bandages",
+          "bandage"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Gauze",
+        "tier": 10
+      },
+      {
+        "text": "Medical tape",
+        "aliases": [
+          "tape"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Antiseptic wipes",
+        "aliases": [
+          "alcohol wipes"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Scissors",
+        "tier": 10
+      },
+      {
+        "text": "Tweezers",
+        "tier": 10
+      },
+      {
+        "text": "Gloves",
+        "aliases": [
+          "latex gloves"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "EpiPen",
+        "aliases": [
+          "epinephrine"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "AED",
+        "aliases": [
+          "defibrillator"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Duct tape",
+        "tier": 15
+      },
+      {
+        "text": "Neosporin",
+        "aliases": [
+          "antibiotic ointment"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hydrogen peroxide",
+        "aliases": [
+          "peroxide"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rubbing alcohol",
+        "aliases": [
+          "alcohol"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cotton balls",
+        "tier": 30
+      },
+      {
+        "text": "Cotton swabs",
+        "aliases": [
+          "q-tips"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ice pack",
+        "aliases": [
+          "cold pack"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Heat pack",
+        "tier": 30
+      },
+      {
+        "text": "Thermometer",
+        "tier": 30
+      },
+      {
+        "text": "Aspirin",
+        "tier": 30
+      },
+      {
+        "text": "Ibuprofen",
+        "aliases": [
+          "advil",
+          "motrin"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tylenol",
+        "aliases": [
+          "acetaminophen"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Benadryl",
+        "aliases": [
+          "antihistamine"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hydrocortisone cream",
+        "tier": 30
+      },
+      {
+        "text": "Burn cream",
+        "tier": 30
+      },
+      {
+        "text": "Aloe vera",
+        "tier": 30
+      },
+      {
+        "text": "Elastic bandage",
+        "aliases": [
+          "ace bandage"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Triangular bandage",
+        "aliases": [
+          "sling"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Splint",
+        "tier": 30
+      },
+      {
+        "text": "Gauze pads",
+        "tier": 30
+      },
+      {
+        "text": "Butterfly bandages",
+        "tier": 30
+      },
+      {
+        "text": "Safety pins",
+        "tier": 30
+      },
+      {
+        "text": "Eye drops",
+        "tier": 30
+      },
+      {
+        "text": "Eye wash",
+        "tier": 30
+      },
+      {
+        "text": "Instant cold pack",
+        "tier": 30
+      },
+      {
+        "text": "Calamine lotion",
+        "tier": 30
+      },
+      {
+        "text": "Antacid",
+        "aliases": [
+          "tums"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cough drops",
+        "tier": 30
+      },
+      {
+        "text": "Hand sanitizer",
+        "tier": 30
+      },
+      {
+        "text": "CPR mask",
+        "aliases": [
+          "face shield"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Face mask",
+        "tier": 30
+      },
+      {
+        "text": "Emergency blanket",
+        "aliases": [
+          "space blanket"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Inhaler",
+        "tier": 30
+      },
+      {
+        "text": "First aid manual",
+        "aliases": [
+          "first aid guide"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Antibacterial wipes",
+        "tier": 30
+      },
+      {
+        "text": "Iodine",
+        "tier": 30
+      },
+      {
+        "text": "Saline",
+        "tier": 30
+      },
+      {
+        "text": "Pain reliever",
+        "aliases": [
+          "painkillers"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tourniquet",
+        "tier": 60
+      },
+      {
+        "text": "Trauma shears",
+        "tier": 60
+      },
+      {
+        "text": "Hemostatic gauze",
+        "aliases": [
+          "quikclot"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Israeli bandage",
+        "tier": 60
+      },
+      {
+        "text": "Chest seal",
+        "tier": 60
+      },
+      {
+        "text": "Nasopharyngeal airway",
+        "tier": 60
+      },
+      {
+        "text": "Oral airway",
+        "tier": 60
+      },
+      {
+        "text": "SAM splint",
+        "tier": 60
+      },
+      {
+        "text": "Finger splint",
+        "tier": 60
+      },
+      {
+        "text": "Eye patch",
+        "tier": 60
+      },
+      {
+        "text": "Eye pad",
+        "tier": 60
+      },
+      {
+        "text": "Non-stick pads",
+        "tier": 60
+      },
+      {
+        "text": "Adhesive strips",
+        "tier": 60
+      },
+      {
+        "text": "Steri-strips",
+        "aliases": [
+          "wound closure strips"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Liquid bandage",
+        "tier": 60
+      },
+      {
+        "text": "Skin glue",
+        "tier": 60
+      },
+      {
+        "text": "Blister bandages",
+        "tier": 60
+      },
+      {
+        "text": "Knuckle bandages",
+        "tier": 60
+      },
+      {
+        "text": "Fingertip bandages",
+        "tier": 60
+      },
+      {
+        "text": "Hydrocolloid bandage",
+        "tier": 60
+      },
+      {
+        "text": "Burn dressing",
+        "tier": 60
+      },
+      {
+        "text": "Burn gel",
+        "tier": 60
+      },
+      {
+        "text": "Water gel",
+        "tier": 60
+      },
+      {
+        "text": "Silver sulfadiazine",
+        "tier": 60
+      },
+      {
+        "text": "Bacitracin",
+        "tier": 60
+      },
+      {
+        "text": "Polysporin",
+        "tier": 60
+      },
+      {
+        "text": "Betadine",
+        "aliases": [
+          "povidone iodine"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chlorhexidine",
+        "tier": 60
+      },
+      {
+        "text": "Witch hazel",
+        "tier": 60
+      },
+      {
+        "text": "Sting relief",
+        "aliases": [
+          "sting wipes"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Insect bite cream",
+        "tier": 60
+      },
+      {
+        "text": "Tick remover",
+        "tier": 60
+      },
+      {
+        "text": "Snake bite kit",
+        "tier": 60
+      },
+      {
+        "text": "Suction device",
+        "tier": 60
+      },
+      {
+        "text": "Glucose tablets",
+        "tier": 60
+      },
+      {
+        "text": "Oral rehydration salts",
+        "tier": 60
+      },
+      {
+        "text": "Electrolyte packets",
+        "tier": 60
+      },
+      {
+        "text": "Loperamide",
+        "aliases": [
+          "imodium"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pepto-Bismol",
+        "tier": 60
+      },
+      {
+        "text": "Dramamine",
+        "tier": 60
+      },
+      {
+        "text": "Diphenhydramine",
+        "tier": 60
+      },
+      {
+        "text": "Cetirizine",
+        "aliases": [
+          "zyrtec"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Loratadine",
+        "aliases": [
+          "claritin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Naloxone",
+        "aliases": [
+          "narcan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Activated charcoal",
+        "tier": 60
+      },
+      {
+        "text": "Thermometer strips",
+        "tier": 60
+      },
+      {
+        "text": "Penlight",
+        "tier": 60
+      },
+      {
+        "text": "Stethoscope",
+        "tier": 60
+      },
+      {
+        "text": "Blood pressure cuff",
+        "tier": 60
+      },
+      {
+        "text": "Pulse oximeter",
+        "tier": 60
+      },
+      {
+        "text": "Glucometer",
+        "tier": 60
+      },
+      {
+        "text": "Lancets",
+        "tier": 60
+      },
+      {
+        "text": "Syringe",
+        "tier": 60
+      },
+      {
+        "text": "Oral syringe",
+        "tier": 60
+      },
+      {
+        "text": "Medicine cup",
+        "tier": 60
+      },
+      {
+        "text": "Cold compress",
+        "tier": 60
+      },
+      {
+        "text": "Compression bandage",
+        "tier": 60
+      },
+      {
+        "text": "Rolled gauze",
+        "tier": 60
+      },
+      {
+        "text": "Cohesive bandage",
+        "aliases": [
+          "coban"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Nitrile gloves",
+        "tier": 60
+      },
+      {
+        "text": "Biohazard bag",
+        "tier": 60
+      },
+      {
+        "text": "Sharps container",
+        "tier": 60
+      },
+      {
+        "text": "Zip-lock bags",
+        "tier": 60
+      },
+      {
+        "text": "Petroleum jelly",
+        "aliases": [
+          "vaseline"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Oral thermometer",
+        "tier": 60
+      },
+      {
+        "text": "Ear thermometer",
+        "tier": 60
+      },
+      {
+        "text": "Dental kit",
+        "tier": 60
+      },
+      {
+        "text": "Temporary filling",
+        "tier": 60
+      },
+      {
+        "text": "Clove oil",
+        "tier": 60
+      },
+      {
+        "text": "Orajel",
+        "tier": 60
+      },
+      {
+        "text": "Cravat bandage",
+        "tier": 85
+      },
+      {
+        "text": "Roller bandage",
+        "tier": 85
+      },
+      {
+        "text": "Tubular bandage",
+        "tier": 85
+      },
+      {
+        "text": "Tube gauze",
+        "tier": 85
+      },
+      {
+        "text": "Burn sheet",
+        "tier": 85
+      },
+      {
+        "text": "Eye shield",
+        "tier": 85
+      },
+      {
+        "text": "Ammonia inhalant",
+        "aliases": [
+          "smelling salts"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Splinter remover",
+        "tier": 85
+      },
+      {
+        "text": "Splinter probe",
+        "tier": 85
+      },
+      {
+        "text": "Scalpel",
+        "tier": 85
+      },
+      {
+        "text": "Suture kit",
+        "tier": 85
+      },
+      {
+        "text": "Skin stapler",
+        "tier": 85
+      },
+      {
+        "text": "Wound irrigation syringe",
+        "tier": 85
+      },
+      {
+        "text": "Hemostat",
+        "tier": 85
+      },
+      {
+        "text": "Kelly clamp",
+        "tier": 85
+      },
+      {
+        "text": "Bandage clips",
+        "tier": 85
+      },
+      {
+        "text": "Butterfly closures",
+        "tier": 85
+      },
+      {
+        "text": "Second Skin",
+        "tier": 85
+      },
+      {
+        "text": "Spenco",
+        "tier": 85
+      },
+      {
+        "text": "Tincture of benzoin",
+        "tier": 85
+      },
+      {
+        "text": "Mastisol",
+        "tier": 85
+      },
+      {
+        "text": "Benzalkonium chloride wipes",
+        "tier": 85
+      },
+      {
+        "text": "Lidocaine",
+        "tier": 85
+      },
+      {
+        "text": "Benzocaine",
+        "tier": 85
+      },
+      {
+        "text": "Pramoxine",
+        "tier": 85
+      },
+      {
+        "text": "Caladryl",
+        "tier": 85
+      },
+      {
+        "text": "Domeboro",
+        "tier": 85
+      },
+      {
+        "text": "Epsom salt",
+        "tier": 85
+      },
+      {
+        "text": "Arnica",
+        "tier": 85
+      },
+      {
+        "text": "Potassium iodide",
+        "tier": 85
+      },
+      {
+        "text": "Safety goggles",
+        "tier": 85
+      },
+      {
+        "text": "N95 mask",
+        "tier": 85
+      },
+      {
+        "text": "Rescue breathing barrier",
+        "tier": 85
+      },
+      {
+        "text": "Bag valve mask",
+        "tier": 85
+      },
+      {
+        "text": "Cervical collar",
+        "aliases": [
+          "neck brace"
+        ],
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Food",
+      "Phone",
+      "Wallet",
+      "Keys",
+      "Television",
+      "Toothbrush"
+    ]
+  },
+  {
+    "id": "q0138",
+    "prompt": "Name a symptom of being sick",
+    "category": "body-health",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Borborygmi",
+        "aliases": [
+          "stomach rumbling"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Fever",
+        "tier": 10
+      },
+      {
+        "text": "Cough",
+        "aliases": [
+          "coughing"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sneezing",
+        "aliases": [
+          "sneeze"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Runny nose",
+        "tier": 10
+      },
+      {
+        "text": "Sore throat",
+        "tier": 10
+      },
+      {
+        "text": "Headache",
+        "tier": 10
+      },
+      {
+        "text": "Vomiting",
+        "aliases": [
+          "throwing up",
+          "puking",
+          "vomit"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Chills",
+        "tier": 10
+      },
+      {
+        "text": "Mucus",
+        "aliases": [
+          "snot",
+          "boogers"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Crankiness",
+        "aliases": [
+          "cranky"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Stuffy nose",
+        "aliases": [
+          "congestion",
+          "stuffed up"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Nausea",
+        "aliases": [
+          "nauseous"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Diarrhea",
+        "tier": 30
+      },
+      {
+        "text": "Fatigue",
+        "aliases": [
+          "tired",
+          "tiredness",
+          "exhaustion"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Body aches",
+        "aliases": [
+          "aches"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Stomachache",
+        "aliases": [
+          "stomach ache",
+          "tummy ache"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dizziness",
+        "aliases": [
+          "dizzy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sweating",
+        "aliases": [
+          "sweats"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rash",
+        "tier": 30
+      },
+      {
+        "text": "Itching",
+        "aliases": [
+          "itchy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Swelling",
+        "tier": 30
+      },
+      {
+        "text": "Shortness of breath",
+        "tier": 30
+      },
+      {
+        "text": "Wheezing",
+        "tier": 30
+      },
+      {
+        "text": "Hoarse voice",
+        "aliases": [
+          "hoarseness",
+          "losing your voice"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Loss of appetite",
+        "tier": 30
+      },
+      {
+        "text": "Earache",
+        "aliases": [
+          "ear ache"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Watery eyes",
+        "tier": 30
+      },
+      {
+        "text": "Red eyes",
+        "tier": 30
+      },
+      {
+        "text": "Pale skin",
+        "aliases": [
+          "pale"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Weakness",
+        "tier": 30
+      },
+      {
+        "text": "Muscle aches",
+        "tier": 30
+      },
+      {
+        "text": "Joint pain",
+        "tier": 30
+      },
+      {
+        "text": "Back pain",
+        "tier": 30
+      },
+      {
+        "text": "Chest pain",
+        "tier": 30
+      },
+      {
+        "text": "Cramps",
+        "tier": 30
+      },
+      {
+        "text": "Bloating",
+        "tier": 30
+      },
+      {
+        "text": "Constipation",
+        "tier": 30
+      },
+      {
+        "text": "Heartburn",
+        "tier": 30
+      },
+      {
+        "text": "Sleepiness",
+        "aliases": [
+          "drowsiness"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Confusion",
+        "tier": 30
+      },
+      {
+        "text": "Fainting",
+        "aliases": [
+          "passing out"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Blurry vision",
+        "tier": 30
+      },
+      {
+        "text": "Ringing in ears",
+        "tier": 30
+      },
+      {
+        "text": "Hives",
+        "tier": 30
+      },
+      {
+        "text": "Blisters",
+        "tier": 30
+      },
+      {
+        "text": "Phlegm",
+        "tier": 30
+      },
+      {
+        "text": "Sniffles",
+        "tier": 30
+      },
+      {
+        "text": "Clammy skin",
+        "tier": 30
+      },
+      {
+        "text": "Hot flashes",
+        "tier": 30
+      },
+      {
+        "text": "Shivering",
+        "tier": 30
+      },
+      {
+        "text": "Dehydration",
+        "tier": 30
+      },
+      {
+        "text": "Dry mouth",
+        "tier": 30
+      },
+      {
+        "text": "Loss of taste",
+        "tier": 30
+      },
+      {
+        "text": "Loss of smell",
+        "tier": 30
+      },
+      {
+        "text": "Swollen glands",
+        "tier": 30
+      },
+      {
+        "text": "Malaise",
+        "tier": 60
+      },
+      {
+        "text": "Lethargy",
+        "tier": 60
+      },
+      {
+        "text": "Vertigo",
+        "tier": 60
+      },
+      {
+        "text": "Lightheadedness",
+        "tier": 60
+      },
+      {
+        "text": "Palpitations",
+        "tier": 60
+      },
+      {
+        "text": "Racing heart",
+        "aliases": [
+          "rapid heartbeat"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Night sweats",
+        "tier": 60
+      },
+      {
+        "text": "Delirium",
+        "tier": 60
+      },
+      {
+        "text": "Hallucinations",
+        "tier": 60
+      },
+      {
+        "text": "Seizures",
+        "tier": 60
+      },
+      {
+        "text": "Tremors",
+        "tier": 60
+      },
+      {
+        "text": "Numbness",
+        "tier": 60
+      },
+      {
+        "text": "Tingling",
+        "tier": 60
+      },
+      {
+        "text": "Pins and needles",
+        "tier": 60
+      },
+      {
+        "text": "Stiff neck",
+        "tier": 60
+      },
+      {
+        "text": "Sensitivity to light",
+        "tier": 60
+      },
+      {
+        "text": "Sinus pressure",
+        "tier": 60
+      },
+      {
+        "text": "Post-nasal drip",
+        "tier": 60
+      },
+      {
+        "text": "Swollen lymph nodes",
+        "tier": 60
+      },
+      {
+        "text": "Swollen tonsils",
+        "tier": 60
+      },
+      {
+        "text": "Bad breath",
+        "tier": 60
+      },
+      {
+        "text": "Coated tongue",
+        "tier": 60
+      },
+      {
+        "text": "Mouth sores",
+        "tier": 60
+      },
+      {
+        "text": "Chapped lips",
+        "tier": 60
+      },
+      {
+        "text": "Nosebleed",
+        "tier": 60
+      },
+      {
+        "text": "Bloodshot eyes",
+        "tier": 60
+      },
+      {
+        "text": "Puffy eyes",
+        "tier": 60
+      },
+      {
+        "text": "Jaundice",
+        "tier": 60
+      },
+      {
+        "text": "Yellow skin",
+        "tier": 60
+      },
+      {
+        "text": "Flushed face",
+        "tier": 60
+      },
+      {
+        "text": "Sunken eyes",
+        "tier": 60
+      },
+      {
+        "text": "Dry cough",
+        "tier": 60
+      },
+      {
+        "text": "Wet cough",
+        "tier": 60
+      },
+      {
+        "text": "Hacking cough",
+        "tier": 60
+      },
+      {
+        "text": "Barking cough",
+        "tier": 60
+      },
+      {
+        "text": "Croupy cough",
+        "tier": 60
+      },
+      {
+        "text": "Chest congestion",
+        "tier": 60
+      },
+      {
+        "text": "Tight chest",
+        "tier": 60
+      },
+      {
+        "text": "Gasping",
+        "tier": 60
+      },
+      {
+        "text": "Rapid breathing",
+        "tier": 60
+      },
+      {
+        "text": "Shallow breathing",
+        "tier": 60
+      },
+      {
+        "text": "Gagging",
+        "tier": 60
+      },
+      {
+        "text": "Retching",
+        "tier": 60
+      },
+      {
+        "text": "Dry heaving",
+        "tier": 60
+      },
+      {
+        "text": "Indigestion",
+        "tier": 60
+      },
+      {
+        "text": "Belching",
+        "aliases": [
+          "burping"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Abdominal pain",
+        "tier": 60
+      },
+      {
+        "text": "Side pain",
+        "tier": 60
+      },
+      {
+        "text": "Cramping",
+        "tier": 60
+      },
+      {
+        "text": "Spasms",
+        "tier": 60
+      },
+      {
+        "text": "Charley horse",
+        "tier": 60
+      },
+      {
+        "text": "Muscle weakness",
+        "tier": 60
+      },
+      {
+        "text": "Stiffness",
+        "tier": 60
+      },
+      {
+        "text": "Brain fog",
+        "tier": 60
+      },
+      {
+        "text": "Irritability",
+        "tier": 60
+      },
+      {
+        "text": "Mood swings",
+        "tier": 60
+      },
+      {
+        "text": "Restlessness",
+        "tier": 60
+      },
+      {
+        "text": "Weight loss",
+        "tier": 60
+      },
+      {
+        "text": "Peeling skin",
+        "tier": 60
+      },
+      {
+        "text": "Flaky skin",
+        "tier": 60
+      },
+      {
+        "text": "Dry skin",
+        "tier": 60
+      },
+      {
+        "text": "Sensitive skin",
+        "tier": 60
+      },
+      {
+        "text": "Burning sensation",
+        "tier": 60
+      },
+      {
+        "text": "Discharge",
+        "tier": 60
+      },
+      {
+        "text": "Pus",
+        "tier": 60
+      },
+      {
+        "text": "Inflammation",
+        "tier": 60
+      },
+      {
+        "text": "Redness",
+        "tier": 60
+      },
+      {
+        "text": "Tenderness",
+        "tier": 60
+      },
+      {
+        "text": "Soreness",
+        "tier": 60
+      },
+      {
+        "text": "Fluid retention",
+        "tier": 60
+      },
+      {
+        "text": "Frequent urination",
+        "tier": 60
+      },
+      {
+        "text": "Painful urination",
+        "tier": 60
+      },
+      {
+        "text": "Dark urine",
+        "tier": 60
+      },
+      {
+        "text": "Blood in stool",
+        "tier": 60
+      },
+      {
+        "text": "Rigors",
+        "tier": 85
+      },
+      {
+        "text": "Diaphoresis",
+        "tier": 85
+      },
+      {
+        "text": "Pyrexia",
+        "tier": 85
+      },
+      {
+        "text": "Tachycardia",
+        "tier": 85
+      },
+      {
+        "text": "Bradycardia",
+        "tier": 85
+      },
+      {
+        "text": "Dyspnea",
+        "tier": 85
+      },
+      {
+        "text": "Orthopnea",
+        "tier": 85
+      },
+      {
+        "text": "Tachypnea",
+        "tier": 85
+      },
+      {
+        "text": "Hemoptysis",
+        "tier": 85
+      },
+      {
+        "text": "Hematemesis",
+        "tier": 85
+      },
+      {
+        "text": "Epistaxis",
+        "tier": 85
+      },
+      {
+        "text": "Rhinorrhea",
+        "tier": 85
+      },
+      {
+        "text": "Coryza",
+        "tier": 85
+      },
+      {
+        "text": "Anosmia",
+        "tier": 85
+      },
+      {
+        "text": "Ageusia",
+        "tier": 85
+      },
+      {
+        "text": "Dysgeusia",
+        "tier": 85
+      },
+      {
+        "text": "Tinnitus",
+        "tier": 85
+      },
+      {
+        "text": "Otalgia",
+        "tier": 85
+      },
+      {
+        "text": "Photophobia",
+        "tier": 85
+      },
+      {
+        "text": "Diplopia",
+        "tier": 85
+      },
+      {
+        "text": "Nystagmus",
+        "tier": 85
+      },
+      {
+        "text": "Ptosis",
+        "tier": 85
+      },
+      {
+        "text": "Dysphagia",
+        "tier": 85
+      },
+      {
+        "text": "Odynophagia",
+        "tier": 85
+      },
+      {
+        "text": "Dyspepsia",
+        "tier": 85
+      },
+      {
+        "text": "Flatulence",
+        "tier": 85
+      },
+      {
+        "text": "Tenesmus",
+        "tier": 85
+      },
+      {
+        "text": "Melena",
+        "tier": 85
+      },
+      {
+        "text": "Steatorrhea",
+        "tier": 85
+      },
+      {
+        "text": "Polyuria",
+        "tier": 85
+      },
+      {
+        "text": "Dysuria",
+        "tier": 85
+      },
+      {
+        "text": "Nocturia",
+        "tier": 85
+      },
+      {
+        "text": "Hematuria",
+        "tier": 85
+      },
+      {
+        "text": "Pruritus",
+        "tier": 85
+      },
+      {
+        "text": "Urticaria",
+        "tier": 85
+      },
+      {
+        "text": "Erythema",
+        "tier": 85
+      },
+      {
+        "text": "Petechiae",
+        "tier": 85
+      },
+      {
+        "text": "Purpura",
+        "tier": 85
+      },
+      {
+        "text": "Cyanosis",
+        "tier": 85
+      },
+      {
+        "text": "Pallor",
+        "tier": 85
+      },
+      {
+        "text": "Edema",
+        "tier": 85
+      },
+      {
+        "text": "Ascites",
+        "tier": 85
+      },
+      {
+        "text": "Lymphadenopathy",
+        "tier": 85
+      },
+      {
+        "text": "Myalgia",
+        "tier": 85
+      },
+      {
+        "text": "Arthralgia",
+        "tier": 85
+      },
+      {
+        "text": "Paresthesia",
+        "tier": 85
+      },
+      {
+        "text": "Ataxia",
+        "tier": 85
+      },
+      {
+        "text": "Syncope",
+        "tier": 85
+      },
+      {
+        "text": "Presyncope",
+        "tier": 85
+      },
+      {
+        "text": "Somnolence",
+        "tier": 85
+      },
+      {
+        "text": "Cachexia",
+        "tier": 85
+      },
+      {
+        "text": "Asthenia",
+        "tier": 85
+      },
+      {
+        "text": "Halitosis",
+        "tier": 85
+      },
+      {
+        "text": "Xerostomia",
+        "tier": 85
+      },
+      {
+        "text": "Glossitis",
+        "tier": 85
+      },
+      {
+        "text": "Stomatitis",
+        "tier": 85
+      },
+      {
+        "text": "Cheilitis",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Doctor",
+      "Medicine",
+      "Hospital",
+      "Flu shot",
+      "Soup",
+      "Tissue"
+    ]
+  },
+  {
+    "id": "q0139",
+    "prompt": "Name a type of aircraft or something that flies",
+    "category": "vehicles",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Spruce Goose",
+        "aliases": [
+          "hughes h-4 hercules"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Airplane",
+        "aliases": [
+          "plane",
+          "aeroplane"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Helicopter",
+        "aliases": [
+          "chopper"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Jet",
+        "tier": 10
+      },
+      {
+        "text": "Hot air balloon",
+        "tier": 10
+      },
+      {
+        "text": "Rocket",
+        "tier": 10
+      },
+      {
+        "text": "Blimp",
+        "tier": 10
+      },
+      {
+        "text": "Drone",
+        "tier": 10
+      },
+      {
+        "text": "Glider",
+        "tier": 10
+      },
+      {
+        "text": "Balloon",
+        "tier": 15
+      },
+      {
+        "text": "UFO",
+        "aliases": [
+          "flying saucer"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Paper airplane",
+        "tier": 15
+      },
+      {
+        "text": "Kite",
+        "tier": 15
+      },
+      {
+        "text": "Jumbo jet",
+        "aliases": [
+          "boeing 747",
+          "747"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Airliner",
+        "aliases": [
+          "passenger jet"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fighter jet",
+        "tier": 30
+      },
+      {
+        "text": "Bomber",
+        "tier": 30
+      },
+      {
+        "text": "Space shuttle",
+        "tier": 30
+      },
+      {
+        "text": "Spaceship",
+        "aliases": [
+          "spacecraft"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Satellite",
+        "tier": 30
+      },
+      {
+        "text": "Biplane",
+        "tier": 30
+      },
+      {
+        "text": "Seaplane",
+        "aliases": [
+          "floatplane"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Zeppelin",
+        "tier": 30
+      },
+      {
+        "text": "Airship",
+        "tier": 30
+      },
+      {
+        "text": "Hang glider",
+        "tier": 30
+      },
+      {
+        "text": "Paraglider",
+        "tier": 30
+      },
+      {
+        "text": "Parachute",
+        "tier": 30
+      },
+      {
+        "text": "Jetpack",
+        "tier": 30
+      },
+      {
+        "text": "Private jet",
+        "tier": 30
+      },
+      {
+        "text": "Cargo plane",
+        "tier": 30
+      },
+      {
+        "text": "Crop duster",
+        "tier": 30
+      },
+      {
+        "text": "Stealth bomber",
+        "aliases": [
+          "b-2"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Concorde",
+        "tier": 30
+      },
+      {
+        "text": "Air Force One",
+        "tier": 30
+      },
+      {
+        "text": "Learjet",
+        "tier": 30
+      },
+      {
+        "text": "Cessna",
+        "tier": 30
+      },
+      {
+        "text": "Piper Cub",
+        "tier": 30
+      },
+      {
+        "text": "Boeing 737",
+        "aliases": [
+          "737"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Airbus A380",
+        "aliases": [
+          "a380"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ultralight",
+        "tier": 30
+      },
+      {
+        "text": "Gyrocopter",
+        "aliases": [
+          "autogyro"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Quadcopter",
+        "tier": 30
+      },
+      {
+        "text": "Model airplane",
+        "tier": 30
+      },
+      {
+        "text": "Weather balloon",
+        "tier": 30
+      },
+      {
+        "text": "Spitfire",
+        "tier": 60
+      },
+      {
+        "text": "B-17",
+        "aliases": [
+          "flying fortress"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "B-29",
+        "tier": 60
+      },
+      {
+        "text": "B-52",
+        "tier": 60
+      },
+      {
+        "text": "F-16",
+        "tier": 60
+      },
+      {
+        "text": "F-22",
+        "aliases": [
+          "raptor"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "F-35",
+        "tier": 60
+      },
+      {
+        "text": "F-14",
+        "aliases": [
+          "tomcat"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "F-15",
+        "tier": 60
+      },
+      {
+        "text": "F-18",
+        "aliases": [
+          "hornet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "A-10",
+        "aliases": [
+          "warthog"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "SR-71",
+        "aliases": [
+          "blackbird"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "U-2",
+        "tier": 60
+      },
+      {
+        "text": "Harrier jet",
+        "aliases": [
+          "harrier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Osprey",
+        "aliases": [
+          "v-22"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Black Hawk",
+        "tier": 60
+      },
+      {
+        "text": "Apache",
+        "tier": 60
+      },
+      {
+        "text": "Chinook",
+        "tier": 60
+      },
+      {
+        "text": "Huey",
+        "tier": 60
+      },
+      {
+        "text": "Cobra helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Sea King",
+        "tier": 60
+      },
+      {
+        "text": "AC-130",
+        "tier": 60
+      },
+      {
+        "text": "C-130",
+        "aliases": [
+          "hercules"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "C-5 Galaxy",
+        "tier": 60
+      },
+      {
+        "text": "C-17",
+        "tier": 60
+      },
+      {
+        "text": "KC-135",
+        "tier": 60
+      },
+      {
+        "text": "AWACS",
+        "tier": 60
+      },
+      {
+        "text": "Predator drone",
+        "tier": 60
+      },
+      {
+        "text": "Reaper drone",
+        "tier": 60
+      },
+      {
+        "text": "Global Hawk",
+        "tier": 60
+      },
+      {
+        "text": "Zero",
+        "aliases": [
+          "a6m zero"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Messerschmitt",
+        "tier": 60
+      },
+      {
+        "text": "Stuka",
+        "tier": 60
+      },
+      {
+        "text": "Sopwith Camel",
+        "tier": 60
+      },
+      {
+        "text": "Fokker",
+        "tier": 60
+      },
+      {
+        "text": "Wright Flyer",
+        "tier": 60
+      },
+      {
+        "text": "Spirit of St. Louis",
+        "tier": 60
+      },
+      {
+        "text": "Enola Gay",
+        "tier": 60
+      },
+      {
+        "text": "Hindenburg",
+        "tier": 60
+      },
+      {
+        "text": "Goodyear Blimp",
+        "tier": 60
+      },
+      {
+        "text": "Saturn V",
+        "tier": 60
+      },
+      {
+        "text": "Falcon 9",
+        "tier": 60
+      },
+      {
+        "text": "Soyuz",
+        "tier": 60
+      },
+      {
+        "text": "International Space Station",
+        "aliases": [
+          "iss"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lunar module",
+        "tier": 60
+      },
+      {
+        "text": "Mars helicopter",
+        "aliases": [
+          "ingenuity"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Air taxi",
+        "tier": 60
+      },
+      {
+        "text": "Flying car",
+        "tier": 60
+      },
+      {
+        "text": "eVTOL",
+        "tier": 60
+      },
+      {
+        "text": "Tiltrotor",
+        "tier": 60
+      },
+      {
+        "text": "Turboprop",
+        "tier": 60
+      },
+      {
+        "text": "Prop plane",
+        "aliases": [
+          "propeller plane"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Twin-engine plane",
+        "tier": 60
+      },
+      {
+        "text": "Bush plane",
+        "tier": 60
+      },
+      {
+        "text": "Amphibious plane",
+        "tier": 60
+      },
+      {
+        "text": "Flying boat",
+        "tier": 60
+      },
+      {
+        "text": "Water bomber",
+        "tier": 60
+      },
+      {
+        "text": "Air ambulance",
+        "tier": 60
+      },
+      {
+        "text": "Medevac helicopter",
+        "tier": 60
+      },
+      {
+        "text": "News helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Police helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Traffic helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Coast guard helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Firefighting plane",
+        "tier": 60
+      },
+      {
+        "text": "Tanker plane",
+        "tier": 60
+      },
+      {
+        "text": "Spy plane",
+        "tier": 60
+      },
+      {
+        "text": "Reconnaissance plane",
+        "tier": 60
+      },
+      {
+        "text": "Trainer aircraft",
+        "tier": 60
+      },
+      {
+        "text": "Aerobatic plane",
+        "tier": 60
+      },
+      {
+        "text": "Stunt plane",
+        "tier": 60
+      },
+      {
+        "text": "Air racer",
+        "tier": 60
+      },
+      {
+        "text": "Experimental aircraft",
+        "tier": 60
+      },
+      {
+        "text": "Homebuilt aircraft",
+        "tier": 60
+      },
+      {
+        "text": "Kit plane",
+        "tier": 60
+      },
+      {
+        "text": "Powered parachute",
+        "tier": 60
+      },
+      {
+        "text": "Paramotor",
+        "tier": 60
+      },
+      {
+        "text": "Motor glider",
+        "tier": 60
+      },
+      {
+        "text": "Sailplane",
+        "tier": 60
+      },
+      {
+        "text": "Wingsuit",
+        "tier": 60
+      },
+      {
+        "text": "Rocket belt",
+        "tier": 60
+      },
+      {
+        "text": "Flying platform",
+        "tier": 60
+      },
+      {
+        "text": "Hoverbike",
+        "tier": 60
+      },
+      {
+        "text": "Skycrane",
+        "tier": 60
+      },
+      {
+        "text": "Gunship",
+        "tier": 60
+      },
+      {
+        "text": "Attack helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Transport helicopter",
+        "tier": 60
+      },
+      {
+        "text": "Rotorcraft",
+        "tier": 60
+      },
+      {
+        "text": "Ornithopter",
+        "tier": 85
+      },
+      {
+        "text": "Aerostat",
+        "tier": 85
+      },
+      {
+        "text": "Kite balloon",
+        "tier": 85
+      },
+      {
+        "text": "Barrage balloon",
+        "tier": 85
+      },
+      {
+        "text": "Montgolfier balloon",
+        "tier": 85
+      },
+      {
+        "text": "Gas balloon",
+        "tier": 85
+      },
+      {
+        "text": "Hydrogen balloon",
+        "tier": 85
+      },
+      {
+        "text": "Tethered balloon",
+        "tier": 85
+      },
+      {
+        "text": "Dirigible",
+        "tier": 85
+      },
+      {
+        "text": "Rigid airship",
+        "tier": 85
+      },
+      {
+        "text": "Non-rigid airship",
+        "tier": 85
+      },
+      {
+        "text": "Semi-rigid airship",
+        "tier": 85
+      },
+      {
+        "text": "Hybrid airship",
+        "tier": 85
+      },
+      {
+        "text": "Ekranoplan",
+        "aliases": [
+          "caspian sea monster"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wing-in-ground craft",
+        "tier": 85
+      },
+      {
+        "text": "Flying wing",
+        "tier": 85
+      },
+      {
+        "text": "Lifting body",
+        "tier": 85
+      },
+      {
+        "text": "Canard",
+        "tier": 85
+      },
+      {
+        "text": "Delta wing",
+        "tier": 85
+      },
+      {
+        "text": "Swing-wing",
+        "tier": 85
+      },
+      {
+        "text": "Variable-sweep",
+        "tier": 85
+      },
+      {
+        "text": "Supersonic transport",
+        "aliases": [
+          "sst"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hypersonic aircraft",
+        "tier": 85
+      },
+      {
+        "text": "Scramjet",
+        "tier": 85
+      },
+      {
+        "text": "Ramjet",
+        "tier": 85
+      },
+      {
+        "text": "Space plane",
+        "tier": 85
+      },
+      {
+        "text": "X-15",
+        "tier": 85
+      },
+      {
+        "text": "X-1",
+        "tier": 85
+      },
+      {
+        "text": "Tu-144",
+        "aliases": [
+          "concordski"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "An-225",
+        "aliases": [
+          "mriya"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "An-124",
+        "tier": 85
+      },
+      {
+        "text": "Il-76",
+        "tier": 85
+      },
+      {
+        "text": "Mil Mi-26",
+        "tier": 85
+      },
+      {
+        "text": "Mi-24",
+        "aliases": [
+          "hind"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sikorsky R-4",
+        "tier": 85
+      },
+      {
+        "text": "Bell 47",
+        "tier": 85
+      },
+      {
+        "text": "Robinson R22",
+        "tier": 85
+      },
+      {
+        "text": "Kaman K-MAX",
+        "tier": 85
+      },
+      {
+        "text": "Cierva autogiro",
+        "tier": 85
+      },
+      {
+        "text": "Ryan NYP",
+        "tier": 85
+      },
+      {
+        "text": "Douglas DC-3",
+        "tier": 85
+      },
+      {
+        "text": "Lockheed Constellation",
+        "aliases": [
+          "connie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Boeing 707",
+        "tier": 85
+      },
+      {
+        "text": "Boeing 787",
+        "aliases": [
+          "dreamliner"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Airbus A320",
+        "tier": 85
+      },
+      {
+        "text": "Dash 8",
+        "tier": 85
+      },
+      {
+        "text": "ATR 72",
+        "tier": 85
+      },
+      {
+        "text": "Twin Otter",
+        "tier": 85
+      },
+      {
+        "text": "King Air",
+        "tier": 85
+      },
+      {
+        "text": "Gulfstream",
+        "tier": 85
+      },
+      {
+        "text": "Pilatus",
+        "tier": 85
+      },
+      {
+        "text": "Mooney",
+        "tier": 85
+      },
+      {
+        "text": "Beechcraft Bonanza",
+        "aliases": [
+          "bonanza"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Piper Cherokee",
+        "tier": 85
+      },
+      {
+        "text": "Cessna 172",
+        "tier": 85
+      },
+      {
+        "text": "Extra 300",
+        "tier": 85
+      },
+      {
+        "text": "Pitts Special",
+        "tier": 85
+      },
+      {
+        "text": "Stearman",
+        "tier": 85
+      },
+      {
+        "text": "Tiger Moth",
+        "tier": 85
+      },
+      {
+        "text": "Spad",
+        "tier": 85
+      },
+      {
+        "text": "Nieuport",
+        "tier": 85
+      },
+      {
+        "text": "Albatros",
+        "tier": 85
+      },
+      {
+        "text": "Gotha",
+        "tier": 85
+      },
+      {
+        "text": "Zeppelin-Staaken",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Bird",
+      "Bat",
+      "Butterfly",
+      "Bee",
+      "Superman",
+      "Dragon"
+    ],
+    "notes": "Human-made flying machines. Animals don't count."
+  },
+  {
+    "id": "q0140",
+    "prompt": "Name a crop grown on farms",
+    "category": "nature",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Sorghum",
+        "tier": 100
+      },
+      {
+        "text": "Corn",
+        "aliases": [
+          "maize"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Wheat",
+        "tier": 10
+      },
+      {
+        "text": "Soybeans",
+        "aliases": [
+          "soy",
+          "soybean"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Rice",
+        "tier": 10
+      },
+      {
+        "text": "Potatoes",
+        "aliases": [
+          "potato"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Cotton",
+        "tier": 10
+      },
+      {
+        "text": "Tomatoes",
+        "aliases": [
+          "tomato"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Christmas trees",
+        "tier": 15
+      },
+      {
+        "text": "Pumpkins",
+        "tier": 15
+      },
+      {
+        "text": "Barley",
+        "tier": 30
+      },
+      {
+        "text": "Oats",
+        "tier": 30
+      },
+      {
+        "text": "Rye",
+        "tier": 30
+      },
+      {
+        "text": "Hay",
+        "tier": 30
+      },
+      {
+        "text": "Alfalfa",
+        "tier": 30
+      },
+      {
+        "text": "Sugarcane",
+        "aliases": [
+          "sugar cane"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sugar beets",
+        "tier": 30
+      },
+      {
+        "text": "Tobacco",
+        "tier": 30
+      },
+      {
+        "text": "Peanuts",
+        "aliases": [
+          "peanut"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sunflowers",
+        "aliases": [
+          "sunflower"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Canola",
+        "aliases": [
+          "rapeseed"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lettuce",
+        "tier": 30
+      },
+      {
+        "text": "Carrots",
+        "aliases": [
+          "carrot"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Onions",
+        "aliases": [
+          "onion"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cabbage",
+        "tier": 30
+      },
+      {
+        "text": "Broccoli",
+        "tier": 30
+      },
+      {
+        "text": "Beans",
+        "tier": 30
+      },
+      {
+        "text": "Peas",
+        "tier": 30
+      },
+      {
+        "text": "Lentils",
+        "tier": 30
+      },
+      {
+        "text": "Chickpeas",
+        "aliases": [
+          "garbanzo"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Strawberries",
+        "tier": 30
+      },
+      {
+        "text": "Apples",
+        "tier": 30
+      },
+      {
+        "text": "Oranges",
+        "tier": 30
+      },
+      {
+        "text": "Grapes",
+        "tier": 30
+      },
+      {
+        "text": "Peppers",
+        "tier": 30
+      },
+      {
+        "text": "Cucumbers",
+        "tier": 30
+      },
+      {
+        "text": "Squash",
+        "tier": 30
+      },
+      {
+        "text": "Watermelon",
+        "tier": 30
+      },
+      {
+        "text": "Cantaloupe",
+        "tier": 30
+      },
+      {
+        "text": "Sweet potatoes",
+        "aliases": [
+          "yams"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Garlic",
+        "tier": 30
+      },
+      {
+        "text": "Spinach",
+        "tier": 30
+      },
+      {
+        "text": "Celery",
+        "tier": 30
+      },
+      {
+        "text": "Cauliflower",
+        "tier": 30
+      },
+      {
+        "text": "Green beans",
+        "tier": 30
+      },
+      {
+        "text": "Coffee",
+        "tier": 30
+      },
+      {
+        "text": "Tea",
+        "tier": 30
+      },
+      {
+        "text": "Cocoa",
+        "aliases": [
+          "cacao"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bananas",
+        "tier": 30
+      },
+      {
+        "text": "Pineapples",
+        "tier": 30
+      },
+      {
+        "text": "Avocados",
+        "tier": 30
+      },
+      {
+        "text": "Almonds",
+        "tier": 30
+      },
+      {
+        "text": "Walnuts",
+        "tier": 30
+      },
+      {
+        "text": "Pecans",
+        "tier": 30
+      },
+      {
+        "text": "Olives",
+        "tier": 30
+      },
+      {
+        "text": "Blueberries",
+        "tier": 30
+      },
+      {
+        "text": "Cranberries",
+        "tier": 30
+      },
+      {
+        "text": "Cherries",
+        "tier": 30
+      },
+      {
+        "text": "Peaches",
+        "tier": 30
+      },
+      {
+        "text": "Pears",
+        "tier": 30
+      },
+      {
+        "text": "Lemons",
+        "tier": 30
+      },
+      {
+        "text": "Limes",
+        "tier": 30
+      },
+      {
+        "text": "Millet",
+        "tier": 60
+      },
+      {
+        "text": "Quinoa",
+        "tier": 60
+      },
+      {
+        "text": "Buckwheat",
+        "tier": 60
+      },
+      {
+        "text": "Flax",
+        "aliases": [
+          "flaxseed"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hemp",
+        "tier": 60
+      },
+      {
+        "text": "Hops",
+        "tier": 60
+      },
+      {
+        "text": "Spelt",
+        "tier": 60
+      },
+      {
+        "text": "Triticale",
+        "tier": 60
+      },
+      {
+        "text": "Cassava",
+        "aliases": [
+          "manioc",
+          "yuca"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Taro",
+        "tier": 60
+      },
+      {
+        "text": "Plantains",
+        "tier": 60
+      },
+      {
+        "text": "Jute",
+        "tier": 60
+      },
+      {
+        "text": "Sisal",
+        "tier": 60
+      },
+      {
+        "text": "Kenaf",
+        "tier": 60
+      },
+      {
+        "text": "Ramie",
+        "tier": 60
+      },
+      {
+        "text": "Safflower",
+        "tier": 60
+      },
+      {
+        "text": "Sesame",
+        "tier": 60
+      },
+      {
+        "text": "Mustard",
+        "tier": 60
+      },
+      {
+        "text": "Clover",
+        "tier": 60
+      },
+      {
+        "text": "Timothy grass",
+        "tier": 60
+      },
+      {
+        "text": "Ryegrass",
+        "tier": 60
+      },
+      {
+        "text": "Sudangrass",
+        "tier": 60
+      },
+      {
+        "text": "Silage",
+        "tier": 60
+      },
+      {
+        "text": "Agave",
+        "tier": 60
+      },
+      {
+        "text": "Vanilla",
+        "tier": 60
+      },
+      {
+        "text": "Black pepper",
+        "tier": 60
+      },
+      {
+        "text": "Cinnamon",
+        "tier": 60
+      },
+      {
+        "text": "Cardamom",
+        "tier": 60
+      },
+      {
+        "text": "Saffron",
+        "tier": 60
+      },
+      {
+        "text": "Ginger",
+        "tier": 60
+      },
+      {
+        "text": "Turmeric",
+        "tier": 60
+      },
+      {
+        "text": "Mint",
+        "tier": 60
+      },
+      {
+        "text": "Lavender",
+        "tier": 60
+      },
+      {
+        "text": "Tulips",
+        "tier": 60
+      },
+      {
+        "text": "Sod",
+        "aliases": [
+          "turf"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pistachios",
+        "tier": 60
+      },
+      {
+        "text": "Hazelnuts",
+        "tier": 60
+      },
+      {
+        "text": "Cashews",
+        "tier": 60
+      },
+      {
+        "text": "Macadamia nuts",
+        "tier": 60
+      },
+      {
+        "text": "Brazil nuts",
+        "tier": 60
+      },
+      {
+        "text": "Coconuts",
+        "tier": 60
+      },
+      {
+        "text": "Dates",
+        "tier": 60
+      },
+      {
+        "text": "Figs",
+        "tier": 60
+      },
+      {
+        "text": "Pomegranates",
+        "tier": 60
+      },
+      {
+        "text": "Kiwi",
+        "tier": 60
+      },
+      {
+        "text": "Mangoes",
+        "tier": 60
+      },
+      {
+        "text": "Papayas",
+        "tier": 60
+      },
+      {
+        "text": "Guava",
+        "tier": 60
+      },
+      {
+        "text": "Lychee",
+        "tier": 60
+      },
+      {
+        "text": "Passion fruit",
+        "tier": 60
+      },
+      {
+        "text": "Rubber",
+        "tier": 60
+      },
+      {
+        "text": "Palm oil",
+        "aliases": [
+          "oil palm"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cork",
+        "tier": 60
+      },
+      {
+        "text": "Bamboo",
+        "tier": 60
+      },
+      {
+        "text": "Mushrooms",
+        "tier": 60
+      },
+      {
+        "text": "Asparagus",
+        "tier": 60
+      },
+      {
+        "text": "Artichokes",
+        "tier": 60
+      },
+      {
+        "text": "Brussels sprouts",
+        "tier": 60
+      },
+      {
+        "text": "Kale",
+        "tier": 60
+      },
+      {
+        "text": "Collards",
+        "tier": 60
+      },
+      {
+        "text": "Turnips",
+        "tier": 60
+      },
+      {
+        "text": "Radishes",
+        "tier": 60
+      },
+      {
+        "text": "Beets",
+        "tier": 60
+      },
+      {
+        "text": "Parsnips",
+        "tier": 60
+      },
+      {
+        "text": "Rutabaga",
+        "tier": 60
+      },
+      {
+        "text": "Leeks",
+        "tier": 60
+      },
+      {
+        "text": "Eggplant",
+        "tier": 60
+      },
+      {
+        "text": "Okra",
+        "tier": 60
+      },
+      {
+        "text": "Zucchini",
+        "tier": 60
+      },
+      {
+        "text": "Edamame",
+        "tier": 60
+      },
+      {
+        "text": "Black-eyed peas",
+        "tier": 60
+      },
+      {
+        "text": "Pinto beans",
+        "tier": 60
+      },
+      {
+        "text": "Kidney beans",
+        "tier": 60
+      },
+      {
+        "text": "Navy beans",
+        "tier": 60
+      },
+      {
+        "text": "Lima beans",
+        "tier": 60
+      },
+      {
+        "text": "Popcorn",
+        "tier": 60
+      },
+      {
+        "text": "Wild rice",
+        "tier": 60
+      },
+      {
+        "text": "Teff",
+        "tier": 85
+      },
+      {
+        "text": "Fonio",
+        "tier": 85
+      },
+      {
+        "text": "Amaranth",
+        "tier": 85
+      },
+      {
+        "text": "Emmer",
+        "tier": 85
+      },
+      {
+        "text": "Einkorn",
+        "tier": 85
+      },
+      {
+        "text": "Kamut",
+        "tier": 85
+      },
+      {
+        "text": "Freekeh",
+        "tier": 85
+      },
+      {
+        "text": "Chia",
+        "tier": 85
+      },
+      {
+        "text": "Lupin",
+        "tier": 85
+      },
+      {
+        "text": "Fava beans",
+        "aliases": [
+          "broad beans"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mung beans",
+        "tier": 85
+      },
+      {
+        "text": "Adzuki beans",
+        "tier": 85
+      },
+      {
+        "text": "Pigeon peas",
+        "tier": 85
+      },
+      {
+        "text": "Cowpeas",
+        "tier": 85
+      },
+      {
+        "text": "Vetch",
+        "tier": 85
+      },
+      {
+        "text": "Lespedeza",
+        "tier": 85
+      },
+      {
+        "text": "Birdsfoot trefoil",
+        "tier": 85
+      },
+      {
+        "text": "Sainfoin",
+        "tier": 85
+      },
+      {
+        "text": "Camelina",
+        "tier": 85
+      },
+      {
+        "text": "Crambe",
+        "tier": 85
+      },
+      {
+        "text": "Jojoba",
+        "tier": 85
+      },
+      {
+        "text": "Guar",
+        "tier": 85
+      },
+      {
+        "text": "Stevia",
+        "tier": 85
+      },
+      {
+        "text": "Chicory",
+        "tier": 85
+      },
+      {
+        "text": "Indigo",
+        "tier": 85
+      },
+      {
+        "text": "Madder",
+        "tier": 85
+      },
+      {
+        "text": "Woad",
+        "tier": 85
+      },
+      {
+        "text": "Pyrethrum",
+        "tier": 85
+      },
+      {
+        "text": "Opium poppy",
+        "tier": 85
+      },
+      {
+        "text": "Coca",
+        "tier": 85
+      },
+      {
+        "text": "Kava",
+        "tier": 85
+      },
+      {
+        "text": "Yerba mate",
+        "tier": 85
+      },
+      {
+        "text": "Guarana",
+        "tier": 85
+      },
+      {
+        "text": "Kola nut",
+        "tier": 85
+      },
+      {
+        "text": "Betel nut",
+        "tier": 85
+      },
+      {
+        "text": "Breadfruit",
+        "tier": 85
+      },
+      {
+        "text": "Jackfruit",
+        "tier": 85
+      },
+      {
+        "text": "Durian",
+        "tier": 85
+      },
+      {
+        "text": "Rambutan",
+        "tier": 85
+      },
+      {
+        "text": "Mangosteen",
+        "tier": 85
+      },
+      {
+        "text": "Longan",
+        "tier": 85
+      },
+      {
+        "text": "Persimmon",
+        "tier": 85
+      },
+      {
+        "text": "Quince",
+        "tier": 85
+      },
+      {
+        "text": "Medlar",
+        "tier": 85
+      },
+      {
+        "text": "Elderberry",
+        "tier": 85
+      },
+      {
+        "text": "Gooseberry",
+        "tier": 85
+      },
+      {
+        "text": "Currants",
+        "tier": 85
+      },
+      {
+        "text": "Lingonberry",
+        "tier": 85
+      },
+      {
+        "text": "Cloudberry",
+        "tier": 85
+      },
+      {
+        "text": "Sea buckthorn",
+        "tier": 85
+      },
+      {
+        "text": "Goji berries",
+        "tier": 85
+      },
+      {
+        "text": "Aronia",
+        "tier": 85
+      },
+      {
+        "text": "Haskap",
+        "tier": 85
+      },
+      {
+        "text": "Pawpaw",
+        "tier": 85
+      },
+      {
+        "text": "Ugli fruit",
+        "tier": 85
+      },
+      {
+        "text": "Yuzu",
+        "tier": 85
+      },
+      {
+        "text": "Kumquat",
+        "tier": 85
+      },
+      {
+        "text": "Pomelo",
+        "tier": 85
+      },
+      {
+        "text": "Bergamot",
+        "tier": 85
+      },
+      {
+        "text": "Citron",
+        "tier": 85
+      },
+      {
+        "text": "Finger lime",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Cows",
+      "Chickens",
+      "Pigs",
+      "Tractor",
+      "Barn",
+      "Milk",
+      "Eggs"
+    ]
+  }
+]

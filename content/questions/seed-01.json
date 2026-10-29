@@ -1,0 +1,4302 @@
+[
+  {
+    "id": "q0001",
+    "prompt": "Name a fruit",
+    "category": "food",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Jabuticaba",
+        "aliases": [
+          "jaboticaba",
+          "brazilian grape tree"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Cherimoya",
+        "aliases": [
+          "custard apple",
+          "chirimoya"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Salak",
+        "aliases": [
+          "snake fruit"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rambutan",
+        "aliases": [
+          "rambootan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mangosteen",
+        "aliases": [
+          "mangostene"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Feijoa",
+        "aliases": [
+          "pineapple guava"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Durian",
+        "aliases": [
+          "durion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Loquat",
+        "aliases": [
+          "loquot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tamarind",
+        "aliases": [
+          "tamarindo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ugli fruit",
+        "aliases": [
+          "ugli",
+          "uglifruit"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Longan",
+        "aliases": [
+          "dragon eye"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Medlar",
+        "tier": 85
+      },
+      {
+        "text": "Soursop",
+        "aliases": [
+          "guanabana",
+          "graviola"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Quince",
+        "tier": 85
+      },
+      {
+        "text": "Kiwano",
+        "aliases": [
+          "horned melon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Physalis",
+        "aliases": [
+          "ground cherry",
+          "cape gooseberry",
+          "goldenberry"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pawpaw",
+        "aliases": [
+          "asimina"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Acai",
+        "aliases": [
+          "acai berry",
+          "açaí"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Breadfruit",
+        "tier": 85
+      },
+      {
+        "text": "Ackee",
+        "aliases": [
+          "akee"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Yuzu",
+        "tier": 85
+      },
+      {
+        "text": "Sapodilla",
+        "aliases": [
+          "chikoo",
+          "chico"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Huckleberry",
+        "tier": 85
+      },
+      {
+        "text": "Mulberry",
+        "aliases": [
+          "mulbery"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pomelo",
+        "aliases": [
+          "pummelo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Buddha's hand",
+        "tier": 85
+      },
+      {
+        "text": "Marionberry",
+        "tier": 85
+      },
+      {
+        "text": "Lingonberry",
+        "aliases": [
+          "cowberry"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Persimmon",
+        "aliases": [
+          "persimon",
+          "sharon fruit"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gooseberry",
+        "aliases": [
+          "goosberry"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lychee",
+        "aliases": [
+          "litchi",
+          "lichee",
+          "lichi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Guava",
+        "tier": 60
+      },
+      {
+        "text": "Kumquat",
+        "aliases": [
+          "cumquat"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Passion fruit",
+        "aliases": [
+          "passionfruit",
+          "maracuya"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jackfruit",
+        "aliases": [
+          "jack fruit"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Elderberry",
+        "aliases": [
+          "elder berry"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Boysenberry",
+        "tier": 60
+      },
+      {
+        "text": "Star fruit",
+        "aliases": [
+          "starfruit",
+          "carambola"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Nectarine",
+        "aliases": [
+          "nectarene"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Date",
+        "tier": 60
+      },
+      {
+        "text": "Fig",
+        "tier": 60
+      },
+      {
+        "text": "Cranberry",
+        "aliases": [
+          "cranbery"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pomegranate",
+        "aliases": [
+          "pomegranite",
+          "pomagranate"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Currant",
+        "aliases": [
+          "blackcurrant",
+          "redcurrant",
+          "black currant"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Plantain",
+        "tier": 60
+      },
+      {
+        "text": "Blood orange",
+        "tier": 60
+      },
+      {
+        "text": "Clementine",
+        "aliases": [
+          "cutie"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tangerine",
+        "aliases": [
+          "mandarin",
+          "mandarine"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Olive",
+        "tier": 60
+      },
+      {
+        "text": "Rhubarb",
+        "tier": 60
+      },
+      {
+        "text": "Apricot",
+        "tier": 30
+      },
+      {
+        "text": "Cantaloupe",
+        "aliases": [
+          "cantelope",
+          "cantaloup",
+          "rockmelon"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Honeydew",
+        "aliases": [
+          "honeydew melon",
+          "honey dew"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Plum",
+        "tier": 30
+      },
+      {
+        "text": "Papaya",
+        "tier": 30
+      },
+      {
+        "text": "Coconut",
+        "aliases": [
+          "cocoanut"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Raspberry",
+        "aliases": [
+          "rasberry",
+          "raspbery"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Blackberry",
+        "aliases": [
+          "blackbery"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Blueberry",
+        "aliases": [
+          "bluberry"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kiwi",
+        "aliases": [
+          "kiwifruit",
+          "kiwi fruit"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lime",
+        "tier": 30
+      },
+      {
+        "text": "Grapefruit",
+        "aliases": [
+          "grape fruit"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mango",
+        "tier": 30
+      },
+      {
+        "text": "Pear",
+        "tier": 30
+      },
+      {
+        "text": "Melon",
+        "tier": 30
+      },
+      {
+        "text": "Prune",
+        "tier": 30
+      },
+      {
+        "text": "Raisin",
+        "tier": 30
+      },
+      {
+        "text": "Tomato",
+        "aliases": [
+          "tomatoe"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Avocado",
+        "aliases": [
+          "avacado"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cucumber",
+        "tier": 15
+      },
+      {
+        "text": "Dragon fruit",
+        "aliases": [
+          "pitaya",
+          "pitahaya",
+          "dragonfruit"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Pepper",
+        "aliases": [
+          "bell pepper"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Apple",
+        "tier": 10
+      },
+      {
+        "text": "Banana",
+        "aliases": [
+          "banan",
+          "bananna"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Orange",
+        "tier": 10
+      },
+      {
+        "text": "Strawberry",
+        "aliases": [
+          "strawbery"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Grape",
+        "tier": 10
+      },
+      {
+        "text": "Watermelon",
+        "aliases": [
+          "water melon"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pineapple",
+        "aliases": [
+          "pine apple",
+          "pinapple"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Cherry",
+        "tier": 10
+      },
+      {
+        "text": "Peach",
+        "tier": 10
+      },
+      {
+        "text": "Lemon",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Tomato sauce",
+      "Fruit salad",
+      "Peanut",
+      "Fruit",
+      "Berry",
+      "Jam"
+    ],
+    "notes": "Botanical edge cases (tomato, avocado, cucumber, pepper) count as Too Clever."
+  },
+  {
+    "id": "q0002",
+    "prompt": "Name a dog breed",
+    "category": "animals",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Xoloitzcuintli",
+        "aliases": [
+          "xolo",
+          "xoloitzcuintle",
+          "mexican hairless"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Basenji",
+        "tier": 85
+      },
+      {
+        "text": "Komondor",
+        "tier": 85
+      },
+      {
+        "text": "Puli",
+        "tier": 85
+      },
+      {
+        "text": "Leonberger",
+        "tier": 85
+      },
+      {
+        "text": "Borzoi",
+        "aliases": [
+          "russian wolfhound"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shiba Inu",
+        "aliases": [
+          "shiba"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Keeshond",
+        "tier": 85
+      },
+      {
+        "text": "Lhasa Apso",
+        "aliases": [
+          "lhasa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Briard",
+        "tier": 85
+      },
+      {
+        "text": "Saluki",
+        "tier": 85
+      },
+      {
+        "text": "Afghan Hound",
+        "aliases": [
+          "afghan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Irish Wolfhound",
+        "aliases": [
+          "wolfhound"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bedlington Terrier",
+        "aliases": [
+          "bedlington"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Otterhound",
+        "tier": 85
+      },
+      {
+        "text": "Pharaoh Hound",
+        "tier": 85
+      },
+      {
+        "text": "Rhodesian Ridgeback",
+        "aliases": [
+          "ridgeback"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tibetan Mastiff",
+        "tier": 85
+      },
+      {
+        "text": "Norwegian Elkhound",
+        "aliases": [
+          "elkhound"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bull Terrier",
+        "aliases": [
+          "english bull terrier"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Schipperke",
+        "tier": 85
+      },
+      {
+        "text": "Papillon",
+        "tier": 85
+      },
+      {
+        "text": "Affenpinscher",
+        "tier": 85
+      },
+      {
+        "text": "Bouvier des Flandres",
+        "aliases": [
+          "bouvier"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Coton de Tulear",
+        "aliases": [
+          "coton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Havanese",
+        "tier": 85
+      },
+      {
+        "text": "Cane Corso",
+        "aliases": [
+          "cane corsa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kooikerhondje",
+        "tier": 85
+      },
+      {
+        "text": "Catahoula",
+        "aliases": [
+          "catahoula leopard dog"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dogue de Bordeaux",
+        "aliases": [
+          "french mastiff"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shar Pei",
+        "aliases": [
+          "sharpei"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Akita",
+        "tier": 60
+      },
+      {
+        "text": "Whippet",
+        "tier": 60
+      },
+      {
+        "text": "Bloodhound",
+        "tier": 60
+      },
+      {
+        "text": "Mastiff",
+        "aliases": [
+          "english mastiff"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cocker Spaniel",
+        "aliases": [
+          "cocker"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cavalier King Charles Spaniel",
+        "aliases": [
+          "cavalier",
+          "king charles spaniel",
+          "cavalier king charles"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Samoyed",
+        "tier": 60
+      },
+      {
+        "text": "Weimaraner",
+        "aliases": [
+          "weimeraner"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Vizsla",
+        "tier": 60
+      },
+      {
+        "text": "Bichon Frise",
+        "aliases": [
+          "bichon"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Springer Spaniel",
+        "aliases": [
+          "english springer spaniel",
+          "springer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Irish Setter",
+        "aliases": [
+          "red setter"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pointer",
+        "aliases": [
+          "german shorthaired pointer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bullmastiff",
+        "aliases": [
+          "bull mastiff"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Westie",
+        "aliases": [
+          "west highland terrier",
+          "west highland white terrier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Scottish Terrier",
+        "aliases": [
+          "scottie"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Airedale",
+        "aliases": [
+          "airedale terrier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Old English Sheepdog",
+        "aliases": [
+          "sheepdog"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cattle dog",
+        "aliases": [
+          "australian cattle dog",
+          "blue heeler",
+          "heeler"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pekingese",
+        "aliases": [
+          "pekinese"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Boston Terrier",
+        "tier": 60
+      },
+      {
+        "text": "Miniature Pinscher",
+        "aliases": [
+          "min pin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Great Pyrenees",
+        "aliases": [
+          "pyrenees"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Malamute",
+        "aliases": [
+          "alaskan malamute"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pomeranian",
+        "aliases": [
+          "pomeranean"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Australian Shepherd",
+        "aliases": [
+          "aussie",
+          "australian shepard"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bernese Mountain Dog",
+        "aliases": [
+          "bernese",
+          "berner"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Saint Bernard",
+        "aliases": [
+          "st bernard",
+          "st. bernard"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Newfoundland",
+        "aliases": [
+          "newfie"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Boxer",
+        "tier": 30
+      },
+      {
+        "text": "Border Collie",
+        "tier": 30
+      },
+      {
+        "text": "Collie",
+        "tier": 30
+      },
+      {
+        "text": "Husky",
+        "aliases": [
+          "siberian husky"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rottweiler",
+        "aliases": [
+          "rottweiller",
+          "rotweiler"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Beagle",
+        "tier": 30
+      },
+      {
+        "text": "Great Dane",
+        "tier": 30
+      },
+      {
+        "text": "Doberman",
+        "aliases": [
+          "doberman pinscher",
+          "dobermann"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Greyhound",
+        "tier": 30
+      },
+      {
+        "text": "Chow Chow",
+        "aliases": [
+          "chow"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Basset Hound",
+        "aliases": [
+          "basset"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Schnauzer",
+        "aliases": [
+          "miniature schnauzer"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Yorkshire Terrier",
+        "aliases": [
+          "yorkie"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Maltese",
+        "tier": 30
+      },
+      {
+        "text": "Corgi",
+        "aliases": [
+          "welsh corgi",
+          "pembroke welsh corgi"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Shih Tzu",
+        "aliases": [
+          "shitzu",
+          "shih-tzu"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dalmatian",
+        "aliases": [
+          "dalmation"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Jack Russell Terrier",
+        "aliases": [
+          "jack russell",
+          "jack russel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Labradoodle",
+        "tier": 15
+      },
+      {
+        "text": "Goldendoodle",
+        "aliases": [
+          "golden doodle"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cockapoo",
+        "tier": 15
+      },
+      {
+        "text": "Puggle",
+        "tier": 15
+      },
+      {
+        "text": "Labrador Retriever",
+        "aliases": [
+          "labrador",
+          "lab"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Golden Retriever",
+        "aliases": [
+          "golden"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "German Shepherd",
+        "aliases": [
+          "german shepard",
+          "alsatian"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Poodle",
+        "tier": 10
+      },
+      {
+        "text": "Chihuahua",
+        "aliases": [
+          "chiuahua",
+          "chihuahau"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pit Bull",
+        "aliases": [
+          "pitbull",
+          "american pit bull terrier"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Bulldog",
+        "aliases": [
+          "english bulldog"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "French Bulldog",
+        "aliases": [
+          "frenchie",
+          "french bull dog"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pug",
+        "tier": 10
+      },
+      {
+        "text": "Dachshund",
+        "aliases": [
+          "wiener dog",
+          "sausage dog",
+          "daschund",
+          "dachsund",
+          "doxie"
+        ],
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Wolf",
+      "Coyote",
+      "Dingo",
+      "Retriever",
+      "Terrier",
+      "Mutt",
+      "Fox"
+    ],
+    "notes": "Designer crosses (Labradoodle etc.) count as Too Clever."
+  },
+  {
+    "id": "q0003",
+    "prompt": "Name a country in Africa",
+    "category": "geography",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Eswatini",
+        "aliases": [
+          "swaziland"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Comoros",
+        "tier": 85
+      },
+      {
+        "text": "Djibouti",
+        "aliases": [
+          "djbouti"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sao Tome and Principe",
+        "aliases": [
+          "sao tome",
+          "são tomé"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Equatorial Guinea",
+        "tier": 85
+      },
+      {
+        "text": "Guinea-Bissau",
+        "aliases": [
+          "guinea bissau"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cape Verde",
+        "aliases": [
+          "cabo verde"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Burkina Faso",
+        "tier": 85
+      },
+      {
+        "text": "Gabon",
+        "tier": 85
+      },
+      {
+        "text": "Lesotho",
+        "tier": 85
+      },
+      {
+        "text": "Benin",
+        "tier": 85
+      },
+      {
+        "text": "Togo",
+        "tier": 85
+      },
+      {
+        "text": "Mauritania",
+        "tier": 85
+      },
+      {
+        "text": "Eritrea",
+        "tier": 85
+      },
+      {
+        "text": "Burundi",
+        "tier": 85
+      },
+      {
+        "text": "Central African Republic",
+        "tier": 85
+      },
+      {
+        "text": "Seychelles",
+        "tier": 85
+      },
+      {
+        "text": "Gambia",
+        "aliases": [
+          "the gambia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Malawi",
+        "tier": 85
+      },
+      {
+        "text": "Guinea",
+        "tier": 85
+      },
+      {
+        "text": "Mauritius",
+        "tier": 85
+      },
+      {
+        "text": "Republic of the Congo",
+        "aliases": [
+          "congo brazzaville",
+          "congo republic"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Botswana",
+        "tier": 60
+      },
+      {
+        "text": "Namibia",
+        "tier": 60
+      },
+      {
+        "text": "Zambia",
+        "tier": 60
+      },
+      {
+        "text": "Mozambique",
+        "aliases": [
+          "mozambik"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Angola",
+        "tier": 60
+      },
+      {
+        "text": "Mali",
+        "tier": 60
+      },
+      {
+        "text": "Niger",
+        "tier": 60
+      },
+      {
+        "text": "Chad",
+        "tier": 60
+      },
+      {
+        "text": "Sierra Leone",
+        "tier": 60
+      },
+      {
+        "text": "Liberia",
+        "tier": 60
+      },
+      {
+        "text": "Cameroon",
+        "aliases": [
+          "cameroun"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ivory Coast",
+        "aliases": [
+          "cote d'ivoire"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Democratic Republic of the Congo",
+        "aliases": [
+          "drc",
+          "dr congo",
+          "congo kinshasa",
+          "zaire",
+          "congo"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "South Sudan",
+        "tier": 60
+      },
+      {
+        "text": "Sudan",
+        "tier": 30
+      },
+      {
+        "text": "Tunisia",
+        "tier": 30
+      },
+      {
+        "text": "Libya",
+        "tier": 30
+      },
+      {
+        "text": "Senegal",
+        "tier": 30
+      },
+      {
+        "text": "Rwanda",
+        "tier": 30
+      },
+      {
+        "text": "Uganda",
+        "tier": 30
+      },
+      {
+        "text": "Somalia",
+        "tier": 30
+      },
+      {
+        "text": "Zimbabwe",
+        "tier": 30
+      },
+      {
+        "text": "Ghana",
+        "tier": 30
+      },
+      {
+        "text": "Algeria",
+        "tier": 30
+      },
+      {
+        "text": "Morocco",
+        "aliases": [
+          "marocco"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tanzania",
+        "tier": 30
+      },
+      {
+        "text": "Madagascar",
+        "aliases": [
+          "madagaskar"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Nigeria",
+        "tier": 10
+      },
+      {
+        "text": "South Africa",
+        "tier": 10
+      },
+      {
+        "text": "Kenya",
+        "tier": 10
+      },
+      {
+        "text": "Egypt",
+        "tier": 10
+      },
+      {
+        "text": "Ethiopia",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Africa",
+      "Wakanda",
+      "Saudi Arabia",
+      "Yemen",
+      "Oman",
+      "Zanzibar",
+      "Western Sahara",
+      "Somaliland",
+      "Jamaica",
+      "Haiti"
+    ]
+  },
+  {
+    "id": "q0004",
+    "prompt": "Name a musical instrument",
+    "category": "music",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Theremin",
+        "tier": 100
+      },
+      {
+        "text": "Hurdy-gurdy",
+        "aliases": [
+          "hurdy gurdy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Didgeridoo",
+        "aliases": [
+          "didjeridu",
+          "didgeridu"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sitar",
+        "tier": 85
+      },
+      {
+        "text": "Celesta",
+        "aliases": [
+          "celeste"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lute",
+        "tier": 85
+      },
+      {
+        "text": "Harpsichord",
+        "tier": 85
+      },
+      {
+        "text": "Zither",
+        "tier": 85
+      },
+      {
+        "text": "Marimba",
+        "tier": 85
+      },
+      {
+        "text": "Glockenspiel",
+        "tier": 85
+      },
+      {
+        "text": "Bassoon",
+        "tier": 85
+      },
+      {
+        "text": "Oboe",
+        "tier": 85
+      },
+      {
+        "text": "English horn",
+        "aliases": [
+          "cor anglais"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Contrabassoon",
+        "tier": 85
+      },
+      {
+        "text": "Mbira",
+        "aliases": [
+          "kalimba",
+          "thumb piano"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tabla",
+        "tier": 85
+      },
+      {
+        "text": "Koto",
+        "tier": 85
+      },
+      {
+        "text": "Shamisen",
+        "tier": 85
+      },
+      {
+        "text": "Erhu",
+        "tier": 85
+      },
+      {
+        "text": "Balalaika",
+        "tier": 85
+      },
+      {
+        "text": "Dulcimer",
+        "aliases": [
+          "hammered dulcimer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ocarina",
+        "tier": 85
+      },
+      {
+        "text": "Melodica",
+        "tier": 85
+      },
+      {
+        "text": "Bodhran",
+        "tier": 85
+      },
+      {
+        "text": "Djembe",
+        "tier": 85
+      },
+      {
+        "text": "Castanets",
+        "tier": 85
+      },
+      {
+        "text": "Sousaphone",
+        "tier": 85
+      },
+      {
+        "text": "Euphonium",
+        "tier": 85
+      },
+      {
+        "text": "Flugelhorn",
+        "tier": 85
+      },
+      {
+        "text": "Cornet",
+        "tier": 85
+      },
+      {
+        "text": "Vibraphone",
+        "aliases": [
+          "vibes"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Steel drum",
+        "aliases": [
+          "steel pan",
+          "steelpan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pan flute",
+        "aliases": [
+          "panpipes",
+          "pan pipes"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lyre",
+        "tier": 85
+      },
+      {
+        "text": "Clavichord",
+        "tier": 85
+      },
+      {
+        "text": "Washboard",
+        "tier": 85
+      },
+      {
+        "text": "Mandolin",
+        "tier": 60
+      },
+      {
+        "text": "Kazoo",
+        "tier": 60
+      },
+      {
+        "text": "Bongos",
+        "aliases": [
+          "bongo"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "French horn",
+        "aliases": [
+          "horn"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Triangle",
+        "tier": 60
+      },
+      {
+        "text": "Piccolo",
+        "tier": 60
+      },
+      {
+        "text": "Organ",
+        "aliases": [
+          "pipe organ"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Double bass",
+        "aliases": [
+          "upright bass",
+          "contrabass",
+          "stand-up bass"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Viola",
+        "tier": 60
+      },
+      {
+        "text": "Cymbals",
+        "aliases": [
+          "cymbal"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Synthesizer",
+        "aliases": [
+          "synth"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Recorder",
+        "tier": 60
+      },
+      {
+        "text": "Timpani",
+        "aliases": [
+          "kettle drum",
+          "kettledrum"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Snare drum",
+        "aliases": [
+          "snare"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gong",
+        "tier": 60
+      },
+      {
+        "text": "Maracas",
+        "aliases": [
+          "maraca"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Concertina",
+        "tier": 60
+      },
+      {
+        "text": "Bass drum",
+        "tier": 60
+      },
+      {
+        "text": "Bagpipes",
+        "aliases": [
+          "bagpipe"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tambourine",
+        "tier": 30
+      },
+      {
+        "text": "Xylophone",
+        "tier": 30
+      },
+      {
+        "text": "Accordion",
+        "aliases": [
+          "accordian"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Banjo",
+        "tier": 30
+      },
+      {
+        "text": "Harp",
+        "tier": 30
+      },
+      {
+        "text": "Tuba",
+        "tier": 30
+      },
+      {
+        "text": "Harmonica",
+        "aliases": [
+          "mouth organ"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Clarinet",
+        "tier": 30
+      },
+      {
+        "text": "Trombone",
+        "tier": 30
+      },
+      {
+        "text": "Saxophone",
+        "aliases": [
+          "sax"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Flute",
+        "tier": 30
+      },
+      {
+        "text": "Cello",
+        "aliases": [
+          "violoncello"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ukulele",
+        "aliases": [
+          "uke",
+          "ukelele"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Electric guitar",
+        "tier": 30
+      },
+      {
+        "text": "Bass guitar",
+        "aliases": [
+          "bass"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Keyboard",
+        "tier": 30
+      },
+      {
+        "text": "Voice",
+        "aliases": [
+          "vocals",
+          "singing"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cowbell",
+        "tier": 15
+      },
+      {
+        "text": "Whistle",
+        "aliases": [
+          "tin whistle"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Piano",
+        "tier": 10
+      },
+      {
+        "text": "Guitar",
+        "tier": 10
+      },
+      {
+        "text": "Drums",
+        "aliases": [
+          "drum",
+          "drum kit",
+          "drum set"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Violin",
+        "aliases": [
+          "fiddle"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Trumpet",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Microphone",
+      "Speaker",
+      "Amplifier",
+      "Metronome",
+      "Radio",
+      "Turntable"
+    ]
+  },
+  {
+    "id": "q0005",
+    "prompt": "Name a board game",
+    "category": "games-toys",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Mouse Trap",
+        "aliases": [
+          "mousetrap"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Carcassonne",
+        "aliases": [
+          "carcasonne"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ticket to Ride",
+        "tier": 85
+      },
+      {
+        "text": "Pandemic",
+        "tier": 85
+      },
+      {
+        "text": "Mancala",
+        "tier": 85
+      },
+      {
+        "text": "Stratego",
+        "tier": 85
+      },
+      {
+        "text": "Othello",
+        "aliases": [
+          "reversi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Go",
+        "aliases": [
+          "weiqi",
+          "baduk"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Backgammon",
+        "tier": 85
+      },
+      {
+        "text": "Ludo",
+        "tier": 85
+      },
+      {
+        "text": "Parcheesi",
+        "aliases": [
+          "pachisi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Twilight Struggle",
+        "tier": 85
+      },
+      {
+        "text": "Agricola",
+        "tier": 85
+      },
+      {
+        "text": "Azul",
+        "tier": 85
+      },
+      {
+        "text": "Splendor",
+        "tier": 85
+      },
+      {
+        "text": "Wingspan",
+        "tier": 85
+      },
+      {
+        "text": "Terraforming Mars",
+        "tier": 85
+      },
+      {
+        "text": "Gloomhaven",
+        "tier": 85
+      },
+      {
+        "text": "Codenames",
+        "tier": 85
+      },
+      {
+        "text": "Dominion",
+        "tier": 85
+      },
+      {
+        "text": "King of Tokyo",
+        "tier": 85
+      },
+      {
+        "text": "Kingdomino",
+        "tier": 85
+      },
+      {
+        "text": "7 Wonders",
+        "aliases": [
+          "seven wonders"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Small World",
+        "tier": 85
+      },
+      {
+        "text": "Power Grid",
+        "tier": 85
+      },
+      {
+        "text": "Axis and Allies",
+        "tier": 85
+      },
+      {
+        "text": "Diplomacy",
+        "tier": 85
+      },
+      {
+        "text": "Shogi",
+        "tier": 85
+      },
+      {
+        "text": "Xiangqi",
+        "aliases": [
+          "chinese chess"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nine Men's Morris",
+        "tier": 85
+      },
+      {
+        "text": "Hive",
+        "tier": 85
+      },
+      {
+        "text": "Blokus",
+        "tier": 85
+      },
+      {
+        "text": "Qwirkle",
+        "tier": 85
+      },
+      {
+        "text": "Labyrinth",
+        "tier": 85
+      },
+      {
+        "text": "Mastermind",
+        "tier": 85
+      },
+      {
+        "text": "Ouija",
+        "aliases": [
+          "ouija board"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rummikub",
+        "tier": 85
+      },
+      {
+        "text": "Sequence",
+        "tier": 85
+      },
+      {
+        "text": "Trouble",
+        "tier": 60
+      },
+      {
+        "text": "Cranium",
+        "tier": 60
+      },
+      {
+        "text": "Chinese Checkers",
+        "tier": 60
+      },
+      {
+        "text": "Scattergories",
+        "tier": 60
+      },
+      {
+        "text": "Boggle",
+        "tier": 60
+      },
+      {
+        "text": "Apples to Apples",
+        "tier": 60
+      },
+      {
+        "text": "Taboo",
+        "tier": 60
+      },
+      {
+        "text": "Payday",
+        "tier": 60
+      },
+      {
+        "text": "Hungry Hungry Hippos",
+        "aliases": [
+          "hungry hippos"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Settlers of Catan",
+        "aliases": [
+          "catan"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pictionary",
+        "tier": 30
+      },
+      {
+        "text": "Snakes and Ladders",
+        "aliases": [
+          "chutes and ladders"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Life",
+        "aliases": [
+          "game of life",
+          "the game of life"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Connect Four",
+        "aliases": [
+          "connect 4"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sorry",
+        "aliases": [
+          "sorry!"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Candy Land",
+        "aliases": [
+          "candyland"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Trivial Pursuit",
+        "tier": 30
+      },
+      {
+        "text": "Guess Who",
+        "aliases": [
+          "guess who?"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Battleship",
+        "tier": 30
+      },
+      {
+        "text": "Risk",
+        "tier": 30
+      },
+      {
+        "text": "Operation",
+        "tier": 30
+      },
+      {
+        "text": "Yahtzee",
+        "tier": 30
+      },
+      {
+        "text": "Twister",
+        "tier": 15
+      },
+      {
+        "text": "Jenga",
+        "tier": 15
+      },
+      {
+        "text": "Tic-tac-toe",
+        "aliases": [
+          "tic tac toe",
+          "noughts and crosses"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Checkers",
+        "aliases": [
+          "draughts"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Clue",
+        "aliases": [
+          "cluedo"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Scrabble",
+        "tier": 10
+      },
+      {
+        "text": "Monopoly",
+        "tier": 10
+      },
+      {
+        "text": "Chess",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Uno",
+      "Poker",
+      "Solitaire",
+      "Blackjack",
+      "Cards",
+      "Go Fish",
+      "Dominoes",
+      "Bingo"
+    ]
+  },
+  {
+    "id": "q0006",
+    "prompt": "Name a chemical element",
+    "category": "science",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Tungsten",
+        "aliases": [
+          "wolfram"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Molybdenum",
+        "aliases": [
+          "molybdenium"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Praseodymium",
+        "tier": 85
+      },
+      {
+        "text": "Ytterbium",
+        "tier": 85
+      },
+      {
+        "text": "Yttrium",
+        "tier": 85
+      },
+      {
+        "text": "Bismuth",
+        "tier": 85
+      },
+      {
+        "text": "Tellurium",
+        "tier": 85
+      },
+      {
+        "text": "Gallium",
+        "tier": 85
+      },
+      {
+        "text": "Hafnium",
+        "tier": 85
+      },
+      {
+        "text": "Rubidium",
+        "tier": 85
+      },
+      {
+        "text": "Scandium",
+        "tier": 85
+      },
+      {
+        "text": "Osmium",
+        "tier": 85
+      },
+      {
+        "text": "Iridium",
+        "tier": 85
+      },
+      {
+        "text": "Rhodium",
+        "tier": 85
+      },
+      {
+        "text": "Selenium",
+        "tier": 85
+      },
+      {
+        "text": "Antimony",
+        "tier": 85
+      },
+      {
+        "text": "Thallium",
+        "tier": 85
+      },
+      {
+        "text": "Francium",
+        "tier": 85
+      },
+      {
+        "text": "Californium",
+        "tier": 85
+      },
+      {
+        "text": "Indium",
+        "tier": 85
+      },
+      {
+        "text": "Vanadium",
+        "tier": 85
+      },
+      {
+        "text": "Niobium",
+        "tier": 85
+      },
+      {
+        "text": "Tantalum",
+        "tier": 85
+      },
+      {
+        "text": "Rhenium",
+        "tier": 85
+      },
+      {
+        "text": "Ruthenium",
+        "tier": 85
+      },
+      {
+        "text": "Zirconium",
+        "tier": 85
+      },
+      {
+        "text": "Lanthanum",
+        "tier": 85
+      },
+      {
+        "text": "Cerium",
+        "tier": 85
+      },
+      {
+        "text": "Neodymium",
+        "tier": 85
+      },
+      {
+        "text": "Europium",
+        "tier": 85
+      },
+      {
+        "text": "Gadolinium",
+        "tier": 85
+      },
+      {
+        "text": "Astatine",
+        "tier": 85
+      },
+      {
+        "text": "Actinium",
+        "tier": 85
+      },
+      {
+        "text": "Americium",
+        "tier": 85
+      },
+      {
+        "text": "Curium",
+        "tier": 85
+      },
+      {
+        "text": "Nobelium",
+        "tier": 85
+      },
+      {
+        "text": "Lawrencium",
+        "tier": 85
+      },
+      {
+        "text": "Darmstadtium",
+        "tier": 85
+      },
+      {
+        "text": "Oganesson",
+        "tier": 85
+      },
+      {
+        "text": "Tennessine",
+        "tier": 85
+      },
+      {
+        "text": "Moscovium",
+        "tier": 85
+      },
+      {
+        "text": "Nihonium",
+        "tier": 85
+      },
+      {
+        "text": "Bohrium",
+        "tier": 85
+      },
+      {
+        "text": "Seaborgium",
+        "tier": 85
+      },
+      {
+        "text": "Mendelevium",
+        "tier": 85
+      },
+      {
+        "text": "Fermium",
+        "tier": 85
+      },
+      {
+        "text": "Berkelium",
+        "tier": 85
+      },
+      {
+        "text": "Samarium",
+        "tier": 85
+      },
+      {
+        "text": "Terbium",
+        "tier": 85
+      },
+      {
+        "text": "Dysprosium",
+        "tier": 85
+      },
+      {
+        "text": "Holmium",
+        "tier": 85
+      },
+      {
+        "text": "Erbium",
+        "tier": 85
+      },
+      {
+        "text": "Thulium",
+        "tier": 85
+      },
+      {
+        "text": "Lutetium",
+        "tier": 85
+      },
+      {
+        "text": "Protactinium",
+        "tier": 85
+      },
+      {
+        "text": "Neptunium",
+        "tier": 85
+      },
+      {
+        "text": "Technetium",
+        "tier": 85
+      },
+      {
+        "text": "Promethium",
+        "tier": 60
+      },
+      {
+        "text": "Thorium",
+        "tier": 60
+      },
+      {
+        "text": "Cadmium",
+        "tier": 60
+      },
+      {
+        "text": "Polonium",
+        "tier": 60
+      },
+      {
+        "text": "Barium",
+        "tier": 60
+      },
+      {
+        "text": "Palladium",
+        "tier": 60
+      },
+      {
+        "text": "Strontium",
+        "tier": 60
+      },
+      {
+        "text": "Germanium",
+        "tier": 60
+      },
+      {
+        "text": "Radon",
+        "tier": 60
+      },
+      {
+        "text": "Krypton",
+        "tier": 60
+      },
+      {
+        "text": "Xenon",
+        "tier": 60
+      },
+      {
+        "text": "Beryllium",
+        "tier": 60
+      },
+      {
+        "text": "Boron",
+        "tier": 60
+      },
+      {
+        "text": "Fluorine",
+        "tier": 60
+      },
+      {
+        "text": "Phosphorus",
+        "aliases": [
+          "phosphorous"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sulfur",
+        "aliases": [
+          "sulphur"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Nickel",
+        "tier": 60
+      },
+      {
+        "text": "Chromium",
+        "tier": 60
+      },
+      {
+        "text": "Manganese",
+        "tier": 60
+      },
+      {
+        "text": "Cesium",
+        "aliases": [
+          "caesium"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Arsenic",
+        "tier": 60
+      },
+      {
+        "text": "Radium",
+        "tier": 60
+      },
+      {
+        "text": "Cobalt",
+        "tier": 60
+      },
+      {
+        "text": "Bromine",
+        "tier": 60
+      },
+      {
+        "text": "Argon",
+        "tier": 30
+      },
+      {
+        "text": "Lithium",
+        "tier": 30
+      },
+      {
+        "text": "Titanium",
+        "tier": 30
+      },
+      {
+        "text": "Platinum",
+        "tier": 30
+      },
+      {
+        "text": "Potassium",
+        "tier": 30
+      },
+      {
+        "text": "Chlorine",
+        "tier": 30
+      },
+      {
+        "text": "Neon",
+        "tier": 30
+      },
+      {
+        "text": "Helium",
+        "tier": 30
+      },
+      {
+        "text": "Sodium",
+        "tier": 30
+      },
+      {
+        "text": "Calcium",
+        "tier": 30
+      },
+      {
+        "text": "Magnesium",
+        "tier": 30
+      },
+      {
+        "text": "Lead",
+        "tier": 30
+      },
+      {
+        "text": "Copper",
+        "tier": 30
+      },
+      {
+        "text": "Silver",
+        "tier": 30
+      },
+      {
+        "text": "Uranium",
+        "tier": 30
+      },
+      {
+        "text": "Aluminum",
+        "aliases": [
+          "aluminium"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Silicon",
+        "tier": 30
+      },
+      {
+        "text": "Iodine",
+        "tier": 30
+      },
+      {
+        "text": "Zinc",
+        "tier": 30
+      },
+      {
+        "text": "Tin",
+        "tier": 30
+      },
+      {
+        "text": "Mercury",
+        "tier": 30
+      },
+      {
+        "text": "Einsteinium",
+        "tier": 15
+      },
+      {
+        "text": "Plutonium",
+        "tier": 15
+      },
+      {
+        "text": "Copernicium",
+        "tier": 15
+      },
+      {
+        "text": "Hydrogen",
+        "tier": 10
+      },
+      {
+        "text": "Oxygen",
+        "tier": 10
+      },
+      {
+        "text": "Carbon",
+        "tier": 10
+      },
+      {
+        "text": "Iron",
+        "tier": 10
+      },
+      {
+        "text": "Gold",
+        "tier": 10
+      },
+      {
+        "text": "Nitrogen",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Water",
+      "Steel",
+      "Brass",
+      "Bronze",
+      "Salt",
+      "Kryptonite",
+      "Vibranium",
+      "Adamantium",
+      "Air",
+      "Fire",
+      "Earth"
+    ]
+  },
+  {
+    "id": "q0007",
+    "prompt": "Name a vegetable",
+    "category": "food",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Romanesco",
+        "aliases": [
+          "romanesco broccoli"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Kohlrabi",
+        "tier": 85
+      },
+      {
+        "text": "Celeriac",
+        "aliases": [
+          "celery root"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Salsify",
+        "tier": 85
+      },
+      {
+        "text": "Jicama",
+        "tier": 85
+      },
+      {
+        "text": "Rutabaga",
+        "aliases": [
+          "swede"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Daikon",
+        "tier": 85
+      },
+      {
+        "text": "Radicchio",
+        "tier": 85
+      },
+      {
+        "text": "Endive",
+        "tier": 85
+      },
+      {
+        "text": "Taro",
+        "tier": 85
+      },
+      {
+        "text": "Cassava",
+        "aliases": [
+          "yuca",
+          "manioc"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chayote",
+        "tier": 85
+      },
+      {
+        "text": "Fiddlehead",
+        "aliases": [
+          "fiddlehead fern"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sunchoke",
+        "aliases": [
+          "jerusalem artichoke"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Burdock",
+        "tier": 85
+      },
+      {
+        "text": "Bitter melon",
+        "aliases": [
+          "bitter gourd"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lotus root",
+        "tier": 85
+      },
+      {
+        "text": "Water chestnut",
+        "tier": 85
+      },
+      {
+        "text": "Ramps",
+        "aliases": [
+          "wild leek"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Garlic scape",
+        "tier": 85
+      },
+      {
+        "text": "Broccolini",
+        "tier": 85
+      },
+      {
+        "text": "Broccoli rabe",
+        "aliases": [
+          "rapini"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Collard greens",
+        "aliases": [
+          "collards"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mustard greens",
+        "tier": 85
+      },
+      {
+        "text": "Turnip greens",
+        "tier": 85
+      },
+      {
+        "text": "Shallot",
+        "tier": 85
+      },
+      {
+        "text": "Scallion",
+        "aliases": [
+          "green onion",
+          "spring onion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Napa cabbage",
+        "aliases": [
+          "chinese cabbage"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tomatillo",
+        "tier": 85
+      },
+      {
+        "text": "Purslane",
+        "tier": 85
+      },
+      {
+        "text": "Nopales",
+        "aliases": [
+          "cactus paddle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Horseradish",
+        "tier": 85
+      },
+      {
+        "text": "Delicata squash",
+        "aliases": [
+          "acorn squash"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mizuna",
+        "tier": 85
+      },
+      {
+        "text": "Edamame",
+        "tier": 85
+      },
+      {
+        "text": "Parsnip",
+        "tier": 60
+      },
+      {
+        "text": "Fennel",
+        "tier": 60
+      },
+      {
+        "text": "Bok choy",
+        "aliases": [
+          "pak choi",
+          "bok choi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Okra",
+        "tier": 60
+      },
+      {
+        "text": "Artichoke",
+        "aliases": [
+          "artichoak"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Watercress",
+        "tier": 60
+      },
+      {
+        "text": "Leek",
+        "tier": 60
+      },
+      {
+        "text": "Turnip",
+        "tier": 60
+      },
+      {
+        "text": "Beet",
+        "aliases": [
+          "beetroot"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Radish",
+        "tier": 60
+      },
+      {
+        "text": "Arugula",
+        "aliases": [
+          "rocket"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Swiss chard",
+        "aliases": [
+          "chard"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kale",
+        "tier": 60
+      },
+      {
+        "text": "Squash",
+        "aliases": [
+          "butternut squash"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Eggplant",
+        "aliases": [
+          "aubergine"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Zucchini",
+        "aliases": [
+          "courgette"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Asparagus",
+        "aliases": [
+          "asparagas"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sweet potato",
+        "tier": 60
+      },
+      {
+        "text": "Yam",
+        "tier": 60
+      },
+      {
+        "text": "Bean sprouts",
+        "tier": 60
+      },
+      {
+        "text": "Snap pea",
+        "aliases": [
+          "snow pea",
+          "sugar snap pea"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pumpkin",
+        "tier": 60
+      },
+      {
+        "text": "Brussels sprouts",
+        "aliases": [
+          "brussel sprouts",
+          "brussel sprout"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cauliflower",
+        "aliases": [
+          "califlower"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Spinach",
+        "aliases": [
+          "spinnach"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pea",
+        "tier": 30
+      },
+      {
+        "text": "Green bean",
+        "aliases": [
+          "string bean"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Celery",
+        "tier": 30
+      },
+      {
+        "text": "Garlic",
+        "tier": 30
+      },
+      {
+        "text": "Mushroom",
+        "tier": 30
+      },
+      {
+        "text": "Bell pepper",
+        "aliases": [
+          "capsicum"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cabbage",
+        "aliases": [
+          "cabage"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lima bean",
+        "tier": 30
+      },
+      {
+        "text": "Beans",
+        "tier": 30
+      },
+      {
+        "text": "Tomato",
+        "aliases": [
+          "tomatoe"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Cucumber",
+        "tier": 15
+      },
+      {
+        "text": "Avocado",
+        "aliases": [
+          "avacado"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Ketchup",
+        "tier": 15
+      },
+      {
+        "text": "Onion",
+        "tier": 10
+      },
+      {
+        "text": "Lettuce",
+        "aliases": [
+          "letuce"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Carrot",
+        "aliases": [
+          "carot"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Broccoli",
+        "aliases": [
+          "brocoli",
+          "brocolli"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Potato",
+        "aliases": [
+          "potatoe"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Corn",
+        "aliases": [
+          "sweetcorn",
+          "maize",
+          "sweet corn"
+        ],
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Rice",
+      "Salad",
+      "French fries",
+      "Apple",
+      "Vegetable"
+    ],
+    "notes": "Fruits eaten as vegetables (tomato, cucumber, avocado) count as Too Clever."
+  },
+  {
+    "id": "q0008",
+    "prompt": "Name a car brand",
+    "category": "vehicles",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "DeLorean",
+        "aliases": [
+          "de lorean",
+          "delorian"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Koenigsegg",
+        "aliases": [
+          "koenigseg"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pagani",
+        "tier": 85
+      },
+      {
+        "text": "Bugatti",
+        "tier": 85
+      },
+      {
+        "text": "Maserati",
+        "tier": 85
+      },
+      {
+        "text": "Lotus",
+        "tier": 85
+      },
+      {
+        "text": "Alfa Romeo",
+        "aliases": [
+          "alfa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Saab",
+        "tier": 85
+      },
+      {
+        "text": "Peugeot",
+        "aliases": [
+          "pugeot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Citroen",
+        "aliases": [
+          "citroën"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Renault",
+        "tier": 85
+      },
+      {
+        "text": "Skoda",
+        "tier": 85
+      },
+      {
+        "text": "SEAT",
+        "tier": 85
+      },
+      {
+        "text": "Opel",
+        "tier": 85
+      },
+      {
+        "text": "Vauxhall",
+        "tier": 85
+      },
+      {
+        "text": "Lada",
+        "tier": 85
+      },
+      {
+        "text": "Rivian",
+        "tier": 85
+      },
+      {
+        "text": "Lucid",
+        "tier": 85
+      },
+      {
+        "text": "Polestar",
+        "tier": 85
+      },
+      {
+        "text": "Genesis",
+        "tier": 85
+      },
+      {
+        "text": "Fiat",
+        "tier": 85
+      },
+      {
+        "text": "Mini",
+        "aliases": [
+          "mini cooper"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Smart",
+        "aliases": [
+          "smart car"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dacia",
+        "tier": 85
+      },
+      {
+        "text": "Proton",
+        "tier": 85
+      },
+      {
+        "text": "Tata",
+        "tier": 85
+      },
+      {
+        "text": "Mahindra",
+        "tier": 85
+      },
+      {
+        "text": "BYD",
+        "tier": 85
+      },
+      {
+        "text": "Geely",
+        "tier": 85
+      },
+      {
+        "text": "Hummer",
+        "tier": 85
+      },
+      {
+        "text": "Plymouth",
+        "tier": 85
+      },
+      {
+        "text": "Oldsmobile",
+        "tier": 85
+      },
+      {
+        "text": "Saturn",
+        "tier": 85
+      },
+      {
+        "text": "Mercury",
+        "tier": 85
+      },
+      {
+        "text": "AMC",
+        "tier": 85
+      },
+      {
+        "text": "Studebaker",
+        "tier": 85
+      },
+      {
+        "text": "Packard",
+        "tier": 85
+      },
+      {
+        "text": "Datsun",
+        "tier": 85
+      },
+      {
+        "text": "Scion",
+        "tier": 85
+      },
+      {
+        "text": "Isuzu",
+        "tier": 85
+      },
+      {
+        "text": "Suzuki",
+        "tier": 85
+      },
+      {
+        "text": "Fisker",
+        "tier": 85
+      },
+      {
+        "text": "Spyker",
+        "tier": 85
+      },
+      {
+        "text": "Maybach",
+        "tier": 85
+      },
+      {
+        "text": "Hennessey",
+        "tier": 85
+      },
+      {
+        "text": "Shelby",
+        "tier": 85
+      },
+      {
+        "text": "Rimac",
+        "tier": 85
+      },
+      {
+        "text": "Aston Martin",
+        "tier": 60
+      },
+      {
+        "text": "Bentley",
+        "tier": 60
+      },
+      {
+        "text": "Rolls-Royce",
+        "aliases": [
+          "rolls royce"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "McLaren",
+        "tier": 60
+      },
+      {
+        "text": "Jaguar",
+        "tier": 60
+      },
+      {
+        "text": "Land Rover",
+        "aliases": [
+          "range rover"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Volvo",
+        "tier": 60
+      },
+      {
+        "text": "Mitsubishi",
+        "tier": 60
+      },
+      {
+        "text": "Acura",
+        "tier": 60
+      },
+      {
+        "text": "Infiniti",
+        "aliases": [
+          "infinity"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lincoln",
+        "tier": 60
+      },
+      {
+        "text": "Buick",
+        "tier": 60
+      },
+      {
+        "text": "Chrysler",
+        "tier": 60
+      },
+      {
+        "text": "GMC",
+        "tier": 60
+      },
+      {
+        "text": "Pontiac",
+        "tier": 60
+      },
+      {
+        "text": "Alpine",
+        "tier": 60
+      },
+      {
+        "text": "Cadillac",
+        "tier": 30
+      },
+      {
+        "text": "Lamborghini",
+        "aliases": [
+          "lambo"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Porsche",
+        "tier": 30
+      },
+      {
+        "text": "Ferrari",
+        "tier": 30
+      },
+      {
+        "text": "Hyundai",
+        "aliases": [
+          "hyundia"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kia",
+        "tier": 30
+      },
+      {
+        "text": "Mazda",
+        "tier": 30
+      },
+      {
+        "text": "Subaru",
+        "tier": 30
+      },
+      {
+        "text": "Lexus",
+        "tier": 30
+      },
+      {
+        "text": "Audi",
+        "tier": 30
+      },
+      {
+        "text": "Volkswagen",
+        "aliases": [
+          "vw"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Nissan",
+        "tier": 30
+      },
+      {
+        "text": "Mercedes-Benz",
+        "aliases": [
+          "mercedes",
+          "benz"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dodge",
+        "tier": 30
+      },
+      {
+        "text": "Jeep",
+        "tier": 30
+      },
+      {
+        "text": "Ram",
+        "tier": 30
+      },
+      {
+        "text": "Tesla",
+        "tier": 15
+      },
+      {
+        "text": "Batmobile",
+        "tier": 15
+      },
+      {
+        "text": "Hot Wheels",
+        "tier": 15
+      },
+      {
+        "text": "Toyota",
+        "tier": 10
+      },
+      {
+        "text": "Ford",
+        "tier": 10
+      },
+      {
+        "text": "Honda",
+        "tier": 10
+      },
+      {
+        "text": "BMW",
+        "tier": 10
+      },
+      {
+        "text": "Chevrolet",
+        "aliases": [
+          "chevy"
+        ],
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Harley-Davidson",
+      "harley",
+      "Ducati",
+      "Boeing",
+      "Yamaha",
+      "Uber",
+      "Kawasaki",
+      "Michelin",
+      "Goodyear",
+      "Vespa"
+    ]
+  },
+  {
+    "id": "q0009",
+    "prompt": "Name a sport played with a ball",
+    "category": "sports",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Sepak takraw",
+        "aliases": [
+          "sepaktakraw",
+          "kick volleyball"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Hurling",
+        "tier": 85
+      },
+      {
+        "text": "Jai alai",
+        "tier": 85
+      },
+      {
+        "text": "Pelota",
+        "aliases": [
+          "basque pelota"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gaelic football",
+        "tier": 85
+      },
+      {
+        "text": "Bocce",
+        "aliases": [
+          "bocci"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Croquet",
+        "tier": 85
+      },
+      {
+        "text": "Lacrosse",
+        "aliases": [
+          "lacross"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Polo",
+        "tier": 85
+      },
+      {
+        "text": "Water polo",
+        "tier": 85
+      },
+      {
+        "text": "Handball",
+        "aliases": [
+          "team handball"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Squash",
+        "tier": 85
+      },
+      {
+        "text": "Racquetball",
+        "aliases": [
+          "racketball"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pickleball",
+        "tier": 85
+      },
+      {
+        "text": "Korfball",
+        "tier": 85
+      },
+      {
+        "text": "Netball",
+        "tier": 85
+      },
+      {
+        "text": "Futsal",
+        "tier": 85
+      },
+      {
+        "text": "Rounders",
+        "tier": 85
+      },
+      {
+        "text": "Petanque",
+        "aliases": [
+          "boules"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Padel",
+        "aliases": [
+          "paddle tennis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paddleball",
+        "tier": 85
+      },
+      {
+        "text": "Four square",
+        "aliases": [
+          "4 square"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tetherball",
+        "tier": 85
+      },
+      {
+        "text": "Wallyball",
+        "tier": 85
+      },
+      {
+        "text": "Teqball",
+        "tier": 85
+      },
+      {
+        "text": "Footvolley",
+        "tier": 85
+      },
+      {
+        "text": "Spikeball",
+        "aliases": [
+          "roundnet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Stickball",
+        "tier": 85
+      },
+      {
+        "text": "Wiffle ball",
+        "aliases": [
+          "whiffle ball"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Goalball",
+        "tier": 85
+      },
+      {
+        "text": "Bandy",
+        "tier": 85
+      },
+      {
+        "text": "Sitball",
+        "tier": 85
+      },
+      {
+        "text": "Shinty",
+        "tier": 85
+      },
+      {
+        "text": "Hacky sack",
+        "aliases": [
+          "footbag"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Camogie",
+        "tier": 85
+      },
+      {
+        "text": "Canadian football",
+        "tier": 85
+      },
+      {
+        "text": "Medicine ball",
+        "tier": 85
+      },
+      {
+        "text": "Australian rules football",
+        "aliases": [
+          "aussie rules",
+          "afl"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Skee-ball",
+        "aliases": [
+          "skeeball"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Billiards",
+        "aliases": [
+          "pool",
+          "snooker"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Field hockey",
+        "tier": 30
+      },
+      {
+        "text": "Beach volleyball",
+        "tier": 30
+      },
+      {
+        "text": "Badminton",
+        "tier": 30
+      },
+      {
+        "text": "Ping pong",
+        "aliases": [
+          "table tennis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bowling",
+        "tier": 30
+      },
+      {
+        "text": "Softball",
+        "tier": 30
+      },
+      {
+        "text": "Rugby",
+        "aliases": [
+          "rugby union",
+          "rugby league"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cricket",
+        "tier": 30
+      },
+      {
+        "text": "Golf",
+        "tier": 30
+      },
+      {
+        "text": "Volleyball",
+        "aliases": [
+          "volley ball"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tennis",
+        "tier": 30
+      },
+      {
+        "text": "Kickball",
+        "tier": 15
+      },
+      {
+        "text": "Dodgeball",
+        "aliases": [
+          "dodge ball"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Quidditch",
+        "aliases": [
+          "quadball"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Soccer",
+        "aliases": [
+          "football",
+          "association football"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Basketball",
+        "aliases": [
+          "basket ball"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "American football",
+        "tier": 10
+      },
+      {
+        "text": "Baseball",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "Juggling",
+      "Swimming",
+      "Running",
+      "Boxing",
+      "Wrestling",
+      "Track",
+      "Ice skating",
+      "Ice hockey",
+      "Hockey",
+      "Badminton shuttlecock",
+      "Curling"
+    ]
+  },
+  {
+    "id": "q0010",
+    "prompt": "Name an animal that lives in the ocean",
+    "category": "animals",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Vampire squid",
+        "tier": 100
+      },
+      {
+        "text": "Nudibranch",
+        "aliases": [
+          "sea slug"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Narwhal",
+        "aliases": [
+          "narwal"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dugong",
+        "tier": 85
+      },
+      {
+        "text": "Anglerfish",
+        "aliases": [
+          "angler fish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sea cucumber",
+        "tier": 85
+      },
+      {
+        "text": "Sea urchin",
+        "aliases": [
+          "urchin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Barracuda",
+        "tier": 85
+      },
+      {
+        "text": "Moray eel",
+        "aliases": [
+          "moray"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Coelacanth",
+        "tier": 85
+      },
+      {
+        "text": "Oarfish",
+        "tier": 85
+      },
+      {
+        "text": "Sunfish",
+        "aliases": [
+          "mola mola",
+          "ocean sunfish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hammerhead shark",
+        "aliases": [
+          "hammerhead"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lionfish",
+        "tier": 85
+      },
+      {
+        "text": "Cuttlefish",
+        "aliases": [
+          "cuttle fish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mantis shrimp",
+        "tier": 85
+      },
+      {
+        "text": "Hagfish",
+        "tier": 85
+      },
+      {
+        "text": "Sea pen",
+        "tier": 85
+      },
+      {
+        "text": "Blobfish",
+        "tier": 85
+      },
+      {
+        "text": "Sea anemone",
+        "aliases": [
+          "anemone"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sea sponge",
+        "aliases": [
+          "sponge"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Goblin shark",
+        "tier": 85
+      },
+      {
+        "text": "Whale shark",
+        "tier": 85
+      },
+      {
+        "text": "Basking shark",
+        "tier": 85
+      },
+      {
+        "text": "Sea dragon",
+        "aliases": [
+          "leafy sea dragon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pipefish",
+        "tier": 85
+      },
+      {
+        "text": "Triggerfish",
+        "tier": 85
+      },
+      {
+        "text": "Parrotfish",
+        "aliases": [
+          "parrot fish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Grouper",
+        "tier": 85
+      },
+      {
+        "text": "Halibut",
+        "tier": 85
+      },
+      {
+        "text": "Flounder",
+        "tier": 85
+      },
+      {
+        "text": "Sardine",
+        "tier": 85
+      },
+      {
+        "text": "Anchovy",
+        "tier": 85
+      },
+      {
+        "text": "Mackerel",
+        "tier": 85
+      },
+      {
+        "text": "Herring",
+        "tier": 85
+      },
+      {
+        "text": "Cod",
+        "tier": 85
+      },
+      {
+        "text": "Tuna",
+        "tier": 85
+      },
+      {
+        "text": "Marlin",
+        "tier": 85
+      },
+      {
+        "text": "Swordfish",
+        "tier": 85
+      },
+      {
+        "text": "Sea lion",
+        "tier": 85
+      },
+      {
+        "text": "Elephant seal",
+        "tier": 85
+      },
+      {
+        "text": "Leatherback",
+        "aliases": [
+          "leatherback turtle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hermit crab",
+        "tier": 85
+      },
+      {
+        "text": "King crab",
+        "tier": 85
+      },
+      {
+        "text": "Box jellyfish",
+        "tier": 85
+      },
+      {
+        "text": "Portuguese man o' war",
+        "aliases": [
+          "man o war"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Giant squid",
+        "tier": 85
+      },
+      {
+        "text": "Colossal squid",
+        "tier": 85
+      },
+      {
+        "text": "Sea otter",
+        "tier": 60
+      },
+      {
+        "text": "Manta ray",
+        "aliases": [
+          "manta"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Barnacle",
+        "tier": 60
+      },
+      {
+        "text": "Mussel",
+        "tier": 60
+      },
+      {
+        "text": "Pufferfish",
+        "aliases": [
+          "puffer fish",
+          "blowfish"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Beluga",
+        "aliases": [
+          "beluga whale"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Clownfish",
+        "aliases": [
+          "clown fish"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Blue whale",
+        "tier": 60
+      },
+      {
+        "text": "Humpback whale",
+        "aliases": [
+          "humpback"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sperm whale",
+        "tier": 60
+      },
+      {
+        "text": "Scallop",
+        "tier": 60
+      },
+      {
+        "text": "Sea snail",
+        "aliases": [
+          "snail"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Eel",
+        "tier": 60
+      },
+      {
+        "text": "Stingray",
+        "aliases": [
+          "sting ray"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Walrus",
+        "tier": 30
+      },
+      {
+        "text": "Manatee",
+        "tier": 30
+      },
+      {
+        "text": "Great white shark",
+        "aliases": [
+          "great white"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Oyster",
+        "tier": 30
+      },
+      {
+        "text": "Clam",
+        "tier": 30
+      },
+      {
+        "text": "Seahorse",
+        "aliases": [
+          "sea horse"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Orca",
+        "aliases": [
+          "killer whale"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sea turtle",
+        "aliases": [
+          "turtle"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Squid",
+        "tier": 30
+      },
+      {
+        "text": "Crab",
+        "tier": 30
+      },
+      {
+        "text": "Lobster",
+        "tier": 30
+      },
+      {
+        "text": "Shrimp",
+        "aliases": [
+          "prawn"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Seal",
+        "tier": 30
+      },
+      {
+        "text": "Starfish",
+        "aliases": [
+          "sea star"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Penguin",
+        "tier": 30
+      },
+      {
+        "text": "Coral",
+        "tier": 15
+      },
+      {
+        "text": "Krill",
+        "tier": 15
+      },
+      {
+        "text": "Plankton",
+        "tier": 15
+      },
+      {
+        "text": "Jellyfish",
+        "aliases": [
+          "jelly fish"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Octopus",
+        "aliases": [
+          "octopi",
+          "octopuses"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Shark",
+        "tier": 10
+      },
+      {
+        "text": "Whale",
+        "tier": 10
+      },
+      {
+        "text": "Dolphin",
+        "tier": 10
+      },
+      {
+        "text": "Fish",
+        "tier": 10
+      }
+    ],
+    "nearMisses": [
+      "SpongeBob",
+      "Frog",
+      "Hippo",
+      "Crocodile",
+      "Alligator",
+      "Beaver",
+      "Duck",
+      "Nemo",
+      "Mermaid",
+      "Kraken"
+    ]
+  }
+]

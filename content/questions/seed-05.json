@@ -1,0 +1,8513 @@
+[
+  {
+    "id": "q0041",
+    "prompt": "Name a shape or type of pasta",
+    "category": "food",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Radiatori",
+        "tier": 100
+      },
+      {
+        "text": "Spaghetti",
+        "tier": 10
+      },
+      {
+        "text": "Macaroni",
+        "aliases": [
+          "mac"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Penne",
+        "tier": 10
+      },
+      {
+        "text": "Lasagna",
+        "aliases": [
+          "lasagne"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ravioli",
+        "tier": 10
+      },
+      {
+        "text": "Fettuccine",
+        "aliases": [
+          "fettucine",
+          "fettuccini"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Linguine",
+        "aliases": [
+          "linguini"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Couscous",
+        "tier": 15
+      },
+      {
+        "text": "Ramen",
+        "tier": 15
+      },
+      {
+        "text": "Spaghetti-O's",
+        "aliases": [
+          "spaghettios"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Gnocchi",
+        "tier": 15
+      },
+      {
+        "text": "Rigatoni",
+        "tier": 30
+      },
+      {
+        "text": "Rotini",
+        "tier": 30
+      },
+      {
+        "text": "Farfalle",
+        "aliases": [
+          "bow tie",
+          "bowtie",
+          "bow ties"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tortellini",
+        "tier": 30
+      },
+      {
+        "text": "Angel hair",
+        "aliases": [
+          "capellini"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ziti",
+        "tier": 30
+      },
+      {
+        "text": "Orzo",
+        "tier": 30
+      },
+      {
+        "text": "Manicotti",
+        "tier": 30
+      },
+      {
+        "text": "Cannelloni",
+        "tier": 30
+      },
+      {
+        "text": "Shells",
+        "aliases": [
+          "conchiglie",
+          "pasta shells"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Elbow macaroni",
+        "aliases": [
+          "elbows"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Vermicelli",
+        "tier": 30
+      },
+      {
+        "text": "Egg noodles",
+        "tier": 30
+      },
+      {
+        "text": "Fusilli",
+        "tier": 30
+      },
+      {
+        "text": "Tagliatelle",
+        "tier": 30
+      },
+      {
+        "text": "Pappardelle",
+        "tier": 60
+      },
+      {
+        "text": "Orecchiette",
+        "tier": 60
+      },
+      {
+        "text": "Gemelli",
+        "tier": 60
+      },
+      {
+        "text": "Cavatappi",
+        "tier": 60
+      },
+      {
+        "text": "Campanelle",
+        "tier": 60
+      },
+      {
+        "text": "Ditalini",
+        "tier": 60
+      },
+      {
+        "text": "Bucatini",
+        "tier": 60
+      },
+      {
+        "text": "Stelline",
+        "aliases": [
+          "stars"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Acini di pepe",
+        "tier": 60
+      },
+      {
+        "text": "Penne rigate",
+        "tier": 60
+      },
+      {
+        "text": "Mafaldine",
+        "aliases": [
+          "mafalda"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tortelloni",
+        "tier": 60
+      },
+      {
+        "text": "Agnolotti",
+        "tier": 60
+      },
+      {
+        "text": "Cappelletti",
+        "tier": 60
+      },
+      {
+        "text": "Paccheri",
+        "tier": 60
+      },
+      {
+        "text": "Cavatelli",
+        "tier": 60
+      },
+      {
+        "text": "Strozzapreti",
+        "tier": 60
+      },
+      {
+        "text": "Trofie",
+        "tier": 60
+      },
+      {
+        "text": "Casarecce",
+        "tier": 60
+      },
+      {
+        "text": "Anelli",
+        "tier": 60
+      },
+      {
+        "text": "Alphabet pasta",
+        "aliases": [
+          "alphabets"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wagon wheels",
+        "aliases": [
+          "rotelle",
+          "ruote"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lumache",
+        "tier": 60
+      },
+      {
+        "text": "Mostaccioli",
+        "tier": 60
+      },
+      {
+        "text": "Bigoli",
+        "tier": 60
+      },
+      {
+        "text": "Tagliolini",
+        "tier": 60
+      },
+      {
+        "text": "Spaghettini",
+        "tier": 60
+      },
+      {
+        "text": "Fedelini",
+        "tier": 60
+      },
+      {
+        "text": "Fregola",
+        "tier": 85
+      },
+      {
+        "text": "Garganelli",
+        "tier": 85
+      },
+      {
+        "text": "Lorighittas",
+        "tier": 85
+      },
+      {
+        "text": "Malloreddus",
+        "tier": 85
+      },
+      {
+        "text": "Corzetti",
+        "tier": 85
+      },
+      {
+        "text": "Pici",
+        "tier": 85
+      },
+      {
+        "text": "Bavette",
+        "tier": 85
+      },
+      {
+        "text": "Bucatoni",
+        "tier": 85
+      },
+      {
+        "text": "Calamarata",
+        "tier": 85
+      },
+      {
+        "text": "Mezzi rigatoni",
+        "tier": 85
+      },
+      {
+        "text": "Tubini",
+        "tier": 85
+      },
+      {
+        "text": "Ditali",
+        "tier": 85
+      },
+      {
+        "text": "Pastina",
+        "tier": 85
+      },
+      {
+        "text": "Quadretti",
+        "tier": 85
+      },
+      {
+        "text": "Farfalline",
+        "tier": 85
+      },
+      {
+        "text": "Conchigliette",
+        "tier": 85
+      },
+      {
+        "text": "Lumaconi",
+        "tier": 85
+      },
+      {
+        "text": "Conchiglioni",
+        "aliases": [
+          "jumbo shells"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fiori",
+        "tier": 85
+      },
+      {
+        "text": "Gigli",
+        "tier": 85
+      },
+      {
+        "text": "Fazzoletti",
+        "tier": 85
+      },
+      {
+        "text": "Sorpresine",
+        "tier": 85
+      },
+      {
+        "text": "Scialatielli",
+        "tier": 85
+      },
+      {
+        "text": "Tortiglioni",
+        "tier": 85
+      },
+      {
+        "text": "Fusilli lunghi",
+        "tier": 85
+      },
+      {
+        "text": "Spaccatelli",
+        "tier": 85
+      },
+      {
+        "text": "Lasagnette",
+        "tier": 85
+      },
+      {
+        "text": "Reginette",
+        "tier": 85
+      },
+      {
+        "text": "Cappellacci",
+        "tier": 85
+      },
+      {
+        "text": "Mezzelune",
+        "tier": 85
+      },
+      {
+        "text": "Sacchetti",
+        "tier": 85
+      },
+      {
+        "text": "Fagottini",
+        "tier": 85
+      },
+      {
+        "text": "Caramelle",
+        "tier": 85
+      },
+      {
+        "text": "Culurgiones",
+        "tier": 85
+      },
+      {
+        "text": "Spätzle",
+        "aliases": [
+          "spaetzle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Israeli couscous",
+        "aliases": [
+          "pearl couscous"
+        ],
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Rice",
+      "Pizza",
+      "Bread",
+      "Pesto",
+      "Marinara",
+      "Alfredo",
+      "Noodle"
+    ]
+  },
+  {
+    "id": "q0042",
+    "prompt": "Name a dinosaur or prehistoric reptile",
+    "category": "animals",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Pachycephalosaurus",
+        "aliases": [
+          "pachy"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Tyrannosaurus rex",
+        "aliases": [
+          "t rex",
+          "t-rex",
+          "tyrannosaurus"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Triceratops",
+        "tier": 10
+      },
+      {
+        "text": "Stegosaurus",
+        "tier": 10
+      },
+      {
+        "text": "Velociraptor",
+        "aliases": [
+          "raptor"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Brontosaurus",
+        "tier": 10
+      },
+      {
+        "text": "Brachiosaurus",
+        "tier": 10
+      },
+      {
+        "text": "Dimetrodon",
+        "tier": 15
+      },
+      {
+        "text": "Pterodactyl",
+        "aliases": [
+          "pteranodon"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Plesiosaurus",
+        "aliases": [
+          "plesiosaur"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Mosasaurus",
+        "aliases": [
+          "mosasaur"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Spinosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Ankylosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Diplodocus",
+        "tier": 30
+      },
+      {
+        "text": "Allosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Apatosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Parasaurolophus",
+        "tier": 30
+      },
+      {
+        "text": "Iguanodon",
+        "tier": 30
+      },
+      {
+        "text": "Dilophosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Archaeopteryx",
+        "tier": 30
+      },
+      {
+        "text": "Gallimimus",
+        "tier": 30
+      },
+      {
+        "text": "Compsognathus",
+        "aliases": [
+          "compy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Carnotaurus",
+        "tier": 30
+      },
+      {
+        "text": "Giganotosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Ichthyosaurus",
+        "aliases": [
+          "ichthyosaur"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Megalosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Pachyrhinosaurus",
+        "tier": 30
+      },
+      {
+        "text": "Utahraptor",
+        "tier": 30
+      },
+      {
+        "text": "Deinonychus",
+        "tier": 30
+      },
+      {
+        "text": "Oviraptor",
+        "tier": 30
+      },
+      {
+        "text": "Argentinosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Therizinosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Baryonyx",
+        "tier": 60
+      },
+      {
+        "text": "Styracosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Protoceratops",
+        "tier": 60
+      },
+      {
+        "text": "Maiasaura",
+        "tier": 60
+      },
+      {
+        "text": "Hadrosaurus",
+        "aliases": [
+          "hadrosaur"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edmontosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Corythosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Lambeosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Albertosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Gorgosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Ceratosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Coelophysis",
+        "tier": 60
+      },
+      {
+        "text": "Herrerasaurus",
+        "tier": 60
+      },
+      {
+        "text": "Eoraptor",
+        "tier": 60
+      },
+      {
+        "text": "Plateosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Camarasaurus",
+        "tier": 60
+      },
+      {
+        "text": "Supersaurus",
+        "tier": 60
+      },
+      {
+        "text": "Seismosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Sauropod",
+        "tier": 60
+      },
+      {
+        "text": "Microraptor",
+        "tier": 60
+      },
+      {
+        "text": "Troodon",
+        "tier": 60
+      },
+      {
+        "text": "Quetzalcoatlus",
+        "tier": 60
+      },
+      {
+        "text": "Elasmosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Kentrosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Euoplocephalus",
+        "tier": 60
+      },
+      {
+        "text": "Nodosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Psittacosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Ouranosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Suchomimus",
+        "tier": 60
+      },
+      {
+        "text": "Carcharodontosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Acrocanthosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Mapusaurus",
+        "tier": 60
+      },
+      {
+        "text": "Majungasaurus",
+        "tier": 60
+      },
+      {
+        "text": "Tarbosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Yutyrannus",
+        "tier": 60
+      },
+      {
+        "text": "Dreadnoughtus",
+        "tier": 60
+      },
+      {
+        "text": "Patagotitan",
+        "tier": 60
+      },
+      {
+        "text": "Mamenchisaurus",
+        "tier": 60
+      },
+      {
+        "text": "Amargasaurus",
+        "tier": 60
+      },
+      {
+        "text": "Sinosauropteryx",
+        "tier": 60
+      },
+      {
+        "text": "Dracorex",
+        "tier": 60
+      },
+      {
+        "text": "Stygimoloch",
+        "tier": 60
+      },
+      {
+        "text": "Nothosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Liopleurodon",
+        "tier": 60
+      },
+      {
+        "text": "Kronosaurus",
+        "tier": 60
+      },
+      {
+        "text": "Abelisaurus",
+        "tier": 85
+      },
+      {
+        "text": "Achillobator",
+        "tier": 85
+      },
+      {
+        "text": "Alamosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Anchisaurus",
+        "tier": 85
+      },
+      {
+        "text": "Avimimus",
+        "tier": 85
+      },
+      {
+        "text": "Bambiraptor",
+        "tier": 85
+      },
+      {
+        "text": "Beipiaosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Centrosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Chasmosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Citipati",
+        "tier": 85
+      },
+      {
+        "text": "Concavenator",
+        "tier": 85
+      },
+      {
+        "text": "Cryolophosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Dacentrurus",
+        "tier": 85
+      },
+      {
+        "text": "Diabloceratops",
+        "tier": 85
+      },
+      {
+        "text": "Dracovenator",
+        "tier": 85
+      },
+      {
+        "text": "Einiosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Gastonia",
+        "tier": 85
+      },
+      {
+        "text": "Gigantoraptor",
+        "tier": 85
+      },
+      {
+        "text": "Guanlong",
+        "tier": 85
+      },
+      {
+        "text": "Hypsilophodon",
+        "tier": 85
+      },
+      {
+        "text": "Irritator",
+        "tier": 85
+      },
+      {
+        "text": "Kosmoceratops",
+        "tier": 85
+      },
+      {
+        "text": "Leaellynasaura",
+        "tier": 85
+      },
+      {
+        "text": "Masiakasaurus",
+        "tier": 85
+      },
+      {
+        "text": "Minmi",
+        "tier": 85
+      },
+      {
+        "text": "Muttaburrasaurus",
+        "tier": 85
+      },
+      {
+        "text": "Nigersaurus",
+        "tier": 85
+      },
+      {
+        "text": "Ornithomimus",
+        "tier": 85
+      },
+      {
+        "text": "Pentaceratops",
+        "tier": 85
+      },
+      {
+        "text": "Rugops",
+        "tier": 85
+      },
+      {
+        "text": "Saltasaurus",
+        "tier": 85
+      },
+      {
+        "text": "Sauropelta",
+        "tier": 85
+      },
+      {
+        "text": "Scelidosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Scutellosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Shunosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Sinornithosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Struthiomimus",
+        "tier": 85
+      },
+      {
+        "text": "Tenontosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Torosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Tsintaosaurus",
+        "tier": 85
+      },
+      {
+        "text": "Unenlagia",
+        "tier": 85
+      },
+      {
+        "text": "Velafrons",
+        "tier": 85
+      },
+      {
+        "text": "Zuniceratops",
+        "tier": 85
+      },
+      {
+        "text": "Rhamphorhynchus",
+        "tier": 85
+      },
+      {
+        "text": "Dimorphodon",
+        "tier": 85
+      },
+      {
+        "text": "Shonisaurus",
+        "tier": 85
+      },
+      {
+        "text": "Tanystropheus",
+        "tier": 85
+      },
+      {
+        "text": "Postosuchus",
+        "tier": 85
+      },
+      {
+        "text": "Sarcosuchus",
+        "aliases": [
+          "supercroc"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Deinosuchus",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Barney",
+      "Woolly mammoth",
+      "mammoth",
+      "Sabertooth tiger",
+      "saber-toothed tiger",
+      "smilodon",
+      "Mastodon",
+      "Megalodon",
+      "Godzilla",
+      "Dodo",
+      "Indominus rex",
+      "Dinosaur"
+    ],
+    "notes": "Pterosaurs and marine reptiles count as Too Clever. Mammoths and sabertooth cats don't count."
+  },
+  {
+    "id": "q0043",
+    "prompt": "Name a national capital city",
+    "category": "geography",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Ouagadougou",
+        "aliases": [
+          "ouagadugu"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "London",
+        "tier": 10
+      },
+      {
+        "text": "Paris",
+        "tier": 10
+      },
+      {
+        "text": "Washington DC",
+        "aliases": [
+          "washington",
+          "washington d.c.",
+          "dc"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Tokyo",
+        "tier": 10
+      },
+      {
+        "text": "Rome",
+        "tier": 10
+      },
+      {
+        "text": "Berlin",
+        "tier": 10
+      },
+      {
+        "text": "Madrid",
+        "tier": 10
+      },
+      {
+        "text": "Moscow",
+        "tier": 10
+      },
+      {
+        "text": "Canberra",
+        "tier": 15
+      },
+      {
+        "text": "Ottawa",
+        "tier": 15
+      },
+      {
+        "text": "Brasilia",
+        "aliases": [
+          "brasília"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Beijing",
+        "aliases": [
+          "peking"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mexico City",
+        "tier": 30
+      },
+      {
+        "text": "Cairo",
+        "tier": 30
+      },
+      {
+        "text": "Athens",
+        "tier": 30
+      },
+      {
+        "text": "Dublin",
+        "tier": 30
+      },
+      {
+        "text": "Amsterdam",
+        "tier": 30
+      },
+      {
+        "text": "Lisbon",
+        "tier": 30
+      },
+      {
+        "text": "Vienna",
+        "tier": 30
+      },
+      {
+        "text": "Seoul",
+        "tier": 30
+      },
+      {
+        "text": "Bangkok",
+        "tier": 30
+      },
+      {
+        "text": "New Delhi",
+        "aliases": [
+          "delhi"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Buenos Aires",
+        "tier": 30
+      },
+      {
+        "text": "Stockholm",
+        "tier": 30
+      },
+      {
+        "text": "Oslo",
+        "tier": 30
+      },
+      {
+        "text": "Copenhagen",
+        "tier": 30
+      },
+      {
+        "text": "Helsinki",
+        "tier": 30
+      },
+      {
+        "text": "Brussels",
+        "tier": 30
+      },
+      {
+        "text": "Prague",
+        "tier": 30
+      },
+      {
+        "text": "Warsaw",
+        "tier": 30
+      },
+      {
+        "text": "Budapest",
+        "tier": 30
+      },
+      {
+        "text": "Havana",
+        "tier": 30
+      },
+      {
+        "text": "Lima",
+        "tier": 30
+      },
+      {
+        "text": "Bogota",
+        "aliases": [
+          "bogotá"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Nairobi",
+        "tier": 30
+      },
+      {
+        "text": "Jerusalem",
+        "tier": 30
+      },
+      {
+        "text": "Bern",
+        "tier": 30
+      },
+      {
+        "text": "Reykjavik",
+        "aliases": [
+          "reykjavík"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wellington",
+        "tier": 30
+      },
+      {
+        "text": "Kyiv",
+        "aliases": [
+          "kiev"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Manila",
+        "tier": 30
+      },
+      {
+        "text": "Jakarta",
+        "tier": 30
+      },
+      {
+        "text": "Tehran",
+        "tier": 30
+      },
+      {
+        "text": "Baghdad",
+        "tier": 30
+      },
+      {
+        "text": "Kabul",
+        "tier": 30
+      },
+      {
+        "text": "Islamabad",
+        "tier": 30
+      },
+      {
+        "text": "Ankara",
+        "tier": 30
+      },
+      {
+        "text": "Santiago",
+        "tier": 60
+      },
+      {
+        "text": "Caracas",
+        "tier": 60
+      },
+      {
+        "text": "Quito",
+        "tier": 60
+      },
+      {
+        "text": "La Paz",
+        "tier": 60
+      },
+      {
+        "text": "Asuncion",
+        "aliases": [
+          "asunción"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Montevideo",
+        "tier": 60
+      },
+      {
+        "text": "Panama City",
+        "tier": 60
+      },
+      {
+        "text": "San Jose",
+        "tier": 60
+      },
+      {
+        "text": "Managua",
+        "tier": 60
+      },
+      {
+        "text": "Tegucigalpa",
+        "tier": 60
+      },
+      {
+        "text": "San Salvador",
+        "tier": 60
+      },
+      {
+        "text": "Guatemala City",
+        "tier": 60
+      },
+      {
+        "text": "Kingston",
+        "tier": 60
+      },
+      {
+        "text": "Nassau",
+        "tier": 60
+      },
+      {
+        "text": "Port-au-Prince",
+        "aliases": [
+          "port au prince"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Santo Domingo",
+        "tier": 60
+      },
+      {
+        "text": "Bucharest",
+        "tier": 60
+      },
+      {
+        "text": "Sofia",
+        "tier": 60
+      },
+      {
+        "text": "Belgrade",
+        "tier": 60
+      },
+      {
+        "text": "Zagreb",
+        "tier": 60
+      },
+      {
+        "text": "Ljubljana",
+        "tier": 60
+      },
+      {
+        "text": "Bratislava",
+        "tier": 60
+      },
+      {
+        "text": "Tallinn",
+        "tier": 60
+      },
+      {
+        "text": "Riga",
+        "tier": 60
+      },
+      {
+        "text": "Vilnius",
+        "tier": 60
+      },
+      {
+        "text": "Minsk",
+        "tier": 60
+      },
+      {
+        "text": "Chisinau",
+        "tier": 60
+      },
+      {
+        "text": "Tirana",
+        "tier": 60
+      },
+      {
+        "text": "Skopje",
+        "tier": 60
+      },
+      {
+        "text": "Sarajevo",
+        "tier": 60
+      },
+      {
+        "text": "Podgorica",
+        "tier": 60
+      },
+      {
+        "text": "Valletta",
+        "tier": 60
+      },
+      {
+        "text": "Nicosia",
+        "tier": 60
+      },
+      {
+        "text": "Luxembourg City",
+        "aliases": [
+          "luxembourg"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Monaco",
+        "tier": 60
+      },
+      {
+        "text": "Vatican City",
+        "aliases": [
+          "vatican"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Andorra la Vella",
+        "tier": 60
+      },
+      {
+        "text": "San Marino",
+        "tier": 60
+      },
+      {
+        "text": "Edinburgh",
+        "tier": 60
+      },
+      {
+        "text": "Cardiff",
+        "tier": 60
+      },
+      {
+        "text": "Belfast",
+        "tier": 60
+      },
+      {
+        "text": "Riyadh",
+        "tier": 60
+      },
+      {
+        "text": "Doha",
+        "tier": 60
+      },
+      {
+        "text": "Abu Dhabi",
+        "tier": 60
+      },
+      {
+        "text": "Muscat",
+        "tier": 60
+      },
+      {
+        "text": "Kuwait City",
+        "tier": 60
+      },
+      {
+        "text": "Amman",
+        "tier": 60
+      },
+      {
+        "text": "Beirut",
+        "tier": 60
+      },
+      {
+        "text": "Damascus",
+        "tier": 60
+      },
+      {
+        "text": "Hanoi",
+        "tier": 60
+      },
+      {
+        "text": "Kuala Lumpur",
+        "tier": 60
+      },
+      {
+        "text": "Singapore",
+        "tier": 60
+      },
+      {
+        "text": "Taipei",
+        "tier": 60
+      },
+      {
+        "text": "Ulaanbaatar",
+        "aliases": [
+          "ulan bator"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kathmandu",
+        "tier": 60
+      },
+      {
+        "text": "Dhaka",
+        "tier": 60
+      },
+      {
+        "text": "Colombo",
+        "tier": 60
+      },
+      {
+        "text": "Pretoria",
+        "tier": 60
+      },
+      {
+        "text": "Cape Town",
+        "tier": 60
+      },
+      {
+        "text": "Addis Ababa",
+        "tier": 60
+      },
+      {
+        "text": "Lagos",
+        "tier": 60
+      },
+      {
+        "text": "Abuja",
+        "tier": 60
+      },
+      {
+        "text": "Accra",
+        "tier": 60
+      },
+      {
+        "text": "Dakar",
+        "tier": 60
+      },
+      {
+        "text": "Kinshasa",
+        "tier": 60
+      },
+      {
+        "text": "Luanda",
+        "tier": 60
+      },
+      {
+        "text": "Harare",
+        "tier": 60
+      },
+      {
+        "text": "Lusaka",
+        "tier": 60
+      },
+      {
+        "text": "Kampala",
+        "tier": 60
+      },
+      {
+        "text": "Kigali",
+        "tier": 60
+      },
+      {
+        "text": "Khartoum",
+        "tier": 60
+      },
+      {
+        "text": "Tripoli",
+        "tier": 60
+      },
+      {
+        "text": "Tunis",
+        "tier": 60
+      },
+      {
+        "text": "Algiers",
+        "tier": 60
+      },
+      {
+        "text": "Rabat",
+        "tier": 60
+      },
+      {
+        "text": "Antananarivo",
+        "tier": 60
+      },
+      {
+        "text": "Thimphu",
+        "tier": 85
+      },
+      {
+        "text": "Naypyidaw",
+        "aliases": [
+          "naypyitaw"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vientiane",
+        "tier": 85
+      },
+      {
+        "text": "Phnom Penh",
+        "tier": 85
+      },
+      {
+        "text": "Bandar Seri Begawan",
+        "tier": 85
+      },
+      {
+        "text": "Dili",
+        "tier": 85
+      },
+      {
+        "text": "Male",
+        "tier": 85
+      },
+      {
+        "text": "Tashkent",
+        "tier": 85
+      },
+      {
+        "text": "Astana",
+        "aliases": [
+          "nur-sultan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bishkek",
+        "tier": 85
+      },
+      {
+        "text": "Dushanbe",
+        "tier": 85
+      },
+      {
+        "text": "Ashgabat",
+        "tier": 85
+      },
+      {
+        "text": "Baku",
+        "tier": 85
+      },
+      {
+        "text": "Tbilisi",
+        "tier": 85
+      },
+      {
+        "text": "Yerevan",
+        "tier": 85
+      },
+      {
+        "text": "Sanaa",
+        "aliases": [
+          "sana'a"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Manama",
+        "tier": 85
+      },
+      {
+        "text": "Port Moresby",
+        "tier": 85
+      },
+      {
+        "text": "Suva",
+        "tier": 85
+      },
+      {
+        "text": "Apia",
+        "tier": 85
+      },
+      {
+        "text": "Nuku'alofa",
+        "tier": 85
+      },
+      {
+        "text": "Honiara",
+        "tier": 85
+      },
+      {
+        "text": "Port Vila",
+        "tier": 85
+      },
+      {
+        "text": "Tarawa",
+        "tier": 85
+      },
+      {
+        "text": "Majuro",
+        "tier": 85
+      },
+      {
+        "text": "Palikir",
+        "tier": 85
+      },
+      {
+        "text": "Funafuti",
+        "tier": 85
+      },
+      {
+        "text": "Yaren",
+        "tier": 85
+      },
+      {
+        "text": "Ngerulmud",
+        "tier": 85
+      },
+      {
+        "text": "Paramaribo",
+        "tier": 85
+      },
+      {
+        "text": "Georgetown",
+        "tier": 85
+      },
+      {
+        "text": "Belmopan",
+        "tier": 85
+      },
+      {
+        "text": "Castries",
+        "tier": 85
+      },
+      {
+        "text": "Bridgetown",
+        "tier": 85
+      },
+      {
+        "text": "Port of Spain",
+        "tier": 85
+      },
+      {
+        "text": "Roseau",
+        "tier": 85
+      },
+      {
+        "text": "Basseterre",
+        "tier": 85
+      },
+      {
+        "text": "St. George's",
+        "tier": 85
+      },
+      {
+        "text": "Kingstown",
+        "tier": 85
+      },
+      {
+        "text": "Saint John's",
+        "tier": 85
+      },
+      {
+        "text": "Praia",
+        "tier": 85
+      },
+      {
+        "text": "Bissau",
+        "tier": 85
+      },
+      {
+        "text": "Conakry",
+        "tier": 85
+      },
+      {
+        "text": "Freetown",
+        "tier": 85
+      },
+      {
+        "text": "Monrovia",
+        "tier": 85
+      },
+      {
+        "text": "Yamoussoukro",
+        "tier": 85
+      },
+      {
+        "text": "Bamako",
+        "tier": 85
+      },
+      {
+        "text": "Niamey",
+        "tier": 85
+      },
+      {
+        "text": "N'Djamena",
+        "aliases": [
+          "ndjamena"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nouakchott",
+        "tier": 85
+      },
+      {
+        "text": "Banjul",
+        "tier": 85
+      },
+      {
+        "text": "Lome",
+        "aliases": [
+          "lomé"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Porto-Novo",
+        "tier": 85
+      },
+      {
+        "text": "Malabo",
+        "tier": 85
+      },
+      {
+        "text": "Libreville",
+        "tier": 85
+      },
+      {
+        "text": "Brazzaville",
+        "tier": 85
+      },
+      {
+        "text": "Bangui",
+        "tier": 85
+      },
+      {
+        "text": "Yaounde",
+        "aliases": [
+          "yaoundé"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Juba",
+        "tier": 85
+      },
+      {
+        "text": "Asmara",
+        "tier": 85
+      },
+      {
+        "text": "Djibouti",
+        "tier": 85
+      },
+      {
+        "text": "Mogadishu",
+        "tier": 85
+      },
+      {
+        "text": "Dodoma",
+        "tier": 85
+      },
+      {
+        "text": "Lilongwe",
+        "tier": 85
+      },
+      {
+        "text": "Maputo",
+        "tier": 85
+      },
+      {
+        "text": "Gaborone",
+        "tier": 85
+      },
+      {
+        "text": "Windhoek",
+        "tier": 85
+      },
+      {
+        "text": "Maseru",
+        "tier": 85
+      },
+      {
+        "text": "Mbabane",
+        "tier": 85
+      },
+      {
+        "text": "Moroni",
+        "tier": 85
+      },
+      {
+        "text": "Victoria",
+        "tier": 85
+      },
+      {
+        "text": "Port Louis",
+        "tier": 85
+      },
+      {
+        "text": "Gitega",
+        "tier": 85
+      },
+      {
+        "text": "Bloemfontein",
+        "tier": 85
+      },
+      {
+        "text": "Sri Jayawardenepura Kotte",
+        "aliases": [
+          "kotte"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pyongyang",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Dubai",
+      "Hong Kong",
+      "New York",
+      "Los Angeles",
+      "Sydney",
+      "Toronto",
+      "Rio de Janeiro",
+      "Istanbul",
+      "Mumbai",
+      "Shanghai",
+      "Barcelona",
+      "Sacramento",
+      "Austin",
+      "Denver"
+    ],
+    "notes": "National capitals, including the UK nations (Edinburgh, Cardiff, Belfast). US state capitals don't count."
+  },
+  {
+    "id": "q0044",
+    "prompt": "Name a piece of sports equipment",
+    "category": "sports",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Sliotar",
+        "tier": 100
+      },
+      {
+        "text": "Ball",
+        "tier": 10
+      },
+      {
+        "text": "Bat",
+        "aliases": [
+          "baseball bat"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Helmet",
+        "tier": 10
+      },
+      {
+        "text": "Racket",
+        "aliases": [
+          "racquet",
+          "tennis racket"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Glove",
+        "aliases": [
+          "baseball glove",
+          "mitt"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Net",
+        "tier": 10
+      },
+      {
+        "text": "Golf club",
+        "aliases": [
+          "club"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Jockstrap",
+        "aliases": [
+          "jock strap",
+          "athletic cup",
+          "cup"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Water bottle",
+        "tier": 15
+      },
+      {
+        "text": "Whistle",
+        "tier": 15
+      },
+      {
+        "text": "Basketball",
+        "tier": 30
+      },
+      {
+        "text": "Football",
+        "tier": 30
+      },
+      {
+        "text": "Soccer ball",
+        "tier": 30
+      },
+      {
+        "text": "Baseball",
+        "tier": 30
+      },
+      {
+        "text": "Volleyball",
+        "tier": 30
+      },
+      {
+        "text": "Hockey stick",
+        "aliases": [
+          "stick"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Puck",
+        "tier": 30
+      },
+      {
+        "text": "Skates",
+        "aliases": [
+          "ice skates",
+          "roller skates"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Skis",
+        "tier": 30
+      },
+      {
+        "text": "Snowboard",
+        "tier": 30
+      },
+      {
+        "text": "Goggles",
+        "tier": 30
+      },
+      {
+        "text": "Shin guards",
+        "aliases": [
+          "shin pads"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cleats",
+        "aliases": [
+          "spikes"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mouthguard",
+        "aliases": [
+          "mouth guard"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Shoulder pads",
+        "tier": 30
+      },
+      {
+        "text": "Basketball hoop",
+        "aliases": [
+          "hoop",
+          "basket"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Goal",
+        "aliases": [
+          "goalpost",
+          "goal post"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Surfboard",
+        "tier": 30
+      },
+      {
+        "text": "Skateboard",
+        "tier": 30
+      },
+      {
+        "text": "Bicycle",
+        "aliases": [
+          "bike"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dumbbell",
+        "tier": 30
+      },
+      {
+        "text": "Barbell",
+        "tier": 30
+      },
+      {
+        "text": "Kettlebell",
+        "tier": 30
+      },
+      {
+        "text": "Jump rope",
+        "aliases": [
+          "skipping rope"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Boxing gloves",
+        "tier": 30
+      },
+      {
+        "text": "Golf ball",
+        "tier": 30
+      },
+      {
+        "text": "Tee",
+        "aliases": [
+          "golf tee"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Shuttlecock",
+        "aliases": [
+          "birdie"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Paddle",
+        "aliases": [
+          "ping pong paddle"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Frisbee",
+        "aliases": [
+          "flying disc"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kneepads",
+        "aliases": [
+          "knee pads"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Swim cap",
+        "tier": 30
+      },
+      {
+        "text": "Javelin",
+        "tier": 30
+      },
+      {
+        "text": "Discus",
+        "tier": 30
+      },
+      {
+        "text": "Hurdle",
+        "tier": 30
+      },
+      {
+        "text": "Bow",
+        "aliases": [
+          "bow and arrow"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Arrow",
+        "tier": 30
+      },
+      {
+        "text": "Target",
+        "tier": 30
+      },
+      {
+        "text": "Lacrosse stick",
+        "tier": 60
+      },
+      {
+        "text": "Field hockey stick",
+        "tier": 60
+      },
+      {
+        "text": "Cricket bat",
+        "tier": 60
+      },
+      {
+        "text": "Wicket",
+        "aliases": [
+          "stumps"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bails",
+        "tier": 60
+      },
+      {
+        "text": "Pads",
+        "aliases": [
+          "leg pads"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Catcher's mask",
+        "tier": 60
+      },
+      {
+        "text": "Chest protector",
+        "tier": 60
+      },
+      {
+        "text": "Batting helmet",
+        "tier": 60
+      },
+      {
+        "text": "Batting gloves",
+        "tier": 60
+      },
+      {
+        "text": "Facemask",
+        "tier": 60
+      },
+      {
+        "text": "Chin strap",
+        "tier": 60
+      },
+      {
+        "text": "Elbow pads",
+        "tier": 60
+      },
+      {
+        "text": "Wrist guards",
+        "tier": 60
+      },
+      {
+        "text": "Ski poles",
+        "aliases": [
+          "poles"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ski boots",
+        "tier": 60
+      },
+      {
+        "text": "Bindings",
+        "tier": 60
+      },
+      {
+        "text": "Wetsuit",
+        "tier": 60
+      },
+      {
+        "text": "Flippers",
+        "aliases": [
+          "fins"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Snorkel",
+        "tier": 60
+      },
+      {
+        "text": "Kickboard",
+        "tier": 60
+      },
+      {
+        "text": "Pull buoy",
+        "tier": 60
+      },
+      {
+        "text": "Kayak paddle",
+        "aliases": [
+          "oar"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Canoe",
+        "tier": 60
+      },
+      {
+        "text": "Kayak",
+        "tier": 60
+      },
+      {
+        "text": "Rowing machine",
+        "tier": 60
+      },
+      {
+        "text": "Treadmill",
+        "tier": 60
+      },
+      {
+        "text": "Stationary bike",
+        "aliases": [
+          "exercise bike"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Medicine ball",
+        "tier": 60
+      },
+      {
+        "text": "Resistance band",
+        "tier": 60
+      },
+      {
+        "text": "Yoga mat",
+        "tier": 60
+      },
+      {
+        "text": "Foam roller",
+        "tier": 60
+      },
+      {
+        "text": "Punching bag",
+        "aliases": [
+          "heavy bag"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Speed bag",
+        "tier": 60
+      },
+      {
+        "text": "Hand wraps",
+        "tier": 60
+      },
+      {
+        "text": "Headgear",
+        "tier": 60
+      },
+      {
+        "text": "Fencing foil",
+        "aliases": [
+          "foil",
+          "epee",
+          "sabre"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fencing mask",
+        "tier": 60
+      },
+      {
+        "text": "Bowling ball",
+        "tier": 60
+      },
+      {
+        "text": "Bowling pin",
+        "aliases": [
+          "pin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pool cue",
+        "aliases": [
+          "cue"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Darts",
+        "tier": 60
+      },
+      {
+        "text": "Dartboard",
+        "tier": 60
+      },
+      {
+        "text": "Croquet mallet",
+        "aliases": [
+          "mallet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Polo mallet",
+        "tier": 60
+      },
+      {
+        "text": "Saddle",
+        "tier": 60
+      },
+      {
+        "text": "Stirrups",
+        "tier": 60
+      },
+      {
+        "text": "Reins",
+        "tier": 60
+      },
+      {
+        "text": "Bridle",
+        "tier": 60
+      },
+      {
+        "text": "Horseshoe",
+        "tier": 60
+      },
+      {
+        "text": "Pommel horse",
+        "tier": 60
+      },
+      {
+        "text": "Balance beam",
+        "tier": 60
+      },
+      {
+        "text": "Parallel bars",
+        "tier": 60
+      },
+      {
+        "text": "Rings",
+        "tier": 60
+      },
+      {
+        "text": "Trampoline",
+        "tier": 60
+      },
+      {
+        "text": "Vaulting pole",
+        "tier": 60
+      },
+      {
+        "text": "Starting blocks",
+        "tier": 60
+      },
+      {
+        "text": "Baton",
+        "tier": 60
+      },
+      {
+        "text": "Shot put",
+        "tier": 60
+      },
+      {
+        "text": "Hammer",
+        "tier": 60
+      },
+      {
+        "text": "Stopwatch",
+        "tier": 60
+      },
+      {
+        "text": "Scoreboard",
+        "tier": 60
+      },
+      {
+        "text": "Bases",
+        "aliases": [
+          "base",
+          "home plate"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pitching machine",
+        "tier": 60
+      },
+      {
+        "text": "Tennis ball",
+        "tier": 60
+      },
+      {
+        "text": "Sled",
+        "aliases": [
+          "sledge",
+          "toboggan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bobsled",
+        "tier": 60
+      },
+      {
+        "text": "Luge",
+        "tier": 60
+      },
+      {
+        "text": "Curling stone",
+        "aliases": [
+          "stone"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Curling broom",
+        "aliases": [
+          "broom"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jai alai cesta",
+        "aliases": [
+          "cesta",
+          "xistera"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chalk",
+        "aliases": [
+          "lifting chalk"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Belay device",
+        "tier": 85
+      },
+      {
+        "text": "Carabiner",
+        "tier": 85
+      },
+      {
+        "text": "Harness",
+        "tier": 85
+      },
+      {
+        "text": "Climbing shoes",
+        "tier": 85
+      },
+      {
+        "text": "Crash pad",
+        "tier": 85
+      },
+      {
+        "text": "Ice axe",
+        "tier": 85
+      },
+      {
+        "text": "Crampons",
+        "tier": 85
+      },
+      {
+        "text": "Snowshoes",
+        "tier": 85
+      },
+      {
+        "text": "Wax",
+        "aliases": [
+          "ski wax"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Skins",
+        "aliases": [
+          "climbing skins"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Avalanche beacon",
+        "tier": 85
+      },
+      {
+        "text": "Kite",
+        "tier": 85
+      },
+      {
+        "text": "Wakeboard",
+        "tier": 85
+      },
+      {
+        "text": "Water skis",
+        "tier": 85
+      },
+      {
+        "text": "Bodyboard",
+        "aliases": [
+          "boogie board"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Leash",
+        "aliases": [
+          "surf leash"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rash guard",
+        "tier": 85
+      },
+      {
+        "text": "Weightlifting belt",
+        "aliases": [
+          "lifting belt"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Squat rack",
+        "tier": 85
+      },
+      {
+        "text": "Bench",
+        "tier": 85
+      },
+      {
+        "text": "Pull-up bar",
+        "tier": 85
+      },
+      {
+        "text": "Plates",
+        "aliases": [
+          "weight plates"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Collar",
+        "tier": 85
+      },
+      {
+        "text": "Cable machine",
+        "tier": 85
+      },
+      {
+        "text": "Chalk bag",
+        "tier": 85
+      },
+      {
+        "text": "Racquetball racquet",
+        "tier": 85
+      },
+      {
+        "text": "Squash racket",
+        "tier": 85
+      },
+      {
+        "text": "Badminton racket",
+        "tier": 85
+      },
+      {
+        "text": "Pickleball paddle",
+        "tier": 85
+      },
+      {
+        "text": "Hurling stick",
+        "aliases": [
+          "hurley"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shinty stick",
+        "aliases": [
+          "caman"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bandy stick",
+        "tier": 85
+      },
+      {
+        "text": "Polo ball",
+        "tier": 85
+      },
+      {
+        "text": "Rugby ball",
+        "tier": 85
+      },
+      {
+        "text": "Cricket ball",
+        "tier": 85
+      },
+      {
+        "text": "Lacrosse ball",
+        "tier": 85
+      },
+      {
+        "text": "Wiffle ball",
+        "tier": 85
+      },
+      {
+        "text": "Hacky sack",
+        "tier": 85
+      },
+      {
+        "text": "Spikeball net",
+        "tier": 85
+      },
+      {
+        "text": "Cornhole board",
+        "aliases": [
+          "cornhole"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bocce ball",
+        "tier": 85
+      },
+      {
+        "text": "Tetherball",
+        "tier": 85
+      },
+      {
+        "text": "Pinnies",
+        "aliases": [
+          "bibs"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cones",
+        "tier": 85
+      },
+      {
+        "text": "Agility ladder",
+        "tier": 85
+      },
+      {
+        "text": "Tackling dummy",
+        "aliases": [
+          "blocking sled"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sweatband",
+        "tier": 85
+      },
+      {
+        "text": "Headband",
+        "tier": 85
+      },
+      {
+        "text": "Visor",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Referee",
+      "Stadium",
+      "Field",
+      "Court",
+      "Gym",
+      "Coach",
+      "Trophy",
+      "Medal"
+    ]
+  },
+  {
+    "id": "q0045",
+    "prompt": "Name a classical composer",
+    "category": "music",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Hildegard of Bingen",
+        "aliases": [
+          "hildegard von bingen",
+          "hildegard"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Wolfgang Amadeus Mozart",
+        "aliases": [
+          "mozart"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ludwig van Beethoven",
+        "aliases": [
+          "beethoven"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Johann Sebastian Bach",
+        "aliases": [
+          "bach",
+          "js bach"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pyotr Ilyich Tchaikovsky",
+        "aliases": [
+          "tchaikovsky",
+          "tchaikovski"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Antonio Vivaldi",
+        "aliases": [
+          "vivaldi"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Frederic Chopin",
+        "aliases": [
+          "chopin"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "John Williams",
+        "tier": 15
+      },
+      {
+        "text": "Hans Zimmer",
+        "tier": 15
+      },
+      {
+        "text": "Andrew Lloyd Webber",
+        "aliases": [
+          "lloyd webber"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Johannes Brahms",
+        "aliases": [
+          "brahms"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Franz Schubert",
+        "aliases": [
+          "schubert"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George Frideric Handel",
+        "aliases": [
+          "handel",
+          "händel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Joseph Haydn",
+        "aliases": [
+          "haydn"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Claude Debussy",
+        "aliases": [
+          "debussy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Richard Wagner",
+        "aliases": [
+          "wagner"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Giuseppe Verdi",
+        "aliases": [
+          "verdi"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Franz Liszt",
+        "aliases": [
+          "liszt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Antonin Dvorak",
+        "aliases": [
+          "dvorak",
+          "dvořák"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Felix Mendelssohn",
+        "aliases": [
+          "mendelssohn"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Robert Schumann",
+        "aliases": [
+          "schumann"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Igor Stravinsky",
+        "aliases": [
+          "stravinsky"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sergei Rachmaninoff",
+        "aliases": [
+          "rachmaninoff",
+          "rachmaninov"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Gustav Mahler",
+        "aliases": [
+          "mahler"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Giacomo Puccini",
+        "aliases": [
+          "puccini"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Maurice Ravel",
+        "aliases": [
+          "ravel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Johann Strauss",
+        "aliases": [
+          "strauss"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Edvard Grieg",
+        "aliases": [
+          "grieg"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George Gershwin",
+        "aliases": [
+          "gershwin"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Erik Satie",
+        "aliases": [
+          "satie"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Camille Saint-Saens",
+        "aliases": [
+          "saint-saens",
+          "saint saens"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sergei Prokofiev",
+        "aliases": [
+          "prokofiev"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dmitri Shostakovich",
+        "aliases": [
+          "shostakovich"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Nikolai Rimsky-Korsakov",
+        "aliases": [
+          "rimsky-korsakov",
+          "rimsky korsakov"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Modest Mussorgsky",
+        "aliases": [
+          "mussorgsky"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Richard Strauss",
+        "tier": 60
+      },
+      {
+        "text": "Hector Berlioz",
+        "aliases": [
+          "berlioz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gioachino Rossini",
+        "aliases": [
+          "rossini"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Georges Bizet",
+        "aliases": [
+          "bizet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jean Sibelius",
+        "aliases": [
+          "sibelius"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Aaron Copland",
+        "aliases": [
+          "copland"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Leonard Bernstein",
+        "aliases": [
+          "bernstein"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Samuel Barber",
+        "aliases": [
+          "barber"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gustav Holst",
+        "aliases": [
+          "holst"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edward Elgar",
+        "aliases": [
+          "elgar"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ralph Vaughan Williams",
+        "aliases": [
+          "vaughan williams"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Benjamin Britten",
+        "aliases": [
+          "britten"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Claudio Monteverdi",
+        "aliases": [
+          "monteverdi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Henry Purcell",
+        "aliases": [
+          "purcell"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Georg Philipp Telemann",
+        "aliases": [
+          "telemann"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Christoph Willibald Gluck",
+        "aliases": [
+          "gluck"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Anton Bruckner",
+        "aliases": [
+          "bruckner"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bedrich Smetana",
+        "aliases": [
+          "smetana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gabriel Faure",
+        "aliases": [
+          "faure",
+          "fauré"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Philip Glass",
+        "aliases": [
+          "glass"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Cage",
+        "aliases": [
+          "cage"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Arvo Part",
+        "aliases": [
+          "arvo pärt",
+          "part"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Carl Orff",
+        "aliases": [
+          "orff"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Johann Pachelbel",
+        "aliases": [
+          "pachelbel"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Domenico Scarlatti",
+        "aliases": [
+          "scarlatti"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Arcangelo Corelli",
+        "aliases": [
+          "corelli"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Niccolo Paganini",
+        "aliases": [
+          "paganini"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Clara Schumann",
+        "tier": 60
+      },
+      {
+        "text": "Fanny Mendelssohn",
+        "tier": 60
+      },
+      {
+        "text": "Scott Joplin",
+        "aliases": [
+          "joplin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Arnold Schoenberg",
+        "aliases": [
+          "schoenberg",
+          "schönberg"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alban Berg",
+        "aliases": [
+          "berg"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Anton Webern",
+        "aliases": [
+          "webern"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bela Bartok",
+        "aliases": [
+          "bartok",
+          "bartók"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Leos Janacek",
+        "aliases": [
+          "janacek"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Engelbert Humperdinck",
+        "aliases": [
+          "humperdinck"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jacques Offenbach",
+        "aliases": [
+          "offenbach"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Charles Gounod",
+        "aliases": [
+          "gounod"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jules Massenet",
+        "aliases": [
+          "massenet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gaetano Donizetti",
+        "aliases": [
+          "donizetti"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Vincenzo Bellini",
+        "aliases": [
+          "bellini"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ottorino Respighi",
+        "aliases": [
+          "respighi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Manuel de Falla",
+        "aliases": [
+          "de falla"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Isaac Albeniz",
+        "aliases": [
+          "albeniz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Joaquin Rodrigo",
+        "aliases": [
+          "rodrigo"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Heitor Villa-Lobos",
+        "aliases": [
+          "villa-lobos"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Astor Piazzolla",
+        "aliases": [
+          "piazzolla"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Steve Reich",
+        "aliases": [
+          "reich"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Adams",
+        "tier": 60
+      },
+      {
+        "text": "Ennio Morricone",
+        "aliases": [
+          "morricone"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Howard Shore",
+        "tier": 60
+      },
+      {
+        "text": "Danny Elfman",
+        "tier": 60
+      },
+      {
+        "text": "Joe Hisaishi",
+        "tier": 60
+      },
+      {
+        "text": "Guillaume de Machaut",
+        "aliases": [
+          "machaut"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Josquin des Prez",
+        "aliases": [
+          "josquin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Giovanni Pierluigi da Palestrina",
+        "aliases": [
+          "palestrina"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Thomas Tallis",
+        "aliases": [
+          "tallis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "William Byrd",
+        "aliases": [
+          "byrd"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "John Dowland",
+        "aliases": [
+          "dowland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jean-Baptiste Lully",
+        "aliases": [
+          "lully"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jean-Philippe Rameau",
+        "aliases": [
+          "rameau"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Francois Couperin",
+        "aliases": [
+          "couperin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dietrich Buxtehude",
+        "aliases": [
+          "buxtehude"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Heinrich Schutz",
+        "aliases": [
+          "schutz",
+          "schütz"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Giovanni Gabrieli",
+        "aliases": [
+          "gabrieli"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tomaso Albinoni",
+        "aliases": [
+          "albinoni"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Giovanni Battista Pergolesi",
+        "aliases": [
+          "pergolesi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Carl Philipp Emanuel Bach",
+        "aliases": [
+          "cpe bach"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Johann Christian Bach",
+        "tier": 85
+      },
+      {
+        "text": "Antonio Salieri",
+        "aliases": [
+          "salieri"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Luigi Boccherini",
+        "aliases": [
+          "boccherini"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Muzio Clementi",
+        "aliases": [
+          "clementi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Carl Maria von Weber",
+        "aliases": [
+          "weber"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Louis Spohr",
+        "aliases": [
+          "spohr"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Johann Nepomuk Hummel",
+        "aliases": [
+          "hummel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mikhail Glinka",
+        "aliases": [
+          "glinka"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alexander Borodin",
+        "aliases": [
+          "borodin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cesar Cui",
+        "aliases": [
+          "cui"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mily Balakirev",
+        "aliases": [
+          "balakirev"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alexander Scriabin",
+        "aliases": [
+          "scriabin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Anatoly Lyadov",
+        "aliases": [
+          "lyadov"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alexander Glazunov",
+        "aliases": [
+          "glazunov"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cesar Franck",
+        "aliases": [
+          "franck"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vincent d'Indy",
+        "tier": 85
+      },
+      {
+        "text": "Ernest Chausson",
+        "aliases": [
+          "chausson"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paul Dukas",
+        "aliases": [
+          "dukas"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Francis Poulenc",
+        "aliases": [
+          "poulenc"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Darius Milhaud",
+        "aliases": [
+          "milhaud"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Arthur Honegger",
+        "aliases": [
+          "honegger"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Olivier Messiaen",
+        "aliases": [
+          "messiaen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pierre Boulez",
+        "aliases": [
+          "boulez"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Karlheinz Stockhausen",
+        "aliases": [
+          "stockhausen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gyorgy Ligeti",
+        "aliases": [
+          "ligeti"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Krzysztof Penderecki",
+        "aliases": [
+          "penderecki"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Henryk Gorecki",
+        "aliases": [
+          "gorecki"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Witold Lutoslawski",
+        "aliases": [
+          "lutoslawski"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Karol Szymanowski",
+        "aliases": [
+          "szymanowski"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Zoltan Kodaly",
+        "aliases": [
+          "kodaly"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Carl Nielsen",
+        "aliases": [
+          "nielsen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hugo Wolf",
+        "tier": 85
+      },
+      {
+        "text": "Max Bruch",
+        "aliases": [
+          "bruch"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Max Reger",
+        "aliases": [
+          "reger"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ferruccio Busoni",
+        "aliases": [
+          "busoni"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pietro Mascagni",
+        "aliases": [
+          "mascagni"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ruggero Leoncavallo",
+        "aliases": [
+          "leoncavallo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Amy Beach",
+        "tier": 85
+      },
+      {
+        "text": "Charles Ives",
+        "aliases": [
+          "ives"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Florence Price",
+        "tier": 85
+      },
+      {
+        "text": "William Grant Still",
+        "tier": 85
+      },
+      {
+        "text": "Samuel Coleridge-Taylor",
+        "tier": 85
+      },
+      {
+        "text": "Edward MacDowell",
+        "aliases": [
+          "macdowell"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Morton Feldman",
+        "aliases": [
+          "feldman"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Terry Riley",
+        "tier": 85
+      },
+      {
+        "text": "John Tavener",
+        "aliases": [
+          "tavener"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Max Richter",
+        "aliases": [
+          "richter"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ludovico Einaudi",
+        "aliases": [
+          "einaudi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Eric Whitacre",
+        "aliases": [
+          "whitacre"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Caroline Shaw",
+        "tier": 85
+      },
+      {
+        "text": "Toru Takemitsu",
+        "aliases": [
+          "takemitsu"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tan Dun",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Elvis",
+      "Elton John",
+      "Taylor Swift",
+      "Freddie Mercury",
+      "Shakespeare",
+      "Michelangelo"
+    ]
+  },
+  {
+    "id": "q0046",
+    "prompt": "Name a Star Wars character",
+    "category": "movies-tv",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Admiral Ackbar",
+        "aliases": [
+          "ackbar"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Luke Skywalker",
+        "aliases": [
+          "luke"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Darth Vader",
+        "aliases": [
+          "vader",
+          "anakin skywalker",
+          "anakin"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Han Solo",
+        "aliases": [
+          "han"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Princess Leia",
+        "aliases": [
+          "leia",
+          "leia organa"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Yoda",
+        "tier": 10
+      },
+      {
+        "text": "Chewbacca",
+        "aliases": [
+          "chewie"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "R2-D2",
+        "aliases": [
+          "r2d2",
+          "r2",
+          "artoo"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "C-3PO",
+        "aliases": [
+          "c3po",
+          "threepio"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Jar Jar Binks",
+        "aliases": [
+          "jar jar"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Stormtrooper",
+        "aliases": [
+          "storm trooper"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Ewok",
+        "tier": 15
+      },
+      {
+        "text": "Obi-Wan Kenobi",
+        "aliases": [
+          "obi wan",
+          "obi-wan",
+          "ben kenobi",
+          "kenobi"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Emperor Palpatine",
+        "aliases": [
+          "palpatine",
+          "darth sidious",
+          "the emperor",
+          "sheev palpatine"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Boba Fett",
+        "tier": 30
+      },
+      {
+        "text": "Jabba the Hutt",
+        "aliases": [
+          "jabba"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lando Calrissian",
+        "aliases": [
+          "lando"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Darth Maul",
+        "aliases": [
+          "maul"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Rey",
+        "tier": 30
+      },
+      {
+        "text": "Kylo Ren",
+        "aliases": [
+          "ben solo"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Finn",
+        "tier": 30
+      },
+      {
+        "text": "Poe Dameron",
+        "aliases": [
+          "poe"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "BB-8",
+        "aliases": [
+          "bb8"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Grogu",
+        "aliases": [
+          "baby yoda"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "The Mandalorian",
+        "aliases": [
+          "mandalorian",
+          "din djarin",
+          "mando"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Padme Amidala",
+        "aliases": [
+          "padme",
+          "queen amidala",
+          "padmé"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Qui-Gon Jinn",
+        "aliases": [
+          "qui gon",
+          "qui-gon"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mace Windu",
+        "aliases": [
+          "windu"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Count Dooku",
+        "aliases": [
+          "dooku"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "General Grievous",
+        "aliases": [
+          "grievous"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wicket",
+        "tier": 30
+      },
+      {
+        "text": "Ahsoka Tano",
+        "aliases": [
+          "ahsoka"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jango Fett",
+        "tier": 60
+      },
+      {
+        "text": "Greedo",
+        "tier": 60
+      },
+      {
+        "text": "Wedge Antilles",
+        "aliases": [
+          "wedge"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Grand Moff Tarkin",
+        "aliases": [
+          "tarkin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lobot",
+        "tier": 60
+      },
+      {
+        "text": "Nien Nunb",
+        "tier": 60
+      },
+      {
+        "text": "Bib Fortuna",
+        "tier": 60
+      },
+      {
+        "text": "Salacious Crumb",
+        "tier": 60
+      },
+      {
+        "text": "Max Rebo",
+        "tier": 60
+      },
+      {
+        "text": "Bossk",
+        "tier": 60
+      },
+      {
+        "text": "IG-88",
+        "aliases": [
+          "ig88"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dengar",
+        "tier": 60
+      },
+      {
+        "text": "Zuckuss",
+        "tier": 60
+      },
+      {
+        "text": "4-LOM",
+        "tier": 60
+      },
+      {
+        "text": "Rose Tico",
+        "aliases": [
+          "rose"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Supreme Leader Snoke",
+        "aliases": [
+          "snoke"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "General Hux",
+        "aliases": [
+          "hux"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Captain Phasma",
+        "aliases": [
+          "phasma"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Maz Kanata",
+        "aliases": [
+          "maz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jyn Erso",
+        "aliases": [
+          "jyn"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cassian Andor",
+        "aliases": [
+          "andor",
+          "cassian"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "K-2SO",
+        "aliases": [
+          "k2so"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chirrut Imwe",
+        "aliases": [
+          "chirrut"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Baze Malbus",
+        "tier": 60
+      },
+      {
+        "text": "Saw Gerrera",
+        "tier": 60
+      },
+      {
+        "text": "Orson Krennic",
+        "aliases": [
+          "krennic"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Galen Erso",
+        "tier": 60
+      },
+      {
+        "text": "Bodhi Rook",
+        "tier": 60
+      },
+      {
+        "text": "Qi'ra",
+        "tier": 60
+      },
+      {
+        "text": "Tobias Beckett",
+        "aliases": [
+          "beckett"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "L3-37",
+        "tier": 60
+      },
+      {
+        "text": "Enfys Nest",
+        "tier": 60
+      },
+      {
+        "text": "Cad Bane",
+        "tier": 60
+      },
+      {
+        "text": "Bo-Katan Kryze",
+        "aliases": [
+          "bo katan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Moff Gideon",
+        "aliases": [
+          "gideon"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Greef Karga",
+        "tier": 60
+      },
+      {
+        "text": "Cara Dune",
+        "tier": 60
+      },
+      {
+        "text": "IG-11",
+        "tier": 60
+      },
+      {
+        "text": "The Armorer",
+        "aliases": [
+          "armorer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fennec Shand",
+        "tier": 60
+      },
+      {
+        "text": "Cobb Vanth",
+        "tier": 60
+      },
+      {
+        "text": "Ezra Bridger",
+        "aliases": [
+          "ezra"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kanan Jarrus",
+        "aliases": [
+          "kanan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hera Syndulla",
+        "aliases": [
+          "hera"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sabine Wren",
+        "aliases": [
+          "sabine"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Zeb Orrelios",
+        "aliases": [
+          "zeb"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chopper",
+        "tier": 60
+      },
+      {
+        "text": "Grand Admiral Thrawn",
+        "aliases": [
+          "thrawn"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Asajj Ventress",
+        "aliases": [
+          "ventress"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Savage Opress",
+        "tier": 60
+      },
+      {
+        "text": "Captain Rex",
+        "aliases": [
+          "rex"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Commander Cody",
+        "aliases": [
+          "cody"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Plo Koon",
+        "tier": 60
+      },
+      {
+        "text": "Kit Fisto",
+        "tier": 60
+      },
+      {
+        "text": "Ki-Adi-Mundi",
+        "tier": 60
+      },
+      {
+        "text": "Aayla Secura",
+        "tier": 60
+      },
+      {
+        "text": "Shaak Ti",
+        "tier": 60
+      },
+      {
+        "text": "Luminara Unduli",
+        "tier": 60
+      },
+      {
+        "text": "Barriss Offee",
+        "tier": 60
+      },
+      {
+        "text": "Watto",
+        "tier": 60
+      },
+      {
+        "text": "Sebulba",
+        "tier": 60
+      },
+      {
+        "text": "Nute Gunray",
+        "tier": 60
+      },
+      {
+        "text": "Shmi Skywalker",
+        "aliases": [
+          "shmi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Owen Lars",
+        "aliases": [
+          "uncle owen"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Beru Lars",
+        "aliases": [
+          "aunt beru"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Biggs Darklighter",
+        "aliases": [
+          "biggs"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mon Mothma",
+        "tier": 60
+      },
+      {
+        "text": "Bail Organa",
+        "tier": 60
+      },
+      {
+        "text": "Admiral Piett",
+        "aliases": [
+          "piett"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "General Veers",
+        "aliases": [
+          "veers"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Darth Bane",
+        "tier": 60
+      },
+      {
+        "text": "Darth Plagueis",
+        "aliases": [
+          "plagueis"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cal Kestis",
+        "tier": 60
+      },
+      {
+        "text": "Starkiller",
+        "aliases": [
+          "galen marek"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Porkins",
+        "aliases": [
+          "jek porkins"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dak Ralter",
+        "aliases": [
+          "dak"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hobbie",
+        "tier": 85
+      },
+      {
+        "text": "Zev Senesca",
+        "tier": 85
+      },
+      {
+        "text": "Garindan",
+        "tier": 85
+      },
+      {
+        "text": "Ponda Baba",
+        "tier": 85
+      },
+      {
+        "text": "Dr. Evazan",
+        "aliases": [
+          "evazan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Figrin D'an",
+        "tier": 85
+      },
+      {
+        "text": "Momaw Nadon",
+        "aliases": [
+          "hammerhead"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wuher",
+        "tier": 85
+      },
+      {
+        "text": "Yarael Poof",
+        "tier": 85
+      },
+      {
+        "text": "Saesee Tiin",
+        "tier": 85
+      },
+      {
+        "text": "Even Piell",
+        "tier": 85
+      },
+      {
+        "text": "Oppo Rancisis",
+        "tier": 85
+      },
+      {
+        "text": "Depa Billaba",
+        "tier": 85
+      },
+      {
+        "text": "Eeth Koth",
+        "tier": 85
+      },
+      {
+        "text": "Adi Gallia",
+        "tier": 85
+      },
+      {
+        "text": "Stass Allie",
+        "tier": 85
+      },
+      {
+        "text": "Coleman Trebor",
+        "tier": 85
+      },
+      {
+        "text": "Jocasta Nu",
+        "tier": 85
+      },
+      {
+        "text": "Dexter Jettster",
+        "aliases": [
+          "dex"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lama Su",
+        "tier": 85
+      },
+      {
+        "text": "Taun We",
+        "tier": 85
+      },
+      {
+        "text": "Zam Wesell",
+        "tier": 85
+      },
+      {
+        "text": "Sly Moore",
+        "tier": 85
+      },
+      {
+        "text": "Mas Amedda",
+        "tier": 85
+      },
+      {
+        "text": "Wat Tambor",
+        "tier": 85
+      },
+      {
+        "text": "San Hill",
+        "tier": 85
+      },
+      {
+        "text": "Poggle the Lesser",
+        "tier": 85
+      },
+      {
+        "text": "Rune Haako",
+        "tier": 85
+      },
+      {
+        "text": "Boss Nass",
+        "tier": 85
+      },
+      {
+        "text": "Captain Tarpals",
+        "tier": 85
+      },
+      {
+        "text": "Rugor Nass",
+        "tier": 85
+      },
+      {
+        "text": "Sio Bibble",
+        "tier": 85
+      },
+      {
+        "text": "Captain Panaka",
+        "aliases": [
+          "panaka"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sabe",
+        "tier": 85
+      },
+      {
+        "text": "Dorme",
+        "tier": 85
+      },
+      {
+        "text": "Cliegg Lars",
+        "tier": 85
+      },
+      {
+        "text": "Hondo Ohnaka",
+        "aliases": [
+          "hondo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Embo",
+        "tier": 85
+      },
+      {
+        "text": "Aurra Sing",
+        "tier": 85
+      },
+      {
+        "text": "Sugi",
+        "tier": 85
+      },
+      {
+        "text": "Latts Razzi",
+        "tier": 85
+      },
+      {
+        "text": "Pre Vizsla",
+        "tier": 85
+      },
+      {
+        "text": "Almec",
+        "tier": 85
+      },
+      {
+        "text": "Satine Kryze",
+        "aliases": [
+          "satine"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Korkie",
+        "tier": 85
+      },
+      {
+        "text": "Lux Bonteri",
+        "tier": 85
+      },
+      {
+        "text": "Mina Bonteri",
+        "tier": 85
+      },
+      {
+        "text": "Onaconda Farr",
+        "tier": 85
+      },
+      {
+        "text": "Riyo Chuchi",
+        "tier": 85
+      },
+      {
+        "text": "Rush Clovis",
+        "tier": 85
+      },
+      {
+        "text": "Kix",
+        "tier": 85
+      },
+      {
+        "text": "Echo",
+        "tier": 85
+      },
+      {
+        "text": "Fives",
+        "tier": 85
+      },
+      {
+        "text": "Hevy",
+        "tier": 85
+      },
+      {
+        "text": "Hardcase",
+        "tier": 85
+      },
+      {
+        "text": "Wrecker",
+        "tier": 85
+      },
+      {
+        "text": "Tech",
+        "tier": 85
+      },
+      {
+        "text": "Crosshair",
+        "tier": 85
+      },
+      {
+        "text": "Hunter",
+        "tier": 85
+      },
+      {
+        "text": "Omega",
+        "tier": 85
+      },
+      {
+        "text": "Doctor Aphra",
+        "aliases": [
+          "aphra"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "BT-1",
+        "tier": 85
+      },
+      {
+        "text": "0-0-0",
+        "aliases": [
+          "triple zero"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pao",
+        "tier": 85
+      },
+      {
+        "text": "Weeteef Cyubee",
+        "tier": 85
+      },
+      {
+        "text": "Unkar Plutt",
+        "tier": 85
+      },
+      {
+        "text": "Lor San Tekka",
+        "tier": 85
+      },
+      {
+        "text": "Zorii Bliss",
+        "tier": 85
+      },
+      {
+        "text": "Babu Frik",
+        "tier": 85
+      },
+      {
+        "text": "Jannah",
+        "tier": 85
+      },
+      {
+        "text": "Allegiant General Pryde",
+        "aliases": [
+          "pryde"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vice Admiral Holdo",
+        "aliases": [
+          "holdo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kaydel Ko Connix",
+        "aliases": [
+          "connix"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "DJ",
+        "tier": 85
+      },
+      {
+        "text": "Paige Tico",
+        "tier": 85
+      },
+      {
+        "text": "Fifth Brother",
+        "tier": 85
+      },
+      {
+        "text": "Second Sister",
+        "tier": 85
+      },
+      {
+        "text": "Grand Inquisitor",
+        "tier": 85
+      },
+      {
+        "text": "Reva",
+        "tier": 85
+      },
+      {
+        "text": "Trilla",
+        "tier": 85
+      },
+      {
+        "text": "Luthen Rael",
+        "aliases": [
+          "luthen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dedra Meero",
+        "tier": 85
+      },
+      {
+        "text": "Syril Karn",
+        "tier": 85
+      },
+      {
+        "text": "Kino Loy",
+        "tier": 85
+      },
+      {
+        "text": "Maarva Andor",
+        "tier": 85
+      },
+      {
+        "text": "Nemik",
+        "tier": 85
+      },
+      {
+        "text": "Vel Sartha",
+        "tier": 85
+      },
+      {
+        "text": "Cinta Kaz",
+        "tier": 85
+      },
+      {
+        "text": "Brasso",
+        "tier": 85
+      },
+      {
+        "text": "B2EMO",
+        "tier": 85
+      },
+      {
+        "text": "Kuiil",
+        "tier": 85
+      },
+      {
+        "text": "The Client",
+        "tier": 85
+      },
+      {
+        "text": "Migs Mayfeld",
+        "aliases": [
+          "mayfeld"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paz Vizsla",
+        "tier": 85
+      },
+      {
+        "text": "Peli Motto",
+        "tier": 85
+      },
+      {
+        "text": "Morgan Elsbeth",
+        "tier": 85
+      },
+      {
+        "text": "Baylan Skoll",
+        "tier": 85
+      },
+      {
+        "text": "Shin Hati",
+        "tier": 85
+      },
+      {
+        "text": "Huyang",
+        "tier": 85
+      },
+      {
+        "text": "Marrok",
+        "tier": 85
+      },
+      {
+        "text": "Osha Aniseya",
+        "tier": 85
+      },
+      {
+        "text": "Mae Aniseya",
+        "tier": 85
+      },
+      {
+        "text": "Sol",
+        "tier": 85
+      },
+      {
+        "text": "Qimir",
+        "tier": 85
+      },
+      {
+        "text": "Vernestra Rwoh",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Spock",
+      "Captain Kirk",
+      "Gandalf",
+      "Harry Potter",
+      "Jedi",
+      "Sith"
+    ]
+  },
+  {
+    "id": "q0047",
+    "prompt": "Name a color",
+    "category": "words-language",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Vantablack",
+        "tier": 100
+      },
+      {
+        "text": "Red",
+        "tier": 10
+      },
+      {
+        "text": "Blue",
+        "tier": 10
+      },
+      {
+        "text": "Green",
+        "tier": 10
+      },
+      {
+        "text": "Yellow",
+        "tier": 10
+      },
+      {
+        "text": "Orange",
+        "tier": 10
+      },
+      {
+        "text": "Purple",
+        "tier": 10
+      },
+      {
+        "text": "Pink",
+        "tier": 10
+      },
+      {
+        "text": "Black",
+        "tier": 10
+      },
+      {
+        "text": "Clear",
+        "aliases": [
+          "transparent"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Rainbow",
+        "tier": 15
+      },
+      {
+        "text": "Infrared",
+        "aliases": [
+          "ultraviolet"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "White",
+        "tier": 30
+      },
+      {
+        "text": "Brown",
+        "tier": 30
+      },
+      {
+        "text": "Gray",
+        "aliases": [
+          "grey"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Gold",
+        "tier": 30
+      },
+      {
+        "text": "Silver",
+        "tier": 30
+      },
+      {
+        "text": "Violet",
+        "tier": 30
+      },
+      {
+        "text": "Indigo",
+        "tier": 30
+      },
+      {
+        "text": "Turquoise",
+        "tier": 30
+      },
+      {
+        "text": "Teal",
+        "tier": 30
+      },
+      {
+        "text": "Magenta",
+        "tier": 30
+      },
+      {
+        "text": "Maroon",
+        "tier": 30
+      },
+      {
+        "text": "Navy",
+        "aliases": [
+          "navy blue"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Beige",
+        "tier": 30
+      },
+      {
+        "text": "Tan",
+        "tier": 30
+      },
+      {
+        "text": "Cyan",
+        "tier": 30
+      },
+      {
+        "text": "Lavender",
+        "tier": 30
+      },
+      {
+        "text": "Lime",
+        "aliases": [
+          "lime green"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Crimson",
+        "tier": 30
+      },
+      {
+        "text": "Burgundy",
+        "tier": 30
+      },
+      {
+        "text": "Peach",
+        "tier": 30
+      },
+      {
+        "text": "Cream",
+        "tier": 30
+      },
+      {
+        "text": "Ivory",
+        "tier": 30
+      },
+      {
+        "text": "Coral",
+        "tier": 30
+      },
+      {
+        "text": "Mint",
+        "aliases": [
+          "mint green"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Aqua",
+        "tier": 30
+      },
+      {
+        "text": "Olive",
+        "aliases": [
+          "olive green"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sky blue",
+        "aliases": [
+          "light blue"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hot pink",
+        "tier": 30
+      },
+      {
+        "text": "Neon green",
+        "tier": 30
+      },
+      {
+        "text": "Fuchsia",
+        "tier": 60
+      },
+      {
+        "text": "Chartreuse",
+        "tier": 60
+      },
+      {
+        "text": "Mauve",
+        "tier": 60
+      },
+      {
+        "text": "Taupe",
+        "tier": 60
+      },
+      {
+        "text": "Khaki",
+        "tier": 60
+      },
+      {
+        "text": "Ochre",
+        "aliases": [
+          "ocher"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sienna",
+        "aliases": [
+          "burnt sienna"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Umber",
+        "aliases": [
+          "burnt umber"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Scarlet",
+        "tier": 60
+      },
+      {
+        "text": "Vermilion",
+        "aliases": [
+          "vermillion"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cerulean",
+        "tier": 60
+      },
+      {
+        "text": "Azure",
+        "tier": 60
+      },
+      {
+        "text": "Cobalt",
+        "aliases": [
+          "cobalt blue"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sapphire",
+        "tier": 60
+      },
+      {
+        "text": "Emerald",
+        "tier": 60
+      },
+      {
+        "text": "Jade",
+        "tier": 60
+      },
+      {
+        "text": "Ruby",
+        "tier": 60
+      },
+      {
+        "text": "Amber",
+        "tier": 60
+      },
+      {
+        "text": "Bronze",
+        "tier": 60
+      },
+      {
+        "text": "Copper",
+        "tier": 60
+      },
+      {
+        "text": "Rust",
+        "tier": 60
+      },
+      {
+        "text": "Mahogany",
+        "tier": 60
+      },
+      {
+        "text": "Chocolate",
+        "tier": 60
+      },
+      {
+        "text": "Mocha",
+        "tier": 60
+      },
+      {
+        "text": "Coffee",
+        "tier": 60
+      },
+      {
+        "text": "Caramel",
+        "tier": 60
+      },
+      {
+        "text": "Charcoal",
+        "tier": 60
+      },
+      {
+        "text": "Slate",
+        "aliases": [
+          "slate gray"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gunmetal",
+        "tier": 60
+      },
+      {
+        "text": "Pewter",
+        "tier": 60
+      },
+      {
+        "text": "Platinum",
+        "tier": 60
+      },
+      {
+        "text": "Champagne",
+        "tier": 60
+      },
+      {
+        "text": "Salmon",
+        "tier": 60
+      },
+      {
+        "text": "Rose",
+        "tier": 60
+      },
+      {
+        "text": "Blush",
+        "tier": 60
+      },
+      {
+        "text": "Plum",
+        "tier": 60
+      },
+      {
+        "text": "Lilac",
+        "tier": 60
+      },
+      {
+        "text": "Periwinkle",
+        "tier": 60
+      },
+      {
+        "text": "Orchid",
+        "tier": 60
+      },
+      {
+        "text": "Amethyst",
+        "tier": 60
+      },
+      {
+        "text": "Eggplant",
+        "aliases": [
+          "aubergine"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wine",
+        "tier": 60
+      },
+      {
+        "text": "Cherry red",
+        "tier": 60
+      },
+      {
+        "text": "Brick red",
+        "tier": 60
+      },
+      {
+        "text": "Royal blue",
+        "tier": 60
+      },
+      {
+        "text": "Baby blue",
+        "tier": 60
+      },
+      {
+        "text": "Powder blue",
+        "tier": 60
+      },
+      {
+        "text": "Forest green",
+        "tier": 60
+      },
+      {
+        "text": "Kelly green",
+        "tier": 60
+      },
+      {
+        "text": "Sea green",
+        "tier": 60
+      },
+      {
+        "text": "Hunter green",
+        "tier": 60
+      },
+      {
+        "text": "Army green",
+        "tier": 60
+      },
+      {
+        "text": "Sage",
+        "tier": 60
+      },
+      {
+        "text": "Mustard",
+        "tier": 60
+      },
+      {
+        "text": "Lemon",
+        "tier": 60
+      },
+      {
+        "text": "Canary yellow",
+        "tier": 60
+      },
+      {
+        "text": "Goldenrod",
+        "tier": 60
+      },
+      {
+        "text": "Apricot",
+        "tier": 60
+      },
+      {
+        "text": "Tangerine",
+        "tier": 60
+      },
+      {
+        "text": "Pumpkin",
+        "tier": 60
+      },
+      {
+        "text": "Off-white",
+        "tier": 60
+      },
+      {
+        "text": "Eggshell",
+        "tier": 60
+      },
+      {
+        "text": "Bone",
+        "tier": 60
+      },
+      {
+        "text": "Snow",
+        "tier": 60
+      },
+      {
+        "text": "Jet black",
+        "tier": 60
+      },
+      {
+        "text": "Ebony",
+        "tier": 60
+      },
+      {
+        "text": "Onyx",
+        "tier": 60
+      },
+      {
+        "text": "Sepia",
+        "tier": 60
+      },
+      {
+        "text": "Hazel",
+        "tier": 60
+      },
+      {
+        "text": "Auburn",
+        "tier": 60
+      },
+      {
+        "text": "Blonde",
+        "tier": 60
+      },
+      {
+        "text": "Puce",
+        "tier": 85
+      },
+      {
+        "text": "Cerise",
+        "tier": 85
+      },
+      {
+        "text": "Carmine",
+        "tier": 85
+      },
+      {
+        "text": "Cinnabar",
+        "tier": 85
+      },
+      {
+        "text": "Alizarin",
+        "tier": 85
+      },
+      {
+        "text": "Gamboge",
+        "tier": 85
+      },
+      {
+        "text": "Celadon",
+        "tier": 85
+      },
+      {
+        "text": "Viridian",
+        "tier": 85
+      },
+      {
+        "text": "Malachite",
+        "tier": 85
+      },
+      {
+        "text": "Verdigris",
+        "tier": 85
+      },
+      {
+        "text": "Wenge",
+        "tier": 85
+      },
+      {
+        "text": "Fallow",
+        "tier": 85
+      },
+      {
+        "text": "Ecru",
+        "tier": 85
+      },
+      {
+        "text": "Bistre",
+        "tier": 85
+      },
+      {
+        "text": "Bisque",
+        "tier": 85
+      },
+      {
+        "text": "Wheat",
+        "tier": 85
+      },
+      {
+        "text": "Buff",
+        "tier": 85
+      },
+      {
+        "text": "Fawn",
+        "tier": 85
+      },
+      {
+        "text": "Russet",
+        "tier": 85
+      },
+      {
+        "text": "Titian",
+        "tier": 85
+      },
+      {
+        "text": "Byzantium",
+        "tier": 85
+      },
+      {
+        "text": "Tyrian purple",
+        "tier": 85
+      },
+      {
+        "text": "Heliotrope",
+        "tier": 85
+      },
+      {
+        "text": "Thistle",
+        "tier": 85
+      },
+      {
+        "text": "Wisteria",
+        "tier": 85
+      },
+      {
+        "text": "Mulberry",
+        "tier": 85
+      },
+      {
+        "text": "Raspberry",
+        "tier": 85
+      },
+      {
+        "text": "Glaucous",
+        "tier": 85
+      },
+      {
+        "text": "Feldgrau",
+        "tier": 85
+      },
+      {
+        "text": "Payne's gray",
+        "tier": 85
+      },
+      {
+        "text": "Prussian blue",
+        "tier": 85
+      },
+      {
+        "text": "Ultramarine",
+        "tier": 85
+      },
+      {
+        "text": "Phthalo blue",
+        "tier": 85
+      },
+      {
+        "text": "Cornflower blue",
+        "aliases": [
+          "cornflower"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Robin's egg blue",
+        "tier": 85
+      },
+      {
+        "text": "Tiffany blue",
+        "tier": 85
+      },
+      {
+        "text": "International Klein Blue",
+        "aliases": [
+          "klein blue"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Persian blue",
+        "tier": 85
+      },
+      {
+        "text": "Midnight blue",
+        "tier": 85
+      },
+      {
+        "text": "Oxford blue",
+        "tier": 85
+      },
+      {
+        "text": "Cadet blue",
+        "tier": 85
+      },
+      {
+        "text": "Steel blue",
+        "tier": 85
+      },
+      {
+        "text": "Marigold",
+        "tier": 85
+      },
+      {
+        "text": "Saffron",
+        "tier": 85
+      },
+      {
+        "text": "Xanthic",
+        "tier": 85
+      },
+      {
+        "text": "Citrine",
+        "tier": 85
+      },
+      {
+        "text": "Aureolin",
+        "tier": 85
+      },
+      {
+        "text": "Flax",
+        "tier": 85
+      },
+      {
+        "text": "Jasmine",
+        "tier": 85
+      },
+      {
+        "text": "Chamoisee",
+        "tier": 85
+      },
+      {
+        "text": "Coquelicot",
+        "tier": 85
+      },
+      {
+        "text": "Falu red",
+        "tier": 85
+      },
+      {
+        "text": "Oxblood",
+        "tier": 85
+      },
+      {
+        "text": "Claret",
+        "tier": 85
+      },
+      {
+        "text": "Cordovan",
+        "tier": 85
+      },
+      {
+        "text": "Burnt orange",
+        "tier": 85
+      },
+      {
+        "text": "Persimmon",
+        "tier": 85
+      },
+      {
+        "text": "Mint cream",
+        "tier": 85
+      },
+      {
+        "text": "Honeydew",
+        "tier": 85
+      },
+      {
+        "text": "Seafoam",
+        "aliases": [
+          "sea foam"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Celeste",
+        "tier": 85
+      },
+      {
+        "text": "Isabelline",
+        "tier": 85
+      },
+      {
+        "text": "Gainsboro",
+        "tier": 85
+      },
+      {
+        "text": "Smalt",
+        "tier": 85
+      },
+      {
+        "text": "Zaffre",
+        "tier": 85
+      },
+      {
+        "text": "Liver",
+        "tier": 85
+      },
+      {
+        "text": "Drab",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Rainbow sherbet",
+      "Glitter",
+      "Sparkly",
+      "Shiny",
+      "Dark",
+      "Light",
+      "Bright",
+      "Plaid"
+    ],
+    "notes": "Named colors and shades. \"Light blue\" style combos only where they're common color names."
+  },
+  {
+    "id": "q0048",
+    "prompt": "Name a famous scientist",
+    "category": "science",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Rosalind Franklin",
+        "aliases": [
+          "franklin"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Albert Einstein",
+        "aliases": [
+          "einstein"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Isaac Newton",
+        "aliases": [
+          "newton"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Charles Darwin",
+        "aliases": [
+          "darwin"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Marie Curie",
+        "aliases": [
+          "curie"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Galileo Galilei",
+        "aliases": [
+          "galileo"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Nikola Tesla",
+        "aliases": [
+          "tesla"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Stephen Hawking",
+        "aliases": [
+          "hawking"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Bill Nye",
+        "tier": 15
+      },
+      {
+        "text": "Neil deGrasse Tyson",
+        "aliases": [
+          "neil degrasse tyson",
+          "tyson"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Benjamin Franklin",
+        "aliases": [
+          "ben franklin"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Thomas Edison",
+        "aliases": [
+          "edison"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Louis Pasteur",
+        "aliases": [
+          "pasteur"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Nicolaus Copernicus",
+        "aliases": [
+          "copernicus"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Gregor Mendel",
+        "aliases": [
+          "mendel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Alexander Fleming",
+        "aliases": [
+          "fleming"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Aristotle",
+        "tier": 30
+      },
+      {
+        "text": "Archimedes",
+        "tier": 30
+      },
+      {
+        "text": "Pythagoras",
+        "tier": 30
+      },
+      {
+        "text": "Johannes Kepler",
+        "aliases": [
+          "kepler"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Michael Faraday",
+        "aliases": [
+          "faraday"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Carl Sagan",
+        "aliases": [
+          "sagan"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Jane Goodall",
+        "aliases": [
+          "goodall"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Alexander Graham Bell",
+        "aliases": [
+          "graham bell"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Robert Oppenheimer",
+        "aliases": [
+          "oppenheimer",
+          "j robert oppenheimer"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Leonardo da Vinci",
+        "aliases": [
+          "da vinci"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Niels Bohr",
+        "aliases": [
+          "bohr"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dmitri Mendeleev",
+        "aliases": [
+          "mendeleev"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Max Planck",
+        "aliases": [
+          "planck"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Edwin Hubble",
+        "aliases": [
+          "hubble"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Richard Feynman",
+        "aliases": [
+          "feynman"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Werner Heisenberg",
+        "aliases": [
+          "heisenberg"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Erwin Schrodinger",
+        "aliases": [
+          "schrodinger",
+          "schrödinger"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ernest Rutherford",
+        "aliases": [
+          "rutherford"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James Clerk Maxwell",
+        "aliases": [
+          "maxwell"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Enrico Fermi",
+        "aliases": [
+          "fermi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Paul Dirac",
+        "aliases": [
+          "dirac"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Robert Hooke",
+        "aliases": [
+          "hooke"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Robert Boyle",
+        "aliases": [
+          "boyle"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Antoine Lavoisier",
+        "aliases": [
+          "lavoisier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Dalton",
+        "aliases": [
+          "dalton"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alfred Nobel",
+        "aliases": [
+          "nobel"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ada Lovelace",
+        "aliases": [
+          "lovelace"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alan Turing",
+        "aliases": [
+          "turing"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Grace Hopper",
+        "aliases": [
+          "hopper"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rachel Carson",
+        "aliases": [
+          "carson"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Linus Pauling",
+        "aliases": [
+          "pauling"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James Watson",
+        "aliases": [
+          "watson"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Francis Crick",
+        "aliases": [
+          "crick"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jonas Salk",
+        "aliases": [
+          "salk"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edward Jenner",
+        "aliases": [
+          "jenner"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Joseph Lister",
+        "aliases": [
+          "lister"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Florence Nightingale",
+        "aliases": [
+          "nightingale"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hippocrates",
+        "tier": 60
+      },
+      {
+        "text": "Euclid",
+        "tier": 60
+      },
+      {
+        "text": "Ptolemy",
+        "tier": 60
+      },
+      {
+        "text": "Tycho Brahe",
+        "aliases": [
+          "brahe"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Carl Linnaeus",
+        "aliases": [
+          "linnaeus"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alexander von Humboldt",
+        "aliases": [
+          "humboldt"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alfred Russel Wallace",
+        "aliases": [
+          "wallace"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Louis Leakey",
+        "aliases": [
+          "leakey"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mary Anning",
+        "aliases": [
+          "anning"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Henrietta Lacks",
+        "tier": 60
+      },
+      {
+        "text": "Katherine Johnson",
+        "tier": 60
+      },
+      {
+        "text": "Dorothy Hodgkin",
+        "aliases": [
+          "hodgkin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lise Meitner",
+        "aliases": [
+          "meitner"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chien-Shiung Wu",
+        "tier": 60
+      },
+      {
+        "text": "Sally Ride",
+        "tier": 60
+      },
+      {
+        "text": "Mae Jemison",
+        "tier": 60
+      },
+      {
+        "text": "George Washington Carver",
+        "aliases": [
+          "carver"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Percy Julian",
+        "tier": 60
+      },
+      {
+        "text": "Wernher von Braun",
+        "aliases": [
+          "von braun"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Robert Goddard",
+        "aliases": [
+          "goddard"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Guglielmo Marconi",
+        "aliases": [
+          "marconi"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alessandro Volta",
+        "aliases": [
+          "volta"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Andre-Marie Ampere",
+        "aliases": [
+          "ampere"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Georg Ohm",
+        "aliases": [
+          "ohm"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James Watt",
+        "aliases": [
+          "watt"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Heinrich Hertz",
+        "aliases": [
+          "hertz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Anders Celsius",
+        "aliases": [
+          "celsius"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Daniel Fahrenheit",
+        "aliases": [
+          "fahrenheit"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lord Kelvin",
+        "aliases": [
+          "kelvin",
+          "william thomson"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Blaise Pascal",
+        "aliases": [
+          "pascal"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rene Descartes",
+        "aliases": [
+          "descartes"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gottfried Leibniz",
+        "aliases": [
+          "leibniz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Leonhard Euler",
+        "aliases": [
+          "euler"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Carl Friedrich Gauss",
+        "aliases": [
+          "gauss"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Srinivasa Ramanujan",
+        "aliases": [
+          "ramanujan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John von Neumann",
+        "aliases": [
+          "von neumann"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tim Berners-Lee",
+        "aliases": [
+          "berners-lee"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jennifer Doudna",
+        "aliases": [
+          "doudna"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Peter Higgs",
+        "aliases": [
+          "higgs"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edmond Halley",
+        "aliases": [
+          "halley"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Emmy Noether",
+        "aliases": [
+          "noether"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Barbara McClintock",
+        "aliases": [
+          "mcclintock"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gertrude Elion",
+        "tier": 85
+      },
+      {
+        "text": "Rita Levi-Montalcini",
+        "tier": 85
+      },
+      {
+        "text": "Tu Youyou",
+        "tier": 85
+      },
+      {
+        "text": "Vera Rubin",
+        "aliases": [
+          "rubin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jocelyn Bell Burnell",
+        "tier": 85
+      },
+      {
+        "text": "Cecilia Payne-Gaposchkin",
+        "aliases": [
+          "cecilia payne"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Henrietta Swan Leavitt",
+        "aliases": [
+          "leavitt"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Annie Jump Cannon",
+        "tier": 85
+      },
+      {
+        "text": "Caroline Herschel",
+        "tier": 85
+      },
+      {
+        "text": "William Herschel",
+        "aliases": [
+          "herschel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Christiaan Huygens",
+        "aliases": [
+          "huygens"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Antonie van Leeuwenhoek",
+        "aliases": [
+          "leeuwenhoek"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Robert Koch",
+        "aliases": [
+          "koch"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paul Ehrlich",
+        "aliases": [
+          "ehrlich"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ivan Pavlov",
+        "aliases": [
+          "pavlov"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Santiago Ramon y Cajal",
+        "aliases": [
+          "ramon y cajal"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Camillo Golgi",
+        "aliases": [
+          "golgi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rudolf Virchow",
+        "aliases": [
+          "virchow"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ignaz Semmelweis",
+        "aliases": [
+          "semmelweis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Andreas Vesalius",
+        "aliases": [
+          "vesalius"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "William Harvey",
+        "aliases": [
+          "harvey"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Galen",
+        "tier": 85
+      },
+      {
+        "text": "Avicenna",
+        "aliases": [
+          "ibn sina"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alhazen",
+        "aliases": [
+          "ibn al-haytham"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Al-Khwarizmi",
+        "tier": 85
+      },
+      {
+        "text": "Hypatia",
+        "tier": 85
+      },
+      {
+        "text": "Eratosthenes",
+        "tier": 85
+      },
+      {
+        "text": "Democritus",
+        "tier": 85
+      },
+      {
+        "text": "Thales",
+        "tier": 85
+      },
+      {
+        "text": "Amedeo Avogadro",
+        "aliases": [
+          "avogadro"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Joseph Priestley",
+        "aliases": [
+          "priestley"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Henry Cavendish",
+        "aliases": [
+          "cavendish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Humphry Davy",
+        "aliases": [
+          "davy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jons Jacob Berzelius",
+        "aliases": [
+          "berzelius"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Friedrich Wohler",
+        "aliases": [
+          "wohler"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "August Kekule",
+        "aliases": [
+          "kekule"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Svante Arrhenius",
+        "aliases": [
+          "arrhenius"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fritz Haber",
+        "aliases": [
+          "haber"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Marie Tharp",
+        "aliases": [
+          "tharp"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Alfred Wegener",
+        "aliases": [
+          "wegener"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Charles Lyell",
+        "aliases": [
+          "lyell"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "James Hutton",
+        "aliases": [
+          "hutton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Georges Cuvier",
+        "aliases": [
+          "cuvier"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jean-Baptiste Lamarck",
+        "aliases": [
+          "lamarck"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ernst Mayr",
+        "aliases": [
+          "mayr"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "E.O. Wilson",
+        "aliases": [
+          "edward o wilson"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Richard Dawkins",
+        "aliases": [
+          "dawkins"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Stephen Jay Gould",
+        "aliases": [
+          "gould"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lynn Margulis",
+        "aliases": [
+          "margulis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kary Mullis",
+        "aliases": [
+          "mullis"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Frederick Sanger",
+        "aliases": [
+          "sanger"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Max Born",
+        "aliases": [
+          "born"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wolfgang Pauli",
+        "aliases": [
+          "pauli"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Satyendra Nath Bose",
+        "aliases": [
+          "bose"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Subrahmanyan Chandrasekhar",
+        "aliases": [
+          "chandrasekhar"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Arthur Eddington",
+        "aliases": [
+          "eddington"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Georges Lemaitre",
+        "aliases": [
+          "lemaitre"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fred Hoyle",
+        "aliases": [
+          "hoyle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Murray Gell-Mann",
+        "aliases": [
+          "gell-mann"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kip Thorne",
+        "aliases": [
+          "thorne"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Roger Penrose",
+        "aliases": [
+          "penrose"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Michio Kaku",
+        "aliases": [
+          "kaku"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Brian Greene",
+        "tier": 85
+      },
+      {
+        "text": "Claude Shannon",
+        "aliases": [
+          "shannon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Norbert Wiener",
+        "tier": 85
+      },
+      {
+        "text": "Hedy Lamarr",
+        "aliases": [
+          "lamarr"
+        ],
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Frankenstein",
+      "Dr. Seuss",
+      "Bill Gates",
+      "Steve Jobs",
+      "Elon Musk",
+      "Sherlock Holmes"
+    ]
+  },
+  {
+    "id": "q0049",
+    "prompt": "Name a clothing or fashion brand",
+    "category": "brands",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Von Dutch",
+        "tier": 100
+      },
+      {
+        "text": "Nike",
+        "tier": 10
+      },
+      {
+        "text": "Adidas",
+        "tier": 10
+      },
+      {
+        "text": "Gucci",
+        "tier": 10
+      },
+      {
+        "text": "Gap",
+        "tier": 10
+      },
+      {
+        "text": "Old Navy",
+        "tier": 10
+      },
+      {
+        "text": "Levi's",
+        "aliases": [
+          "levis",
+          "levi"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Ralph Lauren",
+        "aliases": [
+          "polo",
+          "polo ralph lauren"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Fruit of the Loom",
+        "tier": 15
+      },
+      {
+        "text": "Hanes",
+        "tier": 15
+      },
+      {
+        "text": "Crocs",
+        "tier": 15
+      },
+      {
+        "text": "Under Armour",
+        "aliases": [
+          "under armor"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Puma",
+        "tier": 30
+      },
+      {
+        "text": "Louis Vuitton",
+        "aliases": [
+          "lv"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Prada",
+        "tier": 30
+      },
+      {
+        "text": "Chanel",
+        "tier": 30
+      },
+      {
+        "text": "Versace",
+        "tier": 30
+      },
+      {
+        "text": "Calvin Klein",
+        "aliases": [
+          "ck"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tommy Hilfiger",
+        "aliases": [
+          "tommy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Zara",
+        "tier": 30
+      },
+      {
+        "text": "H&M",
+        "aliases": [
+          "h and m"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Forever 21",
+        "tier": 30
+      },
+      {
+        "text": "American Eagle",
+        "tier": 30
+      },
+      {
+        "text": "Abercrombie & Fitch",
+        "aliases": [
+          "abercrombie",
+          "abercrombie and fitch"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hollister",
+        "tier": 30
+      },
+      {
+        "text": "Lululemon",
+        "tier": 30
+      },
+      {
+        "text": "The North Face",
+        "aliases": [
+          "north face"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Champion",
+        "tier": 30
+      },
+      {
+        "text": "Vans",
+        "tier": 30
+      },
+      {
+        "text": "Converse",
+        "tier": 30
+      },
+      {
+        "text": "Banana Republic",
+        "tier": 30
+      },
+      {
+        "text": "Gildan",
+        "tier": 30
+      },
+      {
+        "text": "Patagonia",
+        "tier": 60
+      },
+      {
+        "text": "Hermes",
+        "aliases": [
+          "hermès"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dior",
+        "aliases": [
+          "christian dior"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Burberry",
+        "tier": 60
+      },
+      {
+        "text": "Armani",
+        "aliases": [
+          "giorgio armani"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dolce & Gabbana",
+        "aliases": [
+          "dolce and gabbana",
+          "d&g"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fendi",
+        "tier": 60
+      },
+      {
+        "text": "Balenciaga",
+        "tier": 60
+      },
+      {
+        "text": "Givenchy",
+        "tier": 60
+      },
+      {
+        "text": "Valentino",
+        "tier": 60
+      },
+      {
+        "text": "Saint Laurent",
+        "aliases": [
+          "ysl",
+          "yves saint laurent"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Off-White",
+        "aliases": [
+          "off white"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Supreme",
+        "tier": 60
+      },
+      {
+        "text": "Stussy",
+        "tier": 60
+      },
+      {
+        "text": "Carhartt",
+        "tier": 60
+      },
+      {
+        "text": "Columbia",
+        "tier": 60
+      },
+      {
+        "text": "Uniqlo",
+        "tier": 60
+      },
+      {
+        "text": "Shein",
+        "tier": 60
+      },
+      {
+        "text": "J.Crew",
+        "aliases": [
+          "j crew"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Express",
+        "tier": 60
+      },
+      {
+        "text": "Guess",
+        "tier": 60
+      },
+      {
+        "text": "Michael Kors",
+        "tier": 60
+      },
+      {
+        "text": "Coach",
+        "tier": 60
+      },
+      {
+        "text": "Kate Spade",
+        "tier": 60
+      },
+      {
+        "text": "Tory Burch",
+        "tier": 60
+      },
+      {
+        "text": "Marc Jacobs",
+        "tier": 60
+      },
+      {
+        "text": "Victoria's Secret",
+        "aliases": [
+          "victorias secret"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Aeropostale",
+        "tier": 60
+      },
+      {
+        "text": "Urban Outfitters",
+        "tier": 60
+      },
+      {
+        "text": "Anthropologie",
+        "tier": 60
+      },
+      {
+        "text": "Free People",
+        "tier": 60
+      },
+      {
+        "text": "Lucky Brand",
+        "tier": 60
+      },
+      {
+        "text": "Wrangler",
+        "tier": 60
+      },
+      {
+        "text": "Lee",
+        "tier": 60
+      },
+      {
+        "text": "Dickies",
+        "tier": 60
+      },
+      {
+        "text": "Reebok",
+        "tier": 60
+      },
+      {
+        "text": "New Balance",
+        "tier": 60
+      },
+      {
+        "text": "Fila",
+        "tier": 60
+      },
+      {
+        "text": "Skechers",
+        "tier": 60
+      },
+      {
+        "text": "Timberland",
+        "tier": 60
+      },
+      {
+        "text": "Dr. Martens",
+        "aliases": [
+          "doc martens"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "UGG",
+        "aliases": [
+          "uggs"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gymshark",
+        "tier": 60
+      },
+      {
+        "text": "Athleta",
+        "tier": 60
+      },
+      {
+        "text": "Fabletics",
+        "tier": 60
+      },
+      {
+        "text": "Alo",
+        "tier": 60
+      },
+      {
+        "text": "Vineyard Vines",
+        "tier": 60
+      },
+      {
+        "text": "Brooks Brothers",
+        "tier": 60
+      },
+      {
+        "text": "Hugo Boss",
+        "aliases": [
+          "boss"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lacoste",
+        "tier": 60
+      },
+      {
+        "text": "Fred Perry",
+        "tier": 60
+      },
+      {
+        "text": "Ben Sherman",
+        "tier": 60
+      },
+      {
+        "text": "Diesel",
+        "tier": 60
+      },
+      {
+        "text": "True Religion",
+        "tier": 60
+      },
+      {
+        "text": "Ed Hardy",
+        "tier": 60
+      },
+      {
+        "text": "Juicy Couture",
+        "tier": 60
+      },
+      {
+        "text": "Bape",
+        "aliases": [
+          "a bathing ape"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kith",
+        "tier": 60
+      },
+      {
+        "text": "Fear of God",
+        "tier": 60
+      },
+      {
+        "text": "Yeezy",
+        "tier": 60
+      },
+      {
+        "text": "Jordan",
+        "aliases": [
+          "air jordan"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Quiksilver",
+        "tier": 60
+      },
+      {
+        "text": "Billabong",
+        "tier": 60
+      },
+      {
+        "text": "Roxy",
+        "tier": 60
+      },
+      {
+        "text": "Hurley",
+        "tier": 60
+      },
+      {
+        "text": "Rip Curl",
+        "tier": 60
+      },
+      {
+        "text": "O'Neill",
+        "tier": 60
+      },
+      {
+        "text": "Volcom",
+        "tier": 60
+      },
+      {
+        "text": "Oakley",
+        "tier": 60
+      },
+      {
+        "text": "Ray-Ban",
+        "aliases": [
+          "rayban"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Loewe",
+        "tier": 85
+      },
+      {
+        "text": "Celine",
+        "tier": 85
+      },
+      {
+        "text": "Bottega Veneta",
+        "tier": 85
+      },
+      {
+        "text": "Miu Miu",
+        "tier": 85
+      },
+      {
+        "text": "Moschino",
+        "tier": 85
+      },
+      {
+        "text": "Missoni",
+        "tier": 85
+      },
+      {
+        "text": "Etro",
+        "tier": 85
+      },
+      {
+        "text": "Pucci",
+        "tier": 85
+      },
+      {
+        "text": "Ferragamo",
+        "aliases": [
+          "salvatore ferragamo"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Brunello Cucinelli",
+        "tier": 85
+      },
+      {
+        "text": "Loro Piana",
+        "tier": 85
+      },
+      {
+        "text": "Zegna",
+        "aliases": [
+          "ermenegildo zegna"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tom Ford",
+        "tier": 85
+      },
+      {
+        "text": "Alexander McQueen",
+        "aliases": [
+          "mcqueen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Stella McCartney",
+        "tier": 85
+      },
+      {
+        "text": "Vivienne Westwood",
+        "tier": 85
+      },
+      {
+        "text": "Paul Smith",
+        "tier": 85
+      },
+      {
+        "text": "Mulberry",
+        "tier": 85
+      },
+      {
+        "text": "Barbour",
+        "tier": 85
+      },
+      {
+        "text": "Belstaff",
+        "tier": 85
+      },
+      {
+        "text": "Moncler",
+        "tier": 85
+      },
+      {
+        "text": "Canada Goose",
+        "tier": 85
+      },
+      {
+        "text": "Arc'teryx",
+        "aliases": [
+          "arcteryx"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mammut",
+        "tier": 85
+      },
+      {
+        "text": "Fjallraven",
+        "aliases": [
+          "fjällräven"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rag & Bone",
+        "tier": 85
+      },
+      {
+        "text": "Vince",
+        "tier": 85
+      },
+      {
+        "text": "Reformation",
+        "tier": 85
+      },
+      {
+        "text": "Everlane",
+        "tier": 85
+      },
+      {
+        "text": "Madewell",
+        "tier": 85
+      },
+      {
+        "text": "Aritzia",
+        "tier": 85
+      },
+      {
+        "text": "Mango",
+        "tier": 85
+      },
+      {
+        "text": "Massimo Dutti",
+        "tier": 85
+      },
+      {
+        "text": "Pull & Bear",
+        "tier": 85
+      },
+      {
+        "text": "Bershka",
+        "tier": 85
+      },
+      {
+        "text": "Topshop",
+        "tier": 85
+      },
+      {
+        "text": "Primark",
+        "tier": 85
+      },
+      {
+        "text": "Marks & Spencer",
+        "aliases": [
+          "m&s"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Superdry",
+        "tier": 85
+      },
+      {
+        "text": "Jack Wills",
+        "tier": 85
+      },
+      {
+        "text": "Ted Baker",
+        "tier": 85
+      },
+      {
+        "text": "AllSaints",
+        "aliases": [
+          "all saints"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Acne Studios",
+        "tier": 85
+      },
+      {
+        "text": "COS",
+        "tier": 85
+      },
+      {
+        "text": "Arket",
+        "tier": 85
+      },
+      {
+        "text": "Weekday",
+        "tier": 85
+      },
+      {
+        "text": "Monki",
+        "tier": 85
+      },
+      {
+        "text": "Muji",
+        "tier": 85
+      },
+      {
+        "text": "Rick Owens",
+        "tier": 85
+      },
+      {
+        "text": "Comme des Garcons",
+        "aliases": [
+          "comme des garçons",
+          "cdg"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Issey Miyake",
+        "tier": 85
+      },
+      {
+        "text": "Yohji Yamamoto",
+        "tier": 85
+      },
+      {
+        "text": "Kenzo",
+        "tier": 85
+      },
+      {
+        "text": "Balmain",
+        "tier": 85
+      },
+      {
+        "text": "Lanvin",
+        "tier": 85
+      },
+      {
+        "text": "Chloe",
+        "aliases": [
+          "chloé"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jacquemus",
+        "tier": 85
+      },
+      {
+        "text": "Isabel Marant",
+        "tier": 85
+      },
+      {
+        "text": "Maison Margiela",
+        "aliases": [
+          "margiela"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Palm Angels",
+        "tier": 85
+      },
+      {
+        "text": "Amiri",
+        "tier": 85
+      },
+      {
+        "text": "Rhude",
+        "tier": 85
+      },
+      {
+        "text": "Golden Goose",
+        "tier": 85
+      },
+      {
+        "text": "Represent",
+        "tier": 85
+      },
+      {
+        "text": "Kappa",
+        "tier": 85
+      },
+      {
+        "text": "Umbro",
+        "tier": 85
+      },
+      {
+        "text": "Le Coq Sportif",
+        "tier": 85
+      },
+      {
+        "text": "Ellesse",
+        "tier": 85
+      },
+      {
+        "text": "Sergio Tacchini",
+        "tier": 85
+      },
+      {
+        "text": "Asics",
+        "tier": 85
+      },
+      {
+        "text": "Saucony",
+        "tier": 85
+      },
+      {
+        "text": "Mizuno",
+        "tier": 85
+      },
+      {
+        "text": "Hoka",
+        "tier": 85
+      },
+      {
+        "text": "Salomon",
+        "tier": 85
+      },
+      {
+        "text": "Merrell",
+        "tier": 85
+      },
+      {
+        "text": "Keen",
+        "tier": 85
+      },
+      {
+        "text": "Teva",
+        "tier": 85
+      },
+      {
+        "text": "Chaco",
+        "tier": 85
+      },
+      {
+        "text": "Birkenstock",
+        "tier": 85
+      },
+      {
+        "text": "Sperry",
+        "tier": 85
+      },
+      {
+        "text": "Sorel",
+        "tier": 85
+      },
+      {
+        "text": "Hunter",
+        "tier": 85
+      },
+      {
+        "text": "L.L.Bean",
+        "aliases": [
+          "ll bean"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lands' End",
+        "aliases": [
+          "lands end"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Eddie Bauer",
+        "tier": 85
+      },
+      {
+        "text": "Duluth Trading",
+        "tier": 85
+      },
+      {
+        "text": "Pendleton",
+        "tier": 85
+      },
+      {
+        "text": "Woolrich",
+        "tier": 85
+      },
+      {
+        "text": "Filson",
+        "tier": 85
+      },
+      {
+        "text": "Stetson",
+        "tier": 85
+      },
+      {
+        "text": "Kangol",
+        "tier": 85
+      },
+      {
+        "text": "New Era",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Target",
+      "Amazon",
+      "Apple",
+      "Rolex",
+      "Tiffany",
+      "Sephora"
+    ]
+  },
+  {
+    "id": "q0050",
+    "prompt": "Name an item of clothing",
+    "category": "everyday-objects",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Cummerbund",
+        "tier": 100
+      },
+      {
+        "text": "Shirt",
+        "aliases": [
+          "t-shirt",
+          "tshirt",
+          "tee"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pants",
+        "aliases": [
+          "trousers"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Jeans",
+        "tier": 10
+      },
+      {
+        "text": "Socks",
+        "tier": 10
+      },
+      {
+        "text": "Shoes",
+        "tier": 10
+      },
+      {
+        "text": "Hat",
+        "tier": 10
+      },
+      {
+        "text": "Dress",
+        "tier": 10
+      },
+      {
+        "text": "Jacket",
+        "tier": 10
+      },
+      {
+        "text": "Kilt",
+        "tier": 15
+      },
+      {
+        "text": "Toga",
+        "tier": 15
+      },
+      {
+        "text": "Onesie",
+        "tier": 15
+      },
+      {
+        "text": "Shorts",
+        "tier": 30
+      },
+      {
+        "text": "Skirt",
+        "tier": 30
+      },
+      {
+        "text": "Sweater",
+        "aliases": [
+          "jumper"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hoodie",
+        "aliases": [
+          "hooded sweatshirt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Coat",
+        "tier": 30
+      },
+      {
+        "text": "Underwear",
+        "aliases": [
+          "undies"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Boxers",
+        "tier": 30
+      },
+      {
+        "text": "Bra",
+        "tier": 30
+      },
+      {
+        "text": "Scarf",
+        "tier": 30
+      },
+      {
+        "text": "Gloves",
+        "tier": 30
+      },
+      {
+        "text": "Mittens",
+        "tier": 30
+      },
+      {
+        "text": "Tie",
+        "aliases": [
+          "necktie"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Belt",
+        "tier": 30
+      },
+      {
+        "text": "Boots",
+        "tier": 30
+      },
+      {
+        "text": "Sandals",
+        "tier": 30
+      },
+      {
+        "text": "Sneakers",
+        "aliases": [
+          "trainers",
+          "tennis shoes"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pajamas",
+        "aliases": [
+          "pyjamas",
+          "pjs"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Vest",
+        "tier": 30
+      },
+      {
+        "text": "Suit",
+        "tier": 30
+      },
+      {
+        "text": "Blouse",
+        "tier": 30
+      },
+      {
+        "text": "Leggings",
+        "tier": 30
+      },
+      {
+        "text": "Sweatpants",
+        "aliases": [
+          "joggers"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sweatshirt",
+        "tier": 30
+      },
+      {
+        "text": "Tank top",
+        "tier": 30
+      },
+      {
+        "text": "Polo shirt",
+        "aliases": [
+          "polo"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Swimsuit",
+        "aliases": [
+          "bathing suit",
+          "swimwear"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bikini",
+        "tier": 30
+      },
+      {
+        "text": "Beanie",
+        "tier": 30
+      },
+      {
+        "text": "Baseball cap",
+        "aliases": [
+          "cap"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Overalls",
+        "tier": 30
+      },
+      {
+        "text": "Cardigan",
+        "tier": 60
+      },
+      {
+        "text": "Blazer",
+        "tier": 60
+      },
+      {
+        "text": "Tuxedo",
+        "aliases": [
+          "tux"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bow tie",
+        "aliases": [
+          "bowtie"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Raincoat",
+        "tier": 60
+      },
+      {
+        "text": "Parka",
+        "tier": 60
+      },
+      {
+        "text": "Poncho",
+        "tier": 60
+      },
+      {
+        "text": "Windbreaker",
+        "tier": 60
+      },
+      {
+        "text": "Trench coat",
+        "tier": 60
+      },
+      {
+        "text": "Peacoat",
+        "tier": 60
+      },
+      {
+        "text": "Robe",
+        "aliases": [
+          "bathrobe"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Slippers",
+        "tier": 60
+      },
+      {
+        "text": "Flip-flops",
+        "aliases": [
+          "flip flops"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "High heels",
+        "aliases": [
+          "heels",
+          "stilettos"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Loafers",
+        "tier": 60
+      },
+      {
+        "text": "Flats",
+        "tier": 60
+      },
+      {
+        "text": "Clogs",
+        "tier": 60
+      },
+      {
+        "text": "Moccasins",
+        "tier": 60
+      },
+      {
+        "text": "Cowboy boots",
+        "tier": 60
+      },
+      {
+        "text": "Rain boots",
+        "aliases": [
+          "galoshes",
+          "wellies",
+          "wellingtons"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Turtleneck",
+        "tier": 60
+      },
+      {
+        "text": "Crop top",
+        "tier": 60
+      },
+      {
+        "text": "Camisole",
+        "tier": 60
+      },
+      {
+        "text": "Tube top",
+        "tier": 60
+      },
+      {
+        "text": "Halter top",
+        "tier": 60
+      },
+      {
+        "text": "Romper",
+        "tier": 60
+      },
+      {
+        "text": "Jumpsuit",
+        "tier": 60
+      },
+      {
+        "text": "Sundress",
+        "tier": 60
+      },
+      {
+        "text": "Gown",
+        "aliases": [
+          "ball gown",
+          "evening gown"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sarong",
+        "tier": 60
+      },
+      {
+        "text": "Kimono",
+        "tier": 60
+      },
+      {
+        "text": "Sari",
+        "aliases": [
+          "saree"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Apron",
+        "tier": 60
+      },
+      {
+        "text": "Uniform",
+        "tier": 60
+      },
+      {
+        "text": "Briefs",
+        "tier": 60
+      },
+      {
+        "text": "Thong",
+        "tier": 60
+      },
+      {
+        "text": "Lingerie",
+        "tier": 60
+      },
+      {
+        "text": "Corset",
+        "tier": 60
+      },
+      {
+        "text": "Slip",
+        "tier": 60
+      },
+      {
+        "text": "Stockings",
+        "tier": 60
+      },
+      {
+        "text": "Tights",
+        "aliases": [
+          "pantyhose"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Leg warmers",
+        "tier": 60
+      },
+      {
+        "text": "Headband",
+        "tier": 60
+      },
+      {
+        "text": "Bandana",
+        "tier": 60
+      },
+      {
+        "text": "Fedora",
+        "tier": 60
+      },
+      {
+        "text": "Beret",
+        "tier": 60
+      },
+      {
+        "text": "Cowboy hat",
+        "tier": 60
+      },
+      {
+        "text": "Top hat",
+        "tier": 60
+      },
+      {
+        "text": "Sun hat",
+        "tier": 60
+      },
+      {
+        "text": "Visor",
+        "tier": 60
+      },
+      {
+        "text": "Earmuffs",
+        "tier": 60
+      },
+      {
+        "text": "Balaclava",
+        "aliases": [
+          "ski mask"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Suspenders",
+        "aliases": [
+          "braces"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cargo pants",
+        "tier": 60
+      },
+      {
+        "text": "Capris",
+        "aliases": [
+          "capri pants"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chinos",
+        "aliases": [
+          "khakis"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Culottes",
+        "tier": 60
+      },
+      {
+        "text": "Skort",
+        "tier": 60
+      },
+      {
+        "text": "Bodysuit",
+        "tier": 60
+      },
+      {
+        "text": "Unitard",
+        "tier": 60
+      },
+      {
+        "text": "Leotard",
+        "tier": 60
+      },
+      {
+        "text": "Wetsuit",
+        "tier": 60
+      },
+      {
+        "text": "Bermuda shorts",
+        "tier": 60
+      },
+      {
+        "text": "Board shorts",
+        "tier": 60
+      },
+      {
+        "text": "Ascot",
+        "tier": 85
+      },
+      {
+        "text": "Cravat",
+        "tier": 85
+      },
+      {
+        "text": "Waistcoat",
+        "tier": 85
+      },
+      {
+        "text": "Dinner jacket",
+        "tier": 85
+      },
+      {
+        "text": "Morning coat",
+        "tier": 85
+      },
+      {
+        "text": "Tailcoat",
+        "tier": 85
+      },
+      {
+        "text": "Frock coat",
+        "tier": 85
+      },
+      {
+        "text": "Smoking jacket",
+        "tier": 85
+      },
+      {
+        "text": "Duster",
+        "tier": 85
+      },
+      {
+        "text": "Anorak",
+        "tier": 85
+      },
+      {
+        "text": "Cagoule",
+        "tier": 85
+      },
+      {
+        "text": "Gilet",
+        "tier": 85
+      },
+      {
+        "text": "Bolero",
+        "tier": 85
+      },
+      {
+        "text": "Shrug",
+        "tier": 85
+      },
+      {
+        "text": "Shawl",
+        "tier": 85
+      },
+      {
+        "text": "Stole",
+        "tier": 85
+      },
+      {
+        "text": "Pashmina",
+        "tier": 85
+      },
+      {
+        "text": "Cape",
+        "tier": 85
+      },
+      {
+        "text": "Cloak",
+        "tier": 85
+      },
+      {
+        "text": "Mantle",
+        "tier": 85
+      },
+      {
+        "text": "Caftan",
+        "aliases": [
+          "kaftan"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dashiki",
+        "tier": 85
+      },
+      {
+        "text": "Muumuu",
+        "tier": 85
+      },
+      {
+        "text": "Hanbok",
+        "tier": 85
+      },
+      {
+        "text": "Cheongsam",
+        "aliases": [
+          "qipao"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dirndl",
+        "tier": 85
+      },
+      {
+        "text": "Lederhosen",
+        "tier": 85
+      },
+      {
+        "text": "Hakama",
+        "tier": 85
+      },
+      {
+        "text": "Dhoti",
+        "tier": 85
+      },
+      {
+        "text": "Lungi",
+        "tier": 85
+      },
+      {
+        "text": "Salwar kameez",
+        "tier": 85
+      },
+      {
+        "text": "Abaya",
+        "tier": 85
+      },
+      {
+        "text": "Burqa",
+        "tier": 85
+      },
+      {
+        "text": "Hijab",
+        "tier": 85
+      },
+      {
+        "text": "Turban",
+        "tier": 85
+      },
+      {
+        "text": "Fez",
+        "tier": 85
+      },
+      {
+        "text": "Bowler hat",
+        "aliases": [
+          "derby"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Panama hat",
+        "tier": 85
+      },
+      {
+        "text": "Trilby",
+        "tier": 85
+      },
+      {
+        "text": "Boater",
+        "tier": 85
+      },
+      {
+        "text": "Pith helmet",
+        "tier": 85
+      },
+      {
+        "text": "Deerstalker",
+        "tier": 85
+      },
+      {
+        "text": "Tam o' shanter",
+        "aliases": [
+          "tam"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cloche",
+        "tier": 85
+      },
+      {
+        "text": "Fascinator",
+        "tier": 85
+      },
+      {
+        "text": "Snood",
+        "tier": 85
+      },
+      {
+        "text": "Garter",
+        "tier": 85
+      },
+      {
+        "text": "Bustier",
+        "tier": 85
+      },
+      {
+        "text": "Girdle",
+        "tier": 85
+      },
+      {
+        "text": "Petticoat",
+        "tier": 85
+      },
+      {
+        "text": "Crinoline",
+        "tier": 85
+      },
+      {
+        "text": "Bloomers",
+        "tier": 85
+      },
+      {
+        "text": "Pantaloons",
+        "tier": 85
+      },
+      {
+        "text": "Jodhpurs",
+        "tier": 85
+      },
+      {
+        "text": "Breeches",
+        "tier": 85
+      },
+      {
+        "text": "Knickerbockers",
+        "tier": 85
+      },
+      {
+        "text": "Gaiters",
+        "aliases": [
+          "spats"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Espadrilles",
+        "tier": 85
+      },
+      {
+        "text": "Mary Janes",
+        "tier": 85
+      },
+      {
+        "text": "Oxfords",
+        "tier": 85
+      },
+      {
+        "text": "Brogues",
+        "tier": 85
+      },
+      {
+        "text": "Wingtips",
+        "tier": 85
+      },
+      {
+        "text": "Chelsea boots",
+        "tier": 85
+      },
+      {
+        "text": "Platform shoes",
+        "tier": 85
+      },
+      {
+        "text": "Wedges",
+        "tier": 85
+      },
+      {
+        "text": "Mules",
+        "tier": 85
+      },
+      {
+        "text": "Huaraches",
+        "tier": 85
+      },
+      {
+        "text": "Gauntlets",
+        "tier": 85
+      },
+      {
+        "text": "Muff",
+        "tier": 85
+      },
+      {
+        "text": "Jabot",
+        "tier": 85
+      },
+      {
+        "text": "Dickey",
+        "tier": 85
+      },
+      {
+        "text": "Spanx",
+        "tier": 85
+      },
+      {
+        "text": "Henley",
+        "tier": 85
+      },
+      {
+        "text": "Rugby shirt",
+        "tier": 85
+      },
+      {
+        "text": "Guayabera",
+        "tier": 85
+      },
+      {
+        "text": "Hawaiian shirt",
+        "aliases": [
+          "aloha shirt"
+        ],
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Necklace",
+      "Ring",
+      "Earrings",
+      "Watch",
+      "Purse",
+      "Backpack",
+      "Sunglasses"
+    ]
+  }
+]

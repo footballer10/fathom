@@ -1,0 +1,8082 @@
+[
+  {
+    "id": "q0121",
+    "prompt": "Name a famous inventor",
+    "category": "history",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Hedy Lamarr",
+        "aliases": [
+          "lamarr"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Thomas Edison",
+        "aliases": [
+          "edison"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Alexander Graham Bell",
+        "aliases": [
+          "bell",
+          "graham bell"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Benjamin Franklin",
+        "aliases": [
+          "ben franklin",
+          "franklin"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Nikola Tesla",
+        "aliases": [
+          "tesla"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "The Wright Brothers",
+        "aliases": [
+          "wright brothers",
+          "orville wright",
+          "wilbur wright"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Henry Ford",
+        "aliases": [
+          "ford"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Leonardo da Vinci",
+        "aliases": [
+          "da vinci"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Steve Jobs",
+        "aliases": [
+          "jobs"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Elon Musk",
+        "aliases": [
+          "musk"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Johannes Gutenberg",
+        "aliases": [
+          "gutenberg"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "James Watt",
+        "aliases": [
+          "watt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Eli Whitney",
+        "aliases": [
+          "whitney"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Samuel Morse",
+        "aliases": [
+          "morse"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Guglielmo Marconi",
+        "aliases": [
+          "marconi"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Alfred Nobel",
+        "aliases": [
+          "nobel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George Washington Carver",
+        "aliases": [
+          "carver"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Louis Braille",
+        "aliases": [
+          "braille"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Isaac Newton",
+        "aliases": [
+          "newton"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Galileo Galilei",
+        "aliases": [
+          "galileo"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Archimedes",
+        "tier": 30
+      },
+      {
+        "text": "Tim Berners-Lee",
+        "aliases": [
+          "berners-lee"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bill Gates",
+        "aliases": [
+          "gates"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Steve Wozniak",
+        "aliases": [
+          "wozniak"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Charles Babbage",
+        "aliases": [
+          "babbage"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Ada Lovelace",
+        "aliases": [
+          "lovelace"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Alessandro Volta",
+        "aliases": [
+          "volta"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Michael Faraday",
+        "aliases": [
+          "faraday"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Louis Pasteur",
+        "aliases": [
+          "pasteur"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Marie Curie",
+        "aliases": [
+          "curie"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Robert Fulton",
+        "aliases": [
+          "fulton"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cyrus McCormick",
+        "aliases": [
+          "mccormick"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "John Deere",
+        "aliases": [
+          "deere"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Levi Strauss",
+        "tier": 30
+      },
+      {
+        "text": "Walt Disney",
+        "aliases": [
+          "disney"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George Eastman",
+        "aliases": [
+          "eastman"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Philo Farnsworth",
+        "aliases": [
+          "farnsworth"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "John Logie Baird",
+        "aliases": [
+          "baird"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Garrett Morgan",
+        "tier": 30
+      },
+      {
+        "text": "Madam C.J. Walker",
+        "aliases": [
+          "madam cj walker"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Margaret Knight",
+        "tier": 30
+      },
+      {
+        "text": "Mary Anderson",
+        "tier": 30
+      },
+      {
+        "text": "Josephine Cochrane",
+        "tier": 30
+      },
+      {
+        "text": "Grace Hopper",
+        "aliases": [
+          "hopper"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Alan Turing",
+        "aliases": [
+          "turing"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Thomas Newcomen",
+        "aliases": [
+          "newcomen"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "George Stephenson",
+        "aliases": [
+          "stephenson"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Richard Trevithick",
+        "aliases": [
+          "trevithick"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Karl Benz",
+        "aliases": [
+          "benz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gottlieb Daimler",
+        "aliases": [
+          "daimler"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rudolf Diesel",
+        "aliases": [
+          "diesel"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Nikolaus Otto",
+        "aliases": [
+          "otto"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Elisha Otis",
+        "aliases": [
+          "otis"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Charles Goodyear",
+        "aliases": [
+          "goodyear"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Isaac Singer",
+        "aliases": [
+          "singer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Elias Howe",
+        "aliases": [
+          "howe"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Joseph Glidden",
+        "aliases": [
+          "glidden"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Samuel Colt",
+        "aliases": [
+          "colt"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Richard Gatling",
+        "aliases": [
+          "gatling"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hiram Maxim",
+        "aliases": [
+          "maxim"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Browning",
+        "aliases": [
+          "browning"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mikhail Kalashnikov",
+        "aliases": [
+          "kalashnikov"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wernher von Braun",
+        "aliases": [
+          "von braun"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Robert Goddard",
+        "aliases": [
+          "goddard"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Igor Sikorsky",
+        "aliases": [
+          "sikorsky"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Frank Whittle",
+        "aliases": [
+          "whittle"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hans von Ohain",
+        "tier": 60
+      },
+      {
+        "text": "Otto Lilienthal",
+        "aliases": [
+          "lilienthal"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alberto Santos-Dumont",
+        "aliases": [
+          "santos-dumont"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ferdinand von Zeppelin",
+        "aliases": [
+          "zeppelin"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Joseph-Michel Montgolfier",
+        "aliases": [
+          "montgolfier brothers",
+          "montgolfier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lee de Forest",
+        "aliases": [
+          "de forest"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edwin Armstrong",
+        "tier": 60
+      },
+      {
+        "text": "Reginald Fessenden",
+        "tier": 60
+      },
+      {
+        "text": "Heinrich Hertz",
+        "aliases": [
+          "hertz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ernst Werner von Siemens",
+        "aliases": [
+          "siemens"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "William Shockley",
+        "aliases": [
+          "shockley"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Bardeen",
+        "aliases": [
+          "bardeen"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jack Kilby",
+        "aliases": [
+          "kilby"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Robert Noyce",
+        "aliases": [
+          "noyce"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gordon Moore",
+        "aliases": [
+          "moore"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Douglas Engelbart",
+        "aliases": [
+          "engelbart"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Vint Cerf",
+        "aliases": [
+          "cerf"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bob Kahn",
+        "tier": 60
+      },
+      {
+        "text": "Dennis Ritchie",
+        "aliases": [
+          "ritchie"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ken Thompson",
+        "tier": 60
+      },
+      {
+        "text": "Linus Torvalds",
+        "aliases": [
+          "torvalds"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mark Zuckerberg",
+        "aliases": [
+          "zuckerberg"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Larry Page",
+        "tier": 60
+      },
+      {
+        "text": "Sergey Brin",
+        "tier": 60
+      },
+      {
+        "text": "James Dyson",
+        "aliases": [
+          "dyson"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ron Popeil",
+        "aliases": [
+          "popeil"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Percy Spencer",
+        "tier": 60
+      },
+      {
+        "text": "Earl Tupper",
+        "aliases": [
+          "tupper"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Clarence Birdseye",
+        "aliases": [
+          "birdseye"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Pemberton",
+        "aliases": [
+          "pemberton"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Willis Carrier",
+        "aliases": [
+          "carrier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lewis Latimer",
+        "aliases": [
+          "latimer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Granville Woods",
+        "tier": 60
+      },
+      {
+        "text": "Elijah McCoy",
+        "aliases": [
+          "mccoy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Charles Kettering",
+        "tier": 60
+      },
+      {
+        "text": "George Westinghouse",
+        "aliases": [
+          "westinghouse"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edwin Land",
+        "aliases": [
+          "land"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chester Carlson",
+        "tier": 60
+      },
+      {
+        "text": "Art Fry",
+        "tier": 60
+      },
+      {
+        "text": "Spencer Silver",
+        "tier": 60
+      },
+      {
+        "text": "Patsy Sherman",
+        "tier": 60
+      },
+      {
+        "text": "Stephanie Kwolek",
+        "aliases": [
+          "kwolek"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ruth Wakefield",
+        "tier": 60
+      },
+      {
+        "text": "Bette Nesmith Graham",
+        "tier": 60
+      },
+      {
+        "text": "Marion Donovan",
+        "tier": 60
+      },
+      {
+        "text": "Ruth Handler",
+        "tier": 60
+      },
+      {
+        "text": "Joseph Lister",
+        "aliases": [
+          "lister"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edward Jenner",
+        "aliases": [
+          "jenner"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wilhelm Rontgen",
+        "aliases": [
+          "roentgen",
+          "röntgen"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rene Laennec",
+        "aliases": [
+          "laennec"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Willem Einthoven",
+        "tier": 60
+      },
+      {
+        "text": "Frederick Banting",
+        "tier": 60
+      },
+      {
+        "text": "Jonas Salk",
+        "aliases": [
+          "salk"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Alexander Fleming",
+        "aliases": [
+          "fleming"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Christiaan Huygens",
+        "aliases": [
+          "huygens"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hans Lippershey",
+        "aliases": [
+          "lippershey"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Zacharias Janssen",
+        "tier": 60
+      },
+      {
+        "text": "Antonie van Leeuwenhoek",
+        "tier": 60
+      },
+      {
+        "text": "Evangelista Torricelli",
+        "aliases": [
+          "torricelli"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Daniel Fahrenheit",
+        "aliases": [
+          "fahrenheit"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Anders Celsius",
+        "tier": 60
+      },
+      {
+        "text": "Blaise Pascal",
+        "aliases": [
+          "pascal"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gottfried Leibniz",
+        "aliases": [
+          "leibniz"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "John Harrison",
+        "tier": 60
+      },
+      {
+        "text": "Cai Lun",
+        "tier": 60
+      },
+      {
+        "text": "Bi Sheng",
+        "tier": 60
+      },
+      {
+        "text": "Zhang Heng",
+        "tier": 60
+      },
+      {
+        "text": "Al-Jazari",
+        "tier": 60
+      },
+      {
+        "text": "Hero of Alexandria",
+        "aliases": [
+          "heron"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ctesibius",
+        "tier": 60
+      },
+      {
+        "text": "Su Song",
+        "tier": 60
+      },
+      {
+        "text": "Nils Bohlin",
+        "tier": 85
+      },
+      {
+        "text": "Mary Kies",
+        "tier": 85
+      },
+      {
+        "text": "Tabitha Babbitt",
+        "tier": 85
+      },
+      {
+        "text": "Sarah Goode",
+        "tier": 85
+      },
+      {
+        "text": "Beulah Louise Henry",
+        "tier": 85
+      },
+      {
+        "text": "Hertha Ayrton",
+        "tier": 85
+      },
+      {
+        "text": "Amanda Theodosia Jones",
+        "tier": 85
+      },
+      {
+        "text": "Martha Coston",
+        "tier": 85
+      },
+      {
+        "text": "Lillian Gilbreth",
+        "tier": 85
+      },
+      {
+        "text": "Maria Telkes",
+        "tier": 85
+      },
+      {
+        "text": "Katharine Burr Blodgett",
+        "tier": 85
+      },
+      {
+        "text": "Shirley Ann Jackson",
+        "tier": 85
+      },
+      {
+        "text": "Marie Van Brittan Brown",
+        "tier": 85
+      },
+      {
+        "text": "Patricia Bath",
+        "tier": 85
+      },
+      {
+        "text": "Valerie Thomas",
+        "tier": 85
+      },
+      {
+        "text": "Lonnie Johnson",
+        "tier": 85
+      },
+      {
+        "text": "James West",
+        "tier": 85
+      },
+      {
+        "text": "Mark Dean",
+        "tier": 85
+      },
+      {
+        "text": "Gerald Lawson",
+        "tier": 85
+      },
+      {
+        "text": "Frederick McKinley Jones",
+        "tier": 85
+      },
+      {
+        "text": "Otis Boykin",
+        "tier": 85
+      },
+      {
+        "text": "Lyda Newman",
+        "tier": 85
+      },
+      {
+        "text": "Alice Parker",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Swan",
+        "tier": 85
+      },
+      {
+        "text": "Humphry Davy",
+        "tier": 85
+      },
+      {
+        "text": "William Sturgeon",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Henry",
+        "tier": 85
+      },
+      {
+        "text": "Charles Wheatstone",
+        "tier": 85
+      },
+      {
+        "text": "William Fothergill Cooke",
+        "tier": 85
+      },
+      {
+        "text": "Antonio Meucci",
+        "aliases": [
+          "meucci"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elisha Gray",
+        "tier": 85
+      },
+      {
+        "text": "Emile Berliner",
+        "tier": 85
+      },
+      {
+        "text": "Thomas Watson",
+        "tier": 85
+      },
+      {
+        "text": "Charles Cros",
+        "tier": 85
+      },
+      {
+        "text": "Louis Le Prince",
+        "tier": 85
+      },
+      {
+        "text": "Lumiere brothers",
+        "aliases": [
+          "lumiere"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "William Friese-Greene",
+        "tier": 85
+      },
+      {
+        "text": "Eadweard Muybridge",
+        "aliases": [
+          "muybridge"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Louis Daguerre",
+        "aliases": [
+          "daguerre"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nicephore Niepce",
+        "aliases": [
+          "niepce"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "William Henry Fox Talbot",
+        "aliases": [
+          "fox talbot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Joseph Marie Jacquard",
+        "aliases": [
+          "jacquard"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Richard Arkwright",
+        "aliases": [
+          "arkwright"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "James Hargreaves",
+        "aliases": [
+          "hargreaves"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Samuel Crompton",
+        "tier": 85
+      },
+      {
+        "text": "Edmund Cartwright",
+        "tier": 85
+      },
+      {
+        "text": "John Kay",
+        "tier": 85
+      },
+      {
+        "text": "Abraham Darby",
+        "tier": 85
+      },
+      {
+        "text": "Henry Bessemer",
+        "aliases": [
+          "bessemer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Henry Maudslay",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Bramah",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Whitworth",
+        "tier": 85
+      },
+      {
+        "text": "Isambard Kingdom Brunel",
+        "aliases": [
+          "brunel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Charles Parsons",
+        "tier": 85
+      },
+      {
+        "text": "Christopher Sholes",
+        "aliases": [
+          "sholes"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lewis Waterman",
+        "tier": 85
+      },
+      {
+        "text": "Laszlo Biro",
+        "aliases": [
+          "biro"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Whitcomb Judson",
+        "tier": 85
+      },
+      {
+        "text": "Gideon Sundback",
+        "tier": 85
+      },
+      {
+        "text": "Walter Hunt",
+        "tier": 85
+      },
+      {
+        "text": "King Camp Gillette",
+        "aliases": [
+          "gillette"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jacob Schick",
+        "tier": 85
+      },
+      {
+        "text": "Thomas Crapper",
+        "tier": 85
+      },
+      {
+        "text": "Alexander Cumming",
+        "tier": 85
+      },
+      {
+        "text": "Charles Strite",
+        "tier": 85
+      },
+      {
+        "text": "Frank Epperson",
+        "tier": 85
+      },
+      {
+        "text": "Walter Diemer",
+        "tier": 85
+      },
+      {
+        "text": "George Crum",
+        "tier": 85
+      },
+      {
+        "text": "Joseph Friedman",
+        "tier": 85
+      },
+      {
+        "text": "Seth Wheeler",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Albert Einstein",
+      "Charles Darwin",
+      "Shakespeare",
+      "Mozart",
+      "Abraham Lincoln",
+      "Iron Man"
+    ]
+  },
+  {
+    "id": "q0122",
+    "prompt": "Name a classic toy",
+    "category": "games-toys",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Stretch Armstrong",
+        "tier": 100
+      },
+      {
+        "text": "LEGO",
+        "aliases": [
+          "legos"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Barbie",
+        "tier": 10
+      },
+      {
+        "text": "Yo-yo",
+        "aliases": [
+          "yoyo"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Teddy bear",
+        "tier": 10
+      },
+      {
+        "text": "Slinky",
+        "tier": 10
+      },
+      {
+        "text": "Hot Wheels",
+        "tier": 10
+      },
+      {
+        "text": "Rubik's Cube",
+        "aliases": [
+          "rubiks cube"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Etch A Sketch",
+        "aliases": [
+          "etch-a-sketch"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Pet Rock",
+        "tier": 15
+      },
+      {
+        "text": "Cardboard box",
+        "tier": 15
+      },
+      {
+        "text": "Stick",
+        "tier": 15
+      },
+      {
+        "text": "Play-Doh",
+        "aliases": [
+          "playdoh",
+          "play doh"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mr. Potato Head",
+        "aliases": [
+          "potato head"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lincoln Logs",
+        "tier": 30
+      },
+      {
+        "text": "Tinkertoys",
+        "aliases": [
+          "tinker toys"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "G.I. Joe",
+        "aliases": [
+          "gi joe"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Matchbox cars",
+        "aliases": [
+          "matchbox"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Silly Putty",
+        "tier": 30
+      },
+      {
+        "text": "Jack-in-the-box",
+        "aliases": [
+          "jack in the box"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kite",
+        "tier": 30
+      },
+      {
+        "text": "Jump rope",
+        "tier": 30
+      },
+      {
+        "text": "Hula hoop",
+        "tier": 30
+      },
+      {
+        "text": "Frisbee",
+        "tier": 30
+      },
+      {
+        "text": "Spinning top",
+        "aliases": [
+          "top"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Marbles",
+        "tier": 30
+      },
+      {
+        "text": "Jacks",
+        "tier": 30
+      },
+      {
+        "text": "Rocking horse",
+        "tier": 30
+      },
+      {
+        "text": "Baby doll",
+        "aliases": [
+          "doll"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dollhouse",
+        "tier": 30
+      },
+      {
+        "text": "Toy soldiers",
+        "aliases": [
+          "army men"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Toy train",
+        "aliases": [
+          "train set"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Furby",
+        "tier": 30
+      },
+      {
+        "text": "Tamagotchi",
+        "tier": 30
+      },
+      {
+        "text": "Beanie Babies",
+        "tier": 30
+      },
+      {
+        "text": "Cabbage Patch Kids",
+        "tier": 30
+      },
+      {
+        "text": "Care Bears",
+        "tier": 30
+      },
+      {
+        "text": "My Little Pony",
+        "tier": 30
+      },
+      {
+        "text": "Polly Pocket",
+        "tier": 30
+      },
+      {
+        "text": "Lite-Brite",
+        "tier": 30
+      },
+      {
+        "text": "Spirograph",
+        "tier": 30
+      },
+      {
+        "text": "View-Master",
+        "tier": 30
+      },
+      {
+        "text": "Magic 8 Ball",
+        "tier": 30
+      },
+      {
+        "text": "Lava lamp",
+        "tier": 30
+      },
+      {
+        "text": "Super Soaker",
+        "tier": 30
+      },
+      {
+        "text": "Nerf",
+        "tier": 30
+      },
+      {
+        "text": "Pogo stick",
+        "tier": 30
+      },
+      {
+        "text": "Radio Flyer",
+        "aliases": [
+          "red wagon",
+          "wagon"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Tonka truck",
+        "aliases": [
+          "tonka"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Easy-Bake Oven",
+        "aliases": [
+          "easy bake oven"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fisher-Price",
+        "aliases": [
+          "see 'n say"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Speak & Spell",
+        "tier": 30
+      },
+      {
+        "text": "Simon",
+        "tier": 30
+      },
+      {
+        "text": "Transformers",
+        "tier": 30
+      },
+      {
+        "text": "He-Man",
+        "tier": 30
+      },
+      {
+        "text": "Teenage Mutant Ninja Turtles",
+        "aliases": [
+          "ninja turtles",
+          "tmnt"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Power Rangers",
+        "tier": 30
+      },
+      {
+        "text": "Bratz",
+        "tier": 30
+      },
+      {
+        "text": "American Girl",
+        "tier": 30
+      },
+      {
+        "text": "Tickle Me Elmo",
+        "tier": 30
+      },
+      {
+        "text": "Troll doll",
+        "aliases": [
+          "trolls"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Water gun",
+        "aliases": [
+          "squirt gun"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bubbles",
+        "tier": 30
+      },
+      {
+        "text": "Sidewalk chalk",
+        "tier": 30
+      },
+      {
+        "text": "Toy car",
+        "tier": 30
+      },
+      {
+        "text": "Rattle",
+        "tier": 30
+      },
+      {
+        "text": "Stuffed animal",
+        "aliases": [
+          "plush"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Erector set",
+        "tier": 60
+      },
+      {
+        "text": "K'Nex",
+        "aliases": [
+          "knex"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mega Bloks",
+        "tier": 60
+      },
+      {
+        "text": "Duplo",
+        "tier": 60
+      },
+      {
+        "text": "Bop It",
+        "tier": 60
+      },
+      {
+        "text": "Little Tikes",
+        "tier": 60
+      },
+      {
+        "text": "Cozy Coupe",
+        "tier": 60
+      },
+      {
+        "text": "Big Wheel",
+        "tier": 60
+      },
+      {
+        "text": "Sit 'n Spin",
+        "tier": 60
+      },
+      {
+        "text": "Weebles",
+        "tier": 60
+      },
+      {
+        "text": "Shrinky Dinks",
+        "tier": 60
+      },
+      {
+        "text": "Colorforms",
+        "tier": 60
+      },
+      {
+        "text": "Magna Doodle",
+        "tier": 60
+      },
+      {
+        "text": "Glo Worm",
+        "tier": 60
+      },
+      {
+        "text": "Teddy Ruxpin",
+        "tier": 60
+      },
+      {
+        "text": "Pound Puppies",
+        "tier": 60
+      },
+      {
+        "text": "Strawberry Shortcake",
+        "tier": 60
+      },
+      {
+        "text": "Rainbow Brite",
+        "tier": 60
+      },
+      {
+        "text": "Popples",
+        "tier": 60
+      },
+      {
+        "text": "Monchhichi",
+        "tier": 60
+      },
+      {
+        "text": "Puppy Surprise",
+        "tier": 60
+      },
+      {
+        "text": "Littlest Pet Shop",
+        "tier": 60
+      },
+      {
+        "text": "Sea-Monkeys",
+        "tier": 60
+      },
+      {
+        "text": "Ant farm",
+        "tier": 60
+      },
+      {
+        "text": "Walkie-talkies",
+        "tier": 60
+      },
+      {
+        "text": "Bakugan",
+        "tier": 60
+      },
+      {
+        "text": "Beyblade",
+        "tier": 60
+      },
+      {
+        "text": "Tech Deck",
+        "tier": 60
+      },
+      {
+        "text": "Fingerboard",
+        "tier": 60
+      },
+      {
+        "text": "Skip-It",
+        "tier": 60
+      },
+      {
+        "text": "Moon shoes",
+        "tier": 60
+      },
+      {
+        "text": "Pogs",
+        "tier": 60
+      },
+      {
+        "text": "Koosh ball",
+        "tier": 60
+      },
+      {
+        "text": "Stress ball",
+        "tier": 60
+      },
+      {
+        "text": "Fidget spinner",
+        "tier": 60
+      },
+      {
+        "text": "Pop It",
+        "tier": 60
+      },
+      {
+        "text": "Squishmallows",
+        "tier": 60
+      },
+      {
+        "text": "L.O.L. Surprise",
+        "aliases": [
+          "lol surprise"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hatchimals",
+        "tier": 60
+      },
+      {
+        "text": "Shopkins",
+        "tier": 60
+      },
+      {
+        "text": "Zhu Zhu Pets",
+        "tier": 60
+      },
+      {
+        "text": "Webkinz",
+        "tier": 60
+      },
+      {
+        "text": "Ken",
+        "tier": 60
+      },
+      {
+        "text": "Skipper",
+        "tier": 60
+      },
+      {
+        "text": "Chatty Cathy",
+        "tier": 60
+      },
+      {
+        "text": "Raggedy Ann",
+        "tier": 60
+      },
+      {
+        "text": "Kewpie doll",
+        "tier": 60
+      },
+      {
+        "text": "Madame Alexander",
+        "tier": 60
+      },
+      {
+        "text": "Paper dolls",
+        "tier": 60
+      },
+      {
+        "text": "Marionette",
+        "tier": 60
+      },
+      {
+        "text": "Puppet",
+        "tier": 60
+      },
+      {
+        "text": "Hand puppet",
+        "tier": 60
+      },
+      {
+        "text": "Sock puppet",
+        "tier": 60
+      },
+      {
+        "text": "Kaleidoscope",
+        "tier": 60
+      },
+      {
+        "text": "Magic slate",
+        "tier": 60
+      },
+      {
+        "text": "Paddle ball",
+        "tier": 60
+      },
+      {
+        "text": "Ball-in-a-cup",
+        "aliases": [
+          "cup and ball"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wooden blocks",
+        "aliases": [
+          "building blocks",
+          "blocks"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Stacking rings",
+        "tier": 60
+      },
+      {
+        "text": "Shape sorter",
+        "tier": 60
+      },
+      {
+        "text": "Toy piano",
+        "tier": 60
+      },
+      {
+        "text": "Toy drum",
+        "tier": 60
+      },
+      {
+        "text": "Music box",
+        "tier": 60
+      },
+      {
+        "text": "Wind-up toy",
+        "tier": 60
+      },
+      {
+        "text": "Robot",
+        "tier": 60
+      },
+      {
+        "text": "Rock 'em Sock 'em Robots",
+        "tier": 60
+      },
+      {
+        "text": "Slot cars",
+        "tier": 60
+      },
+      {
+        "text": "Remote control car",
+        "aliases": [
+          "rc car"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Model train",
+        "tier": 60
+      },
+      {
+        "text": "Model airplane",
+        "tier": 60
+      },
+      {
+        "text": "Balsa glider",
+        "tier": 60
+      },
+      {
+        "text": "Paper airplane",
+        "tier": 60
+      },
+      {
+        "text": "Pinwheel",
+        "tier": 60
+      },
+      {
+        "text": "Whirligig",
+        "tier": 60
+      },
+      {
+        "text": "Boomerang",
+        "tier": 60
+      },
+      {
+        "text": "Slingshot",
+        "tier": 60
+      },
+      {
+        "text": "Cap gun",
+        "tier": 60
+      },
+      {
+        "text": "BB gun",
+        "tier": 60
+      },
+      {
+        "text": "Lightsaber",
+        "tier": 60
+      },
+      {
+        "text": "Action figure",
+        "tier": 60
+      },
+      {
+        "text": "Hobby horse",
+        "tier": 60
+      },
+      {
+        "text": "Ball and jacks",
+        "tier": 85
+      },
+      {
+        "text": "Pick-up sticks",
+        "tier": 85
+      },
+      {
+        "text": "Tiddlywinks",
+        "tier": 85
+      },
+      {
+        "text": "Cat's cradle",
+        "tier": 85
+      },
+      {
+        "text": "Jacob's ladder",
+        "tier": 85
+      },
+      {
+        "text": "Buzz saw toy",
+        "aliases": [
+          "whirligig button"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bilboquet",
+        "tier": 85
+      },
+      {
+        "text": "Diabolo",
+        "tier": 85
+      },
+      {
+        "text": "Kendama",
+        "tier": 85
+      },
+      {
+        "text": "Gyroscope",
+        "tier": 85
+      },
+      {
+        "text": "Drinking bird",
+        "tier": 85
+      },
+      {
+        "text": "Newton's cradle",
+        "tier": 85
+      },
+      {
+        "text": "Wooly Willy",
+        "tier": 85
+      },
+      {
+        "text": "Mr. Machine",
+        "tier": 85
+      },
+      {
+        "text": "Robby the Robot",
+        "tier": 85
+      },
+      {
+        "text": "Big Loo",
+        "tier": 85
+      },
+      {
+        "text": "Major Matt Mason",
+        "tier": 85
+      },
+      {
+        "text": "Johnny West",
+        "tier": 85
+      },
+      {
+        "text": "Evel Knievel stunt cycle",
+        "tier": 85
+      },
+      {
+        "text": "Micronauts",
+        "tier": 85
+      },
+      {
+        "text": "Shogun Warriors",
+        "tier": 85
+      },
+      {
+        "text": "Stretch Monster",
+        "tier": 85
+      },
+      {
+        "text": "Sky Dancers",
+        "tier": 85
+      },
+      {
+        "text": "Gak",
+        "tier": 85
+      },
+      {
+        "text": "Floam",
+        "tier": 85
+      },
+      {
+        "text": "Moon sand",
+        "tier": 85
+      },
+      {
+        "text": "Kinetic sand",
+        "tier": 85
+      },
+      {
+        "text": "Orbeez",
+        "tier": 85
+      },
+      {
+        "text": "Water Wigglies",
+        "tier": 85
+      },
+      {
+        "text": "Lego Mindstorms",
+        "tier": 85
+      },
+      {
+        "text": "Capsela",
+        "tier": 85
+      },
+      {
+        "text": "Construx",
+        "tier": 85
+      },
+      {
+        "text": "Robotix",
+        "tier": 85
+      },
+      {
+        "text": "Zoids",
+        "tier": 85
+      },
+      {
+        "text": "M.U.S.C.L.E.",
+        "tier": 85
+      },
+      {
+        "text": "Garbage Pail Kids",
+        "tier": 85
+      },
+      {
+        "text": "Madballs",
+        "tier": 85
+      },
+      {
+        "text": "Boglins",
+        "tier": 85
+      },
+      {
+        "text": "Food Fighters",
+        "tier": 85
+      },
+      {
+        "text": "Trash Pack",
+        "tier": 85
+      },
+      {
+        "text": "Mighty Max",
+        "tier": 85
+      },
+      {
+        "text": "Treasure Trolls",
+        "tier": 85
+      },
+      {
+        "text": "Furreal Friends",
+        "tier": 85
+      },
+      {
+        "text": "Wuzzles",
+        "tier": 85
+      },
+      {
+        "text": "Glo Friends",
+        "tier": 85
+      },
+      {
+        "text": "Sweet Secrets",
+        "tier": 85
+      },
+      {
+        "text": "Jem doll",
+        "tier": 85
+      },
+      {
+        "text": "Lady Lovely Locks",
+        "tier": 85
+      },
+      {
+        "text": "She-Ra",
+        "tier": 85
+      },
+      {
+        "text": "Thundercats",
+        "tier": 85
+      },
+      {
+        "text": "Visionaries",
+        "tier": 85
+      },
+      {
+        "text": "Sectaurs",
+        "tier": 85
+      },
+      {
+        "text": "Inhumanoids",
+        "tier": 85
+      },
+      {
+        "text": "Starting Lineup",
+        "tier": 85
+      },
+      {
+        "text": "Stomper",
+        "tier": 85
+      },
+      {
+        "text": "Tyco R/C",
+        "tier": 85
+      },
+      {
+        "text": "Lazer Tag",
+        "tier": 85
+      },
+      {
+        "text": "Atari Video Pinball",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Television",
+      "Phone",
+      "Video game",
+      "Book",
+      "Swing set"
+    ]
+  },
+  {
+    "id": "q0123",
+    "prompt": "Name a military rank",
+    "category": "jobs-people",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Lance corporal",
+        "aliases": [
+          "lance corporal"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "General",
+        "tier": 10
+      },
+      {
+        "text": "Sergeant",
+        "aliases": [
+          "sgt"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Captain",
+        "aliases": [
+          "capt"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Private",
+        "aliases": [
+          "pvt"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Colonel",
+        "aliases": [
+          "col"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Lieutenant",
+        "aliases": [
+          "lt"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Major",
+        "tier": 10
+      },
+      {
+        "text": "Admiral",
+        "tier": 10
+      },
+      {
+        "text": "Five-star general",
+        "tier": 15
+      },
+      {
+        "text": "Commander in Chief",
+        "aliases": [
+          "commander-in-chief"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Corporal",
+        "aliases": [
+          "cpl"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Lieutenant colonel",
+        "aliases": [
+          "lt col"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Brigadier general",
+        "aliases": [
+          "brigadier"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Major general",
+        "tier": 30
+      },
+      {
+        "text": "Lieutenant general",
+        "tier": 30
+      },
+      {
+        "text": "Second lieutenant",
+        "tier": 30
+      },
+      {
+        "text": "First lieutenant",
+        "tier": 30
+      },
+      {
+        "text": "Staff sergeant",
+        "tier": 30
+      },
+      {
+        "text": "Master sergeant",
+        "tier": 30
+      },
+      {
+        "text": "First sergeant",
+        "tier": 30
+      },
+      {
+        "text": "Sergeant major",
+        "tier": 30
+      },
+      {
+        "text": "Commander",
+        "tier": 30
+      },
+      {
+        "text": "Ensign",
+        "tier": 30
+      },
+      {
+        "text": "Petty officer",
+        "tier": 30
+      },
+      {
+        "text": "Chief petty officer",
+        "tier": 30
+      },
+      {
+        "text": "Commodore",
+        "tier": 30
+      },
+      {
+        "text": "Vice admiral",
+        "tier": 30
+      },
+      {
+        "text": "Rear admiral",
+        "tier": 30
+      },
+      {
+        "text": "Seaman",
+        "tier": 30
+      },
+      {
+        "text": "Airman",
+        "tier": 30
+      },
+      {
+        "text": "Cadet",
+        "tier": 30
+      },
+      {
+        "text": "Field marshal",
+        "tier": 30
+      },
+      {
+        "text": "Warrant officer",
+        "tier": 30
+      },
+      {
+        "text": "Specialist",
+        "aliases": [
+          "spc"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Private first class",
+        "aliases": [
+          "pfc"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gunnery sergeant",
+        "aliases": [
+          "gunny"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sergeant first class",
+        "tier": 60
+      },
+      {
+        "text": "Command sergeant major",
+        "tier": 60
+      },
+      {
+        "text": "Sergeant Major of the Army",
+        "tier": 60
+      },
+      {
+        "text": "Master gunnery sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Lieutenant commander",
+        "tier": 60
+      },
+      {
+        "text": "Fleet admiral",
+        "tier": 60
+      },
+      {
+        "text": "General of the Army",
+        "tier": 60
+      },
+      {
+        "text": "General of the Air Force",
+        "tier": 60
+      },
+      {
+        "text": "Senior airman",
+        "tier": 60
+      },
+      {
+        "text": "Airman first class",
+        "tier": 60
+      },
+      {
+        "text": "Technical sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Senior master sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Chief master sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Chief warrant officer",
+        "tier": 60
+      },
+      {
+        "text": "Master chief petty officer",
+        "tier": 60
+      },
+      {
+        "text": "Senior chief petty officer",
+        "tier": 60
+      },
+      {
+        "text": "Seaman recruit",
+        "tier": 60
+      },
+      {
+        "text": "Seaman apprentice",
+        "tier": 60
+      },
+      {
+        "text": "Midshipman",
+        "tier": 60
+      },
+      {
+        "text": "Boatswain",
+        "aliases": [
+          "bosun"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Quartermaster",
+        "tier": 60
+      },
+      {
+        "text": "Coxswain",
+        "tier": 60
+      },
+      {
+        "text": "Marshal",
+        "tier": 60
+      },
+      {
+        "text": "Air marshal",
+        "tier": 60
+      },
+      {
+        "text": "Air chief marshal",
+        "tier": 60
+      },
+      {
+        "text": "Air vice-marshal",
+        "tier": 60
+      },
+      {
+        "text": "Air commodore",
+        "tier": 60
+      },
+      {
+        "text": "Group captain",
+        "tier": 60
+      },
+      {
+        "text": "Wing commander",
+        "tier": 60
+      },
+      {
+        "text": "Squadron leader",
+        "tier": 60
+      },
+      {
+        "text": "Flight lieutenant",
+        "tier": 60
+      },
+      {
+        "text": "Flying officer",
+        "tier": 60
+      },
+      {
+        "text": "Pilot officer",
+        "tier": 60
+      },
+      {
+        "text": "Lance sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Bombardier",
+        "tier": 60
+      },
+      {
+        "text": "Gunner",
+        "tier": 60
+      },
+      {
+        "text": "Trooper",
+        "tier": 60
+      },
+      {
+        "text": "Sapper",
+        "tier": 60
+      },
+      {
+        "text": "Fusilier",
+        "tier": 60
+      },
+      {
+        "text": "Rifleman",
+        "tier": 60
+      },
+      {
+        "text": "Guardsman",
+        "tier": 60
+      },
+      {
+        "text": "Drummer",
+        "tier": 60
+      },
+      {
+        "text": "Piper",
+        "tier": 60
+      },
+      {
+        "text": "Sub-lieutenant",
+        "tier": 60
+      },
+      {
+        "text": "Warrant officer class 1",
+        "tier": 60
+      },
+      {
+        "text": "Colour sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Staff sergeant major",
+        "tier": 60
+      },
+      {
+        "text": "Regimental sergeant major",
+        "tier": 60
+      },
+      {
+        "text": "Company sergeant major",
+        "tier": 60
+      },
+      {
+        "text": "Generalissimo",
+        "tier": 85
+      },
+      {
+        "text": "Marshal of the Soviet Union",
+        "tier": 85
+      },
+      {
+        "text": "Field marshal general",
+        "tier": 85
+      },
+      {
+        "text": "Generaloberst",
+        "tier": 85
+      },
+      {
+        "text": "Oberst",
+        "tier": 85
+      },
+      {
+        "text": "Hauptmann",
+        "tier": 85
+      },
+      {
+        "text": "Leutnant",
+        "tier": 85
+      },
+      {
+        "text": "Feldwebel",
+        "tier": 85
+      },
+      {
+        "text": "Gefreiter",
+        "tier": 85
+      },
+      {
+        "text": "Unteroffizier",
+        "tier": 85
+      },
+      {
+        "text": "Kapitan",
+        "tier": 85
+      },
+      {
+        "text": "Kommandant",
+        "tier": 85
+      },
+      {
+        "text": "Capitaine",
+        "tier": 85
+      },
+      {
+        "text": "Sous-lieutenant",
+        "tier": 85
+      },
+      {
+        "text": "Adjudant",
+        "tier": 85
+      },
+      {
+        "text": "Caporal",
+        "tier": 85
+      },
+      {
+        "text": "Sergent",
+        "tier": 85
+      },
+      {
+        "text": "Colonnello",
+        "tier": 85
+      },
+      {
+        "text": "Capitano",
+        "tier": 85
+      },
+      {
+        "text": "Tenente",
+        "tier": 85
+      },
+      {
+        "text": "Maresciallo",
+        "tier": 85
+      },
+      {
+        "text": "Coronel",
+        "tier": 85
+      },
+      {
+        "text": "Teniente",
+        "tier": 85
+      },
+      {
+        "text": "Sargento",
+        "tier": 85
+      },
+      {
+        "text": "Cabo",
+        "tier": 85
+      },
+      {
+        "text": "Shogun",
+        "tier": 85
+      },
+      {
+        "text": "Daimyo",
+        "tier": 85
+      },
+      {
+        "text": "Centurion",
+        "tier": 85
+      },
+      {
+        "text": "Legate",
+        "tier": 85
+      },
+      {
+        "text": "Tribune",
+        "tier": 85
+      },
+      {
+        "text": "Optio",
+        "tier": 85
+      },
+      {
+        "text": "Decurion",
+        "tier": 85
+      },
+      {
+        "text": "Praetor",
+        "tier": 85
+      },
+      {
+        "text": "Hoplite",
+        "tier": 85
+      },
+      {
+        "text": "Strategos",
+        "tier": 85
+      },
+      {
+        "text": "Chiliarch",
+        "tier": 85
+      },
+      {
+        "text": "Ataman",
+        "tier": 85
+      },
+      {
+        "text": "Hetman",
+        "tier": 85
+      },
+      {
+        "text": "Esaul",
+        "tier": 85
+      },
+      {
+        "text": "Subedar",
+        "tier": 85
+      },
+      {
+        "text": "Havildar",
+        "tier": 85
+      },
+      {
+        "text": "Naik",
+        "tier": 85
+      },
+      {
+        "text": "Jemadar",
+        "tier": 85
+      },
+      {
+        "text": "Risaldar",
+        "tier": 85
+      },
+      {
+        "text": "Pasha",
+        "tier": 85
+      },
+      {
+        "text": "Bey",
+        "tier": 85
+      },
+      {
+        "text": "Agha",
+        "tier": 85
+      },
+      {
+        "text": "Cornet",
+        "tier": 85
+      },
+      {
+        "text": "Subaltern",
+        "tier": 85
+      },
+      {
+        "text": "Commandant",
+        "tier": 85
+      },
+      {
+        "text": "Brevet major",
+        "tier": 85
+      },
+      {
+        "text": "Flag officer",
+        "tier": 85
+      },
+      {
+        "text": "Post captain",
+        "tier": 85
+      },
+      {
+        "text": "Master and commander",
+        "tier": 85
+      },
+      {
+        "text": "Vice admiral of the fleet",
+        "tier": 85
+      },
+      {
+        "text": "Grand admiral",
+        "tier": 85
+      },
+      {
+        "text": "Admiral of the fleet",
+        "tier": 85
+      },
+      {
+        "text": "Sergeant at arms",
+        "tier": 85
+      },
+      {
+        "text": "Provost marshal",
+        "tier": 85
+      },
+      {
+        "text": "Adjutant",
+        "tier": 85
+      },
+      {
+        "text": "Aide-de-camp",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Soldier",
+      "Army",
+      "Navy",
+      "Marine",
+      "Veteran",
+      "Hero",
+      "Ninja"
+    ],
+    "notes": "Ranks from any branch or country's armed forces."
+  },
+  {
+    "id": "q0124",
+    "prompt": "Name an exercise or workout move",
+    "category": "body-health",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Turkish get-up",
+        "aliases": [
+          "turkish getup"
+        ],
+        "tier": 100
+      },
+      {
+        "text": "Push-up",
+        "aliases": [
+          "pushup",
+          "push up"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sit-up",
+        "aliases": [
+          "situp",
+          "sit up"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Squat",
+        "tier": 10
+      },
+      {
+        "text": "Jumping jacks",
+        "aliases": [
+          "jumping jack"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Plank",
+        "tier": 10
+      },
+      {
+        "text": "Lunge",
+        "tier": 10
+      },
+      {
+        "text": "Pull-up",
+        "aliases": [
+          "pullup",
+          "pull up"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Burpee",
+        "tier": 10
+      },
+      {
+        "text": "Yoga",
+        "tier": 15
+      },
+      {
+        "text": "Running",
+        "tier": 15
+      },
+      {
+        "text": "Walking",
+        "tier": 15
+      },
+      {
+        "text": "Crunch",
+        "tier": 30
+      },
+      {
+        "text": "Bench press",
+        "tier": 30
+      },
+      {
+        "text": "Deadlift",
+        "tier": 30
+      },
+      {
+        "text": "Bicep curl",
+        "aliases": [
+          "curl",
+          "curls"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Chin-up",
+        "aliases": [
+          "chinup"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mountain climber",
+        "tier": 30
+      },
+      {
+        "text": "Jump rope",
+        "aliases": [
+          "skipping"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Leg press",
+        "tier": 30
+      },
+      {
+        "text": "Calf raise",
+        "tier": 30
+      },
+      {
+        "text": "Shoulder press",
+        "aliases": [
+          "overhead press",
+          "military press"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dip",
+        "tier": 30
+      },
+      {
+        "text": "Lat pulldown",
+        "tier": 30
+      },
+      {
+        "text": "Bent-over row",
+        "aliases": [
+          "row",
+          "rows"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Leg lift",
+        "aliases": [
+          "leg raise"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wall sit",
+        "tier": 30
+      },
+      {
+        "text": "High knees",
+        "tier": 30
+      },
+      {
+        "text": "Box jump",
+        "tier": 30
+      },
+      {
+        "text": "Kettlebell swing",
+        "tier": 30
+      },
+      {
+        "text": "Russian twist",
+        "tier": 30
+      },
+      {
+        "text": "Bicycle crunch",
+        "tier": 30
+      },
+      {
+        "text": "Side plank",
+        "tier": 30
+      },
+      {
+        "text": "Glute bridge",
+        "aliases": [
+          "bridge"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Superman",
+        "tier": 30
+      },
+      {
+        "text": "Star jump",
+        "tier": 30
+      },
+      {
+        "text": "Tricep extension",
+        "tier": 30
+      },
+      {
+        "text": "Lateral raise",
+        "tier": 30
+      },
+      {
+        "text": "Front raise",
+        "tier": 30
+      },
+      {
+        "text": "Shrug",
+        "tier": 30
+      },
+      {
+        "text": "Clean and jerk",
+        "tier": 30
+      },
+      {
+        "text": "Snatch",
+        "tier": 30
+      },
+      {
+        "text": "Thruster",
+        "tier": 30
+      },
+      {
+        "text": "Wall ball",
+        "tier": 30
+      },
+      {
+        "text": "Jogging",
+        "tier": 30
+      },
+      {
+        "text": "Sprint",
+        "tier": 30
+      },
+      {
+        "text": "Swimming",
+        "tier": 30
+      },
+      {
+        "text": "Cycling",
+        "tier": 30
+      },
+      {
+        "text": "Pilates",
+        "tier": 30
+      },
+      {
+        "text": "Stretching",
+        "tier": 30
+      },
+      {
+        "text": "Toe touch",
+        "tier": 30
+      },
+      {
+        "text": "Arm circles",
+        "tier": 30
+      },
+      {
+        "text": "Rowing",
+        "tier": 30
+      },
+      {
+        "text": "Goblet squat",
+        "tier": 60
+      },
+      {
+        "text": "Front squat",
+        "tier": 60
+      },
+      {
+        "text": "Back squat",
+        "tier": 60
+      },
+      {
+        "text": "Sumo squat",
+        "tier": 60
+      },
+      {
+        "text": "Split squat",
+        "tier": 60
+      },
+      {
+        "text": "Bulgarian split squat",
+        "tier": 60
+      },
+      {
+        "text": "Pistol squat",
+        "tier": 60
+      },
+      {
+        "text": "Jump squat",
+        "tier": 60
+      },
+      {
+        "text": "Romanian deadlift",
+        "tier": 60
+      },
+      {
+        "text": "Sumo deadlift",
+        "tier": 60
+      },
+      {
+        "text": "Stiff-leg deadlift",
+        "tier": 60
+      },
+      {
+        "text": "Good morning",
+        "tier": 60
+      },
+      {
+        "text": "Hip thrust",
+        "tier": 60
+      },
+      {
+        "text": "Donkey kick",
+        "tier": 60
+      },
+      {
+        "text": "Fire hydrant",
+        "tier": 60
+      },
+      {
+        "text": "Clamshell",
+        "tier": 60
+      },
+      {
+        "text": "Step-up",
+        "tier": 60
+      },
+      {
+        "text": "Walking lunge",
+        "tier": 60
+      },
+      {
+        "text": "Reverse lunge",
+        "tier": 60
+      },
+      {
+        "text": "Lateral lunge",
+        "tier": 60
+      },
+      {
+        "text": "Curtsy lunge",
+        "tier": 60
+      },
+      {
+        "text": "Incline bench press",
+        "tier": 60
+      },
+      {
+        "text": "Decline bench press",
+        "tier": 60
+      },
+      {
+        "text": "Dumbbell fly",
+        "aliases": [
+          "chest fly"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cable crossover",
+        "tier": 60
+      },
+      {
+        "text": "Pec deck",
+        "tier": 60
+      },
+      {
+        "text": "Diamond push-up",
+        "tier": 60
+      },
+      {
+        "text": "Pike push-up",
+        "tier": 60
+      },
+      {
+        "text": "Handstand push-up",
+        "tier": 60
+      },
+      {
+        "text": "Archer push-up",
+        "tier": 60
+      },
+      {
+        "text": "Clap push-up",
+        "tier": 60
+      },
+      {
+        "text": "Muscle-up",
+        "tier": 60
+      },
+      {
+        "text": "Hanging leg raise",
+        "tier": 60
+      },
+      {
+        "text": "Toes to bar",
+        "tier": 60
+      },
+      {
+        "text": "Knee raise",
+        "tier": 60
+      },
+      {
+        "text": "Flutter kicks",
+        "tier": 60
+      },
+      {
+        "text": "Scissor kicks",
+        "tier": 60
+      },
+      {
+        "text": "V-up",
+        "tier": 60
+      },
+      {
+        "text": "Hollow hold",
+        "tier": 60
+      },
+      {
+        "text": "Dead bug",
+        "tier": 60
+      },
+      {
+        "text": "Bird dog",
+        "tier": 60
+      },
+      {
+        "text": "Ab wheel rollout",
+        "aliases": [
+          "rollout"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Woodchopper",
+        "tier": 60
+      },
+      {
+        "text": "Pallof press",
+        "tier": 60
+      },
+      {
+        "text": "Farmer's walk",
+        "aliases": [
+          "farmers carry"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sled push",
+        "tier": 60
+      },
+      {
+        "text": "Tire flip",
+        "tier": 60
+      },
+      {
+        "text": "Battle ropes",
+        "tier": 60
+      },
+      {
+        "text": "Medicine ball slam",
+        "aliases": [
+          "ball slam"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Broad jump",
+        "tier": 60
+      },
+      {
+        "text": "Tuck jump",
+        "tier": 60
+      },
+      {
+        "text": "Skater jump",
+        "tier": 60
+      },
+      {
+        "text": "Bear crawl",
+        "tier": 60
+      },
+      {
+        "text": "Crab walk",
+        "tier": 60
+      },
+      {
+        "text": "Inchworm",
+        "tier": 60
+      },
+      {
+        "text": "Butt kicks",
+        "tier": 60
+      },
+      {
+        "text": "Shuttle run",
+        "tier": 60
+      },
+      {
+        "text": "Suicides",
+        "tier": 60
+      },
+      {
+        "text": "Ladder drills",
+        "tier": 60
+      },
+      {
+        "text": "Hammer curl",
+        "tier": 60
+      },
+      {
+        "text": "Preacher curl",
+        "tier": 60
+      },
+      {
+        "text": "Concentration curl",
+        "tier": 60
+      },
+      {
+        "text": "Skull crusher",
+        "tier": 60
+      },
+      {
+        "text": "Tricep dip",
+        "tier": 60
+      },
+      {
+        "text": "Tricep kickback",
+        "tier": 60
+      },
+      {
+        "text": "Close-grip bench press",
+        "tier": 60
+      },
+      {
+        "text": "Face pull",
+        "tier": 60
+      },
+      {
+        "text": "Reverse fly",
+        "tier": 60
+      },
+      {
+        "text": "Upright row",
+        "tier": 60
+      },
+      {
+        "text": "Arnold press",
+        "tier": 60
+      },
+      {
+        "text": "Seated row",
+        "tier": 60
+      },
+      {
+        "text": "T-bar row",
+        "tier": 60
+      },
+      {
+        "text": "Pendlay row",
+        "tier": 60
+      },
+      {
+        "text": "Single-arm row",
+        "tier": 60
+      },
+      {
+        "text": "Leg extension",
+        "tier": 60
+      },
+      {
+        "text": "Leg curl",
+        "aliases": [
+          "hamstring curl"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hip abduction",
+        "tier": 60
+      },
+      {
+        "text": "Hip adduction",
+        "tier": 60
+      },
+      {
+        "text": "Calf press",
+        "tier": 60
+      },
+      {
+        "text": "Seated calf raise",
+        "tier": 60
+      },
+      {
+        "text": "Power clean",
+        "tier": 60
+      },
+      {
+        "text": "Hang clean",
+        "tier": 60
+      },
+      {
+        "text": "Push press",
+        "tier": 60
+      },
+      {
+        "text": "Jerk",
+        "tier": 60
+      },
+      {
+        "text": "Overhead squat",
+        "tier": 60
+      },
+      {
+        "text": "Zercher squat",
+        "tier": 60
+      },
+      {
+        "text": "Hack squat",
+        "tier": 60
+      },
+      {
+        "text": "Smith machine squat",
+        "tier": 60
+      },
+      {
+        "text": "Sissy squat",
+        "tier": 60
+      },
+      {
+        "text": "Nordic curl",
+        "tier": 60
+      },
+      {
+        "text": "Glute ham raise",
+        "tier": 60
+      },
+      {
+        "text": "Back extension",
+        "aliases": [
+          "hyperextension"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Reverse hyper",
+        "tier": 60
+      },
+      {
+        "text": "Cable crunch",
+        "tier": 60
+      },
+      {
+        "text": "Oblique crunch",
+        "tier": 60
+      },
+      {
+        "text": "Reverse crunch",
+        "tier": 60
+      },
+      {
+        "text": "Heel touches",
+        "tier": 60
+      },
+      {
+        "text": "Windshield wipers",
+        "tier": 60
+      },
+      {
+        "text": "Dragon flag",
+        "tier": 60
+      },
+      {
+        "text": "L-sit",
+        "tier": 60
+      },
+      {
+        "text": "Planche",
+        "tier": 60
+      },
+      {
+        "text": "Front lever",
+        "tier": 60
+      },
+      {
+        "text": "Back lever",
+        "tier": 60
+      },
+      {
+        "text": "Human flag",
+        "tier": 60
+      },
+      {
+        "text": "Handstand",
+        "tier": 60
+      },
+      {
+        "text": "Cartwheel",
+        "tier": 60
+      },
+      {
+        "text": "Somersault",
+        "tier": 60
+      },
+      {
+        "text": "Elliptical",
+        "tier": 60
+      },
+      {
+        "text": "Stair climber",
+        "tier": 60
+      },
+      {
+        "text": "Spin class",
+        "tier": 60
+      },
+      {
+        "text": "Zumba",
+        "tier": 60
+      },
+      {
+        "text": "Tai chi",
+        "tier": 60
+      },
+      {
+        "text": "Kickboxing",
+        "tier": 60
+      },
+      {
+        "text": "Shadowboxing",
+        "tier": 60
+      },
+      {
+        "text": "Plank jacks",
+        "tier": 60
+      },
+      {
+        "text": "Frog jumps",
+        "tier": 60
+      },
+      {
+        "text": "Sprawl",
+        "tier": 60
+      },
+      {
+        "text": "Squat thrust",
+        "tier": 60
+      },
+      {
+        "text": "Sun salutation",
+        "tier": 60
+      },
+      {
+        "text": "Downward dog",
+        "tier": 60
+      },
+      {
+        "text": "Cat-cow",
+        "tier": 60
+      },
+      {
+        "text": "Child's pose",
+        "tier": 60
+      },
+      {
+        "text": "Cobra stretch",
+        "tier": 60
+      },
+      {
+        "text": "Pigeon stretch",
+        "tier": 60
+      },
+      {
+        "text": "Quad stretch",
+        "tier": 60
+      },
+      {
+        "text": "Butterfly stretch",
+        "tier": 60
+      },
+      {
+        "text": "Foam rolling",
+        "tier": 60
+      },
+      {
+        "text": "Jefferson curl",
+        "tier": 85
+      },
+      {
+        "text": "Snatch-grip deadlift",
+        "tier": 85
+      },
+      {
+        "text": "Deficit deadlift",
+        "tier": 85
+      },
+      {
+        "text": "Rack pull",
+        "tier": 85
+      },
+      {
+        "text": "Pin press",
+        "tier": 85
+      },
+      {
+        "text": "Floor press",
+        "tier": 85
+      },
+      {
+        "text": "Board press",
+        "tier": 85
+      },
+      {
+        "text": "Spoto press",
+        "tier": 85
+      },
+      {
+        "text": "Larsen press",
+        "tier": 85
+      },
+      {
+        "text": "JM press",
+        "tier": 85
+      },
+      {
+        "text": "Tate press",
+        "tier": 85
+      },
+      {
+        "text": "Rolling tricep extension",
+        "tier": 85
+      },
+      {
+        "text": "Spider curl",
+        "tier": 85
+      },
+      {
+        "text": "Zottman curl",
+        "tier": 85
+      },
+      {
+        "text": "Drag curl",
+        "tier": 85
+      },
+      {
+        "text": "Bayesian curl",
+        "tier": 85
+      },
+      {
+        "text": "Meadows row",
+        "tier": 85
+      },
+      {
+        "text": "Kroc row",
+        "tier": 85
+      },
+      {
+        "text": "Seal row",
+        "tier": 85
+      },
+      {
+        "text": "Yates row",
+        "tier": 85
+      },
+      {
+        "text": "Helms row",
+        "tier": 85
+      },
+      {
+        "text": "Chest-supported row",
+        "tier": 85
+      },
+      {
+        "text": "Inverted row",
+        "aliases": [
+          "australian pull-up"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ring dip",
+        "tier": 85
+      },
+      {
+        "text": "Ring row",
+        "tier": 85
+      },
+      {
+        "text": "Skin the cat",
+        "tier": 85
+      },
+      {
+        "text": "Tuck planche",
+        "tier": 85
+      },
+      {
+        "text": "Straddle planche",
+        "tier": 85
+      },
+      {
+        "text": "Maltese",
+        "tier": 85
+      },
+      {
+        "text": "Iron cross",
+        "tier": 85
+      },
+      {
+        "text": "Kipping pull-up",
+        "tier": 85
+      },
+      {
+        "text": "Butterfly pull-up",
+        "tier": 85
+      },
+      {
+        "text": "Strict press",
+        "tier": 85
+      },
+      {
+        "text": "Z press",
+        "tier": 85
+      },
+      {
+        "text": "Landmine press",
+        "tier": 85
+      },
+      {
+        "text": "Viking press",
+        "tier": 85
+      },
+      {
+        "text": "Log press",
+        "tier": 85
+      },
+      {
+        "text": "Atlas stone",
+        "tier": 85
+      },
+      {
+        "text": "Yoke walk",
+        "tier": 85
+      },
+      {
+        "text": "Keg toss",
+        "tier": 85
+      },
+      {
+        "text": "Husafell stone",
+        "tier": 85
+      },
+      {
+        "text": "Conan's wheel",
+        "tier": 85
+      },
+      {
+        "text": "Sandbag carry",
+        "tier": 85
+      },
+      {
+        "text": "Suitcase carry",
+        "tier": 85
+      },
+      {
+        "text": "Waiter's walk",
+        "tier": 85
+      },
+      {
+        "text": "Copenhagen plank",
+        "tier": 85
+      },
+      {
+        "text": "Cossack squat",
+        "tier": 85
+      },
+      {
+        "text": "Shrimp squat",
+        "tier": 85
+      },
+      {
+        "text": "Dragon squat",
+        "tier": 85
+      },
+      {
+        "text": "Poliquin step-up",
+        "tier": 85
+      },
+      {
+        "text": "Peterson step-up",
+        "tier": 85
+      },
+      {
+        "text": "Reverse Nordic",
+        "tier": 85
+      },
+      {
+        "text": "Tibialis raise",
+        "tier": 85
+      },
+      {
+        "text": "Hip airplane",
+        "tier": 85
+      },
+      {
+        "text": "World's greatest stretch",
+        "tier": 85
+      },
+      {
+        "text": "Sots press",
+        "tier": 85
+      },
+      {
+        "text": "Snatch balance",
+        "tier": 85
+      },
+      {
+        "text": "Muscle snatch",
+        "tier": 85
+      },
+      {
+        "text": "Clean pull",
+        "tier": 85
+      },
+      {
+        "text": "Hang snatch",
+        "tier": 85
+      },
+      {
+        "text": "Split jerk",
+        "tier": 85
+      },
+      {
+        "text": "Burpee pull-up",
+        "tier": 85
+      },
+      {
+        "text": "Devil press",
+        "tier": 85
+      },
+      {
+        "text": "Man maker",
+        "tier": 85
+      },
+      {
+        "text": "Bear complex",
+        "tier": 85
+      },
+      {
+        "text": "Turkish sit-up",
+        "tier": 85
+      },
+      {
+        "text": "Windmill",
+        "tier": 85
+      },
+      {
+        "text": "Halo",
+        "tier": 85
+      },
+      {
+        "text": "Around the world",
+        "tier": 85
+      },
+      {
+        "text": "Plate pinch",
+        "tier": 85
+      },
+      {
+        "text": "Wrist roller",
+        "tier": 85
+      },
+      {
+        "text": "Grip trainer",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Sleeping",
+      "Eating",
+      "Netflix",
+      "Breathing",
+      "Gym",
+      "Weights"
+    ]
+  },
+  {
+    "id": "q0125",
+    "prompt": "Name a type of boat or ship",
+    "category": "vehicles",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Trireme",
+        "tier": 100
+      },
+      {
+        "text": "Sailboat",
+        "tier": 10
+      },
+      {
+        "text": "Canoe",
+        "tier": 10
+      },
+      {
+        "text": "Kayak",
+        "tier": 10
+      },
+      {
+        "text": "Yacht",
+        "tier": 10
+      },
+      {
+        "text": "Cruise ship",
+        "tier": 10
+      },
+      {
+        "text": "Speedboat",
+        "tier": 10
+      },
+      {
+        "text": "Rowboat",
+        "tier": 10
+      },
+      {
+        "text": "Submarine",
+        "tier": 10
+      },
+      {
+        "text": "Paddleboard",
+        "tier": 15
+      },
+      {
+        "text": "Hovercraft",
+        "tier": 15
+      },
+      {
+        "text": "Noah's Ark",
+        "aliases": [
+          "ark"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Ferry",
+        "tier": 30
+      },
+      {
+        "text": "Tugboat",
+        "aliases": [
+          "tug"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Barge",
+        "tier": 30
+      },
+      {
+        "text": "Raft",
+        "tier": 30
+      },
+      {
+        "text": "Pontoon",
+        "aliases": [
+          "pontoon boat"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fishing boat",
+        "tier": 30
+      },
+      {
+        "text": "Houseboat",
+        "tier": 30
+      },
+      {
+        "text": "Catamaran",
+        "tier": 30
+      },
+      {
+        "text": "Jet ski",
+        "tier": 30
+      },
+      {
+        "text": "Paddleboat",
+        "aliases": [
+          "pedal boat"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Steamboat",
+        "tier": 30
+      },
+      {
+        "text": "Paddle steamer",
+        "aliases": [
+          "riverboat"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Battleship",
+        "tier": 30
+      },
+      {
+        "text": "Aircraft carrier",
+        "tier": 30
+      },
+      {
+        "text": "Destroyer",
+        "tier": 30
+      },
+      {
+        "text": "Pirate ship",
+        "tier": 30
+      },
+      {
+        "text": "Viking ship",
+        "aliases": [
+          "longship"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Gondola",
+        "tier": 30
+      },
+      {
+        "text": "Dinghy",
+        "tier": 30
+      },
+      {
+        "text": "Lifeboat",
+        "tier": 30
+      },
+      {
+        "text": "Motorboat",
+        "tier": 30
+      },
+      {
+        "text": "Sailing ship",
+        "tier": 30
+      },
+      {
+        "text": "Tall ship",
+        "tier": 30
+      },
+      {
+        "text": "Galleon",
+        "tier": 30
+      },
+      {
+        "text": "Tanker",
+        "aliases": [
+          "oil tanker"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cargo ship",
+        "aliases": [
+          "freighter"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Container ship",
+        "tier": 30
+      },
+      {
+        "text": "Ocean liner",
+        "tier": 30
+      },
+      {
+        "text": "Inflatable boat",
+        "aliases": [
+          "zodiac"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dugout canoe",
+        "tier": 30
+      },
+      {
+        "text": "Bass boat",
+        "tier": 30
+      },
+      {
+        "text": "Ski boat",
+        "tier": 30
+      },
+      {
+        "text": "Schooner",
+        "tier": 60
+      },
+      {
+        "text": "Sloop",
+        "tier": 60
+      },
+      {
+        "text": "Ketch",
+        "tier": 60
+      },
+      {
+        "text": "Yawl",
+        "tier": 60
+      },
+      {
+        "text": "Cutter",
+        "tier": 60
+      },
+      {
+        "text": "Clipper",
+        "aliases": [
+          "clipper ship"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Frigate",
+        "tier": 60
+      },
+      {
+        "text": "Corvette",
+        "tier": 60
+      },
+      {
+        "text": "Cruiser",
+        "tier": 60
+      },
+      {
+        "text": "Dreadnought",
+        "tier": 60
+      },
+      {
+        "text": "Gunboat",
+        "tier": 60
+      },
+      {
+        "text": "PT boat",
+        "tier": 60
+      },
+      {
+        "text": "Minesweeper",
+        "tier": 60
+      },
+      {
+        "text": "Icebreaker",
+        "tier": 60
+      },
+      {
+        "text": "Trawler",
+        "tier": 60
+      },
+      {
+        "text": "Whaler",
+        "tier": 60
+      },
+      {
+        "text": "Junk",
+        "tier": 60
+      },
+      {
+        "text": "Sampan",
+        "tier": 60
+      },
+      {
+        "text": "Dhow",
+        "tier": 60
+      },
+      {
+        "text": "Felucca",
+        "tier": 60
+      },
+      {
+        "text": "Outrigger",
+        "tier": 60
+      },
+      {
+        "text": "Proa",
+        "tier": 60
+      },
+      {
+        "text": "Coracle",
+        "tier": 60
+      },
+      {
+        "text": "Punt",
+        "tier": 60
+      },
+      {
+        "text": "Pirogue",
+        "tier": 60
+      },
+      {
+        "text": "Umiak",
+        "tier": 60
+      },
+      {
+        "text": "Narrowboat",
+        "tier": 60
+      },
+      {
+        "text": "Scow",
+        "tier": 60
+      },
+      {
+        "text": "Lighter",
+        "tier": 60
+      },
+      {
+        "text": "Hydrofoil",
+        "tier": 60
+      },
+      {
+        "text": "Trimaran",
+        "tier": 60
+      },
+      {
+        "text": "Airboat",
+        "tier": 60
+      },
+      {
+        "text": "Jon boat",
+        "tier": 60
+      },
+      {
+        "text": "Skiff",
+        "tier": 60
+      },
+      {
+        "text": "Dory",
+        "tier": 60
+      },
+      {
+        "text": "Cabin cruiser",
+        "tier": 60
+      },
+      {
+        "text": "Bowrider",
+        "tier": 60
+      },
+      {
+        "text": "Deck boat",
+        "tier": 60
+      },
+      {
+        "text": "Wakeboard boat",
+        "tier": 60
+      },
+      {
+        "text": "Runabout",
+        "tier": 60
+      },
+      {
+        "text": "Superyacht",
+        "aliases": [
+          "megayacht"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hobie Cat",
+        "tier": 60
+      },
+      {
+        "text": "Racing shell",
+        "aliases": [
+          "shell"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Scull",
+        "tier": 60
+      },
+      {
+        "text": "Dragon boat",
+        "tier": 60
+      },
+      {
+        "text": "War canoe",
+        "tier": 60
+      },
+      {
+        "text": "Galley",
+        "tier": 60
+      },
+      {
+        "text": "Caravel",
+        "tier": 60
+      },
+      {
+        "text": "Carrack",
+        "tier": 60
+      },
+      {
+        "text": "Brig",
+        "tier": 60
+      },
+      {
+        "text": "Brigantine",
+        "tier": 60
+      },
+      {
+        "text": "Barque",
+        "aliases": [
+          "bark"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Man-of-war",
+        "aliases": [
+          "man o' war"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ship of the line",
+        "tier": 60
+      },
+      {
+        "text": "Longboat",
+        "tier": 60
+      },
+      {
+        "text": "Whaleboat",
+        "tier": 60
+      },
+      {
+        "text": "Pinnace",
+        "tier": 60
+      },
+      {
+        "text": "Water taxi",
+        "tier": 60
+      },
+      {
+        "text": "Fireboat",
+        "tier": 60
+      },
+      {
+        "text": "Pilot boat",
+        "tier": 60
+      },
+      {
+        "text": "Research vessel",
+        "tier": 60
+      },
+      {
+        "text": "Hospital ship",
+        "tier": 60
+      },
+      {
+        "text": "Troopship",
+        "tier": 60
+      },
+      {
+        "text": "Landing craft",
+        "tier": 60
+      },
+      {
+        "text": "Amphibious assault ship",
+        "tier": 60
+      },
+      {
+        "text": "Nuclear submarine",
+        "tier": 60
+      },
+      {
+        "text": "U-boat",
+        "tier": 60
+      },
+      {
+        "text": "Ironclad",
+        "tier": 60
+      },
+      {
+        "text": "Torpedo boat",
+        "tier": 60
+      },
+      {
+        "text": "Patrol boat",
+        "tier": 60
+      },
+      {
+        "text": "Coast guard cutter",
+        "tier": 60
+      },
+      {
+        "text": "Lightship",
+        "tier": 60
+      },
+      {
+        "text": "Dredger",
+        "tier": 60
+      },
+      {
+        "text": "Reefer ship",
+        "tier": 60
+      },
+      {
+        "text": "Ro-ro",
+        "tier": 60
+      },
+      {
+        "text": "LNG carrier",
+        "tier": 60
+      },
+      {
+        "text": "Bulk carrier",
+        "tier": 60
+      },
+      {
+        "text": "Car carrier",
+        "tier": 60
+      },
+      {
+        "text": "Drillship",
+        "tier": 60
+      },
+      {
+        "text": "Hopper barge",
+        "tier": 60
+      },
+      {
+        "text": "Banana boat",
+        "tier": 60
+      },
+      {
+        "text": "Glass-bottom boat",
+        "tier": 60
+      },
+      {
+        "text": "Duck boat",
+        "aliases": [
+          "amphibious vehicle"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Swan boat",
+        "tier": 60
+      },
+      {
+        "text": "Bireme",
+        "tier": 85
+      },
+      {
+        "text": "Quinquereme",
+        "tier": 85
+      },
+      {
+        "text": "Penteconter",
+        "tier": 85
+      },
+      {
+        "text": "Knarr",
+        "tier": 85
+      },
+      {
+        "text": "Cog",
+        "tier": 85
+      },
+      {
+        "text": "Hulk",
+        "tier": 85
+      },
+      {
+        "text": "Nao",
+        "tier": 85
+      },
+      {
+        "text": "Fluyt",
+        "tier": 85
+      },
+      {
+        "text": "Xebec",
+        "tier": 85
+      },
+      {
+        "text": "Polacre",
+        "tier": 85
+      },
+      {
+        "text": "Bilander",
+        "tier": 85
+      },
+      {
+        "text": "Hoy",
+        "tier": 85
+      },
+      {
+        "text": "Smack",
+        "tier": 85
+      },
+      {
+        "text": "Lugger",
+        "tier": 85
+      },
+      {
+        "text": "Bugeye",
+        "tier": 85
+      },
+      {
+        "text": "Skipjack",
+        "tier": 85
+      },
+      {
+        "text": "Sharpie",
+        "tier": 85
+      },
+      {
+        "text": "Catboat",
+        "tier": 85
+      },
+      {
+        "text": "Friendship sloop",
+        "tier": 85
+      },
+      {
+        "text": "Pinky",
+        "tier": 85
+      },
+      {
+        "text": "Bawley",
+        "tier": 85
+      },
+      {
+        "text": "Thames barge",
+        "tier": 85
+      },
+      {
+        "text": "Wherry",
+        "tier": 85
+      },
+      {
+        "text": "Gig",
+        "tier": 85
+      },
+      {
+        "text": "Djong",
+        "tier": 85
+      },
+      {
+        "text": "Lorcha",
+        "tier": 85
+      },
+      {
+        "text": "Bangka",
+        "tier": 85
+      },
+      {
+        "text": "Vinta",
+        "tier": 85
+      },
+      {
+        "text": "Waka",
+        "tier": 85
+      },
+      {
+        "text": "Va'a",
+        "tier": 85
+      },
+      {
+        "text": "Drua",
+        "tier": 85
+      },
+      {
+        "text": "Baidarka",
+        "tier": 85
+      },
+      {
+        "text": "Bull boat",
+        "tier": 85
+      },
+      {
+        "text": "Reed boat",
+        "tier": 85
+      },
+      {
+        "text": "Balsa raft",
+        "tier": 85
+      },
+      {
+        "text": "Quffa",
+        "tier": 85
+      },
+      {
+        "text": "Shikara",
+        "tier": 85
+      },
+      {
+        "text": "Kettuvallam",
+        "tier": 85
+      },
+      {
+        "text": "Chundan vallam",
+        "tier": 85
+      },
+      {
+        "text": "Caique",
+        "tier": 85
+      },
+      {
+        "text": "Gulet",
+        "tier": 85
+      },
+      {
+        "text": "Trabaccolo",
+        "tier": 85
+      },
+      {
+        "text": "Bragozzo",
+        "tier": 85
+      },
+      {
+        "text": "Sandolo",
+        "tier": 85
+      },
+      {
+        "text": "Topo",
+        "tier": 85
+      },
+      {
+        "text": "Vaporetto",
+        "tier": 85
+      },
+      {
+        "text": "Bateau mouche",
+        "tier": 85
+      },
+      {
+        "text": "Peniche",
+        "tier": 85
+      },
+      {
+        "text": "Tjalk",
+        "tier": 85
+      },
+      {
+        "text": "Botter",
+        "tier": 85
+      },
+      {
+        "text": "Hooker",
+        "tier": 85
+      },
+      {
+        "text": "Currach",
+        "tier": 85
+      },
+      {
+        "text": "Faering",
+        "tier": 85
+      },
+      {
+        "text": "Snekkja",
+        "tier": 85
+      },
+      {
+        "text": "Busse",
+        "tier": 85
+      },
+      {
+        "text": "Karve",
+        "tier": 85
+      },
+      {
+        "text": "Drakkar",
+        "tier": 85
+      },
+      {
+        "text": "Ekranoplan",
+        "tier": 85
+      },
+      {
+        "text": "SWATH",
+        "tier": 85
+      },
+      {
+        "text": "Semi-submersible",
+        "tier": 85
+      },
+      {
+        "text": "Bathyscaphe",
+        "tier": 85
+      },
+      {
+        "text": "Submersible",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Car",
+      "Plane",
+      "Train",
+      "Dock",
+      "Harbor",
+      "Anchor",
+      "Oar"
+    ]
+  },
+  {
+    "id": "q0126",
+    "prompt": "Name a landform or natural feature (like a canyon)",
+    "category": "nature",
+    "status": "reserve",
+    "answers": [
+      {
+        "text": "Drumlin",
+        "tier": 100
+      },
+      {
+        "text": "Mountain",
+        "tier": 10
+      },
+      {
+        "text": "Hill",
+        "tier": 10
+      },
+      {
+        "text": "Valley",
+        "tier": 10
+      },
+      {
+        "text": "Canyon",
+        "tier": 10
+      },
+      {
+        "text": "River",
+        "tier": 10
+      },
+      {
+        "text": "Lake",
+        "tier": 10
+      },
+      {
+        "text": "Ocean",
+        "tier": 10
+      },
+      {
+        "text": "Island",
+        "tier": 10
+      },
+      {
+        "text": "Iceberg",
+        "tier": 15
+      },
+      {
+        "text": "Grand Canyon",
+        "tier": 15
+      },
+      {
+        "text": "Mount Everest",
+        "tier": 15
+      },
+      {
+        "text": "Volcano",
+        "tier": 30
+      },
+      {
+        "text": "Desert",
+        "tier": 30
+      },
+      {
+        "text": "Plateau",
+        "tier": 30
+      },
+      {
+        "text": "Mesa",
+        "tier": 30
+      },
+      {
+        "text": "Butte",
+        "tier": 30
+      },
+      {
+        "text": "Cliff",
+        "tier": 30
+      },
+      {
+        "text": "Cave",
+        "tier": 30
+      },
+      {
+        "text": "Waterfall",
+        "tier": 30
+      },
+      {
+        "text": "Glacier",
+        "tier": 30
+      },
+      {
+        "text": "Beach",
+        "tier": 30
+      },
+      {
+        "text": "Peninsula",
+        "tier": 30
+      },
+      {
+        "text": "Bay",
+        "tier": 30
+      },
+      {
+        "text": "Gulf",
+        "tier": 30
+      },
+      {
+        "text": "Delta",
+        "tier": 30
+      },
+      {
+        "text": "Lagoon",
+        "tier": 30
+      },
+      {
+        "text": "Swamp",
+        "tier": 30
+      },
+      {
+        "text": "Marsh",
+        "tier": 30
+      },
+      {
+        "text": "Wetland",
+        "tier": 30
+      },
+      {
+        "text": "Forest",
+        "tier": 30
+      },
+      {
+        "text": "Jungle",
+        "tier": 30
+      },
+      {
+        "text": "Rainforest",
+        "tier": 30
+      },
+      {
+        "text": "Prairie",
+        "tier": 30
+      },
+      {
+        "text": "Plain",
+        "tier": 30
+      },
+      {
+        "text": "Meadow",
+        "tier": 30
+      },
+      {
+        "text": "Tundra",
+        "tier": 30
+      },
+      {
+        "text": "Savanna",
+        "tier": 30
+      },
+      {
+        "text": "Dune",
+        "aliases": [
+          "sand dune"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Oasis",
+        "tier": 30
+      },
+      {
+        "text": "Reef",
+        "aliases": [
+          "coral reef"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fjord",
+        "aliases": [
+          "fiord"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Gorge",
+        "tier": 30
+      },
+      {
+        "text": "Ravine",
+        "tier": 30
+      },
+      {
+        "text": "Ridge",
+        "tier": 30
+      },
+      {
+        "text": "Peak",
+        "tier": 30
+      },
+      {
+        "text": "Summit",
+        "tier": 30
+      },
+      {
+        "text": "Crater",
+        "tier": 30
+      },
+      {
+        "text": "Geyser",
+        "tier": 30
+      },
+      {
+        "text": "Hot spring",
+        "tier": 30
+      },
+      {
+        "text": "Cove",
+        "tier": 30
+      },
+      {
+        "text": "Strait",
+        "tier": 30
+      },
+      {
+        "text": "Isthmus",
+        "tier": 30
+      },
+      {
+        "text": "Archipelago",
+        "tier": 30
+      },
+      {
+        "text": "Atoll",
+        "tier": 30
+      },
+      {
+        "text": "Coast",
+        "aliases": [
+          "shoreline"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pond",
+        "tier": 30
+      },
+      {
+        "text": "Stream",
+        "aliases": [
+          "creek"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Spring",
+        "tier": 30
+      },
+      {
+        "text": "Rapids",
+        "tier": 30
+      },
+      {
+        "text": "Basin",
+        "tier": 30
+      },
+      {
+        "text": "Sea",
+        "tier": 30
+      },
+      {
+        "text": "Arroyo",
+        "tier": 60
+      },
+      {
+        "text": "Wadi",
+        "tier": 60
+      },
+      {
+        "text": "Gulch",
+        "tier": 60
+      },
+      {
+        "text": "Gully",
+        "tier": 60
+      },
+      {
+        "text": "Hollow",
+        "tier": 60
+      },
+      {
+        "text": "Dell",
+        "tier": 60
+      },
+      {
+        "text": "Glen",
+        "tier": 60
+      },
+      {
+        "text": "Vale",
+        "tier": 60
+      },
+      {
+        "text": "Dale",
+        "tier": 60
+      },
+      {
+        "text": "Bluff",
+        "tier": 60
+      },
+      {
+        "text": "Escarpment",
+        "tier": 60
+      },
+      {
+        "text": "Scarp",
+        "tier": 60
+      },
+      {
+        "text": "Headland",
+        "tier": 60
+      },
+      {
+        "text": "Cape",
+        "tier": 60
+      },
+      {
+        "text": "Promontory",
+        "tier": 60
+      },
+      {
+        "text": "Spit",
+        "tier": 60
+      },
+      {
+        "text": "Sandbar",
+        "tier": 60
+      },
+      {
+        "text": "Barrier island",
+        "tier": 60
+      },
+      {
+        "text": "Estuary",
+        "tier": 60
+      },
+      {
+        "text": "Bayou",
+        "tier": 60
+      },
+      {
+        "text": "Bog",
+        "tier": 60
+      },
+      {
+        "text": "Fen",
+        "tier": 60
+      },
+      {
+        "text": "Moor",
+        "tier": 60
+      },
+      {
+        "text": "Heath",
+        "tier": 60
+      },
+      {
+        "text": "Steppe",
+        "tier": 60
+      },
+      {
+        "text": "Pampas",
+        "tier": 60
+      },
+      {
+        "text": "Veldt",
+        "tier": 60
+      },
+      {
+        "text": "Badlands",
+        "tier": 60
+      },
+      {
+        "text": "Hoodoo",
+        "tier": 60
+      },
+      {
+        "text": "Arch",
+        "aliases": [
+          "natural arch"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Natural bridge",
+        "tier": 60
+      },
+      {
+        "text": "Sinkhole",
+        "tier": 60
+      },
+      {
+        "text": "Cenote",
+        "tier": 60
+      },
+      {
+        "text": "Karst",
+        "tier": 60
+      },
+      {
+        "text": "Stalactite",
+        "tier": 60
+      },
+      {
+        "text": "Stalagmite",
+        "tier": 60
+      },
+      {
+        "text": "Cavern",
+        "tier": 60
+      },
+      {
+        "text": "Grotto",
+        "tier": 60
+      },
+      {
+        "text": "Sea stack",
+        "tier": 60
+      },
+      {
+        "text": "Sea cave",
+        "tier": 60
+      },
+      {
+        "text": "Sea arch",
+        "tier": 60
+      },
+      {
+        "text": "Tide pool",
+        "tier": 60
+      },
+      {
+        "text": "Mudflat",
+        "tier": 60
+      },
+      {
+        "text": "Salt flat",
+        "tier": 60
+      },
+      {
+        "text": "Playa",
+        "tier": 60
+      },
+      {
+        "text": "Caldera",
+        "tier": 60
+      },
+      {
+        "text": "Lava tube",
+        "tier": 60
+      },
+      {
+        "text": "Lava field",
+        "tier": 60
+      },
+      {
+        "text": "Cinder cone",
+        "tier": 60
+      },
+      {
+        "text": "Shield volcano",
+        "tier": 60
+      },
+      {
+        "text": "Fumarole",
+        "tier": 60
+      },
+      {
+        "text": "Mud pot",
+        "tier": 60
+      },
+      {
+        "text": "Moraine",
+        "tier": 60
+      },
+      {
+        "text": "Esker",
+        "tier": 60
+      },
+      {
+        "text": "Cirque",
+        "tier": 60
+      },
+      {
+        "text": "Arete",
+        "tier": 60
+      },
+      {
+        "text": "Col",
+        "tier": 60
+      },
+      {
+        "text": "Saddle",
+        "tier": 60
+      },
+      {
+        "text": "Pass",
+        "aliases": [
+          "mountain pass"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Watershed",
+        "tier": 60
+      },
+      {
+        "text": "Divide",
+        "aliases": [
+          "continental divide"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tributary",
+        "tier": 60
+      },
+      {
+        "text": "Confluence",
+        "tier": 60
+      },
+      {
+        "text": "Oxbow lake",
+        "aliases": [
+          "oxbow"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Meander",
+        "tier": 60
+      },
+      {
+        "text": "Floodplain",
+        "tier": 60
+      },
+      {
+        "text": "Alluvial fan",
+        "tier": 60
+      },
+      {
+        "text": "Levee",
+        "tier": 60
+      },
+      {
+        "text": "Terrace",
+        "tier": 60
+      },
+      {
+        "text": "Knoll",
+        "tier": 60
+      },
+      {
+        "text": "Mound",
+        "tier": 60
+      },
+      {
+        "text": "Foothills",
+        "tier": 60
+      },
+      {
+        "text": "Highlands",
+        "tier": 60
+      },
+      {
+        "text": "Lowlands",
+        "tier": 60
+      },
+      {
+        "text": "Uplands",
+        "tier": 60
+      },
+      {
+        "text": "Tableland",
+        "tier": 60
+      },
+      {
+        "text": "Massif",
+        "tier": 60
+      },
+      {
+        "text": "Volcanic island",
+        "tier": 60
+      },
+      {
+        "text": "Inlet",
+        "tier": 60
+      },
+      {
+        "text": "Harbor",
+        "tier": 60
+      },
+      {
+        "text": "Headwaters",
+        "tier": 60
+      },
+      {
+        "text": "Shoal",
+        "tier": 60
+      },
+      {
+        "text": "Trench",
+        "aliases": [
+          "ocean trench"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Abyssal plain",
+        "tier": 60
+      },
+      {
+        "text": "Continental shelf",
+        "tier": 60
+      },
+      {
+        "text": "Seamount",
+        "tier": 60
+      },
+      {
+        "text": "Mid-ocean ridge",
+        "tier": 60
+      },
+      {
+        "text": "Hydrothermal vent",
+        "tier": 60
+      },
+      {
+        "text": "Ice shelf",
+        "tier": 60
+      },
+      {
+        "text": "Ice cap",
+        "tier": 60
+      },
+      {
+        "text": "Ice field",
+        "tier": 60
+      },
+      {
+        "text": "Permafrost",
+        "tier": 60
+      },
+      {
+        "text": "Crevasse",
+        "tier": 60
+      },
+      {
+        "text": "Icefall",
+        "tier": 60
+      },
+      {
+        "text": "Snowfield",
+        "tier": 60
+      },
+      {
+        "text": "Kame",
+        "tier": 85
+      },
+      {
+        "text": "Kettle",
+        "tier": 85
+      },
+      {
+        "text": "Tarn",
+        "tier": 85
+      },
+      {
+        "text": "Paternoster lakes",
+        "tier": 85
+      },
+      {
+        "text": "Roche moutonnee",
+        "tier": 85
+      },
+      {
+        "text": "Nunatak",
+        "tier": 85
+      },
+      {
+        "text": "Pingo",
+        "tier": 85
+      },
+      {
+        "text": "Thermokarst",
+        "tier": 85
+      },
+      {
+        "text": "Polje",
+        "tier": 85
+      },
+      {
+        "text": "Doline",
+        "tier": 85
+      },
+      {
+        "text": "Uvala",
+        "tier": 85
+      },
+      {
+        "text": "Tufa",
+        "tier": 85
+      },
+      {
+        "text": "Travertine terrace",
+        "tier": 85
+      },
+      {
+        "text": "Tepui",
+        "tier": 85
+      },
+      {
+        "text": "Inselberg",
+        "tier": 85
+      },
+      {
+        "text": "Bornhardt",
+        "tier": 85
+      },
+      {
+        "text": "Monadnock",
+        "tier": 85
+      },
+      {
+        "text": "Kopje",
+        "tier": 85
+      },
+      {
+        "text": "Tor",
+        "tier": 85
+      },
+      {
+        "text": "Yardang",
+        "tier": 85
+      },
+      {
+        "text": "Ventifact",
+        "tier": 85
+      },
+      {
+        "text": "Erg",
+        "tier": 85
+      },
+      {
+        "text": "Reg",
+        "tier": 85
+      },
+      {
+        "text": "Hamada",
+        "tier": 85
+      },
+      {
+        "text": "Sabkha",
+        "tier": 85
+      },
+      {
+        "text": "Chott",
+        "tier": 85
+      },
+      {
+        "text": "Loess",
+        "tier": 85
+      },
+      {
+        "text": "Cuesta",
+        "tier": 85
+      },
+      {
+        "text": "Hogback",
+        "tier": 85
+      },
+      {
+        "text": "Flatiron",
+        "tier": 85
+      },
+      {
+        "text": "Graben",
+        "tier": 85
+      },
+      {
+        "text": "Horst",
+        "tier": 85
+      },
+      {
+        "text": "Rift valley",
+        "tier": 85
+      },
+      {
+        "text": "Fault scarp",
+        "tier": 85
+      },
+      {
+        "text": "Pediment",
+        "tier": 85
+      },
+      {
+        "text": "Bajada",
+        "tier": 85
+      },
+      {
+        "text": "Talus",
+        "aliases": [
+          "scree"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Coulee",
+        "tier": 85
+      },
+      {
+        "text": "Couloir",
+        "tier": 85
+      },
+      {
+        "text": "Hanging valley",
+        "tier": 85
+      },
+      {
+        "text": "Truncated spur",
+        "tier": 85
+      },
+      {
+        "text": "Ria",
+        "tier": 85
+      },
+      {
+        "text": "Tombolo",
+        "tier": 85
+      },
+      {
+        "text": "Cuspate foreland",
+        "tier": 85
+      },
+      {
+        "text": "Wave-cut platform",
+        "tier": 85
+      },
+      {
+        "text": "Blowhole",
+        "tier": 85
+      },
+      {
+        "text": "Machair",
+        "tier": 85
+      },
+      {
+        "text": "Salt marsh",
+        "tier": 85
+      },
+      {
+        "text": "Mangrove swamp",
+        "tier": 85
+      },
+      {
+        "text": "Pocosin",
+        "tier": 85
+      },
+      {
+        "text": "Muskeg",
+        "tier": 85
+      },
+      {
+        "text": "Carr",
+        "tier": 85
+      },
+      {
+        "text": "Billabong",
+        "tier": 85
+      },
+      {
+        "text": "Anabranch",
+        "tier": 85
+      },
+      {
+        "text": "Braided river",
+        "tier": 85
+      },
+      {
+        "text": "Knickpoint",
+        "tier": 85
+      },
+      {
+        "text": "Plunge pool",
+        "tier": 85
+      },
+      {
+        "text": "Pothole",
+        "tier": 85
+      },
+      {
+        "text": "Kettle lake",
+        "tier": 85
+      },
+      {
+        "text": "Proglacial lake",
+        "tier": 85
+      },
+      {
+        "text": "Lahar",
+        "tier": 85
+      },
+      {
+        "text": "Maar",
+        "tier": 85
+      },
+      {
+        "text": "Diatreme",
+        "tier": 85
+      },
+      {
+        "text": "Volcanic neck",
+        "tier": 85
+      },
+      {
+        "text": "Dike",
+        "tier": 85
+      },
+      {
+        "text": "Sill",
+        "tier": 85
+      },
+      {
+        "text": "Laccolith",
+        "tier": 85
+      },
+      {
+        "text": "Batholith",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Building",
+      "Bridge",
+      "Road",
+      "City",
+      "Dam",
+      "Tunnel",
+      "Park"
+    ]
+  },
+  {
+    "id": "q0127",
+    "prompt": "Name a social media app or website",
+    "category": "brands",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Friendster",
+        "tier": 100
+      },
+      {
+        "text": "Facebook",
+        "tier": 10
+      },
+      {
+        "text": "Instagram",
+        "aliases": [
+          "insta",
+          "ig"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "TikTok",
+        "tier": 10
+      },
+      {
+        "text": "Twitter",
+        "aliases": [
+          "x"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Snapchat",
+        "aliases": [
+          "snap"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "YouTube",
+        "tier": 10
+      },
+      {
+        "text": "Reddit",
+        "tier": 10
+      },
+      {
+        "text": "Pinterest",
+        "tier": 10
+      },
+      {
+        "text": "MySpace",
+        "tier": 15
+      },
+      {
+        "text": "LinkedIn",
+        "tier": 15
+      },
+      {
+        "text": "Vine",
+        "tier": 15
+      },
+      {
+        "text": "WhatsApp",
+        "tier": 30
+      },
+      {
+        "text": "Discord",
+        "tier": 30
+      },
+      {
+        "text": "Twitch",
+        "tier": 30
+      },
+      {
+        "text": "Tumblr",
+        "tier": 30
+      },
+      {
+        "text": "Threads",
+        "tier": 30
+      },
+      {
+        "text": "BeReal",
+        "tier": 30
+      },
+      {
+        "text": "Messenger",
+        "aliases": [
+          "facebook messenger"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bluesky",
+        "tier": 30
+      },
+      {
+        "text": "Mastodon",
+        "tier": 30
+      },
+      {
+        "text": "Clubhouse",
+        "tier": 30
+      },
+      {
+        "text": "Quora",
+        "tier": 30
+      },
+      {
+        "text": "Nextdoor",
+        "tier": 30
+      },
+      {
+        "text": "Flickr",
+        "tier": 30
+      },
+      {
+        "text": "Google+",
+        "aliases": [
+          "google plus"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Periscope",
+        "tier": 30
+      },
+      {
+        "text": "Truth Social",
+        "tier": 60
+      },
+      {
+        "text": "Parler",
+        "tier": 60
+      },
+      {
+        "text": "Gab",
+        "tier": 60
+      },
+      {
+        "text": "Rumble",
+        "tier": 60
+      },
+      {
+        "text": "Gettr",
+        "tier": 60
+      },
+      {
+        "text": "Weibo",
+        "tier": 60
+      },
+      {
+        "text": "QQ",
+        "tier": 60
+      },
+      {
+        "text": "Douyin",
+        "tier": 60
+      },
+      {
+        "text": "Xiaohongshu",
+        "aliases": [
+          "red note",
+          "rednote"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kuaishou",
+        "tier": 60
+      },
+      {
+        "text": "KakaoTalk",
+        "tier": 60
+      },
+      {
+        "text": "VK",
+        "aliases": [
+          "vkontakte"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Odnoklassniki",
+        "tier": 60
+      },
+      {
+        "text": "GroupMe",
+        "tier": 60
+      },
+      {
+        "text": "Marco Polo",
+        "tier": 60
+      },
+      {
+        "text": "Houseparty",
+        "tier": 60
+      },
+      {
+        "text": "Yik Yak",
+        "tier": 60
+      },
+      {
+        "text": "Whisper",
+        "tier": 60
+      },
+      {
+        "text": "Ask.fm",
+        "tier": 60
+      },
+      {
+        "text": "Formspring",
+        "tier": 60
+      },
+      {
+        "text": "Xanga",
+        "tier": 60
+      },
+      {
+        "text": "LiveJournal",
+        "tier": 60
+      },
+      {
+        "text": "Bebo",
+        "tier": 60
+      },
+      {
+        "text": "Hi5",
+        "tier": 60
+      },
+      {
+        "text": "Orkut",
+        "tier": 60
+      },
+      {
+        "text": "Tagged",
+        "tier": 60
+      },
+      {
+        "text": "Badoo",
+        "tier": 60
+      },
+      {
+        "text": "Meetup",
+        "tier": 60
+      },
+      {
+        "text": "Wattpad",
+        "tier": 60
+      },
+      {
+        "text": "DeviantArt",
+        "tier": 60
+      },
+      {
+        "text": "Behance",
+        "tier": 60
+      },
+      {
+        "text": "Dribbble",
+        "tier": 60
+      },
+      {
+        "text": "SoundCloud",
+        "tier": 60
+      },
+      {
+        "text": "Bandcamp",
+        "tier": 60
+      },
+      {
+        "text": "Vimeo",
+        "tier": 60
+      },
+      {
+        "text": "Dailymotion",
+        "tier": 60
+      },
+      {
+        "text": "Kick",
+        "tier": 60
+      },
+      {
+        "text": "Triller",
+        "tier": 60
+      },
+      {
+        "text": "Likee",
+        "tier": 60
+      },
+      {
+        "text": "Lemon8",
+        "tier": 60
+      },
+      {
+        "text": "Poparazzi",
+        "tier": 60
+      },
+      {
+        "text": "Dispo",
+        "tier": 60
+      },
+      {
+        "text": "Locket",
+        "tier": 60
+      },
+      {
+        "text": "Yubo",
+        "tier": 60
+      },
+      {
+        "text": "Club Penguin",
+        "tier": 60
+      },
+      {
+        "text": "Habbo",
+        "tier": 60
+      },
+      {
+        "text": "Neopets",
+        "tier": 60
+      },
+      {
+        "text": "Second Life",
+        "tier": 60
+      },
+      {
+        "text": "Stack Overflow",
+        "tier": 60
+      },
+      {
+        "text": "GitHub",
+        "tier": 60
+      },
+      {
+        "text": "Product Hunt",
+        "tier": 60
+      },
+      {
+        "text": "Hacker News",
+        "tier": 60
+      },
+      {
+        "text": "Digg",
+        "tier": 60
+      },
+      {
+        "text": "Delicious",
+        "tier": 60
+      },
+      {
+        "text": "StumbleUpon",
+        "tier": 60
+      },
+      {
+        "text": "Fark",
+        "tier": 60
+      },
+      {
+        "text": "Slashdot",
+        "tier": 60
+      },
+      {
+        "text": "4chan",
+        "tier": 60
+      },
+      {
+        "text": "Something Awful",
+        "tier": 60
+      },
+      {
+        "text": "Imgur",
+        "tier": 60
+      },
+      {
+        "text": "9GAG",
+        "tier": 60
+      },
+      {
+        "text": "iFunny",
+        "tier": 60
+      },
+      {
+        "text": "Know Your Meme",
+        "tier": 60
+      },
+      {
+        "text": "Six Degrees",
+        "tier": 85
+      },
+      {
+        "text": "Classmates.com",
+        "aliases": [
+          "classmates"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Geocities",
+        "tier": 85
+      },
+      {
+        "text": "Tribe.net",
+        "tier": 85
+      },
+      {
+        "text": "Plurk",
+        "tier": 85
+      },
+      {
+        "text": "Jaiku",
+        "tier": 85
+      },
+      {
+        "text": "Pownce",
+        "tier": 85
+      },
+      {
+        "text": "FriendFeed",
+        "tier": 85
+      },
+      {
+        "text": "Diaspora",
+        "tier": 85
+      },
+      {
+        "text": "Ello",
+        "tier": 85
+      },
+      {
+        "text": "Cohost",
+        "tier": 85
+      },
+      {
+        "text": "Hive Social",
+        "tier": 85
+      },
+      {
+        "text": "Post News",
+        "tier": 85
+      },
+      {
+        "text": "Spoutible",
+        "tier": 85
+      },
+      {
+        "text": "Minds",
+        "tier": 85
+      },
+      {
+        "text": "MeWe",
+        "tier": 85
+      },
+      {
+        "text": "Vero",
+        "tier": 85
+      },
+      {
+        "text": "Steemit",
+        "tier": 85
+      },
+      {
+        "text": "Friendica",
+        "tier": 85
+      },
+      {
+        "text": "Pixelfed",
+        "tier": 85
+      },
+      {
+        "text": "PeerTube",
+        "tier": 85
+      },
+      {
+        "text": "Lemmy",
+        "tier": 85
+      },
+      {
+        "text": "Kbin",
+        "tier": 85
+      },
+      {
+        "text": "Tildes",
+        "tier": 85
+      },
+      {
+        "text": "Raddle",
+        "tier": 85
+      },
+      {
+        "text": "Voat",
+        "tier": 85
+      },
+      {
+        "text": "Ruqqus",
+        "tier": 85
+      },
+      {
+        "text": "Saidit",
+        "tier": 85
+      },
+      {
+        "text": "Clapper",
+        "tier": 85
+      },
+      {
+        "text": "Dubsmash",
+        "tier": 85
+      },
+      {
+        "text": "Musical.ly",
+        "tier": 85
+      },
+      {
+        "text": "Keek",
+        "tier": 85
+      },
+      {
+        "text": "Tout",
+        "tier": 85
+      },
+      {
+        "text": "Viddy",
+        "tier": 85
+      },
+      {
+        "text": "Socialcam",
+        "tier": 85
+      },
+      {
+        "text": "Trovo",
+        "tier": 85
+      },
+      {
+        "text": "Mobcrush",
+        "tier": 85
+      },
+      {
+        "text": "Foursquare",
+        "tier": 85
+      },
+      {
+        "text": "Gowalla",
+        "tier": 85
+      },
+      {
+        "text": "Loopt",
+        "tier": 85
+      },
+      {
+        "text": "Brightkite",
+        "tier": 85
+      },
+      {
+        "text": "Yammer",
+        "tier": 85
+      },
+      {
+        "text": "Ning",
+        "tier": 85
+      },
+      {
+        "text": "Netlog",
+        "tier": 85
+      },
+      {
+        "text": "StudiVZ",
+        "tier": 85
+      },
+      {
+        "text": "Tuenti",
+        "tier": 85
+      },
+      {
+        "text": "Draugiem",
+        "tier": 85
+      },
+      {
+        "text": "Mixi",
+        "tier": 85
+      },
+      {
+        "text": "Cyworld",
+        "tier": 85
+      },
+      {
+        "text": "Renren",
+        "tier": 85
+      },
+      {
+        "text": "Kaixin001",
+        "tier": 85
+      },
+      {
+        "text": "Douban",
+        "tier": 85
+      },
+      {
+        "text": "Zhihu",
+        "tier": 85
+      },
+      {
+        "text": "Bilibili",
+        "tier": 85
+      },
+      {
+        "text": "Tieba",
+        "tier": 85
+      },
+      {
+        "text": "Naver",
+        "tier": 85
+      },
+      {
+        "text": "Daum",
+        "tier": 85
+      },
+      {
+        "text": "Zalo",
+        "tier": 85
+      },
+      {
+        "text": "ShareChat",
+        "tier": 85
+      },
+      {
+        "text": "Moj",
+        "tier": 85
+      },
+      {
+        "text": "Koo",
+        "tier": 85
+      },
+      {
+        "text": "Hike",
+        "tier": 85
+      },
+      {
+        "text": "Roposo",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Google",
+      "Amazon",
+      "Netflix",
+      "Apple",
+      "Microsoft",
+      "Uber"
+    ]
+  },
+  {
+    "id": "q0128",
+    "prompt": "Name something you'd bring to the beach",
+    "category": "everyday-objects",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Metal detector",
+        "tier": 100
+      },
+      {
+        "text": "Towel",
+        "aliases": [
+          "beach towel"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sunscreen",
+        "aliases": [
+          "sunblock",
+          "suntan lotion"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Umbrella",
+        "aliases": [
+          "beach umbrella"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sunglasses",
+        "tier": 10
+      },
+      {
+        "text": "Swimsuit",
+        "aliases": [
+          "bathing suit",
+          "swimwear"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Bucket and shovel",
+        "aliases": [
+          "bucket",
+          "shovel",
+          "pail"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Cooler",
+        "tier": 10
+      },
+      {
+        "text": "Water",
+        "tier": 10
+      },
+      {
+        "text": "Kite",
+        "tier": 15
+      },
+      {
+        "text": "Sandcastle mold",
+        "tier": 15
+      },
+      {
+        "text": "Seashells",
+        "tier": 15
+      },
+      {
+        "text": "Beach chair",
+        "aliases": [
+          "chair"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Blanket",
+        "tier": 30
+      },
+      {
+        "text": "Hat",
+        "aliases": [
+          "sun hat"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Flip-flops",
+        "aliases": [
+          "flip flops",
+          "sandals"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Snacks",
+        "tier": 30
+      },
+      {
+        "text": "Sandwiches",
+        "tier": 30
+      },
+      {
+        "text": "Drinks",
+        "tier": 30
+      },
+      {
+        "text": "Water bottle",
+        "tier": 30
+      },
+      {
+        "text": "Book",
+        "tier": 30
+      },
+      {
+        "text": "Magazine",
+        "tier": 30
+      },
+      {
+        "text": "Phone",
+        "tier": 30
+      },
+      {
+        "text": "Speaker",
+        "aliases": [
+          "bluetooth speaker"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Radio",
+        "tier": 30
+      },
+      {
+        "text": "Frisbee",
+        "tier": 30
+      },
+      {
+        "text": "Beach ball",
+        "tier": 30
+      },
+      {
+        "text": "Volleyball",
+        "tier": 30
+      },
+      {
+        "text": "Football",
+        "tier": 30
+      },
+      {
+        "text": "Boogie board",
+        "aliases": [
+          "bodyboard"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Surfboard",
+        "tier": 30
+      },
+      {
+        "text": "Snorkel",
+        "tier": 30
+      },
+      {
+        "text": "Goggles",
+        "tier": 30
+      },
+      {
+        "text": "Flippers",
+        "aliases": [
+          "fins"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Life jacket",
+        "tier": 30
+      },
+      {
+        "text": "Pool noodle",
+        "tier": 30
+      },
+      {
+        "text": "Inflatable",
+        "aliases": [
+          "float",
+          "raft",
+          "pool float"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Beach bag",
+        "aliases": [
+          "tote"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cover-up",
+        "tier": 30
+      },
+      {
+        "text": "Lip balm",
+        "tier": 30
+      },
+      {
+        "text": "Aloe vera",
+        "tier": 30
+      },
+      {
+        "text": "Hairbrush",
+        "tier": 30
+      },
+      {
+        "text": "Camera",
+        "tier": 30
+      },
+      {
+        "text": "Tent",
+        "aliases": [
+          "beach tent",
+          "canopy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sunshade",
+        "tier": 30
+      },
+      {
+        "text": "Wet wipes",
+        "tier": 30
+      },
+      {
+        "text": "Trash bag",
+        "tier": 30
+      },
+      {
+        "text": "Ice",
+        "tier": 30
+      },
+      {
+        "text": "Fruit",
+        "tier": 30
+      },
+      {
+        "text": "Chips",
+        "tier": 30
+      },
+      {
+        "text": "Sand toys",
+        "tier": 60
+      },
+      {
+        "text": "Sieve",
+        "tier": 60
+      },
+      {
+        "text": "Shell bag",
+        "tier": 60
+      },
+      {
+        "text": "Wetsuit",
+        "tier": 60
+      },
+      {
+        "text": "Rash guard",
+        "tier": 60
+      },
+      {
+        "text": "Water shoes",
+        "tier": 60
+      },
+      {
+        "text": "Visor",
+        "tier": 60
+      },
+      {
+        "text": "Bucket hat",
+        "tier": 60
+      },
+      {
+        "text": "Sarong",
+        "tier": 60
+      },
+      {
+        "text": "Kaftan",
+        "tier": 60
+      },
+      {
+        "text": "Beach mat",
+        "tier": 60
+      },
+      {
+        "text": "Windbreak",
+        "tier": 60
+      },
+      {
+        "text": "Wagon",
+        "aliases": [
+          "beach cart"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Paddleboard",
+        "tier": 60
+      },
+      {
+        "text": "Kayak",
+        "tier": 60
+      },
+      {
+        "text": "Skimboard",
+        "tier": 60
+      },
+      {
+        "text": "Fishing rod",
+        "tier": 60
+      },
+      {
+        "text": "Bait",
+        "tier": 60
+      },
+      {
+        "text": "Crab net",
+        "tier": 60
+      },
+      {
+        "text": "Binoculars",
+        "tier": 60
+      },
+      {
+        "text": "Spikeball",
+        "tier": 60
+      },
+      {
+        "text": "Cornhole",
+        "tier": 60
+      },
+      {
+        "text": "Paddleball",
+        "aliases": [
+          "kadima"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Smashball",
+        "tier": 60
+      },
+      {
+        "text": "Bocce",
+        "tier": 60
+      },
+      {
+        "text": "Horseshoes",
+        "tier": 60
+      },
+      {
+        "text": "Ladder toss",
+        "tier": 60
+      },
+      {
+        "text": "Cards",
+        "tier": 60
+      },
+      {
+        "text": "Crossword",
+        "tier": 60
+      },
+      {
+        "text": "Sudoku",
+        "tier": 60
+      },
+      {
+        "text": "E-reader",
+        "aliases": [
+          "kindle"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Headphones",
+        "tier": 60
+      },
+      {
+        "text": "Portable charger",
+        "aliases": [
+          "power bank"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Baby powder",
+        "tier": 60
+      },
+      {
+        "text": "Talcum powder",
+        "tier": 60
+      },
+      {
+        "text": "Bug spray",
+        "tier": 60
+      },
+      {
+        "text": "First aid kit",
+        "tier": 60
+      },
+      {
+        "text": "Tweezers",
+        "tier": 60
+      },
+      {
+        "text": "Hand sanitizer",
+        "tier": 60
+      },
+      {
+        "text": "Change of clothes",
+        "tier": 60
+      },
+      {
+        "text": "Dry bag",
+        "tier": 60
+      },
+      {
+        "text": "Waterproof phone case",
+        "tier": 60
+      },
+      {
+        "text": "Sunscreen stick",
+        "tier": 60
+      },
+      {
+        "text": "After-sun lotion",
+        "tier": 60
+      },
+      {
+        "text": "Tanning oil",
+        "tier": 60
+      },
+      {
+        "text": "Hydration pack",
+        "tier": 60
+      },
+      {
+        "text": "Thermos",
+        "tier": 60
+      },
+      {
+        "text": "Popsicles",
+        "tier": 60
+      },
+      {
+        "text": "Watermelon",
+        "tier": 60
+      },
+      {
+        "text": "Beer",
+        "tier": 60
+      },
+      {
+        "text": "Lemonade",
+        "tier": 60
+      },
+      {
+        "text": "Soda",
+        "tier": 60
+      },
+      {
+        "text": "Grill",
+        "tier": 60
+      },
+      {
+        "text": "Charcoal",
+        "tier": 60
+      },
+      {
+        "text": "Hot dogs",
+        "tier": 60
+      },
+      {
+        "text": "Burgers",
+        "tier": 60
+      },
+      {
+        "text": "Marshmallows",
+        "tier": 60
+      },
+      {
+        "text": "Lantern",
+        "tier": 60
+      },
+      {
+        "text": "Flashlight",
+        "tier": 60
+      },
+      {
+        "text": "Hammock",
+        "tier": 60
+      },
+      {
+        "text": "Parasol",
+        "tier": 60
+      },
+      {
+        "text": "Sand anchor",
+        "tier": 85
+      },
+      {
+        "text": "Sand screw",
+        "tier": 85
+      },
+      {
+        "text": "Umbrella anchor",
+        "tier": 85
+      },
+      {
+        "text": "Shade sail",
+        "tier": 85
+      },
+      {
+        "text": "Beach caddy",
+        "tier": 85
+      },
+      {
+        "text": "Sand-free mat",
+        "tier": 85
+      },
+      {
+        "text": "Sand sifter",
+        "tier": 85
+      },
+      {
+        "text": "Shell identification guide",
+        "tier": 85
+      },
+      {
+        "text": "Tide chart",
+        "tier": 85
+      },
+      {
+        "text": "Tide table",
+        "tier": 85
+      },
+      {
+        "text": "Surf wax",
+        "tier": 85
+      },
+      {
+        "text": "Board leash",
+        "tier": 85
+      },
+      {
+        "text": "Fin key",
+        "tier": 85
+      },
+      {
+        "text": "Ding repair kit",
+        "tier": 85
+      },
+      {
+        "text": "Zinc oxide",
+        "tier": 85
+      },
+      {
+        "text": "Nose zinc",
+        "tier": 85
+      },
+      {
+        "text": "Rash cream",
+        "tier": 85
+      },
+      {
+        "text": "Kite reel",
+        "tier": 85
+      },
+      {
+        "text": "Stunt kite",
+        "tier": 85
+      },
+      {
+        "text": "Kiteboard",
+        "tier": 85
+      },
+      {
+        "text": "Windsurf board",
+        "tier": 85
+      },
+      {
+        "text": "Wakeboard",
+        "tier": 85
+      },
+      {
+        "text": "Water skis",
+        "tier": 85
+      },
+      {
+        "text": "Jet ski",
+        "tier": 85
+      },
+      {
+        "text": "Banana boat",
+        "tier": 85
+      },
+      {
+        "text": "Inflatable kayak",
+        "tier": 85
+      },
+      {
+        "text": "Underwater camera",
+        "tier": 85
+      },
+      {
+        "text": "GoPro",
+        "tier": 85
+      },
+      {
+        "text": "Drone",
+        "tier": 85
+      },
+      {
+        "text": "Tripod",
+        "tier": 85
+      },
+      {
+        "text": "Beach wheelchair",
+        "tier": 85
+      },
+      {
+        "text": "Swim diaper",
+        "tier": 85
+      },
+      {
+        "text": "Baby sunscreen",
+        "tier": 85
+      },
+      {
+        "text": "Pop-up tent",
+        "tier": 85
+      },
+      {
+        "text": "Sun hut",
+        "tier": 85
+      },
+      {
+        "text": "Cabana",
+        "tier": 85
+      },
+      {
+        "text": "Beach cot",
+        "tier": 85
+      },
+      {
+        "text": "Lounger",
+        "tier": 85
+      },
+      {
+        "text": "Air mattress",
+        "tier": 85
+      },
+      {
+        "text": "Inner tube",
+        "tier": 85
+      },
+      {
+        "text": "Swim ring",
+        "tier": 85
+      },
+      {
+        "text": "Arm floaties",
+        "aliases": [
+          "water wings"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kickboard",
+        "tier": 85
+      },
+      {
+        "text": "Snorkel vest",
+        "tier": 85
+      },
+      {
+        "text": "Fishing license",
+        "tier": 85
+      },
+      {
+        "text": "Cast net",
+        "tier": 85
+      },
+      {
+        "text": "Clam rake",
+        "tier": 85
+      },
+      {
+        "text": "Bottle opener",
+        "tier": 85
+      },
+      {
+        "text": "Ice packs",
+        "tier": 85
+      },
+      {
+        "text": "Spray bottle",
+        "tier": 85
+      },
+      {
+        "text": "Misting fan",
+        "tier": 85
+      },
+      {
+        "text": "Battery fan",
+        "tier": 85
+      },
+      {
+        "text": "Portable shower",
+        "tier": 85
+      },
+      {
+        "text": "Foot rinse",
+        "tier": 85
+      },
+      {
+        "text": "Baby wipes",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Snow",
+      "Skis",
+      "Sweater",
+      "Parka",
+      "Mittens"
+    ]
+  },
+  {
+    "id": "q0129",
+    "prompt": "Name an Elvis Presley song",
+    "category": "music",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Viva Las Vegas",
+        "tier": 100
+      },
+      {
+        "text": "Hound Dog",
+        "tier": 10
+      },
+      {
+        "text": "Jailhouse Rock",
+        "tier": 10
+      },
+      {
+        "text": "Blue Suede Shoes",
+        "tier": 10
+      },
+      {
+        "text": "Love Me Tender",
+        "tier": 10
+      },
+      {
+        "text": "Can't Help Falling in Love",
+        "aliases": [
+          "cant help falling in love"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Heartbreak Hotel",
+        "tier": 10
+      },
+      {
+        "text": "Suspicious Minds",
+        "tier": 10
+      },
+      {
+        "text": "All Shook Up",
+        "tier": 10
+      },
+      {
+        "text": "Blue Christmas",
+        "tier": 15
+      },
+      {
+        "text": "My Way",
+        "tier": 15
+      },
+      {
+        "text": "Unchained Melody",
+        "tier": 15
+      },
+      {
+        "text": "Don't Be Cruel",
+        "aliases": [
+          "dont be cruel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Return to Sender",
+        "tier": 30
+      },
+      {
+        "text": "Burning Love",
+        "tier": 30
+      },
+      {
+        "text": "A Little Less Conversation",
+        "tier": 30
+      },
+      {
+        "text": "In the Ghetto",
+        "tier": 30
+      },
+      {
+        "text": "It's Now or Never",
+        "aliases": [
+          "its now or never"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Are You Lonesome Tonight?",
+        "aliases": [
+          "are you lonesome tonight"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Teddy Bear",
+        "aliases": [
+          "(let me be your) teddy bear"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Always on My Mind",
+        "tier": 30
+      },
+      {
+        "text": "Good Luck Charm",
+        "tier": 30
+      },
+      {
+        "text": "Devil in Disguise",
+        "aliases": [
+          "(you're the) devil in disguise"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Love Me",
+        "tier": 30
+      },
+      {
+        "text": "Hard Headed Woman",
+        "tier": 30
+      },
+      {
+        "text": "Stuck on You",
+        "tier": 30
+      },
+      {
+        "text": "Surrender",
+        "tier": 30
+      },
+      {
+        "text": "Crying in the Chapel",
+        "tier": 30
+      },
+      {
+        "text": "Kentucky Rain",
+        "tier": 30
+      },
+      {
+        "text": "Moody Blue",
+        "tier": 30
+      },
+      {
+        "text": "That's All Right",
+        "aliases": [
+          "thats all right"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mystery Train",
+        "tier": 30
+      },
+      {
+        "text": "Trouble",
+        "tier": 30
+      },
+      {
+        "text": "King Creole",
+        "tier": 30
+      },
+      {
+        "text": "Wooden Heart",
+        "tier": 30
+      },
+      {
+        "text": "An American Trilogy",
+        "aliases": [
+          "american trilogy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "If I Can Dream",
+        "tier": 30
+      },
+      {
+        "text": "Polk Salad Annie",
+        "tier": 30
+      },
+      {
+        "text": "Rubberneckin'",
+        "tier": 30
+      },
+      {
+        "text": "Bossa Nova Baby",
+        "tier": 30
+      },
+      {
+        "text": "Kissin' Cousins",
+        "tier": 60
+      },
+      {
+        "text": "Fever",
+        "tier": 60
+      },
+      {
+        "text": "One Night",
+        "tier": 60
+      },
+      {
+        "text": "I Got Stung",
+        "tier": 60
+      },
+      {
+        "text": "A Big Hunk o' Love",
+        "aliases": [
+          "big hunk of love"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Way Down",
+        "tier": 60
+      },
+      {
+        "text": "Hurt",
+        "tier": 60
+      },
+      {
+        "text": "Separate Ways",
+        "tier": 60
+      },
+      {
+        "text": "Steamroller Blues",
+        "tier": 60
+      },
+      {
+        "text": "I Just Can't Help Believin'",
+        "tier": 60
+      },
+      {
+        "text": "You Don't Have to Say You Love Me",
+        "tier": 60
+      },
+      {
+        "text": "The Wonder of You",
+        "tier": 60
+      },
+      {
+        "text": "Don't Cry Daddy",
+        "tier": 60
+      },
+      {
+        "text": "Clean Up Your Own Back Yard",
+        "tier": 60
+      },
+      {
+        "text": "Memories",
+        "tier": 60
+      },
+      {
+        "text": "Guitar Man",
+        "tier": 60
+      },
+      {
+        "text": "U.S. Male",
+        "tier": 60
+      },
+      {
+        "text": "Little Sister",
+        "tier": 60
+      },
+      {
+        "text": "His Latest Flame",
+        "aliases": [
+          "marie's the name his latest flame"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "I Feel So Bad",
+        "tier": 60
+      },
+      {
+        "text": "Wear My Ring Around Your Neck",
+        "tier": 60
+      },
+      {
+        "text": "Too Much",
+        "tier": 60
+      },
+      {
+        "text": "Playing for Keeps",
+        "tier": 60
+      },
+      {
+        "text": "I Want You, I Need You, I Love You",
+        "tier": 60
+      },
+      {
+        "text": "Treat Me Nice",
+        "tier": 60
+      },
+      {
+        "text": "I Beg of You",
+        "tier": 60
+      },
+      {
+        "text": "Doncha' Think It's Time",
+        "tier": 60
+      },
+      {
+        "text": "Santa Claus Is Back in Town",
+        "tier": 60
+      },
+      {
+        "text": "If Every Day Was Like Christmas",
+        "tier": 60
+      },
+      {
+        "text": "Peace in the Valley",
+        "tier": 60
+      },
+      {
+        "text": "How Great Thou Art",
+        "tier": 60
+      },
+      {
+        "text": "Money Honey",
+        "tier": 60
+      },
+      {
+        "text": "Shake, Rattle and Roll",
+        "tier": 60
+      },
+      {
+        "text": "Lawdy Miss Clawdy",
+        "tier": 60
+      },
+      {
+        "text": "Ready Teddy",
+        "tier": 60
+      },
+      {
+        "text": "Rip It Up",
+        "tier": 60
+      },
+      {
+        "text": "Blue Moon of Kentucky",
+        "tier": 60
+      },
+      {
+        "text": "Good Rockin' Tonight",
+        "tier": 60
+      },
+      {
+        "text": "Baby Let's Play House",
+        "tier": 60
+      },
+      {
+        "text": "I Forgot to Remember to Forget",
+        "tier": 60
+      },
+      {
+        "text": "Milkcow Blues Boogie",
+        "tier": 60
+      },
+      {
+        "text": "Tryin' to Get to You",
+        "tier": 60
+      },
+      {
+        "text": "I Love You Because",
+        "tier": 85
+      },
+      {
+        "text": "Just Because",
+        "tier": 85
+      },
+      {
+        "text": "I'm Left, You're Right, She's Gone",
+        "tier": 85
+      },
+      {
+        "text": "When It Rains, It Really Pours",
+        "tier": 85
+      },
+      {
+        "text": "Old Shep",
+        "tier": 85
+      },
+      {
+        "text": "Paralyzed",
+        "tier": 85
+      },
+      {
+        "text": "Got a Lot o' Livin' to Do",
+        "tier": 85
+      },
+      {
+        "text": "Party",
+        "tier": 85
+      },
+      {
+        "text": "Mean Woman Blues",
+        "tier": 85
+      },
+      {
+        "text": "Loving You",
+        "tier": 85
+      },
+      {
+        "text": "Baby I Don't Care",
+        "tier": 85
+      },
+      {
+        "text": "Young and Beautiful",
+        "tier": 85
+      },
+      {
+        "text": "Don't Leave Me Now",
+        "tier": 85
+      },
+      {
+        "text": "Dixieland Rock",
+        "tier": 85
+      },
+      {
+        "text": "New Orleans",
+        "tier": 85
+      },
+      {
+        "text": "Crawfish",
+        "tier": 85
+      },
+      {
+        "text": "Steadfast, Loyal and True",
+        "tier": 85
+      },
+      {
+        "text": "As Long as I Have You",
+        "tier": 85
+      },
+      {
+        "text": "Lover Doll",
+        "tier": 85
+      },
+      {
+        "text": "G.I. Blues",
+        "tier": 85
+      },
+      {
+        "text": "Doin' the Best I Can",
+        "tier": 85
+      },
+      {
+        "text": "Pocketful of Rainbows",
+        "tier": 85
+      },
+      {
+        "text": "Flaming Star",
+        "tier": 85
+      },
+      {
+        "text": "Wild in the Country",
+        "tier": 85
+      },
+      {
+        "text": "Blue Hawaii",
+        "tier": 85
+      },
+      {
+        "text": "Rock-A-Hula Baby",
+        "tier": 85
+      },
+      {
+        "text": "Hawaiian Wedding Song",
+        "tier": 85
+      },
+      {
+        "text": "Follow That Dream",
+        "tier": 85
+      },
+      {
+        "text": "Kid Galahad",
+        "tier": 85
+      },
+      {
+        "text": "King of the Whole Wide World",
+        "tier": 85
+      },
+      {
+        "text": "Girls! Girls! Girls!",
+        "tier": 85
+      },
+      {
+        "text": "Fun in Acapulco",
+        "tier": 85
+      },
+      {
+        "text": "Roustabout",
+        "tier": 85
+      },
+      {
+        "text": "Little Egypt",
+        "tier": 85
+      },
+      {
+        "text": "Girl Happy",
+        "tier": 85
+      },
+      {
+        "text": "Do the Clam",
+        "tier": 85
+      },
+      {
+        "text": "Puppet on a String",
+        "tier": 85
+      },
+      {
+        "text": "Frankie and Johnny",
+        "tier": 85
+      },
+      {
+        "text": "Spinout",
+        "tier": 85
+      },
+      {
+        "text": "Stop Where You Are",
+        "tier": 85
+      },
+      {
+        "text": "Easy Come, Easy Go",
+        "tier": 85
+      },
+      {
+        "text": "Double Trouble",
+        "tier": 85
+      },
+      {
+        "text": "Clambake",
+        "tier": 85
+      },
+      {
+        "text": "Speedway",
+        "tier": 85
+      },
+      {
+        "text": "Let Yourself Go",
+        "tier": 85
+      },
+      {
+        "text": "Charro",
+        "tier": 85
+      },
+      {
+        "text": "Change of Habit",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Great Balls of Fire",
+      "Rock Around the Clock",
+      "Peggy Sue",
+      "Ring of Fire"
+    ]
+  },
+  {
+    "id": "q0130",
+    "prompt": "Name a word that means \"big\"",
+    "category": "words-language",
+    "status": "unlimited",
+    "answers": [
+      {
+        "text": "Brobdingnagian",
+        "tier": 100
+      },
+      {
+        "text": "Large",
+        "tier": 10
+      },
+      {
+        "text": "Huge",
+        "tier": 10
+      },
+      {
+        "text": "Giant",
+        "tier": 10
+      },
+      {
+        "text": "Enormous",
+        "tier": 10
+      },
+      {
+        "text": "Massive",
+        "tier": 10
+      },
+      {
+        "text": "Gigantic",
+        "tier": 10
+      },
+      {
+        "text": "Tall",
+        "tier": 10
+      },
+      {
+        "text": "Jumbo",
+        "tier": 10
+      },
+      {
+        "text": "Big",
+        "tier": 15
+      },
+      {
+        "text": "Supersize",
+        "aliases": [
+          "super-size",
+          "supersized"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Ginormous",
+        "tier": 15
+      },
+      {
+        "text": "Immense",
+        "tier": 30
+      },
+      {
+        "text": "Vast",
+        "tier": 30
+      },
+      {
+        "text": "Colossal",
+        "tier": 30
+      },
+      {
+        "text": "Tremendous",
+        "tier": 30
+      },
+      {
+        "text": "Mammoth",
+        "tier": 30
+      },
+      {
+        "text": "Monstrous",
+        "tier": 30
+      },
+      {
+        "text": "Titanic",
+        "tier": 30
+      },
+      {
+        "text": "Humongous",
+        "tier": 30
+      },
+      {
+        "text": "Gargantuan",
+        "tier": 30
+      },
+      {
+        "text": "Mega",
+        "tier": 30
+      },
+      {
+        "text": "Hefty",
+        "tier": 30
+      },
+      {
+        "text": "Bulky",
+        "tier": 30
+      },
+      {
+        "text": "Great",
+        "tier": 30
+      },
+      {
+        "text": "Grand",
+        "tier": 30
+      },
+      {
+        "text": "Substantial",
+        "tier": 30
+      },
+      {
+        "text": "Sizable",
+        "aliases": [
+          "sizeable"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Considerable",
+        "tier": 30
+      },
+      {
+        "text": "Extensive",
+        "tier": 30
+      },
+      {
+        "text": "Spacious",
+        "tier": 30
+      },
+      {
+        "text": "Roomy",
+        "tier": 30
+      },
+      {
+        "text": "Broad",
+        "tier": 30
+      },
+      {
+        "text": "Wide",
+        "tier": 30
+      },
+      {
+        "text": "Thick",
+        "tier": 30
+      },
+      {
+        "text": "Heavy",
+        "tier": 30
+      },
+      {
+        "text": "Fat",
+        "tier": 30
+      },
+      {
+        "text": "Chunky",
+        "tier": 30
+      },
+      {
+        "text": "Hulking",
+        "tier": 30
+      },
+      {
+        "text": "Whopping",
+        "tier": 30
+      },
+      {
+        "text": "Mighty",
+        "tier": 30
+      },
+      {
+        "text": "Epic",
+        "tier": 30
+      },
+      {
+        "text": "Monumental",
+        "tier": 30
+      },
+      {
+        "text": "Astronomical",
+        "tier": 30
+      },
+      {
+        "text": "Mountainous",
+        "tier": 30
+      },
+      {
+        "text": "Towering",
+        "tier": 30
+      },
+      {
+        "text": "Lofty",
+        "tier": 30
+      },
+      {
+        "text": "Elephantine",
+        "tier": 30
+      },
+      {
+        "text": "Kingsize",
+        "aliases": [
+          "king-size",
+          "king size"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Oversized",
+        "tier": 30
+      },
+      {
+        "text": "Extra large",
+        "aliases": [
+          "xl"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Voluminous",
+        "tier": 60
+      },
+      {
+        "text": "Capacious",
+        "tier": 60
+      },
+      {
+        "text": "Commodious",
+        "tier": 60
+      },
+      {
+        "text": "Ample",
+        "tier": 60
+      },
+      {
+        "text": "Expansive",
+        "tier": 60
+      },
+      {
+        "text": "Sweeping",
+        "tier": 60
+      },
+      {
+        "text": "Prodigious",
+        "tier": 60
+      },
+      {
+        "text": "Stupendous",
+        "tier": 60
+      },
+      {
+        "text": "Herculean",
+        "tier": 60
+      },
+      {
+        "text": "Cyclopean",
+        "tier": 60
+      },
+      {
+        "text": "Olympian",
+        "tier": 60
+      },
+      {
+        "text": "Majestic",
+        "tier": 60
+      },
+      {
+        "text": "Stately",
+        "tier": 60
+      },
+      {
+        "text": "Imposing",
+        "tier": 60
+      },
+      {
+        "text": "Burly",
+        "tier": 60
+      },
+      {
+        "text": "Brawny",
+        "tier": 60
+      },
+      {
+        "text": "Strapping",
+        "tier": 60
+      },
+      {
+        "text": "Husky",
+        "tier": 60
+      },
+      {
+        "text": "Stout",
+        "tier": 60
+      },
+      {
+        "text": "Portly",
+        "tier": 60
+      },
+      {
+        "text": "Rotund",
+        "tier": 60
+      },
+      {
+        "text": "Corpulent",
+        "tier": 60
+      },
+      {
+        "text": "Beefy",
+        "tier": 60
+      },
+      {
+        "text": "Meaty",
+        "tier": 60
+      },
+      {
+        "text": "Weighty",
+        "tier": 60
+      },
+      {
+        "text": "Ponderous",
+        "tier": 60
+      },
+      {
+        "text": "Galactic",
+        "tier": 60
+      },
+      {
+        "text": "Cosmic",
+        "tier": 60
+      },
+      {
+        "text": "Mondo",
+        "tier": 60
+      },
+      {
+        "text": "Thumping",
+        "tier": 60
+      },
+      {
+        "text": "Thundering",
+        "tier": 60
+      },
+      {
+        "text": "Whacking",
+        "tier": 60
+      },
+      {
+        "text": "Walloping",
+        "tier": 60
+      },
+      {
+        "text": "Socking",
+        "tier": 60
+      },
+      {
+        "text": "Bumper",
+        "tier": 60
+      },
+      {
+        "text": "Outsize",
+        "aliases": [
+          "outsized"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Overgrown",
+        "tier": 60
+      },
+      {
+        "text": "Maxi",
+        "tier": 60
+      },
+      {
+        "text": "Gigantesque",
+        "tier": 85
+      },
+      {
+        "text": "Gigantean",
+        "tier": 85
+      },
+      {
+        "text": "Megalithic",
+        "tier": 85
+      },
+      {
+        "text": "Monolithic",
+        "tier": 85
+      },
+      {
+        "text": "Mastodonic",
+        "tier": 85
+      },
+      {
+        "text": "Dinosaurian",
+        "tier": 85
+      },
+      {
+        "text": "Brontosaurian",
+        "tier": 85
+      },
+      {
+        "text": "Pachydermatous",
+        "tier": 85
+      },
+      {
+        "text": "Elephantlike",
+        "tier": 85
+      },
+      {
+        "text": "Jovian",
+        "tier": 85
+      },
+      {
+        "text": "Titanesque",
+        "tier": 85
+      },
+      {
+        "text": "Atlantean",
+        "tier": 85
+      },
+      {
+        "text": "Antaean",
+        "tier": 85
+      },
+      {
+        "text": "Lumbering",
+        "tier": 85
+      },
+      {
+        "text": "Lumpish",
+        "tier": 85
+      },
+      {
+        "text": "Immane",
+        "tier": 85
+      },
+      {
+        "text": "Magnific",
+        "tier": 85
+      },
+      {
+        "text": "Massy",
+        "tier": 85
+      },
+      {
+        "text": "Mickle",
+        "tier": 85
+      },
+      {
+        "text": "Muckle",
+        "tier": 85
+      },
+      {
+        "text": "Jumbo-sized",
+        "tier": 85
+      },
+      {
+        "text": "Monster-sized",
+        "tier": 85
+      },
+      {
+        "text": "Family-size",
+        "tier": 85
+      },
+      {
+        "text": "Economy-size",
+        "tier": 85
+      },
+      {
+        "text": "Industrial-size",
+        "tier": 85
+      },
+      {
+        "text": "Commercial-size",
+        "tier": 85
+      }
+    ],
+    "nearMisses": [
+      "Small",
+      "Tiny",
+      "Little",
+      "Short",
+      "Mini",
+      "Bigger"
+    ]
+  }
+]
