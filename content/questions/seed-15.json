@@ -7299,6 +7299,9 @@
       },
       {
         "text": "Louis Gossett Jr.",
+        "aliases": [
+          "lou gossett jr"
+        ],
         "tier": 85
       },
       {
@@ -7411,6 +7414,9 @@
       },
       {
         "text": "James Stewart",
+        "aliases": [
+          "jimmy stewart"
+        ],
         "tier": 60
       },
       {
@@ -7913,6 +7919,106 @@
         "tier": 60
       },
       {
+        "text": "Ronald Colman",
+        "tier": 60
+      },
+      {
+        "text": "William Holden",
+        "tier": 60
+      },
+      {
+        "text": "Alec Guinness",
+        "tier": 60
+      },
+      {
+        "text": "David Niven",
+        "tier": 60
+      },
+      {
+        "text": "Maximilian Schell",
+        "tier": 60
+      },
+      {
+        "text": "Norma Shearer",
+        "tier": 60
+      },
+      {
+        "text": "Helen Hayes",
+        "tier": 60
+      },
+      {
+        "text": "Joanne Woodward",
+        "tier": 60
+      },
+      {
+        "text": "Susan Hayward",
+        "tier": 60
+      },
+      {
+        "text": "Sissy Spacek",
+        "tier": 60
+      },
+      {
+        "text": "Burl Ives",
+        "tier": 60
+      },
+      {
+        "text": "George Kennedy",
+        "tier": 60
+      },
+      {
+        "text": "George Burns",
+        "tier": 60
+      },
+      {
+        "text": "John Gielgud",
+        "tier": 60
+      },
+      {
+        "text": "Gale Sondergaard",
+        "tier": 60
+      },
+      {
+        "text": "Alice Brady",
+        "tier": 60
+      },
+      {
+        "text": "Shirley Jones",
+        "tier": 60
+      },
+      {
+        "text": "Patty Duke",
+        "tier": 60
+      },
+      {
+        "text": "Eileen Heckart",
+        "tier": 60
+      },
+      {
+        "text": "Mary Steenburgen",
+        "tier": 60
+      },
+      {
+        "text": "Mercedes Ruehl",
+        "tier": 60
+      },
+      {
+        "text": "Anna Paquin",
+        "tier": 60
+      },
+      {
+        "text": "Jessie Buckley",
+        "tier": 60
+      },
+      {
+        "text": "Michael B. Jordan",
+        "tier": 60
+      },
+      {
+        "text": "Amy Madigan",
+        "tier": 60
+      },
+      {
         "text": "John Wayne",
         "tier": 30
       },
@@ -8353,7 +8459,8 @@
         "text": "Leonardo DiCaprio",
         "aliases": [
           "dicaprio",
-          "leo"
+          "leo",
+          "leo dicaprio"
         ],
         "tier": 10
       },
@@ -8396,6 +8503,6 @@
       "Steve Martin",
       "Jim Carrey"
     ],
-    "notes": "Lead or supporting acting Oscars only (honorary and writing awards don't count)."
+    "notes": "Anyone who has won a lead or supporting acting Oscar, through the March 2026 ceremony (honorary and writing awards don't count)."
   }
 ]

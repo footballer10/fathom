@@ -1558,7 +1558,7 @@ id: q0150
 pool: unlimited
 category: movies-tv
 prompt: Name an actor or actress who has won an acting Oscar
-note: Lead or supporting acting Oscars only (honorary and writing awards don't count).
+note: Anyone who has won a lead or supporting acting Oscar, through the March 2026 ceremony (honorary and writing awards don't count).
 
 [One in a Krillion]
 Marlee Matlin | matlin
@@ -1607,7 +1607,7 @@ John Houseman
 Jason Robards
 Christopher Walken
 Timothy Hutton
-Louis Gossett Jr.
+Louis Gossett Jr. | lou gossett jr
 Haing S. Ngor
 Don Ameche
 Denholm Elliott
@@ -1637,7 +1637,7 @@ Geoffrey Rush
 Jeremy Irons
 Gregory Peck
 Henry Fonda
-James Stewart
+James Stewart | jimmy stewart
 Gary Cooper
 Robert Duvall
 William Hurt
@@ -1762,6 +1762,31 @@ Margaret Rutherford
 Sandy Dennis
 Cloris Leachman
 Jack Lemmon
+Ronald Colman
+William Holden
+Alec Guinness
+David Niven
+Maximilian Schell
+Norma Shearer
+Helen Hayes
+Joanne Woodward
+Susan Hayward
+Sissy Spacek
+Burl Ives
+George Kennedy
+George Burns
+John Gielgud
+Gale Sondergaard
+Alice Brady
+Shirley Jones
+Patty Duke
+Eileen Heckart
+Mary Steenburgen
+Mercedes Ruehl
+Anna Paquin
+Jessie Buckley
+Michael B. Jordan
+Amy Madigan
 
 [Schooler]
 John Wayne
@@ -1866,7 +1891,7 @@ Robin Williams
 [Plankton]
 Meryl Streep | streep
 Tom Hanks | hanks
-Leonardo DiCaprio | dicaprio | leo
+Leonardo DiCaprio | dicaprio | leo | leo dicaprio
 Denzel Washington | denzel
 Jack Nicholson | nicholson
 Julia Roberts
