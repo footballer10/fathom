@@ -211,10 +211,16 @@ npm run pool:refresh
   - The fixes applied
   - The pool size before and after the refresh
   - Anything that failed, and which files are still waiting in `content/incoming/`
-- Commit and push the question files and the log (never `.env.local`):
+- Download a full backup of every live question (it writes `content/backup/`):
 
 ```bash
-git add content/imported content/logs
+npm run backup
+```
+
+- Commit and push the question files, the backup and the log (never `.env.local`):
+
+```bash
+git add content/imported content/logs content/backup
 git commit -m "Weekly questions <today>"
 git push
 ```

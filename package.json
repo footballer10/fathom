@@ -28,6 +28,7 @@
     "import": "tsx scripts/import.ts",
     "export:rejected": "tsx scripts/export-rejected.ts",
     "pool:refresh": "tsx scripts/pool-refresh.ts",
+    "backup": "tsx scripts/backup.ts",
     "sim:dive": "tsx scripts/sim/dive.ts",
     "sim:battle": "tsx scripts/sim/battle.ts",
     "sim": "tsx scripts/sim/dive.ts && tsx scripts/sim/battle.ts"
