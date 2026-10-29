@@ -24,6 +24,7 @@
     "setup": "tsx scripts/setup.ts",
     "deploy": "tsx scripts/deploy.ts",
     "status": "tsx scripts/status.ts",
+    "weekly:brief": "tsx scripts/weekly-brief.ts",
     "import": "tsx scripts/import.ts",
     "export:rejected": "tsx scripts/export-rejected.ts",
     "pool:refresh": "tsx scripts/pool-refresh.ts",
