@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="background:#031a33">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -9,6 +9,36 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // If the app can't start (a crash, or its files didn't load), say so instead of a blank page.
+      (function () {
+        var shown = false;
+        function show(msg) {
+          var root = document.getElementById("root");
+          if (shown || !root || root.children.length) return;
+          shown = true;
+          root.innerHTML =
+            '<div style="font:16px system-ui;color:#fff;padding:24px;max-width:560px;margin:15vh auto">' +
+            "<h1>Fathom couldn't start</h1><p>Try reloading. If it keeps happening, send this message to whoever runs the site:</p>" +
+            '<pre style="white-space:pre-wrap;background:rgba(0,0,0,.35);padding:12px;border-radius:10px"></pre></div>';
+          root.querySelector("pre").textContent = msg;
+        }
+        window.addEventListener(
+          "error",
+          function (e) {
+            var t = e.target;
+            var file = t && (t.src || t.href);
+            setTimeout(function () {
+              show(file ? "Couldn't load " + file : (e.message || "Unknown error") + (e.filename ? "\n" + e.filename : ""));
+            }, 0);
+          },
+          true,
+        );
+        setTimeout(function () {
+          show("The game didn't load within 10 seconds (" + navigator.userAgent + ")");
+        }, 10000);
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
