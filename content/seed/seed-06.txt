@@ -322,7 +322,7 @@ Dik-dik
 Duiker
 Muntjac
 Chevrotain | mouse deer
-Hyrax
+Hyrax | dassie
 Elephant shrew
 Solenodon
 Tenrec
@@ -337,19 +337,271 @@ Flying squirrel
 Colugo
 Mara
 Degu
+Addax
+Agile wallaby
+Alpine ibex
+American black bear | black bear
+Andean bear
+Angora goat
+Anoa
+Antelope squirrel
+Asian elephant
+African elephant
+Aurochs
+Axis deer | chital
+Babirusa
+Bactrian camel
+Dromedary
+Banteng
+Barbary macaque
+Barbary sheep | aoudi
+Bat-eared fox
+Bearded pig
+Bengal tiger
+Siberian tiger
+Sumatran tiger
+Bharal | blue sheep
+Big brown bat
+Black rhinoceros
+White rhinoceros
+Javan rhinoceros
+Sumatran rhinoceros
+Indian rhinoceros
+Blackbuck
+Black-footed ferret
+Blesbok
+Bongo
+Bontebok
+Brown bear
+Kodiak bear
+Brown rat
+Cape buffalo
+Water buffalo
+Burro
+Bushbaby | galago
+Bushbuck
+Bushpig
+Cacomistle
+Cane rat
+Chacma baboon
+Cheviot
+Chinchilla rat
+Chinese water deer
+Clouded leopard
+Snow leopard
+Amur leopard
+Common dolphin
+Cottontail
+Crab-eating fox
+Cuscus
+Dall sheep
+Dama gazelle
+Deer mouse
+Desman
+Dingo
+Domestic pig | hog
+Boar | wild boar
+Dorcas gazelle
+Dunnart
+Eastern grey kangaroo
+Red kangaroo
+Tree kangaroo
+Elephant seal
+Ermine | stoat
+Eurasian lynx
+Iberian lynx
+Canada lynx
+European badger
+Honey badger | ratel
+Fallow deer
+Red deer
+Roe deer
+Sika deer
+White-tailed deer
+Mule deer
+Sambar
+Barasingha
+Pere David's deer
+Field mouse
+Fisher
+Flying fox
+Fox squirrel
+Gray squirrel
+Red squirrel
+Ground squirrel
+Fruit bat
+Vampire bat
+Horseshoe bat
+Gaur
+Gemsbok
+Giant anteater
+Giant armadillo
+Giant otter
+Sea otter
+River otter
+Golden lion tamarin
+Golden mole
+Golden snub-nosed monkey
+Grant's gazelle
+Thomson's gazelle
+Gray fox
+Red fox
+Gray whale
+Blue whale
+Humpback whale
+Sperm whale
+Fin whale
+Minke whale
+Right whale
+Pilot whale
+Bottlenose dolphin
+River dolphin
+Porpoise
+Grevy's zebra
+Plains zebra
+Mountain zebra
+Quagga
+Guereza
+Hartebeest
+Harvest mouse
+Pygmy hippopotamus
+Hog deer
+Hoary marmot
+Hooded seal
+Harp seal
+Leopard seal
+Hutia
+Striped hyena
+Brown hyena
+Indri
+Sifaka
+Ring-tailed lemur
+Mouse lemur
+Jaguarundi
+Jackrabbit
+Javelina | peccary
+Kiang
+Klipspringer
+Kob
+Kowari
+Kultarr
+Langur
+Lechwe
+Lesser panda
+Linsang
+Lion tamarin
+Long-tailed weasel
+Lowland gorilla
+Mountain gorilla
+Manul | pallas's cat
+Marten
+Pine marten
+Mole rat
+Mongolian gerbil
+Monk seal
+Moon bear | asiatic black bear
+Mouflon
+Muskrat
+Musk deer
+Nilgai
+Night monkey
+Nyala
+Onager
+Oribi
+Pademelon
+Pallid bat
+Pampas cat
+Pampas deer
+Patas monkey
+Pine vole
+Pocket gopher
+Pocket mouse
+Polecat
+Potoroo
+Pouched rat
+Przewalski's horse
+Puku
+Pudu
+Pygmy marmoset
+Pygmy goat
+Quoll
+Raccoon dog | tanuki
+Rat kangaroo
+Red river hog
+Reedbuck
+Rhesus monkey | rhesus macaque
+Ringtail
+Roan antelope
+Rock hyrax
+Sable
+Sable antelope
+Saiga
+Sea cow
+Serow
+Siamang
+Sitatunga
+Three-toed sloth
+Snowshoe hare
+Spiny anteater
+Spiny mouse
+Springhare
+Squirrel monkey
+Steenbok
+Suni
+Tahr
+Tamandua
+Tamaraw
+Tasmanian tiger | thylacine
+Tayra
+Thamin
+Titi monkey
+Topi
+Tree shrew
+Tsessebe
+Uakari
+Urial
+Vervet monkey
+Wallaroo
+Wapiti
+Waterbuck
+Water vole
+Western lowland gorilla
+White-faced capuchin
+Wild cat
+Wild horse
+Wisent | european bison
+Red wolf
+Arctic wolf
+Ethiopian wolf
+Woolly monkey
+Yapok
+Zebu
+Zorilla
+Zebra duiker
+Pony
+Liger
+Tigon
+Zorse
+Zonkey
+Wolfdog
+Coydog
+Beefalo
+Cama
+Mammoth | woolly mammoth
+Sabertooth cat | saber-toothed cat | smilodon
 
 [Rare]
 Orangutan
 Baboon
 Lemur
-Sloth
+Sloth | two-toed sloth
 Armadillo
 Anteater
 Porcupine
 Hedgehog
 Opossum | possum
 Hamster
-Guinea pig
+Guinea pig | cavy
 Gerbil
 Chipmunk
 Ferret
@@ -359,7 +611,7 @@ Badger
 Wolverine
 Mongoose
 Meerkat
-Hyena
+Hyena | spotted hyena | laughing hyena
 Jackal
 Coyote
 Lynx
@@ -378,10 +630,10 @@ Narwhal
 Orca | killer whale
 Llama
 Alpaca
-Bison | buffalo
+Bison | buffalo | american buffalo
 Yak
 Ox
-Donkey
+Donkey | jack | jenny
 Mule
 Reindeer | caribou
 Elk
@@ -410,15 +662,15 @@ Monkey
 Giraffe
 Zebra
 Kangaroo
-Pig
-Sheep
-Goat
+Pig | piglet | sow
+Sheep | ram | ewe | lamb
+Goat | billy goat | nanny goat | kid goat
 Rabbit | bunny
 Mouse
 Rat
-Wolf
+Wolf | gray wolf | timber wolf
 Fox
-Deer
+Deer | buck | doe | fawn | stag
 Dolphin
 Gorilla
 Chimpanzee | chimp
@@ -440,15 +692,17 @@ Otter
 Whale
 Bat
 Platypus
+Kitten
+Puppy
 
 [Plankton]
 Dog
 Cat
-Human | person | people
+Human | person | people | human being | homo sapiens
 Elephant
 Lion
-Horse
-Cow
+Horse | stallion | mare | foal | colt
+Cow | cattle | bull | calf | heifer | steer
 Bear
 
 [Not accepted]
@@ -460,6 +714,14 @@ Snake
 Chicken
 Penguin
 Dinosaur
+Bird
+Turtle
+Alligator
+Crocodile
+Octopus
+Jellyfish
+Spider
+Ant
 
 # QUESTION
 id: q0053
@@ -641,7 +903,217 @@ Stroke
 Bow seat
 Skip
 Lead
-Vice-skip
+Vice-skip | vice | third
+Interior lineman
+Center snapper
+Slotback
+Split end
+Running quarterback
+Backup quarterback
+Third-string quarterback
+Scout team
+Placekicker
+Kickoff specialist
+Return specialist
+Special teamer
+Hybrid linebacker
+Money backer
+Inside linebacker
+Weakside linebacker
+Strongside linebacker
+Pass rusher
+Rush end
+Defensive back
+Star safety
+Box safety
+Utility infielder
+Infielder
+Corner infielder
+Middle infielder
+Backstop
+Number one starter
+Spot starter
+Long man
+Lefty specialist | loogy
+Middle reliever
+Fireman
+Ninth-inning man
+Leadoff man
+Two-hole hitter
+Number three hitter
+Bench coach
+Pitching coach
+Hitting coach
+Base coach
+Third base coach
+First base coach
+Manager
+Head coach
+Assistant coach
+Offensive coordinator
+Defensive coordinator
+Special teams coordinator
+General manager
+Umpire
+Referee
+Linesman
+Line judge
+Back judge
+Side judge
+Field judge
+Official
+Scorekeeper
+Timekeeper
+Small ball center
+Stretch big
+Rim protector
+3-and-D wing
+Floor general
+Point center
+Big man
+Post player
+Lead guard
+Backup point guard
+Ball handler
+Shooter
+Sharpshooter
+Scorer
+Defensive stopper
+Sweeper keeper
+Centre-half
+Holding midfielder
+Central midfielder
+Wide midfielder
+Left midfielder
+Right midfielder
+Deep-lying playmaker
+Mezzala
+Shadow striker
+Second striker
+Centre forward
+Inside forward
+Outside forward
+Wide forward
+Super-sub
+Penalty taker
+Set-piece specialist
+Defenceman
+Blueliner
+Two-way forward
+Sniper
+Grinder
+Pest
+Checking line forward
+Backup goalie
+Starting goalie
+Alternate captain
+Utility back
+Back row
+Front row
+Second row
+Loose forward
+Tight five
+Five-eighth
+Stand-off
+Fullback rugby
+Inside back
+Outside back
+Dummy-half
+Lock forward
+Second rower
+Interchange
+Wicket-keeper batsman
+Opening bowler
+Fast bowler
+Spinner
+Leg spinner
+Off spinner
+Seamer
+Swing bowler
+Middle-order batsman
+Tail-ender
+Slip fielder
+Gully fielder
+Point fielder
+Short leg
+Silly mid-on
+Silly mid-off
+Long leg
+Deep midwicket
+Midwicket
+Extra cover
+Cover
+Deep cover
+Middle hitter
+Serving specialist
+Attacker
+Midfielder lacrosse
+Long pole
+Short-stick defensive midfielder | ssdm
+Face-off man
+Middie
+Circle runner
+Line player
+Driver water polo
+Hole set
+Utility
+Wing player
+Lead jammer
+Seeker
+Chaser
+Beater
+Handler ultimate
+Cutter
+Ruckman | ruck
+Ruck rover
+Full-forward
+Centre half-forward
+Half-forward flank
+Forward pocket
+Full-back flank
+Back pocket
+Centre half-back
+Half-back flank
+Key forward
+Key defender
+Tagger
+Tall forward
+Interchange player
+Hurler
+Corner forward
+Half forward
+Midfield
+Bow
+Stern
+Three seat
+Seven seat
+Engine room
+Lead curler
+Second curler
+Driver
+Navigator
+Co-driver
+Pit crew
+Domestique
+Sprinter
+Climber
+Team leader
+Lead-out man
+Rouleur
+Puncheur
+Water carrier
+Anchor leg
+Leadoff leg
+Tagging partner
+Doubles partner
+Short fielder
+Designated player
+Flex
+Courtesy runner
+Utility man
+Super utility
+Role player
+Reserve
 
 [Rare]
 Fullback
@@ -681,13 +1153,13 @@ Number 10
 Setter
 Outside hitter
 Middle blocker
-Opposite hitter | opposite
+Opposite hitter | opposite | right side hitter
 Left wing
 Right wing
 Enforcer
 Goon
 Utility player
-Bench player
+Bench player | benchwarmer | sub | substitute
 Rookie
 Prop
 Hooker
@@ -705,12 +1177,12 @@ Fielder
 All-rounder
 Opening batsman | opener
 Slip
-Point
+Point | point water polo
 Goal attack
 Goal shooter
-Goal defence
+Goal defence | goal defense
 Wing attack
-Wing defence
+Wing defence | wing defense
 Centre court
 
 [Schooler]
@@ -720,7 +1192,7 @@ Tight end
 Linebacker
 Kicker
 Punter
-Defensive end
+Defensive end | edge
 Cornerback | corner
 Safety
 Offensive lineman | lineman
@@ -746,10 +1218,15 @@ Captain
 Twelfth man | 12th man
 Sixth man
 Designated hitter | dh
+Mascot
+Cheerleader
+Water boy
+Ball boy
+Owner
 
 [Plankton]
 Quarterback | qb
-Goalie | goalkeeper | keeper | goaltender
+Goalie | goalkeeper | keeper | goaltender | netminder
 Pitcher
 Catcher
 Point guard
@@ -758,12 +1235,13 @@ Striker
 
 [Not accepted]
 Coach
-Referee
-Umpire
 Fan
-Cheerleader
-Owner
-General manager
+Spectator
+Commentator
+Announcer
+Reporter
+Coach's wife
+Water bottle
 
 # QUESTION
 id: q0055
@@ -974,6 +1452,115 @@ Queenie Goldstein
 Tina Goldstein
 Jacob Kowalski
 Credence Barebone
+Abraxas Malfoy
+Albert Runcorn
+Alicia Spinnet
+Ambrose Swott
+Andrew Kirke
+Arnold Peasegood
+Arsenius Jigger
+Augustus Pye
+Barnabas the Barmy
+Bathsheda Babbling
+Beedle the Bard
+Benjy Fenwick
+Bob Ogden
+Bogrod
+Broderick Bode
+Caractacus Burke
+Cassius Warrington
+Cedrella Black
+Circe
+Corban Yaxley
+Cuthbert Binns
+Dawlish
+Demelza Robins
+Dilys Derwent
+Dorcas Meadowes
+Eileen Prince
+Elfric the Eager
+Eloise Midgen
+Emeric the Evil
+Euan Abercrombie
+Everard
+Fabian Prewett
+Gideon Prewett
+Fang
+Fridwulfa
+Gilbert Wimple
+Gornuk
+Graham Montague
+Gregorovitch
+Griselda Marchbanks
+Herbert Chorley
+Irma Pince | madam pince
+Ivanova
+Jimmy Peakes
+Jocunda Sykes
+Kennilworthy Whisp
+Leanne
+Madam Puddifoot
+Madam Rosmerta | rosmerta
+Magorian
+Malcolm Baddock
+Marcus Belby
+Mary Cattermole
+Reginald Cattermole
+Mary Macdonald
+Mrs. Cole
+Muriel
+Natalie McDonald
+Norberta
+Olive Hornby
+Orla Quirke
+Penelope Clearwater
+Piers Polkiss
+Professor Grubbly-Plank | grubbly-plank
+Ragnok
+Roger Davies
+Ronan
+Sanguini
+Selwyn
+Silvanus Kettleburn
+Stubby Boardman
+Terence Higgs
+Tom Riddle Sr.
+Tom the barman
+Travers
+Uric the Oddball
+Vablatsky
+Vector | septima vector
+Wilhelmina Grubbly-Plank
+Willy Widdershins
+Zonko
+Mykew Gregorovitch
+Aurelius Dumbledore
+Theseus Scamander
+Lally Hicks
+Eulalie Hicks
+Yusuf Kama
+Gunnar Grimmson
+Seraphina Picquery
+Percival Graves
+Mary Lou Barebone
+Modesty Barebone
+Chastity Barebone
+Gnarlack
+Pickett
+Vogel
+Anton Vogel
+Liu Tao
+Vicência Santos
+Henrietta Fischer
+Delphini
+Bertie Bott
+Mopsus
+Morgana
+Merlin
+Paracelsus
+Bowman Wright
+Dunbar Oglethorpe
+The Weasley twins
 
 [Rare]
 Argus Filch | filch
@@ -987,7 +1574,7 @@ Rolanda Hooch | madam hooch
 Poppy Pomfrey | madam pomfrey
 Cornelius Fudge | fudge
 Kingsley Shacklebolt | kingsley
-Barty Crouch | barty crouch jr | crouch
+Barty Crouch | barty crouch jr | crouch | barty crouch sr | barty crouch junior
 Igor Karkaroff | karkaroff
 Olympe Maxime | madame maxime
 Ollivander | garrick ollivander
@@ -1076,7 +1663,7 @@ Buckbeak
 Crookshanks
 Nagini
 Fluffy
-Lily Potter
+Lily Potter | lily evans
 James Potter
 
 [Too Clever]
@@ -1085,11 +1672,11 @@ Dobby
 Moaning Myrtle | myrtle
 
 [Plankton]
-Harry Potter | harry
+Harry Potter | harry | the boy who lived
 Hermione Granger | hermione
-Ron Weasley | ron
-Albus Dumbledore | dumbledore
-Lord Voldemort | voldemort | tom riddle | he who must not be named
+Ron Weasley | ron | ronald weasley
+Albus Dumbledore | dumbledore | albus
+Lord Voldemort | voldemort | tom riddle | he who must not be named | you-know-who
 Severus Snape | snape
 Rubeus Hagrid | hagrid
 Draco Malfoy | draco | malfoy
@@ -1097,9 +1684,17 @@ Draco Malfoy | draco | malfoy
 [Not accepted]
 Gandalf
 Frodo
-Merlin
 Luke Skywalker
 Percy Jackson
+Merlin wizard
+Katniss
+Daniel Radcliffe
+Emma Watson
+Rupert Grint
+J.K. Rowling
+Dementor
+Hippogriff
+Basilisk
 
 # QUESTION
 id: q0057
@@ -1309,6 +1904,305 @@ Wulfenite
 Vanadinite
 Crocoite
 Dioptase
+Anorthosite
+Aplite
+Basanite
+Blueschist
+Boninite
+Carbonatite
+Charnockite
+Dacite
+Diabase | dolerite
+Dunite
+Felsite
+Granodiorite
+Granulite
+Greenschist
+Greenstone
+Harzburgite
+Hornblendite
+Ijolite
+Jadeitite
+Lamprophyre
+Latite
+Lherzolite
+Monzonite
+Mylonite
+Nepheline syenite
+Pantellerite
+Phonolite
+Picrite
+Pyroxenite
+Quartz monzonite
+Serpentinite
+Skarn
+Syenite
+Tachylyte
+Tephrite
+Tonalite
+Trachyte
+Troctolite
+Websterite
+Whiteschist
+Agglomerate
+Volcanic ash
+Volcanic bomb
+Lapilli
+Reticulite
+Pele's hair
+Pele's tears
+Tektite
+Fulgurite
+Moldavite
+Impactite
+Suevite
+Shocked quartz
+Loess
+Laterite
+Caliche
+Duricrust
+Flagstone
+Bluestone
+Brownstone
+Fieldstone
+Cobblestone
+Gritstone
+Millstone grit
+Greensand
+Glauconite
+Phosphorite
+Diatomite
+Radiolarite
+Jaspilite
+Novaculite
+Lydite
+Chalcedony
+Opal
+Septarian nodule
+Concretion
+Stalactite
+Stalagmite
+Flowstone
+Dripstone
+Tufa
+Speleothem
+Sylvite
+Carnallite
+Kainite
+Polyhalite
+Trona
+Natron
+Nitratine
+Ulexite
+Colemanite
+Kernite
+Gaylussite
+Epsomite
+Mirabilite
+Thenardite
+Glauberite
+Alum
+Alunite
+Jarosite
+Goethite
+Limonite
+Lepidocrocite
+Pyrolusite
+Psilomelane
+Manganite
+Franklinite
+Willemite
+Zincite
+Cerussite
+Anglesite
+Pyromorphite
+Mimetite
+Descloizite
+Hydrozincite
+Aurichalcite
+Rosasite
+Chrysocolla
+Atacamite
+Brochantite
+Linarite
+Tenorite
+Native copper
+Native silver
+Native gold
+Native sulfur
+Native bismuth
+Bismuthinite
+Acanthite
+Argentite
+Proustite
+Pyrargyrite
+Tetrahedrite
+Tennantite
+Enargite
+Cobaltite
+Erythrite
+Annabergite
+Nickeline
+Millerite
+Garnierite
+Pyrrhotite
+Marcasite
+Troilite
+Calomel
+Platinum nugget
+Sperrylite
+Osmiridium
+Iridosmine
+Columbite
+Tantalite
+Coltan
+Pyrochlore
+Euxenite
+Samarskite
+Xenotime
+Bastnasite
+Allanite
+Thorite
+Thorianite
+Autunite
+Torbernite
+Uranophane
+Coffinite
+Brannerite
+Baddeleyite
+Perovskite
+Titanite
+Anatase
+Brookite
+Spinel
+Hercynite
+Gahnite
+Chrysoberyl
+Taaffeite
+Emery
+Diaspore
+Gibbsite
+Boehmite
+Brucite
+Periclase
+Magnesite
+Ankerite
+Witherite
+Strontianite
+Vaterite
+Desert rose
+Satin spar
+Alabaster
+Baryte
+Fluorspar
+Blue John
+Cryolite
+Variscite
+Wavellite
+Lazulite
+Vivianite
+Amblygonite
+Triphylite
+Fayalite
+Pyrope
+Grossular
+Andradite
+Uvarovite
+Spessartine
+Chloritoid
+Datolite
+Clinozoisite
+Zoisite
+Tanzanite
+Axinite
+Aquamarine
+Morganite
+Heliodor
+Goshenite
+Elbaite
+Dravite
+Benitoite
+Augite
+Diopside
+Enstatite
+Hypersthene
+Jadeite
+Aegirine
+Wollastonite
+Pectolite
+Larimar
+Actinolite
+Tremolite
+Nephrite
+Glaucophane
+Riebeckite
+Crocidolite
+Anthophyllite
+Phlogopite
+Fuchsite
+Sericite
+Pyrophyllite
+Antigorite
+Lizardite
+Illite
+Montmorillonite
+Bentonite
+Smectite
+Fuller's earth
+Albite
+Anorthite
+Oligoclase
+Andesine
+Bytownite
+Microcline
+Amazonite
+Sanidine
+Sunstone
+Leucite
+Nepheline
+Hauyne
+Nosean
+Cancrinite
+Scapolite
+Natrolite
+Stilbite
+Heulandite
+Chabazite
+Analcime
+Apophyllite
+Rock crystal
+Smoky quartz
+Rose quartz
+Milky quartz
+Tiger's eye
+Aventurine
+Carnelian
+Sard
+Tridymite
+Cristobalite
+Coesite
+Stishovite
+Lechatelierite
+Moissanite
+Lonsdaleite
+Peat
+Oil shale
+Tar sand | oil sand
+Asphalt
+Copal
+Petoskey stone
+Norite
+Forsterite
+Iceland spar
+Selenite
+Schorl
+Kunzite
+Bloodstone
+Pyroxene
+Amphibole
+Sand
+Boulder
+Bedrock
 
 [Rare]
 Gneiss
@@ -1352,7 +2246,7 @@ Lapis lazuli | lapis
 Moonstone
 Olivine
 Hornblende
-Kaolinite | kaolin
+Kaolinite | kaolin | china clay
 Borax
 Lignite
 Anthracite
@@ -1392,6 +2286,12 @@ Meteorite
 Petrified wood
 Diamond
 Rock salt | salt | halite
+Fossil
+Ammonite
+Brick
+Concrete
+Amber
+Pearl
 
 [Plankton]
 Granite
@@ -1403,13 +2303,12 @@ Gold
 
 [Not accepted]
 Rock and roll
-Pebble
-Boulder
-Sand
 Dirt
-Concrete
-Brick
-Cement
+The Rock
+Pop Rocks
+Rock candy
+Rocky Balboa
+Rock paper scissors
 
 # QUESTION
 id: q0059
