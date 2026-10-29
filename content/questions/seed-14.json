@@ -5925,10 +5925,139 @@
         "tier": 60
       },
       {
+        "text": "Lighting director",
+        "tier": 60
+      },
+      {
+        "text": "Set builder",
+        "tier": 60
+      },
+      {
+        "text": "Props person",
+        "tier": 60
+      },
+      {
+        "text": "Costumer",
+        "tier": 60
+      },
+      {
+        "text": "Wardrobe assistant",
+        "tier": 60
+      },
+      {
+        "text": "Hair and makeup",
+        "tier": 60
+      },
+      {
+        "text": "Special effects makeup",
+        "tier": 60
+      },
+      {
+        "text": "Prosthetics artist",
+        "tier": 60
+      },
+      {
+        "text": "Photo double",
+        "tier": 60
+      },
+      {
+        "text": "Voice-over artist",
+        "tier": 60
+      },
+      {
+        "text": "Studio head",
+        "tier": 60
+      },
+      {
+        "text": "Distributor",
+        "tier": 60
+      },
+      {
+        "text": "Projectionist",
+        "tier": 60
+      },
+      {
+        "text": "Director's assistant",
+        "tier": 60
+      },
+      {
+        "text": "Associate producer",
+        "tier": 60
+      },
+      {
+        "text": "Co-producer",
+        "tier": 60
+      },
+      {
+        "text": "Production manager",
+        "tier": 60
+      },
+      {
+        "text": "Production accountant",
+        "tier": 60
+      },
+      {
+        "text": "Location assistant",
+        "tier": 60
+      },
+      {
+        "text": "Second assistant director",
+        "tier": 60
+      },
+      {
+        "text": "First assistant director",
+        "tier": 60
+      },
+      {
+        "text": "Second assistant camera",
+        "tier": 60
+      },
+      {
+        "text": "First assistant camera",
+        "tier": 60
+      },
+      {
+        "text": "Camera loader",
+        "tier": 60
+      },
+      {
+        "text": "Horse wrangler",
+        "tier": 60
+      },
+      {
+        "text": "Stunt driver",
+        "tier": 60
+      },
+      {
+        "text": "Precision driver",
+        "tier": 60
+      },
+      {
+        "text": "CGI artist",
+        "tier": 60
+      },
+      {
+        "text": "3D modeler",
+        "tier": 60
+      },
+      {
+        "text": "Motion capture performer",
+        "tier": 60
+      },
+      {
+        "text": "Sound editor",
+        "tier": 60
+      },
+      {
+        "text": "Sound recordist",
+        "tier": 60
+      },
+      {
         "text": "Cinematographer",
         "aliases": [
           "director of photography",
-          "dp"
+          "dp",
+          "dop"
         ],
         "tier": 30
       },
@@ -5941,6 +6070,9 @@
       },
       {
         "text": "Makeup artist",
+        "aliases": [
+          "makeup"
+        ],
         "tier": 30
       },
       {
@@ -6099,7 +6231,8 @@
       {
         "text": "Clapper loader",
         "aliases": [
-          "clapper"
+          "clapper",
+          "slate operator"
         ],
         "tier": 30
       },
@@ -6319,7 +6452,8 @@
       {
         "text": "Animal trainer",
         "aliases": [
-          "wrangler"
+          "wrangler",
+          "animal handler"
         ],
         "tier": 15
       },
@@ -6341,7 +6475,8 @@
       {
         "text": "Actor",
         "aliases": [
-          "actress"
+          "actress",
+          "lead actor"
         ],
         "tier": 10
       },
@@ -6359,7 +6494,8 @@
       {
         "text": "Writer",
         "aliases": [
-          "screenwriter"
+          "screenwriter",
+          "scriptwriter"
         ],
         "tier": 10
       },
@@ -6367,14 +6503,16 @@
         "text": "Stunt double",
         "aliases": [
           "stuntman",
-          "stunt performer"
+          "stunt performer",
+          "stuntwoman"
         ],
         "tier": 10
       },
       {
         "text": "Extra",
         "aliases": [
-          "background actor"
+          "background actor",
+          "background extra"
         ],
         "tier": 10
       }
@@ -6855,9 +6993,151 @@
         "tier": 60
       },
       {
+        "text": "Aleve",
+        "tier": 60
+      },
+      {
+        "text": "Naproxen",
+        "tier": 60
+      },
+      {
+        "text": "Wrist brace",
+        "tier": 60
+      },
+      {
+        "text": "Ankle brace",
+        "tier": 60
+      },
+      {
+        "text": "Knee brace",
+        "tier": 60
+      },
+      {
+        "text": "Kinesiology tape",
+        "tier": 60
+      },
+      {
+        "text": "Athletic tape",
+        "tier": 60
+      },
+      {
+        "text": "Sports tape",
+        "tier": 60
+      },
+      {
+        "text": "Antiseptic cream",
+        "aliases": [
+          "antiseptic"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Allergy medicine",
+        "tier": 60
+      },
+      {
+        "text": "Sunscreen",
+        "tier": 60
+      },
+      {
+        "text": "Insect repellent",
+        "aliases": [
+          "bug spray"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Flashlight",
+        "aliases": [
+          "torch"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Whistle",
+        "tier": 60
+      },
+      {
+        "text": "Wet wipes",
+        "tier": 60
+      },
+      {
+        "text": "Cotton wool",
+        "tier": 60
+      },
+      {
+        "text": "Excedrin",
+        "tier": 60
+      },
+      {
+        "text": "Cough syrup",
+        "tier": 60
+      },
+      {
+        "text": "Throat lozenges",
+        "tier": 60
+      },
+      {
+        "text": "Laxative",
+        "tier": 60
+      },
+      {
+        "text": "Ear drops",
+        "tier": 60
+      },
+      {
+        "text": "Nasal spray",
+        "tier": 60
+      },
+      {
+        "text": "Goggles",
+        "tier": 60
+      },
+      {
+        "text": "Magnifying glass",
+        "tier": 60
+      },
+      {
+        "text": "Bandage scissors",
+        "tier": 60
+      },
+      {
+        "text": "Finger cots",
+        "tier": 60
+      },
+      {
+        "text": "Water purification tablets",
+        "tier": 60
+      },
+      {
+        "text": "Burn spray",
+        "tier": 60
+      },
+      {
+        "text": "Arm sling",
+        "tier": 60
+      },
+      {
+        "text": "Lip balm",
+        "tier": 60
+      },
+      {
+        "text": "Tissues",
+        "tier": 60
+      },
+      {
+        "text": "Pocket knife",
+        "tier": 60
+      },
+      {
+        "text": "Paper tape",
+        "tier": 60
+      },
+      {
         "text": "Neosporin",
         "aliases": [
-          "antibiotic ointment"
+          "antibiotic ointment",
+          "triple antibiotic ointment"
         ],
         "tier": 30
       },
@@ -6916,7 +7196,8 @@
       {
         "text": "Tylenol",
         "aliases": [
-          "acetaminophen"
+          "acetaminophen",
+          "paracetamol"
         ],
         "tier": 30
       },
@@ -6942,7 +7223,8 @@
       {
         "text": "Elastic bandage",
         "aliases": [
-          "ace bandage"
+          "ace bandage",
+          "crepe bandage"
         ],
         "tier": 30
       },
@@ -6988,7 +7270,8 @@
       {
         "text": "Antacid",
         "aliases": [
-          "tums"
+          "tums",
+          "rolaids"
         ],
         "tier": 30
       },
@@ -7014,7 +7297,8 @@
       {
         "text": "Emergency blanket",
         "aliases": [
-          "space blanket"
+          "space blanket",
+          "mylar blanket"
         ],
         "tier": 30
       },
@@ -7051,7 +7335,8 @@
       {
         "text": "EpiPen",
         "aliases": [
-          "epinephrine"
+          "epinephrine",
+          "epinephrine auto-injector"
         ],
         "tier": 15
       },
@@ -7072,25 +7357,35 @@
           "bandaid",
           "band aid",
           "bandages",
-          "bandage"
+          "bandage",
+          "plaster",
+          "adhesive bandage"
         ],
         "tier": 10
       },
       {
         "text": "Gauze",
+        "aliases": [
+          "sterile gauze",
+          "gauze roll"
+        ],
         "tier": 10
       },
       {
         "text": "Medical tape",
         "aliases": [
-          "tape"
+          "tape",
+          "surgical tape",
+          "adhesive tape"
         ],
         "tier": 10
       },
       {
         "text": "Antiseptic wipes",
         "aliases": [
-          "alcohol wipes"
+          "alcohol wipes",
+          "alcohol pads",
+          "alcohol prep pads"
         ],
         "tier": 10
       },
@@ -7105,7 +7400,8 @@
       {
         "text": "Gloves",
         "aliases": [
-          "latex gloves"
+          "latex gloves",
+          "disposable gloves"
         ],
         "tier": 10
       }

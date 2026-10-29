@@ -1475,11 +1475,43 @@ Temp music editor
 Copyist
 Music contractor
 Choir master
+Lighting director
+Set builder
+Props person
+Costumer
+Wardrobe assistant
+Hair and makeup
+Special effects makeup
+Prosthetics artist
+Photo double
+Voice-over artist
+Studio head
+Distributor
+Projectionist
+Director's assistant
+Associate producer
+Co-producer
+Production manager
+Production accountant
+Location assistant
+Second assistant director
+First assistant director
+Second assistant camera
+First assistant camera
+Camera loader
+Horse wrangler
+Stunt driver
+Precision driver
+CGI artist
+3D modeler
+Motion capture performer
+Sound editor
+Sound recordist
 
 [Schooler]
-Cinematographer | director of photography | dp
+Cinematographer | director of photography | dp | dop
 Editor | film editor
-Makeup artist
+Makeup artist | makeup
 Hair stylist
 Costume designer
 Sound engineer | sound mixer
@@ -1513,7 +1545,7 @@ Showrunner
 Studio executive
 Agent
 Publicist
-Clapper loader | clapper
+Clapper loader | clapper | slate operator
 Focus puller
 Storyboard artist
 Concept artist
@@ -1567,18 +1599,18 @@ Subtitler
 Dubbing artist
 
 [Too Clever]
-Animal trainer | wrangler
+Animal trainer | wrangler | animal handler
 Stand-in
 Craft services | craft service
 
 [Plankton]
 Director
-Actor | actress
+Actor | actress | lead actor
 Producer
 Camera operator | cameraman
-Writer | screenwriter
-Stunt double | stuntman | stunt performer
-Extra | background actor
+Writer | screenwriter | scriptwriter
+Stunt double | stuntman | stunt performer | stuntwoman
+Extra | background actor | background extra
 
 [Not accepted]
 Audience
@@ -1705,9 +1737,42 @@ Dental kit
 Temporary filling
 Clove oil
 Orajel
+Aleve
+Naproxen
+Wrist brace
+Ankle brace
+Knee brace
+Kinesiology tape
+Athletic tape
+Sports tape
+Antiseptic cream | antiseptic
+Allergy medicine
+Sunscreen
+Insect repellent | bug spray
+Flashlight | torch
+Whistle
+Wet wipes
+Cotton wool
+Excedrin
+Cough syrup
+Throat lozenges
+Laxative
+Ear drops
+Nasal spray
+Goggles
+Magnifying glass
+Bandage scissors
+Finger cots
+Water purification tablets
+Burn spray
+Arm sling
+Lip balm
+Tissues
+Pocket knife
+Paper tape
 
 [Schooler]
-Neosporin | antibiotic ointment
+Neosporin | antibiotic ointment | triple antibiotic ointment
 Hydrogen peroxide | peroxide
 Rubbing alcohol | alcohol
 Cotton balls
@@ -1717,12 +1782,12 @@ Heat pack
 Thermometer
 Aspirin
 Ibuprofen | advil | motrin
-Tylenol | acetaminophen
+Tylenol | acetaminophen | paracetamol
 Benadryl | antihistamine
 Hydrocortisone cream
 Burn cream
 Aloe vera
-Elastic bandage | ace bandage
+Elastic bandage | ace bandage | crepe bandage
 Triangular bandage | sling
 Splint
 Gauze pads
@@ -1732,12 +1797,12 @@ Eye drops
 Eye wash
 Instant cold pack
 Calamine lotion
-Antacid | tums
+Antacid | tums | rolaids
 Cough drops
 Hand sanitizer
 CPR mask | face shield
 Face mask
-Emergency blanket | space blanket
+Emergency blanket | space blanket | mylar blanket
 Inhaler
 First aid manual | first aid guide
 Antibacterial wipes
@@ -1746,18 +1811,18 @@ Saline
 Pain reliever | painkillers
 
 [Too Clever]
-EpiPen | epinephrine
+EpiPen | epinephrine | epinephrine auto-injector
 AED | defibrillator
 Duct tape
 
 [Plankton]
-Band-Aid | bandaid | band aid | bandages | bandage
-Gauze
-Medical tape | tape
-Antiseptic wipes | alcohol wipes
+Band-Aid | bandaid | band aid | bandages | bandage | plaster | adhesive bandage
+Gauze | sterile gauze | gauze roll
+Medical tape | tape | surgical tape | adhesive tape
+Antiseptic wipes | alcohol wipes | alcohol pads | alcohol prep pads
 Scissors
 Tweezers
-Gloves | latex gloves
+Gloves | latex gloves | disposable gloves
 
 [Not accepted]
 Food
