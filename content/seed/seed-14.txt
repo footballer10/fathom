@@ -1916,7 +1916,7 @@ Numbness
 Tingling
 Pins and needles
 Stiff neck
-Sensitivity to light
+Sensitivity to light | light sensitivity
 Sinus pressure
 Post-nasal drip
 Swollen lymph nodes
@@ -1925,7 +1925,7 @@ Bad breath
 Coated tongue
 Mouth sores
 Chapped lips
-Nosebleed
+Nosebleed | bloody nose
 Bloodshot eyes
 Puffy eyes
 Jaundice
@@ -1975,22 +1975,77 @@ Frequent urination
 Painful urination
 Dark urine
 Blood in stool
+Insomnia
+Trouble sleeping
+Trouble breathing
+Difficulty swallowing
+Swollen throat
+Scratchy throat
+Itchy throat
+Itchy eyes
+Pink eye
+Crusty eyes
+Eye discharge
+Ear pain
+Plugged ears
+Muffled hearing
+Hearing loss
+Goosebumps
+Cold sweat
+Motion sickness
+Boils
+Scabs
+Sores
+Cold sores
+Canker sores
+Ulcers
+Bleeding
+Bruising
+Easy bruising
+Hair loss
+Increased thirst
+Excessive thirst
+Loss of balance
+Clumsiness
+Slurred speech
+Memory loss
+Forgetfulness
+Anxiety
+Depression
+Panic attacks
+Drooling
+Hiccups
+Coughing up blood
+Neck pain
+Stiff joints
+Sore muscles
+Chest tightness
+Irregular heartbeat
+High blood pressure
+Low blood pressure
+Weak pulse
+Swollen feet
+Swollen ankles
+Dry eyes
+Seeing spots
+Double vision
+Itchy skin
 
 [Schooler]
-Stuffy nose | congestion | stuffed up
-Nausea | nauseous
-Diarrhea
+Stuffy nose | congestion | stuffed up | nasal congestion | blocked nose | stuffed up nose
+Nausea | nauseous | queasy | queasiness
+Diarrhea | the runs | loose stools
 Fatigue | tired | tiredness | exhaustion
-Body aches | aches
-Stomachache | stomach ache | tummy ache
-Dizziness | dizzy
+Body aches | aches | achiness | aching
+Stomachache | stomach ache | tummy ache | belly ache | upset stomach
+Dizziness | dizzy | lightheaded | woozy
 Sweating | sweats
 Rash
 Itching | itchy
 Swelling
 Shortness of breath
 Wheezing
-Hoarse voice | hoarseness | losing your voice
+Hoarse voice | hoarseness | losing your voice | lost voice | laryngitis
 Loss of appetite
 Earache | ear ache
 Watery eyes
@@ -2008,8 +2063,8 @@ Heartburn
 Sleepiness | drowsiness
 Confusion
 Fainting | passing out
-Blurry vision
-Ringing in ears
+Blurry vision | blurred vision
+Ringing in ears | ringing ears
 Hives
 Blisters
 Phlegm
@@ -2028,14 +2083,14 @@ Mucus | snot | boogers
 Crankiness | cranky
 
 [Plankton]
-Fever
+Fever | high temperature | temperature | feverish
 Cough | coughing
 Sneezing | sneeze
-Runny nose
+Runny nose | sniffling
 Sore throat
-Headache
-Vomiting | throwing up | puking | vomit
-Chills
+Headache | head ache | migraine
+Vomiting | throwing up | puking | vomit | being sick
+Chills | shivers | the shakes
 
 [Not accepted]
 Doctor
@@ -2209,14 +2264,80 @@ Gunship
 Attack helicopter
 Transport helicopter
 Rotorcraft
+Bird
+Bat
+Butterfly
+Dragonfly
+Flying squirrel
+Flying fish
+Pterodactyl
+Dragon
+Superman
+Peter Pan
+Witch on a broomstick | broomstick
+Flying carpet | magic carpet
+Santa's sleigh
+Frisbee
+Boomerang
+Missile
+Cruise missile
+ICBM
+Space capsule
+Space probe
+Lunar lander
+SpaceX Starship
+Sputnik
+Voyager
+Hubble
+James Webb
+Skylab
+Mir
+Tiangong
+Skydiver
+Base jumper
+Sky lantern
+Chinese lantern
+V-22 Osprey
+Boeing 777
+Boeing 757
+Boeing 767
+Airbus A350
+Airbus A330
+Embraer
+Bombardier
+Cessna Citation
+Beechcraft
+Dornier
+Ilyushin
+Tupolev
+Antonov
+Sukhoi
+MiG
+Eurofighter Typhoon
+Rafale
+Hawker Hurricane
+P-51 Mustang
+P-38 Lightning
+B-24 Liberator
+B-25 Mitchell
+Lancaster
+Avro Vulcan
+B-1 Lancer
+B-2 Spirit
+B-21 Raider
+F-117 Nighthawk
+F-4 Phantom
+F-86 Sabre
+P-47 Thunderbolt
+Red Baron's triplane | fokker triplane
 
 [Schooler]
 Jumbo jet | boeing 747 | 747
 Airliner | passenger jet
-Fighter jet
+Fighter jet | fighter plane | fighter
 Bomber
-Space shuttle
-Spaceship | spacecraft
+Space shuttle | shuttle
+Spaceship | spacecraft | rocket ship
 Satellite
 Biplane
 Seaplane | floatplane
@@ -2238,34 +2359,34 @@ Piper Cub
 Boeing 737 | 737
 Airbus A380 | a380
 Ultralight
-Gyrocopter | autogyro
+Gyrocopter | autogyro | gyroplane
 Quadcopter
-Model airplane
+Model airplane | rc plane | remote control plane
 Weather balloon
 
 [Too Clever]
 Balloon
 UFO | flying saucer
-Paper airplane
+Paper airplane | paper plane
 Kite
+Bee
+Arrow
+Bullet
+Firework
+Fly
+Mosquito
+Moth
+Ladybug
 
 [Plankton]
-Airplane | plane | aeroplane
+Airplane | plane | aeroplane | aircraft
 Helicopter | chopper
 Jet
 Hot air balloon
 Rocket
 Blimp
-Drone
+Drone | uav
 Glider
-
-[Not accepted]
-Bird
-Bat
-Butterfly
-Bee
-Superman
-Dragon
 
 # QUESTION
 id: q0140

@@ -7721,6 +7721,9 @@
       },
       {
         "text": "Sensitivity to light",
+        "aliases": [
+          "light sensitivity"
+        ],
         "tier": 60
       },
       {
@@ -7757,6 +7760,9 @@
       },
       {
         "text": "Nosebleed",
+        "aliases": [
+          "bloody nose"
+        ],
         "tier": 60
       },
       {
@@ -7959,22 +7965,251 @@
         "tier": 60
       },
       {
+        "text": "Insomnia",
+        "tier": 60
+      },
+      {
+        "text": "Trouble sleeping",
+        "tier": 60
+      },
+      {
+        "text": "Trouble breathing",
+        "tier": 60
+      },
+      {
+        "text": "Difficulty swallowing",
+        "tier": 60
+      },
+      {
+        "text": "Swollen throat",
+        "tier": 60
+      },
+      {
+        "text": "Scratchy throat",
+        "tier": 60
+      },
+      {
+        "text": "Itchy throat",
+        "tier": 60
+      },
+      {
+        "text": "Itchy eyes",
+        "tier": 60
+      },
+      {
+        "text": "Pink eye",
+        "tier": 60
+      },
+      {
+        "text": "Crusty eyes",
+        "tier": 60
+      },
+      {
+        "text": "Eye discharge",
+        "tier": 60
+      },
+      {
+        "text": "Ear pain",
+        "tier": 60
+      },
+      {
+        "text": "Plugged ears",
+        "tier": 60
+      },
+      {
+        "text": "Muffled hearing",
+        "tier": 60
+      },
+      {
+        "text": "Hearing loss",
+        "tier": 60
+      },
+      {
+        "text": "Goosebumps",
+        "tier": 60
+      },
+      {
+        "text": "Cold sweat",
+        "tier": 60
+      },
+      {
+        "text": "Motion sickness",
+        "tier": 60
+      },
+      {
+        "text": "Boils",
+        "tier": 60
+      },
+      {
+        "text": "Scabs",
+        "tier": 60
+      },
+      {
+        "text": "Sores",
+        "tier": 60
+      },
+      {
+        "text": "Cold sores",
+        "tier": 60
+      },
+      {
+        "text": "Canker sores",
+        "tier": 60
+      },
+      {
+        "text": "Ulcers",
+        "tier": 60
+      },
+      {
+        "text": "Bleeding",
+        "tier": 60
+      },
+      {
+        "text": "Bruising",
+        "tier": 60
+      },
+      {
+        "text": "Easy bruising",
+        "tier": 60
+      },
+      {
+        "text": "Hair loss",
+        "tier": 60
+      },
+      {
+        "text": "Increased thirst",
+        "tier": 60
+      },
+      {
+        "text": "Excessive thirst",
+        "tier": 60
+      },
+      {
+        "text": "Loss of balance",
+        "tier": 60
+      },
+      {
+        "text": "Clumsiness",
+        "tier": 60
+      },
+      {
+        "text": "Slurred speech",
+        "tier": 60
+      },
+      {
+        "text": "Memory loss",
+        "tier": 60
+      },
+      {
+        "text": "Forgetfulness",
+        "tier": 60
+      },
+      {
+        "text": "Anxiety",
+        "tier": 60
+      },
+      {
+        "text": "Depression",
+        "tier": 60
+      },
+      {
+        "text": "Panic attacks",
+        "tier": 60
+      },
+      {
+        "text": "Drooling",
+        "tier": 60
+      },
+      {
+        "text": "Hiccups",
+        "tier": 60
+      },
+      {
+        "text": "Coughing up blood",
+        "tier": 60
+      },
+      {
+        "text": "Neck pain",
+        "tier": 60
+      },
+      {
+        "text": "Stiff joints",
+        "tier": 60
+      },
+      {
+        "text": "Sore muscles",
+        "tier": 60
+      },
+      {
+        "text": "Chest tightness",
+        "tier": 60
+      },
+      {
+        "text": "Irregular heartbeat",
+        "tier": 60
+      },
+      {
+        "text": "High blood pressure",
+        "tier": 60
+      },
+      {
+        "text": "Low blood pressure",
+        "tier": 60
+      },
+      {
+        "text": "Weak pulse",
+        "tier": 60
+      },
+      {
+        "text": "Swollen feet",
+        "tier": 60
+      },
+      {
+        "text": "Swollen ankles",
+        "tier": 60
+      },
+      {
+        "text": "Dry eyes",
+        "tier": 60
+      },
+      {
+        "text": "Seeing spots",
+        "tier": 60
+      },
+      {
+        "text": "Double vision",
+        "tier": 60
+      },
+      {
+        "text": "Itchy skin",
+        "tier": 60
+      },
+      {
         "text": "Stuffy nose",
         "aliases": [
           "congestion",
-          "stuffed up"
+          "stuffed up",
+          "nasal congestion",
+          "blocked nose",
+          "stuffed up nose"
         ],
         "tier": 30
       },
       {
         "text": "Nausea",
         "aliases": [
-          "nauseous"
+          "nauseous",
+          "queasy",
+          "queasiness"
         ],
         "tier": 30
       },
       {
         "text": "Diarrhea",
+        "aliases": [
+          "the runs",
+          "loose stools"
+        ],
         "tier": 30
       },
       {
@@ -7989,7 +8224,9 @@
       {
         "text": "Body aches",
         "aliases": [
-          "aches"
+          "aches",
+          "achiness",
+          "aching"
         ],
         "tier": 30
       },
@@ -7997,14 +8234,18 @@
         "text": "Stomachache",
         "aliases": [
           "stomach ache",
-          "tummy ache"
+          "tummy ache",
+          "belly ache",
+          "upset stomach"
         ],
         "tier": 30
       },
       {
         "text": "Dizziness",
         "aliases": [
-          "dizzy"
+          "dizzy",
+          "lightheaded",
+          "woozy"
         ],
         "tier": 30
       },
@@ -8042,7 +8283,9 @@
         "text": "Hoarse voice",
         "aliases": [
           "hoarseness",
-          "losing your voice"
+          "losing your voice",
+          "lost voice",
+          "laryngitis"
         ],
         "tier": 30
       },
@@ -8128,10 +8371,16 @@
       },
       {
         "text": "Blurry vision",
+        "aliases": [
+          "blurred vision"
+        ],
         "tier": 30
       },
       {
         "text": "Ringing in ears",
+        "aliases": [
+          "ringing ears"
+        ],
         "tier": 30
       },
       {
@@ -8199,6 +8448,11 @@
       },
       {
         "text": "Fever",
+        "aliases": [
+          "high temperature",
+          "temperature",
+          "feverish"
+        ],
         "tier": 10
       },
       {
@@ -8217,6 +8471,9 @@
       },
       {
         "text": "Runny nose",
+        "aliases": [
+          "sniffling"
+        ],
         "tier": 10
       },
       {
@@ -8225,6 +8482,10 @@
       },
       {
         "text": "Headache",
+        "aliases": [
+          "head ache",
+          "migraine"
+        ],
         "tier": 10
       },
       {
@@ -8232,12 +8493,17 @@
         "aliases": [
           "throwing up",
           "puking",
-          "vomit"
+          "vomit",
+          "being sick"
         ],
         "tier": 10
       },
       {
         "text": "Chills",
+        "aliases": [
+          "shivers",
+          "the shakes"
+        ],
         "tier": 10
       }
     ],
@@ -8931,6 +9197,279 @@
         "tier": 60
       },
       {
+        "text": "Bird",
+        "tier": 60
+      },
+      {
+        "text": "Bat",
+        "tier": 60
+      },
+      {
+        "text": "Butterfly",
+        "tier": 60
+      },
+      {
+        "text": "Dragonfly",
+        "tier": 60
+      },
+      {
+        "text": "Flying squirrel",
+        "tier": 60
+      },
+      {
+        "text": "Flying fish",
+        "tier": 60
+      },
+      {
+        "text": "Pterodactyl",
+        "tier": 60
+      },
+      {
+        "text": "Dragon",
+        "tier": 60
+      },
+      {
+        "text": "Superman",
+        "tier": 60
+      },
+      {
+        "text": "Peter Pan",
+        "tier": 60
+      },
+      {
+        "text": "Witch on a broomstick",
+        "aliases": [
+          "broomstick"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Flying carpet",
+        "aliases": [
+          "magic carpet"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Santa's sleigh",
+        "tier": 60
+      },
+      {
+        "text": "Frisbee",
+        "tier": 60
+      },
+      {
+        "text": "Boomerang",
+        "tier": 60
+      },
+      {
+        "text": "Missile",
+        "tier": 60
+      },
+      {
+        "text": "Cruise missile",
+        "tier": 60
+      },
+      {
+        "text": "ICBM",
+        "tier": 60
+      },
+      {
+        "text": "Space capsule",
+        "tier": 60
+      },
+      {
+        "text": "Space probe",
+        "tier": 60
+      },
+      {
+        "text": "Lunar lander",
+        "tier": 60
+      },
+      {
+        "text": "SpaceX Starship",
+        "tier": 60
+      },
+      {
+        "text": "Sputnik",
+        "tier": 60
+      },
+      {
+        "text": "Voyager",
+        "tier": 60
+      },
+      {
+        "text": "Hubble",
+        "tier": 60
+      },
+      {
+        "text": "James Webb",
+        "tier": 60
+      },
+      {
+        "text": "Skylab",
+        "tier": 60
+      },
+      {
+        "text": "Mir",
+        "tier": 60
+      },
+      {
+        "text": "Tiangong",
+        "tier": 60
+      },
+      {
+        "text": "Skydiver",
+        "tier": 60
+      },
+      {
+        "text": "Base jumper",
+        "tier": 60
+      },
+      {
+        "text": "Sky lantern",
+        "tier": 60
+      },
+      {
+        "text": "Chinese lantern",
+        "tier": 60
+      },
+      {
+        "text": "V-22 Osprey",
+        "tier": 60
+      },
+      {
+        "text": "Boeing 777",
+        "tier": 60
+      },
+      {
+        "text": "Boeing 757",
+        "tier": 60
+      },
+      {
+        "text": "Boeing 767",
+        "tier": 60
+      },
+      {
+        "text": "Airbus A350",
+        "tier": 60
+      },
+      {
+        "text": "Airbus A330",
+        "tier": 60
+      },
+      {
+        "text": "Embraer",
+        "tier": 60
+      },
+      {
+        "text": "Bombardier",
+        "tier": 60
+      },
+      {
+        "text": "Cessna Citation",
+        "tier": 60
+      },
+      {
+        "text": "Beechcraft",
+        "tier": 60
+      },
+      {
+        "text": "Dornier",
+        "tier": 60
+      },
+      {
+        "text": "Ilyushin",
+        "tier": 60
+      },
+      {
+        "text": "Tupolev",
+        "tier": 60
+      },
+      {
+        "text": "Antonov",
+        "tier": 60
+      },
+      {
+        "text": "Sukhoi",
+        "tier": 60
+      },
+      {
+        "text": "MiG",
+        "tier": 60
+      },
+      {
+        "text": "Eurofighter Typhoon",
+        "tier": 60
+      },
+      {
+        "text": "Rafale",
+        "tier": 60
+      },
+      {
+        "text": "Hawker Hurricane",
+        "tier": 60
+      },
+      {
+        "text": "P-51 Mustang",
+        "tier": 60
+      },
+      {
+        "text": "P-38 Lightning",
+        "tier": 60
+      },
+      {
+        "text": "B-24 Liberator",
+        "tier": 60
+      },
+      {
+        "text": "B-25 Mitchell",
+        "tier": 60
+      },
+      {
+        "text": "Lancaster",
+        "tier": 60
+      },
+      {
+        "text": "Avro Vulcan",
+        "tier": 60
+      },
+      {
+        "text": "B-1 Lancer",
+        "tier": 60
+      },
+      {
+        "text": "B-2 Spirit",
+        "tier": 60
+      },
+      {
+        "text": "B-21 Raider",
+        "tier": 60
+      },
+      {
+        "text": "F-117 Nighthawk",
+        "tier": 60
+      },
+      {
+        "text": "F-4 Phantom",
+        "tier": 60
+      },
+      {
+        "text": "F-86 Sabre",
+        "tier": 60
+      },
+      {
+        "text": "P-47 Thunderbolt",
+        "tier": 60
+      },
+      {
+        "text": "Red Baron's triplane",
+        "aliases": [
+          "fokker triplane"
+        ],
+        "tier": 60
+      },
+      {
         "text": "Jumbo jet",
         "aliases": [
           "boeing 747",
@@ -8947,6 +9486,10 @@
       },
       {
         "text": "Fighter jet",
+        "aliases": [
+          "fighter plane",
+          "fighter"
+        ],
         "tier": 30
       },
       {
@@ -8955,12 +9498,16 @@
       },
       {
         "text": "Space shuttle",
+        "aliases": [
+          "shuttle"
+        ],
         "tier": 30
       },
       {
         "text": "Spaceship",
         "aliases": [
-          "spacecraft"
+          "spacecraft",
+          "rocket ship"
         ],
         "tier": 30
       },
@@ -9063,7 +9610,8 @@
       {
         "text": "Gyrocopter",
         "aliases": [
-          "autogyro"
+          "autogyro",
+          "gyroplane"
         ],
         "tier": 30
       },
@@ -9073,6 +9621,10 @@
       },
       {
         "text": "Model airplane",
+        "aliases": [
+          "rc plane",
+          "remote control plane"
+        ],
         "tier": 30
       },
       {
@@ -9092,6 +9644,9 @@
       },
       {
         "text": "Paper airplane",
+        "aliases": [
+          "paper plane"
+        ],
         "tier": 15
       },
       {
@@ -9099,10 +9654,43 @@
         "tier": 15
       },
       {
+        "text": "Bee",
+        "tier": 15
+      },
+      {
+        "text": "Arrow",
+        "tier": 15
+      },
+      {
+        "text": "Bullet",
+        "tier": 15
+      },
+      {
+        "text": "Firework",
+        "tier": 15
+      },
+      {
+        "text": "Fly",
+        "tier": 15
+      },
+      {
+        "text": "Mosquito",
+        "tier": 15
+      },
+      {
+        "text": "Moth",
+        "tier": 15
+      },
+      {
+        "text": "Ladybug",
+        "tier": 15
+      },
+      {
         "text": "Airplane",
         "aliases": [
           "plane",
-          "aeroplane"
+          "aeroplane",
+          "aircraft"
         ],
         "tier": 10
       },
@@ -9131,6 +9719,9 @@
       },
       {
         "text": "Drone",
+        "aliases": [
+          "uav"
+        ],
         "tier": 10
       },
       {
@@ -9138,14 +9729,7 @@
         "tier": 10
       }
     ],
-    "nearMisses": [
-      "Bird",
-      "Bat",
-      "Butterfly",
-      "Bee",
-      "Superman",
-      "Dragon"
-    ],
+    "nearMisses": [],
     "notes": "Human-made flying machines. Animals don't count."
   },
   {
