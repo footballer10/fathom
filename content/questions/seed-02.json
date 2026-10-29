@@ -7378,10 +7378,6 @@
         "tier": 85
       },
       {
-        "text": "Bird of paradise",
-        "tier": 85
-      },
-      {
         "text": "Tanager",
         "tier": 85
       },
@@ -7491,6 +7487,9 @@
       },
       {
         "text": "Secretary bird",
+        "aliases": [
+          "secretarybird"
+        ],
         "tier": 85
       },
       {
@@ -7551,7 +7550,8 @@
       {
         "text": "Myna",
         "aliases": [
-          "mynah"
+          "mynah",
+          "myna bird"
         ],
         "tier": 85
       },
@@ -7581,6 +7581,2129 @@
       },
       {
         "text": "Canary",
+        "tier": 85
+      },
+      {
+        "text": "Rhea",
+        "tier": 85
+      },
+      {
+        "text": "Moa",
+        "tier": 85
+      },
+      {
+        "text": "Elephant bird",
+        "tier": 85
+      },
+      {
+        "text": "Great auk",
+        "tier": 85
+      },
+      {
+        "text": "Passenger pigeon",
+        "tier": 85
+      },
+      {
+        "text": "Carolina parakeet",
+        "tier": 85
+      },
+      {
+        "text": "Takahe",
+        "tier": 85
+      },
+      {
+        "text": "Weka",
+        "tier": 85
+      },
+      {
+        "text": "Pukeko",
+        "tier": 85
+      },
+      {
+        "text": "Kaka",
+        "tier": 85
+      },
+      {
+        "text": "Kokako",
+        "tier": 85
+      },
+      {
+        "text": "Saddleback",
+        "tier": 85
+      },
+      {
+        "text": "Fantail",
+        "tier": 85
+      },
+      {
+        "text": "Bellbird",
+        "tier": 85
+      },
+      {
+        "text": "Morepork",
+        "tier": 85
+      },
+      {
+        "text": "Shag",
+        "tier": 85
+      },
+      {
+        "text": "Anhinga",
+        "aliases": [
+          "snakebird"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Darter",
+        "tier": 85
+      },
+      {
+        "text": "Bittern",
+        "tier": 85
+      },
+      {
+        "text": "Night heron",
+        "tier": 85
+      },
+      {
+        "text": "Little egret",
+        "tier": 85
+      },
+      {
+        "text": "Cattle egret",
+        "tier": 85
+      },
+      {
+        "text": "Snowy egret",
+        "tier": 85
+      },
+      {
+        "text": "Wood stork",
+        "tier": 85
+      },
+      {
+        "text": "Marabou stork",
+        "tier": 85
+      },
+      {
+        "text": "Jabiru",
+        "tier": 85
+      },
+      {
+        "text": "Hammerkop",
+        "aliases": [
+          "hamerkop"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Whooping crane",
+        "tier": 85
+      },
+      {
+        "text": "Sandhill crane",
+        "tier": 85
+      },
+      {
+        "text": "Crowned crane",
+        "tier": 85
+      },
+      {
+        "text": "Sarus crane",
+        "tier": 85
+      },
+      {
+        "text": "Limpkin",
+        "tier": 85
+      },
+      {
+        "text": "Rail",
+        "tier": 85
+      },
+      {
+        "text": "Coot",
+        "tier": 85
+      },
+      {
+        "text": "Moorhen",
+        "tier": 85
+      },
+      {
+        "text": "Gallinule",
+        "tier": 85
+      },
+      {
+        "text": "Corncrake",
+        "tier": 85
+      },
+      {
+        "text": "Sora",
+        "tier": 85
+      },
+      {
+        "text": "Bustard",
+        "tier": 85
+      },
+      {
+        "text": "Seriema",
+        "tier": 85
+      },
+      {
+        "text": "Sunbittern",
+        "tier": 85
+      },
+      {
+        "text": "Kagu",
+        "tier": 85
+      },
+      {
+        "text": "Trumpeter",
+        "tier": 85
+      },
+      {
+        "text": "Oystercatcher",
+        "tier": 85
+      },
+      {
+        "text": "Avocet",
+        "tier": 85
+      },
+      {
+        "text": "Stilt",
+        "tier": 85
+      },
+      {
+        "text": "Lapwing",
+        "tier": 85
+      },
+      {
+        "text": "Dotterel",
+        "tier": 85
+      },
+      {
+        "text": "Curlew",
+        "tier": 85
+      },
+      {
+        "text": "Whimbrel",
+        "tier": 85
+      },
+      {
+        "text": "Godwit",
+        "tier": 85
+      },
+      {
+        "text": "Dunlin",
+        "tier": 85
+      },
+      {
+        "text": "Knot",
+        "tier": 85
+      },
+      {
+        "text": "Sanderling",
+        "tier": 85
+      },
+      {
+        "text": "Turnstone",
+        "tier": 85
+      },
+      {
+        "text": "Snipe",
+        "tier": 85
+      },
+      {
+        "text": "Woodcock",
+        "tier": 85
+      },
+      {
+        "text": "Phalarope",
+        "tier": 85
+      },
+      {
+        "text": "Jacana",
+        "tier": 85
+      },
+      {
+        "text": "Pratincole",
+        "tier": 85
+      },
+      {
+        "text": "Courser",
+        "tier": 85
+      },
+      {
+        "text": "Skua",
+        "tier": 85
+      },
+      {
+        "text": "Jaeger",
+        "tier": 85
+      },
+      {
+        "text": "Kittiwake",
+        "tier": 85
+      },
+      {
+        "text": "Noddy",
+        "tier": 85
+      },
+      {
+        "text": "Skimmer",
+        "tier": 85
+      },
+      {
+        "text": "Auk",
+        "tier": 85
+      },
+      {
+        "text": "Guillemot",
+        "tier": 85
+      },
+      {
+        "text": "Murre",
+        "tier": 85
+      },
+      {
+        "text": "Razorbill",
+        "tier": 85
+      },
+      {
+        "text": "Auklet",
+        "tier": 85
+      },
+      {
+        "text": "Murrelet",
+        "tier": 85
+      },
+      {
+        "text": "Petrel",
+        "tier": 85
+      },
+      {
+        "text": "Shearwater",
+        "tier": 85
+      },
+      {
+        "text": "Storm petrel",
+        "tier": 85
+      },
+      {
+        "text": "Fulmar",
+        "tier": 85
+      },
+      {
+        "text": "Prion",
+        "tier": 85
+      },
+      {
+        "text": "Tropicbird",
+        "tier": 85
+      },
+      {
+        "text": "Northern gannet",
+        "tier": 85
+      },
+      {
+        "text": "Sooty tern",
+        "tier": 85
+      },
+      {
+        "text": "Arctic tern",
+        "tier": 85
+      },
+      {
+        "text": "Emperor penguin",
+        "tier": 85
+      },
+      {
+        "text": "King penguin",
+        "tier": 85
+      },
+      {
+        "text": "Adelie penguin",
+        "tier": 85
+      },
+      {
+        "text": "Gentoo penguin",
+        "tier": 85
+      },
+      {
+        "text": "Chinstrap penguin",
+        "tier": 85
+      },
+      {
+        "text": "Rockhopper penguin",
+        "tier": 85
+      },
+      {
+        "text": "Macaroni penguin",
+        "tier": 85
+      },
+      {
+        "text": "Little penguin",
+        "aliases": [
+          "fairy penguin",
+          "little blue penguin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Galapagos penguin",
+        "tier": 85
+      },
+      {
+        "text": "Humboldt penguin",
+        "tier": 85
+      },
+      {
+        "text": "African penguin",
+        "tier": 85
+      },
+      {
+        "text": "Yellow-eyed penguin",
+        "tier": 85
+      },
+      {
+        "text": "Hoatzin",
+        "tier": 85
+      },
+      {
+        "text": "Turaco",
+        "tier": 85
+      },
+      {
+        "text": "Cuckoo",
+        "tier": 85
+      },
+      {
+        "text": "Coucal",
+        "tier": 85
+      },
+      {
+        "text": "Ani",
+        "tier": 85
+      },
+      {
+        "text": "Greater roadrunner",
+        "tier": 85
+      },
+      {
+        "text": "Nightjar",
+        "tier": 85
+      },
+      {
+        "text": "Whip-poor-will",
+        "tier": 85
+      },
+      {
+        "text": "Nighthawk",
+        "tier": 85
+      },
+      {
+        "text": "Potoo",
+        "tier": 85
+      },
+      {
+        "text": "Frogmouth",
+        "tier": 85
+      },
+      {
+        "text": "Oilbird",
+        "tier": 85
+      },
+      {
+        "text": "Swift",
+        "tier": 85
+      },
+      {
+        "text": "Chimney swift",
+        "tier": 85
+      },
+      {
+        "text": "Treeswift",
+        "tier": 85
+      },
+      {
+        "text": "Trogon",
+        "tier": 85
+      },
+      {
+        "text": "Quetzal",
+        "aliases": [
+          "resplendent quetzal"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Motmot",
+        "tier": 85
+      },
+      {
+        "text": "Bee-eater",
+        "tier": 85
+      },
+      {
+        "text": "Roller",
+        "tier": 85
+      },
+      {
+        "text": "Ground hornbill",
+        "tier": 85
+      },
+      {
+        "text": "Wood hoopoe",
+        "tier": 85
+      },
+      {
+        "text": "Jacamar",
+        "tier": 85
+      },
+      {
+        "text": "Puffbird",
+        "tier": 85
+      },
+      {
+        "text": "Barbet",
+        "tier": 85
+      },
+      {
+        "text": "Honeyguide",
+        "tier": 85
+      },
+      {
+        "text": "Toucanet",
+        "tier": 85
+      },
+      {
+        "text": "Aracari",
+        "tier": 85
+      },
+      {
+        "text": "Flicker",
+        "tier": 85
+      },
+      {
+        "text": "Sapsucker",
+        "tier": 85
+      },
+      {
+        "text": "Wryneck",
+        "tier": 85
+      },
+      {
+        "text": "Piculet",
+        "tier": 85
+      },
+      {
+        "text": "Pitta",
+        "tier": 85
+      },
+      {
+        "text": "Broadbill",
+        "tier": 85
+      },
+      {
+        "text": "Antbird",
+        "tier": 85
+      },
+      {
+        "text": "Ovenbird",
+        "tier": 85
+      },
+      {
+        "text": "Woodcreeper",
+        "tier": 85
+      },
+      {
+        "text": "Manakin",
+        "tier": 85
+      },
+      {
+        "text": "Cotinga",
+        "tier": 85
+      },
+      {
+        "text": "Cock-of-the-rock",
+        "tier": 85
+      },
+      {
+        "text": "Tyrant flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Kingbird",
+        "tier": 85
+      },
+      {
+        "text": "Phoebe",
+        "tier": 85
+      },
+      {
+        "text": "Pewee",
+        "tier": 85
+      },
+      {
+        "text": "Bowerbird",
+        "tier": 85
+      },
+      {
+        "text": "Fairywren",
+        "aliases": [
+          "fairy wren"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Honeyeater",
+        "tier": 85
+      },
+      {
+        "text": "Pardalote",
+        "tier": 85
+      },
+      {
+        "text": "Thornbill",
+        "tier": 85
+      },
+      {
+        "text": "Shrike",
+        "tier": 85
+      },
+      {
+        "text": "Butcherbird",
+        "tier": 85
+      },
+      {
+        "text": "Currawong",
+        "tier": 85
+      },
+      {
+        "text": "Magpie-lark",
+        "tier": 85
+      },
+      {
+        "text": "Vireo",
+        "tier": 85
+      },
+      {
+        "text": "Drongo",
+        "tier": 85
+      },
+      {
+        "text": "Monarch flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Paradise flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Steller's jay",
+        "tier": 85
+      },
+      {
+        "text": "Scrub jay",
+        "tier": 85
+      },
+      {
+        "text": "Gray jay",
+        "aliases": [
+          "canada jay",
+          "whiskey jack"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nutcracker",
+        "tier": 85
+      },
+      {
+        "text": "Chough",
+        "tier": 85
+      },
+      {
+        "text": "Rook",
+        "tier": 85
+      },
+      {
+        "text": "Jackdaw",
+        "tier": 85
+      },
+      {
+        "text": "Treepie",
+        "tier": 85
+      },
+      {
+        "text": "Waxwing",
+        "aliases": [
+          "cedar waxwing"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Silky-flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Phainopepla",
+        "tier": 85
+      },
+      {
+        "text": "Dipper",
+        "tier": 85
+      },
+      {
+        "text": "Kinglet",
+        "tier": 85
+      },
+      {
+        "text": "Goldcrest",
+        "tier": 85
+      },
+      {
+        "text": "Firecrest",
+        "tier": 85
+      },
+      {
+        "text": "Bushtit",
+        "tier": 85
+      },
+      {
+        "text": "Long-tailed tit",
+        "tier": 85
+      },
+      {
+        "text": "Tit",
+        "tier": 85
+      },
+      {
+        "text": "Great tit",
+        "tier": 85
+      },
+      {
+        "text": "Blue tit",
+        "tier": 85
+      },
+      {
+        "text": "Penduline tit",
+        "tier": 85
+      },
+      {
+        "text": "Verdin",
+        "tier": 85
+      },
+      {
+        "text": "Creeper",
+        "aliases": [
+          "brown creeper"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Treecreeper",
+        "tier": 85
+      },
+      {
+        "text": "Wallcreeper",
+        "tier": 85
+      },
+      {
+        "text": "Gnatcatcher",
+        "tier": 85
+      },
+      {
+        "text": "Babbler",
+        "tier": 85
+      },
+      {
+        "text": "Laughingthrush",
+        "tier": 85
+      },
+      {
+        "text": "White-eye",
+        "tier": 85
+      },
+      {
+        "text": "Bulbul",
+        "tier": 85
+      },
+      {
+        "text": "Martin",
+        "tier": 85
+      },
+      {
+        "text": "Purple martin",
+        "tier": 85
+      },
+      {
+        "text": "Sand martin",
+        "tier": 85
+      },
+      {
+        "text": "House martin",
+        "tier": 85
+      },
+      {
+        "text": "Barn swallow",
+        "tier": 85
+      },
+      {
+        "text": "Horned lark",
+        "tier": 85
+      },
+      {
+        "text": "Pipit",
+        "tier": 85
+      },
+      {
+        "text": "Wagtail",
+        "tier": 85
+      },
+      {
+        "text": "Dunnock",
+        "tier": 85
+      },
+      {
+        "text": "Accentor",
+        "tier": 85
+      },
+      {
+        "text": "Thrush",
+        "tier": 85
+      },
+      {
+        "text": "American robin",
+        "tier": 85
+      },
+      {
+        "text": "European robin",
+        "tier": 85
+      },
+      {
+        "text": "Blackbird",
+        "tier": 85
+      },
+      {
+        "text": "Red-winged blackbird",
+        "tier": 85
+      },
+      {
+        "text": "Song thrush",
+        "tier": 85
+      },
+      {
+        "text": "Mistle thrush",
+        "tier": 85
+      },
+      {
+        "text": "Fieldfare",
+        "tier": 85
+      },
+      {
+        "text": "Redwing",
+        "tier": 85
+      },
+      {
+        "text": "Veery",
+        "tier": 85
+      },
+      {
+        "text": "Hermit thrush",
+        "tier": 85
+      },
+      {
+        "text": "Wood thrush",
+        "tier": 85
+      },
+      {
+        "text": "Bluethroat",
+        "tier": 85
+      },
+      {
+        "text": "Redstart",
+        "tier": 85
+      },
+      {
+        "text": "Stonechat",
+        "tier": 85
+      },
+      {
+        "text": "Whinchat",
+        "tier": 85
+      },
+      {
+        "text": "Wheatear",
+        "tier": 85
+      },
+      {
+        "text": "Chat",
+        "tier": 85
+      },
+      {
+        "text": "Solitaire",
+        "tier": 85
+      },
+      {
+        "text": "Catbird",
+        "tier": 85
+      },
+      {
+        "text": "Thrasher",
+        "tier": 85
+      },
+      {
+        "text": "Brown thrasher",
+        "tier": 85
+      },
+      {
+        "text": "Oxpecker",
+        "tier": 85
+      },
+      {
+        "text": "Sunbird",
+        "tier": 85
+      },
+      {
+        "text": "Spiderhunter",
+        "tier": 85
+      },
+      {
+        "text": "Flowerpecker",
+        "tier": 85
+      },
+      {
+        "text": "Quelea",
+        "tier": 85
+      },
+      {
+        "text": "Widowbird",
+        "tier": 85
+      },
+      {
+        "text": "Bishop bird",
+        "tier": 85
+      },
+      {
+        "text": "Whydah",
+        "tier": 85
+      },
+      {
+        "text": "Indigobird",
+        "tier": 85
+      },
+      {
+        "text": "Waxbill",
+        "tier": 85
+      },
+      {
+        "text": "Munia",
+        "tier": 85
+      },
+      {
+        "text": "Mannikin",
+        "tier": 85
+      },
+      {
+        "text": "Java sparrow",
+        "tier": 85
+      },
+      {
+        "text": "Zebra finch",
+        "tier": 85
+      },
+      {
+        "text": "Gouldian finch",
+        "tier": 85
+      },
+      {
+        "text": "Society finch",
+        "tier": 85
+      },
+      {
+        "text": "House sparrow",
+        "tier": 85
+      },
+      {
+        "text": "Song sparrow",
+        "tier": 85
+      },
+      {
+        "text": "Chipping sparrow",
+        "tier": 85
+      },
+      {
+        "text": "White-throated sparrow",
+        "tier": 85
+      },
+      {
+        "text": "Junco",
+        "tier": 85
+      },
+      {
+        "text": "Towhee",
+        "tier": 85
+      },
+      {
+        "text": "Bunting",
+        "tier": 85
+      },
+      {
+        "text": "Indigo bunting",
+        "tier": 85
+      },
+      {
+        "text": "Painted bunting",
+        "tier": 85
+      },
+      {
+        "text": "Snow bunting",
+        "tier": 85
+      },
+      {
+        "text": "Yellowhammer",
+        "tier": 85
+      },
+      {
+        "text": "Ortolan",
+        "tier": 85
+      },
+      {
+        "text": "Longspur",
+        "tier": 85
+      },
+      {
+        "text": "Grosbeak",
+        "tier": 85
+      },
+      {
+        "text": "Rose-breasted grosbeak",
+        "tier": 85
+      },
+      {
+        "text": "Evening grosbeak",
+        "tier": 85
+      },
+      {
+        "text": "Pine grosbeak",
+        "tier": 85
+      },
+      {
+        "text": "Crossbill",
+        "tier": 85
+      },
+      {
+        "text": "Redpoll",
+        "tier": 85
+      },
+      {
+        "text": "Siskin",
+        "tier": 85
+      },
+      {
+        "text": "Goldfinch",
+        "tier": 85
+      },
+      {
+        "text": "American goldfinch",
+        "tier": 85
+      },
+      {
+        "text": "Greenfinch",
+        "tier": 85
+      },
+      {
+        "text": "Chaffinch",
+        "tier": 85
+      },
+      {
+        "text": "Brambling",
+        "tier": 85
+      },
+      {
+        "text": "Linnet",
+        "tier": 85
+      },
+      {
+        "text": "Bullfinch",
+        "tier": 85
+      },
+      {
+        "text": "Hawfinch",
+        "tier": 85
+      },
+      {
+        "text": "Serin",
+        "tier": 85
+      },
+      {
+        "text": "Rosefinch",
+        "tier": 85
+      },
+      {
+        "text": "House finch",
+        "tier": 85
+      },
+      {
+        "text": "Purple finch",
+        "tier": 85
+      },
+      {
+        "text": "Darwin's finch",
+        "tier": 85
+      },
+      {
+        "text": "Honeycreeper",
+        "tier": 85
+      },
+      {
+        "text": "Hawaiian honeycreeper",
+        "tier": 85
+      },
+      {
+        "text": "Nene",
+        "aliases": [
+          "hawaiian goose"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bobolink",
+        "tier": 85
+      },
+      {
+        "text": "Meadowlark",
+        "tier": 85
+      },
+      {
+        "text": "Cowbird",
+        "tier": 85
+      },
+      {
+        "text": "Bobwhite",
+        "tier": 85
+      },
+      {
+        "text": "Scarlet tanager",
+        "tier": 85
+      },
+      {
+        "text": "Summer tanager",
+        "tier": 85
+      },
+      {
+        "text": "Euphonia",
+        "tier": 85
+      },
+      {
+        "text": "Saltator",
+        "tier": 85
+      },
+      {
+        "text": "Dickcissel",
+        "tier": 85
+      },
+      {
+        "text": "Seedeater",
+        "tier": 85
+      },
+      {
+        "text": "Northern cardinal",
+        "tier": 85
+      },
+      {
+        "text": "Pyrrhuloxia",
+        "tier": 85
+      },
+      {
+        "text": "Yellow warbler",
+        "tier": 85
+      },
+      {
+        "text": "Prothonotary warbler",
+        "tier": 85
+      },
+      {
+        "text": "Blackburnian warbler",
+        "tier": 85
+      },
+      {
+        "text": "Black-and-white warbler",
+        "tier": 85
+      },
+      {
+        "text": "Yellowthroat",
+        "tier": 85
+      },
+      {
+        "text": "Reed warbler",
+        "tier": 85
+      },
+      {
+        "text": "Sedge warbler",
+        "tier": 85
+      },
+      {
+        "text": "Chiffchaff",
+        "tier": 85
+      },
+      {
+        "text": "Willow warbler",
+        "tier": 85
+      },
+      {
+        "text": "Blackcap",
+        "tier": 85
+      },
+      {
+        "text": "Whitethroat",
+        "tier": 85
+      },
+      {
+        "text": "Garden warbler",
+        "tier": 85
+      },
+      {
+        "text": "Cisticola",
+        "tier": 85
+      },
+      {
+        "text": "Tailorbird",
+        "tier": 85
+      },
+      {
+        "text": "Prinia",
+        "tier": 85
+      },
+      {
+        "text": "Kiskadee",
+        "tier": 85
+      },
+      {
+        "text": "Great kiskadee",
+        "tier": 85
+      },
+      {
+        "text": "Scissor-tailed flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Vermilion flycatcher",
+        "tier": 85
+      },
+      {
+        "text": "Kakariki",
+        "tier": 85
+      },
+      {
+        "text": "Rosella",
+        "tier": 85
+      },
+      {
+        "text": "Lorikeet",
+        "tier": 85
+      },
+      {
+        "text": "Rainbow lorikeet",
+        "tier": 85
+      },
+      {
+        "text": "Lory",
+        "tier": 85
+      },
+      {
+        "text": "Galah",
+        "tier": 85
+      },
+      {
+        "text": "Corella",
+        "tier": 85
+      },
+      {
+        "text": "Gang-gang cockatoo",
+        "tier": 85
+      },
+      {
+        "text": "Palm cockatoo",
+        "tier": 85
+      },
+      {
+        "text": "Sulphur-crested cockatoo",
+        "tier": 85
+      },
+      {
+        "text": "Black cockatoo",
+        "tier": 85
+      },
+      {
+        "text": "Night parrot",
+        "tier": 85
+      },
+      {
+        "text": "Ground parrot",
+        "tier": 85
+      },
+      {
+        "text": "Eclectus",
+        "tier": 85
+      },
+      {
+        "text": "African grey",
+        "aliases": [
+          "african grey parrot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Amazon parrot",
+        "tier": 85
+      },
+      {
+        "text": "Conure",
+        "tier": 85
+      },
+      {
+        "text": "Monk parakeet",
+        "tier": 85
+      },
+      {
+        "text": "Quaker parrot",
+        "tier": 85
+      },
+      {
+        "text": "Ring-necked parakeet",
+        "tier": 85
+      },
+      {
+        "text": "Caique",
+        "tier": 85
+      },
+      {
+        "text": "Pionus",
+        "tier": 85
+      },
+      {
+        "text": "Hyacinth macaw",
+        "tier": 85
+      },
+      {
+        "text": "Scarlet macaw",
+        "tier": 85
+      },
+      {
+        "text": "Blue-and-yellow macaw",
+        "tier": 85
+      },
+      {
+        "text": "Spix's macaw",
+        "tier": 85
+      },
+      {
+        "text": "Hawk-eagle",
+        "tier": 85
+      },
+      {
+        "text": "Harpy eagle",
+        "tier": 85
+      },
+      {
+        "text": "Golden eagle",
+        "tier": 85
+      },
+      {
+        "text": "White-tailed eagle",
+        "aliases": [
+          "sea eagle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Steller's sea eagle",
+        "tier": 85
+      },
+      {
+        "text": "Philippine eagle",
+        "tier": 85
+      },
+      {
+        "text": "Martial eagle",
+        "tier": 85
+      },
+      {
+        "text": "Crowned eagle",
+        "tier": 85
+      },
+      {
+        "text": "Bateleur",
+        "tier": 85
+      },
+      {
+        "text": "Fish eagle",
+        "tier": 85
+      },
+      {
+        "text": "Snake eagle",
+        "tier": 85
+      },
+      {
+        "text": "Booted eagle",
+        "tier": 85
+      },
+      {
+        "text": "Short-toed eagle",
+        "tier": 85
+      },
+      {
+        "text": "Wedge-tailed eagle",
+        "tier": 85
+      },
+      {
+        "text": "Red-tailed hawk",
+        "tier": 85
+      },
+      {
+        "text": "Cooper's hawk",
+        "tier": 85
+      },
+      {
+        "text": "Sharp-shinned hawk",
+        "tier": 85
+      },
+      {
+        "text": "Goshawk",
+        "tier": 85
+      },
+      {
+        "text": "Sparrowhawk",
+        "tier": 85
+      },
+      {
+        "text": "Red kite",
+        "tier": 85
+      },
+      {
+        "text": "Black kite",
+        "tier": 85
+      },
+      {
+        "text": "Honey buzzard",
+        "tier": 85
+      },
+      {
+        "text": "Rough-legged hawk",
+        "tier": 85
+      },
+      {
+        "text": "Swainson's hawk",
+        "tier": 85
+      },
+      {
+        "text": "Ferruginous hawk",
+        "tier": 85
+      },
+      {
+        "text": "Harris's hawk",
+        "tier": 85
+      },
+      {
+        "text": "Northern harrier",
+        "tier": 85
+      },
+      {
+        "text": "Hen harrier",
+        "tier": 85
+      },
+      {
+        "text": "Marsh harrier",
+        "tier": 85
+      },
+      {
+        "text": "Caracara",
+        "tier": 85
+      },
+      {
+        "text": "Crested caracara",
+        "tier": 85
+      },
+      {
+        "text": "Gyrfalcon",
+        "tier": 85
+      },
+      {
+        "text": "Merlin",
+        "tier": 85
+      },
+      {
+        "text": "Hobby",
+        "tier": 85
+      },
+      {
+        "text": "Lanner falcon",
+        "tier": 85
+      },
+      {
+        "text": "Saker falcon",
+        "tier": 85
+      },
+      {
+        "text": "Prairie falcon",
+        "tier": 85
+      },
+      {
+        "text": "American kestrel",
+        "tier": 85
+      },
+      {
+        "text": "Andean condor",
+        "tier": 85
+      },
+      {
+        "text": "California condor",
+        "tier": 85
+      },
+      {
+        "text": "Turkey vulture",
+        "tier": 85
+      },
+      {
+        "text": "Black vulture",
+        "tier": 85
+      },
+      {
+        "text": "King vulture",
+        "tier": 85
+      },
+      {
+        "text": "Griffon vulture",
+        "tier": 85
+      },
+      {
+        "text": "Lammergeier",
+        "aliases": [
+          "bearded vulture"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Egyptian vulture",
+        "tier": 85
+      },
+      {
+        "text": "Barn owl",
+        "tier": 85
+      },
+      {
+        "text": "Snowy owl",
+        "tier": 85
+      },
+      {
+        "text": "Great horned owl",
+        "tier": 85
+      },
+      {
+        "text": "Barred owl",
+        "tier": 85
+      },
+      {
+        "text": "Spotted owl",
+        "tier": 85
+      },
+      {
+        "text": "Screech owl",
+        "tier": 85
+      },
+      {
+        "text": "Burrowing owl",
+        "tier": 85
+      },
+      {
+        "text": "Elf owl",
+        "tier": 85
+      },
+      {
+        "text": "Pygmy owl",
+        "tier": 85
+      },
+      {
+        "text": "Saw-whet owl",
+        "tier": 85
+      },
+      {
+        "text": "Tawny owl",
+        "tier": 85
+      },
+      {
+        "text": "Long-eared owl",
+        "tier": 85
+      },
+      {
+        "text": "Short-eared owl",
+        "tier": 85
+      },
+      {
+        "text": "Eagle-owl",
+        "tier": 85
+      },
+      {
+        "text": "Fish owl",
+        "tier": 85
+      },
+      {
+        "text": "Little owl",
+        "tier": 85
+      },
+      {
+        "text": "Boobook",
+        "tier": 85
+      },
+      {
+        "text": "Wild turkey",
+        "tier": 85
+      },
+      {
+        "text": "Peahen",
+        "tier": 85
+      },
+      {
+        "text": "Junglefowl",
+        "tier": 85
+      },
+      {
+        "text": "Red junglefowl",
+        "tier": 85
+      },
+      {
+        "text": "Rooster",
+        "tier": 85
+      },
+      {
+        "text": "Hen",
+        "tier": 85
+      },
+      {
+        "text": "Capon",
+        "tier": 85
+      },
+      {
+        "text": "Bantam",
+        "tier": 85
+      },
+      {
+        "text": "Silkie",
+        "tier": 85
+      },
+      {
+        "text": "Francolin",
+        "tier": 85
+      },
+      {
+        "text": "Spurfowl",
+        "tier": 85
+      },
+      {
+        "text": "Tragopan",
+        "tier": 85
+      },
+      {
+        "text": "Monal",
+        "tier": 85
+      },
+      {
+        "text": "Golden pheasant",
+        "tier": 85
+      },
+      {
+        "text": "Lady Amherst's pheasant",
+        "tier": 85
+      },
+      {
+        "text": "Ring-necked pheasant",
+        "tier": 85
+      },
+      {
+        "text": "Sage grouse",
+        "tier": 85
+      },
+      {
+        "text": "Prairie chicken",
+        "tier": 85
+      },
+      {
+        "text": "Capercaillie",
+        "tier": 85
+      },
+      {
+        "text": "Black grouse",
+        "tier": 85
+      },
+      {
+        "text": "Ruffed grouse",
+        "tier": 85
+      },
+      {
+        "text": "Spruce grouse",
+        "tier": 85
+      },
+      {
+        "text": "Snowcock",
+        "tier": 85
+      },
+      {
+        "text": "Chukar",
+        "tier": 85
+      },
+      {
+        "text": "California quail",
+        "tier": 85
+      },
+      {
+        "text": "Gambel's quail",
+        "tier": 85
+      },
+      {
+        "text": "Megapode",
+        "tier": 85
+      },
+      {
+        "text": "Brush turkey",
+        "tier": 85
+      },
+      {
+        "text": "Malleefowl",
+        "tier": 85
+      },
+      {
+        "text": "Curassow",
+        "tier": 85
+      },
+      {
+        "text": "Guan",
+        "tier": 85
+      },
+      {
+        "text": "Chachalaca",
+        "tier": 85
+      },
+      {
+        "text": "Tinamou",
+        "tier": 85
+      },
+      {
+        "text": "Sandgrouse",
+        "tier": 85
+      },
+      {
+        "text": "Mourning dove",
+        "tier": 85
+      },
+      {
+        "text": "Rock dove",
+        "aliases": [
+          "rock pigeon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Turtle dove",
+        "tier": 85
+      },
+      {
+        "text": "Collared dove",
+        "tier": 85
+      },
+      {
+        "text": "Wood pigeon",
+        "tier": 85
+      },
+      {
+        "text": "Fruit dove",
+        "tier": 85
+      },
+      {
+        "text": "Crowned pigeon",
+        "tier": 85
+      },
+      {
+        "text": "Nicobar pigeon",
+        "tier": 85
+      },
+      {
+        "text": "Tooth-billed pigeon",
+        "tier": 85
+      },
+      {
+        "text": "Diamond dove",
+        "tier": 85
+      },
+      {
+        "text": "Canada goose",
+        "tier": 85
+      },
+      {
+        "text": "Snow goose",
+        "tier": 85
+      },
+      {
+        "text": "Barnacle goose",
+        "tier": 85
+      },
+      {
+        "text": "Brant",
+        "aliases": [
+          "brent goose"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Greylag goose",
+        "tier": 85
+      },
+      {
+        "text": "Bar-headed goose",
+        "tier": 85
+      },
+      {
+        "text": "Egyptian goose",
+        "tier": 85
+      },
+      {
+        "text": "Swan goose",
+        "tier": 85
+      },
+      {
+        "text": "Mute swan",
+        "tier": 85
+      },
+      {
+        "text": "Trumpeter swan",
+        "tier": 85
+      },
+      {
+        "text": "Tundra swan",
+        "tier": 85
+      },
+      {
+        "text": "Black swan",
+        "tier": 85
+      },
+      {
+        "text": "Whooper swan",
+        "tier": 85
+      },
+      {
+        "text": "Teal",
+        "tier": 85
+      },
+      {
+        "text": "Wigeon",
+        "tier": 85
+      },
+      {
+        "text": "Gadwall",
+        "tier": 85
+      },
+      {
+        "text": "Pintail",
+        "tier": 85
+      },
+      {
+        "text": "Shoveler",
+        "tier": 85
+      },
+      {
+        "text": "Canvasback",
+        "tier": 85
+      },
+      {
+        "text": "Redhead",
+        "tier": 85
+      },
+      {
+        "text": "Scaup",
+        "tier": 85
+      },
+      {
+        "text": "Eider",
+        "tier": 85
+      },
+      {
+        "text": "Scoter",
+        "tier": 85
+      },
+      {
+        "text": "Goldeneye",
+        "tier": 85
+      },
+      {
+        "text": "Bufflehead",
+        "tier": 85
+      },
+      {
+        "text": "Smew",
+        "tier": 85
+      },
+      {
+        "text": "Goosander",
+        "tier": 85
+      },
+      {
+        "text": "Ruddy duck",
+        "tier": 85
+      },
+      {
+        "text": "Mandarin duck",
+        "tier": 85
+      },
+      {
+        "text": "Muscovy duck",
+        "tier": 85
+      },
+      {
+        "text": "Pekin duck",
+        "tier": 85
+      },
+      {
+        "text": "Whistling duck",
+        "tier": 85
+      },
+      {
+        "text": "Shelduck",
+        "tier": 85
+      },
+      {
+        "text": "Steamer duck",
+        "tier": 85
+      },
+      {
+        "text": "Harlequin duck",
+        "tier": 85
+      },
+      {
+        "text": "Long-tailed duck",
+        "tier": 85
+      },
+      {
+        "text": "Torrent duck",
+        "tier": 85
+      },
+      {
+        "text": "Magpie goose",
+        "tier": 85
+      },
+      {
+        "text": "Screamer",
+        "tier": 85
+      },
+      {
+        "text": "Common loon",
+        "tier": 85
+      },
+      {
+        "text": "Dabchick",
+        "tier": 85
+      },
+      {
+        "text": "Greater flamingo",
+        "tier": 85
+      },
+      {
+        "text": "Lesser flamingo",
+        "tier": 85
+      },
+      {
+        "text": "Scarlet ibis",
+        "tier": 85
+      },
+      {
+        "text": "Glossy ibis",
+        "tier": 85
+      },
+      {
+        "text": "Sacred ibis",
+        "tier": 85
+      },
+      {
+        "text": "Bald ibis",
+        "tier": 85
+      },
+      {
+        "text": "Brown pelican",
+        "tier": 85
+      },
+      {
+        "text": "White pelican",
+        "tier": 85
+      },
+      {
+        "text": "Dalmatian pelican",
+        "tier": 85
+      },
+      {
+        "text": "Saddle-billed stork",
+        "tier": 85
+      },
+      {
+        "text": "Openbill",
+        "tier": 85
+      },
+      {
+        "text": "Adjutant stork",
+        "tier": 85
+      },
+      {
+        "text": "Common starling",
+        "tier": 85
+      },
+      {
+        "text": "Superb starling",
+        "tier": 85
+      },
+      {
+        "text": "Wattlebird",
+        "tier": 85
+      },
+      {
+        "text": "Silvereye",
+        "tier": 85
+      },
+      {
+        "text": "Hill myna",
+        "tier": 85
+      },
+      {
+        "text": "Bee hummingbird",
+        "tier": 85
+      },
+      {
+        "text": "Ruby-throated hummingbird",
+        "tier": 85
+      },
+      {
+        "text": "Anna's hummingbird",
+        "tier": 85
+      },
+      {
+        "text": "Sword-billed hummingbird",
+        "tier": 85
+      },
+      {
+        "text": "Sicklebill",
+        "tier": 85
+      },
+      {
+        "text": "Sunbird-asity",
+        "tier": 85
+      },
+      {
+        "text": "Asity",
+        "tier": 85
+      },
+      {
+        "text": "Mesite",
+        "tier": 85
+      },
+      {
+        "text": "Ground roller",
+        "tier": 85
+      },
+      {
+        "text": "Cuckoo-roller",
+        "tier": 85
+      },
+      {
+        "text": "Mousebird",
+        "tier": 85
+      },
+      {
+        "text": "Hornero",
+        "tier": 85
+      },
+      {
+        "text": "Spinetail",
+        "tier": 85
+      },
+      {
+        "text": "Tapaculo",
+        "tier": 85
+      },
+      {
+        "text": "Gnateater",
+        "tier": 85
+      },
+      {
+        "text": "Antpitta",
+        "tier": 85
+      },
+      {
+        "text": "Plains-wanderer",
+        "tier": 85
+      },
+      {
+        "text": "Seedsnipe",
+        "tier": 85
+      },
+      {
+        "text": "Sheathbill",
+        "tier": 85
+      },
+      {
+        "text": "Crab-plover",
+        "tier": 85
+      },
+      {
+        "text": "Ibisbill",
+        "tier": 85
+      },
+      {
+        "text": "Painted-snipe",
+        "tier": 85
+      },
+      {
+        "text": "Thick-knee",
+        "aliases": [
+          "stone-curlew"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Buttonquail",
+        "tier": 85
+      },
+      {
+        "text": "Finfoot",
+        "tier": 85
+      },
+      {
+        "text": "Sungrebe",
+        "tier": 85
+      },
+      {
+        "text": "Reef heron",
+        "tier": 85
+      },
+      {
+        "text": "Tiger heron",
+        "tier": 85
+      },
+      {
+        "text": "Boat-billed heron",
+        "tier": 85
+      },
+      {
+        "text": "Oropendola",
+        "tier": 85
+      },
+      {
+        "text": "Cacique",
+        "tier": 85
+      },
+      {
+        "text": "Troupial",
         "tier": 85
       },
       {
@@ -7682,6 +9805,9 @@
       },
       {
         "text": "Hummingbird",
+        "aliases": [
+          "hummer"
+        ],
         "tier": 30
       },
       {
@@ -7751,7 +9877,11 @@
       "Airplane",
       "Big Bird",
       "Tweety",
-      "Bird"
+      "Bird",
+      "Dragonfly",
+      "Flying squirrel",
+      "Angry Birds",
+      "Twitter"
     ]
   },
   {
@@ -7810,13 +9940,6 @@
       },
       {
         "text": "Krystal",
-        "tier": 85
-      },
-      {
-        "text": "Steak 'n Shake",
-        "aliases": [
-          "steak n shake"
-        ],
         "tier": 85
       },
       {
@@ -7905,10 +10028,6 @@
         "tier": 85
       },
       {
-        "text": "Taco John's",
-        "tier": 85
-      },
-      {
         "text": "Taco Cabana",
         "tier": 85
       },
@@ -7970,6 +10089,825 @@
         "tier": 85
       },
       {
+        "text": "Burgerville",
+        "tier": 85
+      },
+      {
+        "text": "Back Yard Burgers",
+        "tier": 85
+      },
+      {
+        "text": "Biscuitville",
+        "tier": 85
+      },
+      {
+        "text": "Braum's",
+        "tier": 85
+      },
+      {
+        "text": "Carvel",
+        "tier": 85
+      },
+      {
+        "text": "Charleys Philly Steaks",
+        "aliases": [
+          "charleys"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chester's Chicken",
+        "tier": 85
+      },
+      {
+        "text": "Chuck E. Cheese",
+        "tier": 85
+      },
+      {
+        "text": "Cicis",
+        "aliases": [
+          "cici's pizza"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dick's Drive-In",
+        "tier": 85
+      },
+      {
+        "text": "Earl of Sandwich",
+        "tier": 85
+      },
+      {
+        "text": "Einstein Bros. Bagels",
+        "aliases": [
+          "einstein bagels"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fatburger",
+        "tier": 85
+      },
+      {
+        "text": "Farmer Boys",
+        "tier": 85
+      },
+      {
+        "text": "Fazoli's",
+        "tier": 85
+      },
+      {
+        "text": "Golden Chick",
+        "tier": 85
+      },
+      {
+        "text": "Good Times Burgers",
+        "tier": 85
+      },
+      {
+        "text": "Hot Dog on a Stick",
+        "tier": 85
+      },
+      {
+        "text": "Hwy 55",
+        "tier": 85
+      },
+      {
+        "text": "Jack's",
+        "tier": 85
+      },
+      {
+        "text": "Jason's Deli",
+        "tier": 85
+      },
+      {
+        "text": "Johnny Rockets",
+        "tier": 85
+      },
+      {
+        "text": "Kewpee",
+        "tier": 85
+      },
+      {
+        "text": "Krispy Krunchy Chicken",
+        "tier": 85
+      },
+      {
+        "text": "Lee's Famous Recipe",
+        "tier": 85
+      },
+      {
+        "text": "Marco's Pizza",
+        "tier": 85
+      },
+      {
+        "text": "McAlister's Deli",
+        "tier": 85
+      },
+      {
+        "text": "Mighty Taco",
+        "tier": 85
+      },
+      {
+        "text": "Milo's",
+        "tier": 85
+      },
+      {
+        "text": "Mr. Hero",
+        "tier": 85
+      },
+      {
+        "text": "Nathan's Famous",
+        "aliases": [
+          "nathans"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Original Tommy's",
+        "aliases": [
+          "tommy's"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pal's Sudden Service",
+        "aliases": [
+          "pals"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pizza Inn",
+        "tier": 85
+      },
+      {
+        "text": "Portillo's",
+        "tier": 85
+      },
+      {
+        "text": "Roy Rogers",
+        "tier": 85
+      },
+      {
+        "text": "Runza",
+        "tier": 85
+      },
+      {
+        "text": "Rubio's",
+        "tier": 85
+      },
+      {
+        "text": "Sbarro",
+        "tier": 85
+      },
+      {
+        "text": "Skyline Chili",
+        "tier": 85
+      },
+      {
+        "text": "Gold Star Chili",
+        "tier": 85
+      },
+      {
+        "text": "Slim Chickens",
+        "tier": 85
+      },
+      {
+        "text": "Sonny's BBQ",
+        "tier": 85
+      },
+      {
+        "text": "Spangles",
+        "tier": 85
+      },
+      {
+        "text": "Taco Bueno",
+        "tier": 85
+      },
+      {
+        "text": "Taco Time",
+        "tier": 85
+      },
+      {
+        "text": "Tropical Smoothie Cafe",
+        "tier": 85
+      },
+      {
+        "text": "Wahlburgers",
+        "tier": 85
+      },
+      {
+        "text": "Waffle House",
+        "tier": 85
+      },
+      {
+        "text": "Zippy's",
+        "tier": 85
+      },
+      {
+        "text": "Torchy's Tacos",
+        "aliases": [
+          "torchys"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Velvet Taco",
+        "tier": 85
+      },
+      {
+        "text": "Bubba's 33",
+        "tier": 85
+      },
+      {
+        "text": "Dave's Hot Chicken",
+        "tier": 85
+      },
+      {
+        "text": "Hattie B's",
+        "tier": 85
+      },
+      {
+        "text": "Walk-On's",
+        "tier": 85
+      },
+      {
+        "text": "Wing Zone",
+        "tier": 85
+      },
+      {
+        "text": "Buffalo Wild Wings",
+        "aliases": [
+          "bww",
+          "bdubs"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pluckers",
+        "tier": 85
+      },
+      {
+        "text": "Cluckers",
+        "tier": 85
+      },
+      {
+        "text": "Lion's Choice",
+        "tier": 85
+      },
+      {
+        "text": "Steak Escape",
+        "tier": 85
+      },
+      {
+        "text": "Penn Station",
+        "tier": 85
+      },
+      {
+        "text": "Which Wich",
+        "tier": 85
+      },
+      {
+        "text": "Planet Smoothie",
+        "tier": 85
+      },
+      {
+        "text": "Smoothie King",
+        "tier": 85
+      },
+      {
+        "text": "Jamba",
+        "aliases": [
+          "jamba juice"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Orange Julius",
+        "tier": 85
+      },
+      {
+        "text": "Dippin' Dots",
+        "tier": 85
+      },
+      {
+        "text": "Cold Stone Creamery",
+        "aliases": [
+          "cold stone"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rita's",
+        "tier": 85
+      },
+      {
+        "text": "Bahama Buck's",
+        "tier": 85
+      },
+      {
+        "text": "Tastee-Freez",
+        "tier": 85
+      },
+      {
+        "text": "Freddy's Frozen Custard",
+        "tier": 85
+      },
+      {
+        "text": "Andy's Frozen Custard",
+        "tier": 85
+      },
+      {
+        "text": "Kopp's",
+        "tier": 85
+      },
+      {
+        "text": "Burger Chef",
+        "tier": 85
+      },
+      {
+        "text": "Gino's",
+        "tier": 85
+      },
+      {
+        "text": "Henry's Hamburgers",
+        "tier": 85
+      },
+      {
+        "text": "Wetson's",
+        "tier": 85
+      },
+      {
+        "text": "Lums",
+        "tier": 85
+      },
+      {
+        "text": "Sandy's",
+        "tier": 85
+      },
+      {
+        "text": "Druther's",
+        "tier": 85
+      },
+      {
+        "text": "Wimpy",
+        "tier": 85
+      },
+      {
+        "text": "Quick",
+        "tier": 85
+      },
+      {
+        "text": "Hesburger",
+        "tier": 85
+      },
+      {
+        "text": "Max Burgers",
+        "tier": 85
+      },
+      {
+        "text": "Burger Fuel",
+        "tier": 85
+      },
+      {
+        "text": "Red Rooster",
+        "tier": 85
+      },
+      {
+        "text": "Oporto",
+        "tier": 85
+      },
+      {
+        "text": "Guzman y Gomez",
+        "tier": 85
+      },
+      {
+        "text": "Mos Burger",
+        "tier": 85
+      },
+      {
+        "text": "Lotteria",
+        "tier": 85
+      },
+      {
+        "text": "Freshness Burger",
+        "tier": 85
+      },
+      {
+        "text": "First Kitchen",
+        "tier": 85
+      },
+      {
+        "text": "CoCo Ichibanya",
+        "tier": 85
+      },
+      {
+        "text": "Yoshinoya",
+        "tier": 85
+      },
+      {
+        "text": "Sukiya",
+        "tier": 85
+      },
+      {
+        "text": "Matsuya",
+        "tier": 85
+      },
+      {
+        "text": "Mister Donut",
+        "tier": 85
+      },
+      {
+        "text": "Harvey's",
+        "tier": 85
+      },
+      {
+        "text": "Mary Brown's",
+        "tier": 85
+      },
+      {
+        "text": "Swiss Chalet",
+        "tier": 85
+      },
+      {
+        "text": "Pizza Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Pizza Nova",
+        "tier": 85
+      },
+      {
+        "text": "New York Fries",
+        "tier": 85
+      },
+      {
+        "text": "Booster Juice",
+        "tier": 85
+      },
+      {
+        "text": "Chicken Cottage",
+        "tier": 85
+      },
+      {
+        "text": "Chicken Licken",
+        "tier": 85
+      },
+      {
+        "text": "Steers",
+        "tier": 85
+      },
+      {
+        "text": "Leon",
+        "tier": 85
+      },
+      {
+        "text": "Itsu",
+        "tier": 85
+      },
+      {
+        "text": "Wasabi",
+        "tier": 85
+      },
+      {
+        "text": "Upper Crust",
+        "tier": 85
+      },
+      {
+        "text": "Pollo Campero",
+        "tier": 85
+      },
+      {
+        "text": "Bembos",
+        "tier": 85
+      },
+      {
+        "text": "Telepizza",
+        "tier": 85
+      },
+      {
+        "text": "Vapiano",
+        "tier": 85
+      },
+      {
+        "text": "Nordsee",
+        "tier": 85
+      },
+      {
+        "text": "Kotipizza",
+        "tier": 85
+      },
+      {
+        "text": "Chowking",
+        "tier": 85
+      },
+      {
+        "text": "Greenwich Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Mang Inasal",
+        "tier": 85
+      },
+      {
+        "text": "MaxiChicken",
+        "tier": 85
+      },
+      {
+        "text": "Shakey's",
+        "tier": 85
+      },
+      {
+        "text": "Andok's",
+        "tier": 85
+      },
+      {
+        "text": "Goldilocks",
+        "tier": 85
+      },
+      {
+        "text": "Red Ribbon",
+        "tier": 85
+      },
+      {
+        "text": "Tokyo Tokyo",
+        "tier": 85
+      },
+      {
+        "text": "Pepper Lunch",
+        "tier": 85
+      },
+      {
+        "text": "Texas Chicken",
+        "tier": 85
+      },
+      {
+        "text": "Bonchon",
+        "tier": 85
+      },
+      {
+        "text": "Kyochon",
+        "tier": 85
+      },
+      {
+        "text": "Arthur Treacher's",
+        "tier": 85
+      },
+      {
+        "text": "Skipper's",
+        "tier": 85
+      },
+      {
+        "text": "Ivar's",
+        "tier": 85
+      },
+      {
+        "text": "Dog Haus",
+        "tier": 85
+      },
+      {
+        "text": "Jim's Steaks",
+        "tier": 85
+      },
+      {
+        "text": "Pat's King of Steaks",
+        "tier": 85
+      },
+      {
+        "text": "Geno's Steaks",
+        "tier": 85
+      },
+      {
+        "text": "Tudor's Biscuit World",
+        "tier": 85
+      },
+      {
+        "text": "El Taco Tote",
+        "tier": 85
+      },
+      {
+        "text": "Taco Bravo",
+        "tier": 85
+      },
+      {
+        "text": "Tacos El Gordo",
+        "tier": 85
+      },
+      {
+        "text": "Chuy's",
+        "tier": 85
+      },
+      {
+        "text": "Baja Fresh",
+        "tier": 85
+      },
+      {
+        "text": "Chronic Tacos",
+        "tier": 85
+      },
+      {
+        "text": "Fuzzy's Taco Shop",
+        "tier": 85
+      },
+      {
+        "text": "Taco Casa",
+        "tier": 85
+      },
+      {
+        "text": "Taco Mayo",
+        "tier": 85
+      },
+      {
+        "text": "Pancheros",
+        "tier": 85
+      },
+      {
+        "text": "Barberitos",
+        "tier": 85
+      },
+      {
+        "text": "Freebirds",
+        "tier": 85
+      },
+      {
+        "text": "Cafe Rio",
+        "tier": 85
+      },
+      {
+        "text": "Costa Vida",
+        "tier": 85
+      },
+      {
+        "text": "Panda Inn",
+        "tier": 85
+      },
+      {
+        "text": "Pei Wei",
+        "tier": 85
+      },
+      {
+        "text": "Pick Up Stix",
+        "tier": 85
+      },
+      {
+        "text": "Manchu Wok",
+        "tier": 85
+      },
+      {
+        "text": "Teriyaki Madness",
+        "tier": 85
+      },
+      {
+        "text": "Flame Broiler",
+        "tier": 85
+      },
+      {
+        "text": "Waba Grill",
+        "tier": 85
+      },
+      {
+        "text": "Cava",
+        "tier": 85
+      },
+      {
+        "text": "Garbanzo",
+        "tier": 85
+      },
+      {
+        "text": "Zoës Kitchen",
+        "tier": 85
+      },
+      {
+        "text": "Roti",
+        "tier": 85
+      },
+      {
+        "text": "Halal Guys",
+        "tier": 85
+      },
+      {
+        "text": "Sweetgreen",
+        "tier": 85
+      },
+      {
+        "text": "Salad and Go",
+        "tier": 85
+      },
+      {
+        "text": "Chopt",
+        "tier": 85
+      },
+      {
+        "text": "Just Salad",
+        "tier": 85
+      },
+      {
+        "text": "Saladworks",
+        "tier": 85
+      },
+      {
+        "text": "MOD Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Blaze Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Pieology",
+        "tier": 85
+      },
+      {
+        "text": "&pizza",
+        "tier": 85
+      },
+      {
+        "text": "Hungry Howie's",
+        "tier": 85
+      },
+      {
+        "text": "Jet's Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Donatos",
+        "tier": 85
+      },
+      {
+        "text": "Godfather's Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Papa Murphy's",
+        "tier": 85
+      },
+      {
+        "text": "Round Table Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Mountain Mike's",
+        "tier": 85
+      },
+      {
+        "text": "Rosati's",
+        "tier": 85
+      },
+      {
+        "text": "Ledo Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Peter Piper Pizza",
+        "tier": 85
+      },
+      {
+        "text": "Pizza Ranch",
+        "tier": 85
+      },
+      {
+        "text": "Happy Joe's",
+        "tier": 85
+      },
+      {
+        "text": "Bruegger's Bagels",
+        "tier": 85
+      },
+      {
+        "text": "Bagel Bros",
+        "tier": 85
+      },
+      {
+        "text": "Duck Donuts",
+        "tier": 85
+      },
+      {
+        "text": "Shipley Do-Nuts",
+        "tier": 85
+      },
+      {
+        "text": "Winchell's",
+        "tier": 85
+      },
+      {
+        "text": "LaMar's",
+        "tier": 85
+      },
+      {
+        "text": "Daylight Donuts",
+        "tier": 85
+      },
+      {
+        "text": "Yum Yum Donuts",
+        "tier": 85
+      },
+      {
+        "text": "Honey Dew Donuts",
+        "tier": 85
+      },
+      {
         "text": "Arby's",
         "aliases": [
           "arbys"
@@ -8005,12 +10943,16 @@
       {
         "text": "Domino's",
         "aliases": [
-          "dominos"
+          "dominos",
+          "dominos pizza"
         ],
         "tier": 60
       },
       {
         "text": "Chipotle",
+        "aliases": [
+          "chipotle mexican grill"
+        ],
         "tier": 60
       },
       {
@@ -8060,7 +11002,8 @@
       {
         "text": "Papa John's",
         "aliases": [
-          "papa johns"
+          "papa johns",
+          "papa johns pizza"
         ],
         "tier": 30
       },
@@ -8080,18 +11023,23 @@
         "aliases": [
           "in n out",
           "in and out",
-          "innout"
+          "innout",
+          "in-n-out burger"
         ],
         "tier": 30
       },
       {
         "text": "Five Guys",
+        "aliases": [
+          "five guys burgers and fries"
+        ],
         "tier": 30
       },
       {
         "text": "Popeyes",
         "aliases": [
-          "popeye's"
+          "popeye's",
+          "popeyes louisiana kitchen"
         ],
         "tier": 30
       },
@@ -8165,7 +11113,14 @@
       "Denny's",
       "IHOP",
       "Chili's",
-      "TGI Fridays"
+      "TGI Fridays",
+      "Red Lobster",
+      "Outback Steakhouse",
+      "Cracker Barrel",
+      "Texas Roadhouse",
+      "Costco",
+      "Walmart",
+      "7-Eleven"
     ]
   }
 ]

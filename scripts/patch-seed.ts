@@ -20,8 +20,11 @@
  */
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { normalize, parsePlainText, serializeQuestions, tierFromName } from "../shared/src/index";
+import { compact, normalize as norm, parsePlainText, serializeQuestions, tierFromName } from "../shared/src/index";
 import type { ParsedQuestion, TierPoints } from "../shared/src/index";
+
+/** The same duplicate key the validator uses (normalized, spaces removed). */
+const normalize = (s: string) => compact(norm(s));
 
 const SEED = join(import.meta.dirname, "..", "content", "seed");
 const patchText = readFileSync(process.argv[2], "utf8");
@@ -89,8 +92,9 @@ for (const block of chunks.filter((c) => c.startsWith("@"))) {
       continue;
     }
     if (section === "remove") {
-      const n = keys().get(normalize(line));
-      if (n === undefined) skipped.push(`(remove missing) ${line}`);
+      // Match the answer's own text only (never an alias), so a removal can't hit the wrong answer.
+      const n = q.answers.findIndex((a) => normalize(a.text) === normalize(line));
+      if (n < 0) skipped.push(`(remove missing) ${line}`);
       else {
         q.answers.splice(n, 1);
         removed++;
