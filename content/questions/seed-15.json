@@ -1087,7 +1087,9 @@
       {
         "text": "Nabataeans",
         "aliases": [
-          "nabataean"
+          "nabataean",
+          "nabataea",
+          "petra"
         ],
         "tier": 100
       },
@@ -1408,7 +1410,8 @@
       {
         "text": "Akkadian Empire",
         "aliases": [
-          "akkad"
+          "akkad",
+          "akkadians"
         ],
         "tier": 60
       },
@@ -1425,6 +1428,9 @@
       },
       {
         "text": "Medes",
+        "aliases": [
+          "media"
+        ],
         "tier": 60
       },
       {
@@ -1437,7 +1443,8 @@
       {
         "text": "Sassanid Empire",
         "aliases": [
-          "sassanids"
+          "sassanids",
+          "sasanian empire"
         ],
         "tier": 60
       },
@@ -1861,10 +1868,125 @@
         "tier": 60
       },
       {
+        "text": "Ming dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Qing dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Yuan dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Sui dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Joseon",
+        "tier": 60
+      },
+      {
+        "text": "Goryeo",
+        "tier": 60
+      },
+      {
+        "text": "Ayutthaya",
+        "tier": 60
+      },
+      {
+        "text": "Sukhothai",
+        "tier": 60
+      },
+      {
+        "text": "Dai Viet",
+        "tier": 60
+      },
+      {
+        "text": "Cahokia",
+        "tier": 60
+      },
+      {
+        "text": "Muisca",
+        "tier": 60
+      },
+      {
+        "text": "Mapuche",
+        "tier": 60
+      },
+      {
+        "text": "Polynesians",
+        "tier": 60
+      },
+      {
+        "text": "Anglo-Saxons",
+        "tier": 60
+      },
+      {
+        "text": "Normans",
+        "tier": 60
+      },
+      {
+        "text": "Merovingians",
+        "tier": 60
+      },
+      {
+        "text": "Kingdom of Israel",
+        "tier": 60
+      },
+      {
+        "text": "Troy",
+        "tier": 60
+      },
+      {
+        "text": "Macedon",
+        "tier": 60
+      },
+      {
+        "text": "Rapa Nui",
+        "aliases": [
+          "easter island"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Palmyra",
+        "tier": 60
+      },
+      {
+        "text": "Bulgarian Empire",
+        "tier": 60
+      },
+      {
+        "text": "Great Moravia",
+        "tier": 60
+      },
+      {
+        "text": "Republic of Venice",
+        "aliases": [
+          "venetian republic"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mohenjo-daro",
+        "tier": 60
+      },
+      {
+        "text": "Western Roman Empire",
+        "tier": 60
+      },
+      {
+        "text": "Hellenistic Greece",
+        "tier": 60
+      },
+      {
         "text": "Persian Empire",
         "aliases": [
           "persians",
-          "persia"
+          "persia",
+          "ancient persia"
         ],
         "tier": 30
       },
@@ -1872,7 +1994,8 @@
         "text": "Babylonians",
         "aliases": [
           "babylon",
-          "babylonian"
+          "babylonian",
+          "babylonia"
         ],
         "tier": 30
       },
@@ -1888,7 +2011,8 @@
         "text": "Assyrians",
         "aliases": [
           "assyria",
-          "assyrian"
+          "assyrian",
+          "assyrian empire"
         ],
         "tier": 30
       },
@@ -1910,7 +2034,9 @@
         "text": "Indus Valley Civilization",
         "aliases": [
           "indus valley",
-          "harappan"
+          "harappan",
+          "harappa",
+          "harappan civilization"
         ],
         "tier": 30
       },
@@ -1945,7 +2071,8 @@
       {
         "text": "Hittites",
         "aliases": [
-          "hittite"
+          "hittite",
+          "hittite empire"
         ],
         "tier": 30
       },
@@ -1967,7 +2094,8 @@
         "text": "Byzantine Empire",
         "aliases": [
           "byzantines",
-          "byzantium"
+          "byzantium",
+          "eastern roman empire"
         ],
         "tier": 30
       },
@@ -1981,19 +2109,24 @@
       {
         "text": "Minoans",
         "aliases": [
-          "minoan"
+          "minoan",
+          "minoan civilization"
         ],
         "tier": 30
       },
       {
         "text": "Mycenaeans",
         "aliases": [
-          "mycenae"
+          "mycenae",
+          "mycenaean greece"
         ],
         "tier": 30
       },
       {
         "text": "Etruscans",
+        "aliases": [
+          "etruria"
+        ],
         "tier": 30
       },
       {
@@ -2041,12 +2174,16 @@
       {
         "text": "Aksum",
         "aliases": [
-          "axum"
+          "axum",
+          "kingdom of aksum"
         ],
         "tier": 30
       },
       {
         "text": "Great Zimbabwe",
+        "aliases": [
+          "kingdom of zimbabwe"
+        ],
         "tier": 30
       },
       {
@@ -2071,7 +2208,9 @@
       {
         "text": "Vikings",
         "aliases": [
-          "viking"
+          "viking",
+          "norse",
+          "norsemen"
         ],
         "tier": 15
       },
@@ -2084,6 +2223,13 @@
       },
       {
         "text": "Ottoman Empire",
+        "aliases": [
+          "ottomans"
+        ],
+        "tier": 15
+      },
+      {
+        "text": "Atlantis",
         "tier": 15
       },
       {
@@ -2091,7 +2237,8 @@
         "aliases": [
           "egyptians",
           "egypt",
-          "egyptian"
+          "egyptian",
+          "ancient egyptians"
         ],
         "tier": 10
       },
@@ -2110,14 +2257,17 @@
         "aliases": [
           "greeks",
           "greece",
-          "greek"
+          "greek",
+          "ancient greeks"
         ],
         "tier": 10
       },
       {
         "text": "Aztecs",
         "aliases": [
-          "aztec"
+          "aztec",
+          "aztec empire",
+          "mexica"
         ],
         "tier": 10
       },
@@ -2125,7 +2275,8 @@
         "text": "Maya",
         "aliases": [
           "mayans",
-          "mayan"
+          "mayan",
+          "maya civilization"
         ],
         "tier": 10
       },
@@ -2133,7 +2284,8 @@
         "text": "Inca",
         "aliases": [
           "incas",
-          "incan"
+          "incan",
+          "inca empire"
         ],
         "tier": 10
       },
@@ -2143,7 +2295,6 @@
       }
     ],
     "nearMisses": [
-      "Atlantis",
       "America",
       "United States",
       "Canada",
