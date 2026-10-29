@@ -94,7 +94,7 @@ for (const block of chunks.filter((c) => c.startsWith("@"))) {
     if (section === "remove") {
       // Match the answer's own text only (never an alias), so a removal can't hit the wrong answer.
       const name = line.split("|")[0].trim();
-      const n = q.answers.findIndex((a) => normalize(a.text) === normalize(name));
+      const n = q.answers.findIndex((a) => a.text.toLowerCase() === name.toLowerCase());
       if (n < 0) skipped.push(`(remove missing) ${line}`);
       else {
         q.answers.splice(n, 1);
