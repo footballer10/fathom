@@ -414,7 +414,7 @@ category: games-toys
 prompt: Name a chess term or piece
 
 [One in a Krillion]
-En passant
+En passant | en passent
 
 [Deep Cut]
 Luft
@@ -509,7 +509,7 @@ Preparation
 Simul | simultaneous exhibition
 Blindfold chess
 Correspondence chess
-Chess960 | fischer random
+Chess960 | fischer random | freestyle chess
 Bughouse
 Puzzle | tactic
 Combination
@@ -576,6 +576,77 @@ Grand Prix Attack
 Smith-Morra Gambit
 Fried Liver Attack
 Jobava London
+Chessboard
+Queen sacrifice
+Exchange sacrifice
+Opening theory
+Queen's Gambit Declined
+Queen's Gambit Accepted
+King's Indian Attack
+Colle System
+Trompowsky
+Larsen's Opening
+Grob
+Englund Gambit
+Halloween Gambit
+Stafford Gambit
+Jerome Gambit
+Latvian Gambit
+Elephant Gambit
+Albin Countergambit
+Marshall Attack
+Berlin Defense
+Berlin Wall
+Open Sicilian
+Closed Sicilian
+Alapin
+Rossolimo
+Taimanov
+Scheveningen
+Winawer
+Tarrasch
+Advance Variation
+Exchange Variation
+Poisoned pawn
+Hippopotamus
+Owen's Defense
+St. George Defense
+Nimzowitsch Defense
+Chigorin Defense
+Tarrasch Defense
+Ragozin
+Panov Attack
+Yugoslav Attack
+English Attack
+Keres Attack
+Wing Gambit
+Blackmar-Diemer Gambit
+From's Gambit
+Sokolsky
+Polish Opening
+Orangutan
+Woodpecker
+USCF
+Draw offer
+Insufficient material
+Premove
+Berserk
+Armageddon
+Tiebreak
+Swiss system
+Round robin
+Post-mortem
+Only move
+Centipawn
+Evaluation bar
+AlphaZero
+Leela
+Komodo
+Houdini
+Fritz
+Strategy
+Annotation
+Pairings
 
 [Schooler]
 Castling
@@ -596,7 +667,7 @@ King's gambit
 Sicilian Defense | sicilian
 French Defense
 Caro-Kann
-Ruy Lopez | spanish opening
+Ruy Lopez | spanish opening | spanish game
 Italian Game
 London System
 Rank
@@ -605,7 +676,7 @@ Diagonal
 Square
 Tempo
 Blunder
-Touch-move | touch move
+Touch-move | touch move | touch move rule
 Chess clock | clock
 Blitz
 Bullet
@@ -623,7 +694,7 @@ Underpromotion
 Fianchetto
 Center
 Development
-Threefold repetition
+Threefold repetition | repetition
 Fifty-move rule | 50-move rule
 Notation
 Light square
@@ -646,11 +717,17 @@ Queen's gambit
 Bongcloud
 Stalemate
 Grandmaster | gm
+Chess.com
+Lichess
+Magnus Carlsen
+Bobby Fischer
+Garry Kasparov
+Beth Harmon
 
 [Plankton]
 King
 Queen
-Checkmate
+Checkmate | mate
 Check
 Pawn
 Knight | horse
@@ -799,6 +876,71 @@ Poppet
 Petal
 Blossom
 Rosebud
+Sweet thing
+Lovebird
+Beloved
+Toots
+Tootsie
+Sugar bun
+Honeybunch
+Honey bunny
+Bunny rabbit
+Bun
+Sweet potato
+Tater tot
+Punkin
+Peaches and cream
+Pet
+Darl
+Possum
+Snookie
+Snuggle bunny
+Snuggle puss
+Cuddle bear
+Cuddles
+Huggy bear
+Love muffin
+Stud muffin
+Mama bear
+Papa bear
+Baby bear
+Boo boo
+Sugar cube
+Gumdrop
+Sweet tart
+Button
+Cutie patootie
+Angel face
+Angel cakes
+Mi corazon
+Mi reina
+Mon chou
+Mon petit chou
+Ma puce
+Bichette
+Doudou
+Cheri
+Cherie
+Hase
+Schnucki
+Nena
+Chiquita
+Chiquito
+Corazoncito
+Mamacita
+Papito
+Amorcito
+Cielito
+Hayati
+Albi
+Rohi
+Jaan
+Jaanu
+Shona
+Meri jaan
+Janam
+Oppa
+Yeobo
 
 [Schooler]
 Sweetie pie
@@ -815,7 +957,7 @@ Buddy
 Pal
 Champ
 Sweet pea
-Doll
+Doll | babydoll
 Dollface
 Gorgeous
 Handsome
@@ -823,7 +965,7 @@ Beautiful
 Princess
 Kitten
 Bunny
-Teddy bear
+Teddy bear | teddy
 Lovebug
 Cuddle bug
 Pookie
@@ -842,12 +984,12 @@ Boo
 My precious | precious
 
 [Plankton]
-Honey | hon
-Sweetie | sweetheart
+Honey | hon | hun
+Sweetie | sweetheart | sweets
 Baby | babe
 Darling
-Dear
-Love
+Dear | dearest | my dear
+Love | my love | luv
 Sugar
 Cutie
 
@@ -918,7 +1060,7 @@ Compass pose
 Bird of paradise pose
 Lord of the fishes | ardha matsyendrasana
 Cow face pose | gomukhasana
-Fire log pose | double pigeon
+Fire log pose | double pigeon | figure four
 Lizard pose | utthan pristhasana
 Revolved triangle
 Revolved chair
@@ -932,15 +1074,15 @@ Table top | tabletop
 Supported bridge
 Reclining bound angle | supta baddha konasana
 Reclining hero
-Knees to chest | apanasana
+Knees to chest | apanasana | knees chest
 Wind-relieving pose | pawanmuktasana
-Noose pose
-Heron pose
+Noose pose | pasasana
+Heron pose | krounchasana
 Monkey pose | hanumanasana | splits
 Marichi's pose
 Sage pose
 Tortoise pose | kurmasana
-Embryo pose
+Embryo pose | garbha pindasana
 Rabbit pose
 Half bow
 Full lotus
@@ -968,49 +1110,61 @@ Shoelace
 Square pose
 Melting heart
 Anahatasana
+Wide-angle seated forward bend | upavistha konasana
+Head-to-knee pose | janu sirsasana
+Revolved head-to-knee
+Side lunge
+Half forward fold
+Half lift
+Knees chest chin
+Supine pigeon
+Reclined hand to big toe
+Supported shoulder stand
+Tripod headstand
+Baby cobra
 
 [Schooler]
 Warrior two | warrior ii | warrior 2 | virabhadrasana ii
 Warrior three | warrior iii | warrior 3
-Upward dog | upward-facing dog | up dog
-Triangle | triangle pose | trikonasana
-Bridge | bridge pose | setu bandha
-Cat pose | cat
-Cow pose | cow
-Chair pose | utkatasana
-Boat pose | navasana
-Pigeon | pigeon pose
+Upward dog | upward-facing dog | up dog | urdhva mukha svanasana
+Triangle | triangle pose | trikonasana | extended triangle
+Bridge | bridge pose | setu bandha | setu bandhasana
+Cat pose | cat | marjaryasana
+Cow pose | cow | bitilasana
+Chair pose | utkatasana | chair
+Boat pose | navasana | boat
+Pigeon | pigeon pose | half pigeon | kapotasana pigeon
 Camel pose | camel | ustrasana
-Crow pose | crow | bakasana
+Crow pose | crow | bakasana | crane pose
 Headstand | sirsasana
 Shoulder stand | sarvangasana
 Plow pose | plow | halasana
 Fish pose | fish | matsyasana
 Bow pose | bow | dhanurasana
-Wheel pose | wheel | urdhva dhanurasana
-Forward fold | standing forward bend | uttanasana
+Wheel pose | wheel | urdhva dhanurasana | full wheel
+Forward fold | standing forward bend | uttanasana | ragdoll
 Seated forward bend | paschimottanasana
 Butterfly | bound angle | baddha konasana
 Easy pose | sukhasana
 Eagle pose | eagle | garudasana
 Half moon | ardha chandrasana
 Dancer pose | dancer | natarajasana
-Low lunge | crescent lunge | anjaneyasana
+Low lunge | crescent lunge | anjaneyasana | crescent moon
 High lunge
 Sun salutation | surya namaskar
 Side plank | vasisthasana
-Chaturanga
+Chaturanga | chaturanga dandasana | low plank
 Legs up the wall | viparita karani
 Reclined twist | supine twist
 Seated twist
 Garland pose | malasana | yogi squat
-Puppy pose
+Puppy pose | extended puppy
 Sphinx pose | sphinx
 Locust pose | locust | salabhasana
 Frog pose
 Goddess pose
-Thread the needle
-Extended side angle | side angle
+Thread the needle | eye of the needle
+Extended side angle | side angle | utthita parsvakonasana
 Reverse warrior
 Star pose
 Hero pose | virasana
@@ -1018,14 +1172,14 @@ Staff pose | dandasana
 
 [Too Clever]
 Plank | plank pose
-Corpse pose | savasana | shavasana
+Corpse pose | savasana | shavasana | corpse
 Cat-cow | cat cow
 
 [Plankton]
 Downward dog | downward-facing dog | down dog | adho mukha svanasana
-Child's pose | childs pose | balasana
+Child's pose | childs pose | balasana | child
 Tree pose | tree | vrksasana
-Warrior | warrior pose | warrior one | warrior i | warrior 1
+Warrior | warrior pose | warrior one | warrior i | warrior 1 | virabhadrasana
 Cobra | cobra pose | bhujangasana
 Lotus | lotus pose | padmasana
 Mountain pose | mountain | tadasana
@@ -1045,7 +1199,7 @@ category: vehicles
 prompt: Name a famous vehicle from a movie, TV show, or game
 
 [One in a Krillion]
-Ecto-1 | ecto 1 | ghostbusters car
+Ecto-1 | ecto 1 | ghostbusters car | ectomobile
 
 [Deep Cut]
 Pussy Wagon
@@ -1072,7 +1226,7 @@ Rubber Duck truck
 Tachikoma
 
 [Rare]
-Aston Martin DB5 | james bond car | bond car
+Aston Martin DB5 | james bond car | bond car | james bond aston martin | 007 car
 Lotus Esprit submarine | wet nellie
 Little Nellie
 Mini Cooper Italian Job | italian job minis
@@ -1117,27 +1271,67 @@ Creepy Coupe
 Penelope Pitstop's car
 Peter Perfect's car
 Turbo Teen
+Jurassic Park Jeep
+Speed bus
+Andrea Gail
+Flying Dutchman
+Queen Anne's Revenge
+Hispaniola
+Pequod
+Jolly Roger ship
+Red October
+Seaview
+Proteus
+Event Horizon
+Prometheus
+Valley Forge
+Heart of Gold
+Red Dwarf
+Moya
+Enterprise-D
+Defiant
+Voyager
+Klingon Bird of Prey
+Borg cube
+Romulan Warbird
+Executor
+Razor Crest
+Naboo starfighter
+Jedi starfighter
+A-wing
+Y-wing
+B-wing
+Snowspeeder
+AT-ST
+Sith Infiltrator
+Death Star II
+Starkiller Base
+Nimbus 2000
+Firebolt
+Hagrid's motorcycle
+Grave Digger
+BMW Z3
 
 [Schooler]
 Starship Enterprise | enterprise | uss enterprise
 X-wing
 TIE fighter
 Death Star
-Hogwarts Express
-Flying Ford Anglia | ford anglia | weasleys car
+Hogwarts Express | hogwarts train
+Flying Ford Anglia | ford anglia | weasleys car | hogwarts flying car
 Knight Bus
-Black Pearl
+Black Pearl | black pearl ship
 Nautilus
 Yellow Submarine
 Chitty Chitty Bang Bang
-Bumblebee
-Optimus Prime
-Mater
-Thomas the Tank Engine | thomas
-Polar Express
-Mach 5 | mach five
-A-Team van | the a-team van
-Bluesmobile
+Bumblebee | bumblebee camaro
+Optimus Prime | optimus
+Mater | tow mater
+Thomas the Tank Engine | thomas | thomas the tank
+Polar Express | polar express train
+Mach 5 | mach five | speed racer car
+A-Team van | the a-team van | b.a.'s van
+Bluesmobile | blues brothers car
 Eleanor
 Ghost Rider bike
 Tumbler
@@ -1145,16 +1339,16 @@ Pod racer | podracer
 Speeder bike
 AT-AT
 Slave I | slave 1
-Serenity
-TARDIS
-Planet Express Ship
-Jetsons car
-Cinderella's carriage | pumpkin carriage
+Serenity | firefly ship
+TARDIS | police box | blue box
+Planet Express Ship | planet express
+Jetsons car | jetsons flying car
+Cinderella's carriage | pumpkin carriage | pumpkin coach
 Aladdin's magic carpet | magic carpet
 Santa's sleigh | sleigh
-Interceptor | mad max car | pursuit special
+Interceptor | mad max car | pursuit special | max's interceptor | v8 interceptor
 War Rig
-Christine
+Christine | plymouth fury
 Thunderbird 2
 Jaws boat | orca
 Wonder Woman's invisible jet | invisible jet
@@ -1163,7 +1357,7 @@ Sandcrawler
 Imperial Star Destroyer | star destroyer
 Rebel blockade runner | tantive iv
 Jabba's sail barge
-Wagon Queen Family Truckster | family truckster
+Wagon Queen Family Truckster | family truckster | griswold station wagon
 Cousin Eddie's RV
 Partridge Family bus
 Brady Bunch station wagon
@@ -1171,16 +1365,16 @@ Miami Vice Ferrari
 Magnum P.I. Ferrari
 Starsky and Hutch Torino | gran torino
 Smokey and the Bandit Trans Am | bandit trans am
-Bullitt Mustang
+Bullitt Mustang | bullitt car
 Ferris Bueller's Ferrari
 Fast and Furious Charger | dom's charger
 Brian's Supra
 Shaggin' Wagon
-Warthog
+Warthog | halo warthog
 Normandy
 Mako
-Arwing
-Blue Falcon
+Arwing | arwing ship
+Blue Falcon | blue falcon car
 Galactica | battlestar galactica
 Colonial Viper
 Jupiter 2
@@ -1212,18 +1406,18 @@ Sanctuary II
 
 [Too Clever]
 Magic School Bus
-Flintstones car | flintmobile
+Flintstones car | flintmobile | flintstone mobile
 Bigfoot monster truck | bigfoot
 
 [Plankton]
-Batmobile
-DeLorean | time machine
-Millennium Falcon
-Herbie | herbie the love bug
-Lightning McQueen | mcqueen
-General Lee
-KITT | knight rider car
-Mystery Machine
+Batmobile | batmobile tumbler
+DeLorean | time machine | delorean time machine | back to the future car | back to the future delorean
+Millennium Falcon | the falcon
+Herbie | herbie the love bug | love bug
+Lightning McQueen | mcqueen | lightning
+General Lee | dodge charger general lee
+KITT | knight rider car | kit
+Mystery Machine | mystery machine van | scooby van | scooby-doo van
 
 [Not accepted]
 Toyota Corolla

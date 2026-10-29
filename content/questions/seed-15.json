@@ -2311,6 +2311,9 @@
     "answers": [
       {
         "text": "En passant",
+        "aliases": [
+          "en passent"
+        ],
         "tier": 100
       },
       {
@@ -2695,7 +2698,8 @@
       {
         "text": "Chess960",
         "aliases": [
-          "fischer random"
+          "fischer random",
+          "freestyle chess"
         ],
         "tier": 60
       },
@@ -2982,6 +2986,290 @@
         "tier": 60
       },
       {
+        "text": "Chessboard",
+        "tier": 60
+      },
+      {
+        "text": "Queen sacrifice",
+        "tier": 60
+      },
+      {
+        "text": "Exchange sacrifice",
+        "tier": 60
+      },
+      {
+        "text": "Opening theory",
+        "tier": 60
+      },
+      {
+        "text": "Queen's Gambit Declined",
+        "tier": 60
+      },
+      {
+        "text": "Queen's Gambit Accepted",
+        "tier": 60
+      },
+      {
+        "text": "King's Indian Attack",
+        "tier": 60
+      },
+      {
+        "text": "Colle System",
+        "tier": 60
+      },
+      {
+        "text": "Trompowsky",
+        "tier": 60
+      },
+      {
+        "text": "Larsen's Opening",
+        "tier": 60
+      },
+      {
+        "text": "Grob",
+        "tier": 60
+      },
+      {
+        "text": "Englund Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Halloween Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Stafford Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Jerome Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Latvian Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Elephant Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Albin Countergambit",
+        "tier": 60
+      },
+      {
+        "text": "Marshall Attack",
+        "tier": 60
+      },
+      {
+        "text": "Berlin Defense",
+        "tier": 60
+      },
+      {
+        "text": "Berlin Wall",
+        "tier": 60
+      },
+      {
+        "text": "Open Sicilian",
+        "tier": 60
+      },
+      {
+        "text": "Closed Sicilian",
+        "tier": 60
+      },
+      {
+        "text": "Alapin",
+        "tier": 60
+      },
+      {
+        "text": "Rossolimo",
+        "tier": 60
+      },
+      {
+        "text": "Taimanov",
+        "tier": 60
+      },
+      {
+        "text": "Scheveningen",
+        "tier": 60
+      },
+      {
+        "text": "Winawer",
+        "tier": 60
+      },
+      {
+        "text": "Tarrasch",
+        "tier": 60
+      },
+      {
+        "text": "Advance Variation",
+        "tier": 60
+      },
+      {
+        "text": "Exchange Variation",
+        "tier": 60
+      },
+      {
+        "text": "Poisoned pawn",
+        "tier": 60
+      },
+      {
+        "text": "Hippopotamus",
+        "tier": 60
+      },
+      {
+        "text": "Owen's Defense",
+        "tier": 60
+      },
+      {
+        "text": "St. George Defense",
+        "tier": 60
+      },
+      {
+        "text": "Nimzowitsch Defense",
+        "tier": 60
+      },
+      {
+        "text": "Chigorin Defense",
+        "tier": 60
+      },
+      {
+        "text": "Tarrasch Defense",
+        "tier": 60
+      },
+      {
+        "text": "Ragozin",
+        "tier": 60
+      },
+      {
+        "text": "Panov Attack",
+        "tier": 60
+      },
+      {
+        "text": "Yugoslav Attack",
+        "tier": 60
+      },
+      {
+        "text": "English Attack",
+        "tier": 60
+      },
+      {
+        "text": "Keres Attack",
+        "tier": 60
+      },
+      {
+        "text": "Wing Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Blackmar-Diemer Gambit",
+        "tier": 60
+      },
+      {
+        "text": "From's Gambit",
+        "tier": 60
+      },
+      {
+        "text": "Sokolsky",
+        "tier": 60
+      },
+      {
+        "text": "Polish Opening",
+        "tier": 60
+      },
+      {
+        "text": "Orangutan",
+        "tier": 60
+      },
+      {
+        "text": "Woodpecker",
+        "tier": 60
+      },
+      {
+        "text": "USCF",
+        "tier": 60
+      },
+      {
+        "text": "Draw offer",
+        "tier": 60
+      },
+      {
+        "text": "Insufficient material",
+        "tier": 60
+      },
+      {
+        "text": "Premove",
+        "tier": 60
+      },
+      {
+        "text": "Berserk",
+        "tier": 60
+      },
+      {
+        "text": "Armageddon",
+        "tier": 60
+      },
+      {
+        "text": "Tiebreak",
+        "tier": 60
+      },
+      {
+        "text": "Swiss system",
+        "tier": 60
+      },
+      {
+        "text": "Round robin",
+        "tier": 60
+      },
+      {
+        "text": "Post-mortem",
+        "tier": 60
+      },
+      {
+        "text": "Only move",
+        "tier": 60
+      },
+      {
+        "text": "Centipawn",
+        "tier": 60
+      },
+      {
+        "text": "Evaluation bar",
+        "tier": 60
+      },
+      {
+        "text": "AlphaZero",
+        "tier": 60
+      },
+      {
+        "text": "Leela",
+        "tier": 60
+      },
+      {
+        "text": "Komodo",
+        "tier": 60
+      },
+      {
+        "text": "Houdini",
+        "tier": 60
+      },
+      {
+        "text": "Fritz",
+        "tier": 60
+      },
+      {
+        "text": "Strategy",
+        "tier": 60
+      },
+      {
+        "text": "Annotation",
+        "tier": 60
+      },
+      {
+        "text": "Pairings",
+        "tier": 60
+      },
+      {
         "text": "Castling",
         "tier": 30
       },
@@ -3065,7 +3353,8 @@
       {
         "text": "Ruy Lopez",
         "aliases": [
-          "spanish opening"
+          "spanish opening",
+          "spanish game"
         ],
         "tier": 30
       },
@@ -3104,7 +3393,8 @@
       {
         "text": "Touch-move",
         "aliases": [
-          "touch move"
+          "touch move",
+          "touch move rule"
         ],
         "tier": 30
       },
@@ -3187,6 +3477,9 @@
       },
       {
         "text": "Threefold repetition",
+        "aliases": [
+          "repetition"
+        ],
         "tier": 30
       },
       {
@@ -3276,6 +3569,30 @@
         "tier": 15
       },
       {
+        "text": "Chess.com",
+        "tier": 15
+      },
+      {
+        "text": "Lichess",
+        "tier": 15
+      },
+      {
+        "text": "Magnus Carlsen",
+        "tier": 15
+      },
+      {
+        "text": "Bobby Fischer",
+        "tier": 15
+      },
+      {
+        "text": "Garry Kasparov",
+        "tier": 15
+      },
+      {
+        "text": "Beth Harmon",
+        "tier": 15
+      },
+      {
         "text": "King",
         "tier": 10
       },
@@ -3285,6 +3602,9 @@
       },
       {
         "text": "Checkmate",
+        "aliases": [
+          "mate"
+        ],
         "tier": 10
       },
       {
@@ -3837,6 +4157,266 @@
         "tier": 60
       },
       {
+        "text": "Sweet thing",
+        "tier": 60
+      },
+      {
+        "text": "Lovebird",
+        "tier": 60
+      },
+      {
+        "text": "Beloved",
+        "tier": 60
+      },
+      {
+        "text": "Toots",
+        "tier": 60
+      },
+      {
+        "text": "Tootsie",
+        "tier": 60
+      },
+      {
+        "text": "Sugar bun",
+        "tier": 60
+      },
+      {
+        "text": "Honeybunch",
+        "tier": 60
+      },
+      {
+        "text": "Honey bunny",
+        "tier": 60
+      },
+      {
+        "text": "Bunny rabbit",
+        "tier": 60
+      },
+      {
+        "text": "Bun",
+        "tier": 60
+      },
+      {
+        "text": "Sweet potato",
+        "tier": 60
+      },
+      {
+        "text": "Tater tot",
+        "tier": 60
+      },
+      {
+        "text": "Punkin",
+        "tier": 60
+      },
+      {
+        "text": "Peaches and cream",
+        "tier": 60
+      },
+      {
+        "text": "Pet",
+        "tier": 60
+      },
+      {
+        "text": "Darl",
+        "tier": 60
+      },
+      {
+        "text": "Possum",
+        "tier": 60
+      },
+      {
+        "text": "Snookie",
+        "tier": 60
+      },
+      {
+        "text": "Snuggle bunny",
+        "tier": 60
+      },
+      {
+        "text": "Snuggle puss",
+        "tier": 60
+      },
+      {
+        "text": "Cuddle bear",
+        "tier": 60
+      },
+      {
+        "text": "Cuddles",
+        "tier": 60
+      },
+      {
+        "text": "Huggy bear",
+        "tier": 60
+      },
+      {
+        "text": "Love muffin",
+        "tier": 60
+      },
+      {
+        "text": "Stud muffin",
+        "tier": 60
+      },
+      {
+        "text": "Mama bear",
+        "tier": 60
+      },
+      {
+        "text": "Papa bear",
+        "tier": 60
+      },
+      {
+        "text": "Baby bear",
+        "tier": 60
+      },
+      {
+        "text": "Boo boo",
+        "tier": 60
+      },
+      {
+        "text": "Sugar cube",
+        "tier": 60
+      },
+      {
+        "text": "Gumdrop",
+        "tier": 60
+      },
+      {
+        "text": "Sweet tart",
+        "tier": 60
+      },
+      {
+        "text": "Button",
+        "tier": 60
+      },
+      {
+        "text": "Cutie patootie",
+        "tier": 60
+      },
+      {
+        "text": "Angel face",
+        "tier": 60
+      },
+      {
+        "text": "Angel cakes",
+        "tier": 60
+      },
+      {
+        "text": "Mi corazon",
+        "tier": 60
+      },
+      {
+        "text": "Mi reina",
+        "tier": 60
+      },
+      {
+        "text": "Mon chou",
+        "tier": 60
+      },
+      {
+        "text": "Mon petit chou",
+        "tier": 60
+      },
+      {
+        "text": "Ma puce",
+        "tier": 60
+      },
+      {
+        "text": "Bichette",
+        "tier": 60
+      },
+      {
+        "text": "Doudou",
+        "tier": 60
+      },
+      {
+        "text": "Cheri",
+        "tier": 60
+      },
+      {
+        "text": "Cherie",
+        "tier": 60
+      },
+      {
+        "text": "Hase",
+        "tier": 60
+      },
+      {
+        "text": "Schnucki",
+        "tier": 60
+      },
+      {
+        "text": "Nena",
+        "tier": 60
+      },
+      {
+        "text": "Chiquita",
+        "tier": 60
+      },
+      {
+        "text": "Chiquito",
+        "tier": 60
+      },
+      {
+        "text": "Corazoncito",
+        "tier": 60
+      },
+      {
+        "text": "Mamacita",
+        "tier": 60
+      },
+      {
+        "text": "Papito",
+        "tier": 60
+      },
+      {
+        "text": "Amorcito",
+        "tier": 60
+      },
+      {
+        "text": "Cielito",
+        "tier": 60
+      },
+      {
+        "text": "Hayati",
+        "tier": 60
+      },
+      {
+        "text": "Albi",
+        "tier": 60
+      },
+      {
+        "text": "Rohi",
+        "tier": 60
+      },
+      {
+        "text": "Jaan",
+        "tier": 60
+      },
+      {
+        "text": "Jaanu",
+        "tier": 60
+      },
+      {
+        "text": "Shona",
+        "tier": 60
+      },
+      {
+        "text": "Meri jaan",
+        "tier": 60
+      },
+      {
+        "text": "Janam",
+        "tier": 60
+      },
+      {
+        "text": "Oppa",
+        "tier": 60
+      },
+      {
+        "text": "Yeobo",
+        "tier": 60
+      },
+      {
         "text": "Sweetie pie",
         "tier": 30
       },
@@ -3897,6 +4477,9 @@
       },
       {
         "text": "Doll",
+        "aliases": [
+          "babydoll"
+        ],
         "tier": 30
       },
       {
@@ -3929,6 +4512,9 @@
       },
       {
         "text": "Teddy bear",
+        "aliases": [
+          "teddy"
+        ],
         "tier": 30
       },
       {
@@ -3993,14 +4579,16 @@
       {
         "text": "Honey",
         "aliases": [
-          "hon"
+          "hon",
+          "hun"
         ],
         "tier": 10
       },
       {
         "text": "Sweetie",
         "aliases": [
-          "sweetheart"
+          "sweetheart",
+          "sweets"
         ],
         "tier": 10
       },
@@ -4017,10 +4605,18 @@
       },
       {
         "text": "Dear",
+        "aliases": [
+          "dearest",
+          "my dear"
+        ],
         "tier": 10
       },
       {
         "text": "Love",
+        "aliases": [
+          "my love",
+          "luv"
+        ],
         "tier": 10
       },
       {
@@ -4276,7 +4872,8 @@
       {
         "text": "Fire log pose",
         "aliases": [
-          "double pigeon"
+          "double pigeon",
+          "figure four"
         ],
         "tier": 60
       },
@@ -4359,7 +4956,8 @@
       {
         "text": "Knees to chest",
         "aliases": [
-          "apanasana"
+          "apanasana",
+          "knees chest"
         ],
         "tier": 60
       },
@@ -4372,10 +4970,16 @@
       },
       {
         "text": "Noose pose",
+        "aliases": [
+          "pasasana"
+        ],
         "tier": 60
       },
       {
         "text": "Heron pose",
+        "aliases": [
+          "krounchasana"
+        ],
         "tier": 60
       },
       {
@@ -4403,6 +5007,9 @@
       },
       {
         "text": "Embryo pose",
+        "aliases": [
+          "garbha pindasana"
+        ],
         "tier": 60
       },
       {
@@ -4529,6 +5136,60 @@
         "tier": 60
       },
       {
+        "text": "Wide-angle seated forward bend",
+        "aliases": [
+          "upavistha konasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Head-to-knee pose",
+        "aliases": [
+          "janu sirsasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Revolved head-to-knee",
+        "tier": 60
+      },
+      {
+        "text": "Side lunge",
+        "tier": 60
+      },
+      {
+        "text": "Half forward fold",
+        "tier": 60
+      },
+      {
+        "text": "Half lift",
+        "tier": 60
+      },
+      {
+        "text": "Knees chest chin",
+        "tier": 60
+      },
+      {
+        "text": "Supine pigeon",
+        "tier": 60
+      },
+      {
+        "text": "Reclined hand to big toe",
+        "tier": 60
+      },
+      {
+        "text": "Supported shoulder stand",
+        "tier": 60
+      },
+      {
+        "text": "Tripod headstand",
+        "tier": 60
+      },
+      {
+        "text": "Baby cobra",
+        "tier": 60
+      },
+      {
         "text": "Warrior two",
         "aliases": [
           "warrior ii",
@@ -4549,7 +5210,8 @@
         "text": "Upward dog",
         "aliases": [
           "upward-facing dog",
-          "up dog"
+          "up dog",
+          "urdhva mukha svanasana"
         ],
         "tier": 30
       },
@@ -4557,7 +5219,8 @@
         "text": "Triangle",
         "aliases": [
           "triangle pose",
-          "trikonasana"
+          "trikonasana",
+          "extended triangle"
         ],
         "tier": 30
       },
@@ -4565,42 +5228,49 @@
         "text": "Bridge",
         "aliases": [
           "bridge pose",
-          "setu bandha"
+          "setu bandha",
+          "setu bandhasana"
         ],
         "tier": 30
       },
       {
         "text": "Cat pose",
         "aliases": [
-          "cat"
+          "cat",
+          "marjaryasana"
         ],
         "tier": 30
       },
       {
         "text": "Cow pose",
         "aliases": [
-          "cow"
+          "cow",
+          "bitilasana"
         ],
         "tier": 30
       },
       {
         "text": "Chair pose",
         "aliases": [
-          "utkatasana"
+          "utkatasana",
+          "chair"
         ],
         "tier": 30
       },
       {
         "text": "Boat pose",
         "aliases": [
-          "navasana"
+          "navasana",
+          "boat"
         ],
         "tier": 30
       },
       {
         "text": "Pigeon",
         "aliases": [
-          "pigeon pose"
+          "pigeon pose",
+          "half pigeon",
+          "kapotasana pigeon"
         ],
         "tier": 30
       },
@@ -4616,7 +5286,8 @@
         "text": "Crow pose",
         "aliases": [
           "crow",
-          "bakasana"
+          "bakasana",
+          "crane pose"
         ],
         "tier": 30
       },
@@ -4662,7 +5333,8 @@
         "text": "Wheel pose",
         "aliases": [
           "wheel",
-          "urdhva dhanurasana"
+          "urdhva dhanurasana",
+          "full wheel"
         ],
         "tier": 30
       },
@@ -4670,7 +5342,8 @@
         "text": "Forward fold",
         "aliases": [
           "standing forward bend",
-          "uttanasana"
+          "uttanasana",
+          "ragdoll"
         ],
         "tier": 30
       },
@@ -4723,7 +5396,8 @@
         "text": "Low lunge",
         "aliases": [
           "crescent lunge",
-          "anjaneyasana"
+          "anjaneyasana",
+          "crescent moon"
         ],
         "tier": 30
       },
@@ -4747,6 +5421,10 @@
       },
       {
         "text": "Chaturanga",
+        "aliases": [
+          "chaturanga dandasana",
+          "low plank"
+        ],
         "tier": 30
       },
       {
@@ -4777,6 +5455,9 @@
       },
       {
         "text": "Puppy pose",
+        "aliases": [
+          "extended puppy"
+        ],
         "tier": 30
       },
       {
@@ -4804,12 +5485,16 @@
       },
       {
         "text": "Thread the needle",
+        "aliases": [
+          "eye of the needle"
+        ],
         "tier": 30
       },
       {
         "text": "Extended side angle",
         "aliases": [
-          "side angle"
+          "side angle",
+          "utthita parsvakonasana"
         ],
         "tier": 30
       },
@@ -4846,7 +5531,8 @@
         "text": "Corpse pose",
         "aliases": [
           "savasana",
-          "shavasana"
+          "shavasana",
+          "corpse"
         ],
         "tier": 15
       },
@@ -4870,7 +5556,8 @@
         "text": "Child's pose",
         "aliases": [
           "childs pose",
-          "balasana"
+          "balasana",
+          "child"
         ],
         "tier": 10
       },
@@ -4888,7 +5575,8 @@
           "warrior pose",
           "warrior one",
           "warrior i",
-          "warrior 1"
+          "warrior 1",
+          "virabhadrasana"
         ],
         "tier": 10
       },
@@ -4936,7 +5624,8 @@
         "text": "Ecto-1",
         "aliases": [
           "ecto 1",
-          "ghostbusters car"
+          "ghostbusters car",
+          "ectomobile"
         ],
         "tier": 100
       },
@@ -5050,7 +5739,9 @@
         "text": "Aston Martin DB5",
         "aliases": [
           "james bond car",
-          "bond car"
+          "bond car",
+          "james bond aston martin",
+          "007 car"
         ],
         "tier": 60
       },
@@ -5243,6 +5934,166 @@
         "tier": 60
       },
       {
+        "text": "Jurassic Park Jeep",
+        "tier": 60
+      },
+      {
+        "text": "Speed bus",
+        "tier": 60
+      },
+      {
+        "text": "Andrea Gail",
+        "tier": 60
+      },
+      {
+        "text": "Flying Dutchman",
+        "tier": 60
+      },
+      {
+        "text": "Queen Anne's Revenge",
+        "tier": 60
+      },
+      {
+        "text": "Hispaniola",
+        "tier": 60
+      },
+      {
+        "text": "Pequod",
+        "tier": 60
+      },
+      {
+        "text": "Jolly Roger ship",
+        "tier": 60
+      },
+      {
+        "text": "Red October",
+        "tier": 60
+      },
+      {
+        "text": "Seaview",
+        "tier": 60
+      },
+      {
+        "text": "Proteus",
+        "tier": 60
+      },
+      {
+        "text": "Event Horizon",
+        "tier": 60
+      },
+      {
+        "text": "Prometheus",
+        "tier": 60
+      },
+      {
+        "text": "Valley Forge",
+        "tier": 60
+      },
+      {
+        "text": "Heart of Gold",
+        "tier": 60
+      },
+      {
+        "text": "Red Dwarf",
+        "tier": 60
+      },
+      {
+        "text": "Moya",
+        "tier": 60
+      },
+      {
+        "text": "Enterprise-D",
+        "tier": 60
+      },
+      {
+        "text": "Defiant",
+        "tier": 60
+      },
+      {
+        "text": "Voyager",
+        "tier": 60
+      },
+      {
+        "text": "Klingon Bird of Prey",
+        "tier": 60
+      },
+      {
+        "text": "Borg cube",
+        "tier": 60
+      },
+      {
+        "text": "Romulan Warbird",
+        "tier": 60
+      },
+      {
+        "text": "Executor",
+        "tier": 60
+      },
+      {
+        "text": "Razor Crest",
+        "tier": 60
+      },
+      {
+        "text": "Naboo starfighter",
+        "tier": 60
+      },
+      {
+        "text": "Jedi starfighter",
+        "tier": 60
+      },
+      {
+        "text": "A-wing",
+        "tier": 60
+      },
+      {
+        "text": "Y-wing",
+        "tier": 60
+      },
+      {
+        "text": "B-wing",
+        "tier": 60
+      },
+      {
+        "text": "Snowspeeder",
+        "tier": 60
+      },
+      {
+        "text": "AT-ST",
+        "tier": 60
+      },
+      {
+        "text": "Sith Infiltrator",
+        "tier": 60
+      },
+      {
+        "text": "Death Star II",
+        "tier": 60
+      },
+      {
+        "text": "Starkiller Base",
+        "tier": 60
+      },
+      {
+        "text": "Nimbus 2000",
+        "tier": 60
+      },
+      {
+        "text": "Firebolt",
+        "tier": 60
+      },
+      {
+        "text": "Hagrid's motorcycle",
+        "tier": 60
+      },
+      {
+        "text": "Grave Digger",
+        "tier": 60
+      },
+      {
+        "text": "BMW Z3",
+        "tier": 60
+      },
+      {
         "text": "Starship Enterprise",
         "aliases": [
           "enterprise",
@@ -5264,13 +6115,17 @@
       },
       {
         "text": "Hogwarts Express",
+        "aliases": [
+          "hogwarts train"
+        ],
         "tier": 30
       },
       {
         "text": "Flying Ford Anglia",
         "aliases": [
           "ford anglia",
-          "weasleys car"
+          "weasleys car",
+          "hogwarts flying car"
         ],
         "tier": 30
       },
@@ -5280,6 +6135,9 @@
       },
       {
         "text": "Black Pearl",
+        "aliases": [
+          "black pearl ship"
+        ],
         "tier": 30
       },
       {
@@ -5296,43 +6154,61 @@
       },
       {
         "text": "Bumblebee",
+        "aliases": [
+          "bumblebee camaro"
+        ],
         "tier": 30
       },
       {
         "text": "Optimus Prime",
+        "aliases": [
+          "optimus"
+        ],
         "tier": 30
       },
       {
         "text": "Mater",
+        "aliases": [
+          "tow mater"
+        ],
         "tier": 30
       },
       {
         "text": "Thomas the Tank Engine",
         "aliases": [
-          "thomas"
+          "thomas",
+          "thomas the tank"
         ],
         "tier": 30
       },
       {
         "text": "Polar Express",
+        "aliases": [
+          "polar express train"
+        ],
         "tier": 30
       },
       {
         "text": "Mach 5",
         "aliases": [
-          "mach five"
+          "mach five",
+          "speed racer car"
         ],
         "tier": 30
       },
       {
         "text": "A-Team van",
         "aliases": [
-          "the a-team van"
+          "the a-team van",
+          "b.a.'s van"
         ],
         "tier": 30
       },
       {
         "text": "Bluesmobile",
+        "aliases": [
+          "blues brothers car"
+        ],
         "tier": 30
       },
       {
@@ -5371,24 +6247,38 @@
       },
       {
         "text": "Serenity",
+        "aliases": [
+          "firefly ship"
+        ],
         "tier": 30
       },
       {
         "text": "TARDIS",
+        "aliases": [
+          "police box",
+          "blue box"
+        ],
         "tier": 30
       },
       {
         "text": "Planet Express Ship",
+        "aliases": [
+          "planet express"
+        ],
         "tier": 30
       },
       {
         "text": "Jetsons car",
+        "aliases": [
+          "jetsons flying car"
+        ],
         "tier": 30
       },
       {
         "text": "Cinderella's carriage",
         "aliases": [
-          "pumpkin carriage"
+          "pumpkin carriage",
+          "pumpkin coach"
         ],
         "tier": 30
       },
@@ -5410,7 +6300,9 @@
         "text": "Interceptor",
         "aliases": [
           "mad max car",
-          "pursuit special"
+          "pursuit special",
+          "max's interceptor",
+          "v8 interceptor"
         ],
         "tier": 30
       },
@@ -5420,6 +6312,9 @@
       },
       {
         "text": "Christine",
+        "aliases": [
+          "plymouth fury"
+        ],
         "tier": 30
       },
       {
@@ -5472,7 +6367,8 @@
       {
         "text": "Wagon Queen Family Truckster",
         "aliases": [
-          "family truckster"
+          "family truckster",
+          "griswold station wagon"
         ],
         "tier": 30
       },
@@ -5512,6 +6408,9 @@
       },
       {
         "text": "Bullitt Mustang",
+        "aliases": [
+          "bullitt car"
+        ],
         "tier": 30
       },
       {
@@ -5535,6 +6434,9 @@
       },
       {
         "text": "Warthog",
+        "aliases": [
+          "halo warthog"
+        ],
         "tier": 30
       },
       {
@@ -5547,10 +6449,16 @@
       },
       {
         "text": "Arwing",
+        "aliases": [
+          "arwing ship"
+        ],
         "tier": 30
       },
       {
         "text": "Blue Falcon",
+        "aliases": [
+          "blue falcon car"
+        ],
         "tier": 30
       },
       {
@@ -5678,7 +6586,8 @@
       {
         "text": "Flintstones car",
         "aliases": [
-          "flintmobile"
+          "flintmobile",
+          "flintstone mobile"
         ],
         "tier": 15
       },
@@ -5691,46 +6600,66 @@
       },
       {
         "text": "Batmobile",
+        "aliases": [
+          "batmobile tumbler"
+        ],
         "tier": 10
       },
       {
         "text": "DeLorean",
         "aliases": [
-          "time machine"
+          "time machine",
+          "delorean time machine",
+          "back to the future car",
+          "back to the future delorean"
         ],
         "tier": 10
       },
       {
         "text": "Millennium Falcon",
+        "aliases": [
+          "the falcon"
+        ],
         "tier": 10
       },
       {
         "text": "Herbie",
         "aliases": [
-          "herbie the love bug"
+          "herbie the love bug",
+          "love bug"
         ],
         "tier": 10
       },
       {
         "text": "Lightning McQueen",
         "aliases": [
-          "mcqueen"
+          "mcqueen",
+          "lightning"
         ],
         "tier": 10
       },
       {
         "text": "General Lee",
+        "aliases": [
+          "dodge charger general lee"
+        ],
         "tier": 10
       },
       {
         "text": "KITT",
         "aliases": [
-          "knight rider car"
+          "knight rider car",
+          "kit"
         ],
         "tier": 10
       },
       {
         "text": "Mystery Machine",
+        "aliases": [
+          "mystery machine van",
+          "scooby van",
+          "scooby-doo van"
+        ],
         "tier": 10
       }
     ],
