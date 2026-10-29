@@ -8,78 +8,6 @@ prompt: Name a famous inventor
 Hedy Lamarr | lamarr
 
 [Deep Cut]
-Nils Bohlin
-Mary Kies
-Tabitha Babbitt
-Sarah Goode
-Beulah Louise Henry
-Hertha Ayrton
-Amanda Theodosia Jones
-Martha Coston
-Lillian Gilbreth
-Maria Telkes
-Katharine Burr Blodgett
-Shirley Ann Jackson
-Marie Van Brittan Brown
-Patricia Bath
-Valerie Thomas
-Lonnie Johnson
-James West
-Mark Dean
-Gerald Lawson
-Frederick McKinley Jones
-Otis Boykin
-Lyda Newman
-Alice Parker
-Joseph Swan
-Humphry Davy
-William Sturgeon
-Joseph Henry
-Charles Wheatstone
-William Fothergill Cooke
-Antonio Meucci | meucci
-Elisha Gray
-Emile Berliner
-Thomas Watson
-Charles Cros
-Louis Le Prince
-Lumiere brothers | lumiere | auguste lumiere | louis lumiere
-William Friese-Greene
-Eadweard Muybridge | muybridge
-Louis Daguerre | daguerre
-Nicephore Niepce | niepce
-William Henry Fox Talbot | fox talbot
-Joseph Marie Jacquard | jacquard
-Richard Arkwright | arkwright
-James Hargreaves | hargreaves
-Samuel Crompton
-Edmund Cartwright
-John Kay
-Abraham Darby
-Henry Bessemer | bessemer
-Henry Maudslay
-Joseph Bramah
-Joseph Whitworth
-Isambard Kingdom Brunel | brunel
-Charles Parsons
-Christopher Sholes | sholes
-Lewis Waterman
-Laszlo Biro | biro
-Whitcomb Judson
-Gideon Sundback
-Walter Hunt
-King Camp Gillette | gillette
-Jacob Schick
-Thomas Crapper
-Alexander Cumming
-Charles Strite
-Frank Epperson
-Walter Diemer
-George Crum
-Joseph Friedman
-Seth Wheeler
-
-[Rare]
 Thomas Newcomen | newcomen
 George Stephenson | stephenson
 Richard Trevithick | trevithick
@@ -224,8 +152,78 @@ Fritz Haber
 Carl Bosch
 Ctesibius of Alexandria
 Robert Hooke
+Nils Bohlin
+Mary Kies
+Tabitha Babbitt
+Sarah Goode
+Beulah Louise Henry
+Hertha Ayrton
+Amanda Theodosia Jones
+Martha Coston
+Lillian Gilbreth
+Maria Telkes
+Katharine Burr Blodgett
+Shirley Ann Jackson
+Marie Van Brittan Brown
+Patricia Bath
+Valerie Thomas
+Lonnie Johnson
+James West
+Mark Dean
+Gerald Lawson
+Frederick McKinley Jones
+Otis Boykin
+Lyda Newman
+Alice Parker
+Joseph Swan
+Humphry Davy
+William Sturgeon
+Joseph Henry
+Charles Wheatstone
+William Fothergill Cooke
+Antonio Meucci | meucci
+Elisha Gray
+Emile Berliner
+Thomas Watson
+Charles Cros
+Louis Le Prince
+Lumiere brothers | lumiere | auguste lumiere | louis lumiere
+William Friese-Greene
+Eadweard Muybridge | muybridge
+Louis Daguerre | daguerre
+Nicephore Niepce | niepce
+William Henry Fox Talbot | fox talbot
+Joseph Marie Jacquard | jacquard
+Richard Arkwright | arkwright
+James Hargreaves | hargreaves
+Samuel Crompton
+Edmund Cartwright
+John Kay
+Abraham Darby
+Henry Bessemer | bessemer
+Henry Maudslay
+Joseph Bramah
+Joseph Whitworth
+Isambard Kingdom Brunel | brunel
+Charles Parsons
+Christopher Sholes | sholes
+Lewis Waterman
+Laszlo Biro | biro
+Whitcomb Judson
+Gideon Sundback
+Walter Hunt
+King Camp Gillette | gillette
+Jacob Schick
+Thomas Crapper
+Alexander Cumming
+Charles Strite
+Frank Epperson
+Walter Diemer
+George Crum
+Joseph Friedman
+Seth Wheeler
 
-[Schooler]
+[Rare]
 Johannes Gutenberg | gutenberg
 James Watt | watt
 Eli Whitney | whitney
@@ -262,6 +260,9 @@ Josephine Cochrane
 Grace Hopper | hopper
 Alan Turing | turing
 
+[Schooler]
+Henry Ford | ford
+
 [Too Clever]
 Leonardo da Vinci | da vinci | leonardo
 Steve Jobs | jobs
@@ -275,7 +276,6 @@ Alexander Graham Bell | bell | graham bell
 Benjamin Franklin | ben franklin | franklin
 Nikola Tesla | tesla
 The Wright Brothers | wright brothers | orville wright | wilbur wright | orville and wilbur wright
-Henry Ford | ford
 
 [Not accepted]
 Charles Darwin
@@ -294,66 +294,6 @@ prompt: Name a classic toy
 Stretch Armstrong
 
 [Deep Cut]
-Ball and jacks
-Pick-up sticks
-Tiddlywinks
-Cat's cradle
-Jacob's ladder
-Buzz saw toy | whirligig button
-Bilboquet
-Diabolo
-Kendama
-Gyroscope
-Drinking bird
-Newton's cradle
-Wooly Willy
-Mr. Machine
-Robby the Robot
-Big Loo
-Major Matt Mason
-Johnny West
-Evel Knievel stunt cycle
-Micronauts
-Shogun Warriors
-Stretch Monster
-Sky Dancers
-Gak
-Floam
-Moon sand
-Kinetic sand
-Orbeez
-Water Wigglies
-Lego Mindstorms
-Capsela
-Construx
-Robotix
-Zoids
-M.U.S.C.L.E.
-Garbage Pail Kids
-Madballs
-Boglins
-Food Fighters
-Trash Pack
-Mighty Max
-Treasure Trolls
-Furreal Friends
-Wuzzles
-Glo Friends
-Sweet Secrets
-Jem doll
-Lady Lovely Locks
-She-Ra
-Thundercats
-Visionaries
-Sectaurs
-Inhumanoids
-Starting Lineup
-Stomper
-Tyco R/C
-Lazer Tag
-Atari Video Pinball
-
-[Rare]
 Erector set
 K'Nex | knex
 Mega Bloks
@@ -551,8 +491,66 @@ Tin soldier
 Tin toy
 Clockwork toy
 Automaton
+Ball and jacks
+Pick-up sticks
+Tiddlywinks
+Cat's cradle
+Jacob's ladder
+Buzz saw toy | whirligig button
+Bilboquet
+Diabolo
+Kendama
+Gyroscope
+Drinking bird
+Newton's cradle
+Wooly Willy
+Mr. Machine
+Robby the Robot
+Big Loo
+Major Matt Mason
+Johnny West
+Evel Knievel stunt cycle
+Micronauts
+Shogun Warriors
+Stretch Monster
+Sky Dancers
+Gak
+Floam
+Moon sand
+Kinetic sand
+Orbeez
+Water Wigglies
+Lego Mindstorms
+Capsela
+Construx
+Robotix
+Zoids
+M.U.S.C.L.E.
+Garbage Pail Kids
+Madballs
+Boglins
+Food Fighters
+Trash Pack
+Mighty Max
+Treasure Trolls
+Furreal Friends
+Wuzzles
+Glo Friends
+Sweet Secrets
+Jem doll
+Lady Lovely Locks
+She-Ra
+Thundercats
+Visionaries
+Sectaurs
+Inhumanoids
+Starting Lineup
+Stomper
+Tyco R/C
+Lazer Tag
+Atari Video Pinball
 
-[Schooler]
+[Rare]
 Play-Doh | playdoh | play doh
 Mr. Potato Head | potato head
 Lincoln Logs
@@ -609,6 +607,11 @@ Toy car
 Rattle
 Stuffed animal | plush
 
+[Schooler]
+Hot Wheels
+Rubik's Cube | rubiks cube | rubik's
+Etch A Sketch | etch-a-sketch
+
 [Too Clever]
 Pet Rock
 Cardboard box
@@ -620,9 +623,6 @@ Barbie
 Yo-yo | yoyo
 Teddy bear | teddy
 Slinky
-Hot Wheels
-Rubik's Cube | rubiks cube | rubik's
-Etch A Sketch | etch-a-sketch
 
 [Not accepted]
 Television
@@ -641,69 +641,6 @@ note: Ranks from any branch or country's armed forces.
 Lance corporal | lance corporal
 
 [Deep Cut]
-Generalissimo
-Marshal of the Soviet Union
-Field marshal general
-Generaloberst
-Oberst
-Hauptmann
-Leutnant
-Feldwebel
-Gefreiter
-Unteroffizier
-Kapitan
-Kommandant
-Capitaine
-Sous-lieutenant
-Adjudant
-Caporal
-Sergent
-Colonnello
-Capitano
-Tenente
-Maresciallo
-Coronel
-Teniente
-Sargento
-Cabo
-Shogun
-Daimyo
-Centurion
-Legate
-Tribune
-Optio
-Decurion
-Praetor
-Hoplite
-Strategos
-Chiliarch
-Ataman
-Hetman
-Esaul
-Subedar
-Havildar
-Naik
-Jemadar
-Risaldar
-Pasha
-Bey
-Agha
-Cornet
-Subaltern
-Commandant
-Brevet major
-Flag officer
-Post captain
-Master and commander
-Vice admiral of the fleet
-Grand admiral
-Admiral of the fleet
-Sergeant at arms
-Provost marshal
-Adjutant
-Aide-de-camp
-
-[Rare]
 Specialist | spc
 Private first class | pfc
 Gunnery sergeant | gunny
@@ -787,8 +724,69 @@ Hospitalman
 Corpsman
 Yeoman
 Recruit
+Generalissimo
+Marshal of the Soviet Union
+Field marshal general
+Generaloberst
+Oberst
+Hauptmann
+Leutnant
+Feldwebel
+Gefreiter
+Unteroffizier
+Kapitan
+Kommandant
+Capitaine
+Sous-lieutenant
+Adjudant
+Caporal
+Sergent
+Colonnello
+Capitano
+Tenente
+Maresciallo
+Coronel
+Teniente
+Sargento
+Cabo
+Shogun
+Daimyo
+Centurion
+Legate
+Tribune
+Optio
+Decurion
+Praetor
+Hoplite
+Strategos
+Chiliarch
+Ataman
+Hetman
+Esaul
+Subedar
+Havildar
+Naik
+Jemadar
+Risaldar
+Pasha
+Bey
+Agha
+Cornet
+Subaltern
+Commandant
+Brevet major
+Flag officer
+Post captain
+Master and commander
+Vice admiral of the fleet
+Grand admiral
+Admiral of the fleet
+Sergeant at arms
+Provost marshal
+Adjutant
+Aide-de-camp
 
-[Schooler]
+[Rare]
 Corporal | cpl
 Lieutenant colonel | lt col
 Brigadier general | brigadier
@@ -813,6 +811,11 @@ Cadet
 Field marshal | field marshall
 Warrant officer
 
+[Schooler]
+Lieutenant | lt | leftenant
+Major | maj
+Admiral | adm
+
 [Too Clever]
 Five-star general
 Commander in Chief | commander-in-chief
@@ -823,9 +826,6 @@ Sergeant | sgt | sarge
 Captain | capt
 Private | pvt
 Colonel | col
-Lieutenant | lt | leftenant
-Major | maj
-Admiral | adm
 
 [Not accepted]
 Soldier
@@ -846,80 +846,6 @@ prompt: Name an exercise or workout move
 Turkish get-up | turkish getup
 
 [Deep Cut]
-Jefferson curl
-Snatch-grip deadlift
-Deficit deadlift
-Rack pull
-Pin press
-Floor press
-Board press
-Spoto press
-Larsen press
-JM press
-Tate press
-Rolling tricep extension
-Spider curl
-Zottman curl
-Drag curl
-Bayesian curl
-Meadows row
-Kroc row
-Seal row
-Yates row
-Helms row
-Chest-supported row
-Inverted row | australian pull-up
-Ring dip
-Ring row
-Skin the cat
-Tuck planche
-Straddle planche
-Maltese
-Iron cross
-Kipping pull-up
-Butterfly pull-up
-Strict press
-Z press
-Landmine press
-Viking press
-Log press
-Atlas stone
-Yoke walk
-Keg toss
-Husafell stone
-Conan's wheel
-Sandbag carry
-Suitcase carry
-Waiter's walk
-Copenhagen plank
-Cossack squat
-Shrimp squat
-Dragon squat
-Poliquin step-up
-Peterson step-up
-Reverse Nordic
-Tibialis raise
-Hip airplane
-World's greatest stretch
-Sots press
-Snatch balance
-Muscle snatch
-Clean pull
-Hang snatch
-Split jerk
-Burpee pull-up
-Devil press
-Man maker
-Bear complex
-Turkish sit-up
-Windmill
-Halo
-Around the world
-Plate pinch
-Wrist roller
-Grip trainer
-
-[Rare]
 Goblet squat
 Front squat
 Back squat
@@ -1193,8 +1119,80 @@ Body saw
 Hollow rock
 Arch hold
 Superman hold
+Jefferson curl
+Snatch-grip deadlift
+Deficit deadlift
+Rack pull
+Pin press
+Floor press
+Board press
+Spoto press
+Larsen press
+JM press
+Tate press
+Rolling tricep extension
+Spider curl
+Zottman curl
+Drag curl
+Bayesian curl
+Meadows row
+Kroc row
+Seal row
+Yates row
+Helms row
+Chest-supported row
+Inverted row | australian pull-up
+Ring dip
+Ring row
+Skin the cat
+Tuck planche
+Straddle planche
+Maltese
+Iron cross
+Kipping pull-up
+Butterfly pull-up
+Strict press
+Z press
+Landmine press
+Viking press
+Log press
+Atlas stone
+Yoke walk
+Keg toss
+Husafell stone
+Conan's wheel
+Sandbag carry
+Suitcase carry
+Waiter's walk
+Copenhagen plank
+Cossack squat
+Shrimp squat
+Dragon squat
+Poliquin step-up
+Peterson step-up
+Reverse Nordic
+Tibialis raise
+Hip airplane
+World's greatest stretch
+Sots press
+Snatch balance
+Muscle snatch
+Clean pull
+Hang snatch
+Split jerk
+Burpee pull-up
+Devil press
+Man maker
+Bear complex
+Turkish sit-up
+Windmill
+Halo
+Around the world
+Plate pinch
+Wrist roller
+Grip trainer
 
-[Schooler]
+[Rare]
 Crunch
 Bench press
 Deadlift
@@ -1237,6 +1235,11 @@ Toe touch
 Arm circles
 Rowing
 
+[Schooler]
+Lunge
+Pull-up | pullup | pull up | pull-ups
+Burpee
+
 [Too Clever]
 Yoga
 Running
@@ -1248,9 +1251,6 @@ Sit-up | situp | sit up | sit-ups
 Squat
 Jumping jacks | jumping jack
 Plank
-Lunge
-Pull-up | pullup | pull up | pull-ups
-Burpee
 
 [Not accepted]
 Sleeping
@@ -1270,70 +1270,6 @@ prompt: Name a type of boat or ship
 Trireme
 
 [Deep Cut]
-Bireme
-Quinquereme
-Penteconter
-Knarr
-Cog
-Hulk
-Nao
-Fluyt
-Xebec
-Polacre
-Bilander
-Hoy
-Smack
-Lugger
-Bugeye
-Skipjack
-Sharpie
-Catboat
-Friendship sloop
-Pinky
-Bawley
-Thames barge
-Wherry
-Gig
-Djong
-Lorcha
-Bangka
-Vinta
-Waka
-Va'a
-Drua
-Baidarka
-Bull boat
-Reed boat
-Balsa raft
-Quffa
-Shikara
-Kettuvallam
-Chundan vallam
-Caique
-Gulet
-Trabaccolo
-Bragozzo
-Sandolo
-Topo
-Vaporetto
-Bateau mouche
-Peniche
-Tjalk
-Botter
-Hooker
-Currach
-Faering
-Snekkja
-Busse
-Karve
-Drakkar
-Ekranoplan
-SWATH
-Semi-submersible
-Bathyscaphe
-Submersible
-
-[Rare]
 Schooner
 Sloop
 Ketch
@@ -1504,8 +1440,70 @@ Midget submarine
 Ballistic missile submarine
 Attack submarine
 Diesel submarine
+Bireme
+Quinquereme
+Penteconter
+Knarr
+Cog
+Hulk
+Nao
+Fluyt
+Xebec
+Polacre
+Bilander
+Hoy
+Smack
+Lugger
+Bugeye
+Skipjack
+Sharpie
+Catboat
+Friendship sloop
+Pinky
+Bawley
+Thames barge
+Wherry
+Gig
+Djong
+Lorcha
+Bangka
+Vinta
+Waka
+Va'a
+Drua
+Baidarka
+Bull boat
+Reed boat
+Balsa raft
+Quffa
+Shikara
+Kettuvallam
+Chundan vallam
+Caique
+Gulet
+Trabaccolo
+Bragozzo
+Sandolo
+Topo
+Vaporetto
+Bateau mouche
+Peniche
+Tjalk
+Botter
+Hooker
+Currach
+Faering
+Snekkja
+Busse
+Karve
+Drakkar
+Ekranoplan
+SWATH
+Semi-submersible
+Bathyscaphe
+Submersible
 
-[Schooler]
+[Rare]
 Ferry
 Tugboat | tug
 Barge
@@ -1539,6 +1537,11 @@ Dugout canoe
 Bass boat
 Ski boat
 
+[Schooler]
+Speedboat
+Rowboat
+Submarine
+
 [Too Clever]
 Paddleboard
 Hovercraft
@@ -1550,9 +1553,6 @@ Canoe
 Kayak
 Yacht
 Cruise ship
-Speedboat
-Rowboat
-Submarine
 
 [Not accepted]
 Car
@@ -1573,76 +1573,6 @@ prompt: Name a landform or natural feature (like a canyon)
 Drumlin
 
 [Deep Cut]
-Kame
-Kettle
-Tarn
-Paternoster lakes
-Roche moutonnee
-Nunatak
-Pingo
-Thermokarst
-Polje
-Doline
-Uvala
-Tufa
-Travertine terrace
-Tepui
-Inselberg
-Bornhardt
-Monadnock
-Kopje
-Tor
-Yardang
-Ventifact
-Erg
-Reg
-Hamada
-Sabkha
-Chott
-Loess
-Cuesta
-Hogback
-Flatiron
-Graben
-Horst
-Rift valley
-Fault scarp
-Pediment
-Bajada
-Talus | scree
-Coulee
-Couloir
-Hanging valley
-Truncated spur
-Ria
-Tombolo
-Cuspate foreland
-Wave-cut platform
-Blowhole
-Machair
-Salt marsh
-Mangrove swamp
-Pocosin
-Muskeg
-Carr
-Billabong
-Anabranch
-Braided river
-Knickpoint
-Plunge pool
-Pothole
-Kettle lake
-Proglacial lake
-Lahar
-Maar
-Diatreme
-Volcanic neck
-Dike
-Sill
-Laccolith
-Batholith
-
-[Rare]
 Arroyo
 Wadi
 Gulch
@@ -1851,8 +1781,76 @@ Continental slope
 Continental rise
 Abyssal hill
 Black smoker
+Kame
+Kettle
+Tarn
+Paternoster lakes
+Roche moutonnee
+Nunatak
+Pingo
+Thermokarst
+Polje
+Doline
+Uvala
+Tufa
+Travertine terrace
+Tepui
+Inselberg
+Bornhardt
+Monadnock
+Kopje
+Tor
+Yardang
+Ventifact
+Erg
+Reg
+Hamada
+Sabkha
+Chott
+Loess
+Cuesta
+Hogback
+Flatiron
+Graben
+Horst
+Rift valley
+Fault scarp
+Pediment
+Bajada
+Talus | scree
+Coulee
+Couloir
+Hanging valley
+Truncated spur
+Ria
+Tombolo
+Cuspate foreland
+Wave-cut platform
+Blowhole
+Machair
+Salt marsh
+Mangrove swamp
+Pocosin
+Muskeg
+Carr
+Billabong
+Anabranch
+Braided river
+Knickpoint
+Plunge pool
+Pothole
+Kettle lake
+Proglacial lake
+Lahar
+Maar
+Diatreme
+Volcanic neck
+Dike
+Sill
+Laccolith
+Batholith
 
-[Schooler]
+[Rare]
 Volcano
 Desert
 Plateau
@@ -1904,6 +1902,11 @@ Rapids
 Basin
 Sea
 
+[Schooler]
+Lake
+Ocean
+Island
+
 [Too Clever]
 Iceberg
 Grand Canyon
@@ -1915,9 +1918,6 @@ Hill
 Valley
 Canyon
 River
-Lake
-Ocean
-Island
 
 [Not accepted]
 Building
@@ -1938,71 +1938,6 @@ prompt: Name a social media app or website
 Friendster
 
 [Deep Cut]
-Six Degrees
-Classmates.com | classmates
-Geocities
-Tribe.net
-Plurk
-Jaiku
-Pownce
-FriendFeed
-Diaspora
-Ello
-Cohost
-Hive Social
-Post News
-Spoutible
-Minds
-MeWe
-Vero
-Steemit
-Friendica
-Pixelfed
-PeerTube
-Lemmy
-Kbin
-Tildes
-Raddle
-Voat
-Ruqqus
-Saidit
-Clapper
-Dubsmash
-Musical.ly
-Keek
-Tout
-Viddy
-Socialcam
-Trovo
-Mobcrush
-Foursquare
-Gowalla
-Loopt
-Brightkite
-Yammer
-Ning
-Netlog
-StudiVZ
-Tuenti
-Draugiem
-Mixi
-Cyworld
-Renren
-Kaixin001
-Douban
-Zhihu
-Bilibili
-Tieba
-Naver
-Daum
-Zalo
-ShareChat
-Moj
-Koo
-Hike
-Roposo
-
-[Rare]
 Truth Social
 Parler
 Gab
@@ -2107,8 +2042,71 @@ Yahoo Groups
 Google Buzz
 Google Wave
 LiveLeak
+Six Degrees
+Classmates.com | classmates
+Geocities
+Tribe.net
+Plurk
+Jaiku
+Pownce
+FriendFeed
+Diaspora
+Ello
+Cohost
+Hive Social
+Post News
+Spoutible
+Minds
+MeWe
+Vero
+Steemit
+Friendica
+Pixelfed
+PeerTube
+Lemmy
+Kbin
+Tildes
+Raddle
+Voat
+Ruqqus
+Saidit
+Clapper
+Dubsmash
+Musical.ly
+Keek
+Tout
+Viddy
+Socialcam
+Trovo
+Mobcrush
+Foursquare
+Gowalla
+Loopt
+Brightkite
+Yammer
+Ning
+Netlog
+StudiVZ
+Tuenti
+Draugiem
+Mixi
+Cyworld
+Renren
+Kaixin001
+Douban
+Zhihu
+Bilibili
+Tieba
+Naver
+Daum
+Zalo
+ShareChat
+Moj
+Koo
+Hike
+Roposo
 
-[Schooler]
+[Rare]
 WhatsApp
 Discord
 Twitch
@@ -2125,6 +2123,11 @@ Flickr
 Google+ | google plus
 Periscope
 
+[Schooler]
+YouTube
+Reddit
+Pinterest
+
 [Too Clever]
 MySpace
 LinkedIn
@@ -2139,9 +2142,6 @@ Instagram | insta | ig
 TikTok
 Twitter | x | x.com
 Snapchat | snap
-YouTube
-Reddit
-Pinterest
 
 [Not accepted]
 Google
@@ -2162,6 +2162,13 @@ note: Earth's five oceans and named seas, including lakes that are called seas (
 Sargasso Sea | sargasso
 
 [Deep Cut]
+South China Sea
+Arabian Sea
+Aegean Sea | aegean
+Adriatic Sea | adriatic
+Baltic Sea | baltic
+North Sea
+Caspian Sea | caspian
 Kara Sea
 Laptev Sea
 East Siberian Sea
@@ -2232,15 +2239,6 @@ Sea of Japan | east sea
 Southern Ocean | antarctic ocean
 
 [Rare]
-South China Sea
-Arabian Sea
-Aegean Sea | aegean
-Adriatic Sea | adriatic
-Baltic Sea | baltic
-North Sea
-Caspian Sea | caspian
-
-[Schooler]
 Arctic Ocean | arctic
 Indian Ocean | indian
 Red Sea
@@ -2272,281 +2270,6 @@ Under the Sea
 Seashell
 
 # QUESTION
-id: q0129
-pool: unlimited
-category: music
-prompt: Name an Elvis Presley song
-
-[One in a Krillion]
-Viva Las Vegas
-
-[Deep Cut]
-I Love You Because
-Just Because
-I'm Left, You're Right, She's Gone
-When It Rains, It Really Pours
-Old Shep
-Paralyzed
-Got a Lot o' Livin' to Do
-Party
-Mean Woman Blues
-Loving You
-Baby I Don't Care | (you're so square) baby i don't care
-Young and Beautiful
-Don't Leave Me Now
-Dixieland Rock
-New Orleans
-Crawfish
-Steadfast, Loyal and True
-As Long as I Have You
-Lover Doll
-G.I. Blues
-Doin' the Best I Can
-Pocketful of Rainbows
-Flaming Star
-Wild in the Country
-Blue Hawaii
-Rock-A-Hula Baby
-Hawaiian Wedding Song
-Follow That Dream
-Kid Galahad
-King of the Whole Wide World
-Girls! Girls! Girls!
-Fun in Acapulco
-Roustabout
-Little Egypt
-Girl Happy
-Do the Clam
-Puppet on a String
-Frankie and Johnny
-Spinout
-Stop Where You Are
-Easy Come, Easy Go
-Double Trouble
-Clambake
-Speedway
-Let Yourself Go
-Charro
-Change of Habit
-
-[Rare]
-Kissin' Cousins
-Fever
-One Night
-I Got Stung
-A Big Hunk o' Love | big hunk of love
-Way Down
-Hurt
-Separate Ways
-Steamroller Blues
-I Just Can't Help Believin'
-You Don't Have to Say You Love Me
-The Wonder of You
-Don't Cry Daddy
-Clean Up Your Own Back Yard
-Memories
-Guitar Man
-U.S. Male
-Little Sister
-His Latest Flame | marie's the name his latest flame | marie's the name
-I Feel So Bad
-Wear My Ring Around Your Neck
-Too Much
-Playing for Keeps
-I Want You, I Need You, I Love You
-Treat Me Nice
-I Beg of You
-Doncha' Think It's Time
-Santa Claus Is Back in Town
-If Every Day Was Like Christmas
-Peace in the Valley
-How Great Thou Art
-Money Honey
-Shake, Rattle and Roll
-Lawdy Miss Clawdy
-Ready Teddy
-Rip It Up
-Blue Moon of Kentucky
-Good Rockin' Tonight
-Baby Let's Play House
-I Forgot to Remember to Forget
-Milkcow Blues Boogie
-Tryin' to Get to You
-That's When Your Heartaches Begin
-I Was the One
-Blue Moon
-I Don't Care if the Sun Don't Shine
-Harbor Lights
-I'll Never Let You Go
-I Need You So
-My Baby Left Me
-Shake That Tambourine
-So Glad You're Mine
-Long Tall Sally
-Tutti Frutti
-I Got a Woman
-When My Blue Moon Turns to Gold Again
-First in Line
-Anyway You Want Me
-Poor Boy
-Let Me
-We're Gonna Move
-Is It So Strange
-Hot Dog
-Lonesome Cowboy
-Don't
-I Want to Be Free
-White Christmas
-Here Comes Santa Claus
-Silent Night
-O Little Town of Bethlehem
-I'll Be Home for Christmas
-It Is No Secret
-I Believe
-Take My Hand, Precious Lord
-I Need Your Love Tonight
-A Fool Such as I
-My Wish Came True
-Fame and Fortune
-A Mess of Blues
-The Girl of My Best Friend
-I Gotta Know
-Such a Night
-It Feels So Right
-Reconsider Baby
-Like a Baby
-Dirty, Dirty Feeling
-Girl Next Door Went A-Walking
-I Will Be Home Again
-Moonlight Swim
-Beach Boy Blues
-Slicin' Sand
-Ito Eats
-No More
-Anything That's Part of You
-She's Not You
-Where Do You Come From
-Please Don't Drag That String Around
-One Broken Heart for Sale
-Witchcraft
-It Hurts Me
-What'd I Say
-Such an Easy Question
-Ask Me
-Ain't That Loving You Baby
-I'm Yours
-Tell Me Why
-Love Letters
-All That I Am
-Indescribably Blue
-Long Legged Girl
-There's Always Me
-Big Boss Man
-You'll Never Walk Alone
-I've Lost You
-Patch It Up
-I Really Don't Want to Know
-There Goes My Everything
-Rags to Riches
-Where Did They Go, Lord
-Life
-I'm Leavin'
-It's Only Love
-Until It's Time for You to Go
-Raised on Rock
-For Ol' Times Sake
-I've Got a Thing About You Baby
-Take Good Care of Her
-If You Talk in Your Sleep
-Help Me
-Promised Land
-It's Midnight
-My Boy
-Pieces of My Life
-Bringing It Back
-For the Heart
-She Thinks I Still Care
-Pledging My Love
-Bridge Over Troubled Water
-Sweet Caroline
-Johnny B. Goode
-See See Rider
-C.C. Rider
-Proud Mary
-Never Been to Spain
-Walk a Mile in My Shoes
-You've Lost That Lovin' Feelin'
-Release Me
-Funny How Time Slips Away
-Mary in the Morning
-Stranger in My Own Home Town
-Words
-Gentle on My Mind
-Long Black Limousine
-Wearin' That Loved On Look
-Only the Strong Survive
-Any Day Now
-After Loving You
-True Love Travels on a Gravel Road
-Power of My Love
-Edge of Reality
-Almost in Love
-Tonight Is So Right for Love
-Shoppin' Around
-That's All Right Mama
-
-[Schooler]
-Don't Be Cruel | dont be cruel
-Return to Sender
-Burning Love
-A Little Less Conversation
-In the Ghetto
-It's Now or Never | its now or never
-Are You Lonesome Tonight? | are you lonesome tonight
-Teddy Bear | (let me be your) teddy bear
-Always on My Mind
-Good Luck Charm
-Devil in Disguise | (you're the) devil in disguise
-Love Me
-Hard Headed Woman
-Stuck on You
-Surrender
-Crying in the Chapel
-Kentucky Rain
-Moody Blue
-That's All Right | thats all right | thats alright mama
-Mystery Train
-Trouble
-King Creole
-Wooden Heart
-An American Trilogy | american trilogy
-If I Can Dream
-Polk Salad Annie
-Rubberneckin'
-Bossa Nova Baby
-
-[Too Clever]
-Blue Christmas
-My Way
-Unchained Melody
-
-[Plankton]
-Hound Dog
-Jailhouse Rock
-Blue Suede Shoes
-Love Me Tender
-Can't Help Falling in Love | cant help falling in love | wise men say
-Heartbreak Hotel
-Suspicious Minds
-All Shook Up
-
-[Not accepted]
-Great Balls of Fire
-Rock Around the Clock
-Peggy Sue
-Ring of Fire
-
-# QUESTION
 id: q0130
 pool: unlimited
 category: words-language
@@ -2556,34 +2279,6 @@ prompt: Name a word that means "big"
 Brobdingnagian
 
 [Deep Cut]
-Gigantesque
-Gigantean
-Megalithic
-Monolithic
-Mastodonic
-Dinosaurian
-Brontosaurian
-Pachydermatous
-Elephantlike
-Jovian
-Titanesque
-Atlantean
-Antaean
-Lumbering
-Lumpish
-Immane
-Magnific
-Massy
-Mickle
-Muckle
-Jumbo-sized
-Monster-sized
-Family-size
-Economy-size
-Industrial-size
-Commercial-size
-
-[Rare]
 Voluminous
 Capacious
 Commodious
@@ -2650,8 +2345,34 @@ Largish
 Honking
 Mahoosive
 Macro
+Gigantesque
+Gigantean
+Megalithic
+Monolithic
+Mastodonic
+Dinosaurian
+Brontosaurian
+Pachydermatous
+Elephantlike
+Jovian
+Titanesque
+Atlantean
+Antaean
+Lumbering
+Lumpish
+Immane
+Magnific
+Massy
+Mickle
+Muckle
+Jumbo-sized
+Monster-sized
+Family-size
+Economy-size
+Industrial-size
+Commercial-size
 
-[Schooler]
+[Rare]
 Immense
 Vast
 Colossal
@@ -2692,6 +2413,11 @@ Kingsize | king-size | king size | king-sized
 Oversized | oversize
 Extra large | xl
 
+[Schooler]
+Gigantic
+Tall
+Jumbo
+
 [Too Clever]
 Big | bigly
 Supersize | super-size | supersized
@@ -2707,9 +2433,6 @@ Huge | hugely
 Giant
 Enormous
 Massive
-Gigantic
-Tall
-Jumbo
 
 [Not accepted]
 Small

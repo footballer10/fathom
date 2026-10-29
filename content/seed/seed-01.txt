@@ -11,6 +11,31 @@ note: Botanical edge cases (tomato, avocado, cucumber, pepper) count as Too Clev
 Jabuticaba | jaboticaba | brazilian grape tree
 
 [Deep Cut]
+Persimmon | persimon | sharon fruit
+Gooseberry | goosberry
+Lychee | litchi | lichee | lichi
+Guava
+Kumquat | cumquat
+Passion fruit | passionfruit | maracuya
+Jackfruit | jack fruit
+Elderberry | elder berry
+Boysenberry
+Star fruit | starfruit | carambola
+Nectarine | nectarene
+Date
+Fig
+Cranberry | cranbery
+Pomegranate | pomegranite | pomagranate
+Currant | blackcurrant | redcurrant | black currant
+Plantain
+Blood orange
+Clementine | cutie
+Tangerine | mandarin | mandarine
+Olive
+Rhubarb
+Apple pear
+Sultana
+Dried apricot
 Cherimoya | custard apple | chirimoya
 Salak | snake fruit
 Rambutan | rambootan
@@ -140,33 +165,6 @@ Maypop
 Chempedak | cempedak
 
 [Rare]
-Persimmon | persimon | sharon fruit
-Gooseberry | goosberry
-Lychee | litchi | lichee | lichi
-Guava
-Kumquat | cumquat
-Passion fruit | passionfruit | maracuya
-Jackfruit | jack fruit
-Elderberry | elder berry
-Boysenberry
-Star fruit | starfruit | carambola
-Nectarine | nectarene
-Date
-Fig
-Cranberry | cranbery
-Pomegranate | pomegranite | pomagranate
-Currant | blackcurrant | redcurrant | black currant
-Plantain
-Blood orange
-Clementine | cutie
-Tangerine | mandarin | mandarine
-Olive
-Rhubarb
-Apple pear
-Sultana
-Dried apricot
-
-[Schooler]
 Apricot
 Cantaloupe | cantelope | cantaloup | rockmelon
 Honeydew | honeydew melon | honey dew
@@ -185,6 +183,13 @@ Melon
 Prune
 Raisin
 Kiwis
+
+[Schooler]
+Watermelon | water melon
+Pineapple | pine apple | pinapple
+Cherry
+Peach
+Lemon
 
 [Too Clever]
 Tomato | tomatoe
@@ -206,11 +211,6 @@ Banana | banan | bananna
 Orange | navel orange | valencia orange | cara cara orange
 Strawberry | strawbery
 Grape | concord grape | red grape | green grape
-Watermelon | water melon
-Pineapple | pine apple | pinapple
-Cherry
-Peach
-Lemon
 
 [Not accepted]
 Tomato sauce
@@ -237,6 +237,34 @@ note: Designer crosses (Labradoodle etc.) count as Too Clever.
 Xoloitzcuintli | xolo | xoloitzcuintle | mexican hairless
 
 [Deep Cut]
+Shar Pei | sharpei | chinese shar-pei
+Akita
+Whippet
+Bloodhound
+Mastiff | english mastiff
+Cocker Spaniel | cocker
+Cavalier King Charles Spaniel | cavalier | king charles spaniel | cavalier king charles
+Samoyed
+Weimaraner | weimeraner
+Vizsla
+Bichon Frise | bichon
+Springer Spaniel | english springer spaniel | springer
+Irish Setter | red setter
+Pointer | german shorthaired pointer
+Bullmastiff | bull mastiff
+Westie | west highland terrier | west highland white terrier
+Scottish Terrier | scottie
+Airedale | airedale terrier
+Old English Sheepdog | sheepdog
+Cattle dog | australian cattle dog | blue heeler | heeler | red heeler
+Pekingese | pekinese
+Boston Terrier
+Miniature Pinscher | min pin
+Great Pyrenees | pyrenees
+Malamute | alaskan malamute
+American Bulldog
+Olde English Bulldogge
+German Pinscher
 Basenji
 Komondor
 Puli
@@ -444,36 +472,6 @@ Cavachon
 Pitsky
 
 [Rare]
-Shar Pei | sharpei | chinese shar-pei
-Akita
-Whippet
-Bloodhound
-Mastiff | english mastiff
-Cocker Spaniel | cocker
-Cavalier King Charles Spaniel | cavalier | king charles spaniel | cavalier king charles
-Samoyed
-Weimaraner | weimeraner
-Vizsla
-Bichon Frise | bichon
-Springer Spaniel | english springer spaniel | springer
-Irish Setter | red setter
-Pointer | german shorthaired pointer
-Bullmastiff | bull mastiff
-Westie | west highland terrier | west highland white terrier
-Scottish Terrier | scottie
-Airedale | airedale terrier
-Old English Sheepdog | sheepdog
-Cattle dog | australian cattle dog | blue heeler | heeler | red heeler
-Pekingese | pekinese
-Boston Terrier
-Miniature Pinscher | min pin
-Great Pyrenees | pyrenees
-Malamute | alaskan malamute
-American Bulldog
-Olde English Bulldogge
-German Pinscher
-
-[Schooler]
 Pomeranian | pomeranean
 Australian Shepherd | aussie | australian shepard
 Bernese Mountain Dog | bernese | berner
@@ -498,6 +496,13 @@ Shih Tzu | shitzu | shih-tzu
 Dalmatian | dalmation
 Jack Russell Terrier | jack russell | jack russel
 
+[Schooler]
+Pit Bull | pitbull | american pit bull terrier | pit bull terrier
+Bulldog | english bulldog
+French Bulldog | frenchie | french bull dog
+Pug
+Dachshund | wiener dog | sausage dog | daschund | dachsund | doxie
+
 [Too Clever]
 Labradoodle
 Goldendoodle | golden doodle
@@ -511,11 +516,6 @@ Golden Retriever | golden
 German Shepherd | german shepard | alsatian
 Poodle
 Chihuahua | chiuahua | chihuahau
-Pit Bull | pitbull | american pit bull terrier | pit bull terrier
-Bulldog | english bulldog
-French Bulldog | frenchie | french bull dog
-Pug
-Dachshund | wiener dog | sausage dog | daschund | dachsund | doxie
 
 [Not accepted]
 Wolf
@@ -541,6 +541,20 @@ prompt: Name a country in Africa
 Eswatini | swaziland
 
 [Deep Cut]
+Botswana
+Namibia
+Zambia
+Mozambique | mozambik
+Angola
+Mali
+Niger
+Chad
+Sierra Leone
+Liberia
+Cameroon | cameroun
+Ivory Coast | cote d'ivoire
+Democratic Republic of the Congo | drc | dr congo | congo kinshasa | zaire | congo
+South Sudan
 Comoros
 Djibouti | djbouti
 Sao Tome and Principe | sao tome | são tomé
@@ -564,22 +578,6 @@ Mauritius
 Republic of the Congo | congo brazzaville | congo republic
 
 [Rare]
-Botswana
-Namibia
-Zambia
-Mozambique | mozambik
-Angola
-Mali
-Niger
-Chad
-Sierra Leone
-Liberia
-Cameroon | cameroun
-Ivory Coast | cote d'ivoire
-Democratic Republic of the Congo | drc | dr congo | congo kinshasa | zaire | congo
-South Sudan
-
-[Schooler]
 Sudan
 Tunisia
 Libya
@@ -625,6 +623,24 @@ prompt: Name a musical instrument
 Theremin
 
 [Deep Cut]
+Mandolin
+Kazoo
+Bongos | bongo
+French horn | horn
+Triangle
+Piccolo
+Organ | pipe organ
+Double bass | upright bass | contrabass | stand-up bass
+Viola
+Cymbals | cymbal
+Synthesizer | synth
+Recorder
+Timpani | kettle drum | kettledrum
+Snare drum | snare
+Gong
+Maracas | maraca
+Concertina
+Bass drum
 Hurdy-gurdy | hurdy gurdy
 Didgeridoo | didjeridu | didgeridu
 Sitar
@@ -881,26 +897,6 @@ Keyboard glockenspiel
 Boomwhackers
 
 [Rare]
-Mandolin
-Kazoo
-Bongos | bongo
-French horn | horn
-Triangle
-Piccolo
-Organ | pipe organ
-Double bass | upright bass | contrabass | stand-up bass
-Viola
-Cymbals | cymbal
-Synthesizer | synth
-Recorder
-Timpani | kettle drum | kettledrum
-Snare drum | snare
-Gong
-Maracas | maraca
-Concertina
-Bass drum
-
-[Schooler]
 Bagpipes | bagpipe
 Tambourine
 Xylophone
@@ -956,6 +952,14 @@ prompt: Name a board game
 Mouse Trap | mousetrap
 
 [Deep Cut]
+Trouble
+Cranium
+Chinese Checkers
+Scattergories
+Boggle
+Apples to Apples
+Taboo
+Payday
 Carcassonne | carcasonne
 Ticket to Ride
 Pandemic
@@ -1151,16 +1155,6 @@ Square Mile
 Railway Rivals
 
 [Rare]
-Trouble
-Cranium
-Chinese Checkers
-Scattergories
-Boggle
-Apples to Apples
-Taboo
-Payday
-
-[Schooler]
 Hungry Hungry Hippos | hungry hippos
 Settlers of Catan | catan | settlers
 Pictionary
@@ -1216,6 +1210,30 @@ prompt: Name a chemical element
 Tungsten | wolfram
 
 [Deep Cut]
+Promethium
+Thorium
+Cadmium
+Polonium
+Barium
+Palladium
+Strontium
+Germanium
+Radon
+Krypton
+Xenon
+Beryllium
+Boron
+Fluorine
+Phosphorus | phosphorous
+Sulfur | sulphur
+Nickel
+Chromium
+Manganese
+Cesium | caesium
+Arsenic
+Radium
+Cobalt
+Bromine
 Molybdenum | molybdenium
 Praseodymium
 Ytterbium
@@ -1281,32 +1299,6 @@ Flerovium
 Livermorium
 
 [Rare]
-Promethium
-Thorium
-Cadmium
-Polonium
-Barium
-Palladium
-Strontium
-Germanium
-Radon
-Krypton
-Xenon
-Beryllium
-Boron
-Fluorine
-Phosphorus | phosphorous
-Sulfur | sulphur
-Nickel
-Chromium
-Manganese
-Cesium | caesium
-Arsenic
-Radium
-Cobalt
-Bromine
-
-[Schooler]
 Argon
 Lithium
 Titanium
@@ -1329,6 +1321,9 @@ Zinc
 Tin
 Mercury
 
+[Schooler]
+Nitrogen
+
 [Too Clever]
 Einsteinium
 Plutonium
@@ -1340,7 +1335,6 @@ Oxygen
 Carbon
 Iron
 Gold
-Nitrogen
 
 [Not accepted]
 Water
@@ -1366,6 +1360,29 @@ note: Fruits eaten as vegetables (tomato, cucumber, avocado) count as Too Clever
 Romanesco | romanesco broccoli
 
 [Deep Cut]
+Parsnip
+Fennel
+Bok choy | pak choi | bok choi
+Okra
+Artichoke | artichoak
+Watercress
+Leek
+Turnip
+Beet | beetroot
+Radish
+Arugula | rocket
+Swiss chard | chard
+Kale
+Squash | butternut squash
+Eggplant | aubergine
+Zucchini | courgette
+Asparagus | asparagas
+Sweet potato
+Yam
+Bean sprouts
+Snap pea | snow pea | sugar snap pea
+Pumpkin
+Brussels sprouts | brussel sprouts | brussel sprout
 Kohlrabi
 Celeriac | celery root
 Salsify
@@ -1559,31 +1576,6 @@ Water caltrop
 Chestnut
 
 [Rare]
-Parsnip
-Fennel
-Bok choy | pak choi | bok choi
-Okra
-Artichoke | artichoak
-Watercress
-Leek
-Turnip
-Beet | beetroot
-Radish
-Arugula | rocket
-Swiss chard | chard
-Kale
-Squash | butternut squash
-Eggplant | aubergine
-Zucchini | courgette
-Asparagus | asparagas
-Sweet potato
-Yam
-Bean sprouts
-Snap pea | snow pea | sugar snap pea
-Pumpkin
-Brussels sprouts | brussel sprouts | brussel sprout
-
-[Schooler]
 Cauliflower | califlower
 Spinach | spinnach
 Pea
@@ -1595,6 +1587,9 @@ Bell pepper | capsicum
 Cabbage | cabage
 Lima bean
 Beans
+
+[Schooler]
+Corn | sweetcorn | maize | sweet corn
 
 [Too Clever]
 Tomato | tomatoe
@@ -1608,7 +1603,6 @@ Lettuce | letuce
 Carrot | carot
 Broccoli | brocoli | brocolli
 Potato | potatoe
-Corn | sweetcorn | maize | sweet corn
 
 [Not accepted]
 Rice
@@ -1634,6 +1628,22 @@ prompt: Name a car brand
 DeLorean | de lorean | delorian
 
 [Deep Cut]
+Aston Martin
+Bentley
+Rolls-Royce | rolls royce
+McLaren
+Jaguar
+Land Rover | range rover
+Volvo
+Mitsubishi
+Acura
+Infiniti | infinity
+Lincoln
+Buick
+Chrysler
+GMC
+Pontiac
+Alpine
 Koenigsegg | koenigseg
 Pagani
 Bugatti
@@ -1814,24 +1824,6 @@ Mack
 Navistar
 
 [Rare]
-Aston Martin
-Bentley
-Rolls-Royce | rolls royce
-McLaren
-Jaguar
-Land Rover | range rover
-Volvo
-Mitsubishi
-Acura
-Infiniti | infinity
-Lincoln
-Buick
-Chrysler
-GMC
-Pontiac
-Alpine
-
-[Schooler]
 Cadillac
 Lamborghini | lambo
 Porsche
@@ -1884,6 +1876,9 @@ prompt: Name a sport played with a ball
 Sepak takraw | sepaktakraw | kick volleyball
 
 [Deep Cut]
+Australian rules football | aussie rules | afl
+Skee-ball | skeeball
+Table football
 Hurling
 Jai alai
 Pelota | basque pelota
@@ -2026,11 +2021,6 @@ Tamburello
 Pallone
 
 [Rare]
-Australian rules football | aussie rules | afl
-Skee-ball | skeeball
-Table football
-
-[Schooler]
 Billiards | pool | snooker
 Field hockey
 Beach volleyball
@@ -2084,6 +2074,29 @@ note: Mammals that live in the sea: whales, dolphins, porpoises, seals, sea lion
 Vaquita
 
 [Deep Cut]
+Fin whale | finback whale | finback
+Gray whale | grey whale
+Bowhead whale | bowhead
+Right whale | north atlantic right whale | southern right whale | north pacific right whale
+Minke whale | minke
+Pilot whale | long-finned pilot whale | short-finned pilot whale
+Risso's dolphin | rissos dolphin | grampus
+Spinner dolphin
+Spotted dolphin | atlantic spotted dolphin | pantropical spotted dolphin
+Striped dolphin
+Common dolphin | short-beaked common dolphin
+Dusky dolphin
+White-sided dolphin | atlantic white-sided dolphin | pacific white-sided dolphin
+White-beaked dolphin
+Harbor porpoise | harbour porpoise
+Harp seal
+Gray seal | grey seal
+Leopard seal
+Fur seal | northern fur seal | antarctic fur seal | cape fur seal
+Elephant seal | northern elephant seal | southern elephant seal
+Harbor seal | harbour seal | common seal
+California sea lion
+Dugong
 Cuvier's beaked whale | cuviers beaked whale | goose-beaked whale
 Baird's beaked whale | bairds beaked whale
 Blainville's beaked whale | blainvilles beaked whale
@@ -2137,31 +2150,6 @@ Marine otter
 Steller sea lion | stellers sea lion
 
 [Rare]
-Fin whale | finback whale | finback
-Gray whale | grey whale
-Bowhead whale | bowhead
-Right whale | north atlantic right whale | southern right whale | north pacific right whale
-Minke whale | minke
-Pilot whale | long-finned pilot whale | short-finned pilot whale
-Risso's dolphin | rissos dolphin | grampus
-Spinner dolphin
-Spotted dolphin | atlantic spotted dolphin | pantropical spotted dolphin
-Striped dolphin
-Common dolphin | short-beaked common dolphin
-Dusky dolphin
-White-sided dolphin | atlantic white-sided dolphin | pacific white-sided dolphin
-White-beaked dolphin
-Harbor porpoise | harbour porpoise
-Harp seal
-Gray seal | grey seal
-Leopard seal
-Fur seal | northern fur seal | antarctic fur seal | cape fur seal
-Elephant seal | northern elephant seal | southern elephant seal
-Harbor seal | harbour seal | common seal
-California sea lion
-Dugong
-
-[Schooler]
 Blue whale
 Humpback whale | humpback
 Sperm whale | cachalot
@@ -2169,6 +2157,11 @@ Bottlenose dolphin | bottle nose dolphin
 Porpoise
 Narwhal | narwal
 Beluga | beluga whale | white whale
+
+[Schooler]
+Manatee | sea cow
+Orca | killer whale
+Sea otter | otter
 
 [Too Clever]
 Polar bear
@@ -2179,9 +2172,6 @@ Dolphin
 Seal
 Sea lion
 Walrus
-Manatee | sea cow
-Orca | killer whale
-Sea otter | otter
 
 [Not accepted]
 Shark

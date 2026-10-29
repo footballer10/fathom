@@ -8,6 +8,37 @@ prompt: Name a part of the human body
 Philtrum
 
 [Deep Cut]
+Liver
+Lung
+Stomach
+Intestine | bowel | gut
+Bladder
+Kidney
+Skull
+Spine | backbone
+Rib
+Pelvis
+Eyebrow
+Eyelash
+Eyelid
+Nostril
+Gums | gum
+Wrist
+Ankle
+Calf
+Thigh
+Hip
+Waist
+Forehead
+Cheek
+Jaw
+Throat
+Tongue
+Armpit | underarm
+Belly button | navel | bellybutton
+Fingernail | nail | toenail
+Heel
+Fist
 Uvula
 Septum
 Clavicle | collarbone | collar bone
@@ -198,39 +229,6 @@ Eyebrow ridge | brow ridge
 Brow
 
 [Rare]
-Liver
-Lung
-Stomach
-Intestine | bowel | gut
-Bladder
-Kidney
-Skull
-Spine | backbone
-Rib
-Pelvis
-Eyebrow
-Eyelash
-Eyelid
-Nostril
-Gums | gum
-Wrist
-Ankle
-Calf
-Thigh
-Hip
-Waist
-Forehead
-Cheek
-Jaw
-Throat
-Tongue
-Armpit | underarm
-Belly button | navel | bellybutton
-Fingernail | nail | toenail
-Heel
-Fist
-
-[Schooler]
 Heart
 Brain
 Neck
@@ -249,6 +247,12 @@ Skin
 Hair
 Face
 
+[Schooler]
+Eye
+Nose
+Ear
+Mouth
+
 [Too Clever]
 Funny bone
 Pinky | pinkie
@@ -259,10 +263,6 @@ Leg
 Head
 Hand
 Foot | feet
-Eye
-Nose
-Ear
-Mouth
 
 [Not accepted]
 Haircut
@@ -286,6 +286,22 @@ note: Painters only; famous sculptors (Rodin) don't count, but Michelangelo pain
 Hokusai | katsushika hokusai
 
 [Deep Cut]
+Marc Chagall | chagall
+Diego Rivera | rivera
+Roy Lichtenstein | lichtenstein
+Grant Wood
+Edouard Manet | manet
+Mark Rothko | rothko
+J.M.W. Turner | turner | jmw turner | william turner
+Gustav Klimt | klimt
+Paul Gauguin | gauguin
+Rene Magritte | magritte
+Edvard Munch | munch
+Paul Cezanne | cezanne | cézanne
+Henri Matisse | matisse
+Georgia O'Keeffe | o'keeffe | okeeffe | georgia okeefe
+Keith Haring | haring
+Jean-Michel Basquiat | basquiat
 Thomas Kinkade | kinkade
 Caravaggio
 Vermeer | johannes vermeer
@@ -561,24 +577,6 @@ Jean-Paul Riopelle
 Thomas Moran
 
 [Rare]
-Marc Chagall | chagall
-Diego Rivera | rivera
-Roy Lichtenstein | lichtenstein
-Grant Wood
-Edouard Manet | manet
-Mark Rothko | rothko
-J.M.W. Turner | turner | jmw turner | william turner
-Gustav Klimt | klimt
-Paul Gauguin | gauguin
-Rene Magritte | magritte
-Edvard Munch | munch
-Paul Cezanne | cezanne | cézanne
-Henri Matisse | matisse
-Georgia O'Keeffe | o'keeffe | okeeffe | georgia okeefe
-Keith Haring | haring
-Jean-Michel Basquiat | basquiat
-
-[Schooler]
 Norman Rockwell | rockwell
 Pierre-Auguste Renoir | renoir
 Edgar Degas | degas
@@ -621,6 +619,16 @@ prompt: Name a type of cheese
 Casu marzu
 
 [Deep Cut]
+Goat cheese | chevre | chèvre
+Edam
+Mascarpone
+Colby
+Colby Jack
+Pepper Jack | pepperjack
+Romano
+Queso
+Bocconcini
+Muenster | munster | muenster cheese
 Halloumi | haloumi
 Manchego
 Gruyere | gruyère
@@ -839,18 +847,6 @@ Pecorino Toscano
 Emmental | emmentaler | emmenthal | swiss emmental
 
 [Rare]
-Goat cheese | chevre | chèvre
-Edam
-Mascarpone
-Colby
-Colby Jack
-Pepper Jack | pepperjack
-Romano
-Queso
-Bocconcini
-Muenster | munster | muenster cheese
-
-[Schooler]
 Gorgonzola
 Camembert
 Ricotta
@@ -900,6 +896,12 @@ note: Hand tools, cookware, bakeware and countertop gadgets. Big built-in applia
 Mandoline | mandolin slicer
 
 [Deep Cut]
+Ladle
+Tongs
+Whisk
+Peeler | vegetable peeler | potato peeler
+Grater | cheese grater | box grater
+Potato masher | masher
 Spider | spider strainer | spider skimmer
 Fish slice | fish spatula
 Bench scraper | dough scraper
@@ -1014,14 +1016,6 @@ Bread maker | bread machine
 Microwave | microwave oven
 
 [Rare]
-Ladle
-Tongs
-Whisk
-Peeler | vegetable peeler | potato peeler
-Grater | cheese grater | box grater
-Potato masher | masher
-
-[Schooler]
 Spoon
 Fork
 
@@ -1057,6 +1051,23 @@ note: The 56 men who signed the Declaration in 1776. Washington, Hamilton and Ma
 Button Gwinnett | gwinnett
 
 [Deep Cut]
+Robert Treat Paine
+James Wilson
+Thomas McKean | mckean
+George Read
+Thomas Nelson Jr. | thomas nelson
+Francis Lightfoot Lee
+Philip Livingston | livingston
+Lewis Morris
+William Whipple | whipple
+Matthew Thornton | thornton
+Oliver Wolcott | wolcott
+Samuel Huntington | huntington
+Richard Stockton | stockton
+Arthur Middleton | middleton
+Thomas Lynch Jr. | thomas lynch | lynch
+William Paca | paca
+Lyman Hall
 William Ellery | ellery
 William Williams
 William Floyd | floyd
@@ -1077,25 +1088,6 @@ George Walton | walton
 Thomas Heyward Jr. | thomas heyward | heyward
 
 [Rare]
-Robert Treat Paine
-James Wilson
-Thomas McKean | mckean
-George Read
-Thomas Nelson Jr. | thomas nelson
-Francis Lightfoot Lee
-Philip Livingston | livingston
-Lewis Morris
-William Whipple | whipple
-Matthew Thornton | thornton
-Oliver Wolcott | wolcott
-Samuel Huntington | huntington
-Richard Stockton | stockton
-Arthur Middleton | middleton
-Thomas Lynch Jr. | thomas lynch | lynch
-William Paca | paca
-Lyman Hall
-
-[Schooler]
 Roger Sherman | sherman
 Benjamin Rush | rush | ben rush
 Richard Henry Lee
@@ -1146,6 +1138,15 @@ prompt: Name a US state
 Delaware
 
 [Deep Cut]
+Alabama
+Kentucky
+Missouri
+Wisconsin
+Indiana
+Maryland
+South Carolina
+Utah
+New Mexico
 North Dakota
 South Dakota
 Wyoming
@@ -1165,17 +1166,6 @@ Connecticut
 Oklahoma
 
 [Rare]
-Alabama
-Kentucky
-Missouri
-Wisconsin
-Indiana
-Maryland
-South Carolina
-Utah
-New Mexico
-
-[Schooler]
 Minnesota
 Louisiana
 Tennessee
@@ -1227,30 +1217,6 @@ note: The 66 books of the Protestant Bible, plus the Catholic and Orthodox extra
 Habakkuk | habbakuk | habakuk | habbakkuk
 
 [Deep Cut]
-Obadiah
-Nahum
-Zephaniah | zepheniah
-Haggai | hagai
-3 John | 3john | iii john | third john | 3rd john
-2 John | 2john | ii john | second john | 2nd john
-Philemon | philemen
-Tobit
-Judith
-1 Maccabees | 1maccabees | i maccabees | first maccabees | 1st maccabees | maccabees
-2 Maccabees | 2maccabees | ii maccabees | second maccabees | 2nd maccabees
-Wisdom of Solomon | wisdom | book of wisdom
-Sirach | ecclesiasticus | ben sira
-Baruch
-Enoch | 1 enoch | book of enoch
-Jubilees | book of jubilees
-2 Thessalonians | 2thessalonians | ii thessalonians | second thessalonians | 2nd thessalonians
-2 Chronicles | 2chronicles | ii chronicles | second chronicles | 2nd chronicles
-Micah
-Malachi | malachai
-Zechariah | zachariah | zecharia
-Jude
-
-[Rare]
 Hosea
 Joel
 Amos
@@ -1275,8 +1241,30 @@ Hebrews
 James
 1 Timothy | 1timothy | i timothy | first timothy | 1st timothy | timothy
 1 Peter | 1peter | i peter | first peter | 1st peter | peter
+Obadiah
+Nahum
+Zephaniah | zepheniah
+Haggai | hagai
+3 John | 3john | iii john | third john | 3rd john
+2 John | 2john | ii john | second john | 2nd john
+Philemon | philemen
+Tobit
+Judith
+1 Maccabees | 1maccabees | i maccabees | first maccabees | 1st maccabees | maccabees
+2 Maccabees | 2maccabees | ii maccabees | second maccabees | 2nd maccabees
+Wisdom of Solomon | wisdom | book of wisdom
+Sirach | ecclesiasticus | ben sira
+Baruch
+Enoch | 1 enoch | book of enoch
+Jubilees | book of jubilees
+2 Thessalonians | 2thessalonians | ii thessalonians | second thessalonians | 2nd thessalonians
+2 Chronicles | 2chronicles | ii chronicles | second chronicles | 2nd chronicles
+Micah
+Malachi | malachai
+Zechariah | zachariah | zecharia
+Jude
 
-[Schooler]
+[Rare]
 Leviticus
 Deuteronomy | deuteronomie
 Joshua
@@ -1294,6 +1282,11 @@ Jonah
 Romans
 1 Corinthians | corinthians | 1corinthians | i corinthians | first corinthians | 1st corinthians
 
+[Schooler]
+Mark
+Luke
+John | gospel of john
+
 [Too Clever]
 Numbers
 Job
@@ -1306,9 +1299,6 @@ Exodus
 Revelation | revelations | book of revelation | apocalypse
 Psalms | psalm
 Matthew
-Mark
-Luke
-John | gospel of john
 
 [Not accepted]
 Book of Mormon
@@ -1333,6 +1323,23 @@ prompt: Name a type of tree
 Baobab
 
 [Deep Cut]
+Ash
+Beech
+Elm
+Hickory
+Walnut | walnut tree
+Chestnut
+Poplar
+Aspen
+Magnolia
+Dogwood
+Cherry tree | cherry blossom | cherry
+Apple tree | apple
+Fir
+Spruce
+Sycamore
+Redwood
+Bamboo
 Sequoia | giant sequoia
 Ginkgo | gingko | ginkgo biloba
 Hawthorn | hawthorn tree
@@ -1642,25 +1649,6 @@ Silver tree
 Stinkwood
 
 [Rare]
-Ash
-Beech
-Elm
-Hickory
-Walnut | walnut tree
-Chestnut
-Poplar
-Aspen
-Magnolia
-Dogwood
-Cherry tree | cherry blossom | cherry
-Apple tree | apple
-Fir
-Spruce
-Sycamore
-Redwood
-Bamboo
-
-[Schooler]
 Willow | weeping willow
 Palm | palm tree
 Birch
@@ -1699,6 +1687,17 @@ prompt: Name a bird
 Blue-footed booby | booby
 
 [Deep Cut]
+Emu
+Macaw
+Cockatoo
+Falcon
+Raven
+Sparrow
+Blue jay | jay
+Cardinal
+Swallow
+Dove
+Kiwi
 Cassowary
 Kookaburra
 Hoopoe
@@ -2286,19 +2285,6 @@ Bird of paradise
 Secretary bird
 
 [Rare]
-Emu
-Macaw
-Cockatoo
-Falcon
-Raven
-Sparrow
-Blue jay | jay
-Cardinal
-Swallow
-Dove
-Kiwi
-
-[Schooler]
 Parrot
 Toucan
 Hawk
@@ -2353,6 +2339,14 @@ prompt: Name a fast food chain
 Whataburger
 
 [Deep Cut]
+Arby's | arbys
+Jack in the Box
+Panda Express
+Sonic | sonic drive in
+Dairy Queen | dq
+Pizza Hut
+Domino's | dominos | dominos pizza
+Chipotle | chipotle mexican grill
 Carl's Jr. | carls jr | carls junior
 Hardee's | hardees
 Del Taco
@@ -2590,16 +2584,6 @@ Steak 'n Shake
 Taco John's
 
 [Rare]
-Arby's | arbys
-Jack in the Box
-Panda Express
-Sonic | sonic drive in
-Dairy Queen | dq
-Pizza Hut
-Domino's | dominos | dominos pizza
-Chipotle | chipotle mexican grill
-
-[Schooler]
 Culver's | culvers
 Wingstop
 Jersey Mike's | jersey mikes
@@ -2614,6 +2598,10 @@ In-N-Out | in n out | in and out | innout | in-n-out burger
 Five Guys | five guys burgers and fries
 Popeyes | popeye's | popeyes louisiana kitchen
 
+[Schooler]
+McDonald's | mcdonalds | mcdonald | maccas | mickey d's
+Burger King | bk
+
 [Too Clever]
 Dunkin' | dunkin donuts | dunkin
 Krispy Kreme
@@ -2625,8 +2613,6 @@ KFC | kentucky fried chicken
 Subway
 Taco Bell
 Wendy's | wendys
-McDonald's | mcdonalds | mcdonald | maccas | mickey d's
-Burger King | bk
 
 [Not accepted]
 Applebee's

@@ -21,6 +21,11 @@ Every valid answer must be in the list. A player who types a correct answer and 
 - Cover how people actually type: common misspellings, plurals, abbreviations, nicknames, surnames on their own for famous people, and names with and without "The". Add these as aliases.
 - Completeness check for every question: once the list is written, brainstorm at least 20 more true answers a well-read player might type, check each one against the list, and add any that are missing. Repeat until a round of 20 turns up nothing new.
 
+AUDIENCE: HIGH SCHOOL STUDENTS
+The players are mostly US high schoolers (ages 14-18). Every prompt must be one a typical high schooler can answer several ways from everyday life, school, sports, games, movies, music they listen to, or the internet.
+- Skip topics mostly known to older adults: song catalogs of older artists (Elvis, the Rolling Stones, Billy Joel, Madonna and so on), government offices beyond presidents (Supreme Court justices, Secretaries of State, Speakers of the House, prime ministers), popes, awards lists (Grammy Best New Artist, Time Person of the Year, the Heisman), and specialist knowledge like livestock or rabbit breeds and grass varieties.
+- Test it: would most students in a high school class name at least three answers in a minute? If not, pick a different prompt.
+
 WHAT MAKES A GOOD PROMPT
 - Easy entry: almost anyone can name at least one answer within 5 seconds.
 - Big pool: at least 50 valid answers (the validator fails under 50). 80-250 is typical, but a closed set can be much bigger; never leave out a valid answer to stay under 250.
@@ -31,11 +36,12 @@ WHAT MAKES A GOOD PROMPT
 - List every valid answer. Anything missing gets marked wrong, which is the worst experience.
 
 RARITY TIERS (every valid answer goes in exactly one)
-- [Plankton] 10 pts: the 5-10 answers most people say first
+Rarity is generous on purpose: only the very first answers almost everyone says are low-scoring, so good answers feel rewarding.
+- [Plankton] 10 pts: only the 3-5 answers almost everyone says first
 - [Too Clever] 15 pts: 2-5 "clever but predictable" picks (still valid answers)
-- [Schooler] 30 pts: about 25% of answers, solid answers past the obvious ones
-- [Rare] 60 pts: about 33%, uncommon but recognizable
-- [Deep Cut] 85 pts: the rest, specialized or obscure but valid
+- [Schooler] 30 pts: a handful of other very common answers, at most about 15%
+- [Rare] 60 pts: about 25-35%, answers a typical player knows but doesn't say first
+- [Deep Cut] 85 pts: everything else, which is most of the list
 - [One in a Krillion] 100 pts: EXACTLY ONE, chosen because it is fun and satisfying to find, valid without argument (not just the most obscure)
 - [Not accepted] (optional): wrong answers people commonly try (near-misses), so they are blocked even when one typo away from a real answer
 

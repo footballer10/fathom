@@ -119,6 +119,7 @@ If a week gets missed, the site keeps working: it fills empty days from reserve 
 | `npm run export:rejected` | Downloads wrong guesses and player reports |
 | `npm run pool:refresh` | Keeps the Unlimited pool at its cap |
 | `npm run backup` | Saves every live question into `content/backup/` |
+| `npm run remove -- <id>` | Takes a question off the live site |
 | `npm test` | Runs the unit tests |
 | `npm run sim` | Simulates 6 players in Party Dive and Battle |
 

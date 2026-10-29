@@ -10,6 +10,151 @@
         "tier": 100
       },
       {
+        "text": "Liver",
+        "tier": 85
+      },
+      {
+        "text": "Lung",
+        "tier": 85
+      },
+      {
+        "text": "Stomach",
+        "tier": 85
+      },
+      {
+        "text": "Intestine",
+        "aliases": [
+          "bowel",
+          "gut"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bladder",
+        "tier": 85
+      },
+      {
+        "text": "Kidney",
+        "tier": 85
+      },
+      {
+        "text": "Skull",
+        "tier": 85
+      },
+      {
+        "text": "Spine",
+        "aliases": [
+          "backbone"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rib",
+        "tier": 85
+      },
+      {
+        "text": "Pelvis",
+        "tier": 85
+      },
+      {
+        "text": "Eyebrow",
+        "tier": 85
+      },
+      {
+        "text": "Eyelash",
+        "tier": 85
+      },
+      {
+        "text": "Eyelid",
+        "tier": 85
+      },
+      {
+        "text": "Nostril",
+        "tier": 85
+      },
+      {
+        "text": "Gums",
+        "aliases": [
+          "gum"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wrist",
+        "tier": 85
+      },
+      {
+        "text": "Ankle",
+        "tier": 85
+      },
+      {
+        "text": "Calf",
+        "tier": 85
+      },
+      {
+        "text": "Thigh",
+        "tier": 85
+      },
+      {
+        "text": "Hip",
+        "tier": 85
+      },
+      {
+        "text": "Waist",
+        "tier": 85
+      },
+      {
+        "text": "Forehead",
+        "tier": 85
+      },
+      {
+        "text": "Cheek",
+        "tier": 85
+      },
+      {
+        "text": "Jaw",
+        "tier": 85
+      },
+      {
+        "text": "Throat",
+        "tier": 85
+      },
+      {
+        "text": "Tongue",
+        "tier": 85
+      },
+      {
+        "text": "Armpit",
+        "aliases": [
+          "underarm"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Belly button",
+        "aliases": [
+          "navel",
+          "bellybutton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fingernail",
+        "aliases": [
+          "nail",
+          "toenail"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Heel",
+        "tier": 85
+      },
+      {
+        "text": "Fist",
+        "tier": 85
+      },
+      {
         "text": "Uvula",
         "tier": 85
       },
@@ -877,219 +1022,90 @@
         "tier": 85
       },
       {
-        "text": "Liver",
-        "tier": 60
-      },
-      {
-        "text": "Lung",
-        "tier": 60
-      },
-      {
-        "text": "Stomach",
-        "tier": 60
-      },
-      {
-        "text": "Intestine",
-        "aliases": [
-          "bowel",
-          "gut"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bladder",
-        "tier": 60
-      },
-      {
-        "text": "Kidney",
-        "tier": 60
-      },
-      {
-        "text": "Skull",
-        "tier": 60
-      },
-      {
-        "text": "Spine",
-        "aliases": [
-          "backbone"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Rib",
-        "tier": 60
-      },
-      {
-        "text": "Pelvis",
-        "tier": 60
-      },
-      {
-        "text": "Eyebrow",
-        "tier": 60
-      },
-      {
-        "text": "Eyelash",
-        "tier": 60
-      },
-      {
-        "text": "Eyelid",
-        "tier": 60
-      },
-      {
-        "text": "Nostril",
-        "tier": 60
-      },
-      {
-        "text": "Gums",
-        "aliases": [
-          "gum"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Wrist",
-        "tier": 60
-      },
-      {
-        "text": "Ankle",
-        "tier": 60
-      },
-      {
-        "text": "Calf",
-        "tier": 60
-      },
-      {
-        "text": "Thigh",
-        "tier": 60
-      },
-      {
-        "text": "Hip",
-        "tier": 60
-      },
-      {
-        "text": "Waist",
-        "tier": 60
-      },
-      {
-        "text": "Forehead",
-        "tier": 60
-      },
-      {
-        "text": "Cheek",
-        "tier": 60
-      },
-      {
-        "text": "Jaw",
-        "tier": 60
-      },
-      {
-        "text": "Throat",
-        "tier": 60
-      },
-      {
-        "text": "Tongue",
-        "tier": 60
-      },
-      {
-        "text": "Armpit",
-        "aliases": [
-          "underarm"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Belly button",
-        "aliases": [
-          "navel",
-          "bellybutton"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Fingernail",
-        "aliases": [
-          "nail",
-          "toenail"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Heel",
-        "tier": 60
-      },
-      {
-        "text": "Fist",
-        "tier": 60
-      },
-      {
         "text": "Heart",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Brain",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Neck",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Shoulder",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Knee",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Elbow",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chest",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Toe",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Finger",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Thumb",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tooth",
         "aliases": [
           "teeth"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Lip",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chin",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Back",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Skin",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hair",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Face",
+        "tier": 60
+      },
+      {
+        "text": "Eye",
+        "tier": 30
+      },
+      {
+        "text": "Nose",
+        "tier": 30
+      },
+      {
+        "text": "Ear",
+        "tier": 30
+      },
+      {
+        "text": "Mouth",
         "tier": 30
       },
       {
@@ -1125,22 +1141,6 @@
           "feet"
         ],
         "tier": 10
-      },
-      {
-        "text": "Eye",
-        "tier": 10
-      },
-      {
-        "text": "Nose",
-        "tier": 10
-      },
-      {
-        "text": "Ear",
-        "tier": 10
-      },
-      {
-        "text": "Mouth",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -1167,6 +1167,120 @@
           "katsushika hokusai"
         ],
         "tier": 100
+      },
+      {
+        "text": "Marc Chagall",
+        "aliases": [
+          "chagall"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Diego Rivera",
+        "aliases": [
+          "rivera"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Roy Lichtenstein",
+        "aliases": [
+          "lichtenstein"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Grant Wood",
+        "tier": 85
+      },
+      {
+        "text": "Edouard Manet",
+        "aliases": [
+          "manet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mark Rothko",
+        "aliases": [
+          "rothko"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "J.M.W. Turner",
+        "aliases": [
+          "turner",
+          "jmw turner",
+          "william turner"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gustav Klimt",
+        "aliases": [
+          "klimt"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paul Gauguin",
+        "aliases": [
+          "gauguin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rene Magritte",
+        "aliases": [
+          "magritte"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Edvard Munch",
+        "aliases": [
+          "munch"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Paul Cezanne",
+        "aliases": [
+          "cezanne",
+          "cézanne"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Henri Matisse",
+        "aliases": [
+          "matisse"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Georgia O'Keeffe",
+        "aliases": [
+          "o'keeffe",
+          "okeeffe",
+          "georgia okeefe"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Keith Haring",
+        "aliases": [
+          "haring"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jean-Michel Basquiat",
+        "aliases": [
+          "basquiat"
+        ],
+        "tier": 85
       },
       {
         "text": "Thomas Kinkade",
@@ -2535,146 +2649,32 @@
         "tier": 85
       },
       {
-        "text": "Marc Chagall",
-        "aliases": [
-          "chagall"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Diego Rivera",
-        "aliases": [
-          "rivera"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Roy Lichtenstein",
-        "aliases": [
-          "lichtenstein"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Grant Wood",
-        "tier": 60
-      },
-      {
-        "text": "Edouard Manet",
-        "aliases": [
-          "manet"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mark Rothko",
-        "aliases": [
-          "rothko"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "J.M.W. Turner",
-        "aliases": [
-          "turner",
-          "jmw turner",
-          "william turner"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Gustav Klimt",
-        "aliases": [
-          "klimt"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Paul Gauguin",
-        "aliases": [
-          "gauguin"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Rene Magritte",
-        "aliases": [
-          "magritte"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Edvard Munch",
-        "aliases": [
-          "munch"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Paul Cezanne",
-        "aliases": [
-          "cezanne",
-          "cézanne"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Henri Matisse",
-        "aliases": [
-          "matisse"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Georgia O'Keeffe",
-        "aliases": [
-          "o'keeffe",
-          "okeeffe",
-          "georgia okeefe"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Keith Haring",
-        "aliases": [
-          "haring"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Jean-Michel Basquiat",
-        "aliases": [
-          "basquiat"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Norman Rockwell",
         "aliases": [
           "rockwell"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pierre-Auguste Renoir",
         "aliases": [
           "renoir"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Edgar Degas",
         "aliases": [
           "degas"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jackson Pollock",
         "aliases": [
           "pollock"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Frida Kahlo",
@@ -2682,18 +2682,18 @@
           "frida",
           "kahlo"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Raphael",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rembrandt",
         "aliases": [
           "rembrandt van rijn"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Salvador Dali",
@@ -2701,21 +2701,21 @@
           "dali",
           "dalí"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Michelangelo",
         "aliases": [
           "michaelangelo"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Andy Warhol",
         "aliases": [
           "warhol"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bob Ross",
@@ -2782,6 +2782,57 @@
       {
         "text": "Casu marzu",
         "tier": 100
+      },
+      {
+        "text": "Goat cheese",
+        "aliases": [
+          "chevre",
+          "chèvre"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Edam",
+        "tier": 85
+      },
+      {
+        "text": "Mascarpone",
+        "tier": 85
+      },
+      {
+        "text": "Colby",
+        "tier": 85
+      },
+      {
+        "text": "Colby Jack",
+        "tier": 85
+      },
+      {
+        "text": "Pepper Jack",
+        "aliases": [
+          "pepperjack"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Romano",
+        "tier": 85
+      },
+      {
+        "text": "Queso",
+        "tier": 85
+      },
+      {
+        "text": "Bocconcini",
+        "tier": 85
+      },
+      {
+        "text": "Muenster",
+        "aliases": [
+          "munster",
+          "muenster cheese"
+        ],
+        "tier": 85
       },
       {
         "text": "Halloumi",
@@ -3740,67 +3791,16 @@
         "tier": 85
       },
       {
-        "text": "Goat cheese",
-        "aliases": [
-          "chevre",
-          "chèvre"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Edam",
-        "tier": 60
-      },
-      {
-        "text": "Mascarpone",
-        "tier": 60
-      },
-      {
-        "text": "Colby",
-        "tier": 60
-      },
-      {
-        "text": "Colby Jack",
-        "tier": 60
-      },
-      {
-        "text": "Pepper Jack",
-        "aliases": [
-          "pepperjack"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Romano",
-        "tier": 60
-      },
-      {
-        "text": "Queso",
-        "tier": 60
-      },
-      {
-        "text": "Bocconcini",
-        "tier": 60
-      },
-      {
-        "text": "Muenster",
-        "aliases": [
-          "munster",
-          "muenster cheese"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Gorgonzola",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Camembert",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ricotta",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Monterey Jack",
@@ -3808,45 +3808,45 @@
           "jack",
           "jack cheese"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Blue cheese",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cottage cheese",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cream cheese",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Feta",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Gouda",
         "aliases": [
           "smoked gouda"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Brie",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Provolone",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Swiss",
         "aliases": [
           "swiss cheese"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Parmesan",
@@ -3855,7 +3855,7 @@
           "parmigiano",
           "parmesian"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Velveeta",
@@ -3934,6 +3934,41 @@
           "mandolin slicer"
         ],
         "tier": 100
+      },
+      {
+        "text": "Ladle",
+        "tier": 85
+      },
+      {
+        "text": "Tongs",
+        "tier": 85
+      },
+      {
+        "text": "Whisk",
+        "tier": 85
+      },
+      {
+        "text": "Peeler",
+        "aliases": [
+          "vegetable peeler",
+          "potato peeler"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Grater",
+        "aliases": [
+          "cheese grater",
+          "box grater"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Potato masher",
+        "aliases": [
+          "masher"
+        ],
+        "tier": 85
       },
       {
         "text": "Spider",
@@ -4580,47 +4615,12 @@
         "tier": 85
       },
       {
-        "text": "Ladle",
-        "tier": 60
-      },
-      {
-        "text": "Tongs",
-        "tier": 60
-      },
-      {
-        "text": "Whisk",
-        "tier": 60
-      },
-      {
-        "text": "Peeler",
-        "aliases": [
-          "vegetable peeler",
-          "potato peeler"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Grater",
-        "aliases": [
-          "cheese grater",
-          "box grater"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Potato masher",
-        "aliases": [
-          "masher"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Spoon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fork",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Spatula",
@@ -4674,6 +4674,108 @@
           "gwinnett"
         ],
         "tier": 100
+      },
+      {
+        "text": "Robert Treat Paine",
+        "tier": 85
+      },
+      {
+        "text": "James Wilson",
+        "tier": 85
+      },
+      {
+        "text": "Thomas McKean",
+        "aliases": [
+          "mckean"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "George Read",
+        "tier": 85
+      },
+      {
+        "text": "Thomas Nelson Jr.",
+        "aliases": [
+          "thomas nelson"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Francis Lightfoot Lee",
+        "tier": 85
+      },
+      {
+        "text": "Philip Livingston",
+        "aliases": [
+          "livingston"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lewis Morris",
+        "tier": 85
+      },
+      {
+        "text": "William Whipple",
+        "aliases": [
+          "whipple"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Matthew Thornton",
+        "aliases": [
+          "thornton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Oliver Wolcott",
+        "aliases": [
+          "wolcott"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Samuel Huntington",
+        "aliases": [
+          "huntington"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Richard Stockton",
+        "aliases": [
+          "stockton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Arthur Middleton",
+        "aliases": [
+          "middleton"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Thomas Lynch Jr.",
+        "aliases": [
+          "thomas lynch",
+          "lynch"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "William Paca",
+        "aliases": [
+          "paca"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lyman Hall",
+        "tier": 85
       },
       {
         "text": "William Ellery",
@@ -4773,113 +4875,11 @@
         "tier": 85
       },
       {
-        "text": "Robert Treat Paine",
-        "tier": 60
-      },
-      {
-        "text": "James Wilson",
-        "tier": 60
-      },
-      {
-        "text": "Thomas McKean",
-        "aliases": [
-          "mckean"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "George Read",
-        "tier": 60
-      },
-      {
-        "text": "Thomas Nelson Jr.",
-        "aliases": [
-          "thomas nelson"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Francis Lightfoot Lee",
-        "tier": 60
-      },
-      {
-        "text": "Philip Livingston",
-        "aliases": [
-          "livingston"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lewis Morris",
-        "tier": 60
-      },
-      {
-        "text": "William Whipple",
-        "aliases": [
-          "whipple"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Matthew Thornton",
-        "aliases": [
-          "thornton"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Oliver Wolcott",
-        "aliases": [
-          "wolcott"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Samuel Huntington",
-        "aliases": [
-          "huntington"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Richard Stockton",
-        "aliases": [
-          "stockton"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Arthur Middleton",
-        "aliases": [
-          "middleton"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Thomas Lynch Jr.",
-        "aliases": [
-          "thomas lynch",
-          "lynch"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "William Paca",
-        "aliases": [
-          "paca"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lyman Hall",
-        "tier": 60
-      },
-      {
         "text": "Roger Sherman",
         "aliases": [
           "sherman"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Benjamin Rush",
@@ -4887,36 +4887,36 @@
           "rush",
           "ben rush"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Richard Henry Lee",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Elbridge Gerry",
         "aliases": [
           "gerry"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "John Witherspoon",
         "aliases": [
           "witherspoon"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Caesar Rodney",
         "aliases": [
           "rodney"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Robert Morris",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Charles Carroll",
@@ -4924,46 +4924,46 @@
           "charles carroll of carrollton",
           "carroll"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Samuel Chase",
         "aliases": [
           "chase"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Edward Rutledge",
         "aliases": [
           "rutledge"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Francis Hopkinson",
         "aliases": [
           "hopkinson"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "George Wythe",
         "aliases": [
           "wythe"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Josiah Bartlett",
         "aliases": [
           "bartlett"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Stephen Hopkins",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Benjamin Harrison",
@@ -5034,6 +5034,42 @@
         "tier": 100
       },
       {
+        "text": "Alabama",
+        "tier": 85
+      },
+      {
+        "text": "Kentucky",
+        "tier": 85
+      },
+      {
+        "text": "Missouri",
+        "tier": 85
+      },
+      {
+        "text": "Wisconsin",
+        "tier": 85
+      },
+      {
+        "text": "Indiana",
+        "tier": 85
+      },
+      {
+        "text": "Maryland",
+        "tier": 85
+      },
+      {
+        "text": "South Carolina",
+        "tier": 85
+      },
+      {
+        "text": "Utah",
+        "tier": 85
+      },
+      {
+        "text": "New Mexico",
+        "tier": 85
+      },
+      {
         "text": "North Dakota",
         "tier": 85
       },
@@ -5102,108 +5138,72 @@
         "tier": 85
       },
       {
-        "text": "Alabama",
-        "tier": 60
-      },
-      {
-        "text": "Kentucky",
-        "tier": 60
-      },
-      {
-        "text": "Missouri",
-        "tier": 60
-      },
-      {
-        "text": "Wisconsin",
-        "tier": 60
-      },
-      {
-        "text": "Indiana",
-        "tier": 60
-      },
-      {
-        "text": "Maryland",
-        "tier": 60
-      },
-      {
-        "text": "South Carolina",
-        "tier": 60
-      },
-      {
-        "text": "Utah",
-        "tier": 60
-      },
-      {
-        "text": "New Mexico",
-        "tier": 60
-      },
-      {
         "text": "Minnesota",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Louisiana",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tennessee",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "New Jersey",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Nevada",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Oregon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Virginia",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "North Carolina",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Massachusetts",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Washington",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Georgia",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Colorado",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Arizona",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ohio",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pennsylvania",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Illinois",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Michigan",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Alaska",
@@ -5257,6 +5257,172 @@
           "habbakkuk"
         ],
         "tier": 100
+      },
+      {
+        "text": "Hosea",
+        "tier": 85
+      },
+      {
+        "text": "Joel",
+        "tier": 85
+      },
+      {
+        "text": "Amos",
+        "tier": 85
+      },
+      {
+        "text": "Lamentations",
+        "tier": 85
+      },
+      {
+        "text": "Nehemiah",
+        "tier": 85
+      },
+      {
+        "text": "Ezra",
+        "tier": 85
+      },
+      {
+        "text": "Titus",
+        "tier": 85
+      },
+      {
+        "text": "1 Thessalonians",
+        "aliases": [
+          "1thessalonians",
+          "i thessalonians",
+          "first thessalonians",
+          "1st thessalonians",
+          "thessalonians"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Timothy",
+        "aliases": [
+          "2timothy",
+          "ii timothy",
+          "second timothy",
+          "2nd timothy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Peter",
+        "aliases": [
+          "2peter",
+          "ii peter",
+          "second peter",
+          "2nd peter"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "1 John",
+        "aliases": [
+          "1john",
+          "i john",
+          "first john",
+          "1st john"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "1 Chronicles",
+        "aliases": [
+          "chronicles",
+          "1chronicles",
+          "i chronicles",
+          "first chronicles",
+          "1st chronicles"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Kings",
+        "aliases": [
+          "2kings",
+          "ii kings",
+          "second kings",
+          "2nd kings"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Samuel",
+        "aliases": [
+          "2samuel",
+          "ii samuel",
+          "second samuel",
+          "2nd samuel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "2 Corinthians",
+        "aliases": [
+          "2corinthians",
+          "ii corinthians",
+          "second corinthians",
+          "2nd corinthians"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Colossians",
+        "tier": 85
+      },
+      {
+        "text": "Philippians",
+        "aliases": [
+          "phillipians"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ezekiel",
+        "aliases": [
+          "ezekial"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Galatians",
+        "tier": 85
+      },
+      {
+        "text": "Ephesians",
+        "tier": 85
+      },
+      {
+        "text": "Hebrews",
+        "tier": 85
+      },
+      {
+        "text": "James",
+        "tier": 85
+      },
+      {
+        "text": "1 Timothy",
+        "aliases": [
+          "1timothy",
+          "i timothy",
+          "first timothy",
+          "1st timothy",
+          "timothy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "1 Peter",
+        "aliases": [
+          "1peter",
+          "i peter",
+          "first peter",
+          "1st peter",
+          "peter"
+        ],
+        "tier": 85
       },
       {
         "text": "Obadiah",
@@ -5415,189 +5581,23 @@
         "tier": 85
       },
       {
-        "text": "Hosea",
-        "tier": 60
-      },
-      {
-        "text": "Joel",
-        "tier": 60
-      },
-      {
-        "text": "Amos",
-        "tier": 60
-      },
-      {
-        "text": "Lamentations",
-        "tier": 60
-      },
-      {
-        "text": "Nehemiah",
-        "tier": 60
-      },
-      {
-        "text": "Ezra",
-        "tier": 60
-      },
-      {
-        "text": "Titus",
-        "tier": 60
-      },
-      {
-        "text": "1 Thessalonians",
-        "aliases": [
-          "1thessalonians",
-          "i thessalonians",
-          "first thessalonians",
-          "1st thessalonians",
-          "thessalonians"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "2 Timothy",
-        "aliases": [
-          "2timothy",
-          "ii timothy",
-          "second timothy",
-          "2nd timothy"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "2 Peter",
-        "aliases": [
-          "2peter",
-          "ii peter",
-          "second peter",
-          "2nd peter"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "1 John",
-        "aliases": [
-          "1john",
-          "i john",
-          "first john",
-          "1st john"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "1 Chronicles",
-        "aliases": [
-          "chronicles",
-          "1chronicles",
-          "i chronicles",
-          "first chronicles",
-          "1st chronicles"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "2 Kings",
-        "aliases": [
-          "2kings",
-          "ii kings",
-          "second kings",
-          "2nd kings"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "2 Samuel",
-        "aliases": [
-          "2samuel",
-          "ii samuel",
-          "second samuel",
-          "2nd samuel"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "2 Corinthians",
-        "aliases": [
-          "2corinthians",
-          "ii corinthians",
-          "second corinthians",
-          "2nd corinthians"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Colossians",
-        "tier": 60
-      },
-      {
-        "text": "Philippians",
-        "aliases": [
-          "phillipians"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Ezekiel",
-        "aliases": [
-          "ezekial"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Galatians",
-        "tier": 60
-      },
-      {
-        "text": "Ephesians",
-        "tier": 60
-      },
-      {
-        "text": "Hebrews",
-        "tier": 60
-      },
-      {
-        "text": "James",
-        "tier": 60
-      },
-      {
-        "text": "1 Timothy",
-        "aliases": [
-          "1timothy",
-          "i timothy",
-          "first timothy",
-          "1st timothy",
-          "timothy"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "1 Peter",
-        "aliases": [
-          "1peter",
-          "i peter",
-          "first peter",
-          "1st peter",
-          "peter"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Leviticus",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Deuteronomy",
         "aliases": [
           "deuteronomie"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Joshua",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ruth",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "1 Samuel",
@@ -5608,7 +5608,7 @@
           "1st samuel",
           "samuel"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "1 Kings",
@@ -5619,19 +5619,19 @@
           "first kings",
           "1st kings"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Esther",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Proverbs",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ecclesiastes",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Song of Solomon",
@@ -5640,27 +5640,27 @@
           "canticles",
           "song of songs of solomon"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Isaiah",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jeremiah",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Daniel",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jonah",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Romans",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "1 Corinthians",
@@ -5670,6 +5670,21 @@
           "i corinthians",
           "first corinthians",
           "1st corinthians"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mark",
+        "tier": 30
+      },
+      {
+        "text": "Luke",
+        "tier": 30
+      },
+      {
+        "text": "John",
+        "aliases": [
+          "gospel of john"
         ],
         "tier": 30
       },
@@ -5719,21 +5734,6 @@
       {
         "text": "Matthew",
         "tier": 10
-      },
-      {
-        "text": "Mark",
-        "tier": 10
-      },
-      {
-        "text": "Luke",
-        "tier": 10
-      },
-      {
-        "text": "John",
-        "aliases": [
-          "gospel of john"
-        ],
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -5760,6 +5760,84 @@
       {
         "text": "Baobab",
         "tier": 100
+      },
+      {
+        "text": "Ash",
+        "tier": 85
+      },
+      {
+        "text": "Beech",
+        "tier": 85
+      },
+      {
+        "text": "Elm",
+        "tier": 85
+      },
+      {
+        "text": "Hickory",
+        "tier": 85
+      },
+      {
+        "text": "Walnut",
+        "aliases": [
+          "walnut tree"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chestnut",
+        "tier": 85
+      },
+      {
+        "text": "Poplar",
+        "tier": 85
+      },
+      {
+        "text": "Aspen",
+        "tier": 85
+      },
+      {
+        "text": "Magnolia",
+        "tier": 85
+      },
+      {
+        "text": "Dogwood",
+        "tier": 85
+      },
+      {
+        "text": "Cherry tree",
+        "aliases": [
+          "cherry blossom",
+          "cherry"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Apple tree",
+        "aliases": [
+          "apple"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fir",
+        "tier": 85
+      },
+      {
+        "text": "Spruce",
+        "tier": 85
+      },
+      {
+        "text": "Sycamore",
+        "tier": 85
+      },
+      {
+        "text": "Redwood",
+        "tier": 85
+      },
+      {
+        "text": "Bamboo",
+        "tier": 85
       },
       {
         "text": "Sequoia",
@@ -7137,107 +7215,29 @@
         "tier": 85
       },
       {
-        "text": "Ash",
-        "tier": 60
-      },
-      {
-        "text": "Beech",
-        "tier": 60
-      },
-      {
-        "text": "Elm",
-        "tier": 60
-      },
-      {
-        "text": "Hickory",
-        "tier": 60
-      },
-      {
-        "text": "Walnut",
-        "aliases": [
-          "walnut tree"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chestnut",
-        "tier": 60
-      },
-      {
-        "text": "Poplar",
-        "tier": 60
-      },
-      {
-        "text": "Aspen",
-        "tier": 60
-      },
-      {
-        "text": "Magnolia",
-        "tier": 60
-      },
-      {
-        "text": "Dogwood",
-        "tier": 60
-      },
-      {
-        "text": "Cherry tree",
-        "aliases": [
-          "cherry blossom",
-          "cherry"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Apple tree",
-        "aliases": [
-          "apple"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Fir",
-        "tier": 60
-      },
-      {
-        "text": "Spruce",
-        "tier": 60
-      },
-      {
-        "text": "Sycamore",
-        "tier": 60
-      },
-      {
-        "text": "Redwood",
-        "tier": 60
-      },
-      {
-        "text": "Bamboo",
-        "tier": 60
-      },
-      {
         "text": "Willow",
         "aliases": [
           "weeping willow"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Palm",
         "aliases": [
           "palm tree"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Birch",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Coconut tree",
         "aliases": [
           "coconut palm"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Evergreen",
@@ -7290,6 +7290,53 @@
           "booby"
         ],
         "tier": 100
+      },
+      {
+        "text": "Emu",
+        "tier": 85
+      },
+      {
+        "text": "Macaw",
+        "tier": 85
+      },
+      {
+        "text": "Cockatoo",
+        "tier": 85
+      },
+      {
+        "text": "Falcon",
+        "tier": 85
+      },
+      {
+        "text": "Raven",
+        "tier": 85
+      },
+      {
+        "text": "Sparrow",
+        "tier": 85
+      },
+      {
+        "text": "Blue jay",
+        "aliases": [
+          "jay"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cardinal",
+        "tier": 85
+      },
+      {
+        "text": "Swallow",
+        "tier": 85
+      },
+      {
+        "text": "Dove",
+        "tier": 85
+      },
+      {
+        "text": "Kiwi",
+        "tier": 85
       },
       {
         "text": "Cassowary",
@@ -9708,135 +9755,88 @@
         "tier": 85
       },
       {
-        "text": "Emu",
-        "tier": 60
-      },
-      {
-        "text": "Macaw",
-        "tier": 60
-      },
-      {
-        "text": "Cockatoo",
-        "tier": 60
-      },
-      {
-        "text": "Falcon",
-        "tier": 60
-      },
-      {
-        "text": "Raven",
-        "tier": 60
-      },
-      {
-        "text": "Sparrow",
-        "tier": 60
-      },
-      {
-        "text": "Blue jay",
-        "aliases": [
-          "jay"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cardinal",
-        "tier": 60
-      },
-      {
-        "text": "Swallow",
-        "tier": 60
-      },
-      {
-        "text": "Dove",
-        "tier": 60
-      },
-      {
-        "text": "Kiwi",
-        "tier": 60
-      },
-      {
         "text": "Parrot",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Toucan",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hawk",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Vulture",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Turkey",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Goose",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Swan",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Seagull",
         "aliases": [
           "gull"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Peacock",
         "aliases": [
           "peafowl"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pelican",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Woodpecker",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hummingbird",
         "aliases": [
           "hummer"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bald eagle",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bluebird",
         "aliases": [
           "blue bird"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ostrich",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Owl",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Crow",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Flamingo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Penguin",
@@ -9894,6 +9894,54 @@
       {
         "text": "Whataburger",
         "tier": 100
+      },
+      {
+        "text": "Arby's",
+        "aliases": [
+          "arbys"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jack in the Box",
+        "tier": 85
+      },
+      {
+        "text": "Panda Express",
+        "tier": 85
+      },
+      {
+        "text": "Sonic",
+        "aliases": [
+          "sonic drive in"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dairy Queen",
+        "aliases": [
+          "dq"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pizza Hut",
+        "tier": 85
+      },
+      {
+        "text": "Domino's",
+        "aliases": [
+          "dominos",
+          "dominos pizza"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chipotle",
+        "aliases": [
+          "chipotle mexican grill"
+        ],
+        "tier": 85
       },
       {
         "text": "Carl's Jr.",
@@ -10917,74 +10965,26 @@
         "tier": 85
       },
       {
-        "text": "Arby's",
-        "aliases": [
-          "arbys"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Jack in the Box",
-        "tier": 60
-      },
-      {
-        "text": "Panda Express",
-        "tier": 60
-      },
-      {
-        "text": "Sonic",
-        "aliases": [
-          "sonic drive in"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Dairy Queen",
-        "aliases": [
-          "dq"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Pizza Hut",
-        "tier": 60
-      },
-      {
-        "text": "Domino's",
-        "aliases": [
-          "dominos",
-          "dominos pizza"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chipotle",
-        "aliases": [
-          "chipotle mexican grill"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Culver's",
         "aliases": [
           "culvers"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Wingstop",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jersey Mike's",
         "aliases": [
           "jersey mikes"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "White Castle",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Raising Cane's",
@@ -10992,21 +10992,21 @@
           "raising canes",
           "canes"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Panera",
         "aliases": [
           "panera bread"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jimmy John's",
         "aliases": [
           "jimmy johns"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Papa John's",
@@ -11014,18 +11014,18 @@
           "papa johns",
           "papa johns pizza"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Little Caesars",
         "aliases": [
           "little caesar's"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Shake Shack",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "In-N-Out",
@@ -11035,20 +11035,37 @@
           "innout",
           "in-n-out burger"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Five Guys",
         "aliases": [
           "five guys burgers and fries"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Popeyes",
         "aliases": [
           "popeye's",
           "popeyes louisiana kitchen"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "McDonald's",
+        "aliases": [
+          "mcdonalds",
+          "mcdonald",
+          "maccas",
+          "mickey d's"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Burger King",
+        "aliases": [
+          "bk"
         ],
         "tier": 30
       },
@@ -11095,23 +11112,6 @@
         "text": "Wendy's",
         "aliases": [
           "wendys"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "McDonald's",
-        "aliases": [
-          "mcdonalds",
-          "mcdonald",
-          "maccas",
-          "mickey d's"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Burger King",
-        "aliases": [
-          "bk"
         ],
         "tier": 10
       }

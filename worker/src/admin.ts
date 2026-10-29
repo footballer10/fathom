@@ -570,7 +570,7 @@ export function retierSuggestions(answers: StoredAnswer[], stats: { answer_id: s
   const total = stats.reduce((n, s) => n + s.times_chosen, 0);
   if (total < 100) return [];
   const share = new Map(stats.map((s) => [s.answer_id, s.times_chosen / total]));
-  const suggest = (p: number): TierPoints => (p >= 0.05 ? 10 : p >= 0.015 ? 30 : p >= 0.004 ? 60 : 85);
+  const suggest = (p: number): TierPoints => (p >= 0.08 ? 10 : p >= 0.03 ? 30 : p >= 0.008 ? 60 : 85);
   const out: { answerId: string; text: string; current: TierPoints; suggested: TierPoints; share: number }[] = [];
   for (const a of answers) {
     if (a.tier === 100 || a.tier === 15) continue; // hand-picked tiers stay hand-picked

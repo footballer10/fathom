@@ -9,36 +9,6 @@ note: Kings and queens regnant of England (from Athelstan), Scotland (from Kenne
 Lulach | lulach the simple | king lulach
 
 [Deep Cut]
-Aed | áed | king aed
-Giric | king giric
-Indulf | king indulf
-Dub | duff | king dub
-Cuilen | cuilén | culen | king cuilen
-Donald I | donald 1 | donald the first | donald first | king donald i | king donald 1
-Donald II | donald 2 | donald the second | donald second | king donald ii | king donald 2
-Donald III | donald bane | donalbain | donald 3 | donald the third | donald third | king donald iii | king donald 3
-Constantine I | constantine 1 | constantine the first | constantine first | king constantine i | king constantine 1
-Constantine II | constantine 2 | constantine the second | constantine second | king constantine ii | king constantine 2
-Constantine III | constantine 3 | constantine the third | constantine third | king constantine iii | king constantine 3
-Malcolm I | malcolm 1 | malcolm the first | malcolm first | king malcolm i | king malcolm 1
-Malcolm II | malcolm 2 | malcolm the second | malcolm second | king malcolm ii | king malcolm 2
-Malcolm IV | malcolm the maiden | malcolm 4 | malcolm the fourth | malcolm fourth | king malcolm iv | king malcolm 4
-Kenneth II | kenneth 2 | kenneth the second | kenneth second | king kenneth ii | king kenneth 2
-Kenneth III | kenneth 3 | kenneth the third | kenneth third | king kenneth iii | king kenneth 3
-Duncan II | duncan 2 | duncan the second | duncan second | king duncan ii | king duncan 2
-Alexander I | alexander 1 | alexander the first | alexander first | king alexander i | king alexander 1
-Alexander II | alexander 2 | alexander the second | alexander second | king alexander ii | king alexander 2
-Eadred | king eadred
-Eadwig | edwy | king eadwig
-Edmund I | edmund the magnificent | edmund the elder | edmund 1 | edmund the first | edmund first | king edmund i | king edmund 1
-Edward the Martyr | king edward the martyr
-Edgar Atheling | edgar ætheling | edgar the atheling
-Robert II | robert 2 | robert the second | robert second | king robert ii | king robert 2
-Robert III | robert 3 | robert the third | robert third | king robert iii | king robert 3
-David II | david 2 | david the second | david second | king david ii | king david 2
-Edward the Elder | king edward the elder
-
-[Rare]
 Henry IV | henry bolingbroke | henry 4 | henry the fourth | henry fourth | king henry iv | king henry 4
 Henry VI | henry 6 | henry the sixth | henry sixth | king henry vi | king henry 6
 Edward II | edward 2 | edward the second | edward second | king edward ii | king edward 2
@@ -72,8 +42,36 @@ John Balliol | balliol | king john balliol
 Alexander III | alexander 3 | alexander the third | alexander third | king alexander iii | king alexander 3
 Margaret, Maid of Norway | maid of norway | margaret maid of norway | margaret of norway | queen margaret, maid of norway
 Mary II | mary 2 | mary the second | mary second | queen mary ii | queen mary 2
+Aed | áed | king aed
+Giric | king giric
+Indulf | king indulf
+Dub | duff | king dub
+Cuilen | cuilén | culen | king cuilen
+Donald I | donald 1 | donald the first | donald first | king donald i | king donald 1
+Donald II | donald 2 | donald the second | donald second | king donald ii | king donald 2
+Donald III | donald bane | donalbain | donald 3 | donald the third | donald third | king donald iii | king donald 3
+Constantine I | constantine 1 | constantine the first | constantine first | king constantine i | king constantine 1
+Constantine II | constantine 2 | constantine the second | constantine second | king constantine ii | king constantine 2
+Constantine III | constantine 3 | constantine the third | constantine third | king constantine iii | king constantine 3
+Malcolm I | malcolm 1 | malcolm the first | malcolm first | king malcolm i | king malcolm 1
+Malcolm II | malcolm 2 | malcolm the second | malcolm second | king malcolm ii | king malcolm 2
+Malcolm IV | malcolm the maiden | malcolm 4 | malcolm the fourth | malcolm fourth | king malcolm iv | king malcolm 4
+Kenneth II | kenneth 2 | kenneth the second | kenneth second | king kenneth ii | king kenneth 2
+Kenneth III | kenneth 3 | kenneth the third | kenneth third | king kenneth iii | king kenneth 3
+Duncan II | duncan 2 | duncan the second | duncan second | king duncan ii | king duncan 2
+Alexander I | alexander 1 | alexander the first | alexander first | king alexander i | king alexander 1
+Alexander II | alexander 2 | alexander the second | alexander second | king alexander ii | king alexander 2
+Eadred | king eadred
+Eadwig | edwy | king eadwig
+Edmund I | edmund the magnificent | edmund the elder | edmund 1 | edmund the first | edmund first | king edmund i | king edmund 1
+Edward the Martyr | king edward the martyr
+Edgar Atheling | edgar ætheling | edgar the atheling
+Robert II | robert 2 | robert the second | robert second | king robert ii | king robert 2
+Robert III | robert 3 | robert the third | robert third | king robert iii | king robert 3
+David II | david 2 | david the second | david second | king david ii | king david 2
+Edward the Elder | king edward the elder
 
-[Schooler]
+[Rare]
 Mary, Queen of Scots | mary queen of scots | mary stuart | mary stewart
 Richard I | richard the lionheart | richard lionheart | richard coeur de lion | lionheart | richard 1 | richard the first | richard first | king richard i | king richard 1
 John | king john | john lackland
@@ -100,6 +98,11 @@ Edward VII | edward 7 | edward the seventh | edward seventh | king edward vii | 
 William III | william of orange | william and mary | william 3 | william the third | william third | king william iii | king william 3
 Henry II | henry 2 | henry the second | henry second | king henry ii | king henry 2
 
+[Schooler]
+William I | william the conqueror | william | william 1 | william the first | william first | king william i | king william 1
+George III | george | mad king george | george 3 | george the third | george third | king george iii | king george 3
+Richard III | richard | richard 3 | richard the third | richard third | king richard iii | king richard 3
+
 [Too Clever]
 Macbeth | mac beth | king macbeth
 Lady Jane Grey | jane grey | queen jane | lady jane
@@ -111,9 +114,6 @@ Henry VIII | henry | henry 8 | henry the eighth | henry eighth | king henry viii
 Victoria | queen victoria
 Charles III | charles | king charles | charles 3 | charles the third | charles third | king charles iii | king charles 3
 Elizabeth I | the virgin queen | good queen bess | elizabeth 1 | elizabeth the first | elizabeth first | queen elizabeth i | queen elizabeth 1
-William I | william the conqueror | william | william 1 | william the first | william first | king william i | king william 1
-George III | george | mad king george | george 3 | george the third | george third | king george iii | king george 3
-Richard III | richard | richard 3 | richard the third | richard third | king richard iii | king richard 3
 
 [Not accepted]
 King Arthur
@@ -146,85 +146,6 @@ prompt: Name an ancient civilization or empire
 Nabataeans | nabataean | nabataea | petra
 
 [Deep Cut]
-Natufians
-Catalhoyuk
-Ubaid
-Uruk
-Jemdet Nasr
-Ebla
-Mari
-Ugarit
-Dilmun
-Magan
-Meluhha
-Gutians
-Lullubi
-Hyksos
-Kerma
-Meroe
-Punt
-Garamantes
-Nok culture
-Ife
-Igbo-Ukwu
-Djenne-Djenno
-Mapungubwe
-Swahili city-states
-Kilwa Sultanate
-Zagwe dynasty
-Sabaeans | sheba
-Himyarites
-Qataban
-Hadramaut
-Palmyrenes
-Commagene
-Pontus
-Bactria
-Greco-Bactrians
-Indo-Greeks
-Sogdians
-Tocharians
-Saka
-Hephthalites
-Alans
-Avars
-Bulgars
-Magyars
-Cimmerians
-Hallstatt culture
-La Tene culture
-Urnfield culture
-Beaker culture
-Corded Ware
-Yamnaya
-Andronovo
-Sintashta
-Cucuteni-Trypillia
-Vinca culture
-Cycladic
-Nuragic
-Talayotic
-Tartessos
-Villanovan
-Liangzhu
-Erlitou
-Sanxingdui
-Hongshan
-Yangshao
-Longshan
-Dong Son
-Sa Huynh
-Lapita
-Valdivia
-Paracas
-Recuay
-Cupisnique
-Huastec
-Totonac
-Purepecha | tarascan
-Tlaxcala
-
-[Rare]
 Akkadian Empire | akkad | akkadians
 Elamites | elam
 Chaldeans
@@ -350,8 +271,85 @@ Republic of Venice | venetian republic
 Mohenjo-daro
 Western Roman Empire
 Hellenistic Greece
+Natufians
+Catalhoyuk
+Ubaid
+Uruk
+Jemdet Nasr
+Ebla
+Mari
+Ugarit
+Dilmun
+Magan
+Meluhha
+Gutians
+Lullubi
+Hyksos
+Kerma
+Meroe
+Punt
+Garamantes
+Nok culture
+Ife
+Igbo-Ukwu
+Djenne-Djenno
+Mapungubwe
+Swahili city-states
+Kilwa Sultanate
+Zagwe dynasty
+Sabaeans | sheba
+Himyarites
+Qataban
+Hadramaut
+Palmyrenes
+Commagene
+Pontus
+Bactria
+Greco-Bactrians
+Indo-Greeks
+Sogdians
+Tocharians
+Saka
+Hephthalites
+Alans
+Avars
+Bulgars
+Magyars
+Cimmerians
+Hallstatt culture
+La Tene culture
+Urnfield culture
+Beaker culture
+Corded Ware
+Yamnaya
+Andronovo
+Sintashta
+Cucuteni-Trypillia
+Vinca culture
+Cycladic
+Nuragic
+Talayotic
+Tartessos
+Villanovan
+Liangzhu
+Erlitou
+Sanxingdui
+Hongshan
+Yangshao
+Longshan
+Dong Son
+Sa Huynh
+Lapita
+Valdivia
+Paracas
+Recuay
+Cupisnique
+Huastec
+Totonac
+Purepecha | tarascan
+Tlaxcala
 
-[Schooler]
+[Rare]
 Persian Empire | persians | persia | ancient persia
 Babylonians | babylon | babylonian | babylonia
 Sumerians | sumer | sumerian
@@ -384,6 +382,10 @@ Khmer Empire | khmer | angkor
 Maurya Empire | mauryan
 Gupta Empire
 
+[Schooler]
+Inca | incas | incan | inca empire
+Mesopotamia
+
 [Too Clever]
 Vikings | viking | norse | norsemen
 Ancient China | chinese
@@ -396,8 +398,6 @@ Roman Empire | romans | rome | ancient rome | roman
 Ancient Greece | greeks | greece | greek | ancient greeks
 Aztecs | aztec | aztec empire | mexica
 Maya | mayans | mayan | maya civilization
-Inca | incas | incan | inca empire
-Mesopotamia
 
 [Not accepted]
 America
@@ -417,64 +417,6 @@ prompt: Name a chess term or piece
 En passant | en passent
 
 [Deep Cut]
-Luft
-Prophylaxis
-Overprotection
-Blockade
-Restriction
-Mysterious rook move
-Hypermodern
-Immortal Game
-Evergreen Game
-Opera Game
-Game of the Century
-Greek gift sacrifice
-Anastasia's mate
-Arabian mate
-Boden's mate
-Epaulette mate
-Legal's mate
-Damiano's mate
-Lolli's mate
-Morphy's mate
-Pillsbury's mate
-Opera mate
-Swallow's tail mate
-Dovetail mate
-Hook mate
-Corridor mate
-Blackburne's mate
-Max Lange's mate
-Reti's mate
-Kingside attack
-Queenside majority
-Pawn break
-Lever
-Ram
-Hanging pawns
-Isolani
-Sealed move
-Adjournment
-J'adoube
-Kriegspiel
-Fairy chess
-Archbishop
-Chancellor
-Nightrider
-Shatranj
-Shogi
-Xiangqi
-Makruk
-Chaturanga
-Alfil
-Ferz
-Vizier
-Tablebase
-Retrograde analysis
-Selfmate
-Helpmate
-
-[Rare]
 Kingside castling | castling short | short castle | o-o
 Queenside castling | castling long | long castle | o-o-o
 Pawn storm
@@ -647,8 +589,64 @@ Fritz
 Strategy
 Annotation
 Pairings
+Luft
+Prophylaxis
+Overprotection
+Blockade
+Restriction
+Mysterious rook move
+Hypermodern
+Immortal Game
+Evergreen Game
+Opera Game
+Game of the Century
+Greek gift sacrifice
+Anastasia's mate
+Arabian mate
+Boden's mate
+Epaulette mate
+Legal's mate
+Damiano's mate
+Lolli's mate
+Morphy's mate
+Pillsbury's mate
+Opera mate
+Swallow's tail mate
+Dovetail mate
+Hook mate
+Corridor mate
+Blackburne's mate
+Max Lange's mate
+Reti's mate
+Kingside attack
+Queenside majority
+Pawn break
+Lever
+Ram
+Hanging pawns
+Isolani
+Sealed move
+Adjournment
+J'adoube
+Kriegspiel
+Fairy chess
+Archbishop
+Chancellor
+Nightrider
+Shatranj
+Shogi
+Xiangqi
+Makruk
+Chaturanga
+Alfil
+Ferz
+Vizier
+Tablebase
+Retrograde analysis
+Selfmate
+Helpmate
 
-[Schooler]
+[Rare]
 Castling
 Promotion
 Opening
@@ -712,6 +710,11 @@ Hanging piece
 Attack
 Defense
 
+[Schooler]
+Knight | horse
+Rook | castle
+Bishop
+
 [Too Clever]
 Queen's gambit
 Bongcloud
@@ -730,9 +733,6 @@ Queen
 Checkmate | mate
 Check
 Pawn
-Knight | horse
-Rook | castle
-Bishop
 
 [Not accepted]
 Checkers
@@ -752,62 +752,6 @@ prompt: Name a term of endearment (like honey or sweetie)
 Snookums
 
 [Deep Cut]
-Mon cheri | mon chéri
-Ma cherie
-Mon amour
-Mi amor
-Cariño
-Querido | querida
-Mi vida
-Mi cielo
-Gordito | gordita
-Mija
-Mijo
-Papi
-Mami
-Habibi
-Habibti
-Liebling
-Schatz
-Bubeleh
-Neshama
-Tesoro
-Amore
-Cara mia
-Bella
-Agapi mou
-Koukla
-Moya lyubov
-Solnyshko
-Zaychik
-Elskling
-Min skat
-Schatje
-Liefje
-Kochanie
-Aroha
-Ku'uipo
-Mahal
-Jagiya
-Aegi
-Xiao bao
-Baobei
-Hen
-Lovie
-Me duck
-Chuck
-Bab
-Treacle
-Dearie
-Doll baby
-Mavourneen
-Macushla
-Alanna
-A stór | a stor
-Cushla
-Cariad
-
-[Rare]
 Sugarpie | sugar pie
 Honey pie
 Honeybee
@@ -941,8 +885,62 @@ Meri jaan
 Janam
 Oppa
 Yeobo
+Mon cheri | mon chéri
+Ma cherie
+Mon amour
+Mi amor
+Cariño
+Querido | querida
+Mi vida
+Mi cielo
+Gordito | gordita
+Mija
+Mijo
+Papi
+Mami
+Habibi
+Habibti
+Liebling
+Schatz
+Bubeleh
+Neshama
+Tesoro
+Amore
+Cara mia
+Bella
+Agapi mou
+Koukla
+Moya lyubov
+Solnyshko
+Zaychik
+Elskling
+Min skat
+Schatje
+Liefje
+Kochanie
+Aroha
+Ku'uipo
+Mahal
+Jagiya
+Aegi
+Xiao bao
+Baobei
+Hen
+Lovie
+Me duck
+Chuck
+Bab
+Treacle
+Dearie
+Doll baby
+Mavourneen
+Macushla
+Alanna
+A stór | a stor
+Cushla
+Cariad
 
-[Schooler]
+[Rare]
 Sweetie pie
 Honey bun | honeybun
 Pumpkin
@@ -978,6 +976,11 @@ Dumpling
 Baby girl
 Baby boy
 
+[Schooler]
+Love | my love | luv
+Sugar
+Cutie
+
 [Too Clever]
 Bae
 Boo
@@ -989,9 +992,6 @@ Sweetie | sweetheart | sweets
 Baby | babe
 Darling
 Dear | dearest | my dear
-Love | my love | luv
-Sugar
-Cutie
 
 [Not accepted]
 Idiot
@@ -1010,43 +1010,6 @@ prompt: Name a yoga pose
 Happy baby | happy baby pose | ananda balasana
 
 [Deep Cut]
-Kapotasana
-Eka pada koundinyasana
-Dwi pada koundinyasana
-Galavasana
-Visvamitrasana
-Parsva bakasana
-Urdhva kukkutasana
-Bhujapidasana
-Eka pada bakasana
-Tolasana
-Lolasana
-Padma mayurasana
-Ganda bherundasana
-Viparita salabhasana
-Bhekasana
-Paryankasana
-Supta virasana
-Laghu vajrasana
-Kapinjalasana
-Valakhilyasana
-Raja kapotasana
-Eka pada sirsasana
-Yoganidrasana
-Durvasasana
-Ruchikasana
-Skandasana
-Bhairavasana
-Chakorasana
-Kala bhairavasana
-Uttana padasana
-Jathara parivartanasana
-Ardha baddha padmottanasana
-Utkata konasana
-Mandukasana
-Shashankasana
-
-[Rare]
 Firefly pose | tittibhasana
 Side crow
 Flying pigeon
@@ -1122,8 +1085,43 @@ Reclined hand to big toe
 Supported shoulder stand
 Tripod headstand
 Baby cobra
+Kapotasana
+Eka pada koundinyasana
+Dwi pada koundinyasana
+Galavasana
+Visvamitrasana
+Parsva bakasana
+Urdhva kukkutasana
+Bhujapidasana
+Eka pada bakasana
+Tolasana
+Lolasana
+Padma mayurasana
+Ganda bherundasana
+Viparita salabhasana
+Bhekasana
+Paryankasana
+Supta virasana
+Laghu vajrasana
+Kapinjalasana
+Valakhilyasana
+Raja kapotasana
+Eka pada sirsasana
+Yoganidrasana
+Durvasasana
+Ruchikasana
+Skandasana
+Bhairavasana
+Chakorasana
+Kala bhairavasana
+Uttana padasana
+Jathara parivartanasana
+Ardha baddha padmottanasana
+Utkata konasana
+Mandukasana
+Shashankasana
 
-[Schooler]
+[Rare]
 Warrior two | warrior ii | warrior 2 | virabhadrasana ii
 Warrior three | warrior iii | warrior 3
 Upward dog | upward-facing dog | up dog | urdhva mukha svanasana
@@ -1170,6 +1168,10 @@ Star pose
 Hero pose | virasana
 Staff pose | dandasana
 
+[Schooler]
+Lotus | lotus pose | padmasana
+Mountain pose | mountain | tadasana
+
 [Too Clever]
 Plank | plank pose
 Corpse pose | savasana | shavasana | corpse
@@ -1181,8 +1183,6 @@ Child's pose | childs pose | balasana | child
 Tree pose | tree | vrksasana
 Warrior | warrior pose | warrior one | warrior i | warrior 1 | virabhadrasana
 Cobra | cobra pose | bhujangasana
-Lotus | lotus pose | padmasana
-Mountain pose | mountain | tadasana
 
 [Not accepted]
 Push-up
@@ -1202,30 +1202,6 @@ prompt: Name a famous vehicle from a movie, TV show, or game
 Ecto-1 | ecto 1 | ghostbusters car | ectomobile
 
 [Deep Cut]
-Pussy Wagon
-Gigahorse
-Doof Wagon
-Wayne's World Mirthmobile | mirthmobile
-Breaking Bad RV | krystal ship
-Harold and Maude hearse
-Hoverboard
-E.T. bike
-Akira bike | kaneda's bike
-Tron light cycle | light cycle
-Recognizer
-Solar sailer
-Spinner | blade runner spinner
-Green Hornet Black Beauty | black beauty
-Mach 6
-Hot Wheels Twin Mill
-Bone Shaker
-Deora
-Duel truck
-Convoy truck
-Rubber Duck truck
-Tachikoma
-
-[Rare]
 Aston Martin DB5 | james bond car | bond car | james bond aston martin | 007 car
 Lotus Esprit submarine | wet nellie
 Little Nellie
@@ -1311,8 +1287,30 @@ Firebolt
 Hagrid's motorcycle
 Grave Digger
 BMW Z3
+Pussy Wagon
+Gigahorse
+Doof Wagon
+Wayne's World Mirthmobile | mirthmobile
+Breaking Bad RV | krystal ship
+Harold and Maude hearse
+Hoverboard
+E.T. bike
+Akira bike | kaneda's bike
+Tron light cycle | light cycle
+Recognizer
+Solar sailer
+Spinner | blade runner spinner
+Green Hornet Black Beauty | black beauty
+Mach 6
+Hot Wheels Twin Mill
+Bone Shaker
+Deora
+Duel truck
+Convoy truck
+Rubber Duck truck
+Tachikoma
 
-[Schooler]
+[Rare]
 Starship Enterprise | enterprise | uss enterprise
 X-wing
 TIE fighter
@@ -1404,6 +1402,11 @@ Milano
 Benatar
 Sanctuary II
 
+[Schooler]
+General Lee | dodge charger general lee
+KITT | knight rider car | kit
+Mystery Machine | mystery machine van | scooby van | scooby-doo van
+
 [Too Clever]
 Magic School Bus
 Flintstones car | flintmobile | flintstone mobile
@@ -1415,9 +1418,6 @@ DeLorean | time machine | delorean time machine | back to the future car | back 
 Millennium Falcon | the falcon
 Herbie | herbie the love bug | love bug
 Lightning McQueen | mcqueen | lightning
-General Lee | dodge charger general lee
-KITT | knight rider car | kit
-Mystery Machine | mystery machine van | scooby van | scooby-doo van
 
 [Not accepted]
 Toyota Corolla
@@ -1438,6 +1438,12 @@ note: Regulatory, warning and guide signs drivers see (US, UK, and other countri
 Kangaroo crossing
 
 [Deep Cut]
+One way
+No U-turn | no u turn
+School zone | school crossing | school
+Road work | road work ahead | construction | men at work | construction zone
+No parking
+Exit
 Tsunami evacuation route | tsunami zone
 Emergency snow route | snow route
 Tow-away zone | tow away zone
@@ -1516,14 +1522,6 @@ Deer crossing | animal crossing
 Children at play | slow children
 
 [Rare]
-One way
-No U-turn | no u turn
-School zone | school crossing | school
-Road work | road work ahead | construction | men at work | construction zone
-No parking
-Exit
-
-[Schooler]
 Speed limit
 
 [Plankton]
@@ -1552,6 +1550,14 @@ note: Hand tools, power tools and equipment used to dig, cut, water, weed, plant
 Hori hori | hori hori knife
 
 [Deep Cut]
+Leaf blower | blower
+Weed whacker | string trimmer | weed eater | weed wacker | strimmer
+Pitchfork
+Sprinkler
+Garden gloves | gardening gloves | gloves
+Pruning shears | pruners | secateurs | clippers
+Watering can
+Garden hose | hose
 Broadfork
 Wheel hoe
 Stirrup hoe | hula hoe | scuffle hoe
@@ -1612,16 +1618,6 @@ Bucket
 Tarp
 
 [Rare]
-Leaf blower | blower
-Weed whacker | string trimmer | weed eater | weed wacker | strimmer
-Pitchfork
-Sprinkler
-Garden gloves | gardening gloves | gloves
-Pruning shears | pruners | secateurs | clippers
-Watering can
-Garden hose | hose
-
-[Schooler]
 Wheelbarrow | wheel barrow
 Lawn mower | lawnmower | mower
 Trowel | hand trowel
@@ -1658,6 +1654,24 @@ note: The 63 official US national parks. National monuments, seashores, recreati
 Congaree | congaree national park
 
 [Deep Cut]
+Capitol Reef | capital reef
+Canyonlands | canyon lands
+Great Sand Dunes | sand dunes
+Mesa Verde
+Saguaro
+Petrified Forest
+White Sands
+Crater Lake
+Haleakala | haleakalā
+Hawaii Volcanoes | hawaii volcanoes national park | volcanoes national park
+Glacier Bay
+Mammoth Cave
+Big Bend
+Carlsbad Caverns | carlsbad
+Badlands | badlands national park
+Redwood | redwoods | redwood national park
+Kings Canyon
+Mount Rainier | rainier | mt rainier
 Kobuk Valley | kobuk
 Gates of the Arctic | gates of the arctic national park
 Lake Clark
@@ -1686,26 +1700,6 @@ Channel Islands
 Biscayne | biscayne bay
 
 [Rare]
-Capitol Reef | capital reef
-Canyonlands | canyon lands
-Great Sand Dunes | sand dunes
-Mesa Verde
-Saguaro
-Petrified Forest
-White Sands
-Crater Lake
-Haleakala | haleakalā
-Hawaii Volcanoes | hawaii volcanoes national park | volcanoes national park
-Glacier Bay
-Mammoth Cave
-Big Bend
-Carlsbad Caverns | carlsbad
-Badlands | badlands national park
-Redwood | redwoods | redwood national park
-Kings Canyon
-Mount Rainier | rainier | mt rainier
-
-[Schooler]
 Death Valley
 Olympic | olympic national park
 Bryce Canyon | bryce
@@ -1758,70 +1752,6 @@ note: Anyone who has won a lead or supporting acting Oscar, through the March 20
 Marlee Matlin | matlin
 
 [Deep Cut]
-Emil Jannings
-Warner Baxter
-George Arliss
-Lionel Barrymore
-Wallace Beery
-Charles Laughton
-Victor McLaglen
-Paul Muni
-Robert Donat
-Thomas Mitchell
-Walter Brennan
-Joseph Schildkraut
-Donald Crisp
-Van Heflin
-Charles Coburn
-Barry Fitzgerald
-James Dunn
-Harold Russell
-Edmund Gwenn
-Walter Huston
-Dean Jagger
-George Sanders
-Karl Malden
-Anthony Quinn
-Frank Sinatra
-Edmond O'Brien
-Red Buttons
-Hugh Griffith
-Peter Ustinov
-George Chakiris
-Ed Begley
-Melvyn Douglas
-Martin Balsam
-Walter Matthau
-Jack Albertson
-Gig Young
-John Mills
-Ben Johnson
-Joel Grey
-John Houseman
-Jason Robards
-Christopher Walken
-Timothy Hutton
-Louis Gossett Jr. | lou gossett jr
-Haing S. Ngor
-Don Ameche
-Denholm Elliott
-Fay Bainter
-Jane Darwell
-Mary Astor
-Teresa Wright
-Katina Paxinou
-Ethel Barrymore
-Anne Revere
-Anne Baxter
-Celeste Holm
-Claire Trevor
-Mercedes McCambridge
-Josephine Hull
-Gloria Grahame
-Donna Reed
-Lila Kedrova
-
-[Rare]
 Jessica Chastain
 Brie Larson
 Julianne Moore
@@ -1981,8 +1911,70 @@ Anna Paquin
 Jessie Buckley
 Michael B. Jordan
 Amy Madigan
+Emil Jannings
+Warner Baxter
+George Arliss
+Lionel Barrymore
+Wallace Beery
+Charles Laughton
+Victor McLaglen
+Paul Muni
+Robert Donat
+Thomas Mitchell
+Walter Brennan
+Joseph Schildkraut
+Donald Crisp
+Van Heflin
+Charles Coburn
+Barry Fitzgerald
+James Dunn
+Harold Russell
+Edmund Gwenn
+Walter Huston
+Dean Jagger
+George Sanders
+Karl Malden
+Anthony Quinn
+Frank Sinatra
+Edmond O'Brien
+Red Buttons
+Hugh Griffith
+Peter Ustinov
+George Chakiris
+Ed Begley
+Melvyn Douglas
+Martin Balsam
+Walter Matthau
+Jack Albertson
+Gig Young
+John Mills
+Ben Johnson
+Joel Grey
+John Houseman
+Jason Robards
+Christopher Walken
+Timothy Hutton
+Louis Gossett Jr. | lou gossett jr
+Haing S. Ngor
+Don Ameche
+Denholm Elliott
+Fay Bainter
+Jane Darwell
+Mary Astor
+Teresa Wright
+Katina Paxinou
+Ethel Barrymore
+Anne Revere
+Anne Baxter
+Celeste Holm
+Claire Trevor
+Mercedes McCambridge
+Josephine Hull
+Gloria Grahame
+Donna Reed
+Lila Kedrova
 
-[Schooler]
+[Rare]
 John Wayne
 Ben Kingsley
 Daniel Day-Lewis | day-lewis | daniel day lewis
@@ -2077,6 +2069,11 @@ Mikey Madison
 Kieran Culkin
 Zoe Saldana | zoe saldaña
 
+[Schooler]
+Julia Roberts
+Morgan Freeman
+Anthony Hopkins
+
 [Too Clever]
 Will Smith
 Heath Ledger
@@ -2088,9 +2085,6 @@ Tom Hanks | hanks
 Leonardo DiCaprio | dicaprio | leo | leo dicaprio
 Denzel Washington | denzel
 Jack Nicholson | nicholson
-Julia Roberts
-Morgan Freeman
-Anthony Hopkins
 
 [Not accepted]
 Matt Damon

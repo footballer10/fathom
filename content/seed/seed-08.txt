@@ -9,6 +9,36 @@ note: Princesses from Disney and Pixar animated films (official Disney Princesse
 Chernabog
 
 [Deep Cut]
+Lady Tremaine | wicked stepmother | evil stepmother | stepmother
+Anastasia | anastasia tremaine
+Drizella | drizella tremaine
+Lucifer
+Queen of Hearts
+Shere Khan
+Prince John
+Professor Ratigan | ratigan
+Governor Ratcliffe | ratcliffe
+Judge Claude Frollo | frollo | judge frollo
+Shan Yu
+Clayton
+Yzma
+Kronk
+Commander Rourke | rourke | lyle rourke
+Dr. Facilier | facilier | shadow man
+Prince Hans | hans
+Yokai | professor callaghan | robert callaghan
+Bellwether | dawn bellwether
+Tamatoa
+King Magnifico | magnifico
+Iago
+Syndrome
+Lotso | lots-o'-huggin' bear | lotso huggin bear
+Raya
+Merida
+Tiana
+Rapunzel
+Pocahontas
+Mulan
 Stromboli
 Honest John | foulfellow | j. worthington foulfellow
 Gideon
@@ -81,38 +111,6 @@ Queen Elinor
 Queen Iduna
 
 [Rare]
-Lady Tremaine | wicked stepmother | evil stepmother | stepmother
-Anastasia | anastasia tremaine
-Drizella | drizella tremaine
-Lucifer
-Queen of Hearts
-Shere Khan
-Prince John
-Professor Ratigan | ratigan
-Governor Ratcliffe | ratcliffe
-Judge Claude Frollo | frollo | judge frollo
-Shan Yu
-Clayton
-Yzma
-Kronk
-Commander Rourke | rourke | lyle rourke
-Dr. Facilier | facilier | shadow man
-Prince Hans | hans
-Yokai | professor callaghan | robert callaghan
-Bellwether | dawn bellwether
-Tamatoa
-King Magnifico | magnifico
-Iago
-Syndrome
-Lotso | lots-o'-huggin' bear | lotso huggin bear
-Raya
-Merida
-Tiana
-Rapunzel
-Pocahontas
-Mulan
-
-[Schooler]
 Captain Hook | hook
 Cruella de Vil | cruella | cruella deville
 Gaston
@@ -123,6 +121,13 @@ Aurora | sleeping beauty | briar rose
 Anna
 Moana
 
+[Schooler]
+Jasmine
+Maleficent
+Ursula
+Scar
+Jafar
+
 [Too Clever]
 Oogie Boogie
 
@@ -132,11 +137,6 @@ Ariel
 Belle
 Elsa
 Snow White
-Jasmine
-Maleficent
-Ursula
-Scar
-Jafar
 
 [Not accepted]
 Darth Vader
@@ -165,6 +165,70 @@ prompt: Name an animal native to Australia
 Quokka
 
 [Deep Cut]
+Quoll
+Tree kangaroo
+Potoroo
+Bettong
+Pademelon
+Wallaroo
+Red kangaroo
+Grey kangaroo
+Rock wallaby
+Cuscus
+Glider
+Flying fox | fruit bat
+Hairy-nosed wombat
+Dunnart
+Antechinus
+Marsupial mole
+Bush rat
+Hopping mouse
+Emu-wren
+Fairy-wren | superb fairywren
+Magpie | australian magpie
+Butcherbird
+Currawong
+Bowerbird
+Honeyeater
+Rosella
+Corella
+Cockatiel
+Gang-gang cockatoo
+Black cockatoo
+Major Mitchell's cockatoo
+Tawny frogmouth
+Powerful owl
+Wedge-tailed eagle
+Brolga
+Jabiru
+Malleefowl
+Brush turkey
+Ibis | bin chicken
+Pelican
+Kingfisher
+Bearded dragon
+Perentie
+Sand goanna
+Shingleback
+Leaf-tailed gecko
+Inland taipan
+Tiger snake
+Death adder
+Red-bellied black snake
+Carpet python
+Corroboree frog
+Green tree frog
+Barramundi
+Murray cod
+Lungfish | queensland lungfish
+Weedy seadragon | leafy seadragon
+Blue-ringed octopus
+Irukandji jellyfish
+Stonefish
+Huntsman spider | huntsman
+Bull ant
+Christmas beetle
+Witchetty grub
 Mountain pygmy possum
 Leadbeater's possum
 Honey possum
@@ -666,72 +730,6 @@ Bush fly
 March fly
 
 [Rare]
-Quoll
-Tree kangaroo
-Potoroo
-Bettong
-Pademelon
-Wallaroo
-Red kangaroo
-Grey kangaroo
-Rock wallaby
-Cuscus
-Glider
-Flying fox | fruit bat
-Hairy-nosed wombat
-Dunnart
-Antechinus
-Marsupial mole
-Bush rat
-Hopping mouse
-Emu-wren
-Fairy-wren | superb fairywren
-Magpie | australian magpie
-Butcherbird
-Currawong
-Bowerbird
-Honeyeater
-Rosella
-Corella
-Cockatiel
-Gang-gang cockatoo
-Black cockatoo
-Major Mitchell's cockatoo
-Tawny frogmouth
-Powerful owl
-Wedge-tailed eagle
-Brolga
-Jabiru
-Malleefowl
-Brush turkey
-Ibis | bin chicken
-Pelican
-Kingfisher
-Bearded dragon
-Perentie
-Sand goanna
-Shingleback
-Leaf-tailed gecko
-Inland taipan
-Tiger snake
-Death adder
-Red-bellied black snake
-Carpet python
-Corroboree frog
-Green tree frog
-Barramundi
-Murray cod
-Lungfish | queensland lungfish
-Weedy seadragon | leafy seadragon
-Blue-ringed octopus
-Irukandji jellyfish
-Stonefish
-Huntsman spider | huntsman
-Bull ant
-Christmas beetle
-Witchetty grub
-
-[Schooler]
 Wallaby
 Tasmanian devil
 Kookaburra
@@ -761,6 +759,9 @@ Blue-tongued lizard | bluetongue
 Dugong
 Little penguin | fairy penguin
 
+[Schooler]
+Dingo
+
 [Too Clever]
 Tasmanian tiger | thylacine
 Box jellyfish
@@ -771,7 +772,6 @@ Koala
 Emu
 Platypus | duck-billed platypus
 Wombat
-Dingo
 
 [Not accepted]
 Kiwi
@@ -812,16 +812,6 @@ note: Includes the Middle East plus Russia and Turkey. Hong Kong, Macau and Tibe
 Bhutan
 
 [Deep Cut]
-Palestine
-Maldives
-Bahrain
-Kyrgyzstan
-Tajikistan
-Turkmenistan
-East Timor | timor-leste | timor leste
-Brunei
-
-[Rare]
 Myanmar | burma
 Bangladesh
 Qatar
@@ -836,8 +826,16 @@ Georgia
 Oman
 Yemen
 Cyprus
+Palestine
+Maldives
+Bahrain
+Kyrgyzstan
+Tajikistan
+Turkmenistan
+East Timor | timor-leste | timor leste
+Brunei
 
-[Schooler]
+[Rare]
 Philippines
 Indonesia
 Malaysia
@@ -856,6 +854,10 @@ Jordan
 Lebanon
 United Arab Emirates | uae
 
+[Schooler]
+Vietnam
+Thailand
+
 [Too Clever]
 Russia
 Turkey | turkiye
@@ -867,8 +869,6 @@ Japan
 India
 South Korea | korea
 North Korea
-Vietnam
-Thailand
 
 [Not accepted]
 Macau
@@ -894,6 +894,20 @@ note: All 51 clubs that have played in the Premier League since it began in 1992
 Swindon Town | swindon
 
 [Deep Cut]
+Bolton Wanderers | bolton
+Blackburn Rovers | blackburn
+Middlesbrough | boro | middlesborough
+Norwich City | norwich
+Queens Park Rangers | qpr
+Stoke City | stoke
+Swansea City | swansea
+Watford
+West Bromwich Albion | west brom | wba
+Sheffield United | sheffield utd
+Burnley
+Brentford
+Sunderland
+Leeds United | leeds | leeds utd
 Barnsley
 Oldham Athletic | oldham
 Bradford City | bradford
@@ -914,22 +928,6 @@ Birmingham City | birmingham
 Derby County | derby
 
 [Rare]
-Bolton Wanderers | bolton
-Blackburn Rovers | blackburn
-Middlesbrough | boro | middlesborough
-Norwich City | norwich
-Queens Park Rangers | qpr
-Stoke City | stoke
-Swansea City | swansea
-Watford
-West Bromwich Albion | west brom | wba
-Sheffield United | sheffield utd
-Burnley
-Brentford
-Sunderland
-Leeds United | leeds | leeds utd
-
-[Schooler]
 Aston Villa | villa
 Everton
 Newcastle United | newcastle | newcastle utd
@@ -983,6 +981,44 @@ prompt: Name a Michael Jackson or Jackson 5 song
 Ben
 
 [Deep Cut]
+The Girl Is Mine
+Another Part of Me
+Liberian Girl
+Speed Demon
+Just Good Friends
+Will You Be There
+In the Closet
+Who Is It
+Give In to Me
+Gone Too Soon
+Keep the Faith
+Can't Let Her Get Away
+She's Out of My Life
+Workin' Day and Night
+Get on the Floor
+Burn This Disco Out
+I Can't Help It
+It's the Falling in Love
+Girlfriend
+Baby Be Mine
+Lady in My Life
+Childhood
+Stranger in Moscow
+Blood on the Dance Floor
+Ghosts
+You Rock My World
+Butterflies
+Cry
+Unbreakable
+Invincible
+Hold My Hand
+Love Never Felt So Good
+Xscape
+This Is It
+Rockin' Robin
+Got to Be There
+I Wanna Be Where You Are
+One Day in Your Life
 Music and Me
 Dancing Machine
 The Love You Save
@@ -1127,46 +1163,6 @@ It's Great to Be Here
 Shoo-Be-Doo-Be-Doo-Da-Day
 
 [Rare]
-The Girl Is Mine
-Another Part of Me
-Liberian Girl
-Speed Demon
-Just Good Friends
-Will You Be There
-In the Closet
-Who Is It
-Give In to Me
-Gone Too Soon
-Keep the Faith
-Can't Let Her Get Away
-She's Out of My Life
-Workin' Day and Night
-Get on the Floor
-Burn This Disco Out
-I Can't Help It
-It's the Falling in Love
-Girlfriend
-Baby Be Mine
-Lady in My Life
-Childhood
-Stranger in Moscow
-Blood on the Dance Floor
-Ghosts
-You Rock My World
-Butterflies
-Cry
-Unbreakable
-Invincible
-Hold My Hand
-Love Never Felt So Good
-Xscape
-This Is It
-Rockin' Robin
-Got to Be There
-I Wanna Be Where You Are
-One Day in Your Life
-
-[Schooler]
 Don't Stop 'Til You Get Enough | dont stop til you get enough
 Rock with You
 The Way You Make Me Feel | way you make me feel
@@ -1187,6 +1183,11 @@ Dangerous
 Leave Me Alone
 Jam
 
+[Schooler]
+Man in the Mirror
+Black or White
+ABC
+
 [Too Clever]
 We Are the World
 Say Say Say
@@ -1197,9 +1198,6 @@ Billie Jean
 Beat It
 Smooth Criminal
 Bad
-Man in the Mirror
-Black or White
-ABC
 
 [Not accepted]
 Purple Rain
@@ -1224,6 +1222,162 @@ note: Characters from Disney or Pixar animated films and classic Disney cartoons
 Ludwig Von Drake
 
 [Deep Cut]
+Anxiety
+Riley
+Pete | black pete
+Oliver
+Dodger
+Bernard
+Bianca
+Sisu
+Asha
+Marie
+Kevin
+Hank
+Bruce
+Gill
+Owl
+Rabbit
+Prince Eric | eric
+Penny
+Medusa
+Copper
+Lucky
+Patch
+Merlin
+Luca
+Mei
+Ember
+Wade
+Hector
+Dante
+Antonio
+Flower
+Victor
+Hugo
+Louis
+Ray
+Lewis
+Rhino
+Napoleon
+Einstein
+Francis
+Rita
+Edgar
+Chief
+22
+Flash
+Clarabelle Cow | clarabelle
+Horace Horsecollar | horace
+Darkwing Duck
+Launchpad McQuack
+Gyro Gearloose
+Webby
+Gadget Hackwrench
+Kanga | kanga and roo
+Roo
+Christopher Robin | christopher
+Heffalump
+Mad Hatter
+Cheshire Cat
+White Rabbit
+Queen of Hearts
+Alice
+Tweedledee | tweedledum
+Wendy Darling | wendy
+Smee | mr smee
+Lost Boys
+Tiger Lily
+Pongo
+Perdita
+Duchess
+Thomas O'Malley
+Berlioz
+Toulouse
+Robin Hood
+Little John
+Prince John
+Sir Hiss
+Maid Marian
+Basil of Baker Street | basil
+Ratigan
+Taran
+Cauldron Born
+Quasimodo
+Esmeralda
+Frollo
+Phoebus
+Meg | megara
+Hades
+Pain and Panic
+Pegasus
+Mushu
+Shang
+Cri-Kee
+Kuzco
+Pacha
+Yzma
+Milo Thatch
+Kida
+Jim Hawkins
+Long John Silver
+B.E.N.
+Kenai
+Koda
+Chicken Little
+Bolt
+Mittens
+Naveen
+Mama Odie
+Dr. Facilier
+Maximus
+Mother Gothel
+Kristoff
+Wreck-It Ralph | ralph
+Vanellope
+Fix-It Felix
+Baymax
+Hiro
+Judy Hopps
+Nick Wilde
+Valentino
+Abuela Alma
+Isabela
+Luisa
+Dolores
+Camilo
+Tamatoa
+Gramma Tala
+Te Fiti
+Jessie
+Bullseye
+Hamm
+Slinky
+Mr. Potato Head
+Bo Peep
+Forky
+Zurg
+Lotso
+Marlin
+Sid
+Edna Mode | edna
+Frozone
+Jack-Jack
+Syndrome
+Randall
+Roz
+Colette
+Linguini
+Anton Ego
+EVE
+Muntz
+Bing Bong
+Miguel
+Ernesto de la Cruz
+Alberto
+Joe Gardner
+Ian Lightfoot
+Barley Lightfoot
 Figaro
 Gus
 Jaq
@@ -1616,164 +1770,6 @@ Dario
 Tadashi Hamada | tadashi
 
 [Rare]
-Anxiety
-Riley
-Pete | black pete
-Oliver
-Dodger
-Bernard
-Bianca
-Sisu
-Asha
-Marie
-Kevin
-Hank
-Bruce
-Gill
-Owl
-Rabbit
-Prince Eric | eric
-Penny
-Medusa
-Copper
-Lucky
-Patch
-Merlin
-Luca
-Mei
-Ember
-Wade
-Hector
-Dante
-Antonio
-Flower
-Victor
-Hugo
-Louis
-Ray
-Lewis
-Rhino
-Napoleon
-Einstein
-Francis
-Rita
-Edgar
-Chief
-22
-Flash
-Clarabelle Cow | clarabelle
-Horace Horsecollar | horace
-Darkwing Duck
-Launchpad McQuack
-Gyro Gearloose
-Webby
-Gadget Hackwrench
-Kanga | kanga and roo
-Roo
-Christopher Robin | christopher
-Heffalump
-Mad Hatter
-Cheshire Cat
-White Rabbit
-Queen of Hearts
-Alice
-Tweedledee | tweedledum
-Wendy Darling | wendy
-Smee | mr smee
-Lost Boys
-Tiger Lily
-Pongo
-Perdita
-Duchess
-Thomas O'Malley
-Berlioz
-Toulouse
-Robin Hood
-Little John
-Prince John
-Sir Hiss
-Maid Marian
-Basil of Baker Street | basil
-Ratigan
-Taran
-Cauldron Born
-Quasimodo
-Esmeralda
-Frollo
-Phoebus
-Meg | megara
-Hades
-Pain and Panic
-Pegasus
-Mushu
-Shang
-Cri-Kee
-Kuzco
-Pacha
-Yzma
-Milo Thatch
-Kida
-Jim Hawkins
-Long John Silver
-B.E.N.
-Kenai
-Koda
-Chicken Little
-Bolt
-Mittens
-Naveen
-Mama Odie
-Dr. Facilier
-Maximus
-Mother Gothel
-Kristoff
-Wreck-It Ralph | ralph
-Vanellope
-Fix-It Felix
-Baymax
-Hiro
-Judy Hopps
-Nick Wilde
-Valentino
-Abuela Alma
-Isabela
-Luisa
-Dolores
-Camilo
-Tamatoa
-Gramma Tala
-Te Fiti
-Jessie
-Bullseye
-Hamm
-Slinky
-Mr. Potato Head
-Bo Peep
-Forky
-Zurg
-Lotso
-Marlin
-Sid
-Edna Mode | edna
-Frozone
-Jack-Jack
-Syndrome
-Randall
-Roz
-Colette
-Linguini
-Anton Ego
-EVE
-Muntz
-Bing Bong
-Miguel
-Ernesto de la Cruz
-Alberto
-Joe Gardner
-Ian Lightfoot
-Barley Lightfoot
-
-[Schooler]
 Remy
 Russell
 Carl Fredricksen | carl
@@ -1867,6 +1863,11 @@ Maui
 Hei Hei
 Flynn Rider | eugene
 
+[Schooler]
+Simba
+Elsa
+Ariel
+
 [Too Clever]
 Oswald the Lucky Rabbit | oswald
 
@@ -1876,9 +1877,6 @@ Minnie Mouse | minnie
 Donald Duck | donald
 Goofy | goofy goof
 Pluto
-Simba
-Elsa
-Ariel
 
 [Not accepted]
 Shrek
@@ -1905,6 +1903,51 @@ note: Real words with the same "-ite" sound (bite, height, kite). Names don't co
 Troglodyte
 
 [Deep Cut]
+Flashlight
+Highlight
+Twilight
+Starlight
+Firelight
+Insight
+Oversight
+Website
+Termite
+Satellite
+Appetite
+Parasite
+Dynamite
+Kryptonite
+Socialite
+Overnight
+Goodnight | good night
+Erudite
+Fortnight
+Bight
+Rite
+Wight
+Smite
+Trite
+Height
+Incite
+Rewrite
+Copyright
+Playwright
+Wright
+Uptight
+Airtight
+Watertight
+Skintight
+Frostbite
+Snakebite
+Lovebite
+Soundbite | sound bite
+Megabyte
+Gigabyte
+Kilobyte
+Terabyte
+Ammonite
+Anthracite
+Bauxite
 Graphite
 Calcite
 Dolomite
@@ -2049,53 +2092,6 @@ Sleight | sleight of hand
 Indite
 
 [Rare]
-Flashlight
-Highlight
-Twilight
-Starlight
-Firelight
-Insight
-Oversight
-Website
-Termite
-Satellite
-Appetite
-Parasite
-Dynamite
-Kryptonite
-Socialite
-Overnight
-Goodnight | good night
-Erudite
-Fortnight
-Bight
-Rite
-Wight
-Smite
-Trite
-Height
-Incite
-Rewrite
-Copyright
-Playwright
-Wright
-Uptight
-Airtight
-Watertight
-Skintight
-Frostbite
-Snakebite
-Lovebite
-Soundbite | sound bite
-Megabyte
-Gigabyte
-Kilobyte
-Terabyte
-Ammonite
-Anthracite
-Bauxite
-
-[Schooler]
 Might
 Write
 Flight
@@ -2127,6 +2123,12 @@ Moonlight
 Daylight
 Spotlight
 
+[Schooler]
+Bite
+White
+Sight
+Tight
+
 [Too Clever]
 Light
 Lite
@@ -2139,10 +2141,6 @@ Bright
 Fight
 Right
 Kite
-Bite
-White
-Sight
-Tight
 
 [Not accepted]
 Late
@@ -2168,6 +2166,63 @@ note: The 88 official constellations plus well-known asterisms like the Big Dipp
 Camelopardalis | camelopardus | the giraffe
 
 [Deep Cut]
+Auriga
+Bootes | boötes
+Cepheus
+Corona Borealis
+Corona Australis
+Delphinus
+Lepus
+Monoceros
+Ophiuchus
+Eridanus
+Cetus
+Columba
+Lupus
+Ara
+Pavo
+Musca
+Carina
+Vela
+Puppis
+Corvus
+Crater
+Sagitta
+Serpens
+Triangulum
+Vulpecula
+Lynx
+Leo Minor
+Lacerta
+Scutum
+Sextans
+Hydrus
+Tucana
+Dorado
+Volans
+Chamaeleon
+Apus
+Indus
+Grus
+Piscis Austrinus
+Microscopium
+Telescopium
+Norma
+Circinus
+Triangulum Australe
+Octans
+Mensa
+Reticulum
+Horologium
+Caelum
+Pictor
+Fornax
+Sculptor
+Antlia
+Pyxis
+Coma Berenices
+Canes Venatici
+Equuleus
 Summer Triangle
 Winter Triangle
 Great Square of Pegasus
@@ -2232,65 +2287,6 @@ Tarandus
 Musca Borealis
 
 [Rare]
-Auriga
-Bootes | boötes
-Cepheus
-Corona Borealis
-Corona Australis
-Delphinus
-Lepus
-Monoceros
-Ophiuchus
-Eridanus
-Cetus
-Columba
-Lupus
-Ara
-Pavo
-Musca
-Carina
-Vela
-Puppis
-Corvus
-Crater
-Sagitta
-Serpens
-Triangulum
-Vulpecula
-Lynx
-Leo Minor
-Lacerta
-Scutum
-Sextans
-Hydrus
-Tucana
-Dorado
-Volans
-Chamaeleon
-Apus
-Indus
-Grus
-Piscis Austrinus
-Microscopium
-Telescopium
-Norma
-Circinus
-Triangulum Australe
-Octans
-Mensa
-Reticulum
-Horologium
-Caelum
-Pictor
-Fornax
-Sculptor
-Antlia
-Pyxis
-Coma Berenices
-Canes Venatici
-Equuleus
-
-[Schooler]
 Pleiades | seven sisters
 Cancer
 Virgo
@@ -2315,6 +2311,11 @@ Phoenix
 Hydra
 Aquila
 
+[Schooler]
+Ursa Minor | little bear
+Scorpius | scorpio | scorpion
+Leo
+
 [Too Clever]
 Little Dipper
 Big Dipper
@@ -2327,9 +2328,6 @@ Gemini
 Taurus
 Orion
 Ursa Major | great bear
-Ursa Minor | little bear
-Scorpius | scorpio | scorpion
-Leo
 
 [Not accepted]
 Galaxy
@@ -2359,6 +2357,76 @@ note: Chains with table service. Fast food counts as Too Clever.
 Medieval Times | medieval times dinner & tournament
 
 [Deep Cut]
+Bonefish Grill
+Bahama Breeze
+Seasons 52
+Eddie V's
+Capital Grille
+Del Frisco's
+Fleming's
+Smith & Wollensky
+Mastro's
+Sullivan's
+Saltgrass
+Black Angus
+Stuart Anderson's
+Claim Jumper
+Marie Callender's
+Village Inn
+Bakers Square
+Huddle House
+Shoney's
+Big Boy
+Friendly's
+First Watch
+Another Broken Egg
+Snooze
+Black Bear Diner
+Silver Diner
+Mimi's Cafe
+Le Peep
+Peter Piper Pizza
+Round Table Pizza
+Mellow Mushroom
+California Pizza Kitchen | cpk
+Uno | pizzeria uno
+Old Spaghetti Factory
+Romano's Macaroni Grill | macaroni grill
+Bertucci's
+Sbarro
+Fazoli's
+Chevys
+On the Border
+Abuelo's
+El Torito
+Chuy's
+Uncle Julio's
+Rosa Mexicano
+Pappasito's
+Pappadeaux
+Landry's
+Bubba's 33
+Miller's Ale House
+Houlihan's
+Bennigan's
+O'Charley's
+Ruby's Diner
+Johnny Rockets
+Fuddruckers
+Smokey Bones
+Famous Dave's
+Sonny's BBQ
+Dickey's
+City Barbeque
+Kona Grill
+Cheddar's
+Houston's
+Hillstone
+J. Alexander's
+Ocean Prime
+Chart House
+McCormick & Schmick's
+Legal Sea Foods
 Sweet Tomatoes | souplantation
 Piccadilly
 Luby's
@@ -2578,78 +2646,6 @@ Iron Cactus
 El Fenix
 
 [Rare]
-Bonefish Grill
-Bahama Breeze
-Seasons 52
-Eddie V's
-Capital Grille
-Del Frisco's
-Fleming's
-Smith & Wollensky
-Mastro's
-Sullivan's
-Saltgrass
-Black Angus
-Stuart Anderson's
-Claim Jumper
-Marie Callender's
-Village Inn
-Bakers Square
-Huddle House
-Shoney's
-Big Boy
-Friendly's
-First Watch
-Another Broken Egg
-Snooze
-Black Bear Diner
-Silver Diner
-Mimi's Cafe
-Le Peep
-Peter Piper Pizza
-Round Table Pizza
-Mellow Mushroom
-California Pizza Kitchen | cpk
-Uno | pizzeria uno
-Old Spaghetti Factory
-Romano's Macaroni Grill | macaroni grill
-Bertucci's
-Sbarro
-Fazoli's
-Chevys
-On the Border
-Abuelo's
-El Torito
-Chuy's
-Uncle Julio's
-Rosa Mexicano
-Pappasito's
-Pappadeaux
-Landry's
-Bubba's 33
-Miller's Ale House
-Houlihan's
-Bennigan's
-O'Charley's
-Ruby's Diner
-Johnny Rockets
-Fuddruckers
-Smokey Bones
-Famous Dave's
-Sonny's BBQ
-Dickey's
-City Barbeque
-Kona Grill
-Cheddar's
-Houston's
-Hillstone
-J. Alexander's
-Ocean Prime
-Chart House
-McCormick & Schmick's
-Legal Sea Foods
-
-[Schooler]
 TGI Fridays | tgi friday's | fridays
 Buffalo Wild Wings | bdubs | b-dubs
 Red Robin
@@ -2681,6 +2677,11 @@ Logan's Roadhouse
 Ponderosa
 Sizzler
 
+[Schooler]
+Denny's | dennys
+IHOP | international house of pancakes
+Texas Roadhouse
+
 [Too Clever]
 McDonald's | mcdonalds
 Chuck E. Cheese | chuck e cheese
@@ -2692,9 +2693,6 @@ Applebee's | applebees | applebee's grill and bar
 Chili's | chilis | chili's grill & bar
 Red Lobster
 Outback Steakhouse | outback
-Denny's | dennys
-IHOP | international house of pancakes
-Texas Roadhouse
 
 [Not accepted]
 Subway
@@ -2716,6 +2714,21 @@ note: Main and recurring characters, family members, and famous one-offs (Ugly N
 Ugly Naked Guy
 
 [Deep Cut]
+Gunther
+Janice | janice litman goralnik | janice hosenstein
+Mike Hannigan | mike
+Richard Burke | richard
+Emily Waltham | emily
+Carol Willick | carol
+Susan Bunch | susan
+Ben Geller | ben
+Emma Geller-Green | emma
+Frank Buffay Jr. | frank jr | frank
+Alice Knight | alice
+Ursula Buffay | ursula
+Estelle Leonard | estelle
+Mr. Heckles | heckles
+Marcel | marcel the monkey
 Princess Consuela Bananahammock | princess consuela | consuela bananahammock
 Frank Buffay Sr. | frank buffay senior
 Phoebe Abbott | phoebe sr | phoebe senior
@@ -2779,22 +2792,8 @@ Kate Miller
 Stu
 Owen
 
-[Rare]
-Gunther
-Janice | janice litman goralnik | janice hosenstein
-Mike Hannigan | mike
-Richard Burke | richard
-Emily Waltham | emily
-Carol Willick | carol
-Susan Bunch | susan
-Ben Geller | ben
-Emma Geller-Green | emma
-Frank Buffay Jr. | frank jr | frank
-Alice Knight | alice
-Ursula Buffay | ursula
-Estelle Leonard | estelle
-Mr. Heckles | heckles
-Marcel | marcel the monkey
+[Schooler]
+Ross Geller | ross
 
 [Too Clever]
 Regina Phalange
@@ -2806,7 +2805,6 @@ Monica Geller | monica
 Phoebe Buffay | phoebe
 Joey Tribbiani | joey
 Chandler Bing | chandler
-Ross Geller | ross
 
 [Not accepted]
 Sheldon Cooper

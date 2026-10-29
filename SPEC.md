@@ -328,7 +328,7 @@ Every valid answer goes in exactly one tier. Target distribution for a pool of a
 
 | Tier | Target |
 |---|---|
-| Plankton | the 5–10 answers most people say first |
+| Plankton | only the 3–5 answers almost everyone says first |
 | Too Clever | 2–5 "clever but predictable" picks |
 | Schooler | about 25% |
 | Rare | about 33% |

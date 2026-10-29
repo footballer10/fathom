@@ -8,6 +8,56 @@ prompt: Name a condiment or sauce
 Worcestershire sauce | worcestershire | worchestershire | worcester sauce
 
 [Deep Cut]
+Chipotle mayo
+Sweet chili sauce
+Gochujang
+Sambal | sambal oelek
+Harissa
+Chutney | mango chutney
+Raita
+Mint sauce
+Mint jelly
+Cranberry sauce
+Applesauce
+HP Sauce | brown sauce
+Salad cream
+Piccalilli
+Branston pickle
+Marmite
+Vegemite
+Ponzu
+Mirin
+Miso
+Tonkatsu sauce
+Yum yum sauce
+Eel sauce
+Kewpie mayo | kewpie
+Remoulade
+Bearnaise
+Bechamel
+Velouté
+Espagnole
+Demi-glace
+Beurre blanc
+Romesco
+Salsa verde
+Mole
+Enchilada sauce
+Queso
+Valentina
+Cholula
+Frank's RedHot | franks red hot
+Tapatio
+Crystal hot sauce
+Texas Pete
+Louisiana hot sauce
+Peri-peri | piri piri
+Jerk sauce
+Mumbo sauce
+Comeback sauce
+Fry sauce
+Alabama white sauce | white bbq sauce | alabama bbq sauce
+Chick-fil-A sauce
 Polynesian sauce
 Raising Cane's sauce | cane's sauce
 Garlic sauce | toum
@@ -166,58 +216,6 @@ Hot honey
 Bacon jam
 
 [Rare]
-Chipotle mayo
-Sweet chili sauce
-Gochujang
-Sambal | sambal oelek
-Harissa
-Chutney | mango chutney
-Raita
-Mint sauce
-Mint jelly
-Cranberry sauce
-Applesauce
-HP Sauce | brown sauce
-Salad cream
-Piccalilli
-Branston pickle
-Marmite
-Vegemite
-Ponzu
-Mirin
-Miso
-Tonkatsu sauce
-Yum yum sauce
-Eel sauce
-Kewpie mayo | kewpie
-Remoulade
-Bearnaise
-Bechamel
-Velouté
-Espagnole
-Demi-glace
-Beurre blanc
-Romesco
-Salsa verde
-Mole
-Enchilada sauce
-Queso
-Valentina
-Cholula
-Frank's RedHot | franks red hot
-Tapatio
-Crystal hot sauce
-Texas Pete
-Louisiana hot sauce
-Peri-peri | piri piri
-Jerk sauce
-Mumbo sauce
-Comeback sauce
-Fry sauce
-Alabama white sauce | white bbq sauce | alabama bbq sauce
-Chick-fil-A sauce
-
-[Schooler]
 Relish | pickle relish
 Sriracha
 Tabasco
@@ -263,6 +261,11 @@ Chimichurri
 Tahini
 Pico de gallo | pico
 
+[Schooler]
+Hot sauce
+Soy sauce
+Salsa
+
 [Too Clever]
 Butter
 Gravy
@@ -274,9 +277,6 @@ Mustard
 Mayonnaise | mayo
 Ranch | ranch dressing
 Barbecue sauce | bbq sauce | bbq | carolina bbq sauce | kansas city bbq sauce
-Hot sauce
-Soy sauce
-Salsa
 
 [Not accepted]
 Sugar
@@ -300,6 +300,36 @@ note: Words like kitten, calf or joey. "Baby ___" doesn't count.
 Cygnet
 
 [Deep Cut]
+Cria
+Poult
+Keet
+Squab
+Eyas
+Leveret
+Pinkie
+Hoglet
+Puggle
+Squeaker
+Shoat
+Farrow
+Yearling
+Weanling
+Cosset
+Hogget
+Elver
+Glass eel
+Smolt
+Parr
+Alevin
+Fingerling
+Spat
+Spawn
+Roe
+Neonate
+Pullet
+Cockerel
+Peachick
+Puffling
 Codling
 Ephyra
 Planula
@@ -339,38 +369,6 @@ Fuzzy
 Hopper
 
 [Rare]
-Cria
-Poult
-Keet
-Squab
-Eyas
-Leveret
-Pinkie
-Hoglet
-Puggle
-Squeaker
-Shoat
-Farrow
-Yearling
-Weanling
-Cosset
-Hogget
-Elver
-Glass eel
-Smolt
-Parr
-Alevin
-Fingerling
-Spat
-Spawn
-Roe
-Neonate
-Pullet
-Cockerel
-Peachick
-Puffling
-
-[Schooler]
 Duckling
 Piglet
 Bunny | kit
@@ -393,6 +391,11 @@ Nymph
 Pupa
 Chrysalis
 
+[Schooler]
+Chick
+Lamb
+Joey
+
 [Too Clever]
 Baby
 Tadpole
@@ -406,9 +409,6 @@ Kitten | kitty
 Calf
 Cub
 Foal
-Chick
-Lamb
-Joey
 
 [Not accepted]
 Baby animal
@@ -442,6 +442,26 @@ note: Countries that are at least partly in Europe (Russia, Turkey, Kazakhstan, 
 Liechtenstein
 
 [Deep Cut]
+Paraguay
+Uruguay
+Bolivia
+Ecuador
+Serbia
+Croatia
+Bulgaria
+Romania
+Hungary
+Czech Republic | czechia
+Austria
+Switzerland
+Belgium
+Netherlands | holland
+Denmark
+Finland
+Iceland
+Ukraine
+Venezuela
+Turkey | türkiye | turkiye
 San Marino
 Andorra
 Moldova
@@ -469,28 +489,6 @@ Cyprus
 Georgia
 
 [Rare]
-Paraguay
-Uruguay
-Bolivia
-Ecuador
-Serbia
-Croatia
-Bulgaria
-Romania
-Hungary
-Czech Republic | czechia
-Austria
-Switzerland
-Belgium
-Netherlands | holland
-Denmark
-Finland
-Iceland
-Ukraine
-Venezuela
-Turkey | türkiye | turkiye
-
-[Schooler]
 Colombia
 Chile
 Peru
@@ -542,6 +540,89 @@ prompt: Name a sports trophy, championship, or big event
 Calcutta Cup
 
 [Deep Cut]
+Claret Jug | open championship | british open
+PGA Championship
+Wanamaker Trophy
+Solheim Cup
+Presidents Cup
+Belmont Stakes
+Preakness Stakes | preakness
+Breeders' Cup
+Melbourne Cup
+Grand National
+Royal Ascot
+Monaco Grand Prix
+Le Mans | 24 hours of le mans
+Formula 1 World Championship
+NASCAR Cup Series
+Brickyard 400
+Copa America | copa américa
+Euros | european championship | euro
+Copa Libertadores
+FA Cup
+Carabao Cup | league cup
+Club World Cup
+Ballon d'Or
+Golden Boot
+Conn Smythe Trophy
+Hart Trophy
+Vezina Trophy
+Norris Trophy
+Calder Trophy
+Art Ross Trophy
+Presidents' Trophy
+Cy Young Award | cy young
+Hank Aaron Award
+Gold Glove
+Silver Slugger
+Rookie of the Year
+Bill Russell Trophy
+Naismith Trophy
+Wooden Award
+Maxwell Award
+Walter Payton Award
+Sugar Bowl
+Orange Bowl
+Cotton Bowl
+Fiesta Bowl
+Peach Bowl
+Frozen Four
+College World Series
+Little League World Series
+Women's World Cup
+WNBA Finals
+Heavyweight championship | heavyweight title
+WrestleMania
+Royal Rumble
+UFC title | ufc belt
+Iditarod
+Ironman
+New York City Marathon | nyc marathon
+London Marathon
+Rugby World Cup
+Six Nations
+Webb Ellis Cup
+Cricket World Cup
+The Ashes | ashes
+IPL
+Commonwealth Games
+Asian Games
+Pan American Games
+World Baseball Classic
+Gold Cup
+MLS Cup
+Supporters' Shield
+US Open Cup
+Calder Cup
+Memorial Cup
+Hobey Baker Award
+Thorpe Award
+Biletnikoff Award
+Outland Trophy
+Lou Marsh Trophy
+Laureus Award
+ESPY | espys
+Sportsman of the Year
 Bledisloe Cup
 Heineken Cup
 Ranfurly Shield
@@ -1112,91 +1193,6 @@ Women's Tour
 Grand Départ
 
 [Rare]
-Claret Jug | open championship | british open
-PGA Championship
-Wanamaker Trophy
-Solheim Cup
-Presidents Cup
-Belmont Stakes
-Preakness Stakes | preakness
-Breeders' Cup
-Melbourne Cup
-Grand National
-Royal Ascot
-Monaco Grand Prix
-Le Mans | 24 hours of le mans
-Formula 1 World Championship
-NASCAR Cup Series
-Brickyard 400
-Copa America | copa américa
-Euros | european championship | euro
-Copa Libertadores
-FA Cup
-Carabao Cup | league cup
-Club World Cup
-Ballon d'Or
-Golden Boot
-Conn Smythe Trophy
-Hart Trophy
-Vezina Trophy
-Norris Trophy
-Calder Trophy
-Art Ross Trophy
-Presidents' Trophy
-Cy Young Award | cy young
-Hank Aaron Award
-Gold Glove
-Silver Slugger
-Rookie of the Year
-Bill Russell Trophy
-Naismith Trophy
-Wooden Award
-Maxwell Award
-Walter Payton Award
-Sugar Bowl
-Orange Bowl
-Cotton Bowl
-Fiesta Bowl
-Peach Bowl
-Frozen Four
-College World Series
-Little League World Series
-Women's World Cup
-WNBA Finals
-Heavyweight championship | heavyweight title
-WrestleMania
-Royal Rumble
-UFC title | ufc belt
-Iditarod
-Ironman
-New York City Marathon | nyc marathon
-London Marathon
-Rugby World Cup
-Six Nations
-Webb Ellis Cup
-Cricket World Cup
-The Ashes | ashes
-IPL
-Commonwealth Games
-Asian Games
-Pan American Games
-World Baseball Classic
-Gold Cup
-MLS Cup
-Supporters' Shield
-US Open Cup
-Calder Cup
-Memorial Cup
-Hobey Baker Award
-Thorpe Award
-Biletnikoff Award
-Outland Trophy
-Lou Marsh Trophy
-Laureus Award
-ESPY | espys
-Sportsman of the Year
-
-[Schooler]
 Vince Lombardi Trophy | lombardi trophy
 Larry O'Brien Trophy
 Commissioner's Trophy
@@ -1229,6 +1225,11 @@ All-Star Game
 Home Run Derby
 Slam Dunk Contest
 
+[Schooler]
+Olympics | olympic games
+Wimbledon
+March Madness
+
 [Too Clever]
 Puppy Bowl
 Spelling Bee
@@ -1240,9 +1241,6 @@ World Series
 Stanley Cup
 NBA Finals
 World Cup | fifa world cup
-Olympics | olympic games
-Wimbledon
-March Madness
 
 [Not accepted]
 Oscar
@@ -1268,97 +1266,6 @@ note: Words used in music theory, notation, or performance.
 Hemidemisemiquaver
 
 [Deep Cut]
-Fine
-Turn
-Grave
-Mass
-Larghetto
-Andantino
-Prestissimo
-Allegretto
-Stringendo
-Morendo
-Smorzando
-Calando
-Perdendosi
-Sostenuto
-Portamento
-Portato
-Martellato
-Spiccato
-Col legno
-Sul ponticello
-Sul tasto
-Con sordino
-Senza sordino
-Tutti
-Divisi
-Ossia
-Tacet
-Attacca
-Segue
-Volta
-Hemiola
-Anacrusis | pickup
-Appoggiatura
-Acciaccatura
-Mordent
-Neapolitan chord
-Tritone
-Picardy third
-Deceptive cadence
-Plagal cadence
-Perfect cadence
-Semibreve
-Minim
-Crotchet
-Quaver
-Semiquaver
-Demisemiquaver
-Breve
-Longa
-Neume
-Melisma
-Syllabic
-Antiphony
-Responsorial
-Organum
-Motet
-Madrigal
-Cantata
-Oratorio
-Requiem
-Passacaglia
-Chaconne
-Toccata
-Fantasia
-Rhapsody
-Impromptu
-Bagatelle
-Serenade
-Divertimento
-Leitmotif
-Through-composed
-Strophic
-Binary form
-Ternary form
-Sonata form
-Twelve-tone
-Serialism
-Aleatoric
-Microtone
-Quarter tone
-Just intonation
-Equal temperament
-Circle of fifths
-Figured bass
-Basso continuo
-Ground bass
-Pedal point
-Drone
-Stretto
-
-[Rare]
 Moderato
 Vivace
 Lento
@@ -1476,8 +1383,97 @@ Reverb
 Remix
 Mashup
 Breakdown
+Fine
+Turn
+Grave
+Mass
+Larghetto
+Andantino
+Prestissimo
+Allegretto
+Stringendo
+Morendo
+Smorzando
+Calando
+Perdendosi
+Sostenuto
+Portamento
+Portato
+Martellato
+Spiccato
+Col legno
+Sul ponticello
+Sul tasto
+Con sordino
+Senza sordino
+Tutti
+Divisi
+Ossia
+Tacet
+Attacca
+Segue
+Volta
+Hemiola
+Anacrusis | pickup
+Appoggiatura
+Acciaccatura
+Mordent
+Neapolitan chord
+Tritone
+Picardy third
+Deceptive cadence
+Plagal cadence
+Perfect cadence
+Semibreve
+Minim
+Crotchet
+Quaver
+Semiquaver
+Demisemiquaver
+Breve
+Longa
+Neume
+Melisma
+Syllabic
+Antiphony
+Responsorial
+Organum
+Motet
+Madrigal
+Cantata
+Oratorio
+Requiem
+Passacaglia
+Chaconne
+Toccata
+Fantasia
+Rhapsody
+Impromptu
+Bagatelle
+Serenade
+Divertimento
+Leitmotif
+Through-composed
+Strophic
+Binary form
+Ternary form
+Sonata form
+Twelve-tone
+Serialism
+Aleatoric
+Microtone
+Quarter tone
+Just intonation
+Equal temperament
+Circle of fifths
+Figured bass
+Basso continuo
+Ground bass
+Pedal point
+Drone
+Stretto
 
-[Schooler]
+[Rare]
 Piano
 Key
 Rest
@@ -1543,6 +1539,11 @@ Intro
 Outro
 Hook
 
+[Schooler]
+Melody
+Harmony
+Chord
+
 [Too Clever]
 Encore
 Bridge
@@ -1553,9 +1554,6 @@ Crescendo
 Note
 Rhythm
 Beat
-Melody
-Harmony
-Chord
 
 [Not accepted]
 Guitar
@@ -1575,6 +1573,78 @@ prompt: Name a Lord of the Rings or Hobbit character
 Tom Bombadil | bombadil
 
 [Deep Cut]
+Bolg
+The Necromancer | necromancer
+Celeborn | celeborn the wise
+Haldir | haldir of lorien
+Glorfindel | glorfindel of rivendell
+Isildur | isildur son of elendil
+Elendil | elendil the tall
+Gil-galad | ereinion
+Cirdan | cirdan the shipwright
+Beorn
+Lurtz
+Gothmog
+Grishnakh
+Ugluk
+Shagrat
+Gorbag
+Mouth of Sauron | the mouth
+Gamling
+Hama
+Theodred
+Imrahil
+Beregond
+Bergil
+Barliman Butterbur | butterbur | barliman
+Bill the Pony | bill
+Shadowfax | shadowfax horse
+Old Man Willow
+Goldberry
+Farmer Maggot
+Lobelia Sackville-Baggins | lobelia
+Lotho | lotho sackville-baggins
+Fatty Bolger | fredegar bolger
+Gaffer | hamfast gamgee
+Ted Sandyman
+Bill Ferny
+Elladan
+Elrohir
+Gwaihir
+Great Eagles | eagles
+Dain Ironfoot | dain
+Oin
+Gloin
+Ori | ori dwarf
+Dori
+Nori
+Bifur
+Thror
+Thrain
+Master of Lake-town
+Alfrid | alfrid lickspittle
+Tom, Bert and William | trolls | stone trolls
+Great Goblin
+Wargs | warg
+Mumakil | oliphaunt
+Watcher in the Water | the watcher
+Durin's Bane | balrog of moria
+Elanor | elanor gamgee
+Drogo Baggins
+Primula Brandybuck
+Arathorn
+Gilraen
+Celebrian
+Finrod
+Feanor
+Fingolfin
+Luthien | luthien tinuviel
+Beren
+Morgoth | melkor | morgoth bauglir
+Ungoliant
+Turin Turambar | turin
+Earendil
+Elros
 Tar-Miriel
 Ar-Pharazon
 Celebrimbor
@@ -1917,80 +1987,6 @@ Fang
 Werewolves
 
 [Rare]
-Bolg
-The Necromancer | necromancer
-Celeborn | celeborn the wise
-Haldir | haldir of lorien
-Glorfindel | glorfindel of rivendell
-Isildur | isildur son of elendil
-Elendil | elendil the tall
-Gil-galad | ereinion
-Cirdan | cirdan the shipwright
-Beorn
-Lurtz
-Gothmog
-Grishnakh
-Ugluk
-Shagrat
-Gorbag
-Mouth of Sauron | the mouth
-Gamling
-Hama
-Theodred
-Imrahil
-Beregond
-Bergil
-Barliman Butterbur | butterbur | barliman
-Bill the Pony | bill
-Shadowfax | shadowfax horse
-Old Man Willow
-Goldberry
-Farmer Maggot
-Lobelia Sackville-Baggins | lobelia
-Lotho | lotho sackville-baggins
-Fatty Bolger | fredegar bolger
-Gaffer | hamfast gamgee
-Ted Sandyman
-Bill Ferny
-Elladan
-Elrohir
-Gwaihir
-Great Eagles | eagles
-Dain Ironfoot | dain
-Oin
-Gloin
-Ori | ori dwarf
-Dori
-Nori
-Bifur
-Thror
-Thrain
-Master of Lake-town
-Alfrid | alfrid lickspittle
-Tom, Bert and William | trolls | stone trolls
-Great Goblin
-Wargs | warg
-Mumakil | oliphaunt
-Watcher in the Water | the watcher
-Durin's Bane | balrog of moria
-Elanor | elanor gamgee
-Drogo Baggins
-Primula Brandybuck
-Arathorn
-Gilraen
-Celebrian
-Finrod
-Feanor
-Fingolfin
-Luthien | luthien tinuviel
-Beren
-Morgoth | melkor | morgoth bauglir
-Ungoliant
-Turin Turambar | turin
-Earendil
-Elros
-
-[Schooler]
 Merry | meriadoc brandybuck | merry brandybuck
 Pippin | peregrin took | pippin took
 Boromir
@@ -2029,6 +2025,11 @@ Thranduil | thranduil elvenking | the elvenking
 Tauriel | tauriel elf
 Azog | azog the defiler
 
+[Schooler]
+Gimli
+Gollum | smeagol | sméagol
+Samwise Gamgee | sam | samwise | sam gamgee
+
 [Too Clever]
 Sauron | eye of sauron | the dark lord
 Balrog
@@ -2039,9 +2040,6 @@ Gandalf | gandalf the grey | gandalf the white | mithrandir
 Bilbo Baggins | bilbo
 Aragorn | strider | elessar | king elessar | aragorn son of arathorn
 Legolas | legolas greenleaf
-Gimli
-Gollum | smeagol | sméagol
-Samwise Gamgee | sam | samwise | sam gamgee
 
 [Not accepted]
 Harry Potter
@@ -2071,6 +2069,64 @@ prompt: Name a word that means "happy"
 Gruntled
 
 [Deep Cut]
+Exuberant
+Exhilarated
+Rapturous
+Enraptured
+Elevated
+Exultant
+Triumphant
+Ebullient
+Jovial
+Jocund
+Mirthful
+Gay
+Blithe
+Sanguine
+Serene
+Tranquil
+Peaceful
+Comfortable
+Untroubled
+Pleased as punch
+Chuffed
+In seventh heaven
+Floating
+Flying high
+In high spirits
+Spirited
+Animated
+Vivacious
+Zestful
+Breezy
+Airy
+Jaunty
+Sprightly
+Frolicsome
+Playful
+Gratified
+Starry-eyed
+Rosy
+Hopeful
+Heartened
+Uplifted
+Encouraged
+Charmed
+Enchanted
+Enthralled
+Captivated
+Amused
+Entertained
+Hyped
+Amped
+Fired up
+Wired
+Cheery
+Smiley
+Grinning
+Chirpy
+Bright
+Contented
 Beatific
 Halcyon
 Felicitous
@@ -2161,66 +2217,6 @@ Keen
 Thriving
 
 [Rare]
-Exuberant
-Exhilarated
-Rapturous
-Enraptured
-Elevated
-Exultant
-Triumphant
-Ebullient
-Jovial
-Jocund
-Mirthful
-Gay
-Blithe
-Sanguine
-Serene
-Tranquil
-Peaceful
-Comfortable
-Untroubled
-Pleased as punch
-Chuffed
-In seventh heaven
-Floating
-Flying high
-In high spirits
-Spirited
-Animated
-Vivacious
-Zestful
-Breezy
-Airy
-Jaunty
-Sprightly
-Frolicsome
-Playful
-Gratified
-Starry-eyed
-Rosy
-Hopeful
-Heartened
-Uplifted
-Encouraged
-Charmed
-Enchanted
-Enthralled
-Captivated
-Amused
-Entertained
-Hyped
-Amped
-Fired up
-Wired
-Cheery
-Smiley
-Grinning
-Chirpy
-Bright
-Contented
-
-[Schooler]
 Elated
 Ecstatic
 Jolly
@@ -2262,6 +2258,11 @@ Radiant
 Glowing
 Buoyant
 
+[Schooler]
+Pleased
+Delighted
+Thrilled
+
 [Too Clever]
 Happy
 Over the moon
@@ -2272,9 +2273,6 @@ Joyful
 Cheerful
 Excited
 Content
-Pleased
-Delighted
-Thrilled
 
 [Not accepted]
 Sad
@@ -2300,6 +2298,56 @@ prompt: Name a shape
 Reuleaux triangle
 
 [Deep Cut]
+Nonagon
+Hendecagon | undecagon
+Dodecagon
+Icosagon
+Tetrahedron
+Octahedron
+Dodecahedron
+Icosahedron
+Hexahedron
+Triangular prism
+Rectangular prism | rectangle prism | box shape
+Hemisphere
+Spheroid
+Ovoid
+Ellipsoid
+Paraboloid
+Hyperboloid
+Frustum
+Parabola
+Hyperbola
+Helix
+Annulus
+Arc
+Lune
+Equilateral triangle
+Isosceles triangle
+Scalene triangle
+Right triangle
+Obtuse triangle
+Acute triangle
+Rhomboid
+Deltoid
+Pentagram | five-pointed star | pentagram star
+Hexagram | star of david | six-pointed star | seal of solomon
+Octagram | eight-pointed star
+Trefoil
+Quatrefoil
+Chevron
+Teardrop
+Lozenge
+Cuboid
+Polyhedron
+Platonic solid
+Klein bottle | klein surface
+Fractal
+Koch snowflake
+Sierpinski triangle
+Zigzag
+Wave
+Infinity symbol | lemniscate
 Tridecagon
 Tetradecagon
 Pentadecagon
@@ -2458,58 +2506,6 @@ Keyhole
 Tessellation
 
 [Rare]
-Nonagon
-Hendecagon | undecagon
-Dodecagon
-Icosagon
-Tetrahedron
-Octahedron
-Dodecahedron
-Icosahedron
-Hexahedron
-Triangular prism
-Rectangular prism | rectangle prism | box shape
-Hemisphere
-Spheroid
-Ovoid
-Ellipsoid
-Paraboloid
-Hyperboloid
-Frustum
-Parabola
-Hyperbola
-Helix
-Annulus
-Arc
-Lune
-Equilateral triangle
-Isosceles triangle
-Scalene triangle
-Right triangle
-Obtuse triangle
-Acute triangle
-Rhomboid
-Deltoid
-Pentagram | five-pointed star | pentagram star
-Hexagram | star of david | six-pointed star | seal of solomon
-Octagram | eight-pointed star
-Trefoil
-Quatrefoil
-Chevron
-Teardrop
-Lozenge
-Cuboid
-Polyhedron
-Platonic solid
-Klein bottle | klein surface
-Fractal
-Koch snowflake
-Sierpinski triangle
-Zigzag
-Wave
-Infinity symbol | lemniscate
-
-[Schooler]
 Pentagon
 Hexagon
 Octagon
@@ -2536,6 +2532,11 @@ Kite
 Ring
 Donut | torus
 
+[Schooler]
+Heart
+Oval
+Diamond
+
 [Too Clever]
 Mobius strip | möbius strip | mobius loop | möbius
 Tesseract | hypercube | 4d cube
@@ -2554,9 +2555,6 @@ Square
 Triangle
 Rectangle
 Star
-Heart
-Oval
-Diamond
 
 [Not accepted]
 Color
@@ -2579,6 +2577,48 @@ prompt: Name a brand of chips, crackers, or salty snacks
 Andy Capp's Hot Fries | hot fries | andy capp
 
 [Deep Cut]
+Chester's
+Grandma's
+Nabisco
+Keebler
+Townhouse
+Teddy Grahams
+Late July
+Siete
+Stacy's | stacy's pita chips
+Terra
+Garden of Eatin'
+Herr's | herrs
+Zapp's | zapps
+Miss Vickie's
+Boulder Canyon
+Deep River
+Dirty | dirty chips
+Route 11
+Jays
+Old Dutch
+Lance
+Toast Chee
+Nekot
+Sociables
+Wheatables
+Good Thins
+Simply 7
+Harvest Snaps
+Hippeas
+Off the Eaten Path
+Quest chips
+Popcorners
+Crunchsters
+Cracker Jack
+Poppycock
+Fiddle Faddle
+Lesser Evil
+Angie's Boomchickapop | boomchickapop
+Snack Factory
+Pretzel Crisps
+Dot's Pretzels | dots
+Auntie Anne's
 Walkers
 Monster Munch
 Wotsits
@@ -2807,50 +2847,6 @@ Honey Twist
 Tao Kae Noi
 
 [Rare]
-Chester's
-Grandma's
-Nabisco
-Keebler
-Townhouse
-Teddy Grahams
-Late July
-Siete
-Stacy's | stacy's pita chips
-Terra
-Garden of Eatin'
-Herr's | herrs
-Zapp's | zapps
-Miss Vickie's
-Boulder Canyon
-Deep River
-Dirty | dirty chips
-Route 11
-Jays
-Old Dutch
-Lance
-Toast Chee
-Nekot
-Sociables
-Wheatables
-Good Thins
-Simply 7
-Harvest Snaps
-Hippeas
-Off the Eaten Path
-Quest chips
-Popcorners
-Crunchsters
-Cracker Jack
-Poppycock
-Fiddle Faddle
-Lesser Evil
-Angie's Boomchickapop | boomchickapop
-Snack Factory
-Pretzel Crisps
-Dot's Pretzels | dots
-Auntie Anne's
-
-[Schooler]
 Tostitos
 Sun Chips | sunchips
 Kettle Brand | kettle chips
@@ -2880,6 +2876,11 @@ Wonderful Pistachios
 Munchies
 Flamin' Hot Cheetos
 
+[Schooler]
+Ruffles
+Goldfish
+Cheez-It | cheez its | cheezits
+
 [Too Clever]
 Takis
 Funyuns
@@ -2891,9 +2892,6 @@ Lay's | lays
 Pringles
 Cheetos
 Fritos
-Ruffles
-Goldfish
-Cheez-It | cheez its | cheezits
 
 [Not accepted]
 Chocolate
@@ -2922,6 +2920,56 @@ prompt: Name a household appliance
 Trash compactor
 
 [Deep Cut]
+Hand mixer
+Immersion blender | stick blender
+Bread maker | bread machine
+Popcorn maker | popcorn machine
+Sandwich maker
+Panini press
+Griddle
+Electric skillet
+Deep fryer
+Sous vide
+Dehydrator
+Yogurt maker
+Ice cream maker
+Soda maker | sodastream
+Wine fridge | wine cooler
+Mini fridge
+Chest freezer
+Water dispenser | water cooler
+Water softener
+Water filter
+Air purifier
+Ceiling fan
+Box fan
+Tower fan
+Heat pump
+Boiler
+Thermostat
+Security camera
+Doorbell camera | ring doorbell
+Garage door opener
+Sump pump
+Generator
+Steam mop
+Carpet cleaner | carpet shampooer
+Shop vac
+Handheld vacuum | dustbuster
+Stick vacuum
+Steamer | clothes steamer
+Sewing machine
+Electric toothbrush
+Curling iron
+Hair straightener | flat iron
+Electric razor | shaver
+Clock radio | alarm clock
+Radio
+Stereo
+Record player
+DVD player
+Game console
+Computer
 Printer
 Router
 Electric blanket
@@ -3260,58 +3308,6 @@ Pressure cooker Instant Pot
 Electric pressure washer
 
 [Rare]
-Hand mixer
-Immersion blender | stick blender
-Bread maker | bread machine
-Popcorn maker | popcorn machine
-Sandwich maker
-Panini press
-Griddle
-Electric skillet
-Deep fryer
-Sous vide
-Dehydrator
-Yogurt maker
-Ice cream maker
-Soda maker | sodastream
-Wine fridge | wine cooler
-Mini fridge
-Chest freezer
-Water dispenser | water cooler
-Water softener
-Water filter
-Air purifier
-Ceiling fan
-Box fan
-Tower fan
-Heat pump
-Boiler
-Thermostat
-Security camera
-Doorbell camera | ring doorbell
-Garage door opener
-Sump pump
-Generator
-Steam mop
-Carpet cleaner | carpet shampooer
-Shop vac
-Handheld vacuum | dustbuster
-Stick vacuum
-Steamer | clothes steamer
-Sewing machine
-Electric toothbrush
-Curling iron
-Hair straightener | flat iron
-Electric razor | shaver
-Clock radio | alarm clock
-Radio
-Stereo
-Record player
-DVD player
-Game console
-Computer
-
-[Schooler]
 Vacuum | vacuum cleaner | hoover
 Blender
 Coffee maker | coffee machine
@@ -3343,6 +3339,11 @@ Juicer
 Range hood
 Ice maker
 
+[Schooler]
+Dryer | clothes dryer
+Toaster
+Stove
+
 [Too Clever]
 Roomba | robot vacuum
 Alexa | amazon echo | smart speaker
@@ -3353,9 +3354,6 @@ Microwave
 Oven
 Dishwasher
 Washing machine | washer
-Dryer | clothes dryer
-Toaster
-Stove
 
 [Not accepted]
 Couch

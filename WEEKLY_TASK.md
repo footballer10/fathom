@@ -36,6 +36,13 @@ accept every true answer a smart player could type.
 
 The full rule, with examples, is "THE MOST IMPORTANT RULE" at the top of the brief.
 
+### Rule #2: write for high schoolers
+
+Most players are high school students. Every prompt must be one a typical high schooler can
+answer several ways. Skip topics mainly known to older adults, like older artists' song catalogs,
+Supreme Court justices, Secretaries of State, popes, awards lists, and livestock breeds. The brief's
+"AUDIENCE" section has the full rule.
+
 ### Ground rules
 
 Work in the repository root. Never print, log, or commit the contents of `.env.local`. Never use
@@ -122,12 +129,13 @@ Write them in four files of 25:
 
 Re-read every question you wrote and fix:
 
+- **Audience (Rule #2).** Would most high schoolers name three answers in a minute? If not, replace the question.
 - **Completeness (Rule #1).** Do the 20-answer brainstorm check on every single question again.
 - **Open-ended prompts.** For every question ask: "Could a smart player type something true that
   isn't on this list?" If yes, add the missing answers, or add a constraint to the prompt that closes
   the set to a fixed, checkable list (see "THE MOST IMPORTANT RULE" in the brief). "Name a US city"
   is too open; "Name a US state capital" is closed.
-- Missing common answers (the Plankton tier should cover what most people would type)
+- Missing common answers (everything people would type must be accepted; Plankton holds only the 3-5 most obvious)
 - Invalid answers, and answers placed in the wrong tier
 - A weak One in a Krillion pick (it should be real, checkable, and very rare)
 - Missing misspellings and aliases on answers people often misspell

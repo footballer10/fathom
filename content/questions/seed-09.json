@@ -15,6 +15,228 @@
         "tier": 100
       },
       {
+        "text": "Chipotle mayo",
+        "tier": 85
+      },
+      {
+        "text": "Sweet chili sauce",
+        "tier": 85
+      },
+      {
+        "text": "Gochujang",
+        "tier": 85
+      },
+      {
+        "text": "Sambal",
+        "aliases": [
+          "sambal oelek"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Harissa",
+        "tier": 85
+      },
+      {
+        "text": "Chutney",
+        "aliases": [
+          "mango chutney"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Raita",
+        "tier": 85
+      },
+      {
+        "text": "Mint sauce",
+        "tier": 85
+      },
+      {
+        "text": "Mint jelly",
+        "tier": 85
+      },
+      {
+        "text": "Cranberry sauce",
+        "tier": 85
+      },
+      {
+        "text": "Applesauce",
+        "tier": 85
+      },
+      {
+        "text": "HP Sauce",
+        "aliases": [
+          "brown sauce"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Salad cream",
+        "tier": 85
+      },
+      {
+        "text": "Piccalilli",
+        "tier": 85
+      },
+      {
+        "text": "Branston pickle",
+        "tier": 85
+      },
+      {
+        "text": "Marmite",
+        "tier": 85
+      },
+      {
+        "text": "Vegemite",
+        "tier": 85
+      },
+      {
+        "text": "Ponzu",
+        "tier": 85
+      },
+      {
+        "text": "Mirin",
+        "tier": 85
+      },
+      {
+        "text": "Miso",
+        "tier": 85
+      },
+      {
+        "text": "Tonkatsu sauce",
+        "tier": 85
+      },
+      {
+        "text": "Yum yum sauce",
+        "tier": 85
+      },
+      {
+        "text": "Eel sauce",
+        "tier": 85
+      },
+      {
+        "text": "Kewpie mayo",
+        "aliases": [
+          "kewpie"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Remoulade",
+        "tier": 85
+      },
+      {
+        "text": "Bearnaise",
+        "tier": 85
+      },
+      {
+        "text": "Bechamel",
+        "tier": 85
+      },
+      {
+        "text": "Velouté",
+        "tier": 85
+      },
+      {
+        "text": "Espagnole",
+        "tier": 85
+      },
+      {
+        "text": "Demi-glace",
+        "tier": 85
+      },
+      {
+        "text": "Beurre blanc",
+        "tier": 85
+      },
+      {
+        "text": "Romesco",
+        "tier": 85
+      },
+      {
+        "text": "Salsa verde",
+        "tier": 85
+      },
+      {
+        "text": "Mole",
+        "tier": 85
+      },
+      {
+        "text": "Enchilada sauce",
+        "tier": 85
+      },
+      {
+        "text": "Queso",
+        "tier": 85
+      },
+      {
+        "text": "Valentina",
+        "tier": 85
+      },
+      {
+        "text": "Cholula",
+        "tier": 85
+      },
+      {
+        "text": "Frank's RedHot",
+        "aliases": [
+          "franks red hot"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tapatio",
+        "tier": 85
+      },
+      {
+        "text": "Crystal hot sauce",
+        "tier": 85
+      },
+      {
+        "text": "Texas Pete",
+        "tier": 85
+      },
+      {
+        "text": "Louisiana hot sauce",
+        "tier": 85
+      },
+      {
+        "text": "Peri-peri",
+        "aliases": [
+          "piri piri"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Jerk sauce",
+        "tier": 85
+      },
+      {
+        "text": "Mumbo sauce",
+        "tier": 85
+      },
+      {
+        "text": "Comeback sauce",
+        "tier": 85
+      },
+      {
+        "text": "Fry sauce",
+        "tier": 85
+      },
+      {
+        "text": "Alabama white sauce",
+        "aliases": [
+          "white bbq sauce",
+          "alabama bbq sauce"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chick-fil-A sauce",
+        "tier": 85
+      },
+      {
         "text": "Polynesian sauce",
         "tier": 85
       },
@@ -681,408 +903,186 @@
         "tier": 85
       },
       {
-        "text": "Chipotle mayo",
-        "tier": 60
-      },
-      {
-        "text": "Sweet chili sauce",
-        "tier": 60
-      },
-      {
-        "text": "Gochujang",
-        "tier": 60
-      },
-      {
-        "text": "Sambal",
-        "aliases": [
-          "sambal oelek"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Harissa",
-        "tier": 60
-      },
-      {
-        "text": "Chutney",
-        "aliases": [
-          "mango chutney"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Raita",
-        "tier": 60
-      },
-      {
-        "text": "Mint sauce",
-        "tier": 60
-      },
-      {
-        "text": "Mint jelly",
-        "tier": 60
-      },
-      {
-        "text": "Cranberry sauce",
-        "tier": 60
-      },
-      {
-        "text": "Applesauce",
-        "tier": 60
-      },
-      {
-        "text": "HP Sauce",
-        "aliases": [
-          "brown sauce"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Salad cream",
-        "tier": 60
-      },
-      {
-        "text": "Piccalilli",
-        "tier": 60
-      },
-      {
-        "text": "Branston pickle",
-        "tier": 60
-      },
-      {
-        "text": "Marmite",
-        "tier": 60
-      },
-      {
-        "text": "Vegemite",
-        "tier": 60
-      },
-      {
-        "text": "Ponzu",
-        "tier": 60
-      },
-      {
-        "text": "Mirin",
-        "tier": 60
-      },
-      {
-        "text": "Miso",
-        "tier": 60
-      },
-      {
-        "text": "Tonkatsu sauce",
-        "tier": 60
-      },
-      {
-        "text": "Yum yum sauce",
-        "tier": 60
-      },
-      {
-        "text": "Eel sauce",
-        "tier": 60
-      },
-      {
-        "text": "Kewpie mayo",
-        "aliases": [
-          "kewpie"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Remoulade",
-        "tier": 60
-      },
-      {
-        "text": "Bearnaise",
-        "tier": 60
-      },
-      {
-        "text": "Bechamel",
-        "tier": 60
-      },
-      {
-        "text": "Velouté",
-        "tier": 60
-      },
-      {
-        "text": "Espagnole",
-        "tier": 60
-      },
-      {
-        "text": "Demi-glace",
-        "tier": 60
-      },
-      {
-        "text": "Beurre blanc",
-        "tier": 60
-      },
-      {
-        "text": "Romesco",
-        "tier": 60
-      },
-      {
-        "text": "Salsa verde",
-        "tier": 60
-      },
-      {
-        "text": "Mole",
-        "tier": 60
-      },
-      {
-        "text": "Enchilada sauce",
-        "tier": 60
-      },
-      {
-        "text": "Queso",
-        "tier": 60
-      },
-      {
-        "text": "Valentina",
-        "tier": 60
-      },
-      {
-        "text": "Cholula",
-        "tier": 60
-      },
-      {
-        "text": "Frank's RedHot",
-        "aliases": [
-          "franks red hot"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Tapatio",
-        "tier": 60
-      },
-      {
-        "text": "Crystal hot sauce",
-        "tier": 60
-      },
-      {
-        "text": "Texas Pete",
-        "tier": 60
-      },
-      {
-        "text": "Louisiana hot sauce",
-        "tier": 60
-      },
-      {
-        "text": "Peri-peri",
-        "aliases": [
-          "piri piri"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Jerk sauce",
-        "tier": 60
-      },
-      {
-        "text": "Mumbo sauce",
-        "tier": 60
-      },
-      {
-        "text": "Comeback sauce",
-        "tier": 60
-      },
-      {
-        "text": "Fry sauce",
-        "tier": 60
-      },
-      {
-        "text": "Alabama white sauce",
-        "aliases": [
-          "white bbq sauce",
-          "alabama bbq sauce"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chick-fil-A sauce",
-        "tier": 60
-      },
-      {
         "text": "Relish",
         "aliases": [
           "pickle relish"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sriracha",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tabasco",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Buffalo sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Honey mustard",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Teriyaki sauce",
         "aliases": [
           "teriyaki"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tartar sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cocktail sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Marinara",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Alfredo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pesto",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Guacamole",
         "aliases": [
           "guac"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hummus",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sour cream",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Salad dressing",
         "aliases": [
           "dressing"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Italian dressing",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Thousand Island",
         "aliases": [
           "thousand island dressing"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Blue cheese dressing",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Caesar dressing",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Vinaigrette",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Balsamic vinegar",
         "aliases": [
           "balsamic"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Vinegar",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Olive oil",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Maple syrup",
         "aliases": [
           "syrup"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Honey",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jam",
         "aliases": [
           "jelly"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Peanut butter",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Nutella",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tzatziki",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Aioli",
         "aliases": [
           "garlic aioli"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Horseradish",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Wasabi",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hoisin sauce",
         "aliases": [
           "hoisin"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sweet and sour sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Duck sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fish sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Oyster sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chili sauce",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Steak sauce",
@@ -1091,32 +1091,44 @@
           "a.1.",
           "heinz 57"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cheese sauce",
         "aliases": [
           "nacho cheese"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hollandaise",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chimichurri",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tahini",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pico de gallo",
         "aliases": [
           "pico"
         ],
+        "tier": 60
+      },
+      {
+        "text": "Hot sauce",
+        "tier": 30
+      },
+      {
+        "text": "Soy sauce",
+        "tier": 30
+      },
+      {
+        "text": "Salsa",
         "tier": 30
       },
       {
@@ -1169,18 +1181,6 @@
           "kansas city bbq sauce"
         ],
         "tier": 10
-      },
-      {
-        "text": "Hot sauce",
-        "tier": 10
-      },
-      {
-        "text": "Soy sauce",
-        "tier": 10
-      },
-      {
-        "text": "Salsa",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -1204,6 +1204,126 @@
       {
         "text": "Cygnet",
         "tier": 100
+      },
+      {
+        "text": "Cria",
+        "tier": 85
+      },
+      {
+        "text": "Poult",
+        "tier": 85
+      },
+      {
+        "text": "Keet",
+        "tier": 85
+      },
+      {
+        "text": "Squab",
+        "tier": 85
+      },
+      {
+        "text": "Eyas",
+        "tier": 85
+      },
+      {
+        "text": "Leveret",
+        "tier": 85
+      },
+      {
+        "text": "Pinkie",
+        "tier": 85
+      },
+      {
+        "text": "Hoglet",
+        "tier": 85
+      },
+      {
+        "text": "Puggle",
+        "tier": 85
+      },
+      {
+        "text": "Squeaker",
+        "tier": 85
+      },
+      {
+        "text": "Shoat",
+        "tier": 85
+      },
+      {
+        "text": "Farrow",
+        "tier": 85
+      },
+      {
+        "text": "Yearling",
+        "tier": 85
+      },
+      {
+        "text": "Weanling",
+        "tier": 85
+      },
+      {
+        "text": "Cosset",
+        "tier": 85
+      },
+      {
+        "text": "Hogget",
+        "tier": 85
+      },
+      {
+        "text": "Elver",
+        "tier": 85
+      },
+      {
+        "text": "Glass eel",
+        "tier": 85
+      },
+      {
+        "text": "Smolt",
+        "tier": 85
+      },
+      {
+        "text": "Parr",
+        "tier": 85
+      },
+      {
+        "text": "Alevin",
+        "tier": 85
+      },
+      {
+        "text": "Fingerling",
+        "tier": 85
+      },
+      {
+        "text": "Spat",
+        "tier": 85
+      },
+      {
+        "text": "Spawn",
+        "tier": 85
+      },
+      {
+        "text": "Roe",
+        "tier": 85
+      },
+      {
+        "text": "Neonate",
+        "tier": 85
+      },
+      {
+        "text": "Pullet",
+        "tier": 85
+      },
+      {
+        "text": "Cockerel",
+        "tier": 85
+      },
+      {
+        "text": "Peachick",
+        "tier": 85
+      },
+      {
+        "text": "Puffling",
+        "tier": 85
       },
       {
         "text": "Codling",
@@ -1357,216 +1477,108 @@
         "tier": 85
       },
       {
-        "text": "Cria",
-        "tier": 60
-      },
-      {
-        "text": "Poult",
-        "tier": 60
-      },
-      {
-        "text": "Keet",
-        "tier": 60
-      },
-      {
-        "text": "Squab",
-        "tier": 60
-      },
-      {
-        "text": "Eyas",
-        "tier": 60
-      },
-      {
-        "text": "Leveret",
-        "tier": 60
-      },
-      {
-        "text": "Pinkie",
-        "tier": 60
-      },
-      {
-        "text": "Hoglet",
-        "tier": 60
-      },
-      {
-        "text": "Puggle",
-        "tier": 60
-      },
-      {
-        "text": "Squeaker",
-        "tier": 60
-      },
-      {
-        "text": "Shoat",
-        "tier": 60
-      },
-      {
-        "text": "Farrow",
-        "tier": 60
-      },
-      {
-        "text": "Yearling",
-        "tier": 60
-      },
-      {
-        "text": "Weanling",
-        "tier": 60
-      },
-      {
-        "text": "Cosset",
-        "tier": 60
-      },
-      {
-        "text": "Hogget",
-        "tier": 60
-      },
-      {
-        "text": "Elver",
-        "tier": 60
-      },
-      {
-        "text": "Glass eel",
-        "tier": 60
-      },
-      {
-        "text": "Smolt",
-        "tier": 60
-      },
-      {
-        "text": "Parr",
-        "tier": 60
-      },
-      {
-        "text": "Alevin",
-        "tier": 60
-      },
-      {
-        "text": "Fingerling",
-        "tier": 60
-      },
-      {
-        "text": "Spat",
-        "tier": 60
-      },
-      {
-        "text": "Spawn",
-        "tier": 60
-      },
-      {
-        "text": "Roe",
-        "tier": 60
-      },
-      {
-        "text": "Neonate",
-        "tier": 60
-      },
-      {
-        "text": "Pullet",
-        "tier": 60
-      },
-      {
-        "text": "Cockerel",
-        "tier": 60
-      },
-      {
-        "text": "Peachick",
-        "tier": 60
-      },
-      {
-        "text": "Puffling",
-        "tier": 60
-      },
-      {
         "text": "Duckling",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Piglet",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bunny",
         "aliases": [
           "kit"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fawn",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Kid",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Colt",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Filly",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Gosling",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Owlet",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Eaglet",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fry",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Larva",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hatchling",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Nestling",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fledgling",
         "aliases": [
           "fledgeling"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Whelp",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Spiderling",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Polliwog",
         "aliases": [
           "pollywog"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Nymph",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pupa",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chrysalis",
+        "tier": 60
+      },
+      {
+        "text": "Chick",
+        "tier": 30
+      },
+      {
+        "text": "Lamb",
+        "tier": 30
+      },
+      {
+        "text": "Joey",
         "tier": 30
       },
       {
@@ -1614,18 +1626,6 @@
       {
         "text": "Foal",
         "tier": 10
-      },
-      {
-        "text": "Chick",
-        "tier": 10
-      },
-      {
-        "text": "Lamb",
-        "tier": 10
-      },
-      {
-        "text": "Joey",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -1660,6 +1660,96 @@
       {
         "text": "Liechtenstein",
         "tier": 100
+      },
+      {
+        "text": "Paraguay",
+        "tier": 85
+      },
+      {
+        "text": "Uruguay",
+        "tier": 85
+      },
+      {
+        "text": "Bolivia",
+        "tier": 85
+      },
+      {
+        "text": "Ecuador",
+        "tier": 85
+      },
+      {
+        "text": "Serbia",
+        "tier": 85
+      },
+      {
+        "text": "Croatia",
+        "tier": 85
+      },
+      {
+        "text": "Bulgaria",
+        "tier": 85
+      },
+      {
+        "text": "Romania",
+        "tier": 85
+      },
+      {
+        "text": "Hungary",
+        "tier": 85
+      },
+      {
+        "text": "Czech Republic",
+        "aliases": [
+          "czechia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Austria",
+        "tier": 85
+      },
+      {
+        "text": "Switzerland",
+        "tier": 85
+      },
+      {
+        "text": "Belgium",
+        "tier": 85
+      },
+      {
+        "text": "Netherlands",
+        "aliases": [
+          "holland"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Denmark",
+        "tier": 85
+      },
+      {
+        "text": "Finland",
+        "tier": 85
+      },
+      {
+        "text": "Iceland",
+        "tier": 85
+      },
+      {
+        "text": "Ukraine",
+        "tier": 85
+      },
+      {
+        "text": "Venezuela",
+        "tier": 85
+      },
+      {
+        "text": "Turkey",
+        "aliases": [
+          "türkiye",
+          "turkiye"
+        ],
+        "tier": 85
       },
       {
         "text": "San Marino",
@@ -1775,138 +1865,48 @@
         "tier": 85
       },
       {
-        "text": "Paraguay",
-        "tier": 60
-      },
-      {
-        "text": "Uruguay",
-        "tier": 60
-      },
-      {
-        "text": "Bolivia",
-        "tier": 60
-      },
-      {
-        "text": "Ecuador",
-        "tier": 60
-      },
-      {
-        "text": "Serbia",
-        "tier": 60
-      },
-      {
-        "text": "Croatia",
-        "tier": 60
-      },
-      {
-        "text": "Bulgaria",
-        "tier": 60
-      },
-      {
-        "text": "Romania",
-        "tier": 60
-      },
-      {
-        "text": "Hungary",
-        "tier": 60
-      },
-      {
-        "text": "Czech Republic",
-        "aliases": [
-          "czechia"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Austria",
-        "tier": 60
-      },
-      {
-        "text": "Switzerland",
-        "tier": 60
-      },
-      {
-        "text": "Belgium",
-        "tier": 60
-      },
-      {
-        "text": "Netherlands",
-        "aliases": [
-          "holland"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Denmark",
-        "tier": 60
-      },
-      {
-        "text": "Finland",
-        "tier": 60
-      },
-      {
-        "text": "Iceland",
-        "tier": 60
-      },
-      {
-        "text": "Ukraine",
-        "tier": 60
-      },
-      {
-        "text": "Venezuela",
-        "tier": 60
-      },
-      {
-        "text": "Turkey",
-        "aliases": [
-          "türkiye",
-          "turkiye"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Colombia",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chile",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Peru",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Argentina",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Portugal",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Poland",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Norway",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sweden",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ireland",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Greece",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Russia",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "United Kingdom",
@@ -1968,6 +1968,376 @@
       {
         "text": "Calcutta Cup",
         "tier": 100
+      },
+      {
+        "text": "Claret Jug",
+        "aliases": [
+          "open championship",
+          "british open"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "PGA Championship",
+        "tier": 85
+      },
+      {
+        "text": "Wanamaker Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Solheim Cup",
+        "tier": 85
+      },
+      {
+        "text": "Presidents Cup",
+        "tier": 85
+      },
+      {
+        "text": "Belmont Stakes",
+        "tier": 85
+      },
+      {
+        "text": "Preakness Stakes",
+        "aliases": [
+          "preakness"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Breeders' Cup",
+        "tier": 85
+      },
+      {
+        "text": "Melbourne Cup",
+        "tier": 85
+      },
+      {
+        "text": "Grand National",
+        "tier": 85
+      },
+      {
+        "text": "Royal Ascot",
+        "tier": 85
+      },
+      {
+        "text": "Monaco Grand Prix",
+        "tier": 85
+      },
+      {
+        "text": "Le Mans",
+        "aliases": [
+          "24 hours of le mans"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Formula 1 World Championship",
+        "tier": 85
+      },
+      {
+        "text": "NASCAR Cup Series",
+        "tier": 85
+      },
+      {
+        "text": "Brickyard 400",
+        "tier": 85
+      },
+      {
+        "text": "Copa America",
+        "aliases": [
+          "copa américa"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Euros",
+        "aliases": [
+          "european championship",
+          "euro"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Copa Libertadores",
+        "tier": 85
+      },
+      {
+        "text": "FA Cup",
+        "tier": 85
+      },
+      {
+        "text": "Carabao Cup",
+        "aliases": [
+          "league cup"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Club World Cup",
+        "tier": 85
+      },
+      {
+        "text": "Ballon d'Or",
+        "tier": 85
+      },
+      {
+        "text": "Golden Boot",
+        "tier": 85
+      },
+      {
+        "text": "Conn Smythe Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Hart Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Vezina Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Norris Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Calder Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Art Ross Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Presidents' Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Cy Young Award",
+        "aliases": [
+          "cy young"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hank Aaron Award",
+        "tier": 85
+      },
+      {
+        "text": "Gold Glove",
+        "tier": 85
+      },
+      {
+        "text": "Silver Slugger",
+        "tier": 85
+      },
+      {
+        "text": "Rookie of the Year",
+        "tier": 85
+      },
+      {
+        "text": "Bill Russell Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Naismith Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Wooden Award",
+        "tier": 85
+      },
+      {
+        "text": "Maxwell Award",
+        "tier": 85
+      },
+      {
+        "text": "Walter Payton Award",
+        "tier": 85
+      },
+      {
+        "text": "Sugar Bowl",
+        "tier": 85
+      },
+      {
+        "text": "Orange Bowl",
+        "tier": 85
+      },
+      {
+        "text": "Cotton Bowl",
+        "tier": 85
+      },
+      {
+        "text": "Fiesta Bowl",
+        "tier": 85
+      },
+      {
+        "text": "Peach Bowl",
+        "tier": 85
+      },
+      {
+        "text": "Frozen Four",
+        "tier": 85
+      },
+      {
+        "text": "College World Series",
+        "tier": 85
+      },
+      {
+        "text": "Little League World Series",
+        "tier": 85
+      },
+      {
+        "text": "Women's World Cup",
+        "tier": 85
+      },
+      {
+        "text": "WNBA Finals",
+        "tier": 85
+      },
+      {
+        "text": "Heavyweight championship",
+        "aliases": [
+          "heavyweight title"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "WrestleMania",
+        "tier": 85
+      },
+      {
+        "text": "Royal Rumble",
+        "tier": 85
+      },
+      {
+        "text": "UFC title",
+        "aliases": [
+          "ufc belt"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Iditarod",
+        "tier": 85
+      },
+      {
+        "text": "Ironman",
+        "tier": 85
+      },
+      {
+        "text": "New York City Marathon",
+        "aliases": [
+          "nyc marathon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "London Marathon",
+        "tier": 85
+      },
+      {
+        "text": "Rugby World Cup",
+        "tier": 85
+      },
+      {
+        "text": "Six Nations",
+        "tier": 85
+      },
+      {
+        "text": "Webb Ellis Cup",
+        "tier": 85
+      },
+      {
+        "text": "Cricket World Cup",
+        "tier": 85
+      },
+      {
+        "text": "The Ashes",
+        "aliases": [
+          "ashes"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "IPL",
+        "tier": 85
+      },
+      {
+        "text": "Commonwealth Games",
+        "tier": 85
+      },
+      {
+        "text": "Asian Games",
+        "tier": 85
+      },
+      {
+        "text": "Pan American Games",
+        "tier": 85
+      },
+      {
+        "text": "World Baseball Classic",
+        "tier": 85
+      },
+      {
+        "text": "Gold Cup",
+        "tier": 85
+      },
+      {
+        "text": "MLS Cup",
+        "tier": 85
+      },
+      {
+        "text": "Supporters' Shield",
+        "tier": 85
+      },
+      {
+        "text": "US Open Cup",
+        "tier": 85
+      },
+      {
+        "text": "Calder Cup",
+        "tier": 85
+      },
+      {
+        "text": "Memorial Cup",
+        "tier": 85
+      },
+      {
+        "text": "Hobey Baker Award",
+        "tier": 85
+      },
+      {
+        "text": "Thorpe Award",
+        "tier": 85
+      },
+      {
+        "text": "Biletnikoff Award",
+        "tier": 85
+      },
+      {
+        "text": "Outland Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Lou Marsh Trophy",
+        "tier": 85
+      },
+      {
+        "text": "Laureus Award",
+        "tier": 85
+      },
+      {
+        "text": "ESPY",
+        "aliases": [
+          "espys"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sportsman of the Year",
+        "tier": 85
       },
       {
         "text": "Bledisloe Cup",
@@ -4296,396 +4666,26 @@
         "tier": 85
       },
       {
-        "text": "Claret Jug",
-        "aliases": [
-          "open championship",
-          "british open"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "PGA Championship",
-        "tier": 60
-      },
-      {
-        "text": "Wanamaker Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Solheim Cup",
-        "tier": 60
-      },
-      {
-        "text": "Presidents Cup",
-        "tier": 60
-      },
-      {
-        "text": "Belmont Stakes",
-        "tier": 60
-      },
-      {
-        "text": "Preakness Stakes",
-        "aliases": [
-          "preakness"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Breeders' Cup",
-        "tier": 60
-      },
-      {
-        "text": "Melbourne Cup",
-        "tier": 60
-      },
-      {
-        "text": "Grand National",
-        "tier": 60
-      },
-      {
-        "text": "Royal Ascot",
-        "tier": 60
-      },
-      {
-        "text": "Monaco Grand Prix",
-        "tier": 60
-      },
-      {
-        "text": "Le Mans",
-        "aliases": [
-          "24 hours of le mans"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Formula 1 World Championship",
-        "tier": 60
-      },
-      {
-        "text": "NASCAR Cup Series",
-        "tier": 60
-      },
-      {
-        "text": "Brickyard 400",
-        "tier": 60
-      },
-      {
-        "text": "Copa America",
-        "aliases": [
-          "copa américa"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Euros",
-        "aliases": [
-          "european championship",
-          "euro"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Copa Libertadores",
-        "tier": 60
-      },
-      {
-        "text": "FA Cup",
-        "tier": 60
-      },
-      {
-        "text": "Carabao Cup",
-        "aliases": [
-          "league cup"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Club World Cup",
-        "tier": 60
-      },
-      {
-        "text": "Ballon d'Or",
-        "tier": 60
-      },
-      {
-        "text": "Golden Boot",
-        "tier": 60
-      },
-      {
-        "text": "Conn Smythe Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Hart Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Vezina Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Norris Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Calder Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Art Ross Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Presidents' Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Cy Young Award",
-        "aliases": [
-          "cy young"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hank Aaron Award",
-        "tier": 60
-      },
-      {
-        "text": "Gold Glove",
-        "tier": 60
-      },
-      {
-        "text": "Silver Slugger",
-        "tier": 60
-      },
-      {
-        "text": "Rookie of the Year",
-        "tier": 60
-      },
-      {
-        "text": "Bill Russell Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Naismith Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Wooden Award",
-        "tier": 60
-      },
-      {
-        "text": "Maxwell Award",
-        "tier": 60
-      },
-      {
-        "text": "Walter Payton Award",
-        "tier": 60
-      },
-      {
-        "text": "Sugar Bowl",
-        "tier": 60
-      },
-      {
-        "text": "Orange Bowl",
-        "tier": 60
-      },
-      {
-        "text": "Cotton Bowl",
-        "tier": 60
-      },
-      {
-        "text": "Fiesta Bowl",
-        "tier": 60
-      },
-      {
-        "text": "Peach Bowl",
-        "tier": 60
-      },
-      {
-        "text": "Frozen Four",
-        "tier": 60
-      },
-      {
-        "text": "College World Series",
-        "tier": 60
-      },
-      {
-        "text": "Little League World Series",
-        "tier": 60
-      },
-      {
-        "text": "Women's World Cup",
-        "tier": 60
-      },
-      {
-        "text": "WNBA Finals",
-        "tier": 60
-      },
-      {
-        "text": "Heavyweight championship",
-        "aliases": [
-          "heavyweight title"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "WrestleMania",
-        "tier": 60
-      },
-      {
-        "text": "Royal Rumble",
-        "tier": 60
-      },
-      {
-        "text": "UFC title",
-        "aliases": [
-          "ufc belt"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Iditarod",
-        "tier": 60
-      },
-      {
-        "text": "Ironman",
-        "tier": 60
-      },
-      {
-        "text": "New York City Marathon",
-        "aliases": [
-          "nyc marathon"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "London Marathon",
-        "tier": 60
-      },
-      {
-        "text": "Rugby World Cup",
-        "tier": 60
-      },
-      {
-        "text": "Six Nations",
-        "tier": 60
-      },
-      {
-        "text": "Webb Ellis Cup",
-        "tier": 60
-      },
-      {
-        "text": "Cricket World Cup",
-        "tier": 60
-      },
-      {
-        "text": "The Ashes",
-        "aliases": [
-          "ashes"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "IPL",
-        "tier": 60
-      },
-      {
-        "text": "Commonwealth Games",
-        "tier": 60
-      },
-      {
-        "text": "Asian Games",
-        "tier": 60
-      },
-      {
-        "text": "Pan American Games",
-        "tier": 60
-      },
-      {
-        "text": "World Baseball Classic",
-        "tier": 60
-      },
-      {
-        "text": "Gold Cup",
-        "tier": 60
-      },
-      {
-        "text": "MLS Cup",
-        "tier": 60
-      },
-      {
-        "text": "Supporters' Shield",
-        "tier": 60
-      },
-      {
-        "text": "US Open Cup",
-        "tier": 60
-      },
-      {
-        "text": "Calder Cup",
-        "tier": 60
-      },
-      {
-        "text": "Memorial Cup",
-        "tier": 60
-      },
-      {
-        "text": "Hobey Baker Award",
-        "tier": 60
-      },
-      {
-        "text": "Thorpe Award",
-        "tier": 60
-      },
-      {
-        "text": "Biletnikoff Award",
-        "tier": 60
-      },
-      {
-        "text": "Outland Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Lou Marsh Trophy",
-        "tier": 60
-      },
-      {
-        "text": "Laureus Award",
-        "tier": 60
-      },
-      {
-        "text": "ESPY",
-        "aliases": [
-          "espys"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sportsman of the Year",
-        "tier": 60
-      },
-      {
         "text": "Vince Lombardi Trophy",
         "aliases": [
           "lombardi trophy"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Larry O'Brien Trophy",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Commissioner's Trophy",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Heisman Trophy",
         "aliases": [
           "heisman"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Masters",
@@ -4693,119 +4693,134 @@
           "the masters",
           "green jacket"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "US Open",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "French Open",
         "aliases": [
           "roland garros"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Australian Open",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Kentucky Derby",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Indianapolis 500",
         "aliases": [
           "indy 500"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Daytona 500",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tour de France",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ryder Cup",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Davis Cup",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Champions League",
         "aliases": [
           "uefa champions league"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Premier League",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rose Bowl",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "College Football Playoff",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Final Four",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Grey Cup",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "America's Cup",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Boston Marathon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Triple Crown",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Winter Olympics",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Summer Olympics",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Paralympics",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "X Games",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pro Bowl",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "All-Star Game",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Home Run Derby",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Slam Dunk Contest",
+        "tier": 60
+      },
+      {
+        "text": "Olympics",
+        "aliases": [
+          "olympic games"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wimbledon",
+        "tier": 30
+      },
+      {
+        "text": "March Madness",
         "tier": 30
       },
       {
@@ -4845,21 +4860,6 @@
           "fifa world cup"
         ],
         "tier": 10
-      },
-      {
-        "text": "Olympics",
-        "aliases": [
-          "olympic games"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Wimbledon",
-        "tier": 10
-      },
-      {
-        "text": "March Madness",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -4885,6 +4885,480 @@
       {
         "text": "Hemidemisemiquaver",
         "tier": 100
+      },
+      {
+        "text": "Moderato",
+        "tier": 85
+      },
+      {
+        "text": "Vivace",
+        "tier": 85
+      },
+      {
+        "text": "Lento",
+        "tier": 85
+      },
+      {
+        "text": "Ritardando",
+        "aliases": [
+          "rit"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Accelerando",
+        "tier": 85
+      },
+      {
+        "text": "Rubato",
+        "tier": 85
+      },
+      {
+        "text": "Sforzando",
+        "tier": 85
+      },
+      {
+        "text": "Mezzo forte",
+        "tier": 85
+      },
+      {
+        "text": "Mezzo piano",
+        "tier": 85
+      },
+      {
+        "text": "Fortepiano",
+        "tier": 85
+      },
+      {
+        "text": "Dolce",
+        "tier": 85
+      },
+      {
+        "text": "Cantabile",
+        "tier": 85
+      },
+      {
+        "text": "Espressivo",
+        "tier": 85
+      },
+      {
+        "text": "Maestoso",
+        "tier": 85
+      },
+      {
+        "text": "Marcato",
+        "tier": 85
+      },
+      {
+        "text": "Tenuto",
+        "tier": 85
+      },
+      {
+        "text": "Pizzicato",
+        "tier": 85
+      },
+      {
+        "text": "Arco",
+        "tier": 85
+      },
+      {
+        "text": "Glissando",
+        "tier": 85
+      },
+      {
+        "text": "Trill",
+        "tier": 85
+      },
+      {
+        "text": "Tremolo",
+        "tier": 85
+      },
+      {
+        "text": "Arpeggio",
+        "tier": 85
+      },
+      {
+        "text": "Ostinato",
+        "tier": 85
+      },
+      {
+        "text": "Cadence",
+        "tier": 85
+      },
+      {
+        "text": "Interval",
+        "tier": 85
+      },
+      {
+        "text": "Unison",
+        "tier": 85
+      },
+      {
+        "text": "Dissonance",
+        "tier": 85
+      },
+      {
+        "text": "Consonance",
+        "tier": 85
+      },
+      {
+        "text": "Syncopation",
+        "tier": 85
+      },
+      {
+        "text": "Polyrhythm",
+        "tier": 85
+      },
+      {
+        "text": "Downbeat",
+        "tier": 85
+      },
+      {
+        "text": "Upbeat",
+        "tier": 85
+      },
+      {
+        "text": "Offbeat",
+        "tier": 85
+      },
+      {
+        "text": "Backbeat",
+        "tier": 85
+      },
+      {
+        "text": "Groove",
+        "tier": 85
+      },
+      {
+        "text": "Timbre",
+        "tier": 85
+      },
+      {
+        "text": "Texture",
+        "tier": 85
+      },
+      {
+        "text": "Counterpoint",
+        "tier": 85
+      },
+      {
+        "text": "Fugue",
+        "tier": 85
+      },
+      {
+        "text": "Canon",
+        "tier": 85
+      },
+      {
+        "text": "Overture",
+        "tier": 85
+      },
+      {
+        "text": "Symphony",
+        "tier": 85
+      },
+      {
+        "text": "Concerto",
+        "tier": 85
+      },
+      {
+        "text": "Sonata",
+        "tier": 85
+      },
+      {
+        "text": "Aria",
+        "tier": 85
+      },
+      {
+        "text": "Recitative",
+        "tier": 85
+      },
+      {
+        "text": "Libretto",
+        "tier": 85
+      },
+      {
+        "text": "Opus",
+        "tier": 85
+      },
+      {
+        "text": "Prelude",
+        "tier": 85
+      },
+      {
+        "text": "Etude",
+        "tier": 85
+      },
+      {
+        "text": "Nocturne",
+        "tier": 85
+      },
+      {
+        "text": "Waltz",
+        "tier": 85
+      },
+      {
+        "text": "Minuet",
+        "tier": 85
+      },
+      {
+        "text": "Rondo",
+        "tier": 85
+      },
+      {
+        "text": "Scherzo",
+        "tier": 85
+      },
+      {
+        "text": "Cadenza",
+        "tier": 85
+      },
+      {
+        "text": "Da capo",
+        "tier": 85
+      },
+      {
+        "text": "Dal segno",
+        "tier": 85
+      },
+      {
+        "text": "Segno",
+        "tier": 85
+      },
+      {
+        "text": "Repeat sign",
+        "tier": 85
+      },
+      {
+        "text": "Ledger line",
+        "tier": 85
+      },
+      {
+        "text": "Accidental",
+        "tier": 85
+      },
+      {
+        "text": "Transpose",
+        "tier": 85
+      },
+      {
+        "text": "Modulation",
+        "tier": 85
+      },
+      {
+        "text": "Tonic",
+        "tier": 85
+      },
+      {
+        "text": "Dominant",
+        "tier": 85
+      },
+      {
+        "text": "Subdominant",
+        "tier": 85
+      },
+      {
+        "text": "Mediant",
+        "tier": 85
+      },
+      {
+        "text": "Leading tone",
+        "tier": 85
+      },
+      {
+        "text": "Triad",
+        "tier": 85
+      },
+      {
+        "text": "Seventh chord",
+        "tier": 85
+      },
+      {
+        "text": "Power chord",
+        "tier": 85
+      },
+      {
+        "text": "Diminished",
+        "tier": 85
+      },
+      {
+        "text": "Augmented",
+        "tier": 85
+      },
+      {
+        "text": "Suspended chord",
+        "aliases": [
+          "sus chord"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Inversion",
+        "tier": 85
+      },
+      {
+        "text": "Pentatonic",
+        "tier": 85
+      },
+      {
+        "text": "Chromatic",
+        "tier": 85
+      },
+      {
+        "text": "Diatonic",
+        "tier": 85
+      },
+      {
+        "text": "Mode",
+        "tier": 85
+      },
+      {
+        "text": "Dorian",
+        "tier": 85
+      },
+      {
+        "text": "Mixolydian",
+        "tier": 85
+      },
+      {
+        "text": "Lydian",
+        "tier": 85
+      },
+      {
+        "text": "Phrygian",
+        "tier": 85
+      },
+      {
+        "text": "Ionian",
+        "tier": 85
+      },
+      {
+        "text": "Aeolian",
+        "tier": 85
+      },
+      {
+        "text": "Locrian",
+        "tier": 85
+      },
+      {
+        "text": "Blue note",
+        "tier": 85
+      },
+      {
+        "text": "Grace note",
+        "tier": 85
+      },
+      {
+        "text": "Dotted note",
+        "tier": 85
+      },
+      {
+        "text": "Triplet",
+        "tier": 85
+      },
+      {
+        "text": "Beam",
+        "tier": 85
+      },
+      {
+        "text": "Stem",
+        "tier": 85
+      },
+      {
+        "text": "Downstroke",
+        "tier": 85
+      },
+      {
+        "text": "Capo",
+        "tier": 85
+      },
+      {
+        "text": "Tuning",
+        "tier": 85
+      },
+      {
+        "text": "Intonation",
+        "tier": 85
+      },
+      {
+        "text": "Ensemble",
+        "tier": 85
+      },
+      {
+        "text": "Orchestra",
+        "tier": 85
+      },
+      {
+        "text": "Conductor",
+        "tier": 85
+      },
+      {
+        "text": "Baton",
+        "tier": 85
+      },
+      {
+        "text": "Maestro",
+        "tier": 85
+      },
+      {
+        "text": "Virtuoso",
+        "tier": 85
+      },
+      {
+        "text": "Soprano",
+        "tier": 85
+      },
+      {
+        "text": "Alto",
+        "tier": 85
+      },
+      {
+        "text": "Tenor",
+        "tier": 85
+      },
+      {
+        "text": "Baritone",
+        "tier": 85
+      },
+      {
+        "text": "Falsetto",
+        "tier": 85
+      },
+      {
+        "text": "Mezzo-soprano",
+        "tier": 85
+      },
+      {
+        "text": "Countertenor",
+        "tier": 85
+      },
+      {
+        "text": "Harmonics",
+        "tier": 85
+      },
+      {
+        "text": "Overtone",
+        "tier": 85
+      },
+      {
+        "text": "Feedback",
+        "tier": 85
+      },
+      {
+        "text": "Reverb",
+        "tier": 85
+      },
+      {
+        "text": "Remix",
+        "tier": 85
+      },
+      {
+        "text": "Mashup",
+        "tier": 85
+      },
+      {
+        "text": "Breakdown",
+        "tier": 85
       },
       {
         "text": "Fine",
@@ -5246,754 +5720,292 @@
         "tier": 85
       },
       {
-        "text": "Moderato",
-        "tier": 60
-      },
-      {
-        "text": "Vivace",
-        "tier": 60
-      },
-      {
-        "text": "Lento",
-        "tier": 60
-      },
-      {
-        "text": "Ritardando",
-        "aliases": [
-          "rit"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Accelerando",
-        "tier": 60
-      },
-      {
-        "text": "Rubato",
-        "tier": 60
-      },
-      {
-        "text": "Sforzando",
-        "tier": 60
-      },
-      {
-        "text": "Mezzo forte",
-        "tier": 60
-      },
-      {
-        "text": "Mezzo piano",
-        "tier": 60
-      },
-      {
-        "text": "Fortepiano",
-        "tier": 60
-      },
-      {
-        "text": "Dolce",
-        "tier": 60
-      },
-      {
-        "text": "Cantabile",
-        "tier": 60
-      },
-      {
-        "text": "Espressivo",
-        "tier": 60
-      },
-      {
-        "text": "Maestoso",
-        "tier": 60
-      },
-      {
-        "text": "Marcato",
-        "tier": 60
-      },
-      {
-        "text": "Tenuto",
-        "tier": 60
-      },
-      {
-        "text": "Pizzicato",
-        "tier": 60
-      },
-      {
-        "text": "Arco",
-        "tier": 60
-      },
-      {
-        "text": "Glissando",
-        "tier": 60
-      },
-      {
-        "text": "Trill",
-        "tier": 60
-      },
-      {
-        "text": "Tremolo",
-        "tier": 60
-      },
-      {
-        "text": "Arpeggio",
-        "tier": 60
-      },
-      {
-        "text": "Ostinato",
-        "tier": 60
-      },
-      {
-        "text": "Cadence",
-        "tier": 60
-      },
-      {
-        "text": "Interval",
-        "tier": 60
-      },
-      {
-        "text": "Unison",
-        "tier": 60
-      },
-      {
-        "text": "Dissonance",
-        "tier": 60
-      },
-      {
-        "text": "Consonance",
-        "tier": 60
-      },
-      {
-        "text": "Syncopation",
-        "tier": 60
-      },
-      {
-        "text": "Polyrhythm",
-        "tier": 60
-      },
-      {
-        "text": "Downbeat",
-        "tier": 60
-      },
-      {
-        "text": "Upbeat",
-        "tier": 60
-      },
-      {
-        "text": "Offbeat",
-        "tier": 60
-      },
-      {
-        "text": "Backbeat",
-        "tier": 60
-      },
-      {
-        "text": "Groove",
-        "tier": 60
-      },
-      {
-        "text": "Timbre",
-        "tier": 60
-      },
-      {
-        "text": "Texture",
-        "tier": 60
-      },
-      {
-        "text": "Counterpoint",
-        "tier": 60
-      },
-      {
-        "text": "Fugue",
-        "tier": 60
-      },
-      {
-        "text": "Canon",
-        "tier": 60
-      },
-      {
-        "text": "Overture",
-        "tier": 60
-      },
-      {
-        "text": "Symphony",
-        "tier": 60
-      },
-      {
-        "text": "Concerto",
-        "tier": 60
-      },
-      {
-        "text": "Sonata",
-        "tier": 60
-      },
-      {
-        "text": "Aria",
-        "tier": 60
-      },
-      {
-        "text": "Recitative",
-        "tier": 60
-      },
-      {
-        "text": "Libretto",
-        "tier": 60
-      },
-      {
-        "text": "Opus",
-        "tier": 60
-      },
-      {
-        "text": "Prelude",
-        "tier": 60
-      },
-      {
-        "text": "Etude",
-        "tier": 60
-      },
-      {
-        "text": "Nocturne",
-        "tier": 60
-      },
-      {
-        "text": "Waltz",
-        "tier": 60
-      },
-      {
-        "text": "Minuet",
-        "tier": 60
-      },
-      {
-        "text": "Rondo",
-        "tier": 60
-      },
-      {
-        "text": "Scherzo",
-        "tier": 60
-      },
-      {
-        "text": "Cadenza",
-        "tier": 60
-      },
-      {
-        "text": "Da capo",
-        "tier": 60
-      },
-      {
-        "text": "Dal segno",
-        "tier": 60
-      },
-      {
-        "text": "Segno",
-        "tier": 60
-      },
-      {
-        "text": "Repeat sign",
-        "tier": 60
-      },
-      {
-        "text": "Ledger line",
-        "tier": 60
-      },
-      {
-        "text": "Accidental",
-        "tier": 60
-      },
-      {
-        "text": "Transpose",
-        "tier": 60
-      },
-      {
-        "text": "Modulation",
-        "tier": 60
-      },
-      {
-        "text": "Tonic",
-        "tier": 60
-      },
-      {
-        "text": "Dominant",
-        "tier": 60
-      },
-      {
-        "text": "Subdominant",
-        "tier": 60
-      },
-      {
-        "text": "Mediant",
-        "tier": 60
-      },
-      {
-        "text": "Leading tone",
-        "tier": 60
-      },
-      {
-        "text": "Triad",
-        "tier": 60
-      },
-      {
-        "text": "Seventh chord",
-        "tier": 60
-      },
-      {
-        "text": "Power chord",
-        "tier": 60
-      },
-      {
-        "text": "Diminished",
-        "tier": 60
-      },
-      {
-        "text": "Augmented",
-        "tier": 60
-      },
-      {
-        "text": "Suspended chord",
-        "aliases": [
-          "sus chord"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Inversion",
-        "tier": 60
-      },
-      {
-        "text": "Pentatonic",
-        "tier": 60
-      },
-      {
-        "text": "Chromatic",
-        "tier": 60
-      },
-      {
-        "text": "Diatonic",
-        "tier": 60
-      },
-      {
-        "text": "Mode",
-        "tier": 60
-      },
-      {
-        "text": "Dorian",
-        "tier": 60
-      },
-      {
-        "text": "Mixolydian",
-        "tier": 60
-      },
-      {
-        "text": "Lydian",
-        "tier": 60
-      },
-      {
-        "text": "Phrygian",
-        "tier": 60
-      },
-      {
-        "text": "Ionian",
-        "tier": 60
-      },
-      {
-        "text": "Aeolian",
-        "tier": 60
-      },
-      {
-        "text": "Locrian",
-        "tier": 60
-      },
-      {
-        "text": "Blue note",
-        "tier": 60
-      },
-      {
-        "text": "Grace note",
-        "tier": 60
-      },
-      {
-        "text": "Dotted note",
-        "tier": 60
-      },
-      {
-        "text": "Triplet",
-        "tier": 60
-      },
-      {
-        "text": "Beam",
-        "tier": 60
-      },
-      {
-        "text": "Stem",
-        "tier": 60
-      },
-      {
-        "text": "Downstroke",
-        "tier": 60
-      },
-      {
-        "text": "Capo",
-        "tier": 60
-      },
-      {
-        "text": "Tuning",
-        "tier": 60
-      },
-      {
-        "text": "Intonation",
-        "tier": 60
-      },
-      {
-        "text": "Ensemble",
-        "tier": 60
-      },
-      {
-        "text": "Orchestra",
-        "tier": 60
-      },
-      {
-        "text": "Conductor",
-        "tier": 60
-      },
-      {
-        "text": "Baton",
-        "tier": 60
-      },
-      {
-        "text": "Maestro",
-        "tier": 60
-      },
-      {
-        "text": "Virtuoso",
-        "tier": 60
-      },
-      {
-        "text": "Soprano",
-        "tier": 60
-      },
-      {
-        "text": "Alto",
-        "tier": 60
-      },
-      {
-        "text": "Tenor",
-        "tier": 60
-      },
-      {
-        "text": "Baritone",
-        "tier": 60
-      },
-      {
-        "text": "Falsetto",
-        "tier": 60
-      },
-      {
-        "text": "Mezzo-soprano",
-        "tier": 60
-      },
-      {
-        "text": "Countertenor",
-        "tier": 60
-      },
-      {
-        "text": "Harmonics",
-        "tier": 60
-      },
-      {
-        "text": "Overtone",
-        "tier": 60
-      },
-      {
-        "text": "Feedback",
-        "tier": 60
-      },
-      {
-        "text": "Reverb",
-        "tier": 60
-      },
-      {
-        "text": "Remix",
-        "tier": 60
-      },
-      {
-        "text": "Mashup",
-        "tier": 60
-      },
-      {
-        "text": "Breakdown",
-        "tier": 60
-      },
-      {
         "text": "Piano",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Key",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rest",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Natural",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tie",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bass",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Movement",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Round",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Loop",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sample",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Echo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Forte",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Allegro",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Staccato",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Legato",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Decrescendo",
         "aliases": [
           "diminuendo"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fortissimo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pianissimo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Treble clef",
         "aliases": [
           "treble"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bass clef",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Clef",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Staff",
         "aliases": [
           "stave"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Measure",
         "aliases": [
           "bar"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sharp",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Flat",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Scale",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Octave",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pitch",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tone",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Solo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Duet",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Trio",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Quartet",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chorus",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Verse",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Refrain",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Lyrics",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tune",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Time signature",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Key signature",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Whole note",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Half note",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Quarter note",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Eighth note",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sixteenth note",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Major",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Minor",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Adagio",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Andante",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Presto",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Largo",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fermata",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Accent",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Slur",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Dynamics",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Vibrato",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "A cappella",
         "aliases": [
           "acapella"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Improvisation",
         "aliases": [
           "improv"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Riff",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Solfege",
         "aliases": [
           "do re mi"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Coda",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Intro",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Outro",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hook",
+        "tier": 60
+      },
+      {
+        "text": "Melody",
+        "tier": 30
+      },
+      {
+        "text": "Harmony",
+        "tier": 30
+      },
+      {
+        "text": "Chord",
         "tier": 30
       },
       {
@@ -6023,18 +6035,6 @@
       {
         "text": "Beat",
         "tier": 10
-      },
-      {
-        "text": "Melody",
-        "tier": 10
-      },
-      {
-        "text": "Harmony",
-        "tier": 10
-      },
-      {
-        "text": "Chord",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -6059,6 +6059,384 @@
           "bombadil"
         ],
         "tier": 100
+      },
+      {
+        "text": "Bolg",
+        "tier": 85
+      },
+      {
+        "text": "The Necromancer",
+        "aliases": [
+          "necromancer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Celeborn",
+        "aliases": [
+          "celeborn the wise"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Haldir",
+        "aliases": [
+          "haldir of lorien"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Glorfindel",
+        "aliases": [
+          "glorfindel of rivendell"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Isildur",
+        "aliases": [
+          "isildur son of elendil"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elendil",
+        "aliases": [
+          "elendil the tall"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gil-galad",
+        "aliases": [
+          "ereinion"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Cirdan",
+        "aliases": [
+          "cirdan the shipwright"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Beorn",
+        "tier": 85
+      },
+      {
+        "text": "Lurtz",
+        "tier": 85
+      },
+      {
+        "text": "Gothmog",
+        "tier": 85
+      },
+      {
+        "text": "Grishnakh",
+        "tier": 85
+      },
+      {
+        "text": "Ugluk",
+        "tier": 85
+      },
+      {
+        "text": "Shagrat",
+        "tier": 85
+      },
+      {
+        "text": "Gorbag",
+        "tier": 85
+      },
+      {
+        "text": "Mouth of Sauron",
+        "aliases": [
+          "the mouth"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gamling",
+        "tier": 85
+      },
+      {
+        "text": "Hama",
+        "tier": 85
+      },
+      {
+        "text": "Theodred",
+        "tier": 85
+      },
+      {
+        "text": "Imrahil",
+        "tier": 85
+      },
+      {
+        "text": "Beregond",
+        "tier": 85
+      },
+      {
+        "text": "Bergil",
+        "tier": 85
+      },
+      {
+        "text": "Barliman Butterbur",
+        "aliases": [
+          "butterbur",
+          "barliman"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bill the Pony",
+        "aliases": [
+          "bill"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shadowfax",
+        "aliases": [
+          "shadowfax horse"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Old Man Willow",
+        "tier": 85
+      },
+      {
+        "text": "Goldberry",
+        "tier": 85
+      },
+      {
+        "text": "Farmer Maggot",
+        "tier": 85
+      },
+      {
+        "text": "Lobelia Sackville-Baggins",
+        "aliases": [
+          "lobelia"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lotho",
+        "aliases": [
+          "lotho sackville-baggins"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fatty Bolger",
+        "aliases": [
+          "fredegar bolger"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gaffer",
+        "aliases": [
+          "hamfast gamgee"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ted Sandyman",
+        "tier": 85
+      },
+      {
+        "text": "Bill Ferny",
+        "tier": 85
+      },
+      {
+        "text": "Elladan",
+        "tier": 85
+      },
+      {
+        "text": "Elrohir",
+        "tier": 85
+      },
+      {
+        "text": "Gwaihir",
+        "tier": 85
+      },
+      {
+        "text": "Great Eagles",
+        "aliases": [
+          "eagles"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dain Ironfoot",
+        "aliases": [
+          "dain"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Oin",
+        "tier": 85
+      },
+      {
+        "text": "Gloin",
+        "tier": 85
+      },
+      {
+        "text": "Ori",
+        "aliases": [
+          "ori dwarf"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dori",
+        "tier": 85
+      },
+      {
+        "text": "Nori",
+        "tier": 85
+      },
+      {
+        "text": "Bifur",
+        "tier": 85
+      },
+      {
+        "text": "Thror",
+        "tier": 85
+      },
+      {
+        "text": "Thrain",
+        "tier": 85
+      },
+      {
+        "text": "Master of Lake-town",
+        "tier": 85
+      },
+      {
+        "text": "Alfrid",
+        "aliases": [
+          "alfrid lickspittle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Tom, Bert and William",
+        "aliases": [
+          "trolls",
+          "stone trolls"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Great Goblin",
+        "tier": 85
+      },
+      {
+        "text": "Wargs",
+        "aliases": [
+          "warg"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mumakil",
+        "aliases": [
+          "oliphaunt"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Watcher in the Water",
+        "aliases": [
+          "the watcher"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Durin's Bane",
+        "aliases": [
+          "balrog of moria"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Elanor",
+        "aliases": [
+          "elanor gamgee"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Drogo Baggins",
+        "tier": 85
+      },
+      {
+        "text": "Primula Brandybuck",
+        "tier": 85
+      },
+      {
+        "text": "Arathorn",
+        "tier": 85
+      },
+      {
+        "text": "Gilraen",
+        "tier": 85
+      },
+      {
+        "text": "Celebrian",
+        "tier": 85
+      },
+      {
+        "text": "Finrod",
+        "tier": 85
+      },
+      {
+        "text": "Feanor",
+        "tier": 85
+      },
+      {
+        "text": "Fingolfin",
+        "tier": 85
+      },
+      {
+        "text": "Luthien",
+        "aliases": [
+          "luthien tinuviel"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Beren",
+        "tier": 85
+      },
+      {
+        "text": "Morgoth",
+        "aliases": [
+          "melkor",
+          "morgoth bauglir"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ungoliant",
+        "tier": 85
+      },
+      {
+        "text": "Turin Turambar",
+        "aliases": [
+          "turin"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Earendil",
+        "tier": 85
+      },
+      {
+        "text": "Elros",
+        "tier": 85
       },
       {
         "text": "Tar-Miriel",
@@ -7472,390 +7850,12 @@
         "tier": 85
       },
       {
-        "text": "Bolg",
-        "tier": 60
-      },
-      {
-        "text": "The Necromancer",
-        "aliases": [
-          "necromancer"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Celeborn",
-        "aliases": [
-          "celeborn the wise"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Haldir",
-        "aliases": [
-          "haldir of lorien"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Glorfindel",
-        "aliases": [
-          "glorfindel of rivendell"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Isildur",
-        "aliases": [
-          "isildur son of elendil"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Elendil",
-        "aliases": [
-          "elendil the tall"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Gil-galad",
-        "aliases": [
-          "ereinion"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cirdan",
-        "aliases": [
-          "cirdan the shipwright"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Beorn",
-        "tier": 60
-      },
-      {
-        "text": "Lurtz",
-        "tier": 60
-      },
-      {
-        "text": "Gothmog",
-        "tier": 60
-      },
-      {
-        "text": "Grishnakh",
-        "tier": 60
-      },
-      {
-        "text": "Ugluk",
-        "tier": 60
-      },
-      {
-        "text": "Shagrat",
-        "tier": 60
-      },
-      {
-        "text": "Gorbag",
-        "tier": 60
-      },
-      {
-        "text": "Mouth of Sauron",
-        "aliases": [
-          "the mouth"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Gamling",
-        "tier": 60
-      },
-      {
-        "text": "Hama",
-        "tier": 60
-      },
-      {
-        "text": "Theodred",
-        "tier": 60
-      },
-      {
-        "text": "Imrahil",
-        "tier": 60
-      },
-      {
-        "text": "Beregond",
-        "tier": 60
-      },
-      {
-        "text": "Bergil",
-        "tier": 60
-      },
-      {
-        "text": "Barliman Butterbur",
-        "aliases": [
-          "butterbur",
-          "barliman"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bill the Pony",
-        "aliases": [
-          "bill"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Shadowfax",
-        "aliases": [
-          "shadowfax horse"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Old Man Willow",
-        "tier": 60
-      },
-      {
-        "text": "Goldberry",
-        "tier": 60
-      },
-      {
-        "text": "Farmer Maggot",
-        "tier": 60
-      },
-      {
-        "text": "Lobelia Sackville-Baggins",
-        "aliases": [
-          "lobelia"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lotho",
-        "aliases": [
-          "lotho sackville-baggins"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Fatty Bolger",
-        "aliases": [
-          "fredegar bolger"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Gaffer",
-        "aliases": [
-          "hamfast gamgee"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Ted Sandyman",
-        "tier": 60
-      },
-      {
-        "text": "Bill Ferny",
-        "tier": 60
-      },
-      {
-        "text": "Elladan",
-        "tier": 60
-      },
-      {
-        "text": "Elrohir",
-        "tier": 60
-      },
-      {
-        "text": "Gwaihir",
-        "tier": 60
-      },
-      {
-        "text": "Great Eagles",
-        "aliases": [
-          "eagles"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Dain Ironfoot",
-        "aliases": [
-          "dain"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Oin",
-        "tier": 60
-      },
-      {
-        "text": "Gloin",
-        "tier": 60
-      },
-      {
-        "text": "Ori",
-        "aliases": [
-          "ori dwarf"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Dori",
-        "tier": 60
-      },
-      {
-        "text": "Nori",
-        "tier": 60
-      },
-      {
-        "text": "Bifur",
-        "tier": 60
-      },
-      {
-        "text": "Thror",
-        "tier": 60
-      },
-      {
-        "text": "Thrain",
-        "tier": 60
-      },
-      {
-        "text": "Master of Lake-town",
-        "tier": 60
-      },
-      {
-        "text": "Alfrid",
-        "aliases": [
-          "alfrid lickspittle"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Tom, Bert and William",
-        "aliases": [
-          "trolls",
-          "stone trolls"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Great Goblin",
-        "tier": 60
-      },
-      {
-        "text": "Wargs",
-        "aliases": [
-          "warg"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mumakil",
-        "aliases": [
-          "oliphaunt"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Watcher in the Water",
-        "aliases": [
-          "the watcher"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Durin's Bane",
-        "aliases": [
-          "balrog of moria"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Elanor",
-        "aliases": [
-          "elanor gamgee"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Drogo Baggins",
-        "tier": 60
-      },
-      {
-        "text": "Primula Brandybuck",
-        "tier": 60
-      },
-      {
-        "text": "Arathorn",
-        "tier": 60
-      },
-      {
-        "text": "Gilraen",
-        "tier": 60
-      },
-      {
-        "text": "Celebrian",
-        "tier": 60
-      },
-      {
-        "text": "Finrod",
-        "tier": 60
-      },
-      {
-        "text": "Feanor",
-        "tier": 60
-      },
-      {
-        "text": "Fingolfin",
-        "tier": 60
-      },
-      {
-        "text": "Luthien",
-        "aliases": [
-          "luthien tinuviel"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Beren",
-        "tier": 60
-      },
-      {
-        "text": "Morgoth",
-        "aliases": [
-          "melkor",
-          "morgoth bauglir"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Ungoliant",
-        "tier": 60
-      },
-      {
-        "text": "Turin Turambar",
-        "aliases": [
-          "turin"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Earendil",
-        "tier": 60
-      },
-      {
-        "text": "Elros",
-        "tier": 60
-      },
-      {
         "text": "Merry",
         "aliases": [
           "meriadoc brandybuck",
           "merry brandybuck"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pippin",
@@ -7863,15 +7863,15 @@
           "peregrin took",
           "pippin took"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Boromir",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Faramir",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Saruman",
@@ -7879,14 +7879,14 @@
           "saruman the white",
           "curunir"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Elrond",
         "aliases": [
           "elrond half-elven"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Arwen",
@@ -7895,7 +7895,7 @@
           "arwen evenstar",
           "evenstar"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Galadriel",
@@ -7904,7 +7904,7 @@
           "lady of the golden wood",
           "artanis"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Eowyn",
@@ -7912,39 +7912,39 @@
           "éowyn",
           "dernhelm shieldmaiden"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Eomer",
         "aliases": [
           "éomer"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Theoden",
         "aliases": [
           "théoden"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Treebeard",
         "aliases": [
           "fangorn"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Smaug",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Thorin Oakenshield",
         "aliases": [
           "thorin"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Witch-king",
@@ -7954,7 +7954,7 @@
           "lord of the nazgul",
           "black captain"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Nazgul",
@@ -7963,7 +7963,7 @@
           "ringwraiths",
           "black riders"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Denethor",
@@ -7971,7 +7971,7 @@
           "denethor ii",
           "steward of gondor"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Wormtongue",
@@ -7979,7 +7979,7 @@
           "grima wormtongue",
           "gríma"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bard the Bowman",
@@ -7987,18 +7987,18 @@
           "bard",
           "bard of esgaroth"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Radagast",
         "aliases": [
           "radagast the brown"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Shelob",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Orcs",
@@ -8006,7 +8006,7 @@
           "orc",
           "goblins"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Uruk-hai",
@@ -8015,7 +8015,7 @@
           "uruks",
           "black uruks"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ents",
@@ -8023,7 +8023,7 @@
           "ent",
           "huorns"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hobbits",
@@ -8031,7 +8031,7 @@
           "hobbit",
           "halflings"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Elves",
@@ -8040,45 +8040,45 @@
           "noldor",
           "sindar"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Dwarves",
         "aliases": [
           "dwarf"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rosie Cotton",
         "aliases": [
           "rosie"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Kili",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fili",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Balin",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Dwalin",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bombur",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bofur",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Thranduil",
@@ -8086,19 +8086,40 @@
           "thranduil elvenking",
           "the elvenking"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tauriel",
         "aliases": [
           "tauriel elf"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Azog",
         "aliases": [
           "azog the defiler"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gimli",
+        "tier": 30
+      },
+      {
+        "text": "Gollum",
+        "aliases": [
+          "smeagol",
+          "sméagol"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Samwise Gamgee",
+        "aliases": [
+          "sam",
+          "samwise",
+          "sam gamgee"
         ],
         "tier": 30
       },
@@ -8154,27 +8175,6 @@
           "legolas greenleaf"
         ],
         "tier": 10
-      },
-      {
-        "text": "Gimli",
-        "tier": 10
-      },
-      {
-        "text": "Gollum",
-        "aliases": [
-          "smeagol",
-          "sméagol"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Samwise Gamgee",
-        "aliases": [
-          "sam",
-          "samwise",
-          "sam gamgee"
-        ],
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -8205,6 +8205,238 @@
       {
         "text": "Gruntled",
         "tier": 100
+      },
+      {
+        "text": "Exuberant",
+        "tier": 85
+      },
+      {
+        "text": "Exhilarated",
+        "tier": 85
+      },
+      {
+        "text": "Rapturous",
+        "tier": 85
+      },
+      {
+        "text": "Enraptured",
+        "tier": 85
+      },
+      {
+        "text": "Elevated",
+        "tier": 85
+      },
+      {
+        "text": "Exultant",
+        "tier": 85
+      },
+      {
+        "text": "Triumphant",
+        "tier": 85
+      },
+      {
+        "text": "Ebullient",
+        "tier": 85
+      },
+      {
+        "text": "Jovial",
+        "tier": 85
+      },
+      {
+        "text": "Jocund",
+        "tier": 85
+      },
+      {
+        "text": "Mirthful",
+        "tier": 85
+      },
+      {
+        "text": "Gay",
+        "tier": 85
+      },
+      {
+        "text": "Blithe",
+        "tier": 85
+      },
+      {
+        "text": "Sanguine",
+        "tier": 85
+      },
+      {
+        "text": "Serene",
+        "tier": 85
+      },
+      {
+        "text": "Tranquil",
+        "tier": 85
+      },
+      {
+        "text": "Peaceful",
+        "tier": 85
+      },
+      {
+        "text": "Comfortable",
+        "tier": 85
+      },
+      {
+        "text": "Untroubled",
+        "tier": 85
+      },
+      {
+        "text": "Pleased as punch",
+        "tier": 85
+      },
+      {
+        "text": "Chuffed",
+        "tier": 85
+      },
+      {
+        "text": "In seventh heaven",
+        "tier": 85
+      },
+      {
+        "text": "Floating",
+        "tier": 85
+      },
+      {
+        "text": "Flying high",
+        "tier": 85
+      },
+      {
+        "text": "In high spirits",
+        "tier": 85
+      },
+      {
+        "text": "Spirited",
+        "tier": 85
+      },
+      {
+        "text": "Animated",
+        "tier": 85
+      },
+      {
+        "text": "Vivacious",
+        "tier": 85
+      },
+      {
+        "text": "Zestful",
+        "tier": 85
+      },
+      {
+        "text": "Breezy",
+        "tier": 85
+      },
+      {
+        "text": "Airy",
+        "tier": 85
+      },
+      {
+        "text": "Jaunty",
+        "tier": 85
+      },
+      {
+        "text": "Sprightly",
+        "tier": 85
+      },
+      {
+        "text": "Frolicsome",
+        "tier": 85
+      },
+      {
+        "text": "Playful",
+        "tier": 85
+      },
+      {
+        "text": "Gratified",
+        "tier": 85
+      },
+      {
+        "text": "Starry-eyed",
+        "tier": 85
+      },
+      {
+        "text": "Rosy",
+        "tier": 85
+      },
+      {
+        "text": "Hopeful",
+        "tier": 85
+      },
+      {
+        "text": "Heartened",
+        "tier": 85
+      },
+      {
+        "text": "Uplifted",
+        "tier": 85
+      },
+      {
+        "text": "Encouraged",
+        "tier": 85
+      },
+      {
+        "text": "Charmed",
+        "tier": 85
+      },
+      {
+        "text": "Enchanted",
+        "tier": 85
+      },
+      {
+        "text": "Enthralled",
+        "tier": 85
+      },
+      {
+        "text": "Captivated",
+        "tier": 85
+      },
+      {
+        "text": "Amused",
+        "tier": 85
+      },
+      {
+        "text": "Entertained",
+        "tier": 85
+      },
+      {
+        "text": "Hyped",
+        "tier": 85
+      },
+      {
+        "text": "Amped",
+        "tier": 85
+      },
+      {
+        "text": "Fired up",
+        "tier": 85
+      },
+      {
+        "text": "Wired",
+        "tier": 85
+      },
+      {
+        "text": "Cheery",
+        "tier": 85
+      },
+      {
+        "text": "Smiley",
+        "tier": 85
+      },
+      {
+        "text": "Grinning",
+        "tier": 85
+      },
+      {
+        "text": "Chirpy",
+        "tier": 85
+      },
+      {
+        "text": "Bright",
+        "tier": 85
+      },
+      {
+        "text": "Contented",
+        "tier": 85
       },
       {
         "text": "Beatific",
@@ -8562,395 +8794,175 @@
         "tier": 85
       },
       {
-        "text": "Exuberant",
-        "tier": 60
-      },
-      {
-        "text": "Exhilarated",
-        "tier": 60
-      },
-      {
-        "text": "Rapturous",
-        "tier": 60
-      },
-      {
-        "text": "Enraptured",
-        "tier": 60
-      },
-      {
-        "text": "Elevated",
-        "tier": 60
-      },
-      {
-        "text": "Exultant",
-        "tier": 60
-      },
-      {
-        "text": "Triumphant",
-        "tier": 60
-      },
-      {
-        "text": "Ebullient",
-        "tier": 60
-      },
-      {
-        "text": "Jovial",
-        "tier": 60
-      },
-      {
-        "text": "Jocund",
-        "tier": 60
-      },
-      {
-        "text": "Mirthful",
-        "tier": 60
-      },
-      {
-        "text": "Gay",
-        "tier": 60
-      },
-      {
-        "text": "Blithe",
-        "tier": 60
-      },
-      {
-        "text": "Sanguine",
-        "tier": 60
-      },
-      {
-        "text": "Serene",
-        "tier": 60
-      },
-      {
-        "text": "Tranquil",
-        "tier": 60
-      },
-      {
-        "text": "Peaceful",
-        "tier": 60
-      },
-      {
-        "text": "Comfortable",
-        "tier": 60
-      },
-      {
-        "text": "Untroubled",
-        "tier": 60
-      },
-      {
-        "text": "Pleased as punch",
-        "tier": 60
-      },
-      {
-        "text": "Chuffed",
-        "tier": 60
-      },
-      {
-        "text": "In seventh heaven",
-        "tier": 60
-      },
-      {
-        "text": "Floating",
-        "tier": 60
-      },
-      {
-        "text": "Flying high",
-        "tier": 60
-      },
-      {
-        "text": "In high spirits",
-        "tier": 60
-      },
-      {
-        "text": "Spirited",
-        "tier": 60
-      },
-      {
-        "text": "Animated",
-        "tier": 60
-      },
-      {
-        "text": "Vivacious",
-        "tier": 60
-      },
-      {
-        "text": "Zestful",
-        "tier": 60
-      },
-      {
-        "text": "Breezy",
-        "tier": 60
-      },
-      {
-        "text": "Airy",
-        "tier": 60
-      },
-      {
-        "text": "Jaunty",
-        "tier": 60
-      },
-      {
-        "text": "Sprightly",
-        "tier": 60
-      },
-      {
-        "text": "Frolicsome",
-        "tier": 60
-      },
-      {
-        "text": "Playful",
-        "tier": 60
-      },
-      {
-        "text": "Gratified",
-        "tier": 60
-      },
-      {
-        "text": "Starry-eyed",
-        "tier": 60
-      },
-      {
-        "text": "Rosy",
-        "tier": 60
-      },
-      {
-        "text": "Hopeful",
-        "tier": 60
-      },
-      {
-        "text": "Heartened",
-        "tier": 60
-      },
-      {
-        "text": "Uplifted",
-        "tier": 60
-      },
-      {
-        "text": "Encouraged",
-        "tier": 60
-      },
-      {
-        "text": "Charmed",
-        "tier": 60
-      },
-      {
-        "text": "Enchanted",
-        "tier": 60
-      },
-      {
-        "text": "Enthralled",
-        "tier": 60
-      },
-      {
-        "text": "Captivated",
-        "tier": 60
-      },
-      {
-        "text": "Amused",
-        "tier": 60
-      },
-      {
-        "text": "Entertained",
-        "tier": 60
-      },
-      {
-        "text": "Hyped",
-        "tier": 60
-      },
-      {
-        "text": "Amped",
-        "tier": 60
-      },
-      {
-        "text": "Fired up",
-        "tier": 60
-      },
-      {
-        "text": "Wired",
-        "tier": 60
-      },
-      {
-        "text": "Cheery",
-        "tier": 60
-      },
-      {
-        "text": "Smiley",
-        "tier": 60
-      },
-      {
-        "text": "Grinning",
-        "tier": 60
-      },
-      {
-        "text": "Chirpy",
-        "tier": 60
-      },
-      {
-        "text": "Bright",
-        "tier": 60
-      },
-      {
-        "text": "Contented",
-        "tier": 60
-      },
-      {
         "text": "Elated",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ecstatic",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jolly",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Merry",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Upbeat",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Joyous",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Overjoyed",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Blissful",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Euphoric",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jubilant",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Giddy",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chipper",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bubbly",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sunny",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Positive",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Optimistic",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Grateful",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Thankful",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Carefree",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Lighthearted",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Gleeful",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Happy-go-lucky",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Peppy",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Perky",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Lively",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Satisfied",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fulfilled",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Blessed",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Stoked",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pumped",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Psyched",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Jazzed",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tickled",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Tickled pink",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Walking on air",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "On cloud nine",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Beaming",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Radiant",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Glowing",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Buoyant",
+        "tier": 60
+      },
+      {
+        "text": "Pleased",
+        "tier": 30
+      },
+      {
+        "text": "Delighted",
+        "tier": 30
+      },
+      {
+        "text": "Thrilled",
         "tier": 30
       },
       {
@@ -8980,18 +8992,6 @@
       {
         "text": "Content",
         "tier": 10
-      },
-      {
-        "text": "Pleased",
-        "tier": 10
-      },
-      {
-        "text": "Delighted",
-        "tier": 10
-      },
-      {
-        "text": "Thrilled",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -9018,6 +9018,231 @@
       {
         "text": "Reuleaux triangle",
         "tier": 100
+      },
+      {
+        "text": "Nonagon",
+        "tier": 85
+      },
+      {
+        "text": "Hendecagon",
+        "aliases": [
+          "undecagon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dodecagon",
+        "tier": 85
+      },
+      {
+        "text": "Icosagon",
+        "tier": 85
+      },
+      {
+        "text": "Tetrahedron",
+        "tier": 85
+      },
+      {
+        "text": "Octahedron",
+        "tier": 85
+      },
+      {
+        "text": "Dodecahedron",
+        "tier": 85
+      },
+      {
+        "text": "Icosahedron",
+        "tier": 85
+      },
+      {
+        "text": "Hexahedron",
+        "tier": 85
+      },
+      {
+        "text": "Triangular prism",
+        "tier": 85
+      },
+      {
+        "text": "Rectangular prism",
+        "aliases": [
+          "rectangle prism",
+          "box shape"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hemisphere",
+        "tier": 85
+      },
+      {
+        "text": "Spheroid",
+        "tier": 85
+      },
+      {
+        "text": "Ovoid",
+        "tier": 85
+      },
+      {
+        "text": "Ellipsoid",
+        "tier": 85
+      },
+      {
+        "text": "Paraboloid",
+        "tier": 85
+      },
+      {
+        "text": "Hyperboloid",
+        "tier": 85
+      },
+      {
+        "text": "Frustum",
+        "tier": 85
+      },
+      {
+        "text": "Parabola",
+        "tier": 85
+      },
+      {
+        "text": "Hyperbola",
+        "tier": 85
+      },
+      {
+        "text": "Helix",
+        "tier": 85
+      },
+      {
+        "text": "Annulus",
+        "tier": 85
+      },
+      {
+        "text": "Arc",
+        "tier": 85
+      },
+      {
+        "text": "Lune",
+        "tier": 85
+      },
+      {
+        "text": "Equilateral triangle",
+        "tier": 85
+      },
+      {
+        "text": "Isosceles triangle",
+        "tier": 85
+      },
+      {
+        "text": "Scalene triangle",
+        "tier": 85
+      },
+      {
+        "text": "Right triangle",
+        "tier": 85
+      },
+      {
+        "text": "Obtuse triangle",
+        "tier": 85
+      },
+      {
+        "text": "Acute triangle",
+        "tier": 85
+      },
+      {
+        "text": "Rhomboid",
+        "tier": 85
+      },
+      {
+        "text": "Deltoid",
+        "tier": 85
+      },
+      {
+        "text": "Pentagram",
+        "aliases": [
+          "five-pointed star",
+          "pentagram star"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Hexagram",
+        "aliases": [
+          "star of david",
+          "six-pointed star",
+          "seal of solomon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Octagram",
+        "aliases": [
+          "eight-pointed star"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Trefoil",
+        "tier": 85
+      },
+      {
+        "text": "Quatrefoil",
+        "tier": 85
+      },
+      {
+        "text": "Chevron",
+        "tier": 85
+      },
+      {
+        "text": "Teardrop",
+        "tier": 85
+      },
+      {
+        "text": "Lozenge",
+        "tier": 85
+      },
+      {
+        "text": "Cuboid",
+        "tier": 85
+      },
+      {
+        "text": "Polyhedron",
+        "tier": 85
+      },
+      {
+        "text": "Platonic solid",
+        "tier": 85
+      },
+      {
+        "text": "Klein bottle",
+        "aliases": [
+          "klein surface"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fractal",
+        "tier": 85
+      },
+      {
+        "text": "Koch snowflake",
+        "tier": 85
+      },
+      {
+        "text": "Sierpinski triangle",
+        "tier": 85
+      },
+      {
+        "text": "Zigzag",
+        "tier": 85
+      },
+      {
+        "text": "Wave",
+        "tier": 85
+      },
+      {
+        "text": "Infinity symbol",
+        "aliases": [
+          "lemniscate"
+        ],
+        "tier": 85
       },
       {
         "text": "Tridecagon",
@@ -9656,343 +9881,130 @@
         "tier": 85
       },
       {
-        "text": "Nonagon",
-        "tier": 60
-      },
-      {
-        "text": "Hendecagon",
-        "aliases": [
-          "undecagon"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Dodecagon",
-        "tier": 60
-      },
-      {
-        "text": "Icosagon",
-        "tier": 60
-      },
-      {
-        "text": "Tetrahedron",
-        "tier": 60
-      },
-      {
-        "text": "Octahedron",
-        "tier": 60
-      },
-      {
-        "text": "Dodecahedron",
-        "tier": 60
-      },
-      {
-        "text": "Icosahedron",
-        "tier": 60
-      },
-      {
-        "text": "Hexahedron",
-        "tier": 60
-      },
-      {
-        "text": "Triangular prism",
-        "tier": 60
-      },
-      {
-        "text": "Rectangular prism",
-        "aliases": [
-          "rectangle prism",
-          "box shape"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hemisphere",
-        "tier": 60
-      },
-      {
-        "text": "Spheroid",
-        "tier": 60
-      },
-      {
-        "text": "Ovoid",
-        "tier": 60
-      },
-      {
-        "text": "Ellipsoid",
-        "tier": 60
-      },
-      {
-        "text": "Paraboloid",
-        "tier": 60
-      },
-      {
-        "text": "Hyperboloid",
-        "tier": 60
-      },
-      {
-        "text": "Frustum",
-        "tier": 60
-      },
-      {
-        "text": "Parabola",
-        "tier": 60
-      },
-      {
-        "text": "Hyperbola",
-        "tier": 60
-      },
-      {
-        "text": "Helix",
-        "tier": 60
-      },
-      {
-        "text": "Annulus",
-        "tier": 60
-      },
-      {
-        "text": "Arc",
-        "tier": 60
-      },
-      {
-        "text": "Lune",
-        "tier": 60
-      },
-      {
-        "text": "Equilateral triangle",
-        "tier": 60
-      },
-      {
-        "text": "Isosceles triangle",
-        "tier": 60
-      },
-      {
-        "text": "Scalene triangle",
-        "tier": 60
-      },
-      {
-        "text": "Right triangle",
-        "tier": 60
-      },
-      {
-        "text": "Obtuse triangle",
-        "tier": 60
-      },
-      {
-        "text": "Acute triangle",
-        "tier": 60
-      },
-      {
-        "text": "Rhomboid",
-        "tier": 60
-      },
-      {
-        "text": "Deltoid",
-        "tier": 60
-      },
-      {
-        "text": "Pentagram",
-        "aliases": [
-          "five-pointed star",
-          "pentagram star"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hexagram",
-        "aliases": [
-          "star of david",
-          "six-pointed star",
-          "seal of solomon"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Octagram",
-        "aliases": [
-          "eight-pointed star"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Trefoil",
-        "tier": 60
-      },
-      {
-        "text": "Quatrefoil",
-        "tier": 60
-      },
-      {
-        "text": "Chevron",
-        "tier": 60
-      },
-      {
-        "text": "Teardrop",
-        "tier": 60
-      },
-      {
-        "text": "Lozenge",
-        "tier": 60
-      },
-      {
-        "text": "Cuboid",
-        "tier": 60
-      },
-      {
-        "text": "Polyhedron",
-        "tier": 60
-      },
-      {
-        "text": "Platonic solid",
-        "tier": 60
-      },
-      {
-        "text": "Klein bottle",
-        "aliases": [
-          "klein surface"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Fractal",
-        "tier": 60
-      },
-      {
-        "text": "Koch snowflake",
-        "tier": 60
-      },
-      {
-        "text": "Sierpinski triangle",
-        "tier": 60
-      },
-      {
-        "text": "Zigzag",
-        "tier": 60
-      },
-      {
-        "text": "Wave",
-        "tier": 60
-      },
-      {
-        "text": "Infinity symbol",
-        "aliases": [
-          "lemniscate"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Pentagon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hexagon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Octagon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Trapezoid",
         "aliases": [
           "trapezium"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rhombus",
         "aliases": [
           "diamond shape"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Parallelogram",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sphere",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cube",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cylinder",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cone",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pyramid",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Crescent",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Semicircle",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Arrow",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cross",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Spiral",
         "aliases": [
           "nautilus spiral"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Heptagon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Decagon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ellipse",
         "aliases": [
           "ellipse shape"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Polygon",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Quadrilateral",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Prism",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Kite",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ring",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Donut",
         "aliases": [
           "torus"
         ],
+        "tier": 60
+      },
+      {
+        "text": "Heart",
+        "tier": 30
+      },
+      {
+        "text": "Oval",
+        "tier": 30
+      },
+      {
+        "text": "Diamond",
         "tier": 30
       },
       {
@@ -10066,18 +10078,6 @@
       {
         "text": "Star",
         "tier": 10
-      },
-      {
-        "text": "Heart",
-        "tier": 10
-      },
-      {
-        "text": "Oval",
-        "tier": 10
-      },
-      {
-        "text": "Diamond",
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -10105,6 +10105,192 @@
           "andy capp"
         ],
         "tier": 100
+      },
+      {
+        "text": "Chester's",
+        "tier": 85
+      },
+      {
+        "text": "Grandma's",
+        "tier": 85
+      },
+      {
+        "text": "Nabisco",
+        "tier": 85
+      },
+      {
+        "text": "Keebler",
+        "tier": 85
+      },
+      {
+        "text": "Townhouse",
+        "tier": 85
+      },
+      {
+        "text": "Teddy Grahams",
+        "tier": 85
+      },
+      {
+        "text": "Late July",
+        "tier": 85
+      },
+      {
+        "text": "Siete",
+        "tier": 85
+      },
+      {
+        "text": "Stacy's",
+        "aliases": [
+          "stacy's pita chips"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Terra",
+        "tier": 85
+      },
+      {
+        "text": "Garden of Eatin'",
+        "tier": 85
+      },
+      {
+        "text": "Herr's",
+        "aliases": [
+          "herrs"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Zapp's",
+        "aliases": [
+          "zapps"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Miss Vickie's",
+        "tier": 85
+      },
+      {
+        "text": "Boulder Canyon",
+        "tier": 85
+      },
+      {
+        "text": "Deep River",
+        "tier": 85
+      },
+      {
+        "text": "Dirty",
+        "aliases": [
+          "dirty chips"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Route 11",
+        "tier": 85
+      },
+      {
+        "text": "Jays",
+        "tier": 85
+      },
+      {
+        "text": "Old Dutch",
+        "tier": 85
+      },
+      {
+        "text": "Lance",
+        "tier": 85
+      },
+      {
+        "text": "Toast Chee",
+        "tier": 85
+      },
+      {
+        "text": "Nekot",
+        "tier": 85
+      },
+      {
+        "text": "Sociables",
+        "tier": 85
+      },
+      {
+        "text": "Wheatables",
+        "tier": 85
+      },
+      {
+        "text": "Good Thins",
+        "tier": 85
+      },
+      {
+        "text": "Simply 7",
+        "tier": 85
+      },
+      {
+        "text": "Harvest Snaps",
+        "tier": 85
+      },
+      {
+        "text": "Hippeas",
+        "tier": 85
+      },
+      {
+        "text": "Off the Eaten Path",
+        "tier": 85
+      },
+      {
+        "text": "Quest chips",
+        "tier": 85
+      },
+      {
+        "text": "Popcorners",
+        "tier": 85
+      },
+      {
+        "text": "Crunchsters",
+        "tier": 85
+      },
+      {
+        "text": "Cracker Jack",
+        "tier": 85
+      },
+      {
+        "text": "Poppycock",
+        "tier": 85
+      },
+      {
+        "text": "Fiddle Faddle",
+        "tier": 85
+      },
+      {
+        "text": "Lesser Evil",
+        "tier": 85
+      },
+      {
+        "text": "Angie's Boomchickapop",
+        "aliases": [
+          "boomchickapop"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Snack Factory",
+        "tier": 85
+      },
+      {
+        "text": "Pretzel Crisps",
+        "tier": 85
+      },
+      {
+        "text": "Dot's Pretzels",
+        "aliases": [
+          "dots"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Auntie Anne's",
+        "tier": 85
       },
       {
         "text": "Walkers",
@@ -11038,236 +11224,50 @@
         "tier": 85
       },
       {
-        "text": "Chester's",
-        "tier": 60
-      },
-      {
-        "text": "Grandma's",
-        "tier": 60
-      },
-      {
-        "text": "Nabisco",
-        "tier": 60
-      },
-      {
-        "text": "Keebler",
-        "tier": 60
-      },
-      {
-        "text": "Townhouse",
-        "tier": 60
-      },
-      {
-        "text": "Teddy Grahams",
-        "tier": 60
-      },
-      {
-        "text": "Late July",
-        "tier": 60
-      },
-      {
-        "text": "Siete",
-        "tier": 60
-      },
-      {
-        "text": "Stacy's",
-        "aliases": [
-          "stacy's pita chips"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Terra",
-        "tier": 60
-      },
-      {
-        "text": "Garden of Eatin'",
-        "tier": 60
-      },
-      {
-        "text": "Herr's",
-        "aliases": [
-          "herrs"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Zapp's",
-        "aliases": [
-          "zapps"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Miss Vickie's",
-        "tier": 60
-      },
-      {
-        "text": "Boulder Canyon",
-        "tier": 60
-      },
-      {
-        "text": "Deep River",
-        "tier": 60
-      },
-      {
-        "text": "Dirty",
-        "aliases": [
-          "dirty chips"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Route 11",
-        "tier": 60
-      },
-      {
-        "text": "Jays",
-        "tier": 60
-      },
-      {
-        "text": "Old Dutch",
-        "tier": 60
-      },
-      {
-        "text": "Lance",
-        "tier": 60
-      },
-      {
-        "text": "Toast Chee",
-        "tier": 60
-      },
-      {
-        "text": "Nekot",
-        "tier": 60
-      },
-      {
-        "text": "Sociables",
-        "tier": 60
-      },
-      {
-        "text": "Wheatables",
-        "tier": 60
-      },
-      {
-        "text": "Good Thins",
-        "tier": 60
-      },
-      {
-        "text": "Simply 7",
-        "tier": 60
-      },
-      {
-        "text": "Harvest Snaps",
-        "tier": 60
-      },
-      {
-        "text": "Hippeas",
-        "tier": 60
-      },
-      {
-        "text": "Off the Eaten Path",
-        "tier": 60
-      },
-      {
-        "text": "Quest chips",
-        "tier": 60
-      },
-      {
-        "text": "Popcorners",
-        "tier": 60
-      },
-      {
-        "text": "Crunchsters",
-        "tier": 60
-      },
-      {
-        "text": "Cracker Jack",
-        "tier": 60
-      },
-      {
-        "text": "Poppycock",
-        "tier": 60
-      },
-      {
-        "text": "Fiddle Faddle",
-        "tier": 60
-      },
-      {
-        "text": "Lesser Evil",
-        "tier": 60
-      },
-      {
-        "text": "Angie's Boomchickapop",
-        "aliases": [
-          "boomchickapop"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Snack Factory",
-        "tier": 60
-      },
-      {
-        "text": "Pretzel Crisps",
-        "tier": 60
-      },
-      {
-        "text": "Dot's Pretzels",
-        "aliases": [
-          "dots"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Auntie Anne's",
-        "tier": 60
-      },
-      {
         "text": "Tostitos",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Sun Chips",
         "aliases": [
           "sunchips"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Kettle Brand",
         "aliases": [
           "kettle chips"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cape Cod",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Utz",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Wise",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ritz",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Triscuit",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Wheat Thins",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pepperidge Farm",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Snyder's",
@@ -11275,77 +11275,93 @@
           "snyders",
           "snyder's of hanover"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rold Gold",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Chex Mix",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Gardetto's",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Smartfood",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "SkinnyPop",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pirate's Booty",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Popchips",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Bugles",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Cheez Doodles",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Pop Secret",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Orville Redenbacher's",
         "aliases": [
           "orville redenbacher"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Act II",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Planters",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Blue Diamond",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Wonderful Pistachios",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Munchies",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Flamin' Hot Cheetos",
+        "tier": 60
+      },
+      {
+        "text": "Ruffles",
+        "tier": 30
+      },
+      {
+        "text": "Goldfish",
+        "tier": 30
+      },
+      {
+        "text": "Cheez-It",
+        "aliases": [
+          "cheez its",
+          "cheezits"
+        ],
         "tier": 30
       },
       {
@@ -11382,22 +11398,6 @@
       {
         "text": "Fritos",
         "tier": 10
-      },
-      {
-        "text": "Ruffles",
-        "tier": 10
-      },
-      {
-        "text": "Goldfish",
-        "tier": 10
-      },
-      {
-        "text": "Cheez-It",
-        "aliases": [
-          "cheez its",
-          "cheezits"
-        ],
-        "tier": 10
       }
     ],
     "nearMisses": [
@@ -11427,6 +11427,245 @@
       {
         "text": "Trash compactor",
         "tier": 100
+      },
+      {
+        "text": "Hand mixer",
+        "tier": 85
+      },
+      {
+        "text": "Immersion blender",
+        "aliases": [
+          "stick blender"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bread maker",
+        "aliases": [
+          "bread machine"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Popcorn maker",
+        "aliases": [
+          "popcorn machine"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sandwich maker",
+        "tier": 85
+      },
+      {
+        "text": "Panini press",
+        "tier": 85
+      },
+      {
+        "text": "Griddle",
+        "tier": 85
+      },
+      {
+        "text": "Electric skillet",
+        "tier": 85
+      },
+      {
+        "text": "Deep fryer",
+        "tier": 85
+      },
+      {
+        "text": "Sous vide",
+        "tier": 85
+      },
+      {
+        "text": "Dehydrator",
+        "tier": 85
+      },
+      {
+        "text": "Yogurt maker",
+        "tier": 85
+      },
+      {
+        "text": "Ice cream maker",
+        "tier": 85
+      },
+      {
+        "text": "Soda maker",
+        "aliases": [
+          "sodastream"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Wine fridge",
+        "aliases": [
+          "wine cooler"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mini fridge",
+        "tier": 85
+      },
+      {
+        "text": "Chest freezer",
+        "tier": 85
+      },
+      {
+        "text": "Water dispenser",
+        "aliases": [
+          "water cooler"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Water softener",
+        "tier": 85
+      },
+      {
+        "text": "Water filter",
+        "tier": 85
+      },
+      {
+        "text": "Air purifier",
+        "tier": 85
+      },
+      {
+        "text": "Ceiling fan",
+        "tier": 85
+      },
+      {
+        "text": "Box fan",
+        "tier": 85
+      },
+      {
+        "text": "Tower fan",
+        "tier": 85
+      },
+      {
+        "text": "Heat pump",
+        "tier": 85
+      },
+      {
+        "text": "Boiler",
+        "tier": 85
+      },
+      {
+        "text": "Thermostat",
+        "tier": 85
+      },
+      {
+        "text": "Security camera",
+        "tier": 85
+      },
+      {
+        "text": "Doorbell camera",
+        "aliases": [
+          "ring doorbell"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Garage door opener",
+        "tier": 85
+      },
+      {
+        "text": "Sump pump",
+        "tier": 85
+      },
+      {
+        "text": "Generator",
+        "tier": 85
+      },
+      {
+        "text": "Steam mop",
+        "tier": 85
+      },
+      {
+        "text": "Carpet cleaner",
+        "aliases": [
+          "carpet shampooer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shop vac",
+        "tier": 85
+      },
+      {
+        "text": "Handheld vacuum",
+        "aliases": [
+          "dustbuster"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Stick vacuum",
+        "tier": 85
+      },
+      {
+        "text": "Steamer",
+        "aliases": [
+          "clothes steamer"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sewing machine",
+        "tier": 85
+      },
+      {
+        "text": "Electric toothbrush",
+        "tier": 85
+      },
+      {
+        "text": "Curling iron",
+        "tier": 85
+      },
+      {
+        "text": "Hair straightener",
+        "aliases": [
+          "flat iron"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Electric razor",
+        "aliases": [
+          "shaver"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Clock radio",
+        "aliases": [
+          "alarm clock"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Radio",
+        "tier": 85
+      },
+      {
+        "text": "Stereo",
+        "tier": 85
+      },
+      {
+        "text": "Record player",
+        "tier": 85
+      },
+      {
+        "text": "DVD player",
+        "tier": 85
+      },
+      {
+        "text": "Game console",
+        "tier": 85
+      },
+      {
+        "text": "Computer",
+        "tier": 85
       },
       {
         "text": "Printer",
@@ -12827,303 +13066,64 @@
         "tier": 85
       },
       {
-        "text": "Hand mixer",
-        "tier": 60
-      },
-      {
-        "text": "Immersion blender",
-        "aliases": [
-          "stick blender"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bread maker",
-        "aliases": [
-          "bread machine"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Popcorn maker",
-        "aliases": [
-          "popcorn machine"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sandwich maker",
-        "tier": 60
-      },
-      {
-        "text": "Panini press",
-        "tier": 60
-      },
-      {
-        "text": "Griddle",
-        "tier": 60
-      },
-      {
-        "text": "Electric skillet",
-        "tier": 60
-      },
-      {
-        "text": "Deep fryer",
-        "tier": 60
-      },
-      {
-        "text": "Sous vide",
-        "tier": 60
-      },
-      {
-        "text": "Dehydrator",
-        "tier": 60
-      },
-      {
-        "text": "Yogurt maker",
-        "tier": 60
-      },
-      {
-        "text": "Ice cream maker",
-        "tier": 60
-      },
-      {
-        "text": "Soda maker",
-        "aliases": [
-          "sodastream"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Wine fridge",
-        "aliases": [
-          "wine cooler"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mini fridge",
-        "tier": 60
-      },
-      {
-        "text": "Chest freezer",
-        "tier": 60
-      },
-      {
-        "text": "Water dispenser",
-        "aliases": [
-          "water cooler"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Water softener",
-        "tier": 60
-      },
-      {
-        "text": "Water filter",
-        "tier": 60
-      },
-      {
-        "text": "Air purifier",
-        "tier": 60
-      },
-      {
-        "text": "Ceiling fan",
-        "tier": 60
-      },
-      {
-        "text": "Box fan",
-        "tier": 60
-      },
-      {
-        "text": "Tower fan",
-        "tier": 60
-      },
-      {
-        "text": "Heat pump",
-        "tier": 60
-      },
-      {
-        "text": "Boiler",
-        "tier": 60
-      },
-      {
-        "text": "Thermostat",
-        "tier": 60
-      },
-      {
-        "text": "Security camera",
-        "tier": 60
-      },
-      {
-        "text": "Doorbell camera",
-        "aliases": [
-          "ring doorbell"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Garage door opener",
-        "tier": 60
-      },
-      {
-        "text": "Sump pump",
-        "tier": 60
-      },
-      {
-        "text": "Generator",
-        "tier": 60
-      },
-      {
-        "text": "Steam mop",
-        "tier": 60
-      },
-      {
-        "text": "Carpet cleaner",
-        "aliases": [
-          "carpet shampooer"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Shop vac",
-        "tier": 60
-      },
-      {
-        "text": "Handheld vacuum",
-        "aliases": [
-          "dustbuster"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Stick vacuum",
-        "tier": 60
-      },
-      {
-        "text": "Steamer",
-        "aliases": [
-          "clothes steamer"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sewing machine",
-        "tier": 60
-      },
-      {
-        "text": "Electric toothbrush",
-        "tier": 60
-      },
-      {
-        "text": "Curling iron",
-        "tier": 60
-      },
-      {
-        "text": "Hair straightener",
-        "aliases": [
-          "flat iron"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Electric razor",
-        "aliases": [
-          "shaver"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Clock radio",
-        "aliases": [
-          "alarm clock"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Radio",
-        "tier": 60
-      },
-      {
-        "text": "Stereo",
-        "tier": 60
-      },
-      {
-        "text": "Record player",
-        "tier": 60
-      },
-      {
-        "text": "DVD player",
-        "tier": 60
-      },
-      {
-        "text": "Game console",
-        "tier": 60
-      },
-      {
-        "text": "Computer",
-        "tier": 60
-      },
-      {
         "text": "Vacuum",
         "aliases": [
           "vacuum cleaner",
           "hoover"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Blender",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Coffee maker",
         "aliases": [
           "coffee machine"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Freezer",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Air conditioner",
         "aliases": [
           "ac"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Fan",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Heater",
         "aliases": [
           "space heater"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Iron",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Hair dryer",
         "aliases": [
           "blow dryer"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Toaster oven",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Air fryer",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Slow cooker",
@@ -13131,14 +13131,14 @@
           "crock pot",
           "crockpot"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Instant Pot",
         "aliases": [
           "pressure cooker"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Mixer",
@@ -13146,82 +13146,97 @@
           "stand mixer",
           "kitchenaid"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Food processor",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Kettle",
         "aliases": [
           "electric kettle"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Rice cooker",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Water heater",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Furnace",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Dehumidifier",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Humidifier",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Garbage disposal",
         "aliases": [
           "disposal"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Television",
         "aliases": [
           "tv"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Lamp",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Waffle maker",
         "aliases": [
           "waffle iron"
         ],
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Keurig",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Espresso machine",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Juicer",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Range hood",
-        "tier": 30
+        "tier": 60
       },
       {
         "text": "Ice maker",
+        "tier": 60
+      },
+      {
+        "text": "Dryer",
+        "aliases": [
+          "clothes dryer"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Toaster",
+        "tier": 30
+      },
+      {
+        "text": "Stove",
         "tier": 30
       },
       {
@@ -13263,21 +13278,6 @@
         "aliases": [
           "washer"
         ],
-        "tier": 10
-      },
-      {
-        "text": "Dryer",
-        "aliases": [
-          "clothes dryer"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Toaster",
-        "tier": 10
-      },
-      {
-        "text": "Stove",
         "tier": 10
       }
     ],

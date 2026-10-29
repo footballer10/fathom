@@ -8,32 +8,6 @@ prompt: Name a US president or vice president
 Millard Fillmore | fillmore
 
 [Deep Cut]
-George Clinton
-Elbridge Gerry | gerry
-Daniel D. Tompkins | tompkins
-John C. Calhoun | calhoun
-Richard Mentor Johnson
-George M. Dallas | dallas
-William R. King
-John C. Breckinridge | breckinridge
-Hannibal Hamlin | hamlin
-Schuyler Colfax | colfax
-Henry Wilson
-William A. Wheeler | wheeler
-Thomas A. Hendricks | hendricks
-Levi P. Morton | morton
-Adlai Stevenson
-Garret Hobart | hobart
-Charles W. Fairbanks | fairbanks
-James S. Sherman | sherman
-Thomas R. Marshall | marshall
-Charles G. Dawes | dawes
-Charles Curtis | curtis
-John Nance Garner | garner
-Henry A. Wallace | henry wallace
-Alben W. Barkley | barkley
-
-[Rare]
 Chester A. Arthur | chester arthur | arthur
 James Monroe | monroe
 John Quincy Adams
@@ -60,8 +34,32 @@ Walter Mondale | mondale
 Spiro Agnew | agnew
 Nelson Rockefeller | rockefeller
 Hubert Humphrey | humphrey
+George Clinton
+Elbridge Gerry | gerry
+Daniel D. Tompkins | tompkins
+John C. Calhoun | calhoun
+Richard Mentor Johnson
+George M. Dallas | dallas
+William R. King
+John C. Breckinridge | breckinridge
+Hannibal Hamlin | hamlin
+Schuyler Colfax | colfax
+Henry Wilson
+William A. Wheeler | wheeler
+Thomas A. Hendricks | hendricks
+Levi P. Morton | morton
+Adlai Stevenson
+Garret Hobart | hobart
+Charles W. Fairbanks | fairbanks
+James S. Sherman | sherman
+Thomas R. Marshall | marshall
+Charles G. Dawes | dawes
+Charles Curtis | curtis
+John Nance Garner | garner
+Henry A. Wallace | henry wallace
+Alben W. Barkley | barkley
 
-[Schooler]
+[Rare]
 Franklin D. Roosevelt | fdr | franklin roosevelt | roosevelt
 Theodore Roosevelt | teddy roosevelt | teddy
 George W. Bush | george bush | bush | dubya
@@ -81,6 +79,11 @@ Woodrow Wilson | wilson
 Al Gore | gore
 JD Vance | vance | j.d. vance
 
+[Schooler]
+John F. Kennedy | jfk | kennedy | john kennedy
+Thomas Jefferson | jefferson
+Ronald Reagan | reagan
+
 [Too Clever]
 Kamala Harris | harris
 Mike Pence | pence
@@ -92,9 +95,6 @@ Abraham Lincoln | lincoln | abe lincoln
 Barack Obama | obama
 Donald Trump | trump
 Joe Biden | biden
-John F. Kennedy | jfk | kennedy | john kennedy
-Thomas Jefferson | jefferson
-Ronald Reagan | reagan
 
 [Not accepted]
 Benjamin Franklin
@@ -115,6 +115,57 @@ prompt: Name a video game console or handheld
 Virtual Boy | nintendo virtual boy
 
 [Deep Cut]
+Xbox Series S
+Switch Lite
+Switch OLED | nintendo switch oled
+2DS | nintendo 2ds
+New 3DS
+DSi
+DS Lite
+Game Boy Pocket
+Game Boy Micro
+Game Boy Advance SP | gba sp
+Game & Watch
+Sega Master System | master system
+Sega Game Gear | game gear
+Sega CD
+Sega 32X | 32x
+Atari 5200
+Atari 7800
+Atari Jaguar | jaguar
+Atari Lynx | lynx
+Intellivision
+ColecoVision
+Magnavox Odyssey | odyssey
+Neo Geo
+TurboGrafx-16 | turbografx
+3DO
+Philips CD-i | cd-i
+N-Gage
+PlayStation VR | psvr
+Meta Quest | oculus quest | quest | meta quest 2 | meta quest 3
+Ouya
+Nvidia Shield
+Google Stadia | stadia
+Amazon Luna
+PlayStation Portal
+ROG Ally
+Legion Go
+Analogue Pocket
+Playdate
+Evercade
+NEC PC Engine | pc engine
+Famicom | famicom disk system
+Super Famicom
+Nintendo 64DD | 64dd
+Pokemon Mini
+WonderSwan
+Neo Geo Pocket
+Leapster
+Vtech V.Smile
+Commodore 64 | c64
+Amiga
+ZX Spectrum
 Fairchild Channel F | channel f
 Vectrex
 Bally Astrocade
@@ -279,59 +330,6 @@ HTC Vive
 PlayStation VR2 | psvr2
 
 [Rare]
-Xbox Series S
-Switch Lite
-Switch OLED | nintendo switch oled
-2DS | nintendo 2ds
-New 3DS
-DSi
-DS Lite
-Game Boy Pocket
-Game Boy Micro
-Game Boy Advance SP | gba sp
-Game & Watch
-Sega Master System | master system
-Sega Game Gear | game gear
-Sega CD
-Sega 32X | 32x
-Atari 5200
-Atari 7800
-Atari Jaguar | jaguar
-Atari Lynx | lynx
-Intellivision
-ColecoVision
-Magnavox Odyssey | odyssey
-Neo Geo
-TurboGrafx-16 | turbografx
-3DO
-Philips CD-i | cd-i
-N-Gage
-PlayStation VR | psvr
-Meta Quest | oculus quest | quest | meta quest 2 | meta quest 3
-Ouya
-Nvidia Shield
-Google Stadia | stadia
-Amazon Luna
-PlayStation Portal
-ROG Ally
-Legion Go
-Analogue Pocket
-Playdate
-Evercade
-NEC PC Engine | pc engine
-Famicom | famicom disk system
-Super Famicom
-Nintendo 64DD | 64dd
-Pokemon Mini
-WonderSwan
-Neo Geo Pocket
-Leapster
-Vtech V.Smile
-Commodore 64 | c64
-Amiga
-ZX Spectrum
-
-[Schooler]
 Nintendo 64 | n64
 Super Nintendo | snes | super nes
 NES | nintendo entertainment system | nintendo
@@ -353,6 +351,11 @@ Nintendo Switch 2 | switch 2
 Sega Dreamcast | dreamcast
 Sega Saturn | saturn
 
+[Schooler]
+PlayStation 5 | ps5
+Game Boy | gameboy
+PlayStation 4 | ps4
+
 [Too Clever]
 Arcade cabinet | arcade
 Steam Deck
@@ -364,9 +367,6 @@ Xbox
 Nintendo Switch | switch
 Wii | nintendo wii
 PlayStation 2 | ps2
-PlayStation 5 | ps5
-Game Boy | gameboy
-PlayStation 4 | ps4
 
 [Not accepted]
 iPhone
@@ -393,6 +393,51 @@ prompt: Name a family member or relative (like aunt or cousin)
 Great-great-grandmother | great great grandmother | great-great-grandma
 
 [Deep Cut]
+Great-aunt | great aunt | grandaunt
+Great-uncle | great uncle | granduncle
+Great-grandson
+Great-granddaughter
+Great-grandchild
+Great-niece
+Great-nephew
+First cousin
+Third cousin
+Cousin twice removed
+Stepson
+Stepdaughter
+Stepchild
+Stepparent
+Stepsibling
+Half-sibling
+Godson
+Goddaughter
+Godchild | ahijado | ahijada
+Foster parent
+Foster child
+Adopted son
+Adopted daughter
+Birth mother
+Birth father
+Guardian
+Triplet
+Quadruplet
+Identical twin
+Fraternal twin
+Only child
+Widow
+Widower
+Partner | significant other | life partner
+Domestic partner
+Co-parent
+Baby mama
+Baby daddy
+Stepgrandmother
+Stepgrandfather
+Grandparent
+Great-grandparent
+Great-great-grandfather
+Co-in-law
+Machetaine | machatunim
 Pibling
 Auncle
 Grandnibling
@@ -560,53 +605,6 @@ Step-grandparent
 Grandbaby
 
 [Rare]
-Great-aunt | great aunt | grandaunt
-Great-uncle | great uncle | granduncle
-Great-grandson
-Great-granddaughter
-Great-grandchild
-Great-niece
-Great-nephew
-First cousin
-Third cousin
-Cousin twice removed
-Stepson
-Stepdaughter
-Stepchild
-Stepparent
-Stepsibling
-Half-sibling
-Godson
-Goddaughter
-Godchild | ahijado | ahijada
-Foster parent
-Foster child
-Adopted son
-Adopted daughter
-Birth mother
-Birth father
-Guardian
-Triplet
-Quadruplet
-Identical twin
-Fraternal twin
-Only child
-Widow
-Widower
-Partner | significant other | life partner
-Domestic partner
-Co-parent
-Baby mama
-Baby daddy
-Stepgrandmother
-Stepgrandfather
-Grandparent
-Great-grandparent
-Great-great-grandfather
-Co-in-law
-Machetaine | machatunim
-
-[Schooler]
 Grandpa | grandfather | grandad | granddad | gramps | pop pop | grandpop | pawpaw | peepaw | nonno | abuelo | opa | zayde | papou | lolo
 Son
 Daughter
@@ -646,6 +644,11 @@ Ex-wife | ex
 Ex-husband
 Fiance | fiancé | fiancee | fiancée
 
+[Schooler]
+Uncle | unc | tio | zio
+Cousin
+Grandma | grandmother | granny | nana | gran | nan | grammy | grams | meemaw | nonna | abuela | oma | bubbe | yiayia | lola
+
 [Too Clever]
 Ancestor | forebear | forefather | foremother
 Distant relative
@@ -664,9 +667,6 @@ Dad | father | daddy | papa | pa | pop | old man
 Brother | bro | big brother | little brother | older brother | younger brother
 Sister | sis | big sister | little sister | older sister | younger sister
 Aunt | auntie | tia | tante | zia
-Uncle | unc | tio | zio
-Cousin
-Grandma | grandmother | granny | nana | gran | nan | grammy | grams | meemaw | nonna | abuela | oma | bubbe | yiayia | lola
 
 [Not accepted]
 Friend
@@ -691,6 +691,47 @@ prompt: Name a bone in the human body
 Hyoid | hyoid bone
 
 [Deep Cut]
+Maxilla | upper jaw
+Frontal bone
+Parietal bone
+Temporal bone
+Occipital bone
+Sphenoid
+Ethmoid
+Lacrimal bone
+Palatine bone
+Vomer
+Inferior nasal concha
+Atlas
+Axis
+Cervical vertebrae
+Thoracic vertebrae
+Lumbar vertebrae
+Ilium
+Ischium
+Pubis
+Talus | astragalus
+Navicular
+Cuboid
+Cuneiform
+Scaphoid
+Lunate
+Triquetrum
+Pisiform
+Trapezium
+Trapezoid
+Capitate
+Hamate
+Sesamoid bone
+Floating rib
+True ribs
+False ribs
+Xiphoid process
+Manubrium
+Acromion
+Olecranon | elbow bone
+Malleolus
+Middle ear bones | ossicles | auditory ossicles
 Distal phalanx
 Proximal phalanx
 Intermediate phalanx
@@ -760,49 +801,6 @@ Os acromiale
 Cyamella
 
 [Rare]
-Maxilla | upper jaw
-Frontal bone
-Parietal bone
-Temporal bone
-Occipital bone
-Sphenoid
-Ethmoid
-Lacrimal bone
-Palatine bone
-Vomer
-Inferior nasal concha
-Atlas
-Axis
-Cervical vertebrae
-Thoracic vertebrae
-Lumbar vertebrae
-Ilium
-Ischium
-Pubis
-Talus | astragalus
-Navicular
-Cuboid
-Cuneiform
-Scaphoid
-Lunate
-Triquetrum
-Pisiform
-Trapezium
-Trapezoid
-Capitate
-Hamate
-Sesamoid bone
-Floating rib
-True ribs
-False ribs
-Xiphoid process
-Manubrium
-Acromion
-Olecranon | elbow bone
-Malleolus
-Middle ear bones | ossicles | auditory ossicles
-
-[Schooler]
 Tibia | shinbone | shin bone
 Fibula
 Humerus
@@ -825,6 +823,10 @@ Hammer | malleus
 Anvil | incus
 Nasal bone | nose bone
 
+[Schooler]
+Collarbone | clavicle | collar bone
+Kneecap | patella | knee cap
+
 [Too Clever]
 Funny bone | ulnar nerve
 Tailbone | coccyx
@@ -835,8 +837,6 @@ Femur | thigh bone | thighbone
 Rib | ribs | rib cage
 Spine | backbone | spinal column | vertebral column
 Jawbone | jaw | mandible
-Collarbone | clavicle | collar bone
-Kneecap | patella | knee cap
 
 [Not accepted]
 Muscle
@@ -860,6 +860,97 @@ prompt: Name a type of vehicle
 Zamboni | ice resurfacer
 
 [Deep Cut]
+Hovercraft
+Segway
+Hoverboard
+Rickshaw
+Tuk-tuk | tuk tuk
+Pedicab
+Horse and buggy | buggy | carriage
+Stagecoach
+Chariot
+Covered wagon
+Glider
+Seaplane
+Biplane
+Drone
+Zeppelin
+Airship
+Space station
+Lunar rover | moon buggy
+Mars rover
+Dune buggy
+Dirt bike
+Quad bike
+Snowcat
+Bobsled
+Toboggan
+Dog sled
+Tow truck
+Ice cream truck
+Food truck
+Armored car
+Humvee
+Jeepney
+Double-decker bus | double decker
+Trolleybus
+Minibus
+Paddy wagon
+Hearse
+Mail truck
+Delivery van
+Box truck
+Flatbed
+Tanker
+Car transporter
+Steamroller
+Backhoe
+Skid steer | bobcat
+Combine harvester | combine
+Lawn tractor | riding mower
+Street sweeper
+Snowplow
+Bullet train | high-speed train
+Maglev
+Locomotive
+Freight train
+Caboose
+Handcar
+Funicular
+Gondola
+Ferry
+Tugboat
+Barge
+Cruise ship
+Aircraft carrier
+Battleship
+Destroyer
+Speedboat
+Pontoon
+Rowboat
+Raft
+Paddleboard
+Catamaran
+Houseboat
+Fishing boat
+Trawler
+Steamboat
+Paddle steamer
+Riverboat
+Galleon
+Pirate ship
+Viking ship | longship
+Dinghy
+Lifeboat
+Amphibious vehicle | duck boat
+E-bike
+Penny-farthing | penny farthing
+Tandem bicycle | tandem
+Recumbent bike
+Velomobile
+Wheelchair
+Mobility scooter
+Stroller | pram
 Sidecar
 Trike
 Autogyro | gyrocopter
@@ -1268,99 +1359,6 @@ Escape pod
 Flying saucer | ufo
 
 [Rare]
-Hovercraft
-Segway
-Hoverboard
-Rickshaw
-Tuk-tuk | tuk tuk
-Pedicab
-Horse and buggy | buggy | carriage
-Stagecoach
-Chariot
-Covered wagon
-Glider
-Seaplane
-Biplane
-Drone
-Zeppelin
-Airship
-Space station
-Lunar rover | moon buggy
-Mars rover
-Dune buggy
-Dirt bike
-Quad bike
-Snowcat
-Bobsled
-Toboggan
-Dog sled
-Tow truck
-Ice cream truck
-Food truck
-Armored car
-Humvee
-Jeepney
-Double-decker bus | double decker
-Trolleybus
-Minibus
-Paddy wagon
-Hearse
-Mail truck
-Delivery van
-Box truck
-Flatbed
-Tanker
-Car transporter
-Steamroller
-Backhoe
-Skid steer | bobcat
-Combine harvester | combine
-Lawn tractor | riding mower
-Street sweeper
-Snowplow
-Bullet train | high-speed train
-Maglev
-Locomotive
-Freight train
-Caboose
-Handcar
-Funicular
-Gondola
-Ferry
-Tugboat
-Barge
-Cruise ship
-Aircraft carrier
-Battleship
-Destroyer
-Speedboat
-Pontoon
-Rowboat
-Raft
-Paddleboard
-Catamaran
-Houseboat
-Fishing boat
-Trawler
-Steamboat
-Paddle steamer
-Riverboat
-Galleon
-Pirate ship
-Viking ship | longship
-Dinghy
-Lifeboat
-Amphibious vehicle | duck boat
-E-bike
-Penny-farthing | penny farthing
-Tandem bicycle | tandem
-Recumbent bike
-Velomobile
-Wheelchair
-Mobility scooter
-Stroller | pram
-
-[Schooler]
 Van
 SUV
 Taxi | cab
@@ -1419,6 +1417,11 @@ Electric car
 Wagon
 Sled | sleigh
 
+[Schooler]
+Train
+Airplane | plane | aeroplane
+Boat
+
 [Too Clever]
 Shopping cart
 Batmobile
@@ -1437,9 +1440,6 @@ Truck
 Bus
 Motorcycle | motorbike
 Bicycle | bike
-Train
-Airplane | plane | aeroplane
-Boat
 
 [Not accepted]
 Road
@@ -1464,6 +1464,74 @@ prompt: Name a flower
 Corpse flower | titan arum | rafflesia
 
 [Deep Cut]
+Amaryllis
+Anemone
+Cosmos
+Clematis
+Columbine
+Coneflower | echinacea
+Cornflower
+Freesia
+Foxglove
+Fuchsia
+Gerbera | gerbera daisy | transvaal daisy
+Hollyhock
+Impatiens
+Larkspur
+Delphinium
+Lupine | lupin
+Moonflower | moonflower vine
+Nasturtium
+Oleander
+Plumeria | frangipani
+Protea
+Ranunculus
+Rhododendron
+Salvia
+Sweet pea
+Verbena
+Wisteria
+Yarrow
+Black-eyed Susan | black eyed susan
+Bleeding heart
+Bougainvillea
+Bachelor's button
+Daylily
+Edelweiss
+Heather
+Lantana
+Lobster claw | heliconia
+Mimosa
+Myrtle
+Periwinkle
+Phlox
+Queen Anne's lace
+Statice
+Stock
+Thistle
+Trillium
+Water lily
+Alstroemeria | peruvian lily
+Anthurium
+Baby's breath
+Bromeliad
+Camomile | chamomile
+Clover
+Goldenrod
+Hellebore
+Marsh marigold
+Orange blossom
+Passionflower | passion flower
+Pincushion
+Saffron crocus
+Scabiosa
+Sea holly
+Shasta daisy
+Strawflower
+Sweet William
+Tuberose
+Wallflower
+Wax flower
 Agapanthus
 Allium
 Asclepias | milkweed
@@ -1764,76 +1832,6 @@ Swaddled babies orchid
 Laughing bumblebee orchid
 
 [Rare]
-Amaryllis
-Anemone
-Cosmos
-Clematis
-Columbine
-Coneflower | echinacea
-Cornflower
-Freesia
-Foxglove
-Fuchsia
-Gerbera | gerbera daisy | transvaal daisy
-Hollyhock
-Impatiens
-Larkspur
-Delphinium
-Lupine | lupin
-Moonflower | moonflower vine
-Nasturtium
-Oleander
-Plumeria | frangipani
-Protea
-Ranunculus
-Rhododendron
-Salvia
-Sweet pea
-Verbena
-Wisteria
-Yarrow
-Black-eyed Susan | black eyed susan
-Bleeding heart
-Bougainvillea
-Bachelor's button
-Daylily
-Edelweiss
-Heather
-Lantana
-Lobster claw | heliconia
-Mimosa
-Myrtle
-Periwinkle
-Phlox
-Queen Anne's lace
-Statice
-Stock
-Thistle
-Trillium
-Water lily
-Alstroemeria | peruvian lily
-Anthurium
-Baby's breath
-Bromeliad
-Camomile | chamomile
-Clover
-Goldenrod
-Hellebore
-Marsh marigold
-Orange blossom
-Passionflower | passion flower
-Pincushion
-Saffron crocus
-Scabiosa
-Sea holly
-Shasta daisy
-Strawflower
-Sweet William
-Tuberose
-Wallflower
-Wax flower
-
-[Schooler]
 Violet
 Lavender
 Marigold
@@ -1875,6 +1873,11 @@ Bird of paradise
 Snowdrop
 Primrose | primula | polyanthus
 
+[Schooler]
+Daffodil
+Orchid
+Carnation
+
 [Too Clever]
 Dandelion
 Cauliflower
@@ -1887,9 +1890,6 @@ Tulip
 Daisy
 Sunflower | helianthus
 Lily
-Daffodil
-Orchid
-Carnation
 
 [Not accepted]
 Tree
@@ -1914,6 +1914,61 @@ prompt: Name a type of bread
 Pumpernickel | pumpernickel bread
 
 [Deep Cut]
+Sprouted bread | ezekiel bread
+Seven-grain
+Oat bread
+Milk bread | shokupan
+Pandesal
+Bolillo | bolillo roll
+Concha
+Arepa
+Pupusa
+Injera
+Chapati
+Roti
+Paratha
+Puri
+Bhatura | bhatoora
+Kulcha | kulcha bread
+Lavash | lavash bread
+Barbari | barbari bread | nan-e barbari
+Sangak | sangak bread
+Taftoon
+Simit | simit bread
+Pide | pide bread
+Ekmek
+Khachapuri
+Bialy
+Kaiser roll
+Pan dulce
+Babka
+Stollen
+Panettone
+Pandoro
+Kolache
+Kringle
+Danish
+Sweet roll
+Cinnamon roll
+Sticky bun
+Hot cross bun
+Bara brith
+Barmbrack
+Soda farl
+Potato farl
+Bannock | bannock bread
+Fry bread
+Johnnycake | hoecake
+Hushpuppy | hush puppies
+Spoon bread
+Sally Lunn
+Anadama
+Boston brown bread
+Salt-rising bread
+Pullman loaf
+Batard
+Boule
+Fougasse
 Pain de mie
 Pain au chocolat
 Pain de campagne
@@ -2241,63 +2296,6 @@ Navajo frybread
 Piki
 
 [Rare]
-Sprouted bread | ezekiel bread
-Seven-grain
-Oat bread
-Milk bread | shokupan
-Pandesal
-Bolillo | bolillo roll
-Concha
-Arepa
-Pupusa
-Injera
-Chapati
-Roti
-Paratha
-Puri
-Bhatura | bhatoora
-Kulcha | kulcha bread
-Lavash | lavash bread
-Barbari | barbari bread | nan-e barbari
-Sangak | sangak bread
-Taftoon
-Simit | simit bread
-Pide | pide bread
-Ekmek
-Khachapuri
-Bialy
-Kaiser roll
-Pan dulce
-Babka
-Stollen
-Panettone
-Pandoro
-Kolache
-Kringle
-Danish
-Sweet roll
-Cinnamon roll
-Sticky bun
-Hot cross bun
-Bara brith
-Barmbrack
-Soda farl
-Potato farl
-Bannock | bannock bread
-Fry bread
-Johnnycake | hoecake
-Hushpuppy | hush puppies
-Spoon bread
-Sally Lunn
-Anadama
-Boston brown bread
-Salt-rising bread
-Pullman loaf
-Batard
-Boule
-Fougasse
-
-[Schooler]
 Brioche
 Ciabatta
 Focaccia
@@ -2332,6 +2330,11 @@ Soda bread | irish soda bread
 Scone
 Crumpet
 
+[Schooler]
+Baguette | french bread | baguette tradition
+Croissant
+Garlic bread
+
 [Too Clever]
 Toast
 Pizza
@@ -2349,9 +2352,6 @@ Wheat bread | wheat | whole wheat
 Sourdough
 Rye | rye bread
 Bagel
-Baguette | french bread | baguette tradition
-Croissant
-Garlic bread
 
 [Not accepted]
 Cake
@@ -2376,6 +2376,16 @@ note: Main and recurring characters, family members, and alter egos (Prison Mike
 Hidetoshi Hasagawa | hidetoshi
 
 [Deep Cut]
+Jan Levinson | jan | jan levinson-gould
+Holly Flax | holly
+Erin Hannon | erin
+Darryl Philbin | darryl
+Toby Flenderson | toby
+Kelly Kapoor | kelly
+Creed Bratton | creed
+Meredith Palmer | meredith
+Phyllis Vance | phyllis | phyllis lapin
+Belsnickel
 Nate Nickerson | nate
 Hank Tate | hank
 Val Johnson | val
@@ -2441,18 +2451,6 @@ Karen Filippelli | karen
 Roy Anderson | roy
 
 [Rare]
-Jan Levinson | jan | jan levinson-gould
-Holly Flax | holly
-Erin Hannon | erin
-Darryl Philbin | darryl
-Toby Flenderson | toby
-Kelly Kapoor | kelly
-Creed Bratton | creed
-Meredith Palmer | meredith
-Phyllis Vance | phyllis | phyllis lapin
-Belsnickel
-
-[Schooler]
 Ryan Howard | ryan
 Andy Bernard | andy | nard dog
 Angela Martin | angela
@@ -2491,6 +2489,97 @@ prompt: Name a dance or style of dance
 Bunny Hop
 
 [Deep Cut]
+Jive
+Boogie-woogie
+Shag
+West Coast Swing
+East Coast Swing
+Hustle
+Bolero
+Viennese waltz
+Argentine tango
+Kizomba
+Zouk
+Lambada
+Cumbia
+Kuduro
+Dancehall
+Reggaeton
+Bhangra
+Bharatanatyam
+Kathak
+Odissi
+Bollywood
+Kabuki
+Butoh
+Capoeira
+Haka
+Morris dance | morris dancing
+Maypole dance
+Highland dance | highland fling
+Ceilidh
+Jig
+Reel
+Hornpipe
+Polonaise
+Mazurka
+Gavotte
+Minuet
+Sarabande
+Pavane
+Galliard
+Allemande
+Quadrille
+Contra dance
+Folk dance
+Hora
+Sirtaki | zorba
+Tarantella
+Fandango
+Sevillanas
+Jota
+Sardana
+Step dance | stepping
+Shim sham
+Soft shoe
+Cakewalk
+Mashed Potato
+Watusi
+Hand jive
+Bus stop
+Running Man
+Roger Rabbit
+Cabbage Patch
+Harlem Shake
+Nae Nae | whip nae nae
+Dougie
+Stanky Leg
+Gangnam Style
+Renegade
+Wobble
+Cotton Eye Joe
+Boot Scootin' Boogie
+Two-step | two step
+Texas two-step
+Ballet folklorico | folklorico
+Danzon
+Son jarocho
+Huapango
+Joropo
+Marinera
+Zamba
+Chacarera
+Frevo
+Forro
+Lundu
+Tamure
+Kecak
+Legong
+Lion dance
+Dragon dance
+Fan dance
+Ribbon dance
+Sword dance
 Bourree
 Courante
 Gigue
@@ -2808,99 +2897,6 @@ Carole
 Rondeau
 
 [Rare]
-Jive
-Boogie-woogie
-Shag
-West Coast Swing
-East Coast Swing
-Hustle
-Bolero
-Viennese waltz
-Argentine tango
-Kizomba
-Zouk
-Lambada
-Cumbia
-Kuduro
-Dancehall
-Reggaeton
-Bhangra
-Bharatanatyam
-Kathak
-Odissi
-Bollywood
-Kabuki
-Butoh
-Capoeira
-Haka
-Morris dance | morris dancing
-Maypole dance
-Highland dance | highland fling
-Ceilidh
-Jig
-Reel
-Hornpipe
-Polonaise
-Mazurka
-Gavotte
-Minuet
-Sarabande
-Pavane
-Galliard
-Allemande
-Quadrille
-Contra dance
-Folk dance
-Hora
-Sirtaki | zorba
-Tarantella
-Fandango
-Sevillanas
-Jota
-Sardana
-Step dance | stepping
-Shim sham
-Soft shoe
-Cakewalk
-Mashed Potato
-Watusi
-Hand jive
-Bus stop
-Running Man
-Roger Rabbit
-Cabbage Patch
-Harlem Shake
-Nae Nae | whip nae nae
-Dougie
-Stanky Leg
-Gangnam Style
-Renegade
-Wobble
-Cotton Eye Joe
-Boot Scootin' Boogie
-Two-step | two step
-Texas two-step
-Ballet folklorico | folklorico
-Danzon
-Son jarocho
-Huapango
-Joropo
-Marinera
-Zamba
-Chacarera
-Frevo
-Forro
-Lundu
-Tamure
-Kecak
-Legong
-Lion dance
-Dragon dance
-Fan dance
-Ribbon dance
-Sword dance
-
-[Schooler]
 Swing
 Ballroom
 Contemporary
@@ -2944,6 +2940,11 @@ Voguing | vogue
 Dab
 YMCA
 
+[Schooler]
+Tap | tap dance
+Breakdancing | breaking | breakdance
+Jazz
+
 [Too Clever]
 The Floss | floss
 Macarena
@@ -2955,9 +2956,6 @@ Hip hop
 Salsa
 Tango
 Waltz
-Tap | tap dance
-Breakdancing | breaking | breakdance
-Jazz
 
 [Not accepted]
 Song
@@ -2984,24 +2982,6 @@ note: Every Best Picture winner from Wings (1929) through One Battle After Anoth
 Wings
 
 [Deep Cut]
-Cavalcade
-Cimarron
-The Broadway Melody
-Grand Hotel
-Mutiny on the Bounty
-The Great Ziegfeld
-The Life of Emile Zola
-You Can't Take It with You
-Going My Way
-All the King's Men
-Gentleman's Agreement
-The Lost Weekend
-How Green Was My Valley
-Marty
-The Greatest Show on Earth
-Tom Jones
-
-[Rare]
 All About Eve
 An American in Paris
 The Best Years of Our Lives
@@ -3023,8 +3003,24 @@ Rebecca
 Hamlet
 All Quiet on the Western Front
 One Battle After Another
+Cavalcade
+Cimarron
+The Broadway Melody
+Grand Hotel
+Mutiny on the Bounty
+The Great Ziegfeld
+The Life of Emile Zola
+You Can't Take It with You
+Going My Way
+All the King's Men
+Gentleman's Agreement
+The Lost Weekend
+How Green Was My Valley
+Marty
+The Greatest Show on Earth
+Tom Jones
 
-[Schooler]
+[Rare]
 Schindler's List | schindlers list
 Braveheart
 The Lord of the Rings: The Return of the King | return of the king | lord of the rings
@@ -3077,6 +3073,11 @@ The Apartment
 On the Waterfront
 It Happened One Night
 
+[Schooler]
+Casablanca
+Gone with the Wind
+Rocky
+
 [Too Clever]
 Moonlight
 
@@ -3086,9 +3087,6 @@ The Godfather | godfather
 Forrest Gump
 Gladiator
 The Sound of Music | sound of music
-Casablanca
-Gone with the Wind
-Rocky
 
 [Not accepted]
 La La Land

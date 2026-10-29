@@ -8,6 +8,67 @@ prompt: Name a candy or candy bar
 Abba-Zaba | abba zaba
 
 [Deep Cut]
+PayDay
+Heath | heath bar
+Mr. Goodbar | mr goodbar
+Krackel
+100 Grand | hundred grand
+Whatchamacallit
+Crunch | nestle crunch
+Toblerone
+Ferrero Rocher | ferrero
+Lindt | lindor | lindt lindor
+Dove | dove promises
+Rolo
+York | york peppermint patty | peppermint patty
+Hot Tamales
+Mike and Ike | mike & ike
+Red Vines
+Dots
+Good & Plenty | good and plenty
+Sugar Daddy
+Now and Later | now & later
+Fun Dip
+Pixy Stix | pixie sticks
+Ring Pop
+Push Pop
+Blow Pop
+Dum Dums | dum dum
+Haribo
+Werther's Original | werthers
+Reese's Pieces
+Charleston Chew
+Zagnut
+Clark Bar
+Big Hunk
+Cadbury | cadbury egg | creme egg
+Peeps | peeps chicks
+Andes mints | andes
+Altoids
+Tic Tac | tic tacs
+Mentos
+Chuckles
+Necco wafers | necco
+Sweethearts | conversation hearts
+Sixlets
+Raisinets
+Goobers
+Sno-Caps
+Bottle caps
+Runts
+Lemonheads
+Boston Baked Beans
+Atomic Fireball | fireballs
+Kinder | kinder bueno | kinder egg | kinder chocolate
+Mars bar | marathon
+Bounty
+Aero
+Crunchie
+Flake
+Wispa
+Twirl
+Maltesers
+Bit-O-Honey
 Chick-O-Stick
 Mallo Cup | mallo
 Valomilk
@@ -293,69 +354,6 @@ Moon Pie | moonpie
 Rock | seaside rock
 
 [Rare]
-PayDay
-Heath | heath bar
-Mr. Goodbar | mr goodbar
-Krackel
-100 Grand | hundred grand
-Whatchamacallit
-Crunch | nestle crunch
-Toblerone
-Ferrero Rocher | ferrero
-Lindt | lindor | lindt lindor
-Dove | dove promises
-Rolo
-York | york peppermint patty | peppermint patty
-Hot Tamales
-Mike and Ike | mike & ike
-Red Vines
-Dots
-Good & Plenty | good and plenty
-Sugar Daddy
-Now and Later | now & later
-Fun Dip
-Pixy Stix | pixie sticks
-Ring Pop
-Push Pop
-Blow Pop
-Dum Dums | dum dum
-Haribo
-Werther's Original | werthers
-Reese's Pieces
-Charleston Chew
-Zagnut
-Clark Bar
-Big Hunk
-Cadbury | cadbury egg | creme egg
-Peeps | peeps chicks
-Andes mints | andes
-Altoids
-Tic Tac | tic tacs
-Mentos
-Chuckles
-Necco wafers | necco
-Sweethearts | conversation hearts
-Sixlets
-Raisinets
-Goobers
-Sno-Caps
-Bottle caps
-Runts
-Lemonheads
-Boston Baked Beans
-Atomic Fireball | fireballs
-Kinder | kinder bueno | kinder egg | kinder chocolate
-Mars bar | marathon
-Bounty
-Aero
-Crunchie
-Flake
-Wispa
-Twirl
-Maltesers
-Bit-O-Honey
-
-[Schooler]
 Milky Way
 3 Musketeers | three musketeers
 Butterfinger
@@ -385,6 +383,11 @@ Pop Rocks
 Warheads
 Gobstopper | everlasting gobstopper
 
+[Schooler]
+Twix | twix white
+Hershey's | hershey bar | hersheys
+Starburst
+
 [Too Clever]
 Cotton candy
 Candy corn
@@ -396,9 +399,6 @@ M&M's | m&ms | m and ms | mms | peanut m&ms | peanut butter m&ms
 Kit Kat | kitkat | big kat
 Reese's | reeses | reese's peanut butter cups | reeses cups
 Skittles
-Twix | twix white
-Hershey's | hershey bar | hersheys
-Starburst
 
 [Not accepted]
 Gum
@@ -423,6 +423,46 @@ prompt: Name a reptile or amphibian
 Axolotl | axolottl
 
 [Deep Cut]
+Black mamba | mamba
+Garter snake | garter
+King cobra
+Copperhead
+Cottonmouth | water moccasin
+Coral snake
+Kingsnake | king snake
+Corn snake
+Ball python | royal python
+Monitor lizard
+Horned lizard | horned toad | horny toad
+Skink
+Anole
+Caiman
+Gharial | gavial
+Leatherback turtle | leatherback | leatherback sea turtle
+Box turtle
+Galapagos tortoise | giant tortoise
+Poison dart frog | poison frog
+Cane toad | cane frog | marine toad
+Spring peeper
+Glass frog
+Fire salamander
+Mudpuppy
+Hellbender
+Sea snake
+Tuatara
+Frilled lizard
+Basilisk lizard | jesus lizard
+Leopard gecko
+Tokay gecko
+Sidewinder
+Adder
+Asp
+Diamondback | diamondback rattlesnake
+Taipan | inland taipan
+Boomslang
+Green tree python
+Reticulated python
+Burmese python
 Caecilian
 Olm | proteus
 Siren
@@ -845,48 +885,6 @@ Eastern hellbender
 Ozark hellbender
 
 [Rare]
-Black mamba | mamba
-Garter snake | garter
-King cobra
-Copperhead
-Cottonmouth | water moccasin
-Coral snake
-Kingsnake | king snake
-Corn snake
-Ball python | royal python
-Monitor lizard
-Horned lizard | horned toad | horny toad
-Skink
-Anole
-Caiman
-Gharial | gavial
-Leatherback turtle | leatherback | leatherback sea turtle
-Box turtle
-Galapagos tortoise | giant tortoise
-Poison dart frog | poison frog
-Cane toad | cane frog | marine toad
-Spring peeper
-Glass frog
-Fire salamander
-Mudpuppy
-Hellbender
-Sea snake
-Tuatara
-Frilled lizard
-Basilisk lizard | jesus lizard
-Leopard gecko
-Tokay gecko
-Sidewinder
-Adder
-Asp
-Diamondback | diamondback rattlesnake
-Taipan | inland taipan
-Boomslang
-Green tree python
-Reticulated python
-Burmese python
-
-[Schooler]
 Komodo dragon
 Iguana
 Gecko
@@ -907,6 +905,10 @@ Tree frog
 Snapping turtle
 Viper
 
+[Schooler]
+Crocodile | croc
+Toad
+
 [Too Clever]
 Tadpole
 Dinosaur
@@ -917,8 +919,6 @@ Lizard
 Turtle
 Frog
 Alligator | gator
-Crocodile | croc
-Toad
 
 [Not accepted]
 Dragon
@@ -945,12 +945,6 @@ note: Includes transcontinental countries (Russia, Turkey, Kazakhstan, Georgia, 
 Liechtenstein | lichtenstein | lichtenstien
 
 [Deep Cut]
-Georgia
-Armenia
-Azerbaijan
-Kazakhstan
-
-[Rare]
 Czech Republic | czechia | czech
 Hungary
 Romania
@@ -976,8 +970,12 @@ San Marino
 Andorra
 Moldova
 Kosovo
+Georgia
+Armenia
+Azerbaijan
+Kazakhstan
 
-[Schooler]
+[Rare]
 Portugal
 Greece
 Switzerland | swiss
@@ -994,6 +992,10 @@ Iceland
 Ukraine
 Wales
 
+[Schooler]
+United Kingdom | uk | great britain | britain
+Ireland
+
 [Too Clever]
 Vatican City | vatican | holy see
 Monaco
@@ -1005,8 +1007,6 @@ Germany
 Italy
 Spain
 England
-United Kingdom | uk | great britain | britain
-Ireland
 
 [Not accepted]
 Europe
@@ -1035,36 +1035,6 @@ note: The 124 teams playing in the four leagues in the 2025-26 seasons. Old name
 Columbus Blue Jackets | blue jackets
 
 [Deep Cut]
-Memphis Grizzlies | grizzlies
-Minnesota Timberwolves | timberwolves | wolves
-New Orleans Pelicans | pelicans
-Charlotte Hornets | hornets
-Indiana Pacers | pacers
-Washington Wizards | wizards
-Arizona Diamondbacks | diamondbacks | dbacks
-Kansas City Royals | royals
-Miami Marlins | marlins
-Tampa Bay Rays | rays
-Washington Nationals | nationals | nats
-Athletics | oakland athletics | a's | oakland a's
-Anaheim Ducks | ducks
-Buffalo Sabres | sabres
-Calgary Flames | flames
-Carolina Hurricanes | hurricanes | canes
-Florida Panthers
-Minnesota Wild | wild
-Nashville Predators | predators | preds
-New Jersey Devils | devils
-New York Islanders | islanders
-Ottawa Senators | senators
-San Jose Sharks | sharks
-Seattle Kraken | kraken
-St. Louis Blues | blues
-Vancouver Canucks | canucks
-Winnipeg Jets
-Utah Mammoth | mammoth | utah hockey club
-
-[Rare]
 Arizona Cardinals
 Atlanta Falcons | falcons
 Carolina Panthers | panthers
@@ -1116,8 +1086,36 @@ Los Angeles Kings
 Tampa Bay Lightning | lightning
 Colorado Avalanche | avalanche | avs
 Dallas Stars | stars
+Memphis Grizzlies | grizzlies
+Minnesota Timberwolves | timberwolves | wolves
+New Orleans Pelicans | pelicans
+Charlotte Hornets | hornets
+Indiana Pacers | pacers
+Washington Wizards | wizards
+Arizona Diamondbacks | diamondbacks | dbacks
+Kansas City Royals | royals
+Miami Marlins | marlins
+Tampa Bay Rays | rays
+Washington Nationals | nationals | nats
+Athletics | oakland athletics | a's | oakland a's
+Anaheim Ducks | ducks
+Buffalo Sabres | sabres
+Calgary Flames | flames
+Carolina Hurricanes | hurricanes | canes
+Florida Panthers
+Minnesota Wild | wild
+Nashville Predators | predators | preds
+New Jersey Devils | devils
+New York Islanders | islanders
+Ottawa Senators | senators
+San Jose Sharks | sharks
+Seattle Kraken | kraken
+St. Louis Blues | blues
+Vancouver Canucks | canucks
+Winnipeg Jets
+Utah Mammoth | mammoth | utah hockey club
 
-[Schooler]
+[Rare]
 Pittsburgh Steelers | steelers
 San Francisco 49ers | 49ers | niners | forty niners
 Kansas City Chiefs | chiefs
@@ -1152,6 +1150,11 @@ New York Jets | jets
 Houston Rockets | rockets
 New York Mets | mets
 
+[Schooler]
+Green Bay Packers | packers
+Golden State Warriors | warriors
+Boston Red Sox | red sox
+
 [Too Clever]
 Utah Jazz | jazz
 Toronto Raptors | raptors
@@ -1163,9 +1166,6 @@ New England Patriots | patriots | pats
 Los Angeles Lakers | lakers
 New York Yankees | yankees
 Chicago Bulls | bulls
-Green Bay Packers | packers
-Golden State Warriors | warriors
-Boston Red Sox | red sox
 
 [Not accepted]
 Harlem Globetrotters
@@ -1197,6 +1197,51 @@ prompt: Name a Beatles song
 Octopus's Garden | octopuses garden | octopus garden
 
 [Deep Cut]
+Norwegian Wood | norwegian wood (this bird has flown)
+Nowhere Man
+Paperback Writer
+We Can Work It Out
+With a Little Help from My Friends | little help from my friends
+Sgt. Pepper's Lonely Hearts Club Band | sgt peppers | sergeant pepper
+Back in the U.S.S.R. | back in the ussr
+While My Guitar Gently Weeps
+Helter Skelter
+I Am the Walrus
+The Long and Winding Road | long and winding road
+Across the Universe
+Here, There and Everywhere | here there and everywhere
+Got to Get You into My Life
+Taxman
+Eight Days a Week | 8 days a week
+I Saw Her Standing There
+Please Please Me
+From Me to You
+A Day in the Life
+Magical Mystery Tour
+The Fool on the Hill | fool on the hill
+Lady Madonna
+Golden Slumbers
+Carry That Weight
+The End
+Don't Let Me Down | dont let me down
+The Ballad of John and Yoko | ballad of john and yoko
+I Feel Fine
+Rain
+Tomorrow Never Knows
+Good Day Sunshine
+And I Love Her
+If I Fell
+Things We Said Today
+Birthday
+Dear Prudence
+Julia
+Mother Nature's Son
+Rocky Raccoon
+Maxwell's Silver Hammer
+Oh! Darling | oh darling
+I Want You (She's So Heavy) | i want you
+Because
+Sun King
 Polythene Pam
 Two of Us
 Dig a Pony
@@ -1402,53 +1447,6 @@ Suzy Parker
 The Palace of the King of the Birds
 
 [Rare]
-Norwegian Wood | norwegian wood (this bird has flown)
-Nowhere Man
-Paperback Writer
-We Can Work It Out
-With a Little Help from My Friends | little help from my friends
-Sgt. Pepper's Lonely Hearts Club Band | sgt peppers | sergeant pepper
-Back in the U.S.S.R. | back in the ussr
-While My Guitar Gently Weeps
-Helter Skelter
-I Am the Walrus
-The Long and Winding Road | long and winding road
-Across the Universe
-Here, There and Everywhere | here there and everywhere
-Got to Get You into My Life
-Taxman
-Eight Days a Week | 8 days a week
-I Saw Her Standing There
-Please Please Me
-From Me to You
-A Day in the Life
-Magical Mystery Tour
-The Fool on the Hill | fool on the hill
-Lady Madonna
-Golden Slumbers
-Carry That Weight
-The End
-Don't Let Me Down | dont let me down
-The Ballad of John and Yoko | ballad of john and yoko
-I Feel Fine
-Rain
-Tomorrow Never Knows
-Good Day Sunshine
-And I Love Her
-If I Fell
-Things We Said Today
-Birthday
-Dear Prudence
-Julia
-Mother Nature's Son
-Rocky Raccoon
-Maxwell's Silver Hammer
-Oh! Darling | oh darling
-I Want You (She's So Heavy) | i want you
-Because
-Sun King
-
-[Schooler]
 All You Need Is Love
 Penny Lane
 Strawberry Fields Forever | strawberry fields
@@ -1471,6 +1469,11 @@ Revolution
 All My Loving
 Drive My Car
 
+[Schooler]
+Come Together
+I Want to Hold Your Hand | i wanna hold your hand
+Help! | help
+
 [Too Clever]
 Revolution 9
 Her Majesty
@@ -1482,9 +1485,6 @@ Let It Be
 Yesterday
 Here Comes the Sun
 Yellow Submarine
-Come Together
-I Want to Hold Your Hand | i wanna hold your hand
-Help! | help
 
 [Not accepted]
 Imagine
@@ -1517,6 +1517,69 @@ note: Heroes from Marvel, DC, and other comics or films. Villains don't count.
 Squirrel Girl
 
 [Deep Cut]
+Green Arrow | oliver queen
+Martian Manhunter | j'onn
+Hawkgirl
+Hawkman
+Nightwing | dick grayson nightwing
+Batwoman | kate kane
+Static Shock | static
+Blue Beetle | jaime reyes blue beetle
+Booster Gold
+Atom | ray palmer
+Firestorm
+Plastic Man | eel o'brian
+Zatanna
+Raven | rachel roth
+Starfire | koriand'r
+Beast Boy | garfield logan | changeling
+Wasp | hope van dyne | janet van dyne
+Winter Soldier | bucky | bucky barnes
+War Machine
+Silver Surfer | norrin radd
+Ghost Rider | johnny blaze | robbie reyes
+Punisher | frank castle
+Luke Cage | power man
+Jessica Jones | jewel
+Iron Fist | danny rand
+Moon Knight | marc spector
+Ms. Marvel | kamala khan
+She-Hulk | she hulk | jennifer walters
+Shang-Chi | shang chi
+Spider-Woman | spider woman
+Spider-Gwen | ghost-spider | gwen stacy | spider-woman gwen
+Miles Morales | spider-man miles
+Nova
+Gamora
+Drax
+Mantis
+Mister Fantastic | mr fantastic | reed richards
+Invisible Woman | sue storm
+Human Torch | johnny storm
+The Thing | thing | ben grimm
+Nightcrawler | kurt wagner
+Rogue | anna marie
+Gambit | remy lebeau
+Colossus | piotr rasputin
+Iceman | bobby drake
+Beast | hank mccoy
+Kitty Pryde | shadowcat
+Jubilee
+Psylocke
+Cable | nathan summers
+Domino
+Hellboy | anung un rama
+The Tick | tick
+Invincible
+Spawn
+Teenage Mutant Ninja Turtles | ninja turtles | tmnt
+Power Rangers | mighty morphin power rangers
+Sailor Moon
+Astro Boy
+Frozone
+Dash
+Violet
+Kick-Ass | kickass
 Black Canary
 Huntress
 Swamp Thing
@@ -2013,71 +2076,6 @@ Casey Jones
 April O'Neil
 
 [Rare]
-Green Arrow | oliver queen
-Martian Manhunter | j'onn
-Hawkgirl
-Hawkman
-Nightwing | dick grayson nightwing
-Batwoman | kate kane
-Static Shock | static
-Blue Beetle | jaime reyes blue beetle
-Booster Gold
-Atom | ray palmer
-Firestorm
-Plastic Man | eel o'brian
-Zatanna
-Raven | rachel roth
-Starfire | koriand'r
-Beast Boy | garfield logan | changeling
-Wasp | hope van dyne | janet van dyne
-Winter Soldier | bucky | bucky barnes
-War Machine
-Silver Surfer | norrin radd
-Ghost Rider | johnny blaze | robbie reyes
-Punisher | frank castle
-Luke Cage | power man
-Jessica Jones | jewel
-Iron Fist | danny rand
-Moon Knight | marc spector
-Ms. Marvel | kamala khan
-She-Hulk | she hulk | jennifer walters
-Shang-Chi | shang chi
-Spider-Woman | spider woman
-Spider-Gwen | ghost-spider | gwen stacy | spider-woman gwen
-Miles Morales | spider-man miles
-Nova
-Gamora
-Drax
-Mantis
-Mister Fantastic | mr fantastic | reed richards
-Invisible Woman | sue storm
-Human Torch | johnny storm
-The Thing | thing | ben grimm
-Nightcrawler | kurt wagner
-Rogue | anna marie
-Gambit | remy lebeau
-Colossus | piotr rasputin
-Iceman | bobby drake
-Beast | hank mccoy
-Kitty Pryde | shadowcat
-Jubilee
-Psylocke
-Cable | nathan summers
-Domino
-Hellboy | anung un rama
-The Tick | tick
-Invincible
-Spawn
-Teenage Mutant Ninja Turtles | ninja turtles | tmnt
-Power Rangers | mighty morphin power rangers
-Sailor Moon
-Astro Boy
-Frozone
-Dash
-Violet
-Kick-Ass | kickass
-
-[Schooler]
 Black Panther | t'challa | shuri
 Black Widow | natasha romanoff | yelena
 Wolverine | logan
@@ -2107,6 +2105,11 @@ Falcon | sam wilson
 Elastigirl
 Professor X | professor xavier | charles xavier
 
+[Schooler]
+Captain America | steve rogers | cap
+Hulk | the hulk | incredible hulk | bruce banner
+Thor | thor odinson
+
 [Too Clever]
 Mr. Incredible | mr incredible
 Underdog
@@ -2125,9 +2128,6 @@ Batman | bruce wayne | the dark knight
 Spider-Man | spiderman | spider man | peter parker | spidey
 Wonder Woman | diana prince | diana
 Iron Man | ironman | tony stark
-Captain America | steve rogers | cap
-Hulk | the hulk | incredible hulk | bruce banner
-Thor | thor odinson
 
 [Not accepted]
 Joker
@@ -2161,6 +2161,54 @@ note: Spoken, signed, or classical human languages. Programming languages don't 
 Esperanto
 
 [Deep Cut]
+Urdu
+Bengali | bangla
+Punjabi
+Tamil
+Telugu
+Persian | farsi
+Swahili | kiswahili
+Thai
+Tagalog | filipino
+Indonesian | bahasa indonesia
+Malay
+Ukrainian
+Czech
+Hungarian
+Romanian
+Bulgarian
+Serbian
+Croatian
+Icelandic
+Welsh
+Scottish Gaelic | gàidhlig
+Yiddish
+Sanskrit
+Navajo
+Cherokee
+Hawaiian
+Maori
+Zulu
+Afrikaans
+Amharic
+Somali
+Haitian Creole | creole
+Catalan
+Basque
+Estonian
+Latvian
+Lithuanian
+Slovak
+Slovenian | slovene
+Albanian
+Armenian
+Georgian
+Mongolian
+Tibetan
+Nepali
+Burmese
+Khmer
+Lao
 Gujarati
 Marathi
 Kannada
@@ -2718,56 +2766,6 @@ Auslan
 Crimean Tatar
 
 [Rare]
-Urdu
-Bengali | bangla
-Punjabi
-Tamil
-Telugu
-Persian | farsi
-Swahili | kiswahili
-Thai
-Tagalog | filipino
-Indonesian | bahasa indonesia
-Malay
-Ukrainian
-Czech
-Hungarian
-Romanian
-Bulgarian
-Serbian
-Croatian
-Icelandic
-Welsh
-Scottish Gaelic | gàidhlig
-Yiddish
-Sanskrit
-Navajo
-Cherokee
-Hawaiian
-Maori
-Zulu
-Afrikaans
-Amharic
-Somali
-Haitian Creole | creole
-Catalan
-Basque
-Estonian
-Latvian
-Lithuanian
-Slovak
-Slovenian | slovene
-Albanian
-Armenian
-Georgian
-Mongolian
-Tibetan
-Nepali
-Burmese
-Khmer
-Lao
-
-[Schooler]
 Russian
 Portuguese
 Arabic
@@ -2786,6 +2784,10 @@ Irish | gaelic | irish gaelic | gaeilge
 Norwegian
 Danish
 Finnish
+
+[Schooler]
+Japanese
+Italian
 
 [Too Clever]
 Dothraki
@@ -2814,8 +2816,6 @@ Spanish
 French
 German
 Chinese | mandarin | mandarin chinese | putonghua
-Japanese
-Italian
 
 [Not accepted]
 Spanglish
@@ -2840,6 +2840,37 @@ prompt: Name a planet, moon, or other object in our solar system
 Phobos
 
 [Deep Cut]
+Deimos
+Makemake
+Haumea
+Oort Cloud
+Vesta
+Pallas
+Juno
+Hygiea
+Miranda
+Titania
+Oberon
+Umbriel
+Ariel
+Mimas
+Rhea
+Iapetus
+Dione
+Tethys
+Hyperion
+Phoebe
+Nereid
+Sedna
+Hale-Bopp | hale bopp
+Shoemaker-Levy 9 | shoemaker levy
+Comet Encke | encke
+Bennu
+Ryugu
+Apophis
+Valles Marineris
+Heliosphere
+Solar wind
 Amalthea
 Himalia
 Elara
@@ -3103,39 +3134,6 @@ Meteoroid
 Braille
 
 [Rare]
-Deimos
-Makemake
-Haumea
-Oort Cloud
-Vesta
-Pallas
-Juno
-Hygiea
-Miranda
-Titania
-Oberon
-Umbriel
-Ariel
-Mimas
-Rhea
-Iapetus
-Dione
-Tethys
-Hyperion
-Phoebe
-Nereid
-Sedna
-Hale-Bopp | hale bopp
-Shoemaker-Levy 9 | shoemaker levy
-Comet Encke | encke
-Bennu
-Ryugu
-Apophis
-Valles Marineris
-Heliosphere
-Solar wind
-
-[Schooler]
 Enceladus
 Triton
 Saturn's rings | rings of saturn
@@ -3154,6 +3152,13 @@ Comet
 Asteroid
 Meteor
 
+[Schooler]
+Mercury
+Neptune
+Uranus
+The Sun | sun
+The Moon | luna
+
 [Too Clever]
 Asteroid belt
 Halley's Comet | halleys comet | halley's
@@ -3168,11 +3173,6 @@ Mars
 Jupiter
 Saturn
 Venus
-Mercury
-Neptune
-Uranus
-The Sun | sun
-The Moon | luna
 
 [Not accepted]
 Death Star
@@ -3207,6 +3207,31 @@ note: Current national currencies, by name (dollar, yen, rupee...). Currencies r
 Ngultrum
 
 [Deep Cut]
+Baht
+Dong
+Won
+Zloty | złoty
+Forint
+Koruna
+Leu
+Krone
+Krona | króna
+Dinar
+Dirham
+Riyal
+Rial
+Shekel | sheqel | new shekel
+Lira | turkish lira
+Rand
+Naira
+Shilling
+Real | brazilian real
+Sol | peruvian sol
+Colon | colón
+Quetzal
+Bolivar | bolívar
+Escudo
+Mark | convertible mark
 Rufiyaa
 Pa'anga | paanga
 Vatu
@@ -3254,35 +3279,12 @@ Florin | aruban florin
 Guilder | caribbean guilder | antillean guilder
 
 [Rare]
-Baht
-Dong
-Won
-Zloty | złoty
-Forint
-Koruna
-Leu
-Krone
-Krona | króna
-Dinar
-Dirham
-Riyal
-Rial
-Shekel | sheqel | new shekel
-Lira | turkish lira
-Rand
-Naira
-Shilling
-Real | brazilian real
-Sol | peruvian sol
-Colon | colón
-Quetzal
-Bolivar | bolívar
-Escudo
-Mark | convertible mark
-
-[Schooler]
 Franc | swiss franc | cfa franc
 Yuan | renminbi | rmb | chinese yuan
+
+[Schooler]
+Rupee | rupees
+Ruble | rouble | rubles
 
 [Too Clever]
 Bitcoin
@@ -3293,8 +3295,6 @@ Euro | euros
 Pound | pound sterling | sterling | british pound | pounds
 Yen | japanese yen
 Peso | pesos
-Rupee | rupees
-Ruble | rouble | rubles
 
 [Not accepted]
 Drachma
@@ -3322,6 +3322,63 @@ note: Hand tools, power tools, and workshop or garden tools.
 Spokeshave
 
 [Deep Cut]
+Pickaxe | pick
+Hatchet
+Trowel
+Pruning shears | pruners | secateurs
+Hedge trimmer
+Leaf blower
+Lawn mower | lawnmower
+Weed eater | weed whacker | string trimmer
+Pitchfork
+Spade
+Shears
+Saw horse | sawhorse
+Workbench
+Toolbox
+Router
+Planer
+Lathe
+Table saw
+Miter saw | mitre saw
+Band saw
+Reciprocating saw | sawzall
+Impact driver
+Angle grinder | grinder
+Heat gun
+Glue gun | hot glue gun
+Soldering iron
+Welder | welding torch
+Blowtorch | blow torch
+Caulk gun | caulking gun
+Putty knife
+Paint brush | paintbrush
+Paint roller | roller
+Staple gun
+Pipe wrench
+Monkey wrench
+Torque wrench
+Adjustable wrench
+Needle-nose pliers | needle nose pliers
+Vice grips | locking pliers
+Wire strippers
+Tin snips
+Bolt cutters
+File
+Rasp
+Awl
+Plumb bob
+Square | speed square | carpenter's square
+Chalk line
+Plunger | sink plunger | toilet plunger
+Snake | drain snake | plumber's snake
+Jack | car jack
+Tire iron | lug wrench
+Air compressor
+Pressure washer | power washer
+Shop vac | shop vacuum
+Flashlight | torch
+Magnifying glass
 Adze
 Drawknife
 Froe
@@ -3681,65 +3738,6 @@ Center finder
 Pocket knife
 
 [Rare]
-Pickaxe | pick
-Hatchet
-Trowel
-Pruning shears | pruners | secateurs
-Hedge trimmer
-Leaf blower
-Lawn mower | lawnmower
-Weed eater | weed whacker | string trimmer
-Pitchfork
-Spade
-Shears
-Saw horse | sawhorse
-Workbench
-Toolbox
-Router
-Planer
-Lathe
-Table saw
-Miter saw | mitre saw
-Band saw
-Reciprocating saw | sawzall
-Impact driver
-Angle grinder | grinder
-Heat gun
-Glue gun | hot glue gun
-Soldering iron
-Welder | welding torch
-Blowtorch | blow torch
-Caulk gun | caulking gun
-Putty knife
-Paint brush | paintbrush
-Paint roller | roller
-Staple gun
-Pipe wrench
-Monkey wrench
-Torque wrench
-Adjustable wrench
-Needle-nose pliers | needle nose pliers
-Vice grips | locking pliers
-Wire strippers
-Tin snips
-Bolt cutters
-File
-Rasp
-Awl
-Plumb bob
-Square | speed square | carpenter's square
-Chalk line
-Plunger | sink plunger | toilet plunger
-Snake | drain snake | plumber's snake
-Jack | car jack
-Tire iron | lug wrench
-Air compressor
-Pressure washer | power washer
-Shop vac | shop vacuum
-Flashlight | torch
-Magnifying glass
-
-[Schooler]
 Tape measure | measuring tape
 Level | spirit level | bubble level
 Shovel
@@ -3766,6 +3764,9 @@ Hoe
 Sledgehammer
 Stud finder
 
+[Schooler]
+Pliers
+
 [Too Clever]
 Duct tape
 Swiss Army knife | swiss army
@@ -3779,7 +3780,6 @@ Screwdriver
 Wrench | spanner
 Saw
 Drill | power drill | cordless drill
-Pliers
 
 [Not accepted]
 Spork
