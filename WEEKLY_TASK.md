@@ -47,6 +47,25 @@ environment variables instead, so don't create the file. If `git push` is refuse
 branch, push to the branch the session gives you; the site reads questions from the database, so
 the git copy is only a backup.
 
+### Pace yourself: one file at a time, save as you go
+
+This task runs on the owner's Claude plan, which has a usage limit per 5-hour window.
+
+- **Do not use subagents, helper agents, or parallel writers.** Write every file yourself, one
+  after another. Parallel helpers each reread the whole brief and burn through the limit in
+  minutes.
+- **Finish each file completely before starting the next:** write it, self-review it (step 6),
+  validate it (step 7), upload it (step 8), then commit and push it:
+  ```bash
+  git add content && git commit -m "Weekly questions: <file name>" && git push
+  ```
+  That way, if the usage limit is hit partway through, everything finished so far is already live
+  and saved.
+- **Resuming:** before writing anything, check `content/incoming/` and `content/imported/` for
+  this week's files. Upload any finished file that hasn't been imported yet, and skip work that's
+  already done. Run `npm run status` to see which Daily dates are still open.
+- Order of work: Dailies first (they're needed soonest), then the Unlimited files.
+
 ### 1. Get up to date
 
 ```bash
