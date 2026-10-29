@@ -63,12 +63,16 @@
       {
         "text": "Asafoetida",
         "aliases": [
-          "hing"
+          "hing",
+          "asafetida"
         ],
         "tier": 85
       },
       {
         "text": "Mace",
+        "aliases": [
+          "mace blade"
+        ],
         "tier": 85
       },
       {
@@ -102,7 +106,9 @@
       {
         "text": "Sichuan peppercorn",
         "aliases": [
-          "szechuan pepper"
+          "szechuan pepper",
+          "sichuan pepper",
+          "szechuan peppercorn"
         ],
         "tier": 85
       },
@@ -117,7 +123,8 @@
         "text": "Nigella",
         "aliases": [
           "black seed",
-          "kalonji"
+          "kalonji",
+          "nigella seeds"
         ],
         "tier": 85
       },
@@ -177,6 +184,10 @@
       },
       {
         "text": "Licorice root",
+        "aliases": [
+          "licorice",
+          "liquorice"
+        ],
         "tier": 85
       },
       {
@@ -188,6 +199,453 @@
         "aliases": [
           "file powder"
         ],
+        "tier": 85
+      },
+      {
+        "text": "Aleppo pepper",
+        "tier": 85
+      },
+      {
+        "text": "Anise hyssop",
+        "tier": 85
+      },
+      {
+        "text": "Arrowroot",
+        "tier": 85
+      },
+      {
+        "text": "Bee balm",
+        "tier": 85
+      },
+      {
+        "text": "Bergamot",
+        "tier": 85
+      },
+      {
+        "text": "Black cardamom",
+        "tier": 85
+      },
+      {
+        "text": "Black lime",
+        "aliases": [
+          "loomi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Black salt",
+        "aliases": [
+          "kala namak"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Bouquet garni",
+        "tier": 85
+      },
+      {
+        "text": "Calendula",
+        "tier": 85
+      },
+      {
+        "text": "Carom seeds",
+        "tier": 85
+      },
+      {
+        "text": "Cassia",
+        "tier": 85
+      },
+      {
+        "text": "Catnip",
+        "tier": 85
+      },
+      {
+        "text": "Celery salt",
+        "tier": 85
+      },
+      {
+        "text": "Chaat masala",
+        "tier": 85
+      },
+      {
+        "text": "Chipotle powder",
+        "tier": 85
+      },
+      {
+        "text": "Chocolate mint",
+        "tier": 85
+      },
+      {
+        "text": "Ceylon cinnamon",
+        "tier": 85
+      },
+      {
+        "text": "Dill seed",
+        "tier": 85
+      },
+      {
+        "text": "Elderflower",
+        "tier": 85
+      },
+      {
+        "text": "Espelette pepper",
+        "tier": 85
+      },
+      {
+        "text": "Fennel pollen",
+        "tier": 85
+      },
+      {
+        "text": "Fenugreek leaves",
+        "aliases": [
+          "kasuri methi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Garlic salt",
+        "tier": 85
+      },
+      {
+        "text": "Ghost pepper",
+        "tier": 85
+      },
+      {
+        "text": "Gochugaru",
+        "tier": 85
+      },
+      {
+        "text": "Horehound",
+        "tier": 85
+      },
+      {
+        "text": "Jamaican jerk seasoning",
+        "aliases": [
+          "jerk seasoning"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Japanese pepper",
+        "aliases": [
+          "sansho"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kashmiri chili",
+        "tier": 85
+      },
+      {
+        "text": "Lemon thyme",
+        "tier": 85
+      },
+      {
+        "text": "Lemon verbena",
+        "tier": 85
+      },
+      {
+        "text": "Marash pepper",
+        "tier": 85
+      },
+      {
+        "text": "Mexican oregano",
+        "tier": 85
+      },
+      {
+        "text": "Mitmita",
+        "tier": 85
+      },
+      {
+        "text": "Mixed spice",
+        "tier": 85
+      },
+      {
+        "text": "Mugwort",
+        "tier": 85
+      },
+      {
+        "text": "Mulling spices",
+        "tier": 85
+      },
+      {
+        "text": "Mustard powder",
+        "tier": 85
+      },
+      {
+        "text": "Onion salt",
+        "tier": 85
+      },
+      {
+        "text": "Orange peel",
+        "tier": 85
+      },
+      {
+        "text": "Panch phoron",
+        "tier": 85
+      },
+      {
+        "text": "Pasilla",
+        "tier": 85
+      },
+      {
+        "text": "Perilla",
+        "aliases": [
+          "shiso"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Piment d'Espelette",
+        "tier": 85
+      },
+      {
+        "text": "Piri piri",
+        "aliases": [
+          "peri peri"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pickling spice",
+        "tier": 85
+      },
+      {
+        "text": "Poultry seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Quatre epices",
+        "tier": 85
+      },
+      {
+        "text": "Safflower",
+        "tier": 85
+      },
+      {
+        "text": "Salad burnet",
+        "tier": 85
+      },
+      {
+        "text": "Sansho pepper",
+        "tier": 85
+      },
+      {
+        "text": "Seasoned salt",
+        "aliases": [
+          "lawry's"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shallot powder",
+        "tier": 85
+      },
+      {
+        "text": "Smoked salt",
+        "tier": 85
+      },
+      {
+        "text": "Spikenard",
+        "tier": 85
+      },
+      {
+        "text": "Steak seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Summer savory",
+        "tier": 85
+      },
+      {
+        "text": "Sweet basil",
+        "tier": 85
+      },
+      {
+        "text": "Sweet cicely",
+        "tier": 85
+      },
+      {
+        "text": "Tajín",
+        "tier": 85
+      },
+      {
+        "text": "Tamarind",
+        "tier": 85
+      },
+      {
+        "text": "Tandoori masala",
+        "tier": 85
+      },
+      {
+        "text": "Tansy",
+        "tier": 85
+      },
+      {
+        "text": "Tellicherry pepper",
+        "tier": 85
+      },
+      {
+        "text": "Truffle salt",
+        "tier": 85
+      },
+      {
+        "text": "Urfa biber",
+        "tier": 85
+      },
+      {
+        "text": "Vietnamese mint",
+        "aliases": [
+          "rau ram"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Vietnamese cinnamon",
+        "tier": 85
+      },
+      {
+        "text": "Wild garlic",
+        "tier": 85
+      },
+      {
+        "text": "Winter savory",
+        "tier": 85
+      },
+      {
+        "text": "Woodruff",
+        "tier": 85
+      },
+      {
+        "text": "Wormwood",
+        "tier": 85
+      },
+      {
+        "text": "Yarrow",
+        "tier": 85
+      },
+      {
+        "text": "Adobo seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Sazón",
+        "tier": 85
+      },
+      {
+        "text": "Montreal steak seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Greek seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Pizza seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Ranch seasoning",
+        "tier": 85
+      },
+      {
+        "text": "Accent",
+        "aliases": [
+          "msg"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Myrtle",
+        "tier": 85
+      },
+      {
+        "text": "Lemon myrtle",
+        "tier": 85
+      },
+      {
+        "text": "Pepperberry",
+        "tier": 85
+      },
+      {
+        "text": "Mountain pepper",
+        "tier": 85
+      },
+      {
+        "text": "Bush tomato",
+        "tier": 85
+      },
+      {
+        "text": "Chicory root",
+        "tier": 85
+      },
+      {
+        "text": "Dandelion root",
+        "tier": 85
+      },
+      {
+        "text": "Burdock root",
+        "tier": 85
+      },
+      {
+        "text": "Fingerroot",
+        "tier": 85
+      },
+      {
+        "text": "Kencur",
+        "tier": 85
+      },
+      {
+        "text": "Torch ginger",
+        "tier": 85
+      },
+      {
+        "text": "Uda",
+        "tier": 85
+      },
+      {
+        "text": "Alligator pepper",
+        "tier": 85
+      },
+      {
+        "text": "Ethiopian cardamom",
+        "aliases": [
+          "korarima"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mastic",
+        "tier": 85
+      },
+      {
+        "text": "Holy basil",
+        "aliases": [
+          "tulsi"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Rose petals",
+        "tier": 85
+      },
+      {
+        "text": "Hibiscus",
+        "tier": 85
+      },
+      {
+        "text": "Barberries",
+        "aliases": [
+          "zereshk"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Garlic chives",
+        "tier": 85
+      },
+      {
+        "text": "Stinging nettle",
         "tier": 85
       },
       {
@@ -262,7 +720,8 @@
       {
         "text": "Five spice",
         "aliases": [
-          "chinese five spice"
+          "chinese five spice",
+          "five-spice powder"
         ],
         "tier": 60
       },
@@ -279,6 +738,9 @@
       },
       {
         "text": "Fenugreek",
+        "aliases": [
+          "methi"
+        ],
         "tier": 60
       },
       {
@@ -394,7 +856,8 @@
       {
         "text": "Cilantro",
         "aliases": [
-          "coriander"
+          "coriander",
+          "coriander seed"
         ],
         "tier": 30
       },
@@ -460,6 +923,10 @@
       },
       {
         "text": "Vanilla",
+        "aliases": [
+          "vanilla bean",
+          "vanilla extract"
+        ],
         "tier": 30
       },
       {
@@ -517,6 +984,9 @@
       },
       {
         "text": "Cinnamon",
+        "aliases": [
+          "cinnamon stick"
+        ],
         "tier": 10
       },
       {
@@ -535,7 +1005,10 @@
       "Salsa",
       "Butter",
       "Flour",
-      "Olive oil"
+      "Olive oil",
+      "Sugar",
+      "Vinegar",
+      "Honey"
     ]
   },
   {
