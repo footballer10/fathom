@@ -1230,10 +1230,83 @@ Hazard lights
 Third brake light
 Keyless entry | key fob
 Push button start
+Gas cap | fuel cap
+Back seat
+Front seat
+Bucket seat
+Bench seat
+Hood ornament
+Emblem | badge
+Wheel well
+Truck bed
+Cargo area
+Clutch pedal
+Power windows
+Window crank
+Radiator cap
+Radiator hose
+Fuel line
+Fuel filter
+Oil cap
+Valve cover
+Piston rings
+Connecting rods
+Oil pump
+Crankcase
+Engine mount | motor mount
+Front axle
+Rear axle
+Half shaft
+Brake shoes
+Brake fluid reservoir
+Power steering pump
+Temperature gauge
+Oil pressure gauge
+Clock
+Heads-up display
+Parking sensors
+Convertible top | soft top
+Hardtop
+Roll cage
+Roll bar
+Ashtray
+Grab handle
+Map light
+Power outlet
+CD player
+Tape deck | cassette player
+Amplifier
+B-pillar
+C-pillar
+Crumple zone
+Subframe
+Unibody
+Torsion bar
+Strut mount
+Wheel cylinder
+Wheel studs
+Lug wrench | tire iron
+Washer fluid reservoir
+Spark plug wires
+Distributor cap
+Cold air intake
+Air intake
+Wastegate
+Blow-off valve
+Bull bar
+Winch
+Fender flares
+Side skirts
+Daytime running lights
+Wiper motor
+Window regulator
+Child lock
+Hood latch
+Trunk latch
 
 [Schooler]
 Battery
-Headlights | headlight
+Headlights | headlight | headlamps
 Taillights | tail light | taillight
 Mirror | rearview mirror | side mirror
 Bumper
@@ -1250,7 +1323,7 @@ Gas pedal | accelerator
 Brake pedal
 Clutch
 Gear shift | gear stick | shifter | stick shift
-Transmission
+Transmission | gearbox
 Gas tank | fuel tank
 Exhaust | exhaust pipe | tailpipe
 Muffler
@@ -1268,12 +1341,12 @@ Odometer
 Glove box | glove compartment
 Sunroof | moonroof
 Turn signal | blinker | indicator
-License plate
-Spare tire
+License plate | number plate
+Spare tire | spare wheel
 Jack
 Ignition
 Key | car key
-Steering column
+Steering column | steering rack
 Suspension
 Shocks | shock absorbers
 Fender
@@ -1288,7 +1361,7 @@ Air conditioning | ac
 GPS | navigation
 Backup camera
 Cruise control
-Parking brake | emergency brake | handbrake
+Parking brake | emergency brake | handbrake | e-brake
 
 [Too Clever]
 Cigarette lighter
@@ -1467,6 +1540,78 @@ Aeonium
 Sedum
 Crassula
 Baby toes
+Golden pothos
+Heartleaf philodendron
+Cat palm
+Fishtail palm
+Pygmy date palm
+Easter cactus
+Thanksgiving cactus
+Moth orchid | phalaenopsis
+Lily
+Calla lily
+Chrysanthemum
+Mum
+Azalea
+Tulip
+Hyacinth
+Paperwhite
+Daffodil
+Snowdrop
+Primrose
+Violet
+Fuchsia
+Impatiens
+Shamrock
+String of nickels
+Hoya carnosa
+Dracaena fragrans
+Song of India
+Ming aralia
+Strelitzia
+Ixora
+Mandevilla
+Bougainvillea
+Citrus tree
+Fig tree
+Herbs
+Parsley
+Thyme
+Chives
+Lavender
+Catnip
+Cat grass
+Wheatgrass
+Spider fern
+Lemon button fern
+Painted lady
+Pink quill
+Guzmania
+Vriesea
+Spanish moss
+Moss
+Terrarium plant
+Zebra haworthia
+Snake plant laurentii
+Dracaena trifasciata
+Peperomia hope
+Baby rubber plant
+Friendship plant
+Swedish ivy
+Grape ivy
+Kangaroo vine
+Pothos n'joy
+Cebu blue pothos
+Monstera adansonii
+Monstera deliciosa
+Philodendron xanadu
+Philodendron selloum
+Philodendron brasil
+Velvet philodendron
+Burgundy rubber plant
+Ficus lyrata
+Ficus elastica
+Ficus benjamina
 
 [Schooler]
 Peace lily
@@ -1474,7 +1619,7 @@ Fiddle leaf fig | fiddle-leaf fig
 Monstera | swiss cheese plant
 Philodendron
 Rubber plant | rubber tree
-ZZ plant
+ZZ plant | zanzibar gem
 Jade plant | money plant
 Ivy | english ivy
 Bamboo | lucky bamboo
@@ -1516,7 +1661,7 @@ Snake plant | mother-in-law's tongue | sansevieria
 Pothos | devil's ivy
 Fern | boston fern
 Succulent
-Spider plant
+Spider plant | airplane plant
 Orchid
 
 [Not accepted]
@@ -1676,7 +1821,7 @@ category: brands
 prompt: Name a brand mascot (like Tony the Tiger)
 
 [One in a Krillion]
-Mr. Peanut | mr peanut
+Mr. Peanut | mr peanut | planters man
 
 [Deep Cut]
 Sir Grapefellow
@@ -1743,6 +1888,49 @@ Red Baron
 Speedy Alka-Seltzer | speedy
 Mr. Zip
 Sprout | little green sprout
+Little Caesar | little caesars man
+Charmin bears
+Red Robin
+Chick-fil-A cows | eat mor chikin cows
+Dairy Queen Curly
+Bob's Big Boy
+Lucky Charms leprechaun
+Count Chocula
+Franken Berry
+Boo Berry
+Honey Monster
+Cinnamon Toast Crunch chefs | wendell
+Crazy Squirrel
+Little Debbie
+Betty Crocker
+Baby Nut
+Pringles Julius
+Nesquik Quicky
+Hostess Captain Cupcake
+King Ding Dong
+Fruit of the Loom guys
+Laughing Cow
+Elmer the Bull
+Bazooka Joe
+Duke the Bush's dog | duke
+Cheesasaurus Rex
+Chuck E. Cheese
+Android robot | bugdroid
+Firefox fox
+Duolingo owl | duo
+Twitter bird | larry the bird
+Mailchimp Freddie | freddie
+Reddit alien | snoo
+Morris the Cat
+Pets.com sock puppet
+Sprint guy
+Verizon guy | can you hear me now guy
+Peggy from Discover
+Progressive Jamie
+Liberty Mutual emu
+Doug the emu
+GEICO caveman | caveman
+Maxwell the pig
 
 [Schooler]
 Flo
@@ -1753,10 +1941,10 @@ Trix Rabbit | trix bunny | silly rabbit
 Lucky the Leprechaun | lucky
 Cap'n Crunch | captain crunch
 Snap, Crackle and Pop | snap crackle pop | snap | crackle | pop
-Toucan Sam
+Toucan Sam | froot loops toucan
 Colonel Sanders | the colonel
 Wendy
-The King | burger king king
+The King | burger king king | burger king
 Jack Box | jack
 Chester Cheetah
 Mr. Clean
@@ -1789,15 +1977,26 @@ Monopoly Man | rich uncle pennybags | mr monopoly
 [Too Clever]
 Smokey Bear | smokey the bear
 McGruff the Crime Dog | mcgruff
+Red M&M
+Yellow M&M
+Green M&M
+Blue M&M
+Orange M&M
+Brown M&M
+Mr. Met
+Phillie Phanatic
+Gritty
+Clippy
+Tux
 
 [Plankton]
 Tony the Tiger | tony
 Ronald McDonald | ronald
 Pillsbury Doughboy | doughboy | poppin' fresh
-Geico Gecko | gecko | the gecko
+Geico Gecko | gecko | the gecko | martin the gecko
 M&M's | m&m characters | red and yellow
-Kool-Aid Man | kool aid man
-Energizer Bunny
+Kool-Aid Man | kool aid man | oh yeah man
+Energizer Bunny | energizer
 
 [Not accepted]
 Mickey D's
@@ -1819,7 +2018,7 @@ Beaker
 [Deep Cut]
 Shakey Sanchez
 Gladys the Cow
-Bean Bunny
+Bean Bunny | bean
 Andy and Randy Pig
 Spamela Hamderson
 Johnny Fiama
@@ -1896,17 +2095,17 @@ Red Fraggle | red
 Mokey Fraggle | mokey
 Wembley Fraggle | wembley
 Boober Fraggle | boober
-Uncle Traveling Matt
-Sprocket
-Lefty the Salesman
+Uncle Traveling Matt | traveling matt
+Sprocket | sprocket the dog
+Lefty the Salesman | lefty
 Forgetful Jones
 Sherlock Hemlock
 Roosevelt Franklin
-Hoots the Owl
+Hoots the Owl | hoots
 Little Bird
 Benny Rabbit
-Bruno the Trashman
-Barkley
+Bruno the Trashman | bruno
+Barkley | barkley the dog
 Biff and Sully
 Frazzle
 Honkers
@@ -1926,6 +2125,40 @@ Ji-Young
 Tamir
 Fat Blue
 Martians | yip yip
+Lips
+Clifford
+Muppet Newsman | newsman
+Mr. Johnson
+Baby Kermit
+Baby Piggy
+Baby Gonzo
+Baby Fozzie
+Baby Animal
+Baby Rowlf
+Baby Scooter
+Baby Skeeter
+Nanny
+Gaffer
+Foo-Foo
+Pops
+Bill the Frog
+Wander McMooch
+Blue Frackle
+Doc
+Doozers
+Julia
+Wes
+Rudy
+Gonger
+Kingston Livingston III
+Ruby
+Dr. Nobel Price
+Simon Soundman
+Professor Hastings
+Elmo's mom | mae
+Radar
+Elmo's goldfish | dorothy
+Cookie Monster's cousin
 
 [Schooler]
 Grover
@@ -1941,7 +2174,7 @@ Rizzo the Rat | rizzo
 Pepe the King Prawn | pepe
 Sam the Eagle | sam eagle
 Dr. Bunsen Honeydew | bunsen | bunsen honeydew
-Dr. Teeth
+Dr. Teeth | dr teeth and the electric mayhem | electric mayhem
 Janice
 Floyd Pepper | floyd
 Zoot
@@ -1952,7 +2185,7 @@ Abby Cadabby | abby
 Rosita
 Baby Bear
 Prairie Dawn
-Herry Monster
+Herry Monster | herry
 Guy Smiley
 Two-Headed Monster
 Slimey the Worm | slimey
@@ -1961,7 +2194,7 @@ Dorothy the goldfish
 Mr. Noodle
 
 [Too Clever]
-Mahna Mahna
+Mahna Mahna | snowths | manamana
 Muppet Babies
 Snuffleupagus | snuffy | mr snuffleupagus
 
@@ -2161,6 +2394,128 @@ Terrarium
 Birdcage | cage
 Pet carrier
 Pod
+Cardboard box
+Garbage bag | trash bag
+Sandwich bag
+Freezer bag
+Lunch bag
+Gift bag
+Gift box
+Shopping bag
+Toiletry bag
+Makeup bag
+Cosmetic bag
+Pencil pouch
+Coin purse
+Change purse
+Folder
+Binder
+File cabinet
+Filing box
+Archive box
+Storage bin
+Storage box
+Storage container
+Plastic container
+Food container
+Styrofoam container
+Clamshell
+Deli container
+Yogurt cup
+Juice box
+Milk jug
+Milk carton
+Cereal box
+Soda can
+Beer can
+Tin can
+Paint can
+Spice jar
+Salt shaker
+Pepper shaker
+Sugar bowl
+Creamer
+Teapot
+Coffee pot
+Kettle
+Saucepan
+Wok
+Dutch oven
+Mixing bowl
+Measuring cup
+Colander
+Ice bucket
+Ice cube tray
+Wine bottle
+Beer bottle
+Baby bottle
+Sippy cup
+Shot glass
+Wine glass
+Champagne flute
+Pint glass
+Teacup
+Coffee cup
+Travel mug
+Tumbler cup
+Medicine cabinet
+First aid kit
+Sharps container
+Specimen cup
+Petri dish
+Watering can
+Bird feeder
+Litter box
+Dog bowl
+Feed bin
+Trough
+Grain bin
+Corn crib
+Shipping crate
+Boxcar
+Tank car
+Oil drum
+Propane tank
+Scuba tank
+Water tank
+Septic tank
+Hot tub
+Bathtub
+Mailbag
+Gym bag
+Diaper bag
+Camera bag
+Laptop bag
+Laptop sleeve
+Phone case
+Wallet case
+Passport holder
+Belt bag
+Sling bag
+Dresser
+Chest of drawers
+Wardrobe
+Armoire
+Cupboard
+Hutch
+Sideboard
+Credenza
+Toy box
+Toy chest
+Wastebasket
+Wastepaper basket
+Pedal bin
+Ashtray
+Spittoon
+Chamber pot
+Bedpan
+Biohazard bag
+Time capsule
+Ballot box
+Tip jar
+Offering box
+Donation box
+Safety deposit box
 
 [Schooler]
 Basket
@@ -2168,7 +2523,7 @@ Crate
 Barrel
 Bin
 Tub
-Tupperware
+Tupperware | tupperware container
 Mug
 Glass
 Vase
@@ -2186,7 +2541,7 @@ Cooler
 Thermos
 Canteen
 Flask
-Trash can | garbage can
+Trash can | garbage can | rubbish bin
 Recycling bin
 Laundry basket | hamper
 Toolbox
@@ -2203,7 +2558,7 @@ Piggy bank
 Cookie jar
 Mason jar
 Water bottle
-Ziploc bag | ziplock | plastic bag
+Ziploc bag | ziplock | plastic bag | zip-lock bag
 Paper bag
 Grocery bag
 Tote bag | tote
@@ -2217,7 +2572,7 @@ Aquarium | fish tank
 
 [Too Clever]
 Pandora's box
-Shipping container
+Shipping container | cargo container | intermodal container
 Stomach
 
 [Plankton]

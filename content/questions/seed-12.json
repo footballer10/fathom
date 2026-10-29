@@ -5177,13 +5177,324 @@
         "tier": 60
       },
       {
+        "text": "Gas cap",
+        "aliases": [
+          "fuel cap"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Back seat",
+        "tier": 60
+      },
+      {
+        "text": "Front seat",
+        "tier": 60
+      },
+      {
+        "text": "Bucket seat",
+        "tier": 60
+      },
+      {
+        "text": "Bench seat",
+        "tier": 60
+      },
+      {
+        "text": "Hood ornament",
+        "tier": 60
+      },
+      {
+        "text": "Emblem",
+        "aliases": [
+          "badge"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wheel well",
+        "tier": 60
+      },
+      {
+        "text": "Truck bed",
+        "tier": 60
+      },
+      {
+        "text": "Cargo area",
+        "tier": 60
+      },
+      {
+        "text": "Clutch pedal",
+        "tier": 60
+      },
+      {
+        "text": "Power windows",
+        "tier": 60
+      },
+      {
+        "text": "Window crank",
+        "tier": 60
+      },
+      {
+        "text": "Radiator cap",
+        "tier": 60
+      },
+      {
+        "text": "Radiator hose",
+        "tier": 60
+      },
+      {
+        "text": "Fuel line",
+        "tier": 60
+      },
+      {
+        "text": "Fuel filter",
+        "tier": 60
+      },
+      {
+        "text": "Oil cap",
+        "tier": 60
+      },
+      {
+        "text": "Valve cover",
+        "tier": 60
+      },
+      {
+        "text": "Piston rings",
+        "tier": 60
+      },
+      {
+        "text": "Connecting rods",
+        "tier": 60
+      },
+      {
+        "text": "Oil pump",
+        "tier": 60
+      },
+      {
+        "text": "Crankcase",
+        "tier": 60
+      },
+      {
+        "text": "Engine mount",
+        "aliases": [
+          "motor mount"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Front axle",
+        "tier": 60
+      },
+      {
+        "text": "Rear axle",
+        "tier": 60
+      },
+      {
+        "text": "Half shaft",
+        "tier": 60
+      },
+      {
+        "text": "Brake shoes",
+        "tier": 60
+      },
+      {
+        "text": "Brake fluid reservoir",
+        "tier": 60
+      },
+      {
+        "text": "Power steering pump",
+        "tier": 60
+      },
+      {
+        "text": "Temperature gauge",
+        "tier": 60
+      },
+      {
+        "text": "Oil pressure gauge",
+        "tier": 60
+      },
+      {
+        "text": "Clock",
+        "tier": 60
+      },
+      {
+        "text": "Heads-up display",
+        "tier": 60
+      },
+      {
+        "text": "Parking sensors",
+        "tier": 60
+      },
+      {
+        "text": "Convertible top",
+        "aliases": [
+          "soft top"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hardtop",
+        "tier": 60
+      },
+      {
+        "text": "Roll cage",
+        "tier": 60
+      },
+      {
+        "text": "Roll bar",
+        "tier": 60
+      },
+      {
+        "text": "Ashtray",
+        "tier": 60
+      },
+      {
+        "text": "Grab handle",
+        "tier": 60
+      },
+      {
+        "text": "Map light",
+        "tier": 60
+      },
+      {
+        "text": "Power outlet",
+        "tier": 60
+      },
+      {
+        "text": "CD player",
+        "tier": 60
+      },
+      {
+        "text": "Tape deck",
+        "aliases": [
+          "cassette player"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Amplifier",
+        "tier": 60
+      },
+      {
+        "text": "B-pillar",
+        "tier": 60
+      },
+      {
+        "text": "C-pillar",
+        "tier": 60
+      },
+      {
+        "text": "Crumple zone",
+        "tier": 60
+      },
+      {
+        "text": "Subframe",
+        "tier": 60
+      },
+      {
+        "text": "Unibody",
+        "tier": 60
+      },
+      {
+        "text": "Torsion bar",
+        "tier": 60
+      },
+      {
+        "text": "Strut mount",
+        "tier": 60
+      },
+      {
+        "text": "Wheel cylinder",
+        "tier": 60
+      },
+      {
+        "text": "Wheel studs",
+        "tier": 60
+      },
+      {
+        "text": "Lug wrench",
+        "aliases": [
+          "tire iron"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Washer fluid reservoir",
+        "tier": 60
+      },
+      {
+        "text": "Spark plug wires",
+        "tier": 60
+      },
+      {
+        "text": "Distributor cap",
+        "tier": 60
+      },
+      {
+        "text": "Cold air intake",
+        "tier": 60
+      },
+      {
+        "text": "Air intake",
+        "tier": 60
+      },
+      {
+        "text": "Wastegate",
+        "tier": 60
+      },
+      {
+        "text": "Blow-off valve",
+        "tier": 60
+      },
+      {
+        "text": "Bull bar",
+        "tier": 60
+      },
+      {
+        "text": "Winch",
+        "tier": 60
+      },
+      {
+        "text": "Fender flares",
+        "tier": 60
+      },
+      {
+        "text": "Side skirts",
+        "tier": 60
+      },
+      {
+        "text": "Daytime running lights",
+        "tier": 60
+      },
+      {
+        "text": "Wiper motor",
+        "tier": 60
+      },
+      {
+        "text": "Window regulator",
+        "tier": 60
+      },
+      {
+        "text": "Child lock",
+        "tier": 60
+      },
+      {
+        "text": "Hood latch",
+        "tier": 60
+      },
+      {
+        "text": "Trunk latch",
+        "tier": 60
+      },
+      {
         "text": "Battery",
         "tier": 30
       },
       {
         "text": "Headlights",
         "aliases": [
-          "headlight"
+          "headlight",
+          "headlamps"
         ],
         "tier": 30
       },
@@ -5288,6 +5599,9 @@
       },
       {
         "text": "Transmission",
+        "aliases": [
+          "gearbox"
+        ],
         "tier": 30
       },
       {
@@ -5386,10 +5700,16 @@
       },
       {
         "text": "License plate",
+        "aliases": [
+          "number plate"
+        ],
         "tier": 30
       },
       {
         "text": "Spare tire",
+        "aliases": [
+          "spare wheel"
+        ],
         "tier": 30
       },
       {
@@ -5409,6 +5729,9 @@
       },
       {
         "text": "Steering column",
+        "aliases": [
+          "steering rack"
+        ],
         "tier": 30
       },
       {
@@ -5486,7 +5809,8 @@
         "text": "Parking brake",
         "aliases": [
           "emergency brake",
-          "handbrake"
+          "handbrake",
+          "e-brake"
         ],
         "tier": 30
       },
@@ -6212,6 +6536,297 @@
         "tier": 60
       },
       {
+        "text": "Golden pothos",
+        "tier": 60
+      },
+      {
+        "text": "Heartleaf philodendron",
+        "tier": 60
+      },
+      {
+        "text": "Cat palm",
+        "tier": 60
+      },
+      {
+        "text": "Fishtail palm",
+        "tier": 60
+      },
+      {
+        "text": "Pygmy date palm",
+        "tier": 60
+      },
+      {
+        "text": "Easter cactus",
+        "tier": 60
+      },
+      {
+        "text": "Thanksgiving cactus",
+        "tier": 60
+      },
+      {
+        "text": "Moth orchid",
+        "aliases": [
+          "phalaenopsis"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lily",
+        "tier": 60
+      },
+      {
+        "text": "Calla lily",
+        "tier": 60
+      },
+      {
+        "text": "Chrysanthemum",
+        "tier": 60
+      },
+      {
+        "text": "Mum",
+        "tier": 60
+      },
+      {
+        "text": "Azalea",
+        "tier": 60
+      },
+      {
+        "text": "Tulip",
+        "tier": 60
+      },
+      {
+        "text": "Hyacinth",
+        "tier": 60
+      },
+      {
+        "text": "Paperwhite",
+        "tier": 60
+      },
+      {
+        "text": "Daffodil",
+        "tier": 60
+      },
+      {
+        "text": "Snowdrop",
+        "tier": 60
+      },
+      {
+        "text": "Primrose",
+        "tier": 60
+      },
+      {
+        "text": "Violet",
+        "tier": 60
+      },
+      {
+        "text": "Fuchsia",
+        "tier": 60
+      },
+      {
+        "text": "Impatiens",
+        "tier": 60
+      },
+      {
+        "text": "Shamrock",
+        "tier": 60
+      },
+      {
+        "text": "String of nickels",
+        "tier": 60
+      },
+      {
+        "text": "Hoya carnosa",
+        "tier": 60
+      },
+      {
+        "text": "Dracaena fragrans",
+        "tier": 60
+      },
+      {
+        "text": "Song of India",
+        "tier": 60
+      },
+      {
+        "text": "Ming aralia",
+        "tier": 60
+      },
+      {
+        "text": "Strelitzia",
+        "tier": 60
+      },
+      {
+        "text": "Ixora",
+        "tier": 60
+      },
+      {
+        "text": "Mandevilla",
+        "tier": 60
+      },
+      {
+        "text": "Bougainvillea",
+        "tier": 60
+      },
+      {
+        "text": "Citrus tree",
+        "tier": 60
+      },
+      {
+        "text": "Fig tree",
+        "tier": 60
+      },
+      {
+        "text": "Herbs",
+        "tier": 60
+      },
+      {
+        "text": "Parsley",
+        "tier": 60
+      },
+      {
+        "text": "Thyme",
+        "tier": 60
+      },
+      {
+        "text": "Chives",
+        "tier": 60
+      },
+      {
+        "text": "Lavender",
+        "tier": 60
+      },
+      {
+        "text": "Catnip",
+        "tier": 60
+      },
+      {
+        "text": "Cat grass",
+        "tier": 60
+      },
+      {
+        "text": "Wheatgrass",
+        "tier": 60
+      },
+      {
+        "text": "Spider fern",
+        "tier": 60
+      },
+      {
+        "text": "Lemon button fern",
+        "tier": 60
+      },
+      {
+        "text": "Painted lady",
+        "tier": 60
+      },
+      {
+        "text": "Pink quill",
+        "tier": 60
+      },
+      {
+        "text": "Guzmania",
+        "tier": 60
+      },
+      {
+        "text": "Vriesea",
+        "tier": 60
+      },
+      {
+        "text": "Spanish moss",
+        "tier": 60
+      },
+      {
+        "text": "Moss",
+        "tier": 60
+      },
+      {
+        "text": "Terrarium plant",
+        "tier": 60
+      },
+      {
+        "text": "Zebra haworthia",
+        "tier": 60
+      },
+      {
+        "text": "Snake plant laurentii",
+        "tier": 60
+      },
+      {
+        "text": "Dracaena trifasciata",
+        "tier": 60
+      },
+      {
+        "text": "Peperomia hope",
+        "tier": 60
+      },
+      {
+        "text": "Baby rubber plant",
+        "tier": 60
+      },
+      {
+        "text": "Friendship plant",
+        "tier": 60
+      },
+      {
+        "text": "Swedish ivy",
+        "tier": 60
+      },
+      {
+        "text": "Grape ivy",
+        "tier": 60
+      },
+      {
+        "text": "Kangaroo vine",
+        "tier": 60
+      },
+      {
+        "text": "Pothos n'joy",
+        "tier": 60
+      },
+      {
+        "text": "Cebu blue pothos",
+        "tier": 60
+      },
+      {
+        "text": "Monstera adansonii",
+        "tier": 60
+      },
+      {
+        "text": "Monstera deliciosa",
+        "tier": 60
+      },
+      {
+        "text": "Philodendron xanadu",
+        "tier": 60
+      },
+      {
+        "text": "Philodendron selloum",
+        "tier": 60
+      },
+      {
+        "text": "Philodendron brasil",
+        "tier": 60
+      },
+      {
+        "text": "Velvet philodendron",
+        "tier": 60
+      },
+      {
+        "text": "Burgundy rubber plant",
+        "tier": 60
+      },
+      {
+        "text": "Ficus lyrata",
+        "tier": 60
+      },
+      {
+        "text": "Ficus elastica",
+        "tier": 60
+      },
+      {
+        "text": "Ficus benjamina",
+        "tier": 60
+      },
+      {
         "text": "Peace lily",
         "tier": 30
       },
@@ -6242,6 +6857,9 @@
       },
       {
         "text": "ZZ plant",
+        "aliases": [
+          "zanzibar gem"
+        ],
         "tier": 30
       },
       {
@@ -6437,6 +7055,9 @@
       },
       {
         "text": "Spider plant",
+        "aliases": [
+          "airplane plant"
+        ],
         "tier": 10
       },
       {
@@ -7106,7 +7727,8 @@
       {
         "text": "Mr. Peanut",
         "aliases": [
-          "mr peanut"
+          "mr peanut",
+          "planters man"
         ],
         "tier": 100
       },
@@ -7401,6 +8023,211 @@
         "tier": 60
       },
       {
+        "text": "Little Caesar",
+        "aliases": [
+          "little caesars man"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Charmin bears",
+        "tier": 60
+      },
+      {
+        "text": "Red Robin",
+        "tier": 60
+      },
+      {
+        "text": "Chick-fil-A cows",
+        "aliases": [
+          "eat mor chikin cows"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Dairy Queen Curly",
+        "tier": 60
+      },
+      {
+        "text": "Bob's Big Boy",
+        "tier": 60
+      },
+      {
+        "text": "Lucky Charms leprechaun",
+        "tier": 60
+      },
+      {
+        "text": "Count Chocula",
+        "tier": 60
+      },
+      {
+        "text": "Franken Berry",
+        "tier": 60
+      },
+      {
+        "text": "Boo Berry",
+        "tier": 60
+      },
+      {
+        "text": "Honey Monster",
+        "tier": 60
+      },
+      {
+        "text": "Cinnamon Toast Crunch chefs",
+        "aliases": [
+          "wendell"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Crazy Squirrel",
+        "tier": 60
+      },
+      {
+        "text": "Little Debbie",
+        "tier": 60
+      },
+      {
+        "text": "Betty Crocker",
+        "tier": 60
+      },
+      {
+        "text": "Baby Nut",
+        "tier": 60
+      },
+      {
+        "text": "Pringles Julius",
+        "tier": 60
+      },
+      {
+        "text": "Nesquik Quicky",
+        "tier": 60
+      },
+      {
+        "text": "Hostess Captain Cupcake",
+        "tier": 60
+      },
+      {
+        "text": "King Ding Dong",
+        "tier": 60
+      },
+      {
+        "text": "Fruit of the Loom guys",
+        "tier": 60
+      },
+      {
+        "text": "Laughing Cow",
+        "tier": 60
+      },
+      {
+        "text": "Elmer the Bull",
+        "tier": 60
+      },
+      {
+        "text": "Bazooka Joe",
+        "tier": 60
+      },
+      {
+        "text": "Duke the Bush's dog",
+        "aliases": [
+          "duke"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cheesasaurus Rex",
+        "tier": 60
+      },
+      {
+        "text": "Chuck E. Cheese",
+        "tier": 60
+      },
+      {
+        "text": "Android robot",
+        "aliases": [
+          "bugdroid"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Firefox fox",
+        "tier": 60
+      },
+      {
+        "text": "Duolingo owl",
+        "aliases": [
+          "duo"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Twitter bird",
+        "aliases": [
+          "larry the bird"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mailchimp Freddie",
+        "aliases": [
+          "freddie"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Reddit alien",
+        "aliases": [
+          "snoo"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Morris the Cat",
+        "tier": 60
+      },
+      {
+        "text": "Pets.com sock puppet",
+        "tier": 60
+      },
+      {
+        "text": "Sprint guy",
+        "tier": 60
+      },
+      {
+        "text": "Verizon guy",
+        "aliases": [
+          "can you hear me now guy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Peggy from Discover",
+        "tier": 60
+      },
+      {
+        "text": "Progressive Jamie",
+        "tier": 60
+      },
+      {
+        "text": "Liberty Mutual emu",
+        "tier": 60
+      },
+      {
+        "text": "Doug the emu",
+        "tier": 60
+      },
+      {
+        "text": "GEICO caveman",
+        "aliases": [
+          "caveman"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Maxwell the pig",
+        "tier": 60
+      },
+      {
         "text": "Flo",
         "tier": 30
       },
@@ -7453,6 +8280,9 @@
       },
       {
         "text": "Toucan Sam",
+        "aliases": [
+          "froot loops toucan"
+        ],
         "tier": 30
       },
       {
@@ -7469,7 +8299,8 @@
       {
         "text": "The King",
         "aliases": [
-          "burger king king"
+          "burger king king",
+          "burger king"
         ],
         "tier": 30
       },
@@ -7642,6 +8473,50 @@
         "tier": 15
       },
       {
+        "text": "Red M&M",
+        "tier": 15
+      },
+      {
+        "text": "Yellow M&M",
+        "tier": 15
+      },
+      {
+        "text": "Green M&M",
+        "tier": 15
+      },
+      {
+        "text": "Blue M&M",
+        "tier": 15
+      },
+      {
+        "text": "Orange M&M",
+        "tier": 15
+      },
+      {
+        "text": "Brown M&M",
+        "tier": 15
+      },
+      {
+        "text": "Mr. Met",
+        "tier": 15
+      },
+      {
+        "text": "Phillie Phanatic",
+        "tier": 15
+      },
+      {
+        "text": "Gritty",
+        "tier": 15
+      },
+      {
+        "text": "Clippy",
+        "tier": 15
+      },
+      {
+        "text": "Tux",
+        "tier": 15
+      },
+      {
         "text": "Tony the Tiger",
         "aliases": [
           "tony"
@@ -7667,7 +8542,8 @@
         "text": "Geico Gecko",
         "aliases": [
           "gecko",
-          "the gecko"
+          "the gecko",
+          "martin the gecko"
         ],
         "tier": 10
       },
@@ -7682,12 +8558,16 @@
       {
         "text": "Kool-Aid Man",
         "aliases": [
-          "kool aid man"
+          "kool aid man",
+          "oh yeah man"
         ],
         "tier": 10
       },
       {
         "text": "Energizer Bunny",
+        "aliases": [
+          "energizer"
+        ],
         "tier": 10
       }
     ],
@@ -7720,6 +8600,9 @@
       },
       {
         "text": "Bean Bunny",
+        "aliases": [
+          "bean"
+        ],
         "tier": 85
       },
       {
@@ -8041,14 +8924,23 @@
       },
       {
         "text": "Uncle Traveling Matt",
+        "aliases": [
+          "traveling matt"
+        ],
         "tier": 60
       },
       {
         "text": "Sprocket",
+        "aliases": [
+          "sprocket the dog"
+        ],
         "tier": 60
       },
       {
         "text": "Lefty the Salesman",
+        "aliases": [
+          "lefty"
+        ],
         "tier": 60
       },
       {
@@ -8065,6 +8957,9 @@
       },
       {
         "text": "Hoots the Owl",
+        "aliases": [
+          "hoots"
+        ],
         "tier": 60
       },
       {
@@ -8077,10 +8972,16 @@
       },
       {
         "text": "Bruno the Trashman",
+        "aliases": [
+          "bruno"
+        ],
         "tier": 60
       },
       {
         "text": "Barkley",
+        "aliases": [
+          "barkley the dog"
+        ],
         "tier": 60
       },
       {
@@ -8166,6 +9067,151 @@
         "tier": 60
       },
       {
+        "text": "Lips",
+        "tier": 60
+      },
+      {
+        "text": "Clifford",
+        "tier": 60
+      },
+      {
+        "text": "Muppet Newsman",
+        "aliases": [
+          "newsman"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mr. Johnson",
+        "tier": 60
+      },
+      {
+        "text": "Baby Kermit",
+        "tier": 60
+      },
+      {
+        "text": "Baby Piggy",
+        "tier": 60
+      },
+      {
+        "text": "Baby Gonzo",
+        "tier": 60
+      },
+      {
+        "text": "Baby Fozzie",
+        "tier": 60
+      },
+      {
+        "text": "Baby Animal",
+        "tier": 60
+      },
+      {
+        "text": "Baby Rowlf",
+        "tier": 60
+      },
+      {
+        "text": "Baby Scooter",
+        "tier": 60
+      },
+      {
+        "text": "Baby Skeeter",
+        "tier": 60
+      },
+      {
+        "text": "Nanny",
+        "tier": 60
+      },
+      {
+        "text": "Gaffer",
+        "tier": 60
+      },
+      {
+        "text": "Foo-Foo",
+        "tier": 60
+      },
+      {
+        "text": "Pops",
+        "tier": 60
+      },
+      {
+        "text": "Bill the Frog",
+        "tier": 60
+      },
+      {
+        "text": "Wander McMooch",
+        "tier": 60
+      },
+      {
+        "text": "Blue Frackle",
+        "tier": 60
+      },
+      {
+        "text": "Doc",
+        "tier": 60
+      },
+      {
+        "text": "Doozers",
+        "tier": 60
+      },
+      {
+        "text": "Julia",
+        "tier": 60
+      },
+      {
+        "text": "Wes",
+        "tier": 60
+      },
+      {
+        "text": "Rudy",
+        "tier": 60
+      },
+      {
+        "text": "Gonger",
+        "tier": 60
+      },
+      {
+        "text": "Kingston Livingston III",
+        "tier": 60
+      },
+      {
+        "text": "Ruby",
+        "tier": 60
+      },
+      {
+        "text": "Dr. Nobel Price",
+        "tier": 60
+      },
+      {
+        "text": "Simon Soundman",
+        "tier": 60
+      },
+      {
+        "text": "Professor Hastings",
+        "tier": 60
+      },
+      {
+        "text": "Elmo's mom",
+        "aliases": [
+          "mae"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Radar",
+        "tier": 60
+      },
+      {
+        "text": "Elmo's goldfish",
+        "aliases": [
+          "dorothy"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cookie Monster's cousin",
+        "tier": 60
+      },
+      {
         "text": "Grover",
         "tier": 30
       },
@@ -8241,6 +9287,10 @@
       },
       {
         "text": "Dr. Teeth",
+        "aliases": [
+          "dr teeth and the electric mayhem",
+          "electric mayhem"
+        ],
         "tier": 30
       },
       {
@@ -8297,6 +9347,9 @@
       },
       {
         "text": "Herry Monster",
+        "aliases": [
+          "herry"
+        ],
         "tier": 30
       },
       {
@@ -8328,6 +9381,10 @@
       },
       {
         "text": "Mahna Mahna",
+        "aliases": [
+          "snowths",
+          "manamana"
+        ],
         "tier": 15
       },
       {
@@ -9083,6 +10140,497 @@
         "tier": 60
       },
       {
+        "text": "Cardboard box",
+        "tier": 60
+      },
+      {
+        "text": "Garbage bag",
+        "aliases": [
+          "trash bag"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sandwich bag",
+        "tier": 60
+      },
+      {
+        "text": "Freezer bag",
+        "tier": 60
+      },
+      {
+        "text": "Lunch bag",
+        "tier": 60
+      },
+      {
+        "text": "Gift bag",
+        "tier": 60
+      },
+      {
+        "text": "Gift box",
+        "tier": 60
+      },
+      {
+        "text": "Shopping bag",
+        "tier": 60
+      },
+      {
+        "text": "Toiletry bag",
+        "tier": 60
+      },
+      {
+        "text": "Makeup bag",
+        "tier": 60
+      },
+      {
+        "text": "Cosmetic bag",
+        "tier": 60
+      },
+      {
+        "text": "Pencil pouch",
+        "tier": 60
+      },
+      {
+        "text": "Coin purse",
+        "tier": 60
+      },
+      {
+        "text": "Change purse",
+        "tier": 60
+      },
+      {
+        "text": "Folder",
+        "tier": 60
+      },
+      {
+        "text": "Binder",
+        "tier": 60
+      },
+      {
+        "text": "File cabinet",
+        "tier": 60
+      },
+      {
+        "text": "Filing box",
+        "tier": 60
+      },
+      {
+        "text": "Archive box",
+        "tier": 60
+      },
+      {
+        "text": "Storage bin",
+        "tier": 60
+      },
+      {
+        "text": "Storage box",
+        "tier": 60
+      },
+      {
+        "text": "Storage container",
+        "tier": 60
+      },
+      {
+        "text": "Plastic container",
+        "tier": 60
+      },
+      {
+        "text": "Food container",
+        "tier": 60
+      },
+      {
+        "text": "Styrofoam container",
+        "tier": 60
+      },
+      {
+        "text": "Clamshell",
+        "tier": 60
+      },
+      {
+        "text": "Deli container",
+        "tier": 60
+      },
+      {
+        "text": "Yogurt cup",
+        "tier": 60
+      },
+      {
+        "text": "Juice box",
+        "tier": 60
+      },
+      {
+        "text": "Milk jug",
+        "tier": 60
+      },
+      {
+        "text": "Milk carton",
+        "tier": 60
+      },
+      {
+        "text": "Cereal box",
+        "tier": 60
+      },
+      {
+        "text": "Soda can",
+        "tier": 60
+      },
+      {
+        "text": "Beer can",
+        "tier": 60
+      },
+      {
+        "text": "Tin can",
+        "tier": 60
+      },
+      {
+        "text": "Paint can",
+        "tier": 60
+      },
+      {
+        "text": "Spice jar",
+        "tier": 60
+      },
+      {
+        "text": "Salt shaker",
+        "tier": 60
+      },
+      {
+        "text": "Pepper shaker",
+        "tier": 60
+      },
+      {
+        "text": "Sugar bowl",
+        "tier": 60
+      },
+      {
+        "text": "Creamer",
+        "tier": 60
+      },
+      {
+        "text": "Teapot",
+        "tier": 60
+      },
+      {
+        "text": "Coffee pot",
+        "tier": 60
+      },
+      {
+        "text": "Kettle",
+        "tier": 60
+      },
+      {
+        "text": "Saucepan",
+        "tier": 60
+      },
+      {
+        "text": "Wok",
+        "tier": 60
+      },
+      {
+        "text": "Dutch oven",
+        "tier": 60
+      },
+      {
+        "text": "Mixing bowl",
+        "tier": 60
+      },
+      {
+        "text": "Measuring cup",
+        "tier": 60
+      },
+      {
+        "text": "Colander",
+        "tier": 60
+      },
+      {
+        "text": "Ice bucket",
+        "tier": 60
+      },
+      {
+        "text": "Ice cube tray",
+        "tier": 60
+      },
+      {
+        "text": "Wine bottle",
+        "tier": 60
+      },
+      {
+        "text": "Beer bottle",
+        "tier": 60
+      },
+      {
+        "text": "Baby bottle",
+        "tier": 60
+      },
+      {
+        "text": "Sippy cup",
+        "tier": 60
+      },
+      {
+        "text": "Shot glass",
+        "tier": 60
+      },
+      {
+        "text": "Wine glass",
+        "tier": 60
+      },
+      {
+        "text": "Champagne flute",
+        "tier": 60
+      },
+      {
+        "text": "Pint glass",
+        "tier": 60
+      },
+      {
+        "text": "Teacup",
+        "tier": 60
+      },
+      {
+        "text": "Coffee cup",
+        "tier": 60
+      },
+      {
+        "text": "Travel mug",
+        "tier": 60
+      },
+      {
+        "text": "Tumbler cup",
+        "tier": 60
+      },
+      {
+        "text": "Medicine cabinet",
+        "tier": 60
+      },
+      {
+        "text": "First aid kit",
+        "tier": 60
+      },
+      {
+        "text": "Sharps container",
+        "tier": 60
+      },
+      {
+        "text": "Specimen cup",
+        "tier": 60
+      },
+      {
+        "text": "Petri dish",
+        "tier": 60
+      },
+      {
+        "text": "Watering can",
+        "tier": 60
+      },
+      {
+        "text": "Bird feeder",
+        "tier": 60
+      },
+      {
+        "text": "Litter box",
+        "tier": 60
+      },
+      {
+        "text": "Dog bowl",
+        "tier": 60
+      },
+      {
+        "text": "Feed bin",
+        "tier": 60
+      },
+      {
+        "text": "Trough",
+        "tier": 60
+      },
+      {
+        "text": "Grain bin",
+        "tier": 60
+      },
+      {
+        "text": "Corn crib",
+        "tier": 60
+      },
+      {
+        "text": "Shipping crate",
+        "tier": 60
+      },
+      {
+        "text": "Boxcar",
+        "tier": 60
+      },
+      {
+        "text": "Tank car",
+        "tier": 60
+      },
+      {
+        "text": "Oil drum",
+        "tier": 60
+      },
+      {
+        "text": "Propane tank",
+        "tier": 60
+      },
+      {
+        "text": "Scuba tank",
+        "tier": 60
+      },
+      {
+        "text": "Water tank",
+        "tier": 60
+      },
+      {
+        "text": "Septic tank",
+        "tier": 60
+      },
+      {
+        "text": "Hot tub",
+        "tier": 60
+      },
+      {
+        "text": "Bathtub",
+        "tier": 60
+      },
+      {
+        "text": "Mailbag",
+        "tier": 60
+      },
+      {
+        "text": "Gym bag",
+        "tier": 60
+      },
+      {
+        "text": "Diaper bag",
+        "tier": 60
+      },
+      {
+        "text": "Camera bag",
+        "tier": 60
+      },
+      {
+        "text": "Laptop bag",
+        "tier": 60
+      },
+      {
+        "text": "Laptop sleeve",
+        "tier": 60
+      },
+      {
+        "text": "Phone case",
+        "tier": 60
+      },
+      {
+        "text": "Wallet case",
+        "tier": 60
+      },
+      {
+        "text": "Passport holder",
+        "tier": 60
+      },
+      {
+        "text": "Belt bag",
+        "tier": 60
+      },
+      {
+        "text": "Sling bag",
+        "tier": 60
+      },
+      {
+        "text": "Dresser",
+        "tier": 60
+      },
+      {
+        "text": "Chest of drawers",
+        "tier": 60
+      },
+      {
+        "text": "Wardrobe",
+        "tier": 60
+      },
+      {
+        "text": "Armoire",
+        "tier": 60
+      },
+      {
+        "text": "Cupboard",
+        "tier": 60
+      },
+      {
+        "text": "Hutch",
+        "tier": 60
+      },
+      {
+        "text": "Sideboard",
+        "tier": 60
+      },
+      {
+        "text": "Credenza",
+        "tier": 60
+      },
+      {
+        "text": "Toy box",
+        "tier": 60
+      },
+      {
+        "text": "Toy chest",
+        "tier": 60
+      },
+      {
+        "text": "Wastebasket",
+        "tier": 60
+      },
+      {
+        "text": "Wastepaper basket",
+        "tier": 60
+      },
+      {
+        "text": "Pedal bin",
+        "tier": 60
+      },
+      {
+        "text": "Ashtray",
+        "tier": 60
+      },
+      {
+        "text": "Spittoon",
+        "tier": 60
+      },
+      {
+        "text": "Chamber pot",
+        "tier": 60
+      },
+      {
+        "text": "Bedpan",
+        "tier": 60
+      },
+      {
+        "text": "Biohazard bag",
+        "tier": 60
+      },
+      {
+        "text": "Time capsule",
+        "tier": 60
+      },
+      {
+        "text": "Ballot box",
+        "tier": 60
+      },
+      {
+        "text": "Tip jar",
+        "tier": 60
+      },
+      {
+        "text": "Offering box",
+        "tier": 60
+      },
+      {
+        "text": "Donation box",
+        "tier": 60
+      },
+      {
+        "text": "Safety deposit box",
+        "tier": 60
+      },
+      {
         "text": "Basket",
         "tier": 30
       },
@@ -9104,6 +10652,9 @@
       },
       {
         "text": "Tupperware",
+        "aliases": [
+          "tupperware container"
+        ],
         "tier": 30
       },
       {
@@ -9180,7 +10731,8 @@
       {
         "text": "Trash can",
         "aliases": [
-          "garbage can"
+          "garbage can",
+          "rubbish bin"
         ],
         "tier": 30
       },
@@ -9258,7 +10810,8 @@
         "text": "Ziploc bag",
         "aliases": [
           "ziplock",
-          "plastic bag"
+          "plastic bag",
+          "zip-lock bag"
         ],
         "tier": 30
       },
@@ -9317,6 +10870,10 @@
       },
       {
         "text": "Shipping container",
+        "aliases": [
+          "cargo container",
+          "intermodal container"
+        ],
         "tier": 15
       },
       {
