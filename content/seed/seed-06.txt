@@ -2317,7 +2317,7 @@ category: brands
 prompt: Name an airline
 
 [One in a Krillion]
-Hooters Air
+Hooters Air | hooters
 
 [Deep Cut]
 Continental | continental airlines
@@ -2394,6 +2394,308 @@ Sichuan Airlines
 Starlux
 Air Busan
 Jeju Air
+Air Arabia
+flydubai
+Gulf Air
+Oman Air
+Kuwait Airways
+Middle East Airlines | mea
+Royal Brunei
+SriLankan Airlines | srilankan
+PIA | pakistan international airlines
+Air Tanzania
+RwandAir
+Air Namibia
+Air Zimbabwe
+Air Botswana
+Air Algérie
+Tunisair
+Nouvelair
+Arik Air
+Air Peace
+Air Côte d'Ivoire
+ASKY
+Air Senegal
+Precision Air
+Fastjet
+Kulula
+Comair
+Mango Airlines
+FlySafair
+Airlink
+Air Malawi
+Air Uganda
+Uganda Airlines
+Air Djibouti
+Yemenia
+Iran Air
+Mahan Air
+Ariana Afghan
+Azerbaijan Airlines | azal
+Georgian Airways
+Armenia Airways
+Belavia
+Ukraine International Airlines
+S7 Airlines | s7
+Pobeda
+Ural Airlines
+Rossiya
+UTair
+Air Moldova
+Tarom
+Bulgaria Air
+Czech Airlines
+Smartwings
+Malév
+Olympic Air | olympic airways
+Sky Express
+Cyprus Airways
+Air Malta
+KM Malta
+Luxair
+Air Dolomiti
+Neos
+Meridiana
+Wideroe | widerøe
+Braathens
+Sun Express
+Pegasus Airlines | pegasus
+AJet
+Corendon
+TUI
+Jet2 | jet2.com
+Virgin Express
+Blue Air
+Aer Arann
+Stobart Air
+CityJet
+BA CityFlyer
+Eastern Airways
+Brit Air
+HOP!
+Air Corsica
+Corsair
+French Bee
+La Compagnie
+Air Austral
+Air Caraïbes
+Air Calin
+Air Vanuatu
+Solomon Airlines
+Air Kiribati
+Nauru Airlines
+Air Marshall Islands
+Samoa Airways
+Air Rarotonga
+Air Tahiti
+Island Air
+Southern Airways
+Viva Aerobus
+Magnicharters
+Aeromar
+Sansa
+Arajet
+InterCaribbean
+Winair
+Surinam Airways
+Trans Guyana
+Conviasa
+Laser Airlines
+Avior
+Boliviana de Aviación | boa
+Amaszonas
+Paranair
+Flybondi
+Andes Líneas Aéreas
+LAN Chile | lan
+TAM
+Varig
+VASP
+Transbrasil
+Avianca Brasil
+Passaredo
+Wingo
+Viva Air
+Satena
+EasyFly
+TACA
+Mexicana
+Aerocalifornia
+Canadian Airlines
+Canadian Pacific
+CP Air
+Wardair
+Swoop
+Lynx Air
+Canada 3000
+Zoom Airlines
+Air Transat | transat
+Sunwing
+Air North
+Canadian North
+Calm Air
+Harbour Air
+Pacific Coastal
+PAL Airlines
+Air Inuit
+First Air
+Northern Thunderbird
+Kenmore Air
+Ravn Alaska
+PenAir
+Grant Aviation
+Era Aviation
+Wright Air Service
+Reeve Aleutian
+Air Wisconsin
+GoJet
+Trans States
+ExpressJet
+Pinnacle
+Colgan Air
+Mesaba
+Atlantic Southeast | asa
+Chautauqua
+Shuttle America
+Compass Airlines
+Peninsula Airways
+Great Lakes Airlines
+Allegheny Airlines
+Mohawk Airlines
+Piedmont Airlines
+Capitol Air
+Tower Air
+Kiwi International
+Vanguard Airlines
+Western Pacific
+Air Florida
+National Airlines
+Northeast Airlines
+Hughes Airwest
+Air California | air cal
+Pacific Southwest Airlines
+Texas International
+Reno Air
+Midway Airlines
+Legend Airlines
+Pro Air
+Song
+Ted
+Express One
+Sun Pacific
+SeaPort Airlines
+Boutique Air
+JSX
+Surf Air
+Blade
+Wheels Up
+NetJets
+Flexjet
+VistaJet
+FedEx | fedex express
+UPS Airlines
+DHL Aviation | dhl
+Atlas Air
+Kalitta Air
+Polar Air Cargo
+Cargolux
+AeroLogic
+Air Hong Kong
+Cathay Dragon | dragonair
+HK Express
+Hong Kong Airlines
+Greater Bay Airlines
+Air Macau
+Juneyao Airlines
+Shenzhen Airlines
+Xiamen Airlines
+Shandong Airlines
+Tibet Airlines
+Loong Air
+Lucky Air
+West Air
+9 Air
+China United Airlines
+Shanghai Airlines
+Tianjin Airlines
+Capital Airlines
+Mandarin Airlines
+Uni Air
+Tigerair Taiwan
+T'way Air | tway
+Eastar Jet
+Jin Air
+Air Seoul
+Air Premia
+Zipair
+Skymark
+Air Do
+Solaseed Air
+Star Flyer
+Fuji Dream Airlines
+Ibex Airlines
+J-Air
+Japan Transocean Air
+Vanilla Air
+Jetstar Japan
+Jetstar Asia
+VietJet Air | vietjet
+Bamboo Airways
+Pacific Airlines
+Thai Lion Air
+Lion Air
+Batik Air
+Citilink
+Sriwijaya Air
+Wings Air
+Firefly
+Malindo Air
+MASwings
+Philippine AirAsia
+Cebgo
+PAL Express
+SilkAir
+Tigerair Singapore
+Bangkok Airways
+Nok Air
+Thai Smile
+Thai VietJet
+Myanmar National Airlines
+Air KBZ
+Cambodia Angkor Air
+Lanmei Airlines
+Royal Bhutan Airlines
+Buddha Air
+Yeti Airlines
+Nepal Airlines
+US-Bangla Airlines
+Air India Express
+Vistara
+SpiceJet
+Akasa Air
+Go First
+Alliance Air
+Air Deccan
+Paramount Airways
+Jet Lite
+FitsAir
+Maldivian
+Qantaslink | qantas link
+Virgin Blue
+Tigerair Australia
+Rex Airlines | regional express
+Bonza
+Skywest Australia
+Alliance Airlines
+Air North Australia
+Sounds Air
+Air Chathams
+Jetstar New Zealand
+Air Nelson
+Mount Cook Airline
+Origin Pacific
+Fiji Link
+Air Pacific
 
 [Rare]
 Qatar Airways | qatar
@@ -2470,7 +2772,7 @@ Southern Airways Express
 [Schooler]
 Alaska Airlines | alaska
 Frontier | frontier airlines
-Allegiant
+Allegiant | allegiant air
 Hawaiian Airlines | hawaiian
 British Airways | ba
 Air Canada
@@ -2483,20 +2785,20 @@ Virgin Atlantic | virgin
 Ryanair
 easyJet | easy jet
 Singapore Airlines
-Sun Country
+Sun Country | sun country airlines
 WestJet
 Aeromexico | aeroméxico
 
 [Too Clever]
 TWA | trans world airlines
-Pan Am | pan american
+Pan Am | pan american | pan american world airways
 
 [Plankton]
 Delta | delta airlines | delta air lines
 American Airlines | american
 United | united airlines
 Southwest | southwest airlines
-JetBlue | jet blue
+JetBlue | jet blue | jetblue airways
 Spirit | spirit airlines
 
 [Not accepted]
@@ -2509,6 +2811,11 @@ NASA
 SpaceX
 Greyhound
 Amtrak
+Embraer
+Bombardier
+Expedia
+Kayak
+Uber
 
 # QUESTION
 id: q0060
