@@ -293,6 +293,394 @@
         "tier": 85
       },
       {
+        "text": "Adobo sauce",
+        "tier": 85
+      },
+      {
+        "text": "Arrabbiata",
+        "tier": 85
+      },
+      {
+        "text": "Au jus",
+        "tier": 85
+      },
+      {
+        "text": "Bang bang sauce",
+        "tier": 85
+      },
+      {
+        "text": "Bolognese",
+        "tier": 85
+      },
+      {
+        "text": "Bordelaise",
+        "tier": 85
+      },
+      {
+        "text": "Boom boom sauce",
+        "tier": 85
+      },
+      {
+        "text": "Cajun sauce",
+        "tier": 85
+      },
+      {
+        "text": "Carbonara",
+        "tier": 85
+      },
+      {
+        "text": "Chermoula",
+        "tier": 85
+      },
+      {
+        "text": "Chile verde",
+        "tier": 85
+      },
+      {
+        "text": "Chili garlic sauce",
+        "tier": 85
+      },
+      {
+        "text": "Chimichurri rojo",
+        "tier": 85
+      },
+      {
+        "text": "Crème fraîche",
+        "tier": 85
+      },
+      {
+        "text": "Dijon mustard",
+        "aliases": [
+          "dijon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Dulce de leche",
+        "tier": 85
+      },
+      {
+        "text": "English mustard",
+        "tier": 85
+      },
+      {
+        "text": "Fermented black beans",
+        "tier": 85
+      },
+      {
+        "text": "Ginger scallion sauce",
+        "tier": 85
+      },
+      {
+        "text": "Grainy mustard",
+        "aliases": [
+          "whole grain mustard"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Green chile sauce",
+        "tier": 85
+      },
+      {
+        "text": "Guasacaca",
+        "tier": 85
+      },
+      {
+        "text": "Ham gravy",
+        "aliases": [
+          "red-eye gravy"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Huancaína sauce",
+        "tier": 85
+      },
+      {
+        "text": "Jezebel sauce",
+        "tier": 85
+      },
+      {
+        "text": "Lime pickle",
+        "tier": 85
+      },
+      {
+        "text": "Marie Rose sauce",
+        "tier": 85
+      },
+      {
+        "text": "Mole poblano",
+        "tier": 85
+      },
+      {
+        "text": "Napoletana",
+        "tier": 85
+      },
+      {
+        "text": "Nam pla",
+        "tier": 85
+      },
+      {
+        "text": "Nam prik",
+        "tier": 85
+      },
+      {
+        "text": "Nuoc mam",
+        "tier": 85
+      },
+      {
+        "text": "Pink sauce",
+        "tier": 85
+      },
+      {
+        "text": "Pomegranate molasses",
+        "tier": 85
+      },
+      {
+        "text": "Puttanesca",
+        "tier": 85
+      },
+      {
+        "text": "Ragu",
+        "tier": 85
+      },
+      {
+        "text": "Rouille",
+        "tier": 85
+      },
+      {
+        "text": "Sauce vierge",
+        "tier": 85
+      },
+      {
+        "text": "Sausage gravy",
+        "tier": 85
+      },
+      {
+        "text": "Sawmill gravy",
+        "tier": 85
+      },
+      {
+        "text": "Schezwan sauce",
+        "aliases": [
+          "szechuan sauce"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Shito",
+        "tier": 85
+      },
+      {
+        "text": "Skhug",
+        "tier": 85
+      },
+      {
+        "text": "Sofrito",
+        "tier": 85
+      },
+      {
+        "text": "Soubise sauce",
+        "tier": 85
+      },
+      {
+        "text": "Tahini sauce",
+        "tier": 85
+      },
+      {
+        "text": "Tamarind sauce",
+        "tier": 85
+      },
+      {
+        "text": "Vodka sauce",
+        "tier": 85
+      },
+      {
+        "text": "White gravy",
+        "tier": 85
+      },
+      {
+        "text": "Yakitori sauce",
+        "aliases": [
+          "tare"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Yellow mustard",
+        "tier": 85
+      },
+      {
+        "text": "Zip sauce",
+        "tier": 85
+      },
+      {
+        "text": "Curtido",
+        "tier": 85
+      },
+      {
+        "text": "Salsa roja",
+        "tier": 85
+      },
+      {
+        "text": "Salsa macha",
+        "tier": 85
+      },
+      {
+        "text": "Salsa negra",
+        "tier": 85
+      },
+      {
+        "text": "Chamoy",
+        "tier": 85
+      },
+      {
+        "text": "Mango salsa",
+        "tier": 85
+      },
+      {
+        "text": "Pineapple salsa",
+        "tier": 85
+      },
+      {
+        "text": "Salsa ranchera",
+        "tier": 85
+      },
+      {
+        "text": "Salsa taquera",
+        "tier": 85
+      },
+      {
+        "text": "Crema",
+        "tier": 85
+      },
+      {
+        "text": "Mexican crema",
+        "tier": 85
+      },
+      {
+        "text": "Olive tapenade",
+        "aliases": [
+          "tapenade"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Anchovy paste",
+        "tier": 85
+      },
+      {
+        "text": "Caper sauce",
+        "tier": 85
+      },
+      {
+        "text": "Horseradish sauce",
+        "aliases": [
+          "creamed horseradish"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mint chutney",
+        "tier": 85
+      },
+      {
+        "text": "Tamarind chutney",
+        "tier": 85
+      },
+      {
+        "text": "Coconut chutney",
+        "tier": 85
+      },
+      {
+        "text": "Tomato chutney",
+        "tier": 85
+      },
+      {
+        "text": "Achar",
+        "aliases": [
+          "indian pickle"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mango pickle",
+        "tier": 85
+      },
+      {
+        "text": "Nam jim",
+        "tier": 85
+      },
+      {
+        "text": "Sweet bean sauce",
+        "tier": 85
+      },
+      {
+        "text": "Doubanjiang",
+        "tier": 85
+      },
+      {
+        "text": "Sichuan chili oil",
+        "tier": 85
+      },
+      {
+        "text": "Lao Gan Ma",
+        "tier": 85
+      },
+      {
+        "text": "Hot mustard",
+        "tier": 85
+      },
+      {
+        "text": "Spicy brown mustard",
+        "tier": 85
+      },
+      {
+        "text": "Honey Dijon",
+        "tier": 85
+      },
+      {
+        "text": "Beer mustard",
+        "tier": 85
+      },
+      {
+        "text": "Mostarda",
+        "tier": 85
+      },
+      {
+        "text": "Agrodolce",
+        "tier": 85
+      },
+      {
+        "text": "Salsa rosa",
+        "tier": 85
+      },
+      {
+        "text": "Spicy mayo",
+        "tier": 85
+      },
+      {
+        "text": "Garlic butter",
+        "tier": 85
+      },
+      {
+        "text": "Peppercorn sauce",
+        "tier": 85
+      },
+      {
+        "text": "Mushroom sauce",
+        "tier": 85
+      },
+      {
+        "text": "Hot honey",
+        "tier": 85
+      },
+      {
+        "text": "Bacon jam",
+        "tier": 85
+      },
+      {
         "text": "Chipotle mayo",
         "tier": 60
       },
@@ -504,6 +892,10 @@
       },
       {
         "text": "Alabama white sauce",
+        "aliases": [
+          "white bbq sauce",
+          "alabama bbq sauce"
+        ],
         "tier": 60
       },
       {
@@ -512,6 +904,9 @@
       },
       {
         "text": "Relish",
+        "aliases": [
+          "pickle relish"
+        ],
         "tier": 30
       },
       {
@@ -559,6 +954,9 @@
       },
       {
         "text": "Guacamole",
+        "aliases": [
+          "guac"
+        ],
         "tier": 30
       },
       {
@@ -582,6 +980,9 @@
       },
       {
         "text": "Thousand Island",
+        "aliases": [
+          "thousand island dressing"
+        ],
         "tier": 30
       },
       {
@@ -643,6 +1044,9 @@
       },
       {
         "text": "Aioli",
+        "aliases": [
+          "garlic aioli"
+        ],
         "tier": 30
       },
       {
@@ -684,7 +1088,8 @@
         "text": "Steak sauce",
         "aliases": [
           "a1",
-          "a.1."
+          "a.1.",
+          "heinz 57"
         ],
         "tier": 30
       },
@@ -709,6 +1114,9 @@
       },
       {
         "text": "Pico de gallo",
+        "aliases": [
+          "pico"
+        ],
         "tier": 30
       },
       {
@@ -729,7 +1137,8 @@
       {
         "text": "Ketchup",
         "aliases": [
-          "catsup"
+          "catsup",
+          "heinz ketchup"
         ],
         "tier": 10
       },
@@ -755,7 +1164,9 @@
         "text": "Barbecue sauce",
         "aliases": [
           "bbq sauce",
-          "bbq"
+          "bbq",
+          "carolina bbq sauce",
+          "kansas city bbq sauce"
         ],
         "tier": 10
       },
@@ -773,12 +1184,15 @@
       }
     ],
     "nearMisses": [
-      "Salt",
-      "Pepper",
       "Sugar",
       "Water",
       "Milk",
-      "Cinnamon"
+      "Cinnamon",
+      "Salt and pepper",
+      "Flour",
+      "Cheese",
+      "Bread",
+      "Rice"
     ]
   },
   {
@@ -829,6 +1243,9 @@
       },
       {
         "text": "Wriggler",
+        "aliases": [
+          "wiggler"
+        ],
         "tier": 85
       },
       {
@@ -861,6 +1278,82 @@
       },
       {
         "text": "Flapper",
+        "tier": 85
+      },
+      {
+        "text": "Gilt",
+        "tier": 85
+      },
+      {
+        "text": "Yeanling",
+        "tier": 85
+      },
+      {
+        "text": "Weaner",
+        "tier": 85
+      },
+      {
+        "text": "Suckling",
+        "tier": 85
+      },
+      {
+        "text": "Stot",
+        "tier": 85
+      },
+      {
+        "text": "Froglet",
+        "tier": 85
+      },
+      {
+        "text": "Toadlet",
+        "tier": 85
+      },
+      {
+        "text": "Eft",
+        "tier": 85
+      },
+      {
+        "text": "Newtlet",
+        "tier": 85
+      },
+      {
+        "text": "Hatchling turtle",
+        "tier": 85
+      },
+      {
+        "text": "Leptocephalus",
+        "tier": 85
+      },
+      {
+        "text": "Whitebait",
+        "tier": 85
+      },
+      {
+        "text": "Heifer",
+        "tier": 85
+      },
+      {
+        "text": "Stirk",
+        "tier": 85
+      },
+      {
+        "text": "Grub",
+        "tier": 85
+      },
+      {
+        "text": "Maggot",
+        "tier": 85
+      },
+      {
+        "text": "Nit",
+        "tier": 85
+      },
+      {
+        "text": "Fuzzy",
+        "tier": 85
+      },
+      {
+        "text": "Hopper",
         "tier": 85
       },
       {
@@ -1044,6 +1537,9 @@
       },
       {
         "text": "Fledgling",
+        "aliases": [
+          "fledgeling"
+        ],
         "tier": 30
       },
       {
@@ -1083,6 +1579,14 @@
       },
       {
         "text": "Caterpillar",
+        "tier": 15
+      },
+      {
+        "text": "Infant",
+        "tier": 15
+      },
+      {
+        "text": "Toddler",
         "tier": 15
       },
       {
@@ -1130,7 +1634,20 @@
       "Little one",
       "Junior",
       "Mini",
-      "Teen"
+      "Teen",
+      "Egg",
+      "Mother",
+      "Father",
+      "Adult",
+      "Teenager",
+      "Doe",
+      "Buck",
+      "Stallion",
+      "Mare",
+      "Ram",
+      "Ewe",
+      "Bull",
+      "Cow"
     ],
     "notes": "Words like kitten, calf or joey. \"Baby ___\" doesn't count."
   },

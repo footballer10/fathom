@@ -1948,6 +1948,105 @@ Backlight
 Nightlight
 Penlight
 Footlight
+Alight
+Benight
+Birthright
+Blatherskite
+Bobwhite
+Bombsight
+Campsite
+Catfight
+Cite
+Downright
+Dwight
+Eyesight
+Fistfight
+Forthright
+Foresight
+Gaslight
+Gesundheit
+Hindsight
+Indict
+Infight
+Jacobite
+Leucite
+Lignite
+Luddite
+Malachite
+Mennonite
+Ophite
+Overbite
+Pyrite
+Quartzite
+Recondite
+Reignite
+Shipwright
+Sidelight
+Snow-white
+Spaceflight
+Stylite
+Tripartite
+Underwrite
+Wheelwright
+Yesternight
+Zoophyte
+Cartwright
+Cryolite
+Hematite
+Ilmenite
+Kaolinite
+Chlorite
+Barite
+Chromite
+Apatite
+Cuprite
+Kyanite
+Lepidolite
+Rhodonite
+Sodalite
+Steatite
+Zeolite
+Amazonite
+Andesite
+Diorite
+Felsite
+Granite
+Jadeite
+Laterite
+Rhyolite
+Dacite
+Tachylyte
+Kimberlite
+Komatiite
+Peridotite
+Serpentinite
+Marcasite
+Vesuvianite
+Prehnite
+Pyrolusite
+Hemimorphite
+Crocoite
+Dioptase
+Wulfenite
+Vanadinite
+Celestite
+Anhydrite
+Smithsonite
+Rhodochrosite
+Sphalerite
+Chalcopyrite
+Arsenopyrite
+Pentlandite
+Wolframite
+Carnotite
+Uraninite
+Goethite
+Limonite
+Siderite
+Magnesite
+Bedight
+Sleight | sleight of hand
+Indite
 
 [Rare]
 Flashlight
@@ -2032,6 +2131,7 @@ Spotlight
 Light
 Lite
 Byte
+Lite-Brite
 
 [Plankton]
 Night
@@ -2050,6 +2150,12 @@ Lit
 Lot
 Life
 Lights out
+Lightning
+Lighter
+Let
+Loot
+Lime
+Line
 
 # QUESTION
 id: q0078
@@ -2075,6 +2181,55 @@ Coathanger
 False Cross
 Diamond Cross
 Argo Navis
+Plough
+Saucepan
+Water Jar
+Circlet
+Job's Coffin
+Orion's Sword
+Fish Hook
+Pointers
+Great Diamond
+Spring Triangle
+Winter Hexagon | winter circle
+Little Milk Dipper | milk dipper
+Bull's Head
+Head of Hydra
+Lozenge
+Northern Crown
+Frying Pan
+Queen's Chair
+Three Kings
+Beehive Cluster | praesepe
+Kemble's Cascade
+Emu in the Sky
+Quadrans Muralis
+Antinous
+Felis
+Noctua
+Cerberus
+Machina Electrica
+Rangifer
+Turdus Solitarius
+Gallus
+Officina Typographica
+Taurus Poniatovii
+Mons Maenalus
+Psalterium Georgii
+Sceptrum Brandenburgicum
+Telescopium Herschelii
+Globus Aerostaticus
+Lochium Funis
+Cancer Minor
+Vespa
+Apis
+Robur Carolinum
+Gladii Electorales
+Tigris
+Jordanus
+Polophylax
+Tarandus
+Musca Borealis
 
 [Rare]
 Auriga
@@ -2177,15 +2332,21 @@ Scorpius | scorpio | scorpion
 Leo
 
 [Not accepted]
-North Star
-polaris
-Milky Way
 Galaxy
 Mars
 Sun
 Moon
 Black hole
 Nebula
+Jupiter
+Saturn
+Andromeda Galaxy
+Comet
+Halley's Comet
+Polaris
+Sirius
+Betelgeuse
+Milky Way
 
 # QUESTION
 id: q0079
@@ -2195,7 +2356,7 @@ prompt: Name a sit-down restaurant chain
 note: Chains with table service. Fast food counts as Too Clever.
 
 [One in a Krillion]
-Medieval Times
+Medieval Times | medieval times dinner & tournament
 
 [Deep Cut]
 Sweet Tomatoes | souplantation
@@ -2260,6 +2421,161 @@ Giordano's
 Gino's East
 Portillo's
 Lambert's Cafe
+Bar Louie
+Beef 'O' Brady's
+BJ's Brewhouse
+Black-eyed Pea
+Boston Market
+Boston Pizza
+Brio Italian Grille
+Brick House Tavern
+Buffalo's Cafe
+Buffet City
+Cafe Rio
+Cajun Steamer
+California Tortilla
+Carino's | johnny carino's
+Champps
+Coco's Bakery
+Cooper's Hawk
+Country Kitchen
+Cozymel's
+Duffy's
+Earls
+Eddie Merlot's
+El Chico
+Elephant Bar
+Firebirds
+Fox & Hound
+Glory Days
+Granite City
+Grand Lux Cafe
+Harry Caray's
+Hops
+Hurricane Grill
+Iron Hill Brewery
+Jack Astor's
+Jason's Deli
+Joe's American Bar & Grill
+Joe's Stone Crab
+Kelseys
+Keg Steakhouse | the keg
+La Madeleine
+Lazy Dog
+Mama Fu's
+Marlow's Tavern
+Metro Diner
+Montana Mike's
+Montana's
+Moxie's
+Mr. Mike's
+Native Grill & Wings
+Ninety Nine | ninety nine restaurant
+Not Your Average Joe's
+Original Pancake House
+Pancho's Mexican Buffet
+Paesano's
+Pizza Inn
+Pizza Ranch
+Quaker Steak & Lube
+Red Hot & Blue
+Rock & Brews
+Rusty Pelican
+Sagebrush Steakhouse
+Shane's Rib Shack
+Sharky's
+Spaghetti Warehouse
+Stoney River
+Swiss Chalet
+Tavern on the Green
+Texas de Brazil
+The Boathouse
+Toby Keith's I Love This Bar
+Tony Roma's
+Union Square Cafe
+Uncle Maddio's
+Valentino's
+Village Tavern
+Walk-On's
+White Spot
+Wings Etc.
+Wood Ranch
+Zoës Kitchen
+Hofbräuhaus
+Kobe Japanese Steakhouse
+Nobu
+STK
+Gibsons
+Hawksmoor
+Gaucho
+Miller & Carter
+Toby Carvery
+Harvester
+Beefeater
+Brewers Fayre
+Wetherspoon | jd wetherspoon
+Nando's
+Wagamama
+Pizza Express
+Zizzi
+ASK Italian
+Prezzo
+Bella Italia
+Frankie & Benny's
+Café Rouge
+Côte
+Carluccio's
+Giraffe
+Byron
+GBK | gourmet burger kitchen
+Honest Burgers
+Yo! Sushi
+Dishoom
+Tortilla
+Wahaca
+Las Iguanas
+Chiquito
+The Ivy
+Bill's
+Brasserie Blanc
+Loch Fyne
+Panera Bread
+Kura Sushi
+Sushi Train
+Genki Sushi
+Pho Hoa
+Bonchon
+Kyochon
+Yoshinoya
+Ichiran
+Ippudo
+Din Tai Fung
+Haidilao
+Max's Restaurant
+Shakey's
+Godfather's Pizza
+Pirate's Dinner Adventure
+Dolly Parton's Stampede
+Ivar's
+Anthony's
+Souper Salad
+Bombshells
+Chama Gaucha
+Rodizio Grill
+Roadhouse Grill
+Lucille's BBQ
+Mission BBQ
+Rudy's BBQ
+Spring Creek Barbeque
+Bandana's
+Corky's
+Lambert's
+Bravo! Cucina Italiana | bravo
+Biaggi's
+Uno Pizzeria & Grill
+Cantina Laredo
+Iron Cactus
+El Fenix
 
 [Rare]
 Bonefish Grill
@@ -2352,11 +2668,11 @@ Carrabba's
 Maggiano's
 Dave & Buster's | dave and busters
 Ruth's Chris | ruth's chris steak house
-Morton's
+Morton's | morton's the steakhouse
 Fogo de Chao
 Rainforest Cafe
 Hard Rock Cafe
-Bubba Gump
+Bubba Gump | bubba gump shrimp co.
 Joe's Crab Shack
 BJ's Restaurant | bjs
 Yard House
@@ -2372,8 +2688,8 @@ Waffle House
 
 [Plankton]
 Olive Garden
-Applebee's | applebees
-Chili's | chilis
+Applebee's | applebees | applebee's grill and bar
+Chili's | chilis | chili's grill & bar
 Red Lobster
 Outback Steakhouse | outback
 Denny's | dennys
@@ -2382,10 +2698,12 @@ Texas Roadhouse
 
 [Not accepted]
 Subway
-Taco Bell
-Burger King
-Wendy's
 Starbucks
+Dunkin'
+Taco Bell drive-thru
+Domino's delivery
+Walmart
+Costco
 
 # QUESTION
 id: q0080

@@ -73,6 +73,97 @@ Catalina dressing
 Poppy seed dressing
 Ginger dressing
 Sesame dressing
+Adobo sauce
+Arrabbiata
+Au jus
+Bang bang sauce
+Bolognese
+Bordelaise
+Boom boom sauce
+Cajun sauce
+Carbonara
+Chermoula
+Chile verde
+Chili garlic sauce
+Chimichurri rojo
+Crème fraîche
+Dijon mustard | dijon
+Dulce de leche
+English mustard
+Fermented black beans
+Ginger scallion sauce
+Grainy mustard | whole grain mustard
+Green chile sauce
+Guasacaca
+Ham gravy | red-eye gravy
+Huancaína sauce
+Jezebel sauce
+Lime pickle
+Marie Rose sauce
+Mole poblano
+Napoletana
+Nam pla
+Nam prik
+Nuoc mam
+Pink sauce
+Pomegranate molasses
+Puttanesca
+Ragu
+Rouille
+Sauce vierge
+Sausage gravy
+Sawmill gravy
+Schezwan sauce | szechuan sauce
+Shito
+Skhug
+Sofrito
+Soubise sauce
+Tahini sauce
+Tamarind sauce
+Vodka sauce
+White gravy
+Yakitori sauce | tare
+Yellow mustard
+Zip sauce
+Curtido
+Salsa roja
+Salsa macha
+Salsa negra
+Chamoy
+Mango salsa
+Pineapple salsa
+Salsa ranchera
+Salsa taquera
+Crema
+Mexican crema
+Olive tapenade | tapenade
+Anchovy paste
+Caper sauce
+Horseradish sauce | creamed horseradish
+Mint chutney
+Tamarind chutney
+Coconut chutney
+Tomato chutney
+Achar | indian pickle
+Mango pickle
+Nam jim
+Sweet bean sauce
+Doubanjiang
+Sichuan chili oil
+Lao Gan Ma
+Hot mustard
+Spicy brown mustard
+Honey Dijon
+Beer mustard
+Mostarda
+Agrodolce
+Salsa rosa
+Spicy mayo
+Garlic butter
+Peppercorn sauce
+Mushroom sauce
+Hot honey
+Bacon jam
 
 [Rare]
 Chipotle mayo
@@ -123,11 +214,11 @@ Jerk sauce
 Mumbo sauce
 Comeback sauce
 Fry sauce
-Alabama white sauce
+Alabama white sauce | white bbq sauce | alabama bbq sauce
 Chick-fil-A sauce
 
 [Schooler]
-Relish
+Relish | pickle relish
 Sriracha
 Tabasco
 Buffalo sauce
@@ -138,12 +229,12 @@ Cocktail sauce
 Marinara
 Alfredo
 Pesto
-Guacamole
+Guacamole | guac
 Hummus
 Sour cream
 Salad dressing | dressing
 Italian dressing
-Thousand Island
+Thousand Island | thousand island dressing
 Blue cheese dressing
 Caesar dressing
 Vinaigrette
@@ -156,7 +247,7 @@ Jam | jelly
 Peanut butter
 Nutella
 Tzatziki
-Aioli
+Aioli | garlic aioli
 Horseradish
 Wasabi
 Hoisin sauce | hoisin
@@ -165,12 +256,12 @@ Duck sauce
 Fish sauce
 Oyster sauce
 Chili sauce
-Steak sauce | a1 | a.1.
+Steak sauce | a1 | a.1. | heinz 57
 Cheese sauce | nacho cheese
 Hollandaise
 Chimichurri
 Tahini
-Pico de gallo
+Pico de gallo | pico
 
 [Too Clever]
 Butter
@@ -178,22 +269,25 @@ Gravy
 Special sauce | big mac sauce
 
 [Plankton]
-Ketchup | catsup
+Ketchup | catsup | heinz ketchup
 Mustard
 Mayonnaise | mayo
 Ranch | ranch dressing
-Barbecue sauce | bbq sauce | bbq
+Barbecue sauce | bbq sauce | bbq | carolina bbq sauce | kansas city bbq sauce
 Hot sauce
 Soy sauce
 Salsa
 
 [Not accepted]
-Salt
-Pepper
 Sugar
 Water
 Milk
 Cinnamon
+Salt and pepper
+Flour
+Cheese
+Bread
+Rice
 
 # QUESTION
 id: q0082
@@ -215,7 +309,7 @@ Megalopa
 Veliger
 Instar
 Naiad
-Wriggler
+Wriggler | wiggler
 Imago
 Sprat
 Brit
@@ -224,6 +318,25 @@ Kelt
 Hinny
 Kittling
 Flapper
+Gilt
+Yeanling
+Weaner
+Suckling
+Stot
+Froglet
+Toadlet
+Eft
+Newtlet
+Hatchling turtle
+Leptocephalus
+Whitebait
+Heifer
+Stirk
+Grub
+Maggot
+Nit
+Fuzzy
+Hopper
 
 [Rare]
 Cria
@@ -272,7 +385,7 @@ Fry
 Larva
 Hatchling
 Nestling
-Fledgling
+Fledgling | fledgeling
 Whelp
 Spiderling
 Polliwog | pollywog
@@ -284,6 +397,8 @@ Chrysalis
 Baby
 Tadpole
 Caterpillar
+Infant
+Toddler
 
 [Plankton]
 Puppy | pup
@@ -302,6 +417,19 @@ Little one
 Junior
 Mini
 Teen
+Egg
+Mother
+Father
+Adult
+Teenager
+Doe
+Buck
+Stallion
+Mare
+Ram
+Ewe
+Bull
+Cow
 
 # QUESTION
 id: q0083
