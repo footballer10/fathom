@@ -1,0 +1,37 @@
+// Cloudflare Worker config. One Worker serves the website, the API and the
+// party rooms, all on the free plan.
+//
+// The database_id and id values below are placeholders. `npm run setup`
+// creates the real D1 database and KV namespace in your Cloudflare account and
+// writes their IDs into this file for you (they are not secrets).
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "krillion-unlimited",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "../web/dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*", "/ws/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "krillion",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "00000000000000000000000000000000"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "ROOMS", "class_name": "Room" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Room"] }],
+  "observability": { "enabled": true }
+}

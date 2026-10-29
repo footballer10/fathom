@@ -18,3 +18,5 @@ coverage/
 .vscode/
 .idea/
 *.log
+.dev.vars
+content/.status.json

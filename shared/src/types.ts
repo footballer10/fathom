@@ -35,7 +35,7 @@ export interface MatchResult {
 // Solo API shapes (shared by the mock API now and the Worker in Phase 3)
 // ---------------------------------------------------------------------------
 
-export type GameMode = "daily" | "unlimited";
+export type GameMode = "daily" | "unlimited" | "archive";
 
 export interface QuestionPublic {
   index: number;

@@ -108,7 +108,20 @@ export const MATCHER_AMBIGUITY: "unique-closest" | "strict" = "unique-closest";
 
 /** Avoid repeats in Unlimited until the player has seen this share of the pool. */
 export const UNLIMITED_REPEAT_THRESHOLD = 0.8;
-export const UNLIMITED_POOL_CAP = 400;
+
+/**
+ * Weekly content plan: 49 new Daily questions (7 days × 7) plus 100 extra
+ * Unlimited questions. Every Daily joins Unlimited the day after it airs, so
+ * the Unlimited pool grows by about 149 questions a week.
+ *
+ * The pool is capped at 2,000 active questions (reached after roughly 13
+ * weeks). A player doing several runs a day would need about two months to
+ * see 80% of it, so repeats stay rare. Past the cap, `npm run pool:refresh`
+ * retires the oldest, most-played questions (kept, never deleted) and rotates
+ * them back in later. Raise this number any time; D1's free tier can hold far more.
+ */
+export const UNLIMITED_POOL_CAP = 2000;
+export const WEEKLY_UNLIMITED_QUESTIONS = 100;
 export const SCHEDULE_BUFFER_DAYS = 14;
 
 export const CATEGORIES = [
@@ -145,6 +158,9 @@ export const DIVE_DEFAULTS = {
   timerOptions: [15, 25, 40],
   timerSeconds: 25,
   uniqueAnswers: false,
+  wrongGuessPenaltySeconds: 2,
+  /** How long the per-question reveal stays up before the next question. */
+  revealSeconds: 9,
   roomIdleExpiryMinutes: 120,
 } as const;
 
@@ -167,4 +183,8 @@ export const BATTLE_DEFAULTS = {
   minUnusedAnswersBeforeRotate: 5,
   speedUp: true,
   typingUpdatesPerSecond: 10,
+  /** Pause between turns, and the "NEW PROMPT" transition length. */
+  betweenTurnsMs: 1200,
+  rotatePauseMs: 2500,
+  minPlayers: 2,
 } as const;

@@ -8,3 +8,6 @@ export * from "./matcher/buildIndex";
 export * from "./matcher/match";
 export * from "./content/plainText";
 export * from "./content/validate";
+export * from "./content/generatePrompt";
+export * from "./profanity";
+export * from "./room";

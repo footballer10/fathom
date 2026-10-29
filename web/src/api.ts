@@ -20,7 +20,7 @@ export function serverNow(): number {
   return Date.now() + clockOffset;
 }
 
-async function call<T>(method: "GET" | "POST", path: string, body?: unknown): Promise<T> {
+async function call<T>(method: "GET" | "POST" | "DELETE", path: string, body?: unknown): Promise<T> {
   const sentAt = Date.now();
   const res = await fetch(path, {
     method,
@@ -39,6 +39,31 @@ async function call<T>(method: "GET" | "POST", path: string, body?: unknown): Pr
 
 export type DailyStatus = DailyInfo & { status: "new" | "in-progress" | "finished" };
 
+export interface PlayerStats {
+  played: number;
+  currentStreak: number;
+  bestStreak: number;
+  averageDepth: number;
+  bestDepth: number;
+  histogram: Record<string, number>;
+  recent: { date: string; points: number }[];
+}
+
+export interface Profile {
+  nickname: string | null;
+  friendCode: string | null;
+}
+
+export interface LeaderboardRow {
+  you: boolean;
+  nickname: string;
+  friendCode: string;
+  depth: number | null;
+  zone: string | null;
+  tiers: (number | null)[] | null;
+  weekDepth: number;
+}
+
 export const api = {
   daily: () => call<DailyStatus>("GET", "/api/daily"),
   categories: () => call<{ category: Category; count: number }[]>("GET", "/api/categories"),
@@ -49,4 +74,15 @@ export const api = {
     call<GuessResponse>("POST", `/api/session/${id}/guess`, { index, text }),
   reveal: (id: string, index: number) => call<RevealResponse>("GET", `/api/session/${id}/reveal/${index}`),
   finish: (id: string) => call<FinishResponse>("POST", `/api/session/${id}/finish`),
+  stats: () => call<PlayerStats>("GET", "/api/stats/me"),
+  report: (sessionId: string, index: number, guess: string) =>
+    call<{ ok: true }>("POST", "/api/report", { sessionId, index, guess }),
+  profile: () => call<Profile>("GET", "/api/player"),
+  setNickname: (nickname: string) => call<Profile>("POST", "/api/player", { nickname }),
+  addFriend: (code: string) => call<{ ok: true; nickname: string | null }>("POST", "/api/friends", { code }),
+  leaderboard: () =>
+    call<{ date: string; dailyNumber: number; me: Profile; rows: LeaderboardRow[] }>("GET", "/api/friends/leaderboard"),
+  archive: () => call<{ date: string; dailyNumber: number; depth: number | null }[]>("GET", "/api/archive"),
+  startArchive: (date: string) => call<SessionState>("POST", "/api/session/start", { mode: "archive", date }),
+  createRoom: (kind: "dive" | "battle") => call<{ code: string }>("POST", "/api/rooms", { kind }),
 };

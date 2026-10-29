@@ -1108,3 +1108,218 @@ select {
     display: none;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Admin portal (functional, desktop-first)                            */
+/* ------------------------------------------------------------------ */
+
+.admin {
+  position: relative;
+  z-index: 5;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 80px;
+}
+.admin-login {
+  max-width: 420px;
+  padding-top: 15vh;
+}
+.admin-login form {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.admin-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.admin-head h1 {
+  font-size: 1.5rem;
+}
+.admin-head-actions {
+  display: flex;
+  gap: 8px;
+}
+.admin-banner {
+  margin: 12px 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 209, 102, 0.15);
+  border: 1px solid rgba(255, 209, 102, 0.5);
+  color: #ffe6a6;
+}
+.admin-banner--error {
+  background: rgba(255, 90, 110, 0.15);
+  border-color: rgba(255, 90, 110, 0.5);
+  color: #ffc2ca;
+}
+.admin-tabs {
+  display: flex;
+  gap: 6px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+.admin-tab {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+  cursor: pointer;
+}
+.admin-tab--on {
+  background: var(--accent-strong);
+  color: #02213a;
+  font-weight: 700;
+}
+.admin-body {
+  background: rgba(3, 14, 28, 0.88);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.admin-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.admin-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+.admin-input,
+.admin-num,
+.admin-textarea {
+  font: inherit;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.admin-input {
+  width: 100%;
+  max-width: 420px;
+  margin: 8px 0;
+}
+.admin-num {
+  width: 80px;
+}
+.admin-textarea {
+  width: 100%;
+  min-height: 260px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+.admin-textarea--tall {
+  min-height: 520px;
+}
+.admin-log {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  padding: 12px;
+  white-space: pre-wrap;
+  font-size: 0.85rem;
+}
+.admin-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.admin-q {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid #4cc9f0;
+}
+.admin-q--bad {
+  border-left-color: var(--danger);
+}
+.admin-q-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.admin-issue {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+.admin-issue--error {
+  color: #ff8b99;
+}
+.admin-issue--warn {
+  color: #ffd166;
+}
+.admin-schedule {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 12px;
+}
+.admin-day {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 10px;
+}
+.admin-day-head {
+  margin-bottom: 6px;
+}
+.admin-slot {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 6px;
+  padding: 4px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.88rem;
+}
+.admin-slot--empty .admin-slot-actions {
+  grid-column: 2;
+}
+.admin-slot--picked {
+  background: rgba(111, 227, 255, 0.12);
+}
+.admin-slot-n {
+  color: var(--muted);
+}
+.admin-slot-actions {
+  grid-column: 2;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.admin-slot-actions .link-btn {
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+.admin-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.admin-retier {
+  margin: 16px 0;
+}
+@media (max-width: 800px) {
+  .admin-cols {
+    grid-template-columns: 1fr;
+  }
+}

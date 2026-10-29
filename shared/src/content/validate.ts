@@ -31,6 +31,8 @@ export interface ValidationContext {
   takenSlots?: Map<string, string>;
   /** Allow overwriting scheduled date/slot pairs ("replace" import). */
   replace?: boolean;
+  /** Skip the O(n²) "one typo apart" warning (used by the Worker, which has a tight CPU budget). */
+  skipFuzzyPairs?: boolean;
 }
 
 export interface QuestionReport {
@@ -135,7 +137,7 @@ export function validateQuestion(q: ValidatableQuestion, ctx: ValidationContext 
 
   // --- fuzzy-ambiguity risk (warning) ---------------------------------------
   const risky: string[] = [];
-  for (let i = 0; i < forms.length; i++) {
+  if (!ctx.skipFuzzyPairs) for (let i = 0; i < forms.length; i++) {
     for (let j = i + 1; j < forms.length; j++) {
       const x = forms[i];
       const y = forms[j];
