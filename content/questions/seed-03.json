@@ -530,13 +530,6 @@
         "tier": 60
       },
       {
-        "text": "Boo Berry",
-        "aliases": [
-          "booberry"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Count Chocula",
         "tier": 60
       },
@@ -1880,13 +1873,6 @@
         "tier": 60
       },
       {
-        "text": "Horsefly",
-        "aliases": [
-          "horse fly"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Dung beetle",
         "tier": 60
       },
@@ -1960,13 +1946,6 @@
         "text": "Praying mantis",
         "aliases": [
           "mantis"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bumblebee",
-        "aliases": [
-          "bumble bee"
         ],
         "tier": 30
       },
@@ -5655,6 +5634,9 @@
       },
       {
         "text": "Brostep",
+        "aliases": [
+          "dubstep brostep"
+        ],
         "tier": 85
       },
       {
@@ -8068,10 +8050,6 @@
         "tier": 85
       },
       {
-        "text": "Koh-i-Noor",
-        "tier": 85
-      },
-      {
         "text": "Lapis lazuli",
         "aliases": [
           "lapis"
@@ -8249,6 +8227,10 @@
       },
       {
         "text": "Hope Diamond",
+        "tier": 15
+      },
+      {
+        "text": "Koh-i-Noor",
         "tier": 15
       },
       {
@@ -8436,6 +8418,638 @@
         "tier": 85
       },
       {
+        "text": "Vanilla Coke",
+        "tier": 85
+      },
+      {
+        "text": "Coke Life",
+        "tier": 85
+      },
+      {
+        "text": "New Coke",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Blue",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Wild Cherry",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Twist",
+        "tier": 85
+      },
+      {
+        "text": "Mountain Dew Code Red",
+        "aliases": [
+          "code red"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mountain Dew Baja Blast",
+        "aliases": [
+          "baja blast"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mountain Dew Voltage",
+        "tier": 85
+      },
+      {
+        "text": "Mountain Dew Kickstart",
+        "aliases": [
+          "kickstart"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Diet Mountain Dew",
+        "tier": 85
+      },
+      {
+        "text": "Diet Dr Pepper",
+        "tier": 85
+      },
+      {
+        "text": "Dr Pepper Zero",
+        "tier": 85
+      },
+      {
+        "text": "Sprite Zero",
+        "tier": 85
+      },
+      {
+        "text": "Sprite Remix",
+        "tier": 85
+      },
+      {
+        "text": "7 Up Zero",
+        "tier": 85
+      },
+      {
+        "text": "Diet 7 Up",
+        "tier": 85
+      },
+      {
+        "text": "Fanta Grape",
+        "tier": 85
+      },
+      {
+        "text": "Crush Grape",
+        "tier": 85
+      },
+      {
+        "text": "Grape Crush",
+        "tier": 85
+      },
+      {
+        "text": "Cactus Cooler",
+        "tier": 85
+      },
+      {
+        "text": "Kickapoo Joy Juice",
+        "tier": 85
+      },
+      {
+        "text": "Dr Thunder",
+        "tier": 85
+      },
+      {
+        "text": "Dr Skipper",
+        "tier": 85
+      },
+      {
+        "text": "Dr. Wells",
+        "tier": 85
+      },
+      {
+        "text": "Mountain Lightning",
+        "tier": 85
+      },
+      {
+        "text": "Mountain Mist",
+        "tier": 85
+      },
+      {
+        "text": "Mountain Holler",
+        "tier": 85
+      },
+      {
+        "text": "Bubble Up",
+        "tier": 85
+      },
+      {
+        "text": "Upper 10",
+        "tier": 85
+      },
+      {
+        "text": "Wink",
+        "tier": 85
+      },
+      {
+        "text": "Fresca Mixed",
+        "tier": 85
+      },
+      {
+        "text": "Diet Rite",
+        "tier": 85
+      },
+      {
+        "text": "NuGrape",
+        "tier": 85
+      },
+      {
+        "text": "Grapette",
+        "tier": 85
+      },
+      {
+        "text": "Nehi",
+        "tier": 85
+      },
+      {
+        "text": "Delaware Punch",
+        "tier": 85
+      },
+      {
+        "text": "Double Cola",
+        "tier": 85
+      },
+      {
+        "text": "Kist",
+        "tier": 85
+      },
+      {
+        "text": "Faygo Rock & Rye",
+        "aliases": [
+          "rock and rye"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Faygo Redpop",
+        "tier": 85
+      },
+      {
+        "text": "Big K",
+        "tier": 85
+      },
+      {
+        "text": "Sam's Choice",
+        "tier": 85
+      },
+      {
+        "text": "Dr Pop",
+        "tier": 85
+      },
+      {
+        "text": "Dr. Perky",
+        "tier": 85
+      },
+      {
+        "text": "Barritt's",
+        "tier": 85
+      },
+      {
+        "text": "Bruce Cost",
+        "tier": 85
+      },
+      {
+        "text": "Q Mixers",
+        "aliases": [
+          "q tonic"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Fever-Tree",
+        "tier": 85
+      },
+      {
+        "text": "Sanpellegrino Aranciata",
+        "tier": 85
+      },
+      {
+        "text": "Cock 'n Bull",
+        "tier": 85
+      },
+      {
+        "text": "Goya",
+        "tier": 85
+      },
+      {
+        "text": "Materva",
+        "tier": 85
+      },
+      {
+        "text": "Jupiña",
+        "tier": 85
+      },
+      {
+        "text": "Iron Beer",
+        "tier": 85
+      },
+      {
+        "text": "Kola Champagne",
+        "tier": 85
+      },
+      {
+        "text": "Malta",
+        "aliases": [
+          "malta goya"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Kola Real",
+        "aliases": [
+          "big cola"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Postobon",
+        "tier": 85
+      },
+      {
+        "text": "Colombiana",
+        "tier": 85
+      },
+      {
+        "text": "Pony Malta",
+        "tier": 85
+      },
+      {
+        "text": "Lift",
+        "tier": 85
+      },
+      {
+        "text": "Mundet",
+        "tier": 85
+      },
+      {
+        "text": "Peñafiel",
+        "tier": 85
+      },
+      {
+        "text": "Sangria Señorial",
+        "tier": 85
+      },
+      {
+        "text": "Boing",
+        "tier": 85
+      },
+      {
+        "text": "Barrilitos",
+        "tier": 85
+      },
+      {
+        "text": "Joya",
+        "tier": 85
+      },
+      {
+        "text": "Kola Inglesa",
+        "tier": 85
+      },
+      {
+        "text": "Guaraná Jesus",
+        "tier": 85
+      },
+      {
+        "text": "Kuat",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Kona",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Fire",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Mango",
+        "tier": 85
+      },
+      {
+        "text": "Starry Zero",
+        "tier": 85
+      },
+      {
+        "text": "Ting",
+        "tier": 85
+      },
+      {
+        "text": "D&G",
+        "tier": 85
+      },
+      {
+        "text": "Bigga",
+        "tier": 85
+      },
+      {
+        "text": "Busta",
+        "tier": 85
+      },
+      {
+        "text": "Solo",
+        "tier": 85
+      },
+      {
+        "text": "Leed",
+        "tier": 85
+      },
+      {
+        "text": "Pasito",
+        "tier": 85
+      },
+      {
+        "text": "Sars",
+        "aliases": [
+          "sarsaparilla"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lemon & Paeroa",
+        "aliases": [
+          "l&p"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Foxton Fizz",
+        "tier": 85
+      },
+      {
+        "text": "Cott",
+        "tier": 85
+      },
+      {
+        "text": "Brio",
+        "tier": 85
+      },
+      {
+        "text": "Crush Cream Soda",
+        "tier": 85
+      },
+      {
+        "text": "Pop Shoppe",
+        "tier": 85
+      },
+      {
+        "text": "Swiss Chalet Sodas",
+        "tier": 85
+      },
+      {
+        "text": "Barr",
+        "tier": 85
+      },
+      {
+        "text": "Tizer",
+        "tier": 85
+      },
+      {
+        "text": "Vimto Remix",
+        "tier": 85
+      },
+      {
+        "text": "Dandelion & Burdock",
+        "tier": 85
+      },
+      {
+        "text": "Fentimans Curiosity Cola",
+        "tier": 85
+      },
+      {
+        "text": "Ben Shaws",
+        "tier": 85
+      },
+      {
+        "text": "R. White's",
+        "tier": 85
+      },
+      {
+        "text": "Panda Pops",
+        "tier": 85
+      },
+      {
+        "text": "Old Jamaica",
+        "tier": 85
+      },
+      {
+        "text": "Fanta Lemon",
+        "tier": 85
+      },
+      {
+        "text": "Bionade",
+        "tier": 85
+      },
+      {
+        "text": "Fritz-Kola",
+        "tier": 85
+      },
+      {
+        "text": "Almdudler",
+        "tier": 85
+      },
+      {
+        "text": "Spezi",
+        "tier": 85
+      },
+      {
+        "text": "Sinalco",
+        "tier": 85
+      },
+      {
+        "text": "Bluna",
+        "tier": 85
+      },
+      {
+        "text": "Libella",
+        "tier": 85
+      },
+      {
+        "text": "Schwip Schwap",
+        "tier": 85
+      },
+      {
+        "text": "Mezzo Mix",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Light",
+        "tier": 85
+      },
+      {
+        "text": "Cockta",
+        "tier": 85
+      },
+      {
+        "text": "Cedevita",
+        "tier": 85
+      },
+      {
+        "text": "Jupi",
+        "tier": 85
+      },
+      {
+        "text": "Ciel",
+        "tier": 85
+      },
+      {
+        "text": "Pommac",
+        "tier": 85
+      },
+      {
+        "text": "Julmust",
+        "tier": 85
+      },
+      {
+        "text": "Påskmust",
+        "tier": 85
+      },
+      {
+        "text": "Trocadero",
+        "tier": 85
+      },
+      {
+        "text": "Champis",
+        "tier": 85
+      },
+      {
+        "text": "Zingo",
+        "tier": 85
+      },
+      {
+        "text": "Fanta Exotic",
+        "tier": 85
+      },
+      {
+        "text": "Frutti",
+        "tier": 85
+      },
+      {
+        "text": "Tiki",
+        "tier": 85
+      },
+      {
+        "text": "Kofola Citrus",
+        "tier": 85
+      },
+      {
+        "text": "Vinea",
+        "tier": 85
+      },
+      {
+        "text": "Hellena",
+        "tier": 85
+      },
+      {
+        "text": "Paola",
+        "tier": 85
+      },
+      {
+        "text": "Barbican",
+        "tier": 85
+      },
+      {
+        "text": "Mirinda Citrus",
+        "tier": 85
+      },
+      {
+        "text": "Shani",
+        "tier": 85
+      },
+      {
+        "text": "Rani Float",
+        "tier": 85
+      },
+      {
+        "text": "Calpico Soda",
+        "aliases": [
+          "calpis soda"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mitsuya Cider",
+        "tier": 85
+      },
+      {
+        "text": "CC Lemon",
+        "tier": 85
+      },
+      {
+        "text": "Thomas Kemper",
+        "tier": 85
+      },
+      {
+        "text": "Zuberfizz",
+        "tier": 85
+      },
+      {
+        "text": "Ski",
+        "aliases": [
+          "ski soda"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Buffalo Rock",
+        "tier": 85
+      },
+      {
+        "text": "Grapico",
+        "tier": 85
+      },
+      {
+        "text": "Blue Hawaiian",
+        "tier": 85
+      },
+      {
+        "text": "Dr Pepper Cream Soda",
+        "tier": 85
+      },
+      {
+        "text": "Dr Pepper Cherry",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi Real Sugar",
+        "aliases": [
+          "pepsi throwback"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Mist Twst",
+        "tier": 85
+      },
+      {
+        "text": "OK Soda",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi AM",
+        "tier": 85
+      },
+      {
+        "text": "Pepsi X",
+        "tier": 85
+      },
+      {
+        "text": "Coca-Cola BlaK",
+        "tier": 85
+      },
+      {
+        "text": "Orangina Rouge",
+        "tier": 85
+      },
+      {
         "text": "Vernors",
         "tier": 60
       },
@@ -8598,6 +9212,10 @@
       },
       {
         "text": "Coke Zero",
+        "aliases": [
+          "coke zero sugar",
+          "coca-cola zero"
+        ],
         "tier": 30
       },
       {
@@ -8628,6 +9246,9 @@
       },
       {
         "text": "Sunkist",
+        "aliases": [
+          "sunkist orange"
+        ],
         "tier": 30
       },
       {
@@ -8639,6 +9260,10 @@
       },
       {
         "text": "Pepsi Max",
+        "aliases": [
+          "pepsi zero sugar",
+          "pepsi zero"
+        ],
         "tier": 30
       },
       {
@@ -8660,7 +9285,8 @@
       {
         "text": "Crush",
         "aliases": [
-          "orange crush"
+          "orange crush",
+          "sunkist crush"
         ],
         "tier": 30
       },
@@ -8685,6 +9311,9 @@
       },
       {
         "text": "Cherry Coke",
+        "aliases": [
+          "coca-cola cherry"
+        ],
         "tier": 30
       },
       {
@@ -8696,10 +9325,24 @@
         "tier": 15
       },
       {
+        "text": "Red Bull",
+        "tier": 15
+      },
+      {
+        "text": "Gatorade",
+        "tier": 15
+      },
+      {
+        "text": "Kombucha",
+        "tier": 15
+      },
+      {
         "text": "Coca-Cola",
         "aliases": [
           "coke",
-          "coca cola"
+          "coca cola",
+          "coke classic",
+          "mexican coke"
         ],
         "tier": 10
       },
@@ -8722,12 +9365,17 @@
       {
         "text": "Mountain Dew",
         "aliases": [
-          "mtn dew"
+          "mtn dew",
+          "mt dew"
         ],
         "tier": 10
       },
       {
         "text": "Fanta",
+        "aliases": [
+          "orange fanta",
+          "fanta orange"
+        ],
         "tier": 10
       },
       {
@@ -8745,7 +9393,20 @@
       "Tea",
       "Beer",
       "Juice",
-      "Lemonade"
+      "Lemonade",
+      "Water",
+      "Wine",
+      "Orange juice",
+      "Smoothie",
+      "Milkshake",
+      "Monster",
+      "Powerade",
+      "Snapple",
+      "Arizona",
+      "Kool-Aid",
+      "Capri Sun",
+      "Sunny D",
+      "Tang"
     ]
   },
   {
@@ -8776,6 +9437,9 @@
       },
       {
         "text": "Chesterfield",
+        "aliases": [
+          "chesterfield sofa"
+        ],
         "tier": 85
       },
       {
@@ -8975,6 +9639,877 @@
         "tier": 85
       },
       {
+        "text": "Bachelor's chest",
+        "tier": 85
+      },
+      {
+        "text": "Blanket chest",
+        "tier": 85
+      },
+      {
+        "text": "Cedar chest",
+        "tier": 85
+      },
+      {
+        "text": "Lingerie chest",
+        "tier": 85
+      },
+      {
+        "text": "Gentleman's chest",
+        "tier": 85
+      },
+      {
+        "text": "Campaign chest",
+        "tier": 85
+      },
+      {
+        "text": "Apothecary cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Display cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Corner cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Medicine cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Bathroom vanity",
+        "tier": 85
+      },
+      {
+        "text": "Linen cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Pantry cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Server",
+        "tier": 85
+      },
+      {
+        "text": "Dry sink",
+        "tier": 85
+      },
+      {
+        "text": "Pie safe",
+        "tier": 85
+      },
+      {
+        "text": "Jelly cupboard",
+        "tier": 85
+      },
+      {
+        "text": "Welsh dresser",
+        "tier": 85
+      },
+      {
+        "text": "Breakfront",
+        "tier": 85
+      },
+      {
+        "text": "Barrister bookcase",
+        "tier": 85
+      },
+      {
+        "text": "Wall shelf",
+        "tier": 85
+      },
+      {
+        "text": "Floating shelf",
+        "tier": 85
+      },
+      {
+        "text": "Corner shelf",
+        "tier": 85
+      },
+      {
+        "text": "Media console",
+        "tier": 85
+      },
+      {
+        "text": "Armless chair",
+        "tier": 85
+      },
+      {
+        "text": "Accent chair",
+        "tier": 85
+      },
+      {
+        "text": "Club chair",
+        "tier": 85
+      },
+      {
+        "text": "Barrel chair",
+        "tier": 85
+      },
+      {
+        "text": "Slipper chair",
+        "tier": 85
+      },
+      {
+        "text": "Ghost chair",
+        "tier": 85
+      },
+      {
+        "text": "Bergere",
+        "tier": 85
+      },
+      {
+        "text": "Fauteuil",
+        "tier": 85
+      },
+      {
+        "text": "Klismos chair",
+        "tier": 85
+      },
+      {
+        "text": "Ladderback chair",
+        "tier": 85
+      },
+      {
+        "text": "Spindle chair",
+        "tier": 85
+      },
+      {
+        "text": "Shaker chair",
+        "tier": 85
+      },
+      {
+        "text": "Morris chair",
+        "tier": 85
+      },
+      {
+        "text": "Bentwood chair",
+        "tier": 85
+      },
+      {
+        "text": "Wassily chair",
+        "tier": 85
+      },
+      {
+        "text": "Barcelona chair",
+        "tier": 85
+      },
+      {
+        "text": "Panton chair",
+        "tier": 85
+      },
+      {
+        "text": "Womb chair",
+        "tier": 85
+      },
+      {
+        "text": "Ball chair",
+        "tier": 85
+      },
+      {
+        "text": "Bubble chair",
+        "tier": 85
+      },
+      {
+        "text": "Butterfly chair",
+        "tier": 85
+      },
+      {
+        "text": "Director's chair",
+        "tier": 85
+      },
+      {
+        "text": "Deck chair",
+        "tier": 85
+      },
+      {
+        "text": "Beach chair",
+        "tier": 85
+      },
+      {
+        "text": "Camp chair",
+        "tier": 85
+      },
+      {
+        "text": "Sling chair",
+        "tier": 85
+      },
+      {
+        "text": "Massage chair",
+        "tier": 85
+      },
+      {
+        "text": "Swivel chair",
+        "tier": 85
+      },
+      {
+        "text": "Task chair",
+        "tier": 85
+      },
+      {
+        "text": "Kneeling chair",
+        "tier": 85
+      },
+      {
+        "text": "Saddle chair",
+        "tier": 85
+      },
+      {
+        "text": "Stacking chair",
+        "tier": 85
+      },
+      {
+        "text": "Side chair",
+        "tier": 85
+      },
+      {
+        "text": "Dining chair",
+        "tier": 85
+      },
+      {
+        "text": "Parsons chair",
+        "tier": 85
+      },
+      {
+        "text": "Counter stool",
+        "tier": 85
+      },
+      {
+        "text": "Step stool",
+        "tier": 85
+      },
+      {
+        "text": "Piano stool",
+        "tier": 85
+      },
+      {
+        "text": "Piano bench",
+        "tier": 85
+      },
+      {
+        "text": "Vanity stool",
+        "tier": 85
+      },
+      {
+        "text": "Milking stool",
+        "tier": 85
+      },
+      {
+        "text": "Tripod stool",
+        "tier": 85
+      },
+      {
+        "text": "Saddle stool",
+        "tier": 85
+      },
+      {
+        "text": "Banquette",
+        "tier": 85
+      },
+      {
+        "text": "Booth",
+        "tier": 85
+      },
+      {
+        "text": "Storage bench",
+        "tier": 85
+      },
+      {
+        "text": "Hall tree",
+        "tier": 85
+      },
+      {
+        "text": "Entryway bench",
+        "tier": 85
+      },
+      {
+        "text": "Mudroom bench",
+        "tier": 85
+      },
+      {
+        "text": "Shoe cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Camelback sofa",
+        "tier": 85
+      },
+      {
+        "text": "Tuxedo sofa",
+        "tier": 85
+      },
+      {
+        "text": "Lawson sofa",
+        "tier": 85
+      },
+      {
+        "text": "Cabriole sofa",
+        "tier": 85
+      },
+      {
+        "text": "Mid-century sofa",
+        "tier": 85
+      },
+      {
+        "text": "Modular sofa",
+        "tier": 85
+      },
+      {
+        "text": "Chaise sofa",
+        "tier": 85
+      },
+      {
+        "text": "Rocker recliner",
+        "tier": 85
+      },
+      {
+        "text": "Lift chair",
+        "tier": 85
+      },
+      {
+        "text": "Platform bed",
+        "tier": 85
+      },
+      {
+        "text": "Sleigh bed",
+        "tier": 85
+      },
+      {
+        "text": "Poster bed",
+        "tier": 85
+      },
+      {
+        "text": "Panel bed",
+        "tier": 85
+      },
+      {
+        "text": "Captain's bed",
+        "tier": 85
+      },
+      {
+        "text": "Loft bed",
+        "tier": 85
+      },
+      {
+        "text": "Storage bed",
+        "tier": 85
+      },
+      {
+        "text": "Adjustable bed",
+        "tier": 85
+      },
+      {
+        "text": "Hospital bed",
+        "tier": 85
+      },
+      {
+        "text": "Camp bed",
+        "tier": 85
+      },
+      {
+        "text": "Toddler bed",
+        "tier": 85
+      },
+      {
+        "text": "Pack 'n play",
+        "aliases": [
+          "playpen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Lamp table",
+        "tier": 85
+      },
+      {
+        "text": "Accent table",
+        "tier": 85
+      },
+      {
+        "text": "Pedestal table",
+        "tier": 85
+      },
+      {
+        "text": "Tilt-top table",
+        "tier": 85
+      },
+      {
+        "text": "Card table",
+        "tier": 85
+      },
+      {
+        "text": "Game table",
+        "tier": 85
+      },
+      {
+        "text": "Poker table",
+        "tier": 85
+      },
+      {
+        "text": "Drafting table",
+        "tier": 85
+      },
+      {
+        "text": "Workbench",
+        "tier": 85
+      },
+      {
+        "text": "Writing desk",
+        "tier": 85
+      },
+      {
+        "text": "Standing desk",
+        "tier": 85
+      },
+      {
+        "text": "Computer desk",
+        "tier": 85
+      },
+      {
+        "text": "Executive desk",
+        "tier": 85
+      },
+      {
+        "text": "Partners desk",
+        "tier": 85
+      },
+      {
+        "text": "Pedestal desk",
+        "tier": 85
+      },
+      {
+        "text": "Kneehole desk",
+        "tier": 85
+      },
+      {
+        "text": "Davenport desk",
+        "tier": 85
+      },
+      {
+        "text": "Fall-front desk",
+        "tier": 85
+      },
+      {
+        "text": "Bureau plat",
+        "tier": 85
+      },
+      {
+        "text": "Credenza desk",
+        "tier": 85
+      },
+      {
+        "text": "School desk",
+        "tier": 85
+      },
+      {
+        "text": "Lap desk",
+        "tier": 85
+      },
+      {
+        "text": "Tray table",
+        "tier": 85
+      },
+      {
+        "text": "TV tray",
+        "tier": 85
+      },
+      {
+        "text": "Butler's tray",
+        "tier": 85
+      },
+      {
+        "text": "Tea cart",
+        "tier": 85
+      },
+      {
+        "text": "Serving cart",
+        "tier": 85
+      },
+      {
+        "text": "Kitchen cart",
+        "tier": 85
+      },
+      {
+        "text": "Breakfast nook",
+        "tier": 85
+      },
+      {
+        "text": "Dinette",
+        "tier": 85
+      },
+      {
+        "text": "Pub table",
+        "tier": 85
+      },
+      {
+        "text": "Bistro table",
+        "tier": 85
+      },
+      {
+        "text": "Counter-height table",
+        "tier": 85
+      },
+      {
+        "text": "Farmhouse table",
+        "tier": 85
+      },
+      {
+        "text": "Refectory table",
+        "tier": 85
+      },
+      {
+        "text": "Extension table",
+        "tier": 85
+      },
+      {
+        "text": "Butterfly table",
+        "tier": 85
+      },
+      {
+        "text": "Pembroke table",
+        "tier": 85
+      },
+      {
+        "text": "C-table",
+        "tier": 85
+      },
+      {
+        "text": "Tea table",
+        "tier": 85
+      },
+      {
+        "text": "Tea trolley",
+        "tier": 85
+      },
+      {
+        "text": "Coffee cart",
+        "tier": 85
+      },
+      {
+        "text": "Wine rack",
+        "tier": 85
+      },
+      {
+        "text": "Bar cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Liquor cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Humidor",
+        "tier": 85
+      },
+      {
+        "text": "Gun cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Trophy case",
+        "tier": 85
+      },
+      {
+        "text": "Display case",
+        "tier": 85
+      },
+      {
+        "text": "Jewelry armoire",
+        "tier": 85
+      },
+      {
+        "text": "Vanity table",
+        "tier": 85
+      },
+      {
+        "text": "Dressing table",
+        "tier": 85
+      },
+      {
+        "text": "Makeup vanity",
+        "tier": 85
+      },
+      {
+        "text": "Screen",
+        "aliases": [
+          "shoji screen"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Partition",
+        "tier": 85
+      },
+      {
+        "text": "Coat stand",
+        "tier": 85
+      },
+      {
+        "text": "Valet stand",
+        "tier": 85
+      },
+      {
+        "text": "Clothes rack",
+        "tier": 85
+      },
+      {
+        "text": "Garment rack",
+        "tier": 85
+      },
+      {
+        "text": "Luggage rack",
+        "tier": 85
+      },
+      {
+        "text": "Quilt rack",
+        "tier": 85
+      },
+      {
+        "text": "Towel rack",
+        "tier": 85
+      },
+      {
+        "text": "Floor cushion",
+        "tier": 85
+      },
+      {
+        "text": "Zabuton",
+        "tier": 85
+      },
+      {
+        "text": "Tatami",
+        "tier": 85
+      },
+      {
+        "text": "Kotatsu",
+        "tier": 85
+      },
+      {
+        "text": "Chabudai",
+        "tier": 85
+      },
+      {
+        "text": "Tansu",
+        "tier": 85
+      },
+      {
+        "text": "Hammock chair",
+        "tier": 85
+      },
+      {
+        "text": "Swing",
+        "tier": 85
+      },
+      {
+        "text": "Porch swing",
+        "tier": 85
+      },
+      {
+        "text": "Glider bench",
+        "tier": 85
+      },
+      {
+        "text": "Garden bench",
+        "tier": 85
+      },
+      {
+        "text": "Park bench",
+        "tier": 85
+      },
+      {
+        "text": "Picnic bench",
+        "tier": 85
+      },
+      {
+        "text": "Patio set",
+        "tier": 85
+      },
+      {
+        "text": "Bistro set",
+        "tier": 85
+      },
+      {
+        "text": "Lounge chair",
+        "tier": 85
+      },
+      {
+        "text": "Rattan chair",
+        "tier": 85
+      },
+      {
+        "text": "Wicker chair",
+        "tier": 85
+      },
+      {
+        "text": "Peacock chair",
+        "tier": 85
+      },
+      {
+        "text": "Pulpit",
+        "tier": 85
+      },
+      {
+        "text": "Altar",
+        "tier": 85
+      },
+      {
+        "text": "Confessional",
+        "tier": 85
+      },
+      {
+        "text": "Bleachers",
+        "tier": 85
+      },
+      {
+        "text": "Stadium seat",
+        "tier": 85
+      },
+      {
+        "text": "Theater seat",
+        "tier": 85
+      },
+      {
+        "text": "Recamier",
+        "tier": 85
+      },
+      {
+        "text": "Meridienne",
+        "tier": 85
+      },
+      {
+        "text": "Canapé",
+        "tier": 85
+      },
+      {
+        "text": "Storage ottoman",
+        "tier": 85
+      },
+      {
+        "text": "Footrest",
+        "tier": 85
+      },
+      {
+        "text": "Kneeler",
+        "tier": 85
+      },
+      {
+        "text": "Prie-dieu",
+        "tier": 85
+      },
+      {
+        "text": "Hall stand",
+        "tier": 85
+      },
+      {
+        "text": "Console",
+        "tier": 85
+      },
+      {
+        "text": "Pier table",
+        "tier": 85
+      },
+      {
+        "text": "Demilune",
+        "aliases": [
+          "demi-lune table"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Gueridon",
+        "tier": 85
+      },
+      {
+        "text": "Tabouret",
+        "tier": 85
+      },
+      {
+        "text": "Taboret",
+        "tier": 85
+      },
+      {
+        "text": "Torchère",
+        "tier": 85
+      },
+      {
+        "text": "Candle stand",
+        "tier": 85
+      },
+      {
+        "text": "Dumbwaiter",
+        "tier": 85
+      },
+      {
+        "text": "Wardrobe closet",
+        "tier": 85
+      },
+      {
+        "text": "Chifforobe",
+        "tier": 85
+      },
+      {
+        "text": "Kas",
+        "tier": 85
+      },
+      {
+        "text": "Schrank",
+        "tier": 85
+      },
+      {
+        "text": "Hoosier cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Sewing table",
+        "tier": 85
+      },
+      {
+        "text": "Sewing cabinet",
+        "tier": 85
+      },
+      {
+        "text": "Changing dresser",
+        "tier": 85
+      },
+      {
+        "text": "Triple bunk",
+        "tier": 85
+      },
+      {
+        "text": "Futon frame",
+        "tier": 85
+      },
+      {
+        "text": "Tête-à-tête",
+        "tier": 85
+      },
+      {
+        "text": "Grandfather clock",
+        "aliases": [
+          "longcase clock"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Pool table",
+        "aliases": [
+          "billiard table"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Floor lamp",
+        "tier": 85
+      },
+      {
+        "text": "Table lamp",
+        "tier": 85
+      },
+      {
         "text": "Sideboard",
         "aliases": [
           "buffet"
@@ -9003,10 +10538,9 @@
       },
       {
         "text": "Sectional",
-        "tier": 60
-      },
-      {
-        "text": "Daybed",
+        "aliases": [
+          "sectional sofa"
+        ],
         "tier": 60
       },
       {
@@ -9163,7 +10697,8 @@
         "text": "Nightstand",
         "aliases": [
           "night stand",
-          "bedside table"
+          "bedside table",
+          "nightstand table"
         ],
         "tier": 30
       },
@@ -9179,7 +10714,8 @@
         "text": "Recliner",
         "aliases": [
           "la-z-boy",
-          "lazy boy"
+          "lazy boy",
+          "recliner chair"
         ],
         "tier": 30
       },
@@ -9203,6 +10739,9 @@
       },
       {
         "text": "Rocking chair",
+        "aliases": [
+          "rocker"
+        ],
         "tier": 30
       },
       {
@@ -9212,14 +10751,8 @@
       {
         "text": "Crib",
         "aliases": [
-          "cot"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Bunk bed",
-        "aliases": [
-          "bunkbed"
+          "cot",
+          "baby crib"
         ],
         "tier": 30
       },
@@ -9295,7 +10828,6 @@
       }
     ],
     "nearMisses": [
-      "Rug",
       "Door",
       "Window",
       "Television",
@@ -9303,7 +10835,19 @@
       "Fridge",
       "Pillow",
       "Blanket",
-      "Curtains"
+      "Curtains",
+      "Rug floor",
+      "Carpet",
+      "Refrigerator",
+      "Stove",
+      "Painting",
+      "Vase",
+      "Plant",
+      "Toilet",
+      "Mattress",
+      "Box spring",
+      "Chandelier",
+      "Rocking horse"
     ]
   }
 ]

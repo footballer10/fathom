@@ -132,7 +132,6 @@ Grape-Nuts | grape nuts | grapenuts
 Corn Pops
 Cookie Crisp
 Franken Berry
-Boo Berry | booberry
 Count Chocula
 
 [Schooler]
@@ -459,7 +458,6 @@ June bug | june beetle
 Monarch butterfly | monarch
 Yellowjacket | yellow jacket
 Fruit fly
-Horsefly | horse fly
 Dung beetle
 Walking stick | stick insect | stick bug
 Silverfish
@@ -478,7 +476,6 @@ Millipede
 
 [Schooler]
 Praying mantis | mantis
-Bumblebee | bumble bee
 Hornet
 Centipede
 Flea
@@ -1380,7 +1377,7 @@ Mashup
 Breakcore
 Speedcore
 Lowercase
-Brostep
+Brostep | dubstep brostep
 
 [Rare]
 House | house music
@@ -2012,7 +2009,6 @@ White sapphire
 Burmese ruby | pigeon's blood ruby
 Colombian emerald
 Trapiche emerald
-Koh-i-Noor
 
 [Rare]
 Lapis lazuli | lapis
@@ -2060,6 +2056,7 @@ Peridot
 Rhinestone
 Cubic zirconia | cz
 Hope Diamond
+Koh-i-Noor
 
 [Plankton]
 Diamond
@@ -2122,6 +2119,155 @@ Blue Sky
 Spindrift
 Waterloo
 Topo Chico
+Vanilla Coke
+Coke Life
+New Coke
+Pepsi Blue
+Pepsi Wild Cherry
+Pepsi Twist
+Mountain Dew Code Red | code red
+Mountain Dew Baja Blast | baja blast
+Mountain Dew Voltage
+Mountain Dew Kickstart | kickstart
+Diet Mountain Dew
+Diet Dr Pepper
+Dr Pepper Zero
+Sprite Zero
+Sprite Remix
+7 Up Zero
+Diet 7 Up
+Fanta Grape
+Crush Grape
+Grape Crush
+Cactus Cooler
+Kickapoo Joy Juice
+Dr Thunder
+Dr Skipper
+Dr. Wells
+Mountain Lightning
+Mountain Mist
+Mountain Holler
+Bubble Up
+Upper 10
+Wink
+Fresca Mixed
+Diet Rite
+NuGrape
+Grapette
+Nehi
+Delaware Punch
+Double Cola
+Kist
+Faygo Rock & Rye | rock and rye
+Faygo Redpop
+Big K
+Sam's Choice
+Dr Pop
+Dr. Perky
+Barritt's
+Bruce Cost
+Q Mixers | q tonic
+Fever-Tree
+Sanpellegrino Aranciata
+Cock 'n Bull
+Goya
+Materva
+Jupiña
+Iron Beer
+Kola Champagne
+Malta | malta goya
+Kola Real | big cola
+Postobon
+Colombiana
+Pony Malta
+Lift
+Mundet
+Peñafiel
+Sangria Señorial
+Boing
+Barrilitos
+Joya
+Kola Inglesa
+Guaraná Jesus
+Kuat
+Pepsi Kona
+Pepsi Fire
+Pepsi Mango
+Starry Zero
+Ting
+D&G
+Bigga
+Busta
+Solo
+Leed
+Pasito
+Sars | sarsaparilla
+Lemon & Paeroa | l&p
+Foxton Fizz
+Cott
+Brio
+Crush Cream Soda
+Pop Shoppe
+Swiss Chalet Sodas
+Barr
+Tizer
+Vimto Remix
+Dandelion & Burdock
+Fentimans Curiosity Cola
+Ben Shaws
+R. White's
+Panda Pops
+Old Jamaica
+Fanta Lemon
+Bionade
+Fritz-Kola
+Almdudler
+Spezi
+Sinalco
+Bluna
+Libella
+Schwip Schwap
+Mezzo Mix
+Pepsi Light
+Cockta
+Cedevita
+Jupi
+Ciel
+Pommac
+Julmust
+Påskmust
+Trocadero
+Champis
+Zingo
+Fanta Exotic
+Frutti
+Tiki
+Kofola Citrus
+Vinea
+Hellena
+Paola
+Barbican
+Mirinda Citrus
+Shani
+Rani Float
+Calpico Soda | calpis soda
+Mitsuya Cider
+CC Lemon
+Thomas Kemper
+Zuberfizz
+Ski | ski soda
+Buffalo Rock
+Grapico
+Blue Hawaiian
+Dr Pepper Cream Soda
+Dr Pepper Cherry
+Pepsi Real Sugar | pepsi throwback
+Mist Twst
+OK Soda
+Pepsi AM
+Pepsi X
+Coca-Cola BlaK
+Orangina Rouge
 
 [Rare]
 Vernors
@@ -2159,37 +2305,40 @@ Lilt
 
 [Schooler]
 Diet Coke
-Coke Zero
+Coke Zero | coke zero sugar | coca-cola zero
 Root beer
 A&W | a and w
 Barq's | barqs
 Canada Dry
 Schweppes
-Sunkist
+Sunkist | sunkist orange
 Mug | mug root beer
-Pepsi Max
+Pepsi Max | pepsi zero sugar | pepsi zero
 Diet Pepsi
 Ginger ale
 Squirt
 Fresca
-Crush | orange crush
+Crush | orange crush | sunkist crush
 Sierra Mist
 Starry
 Mello Yello | mello yellow
 Big Red
-Cherry Coke
+Cherry Coke | coca-cola cherry
 
 [Too Clever]
 Tab
 Crystal Pepsi
+Red Bull
+Gatorade
+Kombucha
 
 [Plankton]
-Coca-Cola | coke | coca cola
+Coca-Cola | coke | coca cola | coke classic | mexican coke
 Pepsi
 Sprite
 Dr Pepper | dr. pepper | doctor pepper
-Mountain Dew | mtn dew
-Fanta
+Mountain Dew | mtn dew | mt dew
+Fanta | orange fanta | fanta orange
 7 Up | 7up | seven up
 
 [Not accepted]
@@ -2199,6 +2348,19 @@ Tea
 Beer
 Juice
 Lemonade
+Water
+Wine
+Orange juice
+Smoothie
+Milkshake
+Monster
+Powerade
+Snapple
+Arizona
+Kool-Aid
+Capri Sun
+Sunny D
+Tang
 
 # QUESTION
 id: q0030
@@ -2213,7 +2375,7 @@ Chaise longue | chaise lounge | chaise
 Settee
 Divan
 Davenport
-Chesterfield
+Chesterfield | chesterfield sofa
 Fainting couch
 Tallboy | highboy
 Lowboy
@@ -2257,6 +2419,220 @@ Sofa table
 Ladder shelf
 Cubby | cubbies
 Locker
+Bachelor's chest
+Blanket chest
+Cedar chest
+Lingerie chest
+Gentleman's chest
+Campaign chest
+Apothecary cabinet
+Display cabinet
+Corner cabinet
+Medicine cabinet
+Bathroom vanity
+Linen cabinet
+Pantry cabinet
+Server
+Dry sink
+Pie safe
+Jelly cupboard
+Welsh dresser
+Breakfront
+Barrister bookcase
+Wall shelf
+Floating shelf
+Corner shelf
+Media console
+Armless chair
+Accent chair
+Club chair
+Barrel chair
+Slipper chair
+Ghost chair
+Bergere
+Fauteuil
+Klismos chair
+Ladderback chair
+Spindle chair
+Shaker chair
+Morris chair
+Bentwood chair
+Wassily chair
+Barcelona chair
+Panton chair
+Womb chair
+Ball chair
+Bubble chair
+Butterfly chair
+Director's chair
+Deck chair
+Beach chair
+Camp chair
+Sling chair
+Massage chair
+Swivel chair
+Task chair
+Kneeling chair
+Saddle chair
+Stacking chair
+Side chair
+Dining chair
+Parsons chair
+Counter stool
+Step stool
+Piano stool
+Piano bench
+Vanity stool
+Milking stool
+Tripod stool
+Saddle stool
+Banquette
+Booth
+Storage bench
+Hall tree
+Entryway bench
+Mudroom bench
+Shoe cabinet
+Camelback sofa
+Tuxedo sofa
+Lawson sofa
+Cabriole sofa
+Mid-century sofa
+Modular sofa
+Chaise sofa
+Rocker recliner
+Lift chair
+Platform bed
+Sleigh bed
+Poster bed
+Panel bed
+Captain's bed
+Loft bed
+Storage bed
+Adjustable bed
+Hospital bed
+Camp bed
+Toddler bed
+Pack 'n play | playpen
+Lamp table
+Accent table
+Pedestal table
+Tilt-top table
+Card table
+Game table
+Poker table
+Drafting table
+Workbench
+Writing desk
+Standing desk
+Computer desk
+Executive desk
+Partners desk
+Pedestal desk
+Kneehole desk
+Davenport desk
+Fall-front desk
+Bureau plat
+Credenza desk
+School desk
+Lap desk
+Tray table
+TV tray
+Butler's tray
+Tea cart
+Serving cart
+Kitchen cart
+Breakfast nook
+Dinette
+Pub table
+Bistro table
+Counter-height table
+Farmhouse table
+Refectory table
+Extension table
+Butterfly table
+Pembroke table
+C-table
+Tea table
+Tea trolley
+Coffee cart
+Wine rack
+Bar cabinet
+Liquor cabinet
+Humidor
+Gun cabinet
+Trophy case
+Display case
+Jewelry armoire
+Vanity table
+Dressing table
+Makeup vanity
+Screen | shoji screen
+Partition
+Coat stand
+Valet stand
+Clothes rack
+Garment rack
+Luggage rack
+Quilt rack
+Towel rack
+Floor cushion
+Zabuton
+Tatami
+Kotatsu
+Chabudai
+Tansu
+Hammock chair
+Swing
+Porch swing
+Glider bench
+Garden bench
+Park bench
+Picnic bench
+Patio set
+Bistro set
+Lounge chair
+Rattan chair
+Wicker chair
+Peacock chair
+Pulpit
+Altar
+Confessional
+Bleachers
+Stadium seat
+Theater seat
+Recamier
+Meridienne
+Canapé
+Storage ottoman
+Footrest
+Kneeler
+Prie-dieu
+Hall stand
+Console
+Pier table
+Demilune | demi-lune table
+Gueridon
+Tabouret
+Taboret
+Torchère
+Candle stand
+Dumbwaiter
+Wardrobe closet
+Chifforobe
+Kas
+Schrank
+Hoosier cabinet
+Sewing table
+Sewing cabinet
+Changing dresser
+Triple bunk
+Futon frame
+Tête-à-tête
+Grandfather clock | longcase clock
+Pool table | billiard table
+Floor lamp
+Table lamp
 
 [Rare]
 Sideboard | buffet
@@ -2265,8 +2641,7 @@ China cabinet
 Credenza
 Vanity
 Headboard
-Sectional
-Daybed
+Sectional | sectional sofa
 Trundle bed
 Murphy bed
 Bar stool | barstool
@@ -2298,17 +2673,16 @@ Papasan chair | papasan
 Stool
 Bench
 Cabinet
-Nightstand | night stand | bedside table
+Nightstand | night stand | bedside table | nightstand table
 Coffee table
 Armchair
-Recliner | la-z-boy | lazy boy
+Recliner | la-z-boy | lazy boy | recliner chair
 Ottoman
 Wardrobe | armoire
 Loveseat | love seat
-Rocking chair
+Rocking chair | rocker
 Dining table
-Crib | cot
-Bunk bed | bunkbed
+Crib | cot | baby crib
 Chest of drawers
 TV stand | entertainment center
 Footstool
@@ -2329,7 +2703,6 @@ Dresser
 Bookshelf | bookcase | bookshelves
 
 [Not accepted]
-Rug
 Door
 Window
 Television
@@ -2338,3 +2711,15 @@ Fridge
 Pillow
 Blanket
 Curtains
+Rug floor
+Carpet
+Refrigerator
+Stove
+Painting
+Vase
+Plant
+Toilet
+Mattress
+Box spring
+Chandelier
+Rocking horse
