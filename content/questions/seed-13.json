@@ -158,7 +158,9 @@
       {
         "text": "Lumiere brothers",
         "aliases": [
-          "lumiere"
+          "lumiere",
+          "auguste lumiere",
+          "louis lumiere"
         ],
         "tier": 85
       },
@@ -358,7 +360,8 @@
       {
         "text": "Karl Benz",
         "aliases": [
-          "benz"
+          "benz",
+          "carl benz"
         ],
         "tier": 60
       },
@@ -891,6 +894,214 @@
         "tier": 60
       },
       {
+        "text": "James Naismith",
+        "tier": 60
+      },
+      {
+        "text": "Thomas Midgley",
+        "tier": 60
+      },
+      {
+        "text": "Robert Bunsen",
+        "tier": 60
+      },
+      {
+        "text": "Hans Geiger",
+        "tier": 60
+      },
+      {
+        "text": "Dean Kamen",
+        "tier": 60
+      },
+      {
+        "text": "Shuji Nakamura",
+        "tier": 60
+      },
+      {
+        "text": "John Boyd Dunlop",
+        "tier": 60
+      },
+      {
+        "text": "Charles Macintosh",
+        "tier": 60
+      },
+      {
+        "text": "Joseph Priestley",
+        "tier": 60
+      },
+      {
+        "text": "Alexander Bain",
+        "tier": 60
+      },
+      {
+        "text": "Erno Rubik",
+        "tier": 60
+      },
+      {
+        "text": "Nolan Bushnell",
+        "tier": 60
+      },
+      {
+        "text": "Ralph Baer",
+        "tier": 60
+      },
+      {
+        "text": "Martin Cooper",
+        "tier": 60
+      },
+      {
+        "text": "Steven Sasson",
+        "tier": 60
+      },
+      {
+        "text": "Ole Kirk Christiansen",
+        "tier": 60
+      },
+      {
+        "text": "Robert Moog",
+        "tier": 60
+      },
+      {
+        "text": "Les Paul",
+        "tier": 60
+      },
+      {
+        "text": "Leo Fender",
+        "tier": 60
+      },
+      {
+        "text": "Ray Dolby",
+        "tier": 60
+      },
+      {
+        "text": "Gustave Trouve",
+        "tier": 60
+      },
+      {
+        "text": "Thomas Savery",
+        "tier": 60
+      },
+      {
+        "text": "Denis Papin",
+        "tier": 60
+      },
+      {
+        "text": "John Wilkinson",
+        "tier": 60
+      },
+      {
+        "text": "William Murdoch",
+        "tier": 60
+      },
+      {
+        "text": "Humphrey Potter",
+        "tier": 60
+      },
+      {
+        "text": "Frank Hornby",
+        "tier": 60
+      },
+      {
+        "text": "Ferdinand Porsche",
+        "tier": 60
+      },
+      {
+        "text": "Soichiro Honda",
+        "tier": 60
+      },
+      {
+        "text": "Kiichiro Toyoda",
+        "tier": 60
+      },
+      {
+        "text": "Andre Citroen",
+        "tier": 60
+      },
+      {
+        "text": "Sylvester Roper",
+        "tier": 60
+      },
+      {
+        "text": "Kirkpatrick Macmillan",
+        "tier": 60
+      },
+      {
+        "text": "Pierre Michaux",
+        "tier": 60
+      },
+      {
+        "text": "John Kemp Starley",
+        "tier": 60
+      },
+      {
+        "text": "Charles Townes",
+        "tier": 60
+      },
+      {
+        "text": "Theodore Maiman",
+        "tier": 60
+      },
+      {
+        "text": "Gordon Gould",
+        "tier": 60
+      },
+      {
+        "text": "Willard Boyle",
+        "tier": 60
+      },
+      {
+        "text": "Masaru Ibuka",
+        "tier": 60
+      },
+      {
+        "text": "Akio Morita",
+        "tier": 60
+      },
+      {
+        "text": "Wallace Carothers",
+        "tier": 60
+      },
+      {
+        "text": "Roy Plunkett",
+        "tier": 60
+      },
+      {
+        "text": "Leo Baekeland",
+        "tier": 60
+      },
+      {
+        "text": "Alexander Parkes",
+        "tier": 60
+      },
+      {
+        "text": "John Wesley Hyatt",
+        "tier": 60
+      },
+      {
+        "text": "Charles Hall",
+        "tier": 60
+      },
+      {
+        "text": "Paul Heroult",
+        "tier": 60
+      },
+      {
+        "text": "Fritz Haber",
+        "tier": 60
+      },
+      {
+        "text": "Carl Bosch",
+        "tier": 60
+      },
+      {
+        "text": "Ctesibius of Alexandria",
+        "tier": 60
+      },
+      {
+        "text": "Robert Hooke",
+        "tier": 60
+      },
+      {
         "text": "Johannes Gutenberg",
         "aliases": [
           "gutenberg"
@@ -1087,7 +1298,8 @@
       {
         "text": "Madam C.J. Walker",
         "aliases": [
-          "madam cj walker"
+          "madam cj walker",
+          "madame cj walker"
         ],
         "tier": 30
       },
@@ -1120,7 +1332,8 @@
       {
         "text": "Leonardo da Vinci",
         "aliases": [
-          "da vinci"
+          "da vinci",
+          "leonardo"
         ],
         "tier": 15
       },
@@ -1136,6 +1349,14 @@
         "aliases": [
           "musk"
         ],
+        "tier": 15
+      },
+      {
+        "text": "Albert Einstein",
+        "tier": 15
+      },
+      {
+        "text": "Thomas Jefferson",
         "tier": 15
       },
       {
@@ -1173,7 +1394,8 @@
         "aliases": [
           "wright brothers",
           "orville wright",
-          "wilbur wright"
+          "wilbur wright",
+          "orville and wilbur wright"
         ],
         "tier": 10
       },
@@ -1186,7 +1408,6 @@
       }
     ],
     "nearMisses": [
-      "Albert Einstein",
       "Charles Darwin",
       "Shakespeare",
       "Mozart",
@@ -1780,6 +2001,485 @@
         "tier": 60
       },
       {
+        "text": "Slip 'N Slide",
+        "tier": 60
+      },
+      {
+        "text": "Game Boy",
+        "tier": 60
+      },
+      {
+        "text": "Barrel of Monkeys",
+        "tier": 60
+      },
+      {
+        "text": "Operation",
+        "tier": 60
+      },
+      {
+        "text": "Mouse Trap",
+        "tier": 60
+      },
+      {
+        "text": "Hungry Hungry Hippos",
+        "tier": 60
+      },
+      {
+        "text": "Connect Four",
+        "tier": 60
+      },
+      {
+        "text": "Candy Land",
+        "tier": 60
+      },
+      {
+        "text": "Chutes and Ladders",
+        "tier": 60
+      },
+      {
+        "text": "Battleship",
+        "tier": 60
+      },
+      {
+        "text": "Lego Technic",
+        "tier": 60
+      },
+      {
+        "text": "Wiffle ball",
+        "tier": 60
+      },
+      {
+        "text": "Bouncy ball",
+        "tier": 60
+      },
+      {
+        "text": "Super ball",
+        "tier": 60
+      },
+      {
+        "text": "Tricycle",
+        "tier": 60
+      },
+      {
+        "text": "Scooter",
+        "tier": 60
+      },
+      {
+        "text": "Roller skates",
+        "tier": 60
+      },
+      {
+        "text": "Skateboard",
+        "tier": 60
+      },
+      {
+        "text": "Sled",
+        "tier": 60
+      },
+      {
+        "text": "Rag doll",
+        "tier": 60
+      },
+      {
+        "text": "Russian nesting dolls",
+        "aliases": [
+          "matryoshka"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Jigsaw puzzle",
+        "tier": 60
+      },
+      {
+        "text": "Chatter Telephone",
+        "tier": 60
+      },
+      {
+        "text": "Bubble wand",
+        "tier": 60
+      },
+      {
+        "text": "Water balloons",
+        "tier": 60
+      },
+      {
+        "text": "Play kitchen",
+        "tier": 60
+      },
+      {
+        "text": "Tea set",
+        "tier": 60
+      },
+      {
+        "text": "Bouncy castle",
+        "tier": 60
+      },
+      {
+        "text": "Trampoline",
+        "tier": 60
+      },
+      {
+        "text": "Swing set",
+        "tier": 60
+      },
+      {
+        "text": "Seesaw",
+        "tier": 60
+      },
+      {
+        "text": "Merry-go-round",
+        "tier": 60
+      },
+      {
+        "text": "Dreidel",
+        "tier": 60
+      },
+      {
+        "text": "Zoetrope",
+        "tier": 60
+      },
+      {
+        "text": "Thaumatrope",
+        "tier": 60
+      },
+      {
+        "text": "Flip book",
+        "tier": 60
+      },
+      {
+        "text": "Bop bag",
+        "tier": 60
+      },
+      {
+        "text": "Punching clown",
+        "tier": 60
+      },
+      {
+        "text": "Magic set",
+        "tier": 60
+      },
+      {
+        "text": "Chemistry set",
+        "tier": 60
+      },
+      {
+        "text": "Microscope kit",
+        "tier": 60
+      },
+      {
+        "text": "Crystal radio",
+        "tier": 60
+      },
+      {
+        "text": "Slime",
+        "tier": 60
+      },
+      {
+        "text": "Pez dispenser",
+        "tier": 60
+      },
+      {
+        "text": "Crayola crayons",
+        "aliases": [
+          "crayons"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Colouring book",
+        "aliases": [
+          "coloring book"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Stickers",
+        "tier": 60
+      },
+      {
+        "text": "Sticker book",
+        "tier": 60
+      },
+      {
+        "text": "Glow sticks",
+        "tier": 60
+      },
+      {
+        "text": "Bubble gun",
+        "tier": 60
+      },
+      {
+        "text": "Kazoo",
+        "tier": 60
+      },
+      {
+        "text": "Harmonica",
+        "tier": 60
+      },
+      {
+        "text": "Xylophone",
+        "tier": 60
+      },
+      {
+        "text": "Tambourine",
+        "tier": 60
+      },
+      {
+        "text": "Recorder",
+        "tier": 60
+      },
+      {
+        "text": "Whistle",
+        "tier": 60
+      },
+      {
+        "text": "Toy guitar",
+        "tier": 60
+      },
+      {
+        "text": "Toy phone",
+        "tier": 60
+      },
+      {
+        "text": "Toy tool set",
+        "tier": 60
+      },
+      {
+        "text": "Toy cash register",
+        "tier": 60
+      },
+      {
+        "text": "Buzz Lightyear",
+        "tier": 60
+      },
+      {
+        "text": "Holly Hobbie",
+        "tier": 60
+      },
+      {
+        "text": "Barbie Dreamhouse",
+        "tier": 60
+      },
+      {
+        "text": "Corgi toys",
+        "tier": 60
+      },
+      {
+        "text": "Dinky toys",
+        "tier": 60
+      },
+      {
+        "text": "Micro Machines",
+        "tier": 60
+      },
+      {
+        "text": "Hess truck",
+        "tier": 60
+      },
+      {
+        "text": "Lionel trains",
+        "aliases": [
+          "lionel"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Thomas the Tank Engine",
+        "tier": 60
+      },
+      {
+        "text": "Brio",
+        "tier": 60
+      },
+      {
+        "text": "Playmobil",
+        "tier": 60
+      },
+      {
+        "text": "Sylvanian Families",
+        "aliases": [
+          "calico critters"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lalaloopsy",
+        "tier": 60
+      },
+      {
+        "text": "Monster High",
+        "tier": 60
+      },
+      {
+        "text": "Baseball cards",
+        "tier": 60
+      },
+      {
+        "text": "Magnetix",
+        "tier": 60
+      },
+      {
+        "text": "Magna-Tiles",
+        "tier": 60
+      },
+      {
+        "text": "Zoob",
+        "tier": 60
+      },
+      {
+        "text": "Bristle Blocks",
+        "tier": 60
+      },
+      {
+        "text": "Light-up yo-yo",
+        "tier": 60
+      },
+      {
+        "text": "Diabolo set",
+        "tier": 60
+      },
+      {
+        "text": "Juggling balls",
+        "tier": 60
+      },
+      {
+        "text": "Hacky sack",
+        "tier": 60
+      },
+      {
+        "text": "Tetherball",
+        "tier": 60
+      },
+      {
+        "text": "Dodgeball",
+        "tier": 60
+      },
+      {
+        "text": "Beach ball",
+        "tier": 60
+      },
+      {
+        "text": "Pool noodle",
+        "tier": 60
+      },
+      {
+        "text": "Inflatable pool",
+        "tier": 60
+      },
+      {
+        "text": "Floaties",
+        "tier": 60
+      },
+      {
+        "text": "Rubber duck",
+        "tier": 60
+      },
+      {
+        "text": "Bath toys",
+        "tier": 60
+      },
+      {
+        "text": "Squeaky toy",
+        "tier": 60
+      },
+      {
+        "text": "Pull toy",
+        "tier": 60
+      },
+      {
+        "text": "Push toy",
+        "tier": 60
+      },
+      {
+        "text": "Corn popper",
+        "tier": 60
+      },
+      {
+        "text": "Baby walker",
+        "tier": 60
+      },
+      {
+        "text": "Activity cube",
+        "tier": 60
+      },
+      {
+        "text": "Bead maze",
+        "tier": 60
+      },
+      {
+        "text": "Busy board",
+        "tier": 60
+      },
+      {
+        "text": "Doodle Pro",
+        "tier": 60
+      },
+      {
+        "text": "Fuzzy Felt",
+        "tier": 60
+      },
+      {
+        "text": "Stickle Bricks",
+        "tier": 60
+      },
+      {
+        "text": "Meccano",
+        "tier": 60
+      },
+      {
+        "text": "Scalextric",
+        "tier": 60
+      },
+      {
+        "text": "Sindy",
+        "tier": 60
+      },
+      {
+        "text": "Action Man",
+        "tier": 60
+      },
+      {
+        "text": "Subbuteo",
+        "tier": 60
+      },
+      {
+        "text": "Space hopper",
+        "tier": 60
+      },
+      {
+        "text": "Clackers",
+        "tier": 60
+      },
+      {
+        "text": "Peg doll",
+        "tier": 60
+      },
+      {
+        "text": "Corn husk doll",
+        "tier": 60
+      },
+      {
+        "text": "Kachina doll",
+        "tier": 60
+      },
+      {
+        "text": "Tin soldier",
+        "tier": 60
+      },
+      {
+        "text": "Tin toy",
+        "tier": 60
+      },
+      {
+        "text": "Clockwork toy",
+        "tier": 60
+      },
+      {
+        "text": "Automaton",
+        "tier": 60
+      },
+      {
         "text": "Play-Doh",
         "aliases": [
           "playdoh",
@@ -1944,6 +2644,9 @@
       },
       {
         "text": "Nerf",
+        "aliases": [
+          "nerf gun"
+        ],
         "tier": 30
       },
       {
@@ -2071,7 +2774,8 @@
       {
         "text": "LEGO",
         "aliases": [
-          "legos"
+          "legos",
+          "lego bricks"
         ],
         "tier": 10
       },
@@ -2088,6 +2792,9 @@
       },
       {
         "text": "Teddy bear",
+        "aliases": [
+          "teddy"
+        ],
         "tier": 10
       },
       {
@@ -2101,7 +2808,8 @@
       {
         "text": "Rubik's Cube",
         "aliases": [
-          "rubiks cube"
+          "rubiks cube",
+          "rubik's"
         ],
         "tier": 10
       },
@@ -2117,8 +2825,7 @@
       "Television",
       "Phone",
       "Video game",
-      "Book",
-      "Swing set"
+      "Book"
     ]
   },
   {
@@ -2599,6 +3306,133 @@
         "tier": 60
       },
       {
+        "text": "Private second class",
+        "tier": 60
+      },
+      {
+        "text": "Airman basic",
+        "tier": 60
+      },
+      {
+        "text": "Specialist four",
+        "aliases": [
+          "spec 4"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lance bombardier",
+        "tier": 60
+      },
+      {
+        "text": "Flight sergeant",
+        "tier": 60
+      },
+      {
+        "text": "Chief technician",
+        "tier": 60
+      },
+      {
+        "text": "Lieutenant junior grade",
+        "tier": 60
+      },
+      {
+        "text": "Petty officer first class",
+        "tier": 60
+      },
+      {
+        "text": "Petty officer second class",
+        "tier": 60
+      },
+      {
+        "text": "Petty officer third class",
+        "tier": 60
+      },
+      {
+        "text": "Command master chief",
+        "tier": 60
+      },
+      {
+        "text": "Master chief",
+        "tier": 60
+      },
+      {
+        "text": "Senior chief",
+        "tier": 60
+      },
+      {
+        "text": "Chief Master Sergeant of the Air Force",
+        "tier": 60
+      },
+      {
+        "text": "Master Chief Petty Officer of the Navy",
+        "tier": 60
+      },
+      {
+        "text": "Sergeant Major of the Marine Corps",
+        "tier": 60
+      },
+      {
+        "text": "Chief warrant officer 5",
+        "tier": 60
+      },
+      {
+        "text": "Warrant officer 1",
+        "tier": 60
+      },
+      {
+        "text": "Admiral of the Navy",
+        "tier": 60
+      },
+      {
+        "text": "Rear admiral lower half",
+        "tier": 60
+      },
+      {
+        "text": "Rear admiral upper half",
+        "tier": 60
+      },
+      {
+        "text": "Corporal of Horse",
+        "tier": 60
+      },
+      {
+        "text": "Staff captain",
+        "tier": 60
+      },
+      {
+        "text": "Captain lieutenant",
+        "tier": 60
+      },
+      {
+        "text": "Lance naik",
+        "tier": 60
+      },
+      {
+        "text": "Seaman first class",
+        "tier": 60
+      },
+      {
+        "text": "Fireman",
+        "tier": 60
+      },
+      {
+        "text": "Hospitalman",
+        "tier": 60
+      },
+      {
+        "text": "Corpsman",
+        "tier": 60
+      },
+      {
+        "text": "Yeoman",
+        "tier": 60
+      },
+      {
+        "text": "Recruit",
+        "tier": 60
+      },
+      {
         "text": "Corporal",
         "aliases": [
           "cpl"
@@ -2693,6 +3527,9 @@
       },
       {
         "text": "Field marshal",
+        "aliases": [
+          "field marshall"
+        ],
         "tier": 30
       },
       {
@@ -2712,12 +3549,16 @@
       },
       {
         "text": "General",
+        "aliases": [
+          "gen"
+        ],
         "tier": 10
       },
       {
         "text": "Sergeant",
         "aliases": [
-          "sgt"
+          "sgt",
+          "sarge"
         ],
         "tier": 10
       },
@@ -2745,16 +3586,23 @@
       {
         "text": "Lieutenant",
         "aliases": [
-          "lt"
+          "lt",
+          "leftenant"
         ],
         "tier": 10
       },
       {
         "text": "Major",
+        "aliases": [
+          "maj"
+        ],
         "tier": 10
       },
       {
         "text": "Admiral",
+        "aliases": [
+          "adm"
+        ],
         "tier": 10
       }
     ],
@@ -3600,6 +4448,605 @@
         "tier": 60
       },
       {
+        "text": "Jumping lunge",
+        "aliases": [
+          "jump lunge"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Cable row",
+        "tier": 60
+      },
+      {
+        "text": "Chest press",
+        "tier": 60
+      },
+      {
+        "text": "Pec fly",
+        "tier": 60
+      },
+      {
+        "text": "Incline push-up",
+        "tier": 60
+      },
+      {
+        "text": "Decline push-up",
+        "tier": 60
+      },
+      {
+        "text": "Knee push-up",
+        "tier": 60
+      },
+      {
+        "text": "Wide-grip pull-up",
+        "tier": 60
+      },
+      {
+        "text": "Negative pull-up",
+        "tier": 60
+      },
+      {
+        "text": "Assisted pull-up",
+        "tier": 60
+      },
+      {
+        "text": "Dumbbell row",
+        "tier": 60
+      },
+      {
+        "text": "Hip hinge",
+        "tier": 60
+      },
+      {
+        "text": "Hip flexor stretch",
+        "tier": 60
+      },
+      {
+        "text": "Hamstring stretch",
+        "tier": 60
+      },
+      {
+        "text": "Calf stretch",
+        "tier": 60
+      },
+      {
+        "text": "Lateral band walk",
+        "aliases": [
+          "monster walk"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Banded squat",
+        "tier": 60
+      },
+      {
+        "text": "Wall push-up",
+        "tier": 60
+      },
+      {
+        "text": "Chair dip",
+        "tier": 60
+      },
+      {
+        "text": "Bench dip",
+        "tier": 60
+      },
+      {
+        "text": "Bicycle kicks",
+        "tier": 60
+      },
+      {
+        "text": "Hip circles",
+        "tier": 60
+      },
+      {
+        "text": "Leg swings",
+        "tier": 60
+      },
+      {
+        "text": "A-skip",
+        "tier": 60
+      },
+      {
+        "text": "B-skip",
+        "tier": 60
+      },
+      {
+        "text": "Carioca",
+        "tier": 60
+      },
+      {
+        "text": "Lateral shuffle",
+        "tier": 60
+      },
+      {
+        "text": "Step aerobics",
+        "tier": 60
+      },
+      {
+        "text": "Treadmill",
+        "tier": 60
+      },
+      {
+        "text": "Hiking",
+        "tier": 60
+      },
+      {
+        "text": "Rock climbing",
+        "tier": 60
+      },
+      {
+        "text": "Kettlebell snatch",
+        "tier": 60
+      },
+      {
+        "text": "Kettlebell clean",
+        "tier": 60
+      },
+      {
+        "text": "Sumo deadlift high pull",
+        "tier": 60
+      },
+      {
+        "text": "Pullover",
+        "tier": 60
+      },
+      {
+        "text": "Dumbbell pullover",
+        "tier": 60
+      },
+      {
+        "text": "Bent-over lateral raise",
+        "tier": 60
+      },
+      {
+        "text": "Rear delt fly",
+        "tier": 60
+      },
+      {
+        "text": "Shoulder shrug",
+        "tier": 60
+      },
+      {
+        "text": "Neck curl",
+        "tier": 60
+      },
+      {
+        "text": "Wrist curl",
+        "tier": 60
+      },
+      {
+        "text": "Reverse curl",
+        "tier": 60
+      },
+      {
+        "text": "Cable curl",
+        "tier": 60
+      },
+      {
+        "text": "EZ bar curl",
+        "tier": 60
+      },
+      {
+        "text": "Overhead tricep extension",
+        "tier": 60
+      },
+      {
+        "text": "Tricep pushdown",
+        "tier": 60
+      },
+      {
+        "text": "Cable pushdown",
+        "tier": 60
+      },
+      {
+        "text": "Rope pushdown",
+        "tier": 60
+      },
+      {
+        "text": "Hip bridge",
+        "tier": 60
+      },
+      {
+        "text": "Single-leg glute bridge",
+        "tier": 60
+      },
+      {
+        "text": "Frog pump",
+        "tier": 60
+      },
+      {
+        "text": "Glute kickback",
+        "tier": 60
+      },
+      {
+        "text": "Cable kickback",
+        "tier": 60
+      },
+      {
+        "text": "Step-down",
+        "tier": 60
+      },
+      {
+        "text": "Box squat",
+        "tier": 60
+      },
+      {
+        "text": "Pause squat",
+        "tier": 60
+      },
+      {
+        "text": "Belt squat",
+        "tier": 60
+      },
+      {
+        "text": "Landmine squat",
+        "tier": 60
+      },
+      {
+        "text": "Jefferson squat",
+        "tier": 60
+      },
+      {
+        "text": "Wall slide",
+        "tier": 60
+      },
+      {
+        "text": "Scapular push-up",
+        "tier": 60
+      },
+      {
+        "text": "Band pull-apart",
+        "tier": 60
+      },
+      {
+        "text": "YTW raise",
+        "tier": 60
+      },
+      {
+        "text": "Cuban press",
+        "tier": 60
+      },
+      {
+        "text": "External rotation",
+        "tier": 60
+      },
+      {
+        "text": "Internal rotation",
+        "tier": 60
+      },
+      {
+        "text": "Prone cobra",
+        "tier": 60
+      },
+      {
+        "text": "Plank shoulder tap",
+        "tier": 60
+      },
+      {
+        "text": "Commando plank",
+        "tier": 60
+      },
+      {
+        "text": "Plank up-down",
+        "tier": 60
+      },
+      {
+        "text": "Spiderman push-up",
+        "tier": 60
+      },
+      {
+        "text": "Spiderman plank",
+        "tier": 60
+      },
+      {
+        "text": "Bear plank",
+        "tier": 60
+      },
+      {
+        "text": "Crab toe touch",
+        "tier": 60
+      },
+      {
+        "text": "Sit-out",
+        "tier": 60
+      },
+      {
+        "text": "Burpee broad jump",
+        "tier": 60
+      },
+      {
+        "text": "Lateral bound",
+        "tier": 60
+      },
+      {
+        "text": "Depth jump",
+        "tier": 60
+      },
+      {
+        "text": "Drop jump",
+        "tier": 60
+      },
+      {
+        "text": "Pogo jump",
+        "tier": 60
+      },
+      {
+        "text": "Single-leg hop",
+        "tier": 60
+      },
+      {
+        "text": "Speed skater",
+        "tier": 60
+      },
+      {
+        "text": "Seal jack",
+        "tier": 60
+      },
+      {
+        "text": "Half jack",
+        "tier": 60
+      },
+      {
+        "text": "Cross jack",
+        "tier": 60
+      },
+      {
+        "text": "Step jack",
+        "tier": 60
+      },
+      {
+        "text": "Hill sprint",
+        "tier": 60
+      },
+      {
+        "text": "Interval training",
+        "aliases": [
+          "hiit"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tabata",
+        "tier": 60
+      },
+      {
+        "text": "Circuit training",
+        "tier": 60
+      },
+      {
+        "text": "Fartlek",
+        "tier": 60
+      },
+      {
+        "text": "Tempo run",
+        "tier": 60
+      },
+      {
+        "text": "Long run",
+        "tier": 60
+      },
+      {
+        "text": "Rucking",
+        "tier": 60
+      },
+      {
+        "text": "Rowing machine",
+        "tier": 60
+      },
+      {
+        "text": "Assault bike",
+        "aliases": [
+          "air bike"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Spin bike",
+        "tier": 60
+      },
+      {
+        "text": "Jacob's ladder",
+        "tier": 60
+      },
+      {
+        "text": "VersaClimber",
+        "tier": 60
+      },
+      {
+        "text": "Ski erg",
+        "tier": 60
+      },
+      {
+        "text": "Swim laps",
+        "tier": 60
+      },
+      {
+        "text": "Aqua aerobics",
+        "tier": 60
+      },
+      {
+        "text": "Water jogging",
+        "tier": 60
+      },
+      {
+        "text": "Boxing",
+        "tier": 60
+      },
+      {
+        "text": "Jab cross",
+        "tier": 60
+      },
+      {
+        "text": "Uppercut",
+        "tier": 60
+      },
+      {
+        "text": "Hook punch",
+        "tier": 60
+      },
+      {
+        "text": "Speed bag",
+        "tier": 60
+      },
+      {
+        "text": "Heavy bag",
+        "tier": 60
+      },
+      {
+        "text": "Jump rope double unders",
+        "aliases": [
+          "double unders"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Barre class",
+        "tier": 60
+      },
+      {
+        "text": "Static stretch",
+        "tier": 60
+      },
+      {
+        "text": "Dynamic stretch",
+        "tier": 60
+      },
+      {
+        "text": "Side bend",
+        "tier": 60
+      },
+      {
+        "text": "Torso twist",
+        "tier": 60
+      },
+      {
+        "text": "Trampoline jumping",
+        "tier": 60
+      },
+      {
+        "text": "Dance workout",
+        "tier": 60
+      },
+      {
+        "text": "Aerobics",
+        "tier": 60
+      },
+      {
+        "text": "Jazzercise",
+        "tier": 60
+      },
+      {
+        "text": "Calisthenics",
+        "tier": 60
+      },
+      {
+        "text": "Weightlifting",
+        "tier": 60
+      },
+      {
+        "text": "Powerlifting",
+        "tier": 60
+      },
+      {
+        "text": "CrossFit",
+        "tier": 60
+      },
+      {
+        "text": "Bodyweight squat",
+        "tier": 60
+      },
+      {
+        "text": "Air squat",
+        "tier": 60
+      },
+      {
+        "text": "Prisoner squat",
+        "tier": 60
+      },
+      {
+        "text": "Wall squat",
+        "tier": 60
+      },
+      {
+        "text": "Squat hold",
+        "tier": 60
+      },
+      {
+        "text": "Plank hold",
+        "tier": 60
+      },
+      {
+        "text": "Forearm plank",
+        "tier": 60
+      },
+      {
+        "text": "High plank",
+        "tier": 60
+      },
+      {
+        "text": "Reverse plank",
+        "tier": 60
+      },
+      {
+        "text": "Side plank dip",
+        "tier": 60
+      },
+      {
+        "text": "Toe taps",
+        "tier": 60
+      },
+      {
+        "text": "Lying leg raise",
+        "tier": 60
+      },
+      {
+        "text": "Captain's chair",
+        "tier": 60
+      },
+      {
+        "text": "Hanging knee raise",
+        "tier": 60
+      },
+      {
+        "text": "Ab crunch machine",
+        "tier": 60
+      },
+      {
+        "text": "Jackknife",
+        "tier": 60
+      },
+      {
+        "text": "Boat pose",
+        "tier": 60
+      },
+      {
+        "text": "Stability ball crunch",
+        "tier": 60
+      },
+      {
+        "text": "Stir the pot",
+        "tier": 60
+      },
+      {
+        "text": "Body saw",
+        "tier": 60
+      },
+      {
+        "text": "Hollow rock",
+        "tier": 60
+      },
+      {
+        "text": "Arch hold",
+        "tier": 60
+      },
+      {
+        "text": "Superman hold",
+        "tier": 60
+      },
+      {
         "text": "Crunch",
         "tier": 30
       },
@@ -3659,6 +5106,9 @@
       },
       {
         "text": "Lat pulldown",
+        "aliases": [
+          "pulldown"
+        ],
         "tier": 30
       },
       {
@@ -3803,7 +5253,9 @@
         "text": "Push-up",
         "aliases": [
           "pushup",
-          "push up"
+          "push up",
+          "press-up",
+          "push-ups"
         ],
         "tier": 10
       },
@@ -3811,7 +5263,8 @@
         "text": "Sit-up",
         "aliases": [
           "situp",
-          "sit up"
+          "sit up",
+          "sit-ups"
         ],
         "tier": 10
       },
@@ -3838,7 +5291,8 @@
         "text": "Pull-up",
         "aliases": [
           "pullup",
-          "pull up"
+          "pull up",
+          "pull-ups"
         ],
         "tier": 10
       },
