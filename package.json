@@ -1,0 +1,40 @@
+{
+  "name": "fathom",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A free deep-sea trivia game where rarer answers dive deeper.",
+  "workspaces": [
+    "shared",
+    "web",
+    "worker"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "build": "npm run build -w web",
+    "preview": "npm run build -w web && npm run dev -w worker",
+    "test": "npm test -w shared",
+    "typecheck": "npm run typecheck -w shared && npm run typecheck -w web && npm run typecheck -w worker",
+    "validate:questions": "tsx scripts/validate.ts",
+    "content:build": "tsx scripts/build-content.ts",
+    "seed": "tsx scripts/seed.ts",
+    "setup": "tsx scripts/setup.ts",
+    "deploy": "tsx scripts/deploy.ts",
+    "status": "tsx scripts/status.ts",
+    "weekly:brief": "tsx scripts/weekly-brief.ts",
+    "import": "tsx scripts/import.ts",
+    "export:rejected": "tsx scripts/export-rejected.ts",
+    "pool:refresh": "tsx scripts/pool-refresh.ts",
+    "sim:dive": "tsx scripts/sim/dive.ts",
+    "sim:battle": "tsx scripts/sim/battle.ts",
+    "sim": "tsx scripts/sim/dive.ts && tsx scripts/sim/battle.ts"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.2",
+    "tsx": "^4.23.15",
+    "ws": "^8.22.0"
+  }
+}

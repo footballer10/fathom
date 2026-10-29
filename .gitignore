@@ -1,1 +1,23 @@
+# Dependencies
+node_modules/
+
+# Secrets (never commit these)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.wrangler/
+*.tsbuildinfo
+coverage/
+
+# OS / editor junk
 .DS_Store
+.vscode/
+.idea/
+*.log
+.dev.vars
+content/.status.json
+content/incoming/
