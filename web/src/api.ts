@@ -20,6 +20,11 @@ export function serverNow(): number {
   return Date.now() + clockOffset;
 }
 
+/** Update the clock offset from a server timestamp (assumed taken halfway through the round trip). */
+export function syncClock(serverTime: number, rttMs: number) {
+  clockOffset = serverTime + rttMs / 2 - Date.now();
+}
+
 async function call<T>(method: "GET" | "POST" | "DELETE", path: string, body?: unknown): Promise<T> {
   const sentAt = Date.now();
   const res = await fetch(path, {
@@ -29,11 +34,7 @@ async function call<T>(method: "GET" | "POST" | "DELETE", path: string, body?: u
   });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(data.error ?? `Request failed (${res.status})`);
-  if (typeof data.serverNow === "number") {
-    // Assume the server stamped its clock halfway through the round trip.
-    const rtt = Date.now() - sentAt;
-    clockOffset = data.serverNow + rtt / 2 - Date.now();
-  }
+  if (typeof data.serverNow === "number") syncClock(data.serverNow, Date.now() - sentAt);
   return data as T;
 }
 

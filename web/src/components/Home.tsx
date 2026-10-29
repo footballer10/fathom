@@ -4,6 +4,8 @@ import { APP_NAME, QUESTION_SECONDS, TIERS, WRONG_GUESS_PENALTY_SECONDS } from "
 import type { Category } from "@krillion/shared";
 import { api } from "../api";
 import type { DailyStatus } from "../api";
+import { navigate } from "../router";
+import { StatsPanel } from "./Social";
 
 export function Home({
   onPlay,
@@ -69,7 +71,21 @@ export function Home({
         </div>
       </div>
 
+      <nav className="home-nav">
+        <button className="btn btn--ghost" onClick={() => navigate("/party")}>
+          🎉 Party with friends
+        </button>
+        <button className="btn btn--ghost" onClick={() => navigate("/friends")}>
+          🐠 Friends board
+        </button>
+        <button className="btn btn--ghost" onClick={() => navigate("/archive")}>
+          🗓️ Archive
+        </button>
+      </nav>
+
       {error && <p className="error-text">Couldn't reach the game server: {error}</p>}
+
+      <StatsPanel />
 
       <div className="card how">
         <h3>How to play</h3>

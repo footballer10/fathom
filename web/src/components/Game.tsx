@@ -24,12 +24,15 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 export function Game({
   mode,
   category,
+  date,
   onDepth,
   onFinished,
   onQuit,
 }: {
   mode: GameMode;
   category?: Category;
+  /** Archive mode: which past Daily to replay. */
+  date?: string;
   /** Total points so far; the parent sinks the diver to match. */
   onDepth: (totalPoints: number) => void;
   onFinished: (result: FinishResponse, sessionId: string) => void;
@@ -54,6 +57,9 @@ export function Game({
   const shake = useAnimationControls();
   const revealShownAt = useRef(0);
   const started = useRef(false);
+  /** Wrong guesses on the current question, so a player can say "this should count". */
+  const rejected = useRef<string[]>([]);
+  const [reported, setReported] = useState(false);
 
   const play = useCallback((fn: () => void) => settings.sound && fn(), [settings.sound]);
 
@@ -91,6 +97,8 @@ export function Game({
       }
       setOutcome(null);
       setReveal(null);
+      rejected.current = [];
+      setReported(false);
       setText("");
       setTimeUp(false);
       setEndsAt(s.current.endsAt);
@@ -103,8 +111,8 @@ export function Game({
   useEffect(() => {
     if (started.current) return;
     started.current = true;
-    api.start(mode, category).then(applyState).catch(fail);
-  }, [mode, category, applyState]);
+    (mode === "archive" && date ? api.startArchive(date) : api.start(mode, category)).then(applyState).catch(fail);
+  }, [mode, category, date, applyState]);
 
   // Autofocus the input whenever a question is live.
   useEffect(() => {
@@ -133,6 +141,7 @@ export function Game({
       } else {
         play(() => sounds.thud());
         setText("");
+        rejected.current = [...rejected.current.slice(-4), guess];
         const key = Date.now();
         setPenaltyPops((p) => [...p, key]);
         setTimeout(() => setPenaltyPops((p) => p.filter((k) => k !== key)), 1100);
@@ -225,7 +234,7 @@ export function Game({
           ← Surface
         </button>
         <span className="game-meta">
-          {session.mode === "daily" ? `Daily #${session.dailyNumber}` : "Unlimited"} · Question {q.index + 1} of{" "}
+          {session.mode === "daily" ? `Daily #${session.dailyNumber}` : session.mode === "archive" ? `Archive #${session.dailyNumber}` : "Unlimited"} · Question {q.index + 1} of{" "}
           {session.total}
         </span>
         <span className="game-progress" aria-hidden="true">
@@ -310,6 +319,23 @@ export function Game({
           <p className="hint">
             <kbd>Enter ↵</kbd> or <kbd>Space</kbd> to continue
           </p>
+          {!outcome.tier && rejected.current.length > 0 && (
+            <p className="hint">
+              {reported ? (
+                "Thanks! We'll take a look."
+              ) : (
+                <button
+                  className="link-btn"
+                  onClick={() => {
+                    setReported(true);
+                    void api.report(session.sessionId, q.index, rejected.current[rejected.current.length - 1]).catch(() => {});
+                  }}
+                >
+                  "{rejected.current[rejected.current.length - 1]}" should count
+                </button>
+              )}
+            </p>
+          )}
           {reveal ? (
             <details className="answers-details" open>
               <summary>All {reveal.answers.length} valid answers</summary>

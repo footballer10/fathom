@@ -9,17 +9,24 @@ import { Home } from "./components/Home";
 import { Ocean } from "./components/Ocean";
 import { Particles } from "./components/Particles";
 import { SettingsPanel } from "./components/SettingsPanel";
+import { ArchivePage, FriendsPage } from "./components/Social";
+import { AdminPortal } from "./admin/AdminPortal";
+import { PartyHome } from "./party/PartyHome";
+import { RoomPage } from "./party/RoomPage";
+import { navigate, useRoute } from "./router";
 import { useSettings } from "./settings";
 
 type Screen =
   | { name: "home" }
-  | { name: "game"; mode: GameMode; category?: Category; key: number }
+  | { name: "game"; mode: GameMode; category?: Category; date?: string; key: number }
   | { name: "end"; result: FinishResponse; sessionId: string };
 
 export function App() {
   const { settings } = useSettings();
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const route = useRoute();
+  const roomCode = /^\/room\/([A-Za-z]{4})$/.exec(route)?.[1]?.toUpperCase();
   // One animated depth value drives the background, creatures, particles and gauge.
   const depth = useMotionValue(0);
 
@@ -37,15 +44,24 @@ export function App() {
     [depth, settings.reducedMotion],
   );
 
-  const play = (mode: GameMode, category?: Category) => {
+  const play = (mode: GameMode, category?: Category, date?: string) => {
     diveTo(0);
-    setScreen({ name: "game", mode, category, key: Date.now() });
+    setScreen({ name: "game", mode, category, date, key: Date.now() });
+    navigate("/");
   };
 
   const goHome = () => {
     diveTo(0);
     setScreen({ name: "home" });
+    navigate("/");
   };
+
+  // Leaving a party room or page brings the diver back up.
+  useEffect(() => {
+    if (route !== "/") diveTo(0);
+  }, [route, diveTo]);
+
+  if (route === "/admin") return <AdminPortal />;
 
   const onFinished = useCallback(
     (result: FinishResponse, sessionId: string) => {
@@ -75,18 +91,28 @@ export function App() {
       </div>
 
       <main className="column">
-        {screen.name === "home" && <Home onPlay={play} reducedMotion={settings.reducedMotion} />}
-        {screen.name === "game" && (
+        {roomCode ? (
+          <RoomPage key={roomCode} code={roomCode} onDepth={diveTo} />
+        ) : route === "/party" ? (
+          <PartyHome />
+        ) : route === "/friends" ? (
+          <FriendsPage />
+        ) : route === "/archive" ? (
+          <ArchivePage onPlay={(date) => play("archive", undefined, date)} />
+        ) : null}
+        {route === "/" && screen.name === "home" && <Home onPlay={play} reducedMotion={settings.reducedMotion} />}
+        {route === "/" && screen.name === "game" && (
           <Game
             key={screen.key}
             mode={screen.mode}
             category={screen.category}
+            date={screen.date}
             onDepth={diveTo}
             onFinished={onFinished}
             onQuit={goHome}
           />
         )}
-        {screen.name === "end" && (
+        {route === "/" && screen.name === "end" && (
           <EndScreen
             result={screen.result}
             sessionId={screen.sessionId}
