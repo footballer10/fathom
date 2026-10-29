@@ -157,11 +157,131 @@ Pico | sega pico
 Neo Geo CD
 PC-FX
 Game Boy Light
+Magnavox Odyssey 2 | odyssey 2
+Atari 400
+Atari 800
+Atari ST
+Coleco Telstar
+Coleco Adam
+Mattel Aquarius
+Intellivision II
+RCA Studio II
+APF Imagination Machine
+Entex Adventure Vision
+Milton Bradley Microvision | microvision
+Tomy Tutor
+Sega SG-1000
+Sega Mark III
+Sega Genesis 3
+Sega Mega-CD
+Sega Multi-Mega
+Sega Teradrive
+Sega Saturn Model 2
+Game Gear Micro
+Mega Drive Mini
+Master System Mini
+NEC SuperGrafx
+TurboExpress
+TurboDuo
+PC Engine GT
+PC Engine Duo
+PC Engine CoreGrafx
+Neo Geo AES
+Neo Geo MVS
+Neo Geo Pocket Color
+Neo Geo X
+Neo Geo Mini
+Bandai WonderSwan Color
+SwanCrystal
+Bandai Playdia
+Bandai Pippin
+Tiger Electronics
+Tiger R-Zone | r-zone
+Tiger Game.com
+Nintendo Famicom Disk System
+Satellaview
+Nintendo Color TV-Game
+Super Nintendo Entertainment System
+SNES Jr.
+Top-loading NES
+NES-101
+Nintendo 64 Jumbo
+iQue Player
+Nintendo DSi XL
+New Nintendo 2DS XL
+New Nintendo 3DS XL
+Wii Family Edition
+Game Boy Advance Micro
+PocketStation
+PlayStation Portable Go | psp go
+PSP Street
+PS Vita Slim
+PlayStation TV
+PlayStation 2 Slim
+PS2 Slim
+PS3 Super Slim
+PS5 Digital Edition
+Xbox 360 S
+Xbox 360 E
+Xbox One Kinect
+Xbox Series X Digital
+Xbox Ally
+Steam Machine
+Steam Deck OLED
+GameStick
+Mad Catz M.O.J.O.
+Razer Edge
+Logitech G Cloud
+Anbernic
+Miyoo Mini
+Retroid Pocket
+AYANEO
+GPD Win
+OneXPlayer
+MSI Claw
+ROG Ally X
+Lenovo Legion Go S
+Analogue Duo
+Analogue 3D
+Analogue Super Nt
+Analogue Mega Sg
+Hyperkin RetroN 5
+AtGames
+Atari 2600+
+Atari 7800+
+Atari Gamestation Pro
+Arcade1Up
+Evercade VS
+Evercade EXP
+Super Pocket
+ModRetro Chromatic
+Nex Playground
+Leapfrog Leapster GS
+LeapTV
+LeapPad
+InnoTab
+VTech Socrates
+VTech V.Flash
+Mattel HyperScan
+Zeebo
+Nuon DVD
+Famiclone
+Dendy
+Amiga CD32 | cd32
+Commodore CDTV
+FM Towns Marty
+Sharp X68000
+NEC PC-98
+MSX
+Oculus Rift
+Valve Index
+HTC Vive
+PlayStation VR2 | psvr2
 
 [Rare]
 Xbox Series S
 Switch Lite
-Switch OLED
+Switch OLED | nintendo switch oled
 2DS | nintendo 2ds
 New 3DS
 DSi
@@ -187,7 +307,7 @@ TurboGrafx-16 | turbografx
 Philips CD-i | cd-i
 N-Gage
 PlayStation VR | psvr
-Meta Quest | oculus quest | quest
+Meta Quest | oculus quest | quest | meta quest 2 | meta quest 3
 Ouya
 Nvidia Shield
 Google Stadia | stadia
@@ -199,7 +319,7 @@ Analogue Pocket
 Playdate
 Evercade
 NEC PC Engine | pc engine
-Famicom
+Famicom | famicom disk system
 Super Famicom
 Nintendo 64DD | 64dd
 Pokemon Mini
@@ -221,11 +341,11 @@ Xbox One
 Xbox Series X | series x
 GameCube | nintendo gamecube
 Nintendo DS | ds
-Nintendo 3DS | 3ds
+Nintendo 3DS | 3ds | 3ds xl | nintendo 3ds xl
 Wii U
 Game Boy Color
 Game Boy Advance | gba
-Sega Genesis | genesis | mega drive
+Sega Genesis | genesis | mega drive | sega mega drive
 Atari 2600 | atari
 PSP | playstation portable
 PS Vita | vita
@@ -257,6 +377,11 @@ Joystick
 Controller
 Minecraft
 Mario
+Remote control
+Calculator
+Tablet computer
+Kindle
+iPod
 
 # QUESTION
 id: q0093
@@ -291,6 +416,148 @@ Stepaunt
 Stepuncle
 Double cousin
 Cousin-german
+Great-great-grandson
+Great-great-granddaughter
+Great-great-grandchild
+Great-great-grandparent
+Great-great-aunt
+Great-great-uncle
+Great-grandniece
+Great-grandnephew
+Grandcousin
+First cousin once removed
+First cousin twice removed
+Second cousin twice removed
+Third cousin once removed
+Fourth cousin
+Fifth cousin
+Kissing cousin
+Cousin brother
+Cousin sister
+Kin
+Kinsman
+Kinswoman
+Relative
+Relation
+Family
+Next of kin
+Descendant
+Progenitor
+Matriarch
+Patriarch
+Heir
+Heiress
+Offspring
+Progeny
+Issue
+Scion
+Firstborn
+Eldest
+Middle child
+Youngest
+Baby of the family
+Twin sons
+Conjoined twin
+Quintuplet
+Sextuplet
+Abuelita
+Abuelito
+Halmoni
+Harabeoji
+Obaachan
+Ojiichan
+Nai Nai
+Ye Ye
+Lao Lao
+Lao Ye
+Babcia
+Dziadek
+Babushka
+Dedushka
+Mémère
+Pépère
+Mamie
+Papi
+Grand-mère
+Grand-père
+Gigi
+Mimi
+Gammy
+Poppy
+Nunc
+Godsibling
+Godbrother
+Godsister
+Compadre
+Comadre
+Stepgrandchild
+Stepgrandson
+Stepgranddaughter
+Step-great-grandparent
+Stepfamily
+Blended family
+Half-niece
+Half-nephew
+Half-sibling's child
+Adoptive mother
+Adoptive father
+Adoptive parent
+Adoptee
+Biological mother
+Biological father
+Bio mom
+Bio dad
+Birth parent
+Surrogate mother
+Foster mother
+Foster father
+Foster brother
+Foster sister
+Foster sibling
+Bride
+Groom
+Bride-to-be
+Husband-to-be
+Betrothed
+Common-law spouse
+Ex-partner
+Ex-boyfriend
+Ex-girlfriend
+Ex-spouse
+Ex-stepparent
+Former in-law
+Second wife
+Second husband
+First wife
+Co-wife
+Sister wife
+Great-great-great-grandmother
+Great-great-great-grandfather
+Ninth cousin
+Spouse's sibling
+Sibling-in-law
+Child-in-law
+Parent-in-law
+Grandparent-in-law
+Mother-in-law-to-be
+Father-in-law-to-be
+Consuegro
+Consuegra
+Co-mother-in-law
+Co-father-in-law
+Cousin's spouse
+Niece's husband
+Nephew's wife
+Aunt by marriage
+Uncle by marriage
+Cousin by marriage
+Half-uncle-in-law
+Stepbrother-in-law
+Stepsister-in-law
+Stepmother-in-law
+Stepfather-in-law
+Step-grandparent
+Grandbaby
 
 [Rare]
 Great-aunt | great aunt | grandaunt
@@ -311,7 +578,7 @@ Stepsibling
 Half-sibling
 Godson
 Goddaughter
-Godchild
+Godchild | ahijado | ahijada
 Foster parent
 Foster child
 Adopted son
@@ -326,7 +593,7 @@ Fraternal twin
 Only child
 Widow
 Widower
-Partner
+Partner | significant other | life partner
 Domestic partner
 Co-parent
 Baby mama
@@ -340,18 +607,18 @@ Co-in-law
 Machetaine | machatunim
 
 [Schooler]
-Grandpa | grandfather | grandad | granddad | gramps | pop pop
+Grandpa | grandfather | grandad | granddad | gramps | pop pop | grandpop | pawpaw | peepaw | nonno | abuelo | opa | zayde | papou | lolo
 Son
 Daughter
 Niece
 Nephew
-Husband
-Wife
-Spouse
+Husband | hubby
+Wife | wifey | the missus
+Spouse | better half
 Parent
 Child | kid
 Baby
-Twin
+Twin | twin brother | twin sister
 Sibling
 Grandson
 Granddaughter
@@ -372,37 +639,47 @@ Great-grandmother | great grandma | great-grandma
 Great-grandfather | great grandpa | great-grandpa
 Godmother
 Godfather
-Godparent
+Godparent | padrino | madrina
 Second cousin
 In-laws
-Ex-wife
+Ex-wife | ex
 Ex-husband
 Fiance | fiancé | fiancee | fiancée
 
 [Too Clever]
-Ancestor
+Ancestor | forebear | forefather | foremother
 Distant relative
 Second cousin once removed | cousin once removed
 Nibling
+Pet
+Fur baby
+Bestie
+Soulmate
+Boyfriend
+Girlfriend
 
 [Plankton]
-Mom | mother | mum | mommy | mama
-Dad | father | daddy | papa
-Brother
-Sister
-Aunt | auntie
-Uncle
+Mom | mother | mum | mommy | mama | mummy | ma | momma
+Dad | father | daddy | papa | pa | pop | old man
+Brother | bro | big brother | little brother | older brother | younger brother
+Sister | sis | big sister | little sister | older sister | younger sister
+Aunt | auntie | tia | tante | zia
+Uncle | unc | tio | zio
 Cousin
-Grandma | grandmother | granny | nana
+Grandma | grandmother | granny | nana | gran | nan | grammy | grams | meemaw | nonna | abuela | oma | bubbe | yiayia | lola
 
 [Not accepted]
 Friend
 Neighbor
-Pet
-Dog
 Teacher
-Boyfriend
-Girlfriend
+Coworker
+Boss
+Classmate
+Roommate
+Stranger
+Babysitter
+Mailman
+Doctor
 
 # QUESTION
 id: q0094
