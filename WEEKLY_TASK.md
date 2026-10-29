@@ -17,9 +17,35 @@ To run it by hand, open Claude Code in this folder and say: **"run WEEKLY_TASK.m
 
 ## Instructions for Claude
 
+### Rule #1: every valid answer must be accepted
+
+**This matters more than anything else in this task.** Nothing is more frustrating for a player
+than typing a really good, correct answer and having it marked wrong. Every question you write must
+accept every true answer a smart player could type.
+
+- Only write a prompt whose full set of answers you can list. If the honest set is too big (any
+  city, any bird, any song, any job), add a constraint that closes it to a fixed, checkable list:
+  "Name a US city" becomes "Name a US state capital".
+- List every valid answer, including the obscure ones. Never trim a list to hit a target size.
+- Add aliases for misspellings, plurals, abbreviations, nicknames, surnames on their own, and names
+  with and without "The".
+- For every question, brainstorm at least 20 more true answers and check each against the list.
+  Add whatever is missing. Repeat until a round finds nothing new.
+- When in doubt between a smaller tidy question and a complete one, choose complete, or drop the
+  question and write a different one.
+
+The full rule, with examples, is "THE MOST IMPORTANT RULE" at the top of the brief.
+
+### Ground rules
+
 Work in the repository root. Never print, log, or commit the contents of `.env.local`. Never use
 any paid AI API; you write every question yourself. Don't copy questions or answer lists from any
 website.
+
+In a cloud session there is no `.env.local`. The scripts read `SITE_URL` and `ADMIN_TOKEN` from
+environment variables instead, so don't create the file. If `git push` is refused on the default
+branch, push to the branch the session gives you; the site reads questions from the database, so
+the git copy is only a backup.
 
 ### 1. Get up to date
 
@@ -77,6 +103,7 @@ Write them in four files of 25:
 
 Re-read every question you wrote and fix:
 
+- **Completeness (Rule #1).** Do the 20-answer brainstorm check on every single question again.
 - **Open-ended prompts.** For every question ask: "Could a smart player type something true that
   isn't on this list?" If yes, add the missing answers, or add a constraint to the prompt that closes
   the set to a fixed, checkable list (see "THE MOST IMPORTANT RULE" in the brief). "Name a US city"

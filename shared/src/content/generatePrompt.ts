@@ -17,10 +17,13 @@ Every valid answer must be in the list. A player who types a correct answer and 
 - Good constraints point to an official or well-documented list: a ranking, a membership, an award, a roster that no longer changes, a named set (the 88 constellations, the 118 elements, the 50 states).
 - Bad constraints are vague ("a famous...", "a popular...") because nobody can agree where the list ends.
 - After writing the list, ask: "Could a smart player type something true that isn't here?" If yes, add it, or tighten the prompt until the answer is no.
+- Completeness beats everything else, including list size. Never trim valid answers to hit a target number. A closed list of 400 answers is far better than a tidy list of 150 that rejects a correct answer.
+- Cover how people actually type: common misspellings, plurals, abbreviations, nicknames, surnames on their own for famous people, and names with and without "The". Add these as aliases.
+- Completeness check for every question: once the list is written, brainstorm at least 20 more true answers a well-read player might type, check each one against the list, and add any that are missing. Repeat until a round of 20 turns up nothing new.
 
 WHAT MAKES A GOOD PROMPT
 - Easy entry: almost anyone can name at least one answer within 5 seconds.
-- Big pool: at least 50 valid answers (the validator fails under 50). Aim for 80-250.
+- Big pool: at least 50 valid answers (the validator fails under 50). 80-250 is typical, but a closed set can be much bigger; never leave out a valid answer to stay under 250.
 - Clear boundary: the prompt makes it obvious what counts, and the set of valid answers is closed (see the rule above).
 - Stable facts: nothing that changes often (no current rosters, no "currently airing" shows).
 - Prompt is 80 characters or less.

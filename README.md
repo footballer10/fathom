@@ -87,14 +87,23 @@ The full instructions are in [WEEKLY_TASK.md](WEEKLY_TASK.md). The Unlimited poo
 
 To run it by hand, open Claude Code in this folder and say **"run WEEKLY_TASK.md now"**.
 
-To make it automatic, create a scheduled task in the Claude desktop app (Cowork):
+To make it automatic, pick one of these.
 
-- **Folder**: this project folder
-- **Schedule**: every Sunday at 7:00 PM Mountain
-- **Prompt**: `Follow WEEKLY_TASK.md in this folder from start to finish.`
+**Option A: in the cloud (recommended, your Mac can be off).** A Claude Code scheduled task runs it
+on Anthropic's servers:
 
-Your Mac needs to be on and awake at that time. If a week gets missed, the site keeps working: it
-fills empty days from reserve questions automatically.
+1. In the cloud environment's settings (claude.ai/code, the environment menu, then Edit), add two
+   environment variables: `SITE_URL` (your live site address) and `ADMIN_TOKEN` (the same password
+   you gave `wrangler secret put`).
+2. Under Network access, add your site's host (for example `fathom.your-name.workers.dev`) to the
+   allowed domains.
+3. Create a scheduled task that starts a fresh session on this repository every **Wednesday at
+   2:07 AM Mountain** with the prompt: `Follow WEEKLY_TASK.md in this repository from start to finish.`
+
+**Option B: on your Mac (Cowork).** Create a scheduled task in the Claude desktop app with this
+project folder, the same schedule, and the same prompt. Your Mac needs to be on and awake.
+
+If a week gets missed, the site keeps working: it fills empty days from reserve questions automatically.
 
 ## Commands
 

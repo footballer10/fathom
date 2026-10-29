@@ -3,14 +3,18 @@ import { join } from "node:path";
 import { ROOT } from "./content";
 
 /**
- * Talks to the admin API. Reads SITE_URL and ADMIN_TOKEN from .env.local
- * (never printed). Pass --local to use your `npm run dev` server instead.
+ * Talks to the admin API. Reads SITE_URL and ADMIN_TOKEN from environment variables
+ * or from .env.local (never printed). Pass --local to use your `npm run dev` server instead.
  */
 export function adminConfig(argv = process.argv): { base: string; token: string } {
   if (argv.includes("--local")) {
     const vars = join(ROOT, "worker", ".dev.vars");
     const token = existsSync(vars) ? readFileSync(vars, "utf8").match(/^ADMIN_TOKEN=(.+)$/m)?.[1].trim() : undefined;
     return { base: "http://127.0.0.1:8787", token: token ?? "dev-admin-token" };
+  }
+  // Cloud runs have no .env.local; they get the same two values as environment variables.
+  if (process.env.SITE_URL && process.env.ADMIN_TOKEN) {
+    return { base: process.env.SITE_URL.trim().replace(/\/+$/, ""), token: process.env.ADMIN_TOKEN.trim() };
   }
   const envPath = join(ROOT, ".env.local");
   if (!existsSync(envPath)) {
