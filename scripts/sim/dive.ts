@@ -104,6 +104,9 @@ try {
   );
   checks.check("depth trail for the finale race", r.every((x) => x.depthTrail.length === 3));
   checks.check("best answer of the game reported", !!over.bestAnswer);
+  const finalState = (await b1.waitFor((m) => m.type === "state" && m.state.phase === "over", 5000).catch(() => null)) as Extract<ServerMessage, { type: "state" }> | null;
+  const recap = (finalState?.state ?? b1.state)?.results?.recap;
+  checks.check("answer recap covers every question and player", !!recap && recap.length === 3 && recap.every((q) => q.perPlayer.length >= 5 && !!q.prompt));
   console.log("\nFinal standings:");
   for (const x of r) console.log(`  ${x.rank}. ${x.nickname.padEnd(9)} ${String(x.depth).padStart(5)} m  (${(x.timeUsedMs / 1000).toFixed(1)}s used)`);
   for (const b of bots) b.close();

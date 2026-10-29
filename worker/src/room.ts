@@ -17,6 +17,7 @@ import type {
   DiveSettings,
   GameResult,
   LeaderboardRow,
+  QuestionRecap,
   RevealRow,
   RoomKind,
   RoomPhase,
@@ -87,6 +88,8 @@ interface DiveRound {
   reveal: { perPlayer: RevealRow[]; leaderboard: LeaderboardRow[]; nextAt: number } | null;
   ranks: Record<string, number>;
   best: Best;
+  /** Every question's answers so far, shown at the end. */
+  recap?: QuestionRecap[];
 }
 
 interface BattleRound {
@@ -122,7 +125,7 @@ interface RoomState {
   phase: RoomPhase;
   dive?: DiveRound;
   battle?: BattleRound;
-  results?: { results: GameResult[]; bestAnswer: BestAnswer };
+  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[] };
 }
 
 interface Attachment {
@@ -441,6 +444,7 @@ export class Room extends DurableObject<Env> {
         reveal: null,
         ranks: {},
         best: null,
+        recap: [],
       };
       await Promise.all(ids.map((id) => getIndex(this.env, id))); // warm the answer indexes
       await this.startDiveQuestion(0, now);
@@ -583,6 +587,7 @@ export class Room extends DurableObject<Env> {
     d.ranks = Object.fromEntries(leaderboard.map((r) => [r.playerId, r.rank]));
     const nextAt = now + DIVE_DEFAULTS.revealSeconds * 1000;
     d.reveal = { perPlayer, leaderboard, nextAt };
+    (d.recap ??= []).push({ prompt: d.prompt, perPlayer });
     s.phase = "reveal";
     const index = await getIndex(this.env, d.questionIds[d.index]);
     this.broadcast({
@@ -782,7 +787,7 @@ export class Room extends DurableObject<Env> {
       eliminatedAt: x.eliminatedAt,
     }));
     const bestAnswer = best ? { nickname: best.nickname, canonical: best.canonical, tier: best.tier, prompt: best.prompt } : null;
-    s.results = { results, bestAnswer };
+    s.results = { results, bestAnswer, ...(s.kind === "dive" && s.dive?.recap?.length ? { recap: s.dive.recap } : {}) };
     s.phase = "over";
     if (s.battle) s.battle.turnPlayerId = null;
     this.broadcast({ type: "gameOver", results, bestAnswer });

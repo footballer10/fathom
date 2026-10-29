@@ -1386,7 +1386,8 @@ select {
 .reveal-cols { display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px; }
 .reveal-rows { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
 .reveal-rows li { display: grid; grid-template-columns: 1fr 1.2fr auto auto; gap: 8px; align-items: center; padding: 4px 6px; border-radius: 8px; }
-.reveal-name, .reveal-ans { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.reveal-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.reveal-ans { overflow-wrap: anywhere; font-weight: 600; }
 .reveal-pts { font-variant-numeric: tabular-nums; text-align: right; min-width: 3em; }
 .me { background: rgba(111, 227, 255, 0.12); }
 
@@ -1569,4 +1570,11 @@ select {
   .seat-avatar { width: 38px; height: 38px; font-size: 1rem; }
   .seat-name { font-size: 0.72rem; max-width: 70px; }
   .puffer { width: 84px; height: 84px; margin: -42px 0 0 -42px; }
-  
+}
+
+/* Dive: end-of-game answer recap */
+.card.recap { display: flex; flex-direction: column; gap: 0; }
+.card.recap h3 { margin: 0 0 4px; }
+.recap-q { display: flex; flex-direction: column; gap: 6px; margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.card.recap h3 + .recap-q { margin-top: 6px; padding-top: 0; border-top: 0; }
+.recap-prompt { font-weight: 700; }

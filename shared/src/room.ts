@@ -113,7 +113,13 @@ export interface RoomSnapshot {
     typing: string;
     spectatorGuesses: { playerId: string; nickname: string; text: string; canonical: string | null; tier: TierPoints | null }[];
   };
-  results?: { results: GameResult[]; bestAnswer: BestAnswer };
+  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[] };
+}
+
+/** One Dive question's answers from every player, for the end-of-game recap. */
+export interface QuestionRecap {
+  prompt: string;
+  perPlayer: RevealRow[];
 }
 
 export type BestAnswer = { nickname: string; canonical: string; tier: TierPoints; prompt: string } | null;

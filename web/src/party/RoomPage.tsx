@@ -8,7 +8,7 @@ import {
   formatDepth,
   tierInfo,
 } from "@fathom/shared";
-import type { BattleSettings, Category, DiveSettings, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
+import type { BattleSettings, Category, DiveSettings, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
 import { serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
 import { TimerRing } from "../components/TimerRing";
@@ -460,7 +460,7 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
                 <span className="reveal-ans">{r.canonical ?? "—"}</span>
                 <TierBadge tier={r.tier} />
                 <span className="reveal-pts">
-                  +{r.points}
+                  +{formatDepth(r.points * 10)}
                   {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
                 </span>
               </li>
@@ -494,7 +494,7 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
         )}
       </div>
       {answers.length > 0 && (
-        <details className="answers-details">
+        <details className="answers-details" open>
           <summary>All {answers.length} valid answers</summary>
           <RevealPanel reveal={{ index: d.index, prompt: d.prompt, answers, playerAnswerId: null }} compact />
         </details>
@@ -566,6 +566,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
               Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
             </p>
           )}
+          {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} />}
           <div className="card">
             <ol className="leaderboard">
               {results.map((r) => (
@@ -589,6 +590,32 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
           </div>
         </>
       )}
+    </div>
+  );
+}
+
+/** Every question from the game with every player's answer, shown at the end of a Dive. */
+function AnswerRecap({ recap, you }: { recap: QuestionRecap[]; you: string }) {
+  return (
+    <div className="card recap">
+      <h3>Everyone's answers</h3>
+      {recap.map((q, i) => (
+        <div key={i} className="recap-q">
+          <div className="recap-prompt">
+            <span className="muted small">Q{i + 1}</span> {q.prompt}
+          </div>
+          <ul className="reveal-rows">
+            {q.perPlayer.map((r) => (
+              <li key={r.playerId} className={r.playerId === you ? "me" : ""}>
+                <span className="reveal-name">{r.nickname}</span>
+                <span className="reveal-ans">{r.canonical ?? "—"}</span>
+                <TierBadge tier={r.tier} />
+                <span className="reveal-pts">+{formatDepth(r.points * 10)}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 }
