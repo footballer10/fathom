@@ -16,6 +16,7 @@ import { NicknamePrompt, getNickname } from "../nickname";
 import { navigate } from "../router";
 import { useSettings } from "../settings";
 import { sounds } from "../sound";
+import { PufferArena } from "./PufferArena";
 import { useRoom } from "./useRoom";
 import type { RoomEvent } from "./useRoom";
 
@@ -668,10 +669,12 @@ function BattleView({
       <h2 className="prompt">{b.prompt}</h2>
       <div className="category-tag">{b.category.replace("-", " & ")}</div>
 
+      <PufferArena state={state} typing={typing} events={events} reducedMotion={reducedMotion} />
+      {!active && showRotate && <p className="hint">Next turn in {startsIn}s</p>}
+
       <div className="battle-cols">
         <div className="battle-main">
-          <TurnBar startedAt={b.turnStartedAt} endsAt={b.turnEndsAt} label={active ? (myTurn ? "Your turn" : `${active.nickname}'s turn`) : "Next turn"} />
-          {myTurn ? (
+          {myTurn && (
             <motion.div animate={shake} className="input-wrap">
               <input
                 ref={inputRef}
@@ -686,7 +689,7 @@ function BattleView({
                     send({ type: "typing", text: "" });
                   }
                 }}
-                placeholder="Your turn! Type an answer…"
+                placeholder="Quick, pass the pufferfish! Type an answer…"
                 autoComplete="off"
                 autoCorrect="off"
                 autoCapitalize="off"
@@ -695,14 +698,6 @@ function BattleView({
                 autoFocus
               />
             </motion.div>
-          ) : (
-            <div className="turn-watch card">
-              {active ? (
-                <div className="live-typing">{typing?.playerId === active.id && typing.text ? typing.text : <span className="muted">…</span>}</div>
-              ) : (
-                <div className="muted">{showRotate ? `Next turn in ${startsIn}s` : "Next turn…"}</div>
-              )}
-            </div>
           )}
           <p className="hint">
             {myTurn ? (
@@ -712,7 +707,7 @@ function BattleView({
             ) : out ? (
               "You're out, but you can still guess for fun below."
             ) : (
-              "Get ready: answers already used can't be reused."
+              active ? `${active.nickname} has the pufferfish. Answers already used can't be reused.` : "Get ready: answers already used can't be reused."
             )}
           </p>
           <div className="card">
@@ -727,10 +722,6 @@ function BattleView({
           </div>
         </div>
         <aside className="battle-side">
-          <div className="card">
-            <h3>Divers</h3>
-            <PlayerList state={state} showLives active={b.turnPlayerId} />
-          </div>
           <div className="card">
             <h3>Spectator guesses</h3>
             {out && (
@@ -755,41 +746,6 @@ function BattleView({
             </ul>
           </div>
         </aside>
-      </div>
-    </div>
-  );
-}
-
-/**
- * A countdown bar everyone sees during Battle. Like TimerRing it reads the
- * server deadline every frame and writes straight to the DOM (no re-renders).
- */
-function TurnBar({ startedAt, endsAt, label }: { startedAt: number; endsAt: number; label: string }) {
-  const fillRef = useRef<HTMLDivElement>(null);
-  const secsRef = useRef<HTMLSpanElement>(null);
-  useEffect(() => {
-    let raf = 0;
-    const total = Math.max(1, endsAt - startedAt);
-    const tick = () => {
-      const left = Math.max(0, endsAt - serverNow());
-      if (fillRef.current) {
-        fillRef.current.style.transform = `scaleX(${Math.min(1, left / total)})`;
-        fillRef.current.classList.toggle("turn-bar-fill--low", left <= 3000);
-      }
-      if (secsRef.current) secsRef.current.textContent = `${Math.ceil(left / 1000)}s`;
-      if (left > 0) raf = requestAnimationFrame(tick);
-    };
-    tick();
-    return () => cancelAnimationFrame(raf);
-  }, [startedAt, endsAt]);
-  return (
-    <div className="turn-bar" role="timer" aria-label={label}>
-      <div className="turn-bar-head">
-        <span>{label}</span>
-        <span ref={secsRef} className="turn-bar-secs" />
-      </div>
-      <div className="turn-bar-track">
-        <div ref={fillRef} className="turn-bar-fill" />
       </div>
     </div>
   );
