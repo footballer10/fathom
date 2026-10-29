@@ -11,6 +11,8 @@
  *   wrong guess
  *   [Remove]
  *   Existing Answer
+ *   [Alias]
+ *   Existing Answer | new alias
  *
  * or a whole "# QUESTION" block with `id:` to replace a question outright.
  * New answers that already exist (by text or alias) are skipped, and aliases
@@ -64,7 +66,7 @@ for (const block of chunks.filter((c) => c.startsWith("@"))) {
   if (!/^q\d+$/.test(id)) continue;
   const { d, i } = find(id);
   const q: ParsedQuestion = d.questions[i];
-  let section: TierPoints | "na" | "remove" | null = null;
+  let section: TierPoints | "na" | "remove" | "alias" | null = null;
   let added = 0, skipped: string[] = [], removed = 0;
   const keys = () => {
     const m = new Map<string, number>();
@@ -77,7 +79,7 @@ for (const block of chunks.filter((c) => c.startsWith("@"))) {
     const h = /^\[(.+)\]$/.exec(line);
     if (h) {
       const name = h[1].toLowerCase();
-      section = name === "not accepted" ? "na" : name === "remove" ? "remove" : (tierFromName(name) ?? null);
+      section = name === "not accepted" ? "na" : name === "remove" ? "remove" : name === "alias" ? "alias" : (tierFromName(name) ?? null);
       if (section === null) throw new Error(`${id}: unknown section ${h[1]}`);
       continue;
     }
@@ -92,6 +94,23 @@ for (const block of chunks.filter((c) => c.startsWith("@"))) {
       else {
         q.answers.splice(n, 1);
         removed++;
+      }
+      continue;
+    }
+    if (section === "alias") {
+      // "Existing answer | new alias | ..." adds spellings to an answer that's already there.
+      const [target, ...extra] = line.split("|").map((x) => x.trim()).filter(Boolean);
+      const k = keys();
+      const n = k.get(normalize(target));
+      if (n === undefined) {
+        skipped.push(`(alias target missing) ${target}`);
+        continue;
+      }
+      const a = q.answers[n];
+      for (const x of extra) {
+        if (k.has(normalize(x))) continue;
+        a.aliases = [...(a.aliases ?? []), x];
+        k.set(normalize(x), n);
       }
       continue;
     }

@@ -55,6 +55,147 @@ Earlobe | ear lobe
 Bicep | biceps
 Tricep | triceps
 Groin
+Glabella
+Lunula
+Areola
+Nipple
+Abdomen
+Torso
+Trunk
+Buttocks | butt | bottom | rear
+Hamstring
+Quadriceps | quads
+Glutes | gluteus maximus
+Abs | abdominals
+Pecs | pectorals
+Lats
+Deltoid | delts
+Trapezius | traps
+Forearm
+Upper arm
+Shin
+Vertebra | vertebrae
+Spinal cord
+Nerve
+Vein
+Artery
+Capillary
+Aorta
+Ventricle
+Atrium
+Lymph node
+Bone marrow
+Cartilage
+Ligament
+Tendon
+Muscle
+Bone
+Blood
+Joint
+Cochlea
+Anvil | incus
+Hammer | malleus
+Stirrup | stapes
+Ear canal
+Lens
+Sclera
+Optic nerve
+Tear duct
+Eye socket
+Nasal cavity
+Bridge of the nose | nose bridge
+Cheekbone
+Jawbone | mandible
+Palate | roof of the mouth
+Taste buds
+Molar
+Incisor
+Canine tooth
+Wisdom tooth
+Enamel
+Dimple
+Freckle
+Mole
+Pore
+Hair follicle
+Sweat gland
+Scalp
+Crown
+Sideburns
+Beard
+Mustache | moustache
+Eyeball
+Cupid's bow
+Adam's apple
+Vocal cords
+Fingertip
+Fingerprint
+Ring finger
+Middle finger
+Index finger | pointer finger
+Big toe
+Little toe | pinky toe
+Ball of the foot
+Arch
+Ankle bone
+Achilles heel
+Calf muscle
+Inner thigh
+Lap
+Love handles
+Hip bone
+Midriff
+Lower back
+Small of the back
+Flank
+Side
+Crotch
+Genitals
+Penis
+Vagina
+Testicles
+Ovary
+Uterus
+Prostate
+Breast
+Thymus
+Adrenal gland
+Pineal gland
+Brainstem | brain stem
+Cerebrum
+Frontal lobe
+Temporal lobe
+Occipital lobe
+Parietal lobe
+Mesentery
+Peritoneum
+Omentum
+Placenta
+Umbilical cord
+Epiglottis
+Bronchi | bronchus
+Alveoli
+Small intestine
+Large intestine
+Anus
+Urethra
+Ureter
+Skeleton
+Ribcage | rib cage
+Metacarpal
+Phalanges
+Carpals
+Tarsals
+Metatarsals
+Humerus
+Radius
+Ulna
+Sacrum
+Ilium
+Maxilla
+Hyoid
+Eyebrow ridge | brow ridge
+Brow
 
 [Rare]
 Liver
@@ -87,6 +228,7 @@ Armpit | underarm
 Belly button | navel | bellybutton
 Fingernail | nail | toenail
 Heel
+Fist
 
 [Schooler]
 Heart
@@ -124,10 +266,14 @@ Mouth
 
 [Not accepted]
 Haircut
-Blood
 Shirt
 Soul
 Body
+Shoe
+Hat
+Wig
+Tattoo
+Mind
 
 # QUESTION
 id: q0012
@@ -156,7 +302,7 @@ Edward Hopper | hopper
 Wassily Kandinsky | kandinsky
 John Constable | constable
 Piet Mondrian | mondrian
-Joan Miro | miro | miró
+Joan Miro | miro | miró | juan miro
 Henri de Toulouse-Lautrec | toulouse-lautrec | toulouse lautrec | lautrec
 Georges Seurat | seurat
 Camille Pissarro | pissarro
@@ -182,6 +328,237 @@ Jasper Johns
 Willem de Kooning | de kooning
 Giotto
 Raphael Sanzio
+Fra Angelico
+Masaccio
+Piero della Francesca
+Paolo Uccello
+Andrea Mantegna
+Giovanni Bellini
+Giorgione
+Tintoretto
+Paolo Veronese | veronese
+Correggio
+Parmigianino
+Bronzino
+Andrea del Sarto
+Filippo Lippi
+Fra Filippo Lippi
+Domenico Ghirlandaio | ghirlandaio
+Perugino
+Cimabue
+Duccio
+Simone Martini
+Canaletto
+Tiepolo | giovanni battista tiepolo
+Guido Reni
+Annibale Carracci | carracci
+Nicolas Poussin | poussin
+Claude Lorrain
+Georges de La Tour
+Antoine Watteau | watteau
+Jean-Honore Fragonard | fragonard
+Francois Boucher | boucher
+Jean-Baptiste-Simeon Chardin | chardin
+Elisabeth Vigee Le Brun | vigee le brun
+Jean-Auguste-Dominique Ingres | ingres
+Theodore Gericault | gericault
+Jean-Francois Millet | millet
+Gustave Courbet | courbet
+Jean-Baptiste-Camille Corot | corot
+Honore Daumier | daumier
+Alfred Sisley | sisley
+Berthe Morisot | morisot
+Gustave Caillebotte | caillebotte
+Frederic Bazille
+Paul Signac | signac
+Odilon Redon
+Gustave Moreau
+Pierre Bonnard | bonnard
+Edouard Vuillard | vuillard
+Henri Rousseau | rousseau
+Andre Derain | derain
+Maurice de Vlaminck
+Raoul Dufy
+Georges Braque | braque
+Fernand Leger | leger
+Robert Delaunay
+Sonia Delaunay
+Juan Gris
+Yves Klein
+Jean Dubuffet
+Maurice Utrillo
+Suzanne Valadon
+Tamara de Lempicka | lempicka
+Balthus
+Frans Hals
+Jan Steen
+Pieter de Hooch
+Jacob van Ruisdael | ruisdael
+Judith Leyster
+Rogier van der Weyden
+Hans Memling
+Hugo van der Goes
+Quentin Matsys
+Pieter Bruegel the Younger
+Jan Brueghel | jan brueghel the elder
+James Ensor
+Paul Delvaux
+Lucas Cranach | cranach
+Matthias Grunewald | grunewald
+Caspar David Friedrich | caspar friedrich
+Max Ernst
+Ernst Ludwig Kirchner | kirchner
+Franz Marc
+August Macke
+Emil Nolde
+Otto Dix
+George Grosz
+Max Beckmann
+Paul Klee | klee
+Kathe Kollwitz
+Gabriele Munter
+Oskar Kokoschka
+Anselm Kiefer
+Sigmar Polke
+Neo Rauch
+Bartolome Esteban Murillo | murillo
+Francisco de Zurbaran | zurbaran
+Jusepe de Ribera | ribera
+Joaquin Sorolla | sorolla
+Antoni Tapies
+William Blake
+William Hogarth | hogarth
+Thomas Gainsborough | gainsborough
+Joshua Reynolds
+George Stubbs
+Dante Gabriel Rossetti | rossetti
+John Everett Millais | millais
+William Holman Hunt
+Edward Burne-Jones | burne-jones
+John William Waterhouse | waterhouse
+Walter Sickert
+Stanley Spencer
+Bridget Riley
+L. S. Lowry | lowry
+Damien Hirst
+Tracey Emin
+Gilbert Stuart
+John Singleton Copley
+Benjamin West
+Thomas Cole
+Frederic Edwin Church
+Albert Bierstadt
+George Caleb Bingham
+Thomas Eakins
+Albert Pinkham Ryder
+Childe Hassam
+Andrew Wyeth
+N. C. Wyeth
+Jamie Wyeth
+Thomas Hart Benton
+Charles Burchfield
+Stuart Davis
+Charles Demuth
+Marsden Hartley
+Arthur Dove
+John Sloan
+George Bellows
+Robert Henri
+Jacob Lawrence
+Romare Bearden
+Kerry James Marshall
+Kehinde Wiley
+Amy Sherald
+Alma Thomas
+Helen Frankenthaler
+Lee Krasner
+Joan Mitchell
+Franz Kline
+Robert Motherwell
+Clyfford Still
+Barnett Newman
+Ad Reinhardt
+Cy Twombly
+Robert Rauschenberg
+Frank Stella
+Ellsworth Kelly
+Agnes Martin
+Wayne Thiebaud
+Ed Ruscha
+Alex Katz
+Chuck Close
+Richard Diebenkorn
+Philip Guston
+Arshile Gorky
+Hans Hofmann
+Mark Tobey
+Grandma Moses
+LeRoy Neiman
+Peter Max
+Shepard Fairey
+Kaws
+Takashi Murakami
+Utagawa Hiroshige | hiroshige
+Kitagawa Utamaro | utamaro
+Ogata Korin
+Sesshu
+Qi Baishi
+Xu Beihong
+Zhang Daqian
+Raja Ravi Varma
+Amrita Sher-Gil
+M. F. Husain
+Tarsila do Amaral
+Candido Portinari
+Fernando Botero | botero
+Rufino Tamayo
+Jose Clemente Orozco | orozco
+David Alfaro Siqueiros | siqueiros
+Remedios Varo
+Leonora Carrington
+Wifredo Lam
+Roberto Matta
+Ilya Repin | repin
+Ivan Aivazovsky | aivazovsky
+Kazimir Malevich | malevich
+Alexej von Jawlensky
+Natalia Goncharova
+Nicholas Roerich
+Ivan Shishkin
+Isaac Levitan
+Vasily Surikov
+Akseli Gallen-Kallela
+Albert Edelfelt
+Anders Zorn
+Carl Larsson
+Vilhelm Hammershoi | hammershoi
+Peder Severin Kroyer | kroyer
+Hilma af Klint
+Alphonse Mucha | mucha
+Frantisek Kupka
+Gustave Dore
+Arnold Bocklin
+Ferdinand Hodler
+Giovanni Segantini
+Giorgio de Chirico | de chirico
+Giorgio Morandi
+Umberto Boccioni
+Giacomo Balla
+Gino Severini
+Lucio Fontana
+Alberto Burri
+Albert Namatjira
+Sidney Nolan
+Tom Roberts
+Arthur Streeton
+Frederick McCubbin
+Brett Whiteley
+Emily Carr
+Tom Thomson
+Lawren Harris
+Cornelius Krieghoff
+Jean-Paul Riopelle
+Thomas Moran
 
 [Rare]
 Marc Chagall | chagall
@@ -231,6 +608,8 @@ Beethoven
 Rodin
 Auguste Rodin
 Hitler
+Walt Disney
+Stan Lee
 
 # QUESTION
 id: q0013
@@ -245,7 +624,6 @@ Casu marzu
 Halloumi | haloumi
 Manchego
 Gruyere | gruyère
-Emmental | emmentaler
 Raclette
 Taleggio
 Pecorino | pecorino romano
@@ -289,29 +667,199 @@ Bel Paese
 Grana Padano
 Caciocavallo
 Vacherin
+Pont-l'Eveque
+Langres
+Livarot
+Neufchatel
+Brillat-Savarin
+Chaource
+Saint-Andre
+Explorateur
+Saint-Marcellin
+Saint-Nectaire
+Cantal
+Salers
+Laguiole
+Tomme de Savoie | tomme
+Abondance
+Beaufort
+Bleu d'Auvergne
+Fourme d'Ambert
+Bleu de Gex
+Ossau-Iraty
+Crottin de Chavignol | crottin
+Valencay
+Sainte-Maure
+Mont d'Or | vacherin mont d'or
+Ricotta salata
+Pecorino Sardo
+Montasio
+Piave
+Fiore Sardo
+Robiola
+Stracchino | crescenza
+Castelmagno
+Toma
+Fontal
+Provola
+Ricotta forte
+Cabrales
+Idiazabal
+Mahon
+Tetilla
+Zamorano
+Torta del Casar
+Garrotxa
+Queso de Valdeon
+Serra da Estrela
+Kasseri
+Kefalotyri
+Graviera
+Manouri
+Mizithra | myzithra
+Anthotyros
+Kashkaval
+Sirene
+Bryndza
+Oscypek
+Tvorog | tvarog
+Sulguni | suluguni
+Akkawi
+Nabulsi
+Jibneh
+Tulum
+Beyaz peynir
+Lighvan
+Chhena
+Chhurpi
+Rushan
+Rubing
+Kesong puti
+Queso Chihuahua | chihuahua cheese
+Queso Panela | panela
+Queso anejo
+Queso de bola
+Requesón
+Catupiry
+Queijo coalho | coalho
+Queijo minas | minas cheese
+Cheddar curds | cheese curds | squeaky cheese
+Brick cheese
+Teleme
+Humboldt Fog
+Cougar Gold
+Liederkranz
+Red Hawk
+Pleasant Ridge Reserve
+Bayley Hazen Blue
+Maytag Blue
+Point Reyes Blue
+Danish Blue | danablu
+Esrom
+Samso
+Tybo
+Herrgardsost
+Vasterbottensost
+Prastost
+Gamalost
+Nokkelost
+Leipäjuusto | bread cheese | finnish squeaky cheese
+Oltermanni
+Kaltbach
+Tilsit | tilsiter
+Butterkase
+Bergkase
+Allgauer Emmentaler
+Handkase
+Harzer
+Altenburger
+Romadur
+Weisslacker
+Sbrinz
+Vacherin Fribourgeois
+Raclette du Valais
+Belper Knolle
+Leyden | leidse kaas
+Boerenkaas
+Old Amsterdam
+Beemster
+Herve
+Chimay
+Passendale
+Orval
+Lancashire
+Caerphilly
+Single Gloucester
+Shropshire Blue
+Stinking Bishop
+Cornish Yarg | yarg
+Lincolnshire Poacher
+Derby
+Sage Derby
+Blue Vinny | dorset blue vinny
+Dunlop
+Isle of Mull
+Caboc
+Crowdie
+Cashel Blue
+Gubbeen
+Ardrahan
+Durrus
+Coolea
+Dubliner
+Pule | pule cheese
+Bandel
+Kalari
+Wagashi
+Ayib
+Squeeze cheese | spray cheese | easy cheese
+Processed cheese
+Smoked cheese
+Vegan cheese
+Nutritional yeast
+Farmer cheese
+Pot cheese
+Hoop cheese
+Fromage blanc
+Fromage frais
+Petit-suisse
+Skyr
+Kwark
+Curd cheese
+Marble cheese
+Cojack
+Baby Swiss
+Lacey Swiss
+Dry Jack
+Kraft Singles
+Laughing Cow
+Philadelphia | philadelphia cream cheese
+Tillamook
+Pecorino Toscano
+Emmental | emmentaler | emmenthal | swiss emmental
 
 [Rare]
 Goat cheese | chevre | chèvre
 Edam
 Mascarpone
-Muenster | munster
 Colby
 Colby Jack
-Pepper Jack
+Pepper Jack | pepperjack
 Romano
 Queso
 Bocconcini
+Muenster | munster | muenster cheese
 
 [Schooler]
 Gorgonzola
 Camembert
 Ricotta
-Monterey Jack | jack
+Monterey Jack | jack | jack cheese
 Blue cheese
 Cottage cheese
 Cream cheese
 Feta
-Gouda
+Gouda | smoked gouda
 Brie
 Provolone
 Swiss | swiss cheese
@@ -319,13 +867,13 @@ Parmesan | parmigiano reggiano | parmigiano | parmesian
 
 [Too Clever]
 Velveeta
-Cheez Whiz | cheese whiz
 String cheese
 Babybel
+Cheez Whiz | cheese whiz
 
 [Plankton]
-Cheddar | chedder | cheddar cheese
-Mozzarella | mozarella | mozzerella | mozz
+Cheddar | chedder | cheddar cheese | sharp cheddar | white cheddar | aged cheddar | mild cheddar
+Mozzarella | mozarella | mozzerella | mozz | fresh mozzarella | buffalo mozzarella | mozzarella di bufala
 American cheese | american
 
 [Not accepted]
@@ -335,6 +883,11 @@ Cheesecake
 Milk
 Tofu
 Cheez-It
+Mac and cheese
+Cheese pizza
+Cheetos
+Goldfish
+Nacho
 
 # QUESTION
 id: q0014
@@ -782,7 +1335,7 @@ Baobab
 [Deep Cut]
 Sequoia | giant sequoia
 Ginkgo | gingko | ginkgo biloba
-Hawthorn
+Hawthorn | hawthorn tree
 Alder
 Hornbeam
 Linden | lime tree | basswood
@@ -813,8 +1366,8 @@ Avocado tree
 Mango tree
 Cork oak
 Rubber tree
-Kapok
-Ebony
+Kapok | kapok tree | ceiba
+Ebony | ebony tree
 Rosewood
 Balsa
 Bristlecone pine
@@ -833,20 +1386,267 @@ Weeping cherry
 Crabapple
 Cottonwood
 Hazel
-Teak
-Mahogany
+Teak | teak tree
+Mahogany | mahogany tree
 Joshua tree
 Dragon tree
 Olive tree | olive
 Eucalyptus
 Cedar
+Kentucky coffeetree
+Osage orange | hedge apple
+Pawpaw tree
+Sourwood
+Tupelo | black gum
+Bald cypress
+Dawn redwood
+Coast redwood
+Western red cedar
+Eastern red cedar
+Atlas cedar
+Cedar of Lebanon
+Deodar
+Incense cedar
+Arborvitae | thuja
+Leyland cypress
+Monterey cypress
+Italian cypress
+Cryptomeria | japanese cedar | sugi
+Hinoki
+Norfolk Island pine
+Wollemi pine
+Kauri
+Podocarpus
+Araucaria
+Ponderosa pine
+Lodgepole pine
+Longleaf pine
+Loblolly pine
+White pine | eastern white pine
+Scots pine | scotch pine
+Stone pine | umbrella pine
+Pinyon pine | pinon
+Jack pine
+Red pine
+Monterey pine
+Sugar pine
+Austrian pine
+Balsam fir
+Fraser fir
+Noble fir
+Grand fir
+White fir
+Nordmann fir
+Sitka spruce
+Norway spruce
+Black spruce
+White spruce
+Engelmann spruce
+Eastern hemlock
+Western hemlock
+European larch
+Bigleaf maple
+Silver maple
+Norway maple
+Box elder
+Sycamore maple
+Field maple
+Paperbark maple
+Amur maple
+River birch
+Yellow birch
+Black birch
+Gray birch
+Quaking aspen
+Bigtooth aspen
+Lombardy poplar
+White poplar
+Black poplar
+Balsam poplar
+Eastern cottonwood
+Black willow
+Pussy willow
+White willow
+Crack willow
+American elm
+Slippery elm
+English elm
+Chinese elm
+Siberian elm
+Zelkova
+Hackberry
+American beech
+European beech
+Copper beech
+American chestnut
+Sweet chestnut
+Chinquapin
+Black walnut
+English walnut
+Butternut
+Shagbark hickory
+Pignut hickory
+Bitternut hickory
+Mockernut hickory
+Pin oak
+Scarlet oak
+Black oak
+Chestnut oak
+Water oak
+Willow oak
+Post oak
+Swamp white oak
+Holm oak
+English oak
+Sessile oak
+Turkey oak
+Valley oak
+Blue oak
+Coast live oak
+Southern live oak
+Littleleaf linden
+Southern magnolia
+Saucer magnolia
+Star magnolia
+Sweetbay
+Bigleaf magnolia
+Cucumber tree
+Redbud | eastern redbud
+Serviceberry | shadbush
+Flowering dogwood
+Kousa dogwood
+Crape myrtle | crepe myrtle
+Bradford pear | callery pear
+Flowering cherry
+Japanese cherry | sakura
+Yoshino cherry
+Black cherry
+Chokecherry
+Plum tree
+Peach tree
+Pear tree
+Apricot tree
+Quince tree
+Medlar tree
+Loquat tree
+Pomegranate tree
+Grapefruit tree
+Kumquat tree
+Hazelnut tree
+Macadamia tree
+Pistachio tree
+Cashew tree
+Cacao tree
+Coffee tree
+Tea tree
+Clove tree
+Nutmeg tree
+Cinnamon tree
+Bay laurel | bay tree | laurel
+Cork tree
+Jacaranda
+Flame tree | royal poinciana | flamboyant
+Frangipani | plumeria
+Bottlebrush
+Paperbark | melaleuca
+Jarrah
+Karri
+Blue gum
+River red gum
+Ghost gum
+Snow gum
+Wattle
+Mulga
+She-oak | casuarina
+Boab
+Moreton Bay fig
+Strangler fig
+Sacred fig | bodhi tree | peepal | pipal
+Neem
+Sandalwood
+Tamarind tree
+Rain tree | monkeypod
+Silk floss tree
+Cecropia
+Brazil nut tree
+Spanish cedar
+Lignum vitae
+Ironwood
+Purpleheart
+Zebrawood
+Wenge
+Padauk
+Sapele
+Iroko
+Okoume
+Dragon's blood tree
+Frankincense tree | boswellia
+Myrrh tree
+Argan tree
+Carob tree
+Date palm
+Royal palm
+Fan palm
+Sago palm
+Oil palm
+Traveller's palm
+Palmetto | sabal palmetto | cabbage palm
+Windmill palm
+Banana tree
+Papaya tree
+Breadfruit tree
+Jackfruit tree
+Durian tree
+Lychee tree
+Rambutan tree
+Guava tree
+Mangosteen tree
+Sal tree
+Himalayan birch
+Rhododendron tree
+Tree fern
+Cycad
+Smoke tree
+Witch hazel
+Sumac | staghorn sumac
+Tree of heaven | ailanthus
+Mimosa | silk tree
+Empress tree | paulownia
+Golden rain tree
+Whitebeam
+Elder | elderberry tree
+Holly | american holly | english holly
+Boxwood | box
+Blackthorn
+Spindle tree
+Buckthorn
+Russian olive
+Mulberry | white mulberry | red mulberry
+Persian ironwood | parrotia
+Katsura
+Hop hornbeam
+Musclewood
+Bitter orange tree
+Lemon eucalyptus
+Rainbow eucalyptus
+Tasmanian blue gum
+Coolibah
+Quiver tree
+Sausage tree
+Marula
+Mopane
+Umbrella thorn
+Fever tree
+Yellowwood
+Silver tree
+Stinkwood
 
 [Rare]
 Ash
 Beech
 Elm
 Hickory
-Walnut
+Walnut | walnut tree
 Chestnut
 Poplar
 Aspen
@@ -884,6 +1684,10 @@ Grass
 Family tree
 Fern
 Ivy
+Vine
+Moss
+Cactus
+Treehouse
 
 # QUESTION
 id: q0019
