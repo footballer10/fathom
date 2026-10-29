@@ -46,7 +46,7 @@ To test Party mode alone, open the site in two browser windows (one normal, one 
    ```
 
 2. Publish the site. At the end it prints your live address, like
-   `https://fathom.<your-name>.workers.dev`:
+   `https://play.<your-name>.workers.dev`:
 
    ```bash
    npm run deploy
@@ -95,7 +95,7 @@ on Anthropic's servers:
 1. In the cloud environment's settings (claude.ai/code, the environment menu, then Edit), add two
    environment variables: `SITE_URL` (your live site address) and `ADMIN_TOKEN` (the same password
    you gave `wrangler secret put`).
-2. Under Network access, add your site's host (for example `fathom.your-name.workers.dev`) to the
+2. Under Network access, add your site's host (for example `play.your-name.workers.dev`) to the
    allowed domains.
 3. Create a scheduled task that starts a fresh session on this repository every **Wednesday at
    2:07 AM Mountain** with the prompt: `Follow WEEKLY_TASK.md in this repository from start to finish.`

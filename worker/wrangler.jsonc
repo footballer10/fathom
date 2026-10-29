@@ -6,7 +6,7 @@
 // writes their IDs into this file for you (they are not secrets).
 {
   "$schema": "../node_modules/wrangler/config-schema.json",
-  "name": "fathom",
+  "name": "play",
   "main": "src/index.ts",
   "compatibility_date": "2025-09-01",
   "compatibility_flags": ["nodejs_compat"],
