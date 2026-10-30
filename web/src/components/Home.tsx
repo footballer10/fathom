@@ -52,7 +52,7 @@ export function Home({
         <div className="card mode-card">
           <div className="mode-card-head">
             <h3>Unlimited</h3>
-            <span className="muted">7 random prompts, as many runs as you like</span>
+            <span className="muted">7 prompts at a time, and you never see the same one twice</span>
           </div>
           <label className="select-label">
             <span className="muted small">Category</span>

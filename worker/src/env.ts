@@ -11,6 +11,8 @@ export class HttpError extends Error {
   constructor(
     public status: number,
     message: string,
+    /** Optional machine-readable reason the client can react to (e.g. "unlimited-complete"). */
+    public code?: string,
   ) {
     super(message);
   }
