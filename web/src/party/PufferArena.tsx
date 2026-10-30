@@ -12,8 +12,8 @@ type Flash =
   | { id: number; kind: "life"; x: number; y: number; text: string };
 
 /** Where the fish waits when it's your turn: just above your dock. */
-const YOU_FISH: Pos = { x: 50, y: 66 };
-const CENTER: Pos = { x: 50, y: 46 };
+const YOU_FISH: Pos = { x: 50, y: 70 };
+const CENTER: Pos = { x: 50, y: 54 };
 
 /**
  * Battle's "pass the pufferfish" arena. Everyone else sits around the top of
@@ -59,6 +59,11 @@ export function PufferArena({
   const path = { x: [from.x, mid.x, to.x], y: [from.y, mid.y, to.y], moved: from.x !== to.x || from.y !== to.y };
 
   const arenaRef = useRef<HTMLDivElement>(null);
+  // The tank fills the screen; bring all of it into view when the game starts.
+  useEffect(() => {
+    arenaRef.current?.scrollIntoView({ block: "end", behavior: reducedMotion ? "auto" : "smooth" });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const puffRef = useRef<HTMLDivElement>(null);
   const secsRef = useRef<HTMLSpanElement>(null);
   useEffect(() => {
@@ -134,9 +139,15 @@ export function PufferArena({
       </div>
       <div className="arena-floor" aria-hidden />
 
-      <div className="arena-status">
-        <span>{activeName ? `${activeName} the pufferfish!` : heading ? `Passing to ${headingName}…` : "Next turn…"}</span>
-        <span ref={secsRef} className="arena-secs" />
+      <div className="arena-top">
+        <div className="arena-meta">
+          {b.category.replace("-", " & ")} · prompt {b.round} · base {b.baseSeconds}s
+        </div>
+        <h2 className="arena-prompt">{b.prompt}</h2>
+        <div className="arena-status">
+          <span>{activeName ? `${activeName} the pufferfish!` : heading ? `Passing to ${headingName}…` : "Next turn…"}</span>
+          <span ref={secsRef} className="arena-secs" />
+        </div>
       </div>
 
       {[...seats.values()].map((s) => {
@@ -300,7 +311,7 @@ function seatPositions(state: RoomSnapshot) {
     // From the left side (200°) over the top to the right side (340°).
     const deg = n === 1 ? 270 : 200 + (140 * i) / (n - 1);
     const a = (deg * Math.PI) / 180;
-    map.set(p.id, { id: p.id, nickname: p.nickname, x: 50 + 39 * Math.cos(a), y: 54 + 38 * Math.sin(a), hue: hashHue(p.id) });
+    map.set(p.id, { id: p.id, nickname: p.nickname, x: 50 + 40 * Math.cos(a), y: 62 + 30 * Math.sin(a), hue: hashHue(p.id) });
   });
   return map;
 }

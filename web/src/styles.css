@@ -1535,8 +1535,17 @@ select {
 .arena--still .arena-rays, .arena--still .arena-bubbles span { animation: none; }
 .arena--still .arena-bubbles { display: none; }
 
-.arena-status {
+.arena-top {
   position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 4;
+  width: min(900px, calc(100% - 24px));
+  display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center;
+}
+.arena-meta { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(220, 240, 255, 0.7); }
+.arena-prompt {
+  margin: 0; font-size: clamp(1.25rem, 3vw, 2.3rem); font-weight: 800; line-height: 1.15;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+.arena-status {
   display: flex; gap: 10px; align-items: center; white-space: nowrap;
   padding: 6px 16px; border-radius: 99px; background: rgba(2, 14, 30, 0.65);
   backdrop-filter: blur(6px); font-weight: 700; font-size: 0.95rem;
@@ -1771,3 +1780,28 @@ select {
 .welcome h2, .welcome p { margin: 0; }
 .welcome .nickname-card { width: 100%; background: transparent; border: 0; box-shadow: none; padding: 6px 0; }
 .welcome-whale { font-size: 3.2rem; animation: whale-bob 3s ease-in-out infinite; }
+
+/* Battle fills the screen: the tank (with the prompt inside it) breaks out of the page column. */
+.battle .arena {
+  left: 50%; transform: translateX(-50%);
+  width: min(1500px, calc(100vw - 32px));
+  height: max(460px, calc(100svh - 24px));
+}
+/* During Battle, messages pop in just above your answer box so they never cover it. */
+body:has(.battle) .toasts { bottom: 130px; }
+@media (min-width: 900px) {
+  .battle .seat { width: 130px; }
+  .battle .seat-avatar { width: 64px; height: 64px; font-size: 1.6rem; }
+  .battle .seat-name { font-size: 0.95rem; max-width: 130px; }
+  .battle .seat-lives { font-size: 0.9rem; }
+  .battle .seat-bubble { font-size: 1.2rem; max-width: 300px; padding: 9px 16px; }
+  .battle .puffer { width: 160px; height: 160px; margin: -80px 0 0 -80px; }
+  .battle .arena-status { font-size: 1.1rem; padding: 8px 20px; }
+  .battle .arena-dock { width: min(720px, calc(100% - 32px)); bottom: 20px; }
+  .battle .dock-me .seat-avatar { width: 50px; height: 50px; font-size: 1.25rem; }
+  .battle .dock-input .answer-input { font-size: 1.35rem; padding: 14px 18px; }
+  .battle .arena-answer { font-size: 1.1rem; }
+}
+@media (max-width: 560px) {
+  .battle .arena { width: calc(100vw - 16px); height: max(460px, calc(100svh - 16px)); }
+}

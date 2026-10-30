@@ -719,14 +719,6 @@ function BattleView({
           </motion.div>
         )}
       </AnimatePresence>
-      <div className="game-header">
-        <span className="game-meta">
-          Prompt {b.round} · base {b.baseSeconds}s
-        </span>
-      </div>
-      <h2 className="prompt">{b.prompt}</h2>
-      <div className="category-tag">{b.category.replace("-", " & ")}</div>
-
       <PufferArena state={state} typing={typing} events={events} reducedMotion={reducedMotion} input={input} />
       {!active && showRotate && <p className="hint">Next turn in {startsIn}s</p>}
 
