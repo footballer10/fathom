@@ -106,6 +106,8 @@ export interface RoomSnapshot {
     round: number;
     baseSeconds: number;
     turnPlayerId: string | null;
+    /** Between turns: who the pufferfish is heading to next. */
+    nextTurnPlayerId?: string | null;
     /** When the current turn (or the pause before the next one) started, so clients can draw the timer. */
     turnStartedAt: number;
     turnEndsAt: number;
@@ -155,7 +157,7 @@ export type ServerMessage =
   | { type: "turn"; playerId: string; endsAt: number; prompt: string; seconds: number }
   | { type: "typing"; playerId: string; text: string }
   | { type: "taken"; answerCanonical: string; byPlayerId: string }
-  | { type: "turnResult"; playerId: string; canonical: string; tier: TierPoints; corrected: boolean }
+  | { type: "turnResult"; playerId: string; canonical: string; tier: TierPoints; corrected: boolean; livesGained: number; livesLeft: number }
   | { type: "lifeLost"; playerId: string; livesLeft: number }
   | { type: "eliminated"; playerId: string }
   | { type: "rotate"; prompt: string; category: Category; baseSeconds: number; startsAt: number }

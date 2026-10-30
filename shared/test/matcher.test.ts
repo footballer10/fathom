@@ -141,7 +141,9 @@ const cases: Case[] = [
   ["one-letter typo (len 5-7)", "fruit", "cherrry", "Cherry", true],
   ["transposition counts as 1", "fruit", "bnaana", "Banana", true],
   ["two typos on a long word", "fruit", "persimmmonn", "Persimmon", true],
-  ["typo in long word", "fruit", "stawberyy", "Strawberry", true],
+  ["one typo in a long word", "fruit", "strawbery", "Strawberry", true],
+  ["two typos on a 9-letter word is too many", "fruit", "stawberyy", null],
+  ["a typo must keep the first letter", "fruit", "wanana", null],
   ["too many typos", "fruit", "bnnaaa", null],
   ["short words need exact", "animals", "cow", null],
   ["short word, sounds the same", "animals", "gose", "Goose", true],
@@ -202,7 +204,7 @@ const cases: Case[] = [
   ["multi-word typo", "fruit", "pasion fruit", "Passion fruit", true],
 
   // Phonetic (Double Metaphone): too many edits for the typo step, but sounds the same
-  ["phonetic quinoa", "grains", "kwinoa", "Quinoa", true],
+  ["sounds-alike needs to be close in spelling too", "grains", "kwinoa", null],
   ["phonetic chartreuse", "grains", "shartreuse", "Chartreuse", true],
   ["sounds-alike but too far", "grains", "keenwa", null],
   ["typo step handles fuchia", "grains", "fuchia", "Fuchsia", true],

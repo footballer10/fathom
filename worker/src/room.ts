@@ -685,9 +685,12 @@ export class Room extends DurableObject<Env> {
       seat.score += r.points;
       seat.lastTier = r.tier;
       seat.noBonus = false;
+      // Deep Cuts and One in a Krillions earn lives back, past the starting count if need be.
+      const livesGained = tierInfo(r.tier).battleLives;
+      seat.lives += livesGained;
       if (!b.best || r.tier > b.best.tier) b.best = { nickname: seat.nickname, canonical: r.canonical, tier: r.tier, prompt: b.prompt, at: now };
       this.send(ws, { type: "guessResult", accepted: true, canonical: r.canonical, tier: r.tier, points: r.points, corrected: r.corrected, reason: null, endsAt: b.turnEndsAt });
-      this.broadcast({ type: "turnResult", playerId: pid, canonical: r.canonical, tier: r.tier, corrected: r.corrected });
+      this.broadcast({ type: "turnResult", playerId: pid, canonical: r.canonical, tier: r.tier, corrected: r.corrected, livesGained, livesLeft: seat.lives });
       if (!(await this.maybeRotate(now, pid))) this.queueNextTurn(pid, now, BATTLE_DEFAULTS.betweenTurnsMs);
       return;
     }
@@ -893,6 +896,7 @@ export class Room extends DurableObject<Env> {
         round: b.round,
         baseSeconds: b.baseSeconds,
         turnPlayerId: b.turnPlayerId,
+        nextTurnPlayerId: b.turnPlayerId ? null : b.nextTurnPlayerId,
         turnStartedAt: b.turnStartedAt,
         turnEndsAt: b.turnPlayerId ? b.turnEndsAt : b.nextTurnAt,
         used: b.used,

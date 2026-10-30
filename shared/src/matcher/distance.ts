@@ -45,8 +45,8 @@ export function damerauLevenshtein(a: string, b: string, max = Infinity): number
 
 /** Allowed typo distance for a normalized guess of this length (spec §4 step 4). */
 export function fuzzyThreshold(length: number): number {
-  if (length <= 4) return 0;
-  if (length <= 7) return 1;
-  if (length <= 11) return 2;
+  if (length <= 5) return 0;
+  if (length <= 9) return 1;
+  if (length <= 14) return 2;
   return 3;
 }

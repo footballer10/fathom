@@ -636,17 +636,21 @@ function BattleView({
   const active = state.players.find((p) => p.id === b.turnPlayerId);
   const out = me.eliminated || me.spectator;
   const [text, setText] = useState("");
-  const [funText, setFunText] = useState("");
+  const [waitHint, setWaitHint] = useState(false);
   const lastTypingSent = useRef(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const shake = useAnimationControls();
   const lastSeen = useRef(events.length ? events[events.length - 1].id : 0);
   const now = useNow(200);
 
+  // Your draft carries over: type while you wait, then hit Enter when the fish arrives.
   useEffect(() => {
-    setText("");
-    if (myTurn) inputRef.current?.focus();
-  }, [myTurn, b.turnPlayerId, b.turnEndsAt]);
+    setWaitHint(false);
+    if (!myTurn) return;
+    inputRef.current?.focus();
+    if (text) send({ type: "typing", text });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [myTurn, b.turnPlayerId]);
 
   useEffect(() => {
     const fresh = events.filter((e) => e.id > lastSeen.current);
@@ -660,12 +664,46 @@ function BattleView({
   // Live typing: send what you've typed about 10 times a second.
   const onType = (v: string) => {
     setText(v);
+    if (!myTurn) return; // drafts stay private until it's your turn
     const t = Date.now();
     if (t - lastTypingSent.current >= 1000 / BATTLE_DEFAULTS.typingUpdatesPerSecond) {
       lastTypingSent.current = t;
       send({ type: "typing", text: v });
     }
   };
+
+  const submit = () => {
+    const guess = text.trim();
+    if (!guess) return;
+    if (!myTurn && !out) return setWaitHint(true);
+    send({ type: "guess", text: guess });
+    setText("");
+    if (myTurn) send({ type: "typing", text: "" });
+  };
+  const input = (
+    <motion.div animate={shake} className="input-wrap">
+      <input
+        ref={inputRef}
+        className={`answer-input answer-input--battle${myTurn ? "" : " answer-input--waiting"}`}
+        value={text}
+        onChange={(e) => onType(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            submit();
+          }
+        }}
+        placeholder={out ? "You're out. Guess just for fun…" : myTurn ? "Quick, pass the pufferfish!" : "Get your answer ready…"}
+        aria-label="Your answer"
+        autoComplete="off"
+        autoCorrect="off"
+        autoCapitalize="off"
+        spellCheck={false}
+        maxLength={60}
+        autoFocus
+      />
+    </motion.div>
+  );
 
   const showRotate = state.phase === "rotate";
   const startsIn = Math.max(0, Math.ceil((b.turnEndsAt - now) / 1000));
@@ -689,45 +727,24 @@ function BattleView({
       <h2 className="prompt">{b.prompt}</h2>
       <div className="category-tag">{b.category.replace("-", " & ")}</div>
 
-      <PufferArena state={state} typing={typing} events={events} reducedMotion={reducedMotion} />
+      <PufferArena state={state} typing={typing} events={events} reducedMotion={reducedMotion} input={input} />
       {!active && showRotate && <p className="hint">Next turn in {startsIn}s</p>}
 
       <div className="battle-cols">
         <div className="battle-main">
-          {myTurn && (
-            <motion.div animate={shake} className="input-wrap">
-              <input
-                ref={inputRef}
-                className="answer-input answer-input--battle"
-                value={text}
-                onChange={(e) => onType(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && text.trim()) {
-                    e.preventDefault();
-                    send({ type: "guess", text: text.trim() });
-                    setText("");
-                    send({ type: "typing", text: "" });
-                  }
-                }}
-                placeholder="Quick, pass the pufferfish! Type an answer…"
-                autoComplete="off"
-                autoCorrect="off"
-                autoCapitalize="off"
-                spellCheck={false}
-                maxLength={60}
-                autoFocus
-              />
-            </motion.div>
-          )}
           <p className="hint">
             {myTurn ? (
               <>
-                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {BATTLE_DEFAULTS.wrongGuessPenaltySeconds}s
+                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {BATTLE_DEFAULTS.wrongGuessPenaltySeconds}s · 🦑 Deep Cut +1 life · 🐋 One in a Krillion +2 lives
               </>
             ) : out ? (
-              "You're out, but you can still guess for fun below."
+              "You're out, but you can still guess for fun."
+            ) : waitHint ? (
+              <b>Hold on, it isn't your turn yet. Your answer is saved; press Enter when the pufferfish reaches you.</b>
+            ) : active ? (
+              `${active.nickname} has the pufferfish. Type your answer now and send it when it's your turn.`
             ) : (
-              active ? `${active.nickname} has the pufferfish. Answers already used can't be reused.` : "Get ready: answers already used can't be reused."
+              "Get ready: answers already used can't be reused."
             )}
           </p>
           <div className="card">
@@ -744,18 +761,6 @@ function BattleView({
         <aside className="battle-side">
           <div className="card">
             <h3>Spectator guesses</h3>
-            {out && (
-              <form
-                className="join-row"
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  if (funText.trim()) send({ type: "guess", text: funText.trim() });
-                  setFunText("");
-                }}
-              >
-                <input className="code-input code-input--wide" value={funText} onChange={(e) => setFunText(e.target.value)} placeholder="Just for fun…" />
-              </form>
-            )}
             <ul className="spectator-list">
               {b.spectatorGuesses.map((g, i) => (
                 <li key={i}>

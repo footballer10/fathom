@@ -79,6 +79,8 @@ export function matchGuess(index: AnswerIndex, guess: string, opts: MatchOptions
     const forms = index.byLength[len];
     if (!forms) continue;
     for (const [form, a] of forms) {
+      // A typo has to keep the first letter: "bat" never becomes "cat".
+      if (form[0] !== key[0]) continue;
       const d = damerauLevenshtein(key, form, threshold);
       if (d > threshold) continue;
       const prev = best.get(a);
@@ -110,10 +112,12 @@ export function matchGuess(index: AnswerIndex, guess: string, opts: MatchOptions
 /**
  * Step 5: sounds-alike match ("fushia" → "fuchsia"). Accept when the guess's
  * Double Metaphone code points at exactly one answer and the spelling is still
- * within (typo threshold + 1) edits of that answer's form.
+ * within the typo threshold (at least 1 edit) of that answer's form. Short
+ * guesses (under 4 letters) never match by sound alone.
  */
 function phoneticMatch(index: AnswerIndex, key: string, threshold: number, opts: MatchOptions): MatchResult {
-  const limit = threshold + 1;
+  if (key.length < 4) return reject("wrong");
+  const limit = Math.max(1, threshold);
   const hits = new Map<number, number>();
   for (const code of phoneticCodes(key)) {
     for (const [form, a] of index.phonetic?.[code] ?? []) {

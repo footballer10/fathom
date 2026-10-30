@@ -2,7 +2,8 @@
  * npm run sim:battle: six simulated players play Party Battle on the local
  * server, exercising: turns, live typing, the turn timer with tier bonuses,
  * "Already taken" answers, lives and elimination, prompt rotation with
- * speed-up, spectator guesses, and the last-player-standing finish.
+ * speed-up, spectator guesses, bonus lives for rare answers, and the
+ * last-player-standing finish.
  */
 import type { ServerMessage } from "../../shared/src/index";
 import { Bot, Checks, answerBook, createRoom, ensureServer, sleep } from "./lib";
@@ -43,13 +44,20 @@ try {
   let baseAfterRotate = BASE;
   let spectatorDone = false;
   let sawSpectatorGuess = false;
+  let lifeBonusesRight = true;
+  let lifeBonuses = 0;
   const eliminated = new Set<string>();
 
   const observer = bots[1];
   observer.on((m) => {
     if (m.type === "typing" && m.playerId !== observer.playerId) sawTyping = true;
     if (m.type === "taken") sawTaken = true;
-    if (m.type === "turnResult") used.add(m.canonical.toLowerCase());
+    if (m.type === "turnResult") {
+      used.add(m.canonical.toLowerCase());
+      const want = m.tier === 100 ? 2 : m.tier === 85 ? 1 : 0;
+      if (m.livesGained !== want) lifeBonusesRight = false;
+      lifeBonuses += m.livesGained;
+    }
     if (m.type === "eliminated") eliminated.add(m.playerId);
     if (m.type === "spectatorGuess") sawSpectatorGuess = true;
     if (m.type === "rotate") {
@@ -118,6 +126,7 @@ try {
   checks.check("prompt rotated at least once", rotations >= 1, `${rotations} rotation(s)`);
   checks.check("speed-up lowered the base time", baseAfterRotate < BASE, `base now ${baseAfterRotate}s`);
   checks.check("eliminated players became spectators who can still guess", sawSpectatorGuess);
+  checks.check("Deep Cuts give +1 life and One in a Krillions +2", lifeBonusesRight, `${lifeBonuses} bonus li${lifeBonuses === 1 ? "fe" : "ves"} given`);
   checks.check("five players were eliminated", eliminated.size === 5, `${eliminated.size}`);
   checks.check("last player standing wins", over.results[0]?.playerId === bots[WINNER].playerId, over.results[0]?.nickname);
   checks.check("best answer of the game reported", !!over.bestAnswer, over.bestAnswer ? `${over.bestAnswer.canonical} by ${over.bestAnswer.nickname}` : "");

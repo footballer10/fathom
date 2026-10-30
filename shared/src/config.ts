@@ -35,16 +35,18 @@ export interface TierInfo {
   color: string;
   /** Bonus seconds in Battle mode when this was your last accepted answer. */
   battleBonusSeconds: number;
+  /** Battle: extra lives for finding this answer. No cap, so you can go above the starting lives. */
+  battleLives: number;
 }
 
 /** Ordered from rarest to most common. */
 export const TIERS: readonly TierInfo[] = [
-  { points: 100, name: "One in a Krillion", emoji: "🐋", color: "#ffd166", battleBonusSeconds: 6 },
-  { points: 85, name: "Deep Cut", emoji: "🦑", color: "#c77dff", battleBonusSeconds: 4 },
-  { points: 60, name: "Rare", emoji: "🐚", color: "#ff8fab", battleBonusSeconds: 3 },
-  { points: 30, name: "Schooler", emoji: "🐟", color: "#4cc9f0", battleBonusSeconds: 2 },
-  { points: 15, name: "Too Clever", emoji: "🎣", color: "#90be6d", battleBonusSeconds: 1 },
-  { points: 10, name: "Plankton", emoji: "🦐", color: "#a8dadc", battleBonusSeconds: 0 },
+  { points: 100, name: "One in a Krillion", emoji: "🐋", color: "#ffd166", battleBonusSeconds: 6, battleLives: 2 },
+  { points: 85, name: "Deep Cut", emoji: "🦑", color: "#c77dff", battleBonusSeconds: 4, battleLives: 1 },
+  { points: 60, name: "Rare", emoji: "🐚", color: "#ff8fab", battleBonusSeconds: 3, battleLives: 0 },
+  { points: 30, name: "Schooler", emoji: "🐟", color: "#4cc9f0", battleBonusSeconds: 2, battleLives: 0 },
+  { points: 15, name: "Too Clever", emoji: "🎣", color: "#90be6d", battleBonusSeconds: 1, battleLives: 0 },
+  { points: 10, name: "Plankton", emoji: "🦐", color: "#a8dadc", battleBonusSeconds: 0, battleLives: 0 },
 ];
 
 export const MISS_EMOJI = "❌";
