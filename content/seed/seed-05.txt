@@ -8,74 +8,27 @@ prompt: Name a shape or type of pasta
 Radiatori
 
 [Deep Cut]
-Pappardelle
-Orecchiette
-Gemelli
-Cavatappi
-Campanelle
-Ditalini
-Bucatini
-Stelline | stars
-Acini di pepe
-Penne rigate
-Mafaldine | mafalda
-Tortelloni
-Agnolotti
-Cappelletti
-Paccheri
-Cavatelli
-Strozzapreti
-Trofie
-Casarecce
-Anelli
-Alphabet pasta | alphabets
-Wagon wheels | rotelle | ruote
-Lumache
-Mostaccioli
-Bigoli
-Tagliolini
-Spaghettini
-Fedelini
-Fregola
-Garganelli
-Lorighittas
-Malloreddus
-Corzetti
-Pici
-Bavette
-Bucatoni
-Calamarata
-Mezzi rigatoni
-Tubini
-Ditali
 Pastina
 Quadretti
 Farfalline
 Conchigliette
 Lumaconi
 Conchiglioni | jumbo shells
-Fiori
-Gigli
 Fazzoletti
 Sorpresine
 Scialatielli
 Tortiglioni
-Fusilli lunghi
 Spaccatelli
 Lasagnette
 Reginette
 Cappellacci
 Mezzelune
-Sacchetti
 Fagottini
 Caramelle
 Culurgiones
-Spätzle | spaetzle
-Israeli couscous | pearl couscous
 Busiate
 Capunti
 Cencioni
-Chitarra | spaghetti alla chitarra
 Ciriole
 Creste di gallo
 Dischi volanti
@@ -85,18 +38,15 @@ Foglie d'ulivo
 Funghini
 Fusilli bucati
 Gramigna
-Lanterne
 Lasagne ricce
 Lumachine
 Maccheroncelli
 Maltagliati
-Manfredi
 Marille
 Mezze maniche
 Mezzi paccheri
 Midolline
 Nastrini
-Occhi di lupo
 Passatelli
 Penne lisce
 Penne mezzane
@@ -119,12 +69,10 @@ Trenette
 Troccoli
 Tubetti
 Umbricelli
-Vesuvio
 Zitoni
 Ziti tagliati
 Fettuccelle
 Tagliarini
-Capelli d'angelo
 Linguettine
 Lasagnotte
 Cannolicchi
@@ -140,35 +88,15 @@ Sorrentinos
 Anolini
 Casoncelli
 Casunziei
-Tortelli
 Pansotti
 Marubini
 Raviolini
 Ravioloni
 Cjarsons
-Agnolotti del plin | plin
 Sacchettini
-Tortelli di zucca
-Soba
-Udon
-Somen
 Hiyamugi
-Shirataki
-Glass noodles | cellophane noodles
-Rice noodles
-Rice vermicelli
-Lo mein
-Chow mein
-Pad thai noodles
-Pho noodles
-Hokkien noodles
-Dan dan noodles
 Biang biang noodles
-Knife-cut noodles
-Hand-pulled noodles | lamian
-Japchae
 Naengmyeon
-Mung bean noodles
 Kluski
 Haluski
 Nokedli
@@ -180,29 +108,99 @@ Erişte
 Käsespätzle
 Schupfnudeln
 Maultaschen
-Fideo
 Kluski śląskie
 
 [Rare]
+Orecchiette
+Cavatappi
+Campanelle
+Ditalini
+Stelline | stars
+Acini di pepe
+Penne rigate
+Mafaldine | mafalda
+Tortelloni
+Agnolotti
+Paccheri
+Cavatelli
+Strozzapreti
+Trofie
+Casarecce
+Anelli
+Lumache
+Mostaccioli
+Bigoli
+Tagliolini
+Spaghettini
+Fedelini
+Fregola
+Garganelli
+Lorighittas
+Malloreddus
+Corzetti
+Pici
+Bavette
+Bucatoni
+Calamarata
+Mezzi rigatoni
+Tubini
+Ditali
+Fiori
+Gigli
+Fusilli lunghi
+Sacchetti
+Spätzle | spaetzle
+Israeli couscous | pearl couscous
+Chitarra | spaghetti alla chitarra
+Lanterne
+Manfredi
+Occhi di lupo
+Vesuvio
+Capelli d'angelo
+Tortelli
+Agnolotti del plin | plin
+Tortelli di zucca
+Soba
+Udon
+Somen
+Shirataki
+Rice vermicelli
+Pho noodles
+Hokkien noodles
+Japchae
+Mung bean noodles
+Fideo
+
+[Schooler]
+Fettuccine | fettucine | fettuccini
+Linguine | linguini
 Rigatoni
 Rotini
 Farfalle | bow tie | bowtie | bow ties
 Tortellini
-Angel hair | capellini
 Ziti
 Orzo
 Manicotti
 Cannelloni
-Shells | conchiglie | pasta shells
 Elbow macaroni | elbows
 Vermicelli
 Egg noodles
 Fusilli
 Tagliatelle
-
-[Schooler]
-Fettuccine | fettucine | fettuccini
-Linguine | linguini
+Pappardelle
+Gemelli
+Bucatini
+Cappelletti
+Alphabet pasta | alphabets
+Wagon wheels | rotelle | ruote
+Glass noodles | cellophane noodles
+Rice noodles
+Lo mein
+Chow mein
+Pad thai noodles
+Dan dan noodles
+Knife-cut noodles
+Hand-pulled noodles | lamian
 
 [Too Clever]
 Couscous
@@ -219,6 +217,8 @@ Macaroni | mac
 Penne
 Lasagna | lasagne
 Ravioli
+Angel hair | capellini
+Shells | conchiglie | pasta shells
 
 [Not accepted]
 Rice
@@ -244,138 +244,6 @@ note: Pterosaurs and marine reptiles count as Too Clever. Mammoths and sabertoot
 Pachycephalosaurus | pachy
 
 [Deep Cut]
-Argentinosaurus
-Therizinosaurus
-Baryonyx
-Styracosaurus
-Protoceratops
-Maiasaura
-Hadrosaurus | hadrosaur
-Edmontosaurus
-Corythosaurus
-Lambeosaurus
-Albertosaurus
-Gorgosaurus
-Ceratosaurus
-Coelophysis
-Herrerasaurus
-Eoraptor
-Plateosaurus
-Camarasaurus
-Supersaurus
-Seismosaurus
-Sauropod
-Microraptor
-Troodon
-Quetzalcoatlus
-Elasmosaurus
-Kentrosaurus
-Euoplocephalus
-Nodosaurus
-Psittacosaurus
-Ouranosaurus
-Suchomimus
-Carcharodontosaurus
-Acrocanthosaurus
-Mapusaurus
-Majungasaurus
-Tarbosaurus
-Yutyrannus
-Dreadnoughtus
-Patagotitan
-Mamenchisaurus
-Amargasaurus
-Sinosauropteryx
-Dracorex
-Stygimoloch
-Nothosaurus
-Liopleurodon
-Kronosaurus
-Abelisaurus
-Achillobator
-Alamosaurus
-Anchisaurus
-Avimimus
-Bambiraptor
-Beipiaosaurus
-Centrosaurus
-Chasmosaurus
-Citipati
-Concavenator
-Cryolophosaurus
-Dacentrurus
-Diabloceratops
-Dracovenator
-Einiosaurus
-Gastonia
-Gigantoraptor
-Guanlong
-Hypsilophodon
-Irritator
-Kosmoceratops
-Leaellynasaura
-Masiakasaurus
-Minmi
-Muttaburrasaurus
-Nigersaurus
-Ornithomimus
-Pentaceratops
-Rugops
-Saltasaurus
-Sauropelta
-Scelidosaurus
-Scutellosaurus
-Shunosaurus
-Sinornithosaurus
-Struthiomimus
-Tenontosaurus
-Torosaurus
-Tsintaosaurus
-Unenlagia
-Velafrons
-Zuniceratops
-Rhamphorhynchus
-Dimorphodon
-Shonisaurus
-Tanystropheus
-Postosuchus
-Sarcosuchus | supercroc
-Deinosuchus
-Aardonyx
-Albertonykus
-Alioramus
-Altirhinus
-Ampelosaurus
-Anatotitan
-Anzu
-Appalachiosaurus
-Aquilops
-Archaeoceratops
-Atrociraptor
-Austroraptor
-Avaceratops
-Bagaceratops
-Balaur
-Barosaurus
-Becklespinax
-Borealopelta
-Brachylophosaurus
-Brachyceratops
-Buitreraptor
-Camptosaurus
-Caudipteryx
-Cetiosaurus
-Chirostenotes
-Coelurus
-Corythoraptor
-Daspletosaurus
-Datousaurus
-Deinocheirus
-Diamantinasaurus
-Dicraeosaurus
-Dilong
-Dromaeosaurus
-Dryosaurus
 Dryptosaurus
 Edmontonia
 Elaphrosaurus
@@ -453,7 +321,6 @@ Yangchuanosaurus
 Yinlong
 Zalmoxes
 Zhuchengtyrannus
-Zuul
 Spinophorosaurus
 Meraxes
 Tyrannotitan
@@ -461,7 +328,6 @@ Ekrixinatosaurus
 Skorpiovenator
 Aucasaurus
 Halszkaraptor
-Mahakala
 Rahonavis
 Zhenyuanlong
 Dakotaraptor
@@ -485,7 +351,6 @@ Ophthalmosaurus
 Temnodontosaurus
 Mixosaurus
 Cymbospondylus
-Pliosaur
 Pliosaurus
 Albertonectes
 Styxosaurus
@@ -528,7 +393,6 @@ Sphenacodon
 Ophiacodon
 Cotylorhynchus
 Scutosaurus
-Titanoboa
 Gigantophis
 Megalania | varanus priscus
 Archelon
@@ -554,10 +418,8 @@ Hyperodapedon
 Trilophosaurus
 Pisanosaurus
 Staurikosaurus
-Saturnalia
 Panphagia
 Chindesaurus
-Tawa
 Daemonosaurus
 Sanjuansaurus
 Buriolestes
@@ -569,7 +431,112 @@ Asilisaurus
 Eodromaeus
 
 [Rare]
-Spinosaurus
+Euoplocephalus
+Nodosaurus
+Psittacosaurus
+Ouranosaurus
+Suchomimus
+Acrocanthosaurus
+Mapusaurus
+Tarbosaurus
+Yutyrannus
+Dreadnoughtus
+Patagotitan
+Mamenchisaurus
+Amargasaurus
+Sinosauropteryx
+Dracorex
+Stygimoloch
+Nothosaurus
+Kronosaurus
+Abelisaurus
+Achillobator
+Alamosaurus
+Anchisaurus
+Avimimus
+Bambiraptor
+Beipiaosaurus
+Centrosaurus
+Chasmosaurus
+Citipati
+Concavenator
+Cryolophosaurus
+Dacentrurus
+Diabloceratops
+Dracovenator
+Einiosaurus
+Gigantoraptor
+Guanlong
+Hypsilophodon
+Irritator
+Kosmoceratops
+Leaellynasaura
+Masiakasaurus
+Minmi
+Muttaburrasaurus
+Nigersaurus
+Ornithomimus
+Pentaceratops
+Rugops
+Saltasaurus
+Sauropelta
+Scelidosaurus
+Scutellosaurus
+Shunosaurus
+Sinornithosaurus
+Struthiomimus
+Tenontosaurus
+Torosaurus
+Tsintaosaurus
+Unenlagia
+Velafrons
+Zuniceratops
+Rhamphorhynchus
+Dimorphodon
+Shonisaurus
+Tanystropheus
+Postosuchus
+Sarcosuchus | supercroc
+Deinosuchus
+Aardonyx
+Albertonykus
+Alioramus
+Altirhinus
+Ampelosaurus
+Anatotitan
+Appalachiosaurus
+Aquilops
+Archaeoceratops
+Atrociraptor
+Austroraptor
+Avaceratops
+Bagaceratops
+Balaur
+Barosaurus
+Becklespinax
+Borealopelta
+Brachylophosaurus
+Brachyceratops
+Buitreraptor
+Camptosaurus
+Caudipteryx
+Cetiosaurus
+Chirostenotes
+Coelurus
+Corythoraptor
+Daspletosaurus
+Datousaurus
+Deinocheirus
+Diamantinasaurus
+Dicraeosaurus
+Dilong
+Dromaeosaurus
+Dryosaurus
+Mahakala
+Pliosaur
+Titanoboa
+
+[Schooler]
 Ankylosaurus
 Diplodocus
 Allosaurus
@@ -588,9 +555,40 @@ Pachyrhinosaurus
 Utahraptor
 Deinonychus
 Oviraptor
-
-[Schooler]
-Brachiosaurus
+Argentinosaurus
+Therizinosaurus
+Baryonyx
+Styracosaurus
+Protoceratops
+Maiasaura
+Hadrosaurus | hadrosaur
+Edmontosaurus
+Corythosaurus
+Lambeosaurus
+Albertosaurus
+Gorgosaurus
+Ceratosaurus
+Coelophysis
+Herrerasaurus
+Eoraptor
+Plateosaurus
+Camarasaurus
+Supersaurus
+Seismosaurus
+Sauropod
+Microraptor
+Troodon
+Quetzalcoatlus
+Elasmosaurus
+Kentrosaurus
+Carcharodontosaurus
+Majungasaurus
+Liopleurodon
+Gastonia
+Anzu
+Zuul
+Saturnalia
+Tawa
 
 [Too Clever]
 Dimetrodon
@@ -604,6 +602,8 @@ Triceratops
 Stegosaurus
 Velociraptor | raptor
 Brontosaurus
+Brachiosaurus
+Spinosaurus
 
 [Not accepted]
 Barney
@@ -637,79 +637,28 @@ note: National capitals, including the UK nations (Edinburgh, Cardiff, Belfast).
 Ouagadougou | ouagadugu
 
 [Deep Cut]
-Santiago
-Caracas
 Quito
-La Paz
 Asuncion | asunción
 Montevideo
-Panama City
-San Jose
 Managua
 Tegucigalpa
-San Salvador
-Guatemala City
-Kingston
-Nassau
-Port-au-Prince | port au prince
-Santo Domingo
-Bucharest
-Sofia
-Belgrade
-Zagreb
 Ljubljana
 Bratislava
 Tallinn
-Riga
 Vilnius
-Minsk
 Chisinau
 Tirana
 Skopje
-Sarajevo
 Podgorica
 Valletta
 Nicosia
-Luxembourg City | luxembourg
-Monaco
-Vatican City | vatican
 Andorra la Vella
-San Marino
-Edinburgh
-Cardiff
-Belfast
-Riyadh
-Doha
-Abu Dhabi
-Muscat
-Kuwait City
-Amman
-Beirut
-Damascus
-Hanoi
-Kuala Lumpur
-Singapore
-Taipei
 Ulaanbaatar | ulan bator
-Kathmandu
-Dhaka
-Colombo
-Pretoria
-Cape Town
 Addis Ababa
-Abuja
-Accra
-Dakar
 Kinshasa
 Luanda
-Harare
 Lusaka
-Kampala
 Kigali
-Khartoum
-Tripoli
-Tunis
-Algiers
 Rabat
 Antananarivo
 Thimphu
@@ -718,7 +667,6 @@ Vientiane
 Phnom Penh
 Bandar Seri Begawan
 Dili
-Male
 Tashkent
 Astana | nur-sultan
 Bishkek
@@ -783,7 +731,6 @@ Maseru
 Mbabane
 Moroni
 Victoria
-Port Louis
 Gitega
 Bloemfontein
 Sri Jayawardenepura Kotte | kotte
@@ -796,6 +743,69 @@ Ramallah
 Sao Tome
 
 [Rare]
+Buenos Aires
+Bogota | bogotá
+Bern
+Reykjavik | reykjavík
+Kyiv | kiev
+Islamabad
+Ankara
+Santiago
+Caracas
+La Paz
+Panama City
+San Jose
+San Salvador
+Guatemala City
+Kingston
+Nassau
+Port-au-Prince | port au prince
+Santo Domingo
+Bucharest
+Sofia
+Belgrade
+Zagreb
+Riga
+Minsk
+Sarajevo
+Luxembourg City | luxembourg
+Monaco
+Vatican City | vatican
+San Marino
+Edinburgh
+Cardiff
+Belfast
+Riyadh
+Doha
+Abu Dhabi
+Muscat
+Kuwait City
+Amman
+Beirut
+Damascus
+Hanoi
+Kuala Lumpur
+Singapore
+Taipei
+Kathmandu
+Dhaka
+Colombo
+Pretoria
+Cape Town
+Abuja
+Accra
+Dakar
+Harare
+Kampala
+Khartoum
+Tripoli
+Tunis
+Algiers
+Male
+Port Louis
+
+[Schooler]
+Tokyo
 Beijing | peking
 Mexico City
 Cairo
@@ -807,7 +817,6 @@ Vienna
 Seoul
 Bangkok
 New Delhi | delhi
-Buenos Aires
 Stockholm
 Oslo
 Copenhagen
@@ -818,25 +827,14 @@ Warsaw
 Budapest
 Havana
 Lima
-Bogota | bogotá
 Nairobi
 Jerusalem
-Bern
-Reykjavik | reykjavík
 Wellington
-Kyiv | kiev
 Manila
 Jakarta
 Tehran
 Baghdad
 Kabul
-Islamabad
-Ankara
-
-[Schooler]
-Berlin
-Madrid
-Moscow
 
 [Too Clever]
 Canberra
@@ -847,8 +845,10 @@ Brasilia | brasília
 London
 Paris
 Washington DC | washington | washington d.c. | dc
-Tokyo
 Rome
+Berlin
+Madrid
+Moscow
 
 [Not accepted]
 Dubai
@@ -895,82 +895,15 @@ prompt: Name a piece of sports equipment
 Sliotar
 
 [Deep Cut]
-Lacrosse stick
-Field hockey stick
-Cricket bat
-Wicket | stumps
-Bails
-Pads | leg pads
 Catcher's mask
-Chest protector
-Batting helmet
-Batting gloves
 Facemask
-Chin strap
-Elbow pads
-Wrist guards
-Ski poles | poles
-Ski boots
-Bindings
-Wetsuit
-Flippers | fins
-Snorkel
 Kickboard
-Pull buoy
-Kayak paddle | oar
-Canoe
-Kayak
-Rowing machine
-Treadmill
-Stationary bike | exercise bike
-Medicine ball
-Resistance band
-Yoga mat
-Foam roller
-Punching bag | heavy bag
-Speed bag
-Hand wraps
-Headgear
-Fencing foil | foil | epee | sabre
-Fencing mask
-Bowling ball
-Bowling pin | pin
-Pool cue | cue
-Darts
 Dartboard
-Croquet mallet | mallet
-Polo mallet
-Saddle
-Stirrups
-Reins
-Bridle
-Horseshoe
-Pommel horse
-Balance beam
-Parallel bars
-Rings
-Trampoline
-Vaulting pole
-Starting blocks
-Baton
-Shot put
-Hammer
-Stopwatch
-Scoreboard
-Bases | base | home plate
-Pitching machine
-Tennis ball
-Sled | sledge | toboggan
-Bobsled
-Luge
-Curling stone | stone
-Curling broom | broom
 Jai alai cesta | cesta | xistera
 Chalk | lifting chalk
 Belay device
 Carabiner
 Harness
-Climbing shoes
 Crash pad
 Ice axe
 Crampons
@@ -986,11 +919,6 @@ Leash | surf leash
 Rash guard
 Weightlifting belt | lifting belt
 Squat rack
-Bench
-Pull-up bar
-Plates | weight plates
-Collar
-Cable machine
 Chalk bag
 Racquetball racquet
 Squash racket
@@ -1000,8 +928,6 @@ Hurling stick | hurley
 Shinty stick | caman
 Bandy stick
 Polo ball
-Rugby ball
-Cricket ball
 Lacrosse ball
 Wiffle ball
 Hacky sack
@@ -1021,23 +947,16 @@ Batting cage
 Pitching rubber
 Rosin bag
 Pine tar
-Bat weight | donut
 Sliding mitts
-Leg guards
 Thigh pads
 Hip pads
 Rib protector
-Neck guard
 Knee brace
 Ankle brace
 Compression sleeve
-Athletic tape
-Arm guard
 Finger tab
 Quiver
 Bowstring
-Sight
-Release aid
 Compound bow
 Recurve bow
 Longbow
@@ -1045,24 +964,16 @@ Crossbow
 Lamé
 Plastron
 Gi | judogi | karategi
-Belt | black belt
 Groin protector
 Focus mitts
 Thai pads
-Kick shield
-Double-end bag
-Boxing ring
 Wrestling mat
 Singlet
-Ear guards
 Climbing rope
 Quickdraw
-Cam | camming device
-Nut | chock
 Ascender
 Belay glasses
 Hangboard
-Ice screw
 Ski helmet
 Snowboard boots
 Ski goggles
@@ -1080,28 +991,18 @@ Goalie mask
 Blocker
 Catching glove
 Hockey gloves
-Hockey jersey
-Hockey net
 Curling shoes
 Curling slider
-Hack
 Snowboard bindings
-Mask
-Dive computer
 Scuba tank
 Regulator
 BCD | buoyancy compensator
-Weight belt
-Dry suit
 Surf wax
 Paddleboard | sup | stand-up paddleboard
 Skimboard
 Kiteboard
 Windsurf board
-Sail
 Mast
-Boom
-Life jacket | pfd | life vest
 Spray skirt
 Rowing shell
 Ergometer | erg
@@ -1110,57 +1011,33 @@ Water polo cap
 Water polo ball
 Lane rope
 Swim goggles
-Nose clip
 Ear plugs
-Racing suit
 Jammer
-Cycling shoes
 Clipless pedals
 Bike helmet
-Cycling jersey
 Bib shorts
-Bike lights
-Bike pump
-Water bottle cage
 Saddle bag
 Chamois cream
-Power meter
-Heart rate monitor
-Cycling computer
 Turbo trainer | bike trainer
 Rollers
 BMX bike
-Mountain bike
-Road bike
 Unicycle
 Scooter
 Inline skates | rollerblades
 Skate park ramp
-Half-pipe
 Grip tape
-Trucks
-Wheels
 Bearings
 Longboard
-Penny board
-Golf bag
 Golf cart
 Golf glove
-Golf shoes
 Putter
-Driver
-Iron
 Wedge
-Hybrid
 Fairway wood
 Ball marker
 Divot tool
 Tennis racquet
-Tennis net
 Racquet strings
 Overgrip
-Ball machine
-Tennis shoes
 Badminton net
 Squash ball
 Racquetball
@@ -1173,72 +1050,45 @@ Jai alai ball
 Pelota
 Volleyball net
 Antenna
-Football helmet
 Football pads
-Football gloves
 Kicking tee
 Tackling sled
 End zone pylon | pylon
 First down markers | chain crew | chains
-Rugby boots
 Scrum cap
-Rugby posts
-Tackle bag
-Corner flag
-Soccer goal
 Goalkeeper gloves
-Ball pump
-Basketball shoes
 Backboard
 Rim
-Shot clock
-Basketball net
 Arm sleeve
 Cricket pads
 Cricket helmet
 Cricket gloves
-Cricket box
 Batting pads
 Wicketkeeping gloves
-Bowling machine
 Lacrosse helmet
 Lacrosse gloves
 Lacrosse goal
-Field hockey ball
 Polo helmet
 Riding helmet
-Riding boots
 Jodhpurs
-Riding crop
-Spurs
-Horse blanket
 Girth
 Martingale
-Bit
 Halter
 Lunge line
-High jump bar
 Landing mat | crash mat
 Pole vault pole
-Hammer throw
 Starting pistol
 Relay baton
-Running shoes
 Gymnastics mat
 Springboard
 Vault table
 Uneven bars
-High bar
-Still rings
 Chalk block
 Grips
 Leotard
 Ribbon
 Rhythmic ball
 Pogo stick
-Bowling shoes
-Bowling bag
-Pool table
 Cue ball
 Billiard balls
 Rack
@@ -1255,37 +1105,25 @@ Cornhole bags | bean bags
 Ladder toss
 Disc golf disc
 Disc golf basket
-Ultimate disc
 Kendama
-Yo-yo
 Paintball gun
 Paintball mask
 Airsoft gun
 Archery target
 Clay pigeon
 Shotgun
-Rifle
 Pistol
-Ear protection
-Shooting glasses
-Fishing rod
 Reel
-Fishing line
 Lure
 Bait
-Tackle box
 Waders
 Sports bra
 Compression shorts
 Athletic supporter
-Bench press
-Leg press
-Smith machine
 Power rack
 Lat pulldown
 Preacher curl bench
 Hyperextension bench
-Dip station
 Plyo box
 Battle ropes
 Sandbag
@@ -1293,33 +1131,165 @@ Sled push | prowler
 Weight vest
 Ankle weights
 Wrist weights
-Hand grip
 Ab roller | ab wheel
-Stability ball | exercise ball | swiss ball
 Bosu ball
-Balance board
-Step platform
 Elliptical
 Stair climber | stairmaster
-Spin bike
-Assault bike
 Ski erg
-Climbing wall
 Suspension trainer | trx
 Gymnastic rings
 Parallettes
-Push-up bars
 Foam mat
-Yoga block
 Yoga strap
 Pilates reformer
 Barre
-Speed rope
 Weighted rope
 
 [Rare]
+Kneepads | knee pads
+Lacrosse stick
+Bails
+Elbow pads
+Bindings
+Wetsuit
+Flippers | fins
+Snorkel
+Pull buoy
+Kayak paddle | oar
+Canoe
+Kayak
+Rowing machine
+Treadmill
+Hand wraps
+Headgear
+Fencing foil | foil | epee | sabre
+Fencing mask
+Darts
+Croquet mallet | mallet
+Polo mallet
+Stirrups
+Reins
+Bridle
+Horseshoe
+Pommel horse
+Trampoline
+Vaulting pole
+Stopwatch
+Scoreboard
+Sled | sledge | toboggan
+Bobsled
+Luge
+Curling stone | stone
+Curling broom | broom
+Climbing shoes
+Bench
+Pull-up bar
+Plates | weight plates
+Collar
+Cable machine
+Rugby ball
+Cricket ball
+Bat weight | donut
+Leg guards
+Neck guard
+Athletic tape
+Arm guard
+Sight
+Release aid
+Belt | black belt
+Kick shield
+Double-end bag
+Boxing ring
+Ear guards
+Cam | camming device
+Nut | chock
+Ice screw
+Hockey jersey
+Hockey net
+Hack
+Mask
+Dive computer
+Weight belt
+Dry suit
+Sail
+Boom
+Life jacket | pfd | life vest
+Nose clip
+Racing suit
+Cycling shoes
+Cycling jersey
+Bike lights
+Bike pump
+Water bottle cage
+Power meter
+Heart rate monitor
+Cycling computer
+Mountain bike
+Road bike
+Half-pipe
+Trucks
+Wheels
+Penny board
+Golf bag
+Golf shoes
+Driver
+Iron
+Hybrid
+Tennis net
+Ball machine
+Tennis shoes
+Football helmet
+Football gloves
+Rugby boots
+Rugby posts
+Tackle bag
+Corner flag
+Soccer goal
+Ball pump
+Basketball shoes
+Shot clock
+Basketball net
+Cricket box
+Bowling machine
+Field hockey ball
+Riding boots
+Riding crop
+Spurs
+Horse blanket
+High jump bar
+Hammer throw
+Running shoes
+High bar
+Still rings
+Bowling shoes
+Bowling bag
+Pool table
+Ultimate disc
+Yo-yo
+Rifle
+Ear protection
+Shooting glasses
+Fishing rod
+Fishing line
+Tackle box
+Bench press
+Leg press
+Smith machine
+Dip station
+Hand grip
+Stability ball | exercise ball | swiss ball
+Balance board
+Step platform
+Spin bike
+Assault bike
+Climbing wall
+Push-up bars
+Yoga block
+Speed rope
+
+[Schooler]
+Racket | racquet | tennis racket
 Basketball
-Football
 Soccer ball
 Baseball
 Volleyball
@@ -1348,7 +1318,6 @@ Tee | golf tee
 Shuttlecock | birdie
 Paddle | ping pong paddle
 Frisbee | flying disc
-Kneepads | knee pads
 Swim cap
 Javelin
 Discus
@@ -1356,10 +1325,39 @@ Hurdle
 Bow | bow and arrow
 Arrow
 Target
-
-[Schooler]
-Net
-Golf club | club
+Field hockey stick
+Cricket bat
+Wicket | stumps
+Pads | leg pads
+Chest protector
+Batting helmet
+Batting gloves
+Chin strap
+Wrist guards
+Ski poles | poles
+Ski boots
+Stationary bike | exercise bike
+Medicine ball
+Resistance band
+Yoga mat
+Foam roller
+Punching bag | heavy bag
+Speed bag
+Bowling ball
+Bowling pin | pin
+Pool cue | cue
+Saddle
+Balance beam
+Parallel bars
+Rings
+Starting blocks
+Baton
+Shot put
+Hammer
+Bases | base | home plate
+Pitching machine
+Tennis ball
+Bit
 
 [Too Clever]
 Jockstrap | jock strap | athletic cup | cup
@@ -1372,8 +1370,10 @@ Medal
 Ball
 Bat | baseball bat
 Helmet
-Racket | racquet | tennis racket
 Glove | baseball glove | mitt
+Net
+Golf club | club
+Football
 
 [Not accepted]
 Referee
@@ -1399,94 +1399,27 @@ prompt: Name a classical composer
 Hildegard of Bingen | hildegard von bingen | hildegard
 
 [Deep Cut]
-Sergei Prokofiev | prokofiev
-Dmitri Shostakovich | shostakovich
-Nikolai Rimsky-Korsakov | rimsky-korsakov | rimsky korsakov
-Modest Mussorgsky | mussorgsky
-Richard Strauss
-Hector Berlioz | berlioz
-Gioachino Rossini | rossini
-Georges Bizet | bizet
-Jean Sibelius | sibelius
-Aaron Copland | copland
-Leonard Bernstein | bernstein
-Samuel Barber | barber
-Gustav Holst | holst
-Edward Elgar | elgar
-Ralph Vaughan Williams | vaughan williams
-Benjamin Britten | britten
-Claudio Monteverdi | monteverdi
-Henry Purcell | purcell
-Georg Philipp Telemann | telemann
-Christoph Willibald Gluck | gluck
-Anton Bruckner | bruckner
-Bedrich Smetana | smetana
-Gabriel Faure | faure | fauré
-Philip Glass | glass
-John Cage | cage
-Arvo Part | arvo pärt | part
-Carl Orff | orff
-Johann Pachelbel | pachelbel
-Domenico Scarlatti | scarlatti
-Arcangelo Corelli | corelli
-Niccolo Paganini | paganini
-Clara Schumann
-Fanny Mendelssohn
-Scott Joplin | joplin
-Arnold Schoenberg | schoenberg | schönberg
-Alban Berg | berg
-Anton Webern | webern
-Bela Bartok | bartok | bartók
-Leos Janacek | janacek
-Engelbert Humperdinck | humperdinck
-Jacques Offenbach | offenbach
-Charles Gounod | gounod
-Jules Massenet | massenet
-Gaetano Donizetti | donizetti
-Vincenzo Bellini | bellini
 Ottorino Respighi | respighi
-Manuel de Falla | de falla
-Isaac Albeniz | albeniz
-Joaquin Rodrigo | rodrigo
-Heitor Villa-Lobos | villa-lobos
-Astor Piazzolla | piazzolla
-Steve Reich | reich
-John Adams
-Ennio Morricone | morricone
-Howard Shore
-Danny Elfman
-Joe Hisaishi
 Guillaume de Machaut | machaut
 Josquin des Prez | josquin
 Giovanni Pierluigi da Palestrina | palestrina
-Thomas Tallis | tallis
-William Byrd | byrd
 John Dowland | dowland
 Jean-Baptiste Lully | lully
 Jean-Philippe Rameau | rameau
 Francois Couperin | couperin
 Dietrich Buxtehude | buxtehude
-Heinrich Schutz | schutz | schütz
 Giovanni Gabrieli | gabrieli
 Tomaso Albinoni | albinoni
 Giovanni Battista Pergolesi | pergolesi
-Carl Philipp Emanuel Bach | cpe bach
-Johann Christian Bach
-Antonio Salieri | salieri
 Luigi Boccherini | boccherini
 Muzio Clementi | clementi
-Carl Maria von Weber | weber
 Louis Spohr | spohr
 Johann Nepomuk Hummel | hummel
 Mikhail Glinka | glinka
-Alexander Borodin | borodin
-Cesar Cui | cui
 Mily Balakirev | balakirev
 Alexander Scriabin | scriabin
 Anatoly Lyadov | lyadov
 Alexander Glazunov | glazunov
-Cesar Franck | franck
-Vincent d'Indy
 Ernest Chausson | chausson
 Paul Dukas | dukas
 Francis Poulenc | poulenc
@@ -1501,40 +1434,23 @@ Henryk Gorecki | gorecki
 Witold Lutoslawski | lutoslawski
 Karol Szymanowski | szymanowski
 Zoltan Kodaly | kodaly
-Carl Nielsen | nielsen
-Hugo Wolf
 Max Bruch | bruch
 Max Reger | reger
 Ferruccio Busoni | busoni
 Pietro Mascagni | mascagni
 Ruggero Leoncavallo | leoncavallo
-Amy Beach
-Charles Ives | ives
-Florence Price
-William Grant Still
-Samuel Coleridge-Taylor
-Edward MacDowell | macdowell
-Morton Feldman | feldman
-Terry Riley
 John Tavener | tavener
-Max Richter | richter
 Ludovico Einaudi | einaudi
 Eric Whitacre | whitacre
-Caroline Shaw
 Toru Takemitsu | takemitsu
-Tan Dun
 Perotin
 Leonin
 Guillaume Dufay
 Johannes Ockeghem
 Orlande de Lassus | orlando di lasso
-Tomas Luis de Victoria
 Carlo Gesualdo | gesualdo
-Thomas Morley
 Thomas Weelkes
-Orlando Gibbons
 Girolamo Frescobaldi
-Barbara Strozzi
 Francesca Caccini
 Marc-Antoine Charpentier
 Elisabeth Jacquet de La Guerre
@@ -1547,16 +1463,12 @@ Antonio Caldara
 Giuseppe Tartini
 Francesco Geminiani
 Pietro Locatelli
-Benedetto Marcello
-Alessandro Marcello
 Giovanni Battista Sammartini
 Johann Joachim Quantz
 Carl Heinrich Graun
 Johann Adolph Hasse
 Johann Stamitz
 Christian Cannabich
-Michael Haydn
-Leopold Mozart
 Joseph Bologne | chevalier de saint-georges
 Karl Ditters von Dittersdorf
 Johann Baptist Vanhal
@@ -1569,22 +1481,17 @@ Etienne Mehul
 Francois-Joseph Gossec
 Andre Gretry
 Jan Ladislav Dussek
-John Field
-Ferdinand Ries
 Carl Czerny
 Ignaz Moscheles
 Friedrich Kuhlau
 Franz Berwald
 Niels Gade
-Otto Nicolai
 Albert Lortzing
 Giacomo Meyerbeer
 Daniel Auber
 Fromental Halevy
-Adolphe Adam
 Leo Delibes
 Ambroise Thomas
-Edouard Lalo
 Emmanuel Chabrier
 Henri Duparc
 Ernest Guiraud
@@ -1592,8 +1499,6 @@ Charles-Marie Widor
 Louis Vierne
 Alexandre Guilmant
 Andre Messager
-Reynaldo Hahn
-Albert Roussel
 Florent Schmitt
 Charles Koechlin
 Joseph Canteloube
@@ -1606,124 +1511,48 @@ Henri Dutilleux
 Andre Jolivet
 Maurice Durufle
 Lili Boulanger
-Nadia Boulanger
 Cecile Chaminade
 Pauline Viardot
 Louise Farrenc
-Augusta Holmes
-Ethel Smyth
-Rebecca Clarke
 Elizabeth Maconchy
-Grace Williams
-Thea Musgrave
-Judith Weir
 Errollyn Wallen
-Joan Tower
 Ellen Taaffe Zwilich
-Libby Larsen
 Jennifer Higdon
-Julia Wolfe
 Missy Mazzoli
 Kaija Saariaho
 Sofia Gubaidulina
 Galina Ustvolskaya
 Unsuk Chin
-Meredith Monk
 Pauline Oliveros
-Arthur Sullivan
-Hubert Parry
-Charles Villiers Stanford
 Frederick Delius
 Gerald Finzi
-Ivor Gurney
-George Butterworth
-Herbert Howells
-Arthur Bliss
-William Walton
-Michael Tippett
-Malcolm Arnold
-Peter Maxwell Davies
 Harrison Birtwistle
 Thomas Ades
-John Rutter
-Karl Jenkins
-James MacMillan
 Gavin Bryars
-Michael Nyman
-Brian Eno
-George Benjamin
 Oliver Knussen
-Edward German
 Roger Quilter
-John Ireland
-Frank Bridge
-Percy Grainger
 Peter Sculthorpe
 Douglas Lilburn
 Healey Willan
-Claude Champagne
-R. Murray Schafer
 Louis Moreau Gottschalk
-Stephen Foster
-John Philip Sousa
-Horatio Parker
-George Chadwick
-Arthur Foote
 Charles Griffes
-Henry Cowell
-Carl Ruggles
 Edgard Varese
-Virgil Thomson
-Walter Piston
-Roy Harris
-Howard Hanson
-William Schuman
 Gian Carlo Menotti
-Elliott Carter
-Milton Babbitt
-George Crumb
-Lou Harrison
 Harry Partch
 Conlon Nancarrow
-La Monte Young
 John Corigliano
 David Del Tredici
 William Bolcom
-Christopher Rouse
-Joan La Barbara
-John Luther Adams
-David Lang
 Michael Torke
 Nico Muhly
-Mason Bates
-Kevin Puts
 Jake Heggie
-Ricky Ian Gordon
-Duke Ellington
-Gunther Schuller
 Wynton Marsalis
-Anthony Davis
-Jeffrey Mumford
-Hale Smith
-Ulysses Kay
 Undine Smith Moore
-Margaret Bonds
-Julia Perry
-George Walker
 Adolphus Hailstork
-Valerie Coleman
-Jessie Montgomery
-Carlos Simon
-Tania Leon
 Alberto Ginastera
-Carlos Chavez
 Silvestre Revueltas
-Manuel Ponce
-Arturo Marquez
 Antonio Carlos Jobim
-Ernesto Nazareth
 Camargo Guarnieri
-Leo Brouwer
 Ernesto Lecuona
 Enrique Granados
 Joaquin Turina
@@ -1733,14 +1562,10 @@ Xavier Montsalvatge
 Ruperto Chapi
 Federico Moreno Torroba
 Francisco Tarrega
-Fernando Sor
-Andres Segovia
-Mauro Giuliani
 Ferdinando Carulli
 Matteo Carcassi
 Luigi Dallapiccola
 Luciano Berio
-Luigi Nono
 Bruno Maderna
 Giacinto Scelsi
 Salvatore Sciarrino
@@ -1748,34 +1573,23 @@ Franco Alfano
 Arrigo Boito
 Amilcare Ponchielli
 Francesco Cilea
-Umberto Giordano
 Ermanno Wolf-Ferrari
 Riccardo Zandonai
 Ildebrando Pizzetti
 Gian Francesco Malipiero
-Alfredo Casella
-Nino Rota
 Giovanni Sollima
 Franz von Suppe
-Josef Strauss
 Joseph Lanner
-Carl Zeller
 Franz Lehar
-Emmerich Kalman
-Oscar Straus
 Carl Millöcker
 Hugo Alfven
 Wilhelm Stenhammar
-Wilhelm Peterson-Berger
-Lars-Erik Larsson
-Allan Pettersson
 Johan Halvorsen
 Christian Sinding
 Johan Svendsen
 Rued Langgaard
 Per Norgard
 Einojuhani Rautavaara
-Magnus Lindberg
 Esa-Pekka Salonen
 Toivo Kuula
 Leevi Madetoja
@@ -1794,7 +1608,6 @@ Reinhold Gliere
 Nikolai Medtner
 Sergei Taneyev
 Anton Arensky
-Anton Rubinstein
 Mikhail Ippolitov-Ivanov
 Alexander Dargomyzhsky
 Alexander Serov
@@ -1810,19 +1623,15 @@ Mieczyslaw Weinberg
 Nikolai Kapustin
 Leonid Desyatnikov
 Bohuslav Martinu
-Josef Suk
 Zdenek Fibich
 Vitezslav Novak
 Erwin Schulhoff
-Pavel Haas
 Hans Krasa
-Viktor Ullmann
 Alexander Zemlinsky
 Franz Schreker
 Erich Wolfgang Korngold
 Ernst Krenek
 Hanns Eisler
-Kurt Weill
 Paul Hindemith
 Paul Dessau
 Hans Werner Henze
@@ -1831,11 +1640,8 @@ Wolfgang Rihm
 Helmut Lachenmann
 Mauricio Kagel
 Hans Pfitzner
-Siegfried Wagner
 Max von Schillings
 Felix Weingartner
-Joseph Joachim
-Ferdinand David
 Henri Vieuxtemps
 Henryk Wieniawski
 Eugene Ysaye
@@ -1871,97 +1677,225 @@ Tigran Mansurian
 Giya Kancheli
 Zakaria Paliashvili
 Sulkhan Tsintsadze
-Ravi Shankar
-A. R. Rahman
 Ilaiyaraaja
-Zakir Hussain
 Yasushi Akutagawa
 Akira Ifukube
 Toshiro Mayuzumi
 Joji Yuasa
 Toshio Hosokawa
 Ryuichi Sakamoto
-Isang Yun
-Chen Yi
-Zhou Long
-Bright Sheng
 Xian Xinghai
-Colin McPhee
-Hamza El Din
 Fela Sowande
 Akin Euba
 Joshua Uzoigwe
-Abdullah Ibrahim
-Philip Miller
 Kevin Volans
 Peter Klatzow
-John Barry
-Jerry Goldsmith
-Bernard Herrmann
-Max Steiner
 Miklos Rozsa
 Dimitri Tiomkin
-Franz Waxman
-Alfred Newman
-Elmer Bernstein
-Henry Mancini
 Maurice Jarre
-James Horner
-James Newton Howard
-Alan Silvestri
-Thomas Newman
-Randy Newman
-Rachel Portman
 Alexandre Desplat
 Michael Giacchino
 Ludwig Goransson
-Jonny Greenwood
-Trent Reznor
-Mica Levi
-Justin Hurwitz
 Nicholas Britell
 Ramin Djawadi
-Bear McCreary
-Koji Kondo
 Nobuo Uematsu
 Yoko Shimomura
 Austin Wintory
 Lalo Schifrin
 Vince Guaraldi
-Carl Davis
-Patrick Doyle
-George Fenton
 Dario Marianelli
 Gabriel Yared
-Craig Armstrong
+Klaus Badelt
+Steve Jablonsky
+Yann Tiersen
+Georges Delerue
+Vladimir Cosma
+Alexandre Tansman
+Yiruma
+
+[Rare]
+Nikolai Rimsky-Korsakov | rimsky-korsakov | rimsky korsakov
+Modest Mussorgsky | mussorgsky
+Gioachino Rossini | rossini
+Georges Bizet | bizet
+Georg Philipp Telemann | telemann
+Christoph Willibald Gluck | gluck
+Bedrich Smetana | smetana
+Carl Orff | orff
+Johann Pachelbel | pachelbel
+Domenico Scarlatti | scarlatti
+Arcangelo Corelli | corelli
+Niccolo Paganini | paganini
+Anton Webern | webern
+Leos Janacek | janacek
+Engelbert Humperdinck | humperdinck
+Charles Gounod | gounod
+Jules Massenet | massenet
+Gaetano Donizetti | donizetti
+Manuel de Falla | de falla
+Isaac Albeniz | albeniz
+Heitor Villa-Lobos | villa-lobos
+Astor Piazzolla | piazzolla
+Ennio Morricone | morricone
+Joe Hisaishi
+Thomas Tallis | tallis
+William Byrd | byrd
+Heinrich Schutz | schutz | schütz
+Carl Philipp Emanuel Bach | cpe bach
+Johann Christian Bach
+Antonio Salieri | salieri
+Carl Maria von Weber | weber
+Alexander Borodin | borodin
+Cesar Cui | cui
+Cesar Franck | franck
+Vincent d'Indy
+Carl Nielsen | nielsen
+Hugo Wolf
+Charles Ives | ives
+Samuel Coleridge-Taylor
+Edward MacDowell | macdowell
+Morton Feldman | feldman
+Max Richter | richter
+Tan Dun
+Tomas Luis de Victoria
+Thomas Morley
+Orlando Gibbons
+Barbara Strozzi
+Benedetto Marcello
+Alessandro Marcello
+Michael Haydn
+Leopold Mozart
+Ferdinand Ries
+Otto Nicolai
+Adolphe Adam
+Edouard Lalo
+Reynaldo Hahn
+Albert Roussel
+Nadia Boulanger
+Augusta Holmes
+Ethel Smyth
+Thea Musgrave
+Judith Weir
+Libby Larsen
+Julia Wolfe
+Meredith Monk
+Hubert Parry
+Charles Villiers Stanford
+Ivor Gurney
+George Butterworth
+Herbert Howells
+Arthur Bliss
+William Walton
+Michael Tippett
+Peter Maxwell Davies
+John Rutter
+Karl Jenkins
+James MacMillan
+Michael Nyman
+Brian Eno
+Percy Grainger
+Claude Champagne
+R. Murray Schafer
+John Philip Sousa
+Horatio Parker
+George Chadwick
+Arthur Foote
+Henry Cowell
+Carl Ruggles
+Virgil Thomson
+Walter Piston
+Howard Hanson
+William Schuman
+Elliott Carter
+Milton Babbitt
+George Crumb
+La Monte Young
+Christopher Rouse
+Mason Bates
+Ricky Ian Gordon
+Duke Ellington
+Gunther Schuller
+Jeffrey Mumford
+Hale Smith
+Ulysses Kay
+Valerie Coleman
+Jessie Montgomery
+Tania Leon
+Carlos Chavez
+Manuel Ponce
+Arturo Marquez
+Ernesto Nazareth
+Leo Brouwer
+Fernando Sor
+Andres Segovia
+Mauro Giuliani
+Luigi Nono
+Umberto Giordano
+Alfredo Casella
+Nino Rota
+Josef Strauss
+Carl Zeller
+Emmerich Kalman
+Oscar Straus
+Wilhelm Peterson-Berger
+Lars-Erik Larsson
+Allan Pettersson
+Magnus Lindberg
+Anton Rubinstein
+Josef Suk
+Pavel Haas
+Viktor Ullmann
+Kurt Weill
+Siegfried Wagner
+Joseph Joachim
+Ferdinand David
+Ravi Shankar
+A. R. Rahman
+Zakir Hussain
+Isang Yun
+Chen Yi
+Zhou Long
+Bright Sheng
+Colin McPhee
+Hamza El Din
+Abdullah Ibrahim
+Jerry Goldsmith
+Bernard Herrmann
+Max Steiner
+Franz Waxman
+Alfred Newman
+Elmer Bernstein
+Henry Mancini
+James Horner
+Alan Silvestri
+Randy Newman
+Rachel Portman
+Jonny Greenwood
+Trent Reznor
+Mica Levi
+Justin Hurwitz
+Bear McCreary
+Koji Kondo
+Patrick Doyle
+George Fenton
 Clint Mansell
 Harry Gregson-Williams
 Rupert Gregson-Williams
-John Powell
-Klaus Badelt
-Steve Jablonsky
-Brian Tyler
 Junkie XL | tom holkenborg
 Daniel Pemberton
 Dustin O'Halloran
-Yann Tiersen
 Michel Legrand
 Francis Lai
-Georges Delerue
-Vladimir Cosma
 Eric Serra
-Alexandre Tansman
-Yiruma
 Jon Batiste
 Kris Bowers
 
-[Rare]
+[Schooler]
 Johannes Brahms | brahms
 Franz Schubert | schubert
 George Frideric Handel | handel | händel
 Joseph Haydn | haydn
 Claude Debussy | debussy
-Richard Wagner | wagner
 Giuseppe Verdi | verdi
 Franz Liszt | liszt
 Antonin Dvorak | dvorak | dvořák
@@ -1977,9 +1911,73 @@ Edvard Grieg | grieg
 George Gershwin | gershwin
 Erik Satie | satie
 Camille Saint-Saens | saint-saens | saint saens
-
-[Schooler]
-Frederic Chopin | chopin
+Sergei Prokofiev | prokofiev
+Dmitri Shostakovich | shostakovich
+Richard Strauss
+Hector Berlioz | berlioz
+Jean Sibelius | sibelius
+Aaron Copland | copland
+Leonard Bernstein | bernstein
+Samuel Barber | barber
+Gustav Holst | holst
+Edward Elgar | elgar
+Ralph Vaughan Williams | vaughan williams
+Benjamin Britten | britten
+Claudio Monteverdi | monteverdi
+Henry Purcell | purcell
+Anton Bruckner | bruckner
+Gabriel Faure | faure | fauré
+Philip Glass | glass
+John Cage | cage
+Arvo Part | arvo pärt | part
+Clara Schumann
+Fanny Mendelssohn
+Scott Joplin | joplin
+Arnold Schoenberg | schoenberg | schönberg
+Alban Berg | berg
+Bela Bartok | bartok | bartók
+Jacques Offenbach | offenbach
+Vincenzo Bellini | bellini
+Joaquin Rodrigo | rodrigo
+Steve Reich | reich
+John Adams
+Howard Shore
+Danny Elfman
+Amy Beach
+Florence Price
+William Grant Still
+Terry Riley
+Caroline Shaw
+John Field
+Rebecca Clarke
+Grace Williams
+Joan Tower
+Arthur Sullivan
+Malcolm Arnold
+George Benjamin
+Edward German
+John Ireland
+Frank Bridge
+Stephen Foster
+Roy Harris
+Lou Harrison
+Joan La Barbara
+John Luther Adams
+David Lang
+Kevin Puts
+Anthony Davis
+Margaret Bonds
+Julia Perry
+George Walker
+Carlos Simon
+Philip Miller
+John Barry
+James Newton Howard
+Thomas Newman
+Carl Davis
+Craig Armstrong
+John Powell
+Brian Tyler
 
 [Too Clever]
 John Williams
@@ -1992,6 +1990,8 @@ Ludwig van Beethoven | beethoven
 Johann Sebastian Bach | bach | js bach
 Pyotr Ilyich Tchaikovsky | tchaikovsky | tchaikovski
 Antonio Vivaldi | vivaldi
+Frederic Chopin | chopin
+Richard Wagner | wagner
 
 [Not accepted]
 Elvis
@@ -2017,84 +2017,20 @@ prompt: Name a Star Wars character
 Admiral Ackbar | ackbar
 
 [Deep Cut]
-Ahsoka Tano | ahsoka | snips
-Jango Fett
-Greedo
-Wedge Antilles | wedge
-Grand Moff Tarkin | tarkin
 Lobot
 Nien Nunb
-Bib Fortuna
-Salacious Crumb
-Max Rebo
-Bossk
-IG-88 | ig88
-Dengar
 Zuckuss
-4-LOM
-Rose Tico | rose
-Supreme Leader Snoke | snoke
-General Hux | hux
-Captain Phasma | phasma
-Maz Kanata | maz
-Jyn Erso | jyn
-Cassian Andor | andor | cassian
-K-2SO | k2so
 Chirrut Imwe | chirrut
 Baze Malbus | baze
-Saw Gerrera | saw
-Orson Krennic | krennic
-Galen Erso | galen
-Bodhi Rook | bodhi
-Qi'ra
-Tobias Beckett | beckett
-L3-37
 Enfys Nest
-Cad Bane | cad
 Bo-Katan Kryze | bo katan
-Moff Gideon | gideon
 Greef Karga | greef
-Cara Dune | cara
-IG-11
-The Armorer | armorer
-Fennec Shand | fennec
 Cobb Vanth | cobb
-Ezra Bridger | ezra
-Kanan Jarrus | kanan
-Hera Syndulla | hera
-Sabine Wren | sabine
 Zeb Orrelios | zeb
-Chopper | c1-10p
-Grand Admiral Thrawn | thrawn
-Asajj Ventress | ventress
-Savage Opress
-Captain Rex | rex
-Commander Cody | cody
-Plo Koon
-Kit Fisto
-Ki-Adi-Mundi
-Aayla Secura
-Shaak Ti
 Luminara Unduli
-Barriss Offee
-Watto
-Sebulba
-Nute Gunray
-Shmi Skywalker | shmi
-Owen Lars | uncle owen
-Beru Lars | aunt beru
-Biggs Darklighter | biggs
-Mon Mothma | mon
-Bail Organa
-Admiral Piett | piett
-General Veers | veers
-Darth Bane
-Darth Plagueis | plagueis
 Cal Kestis | cal
-Starkiller | galen marek
 Porkins | jek porkins
 Dak Ralter | dak
-Hobbie | hobbie klivian
 Zev Senesca
 Garindan
 Ponda Baba
@@ -2108,34 +2044,23 @@ Even Piell
 Oppo Rancisis
 Depa Billaba
 Eeth Koth
-Adi Gallia
 Stass Allie
 Coleman Trebor
-Jocasta Nu
 Dexter Jettster | dex
-Lama Su
 Taun We
 Zam Wesell
-Sly Moore
 Mas Amedda
-Wat Tambor
-San Hill
 Poggle the Lesser
 Rune Haako
-Boss Nass
 Captain Tarpals
 Rugor Nass
 Sio Bibble
 Captain Panaka | panaka
-Sabe
 Dorme
 Cliegg Lars
 Hondo Ohnaka | hondo
-Embo
 Aurra Sing
-Sugi
 Latts Razzi
-Pre Vizsla
 Almec
 Satine Kryze | satine
 Korkie
@@ -2143,76 +2068,42 @@ Lux Bonteri
 Mina Bonteri
 Onaconda Farr
 Riyo Chuchi
-Rush Clovis
-Kix
-Echo
-Fives
 Hevy
 Hardcase
-Wrecker
-Tech
-Crosshair
-Hunter
-Omega
-Doctor Aphra | aphra
-BT-1
-0-0-0 | triple zero
-Pao
 Weeteef Cyubee
 Unkar Plutt
 Lor San Tekka
 Zorii Bliss
 Babu Frik
-Jannah
-Allegiant General Pryde | pryde
 Vice Admiral Holdo | holdo
 Kaydel Ko Connix | connix
-DJ
-Paige Tico
-Fifth Brother
-Second Sister
-Grand Inquisitor
-Reva
 Trilla
 Luthen Rael | luthen
 Dedra Meero
 Syril Karn
-Kino Loy
 Maarva Andor
 Nemik
 Vel Sartha
-Cinta Kaz
 Brasso
 B2EMO
 Kuiil
-The Client
 Migs Mayfeld | mayfeld
-Paz Vizsla
 Peli Motto
-Morgan Elsbeth
 Baylan Skoll
-Shin Hati
 Huyang
 Marrok
 Osha Aniseya
 Mae Aniseya
-Sol
 Qimir
 Vernestra Rwoh
-Red Leader | garven dreis
-Gold Leader | dutch vander
-Wes Janson
 Tycho Celchu
 Arvel Crynyd
 Admiral Motti | conan antonio motti
 General Tagge
 Admiral Ozzel
-Captain Needa
 General Madine
 Moff Jerjerrod
 Admiral Raddus
-General Draven
-General Merrick
 Bistan
 Edrio Two Tubes
 Kabe
@@ -2220,58 +2111,33 @@ Muftak
 Lak Sivrak
 Labria
 Snaggletooth
-Walrus Man
 Greeata
 Sy Snootles
-Droopy McCool
 Rystall
 Oola
 Yarna
 Malakili
-Rancor
 Sarlacc
 Gamorrean guard
 Ree-Yees
 Ephant Mon
 Amanaman
 Klaatu
-Barada
 Nikto
 Logray
 Chief Chirpa
 Teebo
 Paploo
-Wicket W. Warrick
 Kneesaa
-Mon Calamari
 Ugnaught
 EV-9D9
 8D8
-R5-D4
-R2-Q5
-Mouse droid
 Gonk droid
-Power droid
 IG-88B
-Probe droid
-AT-AT pilot
 Snowtrooper
-Scout trooper
-Royal Guard
-Death Star gunner
-TIE pilot
-Clone trooper
-Battle droid
-Super battle droid
 Droideka
-Buzz droid
 MagnaGuard
-Commando droid
-OOM-9
-TC-14
 Kitster
-Wald
-Jira
 Ratts Tyerell
 Ody Mandrell
 Gasgano
@@ -2281,7 +2147,6 @@ Mawhonic
 Teemto Pagalies
 Fode and Beed
 Ric Olie
-Rabe
 Eirtaé
 Yané
 Saché
@@ -2290,59 +2155,32 @@ Sifo-Dyas
 Elan Sleazebaggano
 Ask Aak
 Bana Breemu
-Orn Free Taa
 Ainlee Teem
 Valorum | finis valorum
 Tion Medon
 Mother Talzin
-Quinlan Vos
 Cin Drallig
-Agen Kolar
 Nahdar Vebb
 Tera Sinube
-Wolffe
-Bly
 Bacara
 Appo
 Thire
 Waxer
-Boil
 Cutup
 Droidbait
-99
-Gregor
-Ponds
 Neyo
 Ziro the Hutt
 Gardulla the Hutt
 Rotta the Huttlet
 Seripas
 Highsinger
-Pong Krell
 Tiplar
 Tiplee
 Jaybo Hood
-Tee Watt Kaa
 Steela Gerrera
-Admiral Trench
-General Kalani
 Admiral Yularen
-Ursa Wren
-Tristan Wren
-Fenn Rau
-Gar Saxon
-Tiber Saxon
 Alrich Wren
 Agent Kallus
-Seventh Sister
-Eighth Brother
-Ninth Sister
-Sixth Brother
-Third Sister
-Fourth Sister
-Tenth Brother
-Governor Pryce | arihnda pryce
-Minister Tua
 Azmorigan
 Ketsu Onyo
 Gall Trayvis
@@ -2350,62 +2188,37 @@ Cikatro Vizago
 Bendu
 Jacen Syndulla
 Cham Syndulla
-Numa
-Rook Kast
-AP-5
 Mart Mattin
-Jun Sato
 Kaz Xiono
-Yeager | jarek yeager
 Torra Doza
 Tam Ryvora
 Neeku Vozo
 Synara San
-CB-23
 Major Vonreg
 Agent Tierny
 Kragan Gorr
 Jace Rucklin
-Cid
-Nala Se
-Dr. Pershing | pershing
 Valin Hess
-Elia Kane
-Captain Bombardier
 Q9-0 | zero
-Burg
-Xi'an
 Ran Malk
 Axe Woves
 Koska Reeves
 Black Krrsantan
 Garsa Fwip
 Drash
-Burk
-Pyke Boss
 Mok Shaiz
 8D3
-Captain Enoch
 Eli Vanto
 Phee Genoa
-Hemlock | doctor hemlock
 Emerie Karr
-Royce Hemlock
-Admiral Rampart
 Melshi
 Senator Pamlo
-Lyra Erso
-Two Tubes
 Weeteef
 Moroff
-Bor Gullet
 Bix Caleen
 Timm Karlo
-Salman Paak
-Skeen
 Arvel Skeen
 Taramyn Barcona
-Lieutenant Gorn
 Blevin
 Major Partagaz
 Lonni Jung
@@ -2416,12 +2229,9 @@ Davo Sculdun
 Leida Mothma
 Wilmon Paak
 Lezine
-Clem Andor
 Nurchi
 Ruescott Melshi
-Xan
 Ulaf
-Beaumont Kin
 Temmin Wexley | snap wexley
 Jess Pava
 Tallie Lintra
@@ -2429,24 +2239,16 @@ Ello Asty
 Harter Kalonia
 Korr Sella
 Teedo
-Bala-Tik
 Tasu Leech
 Sidon Ithano
 Bazine Netal
 Grummgar
-Ochi
 Klaud
 Boolio
 Sonsigo
 Vanee
-D-O
-BB-9E
-R2-KT
-Darth Revan | revan
-Darth Malak
 Darth Nihilus
 Darth Traya
-Darth Sion
 Exar Kun
 Ulic Qel-Droma
 Nomi Sunrider
@@ -2454,27 +2256,15 @@ Bastila Shan
 Carth Onasi
 Mission Vao
 Zaalbar
-HK-47
 Canderous Ordo
 Jolee Bindo
 Juhani
-T3-M4
 Kreia
 Atton Rand
-Visas Marr
-Mira
-Bao-Dur
 Darth Vitiate
 Satele Shan
 Darth Malgus
 Kyle Katarn
-Jan Ors
-Mara Jade
-Jaina Solo
-Jacen Solo
-Anakin Solo
-Ben Skywalker
-Corran Horn
 Talon Karrde
 Garm Bel Iblis
 Prince Xizor | xizor
@@ -2483,20 +2273,13 @@ Guri
 Joruus C'baoth
 Darth Caedus
 Darth Krayt
-Cade Skywalker
-Juno Eclipse
-PROXY
-Rahm Kota
-BD-1
 Cere Junda
 Greez Dritus
-Merrin
 Trilla Suduri
 Taron Malicos
 Bode Akuna
 Rayvis
 Kay Vess
-ND-5
 Sliro Barsha
 Iden Versio
 Del Meeko
@@ -2517,6 +2300,167 @@ Yord Fandar
 Kelnacca
 
 [Rare]
+Grogu | baby yoda | the child
+Greedo
+Grand Moff Tarkin | tarkin
+Max Rebo
+Bossk
+Dengar
+Supreme Leader Snoke | snoke
+General Hux | hux
+Captain Phasma | phasma
+Jyn Erso | jyn
+Cassian Andor | andor | cassian
+K-2SO | k2so
+Saw Gerrera | saw
+Orson Krennic | krennic
+Galen Erso | galen
+Qi'ra
+Moff Gideon | gideon
+The Armorer | armorer
+Fennec Shand | fennec
+Kanan Jarrus | kanan
+Hera Syndulla | hera
+Asajj Ventress | ventress
+Savage Opress
+Kit Fisto
+Aayla Secura
+Shaak Ti
+Barriss Offee
+Watto
+Sebulba
+Nute Gunray
+Shmi Skywalker | shmi
+Beru Lars | aunt beru
+Biggs Darklighter | biggs
+Mon Mothma | mon
+Admiral Piett | piett
+Darth Plagueis | plagueis
+Starkiller | galen marek
+Hobbie | hobbie klivian
+Adi Gallia
+Jocasta Nu
+Lama Su
+Sly Moore
+Wat Tambor
+Boss Nass
+Sabe
+Embo
+Sugi
+Pre Vizsla
+Rush Clovis
+Kix
+Fives
+Wrecker
+Crosshair
+Doctor Aphra | aphra
+Pao
+Jannah
+Allegiant General Pryde | pryde
+Paige Tico
+Grand Inquisitor
+Reva
+Kino Loy
+Cinta Kaz
+Paz Vizsla
+Morgan Elsbeth
+Shin Hati
+Wes Janson
+Captain Needa
+General Draven
+General Merrick
+Walrus Man
+Droopy McCool
+Rancor
+Barada
+Wicket W. Warrick
+Mon Calamari
+R5-D4
+R2-Q5
+Mouse droid
+Power droid
+Probe droid
+Scout trooper
+Death Star gunner
+Clone trooper
+Battle droid
+Super battle droid
+Buzz droid
+Commando droid
+OOM-9
+TC-14
+Wald
+Jira
+Rabe
+Orn Free Taa
+Quinlan Vos
+Agen Kolar
+Wolffe
+Bly
+Gregor
+Ponds
+Pong Krell
+Tee Watt Kaa
+Admiral Trench
+General Kalani
+Ursa Wren
+Tristan Wren
+Fenn Rau
+Gar Saxon
+Tiber Saxon
+Governor Pryce | arihnda pryce
+Minister Tua
+Numa
+Rook Kast
+Jun Sato
+Yeager | jarek yeager
+Cid
+Nala Se
+Dr. Pershing | pershing
+Elia Kane
+Captain Bombardier
+Burg
+Burk
+Pyke Boss
+Captain Enoch
+Hemlock | doctor hemlock
+Royce Hemlock
+Admiral Rampart
+Lyra Erso
+Bor Gullet
+Salman Paak
+Skeen
+Lieutenant Gorn
+Clem Andor
+Xan
+Beaumont Kin
+Bala-Tik
+Ochi
+BB-9E
+R2-KT
+Darth Revan | revan
+Darth Malak
+Darth Sion
+HK-47
+T3-M4
+Visas Marr
+Mira
+Bao-Dur
+Jan Ors
+Mara Jade
+Jaina Solo
+Jacen Solo
+Anakin Solo
+Ben Skywalker
+Corran Horn
+Cade Skywalker
+Juno Eclipse
+Rahm Kota
+BD-1
+Merrin
+
+[Schooler]
+C-3PO | c3po | threepio
 Obi-Wan Kenobi | obi wan | obi-wan | ben kenobi | kenobi
 Emperor Palpatine | palpatine | darth sidious | the emperor | sheev palpatine
 Boba Fett
@@ -2528,7 +2472,6 @@ Kylo Ren | ben solo | kylo
 Finn | fn-2187
 Poe Dameron | poe
 BB-8 | bb8
-Grogu | baby yoda | the child
 The Mandalorian | mandalorian | din djarin | mando
 Padme Amidala | padme | queen amidala | padmé
 Qui-Gon Jinn | qui gon | qui-gon
@@ -2536,11 +2479,66 @@ Mace Windu | windu
 Count Dooku | dooku | darth tyranus
 General Grievous | grievous
 Wicket
-
-[Schooler]
-Chewbacca | chewie
-R2-D2 | r2d2 | r2 | artoo
-C-3PO | c3po | threepio
+Ahsoka Tano | ahsoka | snips
+Jango Fett
+Wedge Antilles | wedge
+Bib Fortuna
+Salacious Crumb
+IG-88 | ig88
+4-LOM
+Rose Tico | rose
+Maz Kanata | maz
+Bodhi Rook | bodhi
+Tobias Beckett | beckett
+L3-37
+Cad Bane | cad
+Cara Dune | cara
+IG-11
+Ezra Bridger | ezra
+Sabine Wren | sabine
+Chopper | c1-10p
+Grand Admiral Thrawn | thrawn
+Captain Rex | rex
+Commander Cody | cody
+Plo Koon
+Ki-Adi-Mundi
+Owen Lars | uncle owen
+Bail Organa
+General Veers | veers
+Darth Bane
+San Hill
+Echo
+Tech
+Hunter
+Omega
+BT-1
+0-0-0 | triple zero
+DJ
+Fifth Brother
+Second Sister
+The Client
+Sol
+Red Leader | garven dreis
+Gold Leader | dutch vander
+AT-AT pilot
+Royal Guard
+TIE pilot
+Boil
+99
+Seventh Sister
+Eighth Brother
+Ninth Sister
+Sixth Brother
+Third Sister
+Fourth Sister
+Tenth Brother
+AP-5
+CB-23
+Xi'an
+Two Tubes
+D-O
+PROXY
+ND-5
 
 [Too Clever]
 Jar Jar Binks | jar jar
@@ -2553,6 +2551,8 @@ Darth Vader | vader | anakin skywalker | anakin
 Han Solo | han
 Princess Leia | leia | leia organa | general leia
 Yoda
+Chewbacca | chewie
+R2-D2 | r2d2 | r2 | artoo
 
 [Not accepted]
 Spock
@@ -2577,77 +2577,9 @@ note: Named colors and shades. "Light blue" style combos only where they're comm
 Vantablack
 
 [Deep Cut]
-Fuchsia
-Chartreuse
-Mauve
-Taupe
-Khaki
-Ochre | ocher
-Sienna | burnt sienna
-Umber | burnt umber
-Scarlet
-Vermilion | vermillion
 Cerulean
-Azure
-Cobalt | cobalt blue
-Sapphire
-Emerald
-Jade
-Ruby
-Amber
-Bronze
-Copper
-Rust
-Mahogany
-Chocolate
-Mocha
-Coffee
-Caramel
-Charcoal
-Slate | slate gray
 Gunmetal
-Pewter
-Platinum
-Champagne
-Salmon
-Rose
-Blush
-Plum
-Lilac
-Periwinkle
-Orchid
-Amethyst
-Eggplant | aubergine
-Wine
-Cherry red
-Brick red
-Royal blue
-Baby blue
-Powder blue
-Forest green
-Kelly green
-Sea green
-Hunter green
-Army green
-Sage
-Mustard
-Lemon
-Canary yellow
 Goldenrod
-Apricot
-Tangerine
-Pumpkin
-Off-white
-Eggshell
-Bone
-Snow
-Jet black
-Ebony
-Onyx
-Sepia
-Hazel
-Auburn
-Blonde
 Puce
 Cerise
 Carmine
@@ -2663,7 +2595,6 @@ Fallow
 Ecru
 Bistre
 Bisque
-Wheat
 Buff
 Fawn
 Russet
@@ -2686,10 +2617,7 @@ Robin's egg blue
 Tiffany blue
 International Klein Blue | klein blue
 Persian blue
-Midnight blue
-Oxford blue
 Cadet blue
-Steel blue
 Marigold
 Saffron
 Xanthic
@@ -2713,7 +2641,6 @@ Isabelline
 Gainsboro
 Smalt
 Zaffre
-Liver
 Drab
 Amaranth
 Aquamarine
@@ -2727,96 +2654,59 @@ Battleship gray
 Beaver
 Bittersweet
 Bleu de France
-Blood red
-Blue-gray
-Blue-green
 Blue-violet
 Bondi blue
-Brass
-Bright green
-Brilliant rose
 Bubblegum pink
 Butterscotch
 Cadmium red
 Cadmium yellow
-Cambridge blue
 Camel
-Candy apple red
 Cardinal red
 Carnation pink
-Carolina blue
 Celery
 Cerulean blue
 Cherry blossom pink
 Chestnut
 Cinnamon
 Cocoa
-Cool gray
 Cornsilk
-Cotton candy
 Cranberry
 Cyan blue
 Daffodil
 Dandelion
 Denim
-Desert sand
 Dove gray
 Dusty rose
-Electric blue
 Electric lime
-Electric purple
 Fern green
-Fire engine red
 Firebrick
 Flamingo pink
 Fluorescent pink
-French blue
-French gray
 Ginger
 Granny Smith apple
 Grape
-Grass green
-Gray-blue
-Green-yellow
-Harvest gold
 Heather
-Honey
-Ice blue
 Iceberg
 Inchworm
 Iris
 Ivy
 Jade green
-Jungle green
 Kiwi
 Lapis lazuli
 Laser lemon
 Lavender blush
 Lemon chiffon
-Lemon yellow
-Light green
-Light pink
 Linen
 Magic mint
 Mango
 Manatee
 Maize
-Military green
 Millennial pink
 Misty rose
 Moss green
 Mountain meadow
-Mud
-Nude
-Ocean blue
-Old gold
 Old lace
-Old rose
 Olive drab
-Orange-red
-Orange-yellow
-Outer space
-Pacific blue
 Papaya whip
 Pastel blue
 Pastel green
@@ -2826,95 +2716,62 @@ Pastel yellow
 Pea green
 Peacock blue
 Pear
-Pearl
 Peridot
 Persian green
 Persian red
-Pine green
 Pistachio
 Plum purple
 Poppy
 Primrose
-Purple heart
 Purple mountains' majesty
 Purple pizzazz
-Radical red
 Raw sienna
 Raw umber
 Razzmatazz
-Red-orange
 Red-violet
-Rose gold
-Rose pink
 Rosewood
-Royal purple
 Ruby red
-Sand
-Sandy brown
 Sangria
 Sapphire blue
-Sea blue
 Sea foam green
 Shamrock
 Shocking pink
-Silver sand
-Smoke
 Smokey topaz
 Sky magenta
-Spring green
 Strawberry
 Sunglow
 Sunset orange
 Tangerine yellow
-Tea green
-Tea rose
 Terracotta
 Tickle me pink
 Timberwolf
 Tomato
 Topaz
-Tropical rain forest
-True blue
 Tumbleweed
 Tuscan red
 Tyrian
-Ultra pink
 Unmellow yellow
 Vanilla
 Venetian red
-Very light gray
 Violet-blue
 Vivid violet
 Walnut
-Warm gray
 Watermelon
 Wild blue yonder
 Wild strawberry
 Wild watermelon
-Wine red
-Yellow-green
-Yellow-orange
 Zinnwaldite
 Antique white
-Alice blue
 Blanched almond
 Burlywood
 Chartreuse green
-Dark blue
-Dark green
-Dark red
-Deep pink
 Dodger blue
 Floral white
-Ghost white
 Hot magenta
-Indian red
 Lawn green
 Light coral
-Light sea green
 Light slate gray
 Lime yellow
-Medium purple
 Navajo white
 Pale goldenrod
 Pale violet red
@@ -2924,33 +2781,148 @@ Rosy brown
 Saddle brown
 Seashell
 Slate blue
-Spring bud
-White smoke
 Yale blue
 Harvard crimson
-Duke blue
 Celtic green
 Greige
 Putty
 Oatmeal
-Stone
 Mushroom
 Pebble
-Ash
 Ash gray
 Graphite
-Iron
-Steel
 Smoky
 Obsidian
 Raven
 Licorice
+
+[Rare]
+Fuchsia
+Chartreuse
+Mauve
+Taupe
+Khaki
+Ochre | ocher
+Sienna | burnt sienna
+Umber | burnt umber
+Scarlet
+Vermilion | vermillion
+Azure
+Cobalt | cobalt blue
+Sapphire
+Emerald
+Rust
+Mahogany
+Mocha
+Caramel
+Charcoal
+Pewter
+Blush
+Plum
+Lilac
+Periwinkle
+Orchid
+Amethyst
+Eggplant | aubergine
+Mustard
+Canary yellow
+Apricot
+Tangerine
+Eggshell
+Ebony
+Onyx
+Sepia
+Hazel
+Auburn
+Wheat
+Midnight blue
+Oxford blue
+Steel blue
+Liver
+Blood red
+Blue-gray
+Blue-green
+Brass
+Bright green
+Brilliant rose
+Cambridge blue
+Candy apple red
+Carolina blue
+Cool gray
+Cotton candy
+Desert sand
+Electric blue
+Electric purple
+Fire engine red
+French blue
+French gray
+Grass green
+Gray-blue
+Green-yellow
+Harvest gold
+Honey
+Ice blue
+Jungle green
+Lemon yellow
+Light green
+Light pink
+Military green
+Mud
+Nude
+Ocean blue
+Old gold
+Old rose
+Orange-red
+Orange-yellow
+Outer space
+Pacific blue
+Pearl
+Pine green
+Purple heart
+Radical red
+Red-orange
+Rose gold
+Rose pink
+Royal purple
+Sand
+Sandy brown
+Sea blue
+Silver sand
+Smoke
+Spring green
+Tea green
+Tea rose
+Tropical rain forest
+True blue
+Ultra pink
+Very light gray
+Warm gray
+Wine red
+Yellow-green
+Yellow-orange
+Alice blue
+Dark blue
+Dark green
+Dark red
+Deep pink
+Ghost white
+Indian red
+Light sea green
+Medium purple
+Spring bud
+White smoke
+Duke blue
+Stone
+Ash
+Iron
+Steel
 Midnight black
 Pitch black
 Coal
 Space gray
 
-[Rare]
+[Schooler]
+Purple
 White
 Brown
 Gray | grey
@@ -2980,11 +2952,37 @@ Olive | olive green
 Sky blue | light blue
 Hot pink
 Neon green
-
-[Schooler]
-Purple
-Pink
-Black
+Jade
+Ruby
+Amber
+Bronze
+Copper
+Chocolate
+Coffee
+Slate | slate gray
+Platinum
+Champagne
+Salmon
+Rose
+Wine
+Cherry red
+Brick red
+Royal blue
+Baby blue
+Powder blue
+Forest green
+Kelly green
+Sea green
+Hunter green
+Army green
+Sage
+Lemon
+Pumpkin
+Off-white
+Bone
+Snow
+Jet black
+Blonde
 
 [Too Clever]
 Clear | transparent
@@ -3000,6 +2998,8 @@ Blue
 Green
 Yellow
 Orange
+Pink
+Black
 
 [Not accepted]
 Rainbow sherbet
@@ -3027,103 +3027,28 @@ prompt: Name a famous scientist
 Rosalind Franklin | franklin
 
 [Deep Cut]
-Richard Feynman | feynman
-Werner Heisenberg | heisenberg
-Erwin Schrodinger | schrodinger | schrödinger
-Ernest Rutherford | rutherford
-James Clerk Maxwell | maxwell
-Enrico Fermi | fermi
-Paul Dirac | dirac
-Robert Hooke | hooke
-Robert Boyle | boyle
-Antoine Lavoisier | lavoisier
-John Dalton | dalton
-Alfred Nobel | nobel
-Ada Lovelace | lovelace
-Alan Turing | turing
-Grace Hopper | hopper
-Rachel Carson | carson
-Linus Pauling | pauling
-James Watson | watson
-Francis Crick | crick
-Jonas Salk | salk
-Edward Jenner | jenner
-Joseph Lister | lister
-Florence Nightingale | nightingale
-Hippocrates
-Euclid
-Ptolemy
-Tycho Brahe | brahe
-Carl Linnaeus | linnaeus
-Alexander von Humboldt | humboldt
-Alfred Russel Wallace | wallace
-Louis Leakey | leakey
-Mary Anning | anning
-Henrietta Lacks
-Katherine Johnson
-Dorothy Hodgkin | hodgkin
-Lise Meitner | meitner
 Chien-Shiung Wu
-Sally Ride
-Mae Jemison
-George Washington Carver | carver
-Percy Julian
-Wernher von Braun | von braun
-Robert Goddard | goddard
-Guglielmo Marconi | marconi
-Alessandro Volta | volta
-Andre-Marie Ampere | ampere
-Georg Ohm | ohm
-James Watt | watt
-Heinrich Hertz | hertz
-Anders Celsius | celsius
-Daniel Fahrenheit | fahrenheit
-Lord Kelvin | kelvin | william thomson
-Blaise Pascal | pascal
-Rene Descartes | descartes
-Gottfried Leibniz | leibniz
-Leonhard Euler | euler
-Carl Friedrich Gauss | gauss
-Srinivasa Ramanujan | ramanujan
-John von Neumann | von neumann
-Tim Berners-Lee | berners-lee
-Jennifer Doudna | doudna
-Peter Higgs | higgs
-Edmond Halley | halley
 Emmy Noether | noether
-Barbara McClintock | mcclintock
 Gertrude Elion
 Rita Levi-Montalcini
 Tu Youyou
-Vera Rubin | rubin
 Jocelyn Bell Burnell
 Cecilia Payne-Gaposchkin | cecilia payne
 Henrietta Swan Leavitt | leavitt
-Annie Jump Cannon
-Caroline Herschel
-William Herschel | herschel
 Christiaan Huygens | huygens
 Antonie van Leeuwenhoek | leeuwenhoek
-Robert Koch | koch
-Paul Ehrlich | ehrlich
-Ivan Pavlov | pavlov
 Santiago Ramon y Cajal | ramon y cajal
 Camillo Golgi | golgi
 Rudolf Virchow | virchow
 Ignaz Semmelweis | semmelweis
 Andreas Vesalius | vesalius
-William Harvey | harvey
-Galen
 Avicenna | ibn sina
 Alhazen | ibn al-haytham
 Al-Khwarizmi
 Hypatia
 Eratosthenes
 Democritus
-Thales
 Amedeo Avogadro | avogadro
-Joseph Priestley | priestley
-Henry Cavendish | cavendish
 Humphry Davy | davy
 Jons Jacob Berzelius | berzelius
 Friedrich Wohler | wohler
@@ -3132,31 +3057,19 @@ Svante Arrhenius | arrhenius
 Fritz Haber | haber
 Marie Tharp | tharp
 Alfred Wegener | wegener
-Charles Lyell | lyell
-James Hutton | hutton
 Georges Cuvier | cuvier
 Jean-Baptiste Lamarck | lamarck
 Ernst Mayr | mayr
 E.O. Wilson | edward o wilson
-Richard Dawkins | dawkins
-Stephen Jay Gould | gould
 Lynn Margulis | margulis
 Kary Mullis | mullis
-Frederick Sanger | sanger
-Max Born | born
 Wolfgang Pauli | pauli
 Satyendra Nath Bose | bose
 Subrahmanyan Chandrasekhar | chandrasekhar
 Arthur Eddington | eddington
 Georges Lemaitre | lemaitre
-Fred Hoyle | hoyle
 Murray Gell-Mann | gell-mann
-Kip Thorne | thorne | kip
-Roger Penrose | penrose
 Michio Kaku | kaku
-Brian Greene
-Claude Shannon | shannon
-Norbert Wiener
 Hedy Lamarr | lamarr
 Anaximander
 Anaxagoras
@@ -3166,16 +3079,12 @@ Aristarchus
 Hipparchus
 Theophrastus
 Strabo
-Pliny the Elder
-Hero of Alexandria
 Brahmagupta
 Aryabhata
 Bhaskara
 Sushruta
 Charaka
 Zhang Heng
-Shen Kuo
-Su Song
 Al-Biruni
 Al-Razi | rhazes
 Ibn Rushd | averroes
@@ -3184,29 +3093,20 @@ Omar Khayyam
 Nasir al-Din al-Tusi
 Ulugh Beg
 Jabir ibn Hayyan
-Roger Bacon
 Robert Grosseteste
-Fibonacci
 Paracelsus
 Gerardus Mercator
 Georgius Agricola
-William Gilbert
-Francis Bacon
 Simon Stevin
-John Napier
 Evangelista Torricelli
 Otto von Guericke
 Marcello Malpighi
 Jan Swammerdam
 Nicolas Steno
 Ole Romer
-Giovanni Cassini
 Edme Mariotte
 Denis Papin
 Pierre de Fermat
-Christopher Wren
-John Ray
-Stephen Hales
 Daniel Bernoulli
 Jacob Bernoulli
 Johann Bernoulli
@@ -3214,23 +3114,14 @@ Laura Bassi
 Emilie du Chatelet
 Maria Gaetana Agnesi
 Comte de Buffon | buffon
-Joseph Black
 Carl Wilhelm Scheele
-Joseph-Louis Lagrange
-Pierre-Simon Laplace
 Adrien-Marie Legendre
 Charles-Augustin de Coulomb
 Luigi Galvani
-Joseph Fourier
-Sophie Germain
-Thomas Young
-Mary Somerville
 Augustin-Jean Fresnel
 Hans Christian Orsted
 Sadi Carnot
 Charles Babbage
-Joseph Henry
-William Rowan Hamilton
 Evariste Galois
 Niels Henrik Abel
 George Boole
@@ -3240,49 +3131,29 @@ Joule | james prescott joule
 Hermann von Helmholtz
 Rudolf Clausius
 Ludwig Boltzmann
-Josiah Willard Gibbs
 Gustav Kirchhoff
 Robert Bunsen | bunsen
 Anders Angstrom
-Christian Doppler
 Armand Fizeau
-Leon Foucault
 Joseph von Fraunhofer
 John Tyndall
-Thomas Henry Huxley
-Joseph Dalton Hooker
-Asa Gray
 Louis Agassiz
-Richard Owen
 Francis Galton
-Herbert Spencer
-Claude Bernard
 Ernst Haeckel
 August Weismann
-Hugo de Vries
-Thomas Hunt Morgan
 William Bateson
 Wilhelm Rontgen | roentgen
 Henri Becquerel
-Pierre Curie
 Irene Joliot-Curie
 Frederic Joliot-Curie
-J.J. Thomson
 Robert Millikan
 Albert Michelson
-Edward Morley
 Hendrik Lorentz
 Henri Poincare
-David Hilbert
-Georg Cantor
-Felix Klein
 Hermann Minkowski
 Arnold Sommerfeld
 Louis de Broglie
 Max von Laue
-William Henry Bragg
-Lawrence Bragg
-Arthur Compton
 C.V. Raman
 Meghnad Saha
 Homi Bhabha
@@ -3292,68 +3163,40 @@ Abdus Salam | mohammed abdus salam
 Hideki Yukawa
 Sin-Itiro Tomonaga
 Julian Schwinger
-Freeman Dyson
 Hans Bethe
-Edward Teller
 Leo Szilard
 Eugene Wigner
-Otto Hahn
 Fritz Strassmann
-James Chadwick
 John Cockcroft
-Ernest Walton
-Ernest Lawrence
 Glenn Seaborg
 Emilio Segre
-Luis Alvarez
-Walter Alvarez
-Owen Chamberlain
 Maria Goeppert Mayer
 Rosalyn Yalow
 Gerty Cori
 Carl Cori
 Selman Waksman
 Howard Florey
-Ernst Chain
 Frederick Banting
-Charles Best
 Albert Sabin
-Oswald Avery
 Erwin Chargaff
-Maurice Wilkins
-Sydney Brenner
 Jacques Monod
-Francois Jacob
 Andre Lwoff
 Max Delbruck
 Salvador Luria
 Joshua Lederberg
 Har Gobind Khorana | har khorana
 Marshall Nirenberg
-Paul Berg
-Herbert Boyer
-Stanley Cohen
 Craig Venter
-Francis Collins
 Emmanuelle Charpentier
-Feng Zhang
 Katalin Kariko
 Drew Weissman
 Shinya Yamanaka
-Elizabeth Blackburn
 Carol Greider
-May-Britt Moser
 Edvard Moser
 Eric Kandel
-Oliver Sacks
-Sigmund Freud
-Carl Jung
 B.F. Skinner
 Jean Piaget
 Wilhelm Wundt
-William James
-Margaret Mead
-Franz Boas
 Mary Leakey
 Richard Leakey
 Donald Johanson
@@ -3363,13 +3206,9 @@ Konrad Lorenz
 Niko Tinbergen
 Karl von Frisch
 Jacques Cousteau
-Sylvia Earle
 James Lovelock
 Wangari Maathai
 Norman Borlaug
-Luther Burbank
-John Muir
-Aldo Leopold
 Harlow Shapley
 Clyde Tombaugh
 Gerard Kuiper
@@ -3379,37 +3218,23 @@ Fritz Zwicky
 George Gamow
 Ralph Alpher
 Arno Penzias
-Robert Wilson
 Andrea Ghez
 Reinhard Genzel
 Didier Queloz
-Michel Mayor
 Saul Perlmutter
 Adam Riess
-Brian Schmidt
-Rainer Weiss
 Barry Barish
 Jill Tarter
-Frank Drake
 Carolyn Porco
-Nancy Grace Roman
-Margaret Hamilton
-Dorothy Vaughan
-Mary Jackson
 Christine Darden
-Gladys West
 Annie Easley
 Valentina Tereshkova
 Yuri Gagarin
-Neil Armstrong
-Buzz Aldrin
 Sergei Korolev
 Konstantin Tsiolkovsky
 Hermann Oberth
 Theodore von Karman
-Chuck Yeager
 Robert Noyce
-Gordon Moore
 Jack Kilby
 William Shockley
 John Bardeen
@@ -3419,39 +3244,23 @@ J. Presper Eckert
 Konrad Zuse
 Vannevar Bush
 Douglas Engelbart
-Dennis Ritchie
-Ken Thompson
 Donald Knuth
 Edsger Dijkstra
-John McCarthy
 Marvin Minsky
-Geoffrey Hinton
 Yann LeCun
 Yoshua Bengio
-Fei-Fei Li
 Vint Cerf
-Bob Kahn
 Radia Perlman
 Barbara Liskov
-Frances Allen
-Andrew Wiles
 Grigori Perelman
-Terence Tao
 Maryam Mirzakhani
 Paul Erdos
 Kurt Godel
-Alonzo Church
-Bertrand Russell
-Alfred North Whitehead
 Henri Lebesgue
 Emil Artin
-Andre Weil
 Alexander Grothendieck
-John Nash
 Benoit Mandelbrot
-Edward Lorenz
 Ilya Prigogine
-Lev Landau
 Pyotr Kapitsa
 Andrei Sakharov
 Igor Kurchatov
@@ -3468,6 +3277,149 @@ Venki Ramakrishnan
 Ahmed Zewail
 
 [Rare]
+Erwin Schrodinger | schrodinger | schrödinger
+Enrico Fermi | fermi
+Robert Hooke | hooke
+Antoine Lavoisier | lavoisier
+Linus Pauling | pauling
+Jonas Salk | salk
+Hippocrates
+Tycho Brahe | brahe
+Louis Leakey | leakey
+Mary Anning | anning
+Lise Meitner | meitner
+Mae Jemison
+Wernher von Braun | von braun
+Guglielmo Marconi | marconi
+Andre-Marie Ampere | ampere
+Gottfried Leibniz | leibniz
+Leonhard Euler | euler
+Srinivasa Ramanujan | ramanujan
+Jennifer Doudna | doudna
+Edmond Halley | halley
+Barbara McClintock | mcclintock
+Vera Rubin | rubin
+Annie Jump Cannon
+Caroline Herschel
+William Herschel | herschel
+Robert Koch | koch
+Paul Ehrlich | ehrlich
+Ivan Pavlov | pavlov
+William Harvey | harvey
+Galen
+Thales
+Joseph Priestley | priestley
+Henry Cavendish | cavendish
+Charles Lyell | lyell
+James Hutton | hutton
+Richard Dawkins | dawkins
+Stephen Jay Gould | gould
+Frederick Sanger | sanger
+Fred Hoyle | hoyle
+Kip Thorne | thorne | kip
+Roger Penrose | penrose
+Brian Greene
+Claude Shannon | shannon
+Norbert Wiener
+Pliny the Elder
+Hero of Alexandria
+Shen Kuo
+Su Song
+Roger Bacon
+Fibonacci
+William Gilbert
+Francis Bacon
+John Napier
+Giovanni Cassini
+Christopher Wren
+Stephen Hales
+Joseph-Louis Lagrange
+Pierre-Simon Laplace
+Joseph Fourier
+Sophie Germain
+Mary Somerville
+William Rowan Hamilton
+Josiah Willard Gibbs
+Christian Doppler
+Leon Foucault
+Thomas Henry Huxley
+Joseph Dalton Hooker
+Asa Gray
+Richard Owen
+Herbert Spencer
+Claude Bernard
+Hugo de Vries
+Thomas Hunt Morgan
+Pierre Curie
+J.J. Thomson
+Edward Morley
+David Hilbert
+Georg Cantor
+Felix Klein
+William Henry Bragg
+Lawrence Bragg
+Arthur Compton
+Freeman Dyson
+Edward Teller
+Otto Hahn
+James Chadwick
+Ernest Walton
+Ernest Lawrence
+Luis Alvarez
+Walter Alvarez
+Owen Chamberlain
+Ernst Chain
+Oswald Avery
+Maurice Wilkins
+Sydney Brenner
+Francois Jacob
+Paul Berg
+Herbert Boyer
+Stanley Cohen
+Francis Collins
+Feng Zhang
+Elizabeth Blackburn
+May-Britt Moser
+Oliver Sacks
+Sigmund Freud
+Carl Jung
+Margaret Mead
+Franz Boas
+Sylvia Earle
+Luther Burbank
+John Muir
+Aldo Leopold
+Michel Mayor
+Brian Schmidt
+Rainer Weiss
+Frank Drake
+Nancy Grace Roman
+Margaret Hamilton
+Dorothy Vaughan
+Gladys West
+Neil Armstrong
+Buzz Aldrin
+Chuck Yeager
+Gordon Moore
+Dennis Ritchie
+Ken Thompson
+John McCarthy
+Geoffrey Hinton
+Fei-Fei Li
+Bob Kahn
+Frances Allen
+Andrew Wiles
+Terence Tao
+Alonzo Church
+Bertrand Russell
+Alfred North Whitehead
+Andre Weil
+John Nash
+Edward Lorenz
+Lev Landau
+
+[Schooler]
+Galileo Galilei | galileo
 Thomas Edison | edison
 Louis Pasteur | pasteur
 Nicolaus Copernicus | copernicus
@@ -3480,17 +3432,63 @@ Johannes Kepler | kepler
 Michael Faraday | faraday
 Carl Sagan | sagan
 Jane Goodall | goodall
-Alexander Graham Bell | graham bell
 Robert Oppenheimer | oppenheimer | j robert oppenheimer
 Leonardo da Vinci | da vinci
 Niels Bohr | bohr
 Dmitri Mendeleev | mendeleev
 Max Planck | planck
 Edwin Hubble | hubble
-
-[Schooler]
-Nikola Tesla | tesla
-Stephen Hawking | hawking
+Richard Feynman | feynman
+Werner Heisenberg | heisenberg
+Ernest Rutherford | rutherford
+James Clerk Maxwell | maxwell
+Paul Dirac | dirac
+Robert Boyle | boyle
+John Dalton | dalton
+Alfred Nobel | nobel
+Ada Lovelace | lovelace
+Alan Turing | turing
+Grace Hopper | hopper
+Rachel Carson | carson
+James Watson | watson
+Francis Crick | crick
+Edward Jenner | jenner
+Joseph Lister | lister
+Florence Nightingale | nightingale
+Euclid
+Ptolemy
+Carl Linnaeus | linnaeus
+Alexander von Humboldt | humboldt
+Alfred Russel Wallace | wallace
+Henrietta Lacks
+Katherine Johnson
+Dorothy Hodgkin | hodgkin
+Sally Ride
+George Washington Carver | carver
+Percy Julian
+Robert Goddard | goddard
+Alessandro Volta | volta
+Georg Ohm | ohm
+James Watt | watt
+Heinrich Hertz | hertz
+Anders Celsius | celsius
+Daniel Fahrenheit | fahrenheit
+Lord Kelvin | kelvin | william thomson
+Blaise Pascal | pascal
+Rene Descartes | descartes
+Carl Friedrich Gauss | gauss
+John von Neumann | von neumann
+Tim Berners-Lee | berners-lee
+Peter Higgs | higgs
+Max Born | born
+John Ray
+Joseph Black
+Thomas Young
+Joseph Henry
+Charles Best
+William James
+Robert Wilson
+Mary Jackson
 
 [Too Clever]
 Bill Nye
@@ -3502,7 +3500,9 @@ Albert Einstein | einstein
 Isaac Newton | newton
 Charles Darwin | darwin
 Marie Curie | curie | madame curie
-Galileo Galilei | galileo
+Nikola Tesla | tesla
+Stephen Hawking | hawking
+Alexander Graham Bell | graham bell
 
 [Not accepted]
 Frankenstein
@@ -3527,76 +3527,8 @@ prompt: Name a clothing or fashion brand
 Von Dutch
 
 [Deep Cut]
-Patagonia
-Hermes | hermès
-Dior | christian dior
-Burberry
-Armani | giorgio armani
-Dolce & Gabbana | dolce and gabbana | d&g
-Fendi
-Balenciaga
-Givenchy
-Valentino | valentino garavani
-Saint Laurent | ysl | yves saint laurent
-Off-White | off white
-Supreme
-Stussy
-Carhartt | carhartt wip
-Columbia
-Uniqlo
-Shein
-J.Crew | j crew
-Express
-Guess
-Michael Kors
-Coach
-Kate Spade
-Tory Burch
-Marc Jacobs
-Victoria's Secret | victorias secret
-Aeropostale
-Urban Outfitters
-Anthropologie
-Free People
-Lucky Brand
-Wrangler
-Lee
-Dickies
-Reebok
-New Balance
-Fila
-Skechers
-Timberland
-Dr. Martens | doc martens
-UGG | uggs
 Gymshark
-Athleta
 Fabletics
-Alo
-Vineyard Vines
-Brooks Brothers
-Hugo Boss | boss | hugo
-Lacoste
-Fred Perry
-Ben Sherman
-Diesel
-True Religion
-Ed Hardy
-Juicy Couture
-Bape | a bathing ape
-Kith
-Fear of God
-Yeezy | yeezy gap
-Jordan | air jordan | jordan brand | nike air jordan
-Quiksilver
-Billabong
-Roxy
-Hurley
-Rip Curl
-O'Neill
-Volcom
-Oakley
-Ray-Ban | rayban
 Loewe
 Celine
 Bottega Veneta
@@ -3609,59 +3541,37 @@ Ferragamo | salvatore ferragamo
 Brunello Cucinelli
 Loro Piana
 Zegna | ermenegildo zegna
-Tom Ford
-Alexander McQueen | mcqueen
-Stella McCartney
 Vivienne Westwood
-Paul Smith
 Mulberry
 Barbour
 Belstaff
 Moncler
-Canada Goose
 Arc'teryx | arcteryx
 Mammut
 Fjallraven | fjällräven
-Rag & Bone
-Vince
-Reformation
 Everlane
 Madewell
 Aritzia
-Mango
 Massimo Dutti
-Pull & Bear
 Bershka
 Topshop
 Primark
-Marks & Spencer | m&s
 Superdry
-Jack Wills
-Ted Baker
 AllSaints | all saints
-Acne Studios
-COS
 Arket
-Weekday
 Monki
 Muji
-Rick Owens
 Comme des Garcons | comme des garçons | cdg
 Issey Miyake
 Yohji Yamamoto
 Kenzo
 Balmain
 Lanvin
-Chloe | chloé
 Jacquemus
 Isabel Marant
 Maison Margiela | margiela
-Palm Angels
 Amiri
 Rhude
-Golden Goose
-Represent
-Kappa
 Umbro
 Le Coq Sportif
 Ellesse
@@ -3672,33 +3582,23 @@ Mizuno
 Hoka
 Salomon
 Merrell
-Keen
 Teva
 Chaco
 Birkenstock
 Sperry
 Sorel
-Hunter
 L.L.Bean | ll bean
-Lands' End | lands end
-Eddie Bauer
 Duluth Trading
 Pendleton
 Woolrich
 Filson
 Stetson
 Kangol
-New Era
 A.P.C.
-Acne
 Agolde
 Alaia
-Alexander Wang
-Alice + Olivia
 Altuzarra
-Ami Paris
 Anine Bing
-Ann Taylor
 Anna Sui
 Aquazzura
 Ariat
@@ -3711,29 +3611,21 @@ BCBG | bcbgmaxazria
 Bebe
 Benetton | united colors of benetton
 Betsey Johnson
-Billionaire Boys Club
 Blundstone
 Boden
 Bonobos
 Boohoo
-Buck Mason
-Burton
 Cacharel
 Canali
-Carolina Herrera
 Catherine Malandrino
 Chaps
 Charles Tyrwhitt
 Chico's
 Christian Louboutin | louboutin
 Christian Lacroix
-Christopher Kane
-Citizens of Humanity
 Clarks
-Club Monaco
 Cole Haan
 Coogi
-Cotton On
 Cynthia Rowley
 Dainese
 DKNY
@@ -3741,17 +3633,14 @@ Donna Karan
 Dries Van Noten
 Ecko | ecko unltd
 Elie Saab
-Eileen Fisher
 Emilio Pucci
 Emporio Armani
 Erdem
 Esprit
 Eton
 Faherty
-Fashion Nova
 Finisterre
 FUBU
-G-Star Raw | g-star
 Ganni
 Gianfranco Ferre
 Gieves & Hawkes
@@ -3761,40 +3650,27 @@ Grenson
 Haglofs
 Halston
 Hanna Andersson
-Harris Tweed
 Helly Hansen
 Helmut Lang
 Herve Leger
 Heron Preston
 Icebreaker
-Ivy Park
 J. Lindeberg
 J.W. Anderson
-Jason Wu
 Jean Paul Gaultier | gaultier
 Jil Sander
-Jimmy Choo
-Joe Fresh
-Joe's Jeans
 John Varvatos
-Johnston & Murphy
-Kenneth Cole
 Kiko Kostadinov
 L.A.M.B.
 La Perla
-Lane Bryant
 Lilly Pulitzer
-LOFT
-Louis Philippe
 Maje
 Manolo Blahnik
 Marc Ecko
 Marchesa
 Marine Serre
 Marni
-Max Mara
 MCM
-Members Only
 Missguided
 MM6
 Monse
@@ -3803,17 +3679,8 @@ Mossimo
 Mugler | thierry mugler
 Nanushka
 Nautica
-Nasty Gal
-Needles
-Nicole Miller
 Nudie Jeans
 Oscar de la Renta
-Our Legacy
-Outdoor Voices
-Paul & Joe
-Pepe Jeans
-Perry Ellis
-Phillip Lim | 3.1 phillip lim
 Pierre Cardin
 PrettyLittleThing
 Proenza Schouler
@@ -3826,21 +3693,14 @@ Rocawear
 Rodarte
 Roger Vivier
 Rothy's
-Russell Athletic
 Sacai
 Sandro
 Schiaparelli
-Scotch & Soda
-Sean John
-Self-Portrait
 Simone Rocha
 Skims
 Sonia Rykiel
 Spanx
-Starter
-Stone Island
 Stuart Weitzman
-Sweaty Betty
 Talbots
 Thom Browne
 Tibi
@@ -3848,48 +3708,27 @@ Tod's
 Tommy Bahama
 Topman
 Toms
-Tory Sport
 Trina Turk
 Ulla Johnson
-Undefeated
-Undercover
-Vera Bradley
-Vera Wang
-Veronica Beard
 Vetements
-Victoria Beckham
 Vivienne Tam
 Wales Bonner
-White House Black Market
 Wolford
-Y-3
 Zadig & Voltaire
 Zimmermann
 Brioni
 Kiton
 Berluti
-Church's
 Crockett & Jones
 John Lobb
 Allen Edmonds
-Red Wing
-Thursday Boot
-Wolverine
 Frye
-Steve Madden
 Sam Edelman
-Nine West
-Aldo
-Hey Dude
-On | on running
-Brooks Running
 Allbirds
 Veja
-Common Projects
 Onitsuka Tiger
 Karhu
 Diadora
-Lotto
 Hummel
 Joma
 Erreà
@@ -3898,29 +3737,18 @@ Castore
 Kooga
 Fenty
 Savage X Fenty
-Good American
 Aerie
 Torrid
 Gymboree
 Carter's
 OshKosh B'gosh
-Children's Place
 Janie and Jack
-Tea Collection
-River Island
-New Look
-Dorothy Perkins
 Miss Selfridge
-Whistles
-Hobbs
 Jigsaw
 FatFace
-White Stuff
 Seasalt
 Joules
-Crew Clothing
 Hackett
-Lyle & Scott
 Pringle of Scotland
 Johnstons of Elgin
 Aquascutum
@@ -3928,50 +3756,27 @@ Dunhill
 Turnbull & Asser
 Kurt Geiger
 Russell & Bromley
-Hotter
-Palace
 Corteiz
 Trapstar
 Hellstar
-Chrome Hearts
-Gallery Dept.
 Sp5der
-Eric Emanuel
 Aimé Leon Dore
-Noah
-Awake NY
-Brain Dead
-Online Ceramics
-Human Made
 Wtaps
-Neighborhood
 Visvim
 Kapital
 Evisu
 Momotaro
-Studio D'Artisan
-Pure Blue Japan
-Iron Heart
 Mavi
-Silver Jeans
-7 for All Mankind | seven for all mankind
-AG Jeans
-Rock Revival
-Miss Me
 Cinch
 Kimes Ranch
 Resistol
-Justin Boots
-Tony Lama
 Lucchese
 Durango
 Laredo
-Ben Davis
 Red Kap
 Thorogood
 Danner
 Irish Setter
-Georgia Boot
 Muck Boot
 Bogs
 Xtratuf
@@ -3981,8 +3786,6 @@ Simms
 Orvis
 Mountain Hardwear
 Marmot
-Outdoor Research
-Black Diamond
 Rab
 Montane
 Berghaus
@@ -3991,31 +3794,175 @@ Vaude
 Ortovox
 Norrona
 Bergans
-66 North
-Peak Performance
 Kuhl
 Prana
-Toad&Co
 Cotopaxi
 Smartwool
-Darn Tough
 Bombas
+Saxx
+MeUndies
+Fredrick's of Hollywood
+Agent Provocateur
+Gant | gant rugger
+
+[Rare]
+Patagonia
+Dolce & Gabbana | dolce and gabbana | d&g
+Fendi
+Balenciaga
+Givenchy
+Stussy
+Carhartt | carhartt wip
+Uniqlo
+Shein
+J.Crew | j crew
+Michael Kors
+Tory Burch
+Aeropostale
+Urban Outfitters
+Anthropologie
+Wrangler
+Dickies
+Reebok
+Fila
+Skechers
+Timberland
+Dr. Martens | doc martens
+UGG | uggs
+Athleta
+Alo
+Lacoste
+Bape | a bathing ape
+Kith
+Yeezy | yeezy gap
+Quiksilver
+Billabong
+Volcom
+Tom Ford
+Alexander McQueen | mcqueen
+Stella McCartney
+Canada Goose
+Rag & Bone
+Vince
+Reformation
+Mango
+Pull & Bear
+Marks & Spencer | m&s
+Jack Wills
+Ted Baker
+Acne Studios
+COS
+Weekday
+Rick Owens
+Chloe | chloé
+Palm Angels
+Golden Goose
+Represent
+Kappa
+Keen
+Hunter
+Lands' End | lands end
+Eddie Bauer
+Acne
+Alexander Wang
+Alice + Olivia
+Ami Paris
+Ann Taylor
+Billionaire Boys Club
+Buck Mason
+Burton
+Carolina Herrera
+Christopher Kane
+Citizens of Humanity
+Club Monaco
+Cotton On
+Eileen Fisher
+Fashion Nova
+G-Star Raw | g-star
+Harris Tweed
+Ivy Park
+Jason Wu
+Jimmy Choo
+Joe Fresh
+Joe's Jeans
+Johnston & Murphy
+Kenneth Cole
+Lane Bryant
+LOFT
+Louis Philippe
+Max Mara
+Nasty Gal
+Needles
+Nicole Miller
+Our Legacy
+Outdoor Voices
+Pepe Jeans
+Perry Ellis
+Phillip Lim | 3.1 phillip lim
+Russell Athletic
+Scotch & Soda
+Sean John
+Self-Portrait
+Starter
+Stone Island
+Sweaty Betty
+Tory Sport
+Undefeated
+Undercover
+Vera Bradley
+Vera Wang
+Veronica Beard
+Victoria Beckham
+Church's
+Red Wing
+Thursday Boot
+Wolverine
+Steve Madden
+Aldo
+Brooks Running
+Lotto
+Children's Place
+Tea Collection
+Dorothy Perkins
+Whistles
+Hobbs
+Crew Clothing
+Lyle & Scott
+Hotter
+Palace
+Chrome Hearts
+Gallery Dept.
+Eric Emanuel
+Noah
+Awake NY
+Online Ceramics
+Neighborhood
+Studio D'Artisan
+Pure Blue Japan
+Silver Jeans
+7 for All Mankind | seven for all mankind
+AG Jeans
+Rock Revival
+Justin Boots
+Tony Lama
+Ben Davis
+Georgia Boot
+Outdoor Research
+Black Diamond
+66 North
+Peak Performance
+Toad&Co
+Darn Tough
 Stance
 Happy Socks
 Tommy John
-Saxx
-MeUndies
 Jockey
-Fredrick's of Hollywood
-Agent Provocateur
-Theory | theory clothing
 Paige | paige denim
-Gant | gant rugger
 Rails | rails clothing
 Joseph | joseph fashion
-Equipment | equipment femme
 
-[Rare]
+[Schooler]
+Levi's | levis | levi
 Under Armour | under armor
 Puma
 Louis Vuitton | lv
@@ -4031,16 +3978,67 @@ American Eagle
 Abercrombie & Fitch | abercrombie | abercrombie and fitch
 Hollister
 Lululemon | lululemon athletica
-The North Face | north face
 Champion
 Vans
 Converse
 Banana Republic
 Gildan
-
-[Schooler]
-Levi's | levis | levi
-Ralph Lauren | polo | polo ralph lauren | rl
+Hermes | hermès
+Dior | christian dior
+Burberry
+Armani | giorgio armani
+Valentino | valentino garavani
+Saint Laurent | ysl | yves saint laurent
+Off-White | off white
+Supreme
+Columbia
+Express
+Guess
+Coach
+Kate Spade
+Marc Jacobs
+Victoria's Secret | victorias secret
+Free People
+Lucky Brand
+Lee
+New Balance
+Vineyard Vines
+Brooks Brothers
+Hugo Boss | boss | hugo
+Fred Perry
+Ben Sherman
+Diesel
+True Religion
+Ed Hardy
+Juicy Couture
+Fear of God
+Jordan | air jordan | jordan brand | nike air jordan
+Roxy
+Hurley
+Rip Curl
+O'Neill
+Oakley
+Ray-Ban | rayban
+Paul Smith
+New Era
+Members Only
+Paul & Joe
+White House Black Market
+Y-3
+Nine West
+Hey Dude
+On | on running
+Common Projects
+Good American
+River Island
+New Look
+White Stuff
+Brain Dead
+Human Made
+Iron Heart
+Miss Me
+Theory | theory clothing
+Equipment | equipment femme
 
 [Too Clever]
 Fruit of the Loom
@@ -4053,6 +4051,8 @@ Adidas
 Gucci
 Gap
 Old Navy
+Ralph Lauren | polo | polo ralph lauren | rl
+The North Face | north face
 
 [Not accepted]
 Target
@@ -4078,78 +4078,14 @@ prompt: Name an item of clothing
 Cummerbund
 
 [Deep Cut]
-Cardigan
-Blazer
-Tuxedo | tux
-Bow tie | bowtie
-Raincoat
-Parka
-Poncho
-Windbreaker
-Trench coat | trench
 Peacoat
-Robe | bathrobe
-Slippers
-Flip-flops | flip flops
-High heels | heels | stilettos
-Loafers
-Flats
-Clogs
-Moccasins
-Cowboy boots
-Rain boots | galoshes | wellies | wellingtons
-Turtleneck
-Crop top
-Camisole | cami
-Tube top
-Halter top | halter
-Romper
-Jumpsuit
-Sundress
-Gown | ball gown | evening gown
-Sarong
-Kimono
-Sari | saree
-Apron
-Uniform
-Briefs
-Thong
-Lingerie
-Corset
-Slip
-Stockings
-Tights | pantyhose
-Leg warmers
-Headband
-Bandana
-Fedora
-Beret
-Cowboy hat
-Top hat
-Sun hat
-Visor
-Earmuffs
-Balaclava | ski mask
-Suspenders | braces
-Cargo pants
-Capris | capri pants
-Chinos | khakis
-Culottes
 Skort
-Bodysuit
 Unitard
-Leotard
-Wetsuit
-Bermuda shorts
-Board shorts
 Ascot
 Cravat
 Waistcoat
-Dinner jacket
-Morning coat
 Tailcoat
 Frock coat
-Smoking jacket
 Duster
 Anorak
 Cagoule
@@ -4157,11 +4093,8 @@ Gilet
 Bolero
 Shrug
 Shawl
-Stole
 Pashmina
-Cape
 Cloak
-Mantle
 Caftan | kaftan
 Dashiki
 Muumuu
@@ -4179,7 +4112,6 @@ Hijab
 Turban
 Fez
 Bowler hat | derby
-Panama hat
 Trilby
 Boater
 Pith helmet
@@ -4204,8 +4136,6 @@ Mary Janes
 Oxfords
 Brogues
 Wingtips
-Chelsea boots
-Platform shoes
 Wedges
 Mules
 Huaraches
@@ -4215,77 +4145,39 @@ Jabot
 Dickey
 Spanx
 Henley
-Rugby shirt
 Guayabera
-Hawaiian shirt | aloha shirt
-Opera gloves
-Kid gloves
 Fingerless gloves
 Arm warmers
-Leg sleeves
 Puffer jacket | puffer
-Down jacket
-Bomber jacket
-Varsity jacket | letterman jacket
-Leather jacket
 Denim jacket | jean jacket
 Biker jacket
-Field jacket
 Safari jacket
 Nehru jacket
 Mao suit
-Sport coat | sports jacket
 Overcoat
 Topcoat
 Greatcoat
-Car coat
 Duffle coat
 Chesterfield coat
 Mackintosh | mac
 Fleece | fleece jacket
-Quarter-zip
 Shacket | shirt jacket
 Chore coat
-Barn jacket
 Harrington jacket
-Track jacket
 Tracksuit
-Shell suit
-Track pants
 Parachute pants
 Palazzo pants
-Wide-leg pants
 Bell-bottoms | flares
-Skinny jeans
 Bootcut jeans
-Mom jeans
-Boyfriend jeans
 Cutoffs | jorts | jean shorts
-Hot pants
-Bike shorts
-Running shorts
-Cargo shorts
-Gym shorts
 Hakama pants
 Harem pants
 Dungarees
 Coveralls
-Boiler suit
 Pinafore
-Shift dress
-Wrap dress
 Sheath dress
-Slip dress
 Maxi dress
 Midi dress
-Mini dress
-Cocktail dress
-Wedding dress
-Prom dress
-Little black dress
-Sweater dress
-Shirt dress
-Tea dress
 Peasant blouse
 Tunic
 Smock
@@ -4318,7 +4210,6 @@ Niqab
 Shayla
 Tichel
 Mantilla
-Veil
 Wimple
 Mortarboard
 Graduation gown
@@ -4326,108 +4217,53 @@ Toque
 Chef's hat
 Chef's coat
 Scrubs
-Lab coat
-Hospital gown
 Hi-vis vest | high-visibility vest
 Tutu
-Dance shoes
 Ballet slippers | ballet flats
 Pointe shoes
-Tap shoes
-Jazz shoes
-Bowling shoes
-Golf shoes
-Hiking boots
-Combat boots
-Desert boots
 Chukka boots
-Work boots
-Snow boots
-Moon boots
 Ugg boots
-Riding boots
-Knee-high boots
-Thigh-high boots
-Go-go boots
-Ankle boots
 Booties
-Duck boots
 Sliders | slides
-Jelly shoes | jellies
-Boat shoes
-Deck shoes
 Driving moccasins
 Penny loafers
 Monk straps
-Derby shoes
-Dress shoes
 Kitten heels
-Pumps
 Slingbacks
 Peep-toes
-Platforms
 Gladiator sandals
 Birkenstocks
 Tevas
-Water shoes
-Toe shoes
-High-tops
 Slip-ons
 Plimsolls
-Canvas shoes
-Skate shoes
-Basketball shoes
-Ankle socks
-Knee socks
-Crew socks
-No-show socks
-Toe socks
-Compression socks
 Fishnets
 Nylons
 Thigh-highs
 Garter belt
-Bra top
-Sports bra
 Bralette
-Push-up bra
 Strapless bra
 Corselette
 Basque
-Teddy
 Negligee
 Nightgown | nightie
 Chemise
 Babydoll
-Dressing gown
-Smoking cap
 Nightcap
-Long johns | thermal underwear
-Union suit
 Undershirt
 Wifebeater
 Boxer briefs
 Trunks
 Jockstrap
 Bikini briefs
-Panties
 Knickers
 Boyshorts
-G-string
 Shapewear
 Swim trunks
 Speedo
-Rash guard
-One-piece | one-piece swimsuit
 Tankini
 Monokini
 Burkini
-Swim cap
-Cover-up
 Pareo
-Wrap skirt
-Pencil skirt
-A-line skirt
 Pleated skirt
 Miniskirt
 Maxi skirt
@@ -4443,27 +4279,20 @@ Pickelhaube
 Stahlhelm
 Tricorn | tricorne
 Bicorne
-Mob cap
 Bonnet
 Sunbonnet
 Coif
 Cowl
 Headscarf
 Durag
-Wave cap
 Headwrap
 Gele
 Snapback
 Trucker hat
-Dad hat
-Fitted cap
-Bucket hat
 Boonie hat
-Fishing hat
 Sombrero
 Akubra
 Homburg
-Pork pie hat
 Newsboy cap | flat cap | ivy cap
 Gatsby cap
 Bobble hat | pom-pom hat
@@ -4477,59 +4306,36 @@ Muffler
 Cable-knit sweater
 Fair Isle sweater
 Aran sweater
-Ugly Christmas sweater
 Sweater vest
 Twinset
 Pullover
 Zip-up hoodie
 Fleece vest
 Puffer vest
-Muscle shirt
-Long-sleeve shirt
-Button-down | button-up shirt | dress shirt
-Oxford shirt
 Flannel shirt | flannel
 Chambray shirt
 Denim shirt
-Jersey shirt
-Graphic tee
-Baseball tee
 Ringer tee
-Off-the-shoulder top
 Peplum top
-Wrap top
-Tie-front top
 Corset top
 Bandeau
 Bustier top
 Sleeveless top
 Capelet
 Rain poncho
-Rain jacket
-Ski jacket
-Ski pants
-Snow pants
 Bib snow pants
 Snowsuit
-Flight suit
-Space suit
 Drysuit
 Hazmat suit
 Zoot suit
-Leisure suit
-Three-piece suit
 Double-breasted suit
 Pantsuit
-Skirt suit
-Business suit
 Footie pajamas
 Diaper | nappy
 Christening gown
 Bolo tie
-String tie
 Neckerchief
 Kerchief
-Hood
 Ruff
 Doublet
 Codpiece
@@ -4538,14 +4344,166 @@ Bustle
 Hoop skirt
 Cassock
 Surplice
-Habit
 Mitre
 Sporran
 Sash
-Pocket square
 Cufflinks
 
 [Rare]
+Raincoat
+Parka
+Poncho
+Windbreaker
+Loafers
+Clogs
+Moccasins
+Turtleneck
+Camisole | cami
+Halter top | halter
+Romper
+Sundress
+Sarong
+Leg warmers
+Bandana
+Earmuffs
+Balaclava | ski mask
+Suspenders | braces
+Capris | capri pants
+Chinos | khakis
+Culottes
+Bodysuit
+Leotard
+Wetsuit
+Dinner jacket
+Morning coat
+Smoking jacket
+Stole
+Cape
+Mantle
+Panama hat
+Chelsea boots
+Platform shoes
+Rugby shirt
+Hawaiian shirt | aloha shirt
+Opera gloves
+Kid gloves
+Leg sleeves
+Down jacket
+Bomber jacket
+Varsity jacket | letterman jacket
+Leather jacket
+Field jacket
+Sport coat | sports jacket
+Car coat
+Quarter-zip
+Barn jacket
+Track jacket
+Shell suit
+Track pants
+Wide-leg pants
+Skinny jeans
+Mom jeans
+Boyfriend jeans
+Hot pants
+Bike shorts
+Running shorts
+Cargo shorts
+Gym shorts
+Boiler suit
+Shift dress
+Wrap dress
+Slip dress
+Mini dress
+Cocktail dress
+Wedding dress
+Prom dress
+Sweater dress
+Shirt dress
+Tea dress
+Veil
+Lab coat
+Hospital gown
+Dance shoes
+Tap shoes
+Jazz shoes
+Bowling shoes
+Golf shoes
+Hiking boots
+Combat boots
+Desert boots
+Work boots
+Snow boots
+Moon boots
+Riding boots
+Knee-high boots
+Thigh-high boots
+Go-go boots
+Ankle boots
+Duck boots
+Jelly shoes | jellies
+Boat shoes
+Deck shoes
+Derby shoes
+Dress shoes
+Pumps
+Platforms
+Toe shoes
+High-tops
+Canvas shoes
+Skate shoes
+Basketball shoes
+Ankle socks
+Knee socks
+Crew socks
+No-show socks
+Toe socks
+Compression socks
+Bra top
+Sports bra
+Push-up bra
+Teddy
+Dressing gown
+Smoking cap
+Long johns | thermal underwear
+Panties
+G-string
+Rash guard
+Swim cap
+Wrap skirt
+Pencil skirt
+A-line skirt
+Mob cap
+Wave cap
+Dad hat
+Fitted cap
+Bucket hat
+Fishing hat
+Pork pie hat
+Ugly Christmas sweater
+Muscle shirt
+Long-sleeve shirt
+Oxford shirt
+Jersey shirt
+Graphic tee
+Baseball tee
+Off-the-shoulder top
+Wrap top
+Tie-front top
+Rain jacket
+Ski jacket
+Ski pants
+Snow pants
+Flight suit
+Leisure suit
+Three-piece suit
+Skirt suit
+String tie
+Hood
+Habit
+Pocket square
+
+[Schooler]
+Socks
 Shorts
 Skirt
 Sweater | jumper
@@ -4576,11 +4534,51 @@ Bikini
 Beanie
 Baseball cap | cap
 Overalls
-
-[Schooler]
-Hat
-Dress
-Jacket
+Cardigan
+Blazer
+Tuxedo | tux
+Bow tie | bowtie
+Trench coat | trench
+Robe | bathrobe
+Slippers
+Flip-flops | flip flops
+High heels | heels | stilettos
+Flats
+Cowboy boots
+Rain boots | galoshes | wellies | wellingtons
+Crop top
+Tube top
+Jumpsuit
+Gown | ball gown | evening gown
+Kimono
+Sari | saree
+Apron
+Uniform
+Briefs
+Thong
+Lingerie
+Corset
+Slip
+Stockings
+Tights | pantyhose
+Headband
+Fedora
+Beret
+Cowboy hat
+Top hat
+Sun hat
+Visor
+Cargo pants
+Bermuda shorts
+Board shorts
+Little black dress
+Water shoes
+Union suit
+One-piece | one-piece swimsuit
+Cover-up
+Button-down | button-up shirt | dress shirt
+Space suit
+Business suit
 
 [Too Clever]
 Kilt
@@ -4597,8 +4595,10 @@ Jewelry
 Shirt | t-shirt | tshirt | tee
 Pants | trousers
 Jeans
-Socks
 Shoes
+Hat
+Dress
+Jacket
 
 [Not accepted]
 Towel
@@ -4611,3 +4611,4 @@ Tablecloth
 Rug
 Tent
 Sleeping bag
+

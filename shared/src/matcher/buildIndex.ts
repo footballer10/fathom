@@ -5,7 +5,7 @@ import { compact, normalize } from "./normalize";
 
 /**
  * A question's precompiled answer index. Built once at seed/import time and
- * stored as plain JSON in KV under `qidx:<questionId>`, so the Worker never
+ * stored as plain JSON in KV under `qidx2:<questionId>`, so the Worker never
  * has to normalize hundreds of aliases on a guess.
  */
 export interface AnswerIndex {
@@ -54,6 +54,38 @@ function permutations<T>(items: T[]): T[][] {
   return out;
 }
 
+/** Words that name a kind of thing rather than the thing itself ("dog breed" → "dog"). */
+const GENERIC_HEADS = new Set([
+  "breed", "brand", "model", "type", "kind", "variety", "term", "game", "character", "title", "name",
+  "series", "franchise", "move", "trick", "event", "position", "part", "piece", "member", "winner",
+]);
+/** Words after which the rest of a phrase only narrows it down ("country in Africa" → "country"). */
+const CUT_BEFORE = /\s(?:in|from|on|at|with|that|which|who|whose|you|people|for|by|starring|ending|beginning|made|used|grown|sold|found|played|celebrated|than|through|like)\s.*$/;
+
+/**
+ * The noun(s) a prompt asks for, normalized: "Name a type of cheese" → ["cheese"],
+ * "Name a chili pepper or sweet pepper" → ["pepper"], "Name a dog breed" → ["dog"].
+ * Used so "blue" matches "Blue cheese" and "blue cheese" matches "Blue".
+ */
+export function promptHeads(prompt: string | undefined): string[] {
+  if (!prompt) return [];
+  const body = normalize(prompt.replace(/\(.*?\)/g, " ").replace(/^\s*name\s+(?:an?|the|one|any)?\s*/i, ""));
+  const heads = new Set<string>();
+  for (let seg of body.split(/\s(?:or|and)\s|,/)) {
+    seg = seg.trim();
+    if (!seg) continue;
+    // "type of cheese" → "cheese"; "part of a car" → "car"
+    const of = seg.lastIndexOf(" of ");
+    if (of >= 0) seg = seg.slice(of + 4);
+    seg = seg.replace(CUT_BEFORE, "").trim();
+    const words = seg.split(" ").filter((w) => w && !["a", "an", "the", "famous", "common", "popular", "classic"].includes(w));
+    let head = words[words.length - 1];
+    if (head && GENERIC_HEADS.has(head) && words.length > 1) head = words[words.length - 2];
+    if (head && head.length >= 3 && !GENERIC_HEADS.has(head)) heads.add(head);
+  }
+  return [...heads];
+}
+
 export function buildIndex(q: IndexableQuestion): AnswerIndex {
   const index: AnswerIndex = {
     questionId: q.id,
@@ -82,6 +114,28 @@ export function buildIndex(q: IndexableQuestion): AnswerIndex {
     index.answers.push({ id: ans.id ?? answerId(q.id, a), canonical: ans.text, tier: ans.tier });
     for (const raw of [ans.text, ...(ans.aliases ?? [])]) addForm(compact(normalize(raw)), a, true);
   });
+
+  // The thing the prompt asks for is optional: for "Name a type of cheese", "blue"
+  // matches "Blue cheese" and "blue cheese" matches "Blue". Added after every
+  // real spelling, so a short form never takes over another answer's.
+  const heads = promptHeads(q.prompt);
+  if (heads.length) {
+    const near = new Set((q.nearMisses ?? []).map((m) => compact(normalize(m))));
+    q.answers.forEach((ans, a) => {
+      for (const raw of [ans.text, ...(ans.aliases ?? [])]) {
+        const words = normalize(raw).split(" ").filter(Boolean);
+        for (const head of heads) {
+          const extra: string[] = [];
+          if (words.length > 1 && words[words.length - 1] === head) extra.push(words.slice(0, -1).join(""));
+          else if (words[words.length - 1] !== head) extra.push(words.join("") + head);
+          for (const form of extra) {
+            if (form.length < 3 || form in index.exact || near.has(form)) continue;
+            addForm(form, a, true);
+          }
+        }
+      }
+    });
+  }
 
   // Word-order swaps for 2–3 word forms, added after all primary forms so they
   // never shadow another answer's real spelling.

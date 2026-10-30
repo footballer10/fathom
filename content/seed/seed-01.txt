@@ -1,5 +1,4 @@
 // Seed bank, batch 1. Plain-text format (see SPEC.md §5). `npm run content:build` compiles these to JSON.
-
 # QUESTION
 id: q0001
 pool: unlimited
@@ -11,56 +10,22 @@ note: Botanical edge cases (tomato, avocado, cucumber, pepper) count as Too Clev
 Jabuticaba | jaboticaba | brazilian grape tree
 
 [Deep Cut]
-Persimmon | persimon | sharon fruit
-Gooseberry | goosberry
-Lychee | litchi | lichee | lichi
-Guava
-Kumquat | cumquat
-Passion fruit | passionfruit | maracuya
-Jackfruit | jack fruit
-Elderberry | elder berry
-Boysenberry
-Star fruit | starfruit | carambola
-Nectarine | nectarene
-Date
-Fig
-Cranberry | cranbery
-Pomegranate | pomegranite | pomagranate
-Currant | blackcurrant | redcurrant | black currant
-Plantain
-Blood orange
-Clementine | cutie
-Tangerine | mandarin | mandarine
-Olive
-Rhubarb
-Apple pear
-Sultana
-Dried apricot
 Cherimoya | custard apple | chirimoya
 Salak | snake fruit
 Rambutan | rambootan
 Mangosteen | mangostene
 Feijoa | pineapple guava
-Durian | durion
 Loquat | loquot
-Tamarind | tamarindo
 Ugli fruit | ugli | uglifruit
 Longan | dragon eye
 Medlar
 Soursop | guanabana | graviola
-Quince
 Kiwano | horned melon
 Physalis | ground cherry | cape gooseberry | goldenberry
 Pawpaw | asimina
-Acai | acai berry | açaí
-Breadfruit
 Ackee | akee
-Yuzu
 Sapodilla | chikoo | chico
-Huckleberry
-Mulberry | mulbery
 Pomelo | pummelo
-Buddha's hand
 Marionberry
 Lingonberry | cowberry
 Cupuacu
@@ -81,30 +46,17 @@ Lucuma
 Pitanga | surinam cherry
 Acerola | barbados cherry
 Camu camu
-Miracle fruit | miracle berry
-Ice cream bean
 Monstera deliciosa | monstera fruit
 Bael | wood apple
 Kokum
-Amla | indian gooseberry
 Karonda
 Jamun | java plum
-Wax apple | rose apple | jambu
 Atemoya
-Sugar apple | sweetsop
 Pulasan
 Mangaba
-Cashew apple
-Noni
 Kepel
-Gac
 Bignay
 Calamansi | calamondin
-Finger lime
-Kaffir lime | makrut lime
-Key lime
-Bergamot
-Citron
 Sudachi
 Kabosu
 Dekopon | sumo citrus
@@ -114,7 +66,6 @@ Naranjilla | lulo
 Tamarillo | tree tomato
 Babaco
 Wolfberry | goji | goji berry
-Sea buckthorn
 Serviceberry | saskatoon berry | juneberry
 Chokeberry | aronia
 Chokecherry
@@ -126,9 +77,7 @@ Tayberry
 Wineberry
 Barberry
 Crowberry
-Rowan berry | rowanberry
 Hackberry
-Sloe | blackthorn
 Damson
 Greengage
 Mirabelle
@@ -136,28 +85,18 @@ Pluot
 Plumcot
 Aprium
 Tangelo
-Satsuma
 Minneola
 Kinnow
-Blood lime
 Muskmelon
 Galia melon
 Casaba melon | casaba
-Crenshaw melon
-Canary melon
-Bitter orange | seville orange
-Asian pear | nashi pear | nashi
-Crab apple | crabapple
 Muscadine
 Scuppernong
 Whitecurrant
 Bearberry
-Juniper berry
 Maqui berry
-Hala fruit | pandanus fruit
 Pequi
 Buriti
-Strawberry guava
 Kiwiberry | hardy kiwi
 Banana passionfruit
 Granadilla
@@ -165,6 +104,65 @@ Maypop
 Chempedak | cempedak
 
 [Rare]
+Persimmon | persimon | sharon fruit
+Gooseberry | goosberry
+Lychee | litchi | lichee | lichi
+Guava
+Kumquat | cumquat
+Jackfruit | jack fruit
+Elderberry | elder berry
+Boysenberry
+Nectarine | nectarene
+Cranberry | cranbery
+Pomegranate | pomegranite | pomagranate
+Currant | blackcurrant | redcurrant | black currant
+Plantain
+Clementine | cutie
+Tangerine | mandarin | mandarine
+Rhubarb
+Apple pear
+Sultana
+Dried apricot
+Durian | durion
+Tamarind | tamarindo
+Quince
+Acai | acai berry | açaí
+Breadfruit
+Yuzu
+Huckleberry
+Mulberry | mulbery
+Buddha's hand
+Miracle fruit | miracle berry
+Ice cream bean
+Amla | indian gooseberry
+Wax apple | rose apple | jambu
+Sugar apple | sweetsop
+Cashew apple
+Noni
+Gac
+Finger lime
+Kaffir lime | makrut lime
+Key lime
+Bergamot
+Citron
+Sea buckthorn
+Rowan berry | rowanberry
+Sloe | blackthorn
+Satsuma
+Blood lime
+Crenshaw melon
+Canary melon
+Bitter orange | seville orange
+Asian pear | nashi pear | nashi
+Crab apple | crabapple
+Juniper berry
+Hala fruit | pandanus fruit
+Strawberry guava
+
+[Schooler]
+Grape | concord grape | red grape | green grape
+Watermelon | water melon
+Pineapple | pine apple | pinapple
 Apricot
 Cantaloupe | cantelope | cantaloup | rockmelon
 Honeydew | honeydew melon | honey dew
@@ -183,13 +181,12 @@ Melon
 Prune
 Raisin
 Kiwis
-
-[Schooler]
-Watermelon | water melon
-Pineapple | pine apple | pinapple
-Cherry
-Peach
-Lemon
+Passion fruit | passionfruit | maracuya
+Star fruit | starfruit | carambola
+Date
+Fig
+Blood orange
+Olive
 
 [Too Clever]
 Tomato | tomatoe
@@ -210,7 +207,9 @@ Apple | honeycrisp | granny smith | gala apple | fuji apple | red delicious | pi
 Banana | banan | bananna
 Orange | navel orange | valencia orange | cara cara orange
 Strawberry | strawbery
-Grape | concord grape | red grape | green grape
+Cherry
+Peach
+Lemon
 
 [Not accepted]
 Tomato sauce
@@ -237,34 +236,7 @@ note: Designer crosses (Labradoodle etc.) count as Too Clever.
 Xoloitzcuintli | xolo | xoloitzcuintle | mexican hairless
 
 [Deep Cut]
-Shar Pei | sharpei | chinese shar-pei
-Akita
-Whippet
-Bloodhound
-Mastiff | english mastiff
-Cocker Spaniel | cocker
-Cavalier King Charles Spaniel | cavalier | king charles spaniel | cavalier king charles
-Samoyed
-Weimaraner | weimeraner
-Vizsla
-Bichon Frise | bichon
-Springer Spaniel | english springer spaniel | springer
-Irish Setter | red setter
-Pointer | german shorthaired pointer
-Bullmastiff | bull mastiff
-Westie | west highland terrier | west highland white terrier
-Scottish Terrier | scottie
-Airedale | airedale terrier
-Old English Sheepdog | sheepdog
-Cattle dog | australian cattle dog | blue heeler | heeler | red heeler
-Pekingese | pekinese
-Boston Terrier
-Miniature Pinscher | min pin
-Great Pyrenees | pyrenees
-Malamute | alaskan malamute
-American Bulldog
 Olde English Bulldogge
-German Pinscher
 Basenji
 Komondor
 Puli
@@ -275,15 +247,12 @@ Keeshond
 Lhasa Apso | lhasa
 Briard
 Saluki
-Afghan Hound | afghan
 Irish Wolfhound | wolfhound
 Bedlington Terrier | bedlington
 Otterhound
-Pharaoh Hound
 Rhodesian Ridgeback | ridgeback
 Tibetan Mastiff
 Norwegian Elkhound | elkhound
-Bull Terrier | english bull terrier
 Schipperke
 Papillon
 Affenpinscher
@@ -295,35 +264,13 @@ Kooikerhondje
 Catahoula | catahoula leopard dog
 Dogue de Bordeaux | french mastiff
 Shetland Sheepdog | sheltie | shetland sheep dog
-Brittany | brittany spaniel
-English Setter
-Gordon Setter
-Irish Red and White Setter
-Chesapeake Bay Retriever | chessie
-Flat-Coated Retriever
-Curly-Coated Retriever
 Nova Scotia Duck Tolling Retriever | toller | duck toller
-Portuguese Water Dog
 Anatolian Shepherd | anatolian shepherd dog | kangal
-Dutch Shepherd
 Australian Kelpie | kelpie
-Staffordshire Bull Terrier | staffy | staffordshire terrier
-American Staffordshire Terrier | amstaff
-American Bully
-Cairn Terrier | cairn
-Border Terrier
 Soft-Coated Wheaten Terrier | wheaten terrier | wheaten
-Kerry Blue Terrier
-Fox Terrier | wire fox terrier | smooth fox terrier
-Rat Terrier
-Toy Fox Terrier
-Italian Greyhound
-Chinese Crested
-Japanese Chin
 Brussels Griffon | griffon bruxellois
 Jindo | korean jindo
 Pyrenean Mastiff
-Greater Swiss Mountain Dog | swissy
 Entlebucher Mountain Dog | entlebucher
 Appenzeller Sennenhund | appenzeller
 Landseer
@@ -344,7 +291,6 @@ Black and Tan Coonhound
 American Foxhound
 English Foxhound
 Foxhound
-Harrier
 Petit Basset Griffon Vendeen | pbgv
 Grand Basset Griffon Vendeen
 Spinone Italiano | spinone
@@ -352,46 +298,25 @@ German Wirehaired Pointer
 Pudelpointer
 Lagotto Romagnolo | lagotto
 Barbet
-Spanish Water Dog
-Field Spaniel
-Sussex Spaniel
 Clumber Spaniel
 Boykin Spaniel
-Welsh Springer Spaniel
-American Water Spaniel
-Irish Water Spaniel
 English Cocker Spaniel
 American Cocker Spaniel
-Tibetan Terrier
-Tibetan Spaniel
 Lowchen
 Bolognese
 Biewer Terrier | biewer
-Silky Terrier | australian silky terrier
-Australian Terrier
-Norfolk Terrier
-Norwich Terrier
 Sealyham Terrier
 Dandie Dinmont Terrier | dandie dinmont
-Skye Terrier
-Manchester Terrier
 Parson Russell Terrier
-Russell Terrier
 Glen of Imaal Terrier
-Lakeland Terrier
-Welsh Terrier
-Irish Terrier
 Giant Schnauzer
 Standard Schnauzer
-Miniature Bull Terrier
 Sloughi
 Azawakh
 Scottish Deerhound | deerhound
 Ibizan Hound
 Cirneco dell'Etna | cirneco
-Canaan Dog
 Thai Ridgeback
-Peruvian Inca Orchid
 Finnish Spitz
 Finnish Lapphund
 Icelandic Sheepdog
@@ -399,7 +324,6 @@ Norwegian Buhund
 Swedish Vallhund
 Norwegian Lundehund
 Eurasier
-American Eskimo Dog | american eskimo | eskie
 Alaskan Klee Kai
 Mudi
 Pumi
@@ -411,34 +335,18 @@ Belgian Sheepdog | groenendael
 Belgian Laekenois | laekenois
 Polish Lowland Sheepdog
 Pyrenean Shepherd
-Berger Picard
 Cardigan Welsh Corgi | cardigan corgi
-Bearded Collie | beardie
-Chinook
-Greenland Dog
-Canadian Eskimo Dog
-Black Russian Terrier
-Russian Toy
-Toy Poodle
-Miniature Poodle
-Standard Poodle
 Miniature Dachshund
-Miniature American Shepherd
 Australian Stumpy Tail Cattle Dog
 Lancashire Heeler
 Danish-Swedish Farmdog
 Hovawart
-Kai Ken
 Kishu Ken
 Shikoku
 Tosa | tosa inu
-Hokkaido
 Japanese Spitz
 Xiasi dog
-Caucasian Shepherd | caucasian ovcharka
-Central Asian Shepherd | alabai
 Estrela Mountain Dog
-Carolina Dog
 Catalburun
 Bracco Italiano
 Large Munsterlander
@@ -446,15 +354,12 @@ Small Munsterlander
 Wirehaired Pointing Griffon
 Wirehaired Vizsla
 Slovensky Cuvac
-Saint Hubert hound
 Basset Fauve de Bretagne
 Grand Bleu de Gascogne
 Lurcher
 Patterdale Terrier
 Jagdterrier
 Feist
-Mountain Cur
-Black Mouth Cur
 Yorkipoo | yorkie poo
 Maltipoo
 Cavapoo
@@ -472,6 +377,91 @@ Cavachon
 Pitsky
 
 [Rare]
+Shar Pei | sharpei | chinese shar-pei
+Akita
+Whippet
+Cocker Spaniel | cocker
+Samoyed
+Weimaraner | weimeraner
+Vizsla
+Bichon Frise | bichon
+Bullmastiff | bull mastiff
+Westie | west highland terrier | west highland white terrier
+Airedale | airedale terrier
+Old English Sheepdog | sheepdog
+Pekingese | pekinese
+Miniature Pinscher | min pin
+Malamute | alaskan malamute
+German Pinscher
+Afghan Hound | afghan
+Pharaoh Hound
+Bull Terrier | english bull terrier
+Brittany | brittany spaniel
+English Setter
+Gordon Setter
+Irish Red and White Setter
+Chesapeake Bay Retriever | chessie
+Flat-Coated Retriever
+Curly-Coated Retriever
+Portuguese Water Dog
+Dutch Shepherd
+Staffordshire Bull Terrier | staffy | staffordshire terrier
+American Staffordshire Terrier | amstaff
+American Bully
+Cairn Terrier | cairn
+Border Terrier
+Kerry Blue Terrier
+Fox Terrier | wire fox terrier | smooth fox terrier
+Rat Terrier
+Toy Fox Terrier
+Italian Greyhound
+Chinese Crested
+Japanese Chin
+Greater Swiss Mountain Dog | swissy
+Harrier
+Field Spaniel
+Sussex Spaniel
+Welsh Springer Spaniel
+American Water Spaniel
+Irish Water Spaniel
+Tibetan Terrier
+Tibetan Spaniel
+Silky Terrier | australian silky terrier
+Australian Terrier
+Norfolk Terrier
+Norwich Terrier
+Skye Terrier
+Manchester Terrier
+Russell Terrier
+Lakeland Terrier
+Welsh Terrier
+Irish Terrier
+Miniature Bull Terrier
+Canaan Dog
+Peruvian Inca Orchid
+American Eskimo Dog | american eskimo | eskie
+Berger Picard
+Bearded Collie | beardie
+Chinook
+Greenland Dog
+Canadian Eskimo Dog
+Black Russian Terrier
+Toy Poodle
+Miniature Poodle
+Standard Poodle
+Miniature American Shepherd
+Kai Ken
+Hokkaido
+Caucasian Shepherd | caucasian ovcharka
+Central Asian Shepherd | alabai
+Saint Hubert hound
+Mountain Cur
+Black Mouth Cur
+
+[Schooler]
+Labrador Retriever | labrador | lab
+Golden Retriever | golden
+Dachshund | wiener dog | sausage dog | daschund | dachsund | doxie
 Pomeranian | pomeranean
 Australian Shepherd | aussie | australian shepard
 Bernese Mountain Dog | bernese | berner
@@ -495,13 +485,20 @@ Corgi | welsh corgi | pembroke welsh corgi
 Shih Tzu | shitzu | shih-tzu
 Dalmatian | dalmation
 Jack Russell Terrier | jack russell | jack russel
-
-[Schooler]
-Pit Bull | pitbull | american pit bull terrier | pit bull terrier
-Bulldog | english bulldog
-French Bulldog | frenchie | french bull dog
-Pug
-Dachshund | wiener dog | sausage dog | daschund | dachsund | doxie
+Bloodhound
+Mastiff | english mastiff
+Cavalier King Charles Spaniel | cavalier | king charles spaniel | cavalier king charles
+Springer Spaniel | english springer spaniel | springer
+Irish Setter | red setter
+Pointer | german shorthaired pointer
+Scottish Terrier | scottie
+Cattle dog | australian cattle dog | blue heeler | heeler | red heeler
+Boston Terrier
+Great Pyrenees | pyrenees
+American Bulldog
+Spanish Water Dog
+Russian Toy
+Carolina Dog
 
 [Too Clever]
 Labradoodle
@@ -511,11 +508,13 @@ Puggle
 Mutt | mixed breed | mongrel
 
 [Plankton]
-Labrador Retriever | labrador | lab
-Golden Retriever | golden
 German Shepherd | german shepard | alsatian
 Poodle
 Chihuahua | chiuahua | chihuahau
+Pit Bull | pitbull | american pit bull terrier | pit bull terrier
+Bulldog | english bulldog
+French Bulldog | frenchie | french bull dog
+Pug
 
 [Not accepted]
 Wolf
@@ -543,18 +542,8 @@ Eswatini | swaziland
 [Deep Cut]
 Botswana
 Namibia
-Zambia
 Mozambique | mozambik
 Angola
-Mali
-Niger
-Chad
-Sierra Leone
-Liberia
-Cameroon | cameroun
-Ivory Coast | cote d'ivoire
-Democratic Republic of the Congo | drc | dr congo | congo kinshasa | zaire | congo
-South Sudan
 Comoros
 Djibouti | djbouti
 Sao Tome and Principe | sao tome | são tomé
@@ -578,18 +567,32 @@ Mauritius
 Republic of the Congo | congo brazzaville | congo republic
 
 [Rare]
-Sudan
 Tunisia
-Libya
 Senegal
 Rwanda
-Uganda
 Somalia
+Algeria
+Tanzania
+Zambia
+Mali
+Niger
+Chad
+Sierra Leone
+Liberia
+Cameroon | cameroun
+Ivory Coast | cote d'ivoire
+Democratic Republic of the Congo | drc | dr congo | congo kinshasa | zaire | congo
+South Sudan
+
+[Schooler]
+Kenya
+Ethiopia
+Sudan
+Libya
+Uganda
 Zimbabwe
 Ghana
-Algeria
 Morocco | marocco
-Tanzania
 
 [Too Clever]
 Madagascar | madagaskar
@@ -597,9 +600,7 @@ Madagascar | madagaskar
 [Plankton]
 Nigeria
 South Africa
-Kenya
 Egypt
-Ethiopia
 
 [Not accepted]
 Africa
@@ -623,36 +624,13 @@ prompt: Name a musical instrument
 Theremin
 
 [Deep Cut]
-Mandolin
-Kazoo
-Bongos | bongo
-French horn | horn
-Triangle
-Piccolo
-Organ | pipe organ
-Double bass | upright bass | contrabass | stand-up bass
-Viola
-Cymbals | cymbal
-Synthesizer | synth
-Recorder
-Timpani | kettle drum | kettledrum
-Snare drum | snare
-Gong
-Maracas | maraca
-Concertina
-Bass drum
 Hurdy-gurdy | hurdy gurdy
 Didgeridoo | didjeridu | didgeridu
 Sitar
 Celesta | celeste
-Lute
-Harpsichord
 Zither
 Marimba
 Glockenspiel
-Bassoon
-Oboe
-English horn | cor anglais
 Contrabassoon
 Mbira | kalimba | thumb piano
 Tabla
@@ -669,24 +647,17 @@ Castanets
 Sousaphone
 Euphonium
 Flugelhorn
-Cornet
 Vibraphone | vibes
-Steel drum | steel pan | steelpan
-Pan flute | panpipes | pan pipes
-Lyre
 Clavichord
 Washboard
-Sansa
 Kora
 Ngoni
 Balafon
-Talking drum
 Udu
 Cajon
 Darbuka | doumbek | goblet drum
 Riq
 Daf
-Tar
 Oud
 Saz | baglama
 Bouzouki
@@ -697,17 +668,14 @@ Santur | santoor
 Kamancheh
 Duduk
 Zurna
-Ney
 Shakuhachi
 Shinobue
 Taiko
 Biwa
 Guzheng
 Pipa
-Sheng
 Suona
 Dizi
-Xiao
 Yangqin
 Gayageum
 Haegeum
@@ -739,7 +707,6 @@ Hardanger fiddle
 Crwth
 Rebec
 Viol | viola da gamba
-Viola d'amore
 Theorbo
 Cittern
 Gittern
@@ -748,82 +715,29 @@ Sackbut
 Shawm
 Crumhorn
 Cornett
-Serpent
 Ophicleide
-Natural horn
-Post horn
 Alphorn | alpenhorn
 Vuvuzela
-Conch shell
-Bugle
 Mellophone
-Wagner tuba
-Baritone horn | baritone
-Tenor horn | alto horn
-Bass trombone
-Valve trombone
-Piccolo trumpet
-Bass clarinet
 Contrabass clarinet
-E-flat clarinet
-Basset horn
-Soprano saxophone
-Alto saxophone | alto sax
-Tenor saxophone | tenor sax
-Baritone saxophone | bari sax
-Bass flute
-Alto flute
-Fife
-Low whistle
 Uilleann pipes
 Northumbrian pipes
 Musette
 Bandoneon
-Button accordion
-Free reed
-Pump organ | reed organ
-Hammond organ
 Calliope
-Barrel organ
-Player piano | pianola
 Fortepiano
-Grand piano
-Upright piano
-Electric piano | rhodes | fender rhodes
 Clavinet
 Mellotron
 Ondes Martenot
-Moog | moog synthesizer
 Keytar
-Drum machine
-Sampler
-Turntables
 Vocoder
-Talk box
-Electric violin
-Pedal steel guitar | pedal steel
-Lap steel guitar | lap steel
 Dobro | resonator guitar
-Twelve-string guitar | 12-string guitar
-Classical guitar
-Acoustic guitar
 Washtub bass
-Jug
-Spoons
-Bones
-Musical saw | singing saw
-Glass harmonica
-Crystal glasses | glass harp
 Handpan
-Hang drum | hang
-Tongue drum
-Wind chimes
-Chimes | tubular bells
 Crotales
 Cabasa
 Guiro
 Claves
-Shaker
 Rainstick | rain stick
 Agogo bells | agogo
 Timbales
@@ -841,62 +755,122 @@ Guitarron
 Bajo sexto
 Jarana
 Marimbula
-Tom-tom
-Bass drum pedal
-Hi-hat
-Ride cymbal
-Crash cymbal
-Field drum
-Tenor drum
-Frame drum
 Woodblock | wood block
-Temple blocks
-Slapstick | whip
-Ratchet
-Thunder sheet
-Anvil
 Flexatone
 Vibraslap
-Jaw harp | jew's harp | mouth harp
-Nose flute
-Slide whistle
-Bird whistle
-Siren
 Autoharp
 Appalachian dulcimer | mountain dulcimer
 Banjolele
 Guitalele
-Tenor banjo
-Octave mandolin
 Mandola
 Mandocello
-Electric bass
 Fretless bass
-Baritone guitar
-Lyre harp
-Celtic harp
-Concert harp | pedal harp
 Aeolian harp
-Bell
 Handbells | hand bells
-Sleigh bells
 Carillon
 Spinet
-Virginal
 Clavicytherium
 Hydraulis
 Aulos
 Kithara
 Sistrum
 Shofar
-Harp guitar
 Stylophone
 Otamatone
-Laser harp
 Keyboard glockenspiel
 Boomwhackers
 
 [Rare]
+Kazoo
+Bongos | bongo
+Timpani | kettle drum | kettledrum
+Maracas | maraca
+Concertina
+Lute
+Harpsichord
+Bassoon
+Oboe
+Cornet
+Steel drum | steel pan | steelpan
+Pan flute | panpipes | pan pipes
+Lyre
+Sansa
+Tar
+Ney
+Sheng
+Xiao
+Viola d'amore
+Serpent
+Conch shell
+Bugle
+Wagner tuba
+Baritone horn | baritone
+Tenor horn | alto horn
+Bass trombone
+Valve trombone
+Piccolo trumpet
+Bass clarinet
+E-flat clarinet
+Basset horn
+Soprano saxophone
+Alto saxophone | alto sax
+Tenor saxophone | tenor sax
+Baritone saxophone | bari sax
+Bass flute
+Alto flute
+Fife
+Low whistle
+Button accordion
+Free reed
+Pump organ | reed organ
+Hammond organ
+Barrel organ
+Upright piano
+Moog | moog synthesizer
+Drum machine
+Sampler
+Turntables
+Electric violin
+Pedal steel guitar | pedal steel
+Lap steel guitar | lap steel
+Twelve-string guitar | 12-string guitar
+Classical guitar
+Acoustic guitar
+Jug
+Spoons
+Glass harmonica
+Crystal glasses | glass harp
+Hang drum | hang
+Tongue drum
+Wind chimes
+Chimes | tubular bells
+Shaker
+Bass drum pedal
+Ride cymbal
+Crash cymbal
+Tenor drum
+Frame drum
+Slapstick | whip
+Ratchet
+Thunder sheet
+Anvil
+Jaw harp | jew's harp | mouth harp
+Nose flute
+Slide whistle
+Bird whistle
+Siren
+Tenor banjo
+Octave mandolin
+Baritone guitar
+Lyre harp
+Celtic harp
+Concert harp | pedal harp
+Sleigh bells
+Virginal
+Harp guitar
+Laser harp
+
+[Schooler]
 Bagpipes | bagpipe
 Tambourine
 Xylophone
@@ -911,9 +885,36 @@ Saxophone | sax
 Flute
 Cello | violoncello
 Ukulele | uke | ukelele
-Electric guitar
 Bass guitar | bass
-Keyboard
+Mandolin
+French horn | horn
+Triangle
+Piccolo
+Organ | pipe organ
+Double bass | upright bass | contrabass | stand-up bass
+Viola
+Cymbals | cymbal
+Synthesizer | synth
+Recorder
+Snare drum | snare
+Gong
+Bass drum
+English horn | cor anglais
+Talking drum
+Natural horn
+Post horn
+Player piano | pianola
+Grand piano
+Electric piano | rhodes | fender rhodes
+Talk box
+Bones
+Musical saw | singing saw
+Tom-tom
+Hi-hat
+Field drum
+Temple blocks
+Electric bass
+Bell
 
 [Too Clever]
 Voice | vocals | singing
@@ -929,6 +930,8 @@ Guitar
 Drums | drum | drum kit | drum set
 Violin | fiddle
 Trumpet
+Electric guitar
+Keyboard
 
 [Not accepted]
 Microphone
@@ -952,25 +955,14 @@ prompt: Name a board game
 Mouse Trap | mousetrap
 
 [Deep Cut]
-Trouble
-Cranium
-Chinese Checkers
 Scattergories
-Boggle
-Apples to Apples
-Taboo
-Payday
 Carcassonne | carcasonne
-Ticket to Ride
-Pandemic
 Mancala
 Stratego
 Othello | reversi
-Go | weiqi | baduk
 Backgammon
 Ludo
 Parcheesi | pachisi
-Twilight Struggle
 Agricola
 Azul
 Splendor
@@ -978,17 +970,9 @@ Wingspan
 Terraforming Mars
 Gloomhaven
 Codenames
-Dominion
-King of Tokyo
 Kingdomino
-7 Wonders | seven wonders
-Small World
-Power Grid
-Axis and Allies
-Diplomacy
 Shogi
 Xiangqi | chinese chess
-Nine Men's Morris
 Hive
 Blokus
 Qwirkle
@@ -996,70 +980,40 @@ Labyrinth
 Mastermind
 Ouija | ouija board
 Rummikub
-Sequence
-Root
 Scythe
 Everdell
-Brass: Birmingham | brass
 Ark Nova
-Spirit Island
 Arkham Horror
 Eldritch Horror
-Betrayal at House on the Hill | betrayal
 Mansions of Madness
-Dead of Winter
-Cosmic Encounter
 Twilight Imperium
-Through the Ages
-Great Western Trail
 Concordia
-Orleans
-Puerto Rico
 Caylus
 Le Havre
 Tzolk'in
 Lords of Waterdeep
 Viticulture
 Castles of Burgundy
-Istanbul
 Patchwork
 Sagrada
 Cascadia
 Tokaido
 Takenoko
 Jaipur
-Lost Cities
-Love Letter
-Coup
-The Resistance
 Avalon | the resistance avalon
-Secret Hitler
 One Night Ultimate Werewolf | werewolf
 Mysterium
 Dixit
 Telestrations
 Wavelength
-Just One
 Decrypto
-Camel Up
 Survive: Escape from Atlantis | survive
-Forbidden Island
-Forbidden Desert
-Flash Point
 Robinson Crusoe
 Mage Knight
-Star Wars: Rebellion
-War of the Ring
-Memoir '44
-Battle Line
 Tigris & Euphrates
-El Grande
-Acquire
 Stock Ticker
-Can't Stop
 Liar's Dice
 Perudo
-Bang!
 Munchkin
 Exploding Kittens
 Unstable Unicorns
@@ -1067,12 +1021,9 @@ Dominoes
 Mahjong | mah jong | mahjongg
 Pente
 Gomoku
-Connect 6
 Hex
-Nine Holes
 Fanorona
 Senet
-Royal Game of Ur | game of ur | ur
 Chaupar
 Hnefatafl | tafl
 Alquerque
@@ -1083,63 +1034,33 @@ Bao
 Congkak
 Carrom
 Crokinole
-Shut the Box | shut the box game
-Pass the Pigs
-Perfection
-Don't Break the Ice
-Ants in the Pants
-Barrel of Monkeys
 Kerplunk
 Crocodile Dentist
-Pop-Up Pirate
-Simon
-Mall Madness
-Dream Phone
-Girl Talk
 Heroquest
 Space Crusade
 Talisman
 Dungeon!
 Fireball Island
-Forbidden Bridge
-Grape Escape
-Masterpiece
-Careers
-Mystery Date
-Monopoly Junior
 Quarto
 Quoridor
 Santorini
 Onitama
 Tsuro
-Kingdom Builder
 Heat: Pedal to the Metal | heat
 Dune: Imperium | dune
 Clank!
 Lost Ruins of Arnak | arnak
 Cartographers
-Parks
 Meeple Circus
-Sushi Go
 Hanabi
-The Crew
-Pandemic Legacy
-Risk Legacy
 Frosthaven
 Photosynthesis
 Lanterns
 Isle of Skye
 Suburbia
 Galaxy Trucker
-Roll for the Galaxy
-Race for the Galaxy
-Imperial Settlers
 Headbanz | hedbanz
-Pie Face
-Speak Out
 Throw Throw Burrito
-What Do You Meme
-Cards Against Humanity
 Balderdash
 Outburst
 Catchphrase
@@ -1148,27 +1069,109 @@ Pictureka
 Scrabble Junior
 Upwords
 Bananagrams
-Word on the Street
-Heads Up
+
+[Rare]
+Cranium
+Boggle
+Ticket to Ride
+Pandemic
+Twilight Struggle
+Dominion
+King of Tokyo
+7 Wonders | seven wonders
+Power Grid
+Axis and Allies
+Diplomacy
+Nine Men's Morris
+Sequence
+Root
+Brass: Birmingham | brass
+Spirit Island
+Betrayal at House on the Hill | betrayal
+Cosmic Encounter
+Through the Ages
+Great Western Trail
+Orleans
+Puerto Rico
+Istanbul
+Coup
+The Resistance
+Secret Hitler
+Camel Up
+Forbidden Island
+Forbidden Desert
+Flash Point
+Star Wars: Rebellion
+Memoir '44
+El Grande
+Acquire
+Bang!
+Connect 6
+Nine Holes
+Royal Game of Ur | game of ur | ur
+Shut the Box | shut the box game
+Pass the Pigs
+Perfection
+Ants in the Pants
+Barrel of Monkeys
+Pop-Up Pirate
+Simon
+Mall Madness
+Forbidden Bridge
+Grape Escape
+Masterpiece
+Careers
+Mystery Date
+Monopoly Junior
+Kingdom Builder
+Parks
+Sushi Go
+Pandemic Legacy
+Risk Legacy
+Roll for the Galaxy
+Race for the Galaxy
+Imperial Settlers
+Pie Face
+What Do You Meme
+Cards Against Humanity
 Hotels
 Square Mile
 Railway Rivals
 
-[Rare]
+[Schooler]
+Checkers | draughts
+Scrabble
 Hungry Hungry Hippos | hungry hippos
 Settlers of Catan | catan | settlers
 Pictionary
 Snakes and Ladders | chutes and ladders
-Life | game of life | the game of life
 Connect Four | connect 4
-Sorry | sorry!
 Candy Land | candyland
 Trivial Pursuit
-Guess Who | guess who?
 Battleship
-Risk
 Operation
 Yahtzee
+Trouble
+Chinese Checkers
+Apples to Apples
+Taboo
+Payday
+Go | weiqi | baduk
+Small World
+Dead of Winter
+Lost Cities
+Love Letter
+Just One
+War of the Ring
+Battle Line
+Can't Stop
+Don't Break the Ice
+Dream Phone
+Girl Talk
+The Crew
+Speak Out
+Word on the Street
+Heads Up
 
 [Too Clever]
 Twister
@@ -1177,11 +1180,13 @@ Tic-tac-toe | tic tac toe | noughts and crosses
 Dungeons & Dragons | d&d
 
 [Plankton]
-Checkers | draughts
 Clue | cluedo
-Scrabble
 Monopoly
 Chess
+Life | game of life | the game of life
+Sorry | sorry!
+Guess Who | guess who?
+Risk
 
 [Not accepted]
 Uno
@@ -1210,50 +1215,20 @@ prompt: Name a chemical element
 Tungsten | wolfram
 
 [Deep Cut]
-Promethium
-Thorium
-Cadmium
-Polonium
-Barium
-Palladium
-Strontium
-Germanium
-Radon
-Krypton
-Xenon
-Beryllium
-Boron
-Fluorine
-Phosphorus | phosphorous
-Sulfur | sulphur
-Nickel
-Chromium
-Manganese
-Cesium | caesium
-Arsenic
-Radium
-Cobalt
-Bromine
-Molybdenum | molybdenium
 Praseodymium
 Ytterbium
 Yttrium
-Bismuth
 Tellurium
-Gallium
 Hafnium
 Rubidium
 Scandium
 Osmium
-Iridium
 Rhodium
-Selenium
 Antimony
 Thallium
 Francium
 Californium
 Indium
-Vanadium
 Niobium
 Tantalum
 Rhenium
@@ -1300,13 +1275,46 @@ Livermorium
 
 [Rare]
 Argon
+Chlorine
+Helium
+Iodine
+Promethium
+Thorium
+Cadmium
+Polonium
+Barium
+Palladium
+Strontium
+Germanium
+Radon
+Krypton
+Xenon
+Beryllium
+Boron
+Fluorine
+Phosphorus | phosphorous
+Sulfur | sulphur
+Nickel
+Chromium
+Manganese
+Cesium | caesium
+Arsenic
+Radium
+Cobalt
+Bromine
+Molybdenum | molybdenium
+Bismuth
+Gallium
+Iridium
+Selenium
+Vanadium
+
+[Schooler]
 Lithium
 Titanium
 Platinum
 Potassium
-Chlorine
 Neon
-Helium
 Sodium
 Calcium
 Magnesium
@@ -1316,13 +1324,9 @@ Silver
 Uranium
 Aluminum | aluminium
 Silicon
-Iodine
 Zinc
 Tin
 Mercury
-
-[Schooler]
-Nitrogen
 
 [Too Clever]
 Einsteinium
@@ -1335,6 +1339,7 @@ Oxygen
 Carbon
 Iron
 Gold
+Nitrogen
 
 [Not accepted]
 Water
@@ -1360,17 +1365,216 @@ note: Fruits eaten as vegetables (tomato, cucumber, avocado) count as Too Clever
 Romanesco | romanesco broccoli
 
 [Deep Cut]
+Kohlrabi
+Celeriac | celery root
+Salsify
+Jicama
+Rutabaga | swede
+Daikon
+Radicchio
+Endive
+Cassava | yuca | manioc
+Chayote
+Fiddlehead | fiddlehead fern
+Sunchoke | jerusalem artichoke
+Burdock
+Garlic scape
+Broccolini
+Broccoli rabe | rapini
+Collard greens | collards
+Turnip greens
+Shallot
+Scallion | green onion | spring onion
+Tomatillo
+Purslane
+Nopales | cactus paddle
+Horseradish
+Delicata squash | acorn squash
+Mizuna
+Edamame
+Cardoon
+Chicory
+Frisee
+Escarole
+Sorrel
+Lamb's lettuce | mache | corn salad
+Tatsoi
+Komatsuna
+Choy sum
+Yu choy
+Ong choy | water spinach | kangkong
+Malabar spinach
+Amaranth greens | callaloo
+Chaya
+Moringa
+Samphire | sea beans | glasswort
+Celtuce
+Kai choy | mustard cabbage
+Kalette
+Black salsify | scorzonera
+Skirret
+Oca
+Ulluco
+Mashua
+Yacon
+Arrowroot
+Malanga | yautia
+Eddo | eddoe
+Konjac
+Crosne | chinese artichoke
+Drumstick | moringa pods
+Snake gourd
+Ridge gourd | luffa
+Ash gourd | winter melon
+Ivy gourd | tindora
+Pointed gourd | parwal
+Chayote squash
+Kabocha
+Pattypan squash | pattypan
+Crookneck squash | yellow squash
+Calabaza
+Fava beans | broad beans | fava
+Chickpeas | garbanzo beans
+Alfalfa sprouts
+Mung bean sprouts
+Microgreens
+Wasabi
+Galangal
+Lemongrass
+Garlic chives
+Chives
+Vidalia onion
+Ramson | wild garlic
+Morel
+Shiitake
+Portobello
+Chanterelle
+Enoki
+Jalapeno
+Poblano
+Habanero
+Serrano pepper
+Pimento
+Padron pepper
+Shishito pepper
+Cubanelle
+Plantain
+Breadfruit
+Jackfruit
+Ackee
+Okra pods
+Nettles | stinging nettle
+Fingerling potato
+Russet potato
+Romaine | romaine lettuce | cos lettuce
+Butterhead lettuce | bibb lettuce | boston lettuce
+Chioggia beet
+Turnip tops
+Radish greens
+Watermelon radish
+Black radish
+Horseradish root
+Kohlrabi greens
+Purple sprouting broccoli
+Broccoflower
+Lovage
+Orache
+Lamb's quarters | lambsquarters
+Rainbow chard
+Cavolo nero | lacinato kale | tuscan kale | dinosaur kale
+Jute leaves | molokhia
+Cassava leaves
+Water caltrop
+
+[Rare]
 Parsnip
-Fennel
 Bok choy | pak choi | bok choi
+Watercress
+Arugula | rocket
+Taro
+Bitter melon | bitter gourd
+Lotus root
+Water chestnut
+Ramps | wild leek
+Mustard greens
+Napa cabbage | chinese cabbage
+Dandelion greens
+Gai lan | chinese broccoli | kai lan
+Sea kale
+Savoy cabbage
+Red cabbage
+Parsley root
+Hamburg parsley
+Lotus stem
+Bamboo shoots
+Hearts of palm | palm heart
+Banana flower | banana blossom
+Bottle gourd | calabash | lauki
+Spaghetti squash
+Hubbard squash
+Summer squash
+Winter squash
+Marrow
+Runner beans
+Wax beans
+Butter beans
+Pinto beans
+Kidney beans
+Lentils
+Black-eyed peas
+Pea shoots
+Ginger
+Turmeric root
+Leek greens
+Pearl onion
+Red onion
+Elephant garlic
+Oyster mushroom
+Truffle
+Banana pepper
+Anaheim pepper
+Chili pepper | chile pepper | chili
+Green pepper
+Cactus | prickly pear pads
+Purple potato
+Yukon Gold
+Cherry tomato
+Heirloom tomato
+Iceberg lettuce
+Little gem
+Golden beet
+Beet greens
+Brussels sprout tops
+Cauliflower greens
+Florence fennel
+Mustard spinach
+New Zealand spinach
+Red Russian kale
+Sweet potato leaves
+Taro leaves
+Pumpkin leaves
+Grape leaves | vine leaves
+Rhubarb
+Chestnut
+
+[Schooler]
+Cauliflower | califlower
+Spinach | spinnach
+Pea
+Green bean | string bean
+Celery
+Garlic
+Mushroom
+Bell pepper | capsicum
+Cabbage | cabage
+Lima bean
+Fennel
 Okra
 Artichoke | artichoak
-Watercress
 Leek
 Turnip
 Beet | beetroot
 Radish
-Arugula | rocket
 Swiss chard | chard
 Kale
 Squash | butternut squash
@@ -1383,213 +1587,12 @@ Bean sprouts
 Snap pea | snow pea | sugar snap pea
 Pumpkin
 Brussels sprouts | brussel sprouts | brussel sprout
-Kohlrabi
-Celeriac | celery root
-Salsify
-Jicama
-Rutabaga | swede
-Daikon
-Radicchio
-Endive
-Taro
-Cassava | yuca | manioc
-Chayote
-Fiddlehead | fiddlehead fern
-Sunchoke | jerusalem artichoke
-Burdock
-Bitter melon | bitter gourd
-Lotus root
-Water chestnut
-Ramps | wild leek
-Garlic scape
-Broccolini
-Broccoli rabe | rapini
-Collard greens | collards
-Mustard greens
-Turnip greens
-Shallot
-Scallion | green onion | spring onion
-Napa cabbage | chinese cabbage
-Tomatillo
-Purslane
-Nopales | cactus paddle
-Horseradish
-Delicata squash | acorn squash
-Mizuna
-Edamame
-Cardoon
-Chicory
-Frisee
-Escarole
-Dandelion greens
-Sorrel
-Lamb's lettuce | mache | corn salad
-Tatsoi
-Komatsuna
-Gai lan | chinese broccoli | kai lan
-Choy sum
-Yu choy
-Ong choy | water spinach | kangkong
-Malabar spinach
-Amaranth greens | callaloo
-Chaya
-Moringa
-Samphire | sea beans | glasswort
-Sea kale
-Celtuce
-Kai choy | mustard cabbage
-Savoy cabbage
-Red cabbage
-Kalette
-Black salsify | scorzonera
-Parsley root
-Hamburg parsley
-Skirret
-Oca
-Ulluco
-Mashua
-Yacon
-Arrowroot
-Malanga | yautia
-Eddo | eddoe
-Konjac
-Crosne | chinese artichoke
-Lotus stem
-Bamboo shoots
-Hearts of palm | palm heart
-Banana flower | banana blossom
-Drumstick | moringa pods
-Snake gourd
-Bottle gourd | calabash | lauki
-Ridge gourd | luffa
-Ash gourd | winter melon
-Ivy gourd | tindora
-Pointed gourd | parwal
-Chayote squash
-Kabocha
-Spaghetti squash
-Hubbard squash
-Pattypan squash | pattypan
-Crookneck squash | yellow squash
-Summer squash
-Winter squash
-Marrow
-Calabaza
 Long beans | yardlong beans | snake beans
-Fava beans | broad beans | fava
-Runner beans
-Wax beans
-Butter beans
-Pinto beans
 Black beans
-Kidney beans
-Chickpeas | garbanzo beans
-Lentils
-Black-eyed peas
-Pea shoots
-Alfalfa sprouts
-Mung bean sprouts
-Microgreens
-Wasabi
-Ginger
-Turmeric root
-Galangal
-Lemongrass
-Garlic chives
-Chives
-Leek greens
-Pearl onion
-Red onion
-Vidalia onion
-Ramson | wild garlic
-Elephant garlic
-Morel
-Shiitake
-Portobello
-Chanterelle
-Oyster mushroom
-Enoki
-Truffle
-Jalapeno
-Poblano
-Habanero
-Serrano pepper
-Banana pepper
-Anaheim pepper
-Chili pepper | chile pepper | chili
-Pimento
-Padron pepper
-Shishito pepper
-Cubanelle
 Red pepper
-Green pepper
-Plantain
-Breadfruit
-Jackfruit
-Ackee
-Okra pods
-Cactus | prickly pear pads
-Nettles | stinging nettle
-Purple potato
-Fingerling potato
-Russet potato
-Yukon Gold
 New potato
 Baby corn
-Cherry tomato
-Heirloom tomato
-Iceberg lettuce
-Romaine | romaine lettuce | cos lettuce
-Butterhead lettuce | bibb lettuce | boston lettuce
-Little gem
-Golden beet
-Chioggia beet
-Turnip tops
-Beet greens
-Radish greens
-Watermelon radish
-Black radish
-Horseradish root
-Kohlrabi greens
-Brussels sprout tops
-Purple sprouting broccoli
-Broccoflower
-Cauliflower greens
-Florence fennel
-Lovage
-Mustard spinach
-New Zealand spinach
-Orache
 Good King Henry
-Lamb's quarters | lambsquarters
-Rainbow chard
-Cavolo nero | lacinato kale | tuscan kale | dinosaur kale
-Red Russian kale
-Jute leaves | molokhia
-Cassava leaves
-Sweet potato leaves
-Taro leaves
-Pumpkin leaves
-Grape leaves | vine leaves
-Rhubarb
-Water caltrop
-Chestnut
-
-[Rare]
-Cauliflower | califlower
-Spinach | spinnach
-Pea
-Green bean | string bean
-Celery
-Garlic
-Mushroom
-Bell pepper | capsicum
-Cabbage | cabage
-Lima bean
-Beans
-
-[Schooler]
-Corn | sweetcorn | maize | sweet corn
 
 [Too Clever]
 Tomato | tomatoe
@@ -1603,6 +1606,8 @@ Lettuce | letuce
 Carrot | carot
 Broccoli | brocoli | brocolli
 Potato | potatoe
+Corn | sweetcorn | maize | sweet corn
+Beans
 
 [Not accepted]
 Rice
@@ -1628,143 +1633,71 @@ prompt: Name a car brand
 DeLorean | de lorean | delorian
 
 [Deep Cut]
-Aston Martin
-Bentley
-Rolls-Royce | rolls royce
-McLaren
-Jaguar
-Land Rover | range rover
-Volvo
-Mitsubishi
-Acura
-Infiniti | infinity
-Lincoln
-Buick
-Chrysler
-GMC
-Pontiac
-Alpine
 Koenigsegg | koenigseg
 Pagani
 Bugatti
-Maserati
-Lotus
-Alfa Romeo | alfa
-Saab
-Peugeot | pugeot
 Citroen | citroën
-Renault
 Skoda
-SEAT
 Opel
-Vauxhall
 Lada
 Rivian
-Lucid
 Polestar
-Genesis
-Fiat
-Mini | mini cooper
-Smart | smart car
 Dacia
-Proton
-Tata
 Mahindra
 BYD
 Geely
 Hummer
-Plymouth
 Oldsmobile
-Saturn
-Mercury
-AMC
 Studebaker
-Packard
 Datsun
-Scion
 Isuzu
-Suzuki
 Fisker
 Spyker
 Maybach
 Hennessey
-Shelby
 Rimac
 Abarth
 Alpina
-Ariel
 Artega
 Ascari
-Auburn
-Austin
 Austin-Healey
 Autobianchi
-BAC
 Bizzarrini
 Borgward
 Brabus
-Bristol
 Caterham
-Checker
 Chery
-Cord
 Cupra
 De Tomaso | detomaso
-DS
 Duesenberg
-Eagle
 Edsel
 Facel Vega
-Faraday Future
 GAZ
 Ginetta
-Gordon Murray
-Great Wall
 Haval
 Hindustan
-Holden
 Hongqi
-Imperial
-Iso
-Jensen
 JAC
-Karma
 Lancia
 LEVC
-Li Auto
-Lister
 Lynk & Co
-Marcos
 Mazzanti
-Morgan
-Morris
 Moskvitch
-MG
 NIO
-Noble
-Nash
 Perodua
 Pininfarina
 Puritalia
-Reliant
-Rover
 Ruf
 Saleen
-SSC
 Simca
-Singer
 SsangYong | kgm
 Sunbeam
-Talbot
 Tatra
 Trabant
-Triumph
 TVR
 UAZ
-Vector
 Venturi
 Vinfast
-W Motors
 Wartburg
 Wiesmann
 Willys
@@ -1773,16 +1706,11 @@ Xpeng
 Zastava
 Zeekr
 Zenvo
-Hudson
-Kaiser
-Tucker
 Stutz
-Pierce-Arrow
 Hispano-Suiza
 Isotta Fraschini
 Horch
 DKW
-Wanderer
 NSU
 Glas
 Messerschmitt
@@ -1800,7 +1728,6 @@ Hino
 Mitsuoka
 Eunos
 Daewoo
-Samsung
 Maruti Suzuki | maruti
 Dongfeng
 FAW
@@ -1809,21 +1736,83 @@ Changan
 GAC
 BAIC
 Aiways
-Ora
 Canoo
 Aptera
 Bollinger
 Workhorse
-Nikola
-Scout | scout motors
 International Harvester
 Freightliner
 Peterbilt
 Kenworth
-Mack
 Navistar
 
 [Rare]
+Acura
+Infiniti | infinity
+Maserati
+Lotus
+Alfa Romeo | alfa
+Saab
+Peugeot | pugeot
+Renault
+Vauxhall
+Lucid
+Genesis
+Fiat
+Mini | mini cooper
+Proton
+Tata
+Plymouth
+Saturn
+Mercury
+AMC
+Packard
+Scion
+Suzuki
+Shelby
+Ariel
+Auburn
+Austin
+BAC
+Bristol
+Checker
+Cord
+DS
+Eagle
+Faraday Future
+Gordon Murray
+Holden
+Imperial
+Iso
+Jensen
+Karma
+Li Auto
+Lister
+Marcos
+Morgan
+Morris
+MG
+Noble
+Nash
+Reliant
+Rover
+SSC
+Talbot
+Triumph
+Vector
+W Motors
+Hudson
+Kaiser
+Tucker
+Pierce-Arrow
+Wanderer
+Samsung
+Ora
+Nikola
+Scout | scout motors
+Mack
+
+[Schooler]
 Cadillac
 Lamborghini | lambo
 Porsche
@@ -1837,9 +1826,25 @@ Audi
 Volkswagen | vw
 Nissan
 Mercedes-Benz | mercedes | benz
-Dodge
 Jeep
-Ram
+Aston Martin
+Bentley
+Rolls-Royce | rolls royce
+McLaren
+Jaguar
+Land Rover | range rover
+Volvo
+Mitsubishi
+Lincoln
+Buick
+Chrysler
+GMC
+Pontiac
+Alpine
+SEAT
+Smart | smart car
+Great Wall
+Singer
 
 [Too Clever]
 Tesla | tesla motors
@@ -1852,6 +1857,8 @@ Ford
 Honda
 BMW
 Chevrolet | chevy
+Dodge
+Ram
 
 [Not accepted]
 Harley-Davidson
@@ -1876,30 +1883,15 @@ prompt: Name a sport played with a ball
 Sepak takraw | sepaktakraw | kick volleyball
 
 [Deep Cut]
-Australian rules football | aussie rules | afl
-Skee-ball | skeeball
-Table football
-Hurling
 Jai alai
 Pelota | basque pelota
-Gaelic football
 Bocce | bocci
-Croquet
-Lacrosse | lacross
-Polo
-Water polo
-Handball | team handball
-Squash
 Racquetball | racketball
 Pickleball
 Korfball
-Netball
-Futsal
-Rounders
 Petanque | boules
 Padel | paddle tennis
 Paddleball
-Four square | 4 square
 Tetherball
 Wallyball
 Teqball
@@ -1913,27 +1905,8 @@ Sitball
 Shinty
 Hacky sack | footbag
 Camogie
-Canadian football
-Medicine ball
-Ultimate | ultimate frisbee
-Kin-Ball
 Cornhole
 Bossaball
-Underwater rugby
-Underwater hockey
-Rugby sevens
-Touch rugby
-Tag rugby
-Flag football
-Arena football
-Touch football
-Gaelic handball
-Fives | eton fives | rugby fives
-Real tennis | court tennis
-Platform tennis
-Beach tennis
-Soft tennis
-Squash tennis
 Pelota mixteca
 Frontenis
 Fronton
@@ -1941,23 +1914,11 @@ Cesta punta
 Chinlone | caneball
 Jianzi | shuttlecock kicking
 Keepie uppie
-Lawn bowls | bowls
-Ten-pin bowling | tenpin bowling
 Candlepin bowling | candlepin
 Duckpin bowling | duckpin
-Skittles
-Nine-pin bowling | ninepins
 Carom billiards
-Bumper pool
-Mini golf | miniature golf | putt putt
-Disc golf
 Footgolf
-Pitch and putt
-Sitting volleyball
-Wheelchair basketball
-Wheelchair rugby | murderball
 Torball
-Beep baseball
 Twenty20 | t20
 Vigoro
 Stoolball
@@ -1973,15 +1934,7 @@ Buzkashi
 Chovgan
 Horseball
 Pato
-Elephant polo
-Bike polo | bicycle polo
-Canoe polo
-Segway polo
 Polocrosse
-Inline hockey
-Roller hockey
-Ball hockey
-Street hockey
 Floorball
 Unihockey
 Broomball
@@ -1993,20 +1946,12 @@ Speedball
 Speedminton
 Crossminton
 Tchoukball
-Basque handball
-Water basketball
 Throwball
-Newcomb ball
-Prisoner ball
-Gaga | gaga ball
 Punchball
-Stoop ball | stoopball
-Wall ball
 Kemari
 Cuju
 Calcio storico
 Royal Shrovetide football
-Ba game
 Mesoamerican ballgame | ulama | pok-ta-pok | pitz
 Knattleikr
 Harpastum
@@ -2016,11 +1961,60 @@ Cammag
 Sipa
 Takraw
 Roque
-Pall mall
 Tamburello
 Pallone
 
 [Rare]
+Skee-ball | skeeball
+Hurling
+Gaelic football
+Croquet
+Lacrosse | lacross
+Polo
+Water polo
+Handball | team handball
+Squash
+Netball
+Futsal
+Rounders
+Kin-Ball
+Underwater rugby
+Underwater hockey
+Rugby sevens
+Tag rugby
+Gaelic handball
+Fives | eton fives | rugby fives
+Platform tennis
+Beach tennis
+Soft tennis
+Squash tennis
+Lawn bowls | bowls
+Ten-pin bowling | tenpin bowling
+Skittles
+Nine-pin bowling | ninepins
+Bumper pool
+Mini golf | miniature golf | putt putt
+Disc golf
+Pitch and putt
+Sitting volleyball
+Wheelchair basketball
+Wheelchair rugby | murderball
+Beep baseball
+Elephant polo
+Bike polo | bicycle polo
+Canoe polo
+Segway polo
+Inline hockey
+Roller hockey
+Basque handball
+Newcomb ball
+Prisoner ball
+Gaga | gaga ball
+Stoop ball | stoopball
+Ba game
+Pall mall
+
+[Schooler]
 Billiards | pool | snooker
 Field hockey
 Beach volleyball
@@ -2028,11 +2022,23 @@ Badminton
 Ping pong | table tennis
 Bowling
 Softball
-Rugby | rugby union | rugby league
-Cricket
-Golf
 Volleyball | volley ball
 Tennis
+Australian rules football | aussie rules | afl
+Table football
+Four square | 4 square
+Canadian football
+Medicine ball
+Ultimate | ultimate frisbee
+Touch rugby
+Flag football
+Arena football
+Touch football
+Real tennis | court tennis
+Ball hockey
+Street hockey
+Water basketball
+Wall ball
 
 [Too Clever]
 Kickball
@@ -2044,6 +2050,9 @@ Soccer | football | association football
 Basketball | basket ball
 American football
 Baseball
+Rugby | rugby union | rugby league
+Cricket
+Golf
 
 [Not accepted]
 Juggling
@@ -2074,29 +2083,7 @@ note: Mammals that live in the sea: whales, dolphins, porpoises, seals, sea lion
 Vaquita
 
 [Deep Cut]
-Fin whale | finback whale | finback
-Gray whale | grey whale
-Bowhead whale | bowhead
-Right whale | north atlantic right whale | southern right whale | north pacific right whale
-Minke whale | minke
-Pilot whale | long-finned pilot whale | short-finned pilot whale
 Risso's dolphin | rissos dolphin | grampus
-Spinner dolphin
-Spotted dolphin | atlantic spotted dolphin | pantropical spotted dolphin
-Striped dolphin
-Common dolphin | short-beaked common dolphin
-Dusky dolphin
-White-sided dolphin | atlantic white-sided dolphin | pacific white-sided dolphin
-White-beaked dolphin
-Harbor porpoise | harbour porpoise
-Harp seal
-Gray seal | grey seal
-Leopard seal
-Fur seal | northern fur seal | antarctic fur seal | cape fur seal
-Elephant seal | northern elephant seal | southern elephant seal
-Harbor seal | harbour seal | common seal
-California sea lion
-Dugong
 Cuvier's beaked whale | cuviers beaked whale | goose-beaked whale
 Baird's beaked whale | bairds beaked whale
 Blainville's beaked whale | blainvilles beaked whale
@@ -2107,10 +2094,8 @@ Northern bottlenose whale | bottlenose whale
 Beaked whale
 Pygmy right whale
 Pygmy sperm whale
-Dwarf sperm whale
 Pygmy killer whale
 Melon-headed whale
-False killer whale
 Rice's whale | rices whale
 Omura's whale | omuras whale
 Bryde's whale | brydes whale
@@ -2125,7 +2110,6 @@ Clymene dolphin
 Irrawaddy dolphin
 Snubfin dolphin | australian snubfin dolphin
 Humpback dolphin
-Right whale dolphin | northern right whale dolphin | southern right whale dolphin
 Heaviside's dolphin | heavisides dolphin
 Chilean dolphin
 Peale's dolphin | peales dolphin
@@ -2135,33 +2119,59 @@ Dall's porpoise | dalls porpoise
 Finless porpoise
 Burmeister's porpoise | burmeisters porpoise
 Spectacled porpoise
-Ribbon seal
-Ross seal
 Crabeater seal
 Weddell seal | wedell seal
 Bearded seal
 Ringed seal
-Spotted seal | largha seal
 Hooded seal
 Caspian seal
-Monk seal | hawaiian monk seal | mediterranean monk seal
 Steller's sea cow | stellers sea cow
 Marine otter
 Steller sea lion | stellers sea lion
 
 [Rare]
+Narwhal | narwal
+Fin whale | finback whale | finback
+Gray whale | grey whale
+Bowhead whale | bowhead
+Minke whale | minke
+Pilot whale | long-finned pilot whale | short-finned pilot whale
+Spinner dolphin
+Spotted dolphin | atlantic spotted dolphin | pantropical spotted dolphin
+Striped dolphin
+Common dolphin | short-beaked common dolphin
+Dusky dolphin
+White-sided dolphin | atlantic white-sided dolphin | pacific white-sided dolphin
+White-beaked dolphin
+Harbor porpoise | harbour porpoise
+Harp seal
+Leopard seal
+Fur seal | northern fur seal | antarctic fur seal | cape fur seal
+Elephant seal | northern elephant seal | southern elephant seal
+Harbor seal | harbour seal | common seal
+Dugong
+Dwarf sperm whale
+False killer whale
+Right whale dolphin | northern right whale dolphin | southern right whale dolphin
+Ribbon seal
+Ross seal
+Spotted seal | largha seal
+Monk seal | hawaiian monk seal | mediterranean monk seal
+
+[Schooler]
+Walrus
+Manatee | sea cow
+Orca | killer whale
+Sea otter | otter
 Blue whale
 Humpback whale | humpback
 Sperm whale | cachalot
 Bottlenose dolphin | bottle nose dolphin
 Porpoise
-Narwhal | narwal
 Beluga | beluga whale | white whale
-
-[Schooler]
-Manatee | sea cow
-Orca | killer whale
-Sea otter | otter
+Right whale | north atlantic right whale | southern right whale | north pacific right whale
+Gray seal | grey seal
+California sea lion
 
 [Too Clever]
 Polar bear
@@ -2171,7 +2181,6 @@ Whale
 Dolphin
 Seal
 Sea lion
-Walrus
 
 [Not accepted]
 Shark
@@ -2191,3 +2200,4 @@ Crocodile
 Mermaid
 Amazon river dolphin
 Baikal seal
+

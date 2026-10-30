@@ -16,7 +16,7 @@ import {
 import type { Category, ParsedFixes, ParsedQuestion, TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
-import { UNLIMITED_WHERE, forgetIndex, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";
+import { INDEX_KEY, UNLIMITED_WHERE, forgetIndex, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";
 import type { QuestionContent, QuestionRow, StoredAnswer } from "./questions";
 
 /**
@@ -253,7 +253,7 @@ export async function upsertQuestion(
     );
   }
   await env.DB.batch(stmts);
-  await storeIndex(env, { id, data });
+  await storeIndex(env, { id, data, prompt: q.prompt });
   return { ok: true as const, id, prompt: q.prompt, status, date, slot, updated: !!existing, warnings: report.warnings };
 }
 
@@ -294,7 +294,7 @@ adminRoutes.delete("/api/admin/question/:id", async (c) => {
     return c.json({ ok: true, retired: true });
   }
   await c.env.DB.prepare("DELETE FROM questions WHERE id = ?").bind(id).run();
-  await c.env.KV.delete(`qidx:${id}`);
+  await c.env.KV.delete(INDEX_KEY(id));
   forgetIndex(id);
   return c.json({ ok: true, deleted: true });
 });
@@ -370,7 +370,7 @@ export async function applyFixes(env: Env, f: Omit<ParsedFixes, "line">, now: nu
     env.DB.prepare("UPDATE rejected_guesses SET resolved = 1 WHERE question_id = ? AND count >= 2").bind(row.id),
     env.DB.prepare("UPDATE reports SET status = 'resolved' WHERE question_id = ? AND status = 'open'").bind(row.id),
   ]);
-  await storeIndex(env, { id: row.id, data });
+  await storeIndex(env, { id: row.id, data, prompt: row.prompt });
   return {
     ok: true as const,
     questionId: row.id,

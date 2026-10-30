@@ -8,90 +8,42 @@ prompt: Name a condiment or sauce
 Worcestershire sauce | worcestershire | worchestershire | worcester sauce
 
 [Deep Cut]
-Chipotle mayo
-Sweet chili sauce
 Gochujang
-Sambal | sambal oelek
-Harissa
-Chutney | mango chutney
-Raita
-Mint sauce
-Mint jelly
-Cranberry sauce
-Applesauce
-HP Sauce | brown sauce
-Salad cream
 Piccalilli
 Branston pickle
-Marmite
-Vegemite
 Ponzu
-Mirin
-Miso
 Tonkatsu sauce
-Yum yum sauce
-Eel sauce
 Kewpie mayo | kewpie
 Remoulade
 Bearnaise
 Bechamel
 Velouté
 Espagnole
-Demi-glace
-Beurre blanc
 Romesco
-Salsa verde
-Mole
-Enchilada sauce
-Queso
-Valentina
-Cholula
 Frank's RedHot | franks red hot
 Tapatio
-Crystal hot sauce
-Texas Pete
-Louisiana hot sauce
-Peri-peri | piri piri
-Jerk sauce
-Mumbo sauce
-Comeback sauce
-Fry sauce
-Alabama white sauce | white bbq sauce | alabama bbq sauce
-Chick-fil-A sauce
 Polynesian sauce
 Raising Cane's sauce | cane's sauce
-Garlic sauce | toum
 Shawarma sauce
 Muhammara
 Baba ganoush
 Zhug | schug
 Amba
-Pepper jelly
-Fig jam
-Apple butter
 Lemon curd
 Marmalade
 Molasses
 Agave
 Caramel sauce
-Chocolate sauce | chocolate syrup
 Hot fudge
 Butterscotch sauce
-Whipped cream
 Ghee
 Malt vinegar
-Rice vinegar
 Apple cider vinegar
-Red wine vinegar
 Sesame oil
-Chili oil
 Chili crisp
 XO sauce
-Black bean sauce
-Plum sauce
 Satay sauce | peanut sauce
 Nuoc cham
-Sweet soy sauce | kecap manis
 Tamari
 Liquid aminos
 Coconut aminos
@@ -104,32 +56,24 @@ Salmoriglio
 Bagna cauda
 Sauce gribiche
 Ravigote
-Sauce Robert
 Mornay
 Soubise
 Nantua
 Choron
 Maltaise
 Cumberland sauce
-Bread sauce
 Gentleman's Relish
 Mushy peas
 Curry ketchup
 Mayochup
-Green goddess
-Russian dressing
-French dressing
 Catalina dressing
 Poppy seed dressing
-Ginger dressing
 Sesame dressing
 Adobo sauce
 Arrabbiata
 Au jus
-Bang bang sauce
 Bolognese
 Bordelaise
-Boom boom sauce
 Cajun sauce
 Carbonara
 Chermoula
@@ -139,23 +83,19 @@ Chimichurri rojo
 Crème fraîche
 Dijon mustard | dijon
 Dulce de leche
-English mustard
 Fermented black beans
 Ginger scallion sauce
 Grainy mustard | whole grain mustard
-Green chile sauce
 Guasacaca
 Ham gravy | red-eye gravy
 Huancaína sauce
 Jezebel sauce
 Lime pickle
-Marie Rose sauce
 Mole poblano
 Napoletana
 Nam pla
 Nam prik
 Nuoc mam
-Pink sauce
 Pomegranate molasses
 Puttanesca
 Ragu
@@ -170,11 +110,8 @@ Sofrito
 Soubise sauce
 Tahini sauce
 Tamarind sauce
-Vodka sauce
 White gravy
 Yakitori sauce | tare
-Yellow mustard
-Zip sauce
 Curtido
 Salsa roja
 Salsa macha
@@ -196,26 +133,98 @@ Coconut chutney
 Tomato chutney
 Achar | indian pickle
 Mango pickle
-Nam jim
-Sweet bean sauce
 Doubanjiang
 Sichuan chili oil
 Lao Gan Ma
-Hot mustard
 Spicy brown mustard
 Honey Dijon
-Beer mustard
 Mostarda
 Agrodolce
 Salsa rosa
 Spicy mayo
-Garlic butter
 Peppercorn sauce
+
+[Rare]
+Tzatziki
+Aioli | garlic aioli
+Hoisin sauce | hoisin
+Hollandaise
+Chimichurri
+Tahini
+Chipotle mayo
+Sweet chili sauce
+Sambal | sambal oelek
+Harissa
+Chutney | mango chutney
+Raita
+Mint sauce
+Mint jelly
+Cranberry sauce
+Applesauce
+HP Sauce | brown sauce
+Salad cream
+Marmite
+Vegemite
+Mirin
+Miso
+Yum yum sauce
+Eel sauce
+Demi-glace
+Beurre blanc
+Salsa verde
+Mole
+Enchilada sauce
+Queso
+Valentina
+Cholula
+Crystal hot sauce
+Texas Pete
+Louisiana hot sauce
+Peri-peri | piri piri
+Jerk sauce
+Mumbo sauce
+Comeback sauce
+Fry sauce
+Alabama white sauce | white bbq sauce | alabama bbq sauce
+Chick-fil-A sauce
+Garlic sauce | toum
+Pepper jelly
+Fig jam
+Apple butter
+Chocolate sauce | chocolate syrup
+Whipped cream
+Rice vinegar
+Red wine vinegar
+Chili oil
+Black bean sauce
+Plum sauce
+Sweet soy sauce | kecap manis
+Sauce Robert
+Bread sauce
+Green goddess
+Russian dressing
+French dressing
+Ginger dressing
+Bang bang sauce
+Boom boom sauce
+English mustard
+Green chile sauce
+Marie Rose sauce
+Pink sauce
+Vodka sauce
+Yellow mustard
+Zip sauce
+Nam jim
+Sweet bean sauce
+Hot mustard
+Beer mustard
+Garlic butter
 Mushroom sauce
 Hot honey
 Bacon jam
 
-[Rare]
+[Schooler]
+Mayonnaise | mayo
 Relish | pickle relish
 Sriracha
 Tabasco
@@ -244,11 +253,8 @@ Honey
 Jam | jelly
 Peanut butter
 Nutella
-Tzatziki
-Aioli | garlic aioli
 Horseradish
 Wasabi
-Hoisin sauce | hoisin
 Sweet and sour sauce
 Duck sauce
 Fish sauce
@@ -256,15 +262,7 @@ Oyster sauce
 Chili sauce
 Steak sauce | a1 | a.1. | heinz 57
 Cheese sauce | nacho cheese
-Hollandaise
-Chimichurri
-Tahini
 Pico de gallo | pico
-
-[Schooler]
-Hot sauce
-Soy sauce
-Salsa
 
 [Too Clever]
 Butter
@@ -274,9 +272,11 @@ Special sauce | big mac sauce
 [Plankton]
 Ketchup | catsup | heinz ketchup
 Mustard
-Mayonnaise | mayo
 Ranch | ranch dressing
 Barbecue sauce | bbq sauce | bbq | carolina bbq sauce | kansas city bbq sauce
+Hot sauce
+Soy sauce
+Salsa
 
 [Not accepted]
 Sugar
@@ -300,34 +300,18 @@ note: Words like kitten, calf or joey. "Baby ___" doesn't count.
 Cygnet
 
 [Deep Cut]
-Cria
 Poult
-Keet
-Squab
 Eyas
 Leveret
-Pinkie
 Hoglet
-Puggle
-Squeaker
 Shoat
-Farrow
-Yearling
 Weanling
 Cosset
 Hogget
 Elver
-Glass eel
 Smolt
-Parr
 Alevin
-Fingerling
-Spat
-Spawn
-Roe
-Neonate
 Pullet
-Cockerel
 Peachick
 Puffling
 Codling
@@ -342,7 +326,6 @@ Naiad
 Wriggler | wiggler
 Imago
 Sprat
-Brit
 Grilse
 Kelt
 Hinny
@@ -365,11 +348,42 @@ Stirk
 Grub
 Maggot
 Nit
-Fuzzy
-Hopper
 
 [Rare]
 Duckling
+Owlet
+Eaglet
+Hatchling
+Nestling
+Whelp
+Spiderling
+Polliwog | pollywog
+Pupa
+Chrysalis
+Cria
+Keet
+Squab
+Pinkie
+Puggle
+Squeaker
+Farrow
+Yearling
+Glass eel
+Parr
+Fingerling
+Spat
+Spawn
+Roe
+Neonate
+Cockerel
+Brit
+Fuzzy
+Hopper
+
+[Schooler]
+Kitten | kitty
+Cub
+Foal
 Piglet
 Bunny | kit
 Fawn
@@ -377,24 +391,10 @@ Kid
 Colt
 Filly
 Gosling
-Owlet
-Eaglet
 Fry
 Larva
-Hatchling
-Nestling
 Fledgling | fledgeling
-Whelp
-Spiderling
-Polliwog | pollywog
 Nymph
-Pupa
-Chrysalis
-
-[Schooler]
-Chick
-Lamb
-Joey
 
 [Too Clever]
 Baby
@@ -405,10 +405,10 @@ Toddler
 
 [Plankton]
 Puppy | pup
-Kitten | kitty
 Calf
-Cub
-Foal
+Chick
+Lamb
+Joey
 
 [Not accepted]
 Baby animal
@@ -448,20 +448,6 @@ Bolivia
 Ecuador
 Serbia
 Croatia
-Bulgaria
-Romania
-Hungary
-Czech Republic | czechia
-Austria
-Switzerland
-Belgium
-Netherlands | holland
-Denmark
-Finland
-Iceland
-Ukraine
-Venezuela
-Turkey | türkiye | turkiye
 San Marino
 Andorra
 Moldova
@@ -492,8 +478,26 @@ Georgia
 Colombia
 Chile
 Peru
-Argentina
 Portugal
+Bulgaria
+Romania
+Hungary
+Czech Republic | czechia
+Austria
+Switzerland
+Belgium
+Netherlands | holland
+Denmark
+Finland
+Iceland
+Ukraine
+Venezuela
+Turkey | türkiye | turkiye
+
+[Schooler]
+Spain
+Brazil
+Argentina
 Poland
 Norway
 Sweden
@@ -508,8 +512,6 @@ United Kingdom | uk | great britain | britain
 France
 Germany
 Italy
-Spain
-Brazil
 
 [Not accepted]
 England
@@ -540,111 +542,29 @@ prompt: Name a sports trophy, championship, or big event
 Calcutta Cup
 
 [Deep Cut]
-Claret Jug | open championship | british open
-PGA Championship
-Wanamaker Trophy
 Solheim Cup
-Presidents Cup
-Belmont Stakes
-Preakness Stakes | preakness
-Breeders' Cup
-Melbourne Cup
-Grand National
-Royal Ascot
-Monaco Grand Prix
-Le Mans | 24 hours of le mans
-Formula 1 World Championship
-NASCAR Cup Series
-Brickyard 400
-Copa America | copa américa
-Euros | european championship | euro
 Copa Libertadores
-FA Cup
 Carabao Cup | league cup
-Club World Cup
-Ballon d'Or
-Golden Boot
-Conn Smythe Trophy
-Hart Trophy
 Vezina Trophy
-Norris Trophy
-Calder Trophy
-Art Ross Trophy
-Presidents' Trophy
-Cy Young Award | cy young
-Hank Aaron Award
-Gold Glove
-Silver Slugger
-Rookie of the Year
-Bill Russell Trophy
-Naismith Trophy
-Wooden Award
-Maxwell Award
-Walter Payton Award
-Sugar Bowl
-Orange Bowl
-Cotton Bowl
-Fiesta Bowl
-Peach Bowl
-Frozen Four
-College World Series
-Little League World Series
-Women's World Cup
-WNBA Finals
-Heavyweight championship | heavyweight title
-WrestleMania
-Royal Rumble
-UFC title | ufc belt
-Iditarod
-Ironman
-New York City Marathon | nyc marathon
-London Marathon
-Rugby World Cup
-Six Nations
-Webb Ellis Cup
-Cricket World Cup
-The Ashes | ashes
-IPL
-Commonwealth Games
-Asian Games
-Pan American Games
-World Baseball Classic
-Gold Cup
-MLS Cup
-Supporters' Shield
-US Open Cup
-Calder Cup
-Memorial Cup
 Hobey Baker Award
-Thorpe Award
 Biletnikoff Award
-Outland Trophy
-Lou Marsh Trophy
 Laureus Award
-ESPY | espys
-Sportsman of the Year
 Bledisloe Cup
 Heineken Cup
 Ranfurly Shield
 Sam Maguire Cup
 Liam MacCarthy Cup
-Thomas Cup
-Uber Cup
 Sudirman Cup
 Swaythling Cup
 Corbillon Cup
 Hopman Cup
 Laver Cup
 Billie Jean King Cup | fed cup
-Curtis Cup
-Walker Cup
 Wightman Cup
 Admiral's Cup
 Volvo Ocean Race
 Vendee Globe
-Boat Race | oxford cambridge boat race
 Henley Royal Regatta
-Head of the Charles
 Giro d'Italia
 Vuelta a Espana
 Paris-Roubaix
@@ -657,19 +577,13 @@ Indy Lights
 Prix de l'Arc de Triomphe | arc
 Epsom Derby
 Cheltenham Gold Cup
-Dubai World Cup
-Japan Cup
-Championship belt
 Lady Byng Trophy
 Selke Trophy
 Ted Lindsay Award
-Jack Adams Award
 Jim Thorpe Trophy
 Roberto Clemente Award
 Mariano Rivera Award
 Edgar Martinez Award
-Sixth Man of the Year
-Clutch Player of the Year
 Lou Groza Award
 Doak Walker Award
 Davey O'Brien Award
@@ -678,22 +592,14 @@ Bronko Nagurski Trophy
 Chuck Bednarik Award
 Golden Spikes Award
 Dick Howser Trophy
-Sullivan Award
 Pichichi
-Golden Ball
 Golden Glove
 Puskas Award
 Kopa Trophy
 Yashin Trophy
-Women's Six Nations
-Rugby Championship
 Tri Nations
-Super Rugby
 Premiership Rugby
-Top 14
 Currie Cup
-Challenge Cup
-State of Origin
 NRL Grand Final
 AFL Grand Final
 Brownlow Medal
@@ -702,12 +608,8 @@ Coleman Medal
 Clive Churchill Medal
 Dally M Medal
 Sheffield Shield
-County Championship
 Big Bash
-The Hundred
 T20 World Cup
-Champions Trophy
-World Test Championship
 Border-Gavaskar Trophy
 Ranji Trophy
 Wisden Trophy
@@ -715,11 +617,6 @@ Frank Worrell Trophy
 Chappell-Hadlee Trophy
 Basil D'Oliveira Trophy
 Europa League
-Conference League
-Super Cup
-Community Shield
-FA Trophy
-Scottish Cup
 Coupe de France
 DFB-Pokal
 Copa del Rey
@@ -731,18 +628,9 @@ La Liga
 Bundesliga
 Ligue 1
 Eredivisie
-African Cup of Nations | afcon
-Asian Cup
-Nations League
-Olympic football
 Copa Sudamericana
 CONCACAF Champions Cup
 Concacaf Gold Cup
-Golden Shoe | european golden shoe
-FIFA World Player of the Year
-The Best FIFA Men's Player
-Golden Foot
-Golden Boy
 PFA Player of the Year
 FWA Footballer of the Year
 Bundesliga Torjägerkanone
@@ -752,108 +640,58 @@ Hermann Trophy
 Mac Hermann Trophy
 NWSL Championship
 NWSL Shield
-Women's Champions League
-Women's Euro
 SheBelieves Cup
 Algarve Cup
 Commissioner's Cup
 WNBA Commissioner's Cup
-NBA Cup | in-season tournament
-NBA Draft
-NBA Summer League
 Kia MVP
 Maurice Podoloff Trophy
-Michael Jordan Trophy
 Kareem Abdul-Jabbar Trophy
-Larry Bird Trophy
-Magic Johnson Trophy
-Jerry West Trophy
 Red Auerbach Trophy
 Wilt Chamberlain Trophy
 George Mikan Trophy
 Hakeem Olajuwon Trophy
 Twyman-Stokes Teammate Award
-Most Improved Player
-Defensive Player of the Year
-Coach of the Year
-Executive of the Year
 Naismith Hall of Fame
-Hall of Fame
-Big East Tournament
 ACC Tournament
 NIT
-Elite Eight
-Sweet Sixteen
 NCAA Tournament
-Women's Final Four
 Wade Trophy
-Senior CLASS Award
 Bob Cousy Award
 Lute Olson Award
 Julius Erving Award
 Karl Malone Award
 Kareem Abdul-Jabbar Award
-Jerry West Award
 Lombardi Award
 Bear Bryant Award
-Walter Camp Award
 Johnny Unitas Golden Arm Award
 Mackey Award
 Rimington Trophy
-Ray Guy Award
 Paul Hornung Award
 Lott IMPACT Trophy
-Campbell Trophy
 Broyles Award
-Eddie Robinson Award
-Home Depot Coach of the Year
-Bowl Championship Series | bcs
-National Championship
 CFP National Championship
-Big Ten Championship
-SEC Championship
-Army-Navy Game
-Iron Bowl
-The Game
 Red River Rivalry
-Egg Bowl
-Holiday Bowl
 Gator Bowl
 Citrus Bowl
 Alamo Bowl
 Outback Bowl
-Liberty Bowl
-Sun Bowl
-Music City Bowl
-Las Vegas Bowl
 Pinstripe Bowl
 Duke's Mayo Bowl
 Cheez-It Bowl
 Pop-Tarts Bowl
 Famous Idaho Potato Bowl
 Bahamas Bowl
-NFL Draft
 NFL MVP
 AP MVP
-Offensive Player of the Year
-Defensive Rookie of the Year
 Walter Payton Man of the Year
 Pete Rozelle Trophy | super bowl mvp
-Comeback Player of the Year
-Pro Football Hall of Fame
 George Halas Trophy
 Lamar Hunt Trophy
 AFC Championship
 NFC Championship
-Thanksgiving Day game
-Monday Night Football
-Hall of Fame Game
 Grey Cup MVP
 Vanier Cup
-NHL Draft
-Winter Classic
-Stadium Series
-Heritage Classic
 Ted Lindsay
 Jim Norris Trophy
 William M. Jennings Trophy
@@ -862,85 +700,49 @@ King Clancy Trophy
 Mark Messier Leadership Award
 Maurice Richard Trophy | rocket richard trophy
 Clarence Campbell Bowl
-Prince of Wales Trophy
 Lester Patrick Trophy
 Frank J. Selke Trophy
-Jack Adams
-Hockey Hall of Fame
 World Juniors
 IIHF World Championship
-4 Nations Face-Off
-World Cup of Hockey
 Spengler Cup
 Kontinental Hockey League | gagarin cup
 Allan Cup
-Turner Cup
-Kelly Cup
-AL MVP
 NL MVP
 Pennant
 AL pennant
 NL pennant
 ALCS
 NLCS
-Wild Card Game
-Division Series
 Reliever of the Year
 Edgar Martinez Outstanding DH Award
-Manager of the Year
-Comeback Player
 Ford C. Frick Award
-Baseball Hall of Fame
-Japan Series
-Korean Series
-Caribbean Series
-Little League
-Junior League World Series
 Golden Spikes
 Bowerman Award
-Diamond League
 World Athletics Championships
 Penn Relays
 Millrose Games
 Prefontaine Classic
-Berlin Marathon
-Chicago Marathon
-Tokyo Marathon
-Marine Corps Marathon
 Comrades Marathon
 Western States 100
 Badwater 135
 Barkley Marathons
 Hawaii Ironman | kona
-Tour Down Under
-Paris-Nice
 Tour of Flanders
 Liège-Bastogne-Liège
 Il Lombardia
 Strade Bianche
 UCI World Championships
-Rainbow jersey
-Yellow jersey
 Maillot jaune
-Green jersey
 Polka dot jersey
 Maglia rosa
-Grand Tour
-Spring Classics
-Team pursuit world championship
 Red Bull Rampage
 Dew Tour
 Street League Skateboarding
 Vans Triple Crown
-Pipeline Masters
 Eddie Aikau
-World Surf League
 Mavericks
-Tour de Ski
 Hahnenkamm
-Crystal Globe
 Holmenkollen
-Four Hills Tournament
 Vasaloppet
 Birkebeiner
 World Figure Skating Championships
@@ -955,29 +757,14 @@ Coupe des Mousquetaires
 Suzanne Lenglen Cup
 Norman Brookes Challenge Cup
 Daphne Akhurst Memorial Cup
-Grand Slam
-Career Grand Slam
-Golden Slam
 ATP Finals
 WTA Finals
-Indian Wells
-Miami Open
-Madrid Open
-Italian Open
-Cincinnati Open
-Canadian Open
-Shanghai Masters
-Paris Masters
-United Cup
 Next Gen ATP Finals
 Queen's Club
 Halle Open
 Eastbourne
 Wimbledon Championships
-Players Championship | the players
 FedEx Cup
-Tour Championship
-Race to Dubai
 Silver Claret Jug
 Payne Stewart Award
 Byron Nelson Award
@@ -987,23 +774,17 @@ Arnold Palmer Award
 LPGA Tour Championship
 Chevron Championship
 KPMG Women's PGA
-Women's British Open
-US Women's Open
 Evian Championship
-International Crown
 Junior Ryder Cup
 Seve Trophy
 Eisenhower Trophy
 Espirito Santo Trophy
 Pebble Beach Pro-Am
-Waste Management Phoenix Open
 Genesis Invitational
-Memorial Tournament
 Arnold Palmer Invitational
 RBC Heritage
 Travelers Championship
 LIV Golf
-Formula E
 IndyCar Series
 Astor Cup
 Borg-Warner Trophy
@@ -1011,11 +792,9 @@ Rolex 24 at Daytona
 12 Hours of Sebring
 Petit Le Mans
 Nürburgring 24 Hours
-Spa 24 Hours
 Macau Grand Prix
 Pikes Peak Hill Climb
 Baja 1000
-World Rally Championship
 MotoGP
 Superbike World Championship
 Supercross
@@ -1024,18 +803,13 @@ Daytona 200
 Coca-Cola 600
 Southern 500
 Talladega
-Bristol Night Race
 Clash at the Coliseum
 NASCAR All-Star Race
 Chili Bowl
 Knoxville Nationals
 World of Outlaws
-Top Fuel
 US Nationals drag racing
 Constructors' Championship
-Drivers' Championship
-Formula 2
-Formula 3
 British Grand Prix
 Italian Grand Prix
 Belgian Grand Prix
@@ -1065,26 +839,18 @@ Kentucky Oaks
 Travers Stakes
 Pegasus World Cup
 Santa Anita Derby
-Florida Derby
 Arkansas Derby
 Breeders' Cup Classic
-Saudi Cup
-Hong Kong Cup
-Cox Plate
 Caulfield Cup
 Golden Slipper
-Irish Derby
 2000 Guineas
 1000 Guineas
 St Leger
 Oaks
 King George VI and Queen Elizabeth Stakes
 Champion Hurdle
-Queen Mother Champion Chase
-Irish Grand National
 Hambletonian
 Little Brown Jug
-Westminster Dog Show
 Crufts
 Iditarod Trail
 Yukon Quest
@@ -1092,107 +858,274 @@ National Finals Rodeo
 Calgary Stampede
 Cheyenne Frontier Days
 PBR World Finals
-World Series of Poker | wsop
-World Chess Championship
 Chess Olympiad
-Candidates Tournament
 Scrabble World Championship
-League of Legends World Championship | worlds
-The International
 Evo
 Fortnite World Cup
 Overwatch League
-Call of Duty League
-Rocket League Championship
-Major
 Esports World Cup
 Mr. Olympia
-World's Strongest Man
-Arnold Classic
 CrossFit Games
 World Series of Darts
 PDC World Darts Championship
 World Snooker Championship
 The Masters snooker
-UK Championship
 Mosconi Cup
-World Pool Championship
 Lonsdale Belt
 WBC belt
 WBA belt
 IBF belt
 WBO belt
-The Ring belt
 Undisputed championship
-Olympic gold medal | gold medal
-Silver medal
-Bronze medal
-Medal of Honor sports
 Olympic torch
-UFC
 Bellator
 PFL
-ONE Championship
 Strikeforce
-Pride FC
 UFC Hall of Fame
 Intercontinental Championship
-WWE Championship
-Universal Championship
 AEW World Championship
-Money in the Bank
 SummerSlam
-Survivor Series
 Royal Rumble match
-Hell in a Cell
 Starrcade
-King of the Ring
 NXT
-Tag Team Championship
 World Heavyweight Championship
 Hall of Fame Induction
 America's Cup Jug
 Sydney to Hobart
 Fastnet Race
-Ocean Race
 SailGP
 Rolex Sydney Hobart
 Clipper Race
 Diamond Sculls
-Grand Challenge Cup
-Head of the River
 World Rowing Championships
 World Aquatics Championships
 Pan Pacific Championships
 Duel in the Pool
 Speedo Junior Nationals
+Invictus Games
+Deaflympics
+Goodwill Games
+Maccabiah Games
+Universiade | world university games
+Highland Games
+Bog snorkelling
+World Gurning Championship
+Calgary Stampede rodeo
+Palio di Siena
+Tour de France Femmes
+Grand Départ
+
+[Rare]
+Claret Jug | open championship | british open
+Wanamaker Trophy
+Preakness Stakes | preakness
+Royal Ascot
+Brickyard 400
+Copa America | copa américa
+Ballon d'Or
+Conn Smythe Trophy
+Calder Trophy
+Silver Slugger
+Naismith Trophy
+Walter Payton Award
+WNBA Finals
+Iditarod
+Ironman
+Calder Cup
+Outland Trophy
+ESPY | espys
+Sportsman of the Year
+Thomas Cup
+Uber Cup
+Curtis Cup
+Walker Cup
+Boat Race | oxford cambridge boat race
+Head of the Charles
+Dubai World Cup
+Japan Cup
+Championship belt
+Jack Adams Award
+Sixth Man of the Year
+Clutch Player of the Year
+Sullivan Award
+Golden Ball
+Women's Six Nations
+Rugby Championship
+Super Rugby
+Challenge Cup
+State of Origin
+County Championship
+The Hundred
+Champions Trophy
+World Test Championship
+Conference League
+Community Shield
+FA Trophy
+Scottish Cup
+African Cup of Nations | afcon
+Asian Cup
+Nations League
+Olympic football
+Golden Shoe | european golden shoe
+FIFA World Player of the Year
+The Best FIFA Men's Player
+Golden Foot
+Golden Boy
+Women's Champions League
+Women's Euro
+NBA Cup | in-season tournament
+NBA Draft
+NBA Summer League
+Michael Jordan Trophy
+Larry Bird Trophy
+Magic Johnson Trophy
+Jerry West Trophy
+Most Improved Player
+Defensive Player of the Year
+Hall of Fame
+Big East Tournament
+Elite Eight
+Sweet Sixteen
+Women's Final Four
+Senior CLASS Award
+Jerry West Award
+Walter Camp Award
+Ray Guy Award
+Campbell Trophy
+Eddie Robinson Award
+Home Depot Coach of the Year
+Bowl Championship Series | bcs
+National Championship
+Big Ten Championship
+SEC Championship
+Army-Navy Game
+Iron Bowl
+Egg Bowl
+Holiday Bowl
+Liberty Bowl
+Sun Bowl
+Music City Bowl
+Las Vegas Bowl
+NFL Draft
+Offensive Player of the Year
+Defensive Rookie of the Year
+Comeback Player of the Year
+Pro Football Hall of Fame
+Thanksgiving Day game
+Monday Night Football
+Hall of Fame Game
+NHL Draft
+Winter Classic
+Stadium Series
+Heritage Classic
+Prince of Wales Trophy
+Jack Adams
+Hockey Hall of Fame
+4 Nations Face-Off
+World Cup of Hockey
+Turner Cup
+Kelly Cup
+AL MVP
+Wild Card Game
+Division Series
+Comeback Player
+Baseball Hall of Fame
+Japan Series
+Korean Series
+Caribbean Series
+Junior League World Series
+Diamond League
+Berlin Marathon
+Chicago Marathon
+Tokyo Marathon
+Marine Corps Marathon
+Paris-Nice
+Rainbow jersey
+Yellow jersey
+Green jersey
+Grand Tour
+Spring Classics
+Team pursuit world championship
+Pipeline Masters
+World Surf League
+Tour de Ski
+Crystal Globe
+Four Hills Tournament
+Grand Slam
+Career Grand Slam
+Golden Slam
+Indian Wells
+Miami Open
+Madrid Open
+Italian Open
+Cincinnati Open
+Canadian Open
+Shanghai Masters
+Paris Masters
+Players Championship | the players
+Tour Championship
+Race to Dubai
+Women's British Open
+US Women's Open
+International Crown
+Waste Management Phoenix Open
+Memorial Tournament
+Formula E
+Spa 24 Hours
+World Rally Championship
+Bristol Night Race
+Top Fuel
+Drivers' Championship
+Formula 2
+Formula 3
+Florida Derby
+Saudi Cup
+Hong Kong Cup
+Cox Plate
+Irish Derby
+Queen Mother Champion Chase
+Irish Grand National
+Westminster Dog Show
+World Series of Poker | wsop
+World Chess Championship
+Candidates Tournament
+League of Legends World Championship | worlds
+Call of Duty League
+Rocket League Championship
+World's Strongest Man
+Arnold Classic
+UK Championship
+World Pool Championship
+The Ring belt
+Olympic gold medal | gold medal
+Silver medal
+Bronze medal
+Medal of Honor sports
+UFC
+ONE Championship
+Pride FC
+WWE Championship
+Universal Championship
+Survivor Series
+Hell in a Cell
+King of the Ring
+Tag Team Championship
+Ocean Race
+Grand Challenge Cup
 US Olympic Trials
 Olympic Trials
 Youth Olympics
 Special Olympics
-Invictus Games
-Deaflympics
-World Games
-Goodwill Games
-Maccabiah Games
-Universiade | world university games
 Arctic Winter Games
-Highland Games
-Gay Games
 World Pillow Fighting
 Wife Carrying World Championship
 Cheese rolling
-Bog snorkelling
-World Gurning Championship
 Air Guitar World Championship
-Calgary Stampede rodeo
 Running of the Bulls
-Palio di Siena
-Tour de France Femmes
 Women's Tour
-Grand Départ
 
-[Rare]
+[Schooler]
+Wimbledon
 Vince Lombardi Trophy | lombardi trophy
 Larry O'Brien Trophy
 Commissioner's Trophy
@@ -1224,11 +1157,78 @@ Pro Bowl
 All-Star Game
 Home Run Derby
 Slam Dunk Contest
-
-[Schooler]
-Olympics | olympic games
-Wimbledon
-March Madness
+PGA Championship
+Presidents Cup
+Belmont Stakes
+Breeders' Cup
+Melbourne Cup
+Grand National
+Monaco Grand Prix
+Le Mans | 24 hours of le mans
+Formula 1 World Championship
+NASCAR Cup Series
+Euros | european championship | euro
+FA Cup
+Club World Cup
+Golden Boot
+Hart Trophy
+Norris Trophy
+Art Ross Trophy
+Presidents' Trophy
+Cy Young Award | cy young
+Hank Aaron Award
+Gold Glove
+Rookie of the Year
+Bill Russell Trophy
+Wooden Award
+Maxwell Award
+Sugar Bowl
+Orange Bowl
+Cotton Bowl
+Fiesta Bowl
+Peach Bowl
+Frozen Four
+College World Series
+Little League World Series
+Women's World Cup
+Heavyweight championship | heavyweight title
+WrestleMania
+Royal Rumble
+UFC title | ufc belt
+New York City Marathon | nyc marathon
+London Marathon
+Rugby World Cup
+Six Nations
+Webb Ellis Cup
+Cricket World Cup
+The Ashes | ashes
+IPL
+Commonwealth Games
+Asian Games
+Pan American Games
+World Baseball Classic
+Gold Cup
+MLS Cup
+Supporters' Shield
+US Open Cup
+Memorial Cup
+Thorpe Award
+Lou Marsh Trophy
+Top 14
+Super Cup
+Coach of the Year
+Executive of the Year
+The Game
+Manager of the Year
+Little League
+Tour Down Under
+United Cup
+The International
+Major
+Money in the Bank
+Head of the River
+World Games
+Gay Games
 
 [Too Clever]
 Puppy Bowl
@@ -1241,6 +1241,8 @@ World Series
 Stanley Cup
 NBA Finals
 World Cup | fifa world cup
+Olympics | olympic games
+March Madness
 
 [Not accepted]
 Oscar
@@ -1276,7 +1278,6 @@ Sforzando
 Mezzo forte
 Mezzo piano
 Fortepiano
-Dolce
 Cantabile
 Espressivo
 Maestoso
@@ -1289,104 +1290,45 @@ Trill
 Tremolo
 Arpeggio
 Ostinato
-Cadence
-Interval
-Unison
-Dissonance
 Consonance
 Syncopation
 Polyrhythm
 Downbeat
-Upbeat
 Offbeat
 Backbeat
-Groove
 Timbre
-Texture
-Counterpoint
 Fugue
-Canon
-Overture
-Symphony
-Concerto
-Sonata
-Aria
 Recitative
 Libretto
-Opus
-Prelude
 Etude
 Nocturne
-Waltz
 Minuet
-Rondo
 Scherzo
 Cadenza
 Da capo
 Dal segno
 Segno
-Repeat sign
-Ledger line
-Accidental
 Transpose
-Modulation
-Tonic
-Dominant
 Subdominant
 Mediant
-Leading tone
-Triad
-Seventh chord
-Power chord
-Diminished
-Augmented
-Suspended chord | sus chord
-Inversion
 Pentatonic
-Chromatic
 Diatonic
-Mode
-Dorian
 Mixolydian
 Lydian
 Phrygian
 Ionian
 Aeolian
 Locrian
-Blue note
-Grace note
-Dotted note
 Triplet
-Beam
-Stem
 Downstroke
 Capo
-Tuning
-Intonation
-Ensemble
-Orchestra
-Conductor
-Baton
-Maestro
-Virtuoso
-Soprano
-Alto
-Tenor
-Baritone
 Falsetto
 Mezzo-soprano
 Countertenor
 Harmonics
 Overtone
-Feedback
-Reverb
-Remix
 Mashup
-Breakdown
-Fine
-Turn
 Grave
-Mass
 Larghetto
 Andantino
 Prestissimo
@@ -1474,6 +1416,93 @@ Drone
 Stretto
 
 [Rare]
+Forte
+Allegro
+Staccato
+Legato
+Decrescendo | diminuendo
+Fortissimo
+Pianissimo
+Treble clef | treble
+Bass clef
+Clef
+Octave
+Adagio
+Andante
+Presto
+Largo
+Fermata
+Slur
+Vibrato
+A cappella | acapella
+Improvisation | improv
+Solfege | do re mi
+Coda
+Outro
+Dolce
+Cadence
+Interval
+Unison
+Dissonance
+Upbeat
+Groove
+Texture
+Counterpoint
+Canon
+Overture
+Symphony
+Concerto
+Sonata
+Aria
+Opus
+Prelude
+Waltz
+Rondo
+Repeat sign
+Ledger line
+Accidental
+Modulation
+Tonic
+Dominant
+Leading tone
+Triad
+Seventh chord
+Power chord
+Diminished
+Augmented
+Suspended chord | sus chord
+Inversion
+Chromatic
+Mode
+Dorian
+Blue note
+Grace note
+Dotted note
+Beam
+Stem
+Tuning
+Intonation
+Ensemble
+Orchestra
+Conductor
+Baton
+Maestro
+Virtuoso
+Soprano
+Alto
+Tenor
+Baritone
+Feedback
+Reverb
+Remix
+Breakdown
+Fine
+Turn
+Mass
+
+[Schooler]
+Crescendo
+Chord
 Piano
 Key
 Rest
@@ -1485,22 +1514,11 @@ Round
 Loop
 Sample
 Echo
-Forte
-Allegro
-Staccato
-Legato
-Decrescendo | diminuendo
-Fortissimo
-Pianissimo
-Treble clef | treble
-Bass clef
-Clef
 Staff | stave
 Measure | bar
 Sharp
 Flat
 Scale
-Octave
 Pitch
 Tone
 Solo
@@ -1519,30 +1537,12 @@ Half note
 Quarter note
 Eighth note
 Sixteenth note
-Major
 Minor
-Adagio
-Andante
-Presto
-Largo
-Fermata
 Accent
-Slur
 Dynamics
-Vibrato
-A cappella | acapella
-Improvisation | improv
 Riff
-Solfege | do re mi
-Coda
 Intro
-Outro
 Hook
-
-[Schooler]
-Melody
-Harmony
-Chord
 
 [Too Clever]
 Encore
@@ -1550,10 +1550,12 @@ Bridge
 
 [Plankton]
 Tempo
-Crescendo
 Note
 Rhythm
 Beat
+Melody
+Harmony
+Major
 
 [Not accepted]
 Guitar
@@ -1573,88 +1575,14 @@ prompt: Name a Lord of the Rings or Hobbit character
 Tom Bombadil | bombadil
 
 [Deep Cut]
-Bolg
-The Necromancer | necromancer
-Celeborn | celeborn the wise
-Haldir | haldir of lorien
-Glorfindel | glorfindel of rivendell
-Isildur | isildur son of elendil
-Elendil | elendil the tall
-Gil-galad | ereinion
-Cirdan | cirdan the shipwright
-Beorn
-Lurtz
-Gothmog
-Grishnakh
-Ugluk
-Shagrat
-Gorbag
-Mouth of Sauron | the mouth
-Gamling
-Hama
-Theodred
-Imrahil
-Beregond
-Bergil
-Barliman Butterbur | butterbur | barliman
-Bill the Pony | bill
-Shadowfax | shadowfax horse
-Old Man Willow
-Goldberry
-Farmer Maggot
-Lobelia Sackville-Baggins | lobelia
-Lotho | lotho sackville-baggins
-Fatty Bolger | fredegar bolger
-Gaffer | hamfast gamgee
-Ted Sandyman
-Bill Ferny
-Elladan
-Elrohir
-Gwaihir
-Great Eagles | eagles
-Dain Ironfoot | dain
-Oin
-Gloin
-Ori | ori dwarf
-Dori
-Nori
-Bifur
-Thror
-Thrain
-Master of Lake-town
-Alfrid | alfrid lickspittle
-Tom, Bert and William | trolls | stone trolls
-Great Goblin
-Wargs | warg
-Mumakil | oliphaunt
-Watcher in the Water | the watcher
-Durin's Bane | balrog of moria
-Elanor | elanor gamgee
-Drogo Baggins
-Primula Brandybuck
-Arathorn
-Gilraen
-Celebrian
-Finrod
-Feanor
-Fingolfin
-Luthien | luthien tinuviel
-Beren
-Morgoth | melkor | morgoth bauglir
-Ungoliant
-Turin Turambar | turin
-Earendil
-Elros
 Tar-Miriel
 Ar-Pharazon
-Celebrimbor
 Annatar
 Halbrand
 Elendur
 Ohtar
 Deagol | déagol
 Thingol | elwe singollo | thingol greycloak
-Melian
 Maedhros
 Maglor
 Fingon
@@ -1669,11 +1597,9 @@ Nienor
 Glaurung
 Ancalagon
 Carcharoth
-Huan
 Thorondor | thorondor eagle
 Tulkas
 Manwe
-Varda
 Ulmo
 Aule
 Yavanna
@@ -1689,7 +1615,6 @@ Dernhelm
 Forlong
 Hirluin
 Angbor
-Ingold
 Damrod
 Mablung
 Anborn
@@ -1704,25 +1629,14 @@ Thengel
 Fengel
 Folcwine
 Baldor
-Galion
 Lindir | lindir minstrel
 Erestor | erestor elf
-Ruby Bolger
-Belladonna Took
-Bungo Baggins
-Old Took
 Bandobras Took | bullroarer
-Paladin Took
-Eglantine
-Daisy Gamgee
-Marigold
 Robin Smallburrow
-Farmer Cotton
 Will Whitfoot
 Alatar
 Pallando
 Éothain
-Freda
 Morwen of Rohan
 Bregalad | quickbeam
 Skinbark
@@ -1730,77 +1644,28 @@ Leaflock
 Fimbrethil
 Ghân-buri-Ghân
 Halbarad
-Bob
-Nob
-Mrs. Maggot
-Lily Cotton
-Tolman Cotton
-Jolly Cotton
-Nick Cotton
-Nibs Cotton
-Bell Gamgee
 Hamson Gamgee
 Halfred Gamgee
-May Gamgee
-Frodo Gardner
-Rose Gardner
-Merry Gardner
-Pippin Gardner
-Goldilocks Gardner
 Hamfast Gardner
-Daisy Gardner
-Primrose Gardner
-Bilbo Gardner
-Ruby Gardner
-Robin Gardner
-Tolman Gardner
 Fastred of Greenholm
-Estella Bolger
-Diamond of Long Cleeve
 Saradoc Brandybuck
 Esmeralda Brandybuck
 Rorimac Brandybuck
 Gorbadoc Brandybuck
-Mirabella Took
-Gerontius Took
 Isengrim Took
 Ferumbras Took
-Everard Took
-Pearl Took
-Pimpernel Took
 Pervinca Took
 Hildibrand Took
 Isumbras Took
 Adelard Took
 Reginard Took
-Otho Sackville-Baggins
-Angelica Baggins
-Dora Baggins
 Dudo Baggins
-Odo Proudfoot
-Olo Proudfoot
-Sancho Proudfoot
-Mungo Baggins
-Laura Grubb
-Largo Baggins
-Ponto Baggins
-Porto Baggins
-Milo Burrows
-Mosco Burrows
-Moro Burrows
-Minto Burrows
-Hugo Bracegirdle
-Old Noakes
 Daddy Twofoot
 Sandyman
 Lotho Pimple
-Hob Hayward
 Harry Goatleaf
 Mat Heathertoes
 Tom Pickthorn
-Bill Butcher
-Lily Brown
-Mugwort
 Rowlie Appledore
 Arador
 Argonui
@@ -1829,16 +1694,11 @@ Amroth
 Nimrodel
 Mithrellas
 Narvi
-Durin
-Durin VI
 Náin
 Thorin III Stonehelm
 Frerin
 Dís
-Fundin
 Gróin
-Farin
-Borin
 Grór
 Náli
 Frár
@@ -1860,24 +1720,17 @@ Landroval
 Meneldor
 Roäc
 Carc
-The Thrush
 Draugluin
 Thuringwethil
-Fatty Lumpkin
 Asfaloth
 Brego horse
 Hasufel
-Arod
 Firefoot
 Felaróf
 Snowmane
 Windfola
 Stybba
 Roheryn
-Nahar
-Myrtle pony
-Minnie pony
-Daisy pony
 Oropher
 Rúmil
 Orophin
@@ -1900,7 +1753,6 @@ Orodreth
 Angrod
 Aegnor
 Elwing
-Dior
 Nimloth
 Elured
 Elurin
@@ -1917,11 +1769,9 @@ Erendis
 Aldarion
 Ancalimë
 Amandil
-Tar-Palantir
 Ar-Gimilzôr
 Irmo Lórien
 Estë
-Nessa
 Vána
 Ossë
 Uinen
@@ -1942,13 +1792,7 @@ Rían
 Haleth
 Bëor
 Marach
-Bain son of Bard
-Brand king of Dale
 Girion
-Braga
-Hilda Bianca
-Sigrid
-Tilda
 Grimbeorn
 Medwed
 Éomund
@@ -1966,27 +1810,158 @@ Targon
 Ioreth
 Iorlas
 Madril
-Valar
 Maiar
-Blue Wizards | ithryn luin
-Barrow-wights
 Haradrim
 Easterlings
 Corsairs of Umbar
 Dúnedain | rangers of the north
 Woses | wild men | drúedain
 Crebain
-Fell beasts
-Rohirrim | men of rohan
 Entwives
-Cave troll
 Olog-hai
+
+[Rare]
+Bofur
+Bolg
+Celeborn | celeborn the wise
+Haldir | haldir of lorien
+Glorfindel | glorfindel of rivendell
+Isildur | isildur son of elendil
+Elendil | elendil the tall
+Gil-galad | ereinion
+Cirdan | cirdan the shipwright
+Beorn
+Lurtz
+Gothmog
+Grishnakh
+Ugluk
+Shagrat
+Gorbag
+Gamling
+Theodred
+Imrahil
+Beregond
+Bergil
+Barliman Butterbur | butterbur | barliman
+Shadowfax | shadowfax horse
+Goldberry
+Lobelia Sackville-Baggins | lobelia
+Lotho | lotho sackville-baggins
+Ted Sandyman
+Bill Ferny
+Elladan
+Elrohir
+Gwaihir
+Dain Ironfoot | dain
+Gloin
+Bifur
+Thror
+Thrain
+Alfrid | alfrid lickspittle
+Wargs | warg
+Mumakil | oliphaunt
+Durin's Bane | balrog of moria
+Elanor | elanor gamgee
+Primula Brandybuck
+Arathorn
+Gilraen
+Celebrian
+Finrod
+Feanor
+Fingolfin
+Luthien | luthien tinuviel
+Beren
+Morgoth | melkor | morgoth bauglir
+Ungoliant
+Turin Turambar | turin
+Earendil
+Elros
+Celebrimbor
+Melian
+Huan
+Varda
+Ingold
+Galion
+Ruby Bolger
+Belladonna Took
+Bungo Baggins
+Paladin Took
+Eglantine
+Daisy Gamgee
+Marigold
+Freda
+Nob
+Mrs. Maggot
+Tolman Cotton
+Jolly Cotton
+Nibs Cotton
+Bell Gamgee
+May Gamgee
+Frodo Gardner
+Merry Gardner
+Pippin Gardner
+Goldilocks Gardner
+Daisy Gardner
+Primrose Gardner
+Bilbo Gardner
+Ruby Gardner
+Tolman Gardner
+Estella Bolger
+Diamond of Long Cleeve
+Mirabella Took
+Gerontius Took
+Everard Took
+Pimpernel Took
+Otho Sackville-Baggins
+Angelica Baggins
+Dora Baggins
+Odo Proudfoot
+Olo Proudfoot
+Sancho Proudfoot
+Mungo Baggins
+Laura Grubb
+Largo Baggins
+Ponto Baggins
+Porto Baggins
+Milo Burrows
+Mosco Burrows
+Moro Burrows
+Minto Burrows
+Hugo Bracegirdle
+Old Noakes
+Hob Hayward
+Mugwort
+Durin
+Durin VI
+Fundin
+Farin
+Borin
+The Thrush
+Fatty Lumpkin
+Arod
+Nahar
+Myrtle pony
+Minnie pony
+Daisy pony
+Dior
+Tar-Palantir
+Nessa
+Bain son of Bard
+Braga
+Hilda Bianca
+Sigrid
+Tilda
+Valar
+Barrow-wights
+Rohirrim | men of rohan
+Cave troll
 Sharkey
-Grip
 Fang
 Werewolves
 
-[Rare]
+[Schooler]
+Bilbo Baggins | bilbo
+Samwise Gamgee | sam | samwise | sam gamgee
 Merry | meriadoc brandybuck | merry brandybuck
 Pippin | peregrin took | pippin took
 Boromir
@@ -2001,7 +1976,6 @@ Theoden | théoden
 Treebeard | fangorn
 Smaug
 Thorin Oakenshield | thorin
-Witch-king | witch king | witch-king of angmar | lord of the nazgul | black captain
 Nazgul | ringwraith | ringwraiths | black riders
 Denethor | denethor ii | steward of gondor
 Wormtongue | grima wormtongue | gríma
@@ -2020,15 +1994,41 @@ Fili
 Balin
 Dwalin
 Bombur
-Bofur
 Thranduil | thranduil elvenking | the elvenking
 Tauriel | tauriel elf
 Azog | azog the defiler
-
-[Schooler]
-Gimli
-Gollum | smeagol | sméagol
-Samwise Gamgee | sam | samwise | sam gamgee
+The Necromancer | necromancer
+Mouth of Sauron | the mouth
+Hama
+Bill the Pony | bill
+Old Man Willow
+Farmer Maggot
+Fatty Bolger | fredegar bolger
+Gaffer | hamfast gamgee
+Great Eagles | eagles
+Oin
+Ori | ori dwarf
+Dori
+Nori
+Master of Lake-town
+Tom, Bert and William | trolls | stone trolls
+Great Goblin
+Watcher in the Water | the watcher
+Drogo Baggins
+Old Took
+Farmer Cotton
+Bob
+Lily Cotton
+Nick Cotton
+Rose Gardner
+Robin Gardner
+Pearl Took
+Bill Butcher
+Lily Brown
+Brand king of Dale
+Blue Wizards | ithryn luin
+Fell beasts
+Grip
 
 [Too Clever]
 Sauron | eye of sauron | the dark lord
@@ -2037,9 +2037,11 @@ Balrog
 [Plankton]
 Frodo Baggins | frodo | mr frodo
 Gandalf | gandalf the grey | gandalf the white | mithrandir
-Bilbo Baggins | bilbo
 Aragorn | strider | elessar | king elessar | aragorn son of arathorn
 Legolas | legolas greenleaf
+Gimli
+Gollum | smeagol | sméagol
+Witch-king | witch king | witch-king of angmar | lord of the nazgul | black captain
 
 [Not accepted]
 Harry Potter
@@ -2069,64 +2071,25 @@ prompt: Name a word that means "happy"
 Gruntled
 
 [Deep Cut]
-Exuberant
 Exhilarated
 Rapturous
 Enraptured
-Elevated
 Exultant
-Triumphant
 Ebullient
-Jovial
 Jocund
 Mirthful
-Gay
 Blithe
-Sanguine
-Serene
-Tranquil
-Peaceful
-Comfortable
 Untroubled
-Pleased as punch
 Chuffed
-In seventh heaven
-Floating
-Flying high
-In high spirits
-Spirited
-Animated
 Vivacious
 Zestful
-Breezy
-Airy
 Jaunty
 Sprightly
 Frolicsome
-Playful
 Gratified
-Starry-eyed
-Rosy
-Hopeful
 Heartened
 Uplifted
-Encouraged
-Charmed
-Enchanted
-Enthralled
-Captivated
-Amused
-Entertained
-Hyped
-Amped
-Fired up
-Wired
-Cheery
-Smiley
-Grinning
 Chirpy
-Bright
-Contented
 Beatific
 Halcyon
 Felicitous
@@ -2180,21 +2143,17 @@ Happy as Larry
 Happy camper
 In good spirits
 In raptures
-In the pink
 Jumping for joy
 Like a kid in a candy store
 Like a dog with two tails
 Mellow
-On top of the world
 Peachy
 Rejoicing
-Riding high
 Sublime
 Thrilled to bits
 Tickled to death
 Unbothered
 Walking on sunshine
-At peace
 Full of beans
 Bright-eyed and bushy-tailed
 Fine and dandy
@@ -2202,11 +2161,8 @@ Hunky-dory
 Groovy
 Peachy keen
 Copacetic
-Feeling good
 Joy-filled
 Relaxed
-At ease
-Calm
 Comfy
 Cozy
 Smitten
@@ -2218,17 +2174,72 @@ Thriving
 
 [Rare]
 Elated
+Overjoyed
+Blissful
+Euphoric
+Jubilant
+Chipper
+Lighthearted
+Gleeful
+Peppy
+Perky
+Psyched
+Jazzed
+Tickled
+Tickled pink
+Buoyant
+Exuberant
+Elevated
+Triumphant
+Jovial
+Sanguine
+Serene
+Tranquil
+Peaceful
+Pleased as punch
+In seventh heaven
+Floating
+In high spirits
+Spirited
+Animated
+Breezy
+Airy
+Playful
+Starry-eyed
+Rosy
+Hopeful
+Encouraged
+Charmed
+Enchanted
+Enthralled
+Captivated
+Amused
+Entertained
+Hyped
+Amped
+Fired up
+Wired
+Cheery
+Smiley
+Grinning
+Bright
+Contented
+In the pink
+On top of the world
+Riding high
+At peace
+Feeling good
+At ease
+Calm
+
+[Schooler]
+Joyful
 Ecstatic
 Jolly
 Merry
 Upbeat
 Joyous
-Overjoyed
-Blissful
-Euphoric
-Jubilant
 Giddy
-Chipper
 Bubbly
 Sunny
 Positive
@@ -2236,32 +2247,21 @@ Optimistic
 Grateful
 Thankful
 Carefree
-Lighthearted
-Gleeful
 Happy-go-lucky
-Peppy
-Perky
 Lively
 Satisfied
 Fulfilled
 Blessed
 Stoked
 Pumped
-Psyched
-Jazzed
-Tickled
-Tickled pink
 Walking on air
 On cloud nine
 Beaming
 Radiant
 Glowing
-Buoyant
-
-[Schooler]
-Pleased
-Delighted
-Thrilled
+Gay
+Comfortable
+Flying high
 
 [Too Clever]
 Happy
@@ -2269,10 +2269,12 @@ Over the moon
 
 [Plankton]
 Glad
-Joyful
 Cheerful
 Excited
 Content
+Pleased
+Delighted
+Thrilled
 
 [Not accepted]
 Sad
@@ -2298,56 +2300,12 @@ prompt: Name a shape
 Reuleaux triangle
 
 [Deep Cut]
-Nonagon
 Hendecagon | undecagon
 Dodecagon
 Icosagon
-Tetrahedron
-Octahedron
-Dodecahedron
-Icosahedron
 Hexahedron
-Triangular prism
-Rectangular prism | rectangle prism | box shape
-Hemisphere
-Spheroid
-Ovoid
-Ellipsoid
-Paraboloid
-Hyperboloid
-Frustum
-Parabola
-Hyperbola
-Helix
-Annulus
-Arc
-Lune
-Equilateral triangle
-Isosceles triangle
-Scalene triangle
-Right triangle
-Obtuse triangle
-Acute triangle
-Rhomboid
-Deltoid
-Pentagram | five-pointed star | pentagram star
-Hexagram | star of david | six-pointed star | seal of solomon
 Octagram | eight-pointed star
-Trefoil
-Quatrefoil
-Chevron
-Teardrop
-Lozenge
-Cuboid
-Polyhedron
-Platonic solid
-Klein bottle | klein surface
-Fractal
-Koch snowflake
 Sierpinski triangle
-Zigzag
-Wave
-Infinity symbol | lemniscate
 Tridecagon
 Tetradecagon
 Pentadecagon
@@ -2371,7 +2329,6 @@ Great dodecahedron
 Antiprism
 Bipyramid
 Trapezohedron
-Johnson solid
 Archimedean solid
 Kepler-Poinsot polyhedron
 Deltahedron
@@ -2388,15 +2345,12 @@ Cycloid
 Epicycloid
 Hypocycloid
 Lissajous curve
-Rose curve
 Spirograph
 Vesica piscis
 Arbelos
 Salinon
 Penrose triangle
 Penrose tiling
-Golden rectangle
-Golden spiral
 Logarithmic spiral
 Archimedean spiral
 Catenary
@@ -2410,20 +2364,12 @@ Tetragon
 Hexagonal prism
 Pentagonal prism
 Octagonal prism
-Square pyramid
 Pentagonal pyramid
 Hexagonal pyramid
-Triangular pyramid
-Truncated cone
-Truncated pyramid
-Spherical cap
-Spherical segment
-Wedge
 Rhombic dodecahedron
 Rhombicosidodecahedron
 Truncated octahedron
 Truncated tetrahedron
-Truncated cube
 Snub dodecahedron
 Great stellated dodecahedron
 Small stellated dodecahedron
@@ -2434,23 +2380,15 @@ Buckyball
 Gyroid
 Fibonacci spiral
 Hyperbolic paraboloid
-Saddle
 Trefoil knot
 Borromean rings
-Yin yang
 Pentacle
 Ankh
 Triskelion | triskele
 Fleur-de-lis
 Shamrock
-Crescent moon
-Bow tie
 Hourglass
 Arrowhead
-Rounded rectangle
-Stadium
-Capsule
-Pill shape
 Mandorla
 Oblong
 Polygram
@@ -2465,23 +2403,16 @@ Tetromino
 Pentomino
 Hexomino
 Tangram
-Kite and dart
-Dart
-Star polygon
 Isosceles trapezoid
 Right trapezoid
 Oblate spheroid
 Prolate spheroid
-Circle sector | sector
-Chord
-Quadrant
 Ogee
 Ogive
 Tetrakis hexahedron
 Pentagonal icositetrahedron
 Deltoidal icositetrahedron
 Disdyakis triacontahedron
-Catalan solid
 Uniform polyhedron
 Prismatoid
 Rotunda
@@ -2489,12 +2420,77 @@ Scutoid
 Superegg
 Supershape
 Hypersphere
-Simplex
 Polytope
+Duocylinder
+Keyhole
+Tessellation
+
+[Rare]
+Heptagon
+Decagon
+Nonagon
+Tetrahedron
+Octahedron
+Dodecahedron
+Icosahedron
+Spheroid
+Ovoid
+Ellipsoid
+Paraboloid
+Hyperboloid
+Frustum
+Parabola
+Hyperbola
+Annulus
+Lune
+Equilateral triangle
+Isosceles triangle
+Scalene triangle
+Obtuse triangle
+Rhomboid
+Deltoid
+Pentagram | five-pointed star | pentagram star
+Hexagram | star of david | six-pointed star | seal of solomon
+Trefoil
+Quatrefoil
+Teardrop
+Lozenge
+Cuboid
+Polyhedron
+Fractal
+Koch snowflake
+Zigzag
+Johnson solid
+Rose curve
+Golden rectangle
+Golden spiral
+Square pyramid
+Triangular pyramid
+Truncated cone
+Truncated pyramid
+Spherical cap
+Spherical segment
+Wedge
+Truncated cube
+Saddle
+Yin yang
+Crescent moon
+Bow tie
+Rounded rectangle
+Stadium
+Capsule
+Pill shape
+Kite and dart
+Dart
+Star polygon
+Circle sector | sector
+Chord
+Quadrant
+Catalan solid
+Simplex
 120-cell
 600-cell
 24-cell
-Duocylinder
 Cross-cap
 Boy's surface
 Roman surface
@@ -2502,10 +2498,9 @@ Line segment | line
 Right angle
 Dome
 Arch
-Keyhole
-Tessellation
 
-[Rare]
+[Schooler]
+Rectangle
 Pentagon
 Hexagon
 Octagon
@@ -2522,8 +2517,6 @@ Semicircle
 Arrow
 Cross
 Spiral | nautilus spiral
-Heptagon
-Decagon
 Ellipse | ellipse shape
 Polygon
 Quadrilateral
@@ -2531,11 +2524,18 @@ Prism
 Kite
 Ring
 Donut | torus
-
-[Schooler]
-Heart
-Oval
-Diamond
+Triangular prism
+Rectangular prism | rectangle prism | box shape
+Hemisphere
+Helix
+Arc
+Right triangle
+Acute triangle
+Chevron
+Platonic solid
+Klein bottle | klein surface
+Wave
+Infinity symbol | lemniscate
 
 [Too Clever]
 Mobius strip | möbius strip | mobius loop | möbius
@@ -2553,8 +2553,10 @@ Kidney shape
 Circle
 Square
 Triangle
-Rectangle
 Star
+Heart
+Oval
+Diamond
 
 [Not accepted]
 Color
@@ -2577,78 +2579,35 @@ prompt: Name a brand of chips, crackers, or salty snacks
 Andy Capp's Hot Fries | hot fries | andy capp
 
 [Deep Cut]
-Chester's
-Grandma's
-Nabisco
-Keebler
-Townhouse
-Teddy Grahams
-Late July
-Siete
-Stacy's | stacy's pita chips
-Terra
-Garden of Eatin'
 Herr's | herrs
 Zapp's | zapps
-Miss Vickie's
-Boulder Canyon
-Deep River
-Dirty | dirty chips
-Route 11
-Jays
-Old Dutch
-Lance
-Toast Chee
 Nekot
 Sociables
 Wheatables
-Good Thins
-Simply 7
-Harvest Snaps
 Hippeas
-Off the Eaten Path
-Quest chips
 Popcorners
 Crunchsters
-Cracker Jack
-Poppycock
-Fiddle Faddle
-Lesser Evil
 Angie's Boomchickapop | boomchickapop
-Snack Factory
-Pretzel Crisps
-Dot's Pretzels | dots
-Auntie Anne's
-Walkers
-Monster Munch
 Wotsits
 Quavers
 Hula Hoops
-Skips
 Discos
 McCoy's
 Tyrrell's
-Pom-Bear
 Twiglets
 Mini Cheddars
 Jacob's
 Carr's
 Hovis
 Calbee
-Shrimp chips | prawn crackers
 Jagabee
 Koikeya
 Kaki no tane
-Turtle chips
-Honey Butter Chip
 Haitai
 Lotte
-Want Want
 Sabritas
 Barcel
-Slim Jim
 Jack Link's
-David seeds
 Baked Lay's
 Kettle Cooked Lay's
 Lay's Stax
@@ -2660,47 +2619,24 @@ Sabritones
 Churritos
 Mac's Pork Skins
 Utz Pork Rinds
-Turkey Hill
-Better Made
 Mike-sell's
 Grippo's
 Ballreich's
 Conn's
 Gibble's
-Martin's
 Middleswarth
-Charles Chips
-Golden Flake
 Zweigle's
-Bob's Texas Style
-Hawaiian Kettle
-Maui Style
-Kitchen Cooked
-Saratoga chips
-Dan-Dee
-Mister Salty
-Old London
 Wasa
 Ryvita
-Finn Crisp
 Crackerbread
-Breton
-Club crackers | club
-Hi Ho
 Zesta
 Captain's Wafers
-Lance Crackers
 Nips
 Cheese Nips
-Hi Ho crackers
 Vegetable Thins
-Ritz Bits
 Ritz Crisp & Thins
 Triscuit Thin Crisps
 Wheat Thins Spicy
-Back to Nature
-Mary's Gone Crackers
-Simple Mills
 Crunchmaster
 Milton's
 Annie's
@@ -2711,7 +2647,6 @@ Cheez-It Grooves
 Cheez-It Snap'd
 Gardetto's Rye Chips
 Bugles Nacho
-Corn Nuts
 Spitz
 Planters Cheez Balls | cheez balls
 Utz Cheese Balls
@@ -2720,10 +2655,7 @@ Chester's Puffcorn
 Old Dutch Puffcorn
 Smartfood Popcorn
 SkinnyPop popcorn
-Jolly Time
 Newman's Own popcorn
-Popcorn Indiana
-Garrett Popcorn
 Popsalot
 Rold Gold Tiny Twists
 Snyder's Pretzel Pieces
@@ -2731,83 +2663,54 @@ Utz Pretzels
 Herr's Pretzels
 Tom Sturgis
 Unique Pretzels
-Hanover
 Bachman
 Auntie Anne's Pretzel
 Pretzel Pete
-Quinn
 Dot's Homestyle
 Old Trapper
 Oberto
 Tillamook Jerky
 Krave jerky
 Chomps
-Epic
-Slim Jim Savage
 Jack Link's Beef Jerky
-Blue Diamond Almonds
-Emerald nuts
 Planters Peanuts
-Wonderful Almonds
-Mission Tortilla Chips
-On the Border chips
 Santitas
 Tostitos Scoops
-Late July Tortilla
-Food Should Taste Good
 Xochitl
 Garden Veggie Straws | veggie straws
-Sensible Portions
 Pirate's Booty Puffs
 Cheddar Puffs
 Beanitos
 Calbee Snapea Crisps | snapea crisps
-Harvest Snaps Green Pea
-Gimme Seaweed
 SeaSnax
 Annie Chun's
-Kim's
 Shirakiku
-Bin Bin
 Want Want Senbei
 New York Style Bagel Crisps
 Sahale
-Quaker Rice Cakes | rice cakes
 Lundberg
 Popchips Sea Salt
-Wise Onion Rings
 Funyuns Flamin' Hot
 Takis Fuego
 Doritos Dinamita
 Ruffles Cheddar & Sour Cream
 Pringles Sour Cream & Onion
 Cheetos Crunchy
-Chee-tos
-Smiths
-Red Rock Deli
 Burts
 Pipers
 Seabrook
-Golden Wonder
 Brannigans
-Kettle Foods
 Frazzles
-Space Raiders
 Nik Naks
 Scampi Fries
-Bacon Fries
 French Fries crisps
 Chipsticks
 Hula Hoops BBQ
 Twisties
-Burger Rings
 CC's
 Cheezels
 Samboy
-Grain Waves
-Shapes | arnott's shapes
 Jatz
-Sao
 Vita-Weat
 Arnott's
 Bamba
@@ -2821,65 +2724,162 @@ Pakeyitos
 Cheetos Flamin' Hot Limon
 Kurkure
 Haldiram's
-Bingo
 Balaji
 Uncle Chipps
 Lehar
-Yellow Diamond
 Too Yumm
 Oishi
-Jack 'n Jill
 Piattos
-Nova
 Chippy
-Clover Chips
 Calbee Potato Chips
 Jagariko
 Umaibo
 Tohato
-Bourbon
 Kameda
 Glico
-Orion
 Nongshim
-Shrimp Crackers | saeukkang
-Honey Twist
 Tao Kae Noi
 
 [Rare]
+Triscuit
+Gardetto's
+Smartfood
+SkinnyPop
+Popchips
+Orville Redenbacher's | orville redenbacher
+Chester's
+Nabisco
+Keebler
+Teddy Grahams
+Siete
+Stacy's | stacy's pita chips
+Garden of Eatin'
+Miss Vickie's
+Toast Chee
+Good Thins
+Poppycock
+Fiddle Faddle
+Pretzel Crisps
+Dot's Pretzels | dots
+Auntie Anne's
+Walkers
+Monster Munch
+Skips
+Pom-Bear
+Shrimp chips | prawn crackers
+Turtle chips
+Honey Butter Chip
+Slim Jim
+David seeds
+Turkey Hill
+Martin's
+Charles Chips
+Golden Flake
+Bob's Texas Style
+Hawaiian Kettle
+Maui Style
+Kitchen Cooked
+Saratoga chips
+Dan-Dee
+Mister Salty
+Finn Crisp
+Breton
+Club crackers | club
+Hi Ho
+Lance Crackers
+Hi Ho crackers
+Ritz Bits
+Mary's Gone Crackers
+Simple Mills
+Corn Nuts
+Jolly Time
+Popcorn Indiana
+Garrett Popcorn
+Hanover
+Quinn
+Epic
+Slim Jim Savage
+Blue Diamond Almonds
+Emerald nuts
+Wonderful Almonds
+Mission Tortilla Chips
+On the Border chips
+Late July Tortilla
+Food Should Taste Good
+Sensible Portions
+Harvest Snaps Green Pea
+Gimme Seaweed
+Kim's
+Bin Bin
+Quaker Rice Cakes | rice cakes
+Wise Onion Rings
+Smiths
+Red Rock Deli
+Golden Wonder
+Kettle Foods
+Space Raiders
+Bacon Fries
+Burger Rings
+Grain Waves
+Shapes | arnott's shapes
+Sao
+Bingo
+Yellow Diamond
+Jack 'n Jill
+Nova
+Clover Chips
+Bourbon
+Orion
+Shrimp Crackers | saeukkang
+Honey Twist
+
+[Schooler]
+Lay's | lays
+Pringles
+Fritos
+Ruffles
+Cheez-It | cheez its | cheezits
 Tostitos
 Sun Chips | sunchips
 Kettle Brand | kettle chips
 Cape Cod
 Utz
-Wise
 Ritz
-Triscuit
 Wheat Thins
 Pepperidge Farm
 Snyder's | snyders | snyder's of hanover
 Rold Gold
 Chex Mix
-Gardetto's
-Smartfood
-SkinnyPop
 Pirate's Booty
-Popchips
 Bugles
 Cheez Doodles
-Pop Secret
-Orville Redenbacher's | orville redenbacher
-Act II
 Planters
-Blue Diamond
 Wonderful Pistachios
 Munchies
 Flamin' Hot Cheetos
-
-[Schooler]
-Ruffles
-Goldfish
-Cheez-It | cheez its | cheezits
+Grandma's
+Townhouse
+Late July
+Terra
+Boulder Canyon
+Deep River
+Dirty | dirty chips
+Route 11
+Jays
+Old Dutch
+Lance
+Simply 7
+Harvest Snaps
+Off the Eaten Path
+Quest chips
+Cracker Jack
+Lesser Evil
+Snack Factory
+Want Want
+Better Made
+Old London
+Back to Nature
+Chee-tos
 
 [Too Clever]
 Takis
@@ -2888,10 +2888,12 @@ Combos
 
 [Plankton]
 Doritos
-Lay's | lays
-Pringles
 Cheetos
-Fritos
+Goldfish
+Wise
+Pop Secret
+Act II
+Blue Diamond
 
 [Not accepted]
 Chocolate
@@ -2920,93 +2922,26 @@ prompt: Name a household appliance
 Trash compactor
 
 [Deep Cut]
-Hand mixer
-Immersion blender | stick blender
-Bread maker | bread machine
-Popcorn maker | popcorn machine
-Sandwich maker
-Panini press
-Griddle
-Electric skillet
-Deep fryer
-Sous vide
 Dehydrator
-Yogurt maker
-Ice cream maker
-Soda maker | sodastream
-Wine fridge | wine cooler
-Mini fridge
-Chest freezer
-Water dispenser | water cooler
-Water softener
-Water filter
-Air purifier
-Ceiling fan
-Box fan
-Tower fan
-Heat pump
-Boiler
-Thermostat
-Security camera
-Doorbell camera | ring doorbell
-Garage door opener
-Sump pump
-Generator
-Steam mop
-Carpet cleaner | carpet shampooer
-Shop vac
-Handheld vacuum | dustbuster
-Stick vacuum
-Steamer | clothes steamer
-Sewing machine
-Electric toothbrush
-Curling iron
-Hair straightener | flat iron
-Electric razor | shaver
-Clock radio | alarm clock
-Radio
-Stereo
-Record player
-DVD player
-Game console
-Computer
-Printer
 Router
-Electric blanket
 Heated mattress pad
-Massage chair
 Treadmill
-Hot plate
 Induction cooktop
 Cooktop
-Wall oven
 Convection oven
 Warming drawer
-Bottle warmer
-Baby monitor
-Night light
 Nespresso
 Coffee grinder
 Milk frother
-Cotton candy machine
-Chocolate fountain
-Hot dog roller
-Pizza oven
 Smoker
-Grill
-Electric grill
 Rotisserie
 Fondue pot
 Egg cooker
-Electric can opener
 Knife sharpener
 Vacuum sealer
-Label maker
 Paper shredder
 Laminator
 Bug zapper
-Pool pump
-Hot tub
 Washer dryer combo
 Trouser press
 Towel warmer
@@ -3021,21 +2956,14 @@ Top-loader
 Spin dryer
 Mangle
 Garment steamer
-Steam iron
 Ironing press
 Lint roller electric
 Fabric shaver | sweater shaver
-Hand vacuum
 Robot mop
 Canister vacuum
 Upright vacuum
-Central vacuum
-Wet-dry vacuum
 Floor polisher
 Floor scrubber
-Window cleaning robot
-Pool robot
-Lawn robot | robotic mower
 Hedge trimmer
 String trimmer
 Chainsaw
@@ -3044,53 +2972,37 @@ Snowplow
 Tiller
 Dishwasher drawer
 Countertop dishwasher
-Built-in microwave
-Over-the-range microwave
 Microwave drawer
-Combination oven
-Steam oven
-Speed oven
-Double oven
-Range
-Gas stove
 Electric stove
 Induction stove
 Downdraft
 Wok burner
 Barbecue | bbq
-Gas grill
 Pellet grill
 Kamado grill
 Griddle grill
-Flat-top grill
 Teppanyaki grill
 Raclette grill
 Tabletop grill
 Electric smoker
 Air fryer oven
 Countertop oven
-Pizza maker
-Pasta maker
 Noodle maker
 Tortilla maker
 Roti maker
 Crepe maker
 Pancake maker
 Donut maker
-Cake pop maker
 Quesadilla maker
-Hot pot
 Electric wok
 Multicooker
 Electric pressure cooker
 Ninja Foodi
 Thermomix
-Food mill
 Spiralizer electric
 Meat grinder
 Meat slicer
 Deli slicer
-Electric knife
 Can crusher
 Juice extractor
 Citrus press
@@ -3101,28 +3013,21 @@ Vitamix
 Ninja blender
 Milkshake maker
 Slushie machine | slushy maker
-Snow cone machine
 Shaved ice machine
 Ice shaver
 Ice crusher
 Nugget ice maker
 Water heater tankless | tankless water heater
 Kettle electric
-Tea maker
 Samovar
 Drip coffee maker
 Percolator
 Cold brew maker
-French press electric
 Pod coffee maker
-Bean-to-cup machine
 Moka pot electric
 Espresso grinder
-Milk warmer
-Hot chocolate maker
 Frother
 Soymilk maker
-Cotton candy maker
 Toastie maker | toasted sandwich maker
 Egg poacher
 Belgian waffle maker
@@ -3130,50 +3035,32 @@ Sous vide cooker
 Food dehydrator
 Fermenter
 Bread proofer
-Rice warmer
 Warming tray
-Food warmer
-Plate warmer
 Chafing dish
 Electric fondue
 Chocolate tempering machine
 Beverage fridge
-Beer fridge | kegerator
-Ice cream machine
 Freeze dryer
 Deep freezer
 Upright freezer
 French-door refrigerator
 Side-by-side refrigerator
-Smart fridge
 Compact refrigerator
 Garbage disposer
-Trash can sensor | sensor trash can
 Compost machine | electric composter
 Sterilizer
 UV sanitizer
-Baby formula maker
 Bottle sterilizer
-Breast pump
-Baby swing
-White noise machine
-Sound machine
 Humidifier cool mist
 Vaporizer
 Diffuser | essential oil diffuser
 Aroma diffuser
-Air cooler | swamp cooler
 Evaporative cooler
 Portable air conditioner
 Window air conditioner | window unit
-Mini split
-Central air
 Oil heater
 Radiator
 Baseboard heater
-Heated blanket
-Heating pad
-Foot warmer
 Fireplace insert
 Electric fireplace
 Pellet stove
@@ -3181,14 +3068,9 @@ Wood stove
 HVAC
 Air handler
 Ventilation fan
-Exhaust fan
-Bathroom fan
 Attic fan
-Whole-house fan
 Pedestal fan
-Desk fan
 Bladeless fan | dyson fan
-Ceiling fan with light
 Fan heater
 Air ionizer
 Ozone generator
@@ -3196,21 +3078,14 @@ Radon fan
 Water purifier
 Reverse osmosis system
 Water ionizer
-Well pump
 Septic pump
 Ejector pump
 Smoke detector | smoke alarm
 Carbon monoxide detector
-Security system
-Alarm system
-Smart display
-Smart plug
 Smart thermostat | nest
-Smart lock
 Video doorbell
 Intercom
 Garage door opener remote
-Gate opener
 Automatic blinds
 Motorized curtains
 Electric toothbrush charger
@@ -3220,71 +3095,43 @@ Beard trimmer
 Electric shaver
 Epilator
 Hot rollers
-Hot brush
 Hood dryer
 Facial steamer
 Makeup mirror lighted
 Nail dryer
-Foot spa
 Massager
-Massage gun
 Treadmill desk
-Exercise bike
 Elliptical machine
 Rowing machine
 Peloton
 Sauna
-Steam shower
 Heated towel rack
 Toilet seat warmer
 Bidet
-Smart toilet
 Jacuzzi
 Pool heater
-Pool filter
 Hot water dispenser
-Instant hot water tap
 Soda fountain
 Beer brewing machine
 Wine aerator electric
 Electric corkscrew
 Electric pepper grinder
 Electric salt grinder
-Kitchen scale digital
-Bathroom scale
-Smart scale
 Projector
-Sound bar
-Speakers
 Subwoofer
-Home theater
-Receiver
 Amplifier
 Turntable
-CD player
 Cassette player
 VCR
 Blu-ray player
-Streaming device
 Roku
-Apple TV
-Fire TV
 Chromecast
-Cable box
-Satellite dish
 Modem
 Wi-Fi router
-Desktop computer
-Laptop
-Tablet
-Monitor
 Scanner
 Fax machine
 Copier
-3D printer
-Telephone
 Cordless phone
-Answering machine
 Landline
 Paper towel dispenser automatic
 Soap dispenser automatic
@@ -3295,19 +3142,144 @@ Water dispenser bottle
 Electric mixer
 Hand blender
 Electric whisk
-Kitchen robot
 Countertop ice maker
-Ice machine
 Dehumidifier crawlspace
 Sump pump battery
-Battery backup
-Power generator
-Solar generator
 Electric vehicle charger | ev charger
 Pressure cooker Instant Pot
 Electric pressure washer
 
 [Rare]
+Immersion blender | stick blender
+Panini press
+Griddle
+Electric skillet
+Deep fryer
+Sous vide
+Water dispenser | water cooler
+Water softener
+Air purifier
+Thermostat
+Doorbell camera | ring doorbell
+Sump pump
+Steam mop
+Shop vac
+Handheld vacuum | dustbuster
+Steamer | clothes steamer
+Electric toothbrush
+Hair straightener | flat iron
+Printer
+Electric blanket
+Massage chair
+Hot plate
+Wall oven
+Bottle warmer
+Baby monitor
+Cotton candy machine
+Chocolate fountain
+Hot dog roller
+Pizza oven
+Grill
+Electric grill
+Electric can opener
+Label maker
+Pool pump
+Hot tub
+Steam iron
+Hand vacuum
+Central vacuum
+Wet-dry vacuum
+Window cleaning robot
+Pool robot
+Lawn robot | robotic mower
+Built-in microwave
+Over-the-range microwave
+Combination oven
+Steam oven
+Speed oven
+Double oven
+Gas stove
+Gas grill
+Flat-top grill
+Pizza maker
+Pasta maker
+Cake pop maker
+Hot pot
+Food mill
+Electric knife
+Snow cone machine
+Tea maker
+French press electric
+Bean-to-cup machine
+Milk warmer
+Hot chocolate maker
+Cotton candy maker
+Rice warmer
+Food warmer
+Plate warmer
+Beer fridge | kegerator
+Ice cream machine
+Smart fridge
+Trash can sensor | sensor trash can
+Baby formula maker
+Breast pump
+Baby swing
+White noise machine
+Sound machine
+Air cooler | swamp cooler
+Mini split
+Central air
+Heated blanket
+Heating pad
+Foot warmer
+Exhaust fan
+Bathroom fan
+Whole-house fan
+Desk fan
+Ceiling fan with light
+Well pump
+Security system
+Alarm system
+Smart display
+Smart plug
+Smart lock
+Gate opener
+Hot brush
+Foot spa
+Massage gun
+Exercise bike
+Steam shower
+Smart toilet
+Pool filter
+Instant hot water tap
+Kitchen scale digital
+Bathroom scale
+Smart scale
+Sound bar
+Speakers
+Home theater
+Receiver
+CD player
+Streaming device
+Apple TV
+Fire TV
+Cable box
+Satellite dish
+Desktop computer
+Laptop
+Tablet
+Monitor
+3D printer
+Telephone
+Answering machine
+Kitchen robot
+Ice machine
+Battery backup
+Power generator
+Solar generator
+
+[Schooler]
+Dishwasher
 Vacuum | vacuum cleaner | hoover
 Blender
 Coffee maker | coffee machine
@@ -3338,11 +3310,39 @@ Espresso machine
 Juicer
 Range hood
 Ice maker
-
-[Schooler]
-Dryer | clothes dryer
-Toaster
-Stove
+Hand mixer
+Bread maker | bread machine
+Popcorn maker | popcorn machine
+Sandwich maker
+Yogurt maker
+Ice cream maker
+Soda maker | sodastream
+Wine fridge | wine cooler
+Mini fridge
+Chest freezer
+Water filter
+Ceiling fan
+Box fan
+Tower fan
+Heat pump
+Boiler
+Security camera
+Garage door opener
+Generator
+Carpet cleaner | carpet shampooer
+Stick vacuum
+Sewing machine
+Curling iron
+Electric razor | shaver
+Clock radio | alarm clock
+Radio
+Stereo
+Record player
+DVD player
+Game console
+Computer
+Night light
+Range
 
 [Too Clever]
 Roomba | robot vacuum
@@ -3352,8 +3352,10 @@ Alexa | amazon echo | smart speaker
 Refrigerator | fridge
 Microwave
 Oven
-Dishwasher
 Washing machine | washer
+Dryer | clothes dryer
+Toaster
+Stove
 
 [Not accepted]
 Couch
@@ -3371,3 +3373,4 @@ Bucket
 Plunger
 Sink
 Bathtub
+

@@ -8,37 +8,6 @@ prompt: Name a part of the human body
 Philtrum
 
 [Deep Cut]
-Liver
-Lung
-Stomach
-Intestine | bowel | gut
-Bladder
-Kidney
-Skull
-Spine | backbone
-Rib
-Pelvis
-Eyebrow
-Eyelash
-Eyelid
-Nostril
-Gums | gum
-Wrist
-Ankle
-Calf
-Thigh
-Hip
-Waist
-Forehead
-Cheek
-Jaw
-Throat
-Tongue
-Armpit | underarm
-Belly button | navel | bellybutton
-Fingernail | nail | toenail
-Heel
-Fist
 Uvula
 Septum
 Clavicle | collarbone | collar bone
@@ -52,20 +21,16 @@ Coccyx | tailbone
 Spleen
 Pancreas
 Gallbladder | gall bladder
-Appendix
 Esophagus | oesophagus
 Diaphragm
 Cuticle
 Achilles tendon | achilles
 Cornea
 Retina
-Iris
-Pupil
 Eardrum
 Larynx | voice box
 Pharynx
 Trachea | windpipe
-Thyroid
 Tonsils | tonsil
 Adenoids
 Cerebellum
@@ -73,14 +38,10 @@ Hypothalamus
 Pituitary gland
 Hippocampus
 Duodenum
-Colon
 Rectum
 Sinus
-Temple
 Nape
 Instep
-Sole
-Palm
 Knuckle
 Earlobe | ear lobe
 Bicep | biceps
@@ -89,106 +50,56 @@ Groin
 Glabella
 Lunula
 Areola
-Nipple
-Abdomen
 Torso
-Trunk
 Buttocks | butt | bottom | rear
 Hamstring
 Quadriceps | quads
 Glutes | gluteus maximus
-Abs | abdominals
 Pecs | pectorals
 Lats
 Deltoid | delts
 Trapezius | traps
 Forearm
-Upper arm
-Shin
 Vertebra | vertebrae
-Spinal cord
-Nerve
-Vein
-Artery
 Capillary
 Aorta
 Ventricle
 Atrium
 Lymph node
-Bone marrow
 Cartilage
 Ligament
 Tendon
-Muscle
-Bone
-Blood
-Joint
 Cochlea
 Anvil | incus
-Hammer | malleus
 Stirrup | stapes
-Ear canal
-Lens
 Sclera
-Optic nerve
-Tear duct
-Eye socket
 Nasal cavity
-Bridge of the nose | nose bridge
 Cheekbone
 Jawbone | mandible
 Palate | roof of the mouth
-Taste buds
 Molar
 Incisor
 Canine tooth
-Wisdom tooth
 Enamel
 Dimple
 Freckle
-Mole
 Pore
 Hair follicle
 Sweat gland
-Scalp
-Crown
 Sideburns
-Beard
 Mustache | moustache
 Eyeball
 Cupid's bow
 Adam's apple
 Vocal cords
 Fingertip
-Fingerprint
-Ring finger
-Middle finger
-Index finger | pointer finger
-Big toe
-Little toe | pinky toe
-Ball of the foot
-Arch
-Ankle bone
 Achilles heel
-Calf muscle
-Inner thigh
-Lap
-Love handles
-Hip bone
 Midriff
-Lower back
-Small of the back
-Flank
-Side
 Crotch
 Genitals
-Penis
-Vagina
 Testicles
 Ovary
 Uterus
-Prostate
-Breast
 Thymus
 Adrenal gland
 Pineal gland
@@ -211,7 +122,6 @@ Large intestine
 Anus
 Urethra
 Ureter
-Skeleton
 Ribcage | rib cage
 Metacarpal
 Phalanges
@@ -219,16 +129,92 @@ Carpals
 Tarsals
 Metatarsals
 Humerus
-Radius
 Ulna
 Sacrum
 Ilium
 Maxilla
 Hyoid
 Eyebrow ridge | brow ridge
-Brow
 
 [Rare]
+Intestine | bowel | gut
+Bladder
+Rib
+Pelvis
+Eyebrow
+Eyelash
+Eyelid
+Nostril
+Gums | gum
+Calf
+Thigh
+Armpit | underarm
+Fingernail | nail | toenail
+Heel
+Appendix
+Iris
+Pupil
+Thyroid
+Colon
+Temple
+Sole
+Palm
+Nipple
+Abdomen
+Trunk
+Abs | abdominals
+Upper arm
+Shin
+Spinal cord
+Nerve
+Vein
+Artery
+Bone marrow
+Muscle
+Bone
+Blood
+Joint
+Hammer | malleus
+Ear canal
+Lens
+Optic nerve
+Tear duct
+Eye socket
+Bridge of the nose | nose bridge
+Taste buds
+Wisdom tooth
+Mole
+Scalp
+Crown
+Beard
+Fingerprint
+Ring finger
+Middle finger
+Index finger | pointer finger
+Big toe
+Little toe | pinky toe
+Ball of the foot
+Arch
+Ankle bone
+Calf muscle
+Inner thigh
+Lap
+Love handles
+Hip bone
+Lower back
+Small of the back
+Flank
+Penis
+Vagina
+Prostate
+Breast
+Skeleton
+Radius
+Brow
+
+[Schooler]
+Nose
+Ear
 Heart
 Brain
 Neck
@@ -246,12 +232,24 @@ Back
 Skin
 Hair
 Face
-
-[Schooler]
-Eye
-Nose
-Ear
-Mouth
+Liver
+Lung
+Stomach
+Kidney
+Skull
+Spine | backbone
+Wrist
+Ankle
+Hip
+Waist
+Forehead
+Cheek
+Jaw
+Throat
+Tongue
+Belly button | navel | bellybutton
+Fist
+Side
 
 [Too Clever]
 Funny bone
@@ -263,6 +261,8 @@ Leg
 Head
 Hand
 Foot | feet
+Eye
+Mouth
 
 [Not accepted]
 Haircut
@@ -286,70 +286,26 @@ note: Painters only; famous sculptors (Rodin) don't count, but Michelangelo pain
 Hokusai | katsushika hokusai
 
 [Deep Cut]
-Marc Chagall | chagall
-Diego Rivera | rivera
-Roy Lichtenstein | lichtenstein
-Grant Wood
-Edouard Manet | manet
-Mark Rothko | rothko
-J.M.W. Turner | turner | jmw turner | william turner
-Gustav Klimt | klimt
-Paul Gauguin | gauguin
-Rene Magritte | magritte
-Edvard Munch | munch
-Paul Cezanne | cezanne | cézanne
-Henri Matisse | matisse
-Georgia O'Keeffe | o'keeffe | okeeffe | georgia okeefe
-Keith Haring | haring
-Jean-Michel Basquiat | basquiat
 Thomas Kinkade | kinkade
-Caravaggio
-Vermeer | johannes vermeer
 Hieronymus Bosch | bosch
 Pieter Bruegel | bruegel | brueghel
-Jan van Eyck | van eyck
-El Greco
-Francisco Goya | goya
-Diego Velazquez | velazquez | velázquez
-Titian
-Sandro Botticelli | botticelli
 Egon Schiele | schiele
-Edward Hopper | hopper
 Wassily Kandinsky | kandinsky
-John Constable | constable
 Piet Mondrian | mondrian
-Joan Miro | miro | miró | juan miro
 Henri de Toulouse-Lautrec | toulouse-lautrec | toulouse lautrec | lautrec
 Georges Seurat | seurat
 Camille Pissarro | pissarro
 Mary Cassatt | cassatt
-Winslow Homer | homer
-James McNeill Whistler | whistler
-John Singer Sargent | sargent
-David Hockney | hockney
-Francis Bacon
-Lucian Freud
-Gerhard Richter
 Yayoi Kusama | kusama
 Artemisia Gentileschi | gentileschi
 Albrecht Durer | durer | dürer
-Hans Holbein | holbein
-Peter Paul Rubens | rubens
-Anthony van Dyck | van dyck
-Eugene Delacroix | delacroix
-Jacques-Louis David
 Amedeo Modigliani | modigliani
-Marcel Duchamp | duchamp
-Jasper Johns
 Willem de Kooning | de kooning
-Giotto
 Raphael Sanzio
 Fra Angelico
 Masaccio
-Piero della Francesca
 Paolo Uccello
 Andrea Mantegna
-Giovanni Bellini
 Giorgione
 Tintoretto
 Paolo Veronese | veronese
@@ -363,22 +319,18 @@ Domenico Ghirlandaio | ghirlandaio
 Perugino
 Cimabue
 Duccio
-Simone Martini
 Canaletto
 Tiepolo | giovanni battista tiepolo
 Guido Reni
 Annibale Carracci | carracci
 Nicolas Poussin | poussin
 Claude Lorrain
-Georges de La Tour
 Antoine Watteau | watteau
 Jean-Honore Fragonard | fragonard
-Francois Boucher | boucher
 Jean-Baptiste-Simeon Chardin | chardin
 Elisabeth Vigee Le Brun | vigee le brun
 Jean-Auguste-Dominique Ingres | ingres
 Theodore Gericault | gericault
-Jean-Francois Millet | millet
 Gustave Courbet | courbet
 Jean-Baptiste-Camille Corot | corot
 Honore Daumier | daumier
@@ -388,32 +340,24 @@ Gustave Caillebotte | caillebotte
 Frederic Bazille
 Paul Signac | signac
 Odilon Redon
-Gustave Moreau
 Pierre Bonnard | bonnard
 Edouard Vuillard | vuillard
-Henri Rousseau | rousseau
 Andre Derain | derain
 Maurice de Vlaminck
 Raoul Dufy
 Georges Braque | braque
-Fernand Leger | leger
 Robert Delaunay
 Sonia Delaunay
-Juan Gris
-Yves Klein
 Jean Dubuffet
 Maurice Utrillo
 Suzanne Valadon
 Tamara de Lempicka | lempicka
 Balthus
 Frans Hals
-Jan Steen
-Pieter de Hooch
 Jacob van Ruisdael | ruisdael
 Judith Leyster
 Rogier van der Weyden
 Hans Memling
-Hugo van der Goes
 Quentin Matsys
 Pieter Bruegel the Younger
 Jan Brueghel | jan brueghel the elder
@@ -421,99 +365,41 @@ James Ensor
 Paul Delvaux
 Lucas Cranach | cranach
 Matthias Grunewald | grunewald
-Caspar David Friedrich | caspar friedrich
-Max Ernst
-Ernst Ludwig Kirchner | kirchner
-Franz Marc
 August Macke
 Emil Nolde
-Otto Dix
 George Grosz
-Max Beckmann
-Paul Klee | klee
 Kathe Kollwitz
 Gabriele Munter
 Oskar Kokoschka
-Anselm Kiefer
 Sigmar Polke
-Neo Rauch
 Bartolome Esteban Murillo | murillo
 Francisco de Zurbaran | zurbaran
 Jusepe de Ribera | ribera
 Joaquin Sorolla | sorolla
 Antoni Tapies
-William Blake
-William Hogarth | hogarth
-Thomas Gainsborough | gainsborough
-Joshua Reynolds
-George Stubbs
-Dante Gabriel Rossetti | rossetti
 John Everett Millais | millais
-William Holman Hunt
-Edward Burne-Jones | burne-jones
-John William Waterhouse | waterhouse
 Walter Sickert
-Stanley Spencer
-Bridget Riley
-L. S. Lowry | lowry
-Damien Hirst
-Tracey Emin
-Gilbert Stuart
-John Singleton Copley
-Benjamin West
-Thomas Cole
-Frederic Edwin Church
 Albert Bierstadt
-George Caleb Bingham
 Thomas Eakins
 Albert Pinkham Ryder
 Childe Hassam
-Andrew Wyeth
-N. C. Wyeth
-Jamie Wyeth
-Thomas Hart Benton
 Charles Burchfield
-Stuart Davis
 Charles Demuth
-Marsden Hartley
-Arthur Dove
-John Sloan
-George Bellows
-Robert Henri
-Jacob Lawrence
 Romare Bearden
-Kerry James Marshall
 Kehinde Wiley
 Amy Sherald
-Alma Thomas
 Helen Frankenthaler
 Lee Krasner
-Joan Mitchell
-Franz Kline
-Robert Motherwell
 Clyfford Still
-Barnett Newman
-Ad Reinhardt
 Cy Twombly
 Robert Rauschenberg
-Frank Stella
-Ellsworth Kelly
-Agnes Martin
 Wayne Thiebaud
 Ed Ruscha
-Alex Katz
-Chuck Close
 Richard Diebenkorn
 Philip Guston
 Arshile Gorky
-Hans Hofmann
-Mark Tobey
-Grandma Moses
-LeRoy Neiman
-Peter Max
 Shepard Fairey
 Kaws
-Takashi Murakami
 Utagawa Hiroshige | hiroshige
 Kitagawa Utamaro | utamaro
 Ogata Korin
@@ -521,9 +407,6 @@ Sesshu
 Qi Baishi
 Xu Beihong
 Zhang Daqian
-Raja Ravi Varma
-Amrita Sher-Gil
-M. F. Husain
 Tarsila do Amaral
 Candido Portinari
 Fernando Botero | botero
@@ -531,9 +414,7 @@ Rufino Tamayo
 Jose Clemente Orozco | orozco
 David Alfaro Siqueiros | siqueiros
 Remedios Varo
-Leonora Carrington
 Wifredo Lam
-Roberto Matta
 Ilya Repin | repin
 Ivan Aivazovsky | aivazovsky
 Kazimir Malevich | malevich
@@ -545,14 +426,11 @@ Isaac Levitan
 Vasily Surikov
 Akseli Gallen-Kallela
 Albert Edelfelt
-Anders Zorn
-Carl Larsson
 Vilhelm Hammershoi | hammershoi
 Peder Severin Kroyer | kroyer
 Hilma af Klint
 Alphonse Mucha | mucha
 Frantisek Kupka
-Gustave Dore
 Arnold Bocklin
 Ferdinand Hodler
 Giovanni Segantini
@@ -561,32 +439,153 @@ Giorgio Morandi
 Umberto Boccioni
 Giacomo Balla
 Gino Severini
-Lucio Fontana
 Alberto Burri
 Albert Namatjira
-Sidney Nolan
-Tom Roberts
 Arthur Streeton
 Frederick McCubbin
-Brett Whiteley
-Emily Carr
-Tom Thomson
 Lawren Harris
 Cornelius Krieghoff
 Jean-Paul Riopelle
-Thomas Moran
 
 [Rare]
+J.M.W. Turner | turner | jmw turner | william turner
+Caravaggio
+Vermeer | johannes vermeer
+Jan van Eyck | van eyck
+El Greco
+Francisco Goya | goya
+Diego Velazquez | velazquez | velázquez
+Titian
+Sandro Botticelli | botticelli
+Edward Hopper | hopper
+Joan Miro | miro | miró | juan miro
+Winslow Homer | homer
+James McNeill Whistler | whistler
+John Singer Sargent | sargent
+David Hockney | hockney
+Lucian Freud
+Gerhard Richter
+Hans Holbein | holbein
+Peter Paul Rubens | rubens
+Anthony van Dyck | van dyck
+Eugene Delacroix | delacroix
+Marcel Duchamp | duchamp
+Jasper Johns
+Giotto
+Piero della Francesca
+Giovanni Bellini
+Simone Martini
+Georges de La Tour
+Francois Boucher | boucher
+Jean-Francois Millet | millet
+Gustave Moreau
+Henri Rousseau | rousseau
+Fernand Leger | leger
+Juan Gris
+Yves Klein
+Jan Steen
+Pieter de Hooch
+Caspar David Friedrich | caspar friedrich
+Max Ernst
+Ernst Ludwig Kirchner | kirchner
+Franz Marc
+Otto Dix
+Max Beckmann
+Paul Klee | klee
+Anselm Kiefer
+Neo Rauch
+William Hogarth | hogarth
+Thomas Gainsborough | gainsborough
+George Stubbs
+Dante Gabriel Rossetti | rossetti
+William Holman Hunt
+Edward Burne-Jones | burne-jones
+John William Waterhouse | waterhouse
+Bridget Riley
+L. S. Lowry | lowry
+Damien Hirst
+Tracey Emin
+John Singleton Copley
+Frederic Edwin Church
+George Caleb Bingham
+Andrew Wyeth
+N. C. Wyeth
+Jamie Wyeth
+Thomas Hart Benton
+Marsden Hartley
+John Sloan
+George Bellows
+Robert Henri
+Franz Kline
+Robert Motherwell
+Barnett Newman
+Ad Reinhardt
+Ellsworth Kelly
+Agnes Martin
+Alex Katz
+Hans Hofmann
+Mark Tobey
+LeRoy Neiman
+Takashi Murakami
+Raja Ravi Varma
+Amrita Sher-Gil
+M. F. Husain
+Leonora Carrington
+Roberto Matta
+Anders Zorn
+Carl Larsson
+Gustave Dore
+Lucio Fontana
+Sidney Nolan
+Brett Whiteley
+Thomas Moran
+
+[Schooler]
 Norman Rockwell | rockwell
 Pierre-Auguste Renoir | renoir
 Edgar Degas | degas
-Jackson Pollock | pollock
 Frida Kahlo | frida | kahlo
-Raphael
 Rembrandt | rembrandt van rijn
 Salvador Dali | dali | dalí
-Michelangelo | michaelangelo
 Andy Warhol | warhol
+Marc Chagall | chagall
+Diego Rivera | rivera
+Roy Lichtenstein | lichtenstein
+Grant Wood
+Edouard Manet | manet
+Mark Rothko | rothko
+Gustav Klimt | klimt
+Paul Gauguin | gauguin
+Rene Magritte | magritte
+Edvard Munch | munch
+Paul Cezanne | cezanne | cézanne
+Henri Matisse | matisse
+Georgia O'Keeffe | o'keeffe | okeeffe | georgia okeefe
+Keith Haring | haring
+Jean-Michel Basquiat | basquiat
+John Constable | constable
+Francis Bacon
+Jacques-Louis David
+Hugo van der Goes
+William Blake
+Joshua Reynolds
+Stanley Spencer
+Gilbert Stuart
+Benjamin West
+Thomas Cole
+Stuart Davis
+Arthur Dove
+Jacob Lawrence
+Kerry James Marshall
+Alma Thomas
+Joan Mitchell
+Frank Stella
+Chuck Close
+Grandma Moses
+Peter Max
+Tom Roberts
+Emily Carr
+Tom Thomson
 
 [Too Clever]
 Bob Ross
@@ -598,6 +597,9 @@ Claude Monet | monet
 Vincent van Gogh | van gogh | vangogh
 Pablo Picasso | picasso
 Leonardo da Vinci | da vinci | leonardo | davinci
+Jackson Pollock | pollock
+Raphael
+Michelangelo | michaelangelo
 
 [Not accepted]
 Shakespeare
@@ -619,52 +621,18 @@ prompt: Name a type of cheese
 Casu marzu
 
 [Deep Cut]
-Goat cheese | chevre | chèvre
-Edam
-Mascarpone
-Colby
-Colby Jack
-Pepper Jack | pepperjack
-Romano
-Queso
-Bocconcini
-Muenster | munster | muenster cheese
-Halloumi | haloumi
-Manchego
-Gruyere | gruyère
-Raclette
 Taleggio
-Pecorino | pecorino romano
-Stilton
-Roquefort
-Comte | comté
-Havarti
-Limburger
-Paneer
-Queso fresco
-Asiago
 Fontina
-Burrata
-Wensleydale
-Red Leicester
 Jarlsberg
-Gloucester | double gloucester
-Cheshire
-Port Salut
 Boursin
 Epoisses
 Reblochon
 Morbier
-Tete de Moine
 Appenzeller
-Oaxaca | queso oaxaca
 Cotija
-Queso blanco
 Mimolette
 Gjetost | brunost
 Labneh
-Quark
-Paneer cheese
 Stracciatella
 Scamorza
 Saint Agur
@@ -681,45 +649,33 @@ Livarot
 Neufchatel
 Brillat-Savarin
 Chaource
-Saint-Andre
 Explorateur
-Saint-Marcellin
 Saint-Nectaire
 Cantal
 Salers
 Laguiole
 Tomme de Savoie | tomme
 Abondance
-Beaufort
-Bleu d'Auvergne
 Fourme d'Ambert
-Bleu de Gex
 Ossau-Iraty
 Crottin de Chavignol | crottin
 Valencay
 Sainte-Maure
-Mont d'Or | vacherin mont d'or
 Ricotta salata
 Pecorino Sardo
 Montasio
-Piave
-Fiore Sardo
 Robiola
 Stracchino | crescenza
 Castelmagno
-Toma
 Fontal
 Provola
-Ricotta forte
 Cabrales
 Idiazabal
-Mahon
 Tetilla
 Zamorano
 Torta del Casar
 Garrotxa
 Queso de Valdeon
-Serra da Estrela
 Kasseri
 Kefalotyri
 Graviera
@@ -735,7 +691,6 @@ Sulguni | suluguni
 Akkawi
 Nabulsi
 Jibneh
-Tulum
 Beyaz peynir
 Lighvan
 Chhena
@@ -743,26 +698,14 @@ Chhurpi
 Rushan
 Rubing
 Kesong puti
-Queso Chihuahua | chihuahua cheese
 Queso Panela | panela
 Queso anejo
-Queso de bola
 Requesón
 Catupiry
 Queijo coalho | coalho
 Queijo minas | minas cheese
-Cheddar curds | cheese curds | squeaky cheese
-Brick cheese
 Teleme
-Humboldt Fog
-Cougar Gold
 Liederkranz
-Red Hawk
-Pleasant Ridge Reserve
-Bayley Hazen Blue
-Maytag Blue
-Point Reyes Blue
-Danish Blue | danablu
 Esrom
 Samso
 Tybo
@@ -774,7 +717,6 @@ Nokkelost
 Leipäjuusto | bread cheese | finnish squeaky cheese
 Oltermanni
 Kaltbach
-Tilsit | tilsiter
 Butterkase
 Bergkase
 Allgauer Emmentaler
@@ -787,79 +729,137 @@ Sbrinz
 Vacherin Fribourgeois
 Raclette du Valais
 Belper Knolle
-Leyden | leidse kaas
 Boerenkaas
-Old Amsterdam
 Beemster
+Passendale
+Cornish Yarg | yarg
+Caboc
+Crowdie
+Gubbeen
+Ardrahan
+Durrus
+Coolea
+Bandel
+Kalari
+Wagashi
+Ayib
+Fromage frais
+Skyr
+Kwark
+Cojack
+
+[Rare]
+Edam
+Bocconcini
+Muenster | munster | muenster cheese
+Halloumi | haloumi
+Manchego
+Gruyere | gruyère
+Raclette
+Pecorino | pecorino romano
+Stilton
+Roquefort
+Comte | comté
+Havarti
+Limburger
+Paneer
+Queso fresco
+Asiago
+Burrata
+Wensleydale
+Gloucester | double gloucester
+Cheshire
+Port Salut
+Tete de Moine
+Oaxaca | queso oaxaca
+Queso blanco
+Quark
+Paneer cheese
+Saint-Marcellin
+Beaufort
+Bleu d'Auvergne
+Bleu de Gex
+Mont d'Or | vacherin mont d'or
+Piave
+Fiore Sardo
+Toma
+Ricotta forte
+Mahon
+Serra da Estrela
+Tulum
+Queso Chihuahua | chihuahua cheese
+Queso de bola
+Cheddar curds | cheese curds | squeaky cheese
+Humboldt Fog
+Cougar Gold
+Bayley Hazen Blue
+Maytag Blue
+Point Reyes Blue
+Tilsit | tilsiter
+Leyden | leidse kaas
 Herve
 Chimay
-Passendale
 Orval
 Lancashire
 Caerphilly
 Single Gloucester
 Shropshire Blue
 Stinking Bishop
-Cornish Yarg | yarg
 Lincolnshire Poacher
-Derby
-Sage Derby
 Blue Vinny | dorset blue vinny
 Dunlop
 Isle of Mull
-Caboc
-Crowdie
 Cashel Blue
-Gubbeen
-Ardrahan
-Durrus
-Coolea
 Dubliner
 Pule | pule cheese
-Bandel
-Kalari
-Wagashi
-Ayib
-Squeeze cheese | spray cheese | easy cheese
-Processed cheese
-Smoked cheese
-Vegan cheese
 Nutritional yeast
-Farmer cheese
-Pot cheese
 Hoop cheese
 Fromage blanc
-Fromage frais
 Petit-suisse
-Skyr
-Kwark
 Curd cheese
-Marble cheese
-Cojack
-Baby Swiss
 Lacey Swiss
-Dry Jack
 Kraft Singles
-Laughing Cow
-Philadelphia | philadelphia cream cheese
 Tillamook
 Pecorino Toscano
 Emmental | emmentaler | emmenthal | swiss emmental
 
-[Rare]
+[Schooler]
 Gorgonzola
 Camembert
 Ricotta
 Monterey Jack | jack | jack cheese
-Blue cheese
-Cottage cheese
-Cream cheese
 Feta
 Gouda | smoked gouda
 Brie
 Provolone
-Swiss | swiss cheese
 Parmesan | parmigiano reggiano | parmigiano | parmesian
+Goat cheese | chevre | chèvre
+Mascarpone
+Colby
+Colby Jack
+Pepper Jack | pepperjack
+Romano
+Queso
+Red Leicester
+Saint-Andre
+Brick cheese
+Red Hawk
+Pleasant Ridge Reserve
+Danish Blue | danablu
+Old Amsterdam
+Derby
+Sage Derby
+Squeeze cheese | spray cheese | easy cheese
+Processed cheese
+Smoked cheese
+Vegan cheese
+Farmer cheese
+Pot cheese
+Marble cheese
+Baby Swiss
+Dry Jack
+Laughing Cow
+Philadelphia | philadelphia cream cheese
 
 [Too Clever]
 Velveeta
@@ -871,6 +871,10 @@ Cheez Whiz | cheese whiz
 Cheddar | chedder | cheddar cheese | sharp cheddar | white cheddar | aged cheddar | mild cheddar
 Mozzarella | mozarella | mozzerella | mozz | fresh mozzarella | buffalo mozzarella | mozzarella di bufala
 American cheese | american
+Blue cheese
+Cottage cheese
+Cream cheese
+Swiss | swiss cheese
 
 [Not accepted]
 Butter
@@ -896,14 +900,6 @@ note: Hand tools, cookware, bakeware and countertop gadgets. Big built-in applia
 Mandoline | mandolin slicer
 
 [Deep Cut]
-Ladle
-Tongs
-Whisk
-Peeler | vegetable peeler | potato peeler
-Grater | cheese grater | box grater
-Potato masher | masher
-Spider | spider strainer | spider skimmer
-Fish slice | fish spatula
 Bench scraper | dough scraper
 Pastry cutter | pastry blender
 Herb stripper
@@ -911,12 +907,10 @@ Cherry pitter
 Avocado slicer
 Egg separator
 Egg slicer
-Food mill
 Potato ricer | ricer
 Spiralizer
 Splatter screen | splatter guard
 Cake tester
-Pie server | cake server
 Mortar and pestle | mortar | pestle
 Microplane | zester
 Citrus juicer | reamer | lemon squeezer | juicer
@@ -924,100 +918,111 @@ Apple corer | corer
 Melon baller
 Meat tenderizer | meat mallet
 Nutcracker
-Pepper mill | pepper grinder
 Salt shaker | salt and pepper shakers
 Skewers | skewer
 Trivet
 Sifter | flour sifter
-Piping bag | pastry bag
 Basting brush | pastry brush
 Baster | turkey baster
 Meat thermometer | thermometer
-Kitchen timer | egg timer | timer
-Kitchen scale | food scale | scale
-Funnel
-Cookie cutter
-Mixing bowl | bowl
 Salad spinner
-Garlic press
-Ice cream scoop
-Can opener | tin opener
-Bottle opener
 Corkscrew | wine opener
 Kitchen shears | kitchen scissors | scissors
 Cleaver | meat cleaver
 Paring knife
-Bread knife
 Chef's knife | chefs knife
-Carving knife
-Steak knife
 Knife sharpener | sharpening steel | honing rod | whetstone
 Slotted spoon
-Wooden spoon
 Rubber spatula | silicone spatula
-Turner | pancake turner
-Pizza cutter | pizza wheel
-Pizza stone
-Rolling pin
-Measuring cups | measuring cup
 Measuring spoons | measuring spoon
 Colander
 Strainer | sieve
-Cutting board | chopping board
-Pot holder | potholder
 Oven mitt | oven glove
-Apron
-Dish towel | tea towel
 Chopsticks
-Dutch oven
 Stockpot | stock pot
 Saucepan | sauce pan
 Skillet
 Cast iron skillet | cast iron pan
 Wok
 Griddle
-Grill pan
 Roasting pan
-Baking sheet | cookie sheet | sheet pan
 Muffin tin | muffin pan | cupcake pan
-Cake pan
-Loaf pan | bread pan
-Pie dish | pie pan | pie plate
 Casserole dish | baking dish
 Ramekin
 Springform pan
 Bundt pan
 Tart pan
-Cooling rack | wire rack
-Double boiler
 Pressure cooker
-Steamer | steamer basket
-Kettle | tea kettle | electric kettle
 Teapot
-French press
-Coffee maker | coffee machine
-Espresso machine
 Toaster
 Toaster oven
 Air fryer
 Slow cooker | crock pot | crockpot
-Instant Pot
 Rice cooker
-Blender
 Immersion blender | stick blender | hand blender
+Waffle iron | waffle maker
+Deep fryer
+
+[Rare]
+Potato masher | masher
+Fish slice | fish spatula
+Pie server | cake server
+Pepper mill | pepper grinder
+Piping bag | pastry bag
+Kitchen timer | egg timer | timer
+Funnel
+Cookie cutter
+Mixing bowl | bowl
+Garlic press
+Ice cream scoop
+Can opener | tin opener
+Bottle opener
+Carving knife
+Steak knife
+Wooden spoon
+Pizza cutter | pizza wheel
+Measuring cups | measuring cup
+Pot holder | potholder
+Apron
+Dish towel | tea towel
+Dutch oven
+Grill pan
+Baking sheet | cookie sheet | sheet pan
+Loaf pan | bread pan
+Pie dish | pie pan | pie plate
+Cooling rack | wire rack
+Double boiler
+Steamer | steamer basket
+Kettle | tea kettle | electric kettle
+Espresso machine
+Blender
 Food processor
 Stand mixer | kitchenaid
 Hand mixer | electric mixer | mixer
-Waffle iron | waffle maker
 Sandwich maker | panini press
 Popcorn maker | popcorn machine
-Deep fryer
-Bread maker | bread machine
 Microwave | microwave oven
 
-[Rare]
+[Schooler]
 Spoon
-Fork
+Ladle
+Tongs
+Whisk
+Peeler | vegetable peeler | potato peeler
+Grater | cheese grater | box grater
+Spider | spider strainer | spider skimmer
+Food mill
+Kitchen scale | food scale | scale
+Bread knife
+Turner | pancake turner
+Pizza stone
+Rolling pin
+Cutting board | chopping board
+Cake pan
+French press
+Coffee maker | coffee machine
+Instant Pot
+Bread maker | bread machine
 
 [Plankton]
 Spatula
@@ -1025,6 +1030,7 @@ Frying pan | fry pan
 Pot
 Pan
 Knife
+Fork
 
 [Not accepted]
 Refrigerator
@@ -1052,20 +1058,12 @@ Button Gwinnett | gwinnett
 
 [Deep Cut]
 Robert Treat Paine
-James Wilson
 Thomas McKean | mckean
-George Read
-Thomas Nelson Jr. | thomas nelson
 Francis Lightfoot Lee
 Philip Livingston | livingston
-Lewis Morris
 William Whipple | whipple
-Matthew Thornton | thornton
 Oliver Wolcott | wolcott
-Samuel Huntington | huntington
 Richard Stockton | stockton
-Arthur Middleton | middleton
-Thomas Lynch Jr. | thomas lynch | lynch
 William Paca | paca
 Lyman Hall
 William Ellery | ellery
@@ -1089,18 +1087,30 @@ Thomas Heyward Jr. | thomas heyward | heyward
 
 [Rare]
 Roger Sherman | sherman
-Benjamin Rush | rush | ben rush
-Richard Henry Lee
 Elbridge Gerry | gerry
 John Witherspoon | witherspoon
 Caesar Rodney | rodney
-Robert Morris
-Charles Carroll | charles carroll of carrollton | carroll
-Samuel Chase | chase
 Edward Rutledge | rutledge
 Francis Hopkinson | hopkinson
 George Wythe | wythe
 Josiah Bartlett | bartlett
+James Wilson
+George Read
+Thomas Nelson Jr. | thomas nelson
+Lewis Morris
+Matthew Thornton | thornton
+Samuel Huntington | huntington
+Arthur Middleton | middleton
+Thomas Lynch Jr. | thomas lynch | lynch
+
+[Schooler]
+Benjamin Franklin | franklin | ben franklin
+John Hancock | hancock
+Benjamin Rush | rush | ben rush
+Richard Henry Lee
+Robert Morris
+Charles Carroll | charles carroll of carrollton | carroll
+Samuel Chase | chase
 Stephen Hopkins
 
 [Too Clever]
@@ -1108,8 +1118,6 @@ Benjamin Harrison | benjamin harrison v
 
 [Plankton]
 Thomas Jefferson | jefferson
-Benjamin Franklin | franklin | ben franklin
-John Hancock | hancock
 John Adams
 Samuel Adams | sam adams
 
@@ -1141,12 +1149,9 @@ Delaware
 Alabama
 Kentucky
 Missouri
-Wisconsin
 Indiana
 Maryland
-South Carolina
 Utah
-New Mexico
 North Dakota
 South Dakota
 Wyoming
@@ -1169,19 +1174,25 @@ Oklahoma
 Minnesota
 Louisiana
 Tennessee
-New Jersey
 Nevada
 Oregon
-Virginia
-North Carolina
 Massachusetts
-Washington
 Georgia
 Colorado
 Arizona
-Ohio
 Pennsylvania
 Illinois
+Wisconsin
+South Carolina
+New Mexico
+
+[Schooler]
+Florida
+New Jersey
+Virginia
+North Carolina
+Washington
+Ohio
 Michigan
 
 [Too Clever]
@@ -1191,7 +1202,6 @@ Hawaii
 [Plankton]
 California
 Texas
-Florida
 New York
 
 [Not accepted]
@@ -1218,19 +1228,13 @@ Habakkuk | habbakuk | habakuk | habbakkuk
 
 [Deep Cut]
 Hosea
-Joel
 Amos
 Lamentations
 Nehemiah
 Ezra
 Titus
 1 Thessalonians | 1thessalonians | i thessalonians | first thessalonians | 1st thessalonians | thessalonians
-2 Timothy | 2timothy | ii timothy | second timothy | 2nd timothy
-2 Peter | 2peter | ii peter | second peter | 2nd peter
-1 John | 1john | i john | first john | 1st john
 1 Chronicles | chronicles | 1chronicles | i chronicles | first chronicles | 1st chronicles
-2 Kings | 2kings | ii kings | second kings | 2nd kings
-2 Samuel | 2samuel | ii samuel | second samuel | 2nd samuel
 2 Corinthians | 2corinthians | ii corinthians | second corinthians | 2nd corinthians
 Colossians
 Philippians | phillipians
@@ -1238,15 +1242,10 @@ Ezekiel | ezekial
 Galatians
 Ephesians
 Hebrews
-James
-1 Timothy | 1timothy | i timothy | first timothy | 1st timothy | timothy
-1 Peter | 1peter | i peter | first peter | 1st peter | peter
 Obadiah
 Nahum
 Zephaniah | zepheniah
 Haggai | hagai
-3 John | 3john | iii john | third john | 3rd john
-2 John | 2john | ii john | second john | 2nd john
 Philemon | philemen
 Tobit
 Judith
@@ -1267,25 +1266,37 @@ Jude
 [Rare]
 Leviticus
 Deuteronomy | deuteronomie
-Joshua
-Ruth
-1 Samuel | 1samuel | i samuel | first samuel | 1st samuel | samuel
-1 Kings | kings | 1kings | i kings | first kings | 1st kings
 Esther
 Proverbs
 Ecclesiastes
 Song of Solomon | song of songs | canticles | song of songs of solomon
 Isaiah
 Jeremiah
-Daniel
 Jonah
-Romans
 1 Corinthians | corinthians | 1corinthians | i corinthians | first corinthians | 1st corinthians
+Joel
+2 Timothy | 2timothy | ii timothy | second timothy | 2nd timothy
+2 Peter | 2peter | ii peter | second peter | 2nd peter
+1 John | 1john | i john | first john | 1st john
+2 Kings | 2kings | ii kings | second kings | 2nd kings
+2 Samuel | 2samuel | ii samuel | second samuel | 2nd samuel
+James
+1 Timothy | 1timothy | i timothy | first timothy | 1st timothy | timothy
+1 Peter | 1peter | i peter | first peter | 1st peter | peter
+3 John | 3john | iii john | third john | 3rd john
+2 John | 2john | ii john | second john | 2nd john
 
 [Schooler]
-Mark
-Luke
-John | gospel of john
+Genesis
+Exodus
+Revelation | revelations | book of revelation | apocalypse
+Psalms | psalm
+Joshua
+Ruth
+1 Samuel | 1samuel | i samuel | first samuel | 1st samuel | samuel
+1 Kings | kings | 1kings | i kings | first kings | 1st kings
+Daniel
+Romans
 
 [Too Clever]
 Numbers
@@ -1294,11 +1305,10 @@ Acts | acts of the apostles
 Judges
 
 [Plankton]
-Genesis
-Exodus
-Revelation | revelations | book of revelation | apocalypse
-Psalms | psalm
 Matthew
+Mark
+Luke
+John | gospel of john
 
 [Not accepted]
 Book of Mormon
@@ -1323,6 +1333,284 @@ prompt: Name a type of tree
 Baobab
 
 [Deep Cut]
+Sequoia | giant sequoia
+Ginkgo | gingko | ginkgo biloba
+Alder
+Hornbeam
+Linden | lime tree | basswood
+Yew
+Larch
+Juniper
+Mangrove
+Banyan
+Acacia
+Tamarack
+Hemlock
+Sassafras
+Catalpa
+Locust | honey locust | black locust
+Sweetgum | sweet gum
+Tulip tree | tulip poplar
+Buckeye | horse chestnut
+Persimmon tree
+Pecan
+Kapok | kapok tree | ceiba
+Rosewood
+Balsa
+Bristlecone pine
+Bur oak
+Crabapple
+Cottonwood
+Teak | teak tree
+Eucalyptus
+Kentucky coffeetree
+Osage orange | hedge apple
+Pawpaw tree
+Sourwood
+Tupelo | black gum
+Bald cypress
+Dawn redwood
+Deodar
+Incense cedar
+Arborvitae | thuja
+Leyland cypress
+Monterey cypress
+Cryptomeria | japanese cedar | sugi
+Hinoki
+Wollemi pine
+Kauri
+Podocarpus
+Araucaria
+Ponderosa pine
+Lodgepole pine
+Longleaf pine
+Loblolly pine
+Pinyon pine | pinon
+Balsam fir
+Nordmann fir
+Sitka spruce
+Engelmann spruce
+Eastern hemlock
+Western hemlock
+European larch
+Bigleaf maple
+Sycamore maple
+Paperbark maple
+Amur maple
+Quaking aspen
+Bigtooth aspen
+Lombardy poplar
+White poplar
+Black poplar
+Balsam poplar
+Eastern cottonwood
+Slippery elm
+Siberian elm
+Zelkova
+Hackberry
+Chinquapin
+Butternut
+Shagbark hickory
+Pignut hickory
+Bitternut hickory
+Mockernut hickory
+Holm oak
+Sessile oak
+Littleleaf linden
+Southern magnolia
+Saucer magnolia
+Sweetbay
+Bigleaf magnolia
+Redbud | eastern redbud
+Serviceberry | shadbush
+Flowering dogwood
+Kousa dogwood
+Crape myrtle | crepe myrtle
+Yoshino cherry
+Chokecherry
+Apricot tree
+Quince tree
+Medlar tree
+Loquat tree
+Pomegranate tree
+Grapefruit tree
+Kumquat tree
+Hazelnut tree
+Macadamia tree
+Pistachio tree
+Cashew tree
+Cacao tree
+Clove tree
+Nutmeg tree
+Jacaranda
+Frangipani | plumeria
+Bottlebrush
+Paperbark | melaleuca
+Jarrah
+Karri
+Wattle
+Mulga
+Boab
+Moreton Bay fig
+Strangler fig
+Neem
+Sandalwood
+Tamarind tree
+Silk floss tree
+Cecropia
+Lignum vitae
+Ironwood
+Purpleheart
+Zebrawood
+Wenge
+Padauk
+Sapele
+Iroko
+Okoume
+Dragon's blood tree
+Frankincense tree | boswellia
+Myrrh tree
+Argan tree
+Carob tree
+Sago palm
+Traveller's palm
+Palmetto | sabal palmetto | cabbage palm
+Windmill palm
+Papaya tree
+Breadfruit tree
+Jackfruit tree
+Durian tree
+Lychee tree
+Rambutan tree
+Guava tree
+Mangosteen tree
+Himalayan birch
+Rhododendron tree
+Cycad
+Sumac | staghorn sumac
+Mimosa | silk tree
+Whitebeam
+Boxwood | box
+Blackthorn
+Spindle tree
+Buckthorn
+Mulberry | white mulberry | red mulberry
+Persian ironwood | parrotia
+Katsura
+Hop hornbeam
+Musclewood
+Lemon eucalyptus
+Rainbow eucalyptus
+Tasmanian blue gum
+Coolibah
+Quiver tree
+Marula
+Mopane
+Yellowwood
+Stinkwood
+
+[Rare]
+Hawthorn | hawthorn tree
+Cypress
+Monkey puzzle
+Rowan | mountain ash
+Almond tree
+Fig tree
+Lemon tree
+Avocado tree
+Mango tree
+Cork oak
+Ebony | ebony tree
+Douglas fir
+Blue spruce
+Silver birch
+Paper birch
+Sugar maple
+Japanese maple
+Red maple
+Weeping cherry
+Hazel
+Mahogany | mahogany tree
+Joshua tree
+Olive tree | olive
+Cedar
+Coast redwood
+Western red cedar
+Eastern red cedar
+Atlas cedar
+Cedar of Lebanon
+Italian cypress
+Norfolk Island pine
+Scots pine | scotch pine
+Stone pine | umbrella pine
+Jack pine
+Monterey pine
+Sugar pine
+Austrian pine
+Fraser fir
+Noble fir
+Grand fir
+White fir
+Norway spruce
+Black spruce
+White spruce
+Silver maple
+Norway maple
+Box elder
+Field maple
+River birch
+Yellow birch
+Black birch
+Gray birch
+Black willow
+Pussy willow
+White willow
+Crack willow
+American elm
+English elm
+Chinese elm
+American beech
+European beech
+Copper beech
+American chestnut
+Sweet chestnut
+Black walnut
+English walnut
+Pin oak
+Scarlet oak
+Chestnut oak
+Willow oak
+Swamp white oak
+Turkey oak
+Star magnolia
+Cucumber tree
+Bradford pear | callery pear
+Flowering cherry
+Plum tree
+Peach tree
+Pear tree
+Cinnamon tree
+Bay laurel | bay tree | laurel
+Cork tree
+Flame tree | royal poinciana | flamboyant
+Blue gum
+River red gum
+Ghost gum
+Snow gum
+Sacred fig | bodhi tree | peepal | pipal
+Brazil nut tree
+Spanish cedar
+Banana tree
+Sal tree
+Tree fern
+Witch hazel
+Empress tree | paulownia
+Holly | american holly | english holly
+Bitter orange tree
+Sausage tree
+Umbrella thorn
+
+[Schooler]
 Ash
 Beech
 Elm
@@ -1340,319 +1628,39 @@ Spruce
 Sycamore
 Redwood
 Bamboo
-Sequoia | giant sequoia
-Ginkgo | gingko | ginkgo biloba
-Hawthorn | hawthorn tree
-Alder
-Hornbeam
-Linden | lime tree | basswood
-Yew
-Larch
-Juniper
-Mangrove
-Banyan
-Acacia
-Tamarack
-Hemlock
-Cypress
-Sassafras
-Monkey puzzle
-Rowan | mountain ash
-Catalpa
-Locust | honey locust | black locust
-Sweetgum | sweet gum
-Tulip tree | tulip poplar
-Buckeye | horse chestnut
-Persimmon tree
-Pecan
-Almond tree
-Fig tree
-Lemon tree
 Orange tree
-Avocado tree
-Mango tree
-Cork oak
 Rubber tree
-Kapok | kapok tree | ceiba
-Ebony | ebony tree
-Rosewood
-Balsa
-Bristlecone pine
-Douglas fir
-Blue spruce
-Bur oak
 Live oak
 Red oak
 White oak
-Silver birch
-Paper birch
-Sugar maple
-Japanese maple
-Red maple
-Weeping cherry
-Crabapple
-Cottonwood
-Hazel
-Teak | teak tree
-Mahogany | mahogany tree
-Joshua tree
 Dragon tree
-Olive tree | olive
-Eucalyptus
-Cedar
-Kentucky coffeetree
-Osage orange | hedge apple
-Pawpaw tree
-Sourwood
-Tupelo | black gum
-Bald cypress
-Dawn redwood
-Coast redwood
-Western red cedar
-Eastern red cedar
-Atlas cedar
-Cedar of Lebanon
-Deodar
-Incense cedar
-Arborvitae | thuja
-Leyland cypress
-Monterey cypress
-Italian cypress
-Cryptomeria | japanese cedar | sugi
-Hinoki
-Norfolk Island pine
-Wollemi pine
-Kauri
-Podocarpus
-Araucaria
-Ponderosa pine
-Lodgepole pine
-Longleaf pine
-Loblolly pine
 White pine | eastern white pine
-Scots pine | scotch pine
-Stone pine | umbrella pine
-Pinyon pine | pinon
-Jack pine
 Red pine
-Monterey pine
-Sugar pine
-Austrian pine
-Balsam fir
-Fraser fir
-Noble fir
-Grand fir
-White fir
-Nordmann fir
-Sitka spruce
-Norway spruce
-Black spruce
-White spruce
-Engelmann spruce
-Eastern hemlock
-Western hemlock
-European larch
-Bigleaf maple
-Silver maple
-Norway maple
-Box elder
-Sycamore maple
-Field maple
-Paperbark maple
-Amur maple
-River birch
-Yellow birch
-Black birch
-Gray birch
-Quaking aspen
-Bigtooth aspen
-Lombardy poplar
-White poplar
-Black poplar
-Balsam poplar
-Eastern cottonwood
-Black willow
-Pussy willow
-White willow
-Crack willow
-American elm
-Slippery elm
-English elm
-Chinese elm
-Siberian elm
-Zelkova
-Hackberry
-American beech
-European beech
-Copper beech
-American chestnut
-Sweet chestnut
-Chinquapin
-Black walnut
-English walnut
-Butternut
-Shagbark hickory
-Pignut hickory
-Bitternut hickory
-Mockernut hickory
-Pin oak
-Scarlet oak
 Black oak
-Chestnut oak
 Water oak
-Willow oak
 Post oak
-Swamp white oak
-Holm oak
 English oak
-Sessile oak
-Turkey oak
 Valley oak
 Blue oak
 Coast live oak
 Southern live oak
-Littleleaf linden
-Southern magnolia
-Saucer magnolia
-Star magnolia
-Sweetbay
-Bigleaf magnolia
-Cucumber tree
-Redbud | eastern redbud
-Serviceberry | shadbush
-Flowering dogwood
-Kousa dogwood
-Crape myrtle | crepe myrtle
-Bradford pear | callery pear
-Flowering cherry
 Japanese cherry | sakura
-Yoshino cherry
 Black cherry
-Chokecherry
-Plum tree
-Peach tree
-Pear tree
-Apricot tree
-Quince tree
-Medlar tree
-Loquat tree
-Pomegranate tree
-Grapefruit tree
-Kumquat tree
-Hazelnut tree
-Macadamia tree
-Pistachio tree
-Cashew tree
-Cacao tree
 Coffee tree
 Tea tree
-Clove tree
-Nutmeg tree
-Cinnamon tree
-Bay laurel | bay tree | laurel
-Cork tree
-Jacaranda
-Flame tree | royal poinciana | flamboyant
-Frangipani | plumeria
-Bottlebrush
-Paperbark | melaleuca
-Jarrah
-Karri
-Blue gum
-River red gum
-Ghost gum
-Snow gum
-Wattle
-Mulga
 She-oak | casuarina
-Boab
-Moreton Bay fig
-Strangler fig
-Sacred fig | bodhi tree | peepal | pipal
-Neem
-Sandalwood
-Tamarind tree
 Rain tree | monkeypod
-Silk floss tree
-Cecropia
-Brazil nut tree
-Spanish cedar
-Lignum vitae
-Ironwood
-Purpleheart
-Zebrawood
-Wenge
-Padauk
-Sapele
-Iroko
-Okoume
-Dragon's blood tree
-Frankincense tree | boswellia
-Myrrh tree
-Argan tree
-Carob tree
 Date palm
 Royal palm
 Fan palm
-Sago palm
 Oil palm
-Traveller's palm
-Palmetto | sabal palmetto | cabbage palm
-Windmill palm
-Banana tree
-Papaya tree
-Breadfruit tree
-Jackfruit tree
-Durian tree
-Lychee tree
-Rambutan tree
-Guava tree
-Mangosteen tree
-Sal tree
-Himalayan birch
-Rhododendron tree
-Tree fern
-Cycad
 Smoke tree
-Witch hazel
-Sumac | staghorn sumac
 Tree of heaven | ailanthus
-Mimosa | silk tree
-Empress tree | paulownia
 Golden rain tree
-Whitebeam
 Elder | elderberry tree
-Holly | american holly | english holly
-Boxwood | box
-Blackthorn
-Spindle tree
-Buckthorn
 Russian olive
-Mulberry | white mulberry | red mulberry
-Persian ironwood | parrotia
-Katsura
-Hop hornbeam
-Musclewood
-Bitter orange tree
-Lemon eucalyptus
-Rainbow eucalyptus
-Tasmanian blue gum
-Coolibah
-Quiver tree
-Sausage tree
-Marula
-Mopane
-Umbrella thorn
 Fever tree
-Yellowwood
 Silver tree
-Stinkwood
-
-[Rare]
-Willow | weeping willow
-Palm | palm tree
-Birch
-Coconut tree | coconut palm
 
 [Too Clever]
 Evergreen
@@ -1663,6 +1671,10 @@ Bonsai
 Oak
 Maple
 Pine
+Willow | weeping willow
+Palm | palm tree
+Birch
+Coconut tree | coconut palm
 
 [Not accepted]
 Bush
@@ -1687,124 +1699,65 @@ prompt: Name a bird
 Blue-footed booby | booby
 
 [Deep Cut]
-Emu
-Macaw
-Cockatoo
-Falcon
-Raven
-Sparrow
-Blue jay | jay
-Cardinal
-Swallow
-Dove
-Kiwi
 Cassowary
 Kookaburra
 Hoopoe
 Shoebill | shoebill stork
-Albatross
 Cormorant
 Egret
-Ibis
 Roadrunner
-Starling
-Wren
-Nightingale
-Kingfisher
 Lyrebird
-Quail
-Pheasant
 Sandpiper
-Condor
 Kestrel
-Peregrine falcon | peregrine
 Tanager
 Oriole
 Grackle
-Warbler
-Mockingbird
 Chickadee
 Nuthatch
 Titmouse
-Lark | skylark
-Plover
 Killdeer
-Heron | great blue heron
-Crane
-Stork
 Spoonbill | roseate spoonbill
-Grouse
 Ptarmigan
-Partridge
-Guinea fowl
 Kakapo
-Kea
-Tui
 Hornbill
-Weaver bird | weaver
 Frigatebird | frigate bird
 Gannet
-Tern
-Loon
 Grebe
 Merganser
-Mallard
-Wood duck
-Puffin
-Osprey
-Harrier
-Kite
-Buzzard
 Myna | mynah | myna bird
 Budgie | budgerigar | parakeet
 Lovebird
 Cockatiel
-Magpie
-Finch
-Canary
-Rhea
-Moa
-Elephant bird
 Great auk
-Passenger pigeon
 Carolina parakeet
 Takahe
 Weka
 Pukeko
-Kaka
 Kokako
 Saddleback
 Fantail
 Bellbird
 Morepork
-Shag
 Anhinga | snakebird
 Darter
 Bittern
-Night heron
 Little egret
 Cattle egret
 Snowy egret
-Wood stork
 Marabou stork
 Jabiru
 Hammerkop | hamerkop
-Whooping crane
 Sandhill crane
-Crowned crane
 Sarus crane
 Limpkin
-Rail
 Coot
 Moorhen
 Gallinule
 Corncrake
-Sora
 Bustard
 Seriema
 Sunbittern
 Kagu
-Trumpeter
 Oystercatcher
 Avocet
 Stilt
@@ -1814,17 +1767,13 @@ Curlew
 Whimbrel
 Godwit
 Dunlin
-Knot
 Sanderling
 Turnstone
-Snipe
-Woodcock
 Phalarope
 Jacana
 Pratincole
 Courser
 Skua
-Jaeger
 Kittiwake
 Noddy
 Skimmer
@@ -1838,43 +1787,25 @@ Petrel
 Shearwater
 Storm petrel
 Fulmar
-Prion
 Tropicbird
 Northern gannet
 Sooty tern
-Arctic tern
-Emperor penguin
-King penguin
 Adelie penguin
 Gentoo penguin
 Chinstrap penguin
 Rockhopper penguin
-Macaroni penguin
-Little penguin | fairy penguin | little blue penguin
-Galapagos penguin
-Humboldt penguin
-African penguin
-Yellow-eyed penguin
 Hoatzin
 Turaco
-Cuckoo
 Coucal
-Ani
 Greater roadrunner
 Nightjar
-Whip-poor-will
-Nighthawk
 Potoo
 Frogmouth
 Oilbird
-Swift
-Chimney swift
 Treeswift
 Trogon
 Quetzal | resplendent quetzal
 Motmot
-Bee-eater
-Roller
 Ground hornbill
 Wood hoopoe
 Jacamar
@@ -1883,7 +1814,6 @@ Barbet
 Honeyguide
 Toucanet
 Aracari
-Flicker
 Sapsucker
 Wryneck
 Piculet
@@ -1894,11 +1824,9 @@ Ovenbird
 Woodcreeper
 Manakin
 Cotinga
-Cock-of-the-rock
 Tyrant flycatcher
 Flycatcher
 Kingbird
-Phoebe
 Pewee
 Bowerbird
 Fairywren | fairy wren
@@ -1908,99 +1836,57 @@ Thornbill
 Shrike
 Butcherbird
 Currawong
-Magpie-lark
 Vireo
 Drongo
 Monarch flycatcher
 Paradise flycatcher
 Steller's jay
-Scrub jay
-Gray jay | canada jay | whiskey jack
-Nutcracker
 Chough
-Rook
 Jackdaw
 Treepie
 Waxwing | cedar waxwing
 Silky-flycatcher
 Phainopepla
-Dipper
 Kinglet
 Goldcrest
 Firecrest
 Bushtit
-Long-tailed tit
-Tit
-Great tit
-Blue tit
 Penduline tit
 Verdin
-Creeper | brown creeper
 Treecreeper
 Wallcreeper
 Gnatcatcher
 Babbler
 Laughingthrush
-White-eye
 Bulbul
-Martin
-Purple martin
-Sand martin
-House martin
-Barn swallow
-Horned lark
 Pipit
 Wagtail
 Dunnock
 Accentor
-Thrush
-American robin
-European robin
-Blackbird
-Red-winged blackbird
-Song thrush
 Mistle thrush
 Fieldfare
 Redwing
 Veery
-Hermit thrush
-Wood thrush
 Bluethroat
 Redstart
 Stonechat
 Whinchat
 Wheatear
-Chat
-Solitaire
 Catbird
-Thrasher
-Brown thrasher
 Oxpecker
 Sunbird
 Spiderhunter
 Flowerpecker
 Quelea
 Widowbird
-Bishop bird
 Whydah
 Indigobird
 Waxbill
 Munia
 Mannikin
-Java sparrow
-Zebra finch
 Gouldian finch
-Society finch
-House sparrow
-Song sparrow
-Chipping sparrow
-White-throated sparrow
 Junco
 Towhee
-Bunting
-Indigo bunting
-Painted bunting
-Snow bunting
 Yellowhammer
 Ortolan
 Longspur
@@ -2021,12 +1907,8 @@ Bullfinch
 Hawfinch
 Serin
 Rosefinch
-House finch
-Purple finch
-Darwin's finch
 Honeycreeper
 Hawaiian honeycreeper
-Nene | hawaiian goose
 Bobolink
 Meadowlark
 Cowbird
@@ -2037,20 +1919,14 @@ Euphonia
 Saltator
 Dickcissel
 Seedeater
-Northern cardinal
 Pyrrhuloxia
-Yellow warbler
 Prothonotary warbler
 Blackburnian warbler
-Black-and-white warbler
 Yellowthroat
-Reed warbler
 Sedge warbler
 Chiffchaff
-Willow warbler
 Blackcap
 Whitethroat
-Garden warbler
 Cisticola
 Tailorbird
 Prinia
@@ -2065,18 +1941,10 @@ Rainbow lorikeet
 Lory
 Galah
 Corella
-Gang-gang cockatoo
-Palm cockatoo
 Sulphur-crested cockatoo
-Black cockatoo
-Night parrot
-Ground parrot
 Eclectus
-African grey | african grey parrot
-Amazon parrot
 Conure
 Monk parakeet
-Quaker parrot
 Ring-necked parakeet
 Caique
 Pionus
@@ -2084,57 +1952,211 @@ Hyacinth macaw
 Scarlet macaw
 Blue-and-yellow macaw
 Spix's macaw
-Hawk-eagle
 Harpy eagle
-Golden eagle
-White-tailed eagle | sea eagle
 Steller's sea eagle
-Philippine eagle
-Martial eagle
-Crowned eagle
 Bateleur
-Fish eagle
-Snake eagle
+Sharp-shinned hawk
+Goshawk
+Sparrowhawk
+Swainson's hawk
+Ferruginous hawk
+Caracara
+Crested caracara
+Gyrfalcon
+Lanner falcon
+Saker falcon
+American kestrel
+Griffon vulture
+Lammergeier | bearded vulture
+Boobook
+Peahen
+Junglefowl
+Red junglefowl
+Capon
+Silkie
+Francolin
+Spurfowl
+Tragopan
+Monal
+Lady Amherst's pheasant
+Capercaillie
+Ruffed grouse
+Snowcock
+Chukar
+Gambel's quail
+Megapode
+Malleefowl
+Curassow
+Chachalaca
+Tinamou
+Sandgrouse
+Nicobar pigeon
+Greylag goose
+Whooper swan
+Wigeon
+Gadwall
+Pintail
+Shoveler
+Canvasback
+Scaup
+Eider
+Scoter
+Bufflehead
+Smew
+Goosander
+Muscovy duck
+Pekin duck
+Shelduck
+Dabchick
+Openbill
+Wattlebird
+Silvereye
+Hill myna
+Ruby-throated hummingbird
+Sicklebill
+Sunbird-asity
+Asity
+Mesite
+Mousebird
+Hornero
+Spinetail
+Tapaculo
+Gnateater
+Antpitta
+Seedsnipe
+Sheathbill
+Ibisbill
+Buttonquail
+Finfoot
+Sungrebe
+Oropendola
+Cacique
+Troupial
+
+[Rare]
+Albatross
+Ibis
+Starling
+Wren
+Nightingale
+Kingfisher
+Quail
+Pheasant
+Condor
+Peregrine falcon | peregrine
+Warbler
+Mockingbird
+Lark | skylark
+Plover
+Heron | great blue heron
+Stork
+Grouse
+Partridge
+Guinea fowl
+Kea
+Tui
+Tern
+Loon
+Mallard
+Puffin
+Osprey
+Harrier
+Buzzard
+Magpie
+Canary
+Rhea
+Moa
+Kaka
+Shag
+Night heron
+Wood stork
+Whooping crane
+Crowned crane
+Sora
+Trumpeter
+Snipe
+Woodcock
+Jaeger
+Prion
+Arctic tern
+Macaroni penguin
+Galapagos penguin
+Humboldt penguin
+Cuckoo
+Ani
+Nighthawk
+Chimney swift
+Bee-eater
+Flicker
+Phoebe
+Magpie-lark
+Nutcracker
+Rook
+Dipper
+Long-tailed tit
+Tit
+Great tit
+Blue tit
+Creeper | brown creeper
+Horned lark
+Thrush
+Blackbird
+Red-winged blackbird
+Song thrush
+Hermit thrush
+Wood thrush
+Solitaire
+Thrasher
+Brown thrasher
+Java sparrow
+Zebra finch
+House sparrow
+Song sparrow
+Chipping sparrow
+White-throated sparrow
+Bunting
+Indigo bunting
+Painted bunting
+Snow bunting
+Purple finch
+Darwin's finch
+Nene | hawaiian goose
+Yellow warbler
+Black-and-white warbler
+Reed warbler
+Willow warbler
+Garden warbler
+Gang-gang cockatoo
+Palm cockatoo
+Black cockatoo
+Night parrot
+Ground parrot
+Amazon parrot
+Quaker parrot
+White-tailed eagle | sea eagle
+Crowned eagle
 Booted eagle
 Short-toed eagle
 Wedge-tailed eagle
 Red-tailed hawk
 Cooper's hawk
-Sharp-shinned hawk
-Goshawk
-Sparrowhawk
-Red kite
-Black kite
 Honey buzzard
 Rough-legged hawk
-Swainson's hawk
-Ferruginous hawk
 Harris's hawk
 Northern harrier
 Hen harrier
 Marsh harrier
-Caracara
-Crested caracara
-Gyrfalcon
 Merlin
-Hobby
-Lanner falcon
-Saker falcon
 Prairie falcon
-American kestrel
 Andean condor
 California condor
 Turkey vulture
 Black vulture
 King vulture
-Griffon vulture
-Lammergeier | bearded vulture
 Egyptian vulture
-Barn owl
 Snowy owl
 Great horned owl
 Barred owl
-Spotted owl
 Screech owl
 Burrowing owl
 Elf owl
@@ -2143,87 +2165,31 @@ Saw-whet owl
 Tawny owl
 Long-eared owl
 Short-eared owl
-Eagle-owl
-Fish owl
-Little owl
-Boobook
-Wild turkey
-Peahen
-Junglefowl
-Red junglefowl
 Rooster
-Hen
-Capon
 Bantam
-Silkie
-Francolin
-Spurfowl
-Tragopan
-Monal
 Golden pheasant
-Lady Amherst's pheasant
 Ring-necked pheasant
 Sage grouse
-Prairie chicken
-Capercaillie
 Black grouse
-Ruffed grouse
 Spruce grouse
-Snowcock
-Chukar
 California quail
-Gambel's quail
-Megapode
-Brush turkey
-Malleefowl
-Curassow
 Guan
-Chachalaca
-Tinamou
-Sandgrouse
 Mourning dove
-Rock dove | rock pigeon
 Turtle dove
 Collared dove
-Wood pigeon
-Fruit dove
 Crowned pigeon
-Nicobar pigeon
 Tooth-billed pigeon
-Diamond dove
-Canada goose
-Snow goose
 Barnacle goose
 Brant | brent goose
-Greylag goose
-Bar-headed goose
-Egyptian goose
-Swan goose
 Mute swan
 Trumpeter swan
 Tundra swan
-Black swan
-Whooper swan
 Teal
-Wigeon
-Gadwall
-Pintail
-Shoveler
-Canvasback
 Redhead
-Scaup
-Eider
-Scoter
 Goldeneye
-Bufflehead
-Smew
-Goosander
 Ruddy duck
 Mandarin duck
-Muscovy duck
-Pekin duck
 Whistling duck
-Shelduck
 Steamer duck
 Harlequin duck
 Long-tailed duck
@@ -2231,7 +2197,6 @@ Torrent duck
 Magpie goose
 Screamer
 Common loon
-Dabchick
 Greater flamingo
 Lesser flamingo
 Scarlet ibis
@@ -2242,54 +2207,25 @@ Brown pelican
 White pelican
 Dalmatian pelican
 Saddle-billed stork
-Openbill
 Adjutant stork
 Common starling
 Superb starling
-Wattlebird
-Silvereye
-Hill myna
 Bee hummingbird
-Ruby-throated hummingbird
 Anna's hummingbird
 Sword-billed hummingbird
-Sicklebill
-Sunbird-asity
-Asity
-Mesite
-Ground roller
 Cuckoo-roller
-Mousebird
-Hornero
-Spinetail
-Tapaculo
-Gnateater
-Antpitta
 Plains-wanderer
-Seedsnipe
-Sheathbill
 Crab-plover
-Ibisbill
 Painted-snipe
-Thick-knee | stone-curlew
-Buttonquail
-Finfoot
-Sungrebe
 Reef heron
 Tiger heron
 Boat-billed heron
-Oropendola
-Cacique
-Troupial
-Bird of paradise
-Secretary bird
 
-[Rare]
+[Schooler]
 Parrot
 Toucan
 Hawk
 Vulture
-Turkey
 Goose
 Swan
 Seagull | gull
@@ -2300,9 +2236,85 @@ Hummingbird | hummer
 Bald eagle
 Bluebird | blue bird
 Ostrich
-Owl
 Crow
 Flamingo
+Emu
+Macaw
+Cockatoo
+Falcon
+Raven
+Sparrow
+Blue jay | jay
+Cardinal
+Swallow
+Dove
+Kiwi
+Crane
+Weaver bird | weaver
+Wood duck
+Kite
+Finch
+Elephant bird
+Passenger pigeon
+Rail
+Knot
+Emperor penguin
+King penguin
+Little penguin | fairy penguin | little blue penguin
+African penguin
+Yellow-eyed penguin
+Whip-poor-will
+Swift
+Roller
+Cock-of-the-rock
+Scrub jay
+Gray jay | canada jay | whiskey jack
+White-eye
+Martin
+Purple martin
+Sand martin
+House martin
+Barn swallow
+American robin
+European robin
+Chat
+Bishop bird
+Society finch
+House finch
+Northern cardinal
+African grey | african grey parrot
+Hawk-eagle
+Golden eagle
+Philippine eagle
+Martial eagle
+Fish eagle
+Snake eagle
+Red kite
+Black kite
+Hobby
+Barn owl
+Spotted owl
+Eagle-owl
+Fish owl
+Little owl
+Wild turkey
+Hen
+Prairie chicken
+Brush turkey
+Rock dove | rock pigeon
+Wood pigeon
+Fruit dove
+Diamond dove
+Canada goose
+Snow goose
+Bar-headed goose
+Egyptian goose
+Swan goose
+Black swan
+Ground roller
+Thick-knee | stone-curlew
+Bird of paradise
+Secretary bird
 
 [Too Clever]
 Penguin
@@ -2315,6 +2327,8 @@ Robin
 Pigeon
 Duck
 Chicken
+Turkey
+Owl
 
 [Not accepted]
 Bat
@@ -2339,41 +2353,25 @@ prompt: Name a fast food chain
 Whataburger
 
 [Deep Cut]
-Arby's | arbys
-Jack in the Box
-Panda Express
-Sonic | sonic drive in
-Dairy Queen | dq
-Pizza Hut
-Domino's | dominos | dominos pizza
-Chipotle | chipotle mexican grill
 Carl's Jr. | carls jr | carls junior
 Hardee's | hardees
-Del Taco
 El Pollo Loco
 Zaxby's | zaxbys
 Bojangles | bojangles'
-Church's Chicken | churchs
 Krystal
 Long John Silver's | long john silvers
-A&W | a and w
-Checkers | rally's | rallys
 Jollibee
 Nando's | nandos
 Qdoba
 Firehouse Subs
 Tim Hortons | tim horton's
 Baskin-Robbins | baskin robbins
-Cook Out | cookout
 Freddy's
 Smashburger
-Habit Burger | the habit
 Wienerschnitzel
-Captain D's
 Taco Cabana
 Pollo Tropical
 Moe's | moe's southwest grill
-Noodles & Company | noodles and company
 Potbelly
 Quiznos
 Blimpie
@@ -2382,75 +2380,40 @@ Auntie Anne's
 Cinnabon
 Pret A Manger | pret
 Greggs
-Hungry Jack's
 Burgerville
-Back Yard Burgers
 Biscuitville
 Braum's
 Carvel
 Charleys Philly Steaks | charleys
 Chester's Chicken
-Chuck E. Cheese
 Cicis | cici's pizza
-Dick's Drive-In
-Earl of Sandwich
-Einstein Bros. Bagels | einstein bagels
 Fatburger
-Farmer Boys
 Fazoli's
-Golden Chick
-Good Times Burgers
-Hot Dog on a Stick
-Hwy 55
-Jack's
 Jason's Deli
-Johnny Rockets
 Kewpee
 Krispy Krunchy Chicken
-Lee's Famous Recipe
 Marco's Pizza
 McAlister's Deli
-Mighty Taco
 Milo's
-Mr. Hero
 Nathan's Famous | nathans
 Original Tommy's | tommy's
 Pal's Sudden Service | pals
-Pizza Inn
 Portillo's
-Roy Rogers
 Runza
 Rubio's
 Sbarro
-Skyline Chili
-Gold Star Chili
-Slim Chickens
 Sonny's BBQ
 Spangles
-Taco Bueno
-Taco Time
-Tropical Smoothie Cafe
 Wahlburgers
-Waffle House
 Zippy's
 Torchy's Tacos | torchys
-Velvet Taco
 Bubba's 33
-Dave's Hot Chicken
 Hattie B's
 Walk-On's
-Wing Zone
-Buffalo Wild Wings | bww | bdubs
 Pluckers
 Cluckers
-Lion's Choice
-Steak Escape
-Penn Station
 Which Wich
-Planet Smoothie
-Smoothie King
 Jamba | jamba juice
-Orange Julius
 Dippin' Dots
 Cold Stone Creamery | cold stone
 Rita's
@@ -2459,7 +2422,6 @@ Tastee-Freez
 Freddy's Frozen Custard
 Andy's Frozen Custard
 Kopp's
-Burger Chef
 Gino's
 Henry's Hamburgers
 Wetson's
@@ -2467,36 +2429,17 @@ Lums
 Sandy's
 Druther's
 Wimpy
-Quick
 Hesburger
-Max Burgers
-Burger Fuel
-Red Rooster
 Oporto
-Guzman y Gomez
-Mos Burger
 Lotteria
-Freshness Burger
-First Kitchen
 CoCo Ichibanya
 Yoshinoya
 Sukiya
 Matsuya
-Mister Donut
 Harvey's
-Mary Brown's
-Swiss Chalet
-Pizza Pizza
-Pizza Nova
-New York Fries
-Booster Juice
-Chicken Cottage
 Chicken Licken
-Steers
-Leon
 Itsu
 Wasabi
-Upper Crust
 Pollo Campero
 Bembos
 Telepizza
@@ -2504,16 +2447,11 @@ Vapiano
 Nordsee
 Kotipizza
 Chowking
-Greenwich Pizza
 Mang Inasal
 MaxiChicken
 Shakey's
 Andok's
 Goldilocks
-Red Ribbon
-Tokyo Tokyo
-Pepper Lunch
-Texas Chicken
 Bonchon
 Kyochon
 Arthur Treacher's
@@ -2524,22 +2462,12 @@ Jim's Steaks
 Pat's King of Steaks
 Geno's Steaks
 Tudor's Biscuit World
-El Taco Tote
-Taco Bravo
 Tacos El Gordo
 Chuy's
-Baja Fresh
-Chronic Tacos
 Fuzzy's Taco Shop
-Taco Casa
-Taco Mayo
 Pancheros
 Barberitos
 Freebirds
-Cafe Rio
-Costa Vida
-Panda Inn
-Pei Wei
 Pick Up Stix
 Manchu Wok
 Teriyaki Madness
@@ -2549,41 +2477,105 @@ Cava
 Garbanzo
 Zoës Kitchen
 Roti
-Halal Guys
 Sweetgreen
-Salad and Go
 Chopt
-Just Salad
 Saladworks
-MOD Pizza
-Blaze Pizza
 Pieology
-&pizza
 Hungry Howie's
 Jet's Pizza
 Donatos
 Godfather's Pizza
-Papa Murphy's
-Round Table Pizza
-Mountain Mike's
 Rosati's
 Ledo Pizza
-Peter Piper Pizza
-Pizza Ranch
-Happy Joe's
 Bruegger's Bagels
-Bagel Bros
-Duck Donuts
 Shipley Do-Nuts
 Winchell's
 LaMar's
+
+[Rare]
+Del Taco
+Church's Chicken | churchs
+Checkers | rally's | rallys
+Habit Burger | the habit
+Captain D's
+Noodles & Company | noodles and company
+Hungry Jack's
+Back Yard Burgers
+Dick's Drive-In
+Earl of Sandwich
+Einstein Bros. Bagels | einstein bagels
+Good Times Burgers
+Hwy 55
+Jack's
+Johnny Rockets
+Lee's Famous Recipe
+Mighty Taco
+Pizza Inn
+Roy Rogers
+Skyline Chili
+Gold Star Chili
+Slim Chickens
+Taco Bueno
+Taco Time
+Tropical Smoothie Cafe
+Waffle House
+Velvet Taco
+Dave's Hot Chicken
+Buffalo Wild Wings | bww | bdubs
+Lion's Choice
+Steak Escape
+Penn Station
+Planet Smoothie
+Smoothie King
+Orange Julius
+Burger Chef
+Max Burgers
+Red Rooster
+Guzman y Gomez
+Mos Burger
+Freshness Burger
+Mister Donut
+Mary Brown's
+Swiss Chalet
+Pizza Nova
+New York Fries
+Booster Juice
+Chicken Cottage
+Steers
+Leon
+Upper Crust
+Greenwich Pizza
+Red Ribbon
+Tokyo Tokyo
+El Taco Tote
+Taco Bravo
+Baja Fresh
+Chronic Tacos
+Taco Casa
+Taco Mayo
+Cafe Rio
+Costa Vida
+Panda Inn
+Pei Wei
+Halal Guys
+MOD Pizza
+Blaze Pizza
+Papa Murphy's
+Mountain Mike's
+Peter Piper Pizza
+Pizza Ranch
+Happy Joe's
+Bagel Bros
+Duck Donuts
 Daylight Donuts
 Yum Yum Donuts
 Honey Dew Donuts
 Steak 'n Shake
 Taco John's
 
-[Rare]
+[Schooler]
+Chick-fil-A | chick fil a | chickfila
+Wendy's | wendys
 Culver's | culvers
 Wingstop
 Jersey Mike's | jersey mikes
@@ -2594,13 +2586,33 @@ Jimmy John's | jimmy johns
 Papa John's | papa johns | papa johns pizza
 Little Caesars | little caesar's
 Shake Shack
-In-N-Out | in n out | in and out | innout | in-n-out burger
-Five Guys | five guys burgers and fries
 Popeyes | popeye's | popeyes louisiana kitchen
-
-[Schooler]
-McDonald's | mcdonalds | mcdonald | maccas | mickey d's
-Burger King | bk
+Arby's | arbys
+Jack in the Box
+Panda Express
+Sonic | sonic drive in
+Dairy Queen | dq
+Pizza Hut
+Domino's | dominos | dominos pizza
+Chipotle | chipotle mexican grill
+A&W | a and w
+Cook Out | cookout
+Chuck E. Cheese
+Farmer Boys
+Golden Chick
+Hot Dog on a Stick
+Mr. Hero
+Wing Zone
+Quick
+Burger Fuel
+First Kitchen
+Pizza Pizza
+Pepper Lunch
+Texas Chicken
+Salad and Go
+Just Salad
+&pizza
+Round Table Pizza
 
 [Too Clever]
 Dunkin' | dunkin donuts | dunkin
@@ -2608,11 +2620,13 @@ Krispy Kreme
 Starbucks
 
 [Plankton]
-Chick-fil-A | chick fil a | chickfila
 KFC | kentucky fried chicken
 Subway
 Taco Bell
-Wendy's | wendys
+McDonald's | mcdonalds | mcdonald | maccas | mickey d's
+Burger King | bk
+In-N-Out | in n out | in and out | innout | in-n-out burger
+Five Guys | five guys burgers and fries
 
 [Not accepted]
 Applebee's
@@ -2628,3 +2642,4 @@ Texas Roadhouse
 Costco
 Walmart
 7-Eleven
+

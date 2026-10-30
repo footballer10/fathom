@@ -47,21 +47,24 @@ export function today(now = Date.now()): string {
 }
 
 // ---------------------------------------------------------------------------
-// Answer indexes: KV `qidx:<id>`, cached in memory for the life of the isolate.
+// Answer indexes: KV `qidx2:<id>`, cached in memory for the life of the isolate.
+// (The key version goes up whenever the index format changes; old keys are rebuilt on demand.)
 // ---------------------------------------------------------------------------
 
 const indexCache = new Map<string, AnswerIndex>();
 const INDEX_CACHE_MAX = 300;
 
-export function indexFor(row: Pick<QuestionRow, "id" | "data">): AnswerIndex {
+export const INDEX_KEY = (id: string) => `qidx2:${id}`;
+
+export function indexFor(row: Pick<QuestionRow, "id" | "data" | "prompt">): AnswerIndex {
   const content = parseContent(row);
-  return buildIndex({ id: row.id, answers: content.answers, nearMisses: content.nearMisses });
+  return buildIndex({ id: row.id, prompt: row.prompt, answers: content.answers, nearMisses: content.nearMisses });
 }
 
-export async function storeIndex(env: Env, row: Pick<QuestionRow, "id" | "data">): Promise<void> {
+export async function storeIndex(env: Env, row: Pick<QuestionRow, "id" | "data" | "prompt">): Promise<void> {
   const index = indexFor(row);
   indexCache.set(row.id, index);
-  await env.KV.put(`qidx:${row.id}`, JSON.stringify(index));
+  await env.KV.put(INDEX_KEY(row.id), JSON.stringify(index));
 }
 
 export function forgetIndex(id: string) {
@@ -71,13 +74,13 @@ export function forgetIndex(id: string) {
 export async function getIndex(env: Env, questionId: string): Promise<AnswerIndex> {
   const cached = indexCache.get(questionId);
   if (cached) return cached;
-  let index = await env.KV.get<AnswerIndex>(`qidx:${questionId}`, "json");
+  let index = await env.KV.get<AnswerIndex>(INDEX_KEY(questionId), "json");
   if (!index) {
     // Self-heal: rebuild from D1 if KV is missing the entry.
-    const row = await env.DB.prepare("SELECT id, data FROM questions WHERE id = ?").bind(questionId).first<QuestionRow>();
+    const row = await env.DB.prepare("SELECT id, prompt, data FROM questions WHERE id = ?").bind(questionId).first<QuestionRow>();
     if (!row) throw new Error(`Unknown question ${questionId}`);
     index = indexFor(row);
-    await env.KV.put(`qidx:${questionId}`, JSON.stringify(index));
+    await env.KV.put(INDEX_KEY(questionId), JSON.stringify(index));
   }
   if (indexCache.size >= INDEX_CACHE_MAX) indexCache.delete(indexCache.keys().next().value!);
   indexCache.set(questionId, index);

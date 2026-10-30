@@ -18,13 +18,16 @@ Every valid answer must be in the list. A player who types a correct answer and 
 - Bad constraints are vague ("a famous...", "a popular...") because nobody can agree where the list ends.
 - After writing the list, ask: "Could a smart player type something true that isn't here?" If yes, add it, or tighten the prompt until the answer is no.
 - Completeness beats everything else, including list size. Never trim valid answers to hit a target number. A closed list of 400 answers is far better than a tidy list of 150 that rejects a correct answer.
+- The noun the prompt asks for is optional automatically: for "Name a type of cheese", typing "blue" matches "Blue cheese" and "cheddar cheese" matches "Cheddar". You don't need aliases for that, but do add aliases for other words people leave off or add.
 - Cover how people actually type: common misspellings, plurals, abbreviations, nicknames, surnames on their own for famous people, and names with and without "The". Add these as aliases.
 - Completeness check for every question: once the list is written, brainstorm at least 20 more true answers a well-read player might type, check each one against the list, and add any that are missing. Repeat until a round of 20 turns up nothing new.
 
 AUDIENCE: HIGH SCHOOL STUDENTS
 The players are mostly US high schoolers (ages 14-18). Every prompt must be one a typical high schooler can answer several ways from everyday life, school, sports, games, movies, music they listen to, or the internet.
 - Skip topics mostly known to older adults: song catalogs of older artists (Elvis, the Rolling Stones, Billy Joel, Madonna and so on), government offices beyond presidents (Supreme Court justices, Secretaries of State, Speakers of the House, prime ministers), popes, awards lists (Grammy Best New Artist, Time Person of the Year, the Heisman), and specialist knowledge like livestock or rabbit breeds and grass varieties.
-- Test it: would most students in a high school class name at least three answers in a minute? If not, pick a different prompt.
+- Nobody should ever blank. Every typical high schooler, including ones who don't follow that topic, must be able to think of at least one answer. Players don't need to be experts, but no one should be completely stuck.
+- So no prompts about the characters, episodes, songs or details of one specific TV show, movie series, book series, video game or band, unless it is famous enough that nearly everyone knows at least one answer (SpongeBob, Harry Potter, Star Wars, Toy Story, Mario, Pokémon level). "Name a character from Friends", "Name a Stranger Things character", "Name an Avatar: The Last Airbender character" and "Name a Mario Kart track" are out.
+- Test it: would every student in a high school class name at least one answer, and most of them several, in a minute? If not, pick a different prompt.
 
 WHAT MAKES A GOOD PROMPT
 - Easy entry: almost anyone can name at least one answer within 5 seconds.
@@ -36,12 +39,13 @@ WHAT MAKES A GOOD PROMPT
 - List every valid answer. Anything missing gets marked wrong, which is the worst experience.
 
 RARITY TIERS (every valid answer goes in exactly one)
-Rarity is generous on purpose: only the very first answers almost everyone says are low-scoring, so good answers feel rewarding.
-- [Plankton] 10 pts: only the 3-5 answers almost everyone says first
-- [Too Clever] 15 pts: 2-5 "clever but predictable" picks (still valid answers)
-- [Schooler] 30 pts: a handful of other very common answers, at most about 15%
-- [Rare] 60 pts: about 25-35%, answers a typical player knows but doesn't say first
-- [Deep Cut] 85 pts: everything else, which is most of the list
+Tiers follow how common each answer is, with a fixed distribution. Rank every valid answer from "almost everyone says this" to "only an expert knows this", then split:
+- [Plankton] 10 pts: the top 5% (3-7 answers), the ones almost everyone says first
+- [Too Clever] 15 pts: 2-5 "clever but predictable" picks (still valid answers), set aside before ranking
+- [Schooler] 30 pts: the next 15%, very common answers most people know (for kitchen utensils: fork, spoon, ladle, whisk)
+- [Rare] 60 pts: the next 30%, answers a typical player knows but doesn't say first
+- [Deep Cut] 85 pts: the remaining half, specialized or obscure but valid
+Never put an everyday, obvious answer in Rare or Deep Cut.
 - [One in a Krillion] 100 pts: EXACTLY ONE, chosen because it is fun and satisfying to find, valid without argument (not just the most obscure)
 - [Not accepted] (optional): wrong answers people commonly try (near-misses), so they are blocked even when one typo away from a real answer
 
