@@ -14,6 +14,17 @@
         "tier": 100
       },
       {
+        "text": "Cnut",
+        "aliases": [
+          "canute",
+          "knut",
+          "cnut the great",
+          "canute the great",
+          "king cnut"
+        ],
+        "tier": 85
+      },
+      {
         "text": "Henry IV",
         "aliases": [
           "henry bolingbroke",
@@ -37,28 +48,6 @@
         "tier": 85
       },
       {
-        "text": "Edward II",
-        "aliases": [
-          "edward 2",
-          "edward the second",
-          "edward second",
-          "king edward ii",
-          "king edward 2"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Edward III",
-        "aliases": [
-          "edward 3",
-          "edward the third",
-          "edward third",
-          "king edward iii",
-          "king edward 3"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Edward IV",
         "aliases": [
           "edward 4",
@@ -70,102 +59,12 @@
         "tier": 85
       },
       {
-        "text": "Edward V",
-        "aliases": [
-          "edward 5",
-          "edward the fifth",
-          "edward fifth",
-          "king edward v",
-          "king edward 5"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Richard II",
-        "aliases": [
-          "richard 2",
-          "richard the second",
-          "richard second",
-          "king richard ii",
-          "king richard 2"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Henry I",
-        "aliases": [
-          "henry beauclerc",
-          "henry 1",
-          "henry the first",
-          "henry first",
-          "king henry i",
-          "king henry 1"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Henry III",
-        "aliases": [
-          "henry 3",
-          "henry the third",
-          "henry third",
-          "king henry iii",
-          "king henry 3"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Stephen",
-        "aliases": [
-          "stephen of blois",
-          "king stephen"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Matilda",
         "aliases": [
           "empress matilda",
           "maud",
           "empress maud",
           "queen matilda"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "William II",
-        "aliases": [
-          "william rufus",
-          "rufus",
-          "william 2",
-          "william the second",
-          "william second",
-          "king william ii",
-          "king william 2"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "James II",
-        "aliases": [
-          "james vii",
-          "james 7",
-          "james 2",
-          "james the second",
-          "james second",
-          "king james ii",
-          "king james 2"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "George II",
-        "aliases": [
-          "george 2",
-          "george the second",
-          "george second",
-          "king george ii",
-          "king george 2"
         ],
         "tier": 85
       },
@@ -217,55 +116,10 @@
         "tier": 85
       },
       {
-        "text": "David I",
-        "aliases": [
-          "david",
-          "david 1",
-          "david the first",
-          "david first",
-          "king david i",
-          "king david 1"
-        ],
-        "tier": 85
-      },
-      {
         "text": "William the Lion",
         "aliases": [
           "william i of scotland",
           "king william the lion"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "James III",
-        "aliases": [
-          "james 3",
-          "james the third",
-          "james third",
-          "king james iii",
-          "king james 3"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "James IV",
-        "aliases": [
-          "james 4",
-          "james the fourth",
-          "james fourth",
-          "king james iv",
-          "king james 4"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "James V",
-        "aliases": [
-          "james 5",
-          "james the fifth",
-          "james fifth",
-          "king james v",
-          "king james 5"
         ],
         "tier": 85
       },
@@ -352,17 +206,6 @@
           "margaret maid of norway",
           "margaret of norway",
           "queen margaret, maid of norway"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Mary II",
-        "aliases": [
-          "mary 2",
-          "mary the second",
-          "mary second",
-          "queen mary ii",
-          "queen mary 2"
         ],
         "tier": 85
       },
@@ -655,40 +498,6 @@
         "tier": 60
       },
       {
-        "text": "Richard I",
-        "aliases": [
-          "richard the lionheart",
-          "richard lionheart",
-          "richard coeur de lion",
-          "lionheart",
-          "richard 1",
-          "richard the first",
-          "richard first",
-          "king richard i",
-          "king richard 1"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "John",
-        "aliases": [
-          "king john",
-          "john lackland"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Henry V",
-        "aliases": [
-          "henry 5",
-          "henry the fifth",
-          "henry fifth",
-          "king henry v",
-          "king henry 5"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Edward VI",
         "aliases": [
           "edward 6",
@@ -696,58 +505,6 @@
           "edward sixth",
           "king edward vi",
           "king edward 6"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mary I",
-        "aliases": [
-          "bloody mary",
-          "mary tudor",
-          "mary",
-          "mary 1",
-          "mary the first",
-          "mary first",
-          "queen mary i",
-          "queen mary 1"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "James I",
-        "aliases": [
-          "james vi",
-          "james 6",
-          "james vi and i",
-          "james",
-          "james 1",
-          "james the first",
-          "james first",
-          "king james i",
-          "king james 1"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Charles I",
-        "aliases": [
-          "charles 1",
-          "charles the first",
-          "charles first",
-          "king charles i",
-          "king charles 1"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Charles II",
-        "aliases": [
-          "merry monarch",
-          "charles 2",
-          "charles the second",
-          "charles second",
-          "king charles ii",
-          "king charles 2"
         ],
         "tier": 60
       },
@@ -760,17 +517,6 @@
           "george sixth",
           "king george vi",
           "king george 6"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "George V",
-        "aliases": [
-          "george 5",
-          "george the fifth",
-          "george fifth",
-          "king george v",
-          "king george 5"
         ],
         "tier": 60
       },
@@ -790,20 +536,6 @@
           "henry seventh",
           "king henry vii",
           "king henry 7"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Edward I",
-        "aliases": [
-          "longshanks",
-          "edward longshanks",
-          "edward",
-          "edward 1",
-          "edward the first",
-          "edward first",
-          "king edward i",
-          "king edward 1"
         ],
         "tier": 60
       },
@@ -845,28 +577,6 @@
           "harold second",
           "king harold ii",
           "king harold 2"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cnut",
-        "aliases": [
-          "canute",
-          "knut",
-          "cnut the great",
-          "canute the great",
-          "king cnut"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "George I",
-        "aliases": [
-          "george 1",
-          "george the first",
-          "george first",
-          "king george i",
-          "king george 1"
         ],
         "tier": 60
       },
@@ -919,6 +629,334 @@
         "tier": 60
       },
       {
+        "text": "Edward II",
+        "aliases": [
+          "edward 2",
+          "edward the second",
+          "edward second",
+          "king edward ii",
+          "king edward 2"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edward III",
+        "aliases": [
+          "edward 3",
+          "edward the third",
+          "edward third",
+          "king edward iii",
+          "king edward 3"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Edward V",
+        "aliases": [
+          "edward 5",
+          "edward the fifth",
+          "edward fifth",
+          "king edward v",
+          "king edward 5"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Richard II",
+        "aliases": [
+          "richard 2",
+          "richard the second",
+          "richard second",
+          "king richard ii",
+          "king richard 2"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Henry I",
+        "aliases": [
+          "henry beauclerc",
+          "henry 1",
+          "henry the first",
+          "henry first",
+          "king henry i",
+          "king henry 1"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Henry III",
+        "aliases": [
+          "henry 3",
+          "henry the third",
+          "henry third",
+          "king henry iii",
+          "king henry 3"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Stephen",
+        "aliases": [
+          "stephen of blois",
+          "king stephen"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "William II",
+        "aliases": [
+          "william rufus",
+          "rufus",
+          "william 2",
+          "william the second",
+          "william second",
+          "king william ii",
+          "king william 2"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James II",
+        "aliases": [
+          "james vii",
+          "james 7",
+          "james 2",
+          "james the second",
+          "james second",
+          "king james ii",
+          "king james 2"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "George II",
+        "aliases": [
+          "george 2",
+          "george the second",
+          "george second",
+          "king george ii",
+          "king george 2"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "David I",
+        "aliases": [
+          "david",
+          "david 1",
+          "david the first",
+          "david first",
+          "king david i",
+          "king david 1"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James III",
+        "aliases": [
+          "james 3",
+          "james the third",
+          "james third",
+          "king james iii",
+          "king james 3"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James IV",
+        "aliases": [
+          "james 4",
+          "james the fourth",
+          "james fourth",
+          "king james iv",
+          "king james 4"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "James V",
+        "aliases": [
+          "james 5",
+          "james the fifth",
+          "james fifth",
+          "king james v",
+          "king james 5"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mary II",
+        "aliases": [
+          "mary 2",
+          "mary the second",
+          "mary second",
+          "queen mary ii",
+          "queen mary 2"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Elizabeth II",
+        "aliases": [
+          "elizabeth",
+          "queen elizabeth",
+          "elizabeth 2",
+          "elizabeth the second",
+          "elizabeth second",
+          "queen elizabeth ii",
+          "queen elizabeth 2"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Henry VIII",
+        "aliases": [
+          "henry",
+          "henry 8",
+          "henry the eighth",
+          "henry eighth",
+          "king henry viii",
+          "king henry 8"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Charles III",
+        "aliases": [
+          "charles",
+          "king charles",
+          "charles 3",
+          "charles the third",
+          "charles third",
+          "king charles iii",
+          "king charles 3"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Richard I",
+        "aliases": [
+          "richard the lionheart",
+          "richard lionheart",
+          "richard coeur de lion",
+          "lionheart",
+          "richard 1",
+          "richard the first",
+          "richard first",
+          "king richard i",
+          "king richard 1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "John",
+        "aliases": [
+          "king john",
+          "john lackland"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Henry V",
+        "aliases": [
+          "henry 5",
+          "henry the fifth",
+          "henry fifth",
+          "king henry v",
+          "king henry 5"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mary I",
+        "aliases": [
+          "bloody mary",
+          "mary tudor",
+          "mary",
+          "mary 1",
+          "mary the first",
+          "mary first",
+          "queen mary i",
+          "queen mary 1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "James I",
+        "aliases": [
+          "james vi",
+          "james 6",
+          "james vi and i",
+          "james",
+          "james 1",
+          "james the first",
+          "james first",
+          "king james i",
+          "king james 1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Charles I",
+        "aliases": [
+          "charles 1",
+          "charles the first",
+          "charles first",
+          "king charles i",
+          "king charles 1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Charles II",
+        "aliases": [
+          "merry monarch",
+          "charles 2",
+          "charles the second",
+          "charles second",
+          "king charles ii",
+          "king charles 2"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George V",
+        "aliases": [
+          "george 5",
+          "george the fifth",
+          "george fifth",
+          "king george v",
+          "king george 5"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Edward I",
+        "aliases": [
+          "longshanks",
+          "edward longshanks",
+          "edward",
+          "edward 1",
+          "edward the first",
+          "edward first",
+          "king edward i",
+          "king edward 1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George I",
+        "aliases": [
+          "george 1",
+          "george the first",
+          "george first",
+          "king george i",
+          "king george 1"
+        ],
+        "tier": 30
+      },
+      {
         "text": "Henry II",
         "aliases": [
           "henry 2",
@@ -926,44 +964,6 @@
           "henry second",
           "king henry ii",
           "king henry 2"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "William I",
-        "aliases": [
-          "william the conqueror",
-          "william",
-          "william 1",
-          "william the first",
-          "william first",
-          "king william i",
-          "king william 1"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "George III",
-        "aliases": [
-          "george",
-          "mad king george",
-          "george 3",
-          "george the third",
-          "george third",
-          "king george iii",
-          "king george 3"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Richard III",
-        "aliases": [
-          "richard",
-          "richard 3",
-          "richard the third",
-          "richard third",
-          "king richard iii",
-          "king richard 3"
         ],
         "tier": 30
       },
@@ -997,47 +997,9 @@
         "tier": 15
       },
       {
-        "text": "Elizabeth II",
-        "aliases": [
-          "elizabeth",
-          "queen elizabeth",
-          "elizabeth 2",
-          "elizabeth the second",
-          "elizabeth second",
-          "queen elizabeth ii",
-          "queen elizabeth 2"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Henry VIII",
-        "aliases": [
-          "henry",
-          "henry 8",
-          "henry the eighth",
-          "henry eighth",
-          "king henry viii",
-          "king henry 8"
-        ],
-        "tier": 10
-      },
-      {
         "text": "Victoria",
         "aliases": [
           "queen victoria"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Charles III",
-        "aliases": [
-          "charles",
-          "king charles",
-          "charles 3",
-          "charles the third",
-          "charles third",
-          "king charles iii",
-          "king charles 3"
         ],
         "tier": 10
       },
@@ -1051,6 +1013,44 @@
           "elizabeth first",
           "queen elizabeth i",
           "queen elizabeth 1"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "William I",
+        "aliases": [
+          "william the conqueror",
+          "william",
+          "william 1",
+          "william the first",
+          "william first",
+          "king william i",
+          "king william 1"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "George III",
+        "aliases": [
+          "george",
+          "mad king george",
+          "george 3",
+          "george the third",
+          "george third",
+          "king george iii",
+          "king george 3"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Richard III",
+        "aliases": [
+          "richard",
+          "richard 3",
+          "richard the third",
+          "richard third",
+          "king richard iii",
+          "king richard 3"
         ],
         "tier": 10
       }
@@ -1094,35 +1094,9 @@
         "tier": 100
       },
       {
-        "text": "Akkadian Empire",
-        "aliases": [
-          "akkad",
-          "akkadians"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Elamites",
         "aliases": [
           "elam"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Chaldeans",
-        "tier": 85
-      },
-      {
-        "text": "Medes",
-        "aliases": [
-          "media"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Parthians",
-        "aliases": [
-          "parthia"
         ],
         "tier": 85
       },
@@ -1131,41 +1105,6 @@
         "aliases": [
           "sassanids",
           "sasanian empire"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Achaemenid Empire",
-        "aliases": [
-          "achaemenids"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Seleucid Empire",
-        "aliases": [
-          "seleucids"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Ptolemaic Egypt",
-        "aliases": [
-          "ptolemies"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Lydia",
-        "aliases": [
-          "lydians"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Phrygia",
-        "aliases": [
-          "phrygians"
         ],
         "tier": 85
       },
@@ -1182,19 +1121,7 @@
         "tier": 85
       },
       {
-        "text": "Amorites",
-        "tier": 85
-      },
-      {
         "text": "Kassites",
-        "tier": 85
-      },
-      {
-        "text": "Philistines",
-        "tier": 85
-      },
-      {
-        "text": "Canaanites",
         "tier": 85
       },
       {
@@ -1210,15 +1137,7 @@
         "tier": 85
       },
       {
-        "text": "Scythians",
-        "tier": 85
-      },
-      {
         "text": "Sarmatians",
-        "tier": 85
-      },
-      {
-        "text": "Thracians",
         "tier": 85
       },
       {
@@ -1230,59 +1149,11 @@
         "tier": 85
       },
       {
-        "text": "Picts",
-        "tier": 85
-      },
-      {
-        "text": "Britons",
-        "tier": 85
-      },
-      {
         "text": "Iberians",
         "tier": 85
       },
       {
-        "text": "Visigoths",
-        "tier": 85
-      },
-      {
         "text": "Ostrogoths",
-        "tier": 85
-      },
-      {
-        "text": "Vandals",
-        "tier": 85
-      },
-      {
-        "text": "Franks",
-        "tier": 85
-      },
-      {
-        "text": "Saxons",
-        "tier": 85
-      },
-      {
-        "text": "Lombards",
-        "tier": 85
-      },
-      {
-        "text": "Zhou dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Shang dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Tang dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Song dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Xia dynasty",
         "tier": 85
       },
       {
@@ -1294,29 +1165,11 @@
         "tier": 85
       },
       {
-        "text": "Chola Empire",
-        "aliases": [
-          "chola"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pandya",
-        "tier": 85
-      },
-      {
         "text": "Chera",
         "tier": 85
       },
       {
         "text": "Vijayanagara",
-        "tier": 85
-      },
-      {
-        "text": "Mughal Empire",
-        "aliases": [
-          "mughals"
-        ],
         "tier": 85
       },
       {
@@ -1328,23 +1181,11 @@
         "tier": 85
       },
       {
-        "text": "Champa",
-        "tier": 85
-      },
-      {
         "text": "Funan",
         "tier": 85
       },
       {
         "text": "Dvaravati",
-        "tier": 85
-      },
-      {
-        "text": "Pagan Kingdom",
-        "tier": 85
-      },
-      {
-        "text": "Ghana Empire",
         "tier": 85
       },
       {
@@ -1355,19 +1196,11 @@
         "tier": 85
       },
       {
-        "text": "Benin Empire",
-        "tier": 85
-      },
-      {
         "text": "Kanem-Bornu",
         "tier": 85
       },
       {
         "text": "Numidia",
-        "tier": 85
-      },
-      {
-        "text": "Mauretania",
         "tier": 85
       },
       {
@@ -1389,21 +1222,6 @@
         "tier": 85
       },
       {
-        "text": "Teotihuacan",
-        "tier": 85
-      },
-      {
-        "text": "Moche",
-        "tier": 85
-      },
-      {
-        "text": "Nazca",
-        "aliases": [
-          "nazca culture"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Chavin",
         "tier": 85
       },
@@ -1420,28 +1238,10 @@
         "tier": 85
       },
       {
-        "text": "Norte Chico",
-        "aliases": [
-          "caral"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Ancestral Puebloans",
         "aliases": [
           "anasazi"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Mississippians",
-        "aliases": [
-          "mississippian culture"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Hopewell",
         "tier": 85
       },
       {
@@ -1457,35 +1257,11 @@
         "tier": 85
       },
       {
-        "text": "Clovis culture",
-        "tier": 85
-      },
-      {
         "text": "Jomon",
         "tier": 85
       },
       {
-        "text": "Yayoi",
-        "tier": 85
-      },
-      {
-        "text": "Silla",
-        "tier": 85
-      },
-      {
-        "text": "Goguryeo",
-        "tier": 85
-      },
-      {
-        "text": "Baekje",
-        "tier": 85
-      },
-      {
         "text": "Gojoseon",
-        "tier": 85
-      },
-      {
-        "text": "Tibetan Empire",
         "tier": 85
       },
       {
@@ -1505,35 +1281,6 @@
         "tier": 85
       },
       {
-        "text": "Rus",
-        "aliases": [
-          "kievan rus"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Holy Roman Empire",
-        "tier": 85
-      },
-      {
-        "text": "Carolingian Empire",
-        "tier": 85
-      },
-      {
-        "text": "Umayyad Caliphate",
-        "aliases": [
-          "umayyads"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Abbasid Caliphate",
-        "aliases": [
-          "abbasids"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Fatimids",
         "tier": 85
       },
@@ -1546,51 +1293,7 @@
         "tier": 85
       },
       {
-        "text": "Safavid Empire",
-        "tier": 85
-      },
-      {
-        "text": "Golden Horde",
-        "tier": 85
-      },
-      {
-        "text": "Ming dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Qing dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Yuan dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Sui dynasty",
-        "tier": 85
-      },
-      {
-        "text": "Joseon",
-        "tier": 85
-      },
-      {
-        "text": "Goryeo",
-        "tier": 85
-      },
-      {
-        "text": "Ayutthaya",
-        "tier": 85
-      },
-      {
         "text": "Sukhothai",
-        "tier": 85
-      },
-      {
-        "text": "Dai Viet",
-        "tier": 85
-      },
-      {
-        "text": "Cahokia",
         "tier": 85
       },
       {
@@ -1598,73 +1301,11 @@
         "tier": 85
       },
       {
-        "text": "Mapuche",
-        "tier": 85
-      },
-      {
-        "text": "Polynesians",
-        "tier": 85
-      },
-      {
-        "text": "Anglo-Saxons",
-        "tier": 85
-      },
-      {
-        "text": "Normans",
-        "tier": 85
-      },
-      {
         "text": "Merovingians",
         "tier": 85
       },
       {
-        "text": "Kingdom of Israel",
-        "tier": 85
-      },
-      {
-        "text": "Troy",
-        "tier": 85
-      },
-      {
-        "text": "Macedon",
-        "tier": 85
-      },
-      {
-        "text": "Rapa Nui",
-        "aliases": [
-          "easter island"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Palmyra",
-        "tier": 85
-      },
-      {
-        "text": "Bulgarian Empire",
-        "tier": 85
-      },
-      {
-        "text": "Great Moravia",
-        "tier": 85
-      },
-      {
-        "text": "Republic of Venice",
-        "aliases": [
-          "venetian republic"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Mohenjo-daro",
-        "tier": 85
-      },
-      {
-        "text": "Western Roman Empire",
-        "tier": 85
-      },
-      {
-        "text": "Hellenistic Greece",
         "tier": 85
       },
       {
@@ -1935,10 +1576,6 @@
         "tier": 85
       },
       {
-        "text": "Dong Son",
-        "tier": 85
-      },
-      {
         "text": "Sa Huynh",
         "tier": 85
       },
@@ -1982,124 +1619,6 @@
         "tier": 85
       },
       {
-        "text": "Persian Empire",
-        "aliases": [
-          "persians",
-          "persia",
-          "ancient persia"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Babylonians",
-        "aliases": [
-          "babylon",
-          "babylonian",
-          "babylonia"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sumerians",
-        "aliases": [
-          "sumer",
-          "sumerian"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Assyrians",
-        "aliases": [
-          "assyria",
-          "assyrian",
-          "assyrian empire"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Han dynasty",
-        "aliases": [
-          "han"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Qin dynasty",
-        "aliases": [
-          "qin"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Indus Valley Civilization",
-        "aliases": [
-          "indus valley",
-          "harappan",
-          "harappa",
-          "harappan civilization"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Phoenicians",
-        "aliases": [
-          "phoenicia"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Carthage",
-        "aliases": [
-          "carthaginians"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Spartans",
-        "aliases": [
-          "sparta"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Athenians",
-        "aliases": [
-          "athens"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hittites",
-        "aliases": [
-          "hittite",
-          "hittite empire"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Celts",
-        "aliases": [
-          "celtic"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Mongol Empire",
-        "aliases": [
-          "mongols"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Byzantine Empire",
-        "aliases": [
-          "byzantines",
-          "byzantium",
-          "eastern roman empire"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Olmecs",
         "aliases": [
           "olmec"
@@ -2123,55 +1642,6 @@
         "tier": 60
       },
       {
-        "text": "Etruscans",
-        "aliases": [
-          "etruria"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Macedonian Empire",
-        "aliases": [
-          "macedonia"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Kingdom of Kush",
-        "aliases": [
-          "kush",
-          "nubia",
-          "nubians"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Hebrews",
-        "aliases": [
-          "israelites"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Huns",
-        "tier": 60
-      },
-      {
-        "text": "Goths",
-        "tier": 60
-      },
-      {
-        "text": "Gauls",
-        "tier": 60
-      },
-      {
-        "text": "Mali Empire",
-        "aliases": [
-          "mali"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Aksum",
         "aliases": [
           "axum",
@@ -2180,11 +1650,499 @@
         "tier": 60
       },
       {
+        "text": "Akkadian Empire",
+        "aliases": [
+          "akkad",
+          "akkadians"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Chaldeans",
+        "tier": 60
+      },
+      {
+        "text": "Medes",
+        "aliases": [
+          "media"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Parthians",
+        "aliases": [
+          "parthia"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Achaemenid Empire",
+        "aliases": [
+          "achaemenids"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Seleucid Empire",
+        "aliases": [
+          "seleucids"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Ptolemaic Egypt",
+        "aliases": [
+          "ptolemies"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Phrygia",
+        "aliases": [
+          "phrygians"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Amorites",
+        "tier": 60
+      },
+      {
+        "text": "Philistines",
+        "tier": 60
+      },
+      {
+        "text": "Canaanites",
+        "tier": 60
+      },
+      {
+        "text": "Scythians",
+        "tier": 60
+      },
+      {
+        "text": "Thracians",
+        "tier": 60
+      },
+      {
+        "text": "Picts",
+        "tier": 60
+      },
+      {
+        "text": "Britons",
+        "tier": 60
+      },
+      {
+        "text": "Visigoths",
+        "tier": 60
+      },
+      {
+        "text": "Vandals",
+        "tier": 60
+      },
+      {
+        "text": "Franks",
+        "tier": 60
+      },
+      {
+        "text": "Saxons",
+        "tier": 60
+      },
+      {
+        "text": "Lombards",
+        "tier": 60
+      },
+      {
+        "text": "Zhou dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Shang dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Tang dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Xia dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Chola Empire",
+        "aliases": [
+          "chola"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Pandya",
+        "tier": 60
+      },
+      {
+        "text": "Mughal Empire",
+        "aliases": [
+          "mughals"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Champa",
+        "tier": 60
+      },
+      {
+        "text": "Pagan Kingdom",
+        "tier": 60
+      },
+      {
+        "text": "Benin Empire",
+        "tier": 60
+      },
+      {
+        "text": "Mauretania",
+        "tier": 60
+      },
+      {
+        "text": "Teotihuacan",
+        "tier": 60
+      },
+      {
+        "text": "Moche",
+        "tier": 60
+      },
+      {
+        "text": "Nazca",
+        "aliases": [
+          "nazca culture"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Norte Chico",
+        "aliases": [
+          "caral"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mississippians",
+        "aliases": [
+          "mississippian culture"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hopewell",
+        "tier": 60
+      },
+      {
+        "text": "Clovis culture",
+        "tier": 60
+      },
+      {
+        "text": "Yayoi",
+        "tier": 60
+      },
+      {
+        "text": "Silla",
+        "tier": 60
+      },
+      {
+        "text": "Goguryeo",
+        "tier": 60
+      },
+      {
+        "text": "Baekje",
+        "tier": 60
+      },
+      {
+        "text": "Tibetan Empire",
+        "tier": 60
+      },
+      {
+        "text": "Rus",
+        "aliases": [
+          "kievan rus"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Carolingian Empire",
+        "tier": 60
+      },
+      {
+        "text": "Umayyad Caliphate",
+        "aliases": [
+          "umayyads"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Abbasid Caliphate",
+        "aliases": [
+          "abbasids"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Safavid Empire",
+        "tier": 60
+      },
+      {
+        "text": "Golden Horde",
+        "tier": 60
+      },
+      {
+        "text": "Ming dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Qing dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Yuan dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Sui dynasty",
+        "tier": 60
+      },
+      {
+        "text": "Joseon",
+        "tier": 60
+      },
+      {
+        "text": "Goryeo",
+        "tier": 60
+      },
+      {
+        "text": "Ayutthaya",
+        "tier": 60
+      },
+      {
+        "text": "Dai Viet",
+        "tier": 60
+      },
+      {
+        "text": "Cahokia",
+        "tier": 60
+      },
+      {
+        "text": "Mapuche",
+        "tier": 60
+      },
+      {
+        "text": "Polynesians",
+        "tier": 60
+      },
+      {
+        "text": "Anglo-Saxons",
+        "tier": 60
+      },
+      {
+        "text": "Normans",
+        "tier": 60
+      },
+      {
+        "text": "Macedon",
+        "tier": 60
+      },
+      {
+        "text": "Rapa Nui",
+        "aliases": [
+          "easter island"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Palmyra",
+        "tier": 60
+      },
+      {
+        "text": "Great Moravia",
+        "tier": 60
+      },
+      {
+        "text": "Hellenistic Greece",
+        "tier": 60
+      },
+      {
+        "text": "Dong Son",
+        "tier": 60
+      },
+      {
+        "text": "Persian Empire",
+        "aliases": [
+          "persians",
+          "persia",
+          "ancient persia"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Babylonians",
+        "aliases": [
+          "babylon",
+          "babylonian",
+          "babylonia"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Sumerians",
+        "aliases": [
+          "sumer",
+          "sumerian"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Assyrians",
+        "aliases": [
+          "assyria",
+          "assyrian",
+          "assyrian empire"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Han dynasty",
+        "aliases": [
+          "han"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Qin dynasty",
+        "aliases": [
+          "qin"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Indus Valley Civilization",
+        "aliases": [
+          "indus valley",
+          "harappan",
+          "harappa",
+          "harappan civilization"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Phoenicians",
+        "aliases": [
+          "phoenicia"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Carthage",
+        "aliases": [
+          "carthaginians"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Spartans",
+        "aliases": [
+          "sparta"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Athenians",
+        "aliases": [
+          "athens"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hittites",
+        "aliases": [
+          "hittite",
+          "hittite empire"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Celts",
+        "aliases": [
+          "celtic"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Mongol Empire",
+        "aliases": [
+          "mongols"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Byzantine Empire",
+        "aliases": [
+          "byzantines",
+          "byzantium",
+          "eastern roman empire"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Etruscans",
+        "aliases": [
+          "etruria"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Macedonian Empire",
+        "aliases": [
+          "macedonia"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Kingdom of Kush",
+        "aliases": [
+          "kush",
+          "nubia",
+          "nubians"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Hebrews",
+        "aliases": [
+          "israelites"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Huns",
+        "tier": 30
+      },
+      {
+        "text": "Goths",
+        "tier": 30
+      },
+      {
+        "text": "Gauls",
+        "tier": 30
+      },
+      {
+        "text": "Mali Empire",
+        "aliases": [
+          "mali"
+        ],
+        "tier": 30
+      },
+      {
         "text": "Great Zimbabwe",
         "aliases": [
           "kingdom of zimbabwe"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Khmer Empire",
@@ -2192,30 +2150,59 @@
           "khmer",
           "angkor"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Maurya Empire",
         "aliases": [
           "mauryan"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Gupta Empire",
-        "tier": 60
+        "tier": 30
       },
       {
-        "text": "Inca",
+        "text": "Lydia",
         "aliases": [
-          "incas",
-          "incan",
-          "inca empire"
+          "lydians"
         ],
         "tier": 30
       },
       {
-        "text": "Mesopotamia",
+        "text": "Song dynasty",
+        "tier": 30
+      },
+      {
+        "text": "Ghana Empire",
+        "tier": 30
+      },
+      {
+        "text": "Holy Roman Empire",
+        "tier": 30
+      },
+      {
+        "text": "Kingdom of Israel",
+        "tier": 30
+      },
+      {
+        "text": "Troy",
+        "tier": 30
+      },
+      {
+        "text": "Bulgarian Empire",
+        "tier": 30
+      },
+      {
+        "text": "Republic of Venice",
+        "aliases": [
+          "venetian republic"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Western Roman Empire",
         "tier": 30
       },
       {
@@ -2292,6 +2279,19 @@
           "maya civilization"
         ],
         "tier": 10
+      },
+      {
+        "text": "Inca",
+        "aliases": [
+          "incas",
+          "incan",
+          "inca empire"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Mesopotamia",
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -2317,6 +2317,30 @@
         "tier": 100
       },
       {
+        "text": "Middlegame",
+        "tier": 85
+      },
+      {
+        "text": "Zugzwang",
+        "tier": 85
+      },
+      {
+        "text": "Underpromotion",
+        "tier": 85
+      },
+      {
+        "text": "Fianchetto",
+        "tier": 85
+      },
+      {
+        "text": "Kingside",
+        "tier": 85
+      },
+      {
+        "text": "Queenside",
+        "tier": 85
+      },
+      {
         "text": "Kingside castling",
         "aliases": [
           "castling short",
@@ -2335,43 +2359,7 @@
         "tier": 85
       },
       {
-        "text": "Pawn storm",
-        "tier": 85
-      },
-      {
-        "text": "Pawn chain",
-        "tier": 85
-      },
-      {
-        "text": "Backward pawn",
-        "tier": 85
-      },
-      {
         "text": "Connected pawns",
-        "tier": 85
-      },
-      {
-        "text": "Pawn island",
-        "tier": 85
-      },
-      {
-        "text": "Outpost",
-        "tier": 85
-      },
-      {
-        "text": "Open file",
-        "tier": 85
-      },
-      {
-        "text": "Half-open file",
-        "tier": 85
-      },
-      {
-        "text": "Seventh rank",
-        "tier": 85
-      },
-      {
-        "text": "Battery",
         "tier": 85
       },
       {
@@ -2379,15 +2367,7 @@
         "tier": 85
       },
       {
-        "text": "Deflection",
-        "tier": 85
-      },
-      {
         "text": "Decoy",
-        "tier": 85
-      },
-      {
-        "text": "Interference",
         "tier": 85
       },
       {
@@ -2406,26 +2386,6 @@
         "tier": 85
       },
       {
-        "text": "X-ray",
-        "tier": 85
-      },
-      {
-        "text": "Removing the defender",
-        "tier": 85
-      },
-      {
-        "text": "Perpetual check",
-        "tier": 85
-      },
-      {
-        "text": "Fortress",
-        "tier": 85
-      },
-      {
-        "text": "Opposition",
-        "tier": 85
-      },
-      {
         "text": "Triangulation",
         "tier": 85
       },
@@ -2438,22 +2398,7 @@
         "tier": 85
       },
       {
-        "text": "Opening book",
-        "aliases": [
-          "theory"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Transposition",
-        "tier": 85
-      },
-      {
-        "text": "Novelty",
-        "tier": 85
-      },
-      {
-        "text": "Preparation",
         "tier": 85
       },
       {
@@ -2465,10 +2410,6 @@
       },
       {
         "text": "Blindfold chess",
-        "tier": 85
-      },
-      {
-        "text": "Correspondence chess",
         "tier": 85
       },
       {
@@ -2484,22 +2425,7 @@
         "tier": 85
       },
       {
-        "text": "Puzzle",
-        "aliases": [
-          "tactic"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Combination",
-        "tier": 85
-      },
-      {
         "text": "Brilliancy",
-        "tier": 85
-      },
-      {
-        "text": "Brilliant move",
         "tier": 85
       },
       {
@@ -2507,19 +2433,7 @@
         "tier": 85
       },
       {
-        "text": "Mistake",
-        "tier": 85
-      },
-      {
-        "text": "Engine",
-        "tier": 85
-      },
-      {
         "text": "Stockfish",
-        "tier": 85
-      },
-      {
-        "text": "Deep Blue",
         "tier": 85
       },
       {
@@ -2531,20 +2445,6 @@
         "tier": 85
       },
       {
-        "text": "Time trouble",
-        "aliases": [
-          "zeitnot"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Flag",
-        "aliases": [
-          "flagging"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Increment",
         "tier": 85
       },
@@ -2553,31 +2453,7 @@
         "tier": 85
       },
       {
-        "text": "Tournament",
-        "tier": 85
-      },
-      {
         "text": "Olympiad",
-        "tier": 85
-      },
-      {
-        "text": "Candidates",
-        "tier": 85
-      },
-      {
-        "text": "World Champion",
-        "tier": 85
-      },
-      {
-        "text": "Norm",
-        "tier": 85
-      },
-      {
-        "text": "Candidate master",
-        "tier": 85
-      },
-      {
-        "text": "FIDE master",
         "tier": 85
       },
       {
@@ -2592,46 +2468,11 @@
         "tier": 85
       },
       {
-        "text": "Bishop pair",
-        "tier": 85
-      },
-      {
-        "text": "Good bishop",
-        "tier": 85
-      },
-      {
-        "text": "Bad bishop",
-        "tier": 85
-      },
-      {
-        "text": "Opposite-colored bishops",
-        "tier": 85
-      },
-      {
-        "text": "Minority attack",
-        "tier": 85
-      },
-      {
-        "text": "Hedgehog",
-        "tier": 85
-      },
-      {
         "text": "Stonewall",
         "tier": 85
       },
       {
-        "text": "King's Indian Defense",
-        "aliases": [
-          "kings indian"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Nimzo-Indian",
-        "tier": 85
-      },
-      {
-        "text": "Queen's Indian",
         "tier": 85
       },
       {
@@ -2643,23 +2484,11 @@
         "tier": 85
       },
       {
-        "text": "Dutch Defense",
-        "tier": 85
-      },
-      {
         "text": "Pirc",
         "tier": 85
       },
       {
-        "text": "Modern Defense",
-        "tier": 85
-      },
-      {
         "text": "Alekhine's Defense",
-        "tier": 85
-      },
-      {
-        "text": "Scandinavian Defense",
         "tier": 85
       },
       {
@@ -2674,31 +2503,11 @@
         "tier": 85
       },
       {
-        "text": "English Opening",
-        "tier": 85
-      },
-      {
         "text": "Reti Opening",
         "tier": 85
       },
       {
         "text": "Bird's Opening",
-        "tier": 85
-      },
-      {
-        "text": "Vienna Game",
-        "tier": 85
-      },
-      {
-        "text": "Scotch Game",
-        "tier": 85
-      },
-      {
-        "text": "Four Knights",
-        "tier": 85
-      },
-      {
-        "text": "Two Knights Defense",
         "tier": 85
       },
       {
@@ -2726,15 +2535,7 @@
         "tier": 85
       },
       {
-        "text": "Catalan",
-        "tier": 85
-      },
-      {
         "text": "Najdorf",
-        "tier": 85
-      },
-      {
-        "text": "Dragon",
         "tier": 85
       },
       {
@@ -2742,19 +2543,7 @@
         "tier": 85
       },
       {
-        "text": "Accelerated Dragon",
-        "tier": 85
-      },
-      {
-        "text": "Grand Prix Attack",
-        "tier": 85
-      },
-      {
         "text": "Smith-Morra Gambit",
-        "tier": 85
-      },
-      {
-        "text": "Fried Liver Attack",
         "tier": 85
       },
       {
@@ -2766,27 +2555,11 @@
         "tier": 85
       },
       {
-        "text": "Queen sacrifice",
-        "tier": 85
-      },
-      {
-        "text": "Exchange sacrifice",
-        "tier": 85
-      },
-      {
-        "text": "Opening theory",
-        "tier": 85
-      },
-      {
         "text": "Queen's Gambit Declined",
         "tier": 85
       },
       {
         "text": "Queen's Gambit Accepted",
-        "tier": 85
-      },
-      {
-        "text": "King's Indian Attack",
         "tier": 85
       },
       {
@@ -2834,18 +2607,6 @@
         "tier": 85
       },
       {
-        "text": "Marshall Attack",
-        "tier": 85
-      },
-      {
-        "text": "Berlin Defense",
-        "tier": 85
-      },
-      {
-        "text": "Berlin Wall",
-        "tier": 85
-      },
-      {
         "text": "Open Sicilian",
         "tier": 85
       },
@@ -2878,27 +2639,11 @@
         "tier": 85
       },
       {
-        "text": "Advance Variation",
-        "tier": 85
-      },
-      {
-        "text": "Exchange Variation",
-        "tier": 85
-      },
-      {
-        "text": "Poisoned pawn",
-        "tier": 85
-      },
-      {
         "text": "Hippopotamus",
         "tier": 85
       },
       {
         "text": "Owen's Defense",
-        "tier": 85
-      },
-      {
-        "text": "St. George Defense",
         "tier": 85
       },
       {
@@ -2926,10 +2671,6 @@
         "tier": 85
       },
       {
-        "text": "English Attack",
-        "tier": 85
-      },
-      {
         "text": "Keres Attack",
         "tier": 85
       },
@@ -2950,10 +2691,6 @@
         "tier": 85
       },
       {
-        "text": "Polish Opening",
-        "tier": 85
-      },
-      {
         "text": "Orangutan",
         "tier": 85
       },
@@ -2963,14 +2700,6 @@
       },
       {
         "text": "USCF",
-        "tier": 85
-      },
-      {
-        "text": "Draw offer",
-        "tier": 85
-      },
-      {
-        "text": "Insufficient material",
         "tier": 85
       },
       {
@@ -2990,27 +2719,11 @@
         "tier": 85
       },
       {
-        "text": "Swiss system",
-        "tier": 85
-      },
-      {
-        "text": "Round robin",
-        "tier": 85
-      },
-      {
         "text": "Post-mortem",
         "tier": 85
       },
       {
-        "text": "Only move",
-        "tier": 85
-      },
-      {
         "text": "Centipawn",
-        "tier": 85
-      },
-      {
-        "text": "Evaluation bar",
         "tier": 85
       },
       {
@@ -3027,14 +2740,6 @@
       },
       {
         "text": "Houdini",
-        "tier": 85
-      },
-      {
-        "text": "Fritz",
-        "tier": 85
-      },
-      {
-        "text": "Strategy",
         "tier": 85
       },
       {
@@ -3083,10 +2788,6 @@
       },
       {
         "text": "Opera Game",
-        "tier": 85
-      },
-      {
-        "text": "Game of the Century",
         "tier": 85
       },
       {
@@ -3274,19 +2975,7 @@
         "tier": 60
       },
       {
-        "text": "Promotion",
-        "tier": 60
-      },
-      {
-        "text": "Opening",
-        "tier": 60
-      },
-      {
         "text": "Endgame",
-        "tier": 60
-      },
-      {
-        "text": "Middlegame",
         "tier": 60
       },
       {
@@ -3294,33 +2983,7 @@
         "tier": 60
       },
       {
-        "text": "Fork",
-        "tier": 60
-      },
-      {
-        "text": "Pin",
-        "tier": 60
-      },
-      {
         "text": "Skewer",
-        "tier": 60
-      },
-      {
-        "text": "Sacrifice",
-        "aliases": [
-          "sac"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Draw",
-        "tier": 60
-      },
-      {
-        "text": "Resign",
-        "aliases": [
-          "resignation"
-        ],
         "tier": 60
       },
       {
@@ -3343,10 +3006,6 @@
         "tier": 60
       },
       {
-        "text": "French Defense",
-        "tier": 60
-      },
-      {
         "text": "Caro-Kann",
         "tier": 60
       },
@@ -3359,62 +3018,7 @@
         "tier": 60
       },
       {
-        "text": "Italian Game",
-        "tier": 60
-      },
-      {
-        "text": "London System",
-        "tier": 60
-      },
-      {
-        "text": "Rank",
-        "tier": 60
-      },
-      {
-        "text": "File",
-        "tier": 60
-      },
-      {
-        "text": "Diagonal",
-        "tier": 60
-      },
-      {
-        "text": "Square",
-        "tier": 60
-      },
-      {
-        "text": "Tempo",
-        "tier": 60
-      },
-      {
         "text": "Blunder",
-        "tier": 60
-      },
-      {
-        "text": "Touch-move",
-        "aliases": [
-          "touch move",
-          "touch move rule"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chess clock",
-        "aliases": [
-          "clock"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Blitz",
-        "tier": 60
-      },
-      {
-        "text": "Bullet",
-        "tier": 60
-      },
-      {
-        "text": "Rapid",
         "tier": 60
       },
       {
@@ -3425,54 +3029,7 @@
         "tier": 60
       },
       {
-        "text": "Rating",
-        "tier": 60
-      },
-      {
-        "text": "International master",
-        "aliases": [
-          "im"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "FIDE",
-        "tier": 60
-      },
-      {
-        "text": "Discovered check",
-        "tier": 60
-      },
-      {
-        "text": "Double check",
-        "tier": 60
-      },
-      {
-        "text": "Back-rank mate",
-        "tier": 60
-      },
-      {
         "text": "Smothered mate",
-        "tier": 60
-      },
-      {
-        "text": "Zugzwang",
-        "tier": 60
-      },
-      {
-        "text": "Underpromotion",
-        "tier": 60
-      },
-      {
-        "text": "Fianchetto",
-        "tier": 60
-      },
-      {
-        "text": "Center",
-        "tier": 60
-      },
-      {
-        "text": "Development",
         "tier": 60
       },
       {
@@ -3483,77 +3040,329 @@
         "tier": 60
       },
       {
-        "text": "Fifty-move rule",
-        "aliases": [
-          "50-move rule"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Notation",
-        "tier": 60
-      },
-      {
-        "text": "Light square",
-        "tier": 60
-      },
-      {
-        "text": "Dark square",
-        "tier": 60
-      },
-      {
-        "text": "Kingside",
-        "tier": 60
-      },
-      {
-        "text": "Queenside",
-        "tier": 60
-      },
-      {
-        "text": "Passed pawn",
-        "tier": 60
-      },
-      {
-        "text": "Isolated pawn",
-        "tier": 60
-      },
-      {
         "text": "Doubled pawns",
         "tier": 60
       },
       {
-        "text": "Pawn structure",
+        "text": "Pawn storm",
         "tier": 60
       },
       {
-        "text": "Exchange",
+        "text": "Pawn chain",
         "tier": 60
       },
       {
-        "text": "Trade",
+        "text": "Backward pawn",
         "tier": 60
       },
       {
-        "text": "Material",
+        "text": "Pawn island",
         "tier": 60
       },
       {
-        "text": "Hanging piece",
+        "text": "Outpost",
         "tier": 60
       },
       {
-        "text": "Attack",
+        "text": "Open file",
         "tier": 60
       },
       {
-        "text": "Defense",
+        "text": "Half-open file",
         "tier": 60
       },
       {
-        "text": "Knight",
+        "text": "Seventh rank",
+        "tier": 60
+      },
+      {
+        "text": "Battery",
+        "tier": 60
+      },
+      {
+        "text": "Deflection",
+        "tier": 60
+      },
+      {
+        "text": "Interference",
+        "tier": 60
+      },
+      {
+        "text": "X-ray",
+        "tier": 60
+      },
+      {
+        "text": "Removing the defender",
+        "tier": 60
+      },
+      {
+        "text": "Perpetual check",
+        "tier": 60
+      },
+      {
+        "text": "Fortress",
+        "tier": 60
+      },
+      {
+        "text": "Opposition",
+        "tier": 60
+      },
+      {
+        "text": "Opening book",
         "aliases": [
-          "horse"
+          "theory"
         ],
+        "tier": 60
+      },
+      {
+        "text": "Novelty",
+        "tier": 60
+      },
+      {
+        "text": "Preparation",
+        "tier": 60
+      },
+      {
+        "text": "Correspondence chess",
+        "tier": 60
+      },
+      {
+        "text": "Puzzle",
+        "aliases": [
+          "tactic"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Combination",
+        "tier": 60
+      },
+      {
+        "text": "Brilliant move",
+        "tier": 60
+      },
+      {
+        "text": "Mistake",
+        "tier": 60
+      },
+      {
+        "text": "Deep Blue",
+        "tier": 60
+      },
+      {
+        "text": "Time trouble",
+        "aliases": [
+          "zeitnot"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Flag",
+        "aliases": [
+          "flagging"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Tournament",
+        "tier": 60
+      },
+      {
+        "text": "Candidates",
+        "tier": 60
+      },
+      {
+        "text": "World Champion",
+        "tier": 60
+      },
+      {
+        "text": "Norm",
+        "tier": 60
+      },
+      {
+        "text": "Candidate master",
+        "tier": 60
+      },
+      {
+        "text": "FIDE master",
+        "tier": 60
+      },
+      {
+        "text": "Bishop pair",
+        "tier": 60
+      },
+      {
+        "text": "Good bishop",
+        "tier": 60
+      },
+      {
+        "text": "Bad bishop",
+        "tier": 60
+      },
+      {
+        "text": "Opposite-colored bishops",
+        "tier": 60
+      },
+      {
+        "text": "Minority attack",
+        "tier": 60
+      },
+      {
+        "text": "Hedgehog",
+        "tier": 60
+      },
+      {
+        "text": "King's Indian Defense",
+        "aliases": [
+          "kings indian"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Queen's Indian",
+        "tier": 60
+      },
+      {
+        "text": "Dutch Defense",
+        "tier": 60
+      },
+      {
+        "text": "Modern Defense",
+        "tier": 60
+      },
+      {
+        "text": "Scandinavian Defense",
+        "tier": 60
+      },
+      {
+        "text": "English Opening",
+        "tier": 60
+      },
+      {
+        "text": "Vienna Game",
+        "tier": 60
+      },
+      {
+        "text": "Scotch Game",
+        "tier": 60
+      },
+      {
+        "text": "Four Knights",
+        "tier": 60
+      },
+      {
+        "text": "Two Knights Defense",
+        "tier": 60
+      },
+      {
+        "text": "Catalan",
+        "tier": 60
+      },
+      {
+        "text": "Dragon",
+        "tier": 60
+      },
+      {
+        "text": "Accelerated Dragon",
+        "tier": 60
+      },
+      {
+        "text": "Grand Prix Attack",
+        "tier": 60
+      },
+      {
+        "text": "Fried Liver Attack",
+        "tier": 60
+      },
+      {
+        "text": "Queen sacrifice",
+        "tier": 60
+      },
+      {
+        "text": "Exchange sacrifice",
+        "tier": 60
+      },
+      {
+        "text": "Opening theory",
+        "tier": 60
+      },
+      {
+        "text": "King's Indian Attack",
+        "tier": 60
+      },
+      {
+        "text": "Marshall Attack",
+        "tier": 60
+      },
+      {
+        "text": "Berlin Defense",
+        "tier": 60
+      },
+      {
+        "text": "Berlin Wall",
+        "tier": 60
+      },
+      {
+        "text": "Advance Variation",
+        "tier": 60
+      },
+      {
+        "text": "Exchange Variation",
+        "tier": 60
+      },
+      {
+        "text": "Poisoned pawn",
+        "tier": 60
+      },
+      {
+        "text": "St. George Defense",
+        "tier": 60
+      },
+      {
+        "text": "Polish Opening",
+        "tier": 60
+      },
+      {
+        "text": "Draw offer",
+        "tier": 60
+      },
+      {
+        "text": "Insufficient material",
+        "tier": 60
+      },
+      {
+        "text": "Swiss system",
+        "tier": 60
+      },
+      {
+        "text": "Round robin",
+        "tier": 60
+      },
+      {
+        "text": "Evaluation bar",
+        "tier": 60
+      },
+      {
+        "text": "Fritz",
+        "tier": 60
+      },
+      {
+        "text": "Strategy",
+        "tier": 60
+      },
+      {
+        "text": "Game of the Century",
+        "tier": 60
+      },
+      {
+        "text": "Checkmate",
+        "aliases": [
+          "mate"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pawn",
         "tier": 30
       },
       {
@@ -3564,7 +3373,190 @@
         "tier": 30
       },
       {
-        "text": "Bishop",
+        "text": "Promotion",
+        "tier": 30
+      },
+      {
+        "text": "Opening",
+        "tier": 30
+      },
+      {
+        "text": "Fork",
+        "tier": 30
+      },
+      {
+        "text": "Pin",
+        "tier": 30
+      },
+      {
+        "text": "Sacrifice",
+        "aliases": [
+          "sac"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Draw",
+        "tier": 30
+      },
+      {
+        "text": "Resign",
+        "aliases": [
+          "resignation"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "French Defense",
+        "tier": 30
+      },
+      {
+        "text": "Italian Game",
+        "tier": 30
+      },
+      {
+        "text": "London System",
+        "tier": 30
+      },
+      {
+        "text": "Rank",
+        "tier": 30
+      },
+      {
+        "text": "File",
+        "tier": 30
+      },
+      {
+        "text": "Diagonal",
+        "tier": 30
+      },
+      {
+        "text": "Square",
+        "tier": 30
+      },
+      {
+        "text": "Tempo",
+        "tier": 30
+      },
+      {
+        "text": "Touch-move",
+        "aliases": [
+          "touch move",
+          "touch move rule"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Chess clock",
+        "aliases": [
+          "clock"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Blitz",
+        "tier": 30
+      },
+      {
+        "text": "Bullet",
+        "tier": 30
+      },
+      {
+        "text": "Rapid",
+        "tier": 30
+      },
+      {
+        "text": "Rating",
+        "tier": 30
+      },
+      {
+        "text": "International master",
+        "aliases": [
+          "im"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "FIDE",
+        "tier": 30
+      },
+      {
+        "text": "Discovered check",
+        "tier": 30
+      },
+      {
+        "text": "Double check",
+        "tier": 30
+      },
+      {
+        "text": "Back-rank mate",
+        "tier": 30
+      },
+      {
+        "text": "Fifty-move rule",
+        "aliases": [
+          "50-move rule"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Notation",
+        "tier": 30
+      },
+      {
+        "text": "Light square",
+        "tier": 30
+      },
+      {
+        "text": "Dark square",
+        "tier": 30
+      },
+      {
+        "text": "Passed pawn",
+        "tier": 30
+      },
+      {
+        "text": "Isolated pawn",
+        "tier": 30
+      },
+      {
+        "text": "Pawn structure",
+        "tier": 30
+      },
+      {
+        "text": "Exchange",
+        "tier": 30
+      },
+      {
+        "text": "Trade",
+        "tier": 30
+      },
+      {
+        "text": "Material",
+        "tier": 30
+      },
+      {
+        "text": "Hanging piece",
+        "tier": 30
+      },
+      {
+        "text": "Attack",
+        "tier": 30
+      },
+      {
+        "text": "Defense",
+        "tier": 30
+      },
+      {
+        "text": "Engine",
+        "tier": 30
+      },
+      {
+        "text": "English Attack",
+        "tier": 30
+      },
+      {
+        "text": "Only move",
         "tier": 30
       },
       {
@@ -3619,18 +3611,26 @@
         "tier": 10
       },
       {
-        "text": "Checkmate",
-        "aliases": [
-          "mate"
-        ],
-        "tier": 10
-      },
-      {
         "text": "Check",
         "tier": 10
       },
       {
-        "text": "Pawn",
+        "text": "Knight",
+        "aliases": [
+          "horse"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Bishop",
+        "tier": 10
+      },
+      {
+        "text": "Center",
+        "tier": 10
+      },
+      {
+        "text": "Development",
         "tier": 10
       }
     ],
@@ -3661,35 +3661,7 @@
         "tier": 85
       },
       {
-        "text": "Honey pie",
-        "tier": 85
-      },
-      {
         "text": "Honeybee",
-        "tier": 85
-      },
-      {
-        "text": "Pudding",
-        "tier": 85
-      },
-      {
-        "text": "Pudding pop",
-        "tier": 85
-      },
-      {
-        "text": "Pumpkin pie",
-        "tier": 85
-      },
-      {
-        "text": "Cookie",
-        "tier": 85
-      },
-      {
-        "text": "Peaches",
-        "tier": 85
-      },
-      {
-        "text": "Cherry",
         "tier": 85
       },
       {
@@ -3698,10 +3670,6 @@
       },
       {
         "text": "Jellybean",
-        "tier": 85
-      },
-      {
-        "text": "Lamb",
         "tier": 85
       },
       {
@@ -3725,43 +3693,7 @@
         "tier": 85
       },
       {
-        "text": "Lover",
-        "tier": 85
-      },
-      {
-        "text": "Lover boy",
-        "tier": 85
-      },
-      {
-        "text": "Hot stuff",
-        "tier": 85
-      },
-      {
-        "text": "Hottie",
-        "tier": 85
-      },
-      {
-        "text": "Stud",
-        "tier": 85
-      },
-      {
-        "text": "Tiger",
-        "tier": 85
-      },
-      {
-        "text": "Big guy",
-        "tier": 85
-      },
-      {
-        "text": "Hubby",
-        "tier": 85
-      },
-      {
         "text": "Wifey",
-        "tier": 85
-      },
-      {
-        "text": "Better half",
         "tier": 85
       },
       {
@@ -3769,43 +3701,7 @@
         "tier": 85
       },
       {
-        "text": "Other half",
-        "tier": 85
-      },
-      {
-        "text": "Main squeeze",
-        "tier": 85
-      },
-      {
-        "text": "Beau",
-        "tier": 85
-      },
-      {
-        "text": "Treasure",
-        "tier": 85
-      },
-      {
-        "text": "Light of my life",
-        "tier": 85
-      },
-      {
-        "text": "Apple of my eye",
-        "tier": 85
-      },
-      {
         "text": "Heartthrob",
-        "tier": 85
-      },
-      {
-        "text": "Sweetness",
-        "tier": 85
-      },
-      {
-        "text": "Sugar lips",
-        "tier": 85
-      },
-      {
-        "text": "Sugar bear",
         "tier": 85
       },
       {
@@ -3817,39 +3713,11 @@
         "tier": 85
       },
       {
-        "text": "Boo bear",
-        "tier": 85
-      },
-      {
         "text": "Boo thang",
         "tier": 85
       },
       {
         "text": "Bestie",
-        "tier": 85
-      },
-      {
-        "text": "Fam",
-        "tier": 85
-      },
-      {
-        "text": "Homie",
-        "tier": 85
-      },
-      {
-        "text": "Bubba",
-        "tier": 85
-      },
-      {
-        "text": "Sissy",
-        "tier": 85
-      },
-      {
-        "text": "Junior",
-        "tier": 85
-      },
-      {
-        "text": "Squirt",
         "tier": 85
       },
       {
@@ -3861,23 +3729,7 @@
         "tier": 85
       },
       {
-        "text": "Little one",
-        "tier": 85
-      },
-      {
-        "text": "Little man",
-        "tier": 85
-      },
-      {
-        "text": "Little lady",
-        "tier": 85
-      },
-      {
         "text": "Sweetums",
-        "tier": 85
-      },
-      {
-        "text": "Cutie pie",
         "tier": 85
       },
       {
@@ -3889,10 +3741,6 @@
         "tier": 85
       },
       {
-        "text": "Monkey",
-        "tier": 85
-      },
-      {
         "text": "Goober",
         "tier": 85
       },
@@ -3901,27 +3749,7 @@
         "tier": 85
       },
       {
-        "text": "Bean",
-        "tier": 85
-      },
-      {
-        "text": "Noodle",
-        "tier": 85
-      },
-      {
-        "text": "Nugget",
-        "tier": 85
-      },
-      {
         "text": "Poppet",
-        "tier": 85
-      },
-      {
-        "text": "Petal",
-        "tier": 85
-      },
-      {
-        "text": "Blossom",
         "tier": 85
       },
       {
@@ -3929,15 +3757,7 @@
         "tier": 85
       },
       {
-        "text": "Sweet thing",
-        "tier": 85
-      },
-      {
         "text": "Lovebird",
-        "tier": 85
-      },
-      {
-        "text": "Beloved",
         "tier": 85
       },
       {
@@ -3949,27 +3769,7 @@
         "tier": 85
       },
       {
-        "text": "Sugar bun",
-        "tier": 85
-      },
-      {
         "text": "Honeybunch",
-        "tier": 85
-      },
-      {
-        "text": "Honey bunny",
-        "tier": 85
-      },
-      {
-        "text": "Bunny rabbit",
-        "tier": 85
-      },
-      {
-        "text": "Bun",
-        "tier": 85
-      },
-      {
-        "text": "Sweet potato",
         "tier": 85
       },
       {
@@ -3981,19 +3781,7 @@
         "tier": 85
       },
       {
-        "text": "Peaches and cream",
-        "tier": 85
-      },
-      {
-        "text": "Pet",
-        "tier": 85
-      },
-      {
         "text": "Darl",
-        "tier": 85
-      },
-      {
-        "text": "Possum",
         "tier": 85
       },
       {
@@ -4001,19 +3789,7 @@
         "tier": 85
       },
       {
-        "text": "Snuggle bunny",
-        "tier": 85
-      },
-      {
         "text": "Snuggle puss",
-        "tier": 85
-      },
-      {
-        "text": "Cuddle bear",
-        "tier": 85
-      },
-      {
-        "text": "Cuddles",
         "tier": 85
       },
       {
@@ -4021,55 +3797,11 @@
         "tier": 85
       },
       {
-        "text": "Love muffin",
-        "tier": 85
-      },
-      {
-        "text": "Stud muffin",
-        "tier": 85
-      },
-      {
-        "text": "Mama bear",
-        "tier": 85
-      },
-      {
-        "text": "Papa bear",
-        "tier": 85
-      },
-      {
-        "text": "Baby bear",
-        "tier": 85
-      },
-      {
-        "text": "Boo boo",
-        "tier": 85
-      },
-      {
-        "text": "Sugar cube",
-        "tier": 85
-      },
-      {
         "text": "Gumdrop",
         "tier": 85
       },
       {
-        "text": "Sweet tart",
-        "tier": 85
-      },
-      {
-        "text": "Button",
-        "tier": 85
-      },
-      {
         "text": "Cutie patootie",
-        "tier": 85
-      },
-      {
-        "text": "Angel face",
-        "tier": 85
-      },
-      {
-        "text": "Angel cakes",
         "tier": 85
       },
       {
@@ -4178,10 +3910,6 @@
       },
       {
         "text": "Janam",
-        "tier": 85
-      },
-      {
-        "text": "Oppa",
         "tier": 85
       },
       {
@@ -4417,42 +4145,7 @@
         "tier": 85
       },
       {
-        "text": "Sweetie pie",
-        "tier": 60
-      },
-      {
-        "text": "Honey bun",
-        "aliases": [
-          "honeybun"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Pumpkin",
-        "tier": 60
-      },
-      {
-        "text": "Angel",
-        "tier": 60
-      },
-      {
-        "text": "Sunshine",
-        "tier": 60
-      },
-      {
         "text": "Buttercup",
-        "tier": 60
-      },
-      {
-        "text": "Cupcake",
-        "tier": 60
-      },
-      {
-        "text": "Muffin",
-        "tier": 60
-      },
-      {
-        "text": "Peanut",
         "tier": 60
       },
       {
@@ -4460,69 +4153,11 @@
         "tier": 60
       },
       {
-        "text": "Buddy",
-        "tier": 60
-      },
-      {
-        "text": "Pal",
-        "tier": 60
-      },
-      {
-        "text": "Champ",
-        "tier": 60
-      },
-      {
-        "text": "Sweet pea",
-        "tier": 60
-      },
-      {
-        "text": "Doll",
-        "aliases": [
-          "babydoll"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Dollface",
         "tier": 60
       },
       {
-        "text": "Gorgeous",
-        "tier": 60
-      },
-      {
-        "text": "Handsome",
-        "tier": 60
-      },
-      {
-        "text": "Beautiful",
-        "tier": 60
-      },
-      {
-        "text": "Princess",
-        "tier": 60
-      },
-      {
-        "text": "Kitten",
-        "tier": 60
-      },
-      {
-        "text": "Bunny",
-        "tier": 60
-      },
-      {
-        "text": "Teddy bear",
-        "aliases": [
-          "teddy"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Lovebug",
-        "tier": 60
-      },
-      {
-        "text": "Cuddle bug",
         "tier": 60
       },
       {
@@ -4534,15 +4169,7 @@
         "tier": 60
       },
       {
-        "text": "Sugar plum",
-        "tier": 60
-      },
-      {
         "text": "Darlin'",
-        "tier": 60
-      },
-      {
-        "text": "Sweet cheeks",
         "tier": 60
       },
       {
@@ -4554,27 +4181,392 @@
         "tier": 60
       },
       {
-        "text": "Baby girl",
+        "text": "Honey pie",
         "tier": 60
       },
       {
-        "text": "Baby boy",
+        "text": "Pudding",
         "tier": 60
       },
       {
-        "text": "Love",
+        "text": "Pudding pop",
+        "tier": 60
+      },
+      {
+        "text": "Pumpkin pie",
+        "tier": 60
+      },
+      {
+        "text": "Cookie",
+        "tier": 60
+      },
+      {
+        "text": "Peaches",
+        "tier": 60
+      },
+      {
+        "text": "Cherry",
+        "tier": 60
+      },
+      {
+        "text": "Lamb",
+        "tier": 60
+      },
+      {
+        "text": "Lover",
+        "tier": 60
+      },
+      {
+        "text": "Lover boy",
+        "tier": 60
+      },
+      {
+        "text": "Hottie",
+        "tier": 60
+      },
+      {
+        "text": "Stud",
+        "tier": 60
+      },
+      {
+        "text": "Tiger",
+        "tier": 60
+      },
+      {
+        "text": "Hubby",
+        "tier": 60
+      },
+      {
+        "text": "Main squeeze",
+        "tier": 60
+      },
+      {
+        "text": "Beau",
+        "tier": 60
+      },
+      {
+        "text": "Treasure",
+        "tier": 60
+      },
+      {
+        "text": "Apple of my eye",
+        "tier": 60
+      },
+      {
+        "text": "Sweetness",
+        "tier": 60
+      },
+      {
+        "text": "Sugar lips",
+        "tier": 60
+      },
+      {
+        "text": "Sugar bear",
+        "tier": 60
+      },
+      {
+        "text": "Boo bear",
+        "tier": 60
+      },
+      {
+        "text": "Fam",
+        "tier": 60
+      },
+      {
+        "text": "Homie",
+        "tier": 60
+      },
+      {
+        "text": "Bubba",
+        "tier": 60
+      },
+      {
+        "text": "Sissy",
+        "tier": 60
+      },
+      {
+        "text": "Junior",
+        "tier": 60
+      },
+      {
+        "text": "Squirt",
+        "tier": 60
+      },
+      {
+        "text": "Cutie pie",
+        "tier": 60
+      },
+      {
+        "text": "Monkey",
+        "tier": 60
+      },
+      {
+        "text": "Bean",
+        "tier": 60
+      },
+      {
+        "text": "Noodle",
+        "tier": 60
+      },
+      {
+        "text": "Nugget",
+        "tier": 60
+      },
+      {
+        "text": "Petal",
+        "tier": 60
+      },
+      {
+        "text": "Blossom",
+        "tier": 60
+      },
+      {
+        "text": "Sweet thing",
+        "tier": 60
+      },
+      {
+        "text": "Beloved",
+        "tier": 60
+      },
+      {
+        "text": "Sugar bun",
+        "tier": 60
+      },
+      {
+        "text": "Honey bunny",
+        "tier": 60
+      },
+      {
+        "text": "Bunny rabbit",
+        "tier": 60
+      },
+      {
+        "text": "Bun",
+        "tier": 60
+      },
+      {
+        "text": "Sweet potato",
+        "tier": 60
+      },
+      {
+        "text": "Peaches and cream",
+        "tier": 60
+      },
+      {
+        "text": "Pet",
+        "tier": 60
+      },
+      {
+        "text": "Possum",
+        "tier": 60
+      },
+      {
+        "text": "Snuggle bunny",
+        "tier": 60
+      },
+      {
+        "text": "Cuddle bear",
+        "tier": 60
+      },
+      {
+        "text": "Cuddles",
+        "tier": 60
+      },
+      {
+        "text": "Love muffin",
+        "tier": 60
+      },
+      {
+        "text": "Stud muffin",
+        "tier": 60
+      },
+      {
+        "text": "Mama bear",
+        "tier": 60
+      },
+      {
+        "text": "Papa bear",
+        "tier": 60
+      },
+      {
+        "text": "Baby bear",
+        "tier": 60
+      },
+      {
+        "text": "Boo boo",
+        "tier": 60
+      },
+      {
+        "text": "Sugar cube",
+        "tier": 60
+      },
+      {
+        "text": "Sweet tart",
+        "tier": 60
+      },
+      {
+        "text": "Button",
+        "tier": 60
+      },
+      {
+        "text": "Angel face",
+        "tier": 60
+      },
+      {
+        "text": "Angel cakes",
+        "tier": 60
+      },
+      {
+        "text": "Oppa",
+        "tier": 60
+      },
+      {
+        "text": "Sweetie",
         "aliases": [
-          "my love",
-          "luv"
+          "sweetheart",
+          "sweets"
         ],
         "tier": 30
       },
       {
-        "text": "Sugar",
+        "text": "Cutie",
         "tier": 30
       },
       {
-        "text": "Cutie",
+        "text": "Sweetie pie",
+        "tier": 30
+      },
+      {
+        "text": "Honey bun",
+        "aliases": [
+          "honeybun"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pumpkin",
+        "tier": 30
+      },
+      {
+        "text": "Angel",
+        "tier": 30
+      },
+      {
+        "text": "Sunshine",
+        "tier": 30
+      },
+      {
+        "text": "Cupcake",
+        "tier": 30
+      },
+      {
+        "text": "Muffin",
+        "tier": 30
+      },
+      {
+        "text": "Peanut",
+        "tier": 30
+      },
+      {
+        "text": "Buddy",
+        "tier": 30
+      },
+      {
+        "text": "Pal",
+        "tier": 30
+      },
+      {
+        "text": "Champ",
+        "tier": 30
+      },
+      {
+        "text": "Sweet pea",
+        "tier": 30
+      },
+      {
+        "text": "Doll",
+        "aliases": [
+          "babydoll"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Gorgeous",
+        "tier": 30
+      },
+      {
+        "text": "Handsome",
+        "tier": 30
+      },
+      {
+        "text": "Princess",
+        "tier": 30
+      },
+      {
+        "text": "Kitten",
+        "tier": 30
+      },
+      {
+        "text": "Bunny",
+        "tier": 30
+      },
+      {
+        "text": "Teddy bear",
+        "aliases": [
+          "teddy"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cuddle bug",
+        "tier": 30
+      },
+      {
+        "text": "Sugar plum",
+        "tier": 30
+      },
+      {
+        "text": "Sweet cheeks",
+        "tier": 30
+      },
+      {
+        "text": "Baby girl",
+        "tier": 30
+      },
+      {
+        "text": "Baby boy",
+        "tier": 30
+      },
+      {
+        "text": "Hot stuff",
+        "tier": 30
+      },
+      {
+        "text": "Big guy",
+        "tier": 30
+      },
+      {
+        "text": "Better half",
+        "tier": 30
+      },
+      {
+        "text": "Other half",
+        "tier": 30
+      },
+      {
+        "text": "Light of my life",
+        "tier": 30
+      },
+      {
+        "text": "Little one",
+        "tier": 30
+      },
+      {
+        "text": "Little man",
+        "tier": 30
+      },
+      {
+        "text": "Little lady",
         "tier": 30
       },
       {
@@ -4601,14 +4593,6 @@
         "tier": 10
       },
       {
-        "text": "Sweetie",
-        "aliases": [
-          "sweetheart",
-          "sweets"
-        ],
-        "tier": 10
-      },
-      {
         "text": "Baby",
         "aliases": [
           "babe"
@@ -4625,6 +4609,22 @@
           "dearest",
           "my dear"
         ],
+        "tier": 10
+      },
+      {
+        "text": "Love",
+        "aliases": [
+          "my love",
+          "luv"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Sugar",
+        "tier": 10
+      },
+      {
+        "text": "Beautiful",
         "tier": 10
       }
     ],
@@ -4651,6 +4651,21 @@
         "tier": 100
       },
       {
+        "text": "Headstand",
+        "aliases": [
+          "sirsasana"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Chaturanga",
+        "aliases": [
+          "chaturanga dandasana",
+          "low plank"
+        ],
+        "tier": 85
+      },
+      {
         "text": "Firefly pose",
         "aliases": [
           "tittibhasana"
@@ -4658,18 +4673,7 @@
         "tier": 85
       },
       {
-        "text": "Side crow",
-        "tier": 85
-      },
-      {
         "text": "Flying pigeon",
-        "tier": 85
-      },
-      {
-        "text": "Eight-angle pose",
-        "aliases": [
-          "astavakrasana"
-        ],
         "tier": 85
       },
       {
@@ -4712,28 +4716,9 @@
         "tier": 85
       },
       {
-        "text": "Bird of paradise pose",
-        "tier": 85
-      },
-      {
         "text": "Lord of the fishes",
         "aliases": [
           "ardha matsyendrasana"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Cow face pose",
-        "aliases": [
-          "gomukhasana"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Fire log pose",
-        "aliases": [
-          "double pigeon",
-          "figure four"
         ],
         "tier": 85
       },
@@ -4771,35 +4756,10 @@
         "tier": 85
       },
       {
-        "text": "Gate pose",
-        "aliases": [
-          "parighasana"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Wild thing",
-        "aliases": [
-          "camatkarasana"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Reverse plank",
         "aliases": [
           "purvottanasana"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Table top",
-        "aliases": [
-          "tabletop"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Supported bridge",
         "tier": 85
       },
       {
@@ -4811,14 +4771,6 @@
       },
       {
         "text": "Reclining hero",
-        "tier": 85
-      },
-      {
-        "text": "Knees to chest",
-        "aliases": [
-          "apanasana",
-          "knees chest"
-        ],
         "tier": 85
       },
       {
@@ -4839,14 +4791,6 @@
         "text": "Heron pose",
         "aliases": [
           "krounchasana"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Monkey pose",
-        "aliases": [
-          "hanumanasana",
-          "splits"
         ],
         "tier": 85
       },
@@ -4873,14 +4817,6 @@
         "tier": 85
       },
       {
-        "text": "Rabbit pose",
-        "tier": 85
-      },
-      {
-        "text": "Half bow",
-        "tier": 85
-      },
-      {
         "text": "Full lotus",
         "tier": 85
       },
@@ -4896,25 +4832,7 @@
         "tier": 85
       },
       {
-        "text": "Accomplished pose",
-        "aliases": [
-          "siddhasana"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Lion pose",
-        "aliases": [
-          "simhasana"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Cobbler's pose",
-        "tier": 85
-      },
-      {
-        "text": "Fallen angel",
         "tier": 85
       },
       {
@@ -4923,33 +4841,6 @@
       },
       {
         "text": "Grasshopper pose",
-        "tier": 85
-      },
-      {
-        "text": "Baby crow",
-        "tier": 85
-      },
-      {
-        "text": "Toe stand",
-        "tier": 85
-      },
-      {
-        "text": "Big toe pose",
-        "tier": 85
-      },
-      {
-        "text": "Hand to big toe",
-        "aliases": [
-          "utthita hasta padangusthasana"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Standing split",
-        "tier": 85
-      },
-      {
-        "text": "Humble warrior",
         "tier": 85
       },
       {
@@ -4972,23 +4863,7 @@
         "tier": 85
       },
       {
-        "text": "Sleeping swan",
-        "tier": 85
-      },
-      {
-        "text": "Dragon pose",
-        "tier": 85
-      },
-      {
         "text": "Shoelace",
-        "tier": 85
-      },
-      {
-        "text": "Square pose",
-        "tier": 85
-      },
-      {
-        "text": "Melting heart",
         "tier": 85
       },
       {
@@ -5003,26 +4878,11 @@
         "tier": 85
       },
       {
-        "text": "Head-to-knee pose",
-        "aliases": [
-          "janu sirsasana"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Revolved head-to-knee",
         "tier": 85
       },
       {
         "text": "Side lunge",
-        "tier": 85
-      },
-      {
-        "text": "Half forward fold",
-        "tier": 85
-      },
-      {
-        "text": "Half lift",
         "tier": 85
       },
       {
@@ -5035,10 +4895,6 @@
       },
       {
         "text": "Reclined hand to big toe",
-        "tier": 85
-      },
-      {
-        "text": "Supported shoulder stand",
         "tier": 85
       },
       {
@@ -5190,78 +5046,11 @@
         "tier": 85
       },
       {
-        "text": "Warrior two",
-        "aliases": [
-          "warrior ii",
-          "warrior 2",
-          "virabhadrasana ii"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Warrior three",
-        "aliases": [
-          "warrior iii",
-          "warrior 3"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Upward dog",
         "aliases": [
           "upward-facing dog",
           "up dog",
           "urdhva mukha svanasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Triangle",
-        "aliases": [
-          "triangle pose",
-          "trikonasana",
-          "extended triangle"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bridge",
-        "aliases": [
-          "bridge pose",
-          "setu bandha",
-          "setu bandhasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cat pose",
-        "aliases": [
-          "cat",
-          "marjaryasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Cow pose",
-        "aliases": [
-          "cow",
-          "bitilasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chair pose",
-        "aliases": [
-          "utkatasana",
-          "chair"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Boat pose",
-        "aliases": [
-          "navasana",
-          "boat"
         ],
         "tier": 60
       },
@@ -5292,20 +5081,6 @@
         "tier": 60
       },
       {
-        "text": "Headstand",
-        "aliases": [
-          "sirsasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Shoulder stand",
-        "aliases": [
-          "sarvangasana"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Plow pose",
         "aliases": [
           "plow",
@@ -5314,73 +5089,9 @@
         "tier": 60
       },
       {
-        "text": "Fish pose",
-        "aliases": [
-          "fish",
-          "matsyasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bow pose",
-        "aliases": [
-          "bow",
-          "dhanurasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Wheel pose",
-        "aliases": [
-          "wheel",
-          "urdhva dhanurasana",
-          "full wheel"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Forward fold",
-        "aliases": [
-          "standing forward bend",
-          "uttanasana",
-          "ragdoll"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Seated forward bend",
         "aliases": [
           "paschimottanasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Butterfly",
-        "aliases": [
-          "bound angle",
-          "baddha konasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Easy pose",
-        "aliases": [
-          "sukhasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Eagle pose",
-        "aliases": [
-          "eagle",
-          "garudasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Half moon",
-        "aliases": [
-          "ardha chandrasana"
         ],
         "tier": 60
       },
@@ -5416,21 +5127,6 @@
         "text": "Side plank",
         "aliases": [
           "vasisthasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Chaturanga",
-        "aliases": [
-          "chaturanga dandasana",
-          "low plank"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Legs up the wall",
-        "aliases": [
-          "viparita karani"
         ],
         "tier": 60
       },
@@ -5484,11 +5180,315 @@
         "tier": 60
       },
       {
+        "text": "Side crow",
+        "tier": 60
+      },
+      {
+        "text": "Eight-angle pose",
+        "aliases": [
+          "astavakrasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Bird of paradise pose",
+        "tier": 60
+      },
+      {
+        "text": "Cow face pose",
+        "aliases": [
+          "gomukhasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fire log pose",
+        "aliases": [
+          "double pigeon",
+          "figure four"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gate pose",
+        "aliases": [
+          "parighasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wild thing",
+        "aliases": [
+          "camatkarasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Table top",
+        "aliases": [
+          "tabletop"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Supported bridge",
+        "tier": 60
+      },
+      {
+        "text": "Knees to chest",
+        "aliases": [
+          "apanasana",
+          "knees chest"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Monkey pose",
+        "aliases": [
+          "hanumanasana",
+          "splits"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rabbit pose",
+        "tier": 60
+      },
+      {
+        "text": "Half bow",
+        "tier": 60
+      },
+      {
+        "text": "Accomplished pose",
+        "aliases": [
+          "siddhasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lion pose",
+        "aliases": [
+          "simhasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Fallen angel",
+        "tier": 60
+      },
+      {
+        "text": "Baby crow",
+        "tier": 60
+      },
+      {
+        "text": "Toe stand",
+        "tier": 60
+      },
+      {
+        "text": "Big toe pose",
+        "tier": 60
+      },
+      {
+        "text": "Hand to big toe",
+        "aliases": [
+          "utthita hasta padangusthasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Standing split",
+        "tier": 60
+      },
+      {
+        "text": "Humble warrior",
+        "tier": 60
+      },
+      {
+        "text": "Sleeping swan",
+        "tier": 60
+      },
+      {
+        "text": "Dragon pose",
+        "tier": 60
+      },
+      {
+        "text": "Square pose",
+        "tier": 60
+      },
+      {
+        "text": "Melting heart",
+        "tier": 60
+      },
+      {
+        "text": "Head-to-knee pose",
+        "aliases": [
+          "janu sirsasana"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Half forward fold",
+        "tier": 60
+      },
+      {
+        "text": "Half lift",
+        "tier": 60
+      },
+      {
+        "text": "Supported shoulder stand",
+        "tier": 60
+      },
+      {
+        "text": "Warrior two",
+        "aliases": [
+          "warrior ii",
+          "warrior 2",
+          "virabhadrasana ii"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Warrior three",
+        "aliases": [
+          "warrior iii",
+          "warrior 3"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Triangle",
+        "aliases": [
+          "triangle pose",
+          "trikonasana",
+          "extended triangle"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bridge",
+        "aliases": [
+          "bridge pose",
+          "setu bandha",
+          "setu bandhasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cat pose",
+        "aliases": [
+          "cat",
+          "marjaryasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Cow pose",
+        "aliases": [
+          "cow",
+          "bitilasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Chair pose",
+        "aliases": [
+          "utkatasana",
+          "chair"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Boat pose",
+        "aliases": [
+          "navasana",
+          "boat"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Shoulder stand",
+        "aliases": [
+          "sarvangasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Fish pose",
+        "aliases": [
+          "fish",
+          "matsyasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bow pose",
+        "aliases": [
+          "bow",
+          "dhanurasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wheel pose",
+        "aliases": [
+          "wheel",
+          "urdhva dhanurasana",
+          "full wheel"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Forward fold",
+        "aliases": [
+          "standing forward bend",
+          "uttanasana",
+          "ragdoll"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Butterfly",
+        "aliases": [
+          "bound angle",
+          "baddha konasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Easy pose",
+        "aliases": [
+          "sukhasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Eagle pose",
+        "aliases": [
+          "eagle",
+          "garudasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Half moon",
+        "aliases": [
+          "ardha chandrasana"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Legs up the wall",
+        "aliases": [
+          "viparita karani"
+        ],
+        "tier": 30
+      },
+      {
         "text": "Thread the needle",
         "aliases": [
           "eye of the needle"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Extended side angle",
@@ -5496,43 +5496,27 @@
           "side angle",
           "utthita parsvakonasana"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Reverse warrior",
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Star pose",
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Hero pose",
         "aliases": [
           "virasana"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Staff pose",
         "aliases": [
           "dandasana"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Lotus",
-        "aliases": [
-          "lotus pose",
-          "padmasana"
-        ],
-        "tier": 30
-      },
-      {
-        "text": "Mountain pose",
-        "aliases": [
-          "mountain",
-          "tadasana"
         ],
         "tier": 30
       },
@@ -5603,6 +5587,22 @@
           "bhujangasana"
         ],
         "tier": 10
+      },
+      {
+        "text": "Lotus",
+        "aliases": [
+          "lotus pose",
+          "padmasana"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Mountain pose",
+        "aliases": [
+          "mountain",
+          "tadasana"
+        ],
+        "tier": 10
       }
     ],
     "nearMisses": [
@@ -5630,6 +5630,113 @@
         "tier": 100
       },
       {
+        "text": "Bluesmobile",
+        "aliases": [
+          "blues brothers car"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Aladdin's magic carpet",
+        "aliases": [
+          "magic carpet"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Luke's landspeeder",
+        "aliases": [
+          "landspeeder"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Sandcrawler",
+        "tier": 85
+      },
+      {
+        "text": "Jabba's sail barge",
+        "tier": 85
+      },
+      {
+        "text": "Wagon Queen Family Truckster",
+        "aliases": [
+          "family truckster",
+          "griswold station wagon"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Starsky and Hutch Torino",
+        "aliases": [
+          "gran torino"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Ferris Bueller's Ferrari",
+        "tier": 85
+      },
+      {
+        "text": "Shaggin' Wagon",
+        "tier": 85
+      },
+      {
+        "text": "Arwing",
+        "aliases": [
+          "arwing ship"
+        ],
+        "tier": 85
+      },
+      {
+        "text": "Nostromo",
+        "tier": 85
+      },
+      {
+        "text": "Sulaco",
+        "tier": 85
+      },
+      {
+        "text": "Rocinante",
+        "tier": 85
+      },
+      {
+        "text": "Megazord",
+        "tier": 85
+      },
+      {
+        "text": "Fireball XL5",
+        "tier": 85
+      },
+      {
+        "text": "Batwing",
+        "tier": 85
+      },
+      {
+        "text": "Batboat",
+        "tier": 85
+      },
+      {
+        "text": "Batcopter",
+        "tier": 85
+      },
+      {
+        "text": "Batpod",
+        "tier": 85
+      },
+      {
+        "text": "Fantasticar",
+        "tier": 85
+      },
+      {
+        "text": "Quinjet",
+        "tier": 85
+      },
+      {
+        "text": "Helicarrier",
+        "tier": 85
+      },
+      {
         "text": "Aston Martin DB5",
         "aliases": [
           "james bond car",
@@ -5651,13 +5758,6 @@
         "tier": 85
       },
       {
-        "text": "Mini Cooper Italian Job",
-        "aliases": [
-          "italian job minis"
-        ],
-        "tier": 85
-      },
-      {
         "text": "VW bus Little Miss Sunshine",
         "aliases": [
           "little miss sunshine van"
@@ -5669,19 +5769,7 @@
         "tier": 85
       },
       {
-        "text": "Blue Thunder",
-        "tier": 85
-      },
-      {
-        "text": "Street Hawk",
-        "tier": 85
-      },
-      {
         "text": "KARR",
-        "tier": 85
-      },
-      {
-        "text": "Doc Hudson",
         "tier": 85
       },
       {
@@ -5717,15 +5805,7 @@
         "tier": 85
       },
       {
-        "text": "The King",
-        "tier": 85
-      },
-      {
         "text": "Cruz Ramirez",
-        "tier": 85
-      },
-      {
-        "text": "Jackson Storm",
         "tier": 85
       },
       {
@@ -5741,31 +5821,7 @@
         "tier": 85
       },
       {
-        "text": "Gordon",
-        "tier": 85
-      },
-      {
-        "text": "James",
-        "tier": 85
-      },
-      {
-        "text": "Henry",
-        "tier": 85
-      },
-      {
-        "text": "Edward",
-        "tier": 85
-      },
-      {
         "text": "Toby",
-        "tier": 85
-      },
-      {
-        "text": "Emily",
-        "tier": 85
-      },
-      {
-        "text": "Diesel 10",
         "tier": 85
       },
       {
@@ -5792,19 +5848,11 @@
         "tier": 85
       },
       {
-        "text": "Army Surplus Special",
-        "tier": 85
-      },
-      {
         "text": "Bulletproof Bomb",
         "tier": 85
       },
       {
         "text": "Arkansas Chuggabug",
-        "tier": 85
-      },
-      {
-        "text": "Convert-a-Car",
         "tier": 85
       },
       {
@@ -5832,10 +5880,6 @@
         "tier": 85
       },
       {
-        "text": "Speed bus",
-        "tier": 85
-      },
-      {
         "text": "Andrea Gail",
         "tier": 85
       },
@@ -5860,19 +5904,11 @@
         "tier": 85
       },
       {
-        "text": "Red October",
-        "tier": 85
-      },
-      {
         "text": "Seaview",
         "tier": 85
       },
       {
         "text": "Proteus",
-        "tier": 85
-      },
-      {
-        "text": "Event Horizon",
         "tier": 85
       },
       {
@@ -5884,19 +5920,11 @@
         "tier": 85
       },
       {
-        "text": "Heart of Gold",
-        "tier": 85
-      },
-      {
         "text": "Red Dwarf",
         "tier": 85
       },
       {
         "text": "Moya",
-        "tier": 85
-      },
-      {
-        "text": "Enterprise-D",
         "tier": 85
       },
       {
@@ -5936,31 +5964,11 @@
         "tier": 85
       },
       {
-        "text": "A-wing",
-        "tier": 85
-      },
-      {
-        "text": "Y-wing",
-        "tier": 85
-      },
-      {
-        "text": "B-wing",
-        "tier": 85
-      },
-      {
         "text": "Snowspeeder",
         "tier": 85
       },
       {
-        "text": "AT-ST",
-        "tier": 85
-      },
-      {
         "text": "Sith Infiltrator",
-        "tier": 85
-      },
-      {
-        "text": "Death Star II",
         "tier": 85
       },
       {
@@ -6102,18 +6110,6 @@
         "tier": 60
       },
       {
-        "text": "X-wing",
-        "tier": 60
-      },
-      {
-        "text": "TIE fighter",
-        "tier": 60
-      },
-      {
-        "text": "Death Star",
-        "tier": 60
-      },
-      {
         "text": "Hogwarts Express",
         "aliases": [
           "hogwarts train"
@@ -6130,22 +6126,7 @@
         "tier": 60
       },
       {
-        "text": "Knight Bus",
-        "tier": 60
-      },
-      {
-        "text": "Black Pearl",
-        "aliases": [
-          "black pearl ship"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Nautilus",
-        "tier": 60
-      },
-      {
-        "text": "Yellow Submarine",
         "tier": 60
       },
       {
@@ -6174,49 +6155,11 @@
         "tier": 60
       },
       {
-        "text": "Thomas the Tank Engine",
-        "aliases": [
-          "thomas",
-          "thomas the tank"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Polar Express",
-        "aliases": [
-          "polar express train"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Mach 5",
         "aliases": [
           "mach five",
           "speed racer car"
         ],
-        "tier": 60
-      },
-      {
-        "text": "A-Team van",
-        "aliases": [
-          "the a-team van",
-          "b.a.'s van"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bluesmobile",
-        "aliases": [
-          "blues brothers car"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Eleanor",
-        "tier": 60
-      },
-      {
-        "text": "Ghost Rider bike",
         "tier": 60
       },
       {
@@ -6235,17 +6178,6 @@
         "tier": 60
       },
       {
-        "text": "AT-AT",
-        "tier": 60
-      },
-      {
-        "text": "Slave I",
-        "aliases": [
-          "slave 1"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Serenity",
         "aliases": [
           "firefly ship"
@@ -6261,13 +6193,6 @@
         "tier": 60
       },
       {
-        "text": "Planet Express Ship",
-        "aliases": [
-          "planet express"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Jetsons car",
         "aliases": [
           "jetsons flying car"
@@ -6279,13 +6204,6 @@
         "aliases": [
           "pumpkin carriage",
           "pumpkin coach"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Aladdin's magic carpet",
-        "aliases": [
-          "magic carpet"
         ],
         "tier": 60
       },
@@ -6307,43 +6225,7 @@
         "tier": 60
       },
       {
-        "text": "War Rig",
-        "tier": 60
-      },
-      {
-        "text": "Christine",
-        "aliases": [
-          "plymouth fury"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Thunderbird 2",
-        "tier": 60
-      },
-      {
-        "text": "Jaws boat",
-        "aliases": [
-          "orca"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Wonder Woman's invisible jet",
-        "aliases": [
-          "invisible jet"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Luke's landspeeder",
-        "aliases": [
-          "landspeeder"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Sandcrawler",
         "tier": 60
       },
       {
@@ -6361,18 +6243,6 @@
         "tier": 60
       },
       {
-        "text": "Jabba's sail barge",
-        "tier": 60
-      },
-      {
-        "text": "Wagon Queen Family Truckster",
-        "aliases": [
-          "family truckster",
-          "griswold station wagon"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Cousin Eddie's RV",
         "tier": 60
       },
@@ -6381,22 +6251,7 @@
         "tier": 60
       },
       {
-        "text": "Brady Bunch station wagon",
-        "tier": 60
-      },
-      {
-        "text": "Miami Vice Ferrari",
-        "tier": 60
-      },
-      {
         "text": "Magnum P.I. Ferrari",
-        "tier": 60
-      },
-      {
-        "text": "Starsky and Hutch Torino",
-        "aliases": [
-          "gran torino"
-        ],
         "tier": 60
       },
       {
@@ -6414,10 +6269,6 @@
         "tier": 60
       },
       {
-        "text": "Ferris Bueller's Ferrari",
-        "tier": 60
-      },
-      {
         "text": "Fast and Furious Charger",
         "aliases": [
           "dom's charger"
@@ -6429,10 +6280,6 @@
         "tier": 60
       },
       {
-        "text": "Shaggin' Wagon",
-        "tier": 60
-      },
-      {
         "text": "Warthog",
         "aliases": [
           "halo warthog"
@@ -6440,25 +6287,7 @@
         "tier": 60
       },
       {
-        "text": "Normandy",
-        "tier": 60
-      },
-      {
         "text": "Mako",
-        "tier": 60
-      },
-      {
-        "text": "Arwing",
-        "aliases": [
-          "arwing ship"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Blue Falcon",
-        "aliases": [
-          "blue falcon car"
-        ],
         "tier": 60
       },
       {
@@ -6470,26 +6299,6 @@
       },
       {
         "text": "Colonial Viper",
-        "tier": 60
-      },
-      {
-        "text": "Jupiter 2",
-        "tier": 60
-      },
-      {
-        "text": "Discovery One",
-        "tier": 60
-      },
-      {
-        "text": "Nostromo",
-        "tier": 60
-      },
-      {
-        "text": "Sulaco",
-        "tier": 60
-      },
-      {
-        "text": "Rocinante",
         "tier": 60
       },
       {
@@ -6513,54 +6322,7 @@
         "tier": 60
       },
       {
-        "text": "Megazord",
-        "tier": 60
-      },
-      {
         "text": "Thunderbirds",
-        "tier": 60
-      },
-      {
-        "text": "Fireball XL5",
-        "tier": 60
-      },
-      {
-        "text": "Space: 1999 Eagle",
-        "aliases": [
-          "eagle transporter"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Batwing",
-        "tier": 60
-      },
-      {
-        "text": "Batboat",
-        "tier": 60
-      },
-      {
-        "text": "Batcopter",
-        "tier": 60
-      },
-      {
-        "text": "Batpod",
-        "tier": 60
-      },
-      {
-        "text": "Spider-Mobile",
-        "tier": 60
-      },
-      {
-        "text": "Fantasticar",
-        "tier": 60
-      },
-      {
-        "text": "Quinjet",
-        "tier": 60
-      },
-      {
-        "text": "Helicarrier",
         "tier": 60
       },
       {
@@ -6576,13 +6338,114 @@
         "tier": 60
       },
       {
-        "text": "Sanctuary II",
+        "text": "Mini Cooper Italian Job",
+        "aliases": [
+          "italian job minis"
+        ],
         "tier": 60
       },
       {
-        "text": "General Lee",
+        "text": "Blue Thunder",
+        "tier": 60
+      },
+      {
+        "text": "Street Hawk",
+        "tier": 60
+      },
+      {
+        "text": "Doc Hudson",
+        "tier": 60
+      },
+      {
+        "text": "Jackson Storm",
+        "tier": 60
+      },
+      {
+        "text": "Gordon",
+        "tier": 60
+      },
+      {
+        "text": "Henry",
+        "tier": 60
+      },
+      {
+        "text": "Edward",
+        "tier": 60
+      },
+      {
+        "text": "Emily",
+        "tier": 60
+      },
+      {
+        "text": "Diesel 10",
+        "tier": 60
+      },
+      {
+        "text": "Army Surplus Special",
+        "tier": 60
+      },
+      {
+        "text": "Convert-a-Car",
+        "tier": 60
+      },
+      {
+        "text": "Speed bus",
+        "tier": 60
+      },
+      {
+        "text": "Red October",
+        "tier": 60
+      },
+      {
+        "text": "Event Horizon",
+        "tier": 60
+      },
+      {
+        "text": "Heart of Gold",
+        "tier": 60
+      },
+      {
+        "text": "Enterprise-D",
+        "tier": 60
+      },
+      {
+        "text": "A-wing",
+        "tier": 60
+      },
+      {
+        "text": "Y-wing",
+        "tier": 60
+      },
+      {
+        "text": "B-wing",
+        "tier": 60
+      },
+      {
+        "text": "Death Star II",
+        "tier": 60
+      },
+      {
+        "text": "Batmobile",
         "aliases": [
-          "dodge charger general lee"
+          "batmobile tumbler"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "DeLorean",
+        "aliases": [
+          "time machine",
+          "delorean time machine",
+          "back to the future car",
+          "back to the future delorean"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Herbie",
+        "aliases": [
+          "herbie the love bug",
+          "love bug"
         ],
         "tier": 30
       },
@@ -6595,12 +6458,142 @@
         "tier": 30
       },
       {
-        "text": "Mystery Machine",
+        "text": "X-wing",
+        "tier": 30
+      },
+      {
+        "text": "TIE fighter",
+        "tier": 30
+      },
+      {
+        "text": "Knight Bus",
+        "tier": 30
+      },
+      {
+        "text": "Black Pearl",
         "aliases": [
-          "mystery machine van",
-          "scooby van",
-          "scooby-doo van"
+          "black pearl ship"
         ],
+        "tier": 30
+      },
+      {
+        "text": "Yellow Submarine",
+        "tier": 30
+      },
+      {
+        "text": "Thomas the Tank Engine",
+        "aliases": [
+          "thomas",
+          "thomas the tank"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Polar Express",
+        "aliases": [
+          "polar express train"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Eleanor",
+        "tier": 30
+      },
+      {
+        "text": "Ghost Rider bike",
+        "tier": 30
+      },
+      {
+        "text": "Slave I",
+        "aliases": [
+          "slave 1"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Planet Express Ship",
+        "aliases": [
+          "planet express"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "War Rig",
+        "tier": 30
+      },
+      {
+        "text": "Christine",
+        "aliases": [
+          "plymouth fury"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Jaws boat",
+        "aliases": [
+          "orca"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wonder Woman's invisible jet",
+        "aliases": [
+          "invisible jet"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Brady Bunch station wagon",
+        "tier": 30
+      },
+      {
+        "text": "Miami Vice Ferrari",
+        "tier": 30
+      },
+      {
+        "text": "Normandy",
+        "tier": 30
+      },
+      {
+        "text": "Blue Falcon",
+        "aliases": [
+          "blue falcon car"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Jupiter 2",
+        "tier": 30
+      },
+      {
+        "text": "Discovery One",
+        "tier": 30
+      },
+      {
+        "text": "Space: 1999 Eagle",
+        "aliases": [
+          "eagle transporter"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Spider-Mobile",
+        "tier": 30
+      },
+      {
+        "text": "Sanctuary II",
+        "tier": 30
+      },
+      {
+        "text": "The King",
+        "tier": 30
+      },
+      {
+        "text": "James",
+        "tier": 30
+      },
+      {
+        "text": "AT-ST",
         "tier": 30
       },
       {
@@ -6623,34 +6616,9 @@
         "tier": 15
       },
       {
-        "text": "Batmobile",
-        "aliases": [
-          "batmobile tumbler"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "DeLorean",
-        "aliases": [
-          "time machine",
-          "delorean time machine",
-          "back to the future car",
-          "back to the future delorean"
-        ],
-        "tier": 10
-      },
-      {
         "text": "Millennium Falcon",
         "aliases": [
           "the falcon"
-        ],
-        "tier": 10
-      },
-      {
-        "text": "Herbie",
-        "aliases": [
-          "herbie the love bug",
-          "love bug"
         ],
         "tier": 10
       },
@@ -6660,6 +6628,38 @@
           "mcqueen",
           "lightning"
         ],
+        "tier": 10
+      },
+      {
+        "text": "General Lee",
+        "aliases": [
+          "dodge charger general lee"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Mystery Machine",
+        "aliases": [
+          "mystery machine van",
+          "scooby van",
+          "scooby-doo van"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "Death Star",
+        "tier": 10
+      },
+      {
+        "text": "A-Team van",
+        "aliases": [
+          "the a-team van",
+          "b.a.'s van"
+        ],
+        "tier": 10
+      },
+      {
+        "text": "AT-AT",
         "tier": 10
       }
     ],
@@ -6681,43 +6681,6 @@
       {
         "text": "Kangaroo crossing",
         "tier": 100
-      },
-      {
-        "text": "One way",
-        "tier": 85
-      },
-      {
-        "text": "No U-turn",
-        "aliases": [
-          "no u turn"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "School zone",
-        "aliases": [
-          "school crossing",
-          "school"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Road work",
-        "aliases": [
-          "road work ahead",
-          "construction",
-          "men at work",
-          "construction zone"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "No parking",
-        "tier": 85
-      },
-      {
-        "text": "Exit",
-        "tier": 85
       },
       {
         "text": "Tsunami evacuation route",
@@ -6749,10 +6712,6 @@
         "tier": 85
       },
       {
-        "text": "Fire station",
-        "tier": 85
-      },
-      {
         "text": "Flagger ahead",
         "aliases": [
           "flagman ahead"
@@ -6761,10 +6720,6 @@
       },
       {
         "text": "Uneven lanes",
-        "tier": 85
-      },
-      {
-        "text": "Soft shoulder",
         "tier": 85
       },
       {
@@ -6777,17 +6732,6 @@
       },
       {
         "text": "Bump",
-        "tier": 85
-      },
-      {
-        "text": "Added lane",
-        "tier": 85
-      },
-      {
-        "text": "Right lane must turn right",
-        "aliases": [
-          "right lane must exit"
-        ],
         "tier": 85
       },
       {
@@ -6818,29 +6762,10 @@
         "tier": 85
       },
       {
-        "text": "Weight limit",
-        "tier": 85
-      },
-      {
-        "text": "Narrow bridge",
-        "tier": 85
-      },
-      {
         "text": "Bridge ices before road",
         "aliases": [
           "ice on bridge"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Watch for ice",
-        "aliases": [
-          "ice warning"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Side road",
         "tier": 85
       },
       {
@@ -6852,21 +6777,6 @@
         "tier": 85
       },
       {
-        "text": "Cross road",
-        "aliases": [
-          "intersection ahead",
-          "crossroads"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Two-way traffic",
-        "aliases": [
-          "two way traffic"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Divided highway",
         "aliases": [
           "divided highway begins",
@@ -6875,42 +6785,11 @@
         "tier": 85
       },
       {
-        "text": "Lane ends",
-        "tier": 85
-      },
-      {
-        "text": "Keep left",
-        "tier": 85
-      },
-      {
-        "text": "Keep right",
-        "tier": 85
-      },
-      {
-        "text": "Stop ahead",
-        "tier": 85
-      },
-      {
         "text": "Yield ahead",
         "tier": 85
       },
       {
-        "text": "Signal ahead",
-        "aliases": [
-          "traffic light ahead",
-          "traffic signal ahead"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Winding road",
-        "tier": 85
-      },
-      {
-        "text": "Sharp turn",
-        "aliases": [
-          "sharp curve"
-        ],
         "tier": 85
       },
       {
@@ -6939,29 +6818,10 @@
         "tier": 85
       },
       {
-        "text": "Exit only",
-        "tier": 85
-      },
-      {
-        "text": "Rest area",
-        "aliases": [
-          "rest stop"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Gas food lodging",
         "aliases": [
           "services"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Hospital",
-        "tier": 85
-      },
-      {
-        "text": "Airport",
         "tier": 85
       },
       {
@@ -6982,17 +6842,6 @@
         "text": "Interstate sign",
         "aliases": [
           "interstate shield"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pass with care",
-        "tier": 85
-      },
-      {
-        "text": "End road work",
-        "aliases": [
-          "end construction"
         ],
         "tier": 85
       },
@@ -7029,28 +6878,6 @@
         "tier": 85
       },
       {
-        "text": "No passing zone",
-        "aliases": [
-          "no passing"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Do not pass",
-        "tier": 85
-      },
-      {
-        "text": "Share the road",
-        "tier": 85
-      },
-      {
-        "text": "Bike lane",
-        "aliases": [
-          "bicycle lane"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Handicapped parking",
         "aliases": [
           "accessible parking",
@@ -7068,41 +6895,6 @@
       },
       {
         "text": "Detour",
-        "tier": 85
-      },
-      {
-        "text": "Dead end",
-        "aliases": [
-          "no outlet",
-          "no through road"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Wrong way",
-        "tier": 85
-      },
-      {
-        "text": "Do not enter",
-        "aliases": [
-          "no entry"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "No stopping",
-        "tier": 85
-      },
-      {
-        "text": "No left turn",
-        "tier": 85
-      },
-      {
-        "text": "No right turn",
-        "tier": 85
-      },
-      {
-        "text": "No turn on red",
         "tier": 85
       },
       {
@@ -7144,15 +6936,215 @@
         "tier": 85
       },
       {
+        "text": "Fire station",
+        "tier": 60
+      },
+      {
+        "text": "Soft shoulder",
+        "tier": 60
+      },
+      {
+        "text": "Added lane",
+        "tier": 60
+      },
+      {
+        "text": "Right lane must turn right",
+        "aliases": [
+          "right lane must exit"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Weight limit",
+        "tier": 60
+      },
+      {
+        "text": "Narrow bridge",
+        "tier": 60
+      },
+      {
+        "text": "Watch for ice",
+        "aliases": [
+          "ice warning"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Side road",
+        "tier": 60
+      },
+      {
+        "text": "Cross road",
+        "aliases": [
+          "intersection ahead",
+          "crossroads"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Two-way traffic",
+        "aliases": [
+          "two way traffic"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Lane ends",
+        "tier": 60
+      },
+      {
+        "text": "Stop ahead",
+        "tier": 60
+      },
+      {
+        "text": "Signal ahead",
+        "aliases": [
+          "traffic light ahead",
+          "traffic signal ahead"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Sharp turn",
+        "aliases": [
+          "sharp curve"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Exit only",
+        "tier": 60
+      },
+      {
+        "text": "Rest area",
+        "aliases": [
+          "rest stop"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Airport",
+        "tier": 60
+      },
+      {
+        "text": "Pass with care",
+        "tier": 60
+      },
+      {
+        "text": "End road work",
+        "aliases": [
+          "end construction"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "No passing zone",
+        "aliases": [
+          "no passing"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Do not pass",
+        "tier": 60
+      },
+      {
+        "text": "Share the road",
+        "tier": 60
+      },
+      {
+        "text": "Bike lane",
+        "aliases": [
+          "bicycle lane"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Do not enter",
+        "aliases": [
+          "no entry"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "No stopping",
+        "tier": 60
+      },
+      {
+        "text": "No turn on red",
+        "tier": 60
+      },
+      {
+        "text": "No U-turn",
+        "aliases": [
+          "no u turn"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "School zone",
+        "aliases": [
+          "school crossing",
+          "school"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Road work",
+        "aliases": [
+          "road work ahead",
+          "construction",
+          "men at work",
+          "construction zone"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "No parking",
+        "tier": 30
+      },
+      {
+        "text": "Exit",
+        "tier": 30
+      },
+      {
+        "text": "Keep left",
+        "tier": 30
+      },
+      {
+        "text": "Keep right",
+        "tier": 30
+      },
+      {
+        "text": "Hospital",
+        "tier": 30
+      },
+      {
+        "text": "Dead end",
+        "aliases": [
+          "no outlet",
+          "no through road"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Wrong way",
+        "tier": 30
+      },
+      {
+        "text": "No left turn",
+        "tier": 30
+      },
+      {
+        "text": "No right turn",
+        "tier": 30
+      },
+      {
         "text": "Children at play",
         "aliases": [
           "slow children"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Speed limit",
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Stop",
@@ -7167,6 +7159,14 @@
           "yield sign",
           "give way"
         ],
+        "tier": 10
+      },
+      {
+        "text": "Speed limit",
+        "tier": 10
+      },
+      {
+        "text": "One way",
         "tier": 10
       }
     ],
@@ -7197,64 +7197,7 @@
         "tier": 100
       },
       {
-        "text": "Leaf blower",
-        "aliases": [
-          "blower"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Weed whacker",
-        "aliases": [
-          "string trimmer",
-          "weed eater",
-          "weed wacker",
-          "strimmer"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pitchfork",
-        "tier": 85
-      },
-      {
-        "text": "Sprinkler",
-        "tier": 85
-      },
-      {
-        "text": "Garden gloves",
-        "aliases": [
-          "gardening gloves",
-          "gloves"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Pruning shears",
-        "aliases": [
-          "pruners",
-          "secateurs",
-          "clippers"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Watering can",
-        "tier": 85
-      },
-      {
-        "text": "Garden hose",
-        "aliases": [
-          "hose"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Broadfork",
-        "tier": 85
-      },
-      {
-        "text": "Wheel hoe",
         "tier": 85
       },
       {
@@ -7266,22 +7209,10 @@
         "tier": 85
       },
       {
-        "text": "Draw hoe",
-        "tier": 85
-      },
-      {
-        "text": "Warren hoe",
-        "tier": 85
-      },
-      {
         "text": "Cobrahead weeder",
         "aliases": [
           "cobrahead"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Japanese hand hoe",
         "tier": 85
       },
       {
@@ -7304,13 +7235,6 @@
       },
       {
         "text": "Bulb planter",
-        "tier": 85
-      },
-      {
-        "text": "Hand fork",
-        "aliases": [
-          "hand cultivator"
-        ],
         "tier": 85
       },
       {
@@ -7364,13 +7288,6 @@
         "tier": 85
       },
       {
-        "text": "Soil tester",
-        "aliases": [
-          "soil ph meter"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Thatching rake",
         "aliases": [
           "dethatcher",
@@ -7403,10 +7320,6 @@
         "tier": 85
       },
       {
-        "text": "Hose reel",
-        "tier": 85
-      },
-      {
         "text": "Hose nozzle",
         "aliases": [
           "spray nozzle"
@@ -7414,19 +7327,7 @@
         "tier": 85
       },
       {
-        "text": "Watering wand",
-        "tier": 85
-      },
-      {
         "text": "Soaker hose",
-        "tier": 85
-      },
-      {
-        "text": "Drip irrigation",
-        "tier": 85
-      },
-      {
-        "text": "Leaf vacuum",
         "tier": 85
       },
       {
@@ -7445,34 +7346,6 @@
         "tier": 85
       },
       {
-        "text": "Kneeling pad",
-        "aliases": [
-          "kneeler",
-          "garden kneeler"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Garden cart",
-        "tier": 85
-      },
-      {
-        "text": "Bow rake",
-        "tier": 85
-      },
-      {
-        "text": "Leaf rake",
-        "tier": 85
-      },
-      {
-        "text": "Garden fork",
-        "aliases": [
-          "digging fork",
-          "spading fork"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Cultivator",
         "tier": 85
       },
@@ -7486,13 +7359,6 @@
       },
       {
         "text": "Chainsaw",
-        "tier": 85
-      },
-      {
-        "text": "Axe",
-        "aliases": [
-          "ax"
-        ],
         "tier": 85
       },
       {
@@ -7523,19 +7389,7 @@
         "tier": 85
       },
       {
-        "text": "Rain barrel",
-        "tier": 85
-      },
-      {
         "text": "Trellis",
-        "tier": 85
-      },
-      {
-        "text": "Plant stakes",
-        "aliases": [
-          "stakes",
-          "garden stakes"
-        ],
         "tier": 85
       },
       {
@@ -7546,41 +7400,136 @@
         "tier": 85
       },
       {
+        "text": "Tarp",
+        "tier": 85
+      },
+      {
+        "text": "Weed whacker",
+        "aliases": [
+          "string trimmer",
+          "weed eater",
+          "weed wacker",
+          "strimmer"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Wheel hoe",
+        "tier": 60
+      },
+      {
+        "text": "Draw hoe",
+        "tier": 60
+      },
+      {
+        "text": "Warren hoe",
+        "tier": 60
+      },
+      {
+        "text": "Japanese hand hoe",
+        "tier": 60
+      },
+      {
+        "text": "Hand fork",
+        "aliases": [
+          "hand cultivator"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Soil tester",
+        "aliases": [
+          "soil ph meter"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Hose reel",
+        "tier": 60
+      },
+      {
+        "text": "Watering wand",
+        "tier": 60
+      },
+      {
+        "text": "Drip irrigation",
+        "tier": 60
+      },
+      {
+        "text": "Leaf vacuum",
+        "tier": 60
+      },
+      {
+        "text": "Kneeling pad",
+        "aliases": [
+          "kneeler",
+          "garden kneeler"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Garden cart",
+        "tier": 60
+      },
+      {
+        "text": "Bow rake",
+        "tier": 60
+      },
+      {
+        "text": "Leaf rake",
+        "tier": 60
+      },
+      {
+        "text": "Garden fork",
+        "aliases": [
+          "digging fork",
+          "spading fork"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Axe",
+        "aliases": [
+          "ax"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Rain barrel",
+        "tier": 60
+      },
+      {
+        "text": "Plant stakes",
+        "aliases": [
+          "stakes",
+          "garden stakes"
+        ],
+        "tier": 60
+      },
+      {
         "text": "Plant labels",
         "aliases": [
           "plant markers"
         ],
-        "tier": 85
+        "tier": 60
       },
       {
         "text": "Seed tray",
         "aliases": [
           "seed starting tray"
         ],
-        "tier": 85
-      },
-      {
-        "text": "Flower pot",
-        "aliases": [
-          "pot",
-          "planter"
-        ],
-        "tier": 85
+        "tier": 60
       },
       {
         "text": "Bucket",
-        "tier": 85
-      },
-      {
-        "text": "Tarp",
-        "tier": 85
+        "tier": 60
       },
       {
         "text": "Wheelbarrow",
         "aliases": [
           "wheel barrow"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Lawn mower",
@@ -7588,18 +7537,65 @@
           "lawnmower",
           "mower"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Trowel",
         "aliases": [
           "hand trowel"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
-        "text": "Hoe",
-        "tier": 60
+        "text": "Leaf blower",
+        "aliases": [
+          "blower"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pitchfork",
+        "tier": 30
+      },
+      {
+        "text": "Sprinkler",
+        "tier": 30
+      },
+      {
+        "text": "Garden gloves",
+        "aliases": [
+          "gardening gloves",
+          "gloves"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Pruning shears",
+        "aliases": [
+          "pruners",
+          "secateurs",
+          "clippers"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Watering can",
+        "tier": 30
+      },
+      {
+        "text": "Garden hose",
+        "aliases": [
+          "hose"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Flower pot",
+        "aliases": [
+          "pot",
+          "planter"
+        ],
+        "tier": 30
       },
       {
         "text": "Scissors",
@@ -7619,6 +7615,10 @@
       },
       {
         "text": "Spade",
+        "tier": 10
+      },
+      {
+        "text": "Hoe",
         "tier": 10
       }
     ],
@@ -7649,13 +7649,6 @@
         "tier": 100
       },
       {
-        "text": "Capitol Reef",
-        "aliases": [
-          "capital reef"
-        ],
-        "tier": 85
-      },
-      {
         "text": "Canyonlands",
         "aliases": [
           "canyon lands"
@@ -7663,30 +7656,7 @@
         "tier": 85
       },
       {
-        "text": "Great Sand Dunes",
-        "aliases": [
-          "sand dunes"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Mesa Verde",
-        "tier": 85
-      },
-      {
         "text": "Saguaro",
-        "tier": 85
-      },
-      {
-        "text": "Petrified Forest",
-        "tier": 85
-      },
-      {
-        "text": "White Sands",
-        "tier": 85
-      },
-      {
-        "text": "Crater Lake",
         "tier": 85
       },
       {
@@ -7697,56 +7667,9 @@
         "tier": 85
       },
       {
-        "text": "Hawaii Volcanoes",
-        "aliases": [
-          "hawaii volcanoes national park",
-          "volcanoes national park"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Glacier Bay",
-        "tier": 85
-      },
-      {
-        "text": "Mammoth Cave",
-        "tier": 85
-      },
-      {
-        "text": "Big Bend",
-        "tier": 85
-      },
-      {
         "text": "Carlsbad Caverns",
         "aliases": [
           "carlsbad"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Badlands",
-        "aliases": [
-          "badlands national park"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Redwood",
-        "aliases": [
-          "redwoods",
-          "redwood national park"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Kings Canyon",
-        "tier": 85
-      },
-      {
-        "text": "Mount Rainier",
-        "aliases": [
-          "rainier",
-          "mt rainier"
         ],
         "tier": 85
       },
@@ -7910,36 +7833,7 @@
         "tier": 85
       },
       {
-        "text": "Death Valley",
-        "tier": 60
-      },
-      {
-        "text": "Olympic",
-        "aliases": [
-          "olympic national park"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Bryce Canyon",
-        "aliases": [
-          "bryce"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Arches",
-        "tier": 60
-      },
-      {
         "text": "Sequoia",
-        "tier": 60
-      },
-      {
-        "text": "Shenandoah",
-        "aliases": [
-          "shenandoa"
-        ],
         "tier": 60
       },
       {
@@ -7954,15 +7848,136 @@
         "tier": 60
       },
       {
-        "text": "Joshua Tree",
+        "text": "Grand Teton",
+        "aliases": [
+          "grand tetons",
+          "tetons"
+        ],
         "tier": 60
+      },
+      {
+        "text": "Capitol Reef",
+        "aliases": [
+          "capital reef"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Great Sand Dunes",
+        "aliases": [
+          "sand dunes"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Mesa Verde",
+        "tier": 60
+      },
+      {
+        "text": "Petrified Forest",
+        "tier": 60
+      },
+      {
+        "text": "White Sands",
+        "tier": 60
+      },
+      {
+        "text": "Crater Lake",
+        "tier": 60
+      },
+      {
+        "text": "Hawaii Volcanoes",
+        "aliases": [
+          "hawaii volcanoes national park",
+          "volcanoes national park"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Glacier Bay",
+        "tier": 60
+      },
+      {
+        "text": "Mammoth Cave",
+        "tier": 60
+      },
+      {
+        "text": "Big Bend",
+        "tier": 60
+      },
+      {
+        "text": "Badlands",
+        "aliases": [
+          "badlands national park"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Redwood",
+        "aliases": [
+          "redwoods",
+          "redwood national park"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Kings Canyon",
+        "tier": 60
+      },
+      {
+        "text": "Mount Rainier",
+        "aliases": [
+          "rainier",
+          "mt rainier"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Yosemite",
+        "aliases": [
+          "yosemity"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Death Valley",
+        "tier": 30
+      },
+      {
+        "text": "Olympic",
+        "aliases": [
+          "olympic national park"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Bryce Canyon",
+        "aliases": [
+          "bryce"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Arches",
+        "tier": 30
+      },
+      {
+        "text": "Shenandoah",
+        "aliases": [
+          "shenandoa"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Joshua Tree",
+        "tier": 30
       },
       {
         "text": "Everglades",
         "aliases": [
           "the everglades"
         ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Great Smoky Mountains",
@@ -7972,15 +7987,7 @@
           "smokies",
           "great smokies"
         ],
-        "tier": 60
-      },
-      {
-        "text": "Grand Teton",
-        "aliases": [
-          "grand tetons",
-          "tetons"
-        ],
-        "tier": 60
+        "tier": 30
       },
       {
         "text": "Glacier",
@@ -7999,13 +8006,6 @@
       },
       {
         "text": "Yellowstone",
-        "tier": 10
-      },
-      {
-        "text": "Yosemite",
-        "aliases": [
-          "yosemity"
-        ],
         "tier": 10
       },
       {
@@ -8075,42 +8075,11 @@
         "tier": 85
       },
       {
-        "text": "Geoffrey Rush",
-        "tier": 85
-      },
-      {
-        "text": "Jeremy Irons",
-        "tier": 85
-      },
-      {
-        "text": "Gregory Peck",
-        "tier": 85
-      },
-      {
         "text": "Henry Fonda",
         "tier": 85
       },
       {
-        "text": "James Stewart",
-        "aliases": [
-          "jimmy stewart"
-        ],
-        "tier": 85
-      },
-      {
-        "text": "Gary Cooper",
-        "tier": 85
-      },
-      {
         "text": "Robert Duvall",
-        "tier": 85
-      },
-      {
-        "text": "William Hurt",
-        "tier": 85
-      },
-      {
-        "text": "Holly Hunter",
         "tier": 85
       },
       {
@@ -8119,14 +8088,6 @@
       },
       {
         "text": "Susan Sarandon",
-        "tier": 85
-      },
-      {
-        "text": "Helen Hunt",
-        "tier": 85
-      },
-      {
-        "text": "Joan Crawford",
         "tier": 85
       },
       {
@@ -8154,10 +8115,6 @@
         "tier": 85
       },
       {
-        "text": "Louise Fletcher",
-        "tier": 85
-      },
-      {
         "text": "Marion Cotillard",
         "tier": 85
       },
@@ -8175,10 +8132,6 @@
       },
       {
         "text": "Anjelica Huston",
-        "tier": 85
-      },
-      {
-        "text": "Regina King",
         "tier": 85
       },
       {
@@ -8261,18 +8214,6 @@
         "tier": 85
       },
       {
-        "text": "Melissa Leo",
-        "tier": 85
-      },
-      {
-        "text": "Tim Robbins",
-        "tier": 85
-      },
-      {
-        "text": "Chris Cooper",
-        "tier": 85
-      },
-      {
         "text": "Jim Broadbent",
         "tier": 85
       },
@@ -8317,27 +8258,7 @@
         "tier": 85
       },
       {
-        "text": "Burt Lancaster",
-        "tier": 85
-      },
-      {
         "text": "Rod Steiger",
-        "tier": 85
-      },
-      {
-        "text": "Lee Marvin",
-        "tier": 85
-      },
-      {
-        "text": "Cliff Robertson",
-        "tier": 85
-      },
-      {
-        "text": "Gene Kelly",
-        "tier": 85
-      },
-      {
-        "text": "Spencer Tracy",
         "tier": 85
       },
       {
@@ -8353,10 +8274,6 @@
         "tier": 85
       },
       {
-        "text": "Bing Crosby",
-        "tier": 85
-      },
-      {
         "text": "Ray Milland",
         "tier": 85
       },
@@ -8369,15 +8286,7 @@
         "tier": 85
       },
       {
-        "text": "Rex Harrison",
-        "tier": 85
-      },
-      {
         "text": "Paul Scofield",
-        "tier": 85
-      },
-      {
-        "text": "George C. Scott",
         "tier": 85
       },
       {
@@ -8389,15 +8298,7 @@
         "tier": 85
       },
       {
-        "text": "Peter Finch",
-        "tier": 85
-      },
-      {
         "text": "Jon Voight",
-        "tier": 85
-      },
-      {
-        "text": "F. Murray Abraham",
         "tier": 85
       },
       {
@@ -8417,23 +8318,11 @@
         "tier": 85
       },
       {
-        "text": "Jennifer Jones",
-        "tier": 85
-      },
-      {
-        "text": "Loretta Young",
-        "tier": 85
-      },
-      {
         "text": "Jane Wyman",
         "tier": 85
       },
       {
         "text": "Judy Holliday",
-        "tier": 85
-      },
-      {
-        "text": "Shirley Booth",
         "tier": 85
       },
       {
@@ -8445,19 +8334,7 @@
         "tier": 85
       },
       {
-        "text": "Patricia Neal",
-        "tier": 85
-      },
-      {
         "text": "Anne Bancroft",
-        "tier": 85
-      },
-      {
-        "text": "Julie Christie",
-        "tier": 85
-      },
-      {
-        "text": "Maggie Smith",
         "tier": 85
       },
       {
@@ -8481,15 +8358,7 @@
         "tier": 85
       },
       {
-        "text": "Ginger Rogers",
-        "tier": 85
-      },
-      {
         "text": "Hattie McDaniel",
-        "tier": 85
-      },
-      {
-        "text": "Eva Marie Saint",
         "tier": 85
       },
       {
@@ -8497,15 +8366,7 @@
         "tier": 85
       },
       {
-        "text": "Shelley Winters",
-        "tier": 85
-      },
-      {
         "text": "Goldie Hawn",
-        "tier": 85
-      },
-      {
-        "text": "Ruth Gordon",
         "tier": 85
       },
       {
@@ -8513,15 +8374,7 @@
         "tier": 85
       },
       {
-        "text": "Lee Grant",
-        "tier": 85
-      },
-      {
         "text": "Tatum O'Neal",
-        "tier": 85
-      },
-      {
-        "text": "Beatrice Straight",
         "tier": 85
       },
       {
@@ -8534,10 +8387,6 @@
       },
       {
         "text": "Jessica Lange",
-        "tier": 85
-      },
-      {
-        "text": "Linda Hunt",
         "tier": 85
       },
       {
@@ -8561,31 +8410,11 @@
         "tier": 85
       },
       {
-        "text": "Kim Hunter",
-        "tier": 85
-      },
-      {
-        "text": "Jo Van Fleet",
-        "tier": 85
-      },
-      {
-        "text": "Dorothy Malone",
-        "tier": 85
-      },
-      {
         "text": "Miyoshi Umeki",
         "tier": 85
       },
       {
         "text": "Wendy Hiller",
-        "tier": 85
-      },
-      {
-        "text": "Margaret Rutherford",
-        "tier": 85
-      },
-      {
-        "text": "Sandy Dennis",
         "tier": 85
       },
       {
@@ -8598,10 +8427,6 @@
       },
       {
         "text": "Ronald Colman",
-        "tier": 85
-      },
-      {
-        "text": "William Holden",
         "tier": 85
       },
       {
@@ -8621,15 +8446,7 @@
         "tier": 85
       },
       {
-        "text": "Helen Hayes",
-        "tier": 85
-      },
-      {
         "text": "Joanne Woodward",
-        "tier": 85
-      },
-      {
-        "text": "Susan Hayward",
         "tier": 85
       },
       {
@@ -8641,31 +8458,11 @@
         "tier": 85
       },
       {
-        "text": "George Kennedy",
-        "tier": 85
-      },
-      {
-        "text": "George Burns",
-        "tier": 85
-      },
-      {
         "text": "John Gielgud",
         "tier": 85
       },
       {
         "text": "Gale Sondergaard",
-        "tier": 85
-      },
-      {
-        "text": "Alice Brady",
-        "tier": 85
-      },
-      {
-        "text": "Shirley Jones",
-        "tier": 85
-      },
-      {
-        "text": "Patty Duke",
         "tier": 85
       },
       {
@@ -8686,10 +8483,6 @@
       },
       {
         "text": "Jessie Buckley",
-        "tier": 85
-      },
-      {
-        "text": "Michael B. Jordan",
         "tier": 85
       },
       {
@@ -8948,22 +8741,6 @@
         "tier": 85
       },
       {
-        "text": "John Wayne",
-        "tier": 60
-      },
-      {
-        "text": "Ben Kingsley",
-        "tier": 60
-      },
-      {
-        "text": "Daniel Day-Lewis",
-        "aliases": [
-          "day-lewis",
-          "daniel day lewis"
-        ],
-        "tier": 60
-      },
-      {
         "text": "Katharine Hepburn",
         "tier": 60
       },
@@ -8990,22 +8767,6 @@
         "tier": 60
       },
       {
-        "text": "Dustin Hoffman",
-        "tier": 60
-      },
-      {
-        "text": "Sean Penn",
-        "tier": 60
-      },
-      {
-        "text": "Russell Crowe",
-        "tier": 60
-      },
-      {
-        "text": "Halle Berry",
-        "tier": 60
-      },
-      {
         "text": "Nicole Kidman",
         "tier": 60
       },
@@ -9022,23 +8783,7 @@
         "tier": 60
       },
       {
-        "text": "Sandra Bullock",
-        "tier": 60
-      },
-      {
-        "text": "Natalie Portman",
-        "tier": 60
-      },
-      {
-        "text": "Jennifer Lawrence",
-        "tier": 60
-      },
-      {
         "text": "Cate Blanchett",
-        "tier": 60
-      },
-      {
-        "text": "Emma Stone",
         "tier": 60
       },
       {
@@ -9057,10 +8802,6 @@
         "tier": 60
       },
       {
-        "text": "Joaquin Phoenix",
-        "tier": 60
-      },
-      {
         "text": "Matthew McConaughey",
         "aliases": [
           "mcconaughey"
@@ -9076,27 +8817,11 @@
         "tier": 60
       },
       {
-        "text": "Brendan Fraser",
-        "tier": 60
-      },
-      {
         "text": "Cillian Murphy",
         "tier": 60
       },
       {
         "text": "Michelle Yeoh",
-        "tier": 60
-      },
-      {
-        "text": "Brad Pitt",
-        "tier": 60
-      },
-      {
-        "text": "Robert Downey Jr.",
-        "aliases": [
-          "robert downey jr",
-          "rdj"
-        ],
         "tier": 60
       },
       {
@@ -9127,10 +8852,6 @@
         "tier": 60
       },
       {
-        "text": "Viola Davis",
-        "tier": 60
-      },
-      {
         "text": "Lupita Nyong'o",
         "aliases": [
           "lupita nyongo"
@@ -9138,26 +8859,7 @@
         "tier": 60
       },
       {
-        "text": "Anne Hathaway",
-        "tier": 60
-      },
-      {
         "text": "Octavia Spencer",
-        "tier": 60
-      },
-      {
-        "text": "Jennifer Hudson",
-        "tier": 60
-      },
-      {
-        "text": "Penelope Cruz",
-        "aliases": [
-          "penélope cruz"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "Angelina Jolie",
         "tier": 60
       },
       {
@@ -9181,14 +8883,6 @@
         "tier": 60
       },
       {
-        "text": "Jodie Foster",
-        "tier": 60
-      },
-      {
-        "text": "Kathy Bates",
-        "tier": 60
-      },
-      {
         "text": "Gary Oldman",
         "tier": 60
       },
@@ -9197,31 +8891,7 @@
         "tier": 60
       },
       {
-        "text": "Philip Seymour Hoffman",
-        "tier": 60
-      },
-      {
-        "text": "Colin Firth",
-        "tier": 60
-      },
-      {
-        "text": "Jeff Bridges",
-        "tier": 60
-      },
-      {
         "text": "Ke Huy Quan",
-        "tier": 60
-      },
-      {
-        "text": "Jamie Lee Curtis",
-        "tier": 60
-      },
-      {
-        "text": "Audrey Hepburn",
-        "tier": 60
-      },
-      {
-        "text": "Elizabeth Taylor",
         "tier": 60
       },
       {
@@ -9229,19 +8899,7 @@
         "tier": 60
       },
       {
-        "text": "Clark Gable",
-        "tier": 60
-      },
-      {
         "text": "Sidney Poitier",
-        "tier": 60
-      },
-      {
-        "text": "Paul Newman",
-        "tier": 60
-      },
-      {
-        "text": "Grace Kelly",
         "tier": 60
       },
       {
@@ -9253,27 +8911,7 @@
         "tier": 60
       },
       {
-        "text": "Bette Davis",
-        "tier": 60
-      },
-      {
-        "text": "Julie Andrews",
-        "tier": 60
-      },
-      {
         "text": "Jane Fonda",
-        "tier": 60
-      },
-      {
-        "text": "Diane Keaton",
-        "tier": 60
-      },
-      {
-        "text": "Sally Field",
-        "tier": 60
-      },
-      {
-        "text": "Cher",
         "tier": 60
       },
       {
@@ -9281,46 +8919,11 @@
         "tier": 60
       },
       {
-        "text": "Emma Thompson",
-        "tier": 60
-      },
-      {
-        "text": "Michael Douglas",
-        "tier": 60
-      },
-      {
         "text": "Kevin Spacey",
         "tier": 60
       },
       {
-        "text": "Nicolas Cage",
-        "tier": 60
-      },
-      {
-        "text": "Forest Whitaker",
-        "tier": 60
-      },
-      {
-        "text": "Casey Affleck",
-        "tier": 60
-      },
-      {
         "text": "Marisa Tomei",
-        "tier": 60
-      },
-      {
-        "text": "Catherine Zeta-Jones",
-        "aliases": [
-          "catherine zeta jones"
-        ],
-        "tier": 60
-      },
-      {
-        "text": "George Clooney",
-        "tier": 60
-      },
-      {
-        "text": "Tommy Lee Jones",
         "tier": 60
       },
       {
@@ -9332,19 +8935,11 @@
         "tier": 60
       },
       {
-        "text": "Christian Bale",
-        "tier": 60
-      },
-      {
         "text": "Alan Arkin",
         "tier": 60
       },
       {
         "text": "Adrien Brody",
-        "tier": 60
-      },
-      {
-        "text": "Mikey Madison",
         "tier": 60
       },
       {
@@ -9359,15 +8954,415 @@
         "tier": 60
       },
       {
-        "text": "Julia Roberts",
+        "text": "Geoffrey Rush",
+        "tier": 60
+      },
+      {
+        "text": "Jeremy Irons",
+        "tier": 60
+      },
+      {
+        "text": "Gregory Peck",
+        "tier": 60
+      },
+      {
+        "text": "James Stewart",
+        "aliases": [
+          "jimmy stewart"
+        ],
+        "tier": 60
+      },
+      {
+        "text": "Gary Cooper",
+        "tier": 60
+      },
+      {
+        "text": "Holly Hunter",
+        "tier": 60
+      },
+      {
+        "text": "Helen Hunt",
+        "tier": 60
+      },
+      {
+        "text": "Joan Crawford",
+        "tier": 60
+      },
+      {
+        "text": "Louise Fletcher",
+        "tier": 60
+      },
+      {
+        "text": "Regina King",
+        "tier": 60
+      },
+      {
+        "text": "Melissa Leo",
+        "tier": 60
+      },
+      {
+        "text": "Tim Robbins",
+        "tier": 60
+      },
+      {
+        "text": "Chris Cooper",
+        "tier": 60
+      },
+      {
+        "text": "Burt Lancaster",
+        "tier": 60
+      },
+      {
+        "text": "Lee Marvin",
+        "tier": 60
+      },
+      {
+        "text": "Cliff Robertson",
+        "tier": 60
+      },
+      {
+        "text": "Gene Kelly",
+        "tier": 60
+      },
+      {
+        "text": "Spencer Tracy",
+        "tier": 60
+      },
+      {
+        "text": "Bing Crosby",
+        "tier": 60
+      },
+      {
+        "text": "Rex Harrison",
+        "tier": 60
+      },
+      {
+        "text": "George C. Scott",
+        "tier": 60
+      },
+      {
+        "text": "Peter Finch",
+        "tier": 60
+      },
+      {
+        "text": "F. Murray Abraham",
+        "tier": 60
+      },
+      {
+        "text": "Jennifer Jones",
+        "tier": 60
+      },
+      {
+        "text": "Loretta Young",
+        "tier": 60
+      },
+      {
+        "text": "Shirley Booth",
+        "tier": 60
+      },
+      {
+        "text": "Patricia Neal",
+        "tier": 60
+      },
+      {
+        "text": "Julie Christie",
+        "tier": 60
+      },
+      {
+        "text": "Maggie Smith",
+        "tier": 60
+      },
+      {
+        "text": "Ginger Rogers",
+        "tier": 60
+      },
+      {
+        "text": "Eva Marie Saint",
+        "tier": 60
+      },
+      {
+        "text": "Shelley Winters",
+        "tier": 60
+      },
+      {
+        "text": "Ruth Gordon",
+        "tier": 60
+      },
+      {
+        "text": "Lee Grant",
+        "tier": 60
+      },
+      {
+        "text": "Beatrice Straight",
+        "tier": 60
+      },
+      {
+        "text": "Linda Hunt",
+        "tier": 60
+      },
+      {
+        "text": "Kim Hunter",
+        "tier": 60
+      },
+      {
+        "text": "Jo Van Fleet",
+        "tier": 60
+      },
+      {
+        "text": "Dorothy Malone",
+        "tier": 60
+      },
+      {
+        "text": "Margaret Rutherford",
+        "tier": 60
+      },
+      {
+        "text": "Sandy Dennis",
+        "tier": 60
+      },
+      {
+        "text": "William Holden",
+        "tier": 60
+      },
+      {
+        "text": "Helen Hayes",
+        "tier": 60
+      },
+      {
+        "text": "Susan Hayward",
+        "tier": 60
+      },
+      {
+        "text": "George Kennedy",
+        "tier": 60
+      },
+      {
+        "text": "George Burns",
+        "tier": 60
+      },
+      {
+        "text": "Alice Brady",
+        "tier": 60
+      },
+      {
+        "text": "Shirley Jones",
+        "tier": 60
+      },
+      {
+        "text": "Patty Duke",
+        "tier": 60
+      },
+      {
+        "text": "Michael B. Jordan",
+        "tier": 60
+      },
+      {
+        "text": "Meryl Streep",
+        "aliases": [
+          "streep"
+        ],
         "tier": 30
       },
       {
-        "text": "Morgan Freeman",
+        "text": "John Wayne",
         "tier": 30
       },
       {
-        "text": "Anthony Hopkins",
+        "text": "Ben Kingsley",
+        "tier": 30
+      },
+      {
+        "text": "Daniel Day-Lewis",
+        "aliases": [
+          "day-lewis",
+          "daniel day lewis"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Dustin Hoffman",
+        "tier": 30
+      },
+      {
+        "text": "Sean Penn",
+        "tier": 30
+      },
+      {
+        "text": "Russell Crowe",
+        "tier": 30
+      },
+      {
+        "text": "Halle Berry",
+        "tier": 30
+      },
+      {
+        "text": "Sandra Bullock",
+        "tier": 30
+      },
+      {
+        "text": "Natalie Portman",
+        "tier": 30
+      },
+      {
+        "text": "Jennifer Lawrence",
+        "tier": 30
+      },
+      {
+        "text": "Emma Stone",
+        "tier": 30
+      },
+      {
+        "text": "Joaquin Phoenix",
+        "tier": 30
+      },
+      {
+        "text": "Brendan Fraser",
+        "tier": 30
+      },
+      {
+        "text": "Brad Pitt",
+        "tier": 30
+      },
+      {
+        "text": "Robert Downey Jr.",
+        "aliases": [
+          "robert downey jr",
+          "rdj"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Viola Davis",
+        "tier": 30
+      },
+      {
+        "text": "Anne Hathaway",
+        "tier": 30
+      },
+      {
+        "text": "Jennifer Hudson",
+        "tier": 30
+      },
+      {
+        "text": "Penelope Cruz",
+        "aliases": [
+          "penélope cruz"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "Angelina Jolie",
+        "tier": 30
+      },
+      {
+        "text": "Jodie Foster",
+        "tier": 30
+      },
+      {
+        "text": "Kathy Bates",
+        "tier": 30
+      },
+      {
+        "text": "Philip Seymour Hoffman",
+        "tier": 30
+      },
+      {
+        "text": "Colin Firth",
+        "tier": 30
+      },
+      {
+        "text": "Jeff Bridges",
+        "tier": 30
+      },
+      {
+        "text": "Jamie Lee Curtis",
+        "tier": 30
+      },
+      {
+        "text": "Audrey Hepburn",
+        "tier": 30
+      },
+      {
+        "text": "Elizabeth Taylor",
+        "tier": 30
+      },
+      {
+        "text": "Clark Gable",
+        "tier": 30
+      },
+      {
+        "text": "Paul Newman",
+        "tier": 30
+      },
+      {
+        "text": "Grace Kelly",
+        "tier": 30
+      },
+      {
+        "text": "Bette Davis",
+        "tier": 30
+      },
+      {
+        "text": "Julie Andrews",
+        "tier": 30
+      },
+      {
+        "text": "Diane Keaton",
+        "tier": 30
+      },
+      {
+        "text": "Sally Field",
+        "tier": 30
+      },
+      {
+        "text": "Cher",
+        "tier": 30
+      },
+      {
+        "text": "Emma Thompson",
+        "tier": 30
+      },
+      {
+        "text": "Michael Douglas",
+        "tier": 30
+      },
+      {
+        "text": "Nicolas Cage",
+        "tier": 30
+      },
+      {
+        "text": "Forest Whitaker",
+        "tier": 30
+      },
+      {
+        "text": "Casey Affleck",
+        "tier": 30
+      },
+      {
+        "text": "Catherine Zeta-Jones",
+        "aliases": [
+          "catherine zeta jones"
+        ],
+        "tier": 30
+      },
+      {
+        "text": "George Clooney",
+        "tier": 30
+      },
+      {
+        "text": "Tommy Lee Jones",
+        "tier": 30
+      },
+      {
+        "text": "Christian Bale",
+        "tier": 30
+      },
+      {
+        "text": "Mikey Madison",
+        "tier": 30
+      },
+      {
+        "text": "William Hurt",
         "tier": 30
       },
       {
@@ -9381,13 +9376,6 @@
       {
         "text": "Robin Williams",
         "tier": 15
-      },
-      {
-        "text": "Meryl Streep",
-        "aliases": [
-          "streep"
-        ],
-        "tier": 10
       },
       {
         "text": "Tom Hanks",
@@ -9417,6 +9405,18 @@
         "aliases": [
           "nicholson"
         ],
+        "tier": 10
+      },
+      {
+        "text": "Julia Roberts",
+        "tier": 10
+      },
+      {
+        "text": "Morgan Freeman",
+        "tier": 10
+      },
+      {
+        "text": "Anthony Hopkins",
         "tier": 10
       }
     ],

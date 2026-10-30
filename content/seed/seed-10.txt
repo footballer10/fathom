@@ -8,31 +8,19 @@ prompt: Name a US president or vice president
 Millard Fillmore | fillmore
 
 [Deep Cut]
-Chester A. Arthur | chester arthur | arthur
-James Monroe | monroe
 John Quincy Adams
 Martin Van Buren | van buren
-William Henry Harrison
-John Tyler | tyler
 James K. Polk | polk
 Zachary Taylor | taylor
-Franklin Pierce | pierce
-James Buchanan | buchanan
-Andrew Johnson
 Rutherford B. Hayes | hayes
-James A. Garfield | garfield
 Grover Cleveland | cleveland
-Benjamin Harrison | harrison
 William McKinley | mckinley
 William Howard Taft | taft
-Warren G. Harding | harding
 Calvin Coolidge | coolidge
-Herbert Hoover | hoover
 Aaron Burr | burr
 Dan Quayle | quayle
 Walter Mondale | mondale
 Spiro Agnew | agnew
-Nelson Rockefeller | rockefeller
 Hubert Humphrey | humphrey
 George Clinton
 Elbridge Gerry | gerry
@@ -62,27 +50,40 @@ Alben W. Barkley | barkley
 [Rare]
 Franklin D. Roosevelt | fdr | franklin roosevelt | roosevelt
 Theodore Roosevelt | teddy roosevelt | teddy
-George W. Bush | george bush | bush | dubya
-George H. W. Bush
-Bill Clinton | clinton
-Jimmy Carter | carter
 Richard Nixon | nixon
 Gerald Ford | ford
 Lyndon B. Johnson | lbj | lyndon johnson | johnson
 Dwight D. Eisenhower | eisenhower | ike
 Harry S. Truman | truman
-John Adams | adams
-James Madison | madison
-Andrew Jackson | jackson
 Ulysses S. Grant | grant
 Woodrow Wilson | wilson
 Al Gore | gore
 JD Vance | vance | j.d. vance
+Chester A. Arthur | chester arthur | arthur
+James Monroe | monroe
+William Henry Harrison
+John Tyler | tyler
+Franklin Pierce | pierce
+James Buchanan | buchanan
+Andrew Johnson
+James A. Garfield | garfield
+Benjamin Harrison | harrison
+Warren G. Harding | harding
+Herbert Hoover | hoover
+Nelson Rockefeller | rockefeller
 
 [Schooler]
-John F. Kennedy | jfk | kennedy | john kennedy
-Thomas Jefferson | jefferson
+Abraham Lincoln | lincoln | abe lincoln
+Barack Obama | obama
+Joe Biden | biden
 Ronald Reagan | reagan
+George W. Bush | george bush | bush | dubya
+George H. W. Bush
+Bill Clinton | clinton
+Jimmy Carter | carter
+John Adams | adams
+James Madison | madison
+Andrew Jackson | jackson
 
 [Too Clever]
 Kamala Harris | harris
@@ -91,10 +92,9 @@ Dick Cheney | cheney
 
 [Plankton]
 George Washington | washington
-Abraham Lincoln | lincoln | abe lincoln
-Barack Obama | obama
 Donald Trump | trump
-Joe Biden | biden
+John F. Kennedy | jfk | kennedy | john kennedy
+Thomas Jefferson | jefferson
 
 [Not accepted]
 Benjamin Franklin
@@ -115,57 +115,15 @@ prompt: Name a video game console or handheld
 Virtual Boy | nintendo virtual boy
 
 [Deep Cut]
-Xbox Series S
-Switch Lite
-Switch OLED | nintendo switch oled
-2DS | nintendo 2ds
-New 3DS
-DSi
-DS Lite
-Game Boy Pocket
-Game Boy Micro
-Game Boy Advance SP | gba sp
-Game & Watch
-Sega Master System | master system
-Sega Game Gear | game gear
-Sega CD
-Sega 32X | 32x
 Atari 5200
 Atari 7800
-Atari Jaguar | jaguar
-Atari Lynx | lynx
-Intellivision
 ColecoVision
-Magnavox Odyssey | odyssey
-Neo Geo
 TurboGrafx-16 | turbografx
-3DO
-Philips CD-i | cd-i
-N-Gage
-PlayStation VR | psvr
-Meta Quest | oculus quest | quest | meta quest 2 | meta quest 3
-Ouya
-Nvidia Shield
-Google Stadia | stadia
-Amazon Luna
-PlayStation Portal
-ROG Ally
-Legion Go
-Analogue Pocket
-Playdate
 Evercade
-NEC PC Engine | pc engine
-Famicom | famicom disk system
-Super Famicom
 Nintendo 64DD | 64dd
-Pokemon Mini
 WonderSwan
-Neo Geo Pocket
 Leapster
 Vtech V.Smile
-Commodore 64 | c64
-Amiga
-ZX Spectrum
 Fairchild Channel F | channel f
 Vectrex
 Bally Astrocade
@@ -180,34 +138,20 @@ Tapwave Zodiac
 Gizmondo
 GP32
 GP2X
-Pandora
 HyperScan
 Game.com
 Atari Flashback
-NES Classic | nes mini
 SNES Classic
-PlayStation Classic
 Sega Genesis Mini
-Mega Sg
 Polymega
 Retron
-Super Nt
 Intellivision Amico
 Atari VCS
-Xbox One X
-Xbox One S
-PS4 Pro
 PS5 Pro
 PS5 Slim
-PS4 Slim
-PS3 Slim
 PSone
-Wii Mini
 Nomad | sega nomad
 Pico | sega pico
-Neo Geo CD
-PC-FX
-Game Boy Light
 Magnavox Odyssey 2 | odyssey 2
 Atari 400
 Atari 800
@@ -228,56 +172,31 @@ Sega Mega-CD
 Sega Multi-Mega
 Sega Teradrive
 Sega Saturn Model 2
-Game Gear Micro
-Mega Drive Mini
-Master System Mini
 NEC SuperGrafx
 TurboExpress
 TurboDuo
-PC Engine GT
-PC Engine Duo
 PC Engine CoreGrafx
 Neo Geo AES
 Neo Geo MVS
-Neo Geo Pocket Color
-Neo Geo X
-Neo Geo Mini
 Bandai WonderSwan Color
 SwanCrystal
 Bandai Playdia
 Bandai Pippin
-Tiger Electronics
-Tiger R-Zone | r-zone
 Tiger Game.com
 Nintendo Famicom Disk System
 Satellaview
-Nintendo Color TV-Game
-Super Nintendo Entertainment System
 SNES Jr.
 Top-loading NES
 NES-101
-Nintendo 64 Jumbo
 iQue Player
 Nintendo DSi XL
 New Nintendo 2DS XL
 New Nintendo 3DS XL
-Wii Family Edition
-Game Boy Advance Micro
 PocketStation
-PlayStation Portable Go | psp go
 PSP Street
-PS Vita Slim
-PlayStation TV
-PlayStation 2 Slim
 PS2 Slim
-PS3 Super Slim
 PS5 Digital Edition
-Xbox 360 S
-Xbox 360 E
 Xbox One Kinect
-Xbox Series X Digital
-Xbox Ally
-Steam Machine
 Steam Deck OLED
 GameStick
 Mad Catz M.O.J.O.
@@ -293,18 +212,15 @@ MSI Claw
 ROG Ally X
 Lenovo Legion Go S
 Analogue Duo
-Analogue 3D
 Analogue Super Nt
 Analogue Mega Sg
 Hyperkin RetroN 5
 AtGames
-Atari 2600+
 Atari 7800+
 Atari Gamestation Pro
 Arcade1Up
 Evercade VS
 Evercade EXP
-Super Pocket
 ModRetro Chromatic
 Nex Playground
 Leapfrog Leapster GS
@@ -320,16 +236,88 @@ Famiclone
 Dendy
 Amiga CD32 | cd32
 Commodore CDTV
-FM Towns Marty
 Sharp X68000
-NEC PC-98
 MSX
 Oculus Rift
-Valve Index
 HTC Vive
 PlayStation VR2 | psvr2
 
 [Rare]
+Switch OLED | nintendo switch oled
+2DS | nintendo 2ds
+New 3DS
+DSi
+DS Lite
+Sega Master System | master system
+Sega Game Gear | game gear
+Sega CD
+Sega 32X | 32x
+Atari Jaguar | jaguar
+Atari Lynx | lynx
+Intellivision
+Magnavox Odyssey | odyssey
+3DO
+Philips CD-i | cd-i
+N-Gage
+Ouya
+Nvidia Shield
+Google Stadia | stadia
+ROG Ally
+Analogue Pocket
+Playdate
+NEC PC Engine | pc engine
+Famicom | famicom disk system
+Super Famicom
+Commodore 64 | c64
+Amiga
+ZX Spectrum
+Pandora
+NES Classic | nes mini
+PlayStation Classic
+Mega Sg
+Super Nt
+Xbox One X
+Xbox One S
+PS4 Pro
+PS4 Slim
+PS3 Slim
+Wii Mini
+Neo Geo CD
+PC-FX
+Game Boy Light
+Game Gear Micro
+Mega Drive Mini
+Master System Mini
+PC Engine GT
+PC Engine Duo
+Neo Geo Pocket Color
+Neo Geo X
+Neo Geo Mini
+Tiger Electronics
+Tiger R-Zone | r-zone
+Nintendo Color TV-Game
+Super Nintendo Entertainment System
+Nintendo 64 Jumbo
+Wii Family Edition
+Game Boy Advance Micro
+PlayStation Portable Go | psp go
+PS Vita Slim
+PlayStation TV
+PlayStation 2 Slim
+PS3 Super Slim
+Xbox 360 S
+Xbox 360 E
+Xbox Series X Digital
+Xbox Ally
+Steam Machine
+Analogue 3D
+Super Pocket
+FM Towns Marty
+NEC PC-98
+Valve Index
+
+[Schooler]
+Wii | nintendo wii
 Nintendo 64 | n64
 Super Nintendo | snes | super nes
 NES | nintendo entertainment system | nintendo
@@ -350,11 +338,21 @@ PS Vita | vita
 Nintendo Switch 2 | switch 2
 Sega Dreamcast | dreamcast
 Sega Saturn | saturn
-
-[Schooler]
-PlayStation 5 | ps5
-Game Boy | gameboy
-PlayStation 4 | ps4
+Xbox Series S
+Switch Lite
+Game Boy Pocket
+Game Boy Micro
+Game Boy Advance SP | gba sp
+Game & Watch
+Neo Geo
+PlayStation VR | psvr
+Meta Quest | oculus quest | quest | meta quest 2 | meta quest 3
+Amazon Luna
+PlayStation Portal
+Legion Go
+Pokemon Mini
+Neo Geo Pocket
+Atari 2600+
 
 [Too Clever]
 Arcade cabinet | arcade
@@ -365,8 +363,10 @@ PC | computer
 PlayStation | ps1 | playstation 1 | psx
 Xbox
 Nintendo Switch | switch
-Wii | nintendo wii
 PlayStation 2 | ps2
+PlayStation 5 | ps5
+Game Boy | gameboy
+PlayStation 4 | ps4
 
 [Not accepted]
 iPhone
@@ -393,80 +393,36 @@ prompt: Name a family member or relative (like aunt or cousin)
 Great-great-grandmother | great great grandmother | great-great-grandma
 
 [Deep Cut]
-Great-aunt | great aunt | grandaunt
-Great-uncle | great uncle | granduncle
-Great-grandson
-Great-granddaughter
-Great-grandchild
-Great-niece
-Great-nephew
-First cousin
-Third cousin
-Cousin twice removed
-Stepson
-Stepdaughter
 Stepchild
 Stepparent
 Stepsibling
-Half-sibling
 Godson
 Goddaughter
 Godchild | ahijado | ahijada
-Foster parent
-Foster child
-Adopted son
-Adopted daughter
-Birth mother
-Birth father
-Guardian
-Triplet
 Quadruplet
-Identical twin
-Fraternal twin
-Only child
-Widow
-Widower
-Partner | significant other | life partner
-Domestic partner
-Co-parent
-Baby mama
-Baby daddy
 Stepgrandmother
 Stepgrandfather
-Grandparent
-Great-grandparent
-Great-great-grandfather
-Co-in-law
 Machetaine | machatunim
 Pibling
 Auncle
 Grandnibling
 Grandnephew
 Grandniece
-Cousin-in-law
-Uncle-in-law
 Aunt-in-law
 Nephew-in-law
 Niece-in-law
 Grandmother-in-law
 Grandfather-in-law
-Ex-in-law
-Half-uncle
 Half-aunt
-Half-cousin
-Step-cousin
 Stepniece
 Stepnephew
 Stepaunt
 Stepuncle
-Double cousin
-Cousin-german
 Great-great-grandson
 Great-great-granddaughter
 Great-great-grandchild
 Great-great-grandparent
 Great-great-aunt
-Great-great-uncle
 Great-grandniece
 Great-grandnephew
 Grandcousin
@@ -474,17 +430,10 @@ First cousin once removed
 First cousin twice removed
 Second cousin twice removed
 Third cousin once removed
-Fourth cousin
-Fifth cousin
 Kissing cousin
-Cousin brother
-Cousin sister
 Kin
 Kinsman
 Kinswoman
-Relative
-Relation
-Family
 Next of kin
 Descendant
 Progenitor
@@ -494,13 +443,10 @@ Heir
 Heiress
 Offspring
 Progeny
-Issue
 Scion
 Firstborn
 Eldest
-Middle child
 Youngest
-Baby of the family
 Twin sons
 Conjoined twin
 Quintuplet
@@ -552,51 +498,29 @@ Biological mother
 Biological father
 Bio mom
 Bio dad
-Birth parent
 Surrogate mother
-Foster mother
-Foster father
 Foster brother
 Foster sister
 Foster sibling
 Bride
 Groom
 Bride-to-be
-Husband-to-be
 Betrothed
 Common-law spouse
-Ex-partner
-Ex-boyfriend
-Ex-girlfriend
 Ex-spouse
 Ex-stepparent
-Former in-law
-Second wife
-Second husband
-First wife
-Co-wife
-Sister wife
 Great-great-great-grandmother
 Great-great-great-grandfather
 Ninth cousin
 Spouse's sibling
 Sibling-in-law
-Child-in-law
-Parent-in-law
 Grandparent-in-law
-Mother-in-law-to-be
-Father-in-law-to-be
 Consuegro
 Consuegra
-Co-mother-in-law
-Co-father-in-law
 Cousin's spouse
 Niece's husband
 Nephew's wife
 Aunt by marriage
-Uncle by marriage
-Cousin by marriage
-Half-uncle-in-law
 Stepbrother-in-law
 Stepsister-in-law
 Stepmother-in-law
@@ -605,6 +529,86 @@ Step-grandparent
 Grandbaby
 
 [Rare]
+Stepbrother
+Stepsister
+Godmother
+Godparent | padrino | madrina
+Great-aunt | great aunt | grandaunt
+Great-uncle | great uncle | granduncle
+Great-grandson
+Great-granddaughter
+Great-grandchild
+Great-niece
+Great-nephew
+First cousin
+Third cousin
+Cousin twice removed
+Stepson
+Stepdaughter
+Half-sibling
+Foster parent
+Foster child
+Adopted son
+Adopted daughter
+Birth mother
+Birth father
+Guardian
+Triplet
+Identical twin
+Fraternal twin
+Widow
+Widower
+Domestic partner
+Co-parent
+Baby mama
+Baby daddy
+Grandparent
+Great-grandparent
+Great-great-grandfather
+Cousin-in-law
+Uncle-in-law
+Ex-in-law
+Half-uncle
+Half-cousin
+Step-cousin
+Double cousin
+Cousin-german
+Great-great-uncle
+Fourth cousin
+Fifth cousin
+Cousin brother
+Cousin sister
+Relative
+Relation
+Family
+Issue
+Middle child
+Baby of the family
+Birth parent
+Foster mother
+Foster father
+Husband-to-be
+Ex-partner
+Ex-boyfriend
+Ex-girlfriend
+Former in-law
+Second wife
+Second husband
+First wife
+Co-wife
+Sister wife
+Child-in-law
+Parent-in-law
+Mother-in-law-to-be
+Father-in-law-to-be
+Co-mother-in-law
+Co-father-in-law
+Uncle by marriage
+Cousin by marriage
+Half-uncle-in-law
+
+[Schooler]
+Grandma | grandmother | granny | nana | gran | nan | grammy | grams | meemaw | nonna | abuela | oma | bubbe | yiayia | lola
 Grandpa | grandfather | grandad | granddad | gramps | pop pop | grandpop | pawpaw | peepaw | nonno | abuelo | opa | zayde | papou | lolo
 Son
 Daughter
@@ -623,8 +627,6 @@ Granddaughter
 Grandchild | grandkid
 Stepmother | stepmom
 Stepfather | stepdad
-Stepbrother
-Stepsister
 Half-brother | half brother
 Half-sister | half sister
 Mother-in-law
@@ -635,19 +637,15 @@ Son-in-law
 Daughter-in-law
 Great-grandmother | great grandma | great-grandma
 Great-grandfather | great grandpa | great-grandpa
-Godmother
 Godfather
-Godparent | padrino | madrina
 Second cousin
 In-laws
 Ex-wife | ex
 Ex-husband
 Fiance | fiancé | fiancee | fiancée
-
-[Schooler]
-Uncle | unc | tio | zio
-Cousin
-Grandma | grandmother | granny | nana | gran | nan | grammy | grams | meemaw | nonna | abuela | oma | bubbe | yiayia | lola
+Only child
+Partner | significant other | life partner
+Co-in-law
 
 [Too Clever]
 Ancestor | forebear | forefather | foremother
@@ -667,6 +665,8 @@ Dad | father | daddy | papa | pa | pop | old man
 Brother | bro | big brother | little brother | older brother | younger brother
 Sister | sis | big sister | little sister | older sister | younger sister
 Aunt | auntie | tia | tante | zia
+Uncle | unc | tio | zio
+Cousin
 
 [Not accepted]
 Friend
@@ -691,47 +691,15 @@ prompt: Name a bone in the human body
 Hyoid | hyoid bone
 
 [Deep Cut]
-Maxilla | upper jaw
-Frontal bone
-Parietal bone
-Temporal bone
-Occipital bone
-Sphenoid
-Ethmoid
-Lacrimal bone
-Palatine bone
 Vomer
-Inferior nasal concha
-Atlas
-Axis
-Cervical vertebrae
-Thoracic vertebrae
-Lumbar vertebrae
-Ilium
-Ischium
-Pubis
-Talus | astragalus
-Navicular
-Cuboid
-Cuneiform
-Scaphoid
-Lunate
 Triquetrum
 Pisiform
-Trapezium
-Trapezoid
 Capitate
 Hamate
-Sesamoid bone
-Floating rib
-True ribs
-False ribs
 Xiphoid process
 Manubrium
 Acromion
 Olecranon | elbow bone
-Malleolus
-Middle ear bones | ossicles | auditory ossicles
 Distal phalanx
 Proximal phalanx
 Intermediate phalanx
@@ -751,7 +719,6 @@ Petrous bone
 Turbinate
 Interparietal bone
 Pubic bone
-Sit bones | ischial tuberosity
 Iliac crest
 Acetabulum
 Greater trochanter
@@ -769,31 +736,24 @@ Coracoid process
 Glenoid
 Spine of scapula
 Humeral head
-Radial head
 Styloid process
 Mastoid process
 Spinous process
-Transverse process
 Zygomatic arch
-Orbit | eye socket
 Mandibular condyle
 Alveolar process
-Hard palate
 Cribriform plate
 Sella turcica
 Clivus
 Foramen magnum
 Superior nasal concha
 Middle nasal concha
-First rib
-Twelfth rib
 Cervical rib
 Seventh cervical vertebra | vertebra prominens
 Lumbar vertebra
 Thoracic vertebra
 Cervical vertebra
 Shoulder girdle
-Skull cap | calvaria
 Occiput
 Accessory navicular
 Os peroneum
@@ -801,6 +761,50 @@ Os acromiale
 Cyamella
 
 [Rare]
+Phalanges | phalanx | finger bone | toe bone
+Metacarpals | metacarpal
+Metatarsals | metatarsal
+Carpals | carpal | wrist bone
+Tarsals | tarsal | ankle bone
+Maxilla | upper jaw
+Frontal bone
+Parietal bone
+Temporal bone
+Occipital bone
+Sphenoid
+Ethmoid
+Lacrimal bone
+Palatine bone
+Inferior nasal concha
+Cervical vertebrae
+Thoracic vertebrae
+Lumbar vertebrae
+Ilium
+Ischium
+Pubis
+Talus | astragalus
+Navicular
+Cuboid
+Cuneiform
+Scaphoid
+Lunate
+Trapezium
+Trapezoid
+Sesamoid bone
+Floating rib
+False ribs
+Malleolus
+Sit bones | ischial tuberosity
+Radial head
+Transverse process
+Orbit | eye socket
+Hard palate
+First rib
+Twelfth rib
+Skull cap | calvaria
+
+[Schooler]
+Kneecap | patella | knee cap
 Tibia | shinbone | shin bone
 Fibula
 Humerus
@@ -810,22 +814,16 @@ Pelvis | hip bone | hipbone | pelvic bone | pelvic girdle
 Sternum | breastbone
 Scapula | shoulder blade
 Vertebra | vertebrae
-Phalanges | phalanx | finger bone | toe bone
-Metacarpals | metacarpal
-Metatarsals | metatarsal
-Carpals | carpal | wrist bone
-Tarsals | tarsal | ankle bone
 Heel bone | calcaneus | calcaneum
 Cheekbone | zygomatic | zygomatic bone | malar bone
 Sacrum
 Stirrup | stapes
-Hammer | malleus
 Anvil | incus
 Nasal bone | nose bone
-
-[Schooler]
-Collarbone | clavicle | collar bone
-Kneecap | patella | knee cap
+Atlas
+Axis
+True ribs
+Middle ear bones | ossicles | auditory ossicles
 
 [Too Clever]
 Funny bone | ulnar nerve
@@ -837,6 +835,8 @@ Femur | thigh bone | thighbone
 Rib | ribs | rib cage
 Spine | backbone | spinal column | vertebral column
 Jawbone | jaw | mandible
+Collarbone | clavicle | collar bone
+Hammer | malleus
 
 [Not accepted]
 Muscle
@@ -860,97 +860,16 @@ prompt: Name a type of vehicle
 Zamboni | ice resurfacer
 
 [Deep Cut]
-Hovercraft
-Segway
-Hoverboard
-Rickshaw
-Tuk-tuk | tuk tuk
 Pedicab
-Horse and buggy | buggy | carriage
-Stagecoach
-Chariot
-Covered wagon
-Glider
-Seaplane
-Biplane
-Drone
-Zeppelin
-Airship
-Space station
-Lunar rover | moon buggy
-Mars rover
-Dune buggy
-Dirt bike
-Quad bike
 Snowcat
-Bobsled
 Toboggan
-Dog sled
-Tow truck
-Ice cream truck
-Food truck
-Armored car
-Humvee
 Jeepney
-Double-decker bus | double decker
 Trolleybus
-Minibus
-Paddy wagon
-Hearse
-Mail truck
-Delivery van
-Box truck
-Flatbed
-Tanker
-Car transporter
-Steamroller
-Backhoe
-Skid steer | bobcat
-Combine harvester | combine
-Lawn tractor | riding mower
-Street sweeper
 Snowplow
-Bullet train | high-speed train
-Maglev
-Locomotive
-Freight train
-Caboose
 Handcar
 Funicular
-Gondola
-Ferry
-Tugboat
-Barge
-Cruise ship
-Aircraft carrier
-Battleship
-Destroyer
-Speedboat
-Pontoon
-Rowboat
-Raft
 Paddleboard
-Catamaran
-Houseboat
-Fishing boat
-Trawler
-Steamboat
-Paddle steamer
-Riverboat
-Galleon
-Pirate ship
-Viking ship | longship
-Dinghy
-Lifeboat
-Amphibious vehicle | duck boat
-E-bike
-Penny-farthing | penny farthing
-Tandem bicycle | tandem
-Recumbent bike
 Velomobile
-Wheelchair
-Mobility scooter
-Stroller | pram
 Sidecar
 Trike
 Autogyro | gyrocopter
@@ -965,7 +884,6 @@ Airboat
 Swamp buggy
 Halftrack
 Armored personnel carrier | apc
-Landing craft
 Sampan
 Dhow
 Felucca
@@ -991,61 +909,32 @@ Matatu
 Dolmus
 Marshrutka
 Songthaew
-Soap box car
 Draisine
 Coupe
 Roadster
 Crossover
-Compact car
 Subcompact
 Microcar
 Kei car
-Smart car
 Supercar
 Hypercar
-Muscle car
 Pony car
-Hot rod
 Lowrider
 Dragster
-Funny car
-Stock car
-Formula One car | f1 car
 IndyCar
-Rally car
-Kit car
 Sandrail
 Rock crawler
-Monster truck
-Lifted truck
 Off-roader
 4x4
-Utility vehicle | ute
-Panel van
 Camper van
-Conversion van
 Sprinter van
-Cargo van
-Step van
-Travel trailer
-Fifth-wheel trailer
 Pop-up camper
 Teardrop trailer
-Horse trailer
-Boat trailer
-Utility trailer
-Semi-trailer
-Road train
 Logging truck
-Cattle truck
-Car carrier
 Fuel tanker
 Milk tanker
 Refrigerated truck | reefer
-Moving truck
-Bucket truck
 Cherry picker
-Boom lift
 Scissor lift
 Reach stacker
 Straddle carrier
@@ -1056,16 +945,12 @@ Grader | motor grader
 Scraper
 Trencher
 Compactor
-Road roller
 Paver
-Pile driver
 Drill rig
-Concrete pump
 Mobile crane
 Tower crane
 Crawler crane
 Dragline
-Mining truck
 Haul truck
 Articulated hauler
 Telehandler
@@ -1076,7 +961,6 @@ Harvester
 Cotton picker
 Baler
 Hay wagon
-Grain truck
 Sprayer
 Seed drill
 Mower
@@ -1090,76 +974,47 @@ Pushback tractor
 Fuel bowser
 Airstair truck
 Catering truck
-Ladder truck
 Hook and ladder
 Pumper
-Brush truck
-Rescue truck
 Paramedic unit
-Squad car
-Patrol car
 Cruiser
 Unmarked car
 SWAT van
-Prison bus
 Armored truck
-Bank truck
 Garbage compactor
 Recycling truck
 Street sweeper truck
 Septic truck
-Vacuum truck
-Water truck
-Utility truck
-Mail van
 Postal truck
 Milk float
-Ice cream van
-Hot dog cart
 Taco truck
 Bookmobile
 Bloodmobile
 Popemobile
 Presidential limousine | the beast
-Party bus
-Tour bus
 Sightseeing bus
-Coach
 Motorcoach
 Articulated bus | bendy bus
 Shuttle bus
 Airport shuttle
 Hotel shuttle
-Short bus
-Charter bus
 Intercity bus
-Light rail
-Cable railway
 Rack railway | cog railway
-Elevated train | el
 Commuter train
-Regional train
 Sleeper train
-Dining car
 Boxcar
 Hopper car
 Flatcar
-Tank car
 Gondola car
 Autorack
-Passenger car
-Sleeping car
-Observation car
 Steam locomotive
 Diesel locomotive
 Electric locomotive
 Switcher
-Rail motor
 Speeder
 Velocipede
 Pump trolley
 Bumper car
-Go-cart
 Pedal car
 Soapbox derby car
 Kiddie car
@@ -1172,15 +1027,10 @@ Auto rickshaw
 Motor scooter
 Cruiser motorcycle
 Chopper
-Sport bike
 Touring motorcycle
-Dual-sport
 Enduro
 Motocross bike
-Trials bike
-Pit bike
 Minibike
-Pocket bike
 Electric scooter | e-scooter
 Kick scooter
 Electric skateboard
@@ -1192,16 +1042,12 @@ Reindeer sled
 Troika
 Surrey
 Hackney carriage
-Gig
-Trap
-Cart
 Oxcart
 Bullock cart
 Tonga
 Tanga
 Calash
 Cabriolet
-Victoria
 Barouche
 Stanhope
 Curricle
@@ -1217,37 +1063,24 @@ Palanquin
 Sedan chair
 Travois
 Bicycle taxi
-Cargo bike
 Bakfiets
-Fat bike
-Mountain bike
-Road bike
 BMX
 Fixie
 Folding bike
 Cruiser bike
-Hybrid bike
 Gravel bike
-Electric bike
-Balance bike
 Quadricycle
 Handcycle
 Recumbent trike
 Boneshaker
 Dandy horse
-Safety bicycle
-Jet boat
-Bass boat
 Pontoon boat
-Ski boat
 Wakeboard boat
 Cabin cruiser
 Motorboat
 Runabout
 Dory
 Skiff
-Jon boat
-Junk
 Longboat
 Waka
 Proa
@@ -1260,27 +1093,17 @@ Life raft
 Ice yacht | iceboat
 Land yacht
 Sand yacht
-Container ship
-Bulk carrier
 Oil tanker
 Supertanker
-Car carrier ship
-Roll-on/roll-off | ro-ro
 Icebreaker
-Research vessel
-Hospital ship
 Troopship
 Minesweeper
-Patrol boat
 Cutter
 Gunboat
 Torpedo boat
-PT boat
 Battlecruiser
 Dreadnought
 Ironclad
-Man-of-war
-Ship of the line
 Trireme
 Galley
 Cog
@@ -1293,43 +1116,29 @@ Ketch
 Yawl
 Barque
 Windjammer
-Tall ship
 Steamship
 Ocean liner
 Paddle wheeler
 Narrowboat
-Canal boat
 Ferryboat
-Water taxi
 Vaporetto
 Aquaplane
 Jetfoil
-U-boat
 Midget submarine
 Bathysphere
 ROV
 Underwater drone
 Airliner
 Jumbo jet
-Jet plane
 Propeller plane
 Turboprop
-Cargo plane
-Bush plane
 Floatplane
-Flying boat
 Amphibian aircraft
 Crop duster
-Air ambulance
 Air tanker
-Fighter jet
 Bomber
 Stealth bomber
-Spy plane
 Gunship
-Attack helicopter
-Private jet
-Business jet
 Sailplane
 Motor glider
 Microlight
@@ -1337,8 +1146,6 @@ Gyroplane
 Quadcopter
 Multicopter
 eVTOL
-Air taxi
-Flying car
 Hoverbike
 Paraglider
 Powered paraglider
@@ -1348,17 +1155,187 @@ Weather balloon
 Dirigible
 Rigid airship
 Space capsule
-Space probe
 Lunar module
 Lander
 Rover
-Space plane
 Space tug
 Orbiter
 Escape pod
 Flying saucer | ufo
 
 [Rare]
+Hovercraft
+Segway
+Hoverboard
+Rickshaw
+Tuk-tuk | tuk tuk
+Horse and buggy | buggy | carriage
+Stagecoach
+Chariot
+Glider
+Seaplane
+Biplane
+Zeppelin
+Airship
+Lunar rover | moon buggy
+Dune buggy
+Bobsled
+Dog sled
+Humvee
+Double-decker bus | double decker
+Minibus
+Paddy wagon
+Hearse
+Flatbed
+Tanker
+Car transporter
+Steamroller
+Backhoe
+Skid steer | bobcat
+Combine harvester | combine
+Street sweeper
+Maglev
+Caboose
+Gondola
+Tugboat
+Barge
+Battleship
+Destroyer
+Speedboat
+Pontoon
+Rowboat
+Raft
+Catamaran
+Houseboat
+Trawler
+Steamboat
+Paddle steamer
+Riverboat
+Galleon
+Dinghy
+Lifeboat
+Amphibious vehicle | duck boat
+Penny-farthing | penny farthing
+Tandem bicycle | tandem
+Recumbent bike
+Mobility scooter
+Stroller | pram
+Landing craft
+Soap box car
+Compact car
+Smart car
+Muscle car
+Hot rod
+Funny car
+Stock car
+Formula One car | f1 car
+Rally car
+Kit car
+Monster truck
+Lifted truck
+Utility vehicle | ute
+Panel van
+Conversion van
+Cargo van
+Step van
+Travel trailer
+Fifth-wheel trailer
+Horse trailer
+Boat trailer
+Utility trailer
+Semi-trailer
+Road train
+Cattle truck
+Car carrier
+Moving truck
+Bucket truck
+Boom lift
+Road roller
+Pile driver
+Concrete pump
+Mining truck
+Grain truck
+Ladder truck
+Brush truck
+Rescue truck
+Squad car
+Patrol car
+Prison bus
+Bank truck
+Vacuum truck
+Water truck
+Utility truck
+Mail van
+Ice cream van
+Hot dog cart
+Party bus
+Tour bus
+Coach
+Short bus
+Charter bus
+Light rail
+Cable railway
+Elevated train | el
+Regional train
+Dining car
+Tank car
+Passenger car
+Sleeping car
+Observation car
+Rail motor
+Go-cart
+Sport bike
+Dual-sport
+Trials bike
+Pit bike
+Pocket bike
+Gig
+Trap
+Cart
+Victoria
+Cargo bike
+Fat bike
+Mountain bike
+Road bike
+Hybrid bike
+Electric bike
+Balance bike
+Safety bicycle
+Jet boat
+Bass boat
+Ski boat
+Jon boat
+Junk
+Container ship
+Bulk carrier
+Car carrier ship
+Roll-on/roll-off | ro-ro
+Research vessel
+Hospital ship
+Patrol boat
+PT boat
+Ship of the line
+Tall ship
+Canal boat
+Water taxi
+U-boat
+Jet plane
+Cargo plane
+Bush plane
+Flying boat
+Air ambulance
+Fighter jet
+Spy plane
+Attack helicopter
+Private jet
+Business jet
+Air taxi
+Flying car
+Space probe
+Space plane
+
+[Schooler]
+Airplane | plane | aeroplane
 Van
 SUV
 Taxi | cab
@@ -1416,11 +1393,32 @@ Race car
 Electric car
 Wagon
 Sled | sleigh
-
-[Schooler]
-Train
-Airplane | plane | aeroplane
-Boat
+Covered wagon
+Drone
+Space station
+Mars rover
+Dirt bike
+Quad bike
+Tow truck
+Ice cream truck
+Food truck
+Armored car
+Mail truck
+Delivery van
+Box truck
+Lawn tractor | riding mower
+Bullet train | high-speed train
+Locomotive
+Freight train
+Ferry
+Cruise ship
+Aircraft carrier
+Fishing boat
+Pirate ship
+Viking ship | longship
+E-bike
+Wheelchair
+Man-of-war
 
 [Too Clever]
 Shopping cart
@@ -1440,6 +1438,8 @@ Truck
 Bus
 Motorcycle | motorbike
 Bicycle | bike
+Train
+Boat
 
 [Not accepted]
 Road
@@ -1464,74 +1464,14 @@ prompt: Name a flower
 Corpse flower | titan arum | rafflesia
 
 [Deep Cut]
-Amaryllis
-Anemone
-Cosmos
-Clematis
-Columbine
 Coneflower | echinacea
-Cornflower
-Freesia
-Foxglove
-Fuchsia
-Gerbera | gerbera daisy | transvaal daisy
-Hollyhock
-Impatiens
-Larkspur
-Delphinium
-Lupine | lupin
-Moonflower | moonflower vine
-Nasturtium
-Oleander
-Plumeria | frangipani
-Protea
-Ranunculus
-Rhododendron
-Salvia
-Sweet pea
-Verbena
-Wisteria
-Yarrow
-Black-eyed Susan | black eyed susan
-Bleeding heart
-Bougainvillea
-Bachelor's button
 Daylily
-Edelweiss
-Heather
-Lantana
-Lobster claw | heliconia
-Mimosa
-Myrtle
-Periwinkle
-Phlox
-Queen Anne's lace
 Statice
-Stock
-Thistle
-Trillium
-Water lily
 Alstroemeria | peruvian lily
 Anthurium
-Baby's breath
-Bromeliad
-Camomile | chamomile
-Clover
-Goldenrod
-Hellebore
-Marsh marigold
-Orange blossom
 Passionflower | passion flower
-Pincushion
-Saffron crocus
 Scabiosa
-Sea holly
-Shasta daisy
 Strawflower
-Sweet William
-Tuberose
-Wallflower
-Wax flower
 Agapanthus
 Allium
 Asclepias | milkweed
@@ -1575,7 +1515,6 @@ Silene
 Torenia
 Tradescantia
 Trollius
-Veronica
 Vinca
 Zephyranthes
 Ixora
@@ -1584,18 +1523,12 @@ Kalanchoe
 Mandevilla
 Moth orchid | phalaenopsis
 Night-blooming cereus
-Ghost orchid
-Jade vine
-Chocolate cosmos
-Bat flower
 Parrot's beak
-Monkey face orchid
 Dove orchid
 Abelia
 Acanthus
 Achillea
 Aconite | monkshood | wolfsbane
-African violet
 Ageratum
 Ajuga
 Allamanda
@@ -1611,11 +1544,7 @@ Aubrieta
 Baptisia | false indigo
 Bellflower
 Bergenia
-Bittersweet
-Blanket flower
-Blazing star
 Bloodroot
-Blue-eyed grass
 Borage
 Bottlebrush
 Bouvardia
@@ -1623,80 +1552,55 @@ Brodiaea
 Brunnera
 Buddleia | butterfly bush
 Bugleweed
-Butterfly weed
 Caladium
-California poppy
 Calibrachoa | million bells
 Camas
 Candytuft
-Canterbury bells
 Cape primrose | streptocarpus
-Cardinal flower
-Carolina jasmine
 Catmint | nepeta
-Chinese lantern
 Chionodoxa | glory of the snow
-Christmas cactus
-Christmas rose
 Cinquefoil
 Cleome | spider flower
 Clarkia
 Cockscomb
 Coleus
 Colchicum
-Coral bells | heuchera
 Corydalis
 Cowslip
 Crane's bill
 Creeping phlox
-Crown imperial
 Cuphea
 Cymbidium
 Cypress vine
-Daphne
 Datura
 Dendrobium
-Desert rose
 Deutzia
-Dusty miller
-Easter lily
 Elderflower
-English daisy
 Epimedium
 Evening primrose
-Everlasting flower
 Fairy duster
-Fan flower
 Feverfew
 Firecracker plant
-Flame lily
 Fleabane
 Floss flower
-Flowering tobacco | nicotiana
 Forsythia
-Four o'clock
 Fritillaria
 Gaura
 Geum
 Gilia
-Ginger lily
 Globe amaranth
 Globe thistle
 Gloriosa
 Gloxinia
 Godetia
-Heath
 Hebe
 Hepatica
 Hesperis
 Hoya | wax plant
 Hyssop
 Iberis
-Ice plant
 Indian paintbrush
-Jack-in-the-pulpit
 Jacob's ladder
-Japanese iris
 Jasmine nightshade
 Joe-Pye weed
 Jonquil
@@ -1710,64 +1614,42 @@ Lenten rose
 Leucojum
 Lewisia
 Ligularia
-Lily of the Nile
 Linaria | toadflax
 Lungwort
 Mallow
 Maltese cross
 Mariposa lily
 Meadowsweet
-Mexican sunflower
 Michaelmas daisy
 Mignonette
-Mock orange
 Montbretia
-Moss rose | portulaca
-Mountain laurel
 Mullein
 Narcissus
 Nemophila
 New Guinea impatiens
 Obedient plant
-Ornamental onion
-Ox-eye daisy
-Painted daisy
 Pasque flower
 Pentas
 Pieris
 Pinks
-Plum blossom
 Poached egg plant
 Pot marigold
-Prairie smoke
 Pulmonaria
 Purple coneflower
-Pussy willow
 Quince blossom
-Rain lily
-Rock rose | cistus
-Rose of Sharon
 Rose mallow
-Russian sage
 Salpiglossis
 Saxifrage
 Scarlet pimpernel
-Sea lavender
-Shooting star
 Siberian iris
 Skunk cabbage
-Snow-in-summer
-Snowflake
 Soapwort
 Solomon's seal
 Spanish bluebell
 Speedwell
 Spiderwort
 Spirea
-Spring beauty
 Squill
-Star jasmine
-Star of Bethlehem
 Starflower
 Stephanotis
 Stonecrop
@@ -1778,60 +1660,161 @@ Sweet woodruff
 Tansy
 Tickseed
 Tithonia
-Toad lily
-Trumpet vine
 Turtlehead
 Twinflower
 Valerian
 Verbascum
 Viburnum
-Viola
 Virginia bluebells
 Water hyacinth
-Wild rose
 Windflower
 Winter aconite
-Winter jasmine
 Wishbone flower
 Wood anemone
 Wood sorrel
 Woodland phlox
-Yellow flag
 Lily of the Incas
-Oriental poppy
-Iceland poppy
-Shirley poppy
-Blue poppy
 Matilija poppy
-Opium poppy
-Corn poppy
 Damask rose
-Tea rose
-Climbing rose
 Floribunda
-Hybrid tea
-English rose
-Musk rose
-Dog rose
-Cabbage rose
 Rugosa rose
-Blue lotus
 Night-blooming jasmine
-Queen of the night
-Evening star
 Middlemist red
 Kadupul
-Juliet rose
 Gold of Kinabalu
-Lady of the night
-Black bat flower
 Hooker's lips
-Flying duck orchid
-Naked man orchid
 Swaddled babies orchid
 Laughing bumblebee orchid
 
 [Rare]
+Amaryllis
+Anemone
+Clematis
+Columbine
+Cornflower
+Freesia
+Foxglove
+Fuchsia
+Gerbera | gerbera daisy | transvaal daisy
+Hollyhock
+Impatiens
+Larkspur
+Delphinium
+Lupine | lupin
+Moonflower | moonflower vine
+Nasturtium
+Oleander
+Plumeria | frangipani
+Protea
+Ranunculus
+Rhododendron
+Salvia
+Verbena
+Wisteria
+Yarrow
+Bougainvillea
+Edelweiss
+Lantana
+Mimosa
+Periwinkle
+Phlox
+Queen Anne's lace
+Trillium
+Bromeliad
+Camomile | chamomile
+Goldenrod
+Hellebore
+Marsh marigold
+Pincushion
+Saffron crocus
+Shasta daisy
+Tuberose
+Wallflower
+Veronica
+Ghost orchid
+Jade vine
+Chocolate cosmos
+Bat flower
+Monkey face orchid
+African violet
+Bittersweet
+Blanket flower
+Blazing star
+Blue-eyed grass
+Butterfly weed
+California poppy
+Canterbury bells
+Cardinal flower
+Carolina jasmine
+Chinese lantern
+Christmas cactus
+Christmas rose
+Coral bells | heuchera
+Crown imperial
+Daphne
+Desert rose
+Dusty miller
+Easter lily
+English daisy
+Everlasting flower
+Fan flower
+Flame lily
+Flowering tobacco | nicotiana
+Four o'clock
+Ginger lily
+Heath
+Ice plant
+Jack-in-the-pulpit
+Japanese iris
+Lily of the Nile
+Mexican sunflower
+Mock orange
+Moss rose | portulaca
+Mountain laurel
+Ornamental onion
+Ox-eye daisy
+Painted daisy
+Plum blossom
+Prairie smoke
+Pussy willow
+Rain lily
+Rock rose | cistus
+Rose of Sharon
+Russian sage
+Sea lavender
+Shooting star
+Snow-in-summer
+Snowflake
+Spring beauty
+Star jasmine
+Star of Bethlehem
+Toad lily
+Trumpet vine
+Viola
+Wild rose
+Winter jasmine
+Yellow flag
+Oriental poppy
+Iceland poppy
+Shirley poppy
+Blue poppy
+Opium poppy
+Corn poppy
+Tea rose
+Climbing rose
+Hybrid tea
+Musk rose
+Dog rose
+Cabbage rose
+Blue lotus
+Juliet rose
+Black bat flower
+Flying duck orchid
+Naked man orchid
+
+[Schooler]
+Daffodil
+Carnation
 Violet
 Lavender
 Marigold
@@ -1856,7 +1839,6 @@ Gladiolus
 Geranium | pelargonium
 Snapdragon
 Morning glory | ipomoea
-Forget-me-not | forget me not
 Bluebell
 Buttercup
 Honeysuckle
@@ -1872,11 +1854,27 @@ Crocus
 Bird of paradise
 Snowdrop
 Primrose | primula | polyanthus
-
-[Schooler]
-Daffodil
-Orchid
-Carnation
+Cosmos
+Sweet pea
+Black-eyed Susan | black eyed susan
+Bleeding heart
+Bachelor's button
+Heather
+Lobster claw | heliconia
+Myrtle
+Stock
+Thistle
+Water lily
+Baby's breath
+Clover
+Orange blossom
+Sea holly
+Sweet William
+Wax flower
+English rose
+Queen of the night
+Evening star
+Lady of the night
 
 [Too Clever]
 Dandelion
@@ -1890,6 +1888,8 @@ Tulip
 Daisy
 Sunflower | helianthus
 Lily
+Orchid
+Forget-me-not | forget me not
 
 [Not accepted]
 Tree
@@ -1914,71 +1914,21 @@ prompt: Name a type of bread
 Pumpernickel | pumpernickel bread
 
 [Deep Cut]
-Sprouted bread | ezekiel bread
-Seven-grain
-Oat bread
-Milk bread | shokupan
-Pandesal
-Bolillo | bolillo roll
-Concha
-Arepa
-Pupusa
-Injera
-Chapati
-Roti
-Paratha
-Puri
-Bhatura | bhatoora
-Kulcha | kulcha bread
-Lavash | lavash bread
-Barbari | barbari bread | nan-e barbari
 Sangak | sangak bread
 Taftoon
-Simit | simit bread
-Pide | pide bread
 Ekmek
-Khachapuri
-Bialy
-Kaiser roll
-Pan dulce
-Babka
-Stollen
-Panettone
 Pandoro
-Kolache
-Kringle
-Danish
-Sweet roll
-Cinnamon roll
-Sticky bun
-Hot cross bun
-Bara brith
 Barmbrack
 Soda farl
 Potato farl
-Bannock | bannock bread
-Fry bread
 Johnnycake | hoecake
-Hushpuppy | hush puppies
-Spoon bread
-Sally Lunn
 Anadama
-Boston brown bread
-Salt-rising bread
-Pullman loaf
-Batard
-Boule
-Fougasse
-Pain de mie
-Pain au chocolat
 Pain de campagne
 Ficelle
-Epi
 Grissini
 Pugliese
 Piadina
 Schiacciata
-Carta di musica
 Pane carasau
 Vollkornbrot
 Bauernbrot
@@ -2001,7 +1951,6 @@ Lepinja
 Proja
 Cozonac
 Mantou
-Bao | steamed bun | bao bun
 Scallion pancake
 Shaobing
 Youtiao
@@ -2016,12 +1965,9 @@ Pao de queijo | cheese bread
 Chipa
 Marraqueta
 Hallulla
-Coco bread
-Hard dough bread
 Bammy
 Roti canai
 Appam
-Dosa
 Idli
 Mandazi
 Kisra
@@ -2050,67 +1996,17 @@ Ontbijtkoek
 Barm cake
 Stottie cake
 Oatcake
-Bap
-Cob
-Tiger bread | dutch crunch
-Bloomer
-Split tin
-Cottage loaf
 Huffkin
 Lardy cake
-Chelsea bun
-Bath bun
 Teacake
 Pikelet
-Damper
 Rewena
-Brown bread
-Granary
-Wholemeal
-Spelt bread
 Einkorn bread
 Emmer bread
-Barley bread
-Millet bread
-Buckwheat bread
-Gluten-free bread
-Keto bread
-Cloud bread
-Flaxseed bread
-Sunflower bread
-Pumpkin bread
-Carrot bread
-Date bread
-Nut bread
-Walnut bread
-Olive bread
-Onion bread
-Herb bread
-Garlic knots
-Bread bowl
-Peasant bread
-Vienna bread
-Cuban bread
-Pan de agua
 Pan sobao
-Portuguese sweet bread | pao doce
-Hawaiian sweet bread
-Japanese milk bread
-Hokkaido milk bread
-Pineapple bun | bolo bao
-Cocktail bun
-Char siu bao
-Banh mi
 Ensaymada
-Spanish bread
 Monay
-Pan de coco
-Ube bread
 Hopia
-Taro bun
-Red bean bun
-Curry bread | kare pan
-Cream bun
 Kanelbulle
 Semla
 Kardemummabulle
@@ -2124,24 +2020,19 @@ Wienerbrød
 Franskbrød
 Rúgbrauð
 Laufabrauð
-Pain complet
 Pain aux noix
-Pain aux raisins
 Pain aux céréales
 Pain viennois
 Pain brié
 Couronne
 Pain de seigle
 Pain de Beaucaire
-Pain d'Aix
 Michette
 Flûte
 Fougasse provençale
 Socca
 Tarte flambée
 Brioche Nanterre
-Brioche à tête
-Pain au lait
 Chouquette
 Pane toscano
 Pane di Altamura
@@ -2155,7 +2046,6 @@ Tigella
 Crescentina
 Taralli
 Friselle
-Pizza bianca
 Focaccia di Recco
 Sfincione
 Panettone gastronomico
@@ -2170,19 +2060,8 @@ Graubrot
 Weizenbrot
 Toastbrot
 Zwieback
-Rusk
-Biscotti
 Hardtack
-Ship's biscuit
-Melba
-Malt loaf
-Fruit loaf
-Currant bread
-Parker House roll
 Cloverleaf roll
-Knot roll
-Hero roll
-Grinder roll
 Pan francés
 Pan Cubano
 Medianoche bread
@@ -2203,24 +2082,17 @@ Pan de jamón
 Chipa guazú
 Torta frita
 Tortilla de harina
-Flour tortilla
-Corn tortilla
 Gordita
 Sope
 Tlayuda
 Huarache
 Memela
-Garlic naan
-Butter naan
 Peshwari naan
-Tandoori roti
 Rumali roti
 Missi roti
 Makki di roti
 Thepla
 Bhakri
-Pav
-Pav bun
 Ladi pav
 Luchi
 Kachori
@@ -2229,11 +2101,9 @@ Taftan
 Matnakash
 Tonir bread
 Tandoor bread
-Afghan bread
 Khubz
 Markook
 Saj
-Ka'ak
 Bazlama
 Yufka
 Koulouri
@@ -2249,53 +2119,158 @@ Pão de ló
 Bolo do caco
 Papo-seco
 Regueifa
-Pan gallego
-Pan de cristal
 Pan con tomate
 Mollete
 Pan cateto
 Ensaïmada
 Tortell
-Coca
-Hua juan
-Gua bao
 Jianbing
-Bing
 Laobing
 Roujiamo
-Nang
-Uyghur bread
-Tibetan bread
 Tingmo
 Amritsari kulcha
-Roti john
 Roti prata
 Roti jala
-Roti boy
-Buttermilk biscuit
-Drop biscuit
-Angel biscuit
-Cheddar Bay biscuit
 Cathead biscuit
-Beaten biscuit
 Popover
-Yorkshire pudding
-Dutch baby
-No-knead bread
-Beer bread
-Irish brown bread
 Wheaten bread
-Treacle bread
-Guinness bread
 Blaa
 Batata bread
-Sweet potato bread
-Corn pone
 Ashcake
 Navajo frybread
 Piki
 
 [Rare]
+Pandesal
+Bolillo | bolillo roll
+Concha
+Arepa
+Pupusa
+Injera
+Chapati
+Paratha
+Bhatura | bhatoora
+Kulcha | kulcha bread
+Lavash | lavash bread
+Barbari | barbari bread | nan-e barbari
+Simit | simit bread
+Pide | pide bread
+Khachapuri
+Bialy
+Babka
+Stollen
+Panettone
+Kolache
+Kringle
+Bara brith
+Bannock | bannock bread
+Hushpuppy | hush puppies
+Sally Lunn
+Batard
+Boule
+Fougasse
+Pain de mie
+Pain au chocolat
+Epi
+Carta di musica
+Bao | steamed bun | bao bun
+Coco bread
+Hard dough bread
+Dosa
+Bap
+Cob
+Tiger bread | dutch crunch
+Bloomer
+Split tin
+Cottage loaf
+Chelsea bun
+Bath bun
+Damper
+Granary
+Wholemeal
+Spelt bread
+Barley bread
+Millet bread
+Buckwheat bread
+Gluten-free bread
+Keto bread
+Flaxseed bread
+Sunflower bread
+Pumpkin bread
+Carrot bread
+Nut bread
+Walnut bread
+Olive bread
+Onion bread
+Herb bread
+Garlic knots
+Peasant bread
+Vienna bread
+Cuban bread
+Pan de agua
+Portuguese sweet bread | pao doce
+Hawaiian sweet bread
+Hokkaido milk bread
+Pineapple bun | bolo bao
+Cocktail bun
+Char siu bao
+Banh mi
+Pan de coco
+Ube bread
+Taro bun
+Red bean bun
+Curry bread | kare pan
+Cream bun
+Pain complet
+Pain aux raisins
+Pain d'Aix
+Brioche à tête
+Pain au lait
+Pizza bianca
+Rusk
+Biscotti
+Ship's biscuit
+Melba
+Malt loaf
+Fruit loaf
+Currant bread
+Knot roll
+Grinder roll
+Flour tortilla
+Corn tortilla
+Garlic naan
+Butter naan
+Tandoori roti
+Pav
+Pav bun
+Afghan bread
+Ka'ak
+Pan gallego
+Pan de cristal
+Coca
+Hua juan
+Gua bao
+Bing
+Nang
+Uyghur bread
+Tibetan bread
+Roti john
+Roti boy
+Buttermilk biscuit
+Drop biscuit
+Angel biscuit
+Cheddar Bay biscuit
+Beaten biscuit
+Yorkshire pudding
+No-knead bread
+Treacle bread
+Guinness bread
+Sweet potato bread
+Corn pone
+
+[Schooler]
+Sourdough
+Croissant
 Brioche
 Ciabatta
 Focaccia
@@ -2306,7 +2281,6 @@ Banana bread
 Tortilla
 English muffin
 Biscuit
-Roll | dinner roll
 Bun | hamburger bun | burger bun
 Hot dog bun | hot dog roll
 Pretzel | soft pretzel
@@ -2329,11 +2303,35 @@ Matzo | matzah
 Soda bread | irish soda bread
 Scone
 Crumpet
-
-[Schooler]
-Baguette | french bread | baguette tradition
-Croissant
-Garlic bread
+Sprouted bread | ezekiel bread
+Seven-grain
+Oat bread
+Milk bread | shokupan
+Roti
+Puri
+Kaiser roll
+Pan dulce
+Danish
+Sweet roll
+Cinnamon roll
+Sticky bun
+Hot cross bun
+Fry bread
+Spoon bread
+Boston brown bread
+Salt-rising bread
+Pullman loaf
+Brown bread
+Cloud bread
+Date bread
+Bread bowl
+Japanese milk bread
+Spanish bread
+Parker House roll
+Hero roll
+Dutch baby
+Beer bread
+Irish brown bread
 
 [Too Clever]
 Toast
@@ -2349,9 +2347,11 @@ Garlic toast
 [Plankton]
 White bread | white | sandwich bread | sliced bread | wonder bread
 Wheat bread | wheat | whole wheat
-Sourdough
 Rye | rye bread
 Bagel
+Baguette | french bread | baguette tradition
+Garlic bread
+Roll | dinner roll
 
 [Not accepted]
 Cake
@@ -2375,78 +2375,11 @@ prompt: Name a dance or style of dance
 Bunny Hop
 
 [Deep Cut]
-Jive
-Boogie-woogie
-Shag
-West Coast Swing
-East Coast Swing
-Hustle
-Bolero
-Viennese waltz
-Argentine tango
 Kizomba
-Zouk
-Lambada
-Cumbia
-Kuduro
-Dancehall
-Reggaeton
-Bhangra
-Bharatanatyam
-Kathak
-Odissi
-Bollywood
-Kabuki
-Butoh
-Capoeira
-Haka
-Morris dance | morris dancing
-Maypole dance
-Highland dance | highland fling
-Ceilidh
-Jig
-Reel
-Hornpipe
-Polonaise
-Mazurka
-Gavotte
-Minuet
-Sarabande
-Pavane
-Galliard
-Allemande
-Quadrille
-Contra dance
-Folk dance
-Hora
 Sirtaki | zorba
-Tarantella
-Fandango
 Sevillanas
-Jota
 Sardana
-Step dance | stepping
-Shim sham
-Soft shoe
-Cakewalk
-Mashed Potato
-Watusi
-Hand jive
-Bus stop
-Running Man
-Roger Rabbit
-Cabbage Patch
-Harlem Shake
-Nae Nae | whip nae nae
-Dougie
-Stanky Leg
-Gangnam Style
-Renegade
-Wobble
-Cotton Eye Joe
 Boot Scootin' Boogie
-Two-step | two step
-Texas two-step
 Ballet folklorico | folklorico
 Danzon
 Son jarocho
@@ -2461,11 +2394,6 @@ Lundu
 Tamure
 Kecak
 Legong
-Lion dance
-Dragon dance
-Fan dance
-Ribbon dance
-Sword dance
 Bourree
 Courante
 Gigue
@@ -2500,7 +2428,6 @@ Tinikling
 Cariñosa
 Pandanggo
 Bon Odori
-Para Para
 Awa Odori
 Buyo
 Nihon buyo
@@ -2518,41 +2445,17 @@ Yangge
 Hula kahiko
 Hula auana
 Poi
-Aboriginal dance
 Corroboree
-Pow wow
-Hoop dance
-Jingle dance
-Grass dance
-Fancy dance
-Ghost dance
-Sun dance
-Stomp dance
-Buck dance
 Flatfooting
 Juba dance
-Ring shout
-Second line
-Footwork
 Jookin
 Turfing
-Flexing
 Tutting
 Waacking
 Litefeet
 Balboa
-Bal-Swing
 Collegiate shag
-Carolina shag
-St. Louis shag
-Slow dance
-Slow drag
 Fishtail
-Peabody
-American Smooth
-American Rhythm
-International Standard
-International Latin
 Samba de gafieira
 Samba de roda
 Samba no pé
@@ -2565,7 +2468,6 @@ Danza
 Seis
 Cueca
 Cumbia villera
-Salsa casino | casino
 Rueda de casino
 Guaguancó
 Rumba flamenca
@@ -2601,20 +2503,12 @@ Daggering
 Skanking
 Pogo
 Moshing
-Big Apple
 Suzie Q
 Truckin'
-Shorty George
-Black Bottom
-Turkey trot
-Grizzly bear
-Bunny hug
 Tango argentino
 Milonga
 Canyengue
 Tango nuevo
-Ballroom tango
-Finnish tango
 Polka-mazurka
 Schottische
 Varsovienne
@@ -2622,9 +2516,7 @@ Galop
 Cotillion
 Lancers
 Sir Roger de Coverley
-Virginia reel
 Strathspey
-Set dancing
 Appalachian clogging
 Flatfoot
 Hambo
@@ -2656,8 +2548,6 @@ Raqs baladi
 Saidi
 Shaabi
 Ghawazee
-Tribal fusion
-ATS | american tribal style
 Giddha
 Kalbelia
 Bihu
@@ -2667,8 +2557,6 @@ Fon
 Likay
 Saman
 Jaipongan
-Tor-tor
-Cha-cha Philippine
 Singkil
 Pangalay
 Itik-itik
@@ -2683,85 +2571,37 @@ Salpuri
 Ganggangsullae
 Samulnori
 Biyelgee
-Lion dance Chinese
 Yangko
-Melbourne shuffle
 Jumpstyle
 Tecktonik
 Hardstyle shuffle
-Liquid dancing
 Gloving
 Poi spinning
 Lofting
 Jacking
-Burlesque
-Cabaret
-Lyrical
-Contact improvisation
-Gaga
-Horton
-Graham technique
 Limón technique
-Cunningham technique
-Release technique
 Neoclassical ballet
-Contemporary ballet
-Romantic ballet
-Classical ballet
-Ballet d'action
-Ballroom latin
 Dancesport
 Aerial silks
 Lyra
 Zumba
 Jazzercise
-Barre
 Bokwa
 B-boying
 Uprock
 Boogaloo
 Electric boogaloo
-The Robot
 Strobing
-Waving
-Ticking
-Bone breaking
 Memphis jookin
-Chicago footwork
 Detroit jit
-Lite feet
-Hit dem folks
-Milly Rock
-Orange Justice
 Griddy
-Carlton
-The Worm
-Chicken noodle soup
-Crank That | soulja boy
-Lean wit it rock wit it
-Bernie
 Tootsie roll
 Bankhead bounce
-Toot it and boot it
 Kid 'n Play kickstep
-Cowboy cha-cha
-Ten-step
-Country swing
-Double shuffle
-Time Warp
-Madison
-Stroll
-Loco-motion
-Hitch hike
 Frug
-Jerk
-Freddie
 Shimmy
 Hully gully
-Funky chicken
 Hokey cokey
-Ring a ring o' roses
-Chicken dance polka
 Krakowiak
 Oberek
 Kujawiak
@@ -2776,13 +2616,151 @@ Forlana
 Siciliana
 Volta
 La volta
-Canary
 Pavan
 Basse danse
-Carole
 Rondeau
 
 [Rare]
+Krumping | krump
+Voguing | vogue
+Jive
+Boogie-woogie
+Shag
+Bolero
+Viennese waltz
+Zouk
+Lambada
+Cumbia
+Kuduro
+Dancehall
+Reggaeton
+Bhangra
+Bharatanatyam
+Kathak
+Odissi
+Kabuki
+Butoh
+Capoeira
+Haka
+Maypole dance
+Ceilidh
+Jig
+Hornpipe
+Polonaise
+Mazurka
+Gavotte
+Minuet
+Sarabande
+Pavane
+Galliard
+Allemande
+Quadrille
+Hora
+Tarantella
+Fandango
+Jota
+Shim sham
+Cakewalk
+Watusi
+Hand jive
+Nae Nae | whip nae nae
+Dougie
+Stanky Leg
+Gangnam Style
+Renegade
+Wobble
+Para Para
+Aboriginal dance
+Pow wow
+Hoop dance
+Jingle dance
+Grass dance
+Fancy dance
+Ghost dance
+Sun dance
+Stomp dance
+Buck dance
+Ring shout
+Footwork
+Flexing
+Bal-Swing
+Carolina shag
+St. Louis shag
+Slow dance
+Slow drag
+Peabody
+American Smooth
+American Rhythm
+International Standard
+International Latin
+Salsa casino | casino
+Big Apple
+Shorty George
+Black Bottom
+Turkey trot
+Grizzly bear
+Bunny hug
+Ballroom tango
+Finnish tango
+Virginia reel
+Set dancing
+Tribal fusion
+ATS | american tribal style
+Tor-tor
+Cha-cha Philippine
+Lion dance Chinese
+Melbourne shuffle
+Liquid dancing
+Burlesque
+Cabaret
+Lyrical
+Contact improvisation
+Gaga
+Horton
+Graham technique
+Cunningham technique
+Release technique
+Contemporary ballet
+Romantic ballet
+Classical ballet
+Ballet d'action
+Ballroom latin
+Barre
+The Robot
+Waving
+Ticking
+Bone breaking
+Chicago footwork
+Lite feet
+Hit dem folks
+Milly Rock
+Orange Justice
+Carlton
+The Worm
+Chicken noodle soup
+Crank That | soulja boy
+Lean wit it rock wit it
+Bernie
+Toot it and boot it
+Cowboy cha-cha
+Ten-step
+Country swing
+Double shuffle
+Time Warp
+Madison
+Stroll
+Loco-motion
+Hitch hike
+Jerk
+Freddie
+Funky chicken
+Ring a ring o' roses
+Chicken dance polka
+Canary
+Carole
+
+[Schooler]
+Breakdancing | breaking | breakdance
 Swing
 Ballroom
 Contemporary
@@ -2819,17 +2797,37 @@ Charleston
 Paso doble
 Cancan | can-can
 Pole dancing
-Krumping | krump
 Popping
 Locking
-Voguing | vogue
 Dab
 YMCA
-
-[Schooler]
-Tap | tap dance
-Breakdancing | breaking | breakdance
-Jazz
+West Coast Swing
+East Coast Swing
+Hustle
+Argentine tango
+Bollywood
+Morris dance | morris dancing
+Highland dance | highland fling
+Reel
+Contra dance
+Folk dance
+Step dance | stepping
+Soft shoe
+Mashed Potato
+Bus stop
+Running Man
+Roger Rabbit
+Cabbage Patch
+Harlem Shake
+Cotton Eye Joe
+Two-step | two step
+Texas two-step
+Lion dance
+Dragon dance
+Fan dance
+Ribbon dance
+Sword dance
+Second line
 
 [Too Clever]
 The Floss | floss
@@ -2842,6 +2840,8 @@ Hip hop
 Salsa
 Tango
 Waltz
+Tap | tap dance
+Jazz
 
 [Not accepted]
 Song
@@ -2868,13 +2868,25 @@ note: Every Best Picture winner from Wings (1929) through One Battle After Anoth
 Wings
 
 [Deep Cut]
+Schindler's List | schindlers list
+Braveheart
+Ben-Hur | ben hur
+Oppenheimer
+Slumdog Millionaire
+Argo
+CODA
+Birdman
+Unforgiven
+One Flew Over the Cuckoo's Nest | cuckoo's nest
+Kramer vs. Kramer | kramer vs kramer
+Amadeus
+Anora
+Nomadland
 All About Eve
 An American in Paris
-The Best Years of Our Lives
 The Bridge on the River Kwai | bridge on the river kwai
 Gigi
 A Man for All Seasons
-In the Heat of the Night
 Oliver!
 Midnight Cowboy
 Ordinary People
@@ -2888,7 +2900,6 @@ Mrs. Miniver
 Rebecca
 Hamlet
 All Quiet on the Western Front
-One Battle After Another
 Cavalcade
 Cimarron
 The Broadway Melody
@@ -2907,48 +2918,24 @@ The Greatest Show on Earth
 Tom Jones
 
 [Rare]
-Schindler's List | schindlers list
-Braveheart
+Forrest Gump
 The Lord of the Rings: The Return of the King | return of the king | lord of the rings
-Ben-Hur | ben hur
 The Silence of the Lambs | silence of the lambs
 Parasite
-Oppenheimer
 The Godfather Part II | godfather 2 | godfather part 2
-Chicago
-Slumdog Millionaire
 The Departed | departed
-Argo
 12 Years a Slave | twelve years a slave
-CODA
 Everything Everywhere All at Once
-Green Book
-The Shape of Water | shape of water
 Spotlight
-Birdman
 The King's Speech | kings speech
-The Artist
-No Country for Old Men
 Million Dollar Baby
-A Beautiful Mind
-American Beauty
 Shakespeare in Love
-Rain Man
 Dances with Wolves
-Unforgiven
-West Side Story
-My Fair Lady
 The Sting
-One Flew Over the Cuckoo's Nest | cuckoo's nest
 Annie Hall
-Kramer vs. Kramer | kramer vs kramer
 Gandhi
-Amadeus
-Out of Africa
 Platoon
 Driving Miss Daisy
-Anora
-Nomadland
 The Hurt Locker | hurt locker
 Crash
 The Deer Hunter | deer hunter
@@ -2957,22 +2944,35 @@ The French Connection | french connection
 Lawrence of Arabia
 The Apartment
 On the Waterfront
-It Happened One Night
+The Best Years of Our Lives
+In the Heat of the Night
+One Battle After Another
 
 [Schooler]
+The Godfather | godfather
+Gladiator
 Casablanca
-Gone with the Wind
-Rocky
+Chicago
+Green Book
+The Shape of Water | shape of water
+The Artist
+A Beautiful Mind
+American Beauty
+Rain Man
+West Side Story
+My Fair Lady
+Out of Africa
+It Happened One Night
 
 [Too Clever]
 Moonlight
 
 [Plankton]
 Titanic
-The Godfather | godfather
-Forrest Gump
-Gladiator
 The Sound of Music | sound of music
+Gone with the Wind
+Rocky
+No Country for Old Men
 
 [Not accepted]
 La La Land
@@ -2996,3 +2996,4 @@ Black Panther
 Jurassic Park
 The Wizard of Oz
 Back to the Future
+

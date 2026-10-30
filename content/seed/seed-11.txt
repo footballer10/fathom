@@ -8,108 +8,26 @@ prompt: Name a Greek or Roman god or goddess
 Priapus
 
 [Deep Cut]
-Rhea
-Hecate | hekate
-Hypnos
-Thanatos
-Morpheus
-Iris
-Hebe
-Tyche
-Asclepius
-Triton
-Nereus
-Proteus
-Oceanus
-Tethys
-Hyperion
-Themis
-Mnemosyne
-Metis
-Leto
-Dione
-Maia
-Aeolus
-Boreas
-Zephyrus
-Notus
-Eurus
-Nyx
-Erebus
-Chaos
-Tartarus
 Achlys
-Eris
-Harmonia
-Phobos
-Deimos
-Enyo
-Bellona
-Fortuna
-Victoria
-Aurora
-Sol
-Luna
-Vesta
-Faunus
-Silvanus
-Pomona
-Flora
-Terminus
-Quirinus
-Orcus
-Dis Pater
-Proserpina
-Liber
-Libera
-Mithras
-Sol Invictus
-Lares
-Penates
-Calliope
-Clio
-Erato
-Euterpe
-Melpomene
-Polyhymnia
-Terpsichore
-Thalia
-Urania
-Clotho
-Lachesis
-Atropos
-Graces | charites
-Furies | erinyes
-Nymphs | nymph
 Anemoi
 Astraea
-Aether
 Hemera
 Ananke
 Phanes
-Pontus
 Thalassa
 Coeus
-Phoebe
 Crius
 Iapetus
 Epimetheus
 Menoetius
 Asteria
 Perses
-Pallas
-Styx
 Zelus
-Bia
 Hesperus
-Phosphorus
 Astraeus
 Parcae
 Discordia
-Concordia
-Fides
 Pietas
-Virtus
 Honos
 Libertas
 Justitia
@@ -118,20 +36,14 @@ Clementia
 Felicitas
 Abundantia
 Annona
-Bona Dea
 Cybele
-Magna Mater
 Attis
-Adonis
-Ganymede
-Hymen
 Himeros
 Pothos
 Anteros
 Hedone
 Peitho
 Pheme
-Ate
 Momus
 Oizys
 Geras
@@ -143,7 +55,6 @@ Phobetor
 Ikelos
 Epione
 Hygieia
-Panacea
 Iaso
 Aceso
 Aglaea
@@ -155,21 +66,16 @@ Glaucus
 Phorcys
 Ceto
 Thaumas
-Electra
-Doris
 Galatea
 Thetis
 Charybdis
-Scylla
 Hermaphroditus
 Aristaeus
-Paean
 Comus
 Plutus
 Enyalius
 Eileithyia
 Ourea
-Kratos
 Lelantos
 Eurybia
 Clymene
@@ -193,13 +99,11 @@ Tisiphone
 Eumenides
 Horae
 Eunomia
-Dike
 Eirene
 Thallo
 Auxo
 Carpo
 Hesperides
-Pleiades
 Hymenaios
 Hesperos
 Eosphoros
@@ -208,15 +112,11 @@ Despoina
 Zagreus
 Iacchus
 Thyone
-Zephyr | zephyros
-Euros
 Notos
 Apheliotes
 Skiron
 Kaikias
-Lips
 Argestes
-Fauna
 Inuus
 Lupercus
 Picus
@@ -232,19 +132,12 @@ Portunus
 Tiberinus
 Salacia
 Venilia
-Jana
 Cardea
 Forculus
 Limentinus
-Genius
-Juno Lucina
-Lucina
-Ops
 Consus
-Lua
 Caelus
 Tellus
-Terra
 Mater Matuta
 Diana Nemorensis
 Egeria
@@ -255,7 +148,6 @@ Postvorta
 Fortuna Primigenia
 Spes
 Pudicitia
-Pax
 Securitas
 Aequitas
 Providentia
@@ -265,14 +157,8 @@ Febris
 Mefitis
 Cloacina
 Robigus
-Liber Pater
-Dis
-Mania
-Manes
 Libitina
 Morta
-Nona
-Decima
 Furrina
 Angerona
 Angitia
@@ -297,17 +183,119 @@ Vediovis | veiovis
 Dius Fidius
 Semo Sancus
 Aesculapius
-Isis
 Serapis
 Sabazios
 Elagabal
 Jupiter Dolichenus
-Chronos
 Aion
-Thesis
 Hydros
 
 [Rare]
+Hecate | hekate
+Hypnos
+Thanatos
+Morpheus
+Hebe
+Tyche
+Asclepius
+Nereus
+Proteus
+Oceanus
+Tethys
+Hyperion
+Themis
+Mnemosyne
+Metis
+Dione
+Aeolus
+Boreas
+Zephyrus
+Notus
+Eurus
+Nyx
+Erebus
+Tartarus
+Eris
+Harmonia
+Phobos
+Deimos
+Enyo
+Bellona
+Fortuna
+Vesta
+Faunus
+Silvanus
+Quirinus
+Orcus
+Dis Pater
+Proserpina
+Libera
+Mithras
+Sol Invictus
+Lares
+Penates
+Calliope
+Clio
+Erato
+Euterpe
+Melpomene
+Polyhymnia
+Terpsichore
+Thalia
+Urania
+Clotho
+Lachesis
+Atropos
+Furies | erinyes
+Nymphs | nymph
+Aether
+Pontus
+Phoebe
+Pallas
+Styx
+Bia
+Phosphorus
+Concordia
+Fides
+Virtus
+Bona Dea
+Magna Mater
+Adonis
+Ganymede
+Hymen
+Ate
+Panacea
+Electra
+Doris
+Scylla
+Paean
+Kratos
+Dike
+Pleiades
+Zephyr | zephyros
+Euros
+Lips
+Fauna
+Jana
+Genius
+Juno Lucina
+Lucina
+Ops
+Lua
+Terra
+Pax
+Liber Pater
+Dis
+Mania
+Manes
+Nona
+Decima
+Isis
+Chronos
+Thesis
+
+[Schooler]
+Aphrodite
 Hera
 Ares
 Hermes
@@ -343,11 +331,21 @@ Selene
 Eos
 Nemesis
 Pan
-
-[Schooler]
-Aphrodite
-Hercules | heracles
-Jupiter
+Rhea
+Iris
+Triton
+Leto
+Maia
+Chaos
+Victoria
+Aurora
+Sol
+Luna
+Pomona
+Flora
+Terminus
+Liber
+Graces | charites
 
 [Too Clever]
 Fates | moirai
@@ -360,6 +358,8 @@ Poseidon
 Hades
 Athena
 Apollo
+Hercules | heracles
+Jupiter
 
 [Not accepted]
 Thor
@@ -386,61 +386,26 @@ Farfetch'd | farfetchd | farfetched
 
 [Deep Cut]
 Ivysaur
-Charmeleon
 Wartortle
 Butterfree | butterfly pokemon
 Pidgeotto
 Pidgeot
-Rattata | ratata
 Ekans
-Sandshrew
-Nidoran | nidoran female | nidoran male
 Nidoqueen
-Nidoking
-Clefairy
-Ninetales | nine tales
-Zubat
-Oddish
-Diglett
 Poliwag
 Poliwrath
-Kadabra
 Machoke
 Bellsprout
 Tentacool
-Geodude
-Golem
-Slowbro
-Magnemite
-Grimer
-Muk
-Haunter
-Krabby
 Voltorb
-Electrode
-Exeggutor
-Cubone
-Marowak
 Hitmonchan
 Koffing
-Weezing
 Rhyhorn
-Rhydon
-Chansey
 Horsea
 Staryu
 Starmie
-Scyther
-Jynx
 Electabuzz
-Magmar
-Porygon
 Omanyte
-Kabuto
-Aerodactyl
-Dratini
-Dragonair
-Machamp
 Kakuna | kakkuna
 Metapod
 Weedle
@@ -489,25 +454,68 @@ Sandslash
 Raticate
 Arbok
 Golbat
-Gloom
 Vileplume
 Dugtrio
-Persian
 Kangaskhan | kangaskan
 Mr. Mime | mr mime | mister mime
 
 [Rare]
-Venusaur
-Blastoise
 Caterpie
 Beedrill
+Machop
+Growlithe
+Flareon
+Articuno
+Zapdos
+Moltres
+Charmeleon
+Rattata | ratata
+Sandshrew
+Nidoran | nidoran female | nidoran male
+Nidoking
+Clefairy
+Ninetales | nine tales
+Zubat
+Oddish
+Diglett
+Kadabra
+Geodude
+Golem
+Slowbro
+Magnemite
+Grimer
+Muk
+Haunter
+Krabby
+Exeggutor
+Cubone
+Marowak
+Weezing
+Rhydon
+Chansey
+Scyther
+Jynx
+Magmar
+Porygon
+Kabuto
+Aerodactyl
+Dratini
+Dragonair
+Machamp
+Gloom
+Persian
+
+[Schooler]
+Bulbasaur
+Jigglypuff
+Meowth
+Venusaur
+Blastoise
 Pidgey
 Raichu
 Vulpix
 Abra
 Alakazam
-Machop
-Growlithe
 Arcanine
 Slowpoke
 Gastly
@@ -518,18 +526,8 @@ Gyarados
 Lapras
 Vaporeon
 Jolteon
-Flareon
-Articuno
-Zapdos
-Moltres
 Dragonite
-
-[Schooler]
-Jigglypuff
-Mewtwo
-Eevee
-Snorlax
-Meowth
+Electrode
 
 [Too Clever]
 Mew
@@ -539,9 +537,11 @@ Psyduck
 [Plankton]
 Pikachu
 Charizard
-Bulbasaur
 Squirtle
 Charmander
+Mewtwo
+Eevee
+Snorlax
 
 [Not accepted]
 Togepi
@@ -573,91 +573,31 @@ Hospitalist
 Intensivist
 Neonatologist
 Geriatrician
-Endocrinologist
 Gastroenterologist
 Nephrologist
 Pulmonologist
 Rheumatologist
-Urologist
-Ophthalmologist
 Otolaryngologist | ent
 Allergist
 Immunologist
 Hematologist
-Infectious disease specialist
-Radiation oncologist
 Interventional radiologist
-Vascular surgeon
-Thoracic surgeon
-Trauma surgeon
-General surgeon
-Colorectal surgeon
 Podiatrist
-Chiropractor
-Speech therapist | speech-language pathologist
 Audiologist
-Child life specialist
-Case manager
-Discharge planner
-Patient advocate
-Medical records clerk
-Medical coder
 Transcriptionist
-Unit clerk | ward clerk
-Transporter
-Sterile processing technician
-Biomedical engineer
 Perfusionist
 CRNA | nurse anesthetist
-Charge nurse
-Head nurse
-Travel nurse
-ICU nurse
-ER nurse
-Surgical nurse
-Pediatric nurse
-Labor and delivery nurse
-Lactation consultant
 Doula
-Wound care nurse
-Infection control nurse
-Epidemiologist
-Clinical researcher
-Pharmacy technician
 Radiographer
-MRI technician
-CT technician
-Nuclear medicine technologist
-Cardiovascular technician
-EKG technician
-EEG technician
-Dialysis technician
 Histotechnologist
 Cytotechnologist
-Medical laboratory scientist
-Blood bank technician
-Anesthesia technician
-Flight nurse
-Ambulance driver
-Housekeeper
-Laundry worker
-Maintenance worker
-Gift shop clerk
-Parking attendant
-Interpreter | translator
 Ethicist
-Medical director
-Nurse manager
-Fellow
-Medical student
 Perfusion technologist
 Orthotist
 Prosthetist
 Pedorthist
 Kinesiotherapist
 Recreational therapist
-Music therapist
-Art therapist
 Massage therapist
 Acupuncturist
 Genetic counselor
@@ -681,9 +621,7 @@ Orthoptist
 Ocularist
 Optician
 Dental hygienist
-Oral surgeon
 Maxillofacial surgeon
-Hand surgeon
 Bariatric surgeon
 Transplant surgeon
 Fetal surgeon
@@ -691,17 +629,11 @@ Palliative care doctor
 Hospice nurse
 Bereavement counselor
 Patient sitter
-Unit secretary
 Bed coordinator
 Utilization review nurse
 Quality coordinator
-Risk manager
-Compliance officer
 Credentialing specialist
-Chief medical officer
-Chief nursing officer
 Nurse midwife
-Clinical nurse specialist
 Nurse educator
 Nurse informaticist
 Nurse researcher
@@ -717,23 +649,16 @@ PICU nurse
 Med-surg nurse
 Telemetry nurse
 Float nurse
-Night nurse
 Scrub nurse
 Circulating nurse
-Recovery room nurse | pacu nurse
-Pre-op nurse
 Cath lab nurse
 Endoscopy nurse
-Burn nurse
-Trauma nurse
 Triage nurse
 Infusion nurse
-IV nurse
 Ostomy nurse
 Diabetes educator
 Licensed practical nurse | lpn
 Licensed vocational nurse | lvn
-Certified nursing assistant
 Patient care technician
 Monitor technician
 Telemetry technician
@@ -747,29 +672,14 @@ Radiation therapist
 Radiologic technologist
 Interventional technologist
 Cath lab technologist
-Surgical first assistant
-Surgical assistant
-Physician associate
 Anesthesiologist assistant
 Medical scribe
 Health unit coordinator
-Ward manager
 Matron
-Sister
-Staff nurse
-Senior house officer
 Registrar
-Consultant
-Junior doctor
-House officer
-Chief resident
-Senior resident
 Moonlighter
 Locum
 Locum tenens
-Traveling doctor
-Urgent care doctor
-Family physician
 Internist
 General practitioner
 Obstetrician-gynecologist
@@ -788,25 +698,15 @@ Addiction counselor
 Substance abuse counselor
 Crisis counselor
 Grief counselor
-Marriage and family therapist
 Licensed clinical social worker
-Peer support specialist
-Spiritual care provider
 Rabbi
 Imam
-Priest
-Pastor
 Hospital chaplain
 Ethics consultant
 Sleep technologist
-Sleep medicine physician
-Pain management specialist
 Physiatrist | pm&r doctor
-Sports medicine doctor
-Hand therapist
 Lymphedema therapist
 Vestibular therapist
-Wound care specialist
 Hyperbaric technician
 Orthopedic technician
 Cast technician
@@ -816,7 +716,6 @@ Pharmacist in charge
 Oncology pharmacist
 Compounding pharmacist
 Pharmacy intern
-Lab assistant
 Specimen processor
 Microbiologist
 Virologist
@@ -826,67 +725,35 @@ Hematology technician
 Cytogeneticist
 Molecular biologist
 Biostatistician
-Data analyst
 Health informatics specialist
 Clinical informaticist
 IT technician
 Help desk technician
-Network engineer
-Security officer
-Patient safety officer
 Infection preventionist
-Environmental services worker | evs
 Groundskeeper
 Electrician
 Plumber
 HVAC technician
 Carpenter
-Painter
-Engineer
-Facilities manager
-Supply chain manager
-Purchasing agent
 Materials handler
-Stock clerk
 Courier
-Mail clerk
-Food service worker
 Dietary aide
-Line cook
 Dishwasher
 Barista
 Cashier
 Admissions clerk
 Registration clerk
-Patient access representative
 Scheduler
 Insurance verifier
 Financial counselor
 Billing clerk
 Accountant
 Payroll clerk
-Human resources
 Recruiter
-Trainer
 Educator
-Public relations
-Marketing
 Fundraiser
-Foundation director
-Hospital president
-Chief operating officer
-Chief financial officer
-Chief information officer
-Department head
-Program director
-Clinical director
 Residency director
-Dean
-Professor
-Researcher
 Clinical trial coordinator
-Research nurse
-Lab manager
 Animal technician
 Veterinarian
 Therapy dog handler
@@ -899,37 +766,23 @@ Morgue attendant
 Organ procurement coordinator
 Transplant coordinator
 Flight paramedic
-Helicopter pilot
 EMT-B
 Dispatcher
 Firefighter
-Police officer
 Valet
 Doorman
 Concierge
-Guest services
-Information desk volunteer
 Sign language interpreter
 Tutor
-Teacher
 Librarian
 Medical librarian
-Photographer
 Medical illustrator
 Biomedical technician
-Clinical engineer
-Radiation safety officer
-Laser safety officer
 Bioethicist
-Lawyer
 Paralegal
 Coding specialist
 Health information technician
-Release of information specialist
-Privacy officer
 Utilization manager
-Care coordinator
-Nurse case manager
 Home health aide
 Hospice aide
 Palliative nurse
@@ -938,10 +791,8 @@ Vocational counselor
 Exercise physiologist
 Athletic trainer
 Kinesiologist
-Hearing specialist
 Optometrist assistant
 Ophthalmic technician
-Dental assistant
 Endodontist
 Orthodontist
 Periodontist
@@ -953,6 +804,139 @@ Blood donor coordinator
 Apheresis nurse
 
 [Rare]
+Endocrinologist
+Urologist
+Ophthalmologist
+Infectious disease specialist
+Radiation oncologist
+Vascular surgeon
+Thoracic surgeon
+Trauma surgeon
+Colorectal surgeon
+Chiropractor
+Speech therapist | speech-language pathologist
+Discharge planner
+Medical records clerk
+Medical coder
+Unit clerk | ward clerk
+Transporter
+Sterile processing technician
+Biomedical engineer
+ICU nurse
+Surgical nurse
+Pediatric nurse
+Lactation consultant
+Epidemiologist
+Clinical researcher
+Pharmacy technician
+MRI technician
+CT technician
+Nuclear medicine technologist
+Cardiovascular technician
+EKG technician
+EEG technician
+Dialysis technician
+Medical laboratory scientist
+Blood bank technician
+Anesthesia technician
+Housekeeper
+Laundry worker
+Gift shop clerk
+Parking attendant
+Interpreter | translator
+Music therapist
+Art therapist
+Oral surgeon
+Hand surgeon
+Unit secretary
+Risk manager
+Compliance officer
+Chief medical officer
+Chief nursing officer
+Clinical nurse specialist
+Night nurse
+Recovery room nurse | pacu nurse
+Pre-op nurse
+Burn nurse
+Trauma nurse
+IV nurse
+Certified nursing assistant
+Surgical first assistant
+Surgical assistant
+Physician associate
+Ward manager
+Sister
+Staff nurse
+Senior house officer
+Consultant
+Junior doctor
+House officer
+Chief resident
+Senior resident
+Traveling doctor
+Urgent care doctor
+Family physician
+Marriage and family therapist
+Peer support specialist
+Spiritual care provider
+Priest
+Pastor
+Sleep medicine physician
+Pain management specialist
+Sports medicine doctor
+Hand therapist
+Wound care specialist
+Lab assistant
+Data analyst
+Network engineer
+Security officer
+Patient safety officer
+Environmental services worker | evs
+Painter
+Engineer
+Facilities manager
+Supply chain manager
+Purchasing agent
+Stock clerk
+Mail clerk
+Food service worker
+Line cook
+Patient access representative
+Human resources
+Trainer
+Public relations
+Marketing
+Foundation director
+Hospital president
+Chief operating officer
+Chief financial officer
+Chief information officer
+Department head
+Program director
+Clinical director
+Dean
+Professor
+Researcher
+Research nurse
+Lab manager
+Helicopter pilot
+Police officer
+Guest services
+Information desk volunteer
+Teacher
+Photographer
+Clinical engineer
+Radiation safety officer
+Laser safety officer
+Lawyer
+Release of information specialist
+Privacy officer
+Care coordinator
+Nurse case manager
+Hearing specialist
+Dental assistant
+
+[Schooler]
 Anesthesiologist
 Radiologist
 Pediatrician
@@ -1000,10 +984,24 @@ Dentist
 Optometrist
 Billing specialist
 Nursing assistant | cna
-
-[Schooler]
-Pharmacist
-Paramedic | emt
+General surgeon
+Child life specialist
+Case manager
+Patient advocate
+Charge nurse
+Head nurse
+Travel nurse
+ER nurse
+Labor and delivery nurse
+Wound care nurse
+Infection control nurse
+Flight nurse
+Ambulance driver
+Maintenance worker
+Medical director
+Nurse manager
+Fellow
+Medical student
 
 [Too Clever]
 Candy striper
@@ -1014,6 +1012,8 @@ Nurse
 Surgeon
 Receptionist
 Janitor | custodian
+Pharmacist
+Paramedic | emt
 
 [Not accepted]
 Pilot
@@ -1033,59 +1033,8 @@ prompt: Name a muscle or muscle group
 Sartorius
 
 [Deep Cut]
-Gluteus medius
-Gluteus minimus
-Rectus abdominis
-Transverse abdominis
-External oblique
-Internal oblique
-Erector spinae
-Serratus anterior
-Pectoralis major
-Pectoralis minor
-Teres major
-Teres minor
-Infraspinatus
-Supraspinatus
-Subscapularis
-Brachialis
-Brachioradialis
-Rectus femoris
-Vastus lateralis
-Vastus medialis
-Vastus intermedius
-Semitendinosus
 Semimembranosus
-Gastrocnemius
-Soleus
-Tibialis anterior
-Peroneus | fibularis
-Adductor magnus
-Gracilis
-Piriformis
-Iliopsoas | psoas
-Tensor fasciae latae | tfl
-IT band | iliotibial band
-Masseter
-Temporalis
-Sternocleidomastoid
-Orbicularis oris
-Orbicularis oculi
-Frontalis
-Buccinator
-Platysma
-Levator scapulae
 Scalenes
-Intercostals
-Pelvic floor
-Kegel muscles
-Sphincter
-Cardiac muscle
-Smooth muscle
-Skeletal muscle
-Hip abductors | abductors
-Flexors
-Extensors
 Pronator teres
 Supinator
 Anconeus
@@ -1105,12 +1054,10 @@ Opponens pollicis
 Quadratus lumborum
 Multifidus
 Pectineus
-Obturator
 Gemellus
 Quadratus femoris
 Popliteus
 Plantaris
-Tibialis posterior
 Flexor hallucis
 Extensor hallucis
 Abductor hallucis
@@ -1129,10 +1076,8 @@ Stylohyoid
 Omohyoid
 Sternohyoid
 Thyrohyoid
-Pterygoid
 Stapedius
 Tensor tympani
-Ciliary muscle
 Arrector pili
 Detrusor
 Cremaster
@@ -1140,8 +1085,6 @@ Longus colli
 Splenius
 Semispinalis
 Suboccipital
-Rhomboid major
-Rhomboid minor
 Subclavius
 Pyramidalis
 Levator ani
@@ -1174,18 +1117,13 @@ Extensor digitorum brevis
 Fibularis longus | peroneus longus
 Fibularis brevis | peroneus brevis
 Fibularis tertius | peroneus tertius
-Achilles | achilles muscle
 Triceps surae
 Hip adductors
-Adductor longus
-Adductor brevis
 Obturator internus
 Obturator externus
 Superior gemellus
 Inferior gemellus
 Iliacus
-Psoas major
-Psoas minor
 Rectus capitis
 Obliquus capitis
 Longissimus
@@ -1194,7 +1132,6 @@ Spinalis
 Rotatores
 Interspinales
 Intertransversarii
-Serratus posterior
 Levatores costarum
 Transversus thoracis
 Subcostal
@@ -1204,15 +1141,9 @@ Innermost intercostals
 Cremaster muscle
 Bulbospongiosus
 Ischiocavernosus
-External anal sphincter
-Internal anal sphincter
-Urethral sphincter
-Perineal muscles
-Pelvic diaphragm
 Temporoparietalis
 Occipitofrontalis
 Occipitalis
-Auricular muscles
 Depressor labii inferioris
 Levator anguli oris
 Levator labii superioris alaeque nasi
@@ -1228,25 +1159,13 @@ Palatoglossus
 Palatopharyngeus
 Levator veli palatini
 Tensor veli palatini
-Uvula muscle | musculus uvulae
-Superior pharyngeal constrictor
-Middle pharyngeal constrictor
-Inferior pharyngeal constrictor
 Stylopharyngeus
 Cricothyroid
 Posterior cricoarytenoid
 Lateral cricoarytenoid
 Thyroarytenoid
 Vocalis
-Superior rectus
-Inferior rectus
-Medial rectus
-Lateral rectus
-Superior oblique
-Inferior oblique
 Levator palpebrae superioris
-Iris dilator
-Iris sphincter
 Scalenus anterior
 Scalenus medius
 Scalenus posterior
@@ -1254,64 +1173,119 @@ Splenius capitis
 Splenius cervicis
 Semispinalis capitis
 Longus capitis
+Forearm extensors
+Wrist extensors
+Neck extensors
+Gastroc
+Hammies
+Quadriceps femoris
+Hip extensors
+Hip rotators
+Spinal erectors
+Paraspinals
+Transversospinalis
+VMO
+Biceps femoris
+Thenar eminence
+Hypothenar eminence
+Levator
+Depressor
+
+[Rare]
+Gluteus medius
+Gluteus minimus
+Rectus abdominis
+Transverse abdominis
+Erector spinae
+Serratus anterior
+Pectoralis minor
+Teres major
+Teres minor
+Infraspinatus
+Supraspinatus
+Subscapularis
+Brachialis
+Brachioradialis
+Rectus femoris
+Vastus lateralis
+Vastus medialis
+Vastus intermedius
+Semitendinosus
+Gastrocnemius
+Soleus
+Tibialis anterior
+Peroneus | fibularis
+Piriformis
+Iliopsoas | psoas
+Tensor fasciae latae | tfl
+Masseter
+Temporalis
+Sternocleidomastoid
+Orbicularis oris
+Orbicularis oculi
+Frontalis
+Buccinator
+Platysma
+Levator scapulae
+Intercostals
+Extensors
+Obturator
+Tibialis posterior
+Pterygoid
+Ciliary muscle
+Rhomboid major
+Rhomboid minor
+Achilles | achilles muscle
+Adductor longus
+Adductor brevis
+Psoas major
+Psoas minor
+Serratus posterior
+External anal sphincter
+Internal anal sphincter
+Urethral sphincter
+Perineal muscles
+Pelvic diaphragm
+Auricular muscles
+Uvula muscle | musculus uvulae
+Superior pharyngeal constrictor
+Middle pharyngeal constrictor
+Inferior pharyngeal constrictor
+Superior rectus
+Inferior rectus
+Medial rectus
+Lateral rectus
+Superior oblique
+Inferior oblique
+Iris dilator
+Iris sphincter
 Serratus
 Middle trapezius
 Lower trapezius
 Anterior deltoid | front delt
 Lateral deltoid | side delt
 Posterior deltoid | rear delt
-Upper chest
-Lower chest
-Inner thigh
 Outer thigh
 Shin muscles
 Forearm flexors
-Forearm extensors
 Wrist flexors
-Wrist extensors
-Grip muscles
 Finger flexors
-Back muscles
-Upper back
-Mid back
-Chest
-Stomach muscles
-V-line | adonis belt
 Neck flexors
-Neck extensors
 Pelvic muscles
-Facial muscles
-Eye muscles
-Tongue muscles
-Throat muscles
 Uterus | myometrium
 Bladder muscle
 Esophageal muscles
 Intestinal muscles
 Arterial smooth muscle
 Erector pili
-Gastroc
-Hammies
-Quadriceps femoris
-Hip extensors
-Hip rotators
-Deep six | deep hip rotators
-Spinal erectors
-Paraspinals
-Transversospinalis
 QL
-VMO
-SITS muscles
-Biceps femoris
-Thenar eminence
-Hypothenar eminence
 Rotator
-Levator
-Depressor
 Constrictor
 Dilator
 
-[Rare]
+[Schooler]
+Hamstrings | hamstring
+Glutes | gluteus | butt | butt muscles
 Pecs | pectorals | chest muscles | pectoralis
 Deltoids | delts | shoulders | shoulder muscles
 Lats | latissimus dorsi
@@ -1322,15 +1296,39 @@ Gluteus maximus | glute max
 Rotator cuff
 Hip flexors
 Groin | adductors
-Core
-Lower back
 Neck muscles
 Jaw muscles
 Rhomboids
-
-[Schooler]
-Calves | calf | calf muscle
-Glutes | gluteus | butt | butt muscles
+External oblique
+Internal oblique
+Pectoralis major
+Adductor magnus
+Gracilis
+IT band | iliotibial band
+Pelvic floor
+Kegel muscles
+Sphincter
+Cardiac muscle
+Smooth muscle
+Skeletal muscle
+Hip abductors | abductors
+Flexors
+Upper chest
+Lower chest
+Inner thigh
+Grip muscles
+Back muscles
+Upper back
+Mid back
+Chest
+Stomach muscles
+V-line | adonis belt
+Facial muscles
+Eye muscles
+Tongue muscles
+Throat muscles
+Deep six | deep hip rotators
+SITS muscles
 
 [Too Clever]
 Diaphragm
@@ -1342,7 +1340,9 @@ Biceps | bicep | biceps brachii
 Triceps | tricep | triceps brachii
 Abs | abdominals | six pack
 Quads | quadriceps | quad
-Hamstrings | hamstring
+Calves | calf | calf muscle
+Core
+Lower back
 
 [Not accepted]
 Bone
@@ -1367,183 +1367,58 @@ note: Model names, with or without the brand ("Ford Mustang" or "Mustang").
 Pontiac Aztek | aztek
 
 [Deep Cut]
-Toyota Supra | supra
-Toyota Land Cruiser | land cruiser
 Toyota Yaris | yaris
-Toyota Avalon | avalon
 Toyota Celica | celica
 Toyota MR2 | mr2
-Toyota Sequoia | sequoia
 Toyota Venza | venza
-Honda Fit | fit
-Honda Element | element
 Honda Ridgeline | ridgeline
-Honda HR-V | hrv
-Honda Prelude | prelude
 Honda S2000 | s2000
 Honda NSX | nsx
 Acura Integra | integra
-Acura TL
 Acura MDX | mdx
-Nissan Maxima | maxima
-Nissan Pathfinder | pathfinder
-Nissan Frontier | frontier
-Nissan Leaf | leaf
 Nissan 350Z | 350z
-Nissan Skyline | skyline
-Nissan Versa | versa
-Nissan Murano | murano
-Nissan Titan | titan
 Infiniti G35 | g35
-Lexus RX
-Lexus IS
-Lexus ES
 Lexus LFA
 Mazda3 | mazda 3
-Mazda CX-5 | cx-5
-Mazda RX-7 | rx-7 | rx7
-Mazda RX-8 | rx-8
 Subaru Impreza | impreza
 Subaru Crosstrek | crosstrek
-Subaru Legacy | legacy
 Subaru BRZ | brz
-Mitsubishi Lancer | lancer | lancer evolution | evo
-Mitsubishi Eclipse | eclipse
-Mitsubishi Outlander | outlander
-Hyundai Tucson | tucson
-Hyundai Santa Fe | santa fe
 Hyundai Ioniq | ioniq
-Hyundai Kona | kona
 Kia Optima | optima
 Kia Sorento | sorento
 Kia Sportage | sportage
-Kia Telluride | telluride
-Kia Forte | forte
-Kia Rio | rio
-Kia Stinger | stinger
-Chevrolet Cobalt | cobalt
-Chevrolet Cavalier | cavalier
-Chevrolet Equinox | equinox
-Chevrolet Traverse | traverse
-Chevrolet Colorado | colorado
-Chevrolet Blazer | blazer
-Chevrolet Bolt | bolt
-Chevrolet Volt | volt
-Chevrolet Spark | spark
-Chevrolet Cruze | cruze
-Chevrolet Avalanche | avalanche
-Chevrolet El Camino | el camino
-Chevrolet Nova | nova
 Chevrolet Chevelle | chevelle
-Chevy Monte Carlo | monte carlo
 Buick LeSabre | lesabre
-Buick Enclave | enclave
-Buick Regal | regal
 Buick Skylark | skylark
-Buick Riviera | riviera
-Cadillac Eldorado | eldorado
 Cadillac DeVille | deville
-Cadillac CTS | cts
-Lincoln Navigator | navigator
-Lincoln Town Car | town car
-Lincoln Continental | continental
-GMC Sierra | sierra
-GMC Yukon | yukon
-GMC Acadia | acadia
-Ford Expedition | expedition
-Ford Edge | edge
-Ford Fusion | fusion
-Ford Flex | flex
-Ford Maverick | maverick
-Ford Excursion | excursion
-Ford Crown Victoria | crown victoria | crown vic
-Ford GT
 Ford Galaxie | galaxie
-Ford Falcon | falcon
 Ford Fairlane | fairlane
-Ford Probe | probe
 Ford Windstar | windstar
-Ford Transit | transit
-Ford Mach-E | mach-e | mustang mach-e
-Ford Lightning | f-150 lightning
-Dodge Durango | durango
-Dodge Caravan | caravan | grand caravan
-Dodge Dart | dart
-Dodge Neon | neon
 Dodge Stratus | stratus
-Dodge Dakota | dakota
-Chrysler 300
-Chrysler Pacifica | pacifica
-Chrysler Town & Country | town and country
-Jeep Liberty | liberty
-Jeep Compass | compass
-Jeep Renegade | renegade
-Jeep Gladiator | gladiator
 Jeep Wagoneer | wagoneer
-Plymouth Voyager | voyager
-Plymouth Road Runner | road runner
-Plymouth Prowler | prowler
-Pontiac Grand Am | grand am
-Pontiac Grand Prix | grand prix
 Pontiac Sunfire | sunfire
 Pontiac Fiero | fiero
-Pontiac Trans Am | trans am
-Pontiac Solstice | solstice
-Saturn Ion | ion
-Saturn Vue | vue
 Oldsmobile Cutlass | cutlass
-Oldsmobile Delta 88 | delta 88
-AMC Gremlin | gremlin
-AMC Pacer | pacer
 Volkswagen Passat | passat
 Volkswagen Tiguan | tiguan
-Volkswagen Atlas | atlas
-Volkswagen Bus | vw bus | microbus | kombi
-Volkswagen Rabbit | rabbit
-Volkswagen GTI | gti
 Volkswagen Touareg | touareg
-BMW 3 Series | 3 series
-BMW 5 Series | 5 series
-BMW M3 | m3
-BMW X5 | x5
-BMW i3 | i3
 BMW Z4 | z4
-Mercedes G-Class | g wagon | g-wagon
-Mercedes C-Class | c class
-Mercedes S-Class | s class
-Mercedes E-Class | e class
-Audi A4 | a4
-Audi R8 | r8
 Audi Q5 | q5
-Audi TT | tt
-Porsche Cayenne | cayenne
 Porsche Boxster | boxster
 Porsche Macan | macan
 Porsche Taycan | taycan
 Ferrari F40 | f40
-Ferrari Enzo | enzo
 Ferrari LaFerrari | laferrari
-Lamborghini Diablo | diablo
 Lamborghini Aventador | aventador
 Lamborghini Huracan | huracan
 Lamborghini Urus | urus
 Bugatti Veyron | veyron
 Bugatti Chiron | chiron
-McLaren F1
-McLaren P1 | p1
 Aston Martin DB5 | db5
-Aston Martin Vantage | vantage
-Jaguar E-Type | e-type
 Jaguar XJ | xj
-Land Rover Defender | defender
-Land Rover Discovery | discovery
 Volvo XC90 | xc90
-Volvo 240
-Saab 900
-Fiat 500
 Smart Fortwo | fortwo
 Rivian R1T | r1t
-Lucid Air
 Polestar 2
 Kia EV6 | ev6
 Hyundai Ioniq 5 | ioniq 5
@@ -1717,6 +1592,134 @@ Lamborghini Gallardo | gallardo
 Tesla Roadster | roadster
 
 [Rare]
+Toyota 4Runner | 4runner
+Nissan Sentra | sentra
+Hyundai Elantra | elantra
+Tesla Cybertruck | cybertruck
+Lamborghini Countach | countach
+Ferrari Testarossa | testarossa
+Toyota Supra | supra
+Toyota Land Cruiser | land cruiser
+Toyota Avalon | avalon
+Toyota Sequoia | sequoia
+Honda Fit | fit
+Honda Element | element
+Honda HR-V | hrv
+Honda Prelude | prelude
+Acura TL
+Nissan Maxima | maxima
+Nissan Pathfinder | pathfinder
+Nissan Frontier | frontier
+Nissan Leaf | leaf
+Nissan Skyline | skyline
+Nissan Versa | versa
+Nissan Murano | murano
+Nissan Titan | titan
+Lexus RX
+Lexus IS
+Lexus ES
+Mazda CX-5 | cx-5
+Mazda RX-7 | rx-7 | rx7
+Mazda RX-8 | rx-8
+Subaru Legacy | legacy
+Mitsubishi Lancer | lancer | lancer evolution | evo
+Mitsubishi Eclipse | eclipse
+Mitsubishi Outlander | outlander
+Hyundai Tucson | tucson
+Hyundai Santa Fe | santa fe
+Hyundai Kona | kona
+Kia Telluride | telluride
+Kia Forte | forte
+Kia Rio | rio
+Kia Stinger | stinger
+Chevrolet Cobalt | cobalt
+Chevrolet Cavalier | cavalier
+Chevrolet Equinox | equinox
+Chevrolet Traverse | traverse
+Chevrolet Colorado | colorado
+Chevrolet Blazer | blazer
+Chevrolet Bolt | bolt
+Chevrolet Volt | volt
+Chevrolet Spark | spark
+Chevrolet Cruze | cruze
+Chevrolet Avalanche | avalanche
+Chevrolet El Camino | el camino
+Chevrolet Nova | nova
+Chevy Monte Carlo | monte carlo
+Buick Enclave | enclave
+Buick Regal | regal
+Buick Riviera | riviera
+Cadillac Eldorado | eldorado
+Cadillac CTS | cts
+Lincoln Navigator | navigator
+Lincoln Continental | continental
+GMC Sierra | sierra
+GMC Yukon | yukon
+GMC Acadia | acadia
+Ford Expedition | expedition
+Ford Fusion | fusion
+Ford Flex | flex
+Ford Maverick | maverick
+Ford Excursion | excursion
+Ford GT
+Ford Falcon | falcon
+Ford Probe | probe
+Ford Mach-E | mach-e | mustang mach-e
+Dodge Durango | durango
+Dodge Caravan | caravan | grand caravan
+Dodge Dart | dart
+Dodge Neon | neon
+Dodge Dakota | dakota
+Chrysler 300
+Chrysler Pacifica | pacifica
+Chrysler Town & Country | town and country
+Jeep Liberty | liberty
+Jeep Compass | compass
+Jeep Renegade | renegade
+Jeep Gladiator | gladiator
+Plymouth Voyager | voyager
+Plymouth Road Runner | road runner
+Plymouth Prowler | prowler
+Pontiac Grand Am | grand am
+Pontiac Grand Prix | grand prix
+Pontiac Trans Am | trans am
+Pontiac Solstice | solstice
+Saturn Ion | ion
+Saturn Vue | vue
+Oldsmobile Delta 88 | delta 88
+AMC Gremlin | gremlin
+AMC Pacer | pacer
+Volkswagen Atlas | atlas
+Volkswagen Bus | vw bus | microbus | kombi
+Volkswagen Rabbit | rabbit
+Volkswagen GTI | gti
+BMW 3 Series | 3 series
+BMW 5 Series | 5 series
+BMW M3 | m3
+BMW X5 | x5
+BMW i3 | i3
+Mercedes G-Class | g wagon | g-wagon
+Mercedes C-Class | c class
+Mercedes E-Class | e class
+Audi A4 | a4
+Audi R8 | r8
+Audi TT | tt
+Porsche Cayenne | cayenne
+Ferrari Enzo | enzo
+Lamborghini Diablo | diablo
+McLaren F1
+McLaren P1 | p1
+Aston Martin Vantage | vantage
+Jaguar E-Type | e-type
+Land Rover Defender | defender
+Land Rover Discovery | discovery
+Volvo 240
+Saab 900
+Fiat 500
+Lucid Air
+
+[Schooler]
+Toyota Camry | camry
 Chevrolet Corvette | corvette | vette
 Chevrolet Camaro | camaro
 Dodge Challenger | challenger
@@ -1742,29 +1745,23 @@ Toyota RAV4 | rav4
 Toyota Tacoma | tacoma
 Toyota Tundra | tundra
 Toyota Highlander | highlander
-Toyota 4Runner | 4runner
 Toyota Sienna | sienna
 Honda CR-V | crv | cr-v
 Honda Odyssey | odyssey
 Honda Pilot | pilot
 Nissan Altima | altima
-Nissan Sentra | sentra
 Nissan Rogue | rogue
 Nissan GT-R | gtr | gt-r
 Subaru Outback | outback
 Subaru Forester | forester
 Subaru WRX | wrx
 Mazda Miata | miata | mx-5
-Hyundai Elantra | elantra
 Hyundai Sonata | sonata
 Kia Soul | soul
 Tesla Model S | model s
 Tesla Model X | model x
 Tesla Model Y | model y
-Tesla Cybertruck | cybertruck
 Porsche 911 | 911
-Lamborghini Countach | countach
-Ferrari Testarossa | testarossa
 Mini Cooper
 Cadillac Escalade | escalade
 Range Rover
@@ -1779,11 +1776,12 @@ Chevy Bel Air | bel air
 Ford Thunderbird | thunderbird
 Ford Taurus | taurus
 Ford Model A | model a
-
-[Schooler]
-Ford F-150 | f-150 | f150
-Tesla Model 3 | model 3
-Toyota Prius | prius
+Lincoln Town Car | town car
+Ford Edge | edge
+Ford Crown Victoria | crown victoria | crown vic
+Ford Transit | transit
+Ford Lightning | f-150 lightning
+Mercedes S-Class | s class
 
 [Too Clever]
 Ford Pinto | pinto
@@ -1793,9 +1791,11 @@ DeLorean | delorean dmc-12 | dmc-12
 [Plankton]
 Ford Mustang | mustang
 Honda Civic | civic
-Toyota Camry | camry
 Toyota Corolla | corolla
 Honda Accord | accord
+Ford F-150 | f-150 | f150
+Tesla Model 3 | model 3
+Toyota Prius | prius
 
 [Not accepted]
 Toyota
@@ -1816,66 +1816,20 @@ prompt: Name a type of weather or weather event
 Graupel
 
 [Deep Cut]
-Derecho
 Microburst
 Waterspout
-Funnel cloud
-Supercell
-Wind chill
-Heat index
-Black ice
-Rime | rime ice
 Hoarfrost
-Freezing fog
-Ice fog
-Lake-effect snow | lake effect snow
-Nor'easter | noreaster
-Chinook
-Santa Ana winds | santa ana
 Sirocco
-Mistral
 Haboob
-Dust devil
-Firestorm
 Pyrocumulus
 Thundersnow
-Heat lightning
-Ball lightning
-Sheet lightning
-Sun shower
 Virga
 Mammatus clouds
 Cumulonimbus
-Cumulus
-Stratus
-Cirrus
 Nimbostratus
 Altocumulus
-Halo | sun halo
 Sundog | sun dog
 Moonbow
-Aurora | northern lights | aurora borealis
-Indian summer
-Dog days
-Cold snap
-Arctic blast
-Bomb cyclone
-Atmospheric river
-Pineapple Express
-La Nina
-Jet stream
-High pressure
-Low pressure
-Barometric pressure
-Inversion
-Flash flood
-Storm surge
-Mudslide
-Wildfire
-Gust
-Updraft
-Downdraft
-Zephyr
 Bora
 Foehn | föhn
 Khamsin
@@ -1889,55 +1843,34 @@ Berg wind
 Brickfielder
 Southerly buster
 Willy-willy
-Diamond dust
-Snow roller
 Penitentes
 Ice pellets
-Snow grains
 Glaze
 Silver thaw
 Fogbow
-Glory
 Crepuscular rays
 Anticrepuscular rays
-Green flash
 Noctilucent clouds
 Nacreous clouds
 Lenticular clouds
 Kelvin-Helmholtz clouds
-Shelf cloud
-Roll cloud
-Wall cloud
 Asperitas
-Morning Glory cloud
 Fallstreak hole
 St. Elmo's fire
-Blue jet
 Gustnado
 Landspout
-Steam devil
 Fire whirl | firenado
 Snownado
 Medicane
 Haar
 Sea fret
 Advection fog
-Radiation fog
-Valley fog
 Pogonip
-Steam fog
-Rain shower
-Light rain
-Heavy rain
 Torrential rain
 Cloudburst
 Deluge
 Monsoon rain
-Acid rain
-Blood rain
-Red rain
 Rainstorm
-Thunder shower
 Spitting
 Sprinkle
 Mizzle
@@ -1946,62 +1879,31 @@ Pea souper
 Freezing drizzle
 Wintry mix
 Snow squall
-Snow shower
 Snowfall
-Heavy snow
-Ocean-effect snow
 Upslope snow
 Ground blizzard
 Snowdrift
-Powder snow
-Wet snow
 Slush
 Sleet storm
-Ice crystals
 Hailstone
-Soft hail
-Small hail
-Frost flowers
 Frost heave
-Hard freeze
-Killing frost
-Ground frost
-Air frost
-Cold wave
-Cold spell
-Deep freeze
-Big freeze
 Freeze-thaw
 Thaw
 January thaw
-Blackberry winter
 Dogwood winter
-Old wives' summer
 St. Martin's summer
-Heat burst
-Heat dome
-Hot spell
 Scorcher
 Muggy
 Sweltering
 Balmy
-Mild
-Dry spell
 Megadrought
-Dust bowl
 Duster
 Brownout
 Bushfire
-Forest fire
 Volcanic ash cloud
 Vog
-Sea breeze
-Land breeze
-Mountain breeze
-Valley breeze
 Katabatic wind
 Anabatic wind
-Trade winds
 Westerlies
 Easterlies
 Doldrums
@@ -2010,7 +1912,6 @@ Roaring Forties
 Furious Fifties
 Screaming Sixties
 Gale force wind
-Strong wind
 Windstorm
 European windstorm
 Crosswind
@@ -2020,22 +1921,14 @@ Whirlwind
 Wind shear
 Clear-air turbulence
 Turbulence
-Calm
-Dead calm
-Still air
 Squall line
-Bow echo
 Mesocyclone
-Hook echo
 Multi-vortex tornado
 Wedge tornado
 Rope tornado
 Tornado outbreak
-Hurricane eye | eye of the storm
 Eyewall
 Rainband
-Tropical depression
-Tropical wave
 Tropical disturbance
 Subtropical storm
 Post-tropical cyclone
@@ -2044,11 +1937,8 @@ Superstorm
 Super typhoon
 Baguio
 Kona storm
-Polar low
 Alberta clipper
 Panhandle hook
-Colorado low
-Gulf low
 Blue norther
 Norther
 Texas norther
@@ -2089,11 +1979,6 @@ Collada
 Chocolatero
 Tule fog
 June gloom
-May gray
-Marine layer
-Sea smoke
-Arctic sea smoke
-Hill fog
 Upslope fog
 Frontal fog
 Evaporation fog
@@ -2111,32 +1996,18 @@ Light pillar
 Sun pillar
 Circumzenithal arc
 Circumhorizontal arc | fire rainbow
-Moon halo
-22° halo
 Parhelion
 Paraselene | moon dog
 Corona
 Iridescent clouds
 Brocken spectre
 Heiligenschein
-Belt of Venus
-Earth's shadow
 Alpenglow
-Red sky
-Blue hour
-Golden hour
 Afterglow
 Airglow
-Southern lights | aurora australis
-STEVE
-Lightning bolt
 Forked lightning
-Cloud-to-ground lightning
 Intracloud lightning
 Bead lightning
-Ribbon lightning
-Dry lightning
-Positive lightning
 Volcanic lightning
 Red sprite | sprites
 Elves
@@ -2160,35 +2031,19 @@ Scud
 Fractus
 Mackerel sky
 Mare's tails
-Cloud street
-Wave cloud
-Banner cloud
-Cap cloud
-Hole-punch cloud
 Undulatus
-Fog bank
 Overcast sky
-Mostly sunny
 Mostly cloudy
-Partly sunny
-Fair weather
-Bright and sunny
-Blue skies
-Grey skies
 Dreary
 Gloomy
-Bitter cold
-Freezing
 Chilly
 Nippy
-Crisp
 Brisk
 Arid
 Gusty
 Blustery
 Breezy
 Stormy
-Rainy
 Snowy
 Icy
 Foggy
@@ -2196,22 +2051,143 @@ Misty
 Hazy
 Smoggy
 Frosty
-Precipitation
 Dew point
+Occluded front
+Stationary front
+El Niño Southern Oscillation | enso
+Subtropical jet
+Rossby wave
+
+[Rare]
+Derecho
+Funnel cloud
+Supercell
+Rime | rime ice
+Nor'easter | noreaster
+Chinook
+Mistral
+Firestorm
+Cumulus
+Stratus
+Cirrus
+Bomb cyclone
+Pineapple Express
+Barometric pressure
+Inversion
+Mudslide
+Wildfire
+Gust
+Updraft
+Downdraft
+Zephyr
+Diamond dust
+Snow roller
+Snow grains
+Glory
+Green flash
+Shelf cloud
+Roll cloud
+Wall cloud
+Morning Glory cloud
+Blue jet
+Steam devil
+Radiation fog
+Valley fog
+Steam fog
+Rain shower
+Light rain
+Heavy rain
+Acid rain
+Blood rain
+Red rain
+Thunder shower
+Snow shower
+Heavy snow
+Ocean-effect snow
+Powder snow
+Wet snow
+Ice crystals
+Soft hail
+Small hail
+Frost flowers
+Hard freeze
+Killing frost
+Ground frost
+Air frost
+Cold wave
+Cold spell
+Deep freeze
+Big freeze
+Blackberry winter
+Old wives' summer
+Heat burst
+Heat dome
+Hot spell
+Mild
+Dry spell
+Dust bowl
+Forest fire
+Sea breeze
+Land breeze
+Mountain breeze
+Valley breeze
+Trade winds
+Strong wind
+Calm
+Dead calm
+Bow echo
+Hook echo
+Hurricane eye | eye of the storm
+Tropical depression
+Tropical wave
+Polar low
+Colorado low
+Gulf low
+May gray
+Marine layer
+Sea smoke
+Arctic sea smoke
+Hill fog
+Moon halo
+22° halo
+Belt of Venus
+Earth's shadow
+Red sky
+Blue hour
+Golden hour
+Southern lights | aurora australis
+STEVE
+Lightning bolt
+Cloud-to-ground lightning
+Ribbon lightning
+Dry lightning
+Positive lightning
+Cloud street
+Wave cloud
+Banner cloud
+Cap cloud
+Hole-punch cloud
+Fog bank
+Mostly sunny
+Partly sunny
+Fair weather
+Bright and sunny
+Blue skies
+Grey skies
+Bitter cold
+Freezing
+Crisp
+Rainy
+Precipitation
 Relative humidity
 Air pressure
 Pressure system
-Occluded front
-Stationary front
 Dry line
 Blocking high
 Omega block
 Cut-off low
 Heat low
-El Niño Southern Oscillation | enso
 Polar jet
-Subtropical jet
-Rossby wave
 Spring
 Summer
 Autumn | fall
@@ -2220,7 +2196,8 @@ Rainy season
 Dry season
 Wet season
 
-[Rare]
+[Schooler]
+Thunderstorm
 Tornado
 Hurricane
 Fog
@@ -2262,11 +2239,32 @@ Shower | showers
 Flurries | snow flurries
 Cold front
 Warm front
-
-[Schooler]
-Storm
-Thunderstorm
-Hail
+Wind chill
+Heat index
+Black ice
+Freezing fog
+Ice fog
+Lake-effect snow | lake effect snow
+Santa Ana winds | santa ana
+Dust devil
+Heat lightning
+Ball lightning
+Sheet lightning
+Sun shower
+Halo | sun halo
+Aurora | northern lights | aurora borealis
+Indian summer
+Dog days
+Cold snap
+Arctic blast
+Atmospheric river
+La Nina
+Jet stream
+High pressure
+Low pressure
+Flash flood
+Storm surge
+Still air
 
 [Too Clever]
 Rainbow
@@ -2278,6 +2276,8 @@ Snow
 Sunny | sunshine | sun
 Cloudy | clouds
 Wind | windy
+Storm
+Hail
 
 [Not accepted]
 Earthquake
@@ -2304,27 +2304,11 @@ prompt: Name a type of soup
 Cullen skink
 
 [Deep Cut]
-Mulligatawny
-Vichyssoise
-Bouillabaisse
-Cioppino
 Avgolemono
 Ribollita
-Pasta e fagioli | pasta fazool
-Stracciatella
-Caldo verde
-Caldo de res
-Caldo de pollo
-Sopa de lima
-Albondigas
-Sancocho
 Ajiaco
 Locro
 Chupe
-Feijoada
-Callaloo
-Pepperpot
-Goulash
 Solyanka
 Shchi
 Okroshka
@@ -2334,85 +2318,20 @@ Harira
 Chorba
 Ash reshteh
 Mercimek
-Yogurt soup
 Tarator
-Hot pot
-Laksa
-Soto
-Sinigang
 Tinola
 Bulalo
 Mohinga
-Kimchi jjigae
 Sundubu jjigae
-Doenjang jjigae
 Samgyetang
 Galbitang
 Tteokguk
-Bird's nest soup
-Shark fin soup
-Congee | jook
-Udon soup
-Soba soup
-Tonkotsu
-Shoyu ramen
-Oxtail soup | oxtail
-Turtle soup
-Snapper soup
-Crab bisque
-She-crab soup
-Oyster stew
-Fish chowder
-Lobster stew
-Brunswick stew
-Burgoo
-Booyah
-Cream of celery
-Cream of asparagus
-Cream of tomato
-Chicken and dumplings
-Chicken pot pie soup
-Cheeseburger soup
-Taco soup
-Pizza soup
-Beer cheese soup
-White chili
-Green chile stew
-Posole verde
-Sopa de fideo
-Mole de olla
-Birria | consome
-Pickle soup
-Sorrel soup
-Nettle soup
-Watercress soup
-Chilled cucumber soup
-Cold beet soup
-Fruit soup
-Sweet potato soup
-Peanut soup | groundnut soup
-Egusi soup
-Pepper soup
 Ogbono soup
-Okra soup
-Gumbo z'herbes
-Turkey soup
-Mushroom barley
-Scotch broth
-Cock-a-leekie
-Mulligan stew
-Irish stew
-Cawl
-Pea and ham
-Brown Windsor
-Mock turtle
 Zurek
 Flaki
 Kapustnyak
 Rassolnik
 Botvinya
-Sauerkraut soup
-Hungarian mushroom
 Halaszle
 Jokai bableves
 Frittatensuppe
@@ -2423,7 +2342,6 @@ Labskaus
 Waterzooi
 Erwtensoep
 Snert
-Sopa de ajo
 Salmorejo
 Ajoblanco
 Porrusalda
@@ -2432,26 +2350,19 @@ Fanesca
 Sopa paraguaya
 Chairo
 Cazuela
-Sopa de mani
 Sopa de mondongo
 Mondongo
 Sopa de caracol
-Fish head soup
-Bak kut teh
 Tom saap
 Kaeng som
 Canh chua
-Bun bo Hue
 Hu tieu
-Mien ga
-Chao
 Lugaw
 Sotanghon
 Misua
 Batchoy
 Sopas
 Rasam
-Sambar
 Dal shorba
 Thukpa
 Nihari
@@ -2470,70 +2381,14 @@ Beshbarmak
 Saoto
 Sopa de pescado
 Chilate
-Tripe soup
-Chicken soup
-Chicken broth
-Beef broth
-Vegetable broth
-Pot liquor
-Corn soup
-Sweet corn soup
-Chicken corn soup
-Crab and corn soup
-Shrimp bisque
-Tomato bisque
-Roasted red pepper soup
-Red pepper soup
-Green pea soup
-Yellow pea soup
-Ham and bean soup
-Navy bean soup
-White bean soup
-Senate bean soup
-Tuscan bean soup
-Lentil soup
-Red lentil soup
-Dal
-Coconut soup
-Thai coconut soup
-Curry laksa
 Asam laksa
-Khao soi
-Boat noodles
 Kuay teow
-Jok
-Rice soup
-Khao tom
 Tom jued
 Kaeng jued
 Canh
 Canh bi
 Bún riêu
 Bún thịt nướng
-Pho ga
-Pho bo
-Mi quang
-Cao lau
-Wonton noodle soup
-Beef noodle soup
-Taiwanese beef noodle soup
-Lanzhou noodle soup
-Dan dan noodles
-Crossing the bridge noodles
-Egg flower soup
-Corn egg drop soup
-Winter melon soup
-Lotus root soup
-Pork rib soup
-Fish maw soup
-Snake soup
-Shark's fin
-Bird's nest
-Double-boiled soup
-Herbal soup
-Chicken herbal soup
-Dong quai soup
-Ginseng chicken soup
 Seolleongtang
 Gomtang
 Kalguksu
@@ -2550,26 +2405,17 @@ Tonjiru
 Kenchinjiru
 Osuimono
 Zoni
-Nabe
 Sukiyaki
-Shabu-shabu
-Oden
 Chanko nabe
 Yudofu
 Shio ramen
-Miso ramen
 Tsukemen
 Champon
-Kitsune udon
-Tempura udon
 Somen
-Sopa de lima Yucatan
-Sopa de tortilla
 Caldo tlalpeño
 Caldo de camarón
 Caldo de siete mares | siete mares
 Caldo de mariscos
-Sopa azteca
 Sopa de frijol
 Sopa de elote
 Crema de elote
@@ -2578,15 +2424,12 @@ Sopa de albóndigas
 Caldo de queso
 Caldillo
 Sopa de letras
-Sopa de pollo
-Sopa de res
 Sopa de mariscos
 Sopa de verduras
 Caldo gallego
 Cocido
 Olla podrida
 Fabada
-Pote
 Sopa castellana
 Sopa de cebolla
 Crema de calabaza
@@ -2599,14 +2442,11 @@ Crème Dubarry
 Bisque de homard
 Soupe de poisson
 Bourride
-Pot-au-feu
-Petite marmite
 Consommé Célestine
 Minestra
 Minestrone alla genovese
 Zuppa di pesce
 Acquacotta
-Pappa al pomodoro
 Brodo
 Tortellini in brodo
 Cappelletti in brodo
@@ -2622,7 +2462,6 @@ Pastina soup
 Stracciatella alla romana
 Gulyásleves | gulyas
 Gulaschsuppe
-Fisherman's soup
 Bableves
 Meggyleves | cold cherry soup
 Gyümölcsleves
@@ -2655,9 +2494,7 @@ Kulesh
 Kharcho soup
 Chikhirtma
 Bozbash
-Piti
 Dovga
-Spas
 Khash
 Ciorbă
 Ciorbă de burtă
@@ -2667,23 +2504,12 @@ Supă de găluște
 Čorba
 Riblja čorba
 Teleća čorba
-Jota soup
 Paradižnikova juha
-Leek soup
-Cabbage and potato
 Colcannon soup
-Irish potato soup
 Welsh cawl
 Partan bree
 Bawd bree
 Hotch potch
-Lentil and bacon
-Mock turtle soup
-Wild mushroom soup
-Cream of broccoli
-Broccoli soup
-Spinach soup
-Kale soup
 Canja
 Açorda
 Sopa de feijão
@@ -2706,27 +2532,18 @@ Biche
 Sopa de lentejas
 Sopa de gandules
 Asopao
-Mannish water
-Red pea soup
-Fish tea
-Goat water
-Conch chowder
 Bahamian souse | souse
 Bouyon
 Soup joumou
-Light soup
-Palm nut soup | banga soup
 Abenkwan
 Afang soup
 Edikang ikong
 Efo riro
-Oha soup
 Nsala
 Bitterleaf soup
 Okazi soup
 Mafé
 Domoda
-Bouillon Senegalese
 Shorbat adas
 Shorbat freekeh
 Molokhia
@@ -2741,42 +2558,191 @@ Tarhana
 Düğün çorbası
 Kelle paça
 Ash-e reshteh
-Ash-e jo
 Ab-e gusht
 Kale pache
 Kibbeh soup
 Shishbarak
-Adas
 Lentil shorba
-Paya
 Haleem soup
 Kadhi
 Thenthuk
 Gyathuk
 Jhol momo
-Soto ayam
 Sop buntut | oxtail soup indonesian
 Rawon
 Sayur asem
 Sayur lodeh
-Coto Makassar
 Konro
 Tekwan
 Mie bakso | bakso
-Mee soto
-Mee rebus
 Sup kambing
-Fish soup Singapore
 Sinigang na baboy
 Sinigang na hipon
 Nilaga
 Pancit molo
 Arroz caldo
-Goto
-Mami
 La Paz batchoy
 
 [Rare]
+Mulligatawny
+Vichyssoise
+Bouillabaisse
+Cioppino
+Pasta e fagioli | pasta fazool
+Stracciatella
+Caldo verde
+Caldo de res
+Caldo de pollo
+Sopa de lima
+Albondigas
+Sancocho
+Feijoada
+Callaloo
+Pepperpot
+Goulash
+Laksa
+Sinigang
+Kimchi jjigae
+Doenjang jjigae
+Congee | jook
+Udon soup
+Soba soup
+Tonkotsu
+Shoyu ramen
+Oxtail soup | oxtail
+Crab bisque
+Fish chowder
+Burgoo
+Booyah
+Posole verde
+Sopa de fideo
+Mole de olla
+Birria | consome
+Sorrel soup
+Nettle soup
+Watercress soup
+Egusi soup
+Okra soup
+Gumbo z'herbes
+Cock-a-leekie
+Cawl
+Sauerkraut soup
+Hungarian mushroom
+Sopa de ajo
+Sopa de mani
+Fish head soup
+Bak kut teh
+Bun bo Hue
+Mien ga
+Chao
+Sambar
+Tripe soup
+Chicken soup
+Chicken broth
+Beef broth
+Vegetable broth
+Pot liquor
+Corn soup
+Sweet corn soup
+Chicken corn soup
+Crab and corn soup
+Shrimp bisque
+Tomato bisque
+Roasted red pepper soup
+Red pepper soup
+Green pea soup
+Yellow pea soup
+Ham and bean soup
+Navy bean soup
+White bean soup
+Senate bean soup
+Tuscan bean soup
+Lentil soup
+Red lentil soup
+Dal
+Coconut soup
+Thai coconut soup
+Curry laksa
+Khao soi
+Boat noodles
+Jok
+Rice soup
+Khao tom
+Pho ga
+Pho bo
+Mi quang
+Cao lau
+Wonton noodle soup
+Beef noodle soup
+Taiwanese beef noodle soup
+Lanzhou noodle soup
+Dan dan noodles
+Crossing the bridge noodles
+Egg flower soup
+Corn egg drop soup
+Winter melon soup
+Lotus root soup
+Pork rib soup
+Fish maw soup
+Snake soup
+Shark's fin
+Bird's nest
+Double-boiled soup
+Herbal soup
+Chicken herbal soup
+Dong quai soup
+Ginseng chicken soup
+Nabe
+Shabu-shabu
+Oden
+Miso ramen
+Kitsune udon
+Tempura udon
+Sopa de lima Yucatan
+Sopa de tortilla
+Sopa azteca
+Sopa de pollo
+Sopa de res
+Pote
+Pot-au-feu
+Petite marmite
+Pappa al pomodoro
+Fisherman's soup
+Piti
+Spas
+Jota soup
+Leek soup
+Cabbage and potato
+Irish potato soup
+Lentil and bacon
+Mock turtle soup
+Wild mushroom soup
+Cream of broccoli
+Broccoli soup
+Spinach soup
+Kale soup
+Mannish water
+Red pea soup
+Goat water
+Conch chowder
+Light soup
+Palm nut soup | banga soup
+Oha soup
+Bouillon Senegalese
+Ash-e jo
+Adas
+Paya
+Soto ayam
+Coto Makassar
+Mee soto
+Mee rebus
+Fish soup Singapore
+Goto
+Mami
+
+[Schooler]
+Clam chowder | chowder
+Minestrone
 Split pea | pea soup
 Potato soup | baked potato soup
 Potato leek | leek and potato
@@ -2793,7 +2759,6 @@ Manhattan clam chowder
 Gazpacho
 Matzo ball | matzah ball
 Wonton | wonton soup
-Egg drop | egg drop soup
 Hot and sour
 Miso | miso soup
 Pho
@@ -2804,7 +2769,6 @@ Bisque | lobster bisque
 Borscht | borsch | borshch | bortsch
 Chicken and rice
 Beef barley
-Italian wedding
 Zuppa Toscana
 Tom yum
 Tom kha
@@ -2817,10 +2781,44 @@ Avocado soup
 Bone broth | broth
 Consomme
 Seafood chowder
-
-[Schooler]
-Broccoli cheddar | broccoli cheese
-Vegetable | vegetable soup
+Yogurt soup
+Hot pot
+Soto
+Bird's nest soup
+Shark fin soup
+Turtle soup
+Snapper soup
+She-crab soup
+Oyster stew
+Lobster stew
+Brunswick stew
+Cream of celery
+Cream of asparagus
+Cream of tomato
+Chicken and dumplings
+Chicken pot pie soup
+Cheeseburger soup
+Taco soup
+Pizza soup
+Beer cheese soup
+White chili
+Green chile stew
+Pickle soup
+Chilled cucumber soup
+Cold beet soup
+Fruit soup
+Sweet potato soup
+Peanut soup | groundnut soup
+Pepper soup
+Turkey soup
+Mushroom barley
+Scotch broth
+Mulligan stew
+Irish stew
+Pea and ham
+Brown Windsor
+Mock turtle
+Fish tea
 
 [Too Clever]
 Beef stew | stew
@@ -2831,9 +2829,11 @@ Alphabet soup
 [Plankton]
 Chicken noodle | chicken noodle soup
 Tomato | tomato soup
-Clam chowder | chowder
-Minestrone
 French onion | onion soup
+Broccoli cheddar | broccoli cheese
+Vegetable | vegetable soup
+Egg drop | egg drop soup
+Italian wedding
 
 [Not accepted]
 Salad
@@ -2862,29 +2862,18 @@ Nunavut
 [Deep Cut]
 Nova Scotia
 Alberta
-British Columbia | bc
 Nebraska
-Kansas
-Iowa
 Oklahoma
 Arkansas
 Mississippi
 Alabama
-Kentucky
-West Virginia
 Maryland
 Connecticut
 Maine
-Minnesota
-Wisconsin
-Indiana
 Missouri
 Louisiana
-South Carolina
-New Mexico
 Utah
 Nevada
-Oregon
 Northwest Territories | nwt
 Yukon | yukon territory
 Prince Edward Island | pei
@@ -2905,19 +2894,33 @@ New Hampshire
 [Rare]
 Ontario
 Quebec | québec
+Arizona
+Tennessee
+Illinois
+Pennsylvania | pennsylvannia
+Massachusetts | massachusets
+British Columbia | bc
+Kansas
+Iowa
+Kentucky
+West Virginia
+Minnesota
+Wisconsin
+Indiana
+South Carolina
+New Mexico
+Oregon
+
+[Schooler]
+Florida
 Washington | washington state
 Colorado
-Arizona
 Georgia
 North Carolina
 Virginia
-Tennessee
 Ohio
 Michigan
-Illinois
-Pennsylvania | pennsylvannia
 New Jersey
-Massachusetts | massachusets
 
 [Too Clever]
 Alaska
@@ -2926,7 +2929,6 @@ Hawaii
 [Plankton]
 California
 Texas
-Florida
 New York
 
 [Not accepted]
@@ -2953,146 +2955,65 @@ prompt: Name a TV game show
 Supermarket Sweep
 
 [Deep Cut]
-Concentration
 The Joker's Wild
-Sale of the Century
 Blockbusters
 Win Ben Stein's Money
-Greed
-Twenty One
-Dog Eat Dog
-Russian Roulette
-Hole in the Wall
-Downfall
-Paranoia
-The Wall
-1 vs. 100 | 1 vs 100
-Million Dollar Password
-Don't Forget the Lyrics
-The Singing Bee
-Identity
-Power of 10
-Grand Slam
-Catch 21
-Chain Reaction
-Common Knowledge
-Raid the Cage
-The Cube
 Holey Moley
 Ellen's Game of Games | game of games
-Chopped
-Cupcake Wars
-Guy's Grocery Games
 Beat Bobby Flay
-Top Chef
-The Great British Bake Off | great british baking show | bake off
-Nailed It
-Lego Masters
-Floor Is Lava
-Ultimate Tag
-The Gong Show
 The $64,000 Question | 64000 question
-Truth or Consequences
-Beat the Clock
-Queen for a Day
-Nickelodeon GUTS | guts
-Figure It Out
-Get the Picture
 Finders Keepers
-Nick Arcade
-Wild & Crazy Kids
-Fun House
 Where in the World Is Carmen Sandiego? | carmen sandiego
-Think Fast
-Remote Control
-Singled Out
-Trashed
 Street Smarts
-Perfect Match
-Blind Date
 Elimidate
-The 5th Wheel | fifth wheel
-Room Raiders
-Parental Control
 Taskmaster
-Countdown
-Only Connect
-University Challenge
-Mastermind
-Pointless
-QI
-Tipping Point
 Eggheads
 The Krypton Factor
 Catchphrase
 Blankety Blank
 Bullseye
-Golden Balls
 Total Wipeout
-The Crystal Maze | crystal maze
 Fort Boyard
 Takeshi's Castle
-Ninja Warrior Japan | sasuke
-Distraction
-Three on a Match
 The Big Showdown
 High Rollers
-Split Second
 Gambit
 Jackpot
 Shoot for the Stars
-The Better Sex
 Whew!
-Hit Man
-Body Language
 Classic Concentration
 Super Password
 Win, Lose or Draw
 The Challengers
-Trump Card
 Wordplay
 Hot Potato
 Every Second Counts
 Hollywood Showdown
 Shop 'Til You Drop
-Born Lucky
-Majority Rules
 The Big Spin
-The Moment of Truth
-Set for Life
 Million Dollar Mind Game
 Instant Recall
-Show Me the Money
 National Bingo Night
 Baggage
 Who's Still Standing
-Fast Friends
 The American Bible Challenge
-It Takes a Church
 Spin the Wheel
 Cannonball
 Small Fortune
-25 Words or Less
 Generation Gap
-The 1% Club
 Jeopardy Masters
 Celebrity Family Feud | family feud celebrity
-Deal or No Deal Island
 The Joe Schmo Show
 MasterChef
 Iron Chef
 Cutthroat Kitchen
 Worst Cooks in America
 RuPaul's Drag Race | drag race
-The Voice
 American Idol
 America's Got Talent
-X Factor
 The Masked Singer
-Star Search
 Puttin' on the Hits
 Lip Sync Battle
-I Can See Your Voice
 Game of Talents
 Snake in the Grass
 Mental Samurai
@@ -3101,20 +3022,13 @@ $25,000 Pyramid
 $10,000 Pyramid
 Password Plus
 Super Password Plus
-I've Got a Secret
-You Bet Your Life
-People Are Funny
 Dotto
-The Big Surprise
 Strike It Rich
-Break the Bank
-Video Village
 Treasure Hunt
 The Bachelorette
 Spartan: Ultimate Team Challenge
 American Gladiators | gladiators
 Battle of the Network Stars
-The Challenge
 Survivor Australia
 Celebrity Big Brother
 The Traitors
@@ -3126,14 +3040,10 @@ The Genius
 The Devil's Plan
 Jet Lag: The Game
 Hunted
-Race Across the World
-The Island
 Shipwrecked
 Treasure Island
-Debt
 Idiotest
 Skin Wars
-Mind of a Man
 Hollywood Game Night
 Celebrity Name Game
 Mad Libs game show
@@ -3146,7 +3056,6 @@ Duel
 Million Dollar Money Drop
 It's Academic
 Jeopardy! National College Championship
-Reach for the Top
 Brain Busters
 Turn Ben Stein On
 BrainSurge
@@ -3154,29 +3063,22 @@ Double Dare 2000
 Family Double Dare
 My Family's Got Guts
 Global Guts
-Make the Grade
 Slime Time Live
 Treasure Hunters
-The Generation Game
 Bruce's Price Is Right
 Pointless Celebrities
 Fifteen to One
-Going for Gold
 Ready Steady Cook
 I'm a Celebrity... Get Me Out of Here! | i'm a celebrity
 Hey Hey It's Saturday
 Temptation
 Million Dollar Minute
 Hard Quiz
-Have You Been Paying Attention?
 Spicks and Specks
 Gruen
-A Question of Sport
 Never Mind the Buzzcocks
-Would I Lie to You?
 8 Out of 10 Cats
 8 Out of 10 Cats Does Countdown
-Have I Got News for You
 Mock the Week
 Celebrity Juice
 Big Fat Quiz of the Year
@@ -3190,9 +3092,7 @@ Wer wird Millionär?
 Wetten, dass..?
 Schlag den Raab
 VS Arashi
-Running Man
 Infinite Challenge
-2 Days & 1 Night
 Siempre en Domingo
 Sábado Gigante
 Caiga Quien Caiga
@@ -3210,11 +3110,98 @@ Wheel Smart
 Pop Culture Jeopardy!
 
 [Rare]
+The Newlywed Game | newlywed game
+Wipeout
+Concentration
+Greed
+Russian Roulette
+Downfall
+Paranoia
+1 vs. 100 | 1 vs 100
+Million Dollar Password
+Don't Forget the Lyrics
+The Singing Bee
+Grand Slam
+Chain Reaction
+Raid the Cage
+The Cube
+Chopped
+Cupcake Wars
+Guy's Grocery Games
+Top Chef
+The Great British Bake Off | great british baking show | bake off
+Nailed It
+Lego Masters
+Floor Is Lava
+Ultimate Tag
+The Gong Show
+Truth or Consequences
+Beat the Clock
+Nickelodeon GUTS | guts
+Nick Arcade
+Remote Control
+Singled Out
+Trashed
+Blind Date
+The 5th Wheel | fifth wheel
+Room Raiders
+Parental Control
+Countdown
+Only Connect
+Mastermind
+Pointless
+QI
+Tipping Point
+Golden Balls
+The Crystal Maze | crystal maze
+Ninja Warrior Japan | sasuke
+Distraction
+Three on a Match
+Split Second
+The Better Sex
+Hit Man
+Body Language
+Trump Card
+Born Lucky
+Majority Rules
+The Moment of Truth
+Set for Life
+Show Me the Money
+Fast Friends
+It Takes a Church
+25 Words or Less
+The 1% Club
+Deal or No Deal Island
+The Voice
+X Factor
+Star Search
+I Can See Your Voice
+I've Got a Secret
+You Bet Your Life
+People Are Funny
+The Big Surprise
+Break the Bank
+Video Village
+The Challenge
+Race Across the World
+The Island
+Debt
+Mind of a Man
+Reach for the Top
+Make the Grade
+The Generation Game
+Going for Gold
+Have You Been Paying Attention?
+A Question of Sport
+Would I Lie to You?
+Have I Got News for You
+Running Man
+2 Days & 1 Night
+
+[Schooler]
 Let's Make a Deal | lets make a deal
 Hollywood Squares
-The Newlywed Game | newlywed game
 The Dating Game | dating game
-Wipeout
 American Ninja Warrior | ninja warrior
 The Amazing Race | amazing race
 Big Brother
@@ -3239,10 +3226,23 @@ Name That Tune
 Lingo
 The Floor
 Beat Shazam
-
-[Schooler]
-Deal or No Deal
-Survivor
+Sale of the Century
+Twenty One
+Dog Eat Dog
+Hole in the Wall
+The Wall
+Identity
+Power of 10
+Catch 21
+Common Knowledge
+Queen for a Day
+Figure It Out
+Get the Picture
+Wild & Crazy Kids
+Fun House
+Think Fast
+Perfect Match
+University Challenge
 
 [Too Clever]
 The Bachelor
@@ -3259,6 +3259,8 @@ Wheel of Fortune | wheel
 The Price Is Right | price is right
 Family Feud
 Who Wants to Be a Millionaire | millionaire
+Deal or No Deal
+Survivor
 
 [Not accepted]
 Friends
@@ -3285,31 +3287,11 @@ note: Real words ending in the "-air" sound (chair, where, prayer). Names don't 
 Solitaire
 
 [Deep Cut]
-Anywhere
-Everywhere
-Nowhere
-Elsewhere
-Welfare
-Warfare
 Airfare
-Healthcare
-Childcare
-Daycare
-Skincare
 Haircare
 Midair
-Thoroughfare
-Fanfare
-Silverware
-Glassware
-Footwear
-Underwear
-Swimwear
 Outerwear
 Eyewear
-Sportswear
-Menswear
-Hare
 Debonair
 Concessionaire
 Doctrinaire
@@ -3317,12 +3299,10 @@ Legionnaire
 Commissionaire
 Laissez-faire
 Savoir-faire
-Au pair
 Ensnare
 Forswear
 Forbear
 Threadbare
-Fair and square
 Earthenware
 Stoneware
 Kitchenware
@@ -3331,20 +3311,14 @@ Cookware
 Tableware
 Hollowware
 Flatware
-Malware
 Spyware
 Freeware
 Shareware
-Firmware
 Vaporware
 Ransomware
 Middleware
 Groupware
 Wetware
-Rocking chair
-Deck chair
-Folding chair
-Love affair
 Mohair
 Horsehair
 Maidenhair
@@ -3352,7 +3326,6 @@ Camelhair
 Funfair
 Timeshare
 Rideshare
-Despair
 Pied-a-terre
 Corsair
 Mal de mer
@@ -3375,26 +3348,15 @@ Fred Astaire | astaire
 Moliere
 Medicare
 Obamacare
-Self-care
 Foster care
 Intensive care
-Primary care
-Customer care
 Eldercare
-Fresh air
-Hot air
-Open air
 Truth or dare
 Double dare
-Market share
-County fair
-State fair
 World's fair
 Vanity Fair
-Easy chair
 Electric chair
 Lawn chair
-Office chair
 Barber chair
 Prickly pear
 Lion's lair
@@ -3426,6 +3388,68 @@ Homeware
 Mid-air collision
 
 [Rare]
+Glare
+Flare
+Mare
+Lair
+Flair
+Ware
+Snare
+Blare
+Beware
+Impair
+Upstairs
+Downstairs
+Millionaire
+Billionaire
+Questionnaire
+Wheelchair
+Armchair
+Highchair
+Anywhere
+Everywhere
+Nowhere
+Elsewhere
+Welfare
+Warfare
+Healthcare
+Childcare
+Daycare
+Skincare
+Thoroughfare
+Fanfare
+Silverware
+Glassware
+Footwear
+Underwear
+Swimwear
+Sportswear
+Menswear
+Hare
+Au pair
+Fair and square
+Malware
+Firmware
+Rocking chair
+Deck chair
+Folding chair
+Love affair
+Despair
+Self-care
+Primary care
+Customer care
+Fresh air
+Hot air
+Open air
+Market share
+County fair
+State fair
+Easy chair
+Office chair
+
+[Schooler]
+Pear
+Stair | stairs
 Share
 Dare
 Fair
@@ -3435,9 +3459,6 @@ Scare
 Stare
 Square
 Spare
-Glare
-Flare
-Mare
 Wear
 Tear
 Swear
@@ -3445,38 +3466,17 @@ Their
 They're
 Prayer
 Heir
-Lair
-Flair
-Ware
-Snare
-Blare
 Affair
 Repair
 Prepare
 Compare
-Beware
 Aware
 Unaware
 Declare
-Impair
-Upstairs
-Downstairs
 Nightmare
 Software
 Hardware
-Millionaire
-Billionaire
-Questionnaire
-Wheelchair
-Armchair
-Highchair
 Somewhere
-
-[Schooler]
-Pear
-Stair | stairs
-Where
-There
 
 [Too Clever]
 Bear
@@ -3488,6 +3488,8 @@ Hair
 Care
 Air
 Pair
+Where
+There
 
 [Not accepted]
 Beer
@@ -3495,3 +3497,4 @@ Bore
 Bar
 Burr
 Steer
+

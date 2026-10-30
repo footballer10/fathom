@@ -39,12 +39,13 @@ WHAT MAKES A GOOD PROMPT
 - List every valid answer. Anything missing gets marked wrong, which is the worst experience.
 
 RARITY TIERS (every valid answer goes in exactly one)
-Rarity is generous on purpose: only the very first answers almost everyone says are low-scoring, so good answers feel rewarding.
-- [Plankton] 10 pts: only the 3-5 answers almost everyone says first
-- [Too Clever] 15 pts: 2-5 "clever but predictable" picks (still valid answers)
-- [Schooler] 30 pts: a handful of other very common answers, at most about 15%
-- [Rare] 60 pts: about 25-35%, answers a typical player knows but doesn't say first
-- [Deep Cut] 85 pts: everything else, which is most of the list
+Tiers follow how common each answer is, with a fixed distribution. Rank every valid answer from "almost everyone says this" to "only an expert knows this", then split:
+- [Plankton] 10 pts: the top 5% (3-7 answers), the ones almost everyone says first
+- [Too Clever] 15 pts: 2-5 "clever but predictable" picks (still valid answers), set aside before ranking
+- [Schooler] 30 pts: the next 15%, very common answers most people know (for kitchen utensils: fork, spoon, ladle, whisk)
+- [Rare] 60 pts: the next 30%, answers a typical player knows but doesn't say first
+- [Deep Cut] 85 pts: the remaining half, specialized or obscure but valid
+Never put an everyday, obvious answer in Rare or Deep Cut.
 - [One in a Krillion] 100 pts: EXACTLY ONE, chosen because it is fun and satisfying to find, valid without argument (not just the most obscure)
 - [Not accepted] (optional): wrong answers people commonly try (near-misses), so they are blocked even when one typo away from a real answer
 

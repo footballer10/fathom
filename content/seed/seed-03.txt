@@ -8,38 +8,16 @@ prompt: Name a breakfast cereal
 Kaboom
 
 [Deep Cut]
-Honeycomb
-Weetabix
-Malt-O-Meal
 Kellogg's Krave | krave
-Golden Crisp | sugar crisp
-French Toast Crunch
-Alpha-Bits | alphabits
-Muesli
-Bran Flakes
-Kashi
-Fiber One
-Total
-Crunch Berries
-Smacks | honey smacks | sugar smacks
-Grape-Nuts | grape nuts | grapenuts
-Corn Pops
-Cookie Crisp
-Franken Berry
 Count Chocula
-Boo Berry
 Mueslix
-Product 19
 Crispix
 Puffins
 Shreddies
 Oatmeal Crisp
-Basic 4
 Waffle Crisp
 Quisp
-Peanut Butter Crunch
 Golden Puffs
-Corn Bran
 Multi Grain Cheerios
 Frosted Cheerios
 Apple Cinnamon Cheerios
@@ -49,75 +27,49 @@ Cinnamon Chex
 Honey Nut Chex
 Chocolate Chex
 Raisin Bran Crunch
-All-Bran
 Bran Buds
-Smart Start
-Just Right
 Pop-Tarts Crunch
 Smorz
 Crunchy Nut | crunchy nut cornflakes
-Coco Pops
 Ricicles
-Golden Nuggets
 Sugar Puffs | honey monster puffs
-Cookie Crunch
 Oreo O's
 Post Toasties
-Great Grains
 Cinna-Crunch Pebbles
 Marshmallow Pebbles
-Super Sugar Crisp
 Grape-Nuts Flakes
 Shredded Wheat 'n Bran
-Spoon Size Shredded Wheat
-Banana Nut Crunch
-Selects
 Malt-O-Meal Marshmallow Mateys | marshmallow mateys
 Tootie Fruities
 Puffed Rice
 Puffed Wheat
 Quaker Oatmeal Squares | oatmeal squares
 Quaker Oat Life
-Cinnamon Life
 King Vitaman
 Peanut Butter Cap'n Crunch
-Oops! All Berries
 Fruity Yummy Mummy
-Fruit Brute
 Cascadian Farm
-Nature's Path
 Barbara's Puffins
 Kashi GoLean | golean
-Heart to Heart
 Raisin Nut Bran
 Honey Graham Oh's
-Cinnamon Crunch
 Mini Spooners
-Magic Spoon
 Catalina Crunch
-Three Wishes
-Seven Sundays
-Bear Naked
 Familia muesli
 Alpen
 Jordans
 Dorset Cereals
 Sultana Bran
 Weetos
-Clusters
 Cinnamon Grahams
 Curiously Cinnamon
 Hunny B's
 Cinnamon Toasters
 Apple Zings
-Fruit Spins
 Frosted Mini Spooners
 Berry Colossal Crunch
 Cocoa Dyno-Bites
 Fruity Dyno-Bites
-Honey Graham Squares
-Peanut Butter Toast Crunch
-Sugar Pops
 Sugar Frosted Flakes
 OKs
 Kream Krunch
@@ -126,7 +78,6 @@ Cröonchy Stars
 Smurf-Berry Crunch
 Mini Swirlz
 Honey Kix
-Wheat Hearts
 Farina
 Ralston
 Wheatena
@@ -135,28 +86,75 @@ Coco Wheats
 Cracklin' Oat Bran
 
 [Rare]
+Golden Grahams
+Honeycomb
+Weetabix
+Malt-O-Meal
+Golden Crisp | sugar crisp
+French Toast Crunch
+Muesli
+Bran Flakes
+Kashi
+Crunch Berries
+Smacks | honey smacks | sugar smacks
+Grape-Nuts | grape nuts | grapenuts
+Cookie Crisp
+Franken Berry
+Boo Berry
+Product 19
+Basic 4
+Peanut Butter Crunch
+Corn Bran
+All-Bran
+Smart Start
+Coco Pops
+Golden Nuggets
+Cookie Crunch
+Great Grains
+Super Sugar Crisp
+Spoon Size Shredded Wheat
+Banana Nut Crunch
+Selects
+Cinnamon Life
+Oops! All Berries
+Fruit Brute
+Nature's Path
+Heart to Heart
+Cinnamon Crunch
+Magic Spoon
+Three Wishes
+Seven Sundays
+Bear Naked
+Clusters
+Fruit Spins
+Honey Graham Squares
+Peanut Butter Toast Crunch
+Sugar Pops
+Wheat Hearts
+
+[Schooler]
+Cap'n Crunch | captain crunch | capn crunch
+Rice Krispies | rice crispies
+Froot Loops | fruit loops
 Kix
 Corn Chex | rice chex | wheat chex
-Golden Grahams
 Shredded Wheat | frosted mini wheats | mini wheats
 Cocoa Krispies
 Cocoa Pebbles
 Reese's Puffs
 Wheaties
 Honey Bunches of Oats
-Life
-Special K
 Raisin Bran
 Apple Jacks | applejacks
 Trix
 Cocoa Puffs
 Fruity Pebbles
 Honey Nut Cheerios
-
-[Schooler]
-Frosted Flakes | frosties
-Cheerios
-Lucky Charms
+Alpha-Bits | alphabits
+Fiber One
+Total
+Corn Pops
+Just Right
 
 [Too Clever]
 Grits
@@ -165,11 +163,13 @@ Granola
 Oatmeal | porridge | instant oatmeal | overnight oats
 
 [Plankton]
-Cap'n Crunch | captain crunch | capn crunch
-Rice Krispies | rice crispies
 Corn Flakes | cornflakes
 Cinnamon Toast Crunch | cinnamon toast
-Froot Loops | fruit loops
+Frosted Flakes | frosties
+Cheerios
+Lucky Charms
+Life
+Special K
 
 [Not accepted]
 Pancakes
@@ -193,30 +193,6 @@ note: Spiders, ticks and other bug-like critters count as Too Clever.
 Bombardier beetle
 
 [Deep Cut]
-Honeybee | honey bee
-Katydid
-Weevil
-Louse | lice
-June bug | june beetle
-Monarch butterfly | monarch
-Yellowjacket | yellow jacket
-Fruit fly
-Dung beetle
-Walking stick | stick insect | stick bug
-Silverfish
-Gnat
-Fire ant
-Bed bug | bedbug
-Stink bug
-Aphid
-Earwig
-Cicada
-Housefly | house fly
-Larva
-Maggot
-Locust
-Millipede
-Horsefly
 Lacewing
 Mayfly
 Caddisfly
@@ -224,37 +200,21 @@ Stonefly
 Water strider | pond skater
 Water boatman
 Damselfly
-Leaf insect
 Thrips
-Scale insect
 Mealybug
 Whitefly
 Leafhopper
 Spittlebug
 Boxelder bug
-Assassin bug
-Kissing bug
 Stag beetle
 Rhinoceros beetle | rhino beetle
-Hercules beetle
-Japanese beetle
-Click beetle
-Tiger beetle
-Bark beetle
-Bullet ant
-Carpenter ant
-Army ant
 Leafcutter ant | leaf cutter ant
-Carpenter bee
 Mud dauber
 Sawfly
 Botfly | bot fly
-Crane fly | daddy longlegs
 Sandfly | sand fly
 Tsetse fly
 Midge
-Luna moth
-Atlas moth
 Silkworm | silk moth
 Glowworm | glow worm
 Antlion
@@ -262,17 +222,13 @@ Dobsonfly
 Hellgrammite
 Booklice
 Springtail
-Hawk moth | sphinx moth
 Hummingbird moth
 Death's-head hawkmoth | deaths head moth
 Polyphemus moth
 Cecropia moth
 Io moth
-Gypsy moth | spongy moth
 Codling moth
-Clothes moth
 Pantry moth | indian meal moth
-Tent caterpillar
 Inchworm | looper
 Armyworm
 Cutworm
@@ -280,43 +236,23 @@ Hornworm | tomato hornworm
 Woolly bear
 Bagworm
 Swallowtail
-Painted lady
-Red admiral
-Mourning cloak
 Viceroy
 Blue morpho | morpho
-Cabbage white
-Skipper
 Hairstreak
 Fritillary
 Buckeye butterfly
 Birdwing
-Owl butterfly
 Glasswing butterfly
-Peacock butterfly
-Comma butterfly
 Brimstone
 Tortoiseshell butterfly
-Emperor moth
 Rosy maple moth
-Leopard moth
-Tiger moth
 Goliath beetle
-Atlas beetle
-Titan beetle
-Jewel beetle
 Longhorn beetle
-Ground beetle
 Rove beetle
 Blister beetle
 Darkling beetle
 Mealworm
 Superworm
-Colorado potato beetle
-Cucumber beetle
-Flea beetle
-Asian lady beetle
-Carpet beetle
 Powderpost beetle
 Emerald ash borer | ash borer
 Bark borer
@@ -326,81 +262,44 @@ Rice weevil
 Acorn weevil
 Giraffe weevil
 Whirligig beetle
-Diving beetle
 Water scavenger beetle
-Soldier beetle
 Burying beetle
 Carrion beetle
 Scarab | scarab beetle
 Chafer
-May beetle
 Cockchafer
 Sexton beetle
-Mason bee
 Leafcutter bee
-Sweat bee
-Killer bee | africanized bee
-Orchid bee
 Stingless bee
 Cuckoo bee
-Paper wasp
 Bald-faced hornet
 Asian giant hornet | murder hornet
 European hornet
 Cicada killer
 Tarantula hawk
-Velvet ant
-Spider wasp
 Ichneumon wasp
-Fig wasp
 Gall wasp
 Parasitoid wasp
-Weaver ant
-Bulldog ant
 Honeypot ant
-Pharaoh ant
-Sugar ant
 Odorous house ant
-Red ant
-Black ant
 Harvester ant
-Driver ant
-Trap-jaw ant
-Crazy ant
-Argentine ant
 Drywood termite
 Subterranean termite
-House cricket
-Field cricket
-Mole cricket
-Cave cricket | camel cricket
-Jerusalem cricket
 Weta
-Bush cricket
 Lubber grasshopper
 Desert locust
 Pygmy grasshopper
 Orchid mantis
 Ghost mantis
 Chinese mantis
-American cockroach
 German cockroach
 Madagascar hissing cockroach | hissing cockroach
 Palmetto bug
-Water bug | giant water bug
 Backswimmer
-Water scorpion
 Toe-biter
-Shield bug
-Squash bug
 Chinch bug
 Lygus bug
-Plant bug
-Lace bug
 Milkweed bug
-Seed bug
-Ambush bug
-Wheel bug
 Periodical cicada
 Treehopper
 Planthopper
@@ -409,32 +308,16 @@ Lanternfly | spotted lanternfly
 Psyllid
 Phylloxera
 Cochineal
-Lac insect
 Woolly aphid
 Greenfly
-Deer fly
-Black fly
-Stable fly
-Blow fly | bluebottle
 Greenbottle
-Flesh fly
-Robber fly
 Hoverfly | flower fly
-Bee fly
-Drone fly
-Dance fly
 Snipe fly
-Soldier fly | black soldier fly
 Fungus gnat
-Drain fly | moth fly
 Phorid fly
-Vinegar fly
-Bush fly
-No-see-um | biting midge
 Anopheles
 Aedes
 Culex
-Tiger mosquito
 Darner
 Skimmer dragonfly
 Meadowhawk
@@ -447,7 +330,6 @@ Owlfly
 Mantisfly
 Scorpionfly
 Hangingfly
-Snow flea
 Head louse
 Body louse
 Crab louse | pubic lice
@@ -462,9 +344,7 @@ Zorapteran
 Grylloblattid | ice crawler
 Mantophasmid
 Larder beetle
-Cigarette beetle
 Drugstore beetle
-Spider beetle
 Deathwatch beetle
 Pupa
 Nymph
@@ -472,10 +352,102 @@ Grub
 Mite
 Chigger
 Harvestman
+
+[Rare]
+Katydid
+Yellowjacket | yellow jacket
+Silverfish
+Aphid
+Earwig
+Housefly | house fly
+Millipede
+Horsefly
+Leaf insect
+Scale insect
+Assassin bug
+Kissing bug
+Hercules beetle
+Japanese beetle
+Click beetle
+Tiger beetle
+Bark beetle
+Bullet ant
+Carpenter ant
+Army ant
+Carpenter bee
+Crane fly | daddy longlegs
+Luna moth
+Atlas moth
+Hawk moth | sphinx moth
+Gypsy moth | spongy moth
+Clothes moth
+Tent caterpillar
+Red admiral
+Mourning cloak
+Cabbage white
+Skipper
+Owl butterfly
+Peacock butterfly
+Comma butterfly
+Emperor moth
+Leopard moth
+Tiger moth
+Atlas beetle
+Titan beetle
+Jewel beetle
+Ground beetle
+Colorado potato beetle
+Cucumber beetle
+Flea beetle
+Asian lady beetle
+Carpet beetle
+Diving beetle
+Soldier beetle
+May beetle
+Mason bee
+Sweat bee
+Killer bee | africanized bee
+Orchid bee
+Paper wasp
+Velvet ant
+Spider wasp
+Fig wasp
+Weaver ant
+Bulldog ant
+Pharaoh ant
+Sugar ant
+Red ant
+Black ant
+Driver ant
+Trap-jaw ant
+Crazy ant
+Argentine ant
+Mole cricket
+Cave cricket | camel cricket
+Jerusalem cricket
+American cockroach
+Water scorpion
+Shield bug
+Squash bug
+Lace bug
+Seed bug
+Ambush bug
+Lac insect
+Deer fly
+Robber fly
+Bee fly
+Drone fly
+Drain fly | moth fly
+Vinegar fly
+Tiger mosquito
+Snow flea
+Cigarette beetle
+Spider beetle
 Leech
 Velvet worm
 
-[Rare]
+[Schooler]
+Ladybug | ladybird | lady bug
 Praying mantis | mantis
 Hornet
 Centipede
@@ -487,13 +459,39 @@ Beetle
 Moth
 Firefly | lightning bug
 Dragonfly
-Cricket
 Grasshopper
 Bumblebee
-
-[Schooler]
-Bee
-Ant
+Honeybee | honey bee
+Weevil
+Louse | lice
+June bug | june beetle
+Monarch butterfly | monarch
+Fruit fly
+Dung beetle
+Walking stick | stick insect | stick bug
+Gnat
+Fire ant
+Bed bug | bedbug
+Stink bug
+Cicada
+Larva
+Maggot
+Locust
+Painted lady
+House cricket
+Field cricket
+Bush cricket
+Water bug | giant water bug
+Plant bug
+Wheel bug
+Black fly
+Stable fly
+Blow fly | bluebottle
+Flesh fly
+Dance fly
+Soldier fly | black soldier fly
+Bush fly
+No-see-um | biting midge
 
 [Too Clever]
 Spider
@@ -506,10 +504,12 @@ Pill bug | roly poly | woodlouse | roly-poly | potato bug
 
 [Plankton]
 Cockroach | roach
-Ladybug | ladybird | lady bug
 Mosquito | mosquitoe | skeeter
 Fly
 Butterfly
+Bee
+Ant
+Cricket
 
 [Not accepted]
 Frog
@@ -538,17 +538,11 @@ Pierre | pier | peer
 Juneau | juno | juneu
 Concord | concorde
 Topeka | topika
-Lincoln
-Columbia | columbia sc
 Charleston | charleston wv | charleston west virginia
-Albany | albeny
 Tallahassee | tallahasee | tallahasse | talahassee
 Boise | boise idaho | boisie
 Salem | salem oregon
-Santa Fe | santa fe nm
 Hartford | hartford ct
-Montgomery | montgomery alabama
-Providence | providence ri
 Des Moines | des moine | demoines | desmoines
 Montpelier | montpellier | montpelliar
 Augusta | augusta maine
@@ -566,21 +560,29 @@ Trenton | trenton nj
 Annapolis | anapolis
 
 [Rare]
-Salt Lake City | salt lake | slc
 Raleigh | raliegh | raleigh nc
 Richmond | richmond va
-Little Rock | littlerock
 Oklahoma City | okc | oklahoma
 Indianapolis | indy | indianopolis
 Madison | madison wisconsin
 Baton Rouge | batonrouge | baton rogue
 Columbus | columbus ohio
 Saint Paul | st paul | st. paul | saint paul mn
+Lincoln
+Columbia | columbia sc
+Albany | albeny
+Santa Fe | santa fe nm
+Montgomery | montgomery alabama
+Providence | providence ri
 
 [Schooler]
+Denver
+Phoenix | pheonix
 Sacramento | sacremento | sacramento ca
 Nashville
 Honolulu | honalulu | honolulo
+Salt Lake City | salt lake | slc
+Little Rock | littlerock
 
 [Too Clever]
 Springfield | springfield illinois
@@ -589,9 +591,7 @@ Jackson | jackson mississippi
 [Plankton]
 Boston
 Atlanta | atl
-Denver
 Austin
-Phoenix | pheonix
 
 [Not accepted]
 Washington
@@ -626,100 +626,47 @@ note: Current or recent Summer/Winter Olympic sports and disciplines.
 Skeleton
 
 [Deep Cut]
-Water polo
-Table tennis | ping pong
-Badminton
-Handball
-Equestrian | horse riding | dressage | show jumping
-Sailing
-Canoeing | kayaking | canoe | kayak
-Triathlon
-Field hockey
-Luge
-Biathlon
-Ski jumping
-Cross-country skiing | cross country skiing | nordic skiing
-Shooting
-Rugby sevens | rugby
-Softball
-Baseball
-Synchronized swimming | artistic swimming
-Rhythmic gymnastics
-Trampoline
-Pole vault
-Javelin
-Shot put
-Discus
-High jump
-Long jump
-Hurdles
-Decathlon
 Heptathlon
-Sprinting | 100 meters
-Mountain biking
-BMX
-Sport climbing | climbing | rock climbing
-Freestyle skiing | moguls
-Short track speed skating | short track
 Modern pentathlon | pentathlon
 Karate
 Lacrosse
 Squash
-Cricket
-Flag football
 Nordic combined
 Ski mountaineering
 Slalom
-Super-G | super g
 Halfpipe
-Ski cross
 Snowboard cross
 Aerials
-Race walking | racewalking
 Steeplechase
-Hammer throw
-Triple jump
 Relay
-Open water swimming
 Track cycling | velodrome
 Keirin
 Omnium
-Madison
 Pommel horse
-Rings
 Parallel bars
 Uneven bars
 Balance beam
 Vault
-Floor exercise
 Greco-Roman wrestling
 Freestyle wrestling
-Trap shooting | skeet shooting | skeet
-Rifle shooting
 Pistol shooting
 Rowing eights
 Kitesurfing | kiteboarding
 Windsurfing
 Marathon swimming
-Ice dancing
 Pairs skating
 Monobob
 3x3 basketball | three on three basketball
 Canoe slalom
 Canoe sprint
 Eventing
-Road cycling
 BMX freestyle
 BMX racing
 Artistic gymnastics
 Downhill
 Giant slalom
 Slopestyle
-Big air
 Parallel giant slalom
-Mass start
-Team pursuit
-Military patrol
 Skijoring
 Speed skiing
 Ski ballet
@@ -735,12 +682,9 @@ Rope climbing
 Club swinging
 Tandem cycling
 Plunge for distance
-Standing high jump
-Standing long jump
 Obstacle swimming
 Underwater swimming
 Croquet
-Rugby union
 Water skiing
 Bandy
 200 meters | 200m
@@ -751,7 +695,6 @@ Bandy
 10,000 meters | 10000m | 10k
 4x100 relay | 4x100m relay
 4x400 relay | 4x400m relay
-Cross country
 Freestyle | freestyle swimming
 Backstroke
 Breaststroke
@@ -766,23 +709,75 @@ Sabre | saber
 Epee
 Foil
 Clay pigeon shooting
-Air rifle
 Laser sailing | dinghy sailing
 Kite foiling
-Speed climbing
 Bouldering
-Lead climbing
 Kitesurf racing
 Team relay
 Mixed relay
-Super combined | combined
 Snowboard slalom
 Sprint relay
-Pursuit
 Long track speed skating
 Hockey 5s
 
 [Rare]
+Water polo
+Badminton
+Handball
+Equestrian | horse riding | dressage | show jumping
+Sailing
+Canoeing | kayaking | canoe | kayak
+Triathlon
+Luge
+Biathlon
+Ski jumping
+Cross-country skiing | cross country skiing | nordic skiing
+Rugby sevens | rugby
+Softball
+Synchronized swimming | artistic swimming
+Rhythmic gymnastics
+Trampoline
+Pole vault
+Javelin
+Discus
+Hurdles
+Decathlon
+Sprinting | 100 meters
+Mountain biking
+BMX
+Sport climbing | climbing | rock climbing
+Freestyle skiing | moguls
+Short track speed skating | short track
+Cricket
+Flag football
+Super-G | super g
+Ski cross
+Race walking | racewalking
+Hammer throw
+Triple jump
+Open water swimming
+Madison
+Rings
+Floor exercise
+Trap shooting | skeet shooting | skeet
+Rifle shooting
+Ice dancing
+Road cycling
+Big air
+Mass start
+Team pursuit
+Military patrol
+Standing high jump
+Standing long jump
+Rugby union
+Cross country
+Air rifle
+Speed climbing
+Lead climbing
+Super combined | combined
+Pursuit
+
+[Schooler]
 Volleyball
 Tennis
 Boxing
@@ -803,10 +798,13 @@ Judo
 Taekwondo
 Beach volleyball
 Marathon
-
-[Schooler]
-Figure skating | skating | ice skating
-Ice hockey | hockey
+Table tennis | ping pong
+Field hockey
+Shooting
+Baseball
+Shot put
+High jump
+Long jump
 
 [Too Clever]
 Polo
@@ -821,6 +819,8 @@ Gymnastics
 Track and field | athletics | track
 Basketball
 Soccer | football
+Figure skating | skating | ice skating
+Ice hockey | hockey
 
 [Not accepted]
 Chess
@@ -849,41 +849,6 @@ prompt: Name a genre of music
 Polka
 
 [Deep Cut]
-House | house music
-Dubstep
-Trap
-Salsa
-Reggaeton
-Ska
-Emo
-Hard rock
-Soft rock
-Classic rock
-Punk pop | pop punk
-Swing
-Big band
-Motown
-Rockabilly
-Bossa nova | bossa
-Samba
-Tango
-Flamenco
-Mariachi
-Afrobeat | afrobeats
-Lo-fi | lofi
-Trance
-Drum and bass | dnb
-Ambient
-New wave
-Synthpop | synth pop | synthwave
-Grime
-Drill
-Musical theater | show tunes | broadway
-A cappella | acapella
-Christian rock
-Death metal
-Barbershop
-Doo-wop
 Zydeco
 Cumbia
 Bachata
@@ -897,57 +862,36 @@ Klezmer
 Qawwali
 Bhangra
 Cajun
-Western swing
 Honky-tonk | honky tonk
 Outlaw country
 Americana
 Shoegaze
-Post-rock | post rock
-Math rock
 Prog rock | progressive rock
 Psychedelic rock | psychedelic
 Krautrock
-Garage rock | garage
-Surf rock | surf | surf music
 Glam rock
-Hair metal
-Black metal
 Thrash metal | thrash
 Nu metal
 Metalcore
-Hardcore
 Screamo
-Industrial
 Darkwave
 Goth rock | gothic rock
 Chillwave
 Vaporwave
 Hyperpop
 Breakbeat
-Jungle
-UK garage
 Hardstyle
-Dub
 Ragtime
 Bebop
-Smooth jazz
-Acid jazz
-Free jazz
 Baroque
 Gregorian chant | plainchant | chant
 Chiptune
-J-pop | jpop
 Mandopop
 Tejano
 Corridos
 Gamelan
-Throat singing
 Sea shanty | shanty
-Spoken word
-Neo soul
-Quiet storm
 Crunk
-Bounce
 Emo rap
 Mumble rap
 Mbalax
@@ -972,7 +916,6 @@ Dabke
 Arabesque
 Rebetiko
 Laiko
-Turbo-folk
 Manele
 Chalga
 Sevdah
@@ -981,17 +924,12 @@ Volksmusik
 Yodeling
 Chanson
 Musette
-Ye-ye
 Cantopop
-C-pop
-T-pop
 OPM
 Dangdut
 Kroncong
 Enka
-City pop
 Visual kei
-Anime songs | anisong
 Vocaloid
 Shibuya-kei
 Trot
@@ -1006,168 +944,80 @@ Baul
 Lavani
 Punjabi pop
 Desi hip hop
-Pop rock
-Arena rock
 Heartland rock
-Southern rock
-Jam band | jam rock
-Blues rock
 Stoner rock
-Space rock
-Art rock
-Noise rock
-Noise pop
-Dream pop
 Jangle pop
-Power pop
 Britpop
 Madchester
-Indie pop
-Indie folk
-Freak folk
-Anti-folk
-Chamber pop
 Baroque pop
-Sunshine pop
 Bubblegum pop
-Teen pop
-Dance-pop
 Electropop
 Retrowave
 Outrun
 Italo disco
 Eurodance
 Eurobeat
-Euro-pop
 Hi-NRG
-Freestyle music
-New jack swing
-Contemporary R&B
-Alternative R&B
 Neo-psychedelia
 Psychedelic pop
-Acid rock
-Folk rock
-Country rock
-Roots rock
-Garage punk
-Post-punk
-Hardcore punk
 Skate punk
 Ska punk
 Crust punk
 Anarcho-punk
-Oi!
 Riot grrrl
-Horror punk
 Psychobilly
 Deathrock
-Gothic metal
-Doom metal
 Sludge metal
 Stoner metal
-Power metal
-Speed metal
 Glam metal
-Folk metal
 Viking metal
 Symphonic metal
-Progressive metal
 Djent
 Deathcore
 Grindcore
 Mathcore
-Post-hardcore
-Post-metal
-Alternative metal
-Rap metal
-Rap rock
-Funk metal
-Industrial metal
-Industrial rock
 EBM
 Synth-punk
 Coldwave
-Minimal wave
 Electroclash
-Witch house
-Trip hop
 Downtempo
 Chillout
-Lounge
 Exotica
-Easy listening
-New age
-Space music
-Drone
 Dark ambient
-Noise
 Musique concrete
 Minimalism
 Serialism
-Twelve-tone
 Avant-garde
-Experimental
 Glitch
 IDM
 Electro
 Electronica
-Big beat
-Acid house
-Deep house
-Tech house
-Progressive house
 Electro house
-Future house
-Tropical house
-French house
-Chicago house
 Detroit techno
 Minimal techno
 Acid techno
 Hard techno
 Gabber
-Happy hardcore
 Psytrance | psychedelic trance | goa trance
 Uplifting trance
 Hardcore techno
 Riddim
-Future bass
 Moombahton
 Drumstep
-Liquid funk
 Neurofunk
 Footwork
 Juke
-Jersey club
-Baltimore club
-Miami bass
 Phonk
 Drift phonk
-Cloud rap
 SoundCloud rap
 Boom bap
 Gangsta rap
-G-funk
 Horrorcore
-Conscious hip hop
-Jazz rap
-Alternative hip hop
-Old-school hip hop
-East Coast hip hop
-West Coast hip hop
-Southern hip hop
 Chopped and screwed
 Hyphy
-Snap music
-UK drill
 Afroswing
-Road rap
-Hip house
-Latin trap
 Dembow
 Reggae fusion
-Lovers rock
 Roots reggae
 Rocksteady
 Dub poetry
@@ -1180,7 +1030,6 @@ Punta
 Bachatón
 Salsa romantica
 Timba
-Son | son cubano
 Mambo
 Cha-cha-cha
 Rumba
@@ -1201,7 +1050,6 @@ Joropo
 Andean music
 Nueva cancion
 Forro
-Axe
 Sertanejo
 Pagode
 Choro
@@ -1214,46 +1062,22 @@ Milonga
 Candombe
 Murga
 Bluegrass gospel
-Country gospel
-Southern gospel
-Contemporary Christian | ccm
-Christian hip hop
-Worship music | worship
 Hymns
 Spirituals
-Work songs
 Field hollers
-Delta blues
-Chicago blues
-Electric blues
 Piedmont blues
-Jump blues
 Boogie-woogie
 Stride
 Dixieland
-Hot jazz
 Gypsy jazz | jazz manouche
-Cool jazz
 Hard bop
 Modal jazz
 Post-bop
-Soul jazz
-Jazz fusion | fusion
-Latin jazz
 Afro-Cuban jazz
-Vocal jazz
 Nu jazz
-Third stream
-Medieval music
-Renaissance music
-Classical period
-Romantic | romantic era
 Impressionism
 Modernism
 Neoclassical
-Contemporary classical
-Film score | soundtrack
-Video game music
 Opera buffa
 Operetta
 Zarzuela
@@ -1261,34 +1085,15 @@ Cabaret
 Vaudeville
 Tin Pan Alley
 Crooner
-Torch songs
-Standards | great american songbook
-Celtic
-Irish folk
-Old-time | old-time music
 Appalachian folk
-Country blues
 Hillbilly
-Nashville sound
 Bakersfield sound
 Countrypolitan
-Bro-country
-Red dirt
-Texas country
-Alt-country
-Folk punk
 Cowpunk
-Gothic country
-Western
-Cowboy songs
-Hawaiian music
-Slack-key guitar
 Mele
 Polynesian
 Maori music
-Aboriginal music
 Inuit throat singing
-Native American music | powwow
 Mongolian throat singing | khoomei
 Tuvan throat singing
 Flamenco pop
@@ -1305,7 +1110,6 @@ Marrabenta
 Bongo flava
 Genge
 Hiplife
-Palm-wine music
 Makossa
 Bikutsi
 Coupe-decale
@@ -1313,99 +1117,47 @@ Zouglou
 Ndombolo
 Rumba congolaise
 Wassoulou
-Desert blues
 Tishoumaren
 Griot music
 Hasidic
 Mizrahi
-Israeli folk
-Persian classical
-Pop Persian
-Arabic pop
 Khaliji
 Tarab
-Turkish pop
 Ottoman classical
-Greek folk
 Balkan brass
 Oberkrainer
 Csardas
 Gypsy music | romani music
 Russian chanson
 Bard music
-Russian rock
 Estonian runo
 Joik
 Nordic folk
-Swedish pop
-K-hip hop
-K-R&B
-J-rock
-J-hip hop
 Kayokyoku
-Lo-fi hip hop
-Bedroom pop
 Slowcore
 Sadcore
 Midwest emo
 Emo pop
 Twee pop
 Nu-disco
-Disco house
 Boogie
-Post-disco
-Go-go
-P-Funk
-Funk rock
-Funk soul
-Northern soul
-Southern soul
 Philly soul
-Memphis soul
-Blue-eyed soul
 Psychedelic soul
 Jazz-funk
 Ska revival
-Two-tone | 2 tone
 Third wave ska
-Girl group
 Merseybeat
-British Invasion
 Skiffle
-Beat music
-Mod
-Protest songs
-Singer-songwriter
-Adult contemporary
-Soft pop
-Middle of the road
 Jingles
-Children's music | kids music | nursery rhymes
 Lullabies
-Christmas music
-Novelty songs
-Comedy music
-Parody
-Marching band
-Drum corps
-Military music
 Fanfare
-Concert band
-Brass band
-Steel band
 Orchestral
-Chamber music
 Choral music | choir
-Sacred music
 Barbershop quartet
-Gospel choir
-Shape note
 Sacred Harp
 Polyphony
-Art song
 Lieder
 Electroacoustic
-Tape music
 Circuit bending
 Bitpop
 Nintendocore
@@ -1419,6 +1171,187 @@ Lowercase
 Brostep | dubstep brostep
 
 [Rare]
+Reggaeton
+Motown
+Rockabilly
+Bossa nova | bossa
+Flamenco
+Mariachi
+Afrobeat | afrobeats
+Synthpop | synth pop | synthwave
+A cappella | acapella
+Doo-wop
+Western swing
+Math rock
+Garage rock | garage
+Surf rock | surf | surf music
+Hardcore
+Jungle
+UK garage
+Dub
+Smooth jazz
+Acid jazz
+Free jazz
+Throat singing
+Spoken word
+Neo soul
+Quiet storm
+Bounce
+Turbo-folk
+Ye-ye
+Anime songs | anisong
+Arena rock
+Jam band | jam rock
+Blues rock
+Noise rock
+Noise pop
+Indie pop
+Indie folk
+Freak folk
+Anti-folk
+Chamber pop
+Sunshine pop
+Teen pop
+Euro-pop
+Freestyle music
+New jack swing
+Contemporary R&B
+Alternative R&B
+Acid rock
+Folk rock
+Roots rock
+Garage punk
+Post-punk
+Hardcore punk
+Oi!
+Horror punk
+Gothic metal
+Doom metal
+Folk metal
+Progressive metal
+Post-hardcore
+Alternative metal
+Rap metal
+Rap rock
+Funk metal
+Industrial metal
+Industrial rock
+Minimal wave
+Witch house
+Trip hop
+Lounge
+Easy listening
+Drone
+Noise
+Twelve-tone
+Experimental
+Acid house
+Progressive house
+Tropical house
+Happy hardcore
+Future bass
+Liquid funk
+Jersey club
+Baltimore club
+Miami bass
+Cloud rap
+G-funk
+Conscious hip hop
+Jazz rap
+Alternative hip hop
+Old-school hip hop
+East Coast hip hop
+West Coast hip hop
+Southern hip hop
+Snap music
+UK drill
+Road rap
+Hip house
+Latin trap
+Lovers rock
+Axe
+Country gospel
+Southern gospel
+Contemporary Christian | ccm
+Christian hip hop
+Worship music | worship
+Delta blues
+Chicago blues
+Electric blues
+Jump blues
+Hot jazz
+Cool jazz
+Soul jazz
+Jazz fusion | fusion
+Latin jazz
+Vocal jazz
+Third stream
+Medieval music
+Renaissance music
+Classical period
+Romantic | romantic era
+Contemporary classical
+Torch songs
+Celtic
+Irish folk
+Country blues
+Nashville sound
+Bro-country
+Red dirt
+Alt-country
+Folk punk
+Gothic country
+Cowboy songs
+Hawaiian music
+Slack-key guitar
+Aboriginal music
+Native American music | powwow
+Palm-wine music
+Desert blues
+Israeli folk
+Persian classical
+Pop Persian
+Arabic pop
+Turkish pop
+Greek folk
+Swedish pop
+K-hip hop
+J-hip hop
+Lo-fi hip hop
+Bedroom pop
+Disco house
+Post-disco
+P-Funk
+Funk rock
+Funk soul
+Northern soul
+Southern soul
+Memphis soul
+Blue-eyed soul
+Two-tone | 2 tone
+British Invasion
+Mod
+Protest songs
+Singer-songwriter
+Adult contemporary
+Soft pop
+Children's music | kids music | nursery rhymes
+Novelty songs
+Comedy music
+Parody
+Marching band
+Drum corps
+Concert band
+Brass band
+Steel band
+Chamber music
+Sacred music
+Gospel choir
+Shape note
+Tape music
+
+[Schooler]
+Rap
 Blues
 Metal | heavy metal
 Punk | punk rock
@@ -1437,11 +1370,76 @@ Opera
 Latin
 K-pop | kpop
 Bluegrass
-
-[Schooler]
-Jazz
-Classical
-R&B | rnb | rhythm and blues
+House | house music
+Dubstep
+Trap
+Salsa
+Ska
+Emo
+Hard rock
+Soft rock
+Classic rock
+Punk pop | pop punk
+Swing
+Big band
+Samba
+Tango
+Lo-fi | lofi
+Trance
+Drum and bass | dnb
+Ambient
+New wave
+Grime
+Drill
+Musical theater | show tunes | broadway
+Christian rock
+Death metal
+Barbershop
+Post-rock | post rock
+Hair metal
+Black metal
+Industrial
+J-pop | jpop
+C-pop
+T-pop
+City pop
+Pop rock
+Southern rock
+Space rock
+Art rock
+Dream pop
+Power pop
+Dance-pop
+Country rock
+Power metal
+Speed metal
+Post-metal
+New age
+Space music
+Big beat
+Deep house
+Tech house
+Future house
+French house
+Chicago house
+Son | son cubano
+Work songs
+Film score | soundtrack
+Video game music
+Standards | great american songbook
+Old-time | old-time music
+Texas country
+Western
+Russian rock
+K-R&B
+J-rock
+Go-go
+Girl group
+Beat music
+Middle of the road
+Christmas music
+Military music
+Art song
 
 [Too Clever]
 Elevator music | muzak
@@ -1452,8 +1450,10 @@ Nightcore
 Rock | rock and roll | rock n roll
 Pop
 Country
-Rap
 Hip hop | hip-hop
+Jazz
+Classical
+R&B | rnb | rhythm and blues
 
 [Not accepted]
 Guitar
@@ -1479,55 +1479,25 @@ The Black Cauldron | black cauldron
 
 [Deep Cut]
 101 Dalmatians | one hundred and one dalmatians
-Lady and the Tramp
-The Jungle Book | jungle book
-Alice in Wonderland
-Fantasia
 The Aristocats | aristocats
-Robin Hood
 The Hunchback of Notre Dame | hunchback of notre dame
-The Emperor's New Groove | emperors new groove
-Brave
 A Bug's Life | a bugs life | bugs life
-Cars 2
-Cars 3
-Monsters University
 Incredibles 2
-Ralph Breaks the Internet
-Raya and the Last Dragon | raya
-Luca
-Turning Red
-Soul
-Onward
-Elemental
-Wish
-Inside Out 2
-Moana 2
-Bolt
-The Princess and the Frog | princess and the frog
-The Good Dinosaur | good dinosaur
 Lightyear
-Atlantis | atlantis the lost empire
-Treasure Planet
-Chicken Little
 Meet the Robinsons
-Brother Bear
 The Sword in the Stone | sword in the stone
 The Rescuers | rescuers
 The Rescuers Down Under
 The Fox and the Hound | fox and the hound
 The Great Mouse Detective | great mouse detective
 Oliver & Company | oliver and company
-Home on the Range
 Dinosaur
 Winnie the Pooh | the many adventures of winnie the pooh
 The Three Caballeros | three caballeros
 Saludos Amigos
-Make Mine Music
 Fun and Fancy Free
 Melody Time
 The Adventures of Ichabod and Mr. Toad | ichabod
-Strange World
 Elio
 Zootopia 2
 Toy Story 5
@@ -1537,7 +1507,6 @@ The Nightmare Before Christmas | nightmare before christmas
 James and the Giant Peach
 A Goofy Movie | goofy movie
 DuckTales the Movie
-Return to Never Land
 Piglet's Big Movie
 Bambi II
 Lady and the Tramp II
@@ -1553,7 +1522,6 @@ Teacher's Pet
 Doug's 1st Movie | dougs first movie
 Pooh's Heffalump Movie
 The Jungle Book 2
-Brother Bear 2
 Tarzan II
 Tarzan & Jane
 Pocahontas II
@@ -1571,60 +1539,90 @@ Beauty and the Beast: The Enchanted Christmas
 Belle's Magical World
 Mickey's Once Upon a Christmas
 Mickey's Twice Upon a Christmas
-The Wild
 Frankenweenie
 A Christmas Carol
 Mars Needs Moms
 Gnomeo & Juliet
-Strange Magic
 Tinker Bell and the Lost Treasure
 Tinker Bell and the Great Fairy Rescue
 Secret of the Wings
 The Pirate Fairy
 Tinker Bell and the Legend of the NeverBeast
 Valiant
-Song of the South
 The Tigger Movie
 An Extremely Goofy Movie
 Recess: School's Out
 Pooh's Grand Adventure
 
 [Rare]
-Cinderella
-Snow White | snow white and the seven dwarfs
-Sleeping Beauty
 Mulan
-Tangled
-Up
-Cars
-Inside Out
-Coco
-Monsters Inc | monsters, inc.
 The Incredibles | incredibles
 Ratatouille
-WALL-E | wall e | walle
 Zootopia
 Encanto
 Bambi
 Dumbo
 Pinocchio
-Peter Pan
 Lilo & Stitch | lilo and stitch
 Pocahontas
-Hercules
 Tarzan
+Finding Dory
+Lady and the Tramp
+The Jungle Book | jungle book
+Alice in Wonderland
+Fantasia
+Robin Hood
+The Emperor's New Groove | emperors new groove
+Brave
+Cars 3
+Monsters University
+Ralph Breaks the Internet
+Raya and the Last Dragon | raya
+Luca
+Turning Red
+Soul
+Onward
+Elemental
+Moana 2
+Bolt
+The Princess and the Frog | princess and the frog
+The Good Dinosaur | good dinosaur
+Atlantis | atlantis the lost empire
+Treasure Planet
+Chicken Little
+Brother Bear
+Home on the Range
+Make Mine Music
+Strange World
+Return to Never Land
+Brother Bear 2
+The Wild
+Strange Magic
+Song of the South
+
+[Schooler]
+Finding Nemo
+Aladdin
+Moana
+Cinderella
+Snow White | snow white and the seven dwarfs
+Sleeping Beauty
+Tangled
+Cars
+Coco
+Monsters Inc | monsters, inc.
+WALL-E | wall e | walle
+Peter Pan
+Hercules
 Frozen 2 | frozen ii
 Toy Story 2
 Toy Story 3
 Toy Story 4
-Finding Dory
 Big Hero 6
 Wreck-It Ralph | wreck it ralph
-
-[Schooler]
-The Little Mermaid | little mermaid
-Beauty and the Beast
-Moana
+Cars 2
+Wish
+Inside Out 2
 
 [Too Clever]
 Mary Poppins
@@ -1637,8 +1635,10 @@ Bedknobs and Broomsticks
 The Lion King | lion king
 Frozen
 Toy Story
-Finding Nemo
-Aladdin
+The Little Mermaid | little mermaid
+Beauty and the Beast
+Up
+Inside Out
 
 [Not accepted]
 Shrek
@@ -1671,31 +1671,10 @@ note: Real words that rhyme exactly with "cat" (-at sound). Names don't count.
 Laundromat
 
 [Deep Cut]
-Thermostat
-Habitat
-Democrat
-Aristocrat
-Bureaucrat
-Copycat
-Fiat
-Begat
-Chitchat
-Tomcat
-Hellcat
 Polecat
 Fatcat | fat cat
-Nonfat
 Placemat
-Bath mat
-Top hat
-Sun hat
-Fruit bat
-Vampire bat
-Muskrat
 Packrat | pack rat
-Lab rat
-Wildcat
-Hard hat
 Mudflat
 Plat
 Prat
@@ -1714,7 +1693,6 @@ Heliostat
 Concordat
 Magnificat
 Pussycat
-Alley cat
 Scaredy-cat | scaredy cat
 Hepcat
 Meerkat
@@ -1726,9 +1704,7 @@ Brickbat
 Cowpat
 Frat
 Gat
-Nat
 Kat
-Matt
 Matte
 Pratt
 Platt
@@ -1748,61 +1724,83 @@ Commissariat
 Lariat
 Automat
 Babysat
-Ballet flat
 Hazmat
-Cool cat
 Tabby cat
 Bearcat
 Civet cat
 Cheshire cat
-Cowboy hat
 Bowler hat
-Party hat
-Straw hat
 Ten-gallon hat
-Welcome mat
 Yoga mat
 Mouse mat
+Rug rat
+Kangaroo rat
+Mole rat
+Backchat
+
+[Rare]
+Gnat
+Drat
+Slat
+Thermostat
+Habitat
+Aristocrat
+Bureaucrat
+Copycat
+Fiat
+Begat
+Chitchat
+Tomcat
+Hellcat
+Nonfat
+Bath mat
+Vampire bat
+Muskrat
+Lab rat
+Wildcat
+Alley cat
+Nat
+Matt
+Ballet flat
+Cool cat
+Cowboy hat
+Party hat
+Straw hat
+Welcome mat
 Gym mat
 Prayer mat
 Floor mat
 Cricket bat
 Baseball bat
-Rug rat
 Gym rat
 Mall rat
 Desert rat
 Water rat
-Kangaroo rat
-Mole rat
 Salt flat
 Tide flat
 At
-Backchat
 
-[Rare]
+[Schooler]
+Mat
 Splat
 That
 Flat
 Brat
-Gnat
 Spat
 Vat
 Tat
-Drat
 Scat
-Slat
 Stat
 Format
 Combat
 Doormat
 Bobcat
 Wombat
-
-[Schooler]
-Fat
-Pat
-Chat
+Democrat
+Top hat
+Sun hat
+Fruit bat
+Hard hat
 
 [Too Clever]
 Acrobat
@@ -1814,8 +1812,10 @@ Kit Kat
 Hat
 Bat
 Rat
-Mat
 Sat
+Fat
+Pat
+Chat
 
 [Not accepted]
 Cut
@@ -1841,32 +1841,6 @@ prompt: Name a gemstone or precious stone
 Tanzanite
 
 [Deep Cut]
-Lapis lazuli | lapis
-Moonstone
-Obsidian
-Citrine
-Tourmaline
-Tiger's eye | tigers eye | tiger eye
-Coral
-Alexandrite
-Agate
-Malachite
-Bloodstone
-Hematite
-Jet
-Zircon
-Morganite
-Spinel
-Moissanite
-Black opal
-Star sapphire
-Pink diamond
-Blue diamond
-Mother of pearl
-Carnelian
-Rhodochrosite
-Labradorite
-Beryl
 Chrysoberyl
 Chrysoprase
 Chalcedony
@@ -1885,7 +1859,6 @@ Andalusite
 Benitoite
 Taaffeite
 Painite
-Red beryl
 Grandidierite
 Jadeite
 Nephrite
@@ -1901,14 +1874,11 @@ Paraiba tourmaline | paraiba
 Padparadscha
 Heliodor
 Goshenite
-Smoky quartz
 Ametrine
 Prasiolite
 Howlite
 Unakite
-Serpentine
 Rhodonite
-Pyrite | fool's gold
 Selenite
 Celestite
 Andesine
@@ -1917,15 +1887,12 @@ Apophyllite
 Aragonite
 Azurite
 Bixbite
-Blue topaz
 Bronzite
-Cat's eye
 Cavansite
 Chiastolite
 Danburite
 Dumortierite
 Euclase
-Fire opal
 Almandine
 Pyrope
 Spessartine
@@ -1940,13 +1907,9 @@ Kornerupine
 Lepidolite
 Mookaite
 Morion
-Snowflake obsidian
-Apache tears
-Ocean jasper
 Opalite
 Petalite
 Phenakite
-Picture jasper
 Prehnite
 Pietersite
 Rhyolite
@@ -1963,37 +1926,68 @@ Smithsonite
 Sphalerite
 Staurolite
 Thulite
-Tiger iron
-Imperial topaz
 Tourmalinated quartz
 Variscite
 Zoisite
-Watermelon tourmaline
 Indicolite
 Verdelite
 Cymophane
 Hawk's eye
-Star ruby
-Black diamond
-Yellow diamond | canary diamond
-Chocolate diamond
-Herkimer diamond
-Lab-grown diamond | lab diamond
 Akoya pearl
-Tahitian pearl | black pearl
-South Sea pearl
-Freshwater pearl
-Conch pearl
-Abalone | paua
 Copal
 Moldavite
-Libyan desert glass
 Tektite
 Musgravite
 Jeremejevite
 Poudretteite
 Serendibite
-Red diamond
+Turritella agate
+Chrome diopside
+Spectrolite
+Orthoclase
+Oregon sunstone
+Fluorspar
+Hemimorphite
+Larvikite
+Septarian
+Geode
+Druzy | drusy
+Chrysolite
+Trapiche emerald
+
+[Rare]
+Lapis lazuli | lapis
+Citrine
+Alexandrite
+Bloodstone
+Morganite
+Spinel
+Moissanite
+Carnelian
+Rhodochrosite
+Labradorite
+Beryl
+Red beryl
+Smoky quartz
+Serpentine
+Pyrite | fool's gold
+Blue topaz
+Cat's eye
+Fire opal
+Snowflake obsidian
+Apache tears
+Ocean jasper
+Picture jasper
+Imperial topaz
+Watermelon tourmaline
+Star ruby
+Herkimer diamond
+Lab-grown diamond | lab diamond
+Tahitian pearl | black pearl
+Freshwater pearl
+Conch pearl
+Abalone | paua
+Libyan desert glass
 Blue garnet
 Boulder opal
 Crystal opal
@@ -2003,7 +1997,6 @@ Blue lace agate
 Crazy lace agate
 Dendritic agate
 Botswana agate
-Turritella agate
 Mexican opal
 Ethiopian opal
 Australian opal
@@ -2013,24 +2006,12 @@ Strawberry quartz
 Cherry quartz
 Lemon quartz
 Green amethyst
-Chrome diopside
-Spectrolite
 Rainbow moonstone
 Peach moonstone
-Orthoclase
 Feldspar
-Oregon sunstone
-Fluorspar
-Blue john
 Calcite
 Celestine
-Hemimorphite
-Larvikite
-Septarian
 Thunder egg
-Geode
-Druzy | drusy
-Chrysolite
 Olivine
 Mandarin garnet
 Color-change garnet
@@ -2041,9 +2022,8 @@ Pink sapphire
 White sapphire
 Burmese ruby | pigeon's blood ruby
 Colombian emerald
-Trapiche emerald
 
-[Rare]
+[Schooler]
 Amethyst
 Topaz
 Opal
@@ -2053,10 +2033,30 @@ Turquoise | turquois
 Onyx
 Quartz | rose quartz
 Aquamarine
-Amber
 Jasper
-Crystal
 Peridot
+Moonstone
+Obsidian
+Tourmaline
+Tiger's eye | tigers eye | tiger eye
+Coral
+Agate
+Malachite
+Hematite
+Jet
+Zircon
+Black opal
+Star sapphire
+Pink diamond
+Blue diamond
+Mother of pearl
+Tiger iron
+Black diamond
+Yellow diamond | canary diamond
+Chocolate diamond
+South Sea pearl
+Red diamond
+Blue john
 
 [Too Clever]
 Rhinestone
@@ -2070,6 +2070,8 @@ Ruby
 Emerald
 Sapphire
 Pearl
+Amber
+Crystal
 
 [Not accepted]
 Kidney stone
@@ -2096,38 +2098,15 @@ Moxie
 
 [Deep Cut]
 Vernors
-Shasta
-Faygo
-RC Cola | royal crown | rc
-Jones Soda | jones
-IBC
-Stewart's | stewarts
-Seagram's | seagrams
-Hires
 Olipop
-Poppi
 Zevia
 Bubly
-LaCroix | la croix
-Polar
-Perrier
-San Pellegrino | pellegrino
 Jarritos
 Sidral Mundet
-Inca Kola
-Irn-Bru | irn bru
-Sun Drop
-Slice
-Surge
 Josta
-Pibb | mr pibb | pibb xtra
 Cheerwine
-Dr Brown's | dr browns
-Manzanita Sol
 Mirinda
 Orangina
-Lilt
-Ale-8-One | ale 8
 Blenheim
 Boylan
 Reed's | reeds
@@ -2136,12 +2115,9 @@ Sprecher
 Henry Weinhard's
 Virgil's
 Frostie
-Dad's | dads root beer
 Mr. Fizz
 Kas
-Tango
 Vimto
-Club Mate | club-mate
 Afri Cola
 Kofola
 Guarana Antarctica | guarana
@@ -2151,74 +2127,33 @@ Bundaberg
 Ramune
 Bawls
 Jolt
-Clearly Canadian
 Hansen's | hansens
-Blue Sky
 Spindrift
-Waterloo
 Topo Chico
-Vanilla Coke
-Coke Life
-New Coke
-Pepsi Blue
-Pepsi Wild Cherry
-Pepsi Twist
-Mountain Dew Code Red | code red
 Mountain Dew Baja Blast | baja blast
-Mountain Dew Voltage
 Mountain Dew Kickstart | kickstart
-Diet Mountain Dew
-Diet Dr Pepper
-Dr Pepper Zero
-Sprite Zero
 Sprite Remix
-7 Up Zero
-Diet 7 Up
 Fanta Grape
-Crush Grape
-Grape Crush
-Cactus Cooler
 Kickapoo Joy Juice
-Dr Thunder
-Dr Skipper
-Dr. Wells
-Mountain Lightning
-Mountain Mist
 Mountain Holler
-Bubble Up
-Upper 10
-Wink
 Fresca Mixed
-Diet Rite
 NuGrape
 Grapette
 Nehi
-Delaware Punch
-Double Cola
 Kist
 Faygo Rock & Rye | rock and rye
 Faygo Redpop
-Big K
-Sam's Choice
-Dr Pop
 Dr. Perky
 Barritt's
-Bruce Cost
 Q Mixers | q tonic
-Fever-Tree
 Sanpellegrino Aranciata
-Cock 'n Bull
 Goya
 Materva
 Jupiña
-Iron Beer
 Kola Champagne
-Malta | malta goya
 Kola Real | big cola
 Postobon
 Colombiana
-Pony Malta
-Lift
 Mundet
 Peñafiel
 Sangria Señorial
@@ -2229,14 +2164,9 @@ Kola Inglesa
 Guaraná Jesus
 Kuat
 Pepsi Kona
-Pepsi Fire
-Pepsi Mango
 Starry Zero
-Ting
-D&G
 Bigga
 Busta
-Solo
 Leed
 Pasito
 Sars | sarsaparilla
@@ -2244,18 +2174,14 @@ Lemon & Paeroa | l&p
 Foxton Fizz
 Cott
 Brio
-Crush Cream Soda
 Pop Shoppe
 Swiss Chalet Sodas
-Barr
 Tizer
 Vimto Remix
 Dandelion & Burdock
 Fentimans Curiosity Cola
 Ben Shaws
 R. White's
-Panda Pops
-Old Jamaica
 Fanta Lemon
 Bionade
 Fritz-Kola
@@ -2266,7 +2192,6 @@ Bluna
 Libella
 Schwip Schwap
 Mezzo Mix
-Pepsi Light
 Cockta
 Cedevita
 Jupi
@@ -2290,29 +2215,92 @@ Shani
 Rani Float
 Calpico Soda | calpis soda
 Mitsuya Cider
-CC Lemon
 Thomas Kemper
 Zuberfizz
-Ski | ski soda
-Buffalo Rock
 Grapico
-Blue Hawaiian
-Dr Pepper Cream Soda
-Dr Pepper Cherry
-Pepsi Real Sugar | pepsi throwback
 Mist Twst
-OK Soda
-Pepsi AM
-Pepsi X
 Coca-Cola BlaK
 Orangina Rouge
 
 [Rare]
+Barq's | barqs
+Shasta
+Faygo
+IBC
+Seagram's | seagrams
+Poppi
+LaCroix | la croix
+Perrier
+San Pellegrino | pellegrino
+Inca Kola
+Irn-Bru | irn bru
+Pibb | mr pibb | pibb xtra
+Manzanita Sol
+Lilt
+Ale-8-One | ale 8
+Dad's | dads root beer
+Tango
+Club Mate | club-mate
+Clearly Canadian
+Waterloo
+Vanilla Coke
+Coke Life
+New Coke
+Pepsi Blue
+Pepsi Wild Cherry
+Pepsi Twist
+Mountain Dew Code Red | code red
+Mountain Dew Voltage
+Diet Mountain Dew
+Diet Dr Pepper
+Dr Pepper Zero
+Sprite Zero
+Crush Grape
+Grape Crush
+Cactus Cooler
+Dr Thunder
+Dr Skipper
+Dr. Wells
+Mountain Lightning
+Mountain Mist
+Bubble Up
+Wink
+Diet Rite
+Delaware Punch
+Double Cola
+Sam's Choice
+Bruce Cost
+Fever-Tree
+Cock 'n Bull
+Iron Beer
+Malta | malta goya
+Pony Malta
+Lift
+Pepsi Fire
+Pepsi Mango
+Ting
+Crush Cream Soda
+Barr
+Panda Pops
+Old Jamaica
+Pepsi Light
+CC Lemon
+Ski | ski soda
+Buffalo Rock
+Blue Hawaiian
+Dr Pepper Cream Soda
+Dr Pepper Cherry
+Pepsi Real Sugar | pepsi throwback
+OK Soda
+Pepsi AM
+Pepsi X
+
+[Schooler]
+Sprite
+Fanta | orange fanta | fanta orange
 Diet Coke
 Coke Zero | coke zero sugar | coca-cola zero
 Root beer
-A&W | a and w
-Barq's | barqs
 Canada Dry
 Schweppes
 Sunkist | sunkist orange
@@ -2326,12 +2314,24 @@ Crush | orange crush | sunkist crush
 Sierra Mist
 Starry
 Mello Yello | mello yellow
-Big Red
 Cherry Coke | coca-cola cherry
-
-[Schooler]
-Fanta | orange fanta | fanta orange
-7 Up | 7up | seven up
+RC Cola | royal crown | rc
+Jones Soda | jones
+Stewart's | stewarts
+Hires
+Polar
+Sun Drop
+Slice
+Surge
+Dr Brown's | dr browns
+Blue Sky
+7 Up Zero
+Diet 7 Up
+Upper 10
+Big K
+Dr Pop
+D&G
+Solo
 
 [Too Clever]
 Tab
@@ -2343,9 +2343,11 @@ Kombucha
 [Plankton]
 Coca-Cola | coke | coca cola | coke classic | mexican coke
 Pepsi
-Sprite
 Dr Pepper | dr. pepper | doctor pepper
 Mountain Dew | mtn dew | mt dew
+7 Up | 7up | seven up
+A&W | a and w
+Big Red
 
 [Not accepted]
 Milk
@@ -2378,14 +2380,296 @@ prompt: Name a piece of furniture
 Chaise longue | chaise lounge | chaise
 
 [Deep Cut]
+Credenza
+Waterbed
+Wingback chair | wing chair
+Papasan chair | papasan
+Daybed
+Settee
+Divan
+Davenport
+Chesterfield | chesterfield sofa
+Fainting couch
+Tallboy | highboy
+Lowboy
+Escritoire
+Etagere
+Whatnot
+Curio cabinet | curio
+Pouf | pouffe
+Hassock
+Tuffet
+Cheval mirror
+Washstand
+Commode
+Canterbury
+Pew
+Windsor chair
+Adirondack chair
+Eames chair
+Tulip chair
+Glider
+Chiffonier
+Gateleg table
+Trestle table
+Nesting tables
+Lectern | podium
+Bassinet
+Cradle
+Sawhorse
+Room divider | folding screen
+Sofa table
+Ladder shelf
+Cubby | cubbies
+Bachelor's chest
+Cedar chest
+Lingerie chest
+Gentleman's chest
+Apothecary cabinet
+Bathroom vanity
+Linen cabinet
+Pantry cabinet
+Jelly cupboard
+Welsh dresser
+Breakfront
+Barrister bookcase
+Floating shelf
+Armless chair
+Slipper chair
+Bergere
+Fauteuil
+Klismos chair
+Ladderback chair
+Spindle chair
+Shaker chair
+Bentwood chair
+Wassily chair
+Panton chair
+Womb chair
+Director's chair
+Sling chair
+Swivel chair
+Kneeling chair
+Saddle chair
+Stacking chair
+Parsons chair
+Counter stool
+Step stool
+Piano stool
+Vanity stool
+Milking stool
+Tripod stool
+Saddle stool
+Banquette
+Entryway bench
+Mudroom bench
+Camelback sofa
+Tuxedo sofa
+Lawson sofa
+Cabriole sofa
+Mid-century sofa
+Modular sofa
+Chaise sofa
+Rocker recliner
+Sleigh bed
+Captain's bed
+Loft bed
+Adjustable bed
+Toddler bed
+Pedestal table
+Tilt-top table
+Drafting table
+Workbench
+Pedestal desk
+Kneehole desk
+Davenport desk
+Bureau plat
+Credenza desk
+Tray table
+TV tray
+Butler's tray
+Breakfast nook
+Dinette
+Bistro table
+Farmhouse table
+Refectory table
+Pembroke table
+Tea trolley
+Humidor
+Jewelry armoire
+Vanity table
+Makeup vanity
+Partition
+Valet stand
+Garment rack
+Luggage rack
+Quilt rack
+Towel rack
+Floor cushion
+Zabuton
+Tatami
+Kotatsu
+Chabudai
+Tansu
+Hammock chair
+Porch swing
+Glider bench
+Picnic bench
+Patio set
+Bistro set
+Rattan chair
+Wicker chair
+Peacock chair
+Pulpit
+Altar
+Confessional
+Bleachers
+Recamier
+Meridienne
+Canapé
+Storage ottoman
+Footrest
+Kneeler
+Prie-dieu
+Pier table
+Demilune | demi-lune table
+Gueridon
+Tabouret
+Taboret
+Torchère
+Dumbwaiter
+Wardrobe closet
+Chifforobe
+Kas
+Schrank
+Hoosier cabinet
+Sewing table
+Sewing cabinet
+Changing dresser
+Triple bunk
+Futon frame
+Tête-à-tête
+
+[Rare]
 Sideboard | buffet
 Hutch
-China cabinet
-Credenza
-Vanity
 Headboard
-Sectional | sectional sofa
 Trundle bed
+Secretary desk | secretary
+Bureau
+Roll-top desk | rolltop desk
+Settle
+Egg chair
+Drop-leaf table
+Bar cart
+Plant stand
+Umbrella stand
+Magazine rack
+Locker
+Blanket chest
+Campaign chest
+Display cabinet
+Corner cabinet
+Medicine cabinet
+Server
+Dry sink
+Pie safe
+Wall shelf
+Corner shelf
+Media console
+Accent chair
+Club chair
+Barrel chair
+Ghost chair
+Morris chair
+Barcelona chair
+Ball chair
+Bubble chair
+Butterfly chair
+Deck chair
+Beach chair
+Camp chair
+Massage chair
+Task chair
+Side chair
+Dining chair
+Piano bench
+Booth
+Storage bench
+Hall tree
+Shoe cabinet
+Lift chair
+Platform bed
+Poster bed
+Panel bed
+Storage bed
+Camp bed
+Pack 'n play | playpen
+Lamp table
+Accent table
+Poker table
+Writing desk
+Standing desk
+Computer desk
+Executive desk
+Partners desk
+Fall-front desk
+School desk
+Lap desk
+Tea cart
+Serving cart
+Kitchen cart
+Pub table
+Counter-height table
+Extension table
+Butterfly table
+Tea table
+Coffee cart
+Wine rack
+Bar cabinet
+Liquor cabinet
+Gun cabinet
+Trophy case
+Display case
+Dressing table
+Coat stand
+Clothes rack
+Swing
+Garden bench
+Park bench
+Lounge chair
+Stadium seat
+Theater seat
+Hall stand
+Console
+Candle stand
+Grandfather clock | longcase clock
+Pool table | billiard table
+Floor lamp
+Table lamp
+
+[Schooler]
+Bookshelf | bookcase | bookshelves
+Stool
+Bench
+Cabinet
+Nightstand | night stand | bedside table | nightstand table
+Coffee table
+Armchair
+Recliner | la-z-boy | lazy boy | recliner chair
+Ottoman
+Wardrobe | armoire
+Loveseat | love seat
+Rocking chair | rocker
+Dining table
+Crib | cot | baby crib
+Chest of drawers
+Footstool
+Hammock
+Bunk bed
+China cabinet
+Vanity
+Sectional | sectional sofa
 Murphy bed
 Bar stool | barstool
 High chair | highchair
@@ -2406,297 +2690,13 @@ Mirror
 Lamp
 Kitchen island
 Gaming chair
-Waterbed
 Canopy bed | four poster bed
 Sleeper sofa | pullout couch | sofa bed
-Wingback chair | wing chair
-Papasan chair | papasan
-Daybed
-Settee
-Divan
-Davenport
-Chesterfield | chesterfield sofa
-Fainting couch
-Tallboy | highboy
-Lowboy
-Secretary desk | secretary
-Bureau
-Escritoire
-Roll-top desk | rolltop desk
-Etagere
-Whatnot
-Curio cabinet | curio
-Pouf | pouffe
-Hassock
-Tuffet
-Cheval mirror
-Washstand
-Commode
-Canterbury
-Settle
-Pew
-Windsor chair
-Adirondack chair
-Eames chair
-Tulip chair
-Egg chair
-Glider
-Chiffonier
-Gateleg table
-Drop-leaf table
-Trestle table
-Nesting tables
-Lectern | podium
-Bassinet
-Cradle
-Sawhorse
-Room divider | folding screen
-Bar cart
-Plant stand
-Umbrella stand
-Magazine rack
-Sofa table
-Ladder shelf
-Cubby | cubbies
-Locker
-Bachelor's chest
-Blanket chest
-Cedar chest
-Lingerie chest
-Gentleman's chest
-Campaign chest
-Apothecary cabinet
-Display cabinet
-Corner cabinet
-Medicine cabinet
-Bathroom vanity
-Linen cabinet
-Pantry cabinet
-Server
-Dry sink
-Pie safe
-Jelly cupboard
-Welsh dresser
-Breakfront
-Barrister bookcase
-Wall shelf
-Floating shelf
-Corner shelf
-Media console
-Armless chair
-Accent chair
-Club chair
-Barrel chair
-Slipper chair
-Ghost chair
-Bergere
-Fauteuil
-Klismos chair
-Ladderback chair
-Spindle chair
-Shaker chair
-Morris chair
-Bentwood chair
-Wassily chair
-Barcelona chair
-Panton chair
-Womb chair
-Ball chair
-Bubble chair
-Butterfly chair
-Director's chair
-Deck chair
-Beach chair
-Camp chair
-Sling chair
-Massage chair
-Swivel chair
-Task chair
-Kneeling chair
-Saddle chair
-Stacking chair
-Side chair
-Dining chair
-Parsons chair
-Counter stool
-Step stool
-Piano stool
-Piano bench
-Vanity stool
-Milking stool
-Tripod stool
-Saddle stool
-Banquette
-Booth
-Storage bench
-Hall tree
-Entryway bench
-Mudroom bench
-Shoe cabinet
-Camelback sofa
-Tuxedo sofa
-Lawson sofa
-Cabriole sofa
-Mid-century sofa
-Modular sofa
-Chaise sofa
-Rocker recliner
-Lift chair
-Platform bed
-Sleigh bed
-Poster bed
-Panel bed
-Captain's bed
-Loft bed
-Storage bed
-Adjustable bed
 Hospital bed
-Camp bed
-Toddler bed
-Pack 'n play | playpen
-Lamp table
-Accent table
-Pedestal table
-Tilt-top table
 Card table
 Game table
-Poker table
-Drafting table
-Workbench
-Writing desk
-Standing desk
-Computer desk
-Executive desk
-Partners desk
-Pedestal desk
-Kneehole desk
-Davenport desk
-Fall-front desk
-Bureau plat
-Credenza desk
-School desk
-Lap desk
-Tray table
-TV tray
-Butler's tray
-Tea cart
-Serving cart
-Kitchen cart
-Breakfast nook
-Dinette
-Pub table
-Bistro table
-Counter-height table
-Farmhouse table
-Refectory table
-Extension table
-Butterfly table
-Pembroke table
 C-table
-Tea table
-Tea trolley
-Coffee cart
-Wine rack
-Bar cabinet
-Liquor cabinet
-Humidor
-Gun cabinet
-Trophy case
-Display case
-Jewelry armoire
-Vanity table
-Dressing table
-Makeup vanity
 Screen | shoji screen
-Partition
-Coat stand
-Valet stand
-Clothes rack
-Garment rack
-Luggage rack
-Quilt rack
-Towel rack
-Floor cushion
-Zabuton
-Tatami
-Kotatsu
-Chabudai
-Tansu
-Hammock chair
-Swing
-Porch swing
-Glider bench
-Garden bench
-Park bench
-Picnic bench
-Patio set
-Bistro set
-Lounge chair
-Rattan chair
-Wicker chair
-Peacock chair
-Pulpit
-Altar
-Confessional
-Bleachers
-Stadium seat
-Theater seat
-Recamier
-Meridienne
-Canapé
-Storage ottoman
-Footrest
-Kneeler
-Prie-dieu
-Hall stand
-Console
-Pier table
-Demilune | demi-lune table
-Gueridon
-Tabouret
-Taboret
-Torchère
-Candle stand
-Dumbwaiter
-Wardrobe closet
-Chifforobe
-Kas
-Schrank
-Hoosier cabinet
-Sewing table
-Sewing cabinet
-Changing dresser
-Triple bunk
-Futon frame
-Tête-à-tête
-Grandfather clock | longcase clock
-Pool table | billiard table
-Floor lamp
-Table lamp
-
-[Rare]
-Stool
-Bench
-Cabinet
-Nightstand | night stand | bedside table | nightstand table
-Coffee table
-Armchair
-Recliner | la-z-boy | lazy boy | recliner chair
-Ottoman
-Wardrobe | armoire
-Loveseat | love seat
-Rocking chair | rocker
-Dining table
-Crib | cot | baby crib
-Chest of drawers
-TV stand | entertainment center
-Footstool
-Hammock
-Bunk bed
-
-[Schooler]
-Dresser
-Bookshelf | bookcase | bookshelves
 
 [Too Clever]
 Beanbag | bean bag | beanbag chair
@@ -2709,6 +2709,8 @@ Table
 Bed
 Couch | sofa
 Desk
+Dresser
+TV stand | entertainment center
 
 [Not accepted]
 Door
@@ -2731,3 +2733,4 @@ Mattress
 Box spring
 Chandelier
 Rocking horse
+

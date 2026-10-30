@@ -8,49 +8,6 @@ prompt: Name a herb or spice
 Grains of paradise
 
 [Deep Cut]
-Saffron
-Cardamom
-Star anise
-Anise
-Fennel | fennel seed
-Tarragon
-Marjoram
-Lemongrass
-Sesame | sesame seeds
-Poppy seeds
-Mustard seed | mustard
-Caraway
-Celery seed
-Smoked paprika
-Garam masala
-Five spice | chinese five spice | five-spice powder
-Za'atar | zaatar
-Sumac
-Fenugreek | methi
-Juniper berries | juniper
-Horseradish
-Wasabi
-Lemon pepper
-Italian seasoning
-Herbes de Provence
-Cajun seasoning
-Taco seasoning
-Everything bagel seasoning
-Chipotle
-Ancho
-Jalapeno
-Habanero
-White pepper
-Pink peppercorn
-Peppercorns
-Sea salt
-Kosher salt
-Himalayan salt | pink salt
-Lavender
-Chamomile
-Peppermint
-Spearmint
-Thai basil
 Lemon balm
 Chervil
 Sorrel
@@ -59,11 +16,9 @@ Borage
 Savory
 Epazote
 Culantro
-Curry leaves
 Kaffir lime leaves | lime leaves
 Galangal
 Asafoetida | hing | asafetida
-Mace | mace blade
 Ras el hanout
 Baharat
 Berbere
@@ -75,7 +30,6 @@ Annatto | achiote
 Nigella | black seed | kalonji | nigella seeds
 Ajwain
 Amchur | mango powder
-Long pepper
 Cubeb
 Mahleb | mahlab
 Grains of selim
@@ -83,52 +37,39 @@ Tonka bean
 Wattleseed
 Pandan
 Hyssop
-Rue
 Angelica
 Licorice root | licorice | liquorice
 Orris root
 Sassafras | file powder
-Aleppo pepper
 Anise hyssop
 Arrowroot
 Bee balm
 Bergamot
 Black cardamom
-Black lime | loomi
-Black salt | kala namak
 Bouquet garni
 Calendula
 Carom seeds
 Cassia
 Catnip
-Celery salt
 Chaat masala
 Chipotle powder
-Chocolate mint
 Ceylon cinnamon
 Dill seed
 Elderflower
 Espelette pepper
 Fennel pollen
 Fenugreek leaves | kasuri methi
-Garlic salt
-Ghost pepper
 Gochugaru
 Horehound
 Jamaican jerk seasoning | jerk seasoning
-Japanese pepper | sansho
 Kashmiri chili
 Lemon thyme
 Lemon verbena
 Marash pepper
 Mexican oregano
 Mitmita
-Mixed spice
 Mugwort
 Mulling spices
-Mustard powder
-Onion salt
-Orange peel
 Panch phoron
 Pasilla
 Perilla | shiso
@@ -140,13 +81,10 @@ Quatre epices
 Safflower
 Salad burnet
 Sansho pepper
-Seasoned salt | lawry's
 Shallot powder
-Smoked salt
 Spikenard
 Steak seasoning
 Summer savory
-Sweet basil
 Sweet cicely
 Tajín
 Tamarind
@@ -155,9 +93,6 @@ Tansy
 Tellicherry pepper
 Truffle salt
 Urfa biber
-Vietnamese mint | rau ram
-Vietnamese cinnamon
-Wild garlic
 Winter savory
 Woodruff
 Wormwood
@@ -168,30 +103,87 @@ Montreal steak seasoning
 Greek seasoning
 Pizza seasoning
 Ranch seasoning
-Accent | msg
-Myrtle
-Lemon myrtle
 Pepperberry
-Mountain pepper
-Bush tomato
 Chicory root
 Dandelion root
 Burdock root
 Fingerroot
 Kencur
-Torch ginger
 Uda
 Alligator pepper
 Ethiopian cardamom | korarima
 Mastic
-Holy basil | tulsi
-Rose petals
 Hibiscus
 Barberries | zereshk
 Garlic chives
 Stinging nettle
 
 [Rare]
+Saffron
+Cardamom
+Star anise
+Anise
+Fennel | fennel seed
+Tarragon
+Marjoram
+Lemongrass
+Caraway
+Smoked paprika
+Garam masala
+Za'atar | zaatar
+Sumac
+Fenugreek | methi
+Juniper berries | juniper
+Horseradish
+Wasabi
+Herbes de Provence
+Cajun seasoning
+Taco seasoning
+Everything bagel seasoning
+Chipotle
+Ancho
+Jalapeno
+Habanero
+Pink peppercorn
+Peppercorns
+Kosher salt
+Himalayan salt | pink salt
+Chamomile
+Peppermint
+Spearmint
+Thai basil
+Curry leaves
+Mace | mace blade
+Long pepper
+Rue
+Aleppo pepper
+Black lime | loomi
+Black salt | kala namak
+Celery salt
+Chocolate mint
+Garlic salt
+Ghost pepper
+Japanese pepper | sansho
+Mixed spice
+Mustard powder
+Onion salt
+Orange peel
+Seasoned salt | lawry's
+Smoked salt
+Sweet basil
+Vietnamese mint | rau ram
+Vietnamese cinnamon
+Wild garlic
+Accent | msg
+Myrtle
+Lemon myrtle
+Mountain pepper
+Bush tomato
+Torch ginger
+Holy basil | tulsi
+Rose petals
+
+[Schooler]
 Thyme
 Rosemary
 Parsley
@@ -214,10 +206,16 @@ Garlic powder
 Onion powder
 Red pepper flakes | crushed red pepper
 Allspice
-
-[Schooler]
-Garlic
-Paprika
+Sesame | sesame seeds
+Poppy seeds
+Mustard seed | mustard
+Celery seed
+Five spice | chinese five spice | five-spice powder
+Lemon pepper
+Italian seasoning
+White pepper
+Sea salt
+Lavender
 
 [Too Clever]
 Pumpkin spice
@@ -229,6 +227,8 @@ Pepper | black pepper
 Basil
 Oregano
 Cinnamon | cinnamon stick
+Garlic
+Paprika
 
 [Not accepted]
 Ketchup
@@ -252,70 +252,6 @@ prompt: Name a mammal
 Aye-aye | aye aye
 
 [Deep Cut]
-Orangutan
-Baboon
-Lemur
-Sloth | two-toed sloth
-Armadillo
-Anteater
-Porcupine
-Hedgehog
-Opossum | possum
-Hamster
-Guinea pig | cavy
-Gerbil
-Chipmunk
-Ferret
-Weasel
-Mink
-Badger
-Wolverine
-Mongoose
-Meerkat
-Hyena | spotted hyena | laughing hyena
-Jackal
-Coyote
-Lynx
-Bobcat
-Cougar | puma | mountain lion
-Jaguar
-Panther
-Ocelot
-Polar bear
-Grizzly bear | grizzly
-Seal
-Sea lion
-Walrus
-Manatee
-Narwhal
-Orca | killer whale
-Llama
-Alpaca
-Bison | buffalo | american buffalo
-Yak
-Ox
-Donkey | jack | jenny
-Mule
-Reindeer | caribou
-Elk
-Antelope
-Gazelle
-Wildebeest | gnu
-Warthog
-Tapir
-Wombat
-Wallaby
-Tasmanian devil
-Mole
-Shrew
-Vole
-Gopher
-Groundhog | woodchuck
-Prairie dog
-Hare
-Pika
-Chinchilla
-Capybara
 Okapi
 Pangolin
 Aardvark
@@ -324,7 +260,6 @@ Numbat
 Quokka
 Bilby
 Bandicoot
-Sugar glider
 Kinkajou
 Coati
 Binturong
@@ -334,18 +269,10 @@ Genet
 Serval
 Caracal
 Margay
-Fishing cat
-Sand cat
-Red panda
-Sun bear
-Sloth bear
 Spectacled bear
 Dhole
 Fennec fox
-Arctic fox
 Maned wolf
-Bush dog
-African wild dog | painted dog
 Aardwolf
 Dugong
 Beluga
@@ -360,7 +287,6 @@ Marmoset
 Tamarin
 Capuchin
 Howler monkey
-Spider monkey
 Macaque
 Snub-nosed monkey
 Gelada
@@ -368,17 +294,13 @@ Colobus
 Saola
 Gerenuk
 Springbok
-Impala
 Kudu
 Eland
 Oryx
 Ibex
 Markhor
 Chamois
-Mountain goat
 Bighorn sheep
-Musk ox
-Takin
 Pronghorn
 Vicuna | vicuña
 Guanaco
@@ -390,29 +312,21 @@ Hyrax | dassie
 Elephant shrew
 Solenodon
 Tenrec
-Naked mole rat
 Jerboa
 Dormouse
 Agouti
 Paca
 Nutria | coypu
 Marmot
-Flying squirrel
 Colugo
-Mara
 Degu
 Addax
 Agile wallaby
 Alpine ibex
-American black bear | black bear
 Andean bear
 Angora goat
 Anoa
-Antelope squirrel
-Asian elephant
-African elephant
 Aurochs
-Axis deer | chital
 Babirusa
 Bactrian camel
 Dromedary
@@ -420,12 +334,8 @@ Banteng
 Barbary macaque
 Barbary sheep | aoudi
 Bat-eared fox
-Bearded pig
-Bengal tiger
-Siberian tiger
 Sumatran tiger
 Bharal | blue sheep
-Big brown bat
 Black rhinoceros
 White rhinoceros
 Javan rhinoceros
@@ -436,104 +346,51 @@ Black-footed ferret
 Blesbok
 Bongo
 Bontebok
-Brown bear
 Kodiak bear
-Brown rat
-Cape buffalo
-Water buffalo
 Burro
 Bushbaby | galago
 Bushbuck
 Bushpig
 Cacomistle
-Cane rat
 Chacma baboon
 Cheviot
 Chinchilla rat
-Chinese water deer
 Clouded leopard
-Snow leopard
 Amur leopard
-Common dolphin
 Cottontail
-Crab-eating fox
 Cuscus
 Dall sheep
 Dama gazelle
-Deer mouse
 Desman
 Dingo
-Domestic pig | hog
-Boar | wild boar
 Dorcas gazelle
 Dunnart
-Eastern grey kangaroo
-Red kangaroo
-Tree kangaroo
-Elephant seal
 Ermine | stoat
 Eurasian lynx
 Iberian lynx
-Canada lynx
-European badger
-Honey badger | ratel
 Fallow deer
-Red deer
-Roe deer
 Sika deer
-White-tailed deer
-Mule deer
 Sambar
 Barasingha
 Pere David's deer
-Field mouse
-Fisher
-Flying fox
-Fox squirrel
-Gray squirrel
-Red squirrel
-Ground squirrel
-Fruit bat
-Vampire bat
-Horseshoe bat
 Gaur
 Gemsbok
 Giant anteater
 Giant armadillo
-Giant otter
-Sea otter
-River otter
 Golden lion tamarin
-Golden mole
 Golden snub-nosed monkey
 Grant's gazelle
 Thomson's gazelle
-Gray fox
-Red fox
-Gray whale
-Blue whale
 Humpback whale
-Sperm whale
-Fin whale
 Minke whale
-Right whale
-Pilot whale
 Bottlenose dolphin
-River dolphin
 Porpoise
 Grevy's zebra
-Plains zebra
-Mountain zebra
 Quagga
 Guereza
 Hartebeest
-Harvest mouse
 Pygmy hippopotamus
-Hog deer
 Hoary marmot
-Hooded seal
-Harp seal
-Leopard seal
 Hutia
 Striped hyena
 Brown hyena
@@ -551,24 +408,16 @@ Kowari
 Kultarr
 Langur
 Lechwe
-Lesser panda
 Linsang
 Lion tamarin
-Long-tailed weasel
 Lowland gorilla
-Mountain gorilla
 Manul | pallas's cat
 Marten
 Pine marten
-Mole rat
 Mongolian gerbil
-Monk seal
-Moon bear | asiatic black bear
 Mouflon
 Muskrat
-Musk deer
 Nilgai
-Night monkey
 Nyala
 Onager
 Oribi
@@ -579,7 +428,6 @@ Pampas deer
 Patas monkey
 Pine vole
 Pocket gopher
-Pocket mouse
 Polecat
 Potoroo
 Pouched rat
@@ -589,18 +437,13 @@ Pudu
 Pygmy marmoset
 Pygmy goat
 Quoll
-Raccoon dog | tanuki
-Rat kangaroo
-Red river hog
 Reedbuck
 Rhesus monkey | rhesus macaque
 Ringtail
 Roan antelope
 Rock hyrax
-Sable
 Sable antelope
 Saiga
-Sea cow
 Serow
 Siamang
 Sitatunga
@@ -609,13 +452,11 @@ Snowshoe hare
 Spiny anteater
 Spiny mouse
 Springhare
-Squirrel monkey
 Steenbok
 Suni
 Tahr
 Tamandua
 Tamaraw
-Tasmanian tiger | thylacine
 Tayra
 Thamin
 Titi monkey
@@ -631,18 +472,11 @@ Waterbuck
 Water vole
 Western lowland gorilla
 White-faced capuchin
-Wild cat
-Wild horse
 Wisent | european bison
-Red wolf
-Arctic wolf
-Ethiopian wolf
-Woolly monkey
 Yapok
 Zebu
 Zorilla
 Zebra duiker
-Pony
 Liger
 Tigon
 Zorse
@@ -651,10 +485,144 @@ Wolfdog
 Coydog
 Beefalo
 Cama
-Mammoth | woolly mammoth
 Sabertooth cat | saber-toothed cat | smilodon
 
 [Rare]
+Orangutan
+Baboon
+Lemur
+Armadillo
+Anteater
+Porcupine
+Opossum | possum
+Gerbil
+Chipmunk
+Mongoose
+Meerkat
+Hyena | spotted hyena | laughing hyena
+Jackal
+Bobcat
+Ocelot
+Manatee
+Narwhal
+Alpaca
+Gazelle
+Wildebeest | gnu
+Warthog
+Tapir
+Wombat
+Wallaby
+Shrew
+Vole
+Gopher
+Groundhog | woodchuck
+Pika
+Chinchilla
+Capybara
+Sugar glider
+Fishing cat
+Sand cat
+Red panda
+Sun bear
+Sloth bear
+Arctic fox
+Bush dog
+African wild dog | painted dog
+Spider monkey
+Impala
+Mountain goat
+Musk ox
+Takin
+Naked mole rat
+Flying squirrel
+Mara
+Antelope squirrel
+Asian elephant
+African elephant
+Axis deer | chital
+Bearded pig
+Bengal tiger
+Siberian tiger
+Big brown bat
+Brown bear
+Brown rat
+Cape buffalo
+Water buffalo
+Cane rat
+Chinese water deer
+Snow leopard
+Common dolphin
+Crab-eating fox
+Deer mouse
+Domestic pig | hog
+Boar | wild boar
+Eastern grey kangaroo
+Red kangaroo
+Tree kangaroo
+Elephant seal
+Canada lynx
+European badger
+Honey badger | ratel
+Red deer
+Roe deer
+White-tailed deer
+Mule deer
+Field mouse
+Fisher
+Flying fox
+Fox squirrel
+Gray squirrel
+Red squirrel
+Ground squirrel
+Fruit bat
+Vampire bat
+Horseshoe bat
+Giant otter
+Sea otter
+River otter
+Golden mole
+Gray fox
+Gray whale
+Blue whale
+Sperm whale
+Fin whale
+Right whale
+Pilot whale
+River dolphin
+Plains zebra
+Mountain zebra
+Harvest mouse
+Hog deer
+Hooded seal
+Harp seal
+Leopard seal
+Lesser panda
+Long-tailed weasel
+Mountain gorilla
+Mole rat
+Monk seal
+Moon bear | asiatic black bear
+Musk deer
+Night monkey
+Pocket mouse
+Raccoon dog | tanuki
+Rat kangaroo
+Red river hog
+Sable
+Sea cow
+Squirrel monkey
+Tasmanian tiger | thylacine
+Wild cat
+Wild horse
+Red wolf
+Arctic wolf
+Ethiopian wolf
+Woolly monkey
+Pony
+Mammoth | woolly mammoth
+
+[Schooler]
+Elephant
 Tiger
 Monkey
 Giraffe
@@ -685,11 +653,41 @@ Raccoon
 Skunk
 Beaver
 Otter
-
-[Schooler]
-Horse | stallion | mare | foal | colt
-Cow | cattle | bull | calf | heifer | steer
-Bear
+Sloth | two-toed sloth
+Hedgehog
+Hamster
+Guinea pig | cavy
+Ferret
+Weasel
+Mink
+Badger
+Wolverine
+Coyote
+Lynx
+Cougar | puma | mountain lion
+Jaguar
+Panther
+Polar bear
+Grizzly bear | grizzly
+Seal
+Sea lion
+Walrus
+Orca | killer whale
+Llama
+Bison | buffalo | american buffalo
+Yak
+Ox
+Donkey | jack | jenny
+Mule
+Reindeer | caribou
+Elk
+Antelope
+Tasmanian devil
+Mole
+Prairie dog
+Hare
+American black bear | black bear
+Red fox
 
 [Too Clever]
 Whale
@@ -702,8 +700,10 @@ Puppy
 Dog
 Cat
 Human | person | people | human being | homo sapiens
-Elephant
 Lion
+Horse | stallion | mare | foal | colt
+Cow | cattle | bull | calf | heifer | steer
+Bear
 
 [Not accepted]
 Fish
@@ -734,45 +734,24 @@ note: Official and widely used state nicknames.
 Flickertail State | flickertail
 
 [Deep Cut]
+Land of 10,000 Lakes | land of ten thousand lakes
+America's Dairyland | americas dairyland
+Vacationland
 Yellowhammer State | yellowhammer
 Heart of Dixie
 Centennial State
-Constitution State
 Nutmeg State
-Diamond State
-Gem State
-Prairie State
 Hawkeye State
 Pelican State
-Old Line State
-Free State
-Great Lakes State
-North Star State
 Magnolia State
-Treasure State
 Cornhusker State
-Silver State
-Granite State
 Tar Heel State
-Peace Garden State
-Sooner State
-Beaver State
 Palmetto State
 Mount Rushmore State
 Beehive State
-Green Mountain State
-Old Dominion
 Evergreen State
-Mountain State
 Badger State
-Cowboy State
-Pine Tree State
-Ocean State
-Bay State
-Natural State
 Hoosier State
-Volunteer State
-Show-Me State | show me state
 Buckeye State
 Keystone State
 Small Wonder
@@ -785,7 +764,6 @@ Roughrider State | rough rider state
 Mother of Presidents
 Empire State of the South
 Cotton State
-Old North State
 Bayou State
 Sportsman's Paradise | sportsmans paradise
 Gopher State
@@ -797,19 +775,43 @@ Mitten State | the mitten
 Land of Opportunity
 
 [Rare]
-Grand Canyon State
 Aloha State
-Peach State
 Bluegrass State
+Land of Enchantment
+Constitution State
+Diamond State
+Gem State
+Prairie State
+Great Lakes State
+Treasure State
+Silver State
+Granite State
+Peace Garden State
+Sooner State
+Beaver State
+Green Mountain State
+Old Dominion
+Mountain State
+Cowboy State
+Pine Tree State
+Ocean State
+Bay State
+Volunteer State
+Old North State
+
+[Schooler]
+Lone Star State
+Grand Canyon State
+Peach State
 Garden State
 Land of Lincoln
-Land of Enchantment
 Big Sky Country | big sky
-Land of 10,000 Lakes | land of ten thousand lakes
-America's Dairyland | americas dairyland
-First State
 Sunflower State
-Vacationland
+Old Line State
+Free State
+North Star State
+Natural State
+Show-Me State | show me state
 
 [Too Clever]
 The Last Frontier | last frontier
@@ -817,8 +819,8 @@ The Last Frontier | last frontier
 [Plankton]
 Sunshine State
 Golden State
-Lone Star State
 Empire State
+First State
 
 [Not accepted]
 Big Apple
@@ -838,88 +840,23 @@ prompt: Name a position or role in any team sport
 Libero
 
 [Deep Cut]
-Fullback
-Halfback
 Tailback
-Nose tackle | nose guard
-Defensive tackle
-Offensive tackle | tackle
-Left tackle
-Right tackle
-Offensive guard
-Long snapper
-Holder
 Kick returner | returner
 Punt returner
-Free safety
-Strong safety
 Nickelback
-Middle linebacker
-Outside linebacker
 Edge rusher
-Relief pitcher | reliever
-Starting pitcher | starter
-Closer
-Setup man
-Pinch hitter
-Pinch runner
-Sweeper
-Center back
-Left back
-Right back
-Wing back | wingback
-Defensive midfielder
-Attacking midfielder
-Playmaker
-Number 10
-Setter
-Outside hitter
-Middle blocker
-Opposite hitter | opposite | right side hitter
-Left wing
-Right wing
-Enforcer
-Goon
-Utility player
-Bench player | benchwarmer | sub | substitute
-Rookie
-Prop
-Hooker
-Lock
 Flanker
-Number eight | number 8
-Scrum-half | scrum half
-Fly-half | fly half
-Inside centre
-Outside centre
-Bowler
-Batsman | batter
 Wicketkeeper
-Fielder
-All-rounder
-Opening batsman | opener
-Slip
-Point | point water polo
-Goal attack
-Goal shooter
-Goal defence | goal defense
-Wing attack
-Wing defence | wing defense
-Centre court
 Mike linebacker | mike
 Will linebacker
 Sam linebacker
-H-back
 Slot receiver | slot
 Wildcat quarterback
 Gunner
 Jammer
 Personal protector
 Upback
-Three-technique | 3 tech
-Five-technique
 Rover
-Monster back
 Dime back
 Lockdown corner
 Lead-off hitter | leadoff
@@ -930,15 +867,12 @@ Bullpen catcher
 Defensive specialist
 Pivot
 Stretch four
-Point forward
 Combo guard
 Swingman
 Stopper
 Regista
 Trequartista
-False nine
 Inverted winger
-Target man
 Poacher
 Box-to-box midfielder
 Anchor
@@ -948,32 +882,21 @@ Blindside flanker
 Openside flanker
 Gully
 Silly point
-Cover point
-Mid-on
-Mid-off
-Third man
-Fine leg
-Square leg
 Deep square leg
-Long on
-Long off
 Nightwatchman
 Attackman
 Faceoff specialist | fogo
 Long-stick midfielder | lsm
 Crease attackman
-Point player
 Pivot blocker
 Coxswain | cox
 Stroke
 Bow seat
 Skip
-Lead
 Vice-skip | vice | third
 Interior lineman
 Center snapper
 Slotback
-Split end
 Running quarterback
 Backup quarterback
 Third-string quarterback
@@ -988,10 +911,7 @@ Inside linebacker
 Weakside linebacker
 Strongside linebacker
 Pass rusher
-Rush end
 Defensive back
-Star safety
-Box safety
 Utility infielder
 Infielder
 Corner infielder
@@ -999,7 +919,6 @@ Middle infielder
 Backstop
 Number one starter
 Spot starter
-Long man
 Lefty specialist | loogy
 Middle reliever
 Fireman
@@ -1010,35 +929,16 @@ Number three hitter
 Bench coach
 Pitching coach
 Hitting coach
-Base coach
-Third base coach
-First base coach
-Manager
-Head coach
-Assistant coach
 Offensive coordinator
 Defensive coordinator
 Special teams coordinator
-General manager
 Umpire
 Referee
 Linesman
-Line judge
-Back judge
-Side judge
-Field judge
-Official
 Scorekeeper
 Timekeeper
-Small ball center
 Stretch big
 Rim protector
-3-and-D wing
-Floor general
-Point center
-Big man
-Post player
-Lead guard
 Backup point guard
 Ball handler
 Shooter
@@ -1046,7 +946,6 @@ Sharpshooter
 Scorer
 Defensive stopper
 Sweeper keeper
-Centre-half
 Holding midfielder
 Central midfielder
 Wide midfielder
@@ -1056,16 +955,10 @@ Deep-lying playmaker
 Mezzala
 Shadow striker
 Second striker
-Centre forward
-Inside forward
-Outside forward
-Wide forward
-Super-sub
 Penalty taker
 Set-piece specialist
 Defenceman
 Blueliner
-Two-way forward
 Sniper
 Grinder
 Pest
@@ -1074,16 +967,9 @@ Backup goalie
 Starting goalie
 Alternate captain
 Utility back
-Back row
-Front row
-Second row
 Loose forward
-Tight five
 Five-eighth
-Stand-off
 Fullback rugby
-Inside back
-Outside back
 Dummy-half
 Lock forward
 Second rower
@@ -1101,29 +987,20 @@ Tail-ender
 Slip fielder
 Gully fielder
 Point fielder
-Short leg
 Silly mid-on
 Silly mid-off
-Long leg
 Deep midwicket
 Midwicket
-Extra cover
-Cover
-Deep cover
 Middle hitter
 Serving specialist
 Attacker
 Midfielder lacrosse
 Long pole
 Short-stick defensive midfielder | ssdm
-Face-off man
 Middie
 Circle runner
-Line player
 Driver water polo
-Hole set
 Utility
-Wing player
 Lead jammer
 Seeker
 Chaser
@@ -1132,39 +1009,24 @@ Handler ultimate
 Cutter
 Ruckman | ruck
 Ruck rover
-Full-forward
-Centre half-forward
 Half-forward flank
 Forward pocket
 Full-back flank
-Back pocket
-Centre half-back
 Half-back flank
-Key forward
 Key defender
 Tagger
-Tall forward
 Interchange player
 Hurler
-Corner forward
-Half forward
 Midfield
 Bow
 Stern
-Three seat
-Seven seat
-Engine room
 Lead curler
 Second curler
-Driver
 Navigator
-Co-driver
 Pit crew
 Domestique
 Sprinter
 Climber
-Team leader
-Lead-out man
 Rouleur
 Puncheur
 Water carrier
@@ -1178,11 +1040,125 @@ Flex
 Courtesy runner
 Utility man
 Super utility
+
+[Rare]
+Fullback
+Halfback
+Nose tackle | nose guard
+Defensive tackle
+Offensive tackle | tackle
+Long snapper
+Middle linebacker
+Outside linebacker
+Relief pitcher | reliever
+Starting pitcher | starter
+Setup man
+Pinch hitter
+Pinch runner
+Sweeper
+Defensive midfielder
+Attacking midfielder
+Playmaker
+Setter
+Outside hitter
+Middle blocker
+Opposite hitter | opposite | right side hitter
+Enforcer
+Goon
+Prop
+Hooker
+Scrum-half | scrum half
+Bowler
+Batsman | batter
+Fielder
+All-rounder
+Opening batsman | opener
+Goal shooter
+H-back
+Three-technique | 3 tech
+Five-technique
+Monster back
+Point forward
+False nine
+Target man
+Cover point
+Mid-on
+Mid-off
+Third man
+Fine leg
+Square leg
+Long on
+Long off
+Point player
+Lead
+Split end
+Rush end
+Star safety
+Box safety
+Long man
+Base coach
+Third base coach
+First base coach
+Manager
+Head coach
+Assistant coach
+General manager
+Line judge
+Back judge
+Side judge
+Field judge
+Official
+Small ball center
+3-and-D wing
+Floor general
+Point center
+Big man
+Post player
+Lead guard
+Centre-half
+Centre forward
+Inside forward
+Outside forward
+Wide forward
+Super-sub
+Two-way forward
+Back row
+Front row
+Second row
+Tight five
+Stand-off
+Inside back
+Outside back
+Short leg
+Long leg
+Extra cover
+Cover
+Deep cover
+Face-off man
+Line player
+Hole set
+Wing player
+Full-forward
+Centre half-forward
+Back pocket
+Centre half-back
+Key forward
+Tall forward
+Corner forward
+Half forward
+Three seat
+Seven seat
+Engine room
+Driver
+Co-driver
+Team leader
+Lead-out man
 Role player
 Reserve
 
-[Rare]
-Running back | rb
+[Schooler]
+Goalie | goalkeeper | keeper | goaltender | netminder
+Catcher
 Wide receiver | receiver | wr
 Tight end
 Linebacker
@@ -1199,7 +1175,6 @@ Third baseman | third base
 Outfielder
 Left field | left fielder
 Center field | center fielder
-Right field | right fielder
 Shooting guard
 Small forward
 Power forward
@@ -1209,10 +1184,35 @@ Defender | defenseman | defense
 Midfielder
 Winger | wing
 Captain
-
-[Schooler]
-Center | centre
-Striker
+Left tackle
+Right tackle
+Offensive guard
+Holder
+Free safety
+Strong safety
+Closer
+Center back
+Left back
+Right back
+Wing back | wingback
+Number 10
+Left wing
+Right wing
+Utility player
+Bench player | benchwarmer | sub | substitute
+Rookie
+Lock
+Number eight | number 8
+Fly-half | fly half
+Inside centre
+Outside centre
+Slip
+Point | point water polo
+Goal attack
+Goal defence | goal defense
+Wing attack
+Wing defence | wing defense
+Centre court
 
 [Too Clever]
 Twelfth man | 12th man
@@ -1226,10 +1226,12 @@ Owner
 
 [Plankton]
 Quarterback | qb
-Goalie | goalkeeper | keeper | goaltender | netminder
 Pitcher
-Catcher
 Point guard
+Center | centre
+Striker
+Running back | rb
+Right field | right fielder
 
 [Not accepted]
 Coach
@@ -1251,89 +1253,26 @@ prompt: Name a Harry Potter character
 Nearly Headless Nick | nearly-headless nick | sir nicholas
 
 [Deep Cut]
-Argus Filch | filch
-Mrs. Norris
-Horace Slughorn | slughorn
-Quirinus Quirrell | quirrell | professor quirrell
-Pomona Sprout | sprout | professor sprout
-Filius Flitwick | flitwick
 Sybill Trelawney | trelawney
-Rolanda Hooch | madam hooch
-Poppy Pomfrey | madam pomfrey
-Cornelius Fudge | fudge
 Kingsley Shacklebolt | kingsley
-Barty Crouch | barty crouch jr | crouch | barty crouch sr | barty crouch junior
 Igor Karkaroff | karkaroff
-Olympe Maxime | madame maxime
-Ollivander | garrick ollivander
-Seamus Finnigan | seamus
-Dean Thomas
-Lavender Brown | lavender
-Parvati Patil | parvati
-Padma Patil
-Oliver Wood
-Katie Bell
-Angelina Johnson
-Lee Jordan
-Vincent Crabbe | crabbe
-Gregory Goyle | goyle
-Pansy Parkinson | pansy
-Narcissa Malfoy | narcissa
-Rita Skeeter | skeeter
 Xenophilius Lovegood | xenophilius
-Aberforth Dumbledore | aberforth
-Gellert Grindelwald | grindelwald
-Griphook
-Winky
 Grawp
-Aragog
-Norbert
-Errol
 Pigwidgeon
-Trevor
-Fenrir Greyback | greyback
 Antonin Dolohov
-Yaxley
-Rufus Scrimgeour | scrimgeour
 Bathilda Bagshot
 Mundungus Fletcher | dung
-Ted Tonks
-Andromeda Tonks
-Teddy Lupin
-Victoire Weasley
-Albus Severus Potter
-James Sirius Potter
-Lily Luna Potter
-Scorpius Malfoy
-Rose Weasley
-Hugo Weasley
-Newt Scamander | newt
-Peeves
-The Fat Lady | fat lady
-The Bloody Baron | bloody baron
-The Grey Lady | grey lady | helena ravenclaw
-The Fat Friar | fat friar
-Professor Binns | binns
-Firenze
-Bane
 Godric Gryffindor | gryffindor
 Helga Hufflepuff | hufflepuff
 Rowena Ravenclaw | ravenclaw
 Salazar Slytherin | slytherin
-Ernie Macmillan | ernie
 Justin Finch-Fletchley
-Hannah Abbott
-Susan Bones
 Zacharias Smith
-Michael Corner
-Terry Boot
-Anthony Goldstein
 Marietta Edgecombe
 Romilda Vane
 Cormac McLaggen | mclaggen
 Colin Creevey | colin
 Dennis Creevey
-Marcus Flint
 Blaise Zabini
 Theodore Nott
 Millicent Bulstrode
@@ -1342,23 +1281,18 @@ Amos Diggory
 Ludo Bagman
 Bertha Jorkins
 Mafalda Hopkirk
-Amelia Bones
 Dirk Cresswell
 Mr. Borgin
-Madam Malkin
 Florean Fortescue
 Stan Shunpike
 Ernie Prang
 Arabella Figg | mrs figg
 Marge Dursley | aunt marge
-Frank Bryce
 Merope Gaunt
 Marvolo Gaunt
 Morfin Gaunt
 Hokey
 Hepzibah Smith
-Kendra Dumbledore
-Ariana Dumbledore
 Percival Dumbledore
 Ignotus Peverell
 Antioch Peverell
@@ -1388,7 +1322,6 @@ Phineas Nigellus Black | phineas nigellus
 Walburga Black
 Leta Lestrange
 Queenie Goldstein
-Tina Goldstein
 Jacob Kowalski
 Credence Barebone
 Abraxas Malfoy
@@ -1403,11 +1336,9 @@ Barnabas the Barmy
 Bathsheda Babbling
 Beedle the Bard
 Benjy Fenwick
-Bob Ogden
 Bogrod
 Broderick Bode
 Caractacus Burke
-Cassius Warrington
 Cedrella Black
 Circe
 Corban Yaxley
@@ -1416,7 +1347,6 @@ Dawlish
 Demelza Robins
 Dilys Derwent
 Dorcas Meadowes
-Eileen Prince
 Elfric the Eager
 Eloise Midgen
 Emeric the Evil
@@ -1424,11 +1354,9 @@ Euan Abercrombie
 Everard
 Fabian Prewett
 Gideon Prewett
-Fang
 Fridwulfa
 Gilbert Wimple
 Gornuk
-Graham Montague
 Gregorovitch
 Griselda Marchbanks
 Herbert Chorley
@@ -1437,7 +1365,6 @@ Ivanova
 Jimmy Peakes
 Jocunda Sykes
 Kennilworthy Whisp
-Leanne
 Madam Puddifoot
 Madam Rosmerta | rosmerta
 Magorian
@@ -1445,30 +1372,18 @@ Malcolm Baddock
 Marcus Belby
 Mary Cattermole
 Reginald Cattermole
-Mary Macdonald
-Mrs. Cole
-Muriel
-Natalie McDonald
 Norberta
 Olive Hornby
 Orla Quirke
-Penelope Clearwater
 Piers Polkiss
 Professor Grubbly-Plank | grubbly-plank
 Ragnok
-Roger Davies
-Ronan
 Sanguini
 Selwyn
 Silvanus Kettleburn
 Stubby Boardman
-Terence Higgs
-Tom Riddle Sr.
-Tom the barman
-Travers
 Uric the Oddball
 Vablatsky
-Vector | septima vector
 Wilhelmina Grubbly-Plank
 Willy Widdershins
 Zonko
@@ -1480,28 +1395,110 @@ Eulalie Hicks
 Yusuf Kama
 Gunnar Grimmson
 Seraphina Picquery
-Percival Graves
 Mary Lou Barebone
 Modesty Barebone
 Chastity Barebone
 Gnarlack
-Pickett
-Vogel
-Anton Vogel
-Liu Tao
 Vicência Santos
-Henrietta Fischer
 Delphini
 Bertie Bott
 Mopsus
-Morgana
-Merlin
 Paracelsus
-Bowman Wright
 Dunbar Oglethorpe
 The Weasley twins
 
 [Rare]
+Gilderoy Lockhart | lockhart
+Nymphadora Tonks | tonks
+Kreacher
+Buckbeak
+Crookshanks
+Nagini
+Argus Filch | filch
+Horace Slughorn | slughorn
+Quirinus Quirrell | quirrell | professor quirrell
+Pomona Sprout | sprout | professor sprout
+Filius Flitwick | flitwick
+Rolanda Hooch | madam hooch
+Poppy Pomfrey | madam pomfrey
+Cornelius Fudge | fudge
+Barty Crouch | barty crouch jr | crouch | barty crouch sr | barty crouch junior
+Olympe Maxime | madame maxime
+Ollivander | garrick ollivander
+Seamus Finnigan | seamus
+Parvati Patil | parvati
+Padma Patil
+Vincent Crabbe | crabbe
+Gregory Goyle | goyle
+Pansy Parkinson | pansy
+Narcissa Malfoy | narcissa
+Rita Skeeter | skeeter
+Aberforth Dumbledore | aberforth
+Gellert Grindelwald | grindelwald
+Griphook
+Winky
+Aragog
+Norbert
+Errol
+Fenrir Greyback | greyback
+Yaxley
+Rufus Scrimgeour | scrimgeour
+Ted Tonks
+Andromeda Tonks
+Teddy Lupin
+Victoire Weasley
+Albus Severus Potter
+Scorpius Malfoy
+Rose Weasley
+Hugo Weasley
+Newt Scamander | newt
+Peeves
+The Fat Friar | fat friar
+Professor Binns | binns
+Firenze
+Ernie Macmillan | ernie
+Hannah Abbott
+Susan Bones
+Michael Corner
+Terry Boot
+Anthony Goldstein
+Marcus Flint
+Amelia Bones
+Madam Malkin
+Frank Bryce
+Kendra Dumbledore
+Ariana Dumbledore
+Tina Goldstein
+Bob Ogden
+Cassius Warrington
+Eileen Prince
+Fang
+Graham Montague
+Leanne
+Mary Macdonald
+Mrs. Cole
+Muriel
+Natalie McDonald
+Penelope Clearwater
+Roger Davies
+Ronan
+Terence Higgs
+Tom Riddle Sr.
+Tom the barman
+Travers
+Vector | septima vector
+Percival Graves
+Pickett
+Vogel
+Anton Vogel
+Liu Tao
+Henrietta Fischer
+Morgana
+Merlin
+Bowman Wright
+
+[Schooler]
+Rubeus Hagrid | hagrid
 Sirius Black | sirius
 Ginny Weasley | ginny
 Neville Longbottom | neville
@@ -1523,25 +1520,28 @@ Charlie Weasley
 Dudley Dursley | dudley
 Vernon Dursley | uncle vernon
 Petunia Dursley | aunt petunia
-Gilderoy Lockhart | lockhart
 Cho Chang | cho
 Fleur Delacour | fleur
 Viktor Krum | krum
-Nymphadora Tonks | tonks
 Mad-Eye Moody | moody | alastor moody
-Kreacher
 Fawkes
-Buckbeak
-Crookshanks
-Nagini
 Fluffy
 Lily Potter | lily evans
 James Potter
-
-[Schooler]
-Severus Snape | snape
-Rubeus Hagrid | hagrid
-Draco Malfoy | draco | malfoy
+Mrs. Norris
+Dean Thomas
+Lavender Brown | lavender
+Oliver Wood
+Katie Bell
+Angelina Johnson
+Lee Jordan
+Trevor
+James Sirius Potter
+Lily Luna Potter
+The Fat Lady | fat lady
+The Bloody Baron | bloody baron
+The Grey Lady | grey lady | helena ravenclaw
+Bane
 
 [Too Clever]
 Hedwig
@@ -1554,6 +1554,8 @@ Hermione Granger | hermione
 Ron Weasley | ron | ronald weasley
 Albus Dumbledore | dumbledore | albus
 Lord Voldemort | voldemort | tom riddle | he who must not be named | you-know-who
+Severus Snape | snape
+Draco Malfoy | draco | malfoy
 
 [Not accepted]
 Gandalf
@@ -1581,35 +1583,10 @@ note: The spaces on the standard US (Atlantic City) and UK (London) boards, the 
 Marvin Gardens | marvin garden
 
 [Deep Cut]
-Mediterranean Avenue | mediterranean
 Baltic Avenue | baltic
 Oriental Avenue | oriental
-Vermont Avenue | vermont
-Connecticut Avenue | connecticut
-St. Charles Place | st charles place | saint charles place
-States Avenue
-Virginia Avenue
-St. James Place | st james place | saint james place
-Tennessee Avenue | tennessee
-New York Avenue
-Kentucky Avenue | kentucky
-Indiana Avenue | indiana
-Illinois Avenue | illinois
-Atlantic Avenue | atlantic
 Ventnor Avenue | ventnor
-Pacific Avenue | pacific
-North Carolina Avenue | north carolina
-Pennsylvania Avenue
-Reading Railroad | reading
-Pennsylvania Railroad
-Electric Company
-Water Works | waterworks
-Income Tax
-Luxury Tax
-Title deed | deed | property card
-Banker | bank
 Rich Uncle Pennybags | mr monopoly | uncle pennybags | mr. monopoly
-Cat
 Old Kent Road
 Whitechapel Road | whitechapel
 King's Cross Station | kings cross station | kings cross
@@ -1650,30 +1627,57 @@ Short Line | short line railroad
 B&O Railroad | b and o railroad | b&o | baltimore and ohio railroad
 
 [Rare]
-Park Place
+Battleship | ship
+Scottie dog | dog | scotty dog
+Mediterranean Avenue | mediterranean
+Vermont Avenue | vermont
+Connecticut Avenue | connecticut
+St. Charles Place | st charles place | saint charles place
+States Avenue
+Virginia Avenue
+St. James Place | st james place | saint james place
+Tennessee Avenue | tennessee
+New York Avenue
+Kentucky Avenue | kentucky
+Indiana Avenue | indiana
+Illinois Avenue | illinois
+Atlantic Avenue | atlantic
+Pacific Avenue | pacific
+North Carolina Avenue | north carolina
+Pennsylvania Avenue
+Reading Railroad | reading
+Pennsylvania Railroad
+Electric Company
+Income Tax
+Luxury Tax
+Title deed | deed | property card
+Banker | bank
+Cat
+
+[Schooler]
+Boardwalk
 Free Parking
 Community Chest
-Chance
 Just Visiting
 Go to Jail
-Battleship | ship
 Top hat | hat
 Boot | shoe
-Scottie dog | dog | scotty dog
 Race car | car | racecar
 Houses | house | green house
 Hotels | hotel | red hotel
 Get Out of Jail Free card | get out of jail free
 Railroad | railroads
+Water Works | waterworks
 
 [Too Clever]
 Dice | die
 Money | monopoly money | cash
 
 [Plankton]
-Boardwalk
 Go
 Jail
+Park Place
+Chance
 
 [Not accepted]
 Wall Street
@@ -1695,99 +1699,22 @@ prompt: Name a type of rock or mineral
 Pumice
 
 [Deep Cut]
-Gneiss
-Schist
-Quartzite
-Conglomerate
-Breccia
-Dolomite
-Travertine
-Tuff
-Scoria
-Andesite
-Rhyolite
-Diorite
-Gabbro
-Peridotite
-Soapstone | steatite
-Serpentine
-Calcite
-Fluorite
-Apatite
-Corundum
-Hematite
-Magnetite
-Malachite
-Azurite
-Galena
-Bauxite
-Cinnabar
-Sulfur
-Asbestos
-Beryl
-Garnet
-Tourmaline
-Agate
-Jasper
-Chert
-Onyx
-Turquoise
-Lapis lazuli | lapis
-Moonstone
-Olivine
-Hornblende
-Kaolinite | kaolin | china clay
-Borax
-Lignite
-Anthracite
-Bitumen
-Igneous rock | igneous
-Sedimentary rock | sedimentary
-Metamorphic rock | metamorphic
-Pegmatite
-Porphyry
 Komatiite
-Kimberlite
 Phyllite
 Migmatite
 Eclogite
-Amphibolite
 Hornfels
-Greywacke | graywacke
 Arkose
-Siltstone
-Mudstone
-Claystone
-Marl
-Coquina
-Oolite
-Evaporite
-Ironstone
-Banded iron formation
 Tillite
 Ignimbrite
-Pyroclastic rock
-Perlite
-Vermiculite
-Zeolite
-Chlorite
-Muscovite
-Biotite
 Orthoclase
-Plagioclase
-Labradorite
-Sodalite
 Lazurite
 Rhodochrosite
-Rhodonite
 Smithsonite
-Sphalerite
-Chalcopyrite
 Bornite
 Covellite
 Cuprite
 Chalcocite
-Cassiterite
 Wolframite
 Scheelite
 Molybdenite
@@ -1796,30 +1723,17 @@ Realgar
 Orpiment
 Arsenopyrite
 Pentlandite
-Chromite
-Ilmenite
-Rutile
-Zircon
-Monazite
 Uraninite | pitchblende
 Carnotite
-Celestine | celestite
-Barite
-Anhydrite
-Aragonite
 Siderite
 Spodumene
 Lepidolite
 Petalite
 Staurolite
-Kyanite
 Sillimanite
 Andalusite
 Cordierite
-Epidote
 Vesuvianite
-Prehnite
-Chrysotile
 Hemimorphite
 Wulfenite
 Vanadinite
@@ -1832,14 +1746,10 @@ Blueschist
 Boninite
 Carbonatite
 Charnockite
-Dacite
-Diabase | dolerite
 Dunite
 Felsite
-Granodiorite
 Granulite
 Greenschist
-Greenstone
 Harzburgite
 Hornblendite
 Ijolite
@@ -1855,64 +1765,35 @@ Phonolite
 Picrite
 Pyroxenite
 Quartz monzonite
-Serpentinite
 Skarn
-Syenite
 Tachylyte
 Tephrite
 Tonalite
-Trachyte
 Troctolite
 Websterite
 Whiteschist
-Agglomerate
-Volcanic ash
-Volcanic bomb
-Lapilli
 Reticulite
-Pele's hair
-Pele's tears
 Tektite
 Fulgurite
 Moldavite
 Impactite
 Suevite
-Shocked quartz
-Loess
-Laterite
-Caliche
 Duricrust
-Flagstone
-Bluestone
-Brownstone
-Fieldstone
-Cobblestone
 Gritstone
-Millstone grit
-Greensand
 Glauconite
 Phosphorite
-Diatomite
 Radiolarite
 Jaspilite
 Novaculite
 Lydite
-Chalcedony
-Opal
 Septarian nodule
-Concretion
-Stalactite
-Stalagmite
 Flowstone
 Dripstone
-Tufa
 Speleothem
 Sylvite
 Carnallite
 Kainite
 Polyhalite
-Trona
-Natron
 Nitratine
 Ulexite
 Colemanite
@@ -1922,11 +1803,8 @@ Epsomite
 Mirabilite
 Thenardite
 Glauberite
-Alum
 Alunite
 Jarosite
-Goethite
-Limonite
 Lepidocrocite
 Pyrolusite
 Psilomelane
@@ -1942,16 +1820,10 @@ Descloizite
 Hydrozincite
 Aurichalcite
 Rosasite
-Chrysocolla
 Atacamite
 Brochantite
 Linarite
 Tenorite
-Native copper
-Native silver
-Native gold
-Native sulfur
-Native bismuth
 Bismuthinite
 Acanthite
 Argentite
@@ -1967,16 +1839,11 @@ Nickeline
 Millerite
 Garnierite
 Pyrrhotite
-Marcasite
 Troilite
-Calomel
-Platinum nugget
 Sperrylite
 Osmiridium
 Iridosmine
 Columbite
-Tantalite
-Coltan
 Pyrochlore
 Euxenite
 Samarskite
@@ -1991,32 +1858,21 @@ Uranophane
 Coffinite
 Brannerite
 Baddeleyite
-Perovskite
-Titanite
-Anatase
 Brookite
-Spinel
 Hercynite
 Gahnite
 Chrysoberyl
 Taaffeite
-Emery
 Diaspore
 Gibbsite
 Boehmite
 Brucite
 Periclase
-Magnesite
 Ankerite
 Witherite
 Strontianite
 Vaterite
-Desert rose
-Satin spar
-Alabaster
 Baryte
-Fluorspar
-Blue John
 Cryolite
 Variscite
 Wavellite
@@ -2034,27 +1890,21 @@ Chloritoid
 Datolite
 Clinozoisite
 Zoisite
-Tanzanite
 Axinite
-Aquamarine
-Morganite
 Heliodor
 Goshenite
 Elbaite
 Dravite
 Benitoite
 Augite
-Diopside
 Enstatite
 Hypersthene
-Jadeite
 Aegirine
 Wollastonite
 Pectolite
 Larimar
 Actinolite
 Tremolite
-Nephrite
 Glaucophane
 Riebeckite
 Crocidolite
@@ -2066,11 +1916,6 @@ Pyrophyllite
 Antigorite
 Lizardite
 Illite
-Montmorillonite
-Bentonite
-Smectite
-Fuller's earth
-Albite
 Anorthite
 Oligoclase
 Andesine
@@ -2078,9 +1923,7 @@ Bytownite
 Microcline
 Amazonite
 Sanidine
-Sunstone
 Leucite
-Nepheline
 Hauyne
 Nosean
 Cancrinite
@@ -2091,7 +1934,135 @@ Heulandite
 Chabazite
 Analcime
 Apophyllite
-Rock crystal
+Tridymite
+Cristobalite
+Coesite
+Stishovite
+Lechatelierite
+Lonsdaleite
+Norite
+Forsterite
+Schorl
+Kunzite
+
+[Rare]
+Breccia
+Scoria
+Rhyolite
+Diorite
+Gabbro
+Peridotite
+Corundum
+Azurite
+Hornblende
+Kaolinite | kaolin | china clay
+Pegmatite
+Porphyry
+Kimberlite
+Amphibolite
+Greywacke | graywacke
+Siltstone
+Mudstone
+Claystone
+Marl
+Coquina
+Oolite
+Evaporite
+Ironstone
+Banded iron formation
+Pyroclastic rock
+Perlite
+Vermiculite
+Zeolite
+Chlorite
+Muscovite
+Biotite
+Plagioclase
+Labradorite
+Sodalite
+Rhodonite
+Sphalerite
+Chalcopyrite
+Cassiterite
+Chromite
+Ilmenite
+Rutile
+Zircon
+Monazite
+Celestine | celestite
+Barite
+Anhydrite
+Aragonite
+Kyanite
+Epidote
+Prehnite
+Chrysotile
+Dacite
+Diabase | dolerite
+Granodiorite
+Greenstone
+Serpentinite
+Syenite
+Trachyte
+Agglomerate
+Volcanic ash
+Volcanic bomb
+Lapilli
+Pele's hair
+Pele's tears
+Shocked quartz
+Loess
+Laterite
+Caliche
+Flagstone
+Bluestone
+Brownstone
+Fieldstone
+Cobblestone
+Millstone grit
+Greensand
+Diatomite
+Chalcedony
+Opal
+Concretion
+Stalactite
+Stalagmite
+Tufa
+Trona
+Natron
+Alum
+Goethite
+Limonite
+Chrysocolla
+Native sulfur
+Native bismuth
+Marcasite
+Calomel
+Platinum nugget
+Tantalite
+Coltan
+Perovskite
+Titanite
+Anatase
+Spinel
+Emery
+Magnesite
+Satin spar
+Alabaster
+Fluorspar
+Tanzanite
+Aquamarine
+Morganite
+Diopside
+Jadeite
+Nephrite
+Montmorillonite
+Bentonite
+Smectite
+Fuller's earth
+Albite
+Sunstone
+Nepheline
 Smoky quartz
 Rose quartz
 Milky quartz
@@ -2099,33 +2070,22 @@ Tiger's eye
 Aventurine
 Carnelian
 Sard
-Tridymite
-Cristobalite
-Coesite
-Stishovite
-Lechatelierite
 Moissanite
-Lonsdaleite
 Peat
 Oil shale
 Tar sand | oil sand
 Asphalt
 Copal
 Petoskey stone
-Norite
-Forsterite
 Iceland spar
 Selenite
-Schorl
-Kunzite
 Bloodstone
 Pyroxene
 Amphibole
-Sand
 Boulder
 Bedrock
 
-[Rare]
+[Schooler]
 Obsidian
 Basalt
 Slate
@@ -2136,7 +2096,6 @@ Gypsum
 Talc
 Iron
 Copper
-Silver
 Mica
 Feldspar
 Lava rock | lava
@@ -2150,9 +2109,52 @@ Clay
 Graphite
 Jade
 Topaz
-
-[Schooler]
-Gold
+Gneiss
+Schist
+Quartzite
+Conglomerate
+Dolomite
+Travertine
+Tuff
+Andesite
+Soapstone | steatite
+Serpentine
+Calcite
+Fluorite
+Apatite
+Hematite
+Magnetite
+Malachite
+Galena
+Bauxite
+Cinnabar
+Sulfur
+Asbestos
+Beryl
+Garnet
+Tourmaline
+Agate
+Jasper
+Chert
+Onyx
+Turquoise
+Lapis lazuli | lapis
+Moonstone
+Olivine
+Borax
+Lignite
+Anthracite
+Bitumen
+Igneous rock | igneous
+Sedimentary rock | sedimentary
+Metamorphic rock | metamorphic
+Native copper
+Native silver
+Native gold
+Desert rose
+Blue John
+Rock crystal
+Sand
 
 [Too Clever]
 Meteorite
@@ -2172,6 +2174,8 @@ Marble
 Quartz
 Limestone
 Sandstone
+Gold
+Silver
 
 [Not accepted]
 Rock and roll
@@ -2192,131 +2196,47 @@ prompt: Name an airline
 Hooters Air | hooters
 
 [Deep Cut]
-Qatar Airways | qatar
-Etihad
-Turkish Airlines | turkish
-Cathay Pacific | cathay
-Japan Airlines | jal
-ANA | all nippon airways
-Korean Air
-Asiana
-EVA Air | eva
-China Airlines
-Air China
-China Eastern
-China Southern
-Thai Airways | thai
-Malaysia Airlines
-Garuda Indonesia | garuda
-Philippine Airlines
-Vietnam Airlines
-Air India
-IndiGo
-Air New Zealand
-Virgin Australia
-Jetstar
-LATAM
-Avianca
-Copa | copa airlines
 Volaris
 Interjet
-Aer Lingus
-Iberia
-Alitalia | ita airways | ita
-Swiss | swiss international air lines
-Austrian Airlines
-Brussels Airlines
-SAS | scandinavian airlines
-Finnair
 Icelandair
-Norwegian | norwegian air
-TAP Air Portugal | tap
-LOT Polish Airlines | lot
-Aeroflot
-El Al
-Saudia
-Royal Jordanian
 EgyptAir
-Ethiopian Airlines | ethiopian
-Kenya Airways
-South African Airways
-Royal Air Maroc
-Wizz Air | wizz
 Vueling
 Eurowings
-Condor
-Breeze | breeze airways
 Avelo
-Porter
-Flair
-Mesa
-SkyWest
-Republic Airways
-Horizon Air
-Envoy
-Endeavor
-PSA Airlines
-Piedmont
-Cape Air
 Mokulele
-Silver Airways
-Contour
-Southern Airways Express
-Continental | continental airlines
-Northwest | northwest airlines
-US Airways | usairways
-America West
 AirTran
-Eastern Air Lines | eastern
 Braniff
-People Express | peoplexpress
-Western Airlines
 Ozark
-Virgin America
 ATA
-Midwest Airlines
-Independence Air
 Swissair
 Sabena
 BOAC
 Ansett
 Kingfisher Airlines | kingfisher
-Jet Airways
-Air Berlin
-Monarch
 Flybe
-Thomas Cook
 Germanwings
-Wow Air
 Primera
 Transaero
 Aloha Airlines | aloha
-Go Air
 Air Seychelles
 Air Mauritius
 Air Tahiti Nui
 Fiji Airways
 Air Niugini
 Aerolineas Argentinas
-Sky Airline
 JetSMART
 Gol
 Azul
 Bahamasair
-Caribbean Airlines
 Cayman Airways
 LIAT
 Air Greenland
-Atlantic Airways
 Loganair
 Aurigny
 Binter
-Air Europa
 Volotea
 Transavia
 airBaltic
-Croatia Airlines
-Air Serbia
 Aegean
 Air Astana
 Uzbekistan Airways
@@ -2329,36 +2249,27 @@ Cebu Pacific
 AirAsia
 Scoot
 Tigerair
-Peach
-Spring Airlines
 Hainan Airlines
 Sichuan Airlines
 Starlux
 Air Busan
 Jeju Air
-Air Arabia
 flydubai
-Gulf Air
 Oman Air
 Kuwait Airways
-Middle East Airlines | mea
 Royal Brunei
 SriLankan Airlines | srilankan
 PIA | pakistan international airlines
-Air Tanzania
 RwandAir
 Air Namibia
-Air Zimbabwe
 Air Botswana
 Air Algérie
 Tunisair
 Nouvelair
 Arik Air
-Air Peace
 Air Côte d'Ivoire
 ASKY
 Air Senegal
-Precision Air
 Fastjet
 Kulula
 Comair
@@ -2366,18 +2277,14 @@ Mango Airlines
 FlySafair
 Airlink
 Air Malawi
-Air Uganda
-Uganda Airlines
 Air Djibouti
 Yemenia
-Iran Air
 Mahan Air
 Ariana Afghan
 Azerbaijan Airlines | azal
 Georgian Airways
 Armenia Airways
 Belavia
-Ukraine International Airlines
 S7 Airlines | s7
 Pobeda
 Ural Airlines
@@ -2385,12 +2292,8 @@ Rossiya
 UTair
 Air Moldova
 Tarom
-Bulgaria Air
-Czech Airlines
 Smartwings
 Malév
-Olympic Air | olympic airways
-Sky Express
 Cyprus Airways
 Air Malta
 KM Malta
@@ -2400,38 +2303,27 @@ Neos
 Meridiana
 Wideroe | widerøe
 Braathens
-Sun Express
 Pegasus Airlines | pegasus
 AJet
 Corendon
 TUI
 Jet2 | jet2.com
-Virgin Express
-Blue Air
 Aer Arann
 Stobart Air
 CityJet
 BA CityFlyer
-Eastern Airways
-Brit Air
-HOP!
 Air Corsica
 Corsair
-French Bee
 La Compagnie
 Air Austral
 Air Caraïbes
 Air Calin
 Air Vanuatu
-Solomon Airlines
 Air Kiribati
 Nauru Airlines
-Air Marshall Islands
 Samoa Airways
 Air Rarotonga
 Air Tahiti
-Island Air
-Southern Airways
 Viva Aerobus
 Magnicharters
 Aeromar
@@ -2442,7 +2334,6 @@ Winair
 Surinam Airways
 Trans Guyana
 Conviasa
-Laser Airlines
 Avior
 Boliviana de Aviación | boa
 Amaszonas
@@ -2463,90 +2354,44 @@ EasyFly
 TACA
 Mexicana
 Aerocalifornia
-Canadian Airlines
-Canadian Pacific
-CP Air
 Wardair
 Swoop
 Lynx Air
 Canada 3000
-Zoom Airlines
 Air Transat | transat
 Sunwing
-Air North
-Canadian North
-Calm Air
-Harbour Air
-Pacific Coastal
-PAL Airlines
 Air Inuit
-First Air
 Northern Thunderbird
 Kenmore Air
 Ravn Alaska
 PenAir
-Grant Aviation
-Era Aviation
-Wright Air Service
 Reeve Aleutian
-Air Wisconsin
 GoJet
-Trans States
 ExpressJet
 Pinnacle
 Colgan Air
 Mesaba
-Atlantic Southeast | asa
 Chautauqua
-Shuttle America
-Compass Airlines
-Peninsula Airways
-Great Lakes Airlines
 Allegheny Airlines
 Mohawk Airlines
 Piedmont Airlines
-Capitol Air
-Tower Air
 Kiwi International
 Vanguard Airlines
-Western Pacific
-Air Florida
-National Airlines
-Northeast Airlines
 Hughes Airwest
-Air California | air cal
-Pacific Southwest Airlines
-Texas International
 Reno Air
-Midway Airlines
-Legend Airlines
-Pro Air
-Song
-Ted
-Express One
-Sun Pacific
 SeaPort Airlines
 Boutique Air
 JSX
-Surf Air
-Blade
-Wheels Up
 NetJets
 Flexjet
 VistaJet
 FedEx | fedex express
-UPS Airlines
 DHL Aviation | dhl
-Atlas Air
 Kalitta Air
-Polar Air Cargo
 Cargolux
 AeroLogic
-Air Hong Kong
 Cathay Dragon | dragonair
 HK Express
-Hong Kong Airlines
-Greater Bay Airlines
 Air Macau
 Juneyao Airlines
 Shenzhen Airlines
@@ -2554,98 +2399,206 @@ Xiamen Airlines
 Shandong Airlines
 Tibet Airlines
 Loong Air
-Lucky Air
-West Air
-9 Air
-China United Airlines
-Shanghai Airlines
 Tianjin Airlines
-Capital Airlines
 Mandarin Airlines
-Uni Air
 Tigerair Taiwan
 T'way Air | tway
 Eastar Jet
-Jin Air
-Air Seoul
 Air Premia
 Zipair
 Skymark
-Air Do
 Solaseed Air
-Star Flyer
 Fuji Dream Airlines
 Ibex Airlines
-J-Air
 Japan Transocean Air
-Vanilla Air
 Jetstar Japan
 Jetstar Asia
 VietJet Air | vietjet
 Bamboo Airways
-Pacific Airlines
-Thai Lion Air
-Lion Air
 Batik Air
 Citilink
 Sriwijaya Air
-Wings Air
 Firefly
 Malindo Air
 MASwings
 Philippine AirAsia
 Cebgo
-PAL Express
 SilkAir
 Tigerair Singapore
 Bangkok Airways
 Nok Air
-Thai Smile
 Thai VietJet
-Myanmar National Airlines
 Air KBZ
 Cambodia Angkor Air
 Lanmei Airlines
 Royal Bhutan Airlines
-Buddha Air
 Yeti Airlines
-Nepal Airlines
 US-Bangla Airlines
-Air India Express
 Vistara
 SpiceJet
 Akasa Air
-Go First
-Alliance Air
 Air Deccan
 Paramount Airways
 Jet Lite
 FitsAir
 Maldivian
 Qantaslink | qantas link
-Virgin Blue
 Tigerair Australia
-Rex Airlines | regional express
 Bonza
 Skywest Australia
+Air Chathams
+Jetstar New Zealand
+
+[Rare]
+Aeromexico | aeroméxico
+Etihad
+Cathay Pacific | cathay
+Asiana
+Garuda Indonesia | garuda
+Jetstar
+LATAM
+Avianca
+Copa | copa airlines
+Aer Lingus
+Iberia
+Alitalia | ita airways | ita
+Finnair
+Aeroflot
+Saudia
+Royal Jordanian
+Royal Air Maroc
+Wizz Air | wizz
+Condor
+SkyWest
+Piedmont
+Continental | continental airlines
+Northwest | northwest airlines
+US Airways | usairways
+Eastern Air Lines | eastern
+People Express | peoplexpress
+Western Airlines
+Virgin America
+Midwest Airlines
+Independence Air
+Jet Airways
+Air Berlin
+Monarch
+Thomas Cook
+Wow Air
+Sky Airline
+Caribbean Airlines
+Atlantic Airways
+Air Europa
+Croatia Airlines
+Air Serbia
+Peach
+Spring Airlines
+Air Arabia
+Gulf Air
+Middle East Airlines | mea
+Air Tanzania
+Air Zimbabwe
+Precision Air
+Air Uganda
+Uganda Airlines
+Iran Air
+Ukraine International Airlines
+Bulgaria Air
+Czech Airlines
+Olympic Air | olympic airways
+Sky Express
+Sun Express
+Virgin Express
+Eastern Airways
+Brit Air
+HOP!
+French Bee
+Solomon Airlines
+Air Marshall Islands
+Southern Airways
+Laser Airlines
+Canadian Airlines
+Canadian Pacific
+CP Air
+Zoom Airlines
+Canadian North
+Calm Air
+Harbour Air
+Pacific Coastal
+PAL Airlines
+Grant Aviation
+Era Aviation
+Wright Air Service
+Air Wisconsin
+Trans States
+Atlantic Southeast | asa
+Shuttle America
+Compass Airlines
+Peninsula Airways
+Great Lakes Airlines
+Capitol Air
+Tower Air
+Western Pacific
+Air Florida
+National Airlines
+Northeast Airlines
+Air California | air cal
+Pacific Southwest Airlines
+Texas International
+Midway Airlines
+Legend Airlines
+Pro Air
+Ted
+Express One
+Sun Pacific
+Surf Air
+Blade
+Wheels Up
+UPS Airlines
+Atlas Air
+Polar Air Cargo
+Air Hong Kong
+Hong Kong Airlines
+Greater Bay Airlines
+Lucky Air
+China United Airlines
+Shanghai Airlines
+Capital Airlines
+Uni Air
+Jin Air
+Air Seoul
+Star Flyer
+J-Air
+Vanilla Air
+Pacific Airlines
+Thai Lion Air
+Lion Air
+Wings Air
+PAL Express
+Thai Smile
+Myanmar National Airlines
+Buddha Air
+Nepal Airlines
+Air India Express
+Alliance Air
+Virgin Blue
+Rex Airlines | regional express
 Alliance Airlines
 Air North Australia
 Sounds Air
-Air Chathams
-Jetstar New Zealand
 Air Nelson
 Mount Cook Airline
 Origin Pacific
 Fiji Link
 Air Pacific
 
-[Rare]
+[Schooler]
+JetBlue | jet blue | jetblue airways
 Alaska Airlines | alaska
 Frontier | frontier airlines
 Allegiant | allegiant air
 Hawaiian Airlines | hawaiian
 British Airways | ba
-Air Canada
 Lufthansa
 Emirates
 Qantas
@@ -2655,12 +2608,61 @@ Virgin Atlantic | virgin
 Ryanair
 easyJet | easy jet
 Singapore Airlines
-Sun Country | sun country airlines
 WestJet
-Aeromexico | aeroméxico
-
-[Schooler]
-Spirit | spirit airlines
+Qatar Airways | qatar
+Turkish Airlines | turkish
+Japan Airlines | jal
+ANA | all nippon airways
+Korean Air
+EVA Air | eva
+China Airlines
+Air China
+China Eastern
+China Southern
+Thai Airways | thai
+Malaysia Airlines
+Philippine Airlines
+Vietnam Airlines
+Air India
+IndiGo
+Air New Zealand
+Virgin Australia
+Swiss | swiss international air lines
+Austrian Airlines
+Brussels Airlines
+SAS | scandinavian airlines
+Norwegian | norwegian air
+TAP Air Portugal | tap
+LOT Polish Airlines | lot
+El Al
+Ethiopian Airlines | ethiopian
+Kenya Airways
+South African Airways
+Breeze | breeze airways
+Porter
+Flair
+Mesa
+Republic Airways
+Horizon Air
+Envoy
+Endeavor
+PSA Airlines
+Cape Air
+Silver Airways
+Contour
+Southern Airways Express
+America West
+Go Air
+Air Peace
+Blue Air
+Island Air
+Air North
+First Air
+Song
+West Air
+9 Air
+Air Do
+Go First
 
 [Too Clever]
 TWA | trans world airlines
@@ -2671,7 +2673,9 @@ Delta | delta airlines | delta air lines
 American Airlines | american
 United | united airlines
 Southwest | southwest airlines
-JetBlue | jet blue | jetblue airways
+Spirit | spirit airlines
+Air Canada
+Sun Country | sun country airlines
 
 [Not accepted]
 Oceanic Airlines
@@ -2700,8 +2704,6 @@ note: Characters from the Warner Bros. Looney Tunes and Merrie Melodies cartoons
 Gossamer
 
 [Deep Cut]
-Petunia Pig | petunia
-Granny
 Hector the Bulldog | hector
 Henery Hawk | henry hawk
 Barnyard Dawg | barnyard dog
@@ -2709,59 +2711,63 @@ Miss Prissy
 Sylvester Jr. | sylvester junior
 Hippety Hopper
 Penelope Pussycat | penelope
-Ralph Wolf
 Sam Sheepdog
 Marc Antony | marc antony and pussyfoot
 Pussyfoot
-Charlie Dog
 Beaky Buzzard
-Cecil Turtle
-Witch Hazel
 Rocky and Mugsy | rocky | mugsy
 Bosko
 Goofy Gophers | mac and tosh
-Claude Cat
 Hubie and Bertie | hubie | bertie
 Pete Puma
 Nasty Canasta
 Count Bloodcount
 Slowpoke Rodriguez
-K-9 | k9
 Instant Martians
-She-Devil
 Blacque Jacque Shellacque
 Toro the Bull
-Cool Cat
-Merlin the Magic Mouse
 Egghead
 Inki
 Sniffles
-Conrad the Cat
 The Crusher
 Gabby Goat
 Hugo the Abominable Snowman | hugo
 Babbit and Catstello
 Willoughby
-Ralph Phillips
 Tina Russo Duck | tina russo
-Duck Dodgers
 Cadet | space cadet
+
+[Rare]
+Foghorn Leghorn | foghorn
+Pepé Le Pew | pepe le pew | pepe
+Petunia Pig | petunia
+Granny
+Ralph Wolf
+Charlie Dog
+Cecil Turtle
+Witch Hazel
+Claude Cat
+K-9 | k9
+She-Devil
+Cool Cat
+Merlin the Magic Mouse
+Conrad the Cat
+Ralph Phillips
+Duck Dodgers
 Three Bears | papa bear | mama bear | junyer bear
 Honey Bunny
 Buddy
 
-[Rare]
+[Schooler]
+Daffy Duck | daffy
+Tweety | tweety bird | tweety pie
+Porky Pig | porky
+Wile E. Coyote | wile e coyote | coyote | wile coyote
+Tasmanian Devil | taz
 Elmer Fudd | elmer
 Yosemite Sam
 Marvin the Martian | marvin
-Foghorn Leghorn | foghorn
-Pepé Le Pew | pepe le pew | pepe
 Speedy Gonzales | speedy
-
-[Schooler]
-Road Runner | roadrunner
-Wile E. Coyote | wile e coyote | coyote | wile coyote
-Tasmanian Devil | taz
 
 [Too Clever]
 Michigan J. Frog | michigan j frog | michigan frog
@@ -2769,10 +2775,8 @@ Lola Bunny | lola
 
 [Plankton]
 Bugs Bunny | bugs
-Daffy Duck | daffy
-Tweety | tweety bird | tweety pie
 Sylvester | sylvester the cat
-Porky Pig | porky
+Road Runner | roadrunner
 
 [Not accepted]
 Mickey Mouse
@@ -2795,3 +2799,4 @@ Betty Boop
 Felix the Cat
 Michael Jordan
 Monstars
+

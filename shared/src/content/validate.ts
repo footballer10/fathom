@@ -59,10 +59,10 @@ const VALID_TIERS = new Set<number>(TIERS.map((t) => t.points));
 export function tierTargets(n: number): Record<TierPoints, [number, number]> {
   return {
     100: [1, 1],
-    10: [3, 5],
+    10: [3, 7],
     15: [2, 5],
-    30: [0, Math.ceil(n * 0.25)],
-    60: [Math.floor(n * 0.1), Math.ceil(n * 0.4)],
+    30: [Math.floor(n * 0.1), Math.ceil(n * 0.2)],
+    60: [Math.floor(n * 0.22), Math.ceil(n * 0.38)],
     85: [1, n],
   };
 }
