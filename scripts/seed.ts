@@ -4,7 +4,7 @@
  * Add --force to overwrite questions that already exist (normally they're skipped).
  *
  * Steps: compile content/seed/*.txt → validate → apply D1 migrations →
- * insert questions → write precompiled answer indexes to KV (qidx:<id>).
+ * insert questions → write precompiled answer indexes to KV (qidx2:<id>).
  */
 import { mkdirSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
@@ -53,7 +53,7 @@ for (const q of questions) {
       .map(sql)
       .join(", ")});`,
   );
-  kv.push({ key: `qidx:${id}`, value: JSON.stringify(buildIndex({ id, answers, nearMisses: q.nearMisses })) });
+  kv.push({ key: `qidx2:${id}`, value: JSON.stringify(buildIndex({ id, prompt: q.prompt, answers, nearMisses: q.nearMisses })) });
 }
 
 const tmp = join(WORKER_DIR, ".wrangler", "seed");

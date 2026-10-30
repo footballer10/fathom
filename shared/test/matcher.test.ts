@@ -318,3 +318,46 @@ describe("damerauLevenshtein", () => {
     expect(damerauLevenshtein("abcdefgh", "zyxwvuts", 2)).toBe(3);
   });
 });
+
+describe("the thing the prompt asks for is optional", () => {
+  const cheese = buildIndex({
+    id: "t-cheese",
+    prompt: "Name a type of cheese",
+    category: "food",
+    answers: [
+      { text: "Blue cheese", tier: 30 },
+      { text: "Cheddar", tier: 10 },
+      { text: "Cottage cheese", tier: 30 },
+      { text: "Goat cheese", aliases: ["chevre"], tier: 30 },
+      { text: "Brie", tier: 10 },
+    ],
+  });
+  const africa = buildIndex({
+    id: "t-africa",
+    prompt: "Name a country in Africa",
+    category: "geography",
+    answers: [
+      { text: "South Africa", tier: 10 },
+      { text: "Kenya", tier: 10 },
+    ],
+  });
+
+  it("accepts an answer without the prompt's noun ('blue' for Blue cheese)", () => {
+    for (const guess of ["blue", "Blue", "cottage", "goat"]) {
+      const r = matchGuess(cheese, guess);
+      expect(r.accepted, guess).toBe(true);
+      expect(r.corrected, guess).toBe(false);
+    }
+    expect(matchGuess(cheese, "blue").canonical).toBe("Blue cheese");
+  });
+
+  it("accepts an answer with the prompt's noun added ('cheddar cheese')", () => {
+    expect(matchGuess(cheese, "cheddar cheese").canonical).toBe("Cheddar");
+    expect(matchGuess(cheese, "brie cheese").canonical).toBe("Brie");
+  });
+
+  it("only drops the asked-for noun, never other words", () => {
+    expect(matchGuess(africa, "south").accepted).toBe(false);
+    expect(matchGuess(africa, "kenya country").canonical).toBe("Kenya");
+  });
+});
