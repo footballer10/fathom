@@ -1,0 +1,2927 @@
+// Re-tier of 2026-11-13-unlimited-1 to the new distribution; q0371 replaced (Rule #2). Import with --replace.
+
+# QUESTION
+id: q0365
+pool: unlimited
+category: geography
+prompt: Name a country whose name starts with A, B, C, or D
+note: UN members and observers by their common English names. Local names (Deutschland, Bharat) count as Too Clever. Continents and territories don't count.
+
+[One in a Krillion]
+Djibouti | djibuti | jibouti
+
+[Deep Cut]
+Andorra
+Antigua and Barbuda | antigua | antigua & barbuda
+Bahrain | bahrein
+Barbados
+Belize
+Benin
+Bhutan
+Bosnia and Herzegovina | bosnia | bosnia herzegovina | bosnia & herzegovina
+Botswana
+Brunei | brunei darussalam
+Burkina Faso | burkina
+Burundi
+Burma
+Central African Republic | car | central african rep
+Comoros | the comoros
+Republic of the Congo | congo | congo brazzaville | congo republic | republic of congo
+Democratic Republic of the Congo | dr congo | drc | congo kinshasa | democratic republic of congo | dem rep congo
+Aruba
+Curaçao | curacao
+
+[Rare]
+Angola
+Albania
+Armenia
+Azerbaijan | azerbaijan republic | azerbajan
+Bangladesh
+Bahamas | the bahamas
+Bolivia
+Bulgaria
+Belarus | belorussia | byelorussia
+Cambodia | kampuchea
+Cameroon | cameroun
+Costa Rica
+Croatia
+Czech Republic | czechia | czech
+Cyprus
+Dominican Republic | dominican rep
+Chad
+
+[Schooler]
+Argentina
+Chile
+Cuba
+Colombia | columbia
+Denmark
+Belgium
+Afghanistan
+Austria
+Algeria
+
+[Too Clever]
+Côte d'Ivoire | cote d'ivoire | cote divoire
+Cabo Verde | cape verde
+Dominica
+Deutschland
+Bharat
+
+[Plankton]
+Canada
+China | people's republic of china | prc
+Brazil | brasil
+Australia
+
+[Not accepted]
+America
+Africa
+Asia
+Antarctica
+Arctic
+Bermuda
+Dubai
+Czechoslovakia
+Ceylon
+Britain
+England
+Ivory Coast
+Austrailia
+
+# QUESTION
+id: q0366
+pool: unlimited
+category: geography
+prompt: Name a country where Spanish, French, or Portuguese is an official language
+note: Countries only, not territories (Puerto Rico, French Guiana, Quebec). Mali and Burkina Faso count even though they recently demoted French to a working language.
+
+[One in a Krillion]
+Equatorial Guinea | equitorial guinea
+
+[Deep Cut]
+Cape Verde | cabo verde
+Guinea-Bissau | guinea bissau
+São Tomé and Príncipe | sao tome and principe | sao tome | são tomé
+East Timor | timor-leste | timor leste | timor
+Burundi
+Democratic Republic of the Congo | dr congo | drc | congo kinshasa | democratic republic of congo
+Republic of the Congo | congo | congo brazzaville | republic of congo
+Gabon
+Chad
+Central African Republic | car
+Niger
+Mali
+Burkina Faso
+Guinea
+Togo
+Benin
+Comoros
+Djibouti
+Seychelles
+Vanuatu
+Mauritius
+
+[Rare]
+Uruguay
+Paraguay
+Guatemala
+Honduras
+El Salvador | salvador
+Nicaragua
+Costa Rica
+Panama
+Dominican Republic
+Angola
+Mozambique
+Luxembourg | luxemburg
+Monaco
+Senegal
+Madagascar
+Cameroon
+Ivory Coast | côte d'ivoire | cote d'ivoire | cote divoire
+Rwanda
+
+[Schooler]
+Argentina
+Colombia | columbia
+Peru
+Chile
+Cuba
+Haiti
+Venezuela
+Ecuador
+Bolivia
+
+[Too Clever]
+Canada
+Belgium
+Switzerland
+
+[Plankton]
+Spain | españa | espana
+Mexico | méxico
+France
+Brazil | brasil
+Portugal
+
+[Not accepted]
+Puerto Rico
+French Guiana
+Quebec
+Morocco
+Algeria
+Tunisia
+Lebanon
+Andorra
+Italy
+Philippines
+Belize
+United States
+Guyana
+Suriname
+
+# QUESTION
+id: q0367
+pool: unlimited
+category: jobs-people
+prompt: Name a job that involves working with animals
+note: Any paid job where animals (alive or extinct) are a main part of the work.
+
+[One in a Krillion]
+Snake milker | venom extractor | venom milker
+
+[Deep Cut]
+Herpetologist
+Ichthyologist
+Primatologist
+Mammalogist
+Animal behaviorist | ethologist | animal behaviourist
+Aquarist
+Falconer
+Farrier | blacksmith for horses
+Equestrian | horse rider
+Wildlife rehabilitator | wildlife rehabber
+Poultry farmer | chicken farmer
+Sheep shearer | shearer
+Trapper | fur trapper
+Safari guide | hunting guide | wildlife guide
+Animal handler | animal wrangler
+Mahout | elephant keeper
+Ranch hand | cowhand | wrangler | ranchhand
+Rodeo clown | bullfighter clown
+Fish farmer | aquaculturist
+Pet photographer | animal photographer
+Animal nutritionist
+Animal scientist
+Animal rescuer | animal rescue worker
+Dog musher | musher | sled dog racer
+Horse breeder
+Lab animal technician | animal lab technician
+Fishmonger
+Lobsterman | crabber | lobster fisherman
+Whale watching guide
+Dairy worker | milker
+Meatpacker | slaughterhouse worker
+Zoo curator | curator
+Aquarium worker
+Riding instructor | horse riding instructor
+Snake charmer
+Ecologist
+Dog show judge
+Dog handler | show handler
+Animal researcher
+Pet adoption counselor
+
+[Rare]
+Animal control officer | dog catcher | animal control
+Animal shelter worker | shelter worker
+Wildlife biologist
+Game warden | wildlife officer | fish and game warden
+Dairy farmer
+Breeder | dog breeder
+K-9 officer | k9 officer | police dog handler | k9 handler
+Dolphin trainer | marine mammal trainer
+Wildlife photographer
+Veterinary assistant | vet assistant
+Exterminator | pest control | pest controller
+Bull rider | rodeo rider | bronc rider
+Cowboy | cowgirl
+Zoologist
+Paleontologist
+Hunter
+Kennel worker | kennel attendant
+Pet store worker | pet shop owner | pet store owner
+Entomologist
+Ornithologist
+Biologist
+Taxidermist
+Stable hand | stablehand | groom | stable boy | stable girl
+Conservationist
+Herder | herdsman | goatherd | cowherd | swineherd | goat herder
+Matador | bullfighter
+
+[Schooler]
+Dog groomer | groomer | pet groomer
+Animal trainer | trainer
+Marine biologist
+Rancher
+Vet tech | veterinary technician | vet technician
+Park ranger | ranger
+Pet sitter | petsitter | dog sitter
+Dog trainer
+Horse trainer
+Jockey
+Shepherd | sheepherder | shepherdess
+Fisherman | fisher
+Butcher
+
+[Too Clever]
+Lion tamer
+Beekeeper | apiarist | bee keeper
+
+[Plankton]
+Veterinarian | vet | veterinary surgeon | vetrinarian
+Zookeeper | zoo keeper
+Dog walker
+Farmer
+
+[Not accepted]
+Pet owner
+Doctor
+Chef
+
+# QUESTION
+id: q0368
+pool: unlimited
+category: body-health
+prompt: Name a body part that comes in pairs
+note: Parts that come as a left and right pair (or an upper and lower pair, like lips). Fingers and toes come in fives, so they don't count.
+
+[One in a Krillion]
+Vocal cords | vocal folds | vocal chords
+
+[Deep Cut]
+Adrenal glands | adrenal gland | adrenals
+Fallopian tubes | fallopian tube
+Ureters | ureter
+Irises | iris
+Corneas | cornea
+Cochleas | cochlea
+Eye sockets | eye socket | orbits
+Nipples | nipple
+Ring fingers | ring finger
+Index fingers | index finger | pointer fingers | pointer finger
+Middle fingers | middle finger
+Pecs | pectorals
+Lats
+Deltoids | delts | deltoid
+Upper arms | upper arm
+Femurs | femur | thigh bones | thigh bone
+Tibias | tibia
+Fibulas | fibula
+Humerus | humeri | humeruses
+Radius | radii
+Ulnas | ulna
+Hip bones | hip bone | pelvic bones
+Cheekbones | cheekbone | zygomatic bones
+Brain hemispheres | hemispheres | cerebral hemispheres
+Salivary glands | parotid glands
+Mammary glands
+Arches | arch
+Achilles tendons | achilles tendon | achilles
+Bronchi | bronchus | bronchial tubes
+Sinuses | sinus
+Carotid arteries | carotid artery | carotids
+Jugular veins | jugular vein | jugulars
+Tear ducts | tear duct | lacrimal glands
+Ear canals | ear canal
+Soles | sole
+Insteps | instep
+Optic nerves | optic nerve
+Nasal passages | nasal passage
+
+[Rare]
+Shins | shin
+Thighs | thigh
+Palms | palm
+Armpits | armpit | underarms
+Collarbones | collarbone | clavicles | clavicle
+Kneecaps | kneecap | patellas | patella
+Earlobes | earlobe | ear lobes
+Temples | temple
+Biceps | bicep
+Hamstrings | hamstring
+Calves | calf
+Ribs | rib
+Pupils | pupil
+Tonsils | tonsil
+Breasts | breast | boobs
+Eyelashes | eyelash | lashes
+Ovaries | ovary
+Testicles | testicle | testes | balls
+Forearms | forearm
+Shoulder blades | shoulder blade | scapulas | scapula
+Big toes | big toe | great toes
+Pinkies | pinky | pinkie | little fingers
+Glutes | buttocks | butt cheeks | cheeks of the butt | gluteus maximus
+Triceps | tricep
+Quadriceps | quads | quad
+Retinas | retina
+Eardrums | eardrum | ear drum
+
+[Schooler]
+Feet | foot
+Knees | knee
+Elbows | elbow
+Shoulders | shoulder
+Lips | lip
+Eyebrows | eyebrow | brows
+Wrists | wrist
+Ankles | ankle
+Hips | hip
+Thumbs | thumb
+Cheeks | cheek
+Nostrils | nostril
+Heels | heel
+Eyelids | eyelid
+
+[Too Clever]
+Kidneys | kidney
+Lungs | lung
+
+[Plankton]
+Eyes | eye
+Ears | ear
+Hands | hand
+Arms | arm
+Legs | leg
+
+[Not accepted]
+Fingers
+Toes
+Teeth
+Nose
+Mouth
+Heart
+
+# QUESTION
+id: q0369
+pool: unlimited
+category: body-health
+prompt: Name an infectious disease (like the flu)
+note: Illnesses caused by viruses, bacteria, fungi or parasites that can spread.
+
+[One in a Krillion]
+Cat scratch fever | cat scratch disease | cat-scratch fever
+
+[Deep Cut]
+West Nile virus | west nile
+SARS
+MERS
+Mpox | monkeypox
+RSV | respiratory syncytial virus
+Rotavirus
+Hand, foot, and mouth disease | hand foot and mouth | hand foot mouth disease
+Listeria | listeriosis
+Botulism
+MRSA
+Anthrax
+Gonorrhea | the clap
+Syphilis
+Chlamydia
+HPV | human papillomavirus
+Scabies
+Giardia | giardiasis
+Toxoplasmosis
+Chagas disease | chagas
+Sleeping sickness | african sleeping sickness
+Rocky Mountain spotted fever
+Legionnaires' disease | legionnaires disease | legionella
+Valley fever
+Encephalitis
+Pinworms | pinworm
+Tapeworm | tapeworms
+Hookworm | hookworms
+Trichinosis
+Sepsis
+Croup
+Fifth disease
+Hantavirus
+Marburg virus | marburg
+Lassa fever
+Typhus
+Leptospirosis
+Cellulitis
+Tonsillitis
+Warts
+Elephantiasis | lymphatic filariasis
+River blindness
+Schistosomiasis
+Leishmaniasis
+Mad cow disease | creutzfeldt-jakob disease | cjd
+Impetigo
+Gangrene
+Pneumonic plague
+
+[Rare]
+Mono | mononucleosis | kissing disease
+Shingles
+Rubella | german measles
+Typhoid | typhoid fever
+Leprosy | hansen's disease
+Salmonella | salmonellosis
+E. coli | e coli
+Zika | zika virus
+Dengue | dengue fever
+Yellow fever
+Herpes | cold sores | cold sore
+Ear infection
+Stomach flu | gastroenteritis
+Norovirus
+Meningitis
+Sinus infection | sinusitis
+Bronchitis
+Staph infection | staph
+Smallpox
+Food poisoning
+Lice | head lice
+Athlete's foot | athletes foot
+Ringworm
+UTI | urinary tract infection | bladder infection
+Yeast infection | thrush | candidiasis
+Swine flu | h1n1
+Bird flu | avian flu | h5n1 | avian influenza
+Spanish flu
+Diphtheria
+Scarlet fever
+
+[Schooler]
+Measles
+Mumps
+Polio
+Tuberculosis | tb | consumption
+Malaria
+HIV | aids | hiv/aids
+Pneumonia
+Ebola
+Rabies
+Tetanus | lockjaw
+Whooping cough | pertussis
+Cholera
+Plague | black death | the plague
+Lyme disease | lyme
+Hepatitis | hepatitis a | hepatitis b | hepatitis c | hep a | hep b | hep c
+
+[Too Clever]
+Strep throat | strep
+Pink eye | conjunctivitis
+
+[Plankton]
+Flu | influenza | the flu
+COVID | covid-19 | covid 19 | coronavirus | corona
+Common cold | cold | the cold
+Chickenpox | chicken pox
+
+[Not accepted]
+Cancer
+Diabetes
+Asthma
+Allergies
+Heart disease
+
+# QUESTION
+id: q0370
+pool: unlimited
+category: body-health
+prompt: Name something your body does on its own (like sneezing)
+note: Reflexes and automatic body processes. Things you can also do on purpose (breathing, blinking) still count.
+
+[One in a Krillion]
+Hypnic jerk | jerking awake | sleep start | falling feeling
+
+[Deep Cut]
+Peristalsis
+Metabolism | metabolizing
+Circulation | pumping blood | blood circulation
+Filtering blood
+Producing hormones | making hormones
+Regulating temperature | thermoregulation
+Making new cells | cell division | making blood cells
+Producing tears | tearing up
+Earwax | making earwax
+Squinting
+Pupils dilating | pupil dilation | dilating pupils
+Startle reflex | startling
+Flinching
+Panting
+Cramping | muscle cramps | charley horse
+Sleep talking | talking in your sleep
+Adrenaline rush | fight or flight
+Losing baby teeth | teeth falling out
+Pruney fingers | wrinkly fingers
+Shedding skin | skin shedding
+Hair falling out | shedding hair
+Ovulating | ovulation
+Absorbing nutrients
+Producing saliva
+Immune response | fighting infection | fighting germs
+Inflammation | swelling
+Clotting | blood clotting
+Scabbing
+Sighing
+Stretching
+Breathing faster
+Heart racing | racing heart
+Getting tired
+
+[Rare]
+Dreaming
+Goosebumps | goose bumps | goose pimples
+Blushing
+Swallowing
+Itching
+Twitching | twitch | eye twitching
+Hair growing | hair growth
+Nails growing | nail growth
+Healing
+Gagging
+Vomiting | throwing up | puking
+Stomach growling | growling stomach | stomach rumbling
+Fever
+Knee-jerk reflex | reflexes | reflex
+Menstruating | period | periods
+Hunger | getting hungry
+Thirst | getting thirsty
+Laughing | laughter
+Runny nose | making mucus | mucus | snot
+Sleepwalking
+Shaking | trembling
+Aging | getting older
+Puberty
+
+[Schooler]
+Coughing | cough
+Sweating | sweat
+Shivering | shiver
+Digesting | digestion
+Burping | belching | burp
+Farting | passing gas | fart | tooting
+Sleeping | sleep
+Snoring
+Drooling | salivating
+Crying
+Peeing | urinating
+Pooping
+
+[Too Clever]
+Hiccuping | hiccups | hiccup | hiccupping
+Growing | growth
+
+[Plankton]
+Breathing | breathe | breath
+Blinking | blink
+Sneezing | sneeze
+Yawning | yawn
+Heartbeat | heart beating | beating heart
+
+[Not accepted]
+Walking
+Talking
+Running
+Eating
+
+# QUESTION
+id: q0371
+pool: unlimited
+category: vehicles
+prompt: Name a car brand or model named after an animal (like the Mustang)
+note: Cars, trucks and SUVs whose name is an animal or animal word (including Lamborghinis named after famous bulls). Mythical creatures don't count.
+
+[One in a Krillion]
+Reliant Robin | robin
+
+[Deep Cut]
+Stag | triumph stag
+Sunbeam Tiger | tiger
+Manta | opel manta
+Marlin | amc marlin
+Sable | mercury sable
+Kodiak | chevy kodiak | chevrolet kodiak
+Bighorn | isuzu bighorn
+Bluebird | nissan bluebird
+Cricket | plymouth cricket
+Hawk | studebaker hawk | golden hawk
+Fox | vw fox | volkswagen fox
+Brumby | subaru brumby
+Gazelle | nissan gazelle
+Rhino | yamaha rhino
+Superbird | plymouth superbird
+Hellcat | challenger hellcat | charger hellcat
+Murciélago | murcielago
+Miura
+Diablo
+Gallardo
+Aventador
+Huracán | huracan
+Reventón | reventon
+Islero
+Maverick | ford maverick
+Charger | dodge charger
+Kitten | reliant kitten
+Husky | hillman husky
+Pajero | mitsubishi pajero
+
+[Rare]
+Barracuda | plymouth barracuda | cuda
+Pinto | ford pinto
+Colt | mitsubishi colt | dodge colt
+Falcon | ford falcon
+Eagle | amc eagle
+Hornet | dodge hornet | amc hornet
+Cobra | shelby cobra | ac cobra
+Road Runner | plymouth road runner | roadrunner
+Puma | ford puma
+Lynx | mercury lynx | ford lynx
+Bobcat | mercury bobcat
+Skylark | buick skylark
+Wildcat | buick wildcat
+Panda | fiat panda
+Macan | porsche macan
+Tiburon | hyundai tiburon
+Pony | hyundai pony
+Super Bee | dodge super bee
+
+[Schooler]
+Impala | chevy impala | chevrolet impala
+Viper | dodge viper
+Ram | dodge ram | ram truck | ram 1500
+Bronco | ford bronco
+Stingray | corvette stingray | sting ray
+Raptor | ford raptor | f-150 raptor | f150 raptor
+Cougar | mercury cougar
+Rabbit | vw rabbit | volkswagen rabbit
+
+[Too Clever]
+Tiguan | vw tiguan
+Cayman | porsche cayman
+Urus | lamborghini urus
+
+[Plankton]
+Mustang | ford mustang | mustang mach-e
+Jaguar | jag
+Beetle | vw beetle | volkswagen beetle | bug | vw bug
+
+[Not accepted]
+Camaro
+Thunderbird
+Firebird
+Phoenix
+Gremlin
+Ferrari
+Lamborghini
+Peugeot
+
+# QUESTION
+id: q0372
+pool: unlimited
+category: vehicles
+prompt: Name a word for a type of road (like avenue or highway)
+note: English words for roads and streets. Common foreign street words (rue, calle, autobahn) count.
+
+[One in a Krillion]
+Corduroy road | log road
+
+[Deep Cut]
+Crescent
+Row
+Run
+Byway | scenic byway
+Dual carriageway
+Thoroughfare
+Esplanade
+Promenade
+Mews
+Close
+Grove
+Ring road | orbital
+Spur
+Connector
+Arterial road | arterial
+Backstreet | back street
+Private road
+Logging road
+Fire road
+County road
+State highway | state route
+US highway | us route
+Farm road | farm-to-market road
+Access road
+Carriageway
+Tollway
+Superhighway
+Viaduct
+Overpass
+Underpass
+Boardwalk
+Skyway
+Walk
+Rue
+Calle
+Camino
+Via
+Strasse | straße
+Switchback
+Express lane | express lanes
+HOV lane | carpool lane
+
+[Rare]
+Path
+Toll road
+Dirt road
+Gravel road
+Back road | backroad
+Terrace
+Bypass
+Beltway
+Motorway
+Autobahn
+Thruway | throughway
+Pike
+Causeway
+Frontage road | service road
+Ramp | on-ramp | off-ramp | exit ramp
+Main road | main street | high street
+Intersection | crossroads | junction
+Roundabout | traffic circle | rotary
+Bridge
+Tunnel
+Side street | side road
+Dead end | dead-end street
+Square
+Loop
+Plaza
+Track
+Pass | mountain pass
+
+[Schooler]
+Boulevard | blvd
+Lane
+Freeway
+Interstate
+Drive
+Court
+Expressway
+Parkway
+Turnpike
+Way
+Place
+Circle
+Trail
+Route
+
+[Too Clever]
+Cul-de-sac | cul de sac
+Alley | alleyway
+Driveway
+
+[Plankton]
+Street | st
+Road | rd
+Highway | hwy
+Avenue | ave
+
+[Not accepted]
+Sidewalk
+Car
+Traffic
+Pavement
+
+# QUESTION
+id: q0373
+pool: unlimited
+category: music
+prompt: Name a Billie Eilish song (released through 2025)
+note: Songs she released or is credited on, including soundtrack songs and featured credits.
+
+[One in a Krillion]
+Billie Bossa Nova
+
+[Deep Cut]
+My Boy
+Party Favor
+Hostage
+&burn | and burn
+Fingers Crossed
+Bitches Broken Hearts
+Come Out and Play
+When I Was Older
+Watch
+8 | eight
+My Strange Addiction
+Listen Before I Go
+I Love You
+Goodbye
+!!!!!!! (Intro)
+Lo Vas a Olvidar
+I Didn't Change My Number
+Oxytocin
+Goldwing
+Halley's Comet | halleys comet
+Not My Responsibility
+OverHeated | overheated
+Everybody Dies
+The 30th
+Bittersuite
+Blue
+She's Broken
+Sunny
+Bad Guy (with Justin Bieber)
+
+[Rare]
+Your Power
+Bored
+You Should See Me in a Crown
+All the Good Girls Go to Hell
+Wish You Were Gay
+Xanny
+Six Feet Under
+My Future
+Lost Cause
+NDA
+Male Fantasy
+The Greatest
+Skinny
+L'Amour de Ma Vie | lamour de ma vie
+Ilomilo
+TV
+Copycat
+Guess
+The Diner
+Getting Older
+
+[Schooler]
+Happier Than Ever
+When the Party's Over | when the partys over
+Everything I Wanted
+Lunch
+Wildflower
+Bury a Friend
+Therefore I Am
+Idontwannabeyouanymore | i dont wanna be you anymore | idontwannabeyouanymore
+Bellyache
+Chihiro
+
+[Too Clever]
+What Was I Made For? | what was i made for
+No Time to Die
+
+[Plankton]
+Bad Guy
+Birds of a Feather
+Ocean Eyes
+Lovely
+
+[Not accepted]
+Bad Habits
+Lovely Day
+Ocean Avenue
+
+# QUESTION
+id: q0374
+pool: unlimited
+category: music
+prompt: Name an Ariana Grande song (released through 2025)
+note: Her album tracks, singles, Christmas songs, featured credits and her Wicked soundtrack songs.
+
+[One in a Krillion]
+Pete Davidson
+
+[Deep Cut]
+Honeymoon Avenue
+Right There
+Tattooed Heart
+Lovin' It | lovin it
+Piano
+Daydreamin' | daydreamin
+You'll Never Know | youll never know
+Popular Song
+Better Left Unsaid
+Put Your Hearts Up
+Intro
+Why Try
+Best Mistake
+Be My Baby
+Break Your Heart Right Back
+Just a Little Bit of Your Heart
+Hands on Me
+My Everything
+Only 1
+You Don't Know Me
+Too Close
+Snow in California
+Love Is Everything
+Wit It This Christmas
+Santa Baby
+Christmas Kisses
+I Don't Care
+Bad Decisions
+Touch It
+Knew Better
+Forever Boy
+Step on Up
+Jason's Song
+Blazed
+The Light Is Coming
+Everytime
+Better Off
+Goodnight n Go | goodnight and go
+Get Well Soon
+In My Head
+I'm Bored | im bored
+Six Thirty
+Safety Net
+My Hair
+West Side
+Obvious
+Test Drive
+Someone Like U
+Worst Behavior
+Main Thing
+Saturn Returns Interlude
+I Wish I Hated You
+Imperfect for You
+Ordinary Things
+Warm
+Dandelion
+Past Life
+Don't Call Me Angel
+Bad to You
+Better Days
+Dance to This
+All My Love
+Faith
+Quit
+Heatstroke
+One Short Day
+Dancing Through Life
+What Is This Feeling?
+Thank Goodness
+The Girl in the Bubble
+
+[Rare]
+34+35 | 34 35 | thirty four thirty five
+POV
+Motive
+The Boy Is Mine
+Supernatural
+Eternal Sunshine
+Greedy
+Let Me Love You
+Be Alright
+Sweetener
+Successful
+Bloodline
+Fake Smile
+Bad Idea
+Ghostin | ghostin'
+Moonlight
+Just Like Magic
+Almost Is Never Enough
+Thinking Bout You
+Bed
+Save Your Tears
+Die for You
+Twilight Zone
+Hampstead
+Last Christmas
+For Good
+The Wizard and I
+Bye
+Don't Wanna Break Up Again
+True Story
+Make Up
+Shut Up
+Nasty
+Off the Table
+Love Language
+Everyday
+Leave Me Lonely
+Sometimes
+Raindrops
+R.E.M. | rem
+Borderline
+Monopoly
+Oh Santa!
+
+[Schooler]
+Problem
+Into You
+No Tears Left to Cry
+Break Free
+God Is a Woman
+Dangerous Woman
+We Can't Be Friends | we cant be friends | we can't be friends (wait for your love)
+Yes, And? | yes and
+Bang Bang
+Love Me Harder
+Breathin | breathin'
+The Way
+Baby I
+Focus
+One Last Time
+Break Up with Your Girlfriend, I'm Bored | break up with your girlfriend | break up with your girlfriend im bored
+Needy
+NASA
+Imagine
+Boyfriend
+Rain on Me
+Stuck with U | stuck with you
+
+[Too Clever]
+Popular
+Santa Tell Me
+
+[Plankton]
+7 Rings | seven rings
+Thank U, Next | thank u next | thank you next
+Positions
+Side to Side
+
+[Not accepted]
+Defying Gravity
+Rings
+Thank You
+
+# QUESTION
+id: q0375
+pool: unlimited
+category: games-toys
+prompt: Name a Minecraft biome (through 2025)
+note: Current biome names plus older names players still use (Mesa, Extreme Hills, Roofed Forest). Structures like villages don't count.
+
+[One in a Krillion]
+The Void | void
+
+[Deep Cut]
+Old Growth Birch Forest | tall birch forest
+Old Growth Pine Taiga | giant tree taiga | mega taiga
+Old Growth Spruce Taiga | giant spruce taiga | mega spruce taiga
+Savanna Plateau
+Windswept Gravelly Hills | gravelly mountains
+Windswept Forest | wooded mountains
+Windswept Savanna | shattered savanna
+Sparse Jungle | jungle edge
+Eroded Badlands
+Wooded Badlands | wooded badlands plateau
+Grove
+Snowy Slopes
+Frozen Peaks
+Jagged Peaks
+Stony Peaks
+Stony Shore | stone shore
+Deep Lukewarm Ocean
+Deep Cold Ocean
+Deep Frozen Ocean
+End Highlands
+End Midlands
+Small End Islands
+End Barrens
+Desert Hills
+Jungle Hills
+Snowy Mountains | ice mountains
+Taiga Hills
+Swamp Hills
+Mushroom Field Shore
+Desert Lakes
+Modified Jungle
+Birch Forest Hills
+Wooded Hills
+
+[Rare]
+Ice Spikes
+Beach
+River
+Lush Caves
+Dripstone Caves
+Crimson Forest
+Warped Forest
+Soul Sand Valley
+Basalt Deltas
+Deep Ocean
+Frozen Ocean
+Warm Ocean
+Mangrove Swamp
+Meadow
+Bamboo Jungle
+Snowy Taiga | cold taiga
+Pale Garden
+Windswept Hills | extreme hills | mountains
+Snowy Beach
+Frozen River
+Lukewarm Ocean
+Cold Ocean
+Sunflower Plains
+
+[Schooler]
+Jungle
+Taiga
+Swamp
+Nether Wastes | nether | the nether | hell
+Mushroom Fields | mushroom island
+Savanna | savannah
+Badlands | mesa
+Snowy Plains | snowy tundra | tundra | ice plains
+Cherry Grove | cherry blossom
+Birch Forest
+Dark Forest | roofed forest
+Flower Forest
+
+[Too Clever]
+Deep Dark
+The End | end
+
+[Plankton]
+Plains
+Desert
+Forest
+Ocean
+
+[Not accepted]
+Village
+Stronghold
+Ancient City
+Woodland Mansion
+Caves
+Overworld
+
+# QUESTION
+id: q0376
+pool: unlimited
+category: games-toys
+prompt: Name a Pokémon video game
+note: Main-series games and spin-offs on any system or phone, through 2025. "Red and Blue" style pairs match the first game.
+
+[One in a Krillion]
+Hey You, Pikachu! | hey you pikachu
+
+[Deep Cut]
+Pokémon Green | green
+Pokémon Stadium 2 | stadium 2
+Pokémon Pinball | pinball
+Pokémon Puzzle League | puzzle league
+Pokémon Puzzle Challenge | puzzle challenge
+Pokémon Trading Card Game | pokemon tcg | trading card game
+Pokémon TCG Live | tcg live
+Pokémon Ranger | ranger | shadows of almia | guardian signs
+Pokémon Colosseum | colosseum
+Pokémon XD | xd gale of darkness | gale of darkness
+Pokémon Battle Revolution | battle revolution
+Pokkén Tournament | pokken tournament | pokken
+Pokémon Masters EX | pokemon masters | masters ex
+Pokémon Café Mix | pokemon cafe mix | cafe remix | pokemon cafe remix
+Pokémon Sleep | sleep
+Pokémon Rumble | rumble | rumble blast | rumble world | rumble rush | rumble u
+Pokémon Conquest | conquest
+Pokémon Picross | picross
+Pokémon Quest | quest
+Pokémon Shuffle | shuffle
+Pokémon Dash | dash
+Pokémon Trozei | trozei | battle trozei
+Pokémon Channel | channel
+Pokémon Smile
+Pokémon Playhouse
+Pokémon Duel
+Magikarp Jump
+Pokémon Link
+Pokémon Box
+Pokémon Dream Radar
+PokéPark Wii | pokepark | pokepark 2
+My Pokémon Ranch | my pokemon ranch
+Pokémon Art Academy
+Pokémon Friends
+Pokémon Home | home
+Pokémon White 2 | white 2
+Pokémon Alpha Sapphire | alpha sapphire
+
+[Rare]
+Pokémon LeafGreen | leafgreen | leaf green
+Pokémon Pearl | pearl
+Pokémon White | white
+Pokémon Y | y
+Pokémon Omega Ruby | omega ruby | oras
+Pokémon Moon | moon
+Pokémon Shield | shield
+Pokémon Violet | violet
+Pokémon Brilliant Diamond | brilliant diamond | bdsp
+Pokémon Let's Go, Pikachu! | lets go pikachu | let's go pikachu
+Pokémon Legends: Z-A | legends za | legends z-a | pokemon za
+Pokémon Snap | snap
+Pokémon TCG Pocket | tcg pocket | pokemon pocket
+Pokémon Stadium | stadium
+Pokémon Mystery Dungeon | mystery dungeon | red rescue team | blue rescue team | explorers of sky | explorers of time | explorers of darkness | gates to infinity | super mystery dungeon | rescue team dx
+Pokémon Crystal | crystal
+Pokémon Platinum | platinum
+Pokémon HeartGold | heartgold | heart gold | heartgold and soulsilver
+Pokémon SoulSilver | soulsilver | soul silver
+New Pokémon Snap | new pokemon snap
+Pokémon Ultra Sun | ultra sun
+Pokémon Ultra Moon | ultra moon
+Pokémon Black 2 | black 2
+Pokémon Let's Go, Eevee! | lets go eevee | let's go eevee
+Pokémon Shining Pearl | shining pearl
+
+[Schooler]
+Pokémon Gold | gold | gold and silver
+Pokémon Ruby | ruby | ruby and sapphire
+Pokémon FireRed | firered | fire red | firered and leafgreen
+Pokémon Diamond | diamond | diamond and pearl
+Pokémon Black | black | black and white
+Pokémon X | x | x and y
+Pokémon Sun | sun | sun and moon
+Pokémon Legends: Arceus | legends arceus | arceus
+Pokémon Blue | blue
+Pokémon Yellow | yellow
+Pokémon Silver | silver
+Pokémon Sapphire | sapphire
+Pokémon Emerald | emerald
+
+[Too Clever]
+Detective Pikachu | detective pikachu returns
+Pokémon Unite | unite
+
+[Plankton]
+Pokémon Go | pokemon go | go
+Pokémon Red | red | red and blue
+Pokémon Scarlet | scarlet | scarlet and violet
+Pokémon Sword | sword
+
+[Not accepted]
+Palworld
+Digimon
+Temtem
+Pokemon
+
+# QUESTION
+id: q0377
+pool: unlimited
+category: games-toys
+prompt: Name a type of puzzle (like a jigsaw puzzle)
+note: Puzzle types and well-known puzzle games or toys.
+
+[One in a Krillion]
+Soma cube
+
+[Deep Cut]
+Magic square
+Sokoban
+Lateral thinking puzzle | situation puzzle
+Cryptic crossword | cryptic
+Codeword
+Fill-in | fill it in
+Word wheel
+Strands
+Letter Boxed
+Pentomino | pentominoes
+Burr puzzle
+Wire puzzle | disentanglement puzzle | ring puzzle
+Pyraminx
+Megaminx
+Skewb
+Square-1
+Futoshiki
+Slitherlink
+Hashi | bridges
+Killer sudoku
+Star Battle
+Nurikabe
+Hitori
+Lights Out
+Flow Free | flow
+Snake cube | rubik's snake
+Puzzle box | secret box | trick box
+Mechanical puzzle
+Mini crossword | the mini
+Logic grid puzzle
+Tile puzzle
+Acrostic
+
+[Rare]
+Hidden picture | where's waldo | wheres waldo | i spy | seek and find
+Cipher | code breaking | secret code
+Word ladder
+Connections
+Spelling Bee
+Mastermind
+Memory | matching game | concentration
+Labyrinth
+Tetris
+Minesweeper
+2048
+Hangman
+Treasure hunt | scavenger hunt
+Rebus
+Optical illusion
+Picture puzzle
+Kakuro | cross sum
+Tower of Hanoi | towers of hanoi
+Match-3 | match three | bejeweled
+Chess puzzle | chess problem
+Murder mystery | whodunit
+Math puzzle | number puzzle
+Peg solitaire | peg puzzle | peg game | cracker barrel peg game
+3D puzzle
+
+[Schooler]
+Brain teaser | brainteaser
+Logic puzzle
+Escape room
+Connect the dots | dot to dot | dot-to-dot
+Spot the difference
+Anagram
+Word scramble | jumble | scramble
+Tangram | tangrams
+Cryptogram
+Sliding puzzle | slide puzzle | 15 puzzle | fifteen puzzle
+KenKen
+Nonogram | picross | griddler | paint by numbers puzzle
+
+[Too Clever]
+Riddle
+Maze
+Wordle
+
+[Plankton]
+Jigsaw | jigsaw puzzle
+Crossword | crossword puzzle
+Sudoku
+Rubik's Cube | rubiks cube | rubix cube
+Word search | wordsearch
+
+[Not accepted]
+Chess
+Checkers
+Monopoly
+
+# QUESTION
+id: q0378
+pool: unlimited
+category: everyday-objects
+prompt: Name something you'd find in a bathroom
+note: Fixtures, supplies and toiletries normally kept in a home or public bathroom.
+
+[One in a Krillion]
+Pumice stone | pumice
+
+[Deep Cut]
+Shower cap
+Toilet tank
+Toilet seat cover
+Exhaust fan | vent | fan
+Towel hook | hook
+First aid kit
+Hair gel | gel
+Mousse
+Dry shampoo
+Face wash | cleanser
+Moisturizer
+Sunscreen
+Makeup remover
+Nail polish
+Nail polish remover
+Nail file
+Water flosser | waterpik
+Retainer
+Contact lens solution | contacts
+Toilet bowl cleaner
+Cleaning spray | bleach
+Squeegee
+Shower caddy
+Grab bar
+Bath toys
+Step stool
+Laundry hamper | hamper
+Magazine | book
+Window
+Tile | tiles
+Drain plug | stopper
+Shower door
+Soap dish
+Toilet paper holder
+Urinal
+Hand dryer
+Paper towels
+Wet wipes | baby wipes | flushable wipes
+Jacuzzi
+Hair ties
+Bobby pins
+Curlers | rollers
+Bath salts
+Foot scrubber
+Back scrubber
+Electric razor | shaver
+Aftershave
+Scissors
+Lip balm | chapstick
+Night light
+Outlet
+Towel warmer
+Toilet cleaner
+Cotton pads
+Mouthguard
+Shower head | showerhead
+
+[Rare]
+Mouthwash | listerine
+Lotion
+Body wash
+Loofah | shower pouf | bath pouf
+Washcloth | flannel | face cloth
+Comb
+Faucet | tap
+Q-tips | cotton swabs | cotton buds
+Cotton balls
+Tissues | kleenex
+Scale | bathroom scale
+Hand towel
+Soap dispenser
+Toothbrush holder
+Towel rack | towel bar | towel rail
+Air freshener
+Candle
+Makeup
+Hair straightener | flat iron | straightener
+Curling iron
+Tweezers
+Nail clippers
+Bath bomb
+Bubble bath
+Sponge
+Perfume | cologne
+Hairspray | hair spray
+Band-Aids | bandages
+Medicine | pills | medication
+Electric toothbrush
+Robe | bathrobe
+Tampons | pads | feminine products | menstrual pads
+Light | light switch
+Toilet seat
+Drain
+Hand sanitizer
+
+[Schooler]
+Toilet paper | tp | toilet roll
+Towel
+Toothbrush
+Toothpaste
+Soap
+Shampoo
+Conditioner
+Hairbrush | brush
+Shower curtain
+Bath mat | bath rug | rug
+Medicine cabinet
+Toilet brush
+Trash can | wastebasket | garbage can
+Hair dryer | blow dryer
+Razor
+Shaving cream
+Deodorant
+Floss | dental floss
+
+[Too Clever]
+Rubber duck | rubber ducky
+Plunger
+Bidet
+
+[Plankton]
+Toilet
+Sink
+Shower
+Bathtub | bath | tub
+Mirror
+
+[Not accepted]
+Bed
+Stove
+Refrigerator
+
+# QUESTION
+id: q0379
+pool: unlimited
+category: everyday-objects
+prompt: Name a type of bed or a piece of bedding (like a quilt)
+note: Kinds of beds and bed sizes, plus the pillows, sheets, covers and pads that go on a bed.
+
+[One in a Krillion]
+Bed of nails
+
+[Deep Cut]
+Pillow sham | sham
+Bolster
+Coverlet
+Euro pillow
+Wedge pillow
+Afghan
+Fleece blanket | fleece
+Mosquito net
+Footboard
+Bed rail | guardrail
+Mattress protector | mattress cover | mattress encasement
+Pillow protector
+Sleigh bed
+Captain's bed | captains bed
+Hospital bed
+Adjustable bed
+Toddler bed
+Cradle
+Moses basket
+Pack 'n Play | pack and play | playard
+Rollaway bed | rollaway | cot bed
+Camp bed
+Bedroll
+Divan
+Box bed
+Cabin bed
+Storage bed
+Panel bed
+Feather bed | featherbed
+Sleeping pad
+Lumbar pillow
+Race car bed
+Tatami
+Bean bag bed
+Bed sheet set | sheet set
+Down comforter
+Memory foam mattress
+Waterbed mattress
+Inflatable bed
+
+[Rare]
+Fitted sheet
+Flat sheet
+Duvet cover
+Throw | throw blanket
+Weighted blanket
+Electric blanket | heated blanket
+Body pillow
+Mattress pad
+Mattress topper | topper
+Bed skirt | dust ruffle
+Loft bed
+Daybed | day bed
+Trundle bed | trundle
+Murphy bed | wall bed
+Sofa bed | sleeper sofa | pull-out couch
+Cot
+Bassinet
+Canopy bed
+Four-poster bed | four poster | four-poster
+Sleeping bag
+Platform bed
+Bedspread
+Throw pillow | decorative pillow | accent pillow
+Single | single bed
+Pull-out bed | pull out bed
+Canopy
+Twin XL | twin extra long
+
+[Schooler]
+Comforter
+Mattress
+Pillowcase | pillow case
+Duvet
+King | king-size bed | king bed | king size
+Queen | queen-size bed | queen bed | queen size
+Twin | twin bed | twin size
+Crib
+Futon
+Full | full-size bed | double bed | double
+California king | cal king
+Bed frame
+Headboard
+Box spring
+
+[Too Clever]
+Waterbed | water bed
+Hammock
+Air mattress | air bed | blow-up mattress
+
+[Plankton]
+Pillow
+Blanket
+Sheet | sheets | bedsheet
+Bunk bed | bunkbed | bunk beds
+Quilt
+
+[Not accepted]
+Couch
+Chair
+Pajamas
+Stuffed animal
+
+# QUESTION
+id: q0380
+pool: unlimited
+category: history
+prompt: Name a period or era in history (like the Renaissance)
+note: Named periods of human history from any part of the world. Geologic periods like the Jurassic don't count.
+
+[One in a Krillion]
+Pax Romana
+
+[Deep Cut]
+Mesolithic | middle stone age
+Copper Age | chalcolithic
+Hellenistic period | hellenistic
+Archaic period
+Early Middle Ages
+High Middle Ages
+Late Middle Ages
+Age of Reason
+Age of Sail
+Belle Époque | belle epoque
+Regency era | regency
+Georgian era
+Antebellum era | antebellum
+Edo period | edo
+Meiji era | meiji
+Heian period
+Sengoku period
+Warring States period | warring states
+Spring and Autumn period
+Three Kingdoms
+Age of Revolution
+Second Industrial Revolution
+Machine Age
+Postwar era | postwar
+Baby Boom
+Era of Good Feelings
+Jacksonian era
+Golden Age of Hollywood
+Islamic Golden Age
+Early modern period
+Carolingian era
+Migration Period
+Age of Imperialism | new imperialism
+Axial Age
+Age of Absolutism
+Restoration
+Jacobean era
+Stuart period
+Anglo-Saxon period
+Swinging Sixties
+Great Recession
+Classical period
+
+[Rare]
+Jazz Age
+Information Age | digital age | computer age
+Colonial era | colonial period | colonial times
+Antiquity | classical antiquity | ancient times
+Elizabethan era | elizabethan
+Tudor period | tudor era
+Edwardian era | edwardian
+Neolithic | new stone age
+Paleolithic | old stone age
+Baroque
+Scientific Revolution
+Civil Rights era | civil rights movement
+Wild West | old west | frontier era
+Atomic Age | nuclear age
+Golden Age of Piracy
+Interwar period | interwar years
+Prehistory | prehistoric times | prehistoric
+Roman era | roman times | roman empire
+Space Race
+Harlem Renaissance
+Dust Bowl
+Modern era | modern times
+Ancient history
+Feudal era | feudalism | feudal times
+Napoleonic era | napoleonic wars
+Romantic era | romanticism
+Red Scare | mccarthy era | mccarthyism
+Byzantine era | byzantine
+
+[Schooler]
+Bronze Age
+Iron Age
+Cold War
+Great Depression | the depression
+Victorian era | victorian
+Enlightenment | age of enlightenment
+Age of Exploration | age of discovery
+Gilded Age
+Reconstruction
+Progressive Era
+Prohibition
+Reformation | protestant reformation
+Viking Age
+Space Age
+
+[Too Clever]
+Dark Ages
+Roaring Twenties | roaring 20s
+Ice Age
+
+[Plankton]
+Stone Age
+Middle Ages | medieval times | medieval period | medieval era
+Renaissance | renaissance era
+Industrial Revolution
+
+[Not accepted]
+Jurassic
+Cretaceous
+Triassic
+Mesozoic
+
+# QUESTION
+id: q0381
+pool: unlimited
+category: history
+prompt: Name a revolution from history (like the French Revolution)
+note: Political, social and technological revolutions. Wars of independence that are commonly called revolutions count.
+
+[One in a Krillion]
+Bulldozer Revolution
+
+[Deep Cut]
+Carnation Revolution
+Singing Revolution
+Saffron Revolution
+Cedar Revolution
+Tulip Revolution
+Quiet Revolution
+Romanian Revolution
+Belgian Revolution
+Greek Revolution | greek war of independence
+German Revolution
+English Revolution | puritan revolution
+Young Turk Revolution
+Bolivian Revolution
+Bolivarian Revolution
+August Revolution
+Ethiopian Revolution
+Zanzibar Revolution
+Umbrella Revolution
+Dutch Revolt
+May Revolution
+Commercial Revolution
+Market Revolution
+Cognitive Revolution
+Copernican Revolution
+Peaceful Revolution
+July Revolution
+Mongolian Revolution
+Libyan Revolution
+Syrian Revolution
+Yemeni Revolution
+Sudanese Revolution
+Hungarian Revolution of 1848
+Internet Revolution
+Second Agricultural Revolution | british agricultural revolution
+Atlantic Revolutions
+
+[Rare]
+Sexual Revolution
+Arab Spring
+Egyptian Revolution
+Tunisian Revolution | jasmine revolution
+Hungarian Revolution
+Xinhai Revolution | 1911 revolution
+Revolutions of 1848 | 1848 revolutions | springtime of nations
+Irish Revolution | easter rising
+Orange Revolution
+Rose Revolution
+Philippine Revolution
+People Power Revolution | edsa revolution
+Latin American wars of independence | latin american revolutions
+Second Industrial Revolution | technological revolution
+Neolithic Revolution
+Information Revolution
+Revolution of Dignity | euromaidan | maidan revolution | ukrainian revolution
+Meiji Restoration
+Algerian Revolution | algerian war
+Nicaraguan Revolution | sandinista revolution
+Paris Commune
+Revolution of 1905 | 1905 russian revolution
+Revolutions of 1989 | fall of communism
+Spanish Revolution
+
+[Schooler]
+Haitian Revolution
+Mexican Revolution
+Cuban Revolution
+Chinese Revolution | chinese communist revolution | communist revolution
+Cultural Revolution
+Glorious Revolution
+Iranian Revolution | islamic revolution
+October Revolution | bolshevik revolution
+February Revolution
+Texas Revolution
+Velvet Revolution
+Green Revolution
+
+[Too Clever]
+Agricultural Revolution
+Digital Revolution
+Scientific Revolution
+
+[Plankton]
+American Revolution | revolutionary war | american revolutionary war
+French Revolution
+Industrial Revolution
+Russian Revolution
+
+[Not accepted]
+Civil War
+Boston Tea Party
+Revolution
+
+# QUESTION
+id: q0382
+pool: unlimited
+category: animals
+prompt: Name an animal that lives in the Arctic or Antarctica
+note: Animals that live, breed or feed in polar lands or polar seas for at least part of the year.
+
+[One in a Krillion]
+Tardigrade | water bear
+
+[Deep Cut]
+Arctic ground squirrel
+Snowshoe hare
+Raven
+Gyrfalcon
+Snow bunting
+Skua | south polar skua
+Petrel | snow petrel | giant petrel
+Fulmar
+Ivory gull
+Guillemot
+Murre
+Little auk | dovekie
+Eider | common eider | king eider
+Long-tailed duck
+Tundra swan
+Brant | brent goose
+Gray whale | grey whale
+Sperm whale
+Fin whale
+Sei whale
+Southern right whale
+Antarctic toothfish | patagonian toothfish
+Icefish | crocodile icefish
+Arctic cod | polar cod
+Sea spider
+Springtail
+Antarctic midge
+Squid | colossal squid
+Bumblebee | arctic bumblebee
+Greenland halibut
+Capelin
+Arctic wolf
+Weasel | least weasel
+Lynx
+Muskrat
+Sea butterfly
+Sea urchin
+Amphipod
+Copepod
+Gull | glaucous gull
+Loon
+Sandpiper
+Canada goose
+Salmon
+Sea lion
+
+[Rare]
+Leopard seal
+Weddell seal
+Ringed seal
+Bearded seal
+Hooded seal
+Ross seal
+Crabeater seal
+Fur seal | antarctic fur seal
+Adélie penguin | adelie penguin
+Chinstrap penguin
+Gentoo penguin
+Macaroni penguin
+Rockhopper penguin
+Ermine | stoat
+Wolverine
+Albatross | wandering albatross
+Bowhead whale
+Minke whale
+Snow goose
+Ptarmigan
+Arctic char
+Greenland shark
+Moose
+Grizzly bear
+Gray wolf | wolf | grey wolf
+Red fox
+Husky | sled dog
+Mosquito
+Starfish | sea star
+Jellyfish
+
+[Schooler]
+Walrus
+Snowy owl
+Arctic hare
+Beluga | beluga whale
+Emperor penguin
+Musk ox | muskox
+Krill
+Puffin
+Lemming
+Humpback whale
+Blue whale
+Arctic tern
+King penguin
+Elephant seal
+Harp seal
+
+[Too Clever]
+Reindeer | caribou
+Narwhal
+Orca | killer whale
+
+[Plankton]
+Polar bear
+Penguin
+Arctic fox
+Seal
+
+[Not accepted]
+Yeti
+Abominable snowman
+Woolly mammoth
+Mammoth
+Santa
+
+# QUESTION
+id: q0383
+pool: unlimited
+category: animals
+prompt: Name an extinct mammal or bird (like the dodo)
+note: Species that died out, prehistoric or recent. Dinosaurs, reptiles, sharks and mythical animals don't count.
+
+[One in a Krillion]
+Giant beaver | castoroides
+
+[Deep Cut]
+Atlas bear
+Bluebuck | blue antelope
+Falkland Islands wolf | warrah
+Japanese wolf
+Sea mink
+Schomburgk's deer
+Toolache wallaby
+Pig-footed bandicoot
+Paraceratherium | indricotherium
+Basilosaurus
+Ambulocetus
+Pakicetus
+Andrewsarchus
+Entelodont | hell pig
+Deinotherium
+Chalicotherium
+Macrauchenia
+Toxodon
+Diprotodon
+Rodrigues solitaire | solitaire
+Laughing owl
+Po'ouli | poouli
+Kauai O'o | oo | hawaii oo
+Pink-headed duck
+Slender-billed curlew
+Eskimo curlew
+Dusky seaside sparrow
+Bachman's warbler
+Cuban macaw
+Hyaenodon
+Thylacosmilus
+Arsinoitherium
+Uintatherium
+Daeodon
+Brontotherium | megacerops
+Gomphothere
+Platybelodon
+Sivatherium
+Megalonyx | jefferson's ground sloth
+Stephens Island wren | lyall's wren
+Bramble Cay melomys
+Dwarf elephant
+Camelops | american camel
+Glossotherium
+
+[Rare]
+Quagga
+Haast's eagle | haasts eagle
+Glyptodon | glyptodont
+Short-faced bear
+American lion
+Caribbean monk seal
+Western black rhinoceros | western black rhino | west african black rhino
+Pyrenean ibex | bucardo
+Javan tiger
+Bali tiger
+Caspian tiger
+Baiji | yangtze river dolphin | chinese river dolphin
+Labrador duck
+Heath hen
+Ivory-billed woodpecker
+Tarpan
+Homo erectus
+Denisovan | denisovans
+Archaeopteryx
+Columbian mammoth
+Pygmy mammoth
+Giant kangaroo | procoptodon
+Marsupial lion | thylacoleo
+Eohippus | hyracotherium | dawn horse
+Gigantopithecus
+Cave hyena
+Huia
+Barbary lion
+
+[Schooler]
+Passenger pigeon
+Woolly rhinoceros | woolly rhino
+Giant ground sloth | ground sloth | megatherium
+Great auk
+Moa
+Steller's sea cow | stellers sea cow
+Irish elk | giant deer | megaloceros
+Neanderthal | neanderthals | neandertal
+Cave bear
+Elephant bird
+Terror bird | phorusrhacid
+Cave lion
+Aurochs
+Carolina parakeet
+
+[Too Clever]
+Tasmanian tiger | thylacine | tasmanian wolf
+Dire wolf
+
+[Plankton]
+Dodo | dodo bird
+Woolly mammoth | mammoth | wooly mammoth
+Saber-toothed tiger | sabertooth | smilodon | saber-toothed cat | sabre-toothed tiger
+Mastodon
+
+[Not accepted]
+T. rex
+Dinosaur
+Pterodactyl
+Megalodon
+Unicorn
+Dragon
+Golden toad
+Northern white rhino
+Velociraptor
+
+# QUESTION
+id: q0384
+pool: unlimited
+category: animals
+prompt: Name an animal with horns or antlers
+note: Real animals, living or extinct, with horns, antlers or horn-like ossicones (giraffes). Narwhal tusks count as Too Clever.
+
+[One in a Krillion]
+Jackson's chameleon | three-horned chameleon | jacksons chameleon
+
+[Deep Cut]
+Chamois
+Dall sheep
+Mouflon
+Argali
+Barbary sheep | aoudad
+Tahr
+Takin
+Saiga
+Nilgai
+Blackbuck
+Dik-dik | dik dik
+Duiker
+Hartebeest
+Topi
+Bongo
+Nyala
+Bushbuck
+Waterbuck
+Sitatunga
+Sable antelope
+Roan antelope
+Gaur
+Banteng
+Zebu
+Watusi | ankole-watusi
+Fallow deer
+Sika deer
+Roe deer
+Axis deer | chital
+Sambar
+Muntjac
+Père David's deer | pere davids deer
+Horned viper
+Horned frog
+Styracosaurus
+Chasmosaurus
+Centrosaurus
+Pachyrhinosaurus
+Carnotaurus
+Heifer
+Rhinoceros iguana
+Dung beetle
+
+[Rare]
+Musk ox | muskox
+Oryx | gemsbok
+Kudu
+Wildebeest | gnu
+Springbok
+Eland
+Pronghorn
+Sheep
+Markhor
+Texas longhorn | longhorn
+Chameleon
+Horned lizard | horny toad
+Rhinoceros beetle
+Stag beetle
+Okapi
+Addax
+Water buffalo
+Cape buffalo
+Ox | oxen
+Steer
+White-tailed deer | whitetail
+Red deer
+Mule deer
+Hercules beetle
+Highland cow | highland cattle
+Woolly rhinoceros | woolly rhino
+Irish elk
+Aurochs
+
+[Schooler]
+Moose
+Elk | wapiti
+Ram
+Cow | cattle
+Reindeer | caribou
+Antelope
+Buffalo
+Bison
+Bighorn sheep | bighorn
+Mountain goat
+Ibex
+Gazelle
+Impala
+Yak
+
+[Too Clever]
+Narwhal
+Triceratops
+Giraffe
+
+[Plankton]
+Deer
+Rhino | rhinoceros
+Goat
+Bull
+
+[Not accepted]
+Unicorn
+Dragon
+Jackalope
+Minotaur
+Great horned owl
+Hornbill
+Horse
+Elephant
+
+# QUESTION
+id: q0385
+pool: unlimited
+category: sports
+prompt: Name a penalty, foul, or violation in any sport (like offside)
+note: Rule-breaking calls from any sport, plus the card or penalty they lead to.
+
+[One in a Krillion]
+Ball tampering
+
+[Deep Cut]
+Illegal shift
+Illegal procedure
+Neutral zone infraction
+Ineligible receiver downfield | ineligible man downfield
+Illegal block in the back | block in the back
+Kick catch interference
+Running into the kicker
+Roughing the kicker
+Illegal use of hands | illegal hands to the face
+Illegal contact
+Illegal forward pass
+Illegal touching
+Fair catch interference
+Lane violation
+Kicked ball violation
+Five-second violation | 5 second violation
+Eight-second violation | 8 second violation
+Loose ball foul
+Clear path foul
+Hanging on the rim
+Defensive three seconds
+Basket interference
+Kneeing
+Butt-ending
+Checking from behind
+Holding the stick
+Misconduct
+Game misconduct
+Embellishment
+Instigator
+Dangerous play
+Obstruction
+Pushing
+Professional foul
+Catcher's interference
+Illegal pitch
+Spitball
+Corked bat
+Pitch clock violation
+Double hit
+Lift | carry
+Four hits | four touches
+Reaching over the net
+Centerline violation | crossing the centerline
+Rotation fault | overlap
+Service fault
+Disqualification | dq
+Low blow
+Rabbit punch
+Headbutt | head butt
+Eye poke | eye gouge | eye gouging
+Fence grab
+Stalling
+Illegal hold
+Not releasing the ball | not releasing
+Knock-on | knock on
+Forward pass
+High tackle
+Hit from behind
+Push-off | pushing off | offensive push off
+Crease violation
+Warding off
+No ball
+Wide
+Charging the mound
+
+[Rare]
+Personal foul
+Shooting foul
+Offensive foul
+Blocking foul | blocking
+Three seconds | three second violation | 3 seconds in the key
+Backcourt violation | over and back
+Shot clock violation
+Carrying | palming | carry the ball
+Slashing
+Hooking
+Tripping
+High-sticking | high stick
+Cross-checking | cross check
+Interference
+Icing
+Boarding
+Elbowing
+Roughing
+Fighting
+Diving | simulation | flopping
+Balk
+Foot fault
+Double fault
+Net violation | touching the net
+Free throw
+Penalty kick
+Free kick
+Power play
+Penalty box
+Ejection
+Sin bin
+Late hit
+Taunting
+Excessive celebration
+Hand check | hand checking
+Reach-in foul | reaching in | reach in
+Intentional foul
+Moving screen | illegal screen
+Goalie interference | goaltender interference
+Dissent
+Time wasting | timewasting
+
+[Schooler]
+False start
+Delay of game
+Roughing the passer
+Facemask | face mask
+Charging | charge
+Technical foul | technical | tech
+Flagrant foul | flagrant
+Yellow card
+Red card
+Unsportsmanlike conduct | unsportsmanlike
+Unnecessary roughness
+Intentional grounding | grounding
+Clipping
+Encroachment
+Illegal formation
+Illegal motion
+Too many men on the field | too many men on the ice | too many men | too many players | 12 men on the field
+Horse-collar tackle | horse collar
+Targeting
+Spearing
+Chop block
+
+[Too Clever]
+Pass interference | pi
+Goaltending
+Handball | hand ball
+
+[Plankton]
+Offside | offsides
+Traveling | travel | travelling | walking
+Holding
+Double dribble
+
+[Not accepted]
+Touchdown
+Strike
+Out
+Home run
+
+# QUESTION
+id: q0386
+pool: unlimited
+category: sports
+prompt: Name a water sport or water activity (like surfing)
+note: Sports and pastimes done in, on or under the water.
+
+[One in a Krillion]
+Mermaiding | mermaid swimming
+
+[Deep Cut]
+Canoe polo | kayak polo
+Underwater rugby
+Flyboarding | flyboard
+Hydrofoiling | foiling | efoil | wing foiling
+Powerboat racing | speedboat racing
+Yachting
+Fin swimming | finswimming
+Coasteering
+Cave diving
+Surf lifesaving | lifesaving | lifeguarding
+Marathon swimming | channel swimming
+High diving
+Water volleyball | pool volleyball
+Water basketball
+Aquathlon
+Swimrun
+Hydroplane racing
+Barefoot skiing | barefoot water skiing
+Sculling
+Outrigger canoeing | outrigger | va'a
+Bog snorkelling | bog snorkeling
+Wreck diving
+Night diving
+Jet boating
+Banana boat
+Swimming laps | lap swimming
+Kayak fishing
+Whitewater kayaking
+Canyoning
+Water walking | water ball | zorbing on water
+Pearl diving
+Shark cage diving | cage diving
+Aqua jogging | water running
+Boat racing
+
+[Rare]
+Bodyboarding | boogie boarding | boogie board
+Fishing
+Tubing
+Parasailing
+Freediving | free diving
+Spearfishing
+Triathlon
+Open water swimming
+Dragon boat racing | dragon boating
+Skimboarding
+Bodysurfing | body surfing
+Boating
+Water aerobics | aqua aerobics | aquafit
+Wakesurfing | wake surfing
+Kneeboarding
+Water slide | waterslide
+Marco Polo
+Paddle boating | pedal boating | paddle boat
+Fly fishing
+Ice fishing
+Deep sea fishing
+Sea kayaking
+Ice swimming | polar plunge | polar bear plunge
+Water gun fight | water fight
+River tubing
+Regatta
+
+[Schooler]
+Kayaking
+Canoeing
+Rowing | crew
+Sailing
+Water skiing | waterskiing
+Wakeboarding
+Snorkeling | snorkelling
+Scuba diving | scuba
+Jet skiing | jet ski | jetskiing | personal watercraft
+Paddleboarding | stand-up paddleboarding | sup | paddle boarding
+Rafting | whitewater rafting | white water rafting
+Windsurfing | sailboarding
+Kitesurfing | kiteboarding
+
+[Too Clever]
+Synchronized swimming | artistic swimming
+Cliff diving
+Underwater hockey | octopush
+
+[Plankton]
+Swimming
+Surfing
+Diving
+Water polo
+
+[Not accepted]
+Water
+Beach
+Ice hockey
+
+# QUESTION
+id: q0387
+pool: unlimited
+category: food
+prompt: Name a type of sandwich
+note: Named sandwiches from anywhere, plus burgers and hot dogs (Too Clever). Wraps and stuffed breads that are commonly called sandwiches count.
+
+[One in a Krillion]
+Fluffernutter
+
+[Deep Cut]
+Jibarito
+Cemita
+Pambazo
+Bauru
+Chivito
+Choripán | choripan
+Medianoche
+Smørrebrød | smorrebrod
+Bocadillo
+Tramezzino
+Katsu sando | sando | katsu sandwich
+Egg sando
+Fruit sando
+Vada pav
+Bunny chow
+Chip butty
+Bacon butty | bacon sarnie
+Ploughman's | ploughmans | plowman's
+Spiedie
+Beef on weck
+Hot brown | kentucky hot brown
+Horseshoe
+Loose meat | maid-rite
+Pimento cheese
+Elvis | peanut butter and banana | elvis sandwich
+Gatsby
+Francesinha
+Döner kebab | doner | doner kebab
+Arepa
+Crab cake sandwich
+Fried egg sandwich
+Pork tenderloin sandwich | tenderloin
+Italian beef
+Chopped cheese
+Brisket sandwich
+Croque madame
+Open-faced sandwich | open faced
+Dagwood
+Toastie | toasted sandwich
+Pita
+Cheese sandwich
+Melt
+Sausage sandwich
+Hot ham and cheese
+Mortadella
+Prosciutto
+Hummus sandwich
+Veggie sandwich | vegetable sandwich
+Caprese
+Smoked salmon sandwich
+
+[Rare]
+Po' boy | po boy | poboy
+Tuna melt
+Egg salad
+Chicken salad
+Meatball sub | meatball sandwich
+Italian sub | italian sandwich
+Muffuletta | muffaletta
+Pulled pork
+Bacon, egg, and cheese | bacon egg and cheese | bec | egg and cheese
+Breakfast sandwich
+Croque monsieur
+Wrap
+Roast beef
+Ice cream sandwich
+Sloppy joe | sloppy joes
+Patty melt
+Lobster roll
+Bologna | baloney | fried bologna
+Shawarma
+Torta
+Pastrami
+Corned beef
+Fish sandwich | filet-o-fish | fish fillet
+Uncrustables | uncrustable
+Ham sandwich
+Buffalo chicken sandwich
+Grilled chicken sandwich
+Chicken parmesan sandwich | chicken parm sub | chicken parm
+Steak sandwich
+Barbecue sandwich | bbq sandwich
+Tea sandwich | finger sandwich | cucumber sandwich
+Falafel
+
+[Schooler]
+Club | club sandwich | clubhouse
+Reuben
+Philly cheesesteak | cheesesteak | philly cheese steak
+Turkey | turkey sandwich
+Ham and cheese
+Tuna | tuna salad | tuna sandwich
+Chicken sandwich | fried chicken sandwich
+Panini
+Hoagie
+Hero
+Grinder
+Cuban | cubano | cuban sandwich
+Banh mi | bánh mì
+Gyro | gyros
+Monte Cristo
+French dip
+
+[Too Clever]
+Hamburger | burger | cheeseburger
+Hot dog | hotdog
+
+[Plankton]
+Grilled cheese
+PB&J | peanut butter and jelly | pbj | peanut butter and jam | peanut butter
+BLT
+Sub | submarine | sub sandwich
+
+[Not accepted]
+Taco
+Burrito
+Pizza
+Quesadilla
+
+# QUESTION
+id: q0388
+pool: unlimited
+category: words-language
+prompt: Name a texting abbreviation or acronym (like LOL)
+note: Shorthand used in texts and online chat. Any common expansion is fine as long as the abbreviation is real.
+
+[One in a Krillion]
+TTFN
+
+[Deep Cut]
+SRSLY
+B4
+L8R
+GR8
+CU | cya | see ya
+IDGAF
+FFS
+SMDH
+TTYS
+TYVM
+TBD
+BRT
+TFW
+MFW
+AF
+OTP
+BFFL
+BBS
+IIRC
+AFAIK
+FWIW
+YMMV
+TIL
+ELI5
+AMA
+OP
+SFW
+ISTG
+IDT
+WYA
+LFG
+ONG
+LOML
+TFTI
+NTM
+NM
+DW
+BC | b/c
+W/E
+PPL
+IDEK
+ILU
+IMU
+ASL
+POS
+ROFLMAO
+OMFG
+WDYM
+GTFO
+DND
+TBF
+TBC
+JIC
+RT
+ATM
+BFN
+HTH
+WFH
+EOD
+OOO
+TGIF
+MIA
+OBV | obvi
+TN
+RLY
+MSG
+KK
+IDGI
+CTFU
+FTW
+IMY
+LDR
+NVMD
+ILYT
+LYSM
+TTYT
+AFAIC
+
+[Rare]
+LMK
+RN
+TBT
+OMW
+IDC
+NP
+TY
+THX | thnx
+PLS | plz
+ASAP
+AKA
+GG
+AFK
+POV
+TL;DR | tldr
+ILYSM
+WTF
+STFU
+FML
+IMHO
+OFC
+TYSM
+YW
+NBD
+ETA
+OOTD
+PSA
+BAE
+OG
+PFP
+BBL
+NSFW
+GOAT
+HBD
+GN
+GM
+XOXO
+RIP
+BF
+GF
+U
+UR
+LMFAO
+WTH
+DIY
+BTS
+GRWM
+TMRW | 2moro | tmr
+
+[Schooler]
+BTW
+LMAO
+TBH
+IMO
+FYI
+JK
+BFF
+NVM
+GTG | g2g
+ILY
+IRL
+FOMO
+YOLO
+NGL
+FR
+IKR
+ICYMI
+IYKYK
+TMI
+DM
+HMU
+WYD
+HBU
+WBU
+
+[Too Clever]
+SMH
+ROFL | rotfl
+
+[Plankton]
+LOL
+OMG
+BRB
+IDK
+TTYL
+
+[Not accepted]
+Emoji
+Lit
+Slay
+
+# QUESTION
+id: q0389
+pool: unlimited
+category: science
+prompt: Name a type of energy or energy source
+note: Forms of energy from physics class and the sources we get power from.
+
+[One in a Krillion]
+Antimatter
+
+[Deep Cut]
+Kerosene
+Methane | biogas | landfill gas
+Plutonium
+Muscle power | human power
+Ocean thermal | otec
+Osmotic | blue energy
+Ionization energy
+Activation energy
+Internal energy
+Bond energy | chemical bond energy
+Free energy | gibbs free energy
+Rest energy | mass energy | mass-energy
+Zero-point energy
+Vacuum energy
+Binding energy | nuclear binding energy
+Lattice energy
+Rotational | rotational energy
+Vibrational | vibrational energy
+Translational | translational energy
+Seismic | seismic energy
+Peat
+Oil sands | tar sands
+Fuel cell | hydrogen fuel cell
+Compressed air
+Charcoal
+Thorium
+Shale gas
+Electrostatic
+Microwave
+Infrared
+Ultraviolet | uv
+X-rays | x-ray
+Gamma rays | gamma
+Animal power | horsepower
+Waste-to-energy | trash
+Pumped hydro
+Hydrothermal
+Spring | spring energy
+
+[Rare]
+Tidal
+Wave | waves
+Biomass
+Coal
+Oil | petroleum | crude oil
+Natural gas
+Fossil fuels | fossil fuel
+Gasoline | gas | petrol
+Hydrogen
+Fusion | nuclear fusion
+Fission | nuclear fission
+Steam
+Biofuel | biodiesel
+Ethanol
+Renewable | renewable energy
+Nonrenewable | non-renewable
+Diesel
+Propane
+Wood | firewood
+Uranium
+Battery | batteries | stored energy
+Food energy | calories | food
+Static electricity | static
+Photovoltaic | pv | solar panels
+Lightning
+
+[Schooler]
+Thermal | heat
+Chemical
+Electrical | electricity | electric
+Nuclear
+Hydroelectric | hydro | hydropower | water
+Geothermal
+Light
+Sound | acoustic | sound energy
+Radiant | radiant energy
+Gravitational | gravitational potential
+Elastic | elastic potential
+Magnetic
+Electromagnetic
+
+[Too Clever]
+Dark energy
+Mechanical
+
+[Plankton]
+Solar | sun | solar power
+Wind | wind power
+Kinetic
+Potential
