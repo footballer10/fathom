@@ -22,7 +22,6 @@ export interface BattleSettings {
   category?: Category;
   lives: number;
   baseSeconds: number;
-  bonusScale: "off" | "normal" | "double";
   failedTurnsToRotate: number;
   /** null = 2 × alive players */
   acceptsToRotate: number | null;
@@ -40,6 +39,8 @@ export interface RoomPlayer {
   score: number;
   timeUsedMs: number;
   lives: number;
+  /** Battle: progress toward the next life, in 32nds (0–31). */
+  lifeMeter: number;
   eliminated: boolean;
   locked: boolean;
 }
@@ -157,7 +158,7 @@ export type ServerMessage =
   | { type: "turn"; playerId: string; endsAt: number; prompt: string; seconds: number }
   | { type: "typing"; playerId: string; text: string }
   | { type: "taken"; answerCanonical: string; byPlayerId: string }
-  | { type: "turnResult"; playerId: string; canonical: string; tier: TierPoints; corrected: boolean; livesGained: number; livesLeft: number }
+  | { type: "turnResult"; playerId: string; canonical: string; tier: TierPoints; corrected: boolean; livesGained: number; livesLeft: number; lifeMeter: number }
   | { type: "lifeLost"; playerId: string; livesLeft: number }
   | { type: "eliminated"; playerId: string }
   | { type: "rotate"; prompt: string; category: Category; baseSeconds: number; startsAt: number }

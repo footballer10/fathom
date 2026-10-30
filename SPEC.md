@@ -162,23 +162,22 @@ Same lobby and code system as Dive. Max 12 players.
 - If a guess matches a used answer, show "Already taken" and apply the wrong-guess penalty.
 
 **Turn timer (it resets every turn)**
-- Turn time = base time + a bonus based **only on that player's last accepted answer**. Nothing accumulates.
-- Bonus by tier:
-
-  | Tier | Bonus |
-  |---|---|
-  | Plankton | +0s |
-  | Too Clever | +1s |
-  | Schooler | +2s |
-  | Rare | +3s |
-  | Deep Cut | +4s |
-  | One in a Krillion | +6s |
-
-- A player's first turn, and any turn right after a failed turn, gets the base time only.
+- Every turn gets the base time; rare answers don't add bonus time.
 - Wrong guess: −1s, configurable.
 
 **Lives**
 - Running out of time on your turn costs 1 life.
+- Each player's lives sit inside a circle that fills with every accepted answer. A full circle becomes one extra life (no cap), and any overflow carries into the next circle:
+
+  | Tier | Circle filled |
+  |---|---|
+  | One in a Krillion | a full circle |
+  | Deep Cut | 1/2 |
+  | Rare | 1/4 |
+  | Schooler | 1/8 |
+  | Too Clever | 1/16 |
+  | Plankton | 1/32 |
+
 - At 0 lives you're eliminated. Eliminated players become spectators and can still type guesses for fun; these are unscored and shown in a side panel.
 
 **Prompt rotation**
@@ -197,7 +196,6 @@ Same lobby and code system as Dive. Max 12 players.
 **Host settings**
 - Lives: 1–5 (default 3)
 - Base time: 6–20s (default 10s)
-- Bonus scale: off / normal / double
 - Rotation thresholds
 - Speed-up on or off
 - Categories

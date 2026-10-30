@@ -61,10 +61,8 @@ interface Seat {
   eliminated: boolean;
   eliminatedAt?: number;
   depthTrail: number[];
-  /** Battle: tier of this player's last accepted answer (for the turn bonus). */
-  lastTier: TierPoints | null;
-  /** Battle: true if their last turn timed out, or they haven't had a turn yet. */
-  noBonus: boolean;
+  /** Battle: progress toward the next life, in 32nds. */
+  lifeMeter: number;
 }
 
 interface DiveAnswer {
@@ -148,7 +146,6 @@ function defaultSettings(kind: RoomKind): DiveSettings | BattleSettings {
     source: "unlimited",
     lives: BATTLE_DEFAULTS.lives,
     baseSeconds: BATTLE_DEFAULTS.baseSeconds,
-    bonusScale: BATTLE_DEFAULTS.bonusScale,
     failedTurnsToRotate: BATTLE_DEFAULTS.failedTurnsToRotate,
     acceptsToRotate: null,
     speedUp: BATTLE_DEFAULTS.speedUp,
@@ -346,8 +343,7 @@ export class Room extends DurableObject<Env> {
         lives: 0,
         eliminated: false,
         depthTrail: [],
-        lastTier: null,
-        noBonus: true,
+        lifeMeter: 0,
       };
     } else if (nickname && !nicknameProblem(nickname)) {
       existing.nickname = nickname; // reconnecting to the same seat (maybe with a new name)
@@ -388,7 +384,6 @@ export class Room extends DurableObject<Env> {
         category: cat ?? cur.category,
         lives: patch.lives !== undefined ? clamp(patch.lives, BATTLE_DEFAULTS.livesMin, BATTLE_DEFAULTS.livesMax, cur.lives) : cur.lives,
         baseSeconds: patch.baseSeconds !== undefined ? clamp(patch.baseSeconds, BATTLE_DEFAULTS.baseSecondsMin, BATTLE_DEFAULTS.baseSecondsMax, cur.baseSeconds) : cur.baseSeconds,
-        bonusScale: patch.bonusScale && ["off", "normal", "double"].includes(patch.bonusScale) ? patch.bonusScale : cur.bonusScale,
         failedTurnsToRotate: patch.failedTurnsToRotate !== undefined ? clamp(patch.failedTurnsToRotate, 1, 5, cur.failedTurnsToRotate) : cur.failedTurnsToRotate,
         acceptsToRotate:
           patch.acceptsToRotate === null ? null : patch.acceptsToRotate !== undefined ? clamp(patch.acceptsToRotate, 1, 50, 6) : cur.acceptsToRotate,
@@ -422,8 +417,7 @@ export class Room extends DurableObject<Env> {
         eliminated: false,
         eliminatedAt: undefined,
         depthTrail: [],
-        lastTier: null,
-        noBonus: true,
+        lifeMeter: 0,
       });
     }
     const players = Object.values(s.seats).filter((x) => !x.spectator);
@@ -618,13 +612,6 @@ export class Room extends DurableObject<Env> {
     return s.battle!.order.filter((id) => !s.seats[id].eliminated);
   }
 
-  /** Bonus seconds come only from this player's last accepted answer; nothing accumulates. */
-  private turnSeconds(seat: Seat): number {
-    const b = this.s!.battle!;
-    const scale = { off: 0, normal: 1, double: 2 }[(this.s!.settings as BattleSettings).bonusScale];
-    const bonus = seat.noBonus || !seat.lastTier ? 0 : tierInfo(seat.lastTier).battleBonusSeconds * scale;
-    return b.baseSeconds + bonus;
-  }
 
   private startTurn(pid: string | null, now: number) {
     const s = this.s!;
@@ -632,7 +619,7 @@ export class Room extends DurableObject<Env> {
     const alive = this.aliveIds();
     const next = pid && alive.includes(pid) ? pid : alive[0];
     if (!next) return this.gameOver(b.best);
-    const seconds = this.turnSeconds(s.seats[next]);
+    const seconds = b.baseSeconds;
     Object.assign(b, { turnPlayerId: next, turnStartedAt: now, turnEndsAt: now + seconds * 1000, nextTurnAt: 0, nextTurnPlayerId: null });
     s.phase = "turn";
     this.lastTypingAt.clear();
@@ -683,14 +670,14 @@ export class Room extends DurableObject<Env> {
       b.usedIds.push(r.answerId);
       b.accepted += 1;
       seat.score += r.points;
-      seat.lastTier = r.tier;
-      seat.noBonus = false;
-      // Deep Cuts and One in a Krillions earn lives back, past the starting count if need be.
-      const livesGained = tierInfo(r.tier).battleLives;
+      // Every accepted answer fills the life circle; each full circle is an extra life (no cap).
+      const fill = (seat.lifeMeter ?? 0) + tierInfo(r.tier).battleLifeFill;
+      const livesGained = Math.floor(fill / BATTLE_DEFAULTS.lifeMeterFull);
+      seat.lifeMeter = fill % BATTLE_DEFAULTS.lifeMeterFull;
       seat.lives += livesGained;
       if (!b.best || r.tier > b.best.tier) b.best = { nickname: seat.nickname, canonical: r.canonical, tier: r.tier, prompt: b.prompt, at: now };
       this.send(ws, { type: "guessResult", accepted: true, canonical: r.canonical, tier: r.tier, points: r.points, corrected: r.corrected, reason: null, endsAt: b.turnEndsAt });
-      this.broadcast({ type: "turnResult", playerId: pid, canonical: r.canonical, tier: r.tier, corrected: r.corrected, livesGained, livesLeft: seat.lives });
+      this.broadcast({ type: "turnResult", playerId: pid, canonical: r.canonical, tier: r.tier, corrected: r.corrected, livesGained, livesLeft: seat.lives, lifeMeter: seat.lifeMeter });
       if (!(await this.maybeRotate(now, pid))) this.queueNextTurn(pid, now, BATTLE_DEFAULTS.betweenTurnsMs);
       return;
     }
@@ -709,7 +696,6 @@ export class Room extends DurableObject<Env> {
     const pid = b.turnPlayerId!;
     const seat = s.seats[pid];
     seat.lives -= 1;
-    seat.noBonus = true; // the turn after a failed turn gets base time only
     b.failed += 1;
     this.broadcast({ type: "lifeLost", playerId: pid, livesLeft: seat.lives });
     if (seat.lives <= 0) {
@@ -869,6 +855,7 @@ export class Room extends DurableObject<Env> {
         score: x.score,
         timeUsedMs: x.timeUsedMs,
         lives: x.lives,
+        lifeMeter: x.lifeMeter ?? 0,
         eliminated: x.eliminated,
         locked: !!s.dive?.answers[x.id] && s.phase === "question",
       }));

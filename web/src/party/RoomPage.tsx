@@ -287,16 +287,6 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                 <span>Base time: {s.baseSeconds}s</span>
                 <input type="range" min={BATTLE_DEFAULTS.baseSecondsMin} max={BATTLE_DEFAULTS.baseSecondsMax} value={s.baseSeconds} disabled={!isHost} onChange={(e) => set({ baseSeconds: Number(e.target.value) })} />
               </label>
-              <div className="field">
-                <span>Bonus time for rare answers</span>
-                <div className="seg">
-                  {(["off", "normal", "double"] as const).map((b) => (
-                    <button key={b} className={`seg-btn${s.bonusScale === b ? " seg-btn--on" : ""}`} disabled={!isHost} onClick={() => set({ bonusScale: b })}>
-                      {b}
-                    </button>
-                  ))}
-                </div>
-              </div>
               <label className="field">
                 <span>New prompt after {s.failedTurnsToRotate} failed turn(s)</span>
                 <input type="range" min={1} max={5} value={s.failedTurnsToRotate} disabled={!isHost} onChange={(e) => set({ failedTurnsToRotate: Number(e.target.value) })} />
@@ -727,7 +717,7 @@ function BattleView({
           <p className="hint">
             {myTurn ? (
               <>
-                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {BATTLE_DEFAULTS.wrongGuessPenaltySeconds}s · 🦑 Deep Cut +1 life · 🐋 One in a Krillion +2 lives
+                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {BATTLE_DEFAULTS.wrongGuessPenaltySeconds}s · good answers fill your life circle (🐋 fills it all, 🦑 half, 🐚 a quarter…) and a full circle is +1 life
               </>
             ) : out ? (
               "You're out, but you can still guess for fun."

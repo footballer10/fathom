@@ -33,20 +33,18 @@ export interface TierInfo {
   emoji: string;
   /** Accent color used on reveal cards and the reveal panel. */
   color: string;
-  /** Bonus seconds in Battle mode when this was your last accepted answer. */
-  battleBonusSeconds: number;
-  /** Battle: extra lives for finding this answer. No cap, so you can go above the starting lives. */
-  battleLives: number;
+  /** Battle: how much of the life circle this answer fills, in 32nds. A full circle (32) is one extra life. */
+  battleLifeFill: number;
 }
 
 /** Ordered from rarest to most common. */
 export const TIERS: readonly TierInfo[] = [
-  { points: 100, name: "One in a Krillion", emoji: "🐋", color: "#ffd166", battleBonusSeconds: 6, battleLives: 2 },
-  { points: 85, name: "Deep Cut", emoji: "🦑", color: "#c77dff", battleBonusSeconds: 4, battleLives: 1 },
-  { points: 60, name: "Rare", emoji: "🐚", color: "#ff8fab", battleBonusSeconds: 3, battleLives: 0 },
-  { points: 30, name: "Schooler", emoji: "🐟", color: "#4cc9f0", battleBonusSeconds: 2, battleLives: 0 },
-  { points: 15, name: "Too Clever", emoji: "🎣", color: "#90be6d", battleBonusSeconds: 1, battleLives: 0 },
-  { points: 10, name: "Plankton", emoji: "🦐", color: "#a8dadc", battleBonusSeconds: 0, battleLives: 0 },
+  { points: 100, name: "One in a Krillion", emoji: "🐋", color: "#ffd166", battleLifeFill: 32 },
+  { points: 85, name: "Deep Cut", emoji: "🦑", color: "#c77dff", battleLifeFill: 16 },
+  { points: 60, name: "Rare", emoji: "🐚", color: "#ff8fab", battleLifeFill: 8 },
+  { points: 30, name: "Schooler", emoji: "🐟", color: "#4cc9f0", battleLifeFill: 4 },
+  { points: 15, name: "Too Clever", emoji: "🎣", color: "#90be6d", battleLifeFill: 2 },
+  { points: 10, name: "Plankton", emoji: "🦐", color: "#a8dadc", battleLifeFill: 1 },
 ];
 
 export const MISS_EMOJI = "❌";
@@ -182,7 +180,8 @@ export const BATTLE_DEFAULTS = {
   baseSecondsMax: 20,
   minBaseSeconds: 4,
   wrongGuessPenaltySeconds: 1,
-  bonusScale: "normal" as "off" | "normal" | "double",
+  /** Size of the life circle in 32nds; filling it earns one life. */
+  lifeMeterFull: 32,
   failedTurnsToRotate: 2,
   minUnusedAnswersBeforeRotate: 5,
   speedUp: true,

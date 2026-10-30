@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { tierInfo, type RoomSnapshot } from "@fathom/shared";
+import { BATTLE_DEFAULTS, tierInfo, type RoomSnapshot } from "@fathom/shared";
 import { serverNow } from "../api";
 import type { RoomEvent } from "./useRoom";
 
@@ -168,7 +168,7 @@ export function PufferArena({
               {state.hostId === p.id && "👑 "}
               {p.nickname}
             </div>
-            <Lives lives={p.lives} out={p.eliminated} />
+            <Lives lives={p.lives} meter={p.lifeMeter} out={p.eliminated} />
             <AnimatePresence>
               {isActive && (
                 <motion.div
@@ -248,7 +248,7 @@ export function PufferArena({
             {myTurn && <span className="seat-ring" aria-hidden />}
             {me.eliminated ? "💀" : me.nickname.slice(0, 1).toUpperCase()}
           </div>
-          {!me.spectator && <Lives lives={me.lives} out={me.eliminated} />}
+          {!me.spectator && <Lives lives={me.lives} meter={me.lifeMeter} out={me.eliminated} />}
         </div>
         <div className="dock-input">{input}</div>
       </div>
@@ -256,11 +256,23 @@ export function PufferArena({
   );
 }
 
-/** Hearts for up to 5 lives; past that, a count (bonus lives have no cap). */
-function Lives({ lives, out }: { lives: number; out: boolean }) {
+/**
+ * Lives as a heart and count inside a ring that fills as good answers come in.
+ * A full ring turns into one more life (no cap).
+ */
+function Lives({ lives, meter, out }: { lives: number; meter: number; out: boolean }) {
   if (out) return <div className="seat-lives">out</div>;
   const n = Math.max(0, lives);
-  return <div className="seat-lives">{n <= 5 ? "❤️".repeat(n) : `❤️×${n}`}</div>;
+  const frac = Math.min(1, Math.max(0, (meter ?? 0) / BATTLE_DEFAULTS.lifeMeterFull));
+  return (
+    <div className="seat-lives life-ring" title={`${n} ${n === 1 ? "life" : "lives"} · ${Math.round(frac * 100)}% to the next`}>
+      <svg viewBox="0 0 36 36" aria-hidden>
+        <circle className="life-ring-track" cx="18" cy="18" r="16" />
+        <circle className="life-ring-fill" cx="18" cy="18" r="16" pathLength={100} strokeDasharray={`${frac * 100} 100`} />
+      </svg>
+      <span className="life-ring-count">❤️{n}</span>
+    </div>
+  );
 }
 
 /** Time ran out: a flash, a ring and the spikes flying off. */
