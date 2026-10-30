@@ -1627,7 +1627,7 @@ select {
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 .arena-dock--active { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(111, 227, 255, 0.18), 0 0 30px rgba(111, 227, 255, 0.35); }
-.dock-me { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: none; }
+.dock-me { display: none; flex-direction: column; align-items: center; gap: 4px; flex: none; }
 .dock-me .seat-avatar { width: 40px; height: 40px; font-size: 1.05rem; }
 .dock-me .seat-ring { inset: -6px; }
 .dock-me .seat-lives { font-size: 0.62rem; }
@@ -1671,6 +1671,35 @@ select {
 @keyframes puffer-wobble {
   from { transform: scale(calc(0.68 + var(--inflate) * 0.85)) rotate(-7deg); }
   to { transform: scale(calc(0.72 + var(--inflate) * 0.85)) rotate(7deg); }
+}
+
+
+/* Seating ring: a faint track everyone sits on, a glowing stage under the fish,
+   and a dotted line from the fish to whoever's up. */
+.arena-ring { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; overflow: visible; }
+.arena-ring ellipse { fill: none; stroke: rgba(160, 225, 255, 0.16); stroke-width: 2; stroke-dasharray: 2 7; vector-effect: non-scaling-stroke; }
+.arena-aim { stroke: var(--accent); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 1 10; vector-effect: non-scaling-stroke; opacity: 0.85; animation: aim-flow 0.9s linear infinite; }
+.arena-aim--next { opacity: 0.35; }
+@keyframes aim-flow { to { stroke-dashoffset: -22; } }
+.arena--still .arena-aim { animation: none; }
+.arena-stage {
+  position: absolute; z-index: 1; width: 230px; height: 230px; translate: -50% -50%; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, rgba(140, 220, 255, 0.28) 0%, rgba(140, 220, 255, 0.08) 45%, transparent 70%);
+  box-shadow: inset 0 0 0 2px rgba(160, 225, 255, 0.12);
+}
+.arena--mine .arena-stage { background: radial-gradient(circle, rgba(255, 216, 74, 0.32) 0%, rgba(255, 160, 60, 0.1) 45%, transparent 70%); }
+/* Lives sit as a badge on the bottom-right of each avatar. */
+.seat-avatar .seat-lives { position: absolute; right: -14px; bottom: -10px; font-size: 0.68rem; color: #fff; }
+.seat-avatar .life-ring circle { fill: #06223f; }
+.seat--you .seat-name { background: var(--accent); color: #032036; }
+.arena-prompt-card {
+  padding: 10px 22px 12px; border-radius: 20px;
+  background: rgba(2, 14, 30, 0.45); backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 560px) {
+  .arena-stage { width: 150px; height: 150px; }
+  .seat-avatar .seat-lives { font-size: 0.5rem; right: -17px; bottom: -8px; }
 }
 
 /* Effects */
@@ -1801,7 +1830,8 @@ body:has(.battle) .toasts { bottom: 130px; }
   .battle .seat { width: 130px; }
   .battle .seat-avatar { width: 64px; height: 64px; font-size: 1.6rem; }
   .battle .seat-name { font-size: 0.95rem; max-width: 130px; }
-  .battle .seat-lives { font-size: 0.9rem; }
+  .battle .seat-avatar .seat-lives { font-size: 0.85rem; right: -18px; bottom: -12px; }
+  .battle .arena-stage { width: 300px; height: 300px; }
   .battle .seat-bubble { font-size: 1.2rem; max-width: 300px; padding: 9px 16px; }
   .battle .puffer { width: 160px; height: 160px; margin: -80px 0 0 -80px; }
   .battle .arena-status { font-size: 1.1rem; padding: 8px 20px; }

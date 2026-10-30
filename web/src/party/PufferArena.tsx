@@ -11,15 +11,18 @@ type Flash =
   | { id: number; kind: "answer"; x: number; y: number; text: string; color: string; emoji: string }
   | { id: number; kind: "life"; x: number; y: number; text: string };
 
-/** Where the fish waits when it's your turn: just above your dock. */
-const YOU_FISH: Pos = { x: 50, y: 70 };
-const CENTER: Pos = { x: 50, y: 54 };
+/** The middle of the ring, where the pufferfish sits. */
+const CENTER: Pos = { x: 50, y: 52 };
+/** Your spot on the ring: bottom centre, just above your dock. */
+const YOU_SEAT: Pos = { x: 50, y: 74 };
+/** Size of the seating ring, in % of the tank. */
+const RING = { rx: 38, ry: 24 };
 
 /**
- * Battle's "pass the pufferfish" arena. Everyone else sits around the top of
- * the tank; you're docked at the bottom with your answer box right beside you.
- * The pufferfish arcs over to whoever's turn it is and puffs up as their time
- * runs out. A correct answer sends it on; running out of time pops it. All
+ * Battle's "pass the pufferfish" arena. Everyone sits evenly around a ring with
+ * the pufferfish in the middle; you're at the bottom, with your answer box in the
+ * dock below. The fish turns to face whoever's turn it is and puffs up as their
+ * time runs out. A correct answer sends it on; running out of time pops it. All
  * drawn here as SVG and CSS.
  */
 export function PufferArena({
@@ -43,20 +46,12 @@ export function PufferArena({
   // Between turns the fish is already on its way to whoever goes next.
   const heading = b.turnPlayerId ?? b.nextTurnPlayerId ?? null;
   const headingToMe = heading === state.you;
-  const holder = heading ? (headingToMe ? { ...YOU_FISH, id: state.you } : seats.get(heading)) : undefined;
-  const fishAt: Pos = !holder ? CENTER : headingToMe ? YOU_FISH : toward(holder, 0.5);
-  const holderAt: Pos | undefined = holder ? (headingToMe ? { x: 50, y: 100 } : holder) : undefined;
-  // The fish is drawn facing left; turn it to face whoever holds it.
-  const facingRight = !!holderAt && holderAt.x > fishAt.x + 2;
-  const tilt = holderAt ? Math.max(-25, Math.min(25, ((holderAt.y - fishAt.y) / 2) * (facingRight ? 1 : -1))) : 0;
-
-  // Arc from the previous spot to the new one, rather than sliding in a straight line.
-  const target = `${fishAt.x},${fishAt.y}`;
-  const track = useRef({ target, from: fishAt, to: fishAt });
-  if (track.current.target !== target) track.current = { target, from: track.current.to, to: fishAt };
-  const { from, to } = track.current;
-  const mid = { x: (from.x + to.x) / 2 + (CENTER.x - (from.x + to.x) / 2) * 0.35, y: Math.min(from.y, to.y) - 10 };
-  const path = { x: [from.x, mid.x, to.x], y: [from.y, mid.y, to.y], moved: from.x !== to.x || from.y !== to.y };
+  const holderAt: Pos | undefined = heading ? (headingToMe ? YOU_SEAT : seats.get(heading)) : undefined;
+  // The fish is drawn facing left. Point its face at whoever holds it, flipping
+  // rather than turning upside down when they're on the right.
+  const aim = holderAt ? (Math.atan2(holderAt.y - CENTER.y, holderAt.x - CENTER.x) * 180) / Math.PI : 180;
+  const facingRight = Math.abs(aim) < 90;
+  const tilt = facingRight ? aim : aim > 0 ? aim - 180 : aim + 180;
 
   const arenaRef = useRef<HTMLDivElement>(null);
   // The tank fills the screen; bring all of it into view when the game starts.
@@ -99,14 +94,14 @@ export function PufferArena({
     for (const e of fresh) {
       if (!("playerId" in e) || typeof e.playerId !== "string") continue;
       const isMe = e.playerId === state.you;
-      const seat: Pos | undefined = isMe ? { x: 50, y: 84 } : seats.get(e.playerId);
+      const seat: Pos | undefined = isMe ? YOU_SEAT : seats.get(e.playerId);
       if (!seat) continue;
-      const fish = isMe ? YOU_FISH : toward(seat, 0.5);
+      const fish = CENTER;
       if (e.type === "lifeLost") add.push({ id: e.id, kind: "pop", ...fish });
       if (e.type === "turnResult") {
         const t = tierInfo(e.tier);
-        add.push({ id: e.id, kind: "answer", ...(isMe ? { x: 50, y: 74 } : toward(seat, 0.22)), text: e.canonical, color: t.color, emoji: t.emoji });
-        if (e.livesGained > 0) add.push({ id: e.id + 0.5, kind: "life", x: seat.x + (isMe ? 18 : 0), y: seat.y - (isMe ? 6 : 10), text: `+${e.livesGained} ❤️` });
+        add.push({ id: e.id, kind: "answer", ...toward(seat, 0.55), text: e.canonical, color: t.color, emoji: t.emoji });
+        if (e.livesGained > 0) add.push({ id: e.id + 0.5, kind: "life", x: seat.x, y: seat.y - 10, text: `+${e.livesGained} ❤️` });
       }
     }
     if (!add.length) return;
@@ -122,7 +117,6 @@ export function PufferArena({
 
   const headingName = heading ? (headingToMe ? "you" : seats.get(heading)?.nickname ?? "someone") : "";
   const activeName = !b.turnPlayerId ? null : myTurn ? "You have" : `${headingName} has`;
-  const arc = reducedMotion || !path.moved ? { duration: 0 } : { duration: 0.75, times: [0, 0.45, 1], ease: "easeInOut" as const };
 
   return (
     <div
@@ -140,10 +134,12 @@ export function PufferArena({
       <div className="arena-floor" aria-hidden />
 
       <div className="arena-top">
+        <div className="arena-prompt-card">
         <div className="arena-meta">
           {b.category.replace("-", " & ")} · prompt {b.round} · base {b.baseSeconds}s
         </div>
         <h2 className="arena-prompt">{b.prompt}</h2>
+        </div>
         <div className="arena-status">
           <span>{activeName ? `${activeName} the pufferfish!` : heading ? `Passing to ${headingName}…` : "Next turn…"}</span>
           <span ref={secsRef} className="arena-secs" />
@@ -163,12 +159,12 @@ export function PufferArena({
             <div className="seat-avatar">
               {isActive && <span className="seat-ring" aria-hidden />}
               {p.eliminated ? "💀" : p.nickname.slice(0, 1).toUpperCase()}
+              <Lives lives={p.lives} meter={p.lifeMeter} out={p.eliminated} />
             </div>
             <div className="seat-name">
               {state.hostId === p.id && "👑 "}
               {p.nickname}
             </div>
-            <Lives lives={p.lives} meter={p.lifeMeter} out={p.eliminated} />
             <AnimatePresence>
               {isActive && (
                 <motion.div
@@ -197,12 +193,18 @@ export function PufferArena({
         );
       })}
 
-      <motion.div className="puffer-pos" initial={false} animate={{ left: path.x.map((v) => `${v}%`), top: path.y.map((v) => `${v}%`) }} transition={arc}>
+      <svg className="arena-ring" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden>
+        <ellipse cx={CENTER.x} cy={CENTER.y} rx={RING.rx} ry={RING.ry} />
+        {holderAt && <line className={`arena-aim${b.turnPlayerId ? "" : " arena-aim--next"}`} x1={CENTER.x} y1={CENTER.y} x2={holderAt.x} y2={holderAt.y} />}
+      </svg>
+      <div className="arena-stage" style={{ left: `${CENTER.x}%`, top: `${CENTER.y}%` }} aria-hidden />
+
+      <div className="puffer-pos" style={{ left: `${CENTER.x}%`, top: `${CENTER.y}%` }}>
         <motion.div
           className="puffer-turn"
           initial={false}
-          animate={{ scaleX: facingRight ? -1 : 1, rotate: tilt }}
-          transition={reducedMotion ? { duration: 0 } : { type: "spring", stiffness: 160, damping: 16 }}
+          animate={{ scaleX: facingRight ? -1 : 1, rotate: facingRight ? -tilt : tilt }}
+          transition={reducedMotion ? { duration: 0 } : { type: "spring", stiffness: 170, damping: 15 }}
         >
           <div className="puffer-bob">
             <div ref={puffRef} className="puffer">
@@ -210,7 +212,7 @@ export function PufferArena({
             </div>
           </div>
         </motion.div>
-      </motion.div>
+      </div>
 
       <AnimatePresence>
         {flashes.map((f) =>
@@ -242,14 +244,21 @@ export function PufferArena({
         )}
       </AnimatePresence>
 
-      <div className={`arena-dock${myTurn ? " arena-dock--active" : ""}${me.eliminated ? " arena-dock--out" : ""}`}>
-        <div className="dock-me" style={{ "--seat-hue": hashHue(me.id) } as React.CSSProperties}>
+      {!me.spectator && (
+        <div
+          className={`seat seat--you${myTurn ? " seat--active" : ""}${me.eliminated ? " seat--out" : ""}`}
+          style={{ left: `${YOU_SEAT.x}%`, top: `${YOU_SEAT.y}%`, "--seat-hue": hashHue(me.id) } as React.CSSProperties}
+        >
           <div className="seat-avatar">
             {myTurn && <span className="seat-ring" aria-hidden />}
             {me.eliminated ? "💀" : me.nickname.slice(0, 1).toUpperCase()}
+            <Lives lives={me.lives} meter={me.lifeMeter} out={me.eliminated} />
           </div>
-          {!me.spectator && <Lives lives={me.lives} meter={me.lifeMeter} out={me.eliminated} />}
+          <div className="seat-name">You</div>
         </div>
+      )}
+
+      <div className={`arena-dock${myTurn ? " arena-dock--active" : ""}${me.eliminated ? " arena-dock--out" : ""}`}>
         <div className="dock-input">{input}</div>
       </div>
     </div>
@@ -312,18 +321,18 @@ function toward(p: Pos, t: number): Pos {
   return { x: CENTER.x + (p.x - CENTER.x) * t, y: CENTER.y + (p.y - CENTER.y) * t };
 }
 
-/** Everyone but you, spread along the top arc of the tank, clockwise after you. */
+/** Everyone but you, spaced evenly around the ring clockwise after you (you're at the bottom). */
 function seatPositions(state: RoomSnapshot) {
   const players = state.players.filter((p) => !p.spectator);
   const youAt = players.findIndex((p) => p.id === state.you);
   const others = youAt < 0 ? players : [...players.slice(youAt + 1), ...players.slice(0, youAt)];
   const map = new Map<string, Seat>();
-  const n = others.length;
+  const slots = others.length + (youAt < 0 ? 0 : 1);
   others.forEach((p, i) => {
-    // From the left side (200°) over the top to the right side (340°).
-    const deg = n === 1 ? 270 : 200 + (140 * i) / (n - 1);
-    const a = (deg * Math.PI) / 180;
-    map.set(p.id, { id: p.id, nickname: p.nickname, x: 50 + 40 * Math.cos(a), y: 62 + 30 * Math.sin(a), hue: hashHue(p.id) });
+    // Slot 0 (straight down) is yours; the rest go clockwise from there.
+    const step = youAt < 0 ? i + 0.5 : i + 1;
+    const a = Math.PI / 2 + (2 * Math.PI * step) / slots;
+    map.set(p.id, { id: p.id, nickname: p.nickname, x: CENTER.x + RING.rx * Math.cos(a), y: CENTER.y + RING.ry * Math.sin(a), hue: hashHue(p.id) });
   });
   return map;
 }
