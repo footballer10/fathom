@@ -9,7 +9,9 @@ import { Home } from "./components/Home";
 import { Ocean } from "./components/Ocean";
 import { Particles } from "./components/Particles";
 import { SettingsPanel } from "./components/SettingsPanel";
+import { LeaderboardsPage } from "./components/Leaderboards";
 import { ArchivePage, FriendsPage } from "./components/Social";
+import { Welcome, shouldWelcome } from "./components/Welcome";
 import { AdminPortal } from "./admin/AdminPortal";
 import { PartyHome } from "./party/PartyHome";
 import { RoomPage } from "./party/RoomPage";
@@ -26,6 +28,7 @@ export function App() {
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   const [settingsOpen, setSettingsOpen] = useState(false);
   const route = useRoute();
+  const [welcome, setWelcome] = useState(shouldWelcome);
   const [inBattle, setInBattle] = useState(false);
   const roomCode = /^\/room\/([A-Za-z]{4})$/.exec(route)?.[1]?.toUpperCase();
   // One animated depth value drives the background, creatures, particles and gauge.
@@ -98,6 +101,8 @@ export function App() {
           <PartyHome />
         ) : route === "/friends" ? (
           <FriendsPage />
+        ) : route === "/leaderboards" ? (
+          <LeaderboardsPage />
         ) : route === "/archive" ? (
           <ArchivePage onPlay={(date) => play("archive", undefined, date)} />
         ) : null}
@@ -125,6 +130,7 @@ export function App() {
       </main>
 
       <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
+      {welcome && !roomCode && <Welcome onDone={() => setWelcome(false)} />}
     </MotionConfig>
   );
 }

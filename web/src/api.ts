@@ -50,6 +50,14 @@ export interface PlayerStats {
   recent: { date: string; points: number }[];
 }
 
+export interface LeaderboardBoard {
+  id: string;
+  title: string;
+  description: string;
+  unit: "count" | "meters" | "percent" | "days";
+  rows: { rank: number; nickname: string; value: number; you: boolean }[];
+}
+
 export interface Profile {
   nickname: string | null;
   friendCode: string | null;
@@ -80,6 +88,7 @@ export const api = {
     call<{ ok: true }>("POST", "/api/report", { sessionId, index, guess }),
   profile: () => call<Profile>("GET", "/api/player"),
   setNickname: (nickname: string) => call<Profile>("POST", "/api/player", { nickname }),
+  leaderboards: () => call<{ updatedAt: number; minAnswersForRates: number; boards: LeaderboardBoard[] }>("GET", "/api/leaderboards"),
   addFriend: (code: string) => call<{ ok: true; nickname: string | null }>("POST", "/api/friends", { code }),
   leaderboard: () =>
     call<{ date: string; dailyNumber: number; me: Profile; rows: LeaderboardRow[] }>("GET", "/api/friends/leaderboard"),

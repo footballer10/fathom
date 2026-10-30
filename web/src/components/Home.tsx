@@ -75,6 +75,9 @@ export function Home({
         <button className="btn btn--ghost" onClick={() => navigate("/party")}>
           🎉 Party with friends
         </button>
+        <button className="btn btn--ghost" onClick={() => navigate("/leaderboards")}>
+          🏆 Leaderboards
+        </button>
         <button className="btn btn--ghost" onClick={() => navigate("/friends")}>
           🐠 Friends board
         </button>

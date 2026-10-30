@@ -1630,3 +1630,31 @@ select {
 @media (prefers-reduced-motion: reduce) {
   .complete-whale { animation: none; }
 }
+
+/* Global leaderboards */
+.leaderboards { display: flex; flex-direction: column; gap: 16px; }
+.page-head { display: flex; align-items: center; gap: 16px; }
+.page-head h2 { margin: 0; }
+.board-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.board h3 { margin: 0 0 2px; }
+.board-desc { margin: 0 0 10px; }
+.board-rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.board-rows li { display: grid; grid-template-columns: 2em 1fr auto; gap: 8px; align-items: center; padding: 4px 6px; border-radius: 8px; }
+.board-rows li.me { background: rgba(111, 227, 255, 0.16); box-shadow: 0 0 0 1px var(--accent) inset; }
+.board-rank { text-align: center; font-weight: 700; color: var(--accent); }
+.board-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.board-value { font-variant-numeric: tabular-nums; font-weight: 700; }
+
+/* First-visit welcome */
+.welcome-backdrop {
+  position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px;
+  background: rgba(2, 14, 30, 0.72); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+}
+.welcome {
+  width: min(460px, 100%); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;
+  padding: 28px 22px; border-radius: var(--radius); background: var(--glass-strong); border: 1px solid var(--glass-border);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+.welcome h2, .welcome p { margin: 0; }
+.welcome .nickname-card { width: 100%; background: transparent; border: 0; box-shadow: none; padding: 6px 0; }
+.welcome-whale { font-size: 3.2rem; animation: whale-bob 3s ease-in-out infinite; }

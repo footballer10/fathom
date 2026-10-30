@@ -28,6 +28,7 @@ import type {
   UsedAnswer,
 } from "@fathom/shared";
 import type { Env } from "./env";
+import { recordPartyResults } from "./leaderboards";
 import { getIndex, getQuestions, markRoomSeen, pickRoomQuestions } from "./questions";
 
 /**
@@ -801,6 +802,12 @@ export class Room extends DurableObject<Env> {
     s.phase = "over";
     if (s.battle) s.battle.turnPlayerId = null;
     this.broadcast({ type: "gameOver", results, bestAnswer });
+    // For the global leaderboards (party wins). Never let a database hiccup break the game.
+    this.ctx.waitUntil(
+      recordPartyResults(this.env, s.kind, s.code, results.map((r) => ({ playerId: r.playerId, rank: r.rank, score: r.score })), Date.now()).catch(
+        (err) => console.error("recordPartyResults", err),
+      ),
+    );
   }
 
   // -------------------------------------------------------------------------

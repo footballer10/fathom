@@ -3,6 +3,7 @@ import type { Context } from "hono";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { adminRoutes } from "./admin";
+import { leaderboardRoutes } from "./leaderboards";
 import { roomRoutes } from "./rooms";
 import { categories, finish, getDaily, guess, nextQuestion, report, reveal, sessionState, startSession } from "./solo";
 import { playerStats } from "./stats";
@@ -56,6 +57,7 @@ app.get("/api/stats/me", async (c) => c.json(await playerStats(c.env, playerIdOf
 app.post("/api/report", async (c) => c.json(await report(c.env, playerIdOf(c), await body(c), Date.now())));
 
 app.route("/", adminRoutes);
+app.route("/", leaderboardRoutes);
 app.route("/", roomRoutes);
 app.route("/", friendRoutes);
 
