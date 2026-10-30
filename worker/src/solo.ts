@@ -3,7 +3,6 @@ import {
   PERCENTILE_MIN_RESULTS,
   QUESTIONS_PER_UNLIMITED_RUN,
   QUESTION_SECONDS,
-  UNLIMITED_REPEAT_THRESHOLD,
   WRONG_GUESS_PENALTY_SECONDS,
   closestAnswer,
   compact,
@@ -162,43 +161,33 @@ async function ensurePlayer(env: Env, playerId: string, now: number) {
   await env.DB.prepare("INSERT OR IGNORE INTO players (id, created_at) VALUES (?, ?)").bind(playerId, now).run();
 }
 
+/**
+ * Unlimited never repeats: each player sees a question here at most once, ever.
+ * The "seen" list is permanent. Dailies and party games don't add to it, so a
+ * question can still come up there. Runs get shorter as the last few unseen
+ * questions are used up, and when none are left the player has finished Unlimited.
+ */
 async function pickUnlimited(env: Env, playerId: string, category: Category | undefined, now: number): Promise<string[]> {
   const [date, todays] = await unlimitedParams(env, now);
-  const catClause = category ? " AND category = ?3" : "";
-  const bind = category ? [date, todays, category] : [date, todays];
-
-  const counts = await env.DB.prepare(
-    `SELECT COUNT(*) AS total,
-            SUM(CASE WHEN id IN (SELECT question_id FROM seen WHERE player_id = ?${bind.length + 1}) THEN 1 ELSE 0 END) AS seen
-     FROM questions WHERE ${UNLIMITED_WHERE}${catClause}`,
-  )
-    .bind(...bind, playerId)
-    .first<{ total: number; seen: number }>();
-  const total = counts?.total ?? 0;
-  if (total === 0) return [];
-
-  // Avoid repeats until the player has seen 80% of the pool, then start over.
-  if ((counts?.seen ?? 0) / total >= UNLIMITED_REPEAT_THRESHOLD) {
-    await env.DB.prepare(
-      `DELETE FROM seen WHERE player_id = ?${bind.length + 1} AND question_id IN (SELECT id FROM questions WHERE ${UNLIMITED_WHERE}${catClause})`,
-    )
-      .bind(...bind, playerId)
-      .run();
-  }
-
-  const { results } = await env.DB.prepare(
+  const catClause = category ? " AND category = ?4" : "";
+  const stmt = env.DB.prepare(
     `SELECT id FROM questions WHERE ${UNLIMITED_WHERE}${catClause}
-     ORDER BY CASE WHEN id IN (SELECT question_id FROM seen WHERE player_id = ?${bind.length + 1}) THEN 1 ELSE 0 END, RANDOM()
+       AND id NOT IN (SELECT question_id FROM seen WHERE player_id = ?3)
+     ORDER BY RANDOM()
      LIMIT ${QUESTIONS_PER_UNLIMITED_RUN}`,
-  )
-    .bind(...bind, playerId)
-    .all<{ id: string }>();
+  );
+  const { results } = await (category ? stmt.bind(date, todays, playerId, category) : stmt.bind(date, todays, playerId)).all<{ id: string }>();
   const ids = results.map((r) => r.id);
-  if (ids.length) {
-    await env.DB.batch(
-      ids.map((id) => env.DB.prepare("INSERT OR REPLACE INTO seen (player_id, question_id, seen_at) VALUES (?, ?, ?)").bind(playerId, id, now)),
+  if (!ids.length) {
+    throw new HttpError(
+      410,
+      category ? "You've played every question in this category." : "You've played every Unlimited question.",
+      category ? "unlimited-category-complete" : "unlimited-complete",
     );
   }
+  await env.DB.batch(
+    ids.map((id) => env.DB.prepare("INSERT OR IGNORE INTO seen (player_id, question_id, seen_at) VALUES (?, ?, ?)").bind(playerId, id, now)),
+  );
   return ids;
 }
 

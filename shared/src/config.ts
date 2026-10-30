@@ -110,8 +110,6 @@ export const MATCHER_AMBIGUITY: "unique-closest" | "strict" = "unique-closest";
 // Unlimited / content pipeline
 // ---------------------------------------------------------------------------
 
-/** Avoid repeats in Unlimited until the player has seen this share of the pool. */
-export const UNLIMITED_REPEAT_THRESHOLD = 0.8;
 
 /**
  * Weekly content plan: 49 new Daily questions (7 days × 7) plus 100 extra

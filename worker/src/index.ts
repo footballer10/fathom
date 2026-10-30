@@ -29,7 +29,7 @@ async function body<T>(c: Context<AppEnv>): Promise<T> {
 }
 
 app.onError((err, c) => {
-  if (err instanceof HttpError) return c.json({ error: err.message }, err.status as 400);
+  if (err instanceof HttpError) return c.json({ error: err.message, ...(err.code ? { code: err.code } : {}) }, err.status as 400);
   console.error(err);
   return c.json({ error: "Server error" }, 500);
 });

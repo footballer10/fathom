@@ -48,6 +48,7 @@ export function Game({
   const [reveal, setReveal] = useState<RevealResponse | null>(null);
   const [penaltyPops, setPenaltyPops] = useState<number[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [errorCode, setErrorCode] = useState<string | null>(null);
   /** The local clock hit zero; we're waiting for the server to confirm. */
   const [timeUp, setTimeUp] = useState(false);
   const phaseRef = useRef<Phase>("loading");
@@ -65,6 +66,7 @@ export function Game({
 
   const fail = (err: unknown) => {
     setError(err instanceof Error ? err.message : "Something went wrong");
+    setErrorCode((err as { code?: string } | null)?.code ?? null);
     setPhase("error");
   };
 
@@ -210,6 +212,34 @@ export function Game({
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [phase, advance]);
+
+  if (phase === "error" && (errorCode === "unlimited-complete" || errorCode === "unlimited-category-complete")) {
+    const whole = errorCode === "unlimited-complete";
+    return (
+      <motion.div
+        className="card center complete-card"
+        initial={settings.reducedMotion ? false : { opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ type: "spring", stiffness: 200, damping: 18 }}
+      >
+        <div className="complete-whale" aria-hidden>
+          🐋
+        </div>
+        <h2>{whole ? "You've explored the whole ocean!" : "You've cleared this reef!"}</h2>
+        <p>
+          {whole
+            ? "You've played every single Unlimited question. That's one in a krillion."
+            : `You've played every ${category ? category.replace("-", " & ") : ""} question in Unlimited.`}
+        </p>
+        <p className="muted">
+          {whole ? "New questions arrive every week, so check back soon. The Daily and party games are always open." : "Try another category, or check back after this week's new questions arrive."}
+        </p>
+        <button className="btn btn--primary" onClick={onQuit}>
+          Back to the surface
+        </button>
+      </motion.div>
+    );
+  }
 
   if (phase === "error") {
     return (

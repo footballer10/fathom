@@ -33,7 +33,7 @@ async function call<T>(method: "GET" | "POST" | "DELETE", path: string, body?: u
     body: body === undefined ? undefined : JSON.stringify(body),
   });
   const data = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(data.error ?? `Request failed (${res.status})`);
+  if (!res.ok) throw Object.assign(new Error(data.error ?? `Request failed (${res.status})`), { code: data.code as string | undefined });
   if (typeof data.serverNow === "number") syncClock(data.serverNow, Date.now() - sentAt);
   return data as T;
 }

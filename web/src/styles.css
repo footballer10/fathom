@@ -1617,3 +1617,16 @@ select {
   background: radial-gradient(circle at 30% 30%, hsl(var(--b-hue) 100% 92% / 0.9), hsl(var(--b-hue) 90% 70% / 0.15) 60%);
 }
 .finale-rest { display: flex; flex-direction: column; gap: 16px; }
+
+/* Unlimited: finished every question */
+.complete-card { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 32px 24px; }
+.complete-card h2 { margin: 0; }
+.complete-card p { margin: 0; max-width: 420px; }
+.complete-whale { font-size: 4rem; animation: whale-bob 3s ease-in-out infinite; }
+@keyframes whale-bob {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .complete-whale { animation: none; }
+}
