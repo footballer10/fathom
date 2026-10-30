@@ -24,7 +24,9 @@ Every valid answer must be in the list. A player who types a correct answer and 
 AUDIENCE: HIGH SCHOOL STUDENTS
 The players are mostly US high schoolers (ages 14-18). Every prompt must be one a typical high schooler can answer several ways from everyday life, school, sports, games, movies, music they listen to, or the internet.
 - Skip topics mostly known to older adults: song catalogs of older artists (Elvis, the Rolling Stones, Billy Joel, Madonna and so on), government offices beyond presidents (Supreme Court justices, Secretaries of State, Speakers of the House, prime ministers), popes, awards lists (Grammy Best New Artist, Time Person of the Year, the Heisman), and specialist knowledge like livestock or rabbit breeds and grass varieties.
-- Test it: would most students in a high school class name at least three answers in a minute? If not, pick a different prompt.
+- Nobody should ever blank. Every typical high schooler, including ones who don't follow that topic, must be able to think of at least one answer. Players don't need to be experts, but no one should be completely stuck.
+- So no prompts about the characters, episodes, songs or details of one specific TV show, movie series, book series, video game or band, unless it is famous enough that nearly everyone knows at least one answer (SpongeBob, Harry Potter, Star Wars, Toy Story, Mario, Pokémon level). "Name a character from Friends", "Name a Stranger Things character", "Name an Avatar: The Last Airbender character" and "Name a Mario Kart track" are out.
+- Test it: would every student in a high school class name at least one answer, and most of them several, in a minute? If not, pick a different prompt.
 
 WHAT MAKES A GOOD PROMPT
 - Easy entry: almost anyone can name at least one answer within 5 seconds.
