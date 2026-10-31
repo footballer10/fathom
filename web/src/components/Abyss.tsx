@@ -6,6 +6,7 @@ import type { AbyssStatus } from "../api";
 import { getNickname } from "../nickname";
 import { navigate } from "../router";
 import { TimerRing } from "./TimerRing";
+import { DidYouMean } from "./DidYouMean";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
@@ -21,6 +22,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
   const [text, setText] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
   const [timeUp, setTimeUp] = useState(false);
+  const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const shake = useAnimationControls();
 
@@ -44,12 +46,17 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
     }
   };
 
-  const submit = async () => {
-    const guess = text.trim();
+  const submit = async (confirmed?: string) => {
+    const guess = confirmed ?? text.trim();
     if (!guess || timeUp) return;
     setText("");
+    setAsk(null);
     try {
-      const r = await api.abyssGuess(guess);
+      const r = await api.abyssGuess(guess, confirmed !== undefined);
+      if (r.reason === "confirm" && r.canonical) {
+        setAsk({ guess, canonical: r.canonical });
+        return;
+      }
       if (r.accepted && r.tier && r.canonical) {
         setMsg(null);
         setStatus((s) => {
@@ -138,7 +145,18 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
               <div className="muted small">Next Abyss in {untilText(status.weekEndsAt - serverNow())}</div>
             </motion.div>
           )}
-          {msg && playing && <p className="hint">{msg}</p>}
+          {ask && playing && (
+            <DidYouMean
+              guess={ask.guess}
+              canonical={ask.canonical}
+              onYes={() => void submit(ask.guess)}
+              onNo={() => {
+                setAsk(null);
+                inputRef.current?.focus();
+              }}
+            />
+          )}
+          {msg && playing && !ask && <p className="hint">{msg}</p>}
           {a.answers.length > 0 && (
             <ul className="reveal-chips abyss-found">
               {a.answers.map((x, i) => (

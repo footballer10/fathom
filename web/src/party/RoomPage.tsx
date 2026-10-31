@@ -16,6 +16,7 @@ import type { GaugeDiver } from "../components/DepthGauge";
 import { api, serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
 import { ShouldCount } from "../components/ShouldCount";
+import { DidYouMean } from "../components/DidYouMean";
 import { TimerRing } from "../components/TimerRing";
 import { NicknamePrompt, getNickname } from "../nickname";
 import { navigate } from "../router";
@@ -37,11 +38,33 @@ function useNow(intervalMs = 250) {
   return now;
 }
 
+/**
+ * How many questions the current (or just-finished) game has. Depths use this,
+ * never the lobby setting, so changing the setting can't rescale a game already played.
+ */
+function gameQuestions(state: RoomSnapshot) {
+  return state.dive?.total ?? (state.settings as DiveSettings).questionCount;
+}
+
 /** A stable colour per player, for their submarine. */
 function hueOf(id: string) {
   let h = 0;
   for (const c of id) h = (h * 31 + c.charCodeAt(0)) % 360;
   return h;
+}
+
+/** Time left in the round, still ticking after you've locked in (or been bitten). */
+function RoundClock({ endsAt, totalMs }: { endsAt: number; totalMs: number }) {
+  const now = useNow(200);
+  const left = Math.max(0, endsAt - now);
+  return (
+    <div className={`round-clock${left <= 5000 ? " round-clock--low" : ""}`} aria-label={`${Math.ceil(left / 1000)} seconds left`}>
+      <div className="round-clock-bar">
+        <div className="round-clock-fill" style={{ width: `${Math.min(100, (left / totalMs) * 100)}%` }} />
+      </div>
+      <span>{Math.ceil(left / 1000)}s left</span>
+    </div>
+  );
 }
 
 /** "Shark Tank · ABCD" style room title. */
@@ -54,7 +77,7 @@ function variantName(state: RoomSnapshot) {
 function CoopBar({ state }: { state: RoomSnapshot }) {
   const c = state.dive?.coop;
   if (!c) return null;
-  const qc = (state.settings as DiveSettings).questionCount;
+  const qc = gameQuestions(state);
   const frac = Math.min(1, c.total / c.target);
   return (
     <div className="coop-bar" aria-label={`Team depth ${partyDepth(c.total, qc)} of ${partyDepth(c.target, qc)}`}>
@@ -169,14 +192,15 @@ export function RoomPage({
   const me = state?.players.find((p) => p.id === state.you);
   useEffect(() => {
     // Background depth follows the party scale, so shorter games still reach the deep zones.
-    if (state?.kind === "dive") onDepth((me?.score ?? 0) * partyDepthScale((state.settings as DiveSettings).questionCount));
-  }, [state?.kind, state?.settings, me?.score, onDepth]);
+    // In the lobby nobody has dived yet (old scores stay put even if the host changes the question count).
+    if (state?.kind === "dive") onDepth(state.phase === "lobby" ? 0 : (me?.score ?? 0) * partyDepthScale(gameQuestions(state)));
+  }, [state?.kind, state?.phase, state?.dive?.total, me?.score, onDepth]);
 
   // Everyone else's submarine on the depth gauge.
-  const diversKey = state?.kind === "dive" ? state.players.map((p) => `${p.id}:${p.score}:${p.spectator}`).join("|") : "";
+  const diversKey = state?.kind === "dive" ? `${state.phase === "lobby"}|${state.dive?.total}|` + state.players.map((p) => `${p.id}:${p.score}:${p.spectator}`).join("|") : "";
   useEffect(() => {
-    if (!state || state.kind !== "dive") return onDivers([]);
-    const qc = (state.settings as DiveSettings).questionCount;
+    if (!state || state.kind !== "dive" || state.phase === "lobby") return onDivers([]);
+    const qc = gameQuestions(state);
     onDivers(
       state.players
         .filter((p) => p.id !== state.you && !p.spectator)
@@ -241,6 +265,17 @@ export function RoomPage({
     return (
       <div className="room">
         <NicknamePrompt onDone={setNickname} title={`Join room ${code}`} />
+      </div>
+    );
+  }
+
+  if (status === "kicked") {
+    return (
+      <div className="room card center">
+        <p>The host removed you from this room.</p>
+        <button className="btn" onClick={() => navigate("/party")}>
+          Back to Party
+        </button>
       </div>
     );
   }
@@ -316,7 +351,8 @@ export function RoomPage({
 // Lobby
 // ---------------------------------------------------------------------------
 
-function PlayerList({ state, showLives = false, active }: { state: RoomSnapshot; showLives?: boolean; active?: string | null }) {
+function PlayerList({ state, showLives = false, active, send }: { state: RoomSnapshot; showLives?: boolean; active?: string | null; send?: Send }) {
+  const isHost = state.hostId === state.you;
   return (
     <ul className="player-list">
       {state.players.map((p) => (
@@ -332,6 +368,16 @@ function PlayerList({ state, showLives = false, active }: { state: RoomSnapshot;
           </span>
           {showLives && !p.spectator && <span className="lives">{p.eliminated ? "out" : "❤️".repeat(Math.max(0, p.lives))}</span>}
           {state.phase === "question" && !p.spectator && <span className="lock">{p.locked ? "🔒" : "…"}</span>}
+          {isHost && send && p.id !== state.you && (
+            <button
+              className="kick-btn"
+              title={`Remove ${p.nickname} from the room`}
+              aria-label={`Remove ${p.nickname}`}
+              onClick={() => confirm(`Remove ${p.nickname} from the room? They won't be able to rejoin.`) && send({ type: "kick", playerId: p.id })}
+            >
+              ✕
+            </button>
+          )}
         </li>
       ))}
     </ul>
@@ -368,7 +414,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
           <h3>
             Players ({state.players.length}/{state.kind === "dive" ? DIVE_DEFAULTS.maxPlayers : BATTLE_DEFAULTS.maxPlayers})
           </h3>
-          <PlayerList state={state} />
+          <PlayerList state={state} send={send} />
         </div>
         <div className="card settings-card">
           <h3>Settings {isHost ? "" : <span className="muted small">(host picks)</span>}</h3>
@@ -506,6 +552,7 @@ function DiveQuestion({
 }) {
   const d = state.dive!;
   const lastSent = useRef("");
+  const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
   const me = state.players.find((p) => p.id === state.you)!;
   const [text, setText] = useState("");
   const [timeUp, setTimeUp] = useState(false);
@@ -517,6 +564,7 @@ function DiveQuestion({
   useEffect(() => {
     setTimeUp(false);
     setText("");
+    setAsk(null);
     inputRef.current?.focus();
   }, [d.index]);
 
@@ -525,6 +573,10 @@ function DiveQuestion({
     if (!fresh.length) return;
     lastSeen.current = fresh[fresh.length - 1].id;
     for (const e of fresh) {
+      if (e.type === "guessResult" && !e.accepted && e.reason === "confirm" && e.canonical) {
+        setAsk({ guess: lastSent.current, canonical: e.canonical });
+        continue;
+      }
       if (e.type === "guessResult" && !e.accepted) {
         const k = e.id;
         if (lastSent.current && e.reason !== "taken") onRejected(d.index, lastSent.current);
@@ -564,12 +616,14 @@ function DiveQuestion({
             <b>You were bitten!</b>
           </div>
           <div className="muted small">Watch the others try to survive.</div>
+          <RoundClock endsAt={d.endsAt} totalMs={(state.settings as DiveSettings).timerSeconds * 1000} />
         </div>
       ) : d.yourAnswer ? (
         <div className="locked-card" style={{ "--tier": tierInfo(d.yourAnswer.tier).color } as React.CSSProperties}>
           <div>Locked in: <b>{d.yourAnswer.canonical}</b></div>
           <TierBadge tier={d.yourAnswer.tier} />
           <div className="muted small">Waiting for everyone else…</div>
+          <RoundClock endsAt={d.endsAt} totalMs={(state.settings as DiveSettings).timerSeconds * 1000} />
         </div>
       ) : (
         <motion.div animate={shake} className="input-wrap">
@@ -599,11 +653,28 @@ function DiveQuestion({
           </AnimatePresence>
         </motion.div>
       )}
+      {ask && !d.yourAnswer && (
+        <DidYouMean
+          guess={ask.guess}
+          canonical={ask.canonical}
+          onYes={() => {
+            send({ type: "guess", text: ask.guess, confirm: true });
+            setAsk(null);
+            setText("");
+          }}
+          onNo={() => {
+            onRejected(d.index, ask.guess);
+            setAsk(null);
+            setText("");
+            inputRef.current?.focus();
+          }}
+        />
+      )}
       <p className="hint">
         <kbd>Enter ↵</kbd> to submit · players who've locked in show a 🔒
       </p>
       <div className="card">
-        <PlayerList state={state} />
+        <PlayerList state={state} send={send} />
       </div>
     </div>
   );
@@ -660,7 +731,7 @@ function DiveReveal({
                 <span className="reveal-pts">
                   {r.bitten && <span className="tag tag--shark" title="Bitten by the shark">🦈</span>}
                   {r.votedRight && <span className="tag tag--bluff" title={`Spotted the rarest answer: +${DIVE_DEFAULTS.bluffBonus}`}>🎭</span>}
-                  +{formatDepth(partyDepth(r.points, (state.settings as DiveSettings).questionCount))}
+                  +{formatDepth(partyDepth(r.points, gameQuestions(state)))}
                   {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
                 </span>
               </li>
@@ -674,7 +745,7 @@ function DiveReveal({
               <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
                 <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
                 <span className="lb-name">{r.nickname}</span>
-                <span className="lb-depth">{formatDepth(partyDepth(r.score, (state.settings as DiveSettings).questionCount))}</span>
+                <span className="lb-depth">{formatDepth(partyDepth(r.score, gameQuestions(state)))}</span>
                 {settled && r.rank < r.previousRank && <span className="lb-move up">▲</span>}
                 {settled && r.rank > r.previousRank && <span className="lb-move down">▼</span>}
               </motion.li>
@@ -718,7 +789,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
   const lanes = results.slice(0, 8);
   const coop = state.results?.coop;
   const variant = (state.settings as DiveSettings).variant ?? "classic";
-  const qc = (state.settings as DiveSettings).questionCount;
+  const qc = gameQuestions(state);
 
   return (
     <div className="finale">
@@ -774,7 +845,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
                 Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
               </p>
             )}
-            {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} questionCount={(state.settings as DiveSettings).questionCount} />}
+            {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} questionCount={gameQuestions(state)} />}
             <div className="card">
               <ol className="leaderboard">
                 {results.map((r) => (
@@ -854,6 +925,8 @@ function BattleView({
   const [text, setText] = useState("");
   const [waitHint, setWaitHint] = useState(false);
   const [letterHint, setLetterHint] = useState(false);
+  const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
+  useEffect(() => setAsk(null), [b.turnPlayerId, b.prompt]);
   // Your wrong guesses on this prompt, for "this should count".
   const [wrong, setWrong] = useState<string[]>([]);
   const lastSent = useRef("");
@@ -877,12 +950,14 @@ function BattleView({
     const fresh = events.filter((e) => e.id > lastSeen.current);
     if (!fresh.length) return;
     lastSeen.current = fresh[fresh.length - 1].id;
-    if (fresh.some((e) => e.type === "guessResult" && !e.accepted && e.reason !== "taken") && lastSent.current) {
+    if (fresh.some((e) => e.type === "guessResult" && !e.accepted && e.reason !== "taken" && e.reason !== "confirm") && lastSent.current) {
       const g = lastSent.current;
       setWrong((w) => (w.includes(g) ? w : [...w, g]));
     }
+    const c = fresh.find((e) => e.type === "guessResult" && !e.accepted && e.reason === "confirm");
+    if (c && c.type === "guessResult" && c.canonical) setAsk({ guess: lastSent.current, canonical: c.canonical });
     setLetterHint(fresh.some((e) => e.type === "guessResult" && !e.accepted && e.reason === "letter"));
-    if (fresh.some((e) => e.type === "guessResult" && !e.accepted) && !reducedMotion) {
+    if (fresh.some((e) => e.type === "guessResult" && !e.accepted && e.reason !== "confirm") && !reducedMotion) {
       void shake.start({ x: [0, -10, 8, -6, 4, 0], transition: { duration: 0.4 } });
     }
   }, [events, shake, reducedMotion]);
@@ -946,7 +1021,33 @@ function BattleView({
           </motion.div>
         )}
       </AnimatePresence>
-      <PufferArena state={state} typing={typing} events={events} reducedMotion={reducedMotion} input={input} />
+      <PufferArena
+        state={state}
+        typing={typing}
+        events={events}
+        reducedMotion={reducedMotion}
+        input={
+          <>
+            {input}
+            {ask && myTurn && (
+              <DidYouMean
+                guess={ask.guess}
+                canonical={ask.canonical}
+                onYes={() => {
+                  lastSent.current = ask.guess;
+                  send({ type: "guess", text: ask.guess, confirm: true });
+                  setAsk(null);
+                }}
+                onNo={() => {
+                  setWrong((w) => (w.includes(ask.guess) ? w : [...w, ask.guess]));
+                  setAsk(null);
+                  inputRef.current?.focus();
+                }}
+              />
+            )}
+          </>
+        }
+      />
       {!active && showRotate && <p className="hint">Next turn in {startsIn}s</p>}
 
       <div className="battle-cols">

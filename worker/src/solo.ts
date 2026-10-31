@@ -294,7 +294,7 @@ export async function guess(
   env: Env,
   playerId: string,
   id: string,
-  body: { index?: number; text?: string },
+  body: { index?: number; text?: string; confirm?: boolean },
   now: number,
 ): Promise<GuessResponse> {
   const s = await loadSession(env, id, playerId);
@@ -318,6 +318,11 @@ export async function guess(
   const text = String(body.text ?? "").slice(0, 100);
   const index = await getIndex(env, qid);
   const result = matchGuess(index, text);
+
+  // Autocorrected matches ask first ("Did you mean…?"); the client resends with confirm.
+  if (result.accepted && result.corrected && !body.confirm) {
+    return { accepted: false, answerId: null, canonical: result.canonical, tier: null, points: 0, corrected: true, reason: "confirm", endsAt: endsAt(s), serverNow: now, questionDone: false };
+  }
 
   if (result.accepted) {
     // Only the first accepted answer counts, even if two requests race.

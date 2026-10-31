@@ -17,7 +17,8 @@ export interface QuestionData {
   notes?: string;
 }
 
-export type MatchReason = "wrong" | "taken" | "late" | "ambiguous";
+/** "confirm" is never produced by the matcher: the server uses it to ask "Did you mean…?" before accepting an autocorrected guess. */
+export type MatchReason = "wrong" | "taken" | "late" | "ambiguous" | "confirm";
 
 export interface MatchResult {
   accepted: boolean;

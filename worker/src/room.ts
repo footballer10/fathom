@@ -128,6 +128,8 @@ interface BattleRound {
 
 interface RoomState {
   code: string;
+  /** Players the host removed; they can't rejoin this room. */
+  kicked?: string[];
   kind: RoomKind;
   hostId: string | null;
   createdAt: number;
@@ -284,10 +286,13 @@ export class Room extends DurableObject<Env> {
         if (pid === this.s.hostId && this.s.phase === "over") this.toLobby();
         break;
       case "guess":
-        await this.onGuess(ws, pid, String(msg.text ?? "").slice(0, 100), now);
+        await this.onGuess(ws, pid, String(msg.text ?? "").slice(0, 100), now, msg.confirm === true);
         return;
       case "vote":
         await this.onVote(pid, String(msg.optionId ?? ""), now);
+        break;
+      case "kick":
+        if (pid === this.s.hostId) await this.kick(String(msg.playerId ?? ""), now);
         break;
     }
     await this.commit();
@@ -372,6 +377,11 @@ export class Room extends DurableObject<Env> {
     const s = this.s!;
     if (!/^[\w-]{8,64}$/.test(String(playerId))) return this.send(ws, { type: "error", message: "Bad player id" });
     const nickname = String(nicknameRaw ?? "").trim().slice(0, 16);
+    if (s.kicked?.includes(playerId)) {
+      this.send(ws, { type: "error", message: "The host removed you from this room." });
+      ws.close(4003, "Removed by the host");
+      return;
+    }
     const existing = s.seats[playerId];
     if (!existing) {
       const problem = nicknameProblem(nickname);
@@ -400,6 +410,35 @@ export class Room extends DurableObject<Env> {
     if (!s.hostId || !this.connectedIds().has(s.hostId)) s.hostId = playerId;
     s.lastActivity = now;
     await this.commit();
+  }
+
+  /** The host removes a player: their seat goes, their connection closes, and they can't come back. */
+  private async kick(target: string, now: number) {
+    const s = this.s!;
+    if (!s.seats[target] || target === s.hostId) return;
+    delete s.seats[target];
+    s.kicked = [...(s.kicked ?? []), target].slice(-50);
+    for (const ws of this.ctx.getWebSockets()) {
+      if ((ws.deserializeAttachment() as Attachment | null)?.playerId !== target) continue;
+      this.send(ws, { type: "error", message: "The host removed you from this room." });
+      ws.close(4003, "Removed by the host");
+    }
+    // Mid-Battle: take them out of the turn order (passing the fish on if it was theirs).
+    const b = s.battle;
+    if (b && (s.phase === "turn" || s.phase === "rotate")) {
+      const wasTurn = b.turnPlayerId === target;
+      const next = this.nextAfter(target);
+      b.order = b.order.filter((id) => id !== target);
+      if (this.aliveIds().length <= 1) return this.gameOver(b.best);
+      if (wasTurn || b.nextTurnPlayerId === target) {
+        Object.assign(b, { turnPlayerId: null, turnStartedAt: now, nextTurnAt: now + BATTLE_DEFAULTS.betweenTurnsMs, nextTurnPlayerId: next ?? this.aliveIds()[0] });
+      }
+    }
+    // Mid-Dive: if everyone left has answered, move on.
+    if (s.dive && s.phase === "question") {
+      const connected = this.connectedIds();
+      if (this.activeDivers().filter((x) => connected.has(x.id)).every((x) => s.dive!.answers[x.id])) await this.revealDive(now);
+    }
   }
 
   /** The host left: the oldest still-connected player takes over. */
@@ -573,7 +612,7 @@ export class Room extends DurableObject<Env> {
     return Object.values(this.s!.seats).filter((x) => !x.spectator && !x.eliminated);
   }
 
-  private async diveGuess(ws: WebSocket, pid: string, text: string, now: number) {
+  private async diveGuess(ws: WebSocket, pid: string, text: string, now: number, confirm: boolean) {
     const s = this.s!;
     const d = s.dive!;
     const seat = s.seats[pid];
@@ -584,6 +623,10 @@ export class Room extends DurableObject<Env> {
     }
     const index = await getIndex(this.env, d.questionIds[d.index]);
     const r = matchGuess(index, text);
+    // Autocorrected matches ask first ("Did you mean…?"); no penalty for asking.
+    if (r.accepted && r.corrected && !confirm) {
+      return this.send(ws, { type: "guessResult", accepted: false, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm", endsAt: myEnd });
+    }
     if (r.accepted && r.answerId && r.canonical && r.tier) {
       d.answers[pid] = {
         answerId: r.answerId,
@@ -744,7 +787,7 @@ export class Room extends DurableObject<Env> {
 
   private aliveIds(): string[] {
     const s = this.s!;
-    return s.battle!.order.filter((id) => !s.seats[id].eliminated);
+    return s.battle!.order.filter((id) => s.seats[id] && !s.seats[id].eliminated);
   }
 
 
@@ -782,7 +825,7 @@ export class Room extends DurableObject<Env> {
     b.nextTurnPlayerId = this.nextAfter(after);
   }
 
-  private async battleGuess(ws: WebSocket, pid: string, text: string, now: number) {
+  private async battleGuess(ws: WebSocket, pid: string, text: string, now: number, confirm: boolean) {
     const s = this.s!;
     const b = s.battle!;
     const seat = s.seats[pid];
@@ -800,6 +843,9 @@ export class Room extends DurableObject<Env> {
     if (now > b.turnEndsAt + DEADLINE_GRACE_MS) return;
 
     const r = matchGuess(index, text, { takenAnswerIds: new Set(b.usedIds) });
+    if (r.accepted && r.corrected && !confirm) {
+      return this.send(ws, { type: "guessResult", accepted: false, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm", endsAt: b.turnEndsAt });
+    }
     const relay = battleVariant(s) === "relay";
     // Relay: a valid answer still has to start with the chain letter.
     if (relay && r.accepted && r.canonical && b.letter && firstLetter(r.canonical) !== b.letter) {
@@ -918,11 +964,11 @@ export class Room extends DurableObject<Env> {
     this.broadcast({ type: "typing", playerId: pid, text });
   }
 
-  private async onGuess(ws: WebSocket, pid: string, text: string, now: number) {
+  private async onGuess(ws: WebSocket, pid: string, text: string, now: number, confirm: boolean) {
     const s = this.s!;
     if (!text.trim()) return;
-    if (s.kind === "dive" && s.dive) await this.diveGuess(ws, pid, text, now);
-    else if (s.kind === "battle" && s.battle) await this.battleGuess(ws, pid, text, now);
+    if (s.kind === "dive" && s.dive) await this.diveGuess(ws, pid, text, now, confirm);
+    else if (s.kind === "battle" && s.battle) await this.battleGuess(ws, pid, text, now, confirm);
     await this.commit();
   }
 

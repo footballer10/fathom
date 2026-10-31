@@ -135,8 +135,8 @@ export const api = {
   start: (mode: GameMode, category?: Category) => call<SessionState>("POST", "/api/session/start", { mode, category }),
   state: (id: string) => call<SessionState>("GET", `/api/session/${id}`),
   next: (id: string) => call<SessionState>("POST", `/api/session/${id}/next`),
-  guess: (id: string, index: number, text: string) =>
-    call<GuessResponse>("POST", `/api/session/${id}/guess`, { index, text }),
+  guess: (id: string, index: number, text: string, confirm = false) =>
+    call<GuessResponse>("POST", `/api/session/${id}/guess`, { index, text, confirm }),
   reveal: (id: string, index: number) => call<RevealResponse>("GET", `/api/session/${id}/reveal/${index}`),
   finish: (id: string) => call<FinishResponse>("POST", `/api/session/${id}/finish`),
   stats: () => call<PlayerStats>("GET", "/api/stats/me"),
@@ -156,11 +156,11 @@ export const api = {
   friendRequests: () => call<{ requests: FriendRequest[] }>("GET", "/api/friends/requests"),
   answerRequest: (code: string, answer: "accept" | "decline") => call<{ ok: true }>("POST", `/api/friends/requests/${encodeURIComponent(code)}/${answer}`),
   practiceQuestion: (opts: { exclude?: string[]; minAnswers?: number; tier?: number } = {}) => call<PracticeQuestion>("POST", "/api/practice/question", opts),
-  practiceGuess: (id: string, text: string, taken: string[] = []) => call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken }),
+  practiceGuess: (id: string, text: string, taken: string[] = [], confirm = false) => call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken, confirm }),
   practiceAnswers: (id: string) => call<{ answers: RevealAnswer[] }>("GET", `/api/practice/answers/${encodeURIComponent(id)}`),
   abyss: () => call<AbyssStatus>("GET", "/api/abyss"),
   abyssStart: () => call<{ prompt: string; category: Category; attempt: AbyssAttempt }>("POST", "/api/abyss/start"),
-  abyssGuess: (text: string) => call<{ accepted: boolean; canonical: string | null; tier: TierPoints | null; points: number; reason: string | null }>("POST", "/api/abyss/guess", { text }),
+  abyssGuess: (text: string, confirm = false) => call<{ accepted: boolean; canonical: string | null; tier: TierPoints | null; points: number; reason: string | null }>("POST", "/api/abyss/guess", { text, confirm }),
   suggest: (kind: SuggestionKind, text: string) => call<{ ok: true }>("POST", "/api/suggestions", { kind, text }),
   createRoom: (kind: "dive" | "battle", variant?: string) => call<{ code: string }>("POST", "/api/rooms", { kind, variant }),
 };

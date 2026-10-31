@@ -47,11 +47,14 @@ practiceRoutes.post("/api/practice/question", async (c) => {
 /** Check one guess. `taken` are answer ids you've already used (Five Answers, Abyss). */
 practiceRoutes.post("/api/practice/guess", async (c) => {
   pid(c);
-  const body = await c.req.json<{ id?: string; text?: string; taken?: string[] }>().catch(() => ({}) as { id?: string; text?: string; taken?: string[] });
+  const body = await c.req.json<{ id?: string; text?: string; taken?: string[]; confirm?: boolean }>().catch(() => ({}) as { id?: string; text?: string; taken?: string[]; confirm?: boolean });
   if (!body.id || !body.text) throw new HttpError(400, "Missing guess");
   const index = await getIndex(c.env, String(body.id)).catch(() => null);
   if (!index) throw new HttpError(404, "No such question");
   const r = matchGuess(index, String(body.text).slice(0, 100), { takenAnswerIds: new Set((body.taken ?? []).map(String)) });
+  if (r.accepted && r.corrected && !body.confirm) {
+    return c.json({ accepted: false, answerId: null, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm" });
+  }
   return c.json({ accepted: r.accepted, answerId: r.answerId, canonical: r.canonical, tier: r.tier, points: r.points, corrected: r.corrected, reason: r.reason });
 });
 
@@ -187,13 +190,14 @@ practiceRoutes.post("/api/abyss/guess", async (c) => {
   const playerId = pid(c);
   const now = Date.now();
   const { week } = weekOf(now);
-  const { text } = await c.req.json<{ text?: string }>().catch(() => ({ text: "" }));
+  const { text, confirm } = await c.req.json<{ text?: string; confirm?: boolean }>().catch(() => ({ text: "", confirm: false }));
   const a = await c.env.DB.prepare("SELECT * FROM abyss_attempts WHERE week = ? AND player_id = ?").bind(week, playerId).first<AbyssRow>();
   if (!a) throw new HttpError(400, "Start your dive first");
   if (now > a.started_at + ABYSS_SECONDS * 1000 + ABYSS_GRACE_MS) throw new HttpError(400, "Time's up for this week's dive");
   const answers = JSON.parse(a.answers) as { answerId: string; canonical: string; tier: TierPoints }[];
   const index = await getIndex(c.env, a.question_id);
   const r = matchGuess(index, String(text ?? "").slice(0, 100), { takenAnswerIds: new Set(answers.map((x) => x.answerId)) });
+  if (r.accepted && r.corrected && !confirm) return c.json({ accepted: false, canonical: r.canonical, tier: null, points: 0, reason: "confirm" });
   if (r.accepted && r.answerId && r.canonical && r.tier) {
     answers.push({ answerId: r.answerId, canonical: r.canonical, tier: r.tier });
     const better = !a.best_tier || r.tier > a.best_tier;

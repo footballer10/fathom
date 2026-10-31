@@ -1421,8 +1421,13 @@ select {
   display: grid; grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr); gap: 16px;
   position: relative; left: 50%; width: max(100%, min(1000px, calc(100vw - 540px))); transform: translateX(-50%);
 }
-.reveal-rows { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
-.reveal-rows li { display: grid; grid-template-columns: minmax(90px, 0.9fr) minmax(0, 2fr) auto auto; gap: 10px; align-items: center; padding: 4px 6px; border-radius: 8px; }
+/* All rows share one set of columns (subgrid), so names, answers, badges and depths line up. */
+.reveal-rows {
+  list-style: none; padding: 0; margin: 0;
+  display: grid; grid-template-columns: minmax(70px, max-content) minmax(0, 1fr) max-content max-content; column-gap: 12px; row-gap: 4px;
+}
+.reveal-rows li { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; align-items: center; padding: 4px 6px; border-radius: 8px; }
+.reveal-rows .tier-badge { justify-self: start; }
 .reveal-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .reveal-ans { overflow-wrap: anywhere; font-weight: 600; }
 .reveal-pts { font-variant-numeric: tabular-nums; text-align: right; min-width: 3em; }
@@ -1490,7 +1495,7 @@ select {
   .lobby-cols, .reveal-cols, .battle-cols { grid-template-columns: 1fr; }
   .reveal-cols { left: auto; width: auto; transform: none; }
   .big-code { font-size: 2.3rem; }
-  .reveal-rows li { grid-template-columns: 1fr 1fr auto; }
+  .reveal-rows { grid-template-columns: minmax(60px, max-content) minmax(0, 1fr) max-content; }
   .reveal-rows .tier-badge { display: none; }
   .race-lanes { height: 240px; }
 }
@@ -2049,3 +2054,28 @@ body:has(.battle) .toasts { bottom: 104px; }
 .ladder-rung--no { opacity: 0.3; text-decoration: line-through; }
 .chip--best { box-shadow: 0 0 0 2px #ffd166; font-weight: 800; }
 @media (max-width: 560px) { .five-slots { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.kick-btn {
+  margin-left: 6px; width: 26px; height: 26px; border-radius: 50%; flex: none; cursor: pointer;
+  background: transparent; color: var(--muted); border: 1px solid transparent; font-size: 0.8rem;
+}
+.player:hover .kick-btn, .kick-btn:focus-visible { border-color: rgba(255, 90, 110, 0.6); color: #ff9aa6; }
+.kick-btn:hover { background: rgba(255, 90, 110, 0.2); color: #fff; }
+
+/* Round clock on the locked-in card */
+.round-clock { display: flex; align-items: center; gap: 10px; width: min(260px, 100%); margin-top: 6px; font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.9rem; }
+.round-clock-bar { flex: 1; height: 8px; border-radius: 99px; background: rgba(255, 255, 255, 0.15); overflow: hidden; }
+.round-clock-fill { height: 100%; border-radius: 99px; background: var(--accent); transition: width 0.2s linear; }
+.round-clock--low { color: #ff8a8a; }
+.round-clock--low .round-clock-fill { background: #ff6b5b; }
+
+/* "Did you mean…?" before an autocorrect is accepted */
+.did-you-mean {
+  align-self: center; margin: 10px auto 0; width: min(560px, 100%); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center;
+  padding: 10px 14px; border-radius: 14px; background: rgba(2, 14, 30, 0.82); border: 1px solid var(--accent);
+  box-shadow: 0 0 20px rgba(111, 227, 255, 0.25);
+}
+.did-you-mean b { color: var(--accent); }
+.did-you-mean-actions { display: inline-flex; gap: 8px; }
+.did-you-mean kbd { font-size: 0.7rem; opacity: 0.75; margin-left: 4px; }
+.dock-input .did-you-mean { margin-top: 8px; }

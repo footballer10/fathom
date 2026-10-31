@@ -177,8 +177,9 @@ export type ClientMessage =
   | { type: "start" }
   | { type: "next" }
   | { type: "lobby" }
-  | { type: "guess"; text: string }
+  | { type: "guess"; text: string; confirm?: boolean }
   | { type: "vote"; optionId: string }
+  | { type: "kick"; playerId: string }
   | { type: "typing"; text: string }
   | { type: "ping"; t: number };
 

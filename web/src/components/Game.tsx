@@ -7,6 +7,7 @@ import { useSettings } from "../settings";
 import { sounds } from "../sound";
 import { RevealPanel } from "./RevealPanel";
 import { ShouldCount } from "./ShouldCount";
+import { DidYouMean } from "./DidYouMean";
 import { TierReveal } from "./TierReveal";
 import { TimerRing } from "./TimerRing";
 
@@ -48,6 +49,8 @@ export function Game({
   const [outcome, setOutcome] = useState<Outcome | null>(null);
   const [reveal, setReveal] = useState<RevealResponse | null>(null);
   const [penaltyPops, setPenaltyPops] = useState<number[]>([]);
+  // "Did you mean…?" for a guess that only matched after autocorrect.
+  const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [errorCode, setErrorCode] = useState<string | null>(null);
   /** The local clock hit zero; we're waiting for the server to confirm. */
@@ -100,6 +103,7 @@ export function Game({
       setOutcome(null);
       setReveal(null);
       rejected.current = [];
+      setAsk(null);
       setText("");
       setTimeUp(false);
       setEndsAt(s.current.endsAt);
@@ -120,15 +124,18 @@ export function Game({
     if (phase === "question") inputRef.current?.focus();
   }, [phase, session?.current?.index]);
 
-  const submit = async () => {
+  const submit = async (confirmed?: string) => {
     if (!session?.current || pending || timeUp || phase !== "question") return;
-    const guess = text.trim();
+    const guess = confirmed ?? text.trim();
     if (!guess) return;
+    setAsk(null);
     setPending(true);
     try {
-      const r = await api.guess(session.sessionId, session.current.index, guess);
+      const r = await api.guess(session.sessionId, session.current.index, guess, confirmed !== undefined);
       setEndsAt(r.endsAt);
-      if (r.accepted) {
+      if (r.reason === "confirm" && r.canonical) {
+        setAsk({ guess, canonical: r.canonical });
+      } else if (r.accepted) {
         play(() => sounds.ping(r.tier ?? 10));
         const s = await api.state(session.sessionId);
         setSession(s);
@@ -325,7 +332,20 @@ export function Game({
           <p className="hint">
             <kbd>Enter ↵</kbd> to submit · wrong guesses are free, keep trying · rarer answers dive deeper
           </p>
-          {penaltyPops.length > 0 && <p className="not-accepted" role="status">Not accepted</p>}
+          {ask && (
+            <DidYouMean
+              guess={ask.guess}
+              canonical={ask.canonical}
+              onYes={() => void submit(ask.guess)}
+              onNo={() => {
+                rejected.current = [...rejected.current.slice(-4), ask.guess];
+                setAsk(null);
+                setText("");
+                inputRef.current?.focus();
+              }}
+            />
+          )}
+          {penaltyPops.length > 0 && !ask && <p className="not-accepted" role="status">Not accepted</p>}
         </>
       )}
 

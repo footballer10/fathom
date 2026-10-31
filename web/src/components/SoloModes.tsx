@@ -6,6 +6,7 @@ import { api, serverNow } from "../api";
 import type { PracticeQuestion } from "../api";
 import { navigate } from "../router";
 import { TimerRing } from "./TimerRing";
+import { DidYouMean } from "./DidYouMean";
 
 export type SoloMode = "sprint" | "ladder" | "roulette" | "five";
 
@@ -171,6 +172,8 @@ function SoloRun({
   const [target, setTarget] = useState<TierPoints | null>(null);
   const [found, setFound] = useState<{ answerId: string; canonical: string; tier: TierPoints }[]>([]);
   const played = useRef<Played[]>([]);
+  const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
+  useEffect(() => setAsk(null), [q?.id]);
   const exclude = useRef<string[]>([]);
   const taken = useRef<string[]>([]);
   const finished = useRef(false);
@@ -266,13 +269,18 @@ function SoloRun({
     void nextRoulette(hits, r);
   };
 
-  const submit = async () => {
-    const guess = text.trim();
+  const submit = async (confirmed?: string) => {
+    const guess = confirmed ?? text.trim();
     if (!guess || !q || busy.current || finished.current) return;
     busy.current = true;
     setText("");
+    setAsk(null);
     try {
-      const r = await api.practiceGuess(q.id, guess, mode === "five" || mode === "roulette" ? taken.current : []);
+      const r = await api.practiceGuess(q.id, guess, mode === "five" || mode === "roulette" ? taken.current : [], confirmed !== undefined);
+      if (r.reason === "confirm" && r.canonical) {
+        setAsk({ guess, canonical: r.canonical });
+        return;
+      }
       if (!r.accepted || !r.tier || !r.canonical || !r.answerId) {
         setMsg({ text: r.reason === "taken" ? "You already used that one" : "Not on the list. Keep trying!", tone: "bad" });
         if (!reducedMotion) void shake.start({ x: [0, -10, 8, -6, 4, 0], transition: { duration: 0.4 } });
@@ -397,7 +405,18 @@ function SoloRun({
           )}
         </AnimatePresence>
       </motion.div>
-      {msg && <p className={`hint solo-msg solo-msg--${msg.tone}`}>{msg.text}</p>}
+      {ask && (
+        <DidYouMean
+          guess={ask.guess}
+          canonical={ask.canonical}
+          onYes={() => void submit(ask.guess)}
+          onNo={() => {
+            setAsk(null);
+            inputRef.current?.focus();
+          }}
+        />
+      )}
+      {msg && !ask && <p className={`hint solo-msg solo-msg--${msg.tone}`}>{msg.text}</p>}
       {mode === "sprint" && (
         <div className="center">
           <button className="btn btn--ghost btn--small" onClick={() => q && (played.current.push({ prompt: q.prompt, canonical: null, tier: null, note: "Skipped" }), void loadQuestion())}>

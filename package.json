@@ -38,7 +38,8 @@
     "sim:repeats": "tsx scripts/sim/repeats.ts",
     "sim:leaderboards": "tsx scripts/sim/leaderboards.ts",
     "sim:social": "tsx scripts/sim/social.ts",
-    "sim:variants": "tsx scripts/sim/variants.ts"
+    "sim:variants": "tsx scripts/sim/variants.ts",
+    "sim:kick": "tsx scripts/sim/kick.ts"
   },
   "devDependencies": {
     "@types/ws": "^8.18.2",

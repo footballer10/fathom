@@ -12,7 +12,7 @@ export type RoomEvent = ServerMessage & { id: number };
  */
 export function useRoom(code: string, nickname: string | null) {
   const [state, setState] = useState<RoomSnapshot | null>(null);
-  const [status, setStatus] = useState<"connecting" | "open" | "closed" | "gone">("connecting");
+  const [status, setStatus] = useState<"connecting" | "open" | "closed" | "gone" | "kicked">("connecting");
   const [events, setEvents] = useState<RoomEvent[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [revealAnswers, setRevealAnswers] = useState<RevealAnswer[]>([]);
@@ -75,6 +75,10 @@ export function useRoom(code: string, nickname: string | null) {
         if (stopped) return;
         if (e.code === 4000 || e.code === 4004) {
           setStatus("gone");
+          return;
+        }
+        if (e.code === 4003) {
+          setStatus("kicked");
           return;
         }
         setStatus("closed");
