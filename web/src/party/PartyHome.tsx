@@ -1,18 +1,47 @@
 import { useState } from "react";
-import { isRoomCode } from "@fathom/shared";
+import { VARIANT_INFO, isRoomCode } from "@fathom/shared";
 import { api } from "../api";
 import { navigate } from "../router";
+
+const DIVE_MODES = [
+  { variant: "classic", name: "Dive", emoji: "🌊", blurb: "Up to 16 players. Rarest answers win; ties go to whoever was faster. Ends in a depth race." },
+  { variant: "coop", ...VARIANT_INFO.coop },
+  { variant: "shark", ...VARIANT_INFO.shark },
+  { variant: "bluff", ...VARIANT_INFO.bluff },
+];
+const BATTLE_MODES = [
+  { variant: "classic", name: "Battle", emoji: "🐡", blurb: "Up to 12 players. Pass the pufferfish: everyone watches you type, and running out of time costs a life." },
+  { variant: "hotpotato", ...VARIANT_INFO.hotpotato },
+  { variant: "relay", ...VARIANT_INFO.relay },
+];
+
+function ModeCard({ name, emoji, blurb, busy, onCreate }: { name: string; emoji: string; blurb: string; busy: boolean; onCreate: () => void }) {
+  return (
+    <div className="card mode-card variant-card">
+      <div className="mode-card-head">
+        <span className="mode-card-emoji" aria-hidden>
+          {emoji}
+        </span>
+        <h3>{name}</h3>
+      </div>
+      <p className="muted small">{blurb}</p>
+      <button className="btn btn--primary" onClick={onCreate} disabled={busy}>
+        Create room
+      </button>
+    </div>
+  );
+}
 
 export function PartyHome() {
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const create = async (kind: "dive" | "battle") => {
+  const create = async (kind: "dive" | "battle", variant: string) => {
     setBusy(true);
     setError(null);
     try {
-      const r = await api.createRoom(kind);
+      const r = await api.createRoom(kind, variant);
       navigate(`/room/${r.code}`);
     } catch (e) {
       setError((e as Error).message);
@@ -32,27 +61,17 @@ export function PartyHome() {
     <div className="party-home">
       <h1 className="title">Party</h1>
       <p className="tagline">Play live with friends. One person creates a room and shares the code.</p>
-      <div className="mode-cards mode-cards--two">
-        <div className="card mode-card">
-          <div className="mode-card-head">
-            <h3>Dive</h3>
-            <span className="muted">Everyone answers the same prompt at once</span>
-          </div>
-          <p className="muted small">Up to 16 players. Rarest answers win; ties go to whoever was faster. Ends in a depth race.</p>
-          <button className="btn btn--primary" onClick={() => void create("dive")} disabled={busy}>
-            Create Dive room
-          </button>
-        </div>
-        <div className="card mode-card">
-          <div className="mode-card-head">
-            <h3>Battle</h3>
-            <span className="muted">Take turns. No repeats. Last diver standing.</span>
-          </div>
-          <p className="muted small">Up to 12 players. Everyone watches you type. Run out of time and you lose a life.</p>
-          <button className="btn btn--primary" onClick={() => void create("battle")} disabled={busy}>
-            Create Battle room
-          </button>
-        </div>
+      <h2 className="party-section">🌊 Group Dive <span className="muted small">everyone answers the same prompt at once</span></h2>
+      <div className="variant-grid variant-grid--4">
+        {DIVE_MODES.map((m) => (
+          <ModeCard key={m.variant} {...m} busy={busy} onCreate={() => void create("dive", m.variant)} />
+        ))}
+      </div>
+      <h2 className="party-section">🐡 Battle <span className="muted small">take turns, no repeats</span></h2>
+      <div className="variant-grid">
+        {BATTLE_MODES.map((m) => (
+          <ModeCard key={m.variant} {...m} busy={busy} onCreate={() => void create("battle", m.variant)} />
+        ))}
       </div>
       <div className="card join-card">
         <h3>Join a room</h3>

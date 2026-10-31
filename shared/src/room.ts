@@ -7,6 +7,20 @@ import type { RevealAnswer } from "./types";
  */
 
 export type RoomKind = "dive" | "battle";
+
+/** Group Dive variants: classic race, everyone vs a shared target, last diver not bitten, or vote on the rarest. */
+export type DiveVariant = "classic" | "coop" | "shark" | "bluff";
+/** Battle variants: classic, a new prompt every turn, or two teams chaining last letters. */
+export type BattleVariant = "classic" | "hotpotato" | "relay";
+
+export const VARIANT_INFO: Record<DiveVariant | BattleVariant, { name: string; emoji: string; blurb: string }> = {
+  classic: { name: "Classic", emoji: "🌊", blurb: "" },
+  coop: { name: "Co-op Dive", emoji: "🤝", blurb: "Everyone's depth adds up. Reach the target depth together before the questions run out." },
+  shark: { name: "Shark Tank", emoji: "🦈", blurb: "Each round the shark bites whoever gave the most common answer. Last divers left win." },
+  bluff: { name: "Bluff", emoji: "🎭", blurb: "Answer, then vote on which answer is the rarest. Spot it for bonus depth." },
+  hotpotato: { name: "Hot Potato", emoji: "🥔", blurb: "Battle, but the prompt changes every single turn." },
+  relay: { name: "Relay", emoji: "🔤", blurb: "Two teams take turns. Each answer must start with the last letter of the one before." },
+};
 export type QuestionSource = "daily" | "unlimited" | "category";
 
 export interface DiveSettings {
@@ -17,6 +31,7 @@ export interface DiveSettings {
   uniqueAnswers: boolean;
   /** Seconds a wrong guess takes off your clock (0 = no penalty). */
   penaltySeconds: number;
+  variant?: DiveVariant;
 }
 
 export interface BattleSettings {
@@ -30,9 +45,10 @@ export interface BattleSettings {
   speedUp: boolean;
   /** Seconds a wrong or taken answer takes off your turn (0 = no penalty). */
   penaltySeconds: number;
+  variant?: BattleVariant;
 }
 
-export type RoomPhase = "lobby" | "question" | "reveal" | "turn" | "rotate" | "over";
+export type RoomPhase = "lobby" | "question" | "vote" | "reveal" | "turn" | "rotate" | "over";
 
 export interface RoomPlayer {
   id: string;
@@ -47,6 +63,8 @@ export interface RoomPlayer {
   lifeMeter: number;
   eliminated: boolean;
   locked: boolean;
+  /** Relay: which team (0 or 1). */
+  team?: number;
 }
 
 export interface UsedAnswer {
@@ -63,6 +81,10 @@ export interface RevealRow {
   points: number;
   corrected: boolean;
   shared: boolean;
+  /** Shark Tank: bitten this round. */
+  bitten?: boolean;
+  /** Bluff: picked the rarest answer in the vote (and got the bonus). */
+  votedRight?: boolean;
 }
 
 export interface LeaderboardRow {
@@ -81,6 +103,8 @@ export interface GameResult {
   depth: number;
   timeUsedMs: number;
   rank: number;
+  /** Relay: the player's team. */
+  team?: number;
   /** Per-question depth after each question, for the finale race animation (Dive). */
   depthTrail: number[];
   eliminatedAt?: number;
@@ -104,6 +128,10 @@ export interface RoomSnapshot {
     yourEndsAt: number;
     yourAnswer: { canonical: string; tier: TierPoints; points: number; corrected: boolean } | null;
     reveal: { perPlayer: RevealRow[]; leaderboard: LeaderboardRow[]; answers: RevealAnswer[]; nextAt: number } | null;
+    /** Bluff: the anonymous answers to vote on. */
+    vote?: { options: { id: string; text: string }[]; endsAt: number; voted: string[]; yourVote: string | null; yourOptionId: string | null } | null;
+    /** Co-op: the team's combined score so far and the target. */
+    coop?: { total: number; target: number } | null;
   };
   battle?: {
     prompt: string;
@@ -118,15 +146,26 @@ export interface RoomSnapshot {
     turnEndsAt: number;
     used: UsedAnswer[];
     typing: string;
+    /** Relay: the letter the next answer must start with (null = any). */
+    letter?: string | null;
+    /** Relay: lives left for team 0 and team 1. */
+    teamLives?: [number, number] | null;
     spectatorGuesses: { playerId: string; nickname: string; text: string; canonical: string | null; tier: TierPoints | null }[];
   };
-  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[] };
+  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[]; coop?: CoopResult | null; winningTeam?: number | null };
 }
 
 /** One Dive question's answers from every player, for the end-of-game recap. */
 export interface QuestionRecap {
   prompt: string;
   perPlayer: RevealRow[];
+}
+
+/** Co-op Dive outcome: the team's combined score against the target. */
+export interface CoopResult {
+  total: number;
+  target: number;
+  success: boolean;
 }
 
 export type BestAnswer = { nickname: string; canonical: string; tier: TierPoints; prompt: string } | null;
@@ -139,6 +178,7 @@ export type ClientMessage =
   | { type: "next" }
   | { type: "lobby" }
   | { type: "guess"; text: string }
+  | { type: "vote"; optionId: string }
   | { type: "typing"; text: string }
   | { type: "ping"; t: number };
 

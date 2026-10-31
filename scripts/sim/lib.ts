@@ -92,8 +92,8 @@ export class Bot {
   }
 }
 
-export async function createRoom(kind: "dive" | "battle"): Promise<string> {
-  const res = await fetch(`${BASE}/api/rooms`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ kind }) });
+export async function createRoom(kind: "dive" | "battle", variant?: string): Promise<string> {
+  const res = await fetch(`${BASE}/api/rooms`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ kind, variant }) });
   const { code } = (await res.json()) as { code: string };
   if (!code) throw new Error("No room code");
   return code;

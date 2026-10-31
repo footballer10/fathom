@@ -165,6 +165,11 @@ export const DIVE_DEFAULTS = {
   wrongGuessPenaltySeconds: 2,
   /** Host slider range for the wrong-guess penalty, in seconds. */
   penaltyMax: 5,
+  /** Bluff: seconds to vote, and bonus points for spotting the rarest answer. */
+  bluffVoteSeconds: 20,
+  bluffBonus: 25,
+  /** Co-op: target points per player per question (about a Rare-ish average). */
+  coopPointsPerAnswer: 40,
   /** How long the per-question reveal stays up before the next question. */
   revealSeconds: 9,
   roomIdleExpiryMinutes: 120,
@@ -194,5 +199,7 @@ export const BATTLE_DEFAULTS = {
   /** Pause between turns, and the "NEW PROMPT" transition length. */
   betweenTurnsMs: 1200,
   rotatePauseMs: 2500,
+  /** Hot Potato: the shorter pause between turns, since every turn brings a new prompt. */
+  hotPotatoPauseMs: 1500,
   minPlayers: 2,
 } as const;

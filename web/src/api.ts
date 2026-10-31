@@ -4,8 +4,10 @@ import type {
   FinishResponse,
   GameMode,
   GuessResponse,
+  RevealAnswer,
   RevealResponse,
   SessionState,
+  TierPoints,
 } from "@fathom/shared";
 import { getPlayerId } from "./player";
 
@@ -77,6 +79,41 @@ export interface FriendRequest {
 
 export type SuggestionKind = "answer" | "bug" | "idea" | "other";
 
+export interface PracticeQuestion {
+  id: string;
+  prompt: string;
+  category: Category;
+  answerCount: number;
+}
+
+export interface PracticeGuess {
+  accepted: boolean;
+  answerId: string | null;
+  canonical: string | null;
+  tier: TierPoints | null;
+  points: number;
+  corrected: boolean;
+  reason: string | null;
+}
+
+export interface AbyssAttempt {
+  startedAt: number;
+  endsAt: number;
+  done: boolean;
+  best: { tier: TierPoints; canonical: string } | null;
+  answers: { answerId: string; canonical: string; tier: TierPoints }[];
+}
+
+export interface AbyssStatus {
+  week: string;
+  weekEndsAt: number;
+  seconds: number;
+  category: Category;
+  prompt: string | null;
+  attempt: AbyssAttempt | null;
+  board: { divers: number; rows: { rank: number; nickname: string; tier: TierPoints; answer: string; you: boolean }[] };
+}
+
 export interface Profile {
   nickname: string | null;
   friendCode: string | null;
@@ -118,6 +155,12 @@ export const api = {
   requestFriend: (code: string) => call<{ status: "sent" | "friends"; nickname: string | null }>("POST", "/api/friends/requests", { code }),
   friendRequests: () => call<{ requests: FriendRequest[] }>("GET", "/api/friends/requests"),
   answerRequest: (code: string, answer: "accept" | "decline") => call<{ ok: true }>("POST", `/api/friends/requests/${encodeURIComponent(code)}/${answer}`),
+  practiceQuestion: (opts: { exclude?: string[]; minAnswers?: number; tier?: number } = {}) => call<PracticeQuestion>("POST", "/api/practice/question", opts),
+  practiceGuess: (id: string, text: string, taken: string[] = []) => call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken }),
+  practiceAnswers: (id: string) => call<{ answers: RevealAnswer[] }>("GET", `/api/practice/answers/${encodeURIComponent(id)}`),
+  abyss: () => call<AbyssStatus>("GET", "/api/abyss"),
+  abyssStart: () => call<{ prompt: string; category: Category; attempt: AbyssAttempt }>("POST", "/api/abyss/start"),
+  abyssGuess: (text: string) => call<{ accepted: boolean; canonical: string | null; tier: TierPoints | null; points: number; reason: string | null }>("POST", "/api/abyss/guess", { text }),
   suggest: (kind: SuggestionKind, text: string) => call<{ ok: true }>("POST", "/api/suggestions", { kind, text }),
-  createRoom: (kind: "dive" | "battle") => call<{ code: string }>("POST", "/api/rooms", { kind }),
+  createRoom: (kind: "dive" | "battle", variant?: string) => call<{ code: string }>("POST", "/api/rooms", { kind, variant }),
 };

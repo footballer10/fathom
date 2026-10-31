@@ -6,6 +6,8 @@ import { api } from "../api";
 import type { DailyStatus } from "../api";
 import { navigate } from "../router";
 import { StatsPanel } from "./Social";
+import { SOLO_MODES } from "./SoloModes";
+import type { SoloMode } from "./SoloModes";
 
 export function Home({
   onPlay,
@@ -101,6 +103,22 @@ export function Home({
           💬 Suggest a fix
         </button>
       </nav>
+
+      <h2 className="home-section">More ways to play</h2>
+      <div className="more-modes">
+        <button className="card more-mode more-mode--abyss" onClick={() => navigate("/abyss")}>
+          <span className="more-mode-emoji">🕳️</span>
+          <span className="more-mode-name">Weekly Abyss</span>
+          <span className="muted small">One very deep prompt a week. One 45-second dive. Your rarest answer counts.</span>
+        </button>
+        {(Object.keys(SOLO_MODES) as SoloMode[]).map((m) => (
+          <button key={m} className="card more-mode" onClick={() => navigate(`/play/${m}`)}>
+            <span className="more-mode-emoji">{SOLO_MODES[m].emoji}</span>
+            <span className="more-mode-name">{SOLO_MODES[m].name}</span>
+            <span className="muted small">{SOLO_MODES[m].short}</span>
+          </button>
+        ))}
+      </div>
 
       {error && <p className="error-text">Couldn't reach the game server: {error}</p>}
 

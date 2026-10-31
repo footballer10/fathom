@@ -150,6 +150,7 @@ export function PufferArena({
       <div className="arena-top">
         <div className="arena-prompt-card">
         <div className="arena-meta">
+          {variantLabel(state)}
           {b.category.replace("-", " & ")} · prompt {b.round} · base {b.baseSeconds}s
         </div>
         <h2 className="arena-prompt">{b.prompt}</h2>
@@ -158,6 +159,25 @@ export function PufferArena({
           <span>{activeName ? `${activeName} the pufferfish!` : heading ? `Passing to ${headingName}…` : "Next turn…"}</span>
           <span ref={secsRef} className="arena-secs" />
         </div>
+        {b.teamLives && (
+          <div className="relay-bar">
+            <span className="team-name team-name--0">
+              Coral ❤️{b.teamLives[0]}
+            </span>
+            <span className="relay-letter" title="The next answer must start with this letter">
+              {b.letter ? (
+                <>
+                  Next answer starts with <b>{b.letter.toUpperCase()}</b>
+                </>
+              ) : (
+                "Any letter"
+              )}
+            </span>
+            <span className="team-name team-name--1">
+              Kelp ❤️{b.teamLives[1]}
+            </span>
+          </div>
+        )}
       </div>
 
       {[...seats.values()].map((s) => {
@@ -167,7 +187,7 @@ export function PufferArena({
         return (
           <div
             key={s.id}
-            className={`seat${isActive ? " seat--active" : ""}${p.eliminated ? " seat--out" : ""}${p.connected ? "" : " seat--away"}`}
+            className={`seat${isActive ? " seat--active" : ""}${p.eliminated ? " seat--out" : ""}${p.connected ? "" : " seat--away"}${p.team !== undefined ? ` seat--team-${p.team}` : ""}`}
             style={{ left: `${s.x}%`, top: `${s.y}%`, "--seat-hue": s.hue } as React.CSSProperties}
           >
             <div className="seat-avatar">
@@ -256,7 +276,7 @@ export function PufferArena({
 
       {!me.spectator && (
         <div
-          className={`seat seat--you${myTurn ? " seat--active" : ""}${me.eliminated ? " seat--out" : ""}`}
+          className={`seat seat--you${myTurn ? " seat--active" : ""}${me.eliminated ? " seat--out" : ""}${me.team !== undefined ? ` seat--team-${me.team}` : ""}`}
           style={{ left: `${YOU_SEAT.x}%`, top: `${YOU_SEAT.y}%`, "--seat-hue": hashHue(me.id) } as React.CSSProperties}
         >
           <div className="seat-avatar">
@@ -439,6 +459,11 @@ function ArenaScenery() {
       </svg>
     </div>
   );
+}
+
+function variantLabel(state: RoomSnapshot) {
+  const v = (state.settings as { variant?: string }).variant;
+  return v === "hotpotato" ? "🥔 Hot Potato · " : v === "relay" ? "🔤 Relay · " : "";
 }
 
 /** A point part of the way from the centre of the tank toward a seat. */

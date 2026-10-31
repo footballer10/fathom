@@ -15,6 +15,9 @@ import { ArchivePage, FriendsPage } from "./components/Social";
 import { Welcome, shouldWelcome } from "./components/Welcome";
 import { FriendRequestPopup } from "./components/FriendRequests";
 import { SuggestBox } from "./components/SuggestBox";
+import { AbyssPage } from "./components/Abyss";
+import { SoloModePage } from "./components/SoloModes";
+import type { SoloMode } from "./components/SoloModes";
 import { AdminPortal } from "./admin/AdminPortal";
 import { PartyHome } from "./party/PartyHome";
 import { RoomPage } from "./party/RoomPage";
@@ -36,6 +39,7 @@ export function App() {
   const [inBattle, setInBattle] = useState(false);
   const [partyDivers, setPartyDivers] = useState<GaugeDiver[]>([]);
   const roomCode = /^\/room\/([A-Za-z]{4})$/.exec(route)?.[1]?.toUpperCase();
+  const soloMode = /^\/play\/(sprint|ladder|roulette|five)$/.exec(route)?.[1] as SoloMode | undefined;
   // One animated depth value drives the background, creatures, particles and gauge.
   const depth = useMotionValue(0);
 
@@ -117,6 +121,10 @@ export function App() {
           <FriendsPage />
         ) : route === "/leaderboards" ? (
           <LeaderboardsPage />
+        ) : route === "/abyss" ? (
+          <AbyssPage reducedMotion={settings.reducedMotion} />
+        ) : soloMode ? (
+          <SoloModePage key={soloMode} mode={soloMode} reducedMotion={settings.reducedMotion} onDepth={diveTo} />
         ) : route === "/archive" ? (
           <ArchivePage onPlay={(date) => play("archive", undefined, date)} />
         ) : null}

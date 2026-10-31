@@ -5,6 +5,7 @@ import {
   CATEGORIES,
   DIVE_DEFAULTS,
   MISS_EMOJI,
+  VARIANT_INFO,
   formatDepth,
   partyDepth,
   partyDepthScale,
@@ -43,6 +44,76 @@ function hueOf(id: string) {
   return h;
 }
 
+/** "Shark Tank · ABCD" style room title. */
+function variantName(state: RoomSnapshot) {
+  const v = (state.settings as { variant?: keyof typeof VARIANT_INFO }).variant ?? "classic";
+  return v === "classic" ? (state.kind === "dive" ? "Dive" : "Battle") : `${VARIANT_INFO[v].emoji} ${VARIANT_INFO[v].name}`;
+}
+
+/** Co-op: the team's combined depth against the target. */
+function CoopBar({ state }: { state: RoomSnapshot }) {
+  const c = state.dive?.coop;
+  if (!c) return null;
+  const qc = (state.settings as DiveSettings).questionCount;
+  const frac = Math.min(1, c.total / c.target);
+  return (
+    <div className="coop-bar" aria-label={`Team depth ${partyDepth(c.total, qc)} of ${partyDepth(c.target, qc)}`}>
+      <div className="coop-bar-label">
+        🤝 Team depth <b>{formatDepth(partyDepth(c.total, qc))}</b> <span className="muted">/ {formatDepth(partyDepth(c.target, qc))} target</span>
+      </div>
+      <div className="coop-bar-track">
+        <motion.div className={`coop-bar-fill${frac >= 1 ? " coop-bar-fill--done" : ""}`} initial={false} animate={{ width: `${frac * 100}%` }} transition={{ duration: 0.8 }} />
+      </div>
+    </div>
+  );
+}
+
+/** Bluff: pick which of the (anonymous) answers you think is the rarest. */
+function DiveVote({ state, send }: { state: RoomSnapshot; send: Send }) {
+  const d = state.dive!;
+  const v = d.vote!;
+  const now = useNow(250);
+  const me = state.players.find((p) => p.id === state.you)!;
+  const canVote = !me.spectator && !me.eliminated;
+  const secs = Math.max(0, Math.ceil((v.endsAt - now) / 1000));
+  const voters = state.players.filter((p) => !p.spectator && !p.eliminated);
+  return (
+    <div className="game">
+      <div className="game-header">
+        <span className="game-meta">
+          Question {d.index + 1} of {d.total} · vote
+        </span>
+        <span className="game-meta">{secs}s</span>
+      </div>
+      <h2 className="prompt">{d.prompt}</h2>
+      <p className="center">
+        🎭 <b>Which answer is the rarest?</b> Spot it for +{DIVE_DEFAULTS.bluffBonus} bonus depth points.
+      </p>
+      <div className="vote-options">
+        {v.options.map((o) => {
+          const own = o.id === v.yourOptionId;
+          const picked = o.id === v.yourVote;
+          return (
+            <button
+              key={o.id}
+              className={`vote-option${picked ? " vote-option--picked" : ""}${own ? " vote-option--own" : ""}`}
+              disabled={!canVote || own}
+              onClick={() => send({ type: "vote", optionId: o.id })}
+            >
+              {o.text}
+              {own && <span className="muted small"> (yours)</span>}
+              {picked && <span className="vote-check"> ✓</span>}
+            </button>
+          );
+        })}
+      </div>
+      <p className="center muted small">
+        {v.voted.length}/{voters.length} voted{v.yourVote ? " · you can change your vote until time's up" : ""}
+      </p>
+    </div>
+  );
+}
+
 /** One dot per question, coloured by the tier you got once it's done (red for a miss). */
 function ProgressDots({ total, current, tiers }: { total: number; current: number; tiers: Record<number, TierPoints | null> }) {
   return (
@@ -61,6 +132,8 @@ function ProgressDots({ total, current, tiers }: { total: number; current: numbe
     </span>
   );
 }
+
+export const TEAM_NAMES = ["Team Coral", "Team Kelp"];
 
 const penaltyLabel = (secs: number) => (secs === 0 ? "nothing" : `${secs}s`);
 
@@ -206,13 +279,14 @@ export function RoomPage({
           ← Leave
         </button>
         <span className="room-code" title="Room code">
-          {state.kind === "dive" ? "Dive" : "Battle"} · <b>{state.code}</b>
+          {variantName(state)} · <b>{state.code}</b>
         </span>
         <span className={`conn conn--${status}`}>{status === "open" ? "Live" : "Reconnecting…"}</span>
       </header>
 
       {state.phase === "lobby" && <Lobby state={state} isHost={isHost} send={send} />}
       {state.kind === "dive" && state.phase === "question" && <DiveQuestion state={state} send={send} events={events} reducedMotion={settings.reducedMotion} tiers={myTiers} onRejected={addRejected} />}
+      {state.kind === "dive" && state.phase === "vote" && <DiveVote state={state} send={send} />}
       {state.kind === "dive" && state.phase === "reveal" && <DiveReveal state={state} isHost={isHost} send={send} answers={revealAnswers} tiers={myTiers} rejected={myRejected[state.dive?.index ?? -1] ?? []} />}
       {state.kind === "dive" && state.phase === "over" && <DiveFinale state={state} isHost={isHost} send={send} reducedMotion={settings.reducedMotion} />}
       {state.kind === "battle" && (state.phase === "turn" || state.phase === "rotate") && (
@@ -269,6 +343,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
   const link = `${location.origin}/room/${state.code}`;
   const set = (patch: Partial<DiveSettings & BattleSettings>) => isHost && send({ type: "settings", settings: patch });
   const s = state.settings as DiveSettings & BattleSettings;
+  const variantKey = ((state.settings as { variant?: string }).variant ?? "classic") as keyof typeof VARIANT_INFO;
   const connected = state.players.filter((p) => p.connected).length;
   const canStart = state.kind === "dive" ? connected >= 1 : connected >= BATTLE_DEFAULTS.minPlayers;
 
@@ -297,6 +372,17 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
         </div>
         <div className="card settings-card">
           <h3>Settings {isHost ? "" : <span className="muted small">(host picks)</span>}</h3>
+          <label className="field">
+            <span>Mode</span>
+            <select value={variantKey} disabled={!isHost} onChange={(e) => set({ variant: e.target.value as never })}>
+              {(state.kind === "dive" ? (["classic", "coop", "shark", "bluff"] as const) : (["classic", "hotpotato", "relay"] as const)).map((v) => (
+                <option key={v} value={v}>
+                  {VARIANT_INFO[v].emoji} {v === "classic" ? (state.kind === "dive" ? "Classic Dive" : "Classic Battle") : VARIANT_INFO[v].name}
+                </option>
+              ))}
+            </select>
+          </label>
+          {variantKey !== "classic" && <p className="muted small variant-blurb">{VARIANT_INFO[variantKey].blurb}</p>}
           <label className="field">
             <span>Questions from</span>
             <select value={s.source} disabled={!isHost} onChange={(e) => set({ source: e.target.value as DiveSettings["source"] })}>
@@ -468,8 +554,17 @@ function DiveQuestion({
         {d.prompt}
       </motion.h2>
       <div className="category-tag">{d.category.replace("-", " & ")}</div>
+      <CoopBar state={state} />
       {me.spectator ? (
         <p className="center muted">You're watching this game. You'll play in the next one.</p>
+      ) : me.eliminated ? (
+        <div className="locked-card bitten-card">
+          <div className="bitten-emoji">🦈</div>
+          <div>
+            <b>You were bitten!</b>
+          </div>
+          <div className="muted small">Watch the others try to survive.</div>
+        </div>
       ) : d.yourAnswer ? (
         <div className="locked-card" style={{ "--tier": tierInfo(d.yourAnswer.tier).color } as React.CSSProperties}>
           <div>Locked in: <b>{d.yourAnswer.canonical}</b></div>
@@ -545,6 +640,7 @@ function DiveReveal({
 
   return (
     <div className="dive-reveal">
+      <CoopBar state={state} />
       <div className="game-header">
         <span className="game-meta">
           Question {d.index + 1} of {d.total}
@@ -562,6 +658,8 @@ function DiveReveal({
                 <span className="reveal-ans">{r.canonical ?? "—"}</span>
                 <TierBadge tier={r.tier} />
                 <span className="reveal-pts">
+                  {r.bitten && <span className="tag tag--shark" title="Bitten by the shark">🦈</span>}
+                  {r.votedRight && <span className="tag tag--bluff" title={`Spotted the rarest answer: +${DIVE_DEFAULTS.bluffBonus}`}>🎭</span>}
                   +{formatDepth(partyDepth(r.points, (state.settings as DiveSettings).questionCount))}
                   {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
                 </span>
@@ -618,9 +716,25 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
     return () => clearTimeout(t);
   }, [reducedMotion]);
   const lanes = results.slice(0, 8);
+  const coop = state.results?.coop;
+  const variant = (state.settings as DiveSettings).variant ?? "classic";
+  const qc = (state.settings as DiveSettings).questionCount;
 
   return (
     <div className="finale">
+      {coop && (
+        <motion.div className={`card variant-result ${coop.success ? "variant-result--win" : "variant-result--lose"}`} initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
+          <div className="variant-result-big">{coop.success ? "🤝 You made it together!" : "🌊 So close!"}</div>
+          <div>
+            Team depth <b>{formatDepth(partyDepth(coop.total, qc))}</b> of {formatDepth(partyDepth(coop.target, qc))}
+          </div>
+        </motion.div>
+      )}
+      {variant === "shark" && (
+        <motion.div className="card variant-result" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
+          <div className="variant-result-big">🦈 {results.filter((r) => r.rank === 1).map((r) => r.nickname).join(" & ") || "Nobody"} survived the shark!</div>
+        </motion.div>
+      )}
       {!showPodium ? (
         <div className="race card">
           <h3 className="center">The depth race</h3>
@@ -739,6 +853,7 @@ function BattleView({
   const out = me.eliminated || me.spectator;
   const [text, setText] = useState("");
   const [waitHint, setWaitHint] = useState(false);
+  const [letterHint, setLetterHint] = useState(false);
   // Your wrong guesses on this prompt, for "this should count".
   const [wrong, setWrong] = useState<string[]>([]);
   const lastSent = useRef("");
@@ -766,6 +881,7 @@ function BattleView({
       const g = lastSent.current;
       setWrong((w) => (w.includes(g) ? w : [...w, g]));
     }
+    setLetterHint(fresh.some((e) => e.type === "guessResult" && !e.accepted && e.reason === "letter"));
     if (fresh.some((e) => e.type === "guessResult" && !e.accepted) && !reducedMotion) {
       void shake.start({ x: [0, -10, 8, -6, 4, 0], transition: { duration: 0.4 } });
     }
@@ -836,7 +952,9 @@ function BattleView({
       <div className="battle-cols">
         <div className="battle-main">
           <p className="hint">
-            {myTurn ? (
+            {myTurn && letterHint && b.letter ? (
+              <b>That's a real answer, but it has to start with {b.letter.toUpperCase()}!</b>
+            ) : myTurn ? (
               <>
                 <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {penaltyLabel((state.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)} · good answers fill your life circle (🐋 fills it all, 🦑 half, 🐚 a quarter…) and a full circle is +1 life
               </>
@@ -888,8 +1006,20 @@ function BattleOver({ state, isHost, send }: { state: RoomSnapshot; isHost: bool
   return (
     <div className="finale">
       <motion.div className="card end-hero" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
-        <div className="muted small">Last diver standing</div>
-        <div className="end-depth">🏆 {winner?.nickname ?? "Nobody"}</div>
+        {typeof state.results?.winningTeam === "number" ? (
+          <>
+            <div className="muted small">Relay winners</div>
+            <div className="end-depth">
+              🏆 <span className={`team-name team-name--${state.results.winningTeam}`}>{TEAM_NAMES[state.results.winningTeam]}</span>
+            </div>
+            <div>{results.filter((r) => r.team === state.results!.winningTeam).map((r) => r.nickname).join(", ")}</div>
+          </>
+        ) : (
+          <>
+            <div className="muted small">Last diver standing</div>
+            <div className="end-depth">🏆 {winner?.nickname ?? "Nobody"}</div>
+          </>
+        )}
         {best && (
           <p>
             Best answer of the game: <b>{best.canonical}</b> by {best.nickname} <TierBadge tier={best.tier} />

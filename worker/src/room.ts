@@ -12,10 +12,12 @@ import {
 } from "@fathom/shared";
 import type {
   BattleSettings,
+  BattleVariant,
   BestAnswer,
   Category,
   ClientMessage,
   DiveSettings,
+  DiveVariant,
   GameResult,
   LeaderboardRow,
   QuestionRecap,
@@ -64,6 +66,8 @@ interface Seat {
   depthTrail: number[];
   /** Battle: progress toward the next life, in 32nds. */
   lifeMeter: number;
+  /** Relay: team 0 or 1. */
+  team?: number;
 }
 
 interface DiveAnswer {
@@ -90,6 +94,10 @@ interface DiveRound {
   best: Best;
   /** Every question's answers so far, shown at the end. */
   recap?: QuestionRecap[];
+  /** Bluff: the vote between answering and the reveal. */
+  vote?: { options: { id: string; text: string; answerIds: string[]; tier: TierPoints }[]; endsAt: number; votes: Record<string, string> } | null;
+  /** Co-op: the combined score the team is aiming for. */
+  coopTarget?: number;
 }
 
 interface BattleRound {
@@ -112,6 +120,10 @@ interface BattleRound {
   failed: number;
   spectatorGuesses: { playerId: string; nickname: string; text: string; canonical: string | null; tier: TierPoints | null }[];
   best: Best;
+  /** Relay: the letter the next answer must start with. */
+  letter?: string | null;
+  /** Relay: shared lives per team. */
+  teamLives?: [number, number] | null;
 }
 
 interface RoomState {
@@ -142,6 +154,7 @@ function defaultSettings(kind: RoomKind): DiveSettings | BattleSettings {
       timerSeconds: DIVE_DEFAULTS.timerSeconds,
       uniqueAnswers: DIVE_DEFAULTS.uniqueAnswers,
       penaltySeconds: DIVE_DEFAULTS.wrongGuessPenaltySeconds,
+      variant: "classic",
     };
   }
   return {
@@ -152,6 +165,7 @@ function defaultSettings(kind: RoomKind): DiveSettings | BattleSettings {
     acceptsToRotate: null,
     speedUp: BATTLE_DEFAULTS.speedUp,
     penaltySeconds: BATTLE_DEFAULTS.wrongGuessPenaltySeconds,
+    variant: "classic",
   };
 }
 
@@ -160,7 +174,30 @@ const clamp = (n: unknown, lo: number, hi: number, fallback: number) => {
   return Number.isFinite(v) ? Math.min(hi, Math.max(lo, v)) : fallback;
 };
 
+const DIVE_VARIANTS: readonly DiveVariant[] = ["classic", "coop", "shark", "bluff"];
+const BATTLE_VARIANTS: readonly BattleVariant[] = ["classic", "hotpotato", "relay"];
+function validVariant(kind: RoomKind, v: unknown): DiveVariant | BattleVariant {
+  const list: readonly string[] = kind === "battle" ? BATTLE_VARIANTS : DIVE_VARIANTS;
+  return (list.includes(String(v)) ? v : "classic") as DiveVariant | BattleVariant;
+}
+const diveVariant = (s: RoomState) => (s.kind === "dive" ? (s.settings as DiveSettings).variant ?? "classic" : null);
+const battleVariant = (s: RoomState) => (s.kind === "battle" ? (s.settings as BattleSettings).variant ?? "classic" : null);
+
 const penalty = (n: unknown, max: number, cur: number) => (n === undefined ? cur : clamp(n, 0, max, cur));
+
+/** First and last a–z letters of an answer (accents removed), for Relay's letter chain. */
+function plainLetters(text: string) {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z]/g, "");
+}
+const firstLetter = (text: string) => plainLetters(text)[0] ?? null;
+const lastLetter = (text: string) => plainLetters(text).slice(-1) || null;
+
+/** Relay: split players into two teams by join order and interleave them so turns alternate teams. */
+function relayOrder(players: Seat[]): string[] {
+  const sorted = [...players].sort((a, b) => a.joinedAt - b.joinedAt);
+  sorted.forEach((p, i) => (p.team = i % 2));
+  return sorted.map((p) => p.id);
+}
 
 export class Room extends DurableObject<Env> {
   private s: RoomState | null = null;
@@ -180,7 +217,7 @@ export class Room extends DurableObject<Env> {
   async fetch(request: Request): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/init" && request.method === "POST") {
-      const { code, kind } = await request.json<{ code: string; kind: RoomKind }>();
+      const { code, kind, variant } = await request.json<{ code: string; kind: RoomKind; variant?: string }>();
       const now = Date.now();
       if (this.s && now - this.s.lastActivity < IDLE_MS) return new Response("in use", { status: 409 });
       this.s = {
@@ -190,7 +227,7 @@ export class Room extends DurableObject<Env> {
         createdAt: now,
         lastActivity: now,
         seats: {},
-        settings: defaultSettings(kind),
+        settings: { ...defaultSettings(kind), variant: validVariant(kind, variant) } as DiveSettings | BattleSettings,
         phase: "lobby",
       };
       await this.save();
@@ -249,6 +286,9 @@ export class Room extends DurableObject<Env> {
       case "guess":
         await this.onGuess(ws, pid, String(msg.text ?? "").slice(0, 100), now);
         return;
+      case "vote":
+        await this.onVote(pid, String(msg.optionId ?? ""), now);
+        break;
     }
     await this.commit();
   }
@@ -288,6 +328,8 @@ export class Room extends DurableObject<Env> {
     const s = this.s;
     if (s.phase === "question" && s.dive && now >= s.dive.endsAt + DEADLINE_GRACE_MS) {
       await this.revealDive(now);
+    } else if (s.phase === "vote" && s.dive?.vote && now >= s.dive.vote.endsAt) {
+      await this.scoreDive(now);
     } else if (s.phase === "reveal" && s.dive?.reveal && now >= s.dive.reveal.nextAt) {
       await this.advanceDive(now);
     } else if ((s.phase === "turn" || s.phase === "rotate") && s.battle) {
@@ -315,6 +357,7 @@ export class Room extends DurableObject<Env> {
     const times = [s.lastActivity + IDLE_MS];
     if (s.phase === "question" && s.dive) times.push(s.dive.endsAt + DEADLINE_GRACE_MS + 20);
     if (s.phase === "reveal" && s.dive?.reveal) times.push(s.dive.reveal.nextAt);
+    if (s.phase === "vote" && s.dive?.vote) times.push(s.dive.vote.endsAt);
     if ((s.phase === "turn" || s.phase === "rotate") && s.battle) {
       times.push(s.battle.turnPlayerId ? s.battle.turnEndsAt + DEADLINE_GRACE_MS + 20 : s.battle.nextTurnAt);
     }
@@ -382,6 +425,7 @@ export class Room extends DurableObject<Env> {
         timerSeconds: (DIVE_DEFAULTS.timerOptions as readonly number[]).includes(Number(patch.timerSeconds)) ? Number(patch.timerSeconds) : cur.timerSeconds,
         uniqueAnswers: typeof patch.uniqueAnswers === "boolean" ? patch.uniqueAnswers : cur.uniqueAnswers,
         penaltySeconds: penalty(patch.penaltySeconds, DIVE_DEFAULTS.penaltyMax, cur.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds),
+        variant: patch.variant !== undefined ? (validVariant("dive", patch.variant) as DiveVariant) : cur.variant ?? "classic",
       };
     } else {
       const cur = s.settings as BattleSettings;
@@ -395,6 +439,7 @@ export class Room extends DurableObject<Env> {
           patch.acceptsToRotate === null ? null : patch.acceptsToRotate !== undefined ? clamp(patch.acceptsToRotate, 1, 50, 6) : cur.acceptsToRotate,
         speedUp: typeof patch.speedUp === "boolean" ? patch.speedUp : cur.speedUp,
         penaltySeconds: penalty(patch.penaltySeconds, BATTLE_DEFAULTS.penaltyMax, cur.penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds),
+        variant: patch.variant !== undefined ? (validVariant("battle", patch.variant) as BattleVariant) : cur.variant ?? "classic",
       };
     }
   }
@@ -425,6 +470,7 @@ export class Room extends DurableObject<Env> {
         eliminatedAt: undefined,
         depthTrail: [],
         lifeMeter: 0,
+        team: undefined,
       });
     }
     const players = Object.values(s.seats).filter((x) => !x.spectator);
@@ -447,6 +493,8 @@ export class Room extends DurableObject<Env> {
         ranks: {},
         best: null,
         recap: [],
+        vote: null,
+        coopTarget: diveVariant(s) === "coop" ? DIVE_DEFAULTS.coopPointsPerAnswer * ids.length * players.length : undefined,
       };
       await Promise.all(ids.map((id) => getIndex(this.env, id))); // warm the answer indexes
       await this.startDiveQuestion(0, now);
@@ -460,6 +508,8 @@ export class Room extends DurableObject<Env> {
     const ids = await pickRoomQuestions(this.env, set.source, set.category, 30, now, this.roomPlayerIds());
     if (!ids.length) return this.send(ws, { type: "error", message: "No questions available for those settings" });
     for (const p of players) p.lives = set.lives;
+    const relay = battleVariant(s) === "relay";
+    if (relay && players.length < 2) return this.send(ws, { type: "error", message: "Relay needs at least 2 players" });
     const q = (await getQuestions(this.env, [ids[0]])).get(ids[0])!;
     await markRoomSeen(this.env, this.roomPlayerIds(), ids[0], now);
     s.battle = {
@@ -469,7 +519,7 @@ export class Room extends DurableObject<Env> {
       category: q.category,
       round: 1,
       baseSeconds: set.baseSeconds,
-      order: players.sort((a, b) => a.joinedAt - b.joinedAt).map((p) => p.id),
+      order: relay ? relayOrder(players) : players.sort((a, b) => a.joinedAt - b.joinedAt).map((p) => p.id),
       turnPlayerId: null,
       turnStartedAt: 0,
       turnEndsAt: 0,
@@ -481,6 +531,8 @@ export class Room extends DurableObject<Env> {
       failed: 0,
       spectatorGuesses: [],
       best: null,
+      letter: null,
+      teamLives: relay ? [set.lives, set.lives] : null,
     };
     await getIndex(this.env, ids[0]);
     this.startTurn(s.battle!.order[0], now);
@@ -516,15 +568,16 @@ export class Room extends DurableObject<Env> {
     return d.endsAt - (d.penalties[pid] ?? 0) * ((this.s!.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds) * 1000;
   }
 
+  /** Divers still answering (Shark Tank's bitten players sit out). */
   private activeDivers(): Seat[] {
-    return Object.values(this.s!.seats).filter((x) => !x.spectator);
+    return Object.values(this.s!.seats).filter((x) => !x.spectator && !x.eliminated);
   }
 
   private async diveGuess(ws: WebSocket, pid: string, text: string, now: number) {
     const s = this.s!;
     const d = s.dive!;
     const seat = s.seats[pid];
-    if (s.phase !== "question" || seat.spectator || d.answers[pid]) return;
+    if (s.phase !== "question" || seat.spectator || seat.eliminated || d.answers[pid]) return;
     const myEnd = this.personalEndsAt(pid);
     if (now > myEnd + DEADLINE_GRACE_MS) {
       return this.send(ws, { type: "guessResult", accepted: false, canonical: null, tier: null, points: 0, corrected: false, reason: "late", endsAt: myEnd });
@@ -553,7 +606,7 @@ export class Room extends DurableObject<Env> {
   }
 
   private leaderboard(previous: Record<string, number>): LeaderboardRow[] {
-    const rows = this.activeDivers().sort((a, b) => b.score - a.score || a.timeUsedMs - b.timeUsedMs);
+    const rows = Object.values(this.s!.seats).filter((x) => !x.spectator).sort((a, b) => b.score - a.score || a.timeUsedMs - b.timeUsedMs);
     return rows.map((x, i) => ({
       playerId: x.id,
       nickname: x.nickname,
@@ -564,11 +617,51 @@ export class Room extends DurableObject<Env> {
     }));
   }
 
+  /** Answering is over: Bluff goes to the vote first, everything else straight to the reveal. */
   private async revealDive(now: number) {
     const s = this.s!;
     const d = s.dive!;
     if (s.phase !== "question") return;
+    if (diveVariant(s) === "bluff") {
+      // One option per distinct answer, shuffled, with no names attached.
+      const byAnswer = new Map<string, { text: string; tier: TierPoints; answerIds: string[] }>();
+      for (const a of Object.values(d.answers)) if (!byAnswer.has(a.answerId)) byAnswer.set(a.answerId, { text: a.canonical, tier: a.tier, answerIds: [a.answerId] });
+      if (byAnswer.size >= 2) {
+        const options = [...byAnswer.values()]
+          .map((o) => ({ ...o, id: Math.random().toString(36).slice(2, 8) }))
+          .sort(() => Math.random() - 0.5);
+        d.vote = { options, endsAt: now + DIVE_DEFAULTS.bluffVoteSeconds * 1000, votes: {} };
+        s.phase = "vote";
+        return;
+      }
+    }
+    await this.scoreDive(now);
+  }
+
+  /** Bluff: a vote for any option except your own answer. Everyone voted → reveal. */
+  private async onVote(pid: string, optionId: string, now: number) {
+    const s = this.s!;
+    const d = s.dive;
+    if (s.phase !== "vote" || !d?.vote) return;
+    const seat = s.seats[pid];
+    if (!seat || seat.spectator || seat.eliminated) return;
+    const opt = d.vote.options.find((o) => o.id === optionId);
+    const own = d.answers[pid]?.answerId;
+    if (!opt || (own && opt.answerIds.includes(own))) return;
+    d.vote.votes[pid] = optionId;
+    const connected = this.connectedIds();
+    if (this.activeDivers().filter((x) => connected.has(x.id)).every((x) => d.vote!.votes[x.id])) await this.scoreDive(now);
+  }
+
+  private async scoreDive(now: number) {
+    const s = this.s!;
+    const d = s.dive!;
+    if (s.phase !== "question" && s.phase !== "vote") return;
     const set = s.settings as DiveSettings;
+    const variant = diveVariant(s);
+    // Bluff: which options were the rarest answer given.
+    const vote = d.vote;
+    const topTier = vote ? Math.max(...vote.options.map((o) => o.tier)) : 0;
     // "Unique answers": anyone who gave the same answer as someone else gets half points.
     const counts = new Map<string, number>();
     for (const a of Object.values(d.answers)) counts.set(a.answerId, (counts.get(a.answerId) ?? 0) + 1);
@@ -577,16 +670,40 @@ export class Room extends DurableObject<Env> {
     for (const seat of this.activeDivers()) {
       const a = d.answers[seat.id];
       const shared = !!a && set.uniqueAnswers && (counts.get(a.answerId) ?? 0) > 1;
-      const points = a ? (shared ? Math.floor(a.points / 2) : a.points) : 0;
+      let points = a ? (shared ? Math.floor(a.points / 2) : a.points) : 0;
+      const votedFor = vote?.options.find((o) => o.id === vote.votes[seat.id]);
+      const votedRight = !!votedFor && votedFor.tier === topTier;
+      if (votedRight) points += DIVE_DEFAULTS.bluffBonus;
       seat.score += points;
       seat.timeUsedMs += a ? a.msUsed : set.timerSeconds * 1000;
       seat.depthTrail.push(partyDepth(seat.score, set.questionCount));
-      perPlayer.push({ playerId: seat.id, nickname: seat.nickname, canonical: a?.canonical ?? null, tier: a?.tier ?? null, points, corrected: a?.corrected ?? false, shared });
+      perPlayer.push({
+        playerId: seat.id,
+        nickname: seat.nickname,
+        canonical: a?.canonical ?? null,
+        tier: a?.tier ?? null,
+        points,
+        corrected: a?.corrected ?? false,
+        shared,
+        ...(vote ? { votedRight } : {}),
+      });
       if (a && (!d.best || a.tier > d.best.tier || (a.tier === d.best.tier && a.at < (d.best.at ?? Infinity)))) {
         d.best = { nickname: seat.nickname, canonical: a.canonical, tier: a.tier, prompt: d.prompt, at: a.at };
       }
     }
+    // Shark Tank: whoever scored least this round is bitten (unless everyone tied).
+    if (variant === "shark" && perPlayer.length > 1) {
+      const low = Math.min(...perPlayer.map((r) => r.points));
+      if (perPlayer.some((r) => r.points > low)) {
+        for (const row of perPlayer) {
+          if (row.points !== low) continue;
+          row.bitten = true;
+          Object.assign(s.seats[row.playerId], { eliminated: true, eliminatedAt: now });
+        }
+      }
+    }
     perPlayer.sort((a, b) => b.points - a.points);
+    d.vote = null;
     const leaderboard = this.leaderboard(d.ranks);
     d.ranks = Object.fromEntries(leaderboard.map((r) => [r.playerId, r.rank]));
     const nextAt = now + DIVE_DEFAULTS.revealSeconds * 1000;
@@ -605,7 +722,10 @@ export class Room extends DurableObject<Env> {
   }
 
   private async advanceDive(now: number) {
-    const d = this.s!.dive!;
+    const s = this.s!;
+    const d = s.dive!;
+    // Shark Tank ends as soon as one diver (or none) is left unbitten.
+    if (diveVariant(s) === "shark" && this.activeDivers().length <= 1) return this.gameOver(d.best);
     if (d.index + 1 < d.questionIds.length) await this.startDiveQuestion(d.index + 1, now);
     else this.gameOver(d.best);
   }
@@ -613,6 +733,14 @@ export class Room extends DurableObject<Env> {
   // -------------------------------------------------------------------------
   // Battle
   // -------------------------------------------------------------------------
+
+  /** Relay: every member shows their team's shared lives. */
+  private syncTeamLives() {
+    const s = this.s!;
+    const tl = s.battle?.teamLives;
+    if (!tl) return;
+    for (const x of Object.values(s.seats)) if (x.team !== undefined) x.lives = tl[x.team];
+  }
 
   private aliveIds(): string[] {
     const s = this.s!;
@@ -672,6 +800,12 @@ export class Room extends DurableObject<Env> {
     if (now > b.turnEndsAt + DEADLINE_GRACE_MS) return;
 
     const r = matchGuess(index, text, { takenAnswerIds: new Set(b.usedIds) });
+    const relay = battleVariant(s) === "relay";
+    // Relay: a valid answer still has to start with the chain letter.
+    if (relay && r.accepted && r.canonical && b.letter && firstLetter(r.canonical) !== b.letter) {
+      b.turnEndsAt -= ((s.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds) * 1000;
+      return this.send(ws, { type: "guessResult", accepted: false, canonical: r.canonical, tier: null, points: 0, corrected: false, reason: "letter", endsAt: b.turnEndsAt });
+    }
     if (r.accepted && r.answerId && r.canonical && r.tier) {
       b.used.push({ canonical: r.canonical, tier: r.tier, byPlayerId: pid });
       b.usedIds.push(r.answerId);
@@ -682,6 +816,14 @@ export class Room extends DurableObject<Env> {
       const livesGained = Math.floor(fill / BATTLE_DEFAULTS.lifeMeterFull);
       seat.lifeMeter = fill % BATTLE_DEFAULTS.lifeMeterFull;
       seat.lives += livesGained;
+      if (relay && seat.team !== undefined && b.teamLives) {
+        b.teamLives[seat.team] += livesGained;
+        this.syncTeamLives();
+        // The next answer must start with this one's last letter, if any unused answer does.
+        const next = lastLetter(r.canonical);
+        const used = new Set(b.usedIds);
+        b.letter = next && index.answers.some((a) => !used.has(a.id) && firstLetter(a.canonical) === next) ? next : null;
+      }
       if (!b.best || r.tier > b.best.tier) b.best = { nickname: seat.nickname, canonical: r.canonical, tier: r.tier, prompt: b.prompt, at: now };
       this.send(ws, { type: "guessResult", accepted: true, canonical: r.canonical, tier: r.tier, points: r.points, corrected: r.corrected, reason: null, endsAt: b.turnEndsAt });
       this.broadcast({ type: "turnResult", playerId: pid, canonical: r.canonical, tier: r.tier, corrected: r.corrected, livesGained, livesLeft: seat.lives, lifeMeter: seat.lifeMeter });
@@ -702,13 +844,29 @@ export class Room extends DurableObject<Env> {
     const b = s.battle!;
     const pid = b.turnPlayerId!;
     const seat = s.seats[pid];
-    seat.lives -= 1;
     b.failed += 1;
-    this.broadcast({ type: "lifeLost", playerId: pid, livesLeft: seat.lives });
-    if (seat.lives <= 0) {
-      seat.eliminated = true;
-      seat.eliminatedAt = now;
-      this.broadcast({ type: "eliminated", playerId: pid });
+    if (battleVariant(s) === "relay" && seat.team !== undefined && b.teamLives) {
+      // Relay: the team shares lives, a failed turn breaks the letter chain, and a team at 0 is out.
+      b.teamLives[seat.team] -= 1;
+      b.letter = null;
+      this.syncTeamLives();
+      this.broadcast({ type: "lifeLost", playerId: pid, livesLeft: seat.lives });
+      if (b.teamLives[seat.team] <= 0) {
+        for (const x of Object.values(s.seats)) {
+          if (x.team !== seat.team || x.spectator) continue;
+          Object.assign(x, { eliminated: true, eliminatedAt: now });
+          this.broadcast({ type: "eliminated", playerId: x.id });
+        }
+        return this.gameOver(b.best);
+      }
+    } else {
+      seat.lives -= 1;
+      this.broadcast({ type: "lifeLost", playerId: pid, livesLeft: seat.lives });
+      if (seat.lives <= 0) {
+        seat.eliminated = true;
+        seat.eliminatedAt = now;
+        this.broadcast({ type: "eliminated", playerId: pid });
+      }
     }
     if (this.aliveIds().length <= 1) return this.gameOver(b.best);
     if (!(await this.maybeRotate(now, pid))) this.queueNextTurn(pid, now, BATTLE_DEFAULTS.betweenTurnsMs);
@@ -726,7 +884,8 @@ export class Room extends DurableObject<Env> {
     const index = await getIndex(this.env, b.questionIds[b.qPos]);
     const acceptsNeeded = set.acceptsToRotate ?? 2 * this.aliveIds().length;
     const unused = index.answers.length - b.usedIds.length;
-    if (b.failed < set.failedTurnsToRotate && b.accepted < acceptsNeeded && unused >= 5) return false;
+    const hotPotato = battleVariant(s) === "hotpotato";
+    if (!hotPotato && b.failed < set.failedTurnsToRotate && b.accepted < acceptsNeeded && unused >= 5) return false;
 
     b.qPos += 1;
     if (b.qPos >= b.questionIds.length) {
@@ -739,9 +898,9 @@ export class Room extends DurableObject<Env> {
     await getIndex(this.env, qid);
     await markRoomSeen(this.env, this.roomPlayerIds(), qid, now);
     if (set.speedUp) b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
-    Object.assign(b, { prompt: q.prompt, category: q.category, round: b.round + 1, used: [], usedIds: [], accepted: 0, failed: 0, spectatorGuesses: [] });
+    Object.assign(b, { prompt: q.prompt, category: q.category, round: b.round + 1, used: [], usedIds: [], accepted: 0, failed: 0, spectatorGuesses: [], letter: null });
     s.phase = "rotate";
-    this.queueNextTurn(lastPid, now, BATTLE_DEFAULTS.rotatePauseMs);
+    this.queueNextTurn(lastPid, now, hotPotato ? BATTLE_DEFAULTS.hotPotatoPauseMs : BATTLE_DEFAULTS.rotatePauseMs);
     this.broadcast({ type: "rotate", prompt: q.prompt, category: q.category, baseSeconds: b.baseSeconds, startsAt: b.nextTurnAt });
     return true;
   }
@@ -777,24 +936,44 @@ export class Room extends DurableObject<Env> {
   private gameOver(best: Best) {
     const s = this.s!;
     const seats = Object.values(s.seats).filter((x) => !x.spectator);
+    const dv = diveVariant(s);
+    const bv = battleVariant(s);
+    const survivalFirst = (a: Seat, b: Seat) => Number(a.eliminated) - Number(b.eliminated) || (b.eliminatedAt ?? 0) - (a.eliminatedAt ?? 0) || b.score - a.score;
     const ranked =
-      s.kind === "dive"
+      s.kind === "dive" && dv !== "shark"
         ? // Ties broken by less total time used.
           seats.sort((a, b) => b.score - a.score || a.timeUsedMs - b.timeUsedMs)
-        : // Battle: last player standing first, then by how long they survived.
-          seats.sort((a, b) => Number(a.eliminated) - Number(b.eliminated) || (b.eliminatedAt ?? 0) - (a.eliminatedAt ?? 0) || b.score - a.score);
+        : // Battle and Shark Tank: survivors first, then by how long they lasted.
+          seats.sort(survivalFirst);
+
+    // Co-op: everyone wins or nobody does.
+    const coopTotal = seats.reduce((n, x) => n + x.score, 0);
+    const coop = dv === "coop" && s.dive?.coopTarget ? { total: coopTotal, target: s.dive.coopTarget, success: coopTotal >= s.dive.coopTarget } : null;
+    // Relay: the team that's still in wins together.
+    const winningTeam = bv === "relay" ? ranked.find((x) => !x.eliminated)?.team ?? null : null;
+    const isWinner = (x: Seat, i: number) =>
+      coop ? coop.success : winningTeam !== null ? x.team === winningTeam : dv === "shark" ? !x.eliminated : i === 0;
+
     const results: GameResult[] = ranked.map((x, i) => ({
       playerId: x.id,
       nickname: x.nickname,
       score: x.score,
       depth: s.kind === "dive" ? partyDepth(x.score, (s.settings as DiveSettings).questionCount) : pointsToDepth(x.score),
       timeUsedMs: x.timeUsedMs,
-      rank: i + 1,
+      // Team and survival modes can have several winners, all ranked 1st.
+      rank: isWinner(x, i) ? 1 : i + 1,
       depthTrail: x.depthTrail,
       eliminatedAt: x.eliminatedAt,
+      ...(x.team !== undefined ? { team: x.team } : {}),
     }));
     const bestAnswer = best ? { nickname: best.nickname, canonical: best.canonical, tier: best.tier, prompt: best.prompt } : null;
-    s.results = { results, bestAnswer, ...(s.kind === "dive" && s.dive?.recap?.length ? { recap: s.dive.recap } : {}) };
+    s.results = {
+      results,
+      bestAnswer,
+      ...(s.kind === "dive" && s.dive?.recap?.length ? { recap: s.dive.recap } : {}),
+      ...(coop ? { coop } : {}),
+      ...(winningTeam !== null ? { winningTeam } : {}),
+    };
     s.phase = "over";
     if (s.battle) s.battle.turnPlayerId = null;
     this.broadcast({ type: "gameOver", results, bestAnswer });
@@ -864,7 +1043,8 @@ export class Room extends DurableObject<Env> {
         lives: x.lives,
         lifeMeter: x.lifeMeter ?? 0,
         eliminated: x.eliminated,
-        locked: !!s.dive?.answers[x.id] && s.phase === "question",
+        locked: (!!s.dive?.answers[x.id] && s.phase === "question") || (s.phase === "vote" && !!s.dive?.vote?.votes[x.id]),
+        ...(x.team !== undefined ? { team: x.team } : {}),
       }));
     const snap: RoomSnapshot = { code: s.code, kind: s.kind, hostId: s.hostId, phase: s.phase, players, settings: s.settings, you: pid, serverNow: now };
     if (s.dive && s.dive.index >= 0) {
@@ -880,6 +1060,16 @@ export class Room extends DurableObject<Env> {
         yourAnswer: mine ? { canonical: mine.canonical, tier: mine.tier, points: mine.points, corrected: mine.corrected } : null,
         // The answer list is sent with the live "reveal" message; snapshots carry the rest.
         reveal: d.reveal ? { ...d.reveal, answers: [] } : null,
+        vote: d.vote
+          ? {
+              options: d.vote.options.map((o) => ({ id: o.id, text: o.text })),
+              endsAt: d.vote.endsAt,
+              voted: Object.keys(d.vote.votes),
+              yourVote: d.vote.votes[pid] ?? null,
+              yourOptionId: d.vote.options.find((o) => mine && o.answerIds.includes(mine.answerId))?.id ?? null,
+            }
+          : null,
+        coop: d.coopTarget ? { total: Object.values(s.seats).reduce((n, x) => n + (x.spectator ? 0 : x.score), 0), target: d.coopTarget } : null,
       };
     }
     if (s.battle) {
@@ -894,6 +1084,8 @@ export class Room extends DurableObject<Env> {
         turnStartedAt: b.turnStartedAt,
         turnEndsAt: b.turnPlayerId ? b.turnEndsAt : b.nextTurnAt,
         used: b.used,
+        letter: b.letter ?? null,
+        teamLives: b.teamLives ?? null,
         typing: "",
         spectatorGuesses: b.spectatorGuesses,
       };

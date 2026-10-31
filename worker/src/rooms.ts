@@ -14,11 +14,11 @@ function randomCode(): string {
 }
 
 roomRoutes.post("/api/rooms", async (c) => {
-  const { kind } = await c.req.json<{ kind?: string }>().catch(() => ({ kind: "dive" }));
+  const { kind, variant } = await c.req.json<{ kind?: string; variant?: string }>().catch(() => ({ kind: "dive", variant: undefined }));
   for (let attempt = 0; attempt < 8; attempt++) {
     const code = randomCode();
     const stub = c.env.ROOMS.get(c.env.ROOMS.idFromName(code));
-    const res = await stub.fetch("https://room/init", { method: "POST", body: JSON.stringify({ code, kind: kind === "battle" ? "battle" : "dive" }) });
+    const res = await stub.fetch("https://room/init", { method: "POST", body: JSON.stringify({ code, kind: kind === "battle" ? "battle" : "dive", variant }) });
     if (res.ok) return c.json({ code });
   }
   throw new HttpError(503, "Couldn't find a free room code, try again");
