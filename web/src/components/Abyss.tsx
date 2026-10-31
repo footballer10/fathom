@@ -4,7 +4,6 @@ import { formatDepth, tierInfo } from "@fathom/shared";
 import { api, serverNow } from "../api";
 import type { AbyssStatus } from "../api";
 import { getNickname } from "../nickname";
-import { navigate } from "../router";
 import { TimerRing } from "./TimerRing";
 import { DidYouMean } from "./DidYouMean";
 
@@ -89,9 +88,6 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
   return (
     <div className="abyss">
       <div className="page-head">
-        <button className="link-btn" onClick={() => navigate("/")}>
-          ← Surface
-        </button>
         <h2>🕳️ Weekly Abyss</h2>
       </div>
       {error && <p className="error-text">{error}</p>}

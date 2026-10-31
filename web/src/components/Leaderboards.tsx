@@ -4,7 +4,6 @@ import { TIERS, formatDepth } from "@fathom/shared";
 import { api } from "../api";
 import type { LeaderboardBoard, LeaderboardEntry } from "../api";
 import { NicknamePrompt, getNickname } from "../nickname";
-import { navigate } from "../router";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
@@ -90,9 +89,6 @@ export function LeaderboardsPage() {
   return (
     <div className="leaderboards">
       <div className="page-head">
-        <button className="link-btn" onClick={() => navigate("/")}>
-          ← Surface
-        </button>
         <h2>Global leaderboards</h2>
       </div>
 

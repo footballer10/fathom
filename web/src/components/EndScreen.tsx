@@ -136,7 +136,7 @@ export function EndScreen({
           Play Unlimited
         </button>
         <button className="btn btn--ghost" onClick={onHome}>
-          Back to the surface
+          Return to the surface
         </button>
       </motion.div>
     </div>

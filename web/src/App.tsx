@@ -98,10 +98,8 @@ export function App() {
       {!inBattle && <DepthGauge depth={depth} others={roomCode ? partyDivers : []} />}
 
       <div className="topbar">
+        {/* The one way home at the top (hidden on the home screen itself). */}
         <div className="topbar-left">
-          <button className="brand" onClick={goHome}>
-            {APP_NAME}
-          </button>
           {!atHome && (
             <button className="home-btn" onClick={goHome}>
               <span aria-hidden>🏠</span> Home
@@ -160,14 +158,6 @@ export function App() {
         open={settingsOpen}
         onClose={() => setSettingsOpen(false)}
         onSuggest={() => setSuggestOpen(true)}
-        onHome={
-          atHome
-            ? undefined
-            : () => {
-                setSettingsOpen(false);
-                goHome();
-              }
-        }
       />
       {welcome && !roomCode && <Welcome onDone={() => setWelcome(false)} />}
       {!welcome && !roomCode && <FriendRequestPopup />}

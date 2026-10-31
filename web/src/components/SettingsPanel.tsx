@@ -16,12 +16,10 @@ const OPTIONS: { key: keyof Settings; label: string; hint: string }[] = [
 export function SettingsPanel({
   open,
   onClose,
-  onHome,
   onSuggest,
 }: {
   open: boolean;
   onClose: () => void;
-  onHome?: () => void;
   onSuggest: () => void;
 }) {
   const { settings, update } = useSettings();
@@ -122,11 +120,6 @@ export function SettingsPanel({
             >
               💬 Suggest a fix or idea
             </button>
-            {onHome && (
-              <button className="btn btn--ghost settings-home" onClick={onHome}>
-                🏠 Return to home
-              </button>
-            )}
             <p className="hint">
               <kbd>Esc</kbd> to close
             </p>

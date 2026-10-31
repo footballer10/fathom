@@ -264,9 +264,7 @@ export function Game({
   return (
     <div className="game">
       <header className="game-header">
-        <button className="link-btn" onClick={onQuit} aria-label="Quit to home">
-          ← Surface
-        </button>
+        <span />
         <span className="game-meta">
           {session.mode === "daily" ? `Daily #${session.dailyNumber}` : session.mode === "archive" ? `Archive #${session.dailyNumber}` : "Unlimited"} · Question {q.index + 1} of{" "}
           {session.total}

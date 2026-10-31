@@ -4,7 +4,6 @@ import { TIERS, formatDepth, tierInfo } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
 import { api, serverNow } from "../api";
 import type { PracticeQuestion } from "../api";
-import { navigate } from "../router";
 import { TimerRing } from "./TimerRing";
 import { DidYouMean } from "./DidYouMean";
 
@@ -93,9 +92,6 @@ export function SoloModePage({ mode, reducedMotion, onDepth }: { mode: SoloMode;
   return (
     <div className="solo-mode">
       <div className="page-head">
-        <button className="link-btn" onClick={() => navigate("/")}>
-          ← Surface
-        </button>
         <h2>
           {info.emoji} {info.name}
         </h2>
