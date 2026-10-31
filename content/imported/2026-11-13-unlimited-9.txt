@@ -1,0 +1,3031 @@
+# QUESTION
+pool: unlimited
+category: geography
+prompt: Name a country whose name starts with M, N, P, or S
+note: UN members and observers, plus Taiwan-style edge cases and UK/Kingdom constituent countries as Too Clever or Deep Cut. O is skipped on purpose.
+
+[One in a Krillion]
+São Tomé and Príncipe | Sao Tome and Principe | Sao Tome | São Tomé | Sao Tome & Principe
+
+[Deep Cut]
+Marshall Islands | the Marshall Islands
+Micronesia | Federated States of Micronesia | FSM
+Mauritania
+Mauritius
+Maldives | the Maldives | Maldive Islands
+Moldova
+Montenegro
+Malawi
+Nauru
+Palau
+Samoa | Western Samoa
+San Marino
+Saint Kitts and Nevis | St. Kitts and Nevis | Saint Kitts | St Kitts | St. Kitts | Saint Christopher and Nevis
+Saint Lucia | St. Lucia | St Lucia
+Saint Vincent and the Grenadines | St. Vincent and the Grenadines | Saint Vincent | St Vincent | St. Vincent
+Seychelles | the Seychelles
+Sierra Leone
+Solomon Islands | the Solomon Islands | Solomons
+South Sudan
+Suriname | Surinam
+North Macedonia | Macedonia | N. Macedonia
+Swaziland
+Sint Maarten | Saint Martin | St. Martin
+Somaliland
+Niue
+Northern Cyprus | Turkish Republic of Northern Cyprus
+Palestine | State of Palestine | Palestinian territories
+
+[Rare]
+Paraguay
+Nepal
+Nicaragua
+Mongolia
+Monaco
+Malaysia
+Madagascar
+Mali
+Malta
+Singapore
+Somalia
+Sudan
+Syria
+Sri Lanka | Shri Lanka | Ceylon
+Serbia
+Senegal
+Slovakia
+Slovenia
+Papua New Guinea | PNG | Papua | New Guinea
+Myanmar | Burma
+Mozambique | Mozambik
+Namibia
+Niger
+Pakistan
+
+[Schooler]
+Portugal
+Poland
+Peru
+Philippines | the Philippines | Phillipines | Philipines | Phillippines
+New Zealand | NZ | Aotearoa
+Netherlands | the Netherlands | Holland | Nederland
+Nigeria
+North Korea | DPRK | Democratic People's Republic of Korea
+South Africa | RSA
+Saudi Arabia | Saudi | KSA
+Panama
+Morocco | Marocco | Morrocco
+
+[Too Clever]
+Scotland
+Northern Ireland
+
+[Plankton]
+Mexico | Mexcio
+Spain | España | Espana
+Switzerland | Swiss | Swizerland
+Sweden
+South Korea | Korea | Republic of Korea | ROK
+Norway
+
+[Not accepted]
+Puerto Rico
+New Caledonia
+Prussia
+Siberia
+
+# QUESTION
+pool: unlimited
+category: geography
+prompt: Name a country made up entirely of one or more islands
+note: Sovereign island nations, plus island "countries" inside a larger state (Scotland, Greenland, Aruba) as Deep Cut or Too Clever. Australia counts as Too Clever.
+
+[One in a Krillion]
+Kiribati | Kiribas
+
+[Deep Cut]
+Tuvalu
+Nauru
+Palau
+Marshall Islands | the Marshall Islands
+Micronesia | Federated States of Micronesia | FSM
+Vanuatu
+Solomon Islands | the Solomon Islands | Solomons
+Comoros | the Comoros | Comoro Islands
+São Tomé and Príncipe | Sao Tome and Principe | Sao Tome | São Tomé
+Cape Verde | Cabo Verde
+Antigua and Barbuda | Antigua | Barbuda
+Saint Kitts and Nevis | St. Kitts and Nevis | Saint Kitts | St Kitts | St. Kitts
+Saint Vincent and the Grenadines | St. Vincent and the Grenadines | Saint Vincent | St Vincent | St. Vincent
+Dominica
+Brunei | Brunei Darussalam
+Wales
+Northern Ireland
+Faroe Islands | Faroes | Faeroe Islands
+Aruba
+Curaçao | Curacao
+Sint Maarten | Saint Martin | St. Martin
+Cook Islands
+Niue
+Northern Cyprus
+
+[Rare]
+Barbados
+Malta
+Cyprus
+Trinidad and Tobago | Trinidad | Tobago
+Maldives | the Maldives
+Papua New Guinea | PNG | Papua
+Samoa | Western Samoa
+Tonga
+Bahrain
+Seychelles | the Seychelles
+Mauritius
+Grenada
+Saint Lucia | St. Lucia | St Lucia
+East Timor | Timor-Leste | Timor Leste | Timor
+England
+Scotland
+
+[Schooler]
+United Kingdom | UK | U.K. | Great Britain | Britain | United Kingdom of Great Britain and Northern Ireland
+Ireland | Republic of Ireland | Eire | Éire
+Madagascar
+Indonesia
+Bahamas | the Bahamas
+Haiti
+Dominican Republic | DR | Dominican Rep
+Sri Lanka | Shri Lanka | Ceylon
+Taiwan | Republic of China | ROC
+Singapore
+Fiji
+
+[Too Clever]
+Australia
+Greenland
+
+[Plankton]
+Japan
+Philippines | the Philippines | Phillipines | Philipines | Phillippines
+Iceland
+New Zealand | NZ | Aotearoa
+Jamaica
+Cuba
+
+[Not accepted]
+Puerto Rico
+Hawaii
+Bermuda
+Greece
+Denmark
+Malaysia
+
+# QUESTION
+pool: unlimited
+category: history
+prompt: Name a member country of the Commonwealth of Nations (as of 2025)
+note: The 56 members of the Commonwealth (the group of mostly former British territories). England, Scotland, Wales and Northern Ireland count through the UK as Too Clever.
+
+[One in a Krillion]
+Gabon
+
+[Deep Cut]
+Togo
+Rwanda
+Mozambique | Mozambik
+Cameroon
+Eswatini | Swaziland
+Lesotho
+Botswana
+Namibia
+Malawi
+Seychelles | the Seychelles
+Mauritius
+Sierra Leone
+Gambia | the Gambia
+Kiribati
+Tuvalu
+Nauru
+Vanuatu
+Solomon Islands | the Solomon Islands
+Samoa | Western Samoa
+Tonga
+Maldives | the Maldives
+Brunei | Brunei Darussalam
+Dominica
+Grenada
+Saint Kitts and Nevis | St. Kitts and Nevis | Saint Kitts | St Kitts | St. Kitts
+Saint Lucia | St. Lucia | St Lucia
+Saint Vincent and the Grenadines | St. Vincent and the Grenadines | Saint Vincent | St Vincent | St. Vincent
+Antigua and Barbuda | Antigua | Barbuda
+
+[Rare]
+Malaysia
+Sri Lanka | Shri Lanka | Ceylon
+Bangladesh
+Fiji
+Malta
+Cyprus
+Trinidad and Tobago | Trinidad | Tobago
+Uganda
+Tanzania
+Belize
+Guyana
+Zambia
+Papua New Guinea | PNG | Papua
+
+[Schooler]
+South Africa | RSA
+Jamaica
+Pakistan
+Nigeria
+Kenya
+Bahamas | the Bahamas
+Singapore
+Ghana
+Barbados
+
+[Too Clever]
+England
+Scotland
+Wales
+Northern Ireland
+
+[Plankton]
+United Kingdom | UK | U.K. | Great Britain | Britain
+Canada
+Australia
+India
+New Zealand | NZ | Aotearoa
+
+[Not accepted]
+United States
+Ireland
+Zimbabwe
+Hong Kong
+Egypt
+
+# QUESTION
+pool: unlimited
+category: history
+prompt: Name a form or type of government
+note: Systems of rule, regime types and state forms, including political-economic systems people commonly call governments.
+
+[One in a Krillion]
+Gerontocracy | rule by elders
+
+[Deep Cut]
+Local government | state government | municipal government | federal government
+Anarcho-syndicalism
+Democratic socialism
+Constitutional democracy
+Dynasty | dynastic rule
+Shogunate
+Two-party system | multi-party system | party system
+Democratic republic
+Kakistocracy
+Stratocracy
+Timocracy
+Ochlocracy | mob rule
+Diarchy | dyarchy
+Triumvirate
+Tetrarchy
+Emirate
+Sultanate
+Caliphate
+Khanate
+Principality
+Duchy | grand duchy
+Protectorate
+Colony
+Dominion
+Puppet state | puppet government
+Banana republic
+Welfare state
+Unitary state | unitary system
+Nation-state
+Commonwealth
+Social democracy
+Liberal democracy
+Illiberal democracy
+Hybrid regime
+Absolutism
+Regency
+Matriarchy
+Minarchy | minarchism | night-watchman state
+Libertarianism
+Anarcho-capitalism
+Elective monarchy
+Semi-presidential system | semi-presidential
+Islamic republic
+People's republic
+Soviet | soviet republic
+Despotism | despotic
+Corporatocracy
+Sortition | demarchy
+Capitalism
+Marxism
+Leninism | Marxism-Leninism
+Maoism
+Nazism | Nazi
+Parliamentary republic
+Federal republic
+Constitutional republic
+Chiefdom | tribal chiefdom | tribal government
+Noocracy
+Ethnocracy
+Monarchy by divine right | divine right
+
+[Rare]
+Patriarchy
+Kleptocracy
+Aristocracy
+Plutocracy
+Technocracy
+Meritocracy
+Military junta | junta | military dictatorship | military government
+Confederation | confederacy | confederal
+Presidential system | presidential
+Empire | imperial
+Feudalism | feudal system
+Authoritarianism | authoritarian
+City-state
+Federation
+Colonialism
+Imperialism
+Communist state
+One-party state | single-party state
+Police state
+Tyranny
+
+[Schooler]
+Oligarchy
+Theocracy
+Socialism | socialist
+Fascism | fascist
+Totalitarianism | totalitarian
+Constitutional monarchy
+Absolute monarchy
+Federalism | federal system | federal
+Autocracy
+Parliamentary system | parliamentary | parliamentary democracy
+Representative democracy | indirect democracy
+Direct democracy | pure democracy
+
+[Too Clever]
+Anarchy | anarchism
+Bureaucracy
+
+[Plankton]
+Democracy
+Monarchy | kingdom
+Dictatorship
+Communism | communist
+Republic
+
+[Not accepted]
+Congress
+Senate
+President
+
+# QUESTION
+pool: unlimited
+category: music
+prompt: Name a Dua Lipa song (released through 2025)
+note: Her own songs plus songs where she is a credited featured or lead artist.
+
+[One in a Krillion]
+Demeanor
+
+[Deep Cut]
+If Only
+Sugar | Sugar (Remix)
+Genesis
+Lost in Your Light
+Homesick
+Thinking 'Bout You | Thinking Bout You
+Garden
+No Goodbyes
+Begging
+Bad Together
+Room for 2 | Room for Two
+New Love
+Dreams
+Want To
+Last Dance
+Swan Song
+No Lie
+Un Dia | Un Día | Un Dia (One Day) | One Day
+If It Ain't Me
+That Kind of Woman
+Real Groove
+Love Is Religion
+End of an Era
+These Walls
+Whatcha Doing
+French Exit
+Falling Forever
+Anything for Love
+Maria
+Happy for You
+
+[Rare]
+Good in Bed
+Boys Will Be Boys
+Fever
+Future Nostalgia
+Pretty Please
+Cool
+We're Good | Were Good
+Hotter than Hell
+Prisoner
+Sweetest Pie
+Kiss and Make Up
+Blow Your Mind (Mwah) | Blow Your Mind | Mwah
+Love Again
+Be the One
+
+[Schooler]
+Physical
+Break My Heart
+IDGAF
+Training Season
+Hallucinate
+Electricity
+Scared to Be Lonely
+Illusion
+
+[Too Clever]
+Cold Heart | Cold Heart (PNAU Remix)
+One Kiss
+
+[Plankton]
+Levitating
+Don't Start Now | Dont Start Now
+New Rules
+Houdini
+Dance the Night | Dance the Night Away
+
+[Not accepted]
+Die with a Smile
+Espresso
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a type of engineer
+note: Engineering disciplines and engineer job titles, including non-design jobs that carry the title (train, sound, stationary engineers).
+
+[One in a Krillion]
+Stationary engineer | power plant operator | boiler engineer
+
+[Deep Cut]
+Geotechnical engineer | geotechnical
+Water resources engineer | water engineer | hydraulic engineer
+Coastal engineer | ocean engineer
+Fire protection engineer | fire engineer
+Quality engineer | quality assurance engineer
+Mechatronics engineer | mechatronics
+DevOps engineer | DevOps
+Site reliability engineer | SRE
+Field engineer
+Sales engineer
+Project engineer
+Design engineer
+Process engineer
+Product engineer
+Reliability engineer
+Maintenance engineer
+HVAC engineer
+Architectural engineer | building engineer
+Acoustic engineer | acoustical engineer
+Optical engineer | photonics engineer
+Nanotechnology engineer | nanoengineer
+Telecommunications engineer | telecom engineer
+Broadcast engineer
+RF engineer | radio frequency engineer | radio engineer
+Power engineer | electrical power engineer
+Energy engineer | renewable energy engineer | solar engineer | wind engineer
+Ceramic engineer
+Metallurgical engineer | metallurgist
+Polymer engineer | plastics engineer
+Textile engineer
+Food engineer
+Packaging engineer
+Tissue engineer
+Biochemical engineer
+Pharmaceutical engineer
+Sanitary engineer | wastewater engineer
+Municipal engineer
+Highway engineer
+Railway engineer | rail engineer
+Bridge engineer
+Geological engineer | geomatics engineer | survey engineer
+Drilling engineer
+Reservoir engineer
+Pipeline engineer
+Operating engineer | crane operator
+Chief engineer | ship's engineer | marine engineer officer
+Mixing engineer | mix engineer | mastering engineer
+Lighting engineer
+Controls engineer | control engineer | automation engineer | instrumentation engineer
+Embedded engineer | firmware engineer | embedded systems engineer
+Semiconductor engineer | chip engineer
+Thermal engineer
+Avionics engineer
+Spacecraft engineer | satellite engineer
+Race engineer | motorsport engineer
+Forest engineer | forestry engineer
+Explosives engineer | ordnance engineer
+Biosystems engineer
+
+[Rare]
+Prompt engineer
+Propulsion engineer | rocket engineer
+Flight engineer
+Combat engineer | military engineer | Army engineer
+Naval architect | naval engineer
+Transportation engineer | transportation
+Traffic engineer | traffic
+Safety engineer
+Hardware engineer | computer hardware engineer
+QA engineer | test engineer
+Full-stack engineer | full stack engineer
+Back-end engineer | backend engineer
+Front-end engineer | frontend engineer
+Cloud engineer
+Web engineer | web developer
+Game engineer | video game engineer | game developer
+Security engineer | cybersecurity engineer
+Machine learning engineer | ML engineer | AI engineer
+Data engineer
+Materials engineer | materials science engineer | materials
+Mining engineer | mining
+Marine engineer | marine
+Systems engineer | systems
+Network engineer | network
+Electronics engineer | electronic engineer | electronics
+Aeronautical engineer | aeronautical
+Astronautical engineer | astronautical
+Manufacturing engineer | manufacturing
+Bioengineer | biological engineer | bioengineering
+Genetic engineer
+Recording engineer | studio engineer
+
+[Schooler]
+Aerospace engineer | aerospace
+Computer engineer | computer
+Biomedical engineer | biomedical
+Environmental engineer | environmental
+Nuclear engineer | nuclear
+Structural engineer | structural
+Industrial engineer | industrial
+Petroleum engineer | petroleum | oil engineer
+Agricultural engineer | agricultural
+Robotics engineer | robotics
+Automotive engineer | automotive | car engineer
+Sound engineer | audio engineer
+
+[Too Clever]
+Train engineer | locomotive engineer | railroad engineer
+Imagineer | Disney Imagineer
+Social engineer
+
+[Plankton]
+Civil engineer | civil
+Mechanical engineer | mechanical
+Electrical engineer | electrical
+Software engineer | software
+Chemical engineer | chemical
+
+[Not accepted]
+Mechanic
+Electrician
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a job title that ends in "man" or "woman"
+note: Jobs, trades and roles whose title ends in -man or -woman (one word or two), including old-fashioned ones.
+
+[One in a Krillion]
+Hype man | hypeman
+
+[Deep Cut]
+Exciseman
+Waterman
+Trawlerman
+Frontiersman
+Cabman
+Wingman | wingwoman
+Point man
+Bagman | bag man
+Hatchet man
+Muffin man
+Lollipop man | lollipop lady
+Lighterman
+Ferryman
+Ploughman | plowman
+Boatman
+Coachman
+Footman
+Oarsman
+Marksman | markswoman
+Batsman
+Bowman
+Swordsman
+Cattleman
+Lumberman
+Brakeman
+Switchman
+Trainman
+Pitman
+Tallyman
+Dustman
+Binman
+Groundsman
+Stockman
+Clergyman | churchman
+Guardsman | coastguardsman
+Infantryman
+Rifleman
+Militiaman
+Minuteman
+Midshipman
+Crewman
+Frogman
+Adman | ad man
+Soundman | sound man
+Bandsman | sideman
+Hangman | headsman
+Woodsman | woodman
+Herdsman | stableman
+Dairyman
+Coalman
+Rag-and-bone man | rag and bone man
+Junkman
+Oilman
+Laundryman
+Washerwoman
+Charwoman | cleaning woman
+Needlewoman
+Horsewoman
+Barman
+Bellman
+G-man
+Pressman
+Draftswoman | draughtswoman
+Craftswoman
+Tradeswoman
+Assemblyman | assemblywoman
+Selectman
+Committeeman | committeewoman
+Statesman | stateswoman
+Nobleman | noblewoman
+Mountain man
+Medicine man
+Lobsterman
+Helmsman | steersman
+Motorman
+Yardman | trackman
+Bargeman
+Drayman
+Wheelman
+Strongman
+Frontwoman
+Sportsman | sportswoman
+Servicewoman
+Postwoman
+Repairwoman
+
+[Rare]
+Saleswoman
+Anchorwoman
+Stuntwoman
+Camerawoman
+Fisherwoman
+Firewoman
+Mailwoman
+Weatherwoman
+Spokeswoman
+Iceman | ice man
+Lawman
+Newsman | newswoman | newspaperman
+Gunman
+Repo man
+Ice cream man
+Showman
+Airman | airwoman
+Seaman
+Ombudsman
+Foreman | forewoman
+Linesman
+Alderman | alderwoman
+Councilman
+Councilwoman
+Congresswoman
+Chairwoman
+Draftsman | draughtsman
+Frontman
+Horseman
+Huntsman
+Journeyman
+Longshoreman
+Patrolman
+Postman
+Serviceman
+Signalman
+Tradesman
+Watchman | night watchman
+Workman | workwoman
+Yeoman
+
+[Schooler]
+Salesman
+Cameraman
+Garbageman | garbage man | trashman
+Handyman | handywoman
+Repairman
+Weatherman
+Milkman
+Deliveryman | delivery man
+Doorman
+Policewoman
+Businesswoman
+Chairman
+Congressman
+Anchorman
+Stuntman
+Lineman
+Spokesman
+Craftsman
+
+[Too Clever]
+Hitman | hit man
+Middleman
+Henchman
+
+[Plankton]
+Fireman
+Policeman
+Mailman
+Fisherman
+Businessman
+
+[Not accepted]
+Superman
+Snowman
+Spider-Man
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name a type or kind of paper
+note: Kinds of paper and paper products, sizes and finishes. Things called "paper" that you write (term paper) count as Too Clever.
+
+[One in a Krillion]
+Washi | washi paper | Japanese paper
+
+[Deep Cut]
+Notepad | memo pad | scratch pad
+Scantron | answer sheet
+Paper straw
+Cupcake liner | muffin cup | baking cup
+Greeting card | card
+Mixed media paper | pastel paper | charcoal paper
+Coated paper
+Glitter paper | metallic paper
+Colored paper | coloured paper
+Plain paper | blank paper | white paper
+Scrap paper
+Bond paper
+Onionskin | onion skin
+Blotting paper | blotter
+Rolling paper | rolling papers
+Flypaper | fly paper
+Litmus paper | pH paper
+Freezer paper
+Contact paper
+Receipt paper | thermal paper
+Fax paper
+Scrapbook paper
+Chipboard | paperboard
+Bristol board | Bristol paper
+Mulberry paper
+Hanji
+Seed paper
+Recycled paper
+Lokta paper | lokta
+Cotton paper | rag paper | linen paper
+Laid paper | wove paper
+Ledger paper
+Tabloid paper | tabloid
+Letter paper | letter size | letter-size paper
+A4 | A4 paper
+Greaseproof paper
+Sketch paper | drawing paper
+Bible paper | India paper
+Music paper | staff paper | manuscript paper
+Dot grid paper | dotted paper | bullet journal paper
+Isometric paper
+Blueprint paper | blueprint
+Security paper | banknote paper
+Stationery | letterhead
+Paper bag
+Paper plate
+Paper cup
+Foam board | poster board
+Glossy paper | matte paper
+Stamp | postage stamp
+Postcard
+Corrugated cardboard
+
+[Rare]
+Legal paper | legal pad
+Filter paper | coffee filter
+Napkin | paper napkin
+Envelope
+Index card
+Sticky note | Post-it | Post-it note
+Butcher paper
+Kraft paper | brown paper
+Crepe paper | crêpe paper | streamers
+Rice paper
+Papyrus
+Vellum
+Photo paper | photographic paper
+Carbon paper
+Watercolor paper | watercolour paper
+Manila paper | manila
+Card stock | cardstock
+Tracing paper
+Origami paper
+Newsprint
+
+[Schooler]
+Tissue paper
+Facial tissue | Kleenex | tissues
+Wrapping paper | gift wrap
+Graph paper | grid paper
+Cardboard
+Parchment paper | parchment | baking paper
+Wax paper | waxed paper
+Loose-leaf paper | loose leaf | loose-leaf
+Newspaper
+Copy paper | computer paper
+
+[Too Clever]
+Test paper | exam paper | test
+Sandpaper
+Wallpaper
+Term paper | research paper | essay
+Paper money | dollar bill
+
+[Plankton]
+Printer paper | printing paper
+Notebook paper | lined paper | ruled paper | college ruled | wide ruled
+Construction paper
+Toilet paper | TP | bathroom tissue | toilet tissue
+Paper towel | paper towels
+
+[Not accepted]
+Plastic
+Paper mache
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name a type of window, door, or roof
+note: Styles of windows, doors and roofs on houses, buildings and vehicles.
+
+[One in a Krillion]
+Oriel window | oriel
+
+[Deep Cut]
+Stage door
+Pagoda roof
+Wood door | wooden door
+Hatchback | liftgate | tailgate
+Airplane window
+Car window | power window
+Window screen | screen window
+Lancet window | lancet
+Egress window
+Glass block window
+Garden window
+Storm window
+Hopper window | hopper
+Jalousie window | louvered window | jalousie
+Clerestory | clerestory window
+Fixed window
+Single-hung window | single hung
+Tilt-and-turn window | tilt and turn
+Arched window
+Round window | oculus | bullseye window
+Palladian window | Venetian window
+Eyebrow window
+Shop window | display window | storefront window
+Drive-through window | drive-thru window
+Ticket window | teller window
+Frosted window
+Tinted window
+Double-pane window | double glazed | double-glazing
+Bulletproof window | bulletproof glass
+Corner window
+Roof window
+Windshield | windscreen
+Rear window
+Saloon doors | swinging doors | batwing doors
+Cellar door | bulkhead door | storm cellar door
+Hatch
+Fire door
+Security door
+Steel door
+Glass door
+Hidden door | secret door | bookcase door
+Panel door
+Flush door
+Louvered door
+Gull-wing door | gullwing door
+Butterfly door
+Scissor door | Lambo door
+Elevator door
+Vault door | bank vault door
+Roll-up door | rolling door
+Interior door
+Side door
+Emergency exit door | exit door
+Butterfly roof
+Sawtooth roof
+Saltbox roof | saltbox
+Pyramid roof
+Barrel roof | vaulted roof
+Bonnet roof
+Dutch gable roof | Dutch gable
+Cross-gable roof | cross gable
+M-shaped roof
+Green roof | living roof | sod roof
+Curved roof
+Lean-to roof | lean-to
+Onion dome
+Cupola
+Rooftop deck | roof deck
+Tin roof
+Clay tile roof | tile roof | Spanish tile roof
+Slate roof
+Metal roof
+Shingle roof | asphalt shingle roof
+Solar roof
+Glass roof
+Retractable roof
+Convertible top | soft top
+Hardtop
+Targa top | T-top
+
+[Rare]
+Casement window | casement
+Double-hung window | double hung
+Picture window
+Awning window
+Bow window
+Dormer | dormer window
+Hip roof | hipped roof
+Mansard roof | mansard
+Gambrel roof | gambrel
+Shed roof | skillion roof
+A-frame roof | A-frame
+Thatched roof | thatch
+Sash window | sash
+Sliding window
+Porthole
+Rose window
+Transom | transom window
+Pitched roof
+Dome | domed roof
+Sunroof | moonroof
+Car door
+Automatic door | sliding automatic door
+Dutch door | stable door
+Pocket door
+Bifold door | bi-fold door
+Patio door
+
+[Schooler]
+French door | French doors | French window
+Revolving door
+Barn door | sliding barn door
+Bay window
+Storm door
+Back door
+Flat roof
+Gable roof | gabled roof
+Stained glass window | stained glass
+Double door | double doors
+Front door | entry door
+
+[Too Clever]
+Doggy door | dog door | pet door | cat flap
+Trap door | trapdoor
+Windows | Microsoft Windows
+
+[Plankton]
+Sliding door | sliding glass door
+Garage door | overhead door
+Skylight
+Screen door
+
+[Not accepted]
+Doorknob
+Ceiling
+
+# QUESTION
+pool: unlimited
+category: games-toys
+prompt: Name a playable fighter in Super Smash Bros. Ultimate
+note: All 89 fighters including Echo Fighters, DLC, the three Mii Fighters and Pokémon Trainer's Pokémon.
+
+[One in a Krillion]
+Piranha Plant
+
+[Deep Cut]
+Pit
+Roy
+Dark Samus
+Dark Pit | Pittoo
+Chrom
+Richter | Richter Belmont
+Simon | Simon Belmont
+Mr. Game & Watch | Mr. Game and Watch | Game & Watch | Game and Watch
+Ice Climbers | Popo | Nana
+Olimar | Captain Olimar | Alph
+R.O.B. | ROB | Robotic Operating Buddy
+Wii Fit Trainer
+Duck Hunt | Duck Hunt Duo | Duck Hunt Dog
+Mii Brawler
+Mii Swordfighter
+Mii Gunner
+Mii Fighter | Mii
+Robin
+Shulk
+Corrin
+Byleth
+Palutena
+Wolf | Wolf O'Donnell
+Lucas
+Ivysaur
+Pokémon Trainer | Pokemon Trainer | Red
+Incineroar
+Hero | Dragon Quest Hero | Luminary | Erdrick | Eight
+Terry | Terry Bogard
+Min Min
+Pyra | Mythra | Pyra and Mythra | Pyra/Mythra | Aegis
+Kazuya | Kazuya Mishima
+Bayonetta
+Rosalina | Rosalina & Luma | Rosalina and Luma | Luma
+Pichu
+
+[Rare]
+Ness
+Marth
+Ike
+Falco | Falco Lombardi
+Diddy Kong | Diddy
+King Dedede | Dedede
+Sheik
+Toon Link
+Young Link
+Charizard
+Squirtle
+Lucario
+Greninja
+Mega Man | Megaman
+Cloud | Cloud Strife
+Sephiroth
+Ryu
+Ken | Ken Masters
+Snake | Solid Snake
+Villager
+Isabelle
+Inkling | Inklings | Inkling Boy | Inkling Girl
+Daisy | Princess Daisy
+Bowser Jr. | Bowser Junior | Bowser Jr
+Dr. Mario | Doctor Mario | Dr Mario
+Joker
+Little Mac
+King K. Rool | King K Rool | K. Rool
+Ridley
+Banjo & Kazooie | Banjo and Kazooie | Banjo-Kazooie | Banjo | Kazooie
+Lucina
+Zero Suit Samus | ZSS
+
+[Schooler]
+Luigi
+Bowser
+Yoshi
+Peach | Princess Peach
+Samus | Samus Aran
+Fox | Fox McCloud
+Zelda | Princess Zelda
+Captain Falcon | Falcon
+Ganondorf | Ganon
+Jigglypuff
+Mewtwo
+Pac-Man | Pacman | Pac Man
+Wario
+Meta Knight | Metaknight
+
+[Too Clever]
+Sora
+Steve | Alex | Minecraft Steve | Zombie | Enderman
+
+[Plankton]
+Mario
+Link
+Pikachu
+Kirby
+Sonic | Sonic the Hedgehog
+Donkey Kong | DK
+
+[Not accepted]
+Waluigi
+Tails
+Knuckles
+Shadow
+Crash Bandicoot
+Geno
+Rayman
+
+# QUESTION
+pool: unlimited
+category: games-toys
+prompt: Name a Pokémon type or a kind of Poké Ball
+note: The 18 types plus the Stellar Tera Type, and every Poké Ball from the main games.
+
+[One in a Krillion]
+GS Ball | GS
+
+[Deep Cut]
+Cherish Ball | Cherish
+Level Ball | Level
+Lure Ball | Lure
+Moon Ball
+Friend Ball | Friend
+Love Ball | Love
+Heavy Ball | Heavy
+Fast Ball | Fast
+Sport Ball | Sport
+Park Ball | Park
+Dream Ball | Dream
+Beast Ball | Beast
+Origin Ball | Origin
+Feather Ball | Feather
+Wing Ball | Wing
+Jet Ball | Jet
+Gigaton Ball | Gigaton
+Leaden Ball | Leaden
+Hisuian Poké Ball | Hisuian Pokeball
+
+[Rare]
+Normal
+Poison
+Bug
+Ground
+Rock
+Steel
+Safari Ball | Safari
+Premier Ball | Premier
+Quick Ball | Quick
+Luxury Ball | Luxury
+Dusk Ball | Dusk
+Heal Ball | Heal
+Timer Ball | Timer
+Net Ball | Net
+Dive Ball | Dive
+Nest Ball | Nest
+Repeat Ball | Repeat
+
+[Schooler]
+Psychic | psychic type
+Dragon
+Ghost
+Ice
+Flying
+Fighting
+Dark
+Fairy
+Great Ball | Great | Greatball
+Ultra Ball | Ultra | Ultraball
+Master Ball | Master | Masterball
+
+[Too Clever]
+Strange Ball | Strange
+Stellar | Stellar type
+
+[Plankton]
+Fire
+Water
+Grass
+Electric
+Poké Ball | Poke Ball | Pokeball | Pokéball | Pokemon ball | Pokémon ball
+
+[Not accepted]
+Light
+Shadow
+Metal
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name a part of the digestive or respiratory system
+note: Organs, tubes, tissues and glands of the digestive tract and the breathing system, from nose and mouth down to lungs and anus.
+
+[One in a Krillion]
+Ileocecal valve
+
+[Deep Cut]
+Jaw | jaws
+Rugae
+Gastric glands | gastric pits
+Hepatic duct
+Pancreatic duct
+Ampulla of Vater
+Mesentery
+Peritoneum
+Omentum
+Lobes of the lung | lung lobe | lobe
+Hilum
+Turbinates | nasal conchae
+Mucous membrane | mucosa
+Nasal septum | septum
+Sigmoid colon
+Anal sphincter
+Intercostal muscles | intercostals
+Vocal cords | vocal folds
+Adenoids
+Tonsils
+Mucus | phlegm
+Stomach acid | gastric juice
+Bile
+Digestive enzymes | enzymes
+Gut bacteria | microbiome | gut flora
+Rib cage | ribs
+Palate | hard palate | soft palate
+Nasal hair | nose hair
+Lower esophageal sphincter | cardiac sphincter | LES
+Bronchioles
+Saliva | spit
+Cilia
+Pleura | pleural membrane
+Liver lobes
+Fundus
+
+[Rare]
+Pharynx
+Larynx | voice box | Adam's apple
+Epiglottis
+Bronchi | bronchus | bronchial tubes
+Alveoli | alveolus | air sacs
+Duodenum
+Salivary glands | salivary gland
+Sinuses | paranasal sinuses
+Nasal cavity | nasal passages
+Nostrils | nostril | nares
+Villi | villus | microvilli
+Cecum | caecum
+Ileum
+Jejunum
+Uvula
+Gums
+Lips
+Bile duct | common bile duct
+Sphincter
+Pylorus | pyloric sphincter
+
+[Schooler]
+Esophagus | oesophagus | gullet | food pipe
+Small intestine | small bowel
+Large intestine | large bowel
+Liver
+Teeth | tooth | molars | incisors | canines
+Tongue
+Trachea | windpipe
+Diaphragm
+Throat
+Colon | ascending colon | transverse colon | descending colon
+Rectum
+Anus
+Pancreas
+Gallbladder | gall bladder
+Appendix
+
+[Too Clever]
+Butt | butthole | bum
+Belly | tummy
+
+[Plankton]
+Stomach
+Lungs | lung
+Mouth
+Intestines | intestine | gut | guts | bowel | bowels
+Nose
+
+[Not accepted]
+Heart
+Kidney
+Bladder
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name a piece of gym or workout equipment
+note: Machines, free weights, accessories and gear used for exercise.
+
+[One in a Krillion]
+Jacob's ladder | Jacobs ladder
+
+[Deep Cut]
+Push-up bars | push-up handles
+Ab mat
+Lacrosse ball
+Yoga strap
+Yoga block
+Squat pad | barbell pad
+Weight machine | machine
+Free weights
+Weight vest | weighted vest
+Ankle weights
+Wrist weights
+Lifting gloves | gym gloves | weightlifting gloves
+Lifting belt | weight belt | weightlifting belt
+Wrist wraps
+Knee sleeves | knee wraps
+Lifting straps | straps
+Chalk | gym chalk | lifting chalk
+Barbell collars | collars | barbell clips
+Agility ladder | speed ladder
+Cones
+Hurdles
+Balance board
+Sliders | gliding discs
+Grip strengthener | hand gripper
+Bowflex
+Total Gym
+Rebounder | mini trampoline
+Decline bench | ab bench
+Incline bench
+Back extension | hyperextension bench | roman chair
+GHD | glute ham developer
+Captain's chair | knee raise station
+VersaClimber
+Landmine
+Chains | lifting chains
+Mini bands | loop bands | booty bands
+Pilates reformer | reformer
+Pilates ring | magic circle
+Vibration plate
+Inversion table
+Aerobic step | step platform | stepper
+Hula hoop | weighted hula hoop
+Massage gun | Theragun
+Gymnastic rings | rings
+Parallettes
+Climbing rope | gym rope
+Peg board | pegboard
+Steel mace | mace
+Indian clubs | clubbell | clubbells
+Bulgarian bag
+Slam ball
+Wall ball
+Dumbbell rack | weight rack
+Home gym | multi-gym
+Pulley
+Belt squat machine
+Hip abductor machine | hip adductor machine | abductor | adductor
+Glute kickback machine
+Seated row machine | row machine | seated cable row
+T-bar row
+Pendulum squat
+Reverse hyper
+Sandbag
+Tire | tractor tire
+TRX | suspension trainer
+Sled | prowler | push sled
+Ski erg | SkiErg
+Air bike | assault bike | fan bike
+
+[Rare]
+Smith machine
+Lat pulldown | lat pulldown machine
+Leg extension | leg extension machine
+Leg curl | leg curl machine | hamstring curl
+Chest press | chest press machine
+Pec deck | butterfly machine | pec fly machine
+Shoulder press machine
+Preacher curl bench | preacher bench
+Dip station | dip bars | dip machine
+Spin bike
+Peloton
+Battle ropes
+Plyo box | plyometric box | box
+EZ bar | EZ curl bar | curl bar
+Trap bar | hex bar
+Hack squat | hack squat machine
+Calf raise machine
+Hip thrust machine
+Ab roller | ab wheel
+Ab crunch machine
+Punching bag | heavy bag | boxing bag
+Speed bag
+BOSU ball | Bosu
+Power rack | power cage
+
+[Schooler]
+Kettlebell | kettle bell
+Elliptical | elliptical machine | cross trainer
+Rowing machine | rower | erg | ergometer
+Squat rack
+Weight plates | plates | weights
+Pull-up bar | pullup bar | chin-up bar
+Jump rope | skipping rope
+Yoga mat | exercise mat | mat
+Resistance band | resistance bands | exercise band
+Medicine ball | med ball
+Leg press | leg press machine
+Cable machine | cable crossover | cable station
+Stair climber | StairMaster | stair stepper
+Exercise ball | stability ball | yoga ball | Swiss ball
+Foam roller
+
+[Too Clever]
+Shake Weight
+ThighMaster | Thigh Master
+
+[Plankton]
+Treadmill
+Dumbbell | dumbbells | dumbell
+Barbell | bar
+Bench | weight bench | bench press
+Exercise bike | stationary bike
+
+[Not accepted]
+Protein powder
+Pre-workout
+
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a Porsche, Ferrari, or Lamborghini model
+note: Road cars, limited editions, notable concepts and famous race cars from the three brands. Lamborghini's tractors count as Too Clever.
+
+[One in a Krillion]
+LM002 | LM 002 | Rambo Lambo
+
+[Deep Cut]
+912
+914
+968
+Speedster | 356 Speedster
+550 Spyder
+917
+935
+956
+962
+919 Hybrid | 919
+963
+612 Scaglietti | 612
+FF
+GTC4Lusso
+275 | 275 GTB
+288 GTO
+Mondial
+456
+550 Maranello | 550
+575M | 575 | 575M Maranello
+Monza SP1 | Monza SP2 | Monza
+Daytona SP3
+12Cilindri | 12 Cilindri
+F80
+Amalfi
+FXX | FXX-K | FXX K
+330 P4 | P4
+250 Testa Rossa
+Espada
+Jalpa
+Islero
+Jarama
+Urraco
+Silhouette
+350 GT
+400 GT
+Essenza SCV12
+Sesto Elemento
+Egoista
+Lanzador
+Terzo Millennio
+Asterion
+Estoque
+Marzal
+
+[Rare]
+Diablo
+Miura
+Roma
+Portofino | Portofino M
+California | California T
+488 | 488 GTB | 488 Pista | 488 Spider
+F8 | F8 Tributo | F8 Spider
+812 | 812 Superfast | 812 GTS
+296 | 296 GTB | 296 GTS
+Purosangue
+918 Spyder | 918 | 918 Spider
+Veneno
+Sián | Sian
+Centenario
+Reventón | Reventon
+356
+F50
+250 GTO | 250
+Daytona | 365 GTB/4
+Dino | Dino 246
+F430 | 430
+360 | 360 Modena
+599 | 599 GTB
+F12 | F12berlinetta | F12 Berlinetta
+718 | 718 Boxster | 718 Cayman
+959
+Temerario
+944
+928
+924
+308 | 308 GTS | 308 GTB
+328
+348
+F355 | 355
+
+[Schooler]
+Countach
+Panamera
+Macan
+Taycan
+Enzo | Enzo Ferrari
+F40
+Testarossa
+458 | 458 Italia
+SF90 | SF90 Stradale
+Boxster
+Cayman
+Carrera GT
+Murciélago | Murcielago
+Gallardo
+Revuelto
+
+[Too Clever]
+Lamborghini tractor | tractor
+Ferrari F1 car | F1 car | Formula 1 car
+
+[Plankton]
+911 | Porsche 911 | nine eleven | Carrera | Targa | GT3 | 911 Turbo
+Huracán | Huracan
+Aventador
+Cayenne
+Urus
+
+[Not accepted]
+Mustang
+Corvette
+Chiron
+
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a Tesla, GMC, Cadillac, Buick, or Lincoln model
+note: Current and past production models from the five brands.
+
+[One in a Krillion]
+Syclone
+
+[Deep Cut]
+The Beast | Cadillac One
+Sixty Special
+Typhoon
+Sonoma
+Safari
+Suburban
+Caballero
+Vandura
+Rally | Rally van
+GMC Motorhome | motorhome
+TopKick | Topkick
+Sprint
+Robovan
+Catera
+Allanté | Allante
+Cimarron
+SRX
+STS
+DTS
+XLR
+ELR
+XTS
+CT6
+Optiq
+Vistiq
+Celestiq
+Escalade IQ
+Series 62
+Calais
+Brougham
+Rendezvous
+Rainier
+Terraza
+Verano
+Cascada
+Electra | Electra 225
+Reatta
+Skyhawk
+Somerset
+Wildcat
+Special
+Super
+Invicta
+Apollo
+Centurion
+Estate Wagon
+Gran Sport | GSX
+Lucerne
+MKC
+MKT
+MKS
+LS
+Mark LT
+Blackwood
+Zephyr
+Versailles
+Premiere
+Capri
+Cosmopolitan
+Continental Mark | Mark III | Mark IV | Mark V | Mark VI | Mark VII | Mark VIII
+Sierra EV
+
+[Rare]
+CTS
+ATS
+Lyriq
+Eldorado
+DeVille | Coupe de Ville | Sedan de Ville | De Ville
+Fleetwood
+Seville
+XT5
+XT4
+XT6
+CT4
+CT5
+Grand National
+GNX
+Regal
+LaCrosse
+Riviera
+Skylark
+LeSabre
+Park Avenue
+Century
+Envision
+Envista
+MKZ
+MKX
+Nautilus
+Corsair
+Savana
+Envoy
+Jimmy
+Cybercab | Robotaxi
+Roadmaster
+
+[Schooler]
+Sierra | Sierra 1500 | Sierra HD
+Yukon | Yukon XL | Yukon Denali | Denali
+Hummer EV | Hummer | GMC Hummer
+Navigator
+Town Car
+Continental
+Enclave
+Encore | Encore GX
+Canyon
+Acadia
+Terrain
+Aviator
+
+[Too Clever]
+Semi | Tesla Semi
+Roadster | Tesla Roadster
+
+[Plankton]
+Model 3
+Model S
+Model X
+Model Y
+Cybertruck
+Escalade | Escalade ESV | Escalade EXT
+
+[Not accepted]
+Silverado
+Tahoe
+Camaro
+Corvette
+
+# QUESTION
+pool: unlimited
+category: nature
+prompt: Name a natural disaster
+note: Disasters and hazards caused by nature, from weather and geology to space, disease and pests.
+
+[One in a Krillion]
+Limnic eruption | lake overturn
+
+[Deep Cut]
+Rip current | riptide
+Mass extinction
+Ice age
+Lahar
+Pyroclastic flow
+Firestorm
+Haboob
+Geomagnetic storm | solar storm
+Glacial lake outburst flood | jökulhlaup | jokulhlaup | GLOF
+Rogue wave
+Polar vortex
+Nor'easter | noreaster
+Squall
+Microburst
+Gamma-ray burst
+Supervolcano | supereruption
+Desertification
+Ice jam
+Debris flow
+Liquefaction
+Aftershock
+Ashfall | ash cloud | volcanic ash
+Seiche
+Meteotsunami
+Cloudburst
+Heat dome
+Freeze | hard freeze | frost
+Infestation | pest outbreak
+Coastal erosion | erosion
+Crop failure | blight
+Volcanic winter
+Dust devil
+Megadrought
+
+[Rare]
+Hailstorm | hail
+Ice storm
+Dust storm
+Sandstorm
+Lightning strike | lightning
+Famine
+Epidemic
+Storm surge
+Thunderstorm | severe thunderstorm
+Monsoon
+Rockslide | rockfall
+Tropical storm
+Waterspout
+Cold wave | cold snap | extreme cold
+Derecho
+Whiteout
+Plague
+Locust swarm | locusts | locust plague
+Solar flare
+Snowstorm
+Mudflow
+Windstorm
+
+[Schooler]
+Wildfire | forest fire | bushfire | brush fire
+Avalanche
+Landslide | landslip
+Drought
+Blizzard
+Mudslide
+Typhoon
+Cyclone
+Heat wave | heatwave
+Sinkhole
+Flash flood
+
+[Too Clever]
+Asteroid impact | asteroid | meteor | meteor strike | meteorite
+Pandemic
+
+[Plankton]
+Earthquake | quake | tremor
+Tornado | twister
+Hurricane
+Tsunami | tidal wave
+Volcanic eruption | volcano | eruption
+Flood | flooding
+
+[Not accepted]
+Sharknado
+Oil spill
+War
+
+# QUESTION
+pool: unlimited
+category: movies-tv
+prompt: Name a movie that made $1 billion worldwide (released through 2025)
+note: Every film whose worldwide box office (re-releases included) passed $1 billion.
+
+[One in a Krillion]
+Alice in Wonderland | Alice in Wonderland 2010
+
+[Deep Cut]
+The Dark Knight Rises
+Aladdin | Aladdin 2019
+The Hobbit: An Unexpected Journey | An Unexpected Journey | The Hobbit
+Star Wars: Episode I – The Phantom Menace | The Phantom Menace | Episode I
+Transformers: Dark of the Moon | Dark of the Moon
+Transformers: Age of Extinction | Age of Extinction
+Pirates of the Caribbean: On Stranger Tides | On Stranger Tides
+Pirates of the Caribbean: Dead Man's Chest | Dead Man's Chest
+Despicable Me 3
+Skyfall
+The Lord of the Rings: The Return of the King | The Return of the King | Return of the King
+Harry Potter and the Sorcerer's Stone | Sorcerer's Stone | Philosopher's Stone | Harry Potter and the Philosopher's Stone
+Jurassic World: Fallen Kingdom | Fallen Kingdom
+Jurassic World Dominion | Dominion
+Iron Man 3
+Finding Dory
+Zootopia | Zootopia 1
+The Fate of the Furious | Fate of the Furious | Fast 8 | Fast and Furious 8
+
+[Rare]
+Avengers: Age of Ultron | Age of Ultron
+Captain America: Civil War | Civil War
+Spider-Man: Far From Home | Far From Home
+Captain Marvel
+Aquaman
+Harry Potter and the Deathly Hallows – Part 2 | Deathly Hallows Part 2 | Deathly Hallows 2 | Harry Potter 7 Part 2
+Star Wars: The Last Jedi | The Last Jedi | Episode VIII
+Star Wars: The Rise of Skywalker | The Rise of Skywalker | Episode IX
+Rogue One | Rogue One: A Star Wars Story
+Jurassic World
+Jurassic Park
+Furious 7 | Fast 7
+Beauty and the Beast | Beauty and the Beast 2017
+Incredibles 2
+Minions
+Toy Story 3
+Toy Story 4
+The Dark Knight
+Deadpool & Wolverine | Deadpool and Wolverine | Deadpool 3
+Moana 2
+Lilo & Stitch | Lilo and Stitch | Lilo & Stitch 2025
+Zootopia 2
+Avatar: Fire and Ash | Fire and Ash | Avatar 3
+
+[Schooler]
+Avengers: Infinity War | Infinity War
+Spider-Man: No Way Home | No Way Home
+The Avengers | Avengers
+Frozen II | Frozen 2
+Inside Out 2
+The Lion King | Lion King | The Lion King 2019
+Black Panther
+Top Gun: Maverick | Top Gun Maverick
+The Super Mario Bros. Movie | Super Mario Bros. Movie | Mario Movie | Super Mario Movie
+Star Wars: The Force Awakens | The Force Awakens | Episode VII
+Avatar: The Way of Water | The Way of Water | Avatar 2
+
+[Too Clever]
+Joker
+Ne Zha 2 | Nezha 2
+
+[Plankton]
+Avengers: Endgame | Endgame
+Avatar
+Titanic
+Frozen
+Barbie
+
+[Not accepted]
+Oppenheimer
+Despicable Me 4
+A Minecraft Movie | Minecraft Movie
+Shrek 2
+Wicked
+Spider-Man 3
+
+# QUESTION
+pool: unlimited
+category: science
+prompt: Name a moon in our solar system
+note: Named moons of planets, dwarf planets and asteroids. Earth's Moon counts.
+
+[One in a Krillion]
+Hippocamp
+
+[Deep Cut]
+Lysithea
+Ananke
+Callirrhoe
+Themisto
+Megaclite
+Taygete
+Chaldene
+Harpalyke
+Kalyke
+Iocaste
+Erinome
+Isonoe
+Praxidike
+Autonoe
+Thyone
+Hermippe
+Aitne
+Eurydome
+Euanthe
+Euporie
+Orthosie
+Sponde
+Kale
+Pasithee
+Hegemone
+Mneme
+Aoede
+Thelxinoe
+Arche
+Kallichore
+Helike
+Carpo
+Eukelade
+Cyllene
+Kore
+Herse
+Dia
+Eupheme
+Valetudo
+Philophrosyne
+Ersa
+Pandia
+Methone
+Pallene
+Anthe
+Polydeuces
+Aegaeon
+Paaliaq
+Tarvos
+Ijiraq
+Suttungr
+Kiviuq
+Mundilfari
+Albiorix
+Skathi
+Erriapus
+Siarnaq
+Thrymr
+Narvi
+Aegir
+Bebhionn
+Bergelmir
+Bestla
+Farbauti
+Fenrir
+Fornjot
+Hati
+Hyrrokkin
+Kari
+Loge
+Skoll
+Surtur
+Jarnsaxa
+Greip
+Tarqeq
+Gridr
+Angrboda
+Skrymir
+Gerd
+Eggther
+Beli
+Gunnlod
+Thiazzi
+Alvaldi
+Geirrod
+Prospero
+Setebos
+Stephano
+Trinculo
+Francisco
+Margaret
+Ferdinand
+Perdita
+Mab
+Cupid
+Halimede
+Psamathe
+Sao
+Laomedeia
+Neso
+Hi'iaka | Hiiaka
+Namaka
+Vanth
+Weywot
+Xiangliu
+Ilmarë | Ilmare
+Actaea
+Linus
+Romulus
+Remus
+Petit-Prince | Petit Prince
+Menoetius
+Selam
+
+[Rare]
+Carme
+Pasiphae
+Sinope
+Cressida
+Bianca
+Belinda
+Rosalind
+Desdemona
+Leda
+Elara
+Ymir
+Adrastea
+Metis
+Thebe
+Daphnis
+Calypso
+Telesto
+Helene
+Dactyl
+Dysnomia
+Sycorax
+Caliban
+Thalassa
+Naiad
+Despina
+Galatea
+Larissa
+Portia
+Juliet
+Ophelia
+Cordelia
+Himalia
+Amalthea
+Styx
+Kerberos
+Hydra
+Nix
+Puck
+Epimetheus
+Janus
+Pandora
+Prometheus
+Atlas
+Pan
+Proteus
+
+[Schooler]
+Nereid
+Umbriel
+Ariel
+Phoebe
+Hyperion
+Tethys
+Dione
+Callisto
+Enceladus
+Triton
+Phobos
+Deimos
+Mimas
+Iapetus
+Rhea
+Oberon
+Titania
+Miranda
+
+[Too Clever]
+Charon
+Dimorphos
+
+[Plankton]
+The Moon | Moon | Luna | Earth's moon
+Titan
+Europa
+Ganymede
+Io
+
+[Not accepted]
+Pluto
+Ceres
+Sun
+Death Star
+
+# QUESTION
+pool: unlimited
+category: sports
+prompt: Name a kind of race
+note: Running, driving, riding, swimming, animal and novelty races, race distances, and other uses of the word race (arms race, space race) as Too Clever.
+
+[One in a Krillion]
+Cheese rolling | cheese-rolling race
+
+[Deep Cut]
+Criterium | crit
+Keirin
+Madison
+Points race
+Scratch race
+Elimination race | miss-and-out
+Team pursuit | individual pursuit | pursuit
+Omnium
+Cyclocross
+Gran Fondo
+Grand Prix
+Endurance race | 24 Hours of Le Mans | Le Mans
+Hill climb
+Autocross
+Enduro
+Baja 1000 | trophy truck race | off-road race
+Hydroplane race | powerboat race
+Dragon boat race
+Head race
+Sprint triathlon
+Super-G | super G
+Giant slalom
+Ski cross | snowboard cross | boardercross
+Short track | short track speed skating
+Skeleton
+Mass start
+Fell run | fell running
+Orienteering
+Adventure race
+Sky race | skyrunning
+Tower run | stair climb race | stair race
+Beer mile
+Turkey trot
+Pancake race
+Harness race | trotting race
+Chariot race
+Barrel racing
+Ice racing
+Midget car race | sprint car race | dirt track race
+Lawn mower race
+Wheelchair race
+Medley relay
+Pigeon race | pigeon racing
+Camel race
+Ostrich race
+Pig race
+Snail race
+Rubber duck race | duck race
+Bed race
+Tricycle race | big wheel race
+Scooter race
+Skateboard race | downhill skateboarding
+Drone race | drone racing
+Air race
+Balloon race | hot air balloon race
+Paper boat race
+Wacky Races
+Roller derby
+Point-to-point | horse steeplechase
+Thoroughbred race
+Quarter horse race
+Soapbox race
+Leapfrog race
+Crab walk race
+Hopper race | space hopper race
+Biathlon
+Duathlon
+Aquathlon
+Mud run
+Tough Mudder
+Spartan race
+Shuttle run
+800-meter | 800m | 800 meters
+1500-meter | 1500m | 1500 meters | metric mile
+200-meter | 200m | 200 meters
+400-meter | 400m | 400 meters
+3000-meter | 3000m | 3000 meters
+Marathon swim | open water swim
+
+[Rare]
+Steeplechase
+10K | 10k | 10 kilometer
+Ironman
+Dog sled race | sled dog race | Iditarod | mushing
+Wheelbarrow race
+Go-kart race | go kart | karting
+Motocross
+BMX race | BMX
+Rally | rally race | rallying
+Time trial
+Ultramarathon | ultra marathon | ultra
+Fun run
+Color run
+Mile | mile run
+100-meter dash | 100m | 100 meters | dash
+Rowing race | regatta | crew race
+Kayak race | canoe race
+Slalom
+Downhill | downhill race
+Speed skating
+Bobsled | bobsleigh
+Luge
+Soapbox derby | Pinewood Derby
+Road race
+Trail run | trail race
+Racewalking | race walk
+Ski race
+Sailing race | yacht race | America's Cup
+Supercross
+Motorcycle race | MotoGP
+IndyCar | Indy 500
+Street race | street racing
+Greyhound race | dog race
+Track race | track cycling
+Tour de France | stage race
+Obstacle course race | obstacle race
+
+[Schooler]
+Drag race | drag racing
+Sack race | potato sack race
+Three-legged race | three legged race
+Egg-and-spoon race | egg and spoon race | egg race
+Hurdles | hurdle race
+Triathlon
+Half marathon
+5K | 5k | 5 kilometer
+Bike race | cycling race | bicycle race
+Boat race
+NASCAR | stock car race
+Formula 1 | F1 | Formula One
+Swimming race | swim race
+Cross-country | cross country
+
+[Too Clever]
+Arms race
+Space race
+Rat race
+Human race
+Political race | election | presidential race
+
+[Plankton]
+Marathon
+Relay race
+Sprint
+Horse race | horse racing
+Car race | auto race | car racing
+
+[Not accepted]
+Demolition derby
+Tag
+
+# QUESTION
+pool: unlimited
+category: food
+prompt: Name a cooking method that uses heat
+note: Ways of cooking food with heat. Prep steps with no heat (chopping, pickling, marinating) don't count.
+
+[One in a Krillion]
+En papillote | papillote
+
+[Deep Cut]
+Panini press | sandwich press | press
+Fire roasting | fire-roast | open flame
+Coddle | coddling
+Bain-marie | double boiler | water bath
+Torch | blowtorch | brûlée | brulee
+Reheat | warm up
+Dehydrate | dehydrating
+Flash-fry | flash fry
+Shallow-fry | shallow fry
+Plank grilling | cedar plank
+Pit roasting | pit cooking | earth oven | imu
+Tandoor | tandoori
+Wok-fry | wok hei
+Clay pot | claypot
+Confit
+Render | rendering
+Temper | tempering
+Steep | steeping
+Infuse | infusing
+Sweat | sweating
+Baste | basting
+Deglaze | deglazing
+Gratin | au gratin | gratinate
+Fondue
+Hot pot | hotpot
+Hot stone | stone grill
+Teppanyaki | hibachi
+Salt baking | salt-crust
+Ember cooking | ash cooking | coal roasting
+Induction | induction cooking
+Solar cooking | solar oven
+Haybox | retained-heat cooking
+Low and slow
+Pasteurize | pasteurizing
+Pressure fry | broasting
+Pop | popping
+Smoke-roast | hot smoking
+Charbroil | char-grill
+Oven-roast
+Campfire cooking | campfire
+Reverse sear
+Infrared grilling
+Kettle cooking
+Parch | parching
+Scorch
+
+[Rare]
+Dutch oven | Dutch oven cooking
+Spit roast | spit-roasting
+Melt | melting
+Brown | browning
+Braise | braising
+Stew | stewing
+Slow cook | slow cooking | Crock-Pot | crockpot
+Pressure cook | pressure cooking | Instant Pot
+Blanch | blanching
+Caramelize | caramelise | caramelizing
+Sous vide | sous-vide
+Flambé | flambe
+Char | charring
+Rotisserie
+Griddle | griddling
+Scald | scalding
+Parboil | parboiling
+Reduce | reduction
+Blacken | blackening
+
+[Schooler]
+Steam | steaming
+Sauté | saute | sautéing
+Broil | broiling
+Deep-fry | deep fry | deep frying
+Barbecue | BBQ | barbeque
+Simmer | simmering
+Smoke | smoking
+Pan-fry | pan fry | pan frying
+Stir-fry | stir fry | stir frying
+Toast | toasting
+Poach | poaching
+Sear | searing | pan-sear
+
+[Too Clever]
+Microwave | nuke | microwaving
+Air fry | air fryer | air frying
+
+[Plankton]
+Bake | baking | oven baking
+Fry | frying
+Grill | grilling
+Boil | boiling
+Roast | roasting
+
+[Not accepted]
+Pickle
+Ferment
+Cure
+Marinate
+Chop
+Freeze
+
+# QUESTION
+pool: unlimited
+category: food
+prompt: Name a type of Asian noodle or noodle dish
+note: Noodles and noodle dishes from East, Southeast and South Asia, including instant noodles. Italian pasta doesn't count.
+
+[One in a Krillion]
+Ants climbing a tree | ants climbing trees | mayi shangshu
+
+[Deep Cut]
+Fried noodles
+Tantanmen
+Saimin
+Kishimen
+Champon
+Hiyamugi
+Hiyashi chuka
+Tsukemen
+Kalguksu
+Jjapaguri | ram-don | chapaguri
+Mie goreng
+Bakmi
+Mee rebus
+Mee siam
+Mee pok
+Ban mian
+Lor mee
+Mee hoon kueh
+Kolo mee
+Kway teow | kuay teow | kuy teav
+Cheung fun | rice noodle roll
+Crossing-the-bridge noodles | crossing the bridge noodles
+Liangpi | cold skin noodles
+Sesame noodles | cold sesame noodles
+Scallion oil noodles
+Longevity noodles
+Yi mein | e-fu noodles | yee mein
+Misua | mee sua
+Thukpa
+Hakka noodles
+Cao lau
+Mi quang
+Hu tieu | hủ tiếu
+Banh canh
+Shan noodles
+Idiyappam | string hoppers
+Sevai | semiya
+Falooda
+Chongqing noodles | xiao mian
+Hot dry noodles | reganmian
+Oil-splashed noodles | youpo mian
+Silver needle noodles | rat noodles
+Cart noodles
+Wonton mee
+Mohinga
+Pancit bihon
+Sanuki udon
+Zaru soba
+Bun bo hue | bún bò Huế
+Shahe fen | hor fun
+Sen yai | sen lek | sen mee
+Rice sticks
+Mung bean noodles
+Sweet potato noodles
+Kelp noodles
+
+[Rare]
+Beef noodle soup
+Bun cha | bún chả
+Pancit canton
+Khao soi
+Somen
+Shirataki | konjac noodles
+Laksa
+Naengmyeon | cold noodles
+Lamian | hand-pulled noodles | Lanzhou noodles
+Biang biang noodles | biangbiang
+Knife-cut noodles | daoxiao mian
+Wonton noodles | wonton noodle soup
+Jajangmyeon | jjajangmyeon | zhajiangmian | black bean noodles
+Jjamppong
+Ramyeon | ramyun | Shin Ramyun
+Hokkien mee | Hokkien noodles
+Mee goreng
+Char kway teow
+Pancit
+Japchae | chapchae
+Dangmyeon
+
+[Schooler]
+Chow mein
+Soba
+Rice noodles
+Glass noodles | cellophane noodles | bean thread noodles
+Egg noodles
+Drunken noodles | pad kee mao
+Dan dan noodles | dandan noodles
+Yakisoba
+Singapore noodles
+Pad see ew
+Vermicelli | rice vermicelli | bún | bun
+Chow fun | ho fun | beef chow fun
+Mei fun | mai fun
+
+[Too Clever]
+Instant noodles | cup noodles | Cup Noodles | Top Ramen | Maruchan | Nissin | Indomie | Maggi
+Buldak | fire noodles | spicy fire noodles
+
+[Plankton]
+Ramen
+Lo mein
+Pad thai
+Udon
+Pho | phở
+
+[Not accepted]
+Spaghetti
+Linguine
+Fettuccine
+Macaroni
+
+# QUESTION
+pool: unlimited
+category: animals
+prompt: Name an animal that has a shell
+note: Animals with a hard outer shell: turtles, snails, crustaceans, clams and their kin. Hard-shelled beetles and pill bugs count. The armadillo's armor is Too Clever.
+
+[One in a Krillion]
+Argonaut | paper nautilus
+
+[Deep Cut]
+Cicada
+Leatherback | leatherback sea turtle
+Galápagos tortoise | Galapagos tortoise | giant tortoise
+Gopher tortoise
+Painted turtle
+Red-eared slider | slider
+Musk turtle
+Softshell turtle | soft-shelled turtle
+Mud turtle
+Map turtle
+Spiny lobster
+Snow crab
+Dungeness crab
+Fiddler crab
+Coconut crab
+Ghost crab
+Spider crab | Japanese spider crab
+Sand crab | mole crab
+Pill bug | roly-poly | roly poly | woodlouse | sow bug
+Apple snail | mystery snail
+Giant African land snail
+Moon snail
+Cone snail
+Murex
+Triton | triton snail
+Top shell | turban snail
+Pond snail
+Ramshorn snail
+Nerite snail
+Zebra mussel
+Giant clam
+Pearl oyster
+Shipworm
+Brachiopod | lamp shell
+Tusk shell
+Sea butterfly | pteropod
+Slipper limpet
+Keyhole limpet
+Mantis shrimp
+Langoustine
+Copepod
+Ostracod | seed shrimp
+Goose barnacle
+Giant isopod | isopod
+Triops | tadpole shrimp
+Water flea | daphnia
+Cuttlefish
+Glyptodont
+Ammonite
+Trilobite
+Sea snail
+Quahog
+
+[Rare]
+Garden snail
+Blue crab
+King crab
+Beetle
+Ladybug | ladybird
+Escargot
+Sand dollar
+Razor clam
+Krill
+Sea turtle | green sea turtle | loggerhead | hawksbill
+Nautilus | chambered nautilus
+Sea urchin | urchin
+Horseshoe crab
+Abalone
+Whelk
+Periwinkle
+Limpet
+Cockle
+Cowrie
+Terrapin | diamondback terrapin
+Chiton
+Geoduck
+Prawn
+Crayfish | crawfish | crawdad
+
+[Schooler]
+Clam
+Oyster
+Mussel
+Scallop
+Shrimp
+Hermit crab
+Conch
+Barnacle
+Snapping turtle | alligator snapping turtle
+Box turtle
+
+[Too Clever]
+Armadillo
+
+[Plankton]
+Turtle
+Snail
+Crab
+Tortoise
+Lobster
+
+[Not accepted]
+Slug
+Octopus
+Hedgehog
+Pangolin
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name an animal whose name is also a verb
+note: Animal names that are spelled the same as an English verb (duck, badger, wolf down, rat out), including homographs and British usage.
+
+[One in a Krillion]
+Smelt
+
+[Deep Cut]
+Fowl
+Turtle
+Prawn
+Hack
+Mouse
+Louse
+Crawfish
+Pony
+Whale
+Kite
+Grub
+Shrimp
+Lamb
+Pup
+Kitten
+Whelp
+Foal
+Cub
+Bird
+Eagle
+Raven
+Swan
+Drone
+Queen
+Jack
+Stud
+Cod
+Grunt
+Drum
+Char
+Sow
+Hare
+Rabbit
+Beetle
+Shark
+Gull
+Rook
+Carp
+Cat
+Skate
+Perch
+Tick
+Beaver
+
+[Rare]
+Butterfly
+Nag
+Ferret
+Hound
+Hawk
+Parrot
+Weasel
+Clam
+Crab
+Crane
+Flounder
+Goose
+Grouse
+Lark
+Leech
+Skunk
+Slug
+Snipe
+Sponge
+Steer
+Bull
+Buffalo
+Fawn
+Kid
+Quail
+Cow
+Buck
+Ape
+
+[Schooler]
+Monkey
+Pig
+Chicken
+Dog
+Rat
+Seal
+Swallow
+Crow
+Hog
+Wolf
+Worm
+Snake
+Ram
+Horse
+Fly
+
+[Too Clever]
+Badger
+Squirrel
+Dove
+
+[Plankton]
+Duck
+Fish
+Bat
+Bug
+Bear
+Fox
+
+[Not accepted]
+Lion
+Tiger
+Elephant
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word that rhymes with "red"
+note: Words ending in the "ed" sound of red, including compounds (-head, -bread, -bed, -fed) and names as Too Clever.
+
+[One in a Krillion]
+Sweetbread | sweetbreads
+
+[Deep Cut]
+Aforesaid
+Gainsaid
+Railhead
+Butthead
+Hardhead
+Thunderhead
+Copperhead
+Hogshead
+Bedhead
+Dogsled
+Bobsled
+Unfed
+Coed | co-ed
+Retread
+Outspread
+Misread
+Proofread
+Lip-read | lipread
+Sight-read | sightread
+Unread
+Unwed
+Crossbred
+Highbred | well-bred
+Underfed
+Overfed
+Breastfed
+Spoon-fed | spoonfed
+Hand-fed
+Corn-fed
+Grass-fed
+Sorehead
+Letterhead
+Masthead
+Bulkhead
+Skinhead
+Pothead
+Dunderhead
+Towhead
+Godhead
+Fountainhead
+Bridgehead
+Beachhead
+Trailhead
+Showerhead
+Printhead
+Drumhead
+Bighead
+Sleepyhead
+Hammerhead
+Pinhead
+Fathead
+Deadhead
+Flatbread
+Shortbread
+Cornbread
+Daybed
+Flowerbed
+Seabed
+Riverbed
+Hotbed
+Waterbed
+Sickbed
+Deathbed
+Roadbed
+Seedbed
+Featherbed
+Sofa bed
+Bunk bed
+Toolshed
+Woodshed
+Watershed
+Bloodshed
+Abed
+Embed | imbed
+Med | meds
+Ped
+Zed
+Jed
+Pre-med | premed
+Inbred
+Well-read
+Stead
+
+[Rare]
+Pled
+Newlywed
+Thoroughbred
+Purebred
+Homestead
+Figurehead
+Spearhead
+Warhead
+Knucklehead
+Arrowhead
+Egghead
+Meathead
+Blockhead
+Hothead
+Bonehead
+Airhead
+Bred
+Dread
+Shred
+Sped
+Tread
+Lead
+Behead
+Overhead
+Misled
+Gingerbread
+Forehead
+Redhead
+Bedspread
+Unsaid
+Widespread
+
+[Schooler]
+Sled
+Shed
+Fed
+Led
+Read
+Spread
+Thread
+Wed
+Ahead
+Instead
+Bled
+Fled
+
+[Too Clever]
+Fred
+Ted
+Ed
+Ned
+Infrared
+
+[Plankton]
+Bed
+Head
+Bread
+Dead
+Said
+
+[Not accepted]
+Reed
+Raid
+Bad
+
+# QUESTION
+pool: unlimited
+category: brands
+prompt: Name a coffee brand or coffee shop chain
+note: Coffee roasters, packaged coffee brands, coffee pod brands and coffee shop chains. Machine makers and fast-food coffee lines count as Too Clever.
+
+[One in a Krillion]
+Sanka
+
+[Deep Cut]
+Dallmayr
+Melitta
+Moccona
+Dolce Gusto | Nescafé Dolce Gusto
+Tassimo
+Equal Exchange
+% Arabica | Arabica
+Joe & the Juice | Joe and the Juice
+Bulletproof
+Javy
+Stok | SToK
+Chameleon | Chameleon Cold Brew
+High Brew
+Cometeer
+Counter Culture
+Verve
+Onyx | Onyx Coffee Lab
+Segafredo
+Kimbo
+Café du Monde | Cafe du Monde
+Pilon | Café Pilon
+Café La Llave | La Llave
+Don Francisco's | Don Francisco
+Kauai Coffee
+Lion Coffee
+Tully's
+Coffee Beanery
+Barnie's
+Dunn Bros
+PJ's Coffee
+Aroma Joe's
+Black Rock Coffee Bar | Black Rock
+Human Bean | The Human Bean
+Groundwork
+Blank Street
+Bluestone Lane
+Joe Coffee
+Gregorys | Gregorys Coffee
+Caffè Nero | Caffe Nero
+Pret A Manger | Pret
+Caffè Bene | Caffe Bene
+Luckin Coffee | Luckin
+Cotti Coffee
+Second Cup
+Café Coffee Day | Cafe Coffee Day | CCD
+Blue Tokai
+Café Britt | Cafe Britt
+Taster's Choice
+Kirkland | Kirkland Signature
+Great Value
+Bialetti
+Mr. Coffee | Mr Coffee
+Kenco
+Tchibo
+Jacobs
+Douwe Egberts
+Kicking Horse
+Yuban
+Hills Bros. | Hills Bros | Hills Brothers
+Ziggi's | Ziggis
+
+[Rare]
+Gloria Jean's | Gloria Jeans
+Juan Valdez
+Lavazza
+Illy
+Death Wish | Death Wish Coffee
+Community Coffee | Community
+Chock full o'Nuts | Chock Full o Nuts
+Eight O'Clock | 8 O'Clock
+Gevalia
+Blue Bottle
+Stumptown
+Intelligentsia
+La Colombe
+Black Rifle | Black Rifle Coffee
+Biggby | Biggby Coffee
+Scooter's | Scooters
+Philz | Philz Coffee
+Coffee Bean & Tea Leaf | Coffee Bean and Tea Leaf | The Coffee Bean
+7 Brew | Seven Brew
+
+[Schooler]
+Tim Hortons | Tim Horton's | Timmies
+Dutch Bros | Dutch Bros. | Dutch Brothers
+Peet's | Peet's Coffee | Peets
+Caribou | Caribou Coffee
+Costa | Costa Coffee
+Nespresso
+Green Mountain | Green Mountain Coffee
+Café Bustelo | Cafe Bustelo | Bustelo
+Seattle's Best | Seattle's Best Coffee
+
+[Too Clever]
+McCafé | McCafe | McDonald's coffee
+Keurig | K-Cup
+
+[Plankton]
+Starbucks
+Dunkin' | Dunkin | Dunkin' Donuts | Dunkin Donuts
+Folgers
+Maxwell House
+Nescafé | Nescafe
+
+[Not accepted]
+Coffee Mate | Coffee-mate
+International Delight
