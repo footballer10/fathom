@@ -1,0 +1,3279 @@
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a Jaguar, Land Rover, Aston Martin, Bentley, Rolls-Royce, or McLaren model
+note: Road cars, limited editions and famous classics from the six British brands.
+
+[One in a Krillion]
+Speedtail
+
+[Deep Cut]
+GTS
+MP4/4
+Silver Spur
+Silver Dawn
+Silver Wraith
+R-Type Continental | R Type
+Speed Six
+DBR1
+Bulldog
+DB10
+DB6
+DB2
+XJ13
+XJR
+XK120 | XK 120
+Mark 2 | Mark II
+D-Type
+C-Type
+Type 00
+XJ220
+XKR
+XJS | XJ-S
+S-Type
+X-Type
+Series I | Series II | Series III | Land Rover Series
+LR2
+LR3
+LR4
+Freelander
+Discovery Sport
+DB4
+DB7
+DBS
+Lagonda
+Virage
+Vulcan
+Cygnet
+Victor
+Valour
+Superleggera | DBS Superleggera
+Rapide
+One-77 | One 77
+Valhalla
+Arnage
+Azure
+Brooklands
+Blower | Bentley Blower
+Turbo R
+Batur
+Bacalar
+Mulsanne
+Silver Seraph
+Silver Spirit
+Camargue
+Corniche
+Boat Tail
+Sweptail
+Dawn
+Silver Shadow
+Silver Cloud
+540C
+570S
+600LT
+650S
+675LT
+765LT
+12C | MP4-12C
+Elva
+GT | McLaren GT
+Artura
+W1
+Sabre
+Solus GT | Solus
+F1 GTR | McLaren F1 GTR
+
+[Rare]
+E-Type | E Type | XKE
+XK | XK8
+XJ
+XF
+XE
+F-Pace
+E-Pace
+I-Pace
+Discovery
+Range Rover Evoque | Evoque
+Range Rover Velar | Velar
+Range Rover Sport
+DB9
+DB11
+DB12
+DBX
+Vanquish
+Vantage
+Valkyrie
+Bentayga
+Flying Spur
+Silver Ghost
+Wraith
+Spectre
+720S
+750S
+P1
+
+[Schooler]
+F-Type
+Continental GT | Continental | Continental GTC
+Cullinan
+Ghost
+F1 | McLaren F1
+Senna
+
+[Too Clever]
+
+[Plankton]
+Range Rover
+Defender | Defender 90 | Defender 110
+Phantom
+DB5 | Bond car
+
+[Not accepted]
+Mini Cooper
+Model S
+Huracán
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name a disease you can get a vaccine for
+note: Diseases with a licensed vaccine for people (current or historical), plus common pet vaccines. Vaccine names count as the disease they prevent.
+
+[One in a Krillion]
+Q fever
+
+[Deep Cut]
+Plague | bubonic plague
+Adenovirus
+Hantavirus
+Hand, foot and mouth disease | hand foot and mouth
+Lyme disease | Lyme
+Leptospirosis
+Hepatitis E | hep E
+Typhus
+Tularemia
+Bird flu | H5N1 | avian flu
+Distemper
+Parvovirus | parvo
+Kennel cough | Bordetella
+Feline leukemia | FeLV
+Cervical cancer
+Chikungunya
+Anthrax
+Malaria
+Ebola
+
+[Rare]
+Hepatitis A | hep A
+Smallpox
+Rabies
+Rotavirus
+Hib | Haemophilus influenzae type b
+Yellow fever
+Typhoid | typhoid fever
+Cholera
+Tuberculosis | TB | BCG
+RSV | respiratory syncytial virus
+Mpox | monkeypox
+Japanese encephalitis
+Tick-borne encephalitis | TBE
+Dengue | dengue fever
+
+[Schooler]
+Mumps
+Rubella | German measles
+Tetanus | lockjaw | Tdap | Td
+Whooping cough | pertussis
+Diphtheria | DTaP | DTP
+HPV | human papillomavirus | Gardasil
+Hepatitis B | hep B | hepatitis
+Shingles | zoster | Shingrix | herpes zoster
+Pneumonia | pneumococcal | Prevnar | pneumococcus
+Meningitis | meningococcal | meningitis B | MenB | bacterial meningitis | spinal meningitis
+
+[Too Clever]
+Cancer
+
+[Plankton]
+Flu | influenza | flu shot | swine flu | H1N1 | Spanish flu
+COVID-19 | COVID | coronavirus | covid 19 | Pfizer | Moderna | Novavax
+Measles | MMR
+Polio | poliomyelitis
+Chickenpox | chicken pox | varicella
+
+[Not accepted]
+Common cold
+HIV
+AIDS
+Strep throat
+Zika
+
+# QUESTION
+pool: unlimited
+category: geography
+prompt: Name a desert
+note: Named deserts of the world (hot, cold and polar), plus regional desert areas. Polar regions and food deserts count as Too Clever.
+
+[One in a Krillion]
+Carcross Desert | Carcross
+
+[Deep Cut]
+High Desert
+Joshua Tree
+Anza-Borrego
+Ogaden
+Registan
+Thal
+Cholistan
+Ordos
+Badain Jaran
+Tengger
+Strzelecki
+Sturt Stony
+Little Sandy
+Tirari
+Pedirka
+La Guajira | Guajira
+Monte
+Kaokoveld
+Karoo
+Succulent Karoo
+Chalbi
+Yuma
+Alvord
+Tabernas
+Bardenas Reales
+Sechura
+Deliblato | Deliblato Sands
+Błędów | Bledow
+Oleshky Sands
+Ryn
+Aralkum
+Betpak-Dala
+Lop | Lop Nur
+Kumtag
+Gurbantünggüt | Gurbantunggut | Dzungarian
+Rann of Kutch | Kutch
+Cold Desert | Ladakh
+Changtang
+Dasht-e Margo | Margo
+Wahiba Sands | Sharqiya Sands
+Nafud | Nefud
+Dahna | Ad-Dahna
+Eastern Desert
+Western Desert
+Ténéré | Tenere
+Tanezrouft
+Grand Erg Oriental
+Grand Erg Occidental
+Erg Chebbi
+Lompoul
+Bayuda
+Mu Us
+Kubuqi
+Ustyurt
+Altar Desert
+Vizcaíno | Vizcaino
+Tatacoa
+Puna de Atacama | Puna
+Great Salt Lake Desert
+Smoke Creek Desert
+Escalante Desert
+Lençóis Maranhenses | Lencois Maranhenses
+Accona
+
+[Rare]
+Judaean Desert | Judean Desert
+Wadi Rum
+Badlands
+Sahel
+Outback | Australian Outback
+Rub' al Khali | Empty Quarter | Rub al Khali
+Syrian Desert | Syrian
+Taklamakan | Taklimakan
+Karakum | Kara Kum
+Kyzylkum | Kyzyl Kum
+Great Sandy
+Gibson
+Simpson
+Tanami
+Colorado Desert | Colorado
+Black Rock Desert | Black Rock
+Libyan Desert | Libyan
+Nubian Desert | Nubian
+Danakil
+Dasht-e Kavir | Kavir
+Dasht-e Lut | Lut
+White Desert
+Red Desert
+Owyhee
+
+[Schooler]
+Atacama
+Arabian Desert | Arabian
+Death Valley
+Namib
+Great Basin
+Chihuahuan | Chihuahua Desert
+Painted Desert
+Thar | Great Indian Desert
+Negev
+Sinai
+Great Victoria | Great Victoria Desert
+Patagonian | Patagonia
+
+[Too Clever]
+Antarctic | Antarctica | Antarctic Desert | polar desert
+Arctic | Arctic Desert
+Food desert
+
+[Plankton]
+Sahara
+Gobi
+Mojave | Mohave
+Sonoran
+Kalahari
+
+[Not accepted]
+Tatooine
+Arrakis
+Dune
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name a tool or gadget used for cleaning
+note: Cleaning tools, gadgets and machines (brands of tools count). Liquid cleaners and soaps aren't tools.
+
+[One in a Krillion]
+Squeegee mop
+
+[Deep Cut]
+Wire brush
+Dobie pad
+Rake
+Dust mop
+Mop bucket
+Wringer | mop wringer
+Chamois | shammy
+Drain snake | toilet auger | plumber's snake
+Pipe cleaner
+Scraper | razor scraper | razor blade scraper
+Extendable duster | ceiling fan duster
+Dish wand
+Bissell
+Dyson
+Shark | Shark vacuum
+Hoover
+Floor buffer | floor polisher | floor scrubber
+Sponge mop
+Spin mop | O-Cedar
+String mop
+Pool skimmer | pool net | leaf skimmer
+Pool vacuum | pool cleaner
+Pool brush
+Grill brush
+Shoe brush
+Clothes brush
+Lint shaver | fabric shaver | sweater shaver
+Air duster | compressed air | canned air
+Keyboard brush
+Screen wipe
+Lens cloth | lens wipe | glasses cloth
+Cotton swab | Q-tip
+Dish cloth | dishrag | dish rag
+Dish towel | tea towel
+Whisk broom | hand broom | hand brush
+Tile scraper
+Window washer | window wand
+Scrub Daddy
+Scotch-Brite
+Libman
+Gutter scoop
+Trash bag | garbage bag
+Carpet beater | rug beater
+Vacuum attachment | crevice tool
+Ultrasonic cleaner
+Loofah
+Car wash
+Lint brush
+
+[Rare]
+Push broom
+Washcloth
+Garden hose | hose
+Brillo pad | Brillo | SOS pad
+Scouring pad | scrubber | scrubby
+Magic Eraser
+Dish brush
+Bottle brush
+Grout brush
+Pumice stone
+Pressure washer | power washer
+Shop vac | wet-dry vac | wet vac
+Handheld vacuum | Dustbuster | hand vac
+Carpet sweeper
+Steam mop
+Steam cleaner
+Carpet cleaner | rug shampooer | carpet shampooer
+Wet wipes | disinfecting wipes | Clorox wipes | Lysol wipes | wipes
+Leaf blower
+
+[Schooler]
+Dustpan | dust pan
+Scrub brush | brush
+Toilet brush
+Swiffer | Swiffer WetJet | Swiffer Sweeper
+Roomba | robot vacuum
+Squeegee
+Rag | cloth | cleaning cloth
+Paper towels | paper towel
+Rubber gloves | cleaning gloves
+Plunger
+Bucket
+Lint roller
+Spray bottle
+Microfiber cloth
+Steel wool
+
+[Too Clever]
+Toothbrush
+Washing machine
+Dishwasher
+
+[Plankton]
+Broom
+Mop
+Vacuum | vacuum cleaner
+Sponge
+Duster | feather duster | dust cloth
+
+[Not accepted]
+Bleach
+Windex
+Soap
+Detergent
+
+# QUESTION
+pool: unlimited
+category: science
+prompt: Name a geometry term
+note: Terms from high school geometry and trig: shapes, solids, angles, lines, measures, theorems and transformations.
+
+[One in a Krillion]
+CPCTC
+
+[Deep Cut]
+Trigonometry | trig
+Special right triangles | 30-60-90 | 45-45-90
+Pythagorean triple
+Ratio | proportion
+Secant
+Sector
+Inscribed
+Circumscribed
+Centroid
+Incenter
+Circumcenter
+Orthocenter
+Apothem
+Lateral area
+Cross section
+Net
+Polyhedron
+Postulate
+Axiom
+Corollary
+Lemma
+Radian
+Interior angle
+Exterior angle
+Corresponding angles
+Alternate interior angles
+Alternate exterior angles
+Same-side interior angles | consecutive interior angles
+Transversal
+Collinear
+Coplanar
+Concurrent
+Skew lines
+Median
+Perpendicular bisector
+Angle bisector
+Concave
+Convex
+Regular polygon
+Kite
+Trapezium
+Heptagon
+Nonagon
+Decagon
+Dodecagon
+Tessellation
+Concentric
+Ellipse
+Parabola
+Hyperbola
+Locus
+Vector
+Euclidean
+Non-Euclidean
+Golden ratio
+Fractal
+Scale factor | similarity ratio
+SOH CAH TOA | SOHCAHTOA
+Law of sines
+Law of cosines
+Unit circle
+Distance formula
+Midpoint formula
+Tetrahedron
+Octahedron
+Icosahedron
+Dodecahedron
+Platonic solid
+Frustum
+Torus
+Hemisphere
+Annulus
+Leg | legs
+Base angles
+Vertex angle
+Included angle
+Adjacent angles
+Linear pair
+SAS | side-angle-side
+SSS | side-side-side
+ASA | angle-side-angle
+AAS | angle-angle-side
+HL | hypotenuse-leg
+Isometry
+Glide reflection
+Rotational symmetry
+Line of symmetry
+Cotangent
+Cosecant
+Arc length
+Central angle
+Inscribed angle
+Semicircle
+Quadrant
+Polygon interior angle sum | angle sum
+Congruence
+Similarity
+Oblique
+Right triangle
+Equiangular
+
+[Rare]
+Isosceles
+Equilateral
+Scalene
+Polygon
+Quadrilateral
+Parallelogram
+Trapezoid
+Rhombus
+Pentagon
+Hexagon
+Octagon
+Chord
+Arc
+Tangent
+Sine
+Cosine
+Degree | degrees
+Similar
+Bisector
+Line segment | segment
+Ray
+Line
+Point
+Plane
+Midpoint
+Surface area
+Reflex angle
+Straight angle
+Complementary | complementary angles
+Supplementary | supplementary angles
+Vertical angles
+Prism
+Pyramid
+Cone
+Cylinder
+Sphere
+Cube
+Edge
+Face
+Base
+Height
+Altitude
+Slope
+Coordinate | coordinates
+X-axis | y-axis | axis
+Origin
+Theorem
+Proof
+Compass
+Translation
+Rotation
+Reflection
+Dilation
+Transformation
+
+[Schooler]
+Circumference
+Volume
+Hypotenuse
+Right angle
+Acute | acute angle
+Obtuse | obtuse angle
+Parallel
+Perpendicular
+Vertex | vertices
+Diagonal
+Pythagorean theorem | Pythagoras
+Triangle
+Square
+Circle
+Rectangle
+Congruent
+Symmetry
+
+[Too Clever]
+Pi | π
+Protractor
+
+[Plankton]
+Angle
+Radius
+Diameter
+Area
+Perimeter
+
+[Not accepted]
+Algebra
+Calculus
+Fraction
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word or phrase that ends in "ball"
+note: Compound words and common phrases whose last word is ball: sports balls, games, foods, slang and dances.
+
+[One in a Krillion]
+Puffball
+
+[Deep Cut]
+Blackball
+Dead ball
+Live ball
+Free ball
+No-ball | no ball
+Long ball
+Through ball
+Play ball
+Charity ball
+Inaugural ball
+Debutante ball
+Costume ball
+Christmas ball | ornament ball
+Dust ball
+Gutter ball
+Pool ball | billiard ball
+Snooker ball
+Croquet ball
+Bocce ball | bocce
+Skee-Ball | skeeball | skee ball
+Korfball
+Floorball
+Kin-Ball | kinball
+Goalball
+Wallball | wall ball
+Stickball
+Punchball
+Stoopball
+Slam ball
+Swiss ball
+Hamster ball
+Cake ball
+Melon ball
+Malt ball
+Airball | air ball
+Forkball
+Palmball
+Gyroball
+Emery ball
+Beanball | bean ball
+Fair ball
+Base on balls
+Moneyball
+Plasma ball
+Koosh ball | Koosh
+Super Ball | superball
+Rubber band ball
+Foil ball | tinfoil ball
+Field hockey ball
+Water polo ball
+Nine ball | 9-ball
+Mirror ball | glitter ball
+Gala ball
+Scumball
+Spitball
+Fur ball | furball
+
+[Rare]
+Screwball
+Butterball
+Highball
+Lowball
+Hardball
+Netball
+Wiffle ball | whiffle ball | wiffleball
+Tetherball
+Racquetball
+Goofball
+Mothball
+Cornball
+Slimeball
+Sleazeball
+Foosball
+Matzo ball | matzah ball | matzoh ball
+Cheese ball
+Rice ball
+Popcorn ball
+Energy ball | protein ball
+Medicine ball
+Exercise ball | stability ball
+Yoga ball
+Bouncy ball
+Rubber ball
+Ping-pong ball | ping pong ball | table tennis ball
+Cue ball
+Eight ball | 8 ball | 8-ball
+Cotton ball
+Knuckleball
+Foul ball
+Fly ball
+Ground ball
+Jump ball
+Masquerade ball
+Fish ball | fishball
+Squash ball
+Rugby ball
+Cricket ball
+Polo ball
+Lacrosse ball
+Tee ball | T-ball | teeball
+
+[Schooler]
+Dodgeball | dodge ball
+Kickball
+Meatball
+Eyeball
+Fireball
+Paintball
+Pinball
+Golf ball
+Tennis ball
+Bowling ball
+Beach ball
+Gumball
+Handball
+Cannonball
+Curveball | curve ball
+Soccer ball
+Fastball
+Pickleball
+Hairball
+Oddball
+Disco ball
+Crystal ball
+Wrecking ball
+Stress ball
+
+[Too Clever]
+Dragon Ball | Dragonball
+Poké Ball | Pokeball | Pokéball
+Magic 8 Ball | Magic 8-Ball | Magic Eight Ball
+Master Ball | Great Ball | Ultra Ball
+
+[Plankton]
+Basketball
+Football
+Baseball
+Volleyball
+Softball
+Snowball
+
+[Not accepted]
+Kettlebell
+Barbell
+Dumbbell
+Ballet
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word that means "weird"
+note: Synonyms for weird or strange, slang included.
+
+[One in a Krillion]
+Outré | outre
+
+[Deep Cut]
+Bizarro
+Eldritch
+Fey
+Rum
+Queer
+Screwy
+Daffy
+Dotty
+Batty
+Wacko | whacko
+Loony
+Off-kilter | off kilter
+Off the wall | off-the-wall
+Left-field | out of left field
+Avant-garde
+Far-out | far out
+Trippy
+Cockeyed
+Askew
+Out of the ordinary
+Not normal
+Unexpected
+Unique
+Fishy
+Sketchy
+Inexplicable
+Baffling
+Perplexing
+Mystifying
+Spooky
+Unsettling
+Grotesque
+Singular
+Idiosyncratic
+Aberrant
+Deviant
+Anomalous
+Extraordinary
+Uncommon
+Unfamiliar
+Foreign
+Alien
+Otherworldly
+Supernatural
+Unnatural
+Curiouser
+Abnormal-looking | strange-looking | odd-looking
+Oddball
+Whimsical
+Unearthly
+Wild
+
+[Rare]
+Weirdo
+Offbeat
+Outlandish
+Unconventional
+Unorthodox
+Atypical
+Irregular
+Curious
+Mysterious
+Puzzling
+Surreal
+Freakish
+Zany
+Nutty
+Loopy
+Wonky
+Cuckoo
+Cringe | cringey | cringy
+Janky | jank
+Whack | wack
+Bananas
+
+[Schooler]
+Freaky
+Funky
+Quirky
+Wacky
+Eccentric
+Abnormal
+Funny
+Crazy
+Creepy
+Eerie
+Uncanny
+Off
+Kooky
+Different
+Out there
+
+[Too Clever]
+Random
+Cursed
+Sus
+
+[Plankton]
+Strange
+Odd
+Bizarre
+Unusual
+Peculiar
+
+[Not accepted]
+Wired
+Word
+
+# QUESTION
+pool: unlimited
+category: sports
+prompt: Name a swimming or diving term
+note: Strokes, kicks, dives, gear, pool features and meet terms from swimming and springboard/platform diving, plus other kinds of diving.
+
+[One in a Krillion]
+Trudgen
+
+[Deep Cut]
+Pool deck | deck
+Sculling
+Splash
+Forward dive
+Back dive | backward dive
+Straight | layout
+Lap pool
+Olympic pool
+Short course
+Long course
+Lane rope | lane line
+Gutter
+Wall
+Touch
+Turn
+Open turn
+Underwater
+Breakout
+Catch
+Pull
+Recovery
+Stroke
+Kick
+Breathing | bilateral breathing
+Drag
+Lap counter
+Pace clock
+DQ | disqualified | disqualification
+Personal best | PB | PR | personal record
+World record
+Anchor
+Leadoff | lead-off
+Exchange
+Heat sheet
+Seed time
+Cut time | qualifying time
+Kick set
+Drill
+Sprint
+Distance
+Dryland
+Shave and taper
+Chlorine
+Swimmer's ear
+Degree of difficulty | DD
+Snorkeling | snorkelling
+Free diving | freediving
+Cliff diving
+High diving
+Can opener
+Pencil dive | pencil jump
+Starfish float
+Jellyfish float
+Rescue tube
+Life jacket | PFD
+Floaties | water wings | arm floaties
+Pool noodle | noodle
+Medley relay
+Freestyle relay
+Elementary backstroke
+Survival float
+Back float | floating
+Hand paddles | paddles
+Tech suit
+Jammer | jammers
+Speedo
+Rip entry | rip
+Entry
+Reverse dive
+Inward dive
+Armstand
+Backflip | back flip
+Twist
+Jackknife
+Swan dive
+Hurdle
+Approach
+Board
+Judges | judging
+
+[Rare]
+Wetsuit
+Swim meet | meet
+Water polo
+Scuba | scuba diving
+Fins | flippers
+Snorkel
+Flutter kick
+Dolphin kick
+Frog kick | whip kick | breaststroke kick
+Scissor kick
+Eggbeater | eggbeater kick
+Streamline
+Pull buoy
+Touchpad
+Backstroke flags | flags
+False start
+Heat
+Final | finals
+Prelims | preliminaries
+Split | splits
+Taper
+Open water
+Platform | platform diving | 10 meter
+Springboard | springboard diving | 3 meter
+Synchronized diving | synchro diving
+Synchronized swimming | artistic swimming | synchro
+Pike
+Tuck
+Somersault
+
+[Schooler]
+Dog paddle | doggy paddle
+Lap | laps
+Lane
+Relay
+Medley | individual medley | IM
+Goggles
+Swim cap | cap
+Kickboard
+Flip turn
+Diving board
+Starting block | blocks
+Front crawl | crawl
+Sidestroke
+Treading water | tread water
+Deep end
+Shallow end
+Lifeguard
+Pool | swimming pool
+Swim team
+Swimsuit | bathing suit
+
+[Too Clever]
+Cannonball
+Belly flop | bellyflop
+
+[Plankton]
+Freestyle
+Backstroke
+Breaststroke
+Butterfly | fly
+Dive
+
+[Not accepted]
+Surfing
+Sailing
+
+# QUESTION
+pool: unlimited
+category: brands
+prompt: Name a juice or lemonade brand
+note: Bottled, boxed and frozen juice and lemonade brands, drink-mix brands, and juice bar chains.
+
+[One in a Krillion]
+Clamato
+
+[Deep Cut]
+Booster Juice
+Orange Julius
+Juice It Up!
+Honest Kids
+Kirkland | Kirkland Signature
+Great Value
+Trader Joe's
+Columbia Gorge
+Bai
+Zico
+Harmless Harvest
+Five Alive
+Del Valle
+Rubicon
+Ribena
+Robinsons
+Oasis
+Fruitopia
+SoBe
+Fuze
+Tropical Smoothie | Tropical Smoothie Cafe
+Joe & the Juice | Joe and the Juice
+Pressed | Pressed Juicery
+Juice Press
+Robeks
+Nekter | Nekter Juice Bar
+Clean Juice
+Turkey Hill
+Spindrift
+Izze
+Lucky Leaf
+Musselman's | Musselmans
+Indian River Select
+Goya
+Looza
+Granini
+Campbell's | Campbell's tomato juice
+Hubert's | Hubert's Lemonade
+Natalie's | Natalie's Orchid Island
+Uncle Matt's
+Northland
+Libby's
+Nantucket Nectars
+Little Hug
+Evolution Fresh
+Ceres
+Innocent
+Kern's | Kerns
+Jumex
+Old Orchard
+
+[Rare]
+Vita Coco
+Smoothie King
+Crystal Light
+Tang
+Santa Cruz | Santa Cruz Organic
+Newman's Own
+Calypso
+Langers
+Sunkist
+Odwalla
+Suja
+Bolthouse Farms | Bolthouse
+Snapple
+Tampico
+Martinelli's | Martinellis
+Apple & Eve | Apple and Eve
+Tree Top | TreeTop
+Lakewood
+R.W. Knudsen | Knudsen | RW Knudsen
+POM Wonderful | POM
+
+[Schooler]
+Sunny D | SunnyD | Sunny Delight
+Hi-C | Hi C
+Welch's | Welchs
+Mott's | Motts
+Juicy Juice
+V8
+Naked | Naked Juice
+Hawaiian Punch
+Dole
+Del Monte
+Florida's Natural | Floridas Natural
+Country Time
+Arizona | AriZona
+
+[Too Clever]
+Kool-Aid | Kool Aid
+Jamba | Jamba Juice
+
+[Plankton]
+Tropicana
+Minute Maid
+Capri Sun | Capri-Sun
+Simply | Simply Orange | Simply Lemonade
+Ocean Spray
+
+[Not accepted]
+Gatorade
+Powerade
+Mike's Hard Lemonade
+
+# QUESTION
+pool: unlimited
+category: music
+prompt: Name a Sabrina Carpenter song (released through 2025)
+note: Her own songs (including holiday and soundtrack songs) plus songs where she is a credited featured or lead artist.
+
+[One in a Krillion]
+Can't Blame a Girl for Trying | Cant Blame a Girl for Trying
+
+[Deep Cut]
+Clouds
+Eyes Wide Open
+The Middle of Starting Over
+We'll Be the Stars | Well Be the Stars
+Two Young Hearts
+Too Young
+Seamless
+Darling I'm a Mess
+Right Now
+The Best Thing I Never Had
+White Flag
+Your Love's Like
+Smoke and Fire
+No Words
+Run and Hide
+Space
+Shadows
+Mirage
+Feels Like Loneliness
+All We Have Is Love
+Don't Want It Back
+Paris
+Hold Tight
+Prfct | Perfect
+Bad Time
+Mona Lisa
+Diamonds Are Forever
+In My Bed
+Pushing 20
+Take You Back
+Tell Em
+I'm Fakin | Im Fakin
+Looking at Me
+Alien
+On My Way
+Christmas the Whole Year Round
+Take on the World
+Let Me Move You
+Santa Doesn't Know You Like I Do
+Cindy Lou Who
+Is It New Years Yet | Is It New Year's Yet
+A Nonsense Christmas
+Buy Me Presents
+Christmas Morning
+Exhale
+Honeymoon Fades
+On Purpose
+Almost Love
+Why
+Skin
+Bet U Wanna
+How Many Things
+Decode
+Bad for Business
+Skinny Dipping
+Already Over
+Tornado Warnings
+Read Your Mind
+Vicious
+Emails I Can't Send | emails i cant send
+
+[Rare]
+Fast Times
+Opposite
+Sharpest Tool
+Dumb & Poetic | Dumb and Poetic
+Slim Pickins
+Lie to Girls
+Don't Smile | Dont Smile
+My Man on Willpower
+Sugar Talking
+We Almost Broke Up Again Last Night
+Nobody's Son | Nobodys Son
+Never Getting Laid
+When Did You Get Hot? | When Did You Get Hot
+Go Go Juice
+Don't Worry I'll Make You Worry
+House Tour
+Goodbye
+15 Minutes | Fifteen Minutes
+Couldn't Make It Any Harder
+Busy Woman
+
+[Schooler]
+Nonsense
+Bed Chem
+Good Graces
+Juno
+Because I Liked a Boy
+Thumbs
+Sue Me
+Tears
+Coincidence
+
+[Too Clever]
+
+[Plankton]
+Espresso
+Please Please Please
+Taste
+Feather
+Manchild
+
+[Not accepted]
+Drivers License
+Good 4 U
+Vampire
+
+# QUESTION
+pool: unlimited
+category: movies-tv
+prompt: Name a type or genre of TV show
+note: TV formats and genres: sitcoms, reality, game shows, dramas, documentaries, animation styles and more.
+
+[One in a Krillion]
+Telethon
+
+[Deep Cut]
+Docudrama
+Space opera
+Cyberpunk
+Dystopian
+Coming-of-age
+Family sitcom
+Multi-camera sitcom | multi-cam
+Single-camera sitcom | single-cam
+Live TV | live broadcast
+News magazine | newsmagazine
+Cooking competition
+Baking show
+Survival show
+Paranormal | ghost hunting
+Court show | courtroom show | judge show
+Infotainment
+Lifestyle show
+DIY show
+Auction show
+Car show
+Fishing show
+Hunting show
+Outdoor show
+Televangelism | religious show
+Preschool show
+Teen sitcom | tween sitcom
+Slice of life
+Isekai
+Shonen | shounen
+Mecha
+Magical girl
+Supernatural
+Zombie
+Vampire
+Post-apocalyptic
+Spy show | spy thriller
+Heist
+Detective show
+Whodunit
+Murder mystery
+Satire
+Parody
+Political satire
+Roast
+Stand-up special | comedy special
+Concert special
+Holiday special | Christmas special
+Reboot
+Revival
+Remake
+Serial
+Episodic
+Claymation | stop-motion
+CGI animation
+Live-action
+Black comedy | dark comedy
+Romantic comedy | rom-com | romcom
+Musical
+Dance show
+Singing competition
+Weather show | weather report
+Public access
+Science show
+History show
+Military drama
+Prison drama
+Sports drama
+Workout show | fitness show
+Hospital drama
+Cop show
+Animated series
+
+[Rare]
+Docuseries
+Miniseries | limited series | mini-series
+Telenovela
+K-drama | Korean drama
+Anthology
+Spinoff | spin-off
+Procedural | police procedural
+Legal drama
+Teen drama
+Period drama | costume drama
+Historical drama
+Superhero show
+Adult animation
+Animated sitcom
+Mockumentary
+True crime
+Nature documentary
+Travel show
+Home improvement | home renovation | HGTV
+Makeover show
+Quiz show
+Panel show
+Prank show | hidden camera
+Variety show
+Morning show
+Award show | awards show
+Pageant | beauty pageant
+Home shopping | shopping channel
+Educational
+Western
+Thriller
+Romance
+Dramedy
+Political drama
+Workplace comedy
+Puppet show
+Web series
+
+[Schooler]
+Talk show
+Soap opera | soap
+News | newscast | news show
+Documentary
+Anime
+Cooking show
+Crime drama | crime show
+Medical drama
+Sports | sports broadcast
+Talent show
+Dating show
+Competition show
+Late-night show | late night
+Kids' show | children's show | kids show
+Sketch comedy | sketch show
+Horror
+Mystery
+Sci-fi | science fiction
+Fantasy
+Comedy
+Action
+
+[Too Clever]
+Infomercial
+Reruns | rerun
+
+[Plankton]
+Sitcom
+Reality show | reality TV | reality
+Cartoon | animated
+Game show
+Drama
+
+[Not accepted]
+Netflix
+HBO
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a job title that ends in "keeper" or "smith"
+note: Jobs and roles ending in -keeper (one word or two) or -smith.
+
+[One in a Krillion]
+Tunesmith
+
+[Deep Cut]
+Stable keeper | stablekeeper
+Arrowsmith
+Brownsmith
+Knifesmith
+Armorsmith | armoursmith
+Nailsmith
+Ironsmith
+Toolsmith
+Shoesmith
+Smith
+Lodge keeper | lodgekeeper
+Boarding house keeper | boardinghouse keeper
+Jailkeeper | jail keeper
+Poundkeeper | pound keeper
+Warehouse keeper
+Light keeper | lightkeeper
+Cattle keeper
+Poultry keeper
+Aquarium keeper
+Animal keeper
+Castle keeper | castellan
+Bridge keeper | bridgekeeper
+Hotelkeeper | hotel keeper
+Toll keeper | tollkeeper
+Saloon keeper | saloonkeeper
+Tavern keeper | tavernkeeper
+Record keeper | recordkeeper
+Park keeper | parkkeeper
+Lockkeeper | lock keeper
+Greenkeeper | greenskeeper
+Whitesmith
+Bladesmith
+
+[Rare]
+Coppersmith
+Swordsmith
+Tinsmith
+Peacekeeper
+Doorkeeper
+Storekeeper
+Barkeeper | barkeep
+Wicketkeeper | wicket keeper | wicket-keeper
+Gunsmith
+Gamekeeper
+Timekeeper
+Scorekeeper | score keeper
+
+[Schooler]
+Locksmith
+Goldsmith
+Silversmith
+Bookkeeper
+Shopkeeper
+Innkeeper
+Groundskeeper
+Lighthouse keeper
+
+[Too Clever]
+Wordsmith
+Gatekeeper
+
+[Plankton]
+Goalkeeper | keeper | goal keeper
+Zookeeper | zoo keeper
+Blacksmith
+Beekeeper | bee keeper
+Housekeeper
+
+[Not accepted]
+Farrier
+Goalie
+
+# QUESTION
+pool: unlimited
+category: animals
+prompt: Name an animal with "sea" in its name
+note: Real animals whose common name includes the word sea (sea lion, seahorse, seagull). Seal counts as Too Clever.
+
+[One in a Krillion]
+Sea bunny
+
+[Deep Cut]
+Sea worm
+Sea whip
+Sea mouse
+Sea toad
+Sea devil
+Sea moth
+Sea raven
+Sea canary
+Sea unicorn
+Sea gooseberry
+Sea walnut
+Sea skater
+Sea apple
+Sea mink
+Sea scorpion
+Sea slater
+Sea catfish
+Sea perch
+Sea chub
+Sea hawk | seahawk
+Sea dog
+Sea bear
+Sea wolf
+Sea leopard
+Sea pansy
+Sea tulip
+Sea peach
+Sea mat
+Sea snipe
+Sea cockroach
+Sea swallow
+Sea parrot
+Sea lemon
+
+[Rare]
+Sea scallop
+Sea lamprey
+Sea bream
+Sea robin
+Sea trout | seatrout
+Sea krait
+Sea spider
+Sea butterfly
+Sea pen
+Sea squirt
+Sea hare
+Sea angel
+Sea lily
+Sea fan
+Sea wasp
+Sea nettle
+Sea pig
+Sea elephant
+Sea snail
+Sea sponge
+Sea duck
+Sea louse | sea lice
+Sea biscuit
+Seabird | sea bird
+
+[Schooler]
+Sea urchin
+Sea star
+Sea cucumber
+Sea anemone
+Sea slug
+Sea snake
+Sea eagle
+Sea bass | black sea bass
+Sea cow | Steller's sea cow
+Sea dragon | leafy sea dragon | weedy sea dragon
+
+[Too Clever]
+Seal | elephant seal | harbor seal | leopard seal | fur seal | grey seal | gray seal
+Sea monkey | sea-monkeys | sea monkeys
+
+[Plankton]
+Sea lion
+Seahorse | sea horse
+Sea turtle | green sea turtle | loggerhead sea turtle | leatherback sea turtle
+Sea otter
+Seagull | sea gull
+
+[Not accepted]
+Sea serpent
+Sea monster
+Starfish
+
+# QUESTION
+pool: unlimited
+category: food
+prompt: Name a hamburger topping
+note: Cheeses, vegetables, sauces, meats and anything else people put on a burger.
+
+[One in a Krillion]
+Beetroot | beets | pickled beets
+
+[Deep Cut]
+Russian dressing
+Hot peppers | chili peppers
+Potato chips | chips | Doritos
+Mac and cheese
+Cranberry sauce
+Fig jam
+Honey
+Sriracha mayo
+Bacon jam | onion jam
+Giardiniera
+Sauerkraut
+Fried green tomatoes
+Mango chutney
+Tzatziki
+Hummus
+Feta
+Muenster
+Havarti
+Colby jack
+Monterey Jack
+Beer cheese
+Horseradish
+Wasabi mayo
+Remoulade
+Comeback sauce
+Fry sauce
+Animal style
+Pickled onions | pickled red onions
+Shallots
+Scallions | green onions
+Chives
+Cilantro
+Basil
+Pesto
+Tomato jam
+Chimichurri
+Roasted red peppers
+Green chiles | Hatch chiles
+Poblano
+Habanero
+Chipotle
+Pulled pork
+Brisket
+Pepperoni
+Jelly | grape jelly
+Kale
+Cucumber
+Truffle
+Foie gras
+Salt and pepper | black pepper
+Butter
+Chili crisp
+Gochujang
+Hoisin
+Tartar sauce
+Blue cheese dressing
+Spicy mayo
+Garlic mayo
+
+[Rare]
+Chili
+Coleslaw | slaw
+Onion rings
+Fried onions | crispy onions
+Bell peppers | peppers | green peppers
+Pepper jack
+Swiss cheese | Swiss
+Blue cheese | bleu cheese
+Pimento cheese
+Sriracha
+Aioli | garlic aioli | truffle aioli
+Relish
+Caramelized onions | grilled onions | sautéed onions
+Arugula
+Spinach
+Sprouts | microgreens
+Hot sauce
+Buffalo sauce
+Thousand Island
+Steak sauce | A1
+Teriyaki
+Kimchi
+Banana peppers
+Pepperoncini
+Olives
+Ham
+Pastrami
+Hash brown
+Fries | french fries
+Salsa
+Pico de gallo
+Queso | nacho cheese | cheese sauce
+Cream cheese
+Goat cheese
+Mozzarella
+Provolone
+Gouda | smoked gouda
+Brie
+Fried pickles
+Honey mustard
+Chipotle mayo
+
+[Schooler]
+Mustard | yellow mustard | Dijon | spicy brown mustard
+Mayonnaise | mayo
+Bacon
+Avocado
+Jalapeños | jalapenos | jalapeño
+Mushrooms
+Fried egg | egg
+BBQ sauce | barbecue sauce
+Special sauce | secret sauce | Big Mac sauce
+Ranch
+Guacamole | guac
+American cheese
+Cheddar
+
+[Too Clever]
+Peanut butter
+Pineapple | grilled pineapple
+
+[Plankton]
+Cheese
+Lettuce | iceberg | romaine | shredded lettuce
+Tomato | tomatoes
+Onion | onions | red onion
+Pickles | pickle
+Ketchup | catsup
+
+[Not accepted]
+Bun
+Patty
+Sesame seeds
+
+# QUESTION
+pool: unlimited
+category: brands
+prompt: Name a pet food or pet supply brand or store
+note: Pet food, treat, litter, toy and care brands, and pet store chains.
+
+[One in a Krillion]
+Snausages
+
+[Deep Cut]
+Nulo
+Zignature
+Victor
+Earthborn
+Solid Gold
+Halo
+Tiki Cat
+Weruva
+Open Farm
+Spot & Tango | Spot and Tango
+Jinx
+Fussie Cat
+Petsense
+Arm & Hammer | Arm and Hammer
+Scoop Away
+World's Best Cat Litter
+Dr. Elsey's
+PrettyLitter | Pretty Litter
+Frisco
+Good 'n' Fun
+Busy Bone
+Waggin' Train
+Gravy Train
+Moist & Meaty
+Mighty Dog
+Kit & Kaboodle
+Special Kitty
+Pounce
+Churu | Inaba Churu
+Delectables
+Hartz
+Sentry
+Frontline
+NexGard
+Bravecto
+Seresto
+Advantage
+Heartgard
+Simparica
+Furminator
+Petmate
+Flexi
+PetSafe
+Ruffwear
+BarkBox | Bark
+Rover
+Wag
+Banfield
+VCA
+Petland
+Pet Valu
+Pets at Home
+Bil-Jac
+Pure Balance
+Primal
+Ziwi Peak | Ziwi
+Honest Kitchen | The Honest Kitchen
+Just Food for Dogs | JustFoodForDogs
+Nom Nom
+Smalls
+Kaytee
+Oxbow
+Tetra | TetraMin
+Wardley
+Hikari
+Fluval
+Zoo Med
+Exo Terra
+Vitakraft
+Kitten Chow
+
+[Rare]
+Taste of the Wild
+Orijen
+Acana
+Wellness | Wellness CORE
+Merrick
+Nutro
+Fromm
+Canidae
+Diamond | Diamond Naturals
+Kirkland | Kirkland Signature
+Ol' Roy | Ol Roy
+Beggin' | Beggin' Strips | Beggin Strips
+Pup-Peroni | Pupperoni
+Dentastix
+The Farmer's Dog | Farmer's Dog
+Ollie
+Pet Supplies Plus
+Tractor Supply
+Tidy Cats
+Fresh Step
+Kong
+Nylabone
+Eukanuba
+Instinct
+Stella & Chewy's | Stella and Chewy's
+Natural Balance
+Nature's Recipe
+Freshpet
+
+[Schooler]
+Iams
+Hill's | Science Diet | Hill's Science Diet
+Royal Canin
+Fancy Feast
+Whiskas
+Beneful
+Kibbles 'n Bits | Kibbles and Bits
+Milk-Bone | Milk Bone
+Greenies
+Temptations
+Petco
+PetSmart
+Chewy | Chewy.com
+Rachael Ray Nutrish | Nutrish
+Alpo
+Purina ONE | Purina One
+Pro Plan | Purina Pro Plan
+Cat Chow
+Dog Chow
+Puppy Chow
+Sheba
+9Lives | Nine Lives
+Cesar
+
+[Too Clever]
+
+[Plankton]
+Purina
+Pedigree
+Friskies | Party Mix
+Meow Mix
+Blue Buffalo | Blue Wilderness
+
+[Not accepted]
+Scooby Snacks
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name a type of clock, watch, or timer
+note: Kinds of clocks, watches and timers, old and new.
+
+[One in a Krillion]
+Incense clock
+
+[Deep Cut]
+Sports watch
+Smart clock | smart display
+Candle clock
+Astronomical clock
+Big Ben
+Street clock
+Station clock
+School clock | bell clock
+Time clock | punch clock
+Ship's clock
+Nurse's watch | fob watch
+Field watch
+Pilot watch
+Railroad watch
+Skeleton watch
+Solar watch
+Radio-controlled clock
+GPS watch
+Phone clock | phone timer
+Pomodoro timer
+Visual timer | Time Timer
+Sleep timer
+Light timer
+Sprinkler timer
+Binary clock
+Word clock
+Nixie clock
+Neon clock
+Kit-Cat Clock | cat clock
+Grandmother clock
+Bracket clock
+Carriage clock
+Lantern clock
+Cartel clock
+Regulator clock
+Banjo clock
+Anniversary clock | 400-day clock
+Shelf clock
+Moondial
+Rolling ball clock
+Parking meter
+Metronome
+Microwave clock
+Oven timer
+Countdown clock
+Flip clock
+Doomsday timer
+
+[Rare]
+Water clock | clepsydra
+Chronometer
+Mantel clock
+Desk clock
+Travel clock
+Clock radio
+Projection clock
+Sunrise alarm clock | sunrise clock
+Talking clock
+Wind-up clock
+Pendulum clock
+Quartz watch | quartz clock
+Mechanical watch
+Automatic watch
+Dive watch
+Chronograph
+Fitness tracker | Fitbit
+Digital watch
+Calculator watch
+Shot clock
+Game clock | scoreboard clock
+Chess clock
+Clock tower | tower clock
+
+[Schooler]
+Analog clock | analogue clock
+Wall clock
+Cuckoo clock
+Smartwatch | Apple Watch | smart watch
+Pocket watch
+Hourglass | sand timer
+Sundial
+Egg timer
+Kitchen timer
+Atomic clock
+
+[Too Clever]
+Doomsday Clock
+Biological clock | body clock
+
+[Plankton]
+Alarm clock
+Wristwatch | watch
+Grandfather clock | longcase clock
+Stopwatch | lap timer
+Digital clock
+
+[Not accepted]
+Calendar
+Rolex
+
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a vehicle you'd see on a farm or a construction site
+note: Farm and construction machines and work vehicles. Brands like John Deere count as Too Clever.
+
+[One in a Krillion]
+Feller buncher
+
+[Deep Cut]
+Dirt bike
+Feed truck
+Fuel truck
+Sugarcane harvester
+Tree spade
+Skidder
+Log loader | knuckleboom loader
+Grapple truck
+Hydroseeder
+Asphalt distributor
+Milling machine | cold planer
+Slipform paver | curb machine
+Road reclaimer
+Street sweeper | sweeper
+Vacuum truck | hydrovac
+Boom truck
+Bucket truck
+Rough terrain crane
+Pipelayer
+Articulated dump truck
+Tunnel boring machine | TBM
+Material handler
+Pallet jack
+Dumper | site dumper | mini dumper
+Power buggy | concrete buggy
+Potato harvester
+Beet harvester
+Grape harvester
+Corn picker
+Hay rake | rake
+Tedder
+Mower conditioner
+Bale wrapper
+Bale mover
+Crop duster
+Farm drone | drone sprayer
+Horse-drawn wagon | horse and cart
+Ox cart
+Box truck
+Snow plow | snowplow
+Salt truck
+Skip loader
+Lowboy | lowboy trailer
+Stock trailer
+Lawn mower
+
+[Rare]
+Scissor lift
+Telehandler
+Trencher
+Paver | asphalt paver
+Compactor | plate compactor
+Scraper
+Hay baler | baler
+Cotton picker
+Forage harvester
+Swather | windrower
+Grain cart
+Sprayer
+Seed drill | planter
+Water truck
+Tanker | tanker truck
+Flatbed | flatbed truck
+Pile driver
+Drill rig | drilling rig
+Haul truck | mining truck | rock truck
+Dragline
+Crawler | crawler tractor
+Track loader
+Mini excavator
+UTV | side-by-side | Kawasaki Mule | mule
+Gator
+Lawn tractor | riding mower
+Hay wagon | hayride wagon
+Manure spreader
+Tiller | rototiller
+Cultivator
+Plow | plough
+Harrow | disc harrow
+Livestock trailer | cattle trailer
+Grain truck
+Tower crane
+Mobile crane
+Concrete pump | concrete pump truck
+Semi truck | semi | 18-wheeler | tractor-trailer
+Tow truck
+Harvester
+
+[Schooler]
+Backhoe | JCB
+Forklift
+Combine | combine harvester
+Pickup truck | pickup
+Front loader | wheel loader | loader
+Skid steer | Bobcat
+Steamroller | road roller
+Cherry picker | boom lift
+Grader | motor grader
+ATV | four-wheeler | quad
+
+[Too Clever]
+Wheelbarrow
+John Deere | Deere
+Caterpillar | Cat
+Kubota
+
+[Plankton]
+Tractor
+Bulldozer | dozer
+Excavator | digger
+Dump truck
+Crane
+Cement mixer | concrete mixer | cement truck
+
+[Not accepted]
+Ambulance
+School bus
+
+# QUESTION
+pool: unlimited
+category: history
+prompt: Name a famous treaty, pact, accord, or peace agreement
+note: Named international and colonial treaties, pacts, accords and peace agreements from any era. The Magna Carta and Louisiana Purchase count as Too Clever.
+
+[One in a Krillion]
+Treaty of Kadesh
+
+[Deep Cut]
+Jay Treaty
+Pinckney's Treaty | Treaty of San Lorenzo
+Adams–Onís Treaty | Adams-Onis Treaty
+Webster–Ashburton Treaty | Webster-Ashburton
+Oregon Treaty
+Treaty of Fort Stanwix
+Treaty of Greenville
+Treaty of New Echota
+Rush–Bagot Agreement | Rush-Bagot
+Gadsden Purchase
+Alaska Purchase
+Treaty of Amiens
+Treaty of Tilsit
+Treaty of Fontainebleau
+Peace of Augsburg
+Edict of Nantes
+Treaty of Verdun
+Treaty of Troyes
+Treaty of Nerchinsk
+Treaty of Aigun
+Treaty of Tientsin | Treaty of Tianjin
+Treaty of Aix-la-Chapelle
+Treaty of Ryswick
+Treaty of Nijmegen
+Treaty of the Pyrenees
+Treaty of Karlowitz
+Treaty of Passarowitz
+Treaty of Küçük Kaynarca | Treaty of Kucuk Kaynarca
+Treaty of Adrianople
+Treaty of San Stefano
+Treaty of Berlin | Congress of Berlin
+Treaty of Frankfurt
+Treaty of London
+Treaty of Lisbon
+Schengen Agreement | Schengen
+NAFTA
+USMCA
+GATT
+Bretton Woods | Bretton Woods Agreement
+Sykes–Picot Agreement | Sykes-Picot
+Balfour Declaration
+Lateran Treaty
+Triple Entente
+Triple Alliance
+Tripartite Pact | Axis Pact
+Anti-Comintern Pact
+Pact of Steel
+Acts of Union | Treaty of Union
+Anglo-Irish Treaty
+Treaty of Rapallo
+Treaty of Riga
+Panama Canal Treaties | Torrijos–Carter Treaties | Torrijos-Carter
+Hay–Bunau-Varilla Treaty | Hay-Bunau-Varilla
+Medicine Lodge Treaty
+Treaty of Velasco
+Geneva Accords
+Geneva Protocol
+Hague Conventions
+Ottawa Treaty
+Rome Statute
+Copenhagen Accord
+Chemical Weapons Convention
+Biological Weapons Convention
+Convention on the Rights of the Child
+UN Charter | United Nations Charter
+Treaty of Amsterdam
+Treaty of Nice
+Treaty of Brussels
+Élysée Treaty | Elysee Treaty
+Egypt–Israel peace treaty | Egypt-Israel peace treaty
+Israel–Jordan peace treaty | Israel-Jordan peace treaty
+Taif Agreement
+Simla Agreement
+Tashkent Declaration
+Indus Waters Treaty
+Treaty of Hubertusburg
+Peace of Nicias
+Thirty Years' Peace
+Universal Declaration of Human Rights
+Treaty of Medina | Constitution of Medina
+
+[Rare]
+Treaty of Brest-Litovsk | Brest-Litovsk
+Treaty of Utrecht
+Congress of Vienna | Treaty of Vienna
+Treaty of Fort Laramie | Fort Laramie Treaty
+Treaty of Nanking | Treaty of Nanjing
+Treaty of Waitangi
+Maastricht Treaty
+Treaty of Rome
+Dayton Accords | Dayton Agreement
+Helsinki Accords
+Potsdam Agreement | Potsdam | Potsdam Declaration
+Atlantic Charter
+Treaty of Kanagawa | Convention of Kanagawa
+Treaty of Shimonoseki
+Treaty of Portsmouth
+Treaty of Trianon
+Treaty of Sèvres | Treaty of Sevres
+Treaty of Lausanne
+Treaty of Saint-Germain
+Treaty of Neuilly
+Locarno Treaties | Locarno
+Kellogg–Briand Pact | Kellogg-Briand Pact
+Washington Naval Treaty
+Treaty of San Francisco
+Nuclear Non-Proliferation Treaty | NPT | Non-Proliferation Treaty
+Outer Space Treaty
+Antarctic Treaty
+SALT | SALT I | SALT II
+START | New START
+INF Treaty
+Partial Test Ban Treaty | Test Ban Treaty | Limited Test Ban Treaty
+Comprehensive Test Ban Treaty | CTBT
+Montreal Protocol
+Abraham Accords
+Minsk agreements | Minsk
+Iran nuclear deal | JCPOA
+Paris Peace Accords
+Korean Armistice Agreement | Korean Armistice
+
+[Schooler]
+Yalta Agreement | Yalta | Yalta Conference
+Mayflower Compact
+North Atlantic Treaty | NATO
+Treaty of Ghent
+Treaty of Guadalupe Hidalgo
+Warsaw Pact
+Molotov–Ribbentrop Pact | Molotov-Ribbentrop Pact | Nazi-Soviet Pact | Nazi–Soviet Pact
+Munich Agreement
+Camp David Accords | Camp David
+Good Friday Agreement
+Treaty of Tordesillas
+Oslo Accords
+Peace of Westphalia | Treaty of Westphalia
+
+[Too Clever]
+Magna Carta
+Louisiana Purchase
+
+[Plankton]
+Treaty of Versailles | Versailles
+Treaty of Paris
+Paris Agreement | Paris climate agreement | Paris Climate Accords
+Kyoto Protocol
+Geneva Conventions | Geneva Convention
+
+[Not accepted]
+Declaration of Independence
+Constitution
+Emancipation Proclamation
+
+# QUESTION
+pool: unlimited
+category: games-toys
+prompt: Name a starter Pokémon or one of its evolutions
+note: The 27 main-series starter lines (Kanto to Paldea), all three stages. Pikachu and Eevee, the starters of Yellow and Let's Go, count as Too Clever.
+
+[One in a Krillion]
+Thwackey
+
+[Deep Cut]
+Bayleef
+Quilava
+Croconaw
+Grovyle
+Combusken
+Marshtomp
+Grotle
+Monferno
+Prinplup
+Servine
+Pignite
+Dewott
+Quilladin
+Chesnaught
+Braixen
+Frogadier
+Dartrix
+Torracat
+Brionne
+Raboot
+Drizzile
+Floragato
+Crocalor
+Quaxwell
+
+[Rare]
+Fuecoco
+Quaxly
+Typhlosion
+Feraligatr | Feraligator
+Meganium
+Treecko
+Sceptile
+Swampert
+Turtwig
+Chimchar
+Infernape
+Empoleon
+Torterra
+Snivy
+Tepig
+Oshawott
+Fennekin
+Chespin
+Popplio
+Decidueye
+Primarina
+Grookey
+Scorbunny
+Sobble
+Cinderace
+Rillaboom
+Inteleon
+Meowscarada
+Skeledirge
+Quaquaval
+Delphox
+Samurott
+Serperior
+Emboar
+
+[Schooler]
+Venusaur
+Charmeleon
+Wartortle
+Ivysaur
+Piplup
+Mudkip
+Greninja
+Froakie
+Torchic
+Blaziken
+Cyndaquil
+Totodile
+Chikorita
+Rowlet
+Litten
+Incineroar
+Sprigatito
+
+[Too Clever]
+Pikachu
+Eevee
+
+[Plankton]
+Charmander
+Squirtle
+Bulbasaur
+Charizard
+Blastoise
+
+[Not accepted]
+Raichu
+Mewtwo
+Jigglypuff
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name a type of lamp, light, or light bulb
+note: Lamps, light fixtures, bulbs and other light sources in homes, on vehicles, on stages and outdoors.
+
+[One in a Krillion]
+Klieg light | klieg
+
+[Deep Cut]
+Mercury vapor lamp
+Sodium lamp | sodium vapor lamp
+Metal halide
+Xenon | xenon lamp
+Infrared lamp
+Tungsten | tungsten bulb
+Plasma globe | plasma ball
+Fiber optic lamp
+Moon lamp
+Galaxy projector | star projector
+Sunset lamp
+Lamppost | lamp post
+Carbide lamp | miner's lamp
+Hurricane lamp | storm lantern
+Aladdin lamp | genie lamp | magic lamp
+Par can
+Fresnel
+Follow spot
+Ellipsoidal | Leko
+Moving head
+Work light | shop light | trouble light
+Bike light
+Light bar
+Running lights | daytime running lights
+Hazard lights | hazards
+Reverse lights | backup lights
+Interior light
+Marker light
+Navigation lights
+Runway lights
+Beacon
+Aldis lamp | signal lamp
+Icicle lights
+Rope light
+Globe bulb
+Candelabra bulb
+Night-light bulb
+Light box
+Menorah
+Candelabra
+Sky lantern
+Jack-o'-lantern | jack o lantern
+Lighthouse
+Laser
+Fog light | fog lights
+High beams | brights
+Dome light
+Piano lamp
+Arc lamp
+Sunlamp
+Bug zapper | bug light
+Motion sensor light
+Solar light
+Pathway light | landscape light
+Under-cabinet light
+Vanity light
+Paper lantern | Chinese lantern
+Mood light | mood lighting
+Penlight
+Emergency light | exit sign
+Police lights
+Stage light
+Footlights
+Taillight | tail light
+Brake light
+Turn signal | blinker
+
+[Rare]
+Sconce
+Pendant light
+Track lighting
+Recessed light | can light
+Ceiling fan light
+Reading light | book light
+Floodlight
+Searchlight
+UV lamp
+Heat lamp
+Grow light
+Tiki torch
+Oil lamp
+Kerosene lamp
+Gas lamp
+Edison bulb
+Halogen
+CFL | compact fluorescent
+Tiffany lamp
+Salt lamp | Himalayan salt lamp
+Torchiere
+Banker's lamp
+Clip-on lamp
+Bedside lamp
+Touch lamp
+Smart bulb | Philips Hue
+LED strip | LED strip lights
+
+[Schooler]
+Floor lamp
+Table lamp
+Lantern | camping lantern
+String lights | fairy lights
+Christmas lights
+Neon sign | neon light | neon
+Spotlight
+Streetlight | street light
+Porch light
+Strobe light
+Black light | blacklight
+Headlamp
+Ring light
+LED | LED light
+Fluorescent | fluorescent light
+Incandescent | incandescent bulb
+Ceiling light
+Traffic light
+Headlight | headlights
+Candle
+Glow stick
+
+[Too Clever]
+Lightsaber | light saber
+Northern lights | aurora
+
+[Plankton]
+Flashlight | torch
+Lava lamp
+Desk lamp
+Chandelier
+Night light | nightlight
+
+[Not accepted]
+Lampshade
+Light switch
+
+# QUESTION
+pool: unlimited
+category: science
+prompt: Name a type of engine or motor
+note: Engine and motor designs, fuels, layouts and famous engine families. Search engines and fire engines count as Too Clever.
+
+[One in a Krillion]
+Newcomen engine | atmospheric engine
+
+[Deep Cut]
+Atkinson cycle
+Otto cycle
+Miller cycle
+Opposed-piston engine | opposed piston
+Sleeve valve engine
+Flathead
+Overhead valve | OHV
+Overhead cam | OHC | DOHC | SOHC
+Crate engine
+Marine diesel
+Model engine | nitro engine | glow engine
+Warp drive
+Hyperdrive
+Hub motor
+Universal motor
+Synchronous motor
+Starter motor
+Merlin
+Raptor
+RS-25
+F-1 | F-1 engine
+Beam engine
+Steam turbine
+Water wheel
+Windmill
+Hot air engine
+Afterburner
+Turboshaft
+Propfan
+Hydrogen engine
+Flex-fuel
+LS | LS engine
+Coyote
+EcoBoost
+Cummins
+Duramax
+Powerstroke | Power Stroke
+VTEC
+Wind-up motor | clockwork
+Linear motor
+Hydraulic motor
+Pneumatic motor | air motor
+Hall thruster
+Lawn mower engine
+Small engine
+Single-cylinder | one-cylinder
+Three-cylinder
+V4
+V10
+W16
+Big block
+Small block
+
+[Rare]
+Inline-four | four-cylinder | I4 | inline 4
+Inline-six | straight-six | I6 | straight six
+Flat-four | boxer | flat engine | flat-six
+Rotary | Wankel
+Radial engine | radial
+Turbofan
+Turbojet
+Turboprop
+Ramjet
+Scramjet
+Pulse jet | pulsejet
+Gas turbine | turbine
+Stirling engine | Stirling
+External combustion engine | external combustion
+Supercharged | supercharger
+Fuel cell | hydrogen fuel cell
+Diesel-electric
+Nuclear | nuclear reactor | nuclear engine
+Ion thruster | ion engine | ion drive
+Solid rocket | solid rocket booster
+Liquid rocket | liquid-fuel rocket
+Inboard motor | inboard
+Stepper motor
+Servo motor | servo
+DC motor
+AC motor
+Brushless motor
+Induction motor
+V-twin | twin | parallel twin
+
+[Schooler]
+V8
+V6
+Rocket engine | rocket
+Hybrid
+Two-stroke | 2-stroke
+Four-stroke | 4-stroke
+V12
+Turbo | turbocharged | turbocharger
+Outboard motor | outboard
+Internal combustion engine | internal combustion | ICE
+Hemi
+
+[Too Clever]
+Search engine
+Fire engine | fire truck
+Thomas the Tank Engine | tank engine
+
+[Plankton]
+Gas engine | gasoline engine | petrol engine | gas
+Diesel engine | diesel
+Electric motor | electric
+Jet engine | jet
+Steam engine | steam
+
+[Not accepted]
+Transmission
+Battery
+
+# QUESTION
+pool: unlimited
+category: food
+prompt: Name a kind of donut
+note: Donut styles, fillings, toppings and flavors, plus fried-dough cousins from around the world.
+
+[One in a Krillion]
+Sata andagi | andagi
+
+[Deep Cut]
+Cherry
+Caramel | salted caramel
+Filled | filled donut
+Frosted | iced
+Plain | plain cake
+Potato donut | spudnut
+Sweet potato donut
+Bismarck
+Persian
+Fasnacht
+Oliebol | oliebollen
+Smultring
+Koeksister
+Mandazi
+Puff-puff | puff puff
+Bolinho de chuva
+Vada | medu vada
+Loukoumades
+Picarones
+Sopaipilla
+Buñuelo | bunuelo | buñuelos
+Krapfen
+Krafne
+Ponchik | pyshka
+Youtiao
+Kkwabaegi
+Churro
+Jelly stick
+Nutella-filled | Nutella
+Matcha
+Ube
+Key lime
+Tres leches
+Cereal-topped | Froot Loops
+Peanut
+Cinnamon twist
+Apple cider donut | cider donut
+Yeast donut | raised donut | yeast-raised
+Chocolate cake donut
+Vanilla glazed
+Unicorn donut
+Dulce de leche
+Boston Kreme | Boston creme
+
+[Rare]
+Red velvet
+Beignet
+Malasada
+Pączki | paczki | paczek
+Sufganiyah | sufganiyot
+Bomboloni | bombolone
+Berliner
+Zeppole | zeppola
+Mochi donut | pon de ring
+Crumb donut | crumb cake donut
+Vanilla frosted
+Pumpkin spice | pumpkin
+Maple bacon
+Buttermilk
+Devil's food
+Lemon-filled | lemon
+Raspberry-filled | raspberry
+Cookies and cream | Oreo
+S'mores
+Funfetti | birthday cake
+Coffee roll
+Honey bun
+Dutchie
+Chocolate glazed
+Glazed twist | twist
+Kreme-filled | cream-filled | Kreme
+
+[Schooler]
+Powdered | powdered sugar
+Old-fashioned | old fashioned
+Cruller | French cruller
+Apple fritter | fritter
+Maple bar | maple | maple frosted
+Cinnamon sugar | cinnamon
+Donut holes | Munchkins | Timbits | doughnut holes
+Strawberry frosted | strawberry | pink frosted | Simpsons donut
+Chocolate frosted
+Cake donut | cake
+Bear claw
+Long john
+Blueberry | blueberry cake
+Coconut | toasted coconut
+Honey dip | honey dipped
+Sour cream
+Bavarian cream | Bavarian Kreme
+Custard-filled | custard
+
+[Too Clever]
+Cronut
+
+[Plankton]
+Glazed | original glazed
+Chocolate
+Jelly | jelly-filled | jelly filled
+Sprinkles | sprinkle | rainbow sprinkles
+Boston cream
+
+[Not accepted]
+Bagel
+Croissant
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word that means "rude" or "mean"
+note: Synonyms for rude or unkind, slang and British usage included. "Mean" also means stingy and average, so those count as Too Clever or Deep Cut.
+
+[One in a Krillion]
+Curmudgeonly
+
+[Deep Cut]
+Malevolent
+Malignant
+Uncharitable
+Ungracious
+Ungentlemanly
+Unladylike
+Unchivalrous
+Contemptuous
+Scornful
+Derisive
+Disdainful
+Mocking
+Belittling
+Demeaning
+Degrading
+Hurtful
+Wounding
+Barbed
+Caustic
+Acerbic
+Acid
+Tart
+Waspish
+Prickly
+Peevish
+Irritable
+Cantankerous
+Bad-tempered | ill-tempered
+Sullen
+Sulky
+Truculent
+Belligerent
+Aggressive
+Combative
+Antagonistic
+Confrontational
+Hard-hearted
+Cold-hearted
+Stony
+Unfeeling
+Merciless
+Pitiless
+Ruthless
+Sadistic
+Inhumane
+Beastly
+Brutish
+Barbaric
+Cutthroat
+Vindictive
+Vengeful
+Venomous
+Poisonous
+Virulent
+Rancorous
+Snotty
+Stuck-up
+Snobby
+Snooty
+Haughty
+Arrogant
+Cocky
+Smug
+Bossy
+Pushy
+Overbearing
+Domineering
+Patronizing | patronising
+Lowdown | low-down
+Dirty
+Low
+Base
+Despicable
+Contemptible
+Vile
+Lousy
+Crummy
+Ugly
+Snappish
+Crotchety
+Cross
+Tetchy
+Shirty
+Stroppy
+Lippy
+Backhanded
+Passive-aggressive
+Unsympathetic
+Dismissive
+Ignorant
+Irreverent
+Profane
+Foul-mouthed
+Crass
+Coarse
+Brash
+Forward
+Presumptuous
+Nervy
+Saucy
+Smart-mouthed | smart-alecky
+Flippant | flip
+Offhand
+Stingy
+Cheap
+Miserly
+Tight-fisted
+Severe
+Unmannerly
+Bitchy
+
+[Rare]
+Malicious
+Vicious
+Callous
+Insensitive
+Abrasive
+Brusque
+Curt
+Gruff
+Surly
+Cranky
+Crabby
+Ill-mannered
+Crude
+Vulgar
+Discourteous
+Insolent
+Snippy
+Snappy
+Testy
+Tactless
+Thoughtless
+Inconsiderate
+Selfish
+Wicked
+Evil
+Hateful
+Mean-spirited
+Ornery
+Uncivil
+Impertinent
+Impudent
+Mouthy
+Fresh
+Short
+Cutting
+Biting
+Unfriendly
+Unpleasant
+Disagreeable
+Bitter
+Sour
+Grouchy
+Uncaring
+Rotten
+Bad-mannered
+Boorish
+Churlish
+Uncouth
+Brutal
+Salty
+Shady
+Catty
+
+[Schooler]
+Harsh
+Insulting
+Offensive
+Obnoxious
+Hostile
+Spiteful
+Savage
+Cold
+Heartless
+Snarky
+Sarcastic
+Condescending
+Toxic
+Rough
+Blunt
+Grumpy
+Bratty
+Petty
+Snide
+Sassy
+Cheeky
+
+[Too Clever]
+Mean
+Rude
+Average
+
+[Plankton]
+Cruel
+Nasty
+Unkind
+Impolite
+Disrespectful
+
+[Not accepted]
+Nice
+Kind
+
+# QUESTION
+pool: unlimited
+category: geography
+prompt: Name a city that has hosted the Olympics or a men's World Cup final
+note: Summer and Winter Olympic and Youth Olympic host cities, well-known co-host towns, and every men's World Cup final city through 2026. Ancient Olympia counts as Too Clever.
+
+[One in a Krillion]
+Bern | Berne
+
+[Deep Cut]
+Marseille
+Teahupo'o | Tahiti
+Park City
+Yanqing
+Livigno
+Bormio
+Chamonix
+Antwerp
+Garmisch-Partenkirchen | Garmisch
+Cortina d'Ampezzo | Cortina
+Grenoble
+Albertville
+Santiago
+Saint-Denis | St. Denis
+Gangneung | Gangwon
+Zhangjiakou
+Whistler
+Hong Kong
+Singapore
+Nanjing
+Lausanne
+Dakar
+Solna
+Colombes
+
+[Rare]
+Sochi
+Calgary
+Lake Placid
+Turin | Torino
+Nagano
+Sapporo
+Lillehammer
+Innsbruck
+St. Louis | Saint Louis
+Stockholm
+Amsterdam
+Helsinki
+Melbourne
+Madrid
+Buenos Aires
+Montevideo
+Johannesburg
+Yokohama
+Pasadena
+Doha | Lusail
+Milan | Milano | Milan Cortina
+Squaw Valley | Palisades Tahoe | Olympic Valley
+Sarajevo
+Pyeongchang | PyeongChang
+Oslo
+St. Moritz | Saint Moritz
+East Rutherford | New Jersey | New York New Jersey
+
+[Schooler]
+Rio de Janeiro | Rio
+Athens
+Sydney
+Atlanta
+Barcelona
+Moscow
+Mexico City
+Salt Lake City | Salt Lake
+Vancouver
+Seoul
+Berlin
+Rome
+Munich
+Montreal | Montréal
+
+[Too Clever]
+Olympia
+
+[Plankton]
+Los Angeles | LA | L.A.
+Paris
+London
+Tokyo
+Beijing | Peking
+
+[Not accepted]
+Brisbane
+Chicago
+Dubai
+
+# QUESTION
+pool: unlimited
+category: movies-tv
+prompt: Name a superpower
+note: Powers and abilities from superhero comics, movies and TV, including "-kinesis" names.
+
+[One in a Krillion]
+Echolocation | radar sense
+
+[Deep Cut]
+Necromancy
+Probability manipulation
+Memory manipulation | mind wipe | memory erasing
+Super breath
+Adaptation | adaptability
+Omnipotence
+Omniscience
+Omnipresence
+Cosmic awareness
+Energy absorption
+Kinetic absorption
+Biokinesis
+Blood control | hemokinesis
+Metal manipulation | metal control
+Sand manipulation
+Poison | venom
+Radiation
+Matter manipulation | molecular control
+Transmutation
+Superhuman reflexes | reflexes
+Telescopic vision | zoom vision
+Microscopic vision
+Thermal vision | infrared vision
+Persuasion | charmspeak
+Hypnosis
+Resurrection
+Wings
+Claws | retractable claws
+Photographic memory | eidetic memory
+Lie detection
+Super smell
+Elemental control
+Fire breath | breathing fire
+Energy constructs | ring constructs
+
+[Rare]
+Wall-crawling | wall crawling
+Breathing underwater
+Night vision
+Regeneration
+Weather control
+Magnetism | magnetokinesis
+Phasing | intangibility
+Duplication | cloning | self-duplication
+Precognition | seeing the future
+Energy blasts
+Sonic scream
+Freeze breath | ice breath
+Super intelligence | genius
+Super jump
+Power absorption
+Power mimicry | copying powers
+Illusions | illusion casting
+Darkness | shadow control | umbrakinesis
+Light control | photokinesis
+Gravity control
+Time manipulation | chronokinesis
+Reality warping
+Magic
+Technopathy | technology control
+Possession
+Empathy
+Density control
+Size-shifting
+Plant control | chlorokinesis
+Earth control | geokinesis
+Water control | hydrokinesis
+Wind control | air control | aerokinesis
+Healing others | healing touch
+Luck
+Enhanced senses | super senses
+Agility
+Durability
+Stamina
+Sound manipulation
+Portals | portal creation
+Dimension travel
+Astral projection
+Animal transformation | turning into animals
+Camouflage | cloaking
+
+[Schooler]
+Telepathy | mind reading
+Time travel
+X-ray vision
+Laser eyes | heat vision | laser vision
+Shapeshifting | shape-shifting
+Healing | healing factor
+Immortality
+Invulnerability | bulletproof
+Mind control
+Telekinesis
+Fire | pyrokinesis | fire control
+Ice | cryokinesis | ice control
+Shrinking
+Growing | giant
+Super hearing
+Talking to animals
+Freezing time | time stopping | stopping time
+Spider-sense | spider sense
+Web-slinging | web slinging
+Elasticity | stretching | super flexibility
+Force field | force fields | energy shield
+Electricity | lightning | electrokinesis
+
+[Too Clever]
+Being rich | money | wealth
+
+[Plankton]
+Flight | flying | fly
+Super strength | strength | superhuman strength
+Invisibility
+Super speed | speed
+Teleportation
+
+[Not accepted]
+Superman
