@@ -47,6 +47,11 @@ export function App() {
     document.title = APP_NAME;
   }, []);
 
+  // CSS-only animations (background creatures, waves) read this to calm down too.
+  useEffect(() => {
+    document.documentElement.dataset.reducedMotion = String(settings.reducedMotion);
+  }, [settings.reducedMotion]);
+
   /** Sink (or rise) the diver to match a point total, eased over ~1.2s. */
   const diveTo = useCallback(
     (totalPoints: number) => {

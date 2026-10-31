@@ -13,6 +13,7 @@ import {
 } from "@fathom/shared";
 import type { BattleSettings, Category, DiveSettings, GameResult, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
 import type { GaugeDiver } from "../components/DepthGauge";
+import { Submarine } from "../components/DepthGauge";
 import { serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
 import { DidYouMean } from "../components/DidYouMean";
@@ -844,7 +845,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
                     animate={{ y: steps }}
                     transition={{ duration: 4, ease: "easeInOut", delay: i * 0.05 }}
                   >
-                    🤿
+                    <Submarine hue={r.playerId === state.you ? undefined : hueOf(r.playerId)} small />
                   </motion.div>
                   <div className="race-name">{r.nickname}</div>
                 </div>

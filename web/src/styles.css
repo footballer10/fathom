@@ -1445,7 +1445,8 @@ select {
 .finale { display: flex; flex-direction: column; gap: 16px; }
 .race-lanes { display: flex; justify-content: center; gap: 10px; height: 320px; padding-top: 8px; }
 .race-lane { position: relative; flex: 1; max-width: 70px; border-left: 1px dashed var(--glass-border); }
-.race-diver { font-size: 1.6rem; text-align: center; }
+.race-diver { display: flex; justify-content: center; }
+.race-diver .sub-svg { transform: rotate(90deg); width: 34px; height: auto; }
 .race-name { position: absolute; top: -4px; left: 0; right: 0; font-size: 0.7rem; text-align: center; color: var(--muted); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .race-diver { margin-top: 14px; }
 .podium { display: flex; justify-content: center; align-items: flex-end; gap: 12px; margin-top: 12px; min-height: 290px; }
@@ -1532,7 +1533,9 @@ select {
   border-radius: 24px;
   overflow: hidden;
   isolation: isolate;
-  background: linear-gradient(180deg, #0f6aa6 0%, #0a4a80 40%, #062c55 75%, #041c3a 100%);
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(160, 230, 255, 0.35), transparent 70%),
+    linear-gradient(180deg, #1786c4 0%, #0f63a0 30%, #0a4a80 55%, #073764 80%, #052a4d 100%);
   box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.45), 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 .arena-rays {
@@ -1896,23 +1899,74 @@ body:has(.battle) .toasts { bottom: 104px; }
 .bell-you { fill: #ffd166; font-size: 12px; font-weight: 800; }
 .bell-axis { fill: rgba(225, 242, 255, 0.7); font-size: 10px; }
 
-/* Battle tank scenery */
-.arena-scenery { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
-.scenery-far { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 34%; }
-.scenery-floor { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 30%; }
-.kelp { animation: kelp-sway 4.5s ease-in-out infinite alternate; }
-@keyframes kelp-sway { from { transform: rotate(-4deg); } to { transform: rotate(5deg); } }
+/* Battle tank scenery (ArenaScenery.tsx) */
+.arena-scenery { position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+.scenery-surface { position: absolute; left: 0; top: 0; width: 100%; height: 14%; }
+.surface-wave { animation: surface-wave 6s ease-in-out infinite alternate; }
+.surface-wave--2 { animation-duration: 4.5s; animation-direction: alternate-reverse; }
+@keyframes surface-wave { from { transform: translateX(-30px); } to { transform: translateX(30px); } }
+/* Light dancing over everything, strongest on the sand. */
+.scenery-caustics {
+  position: absolute; inset: 0; opacity: 0.12; mix-blend-mode: screen;
+  background-image:
+    radial-gradient(ellipse 22px 12px at 20% 30%, rgba(255, 255, 255, 0.9), transparent 70%),
+    radial-gradient(ellipse 30px 14px at 70% 60%, rgba(255, 255, 255, 0.8), transparent 70%),
+    radial-gradient(ellipse 18px 10px at 45% 80%, rgba(255, 255, 255, 0.85), transparent 70%),
+    radial-gradient(ellipse 26px 12px at 85% 20%, rgba(255, 255, 255, 0.8), transparent 70%);
+  background-size: 180px 120px, 220px 150px, 160px 110px, 240px 170px;
+  mask-image: linear-gradient(180deg, transparent 0%, transparent 62%, #000 85%, #000 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, transparent 62%, #000 85%, #000 100%);
+  animation: caustics 14s linear infinite;
+}
+@keyframes caustics { from { background-position: 0 0, 0 0, 0 0, 0 0; } to { background-position: 180px 60px, -220px 75px, 160px -55px, -240px 85px; } }
+.scenery-far { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 55%; }
+.scenery-floor { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 34%; }
+.scenery-kelp { position: absolute; bottom: 4%; height: 54%; width: auto; max-width: 16%; }
+@media (max-width: 560px) { .scenery-kelp { height: 40%; max-width: 22%; opacity: 0.85; } }
+.scenery-kelp--left { left: -10px; }
+.scenery-kelp--right { right: -10px; transform: scaleX(-1); }
+.scenery-vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(0, 10, 25, 0.55) 100%); }
+.kelp { animation: kelp-sway 5s ease-in-out infinite alternate; }
+@keyframes kelp-sway { from { transform: rotate(-4deg) skewX(-2deg); } to { transform: rotate(4deg) skewX(2deg); } }
+.sway { animation: kelp-sway 6s ease-in-out infinite alternate; }
+.sway--slow { animation-duration: 8s; }
+.grass { animation: grass 3.2s ease-in-out infinite alternate; }
+@keyframes grass { from { transform: rotate(-8deg); } to { transform: rotate(8deg); } }
+.tentacle { animation: tentacle 2.6s ease-in-out infinite alternate; }
+@keyframes tentacle { from { transform: rotate(-6deg) scale(0.96); } to { transform: rotate(6deg) scale(1.04); } }
+.clownfish { animation: clown-peek 7s ease-in-out infinite; }
+@keyframes clown-peek { 0%, 100% { transform: translate(14px, -26px); } 40% { transform: translate(34px, -40px); } 60% { transform: translate(30px, -36px); } }
 .chest-glint { animation: glint 3s ease-in-out infinite; }
 @keyframes glint { 0%, 70%, 100% { opacity: 0; } 80% { opacity: 1; } }
+.clam-lid { transform-origin: 30px 0; animation: clam 6s ease-in-out infinite; }
+@keyframes clam { 0%, 60%, 100% { transform: rotate(0); } 70%, 90% { transform: rotate(-14deg); } }
+.clam-bubble { animation: clam-bubble 6s ease-out infinite; }
+.clam-bubble--2 { animation-delay: 0.4s; }
+@keyframes clam-bubble { 0%, 68% { opacity: 0; transform: translateY(0); } 72% { opacity: 1; } 100% { opacity: 0; transform: translateY(-120px); } }
+
+/* Swimmers: drawn facing right; left-swimmers are mirrored, so nothing swims backwards. */
 .scenery-swimmers { position: absolute; inset: 0; overflow: hidden; }
-.swimmer { position: absolute; left: 0; }
-.swimmer--school { top: 34%; animation: swim-right 26s linear infinite; }
-.swimmer--school2 { top: 58%; animation: swim-left 21s linear infinite; animation-delay: -8s; }
-.swimmer--turtle { top: 20%; opacity: 0.75; animation: swim-right 48s linear infinite; animation-delay: -30s; }
-@keyframes swim-right { from { transform: translateX(-160px); } to { transform: translateX(calc(100vw + 160px)); } }
-@keyframes swim-left { from { transform: translateX(calc(100vw + 160px)) scaleX(1); } to { transform: translateX(-160px) scaleX(1); } }
-.arena--still .kelp, .arena--still .swimmer, .arena--still .chest-glint { animation: none; }
-.arena--still .swimmer { display: none; }
+.swimmer { position: absolute; left: 0; will-change: transform; }
+.swim--right { animation: swim-right linear infinite; }
+.swim--left { animation: swim-left linear infinite; }
+.swim--left .swimmer-art { transform: scaleX(-1); }
+.swimmer--school-a { top: 30%; animation-duration: 26s; }
+.swimmer--school-b { top: 56%; animation-duration: 21s; animation-delay: -8s; }
+.swimmer--turtle { top: 18%; opacity: 0.85; animation-duration: 46s; animation-delay: -30s; }
+.swimmer--ray { top: 42%; opacity: 0.7; animation-duration: 38s; animation-delay: -12s; }
+.swimmer--jelly { position: absolute; left: 70%; bottom: -100px; opacity: 0.8; animation: jelly-rise 28s linear infinite; animation-delay: -9s; }
+@keyframes swim-right { from { transform: translateX(-200px); } to { transform: translateX(calc(100vw + 200px)); } }
+@keyframes swim-left { from { transform: translateX(calc(100vw + 200px)); } to { transform: translateX(-200px); } }
+@keyframes jelly-rise { 0% { transform: translate(0, 0); } 50% { transform: translate(-40px, -45vh); } 100% { transform: translate(10px, -110vh); } }
+.swimmer .fish-tail { transform-origin: 2px 0; animation: fish-tail 0.5s ease-in-out infinite alternate; }
+@keyframes fish-tail { from { transform: scaleY(1) rotate(-12deg); } to { transform: scaleY(0.85) rotate(12deg); } }
+.flipper--front { transform-origin: 72px 38px; animation: flipper 1.8s ease-in-out infinite alternate; }
+.flipper--back { transform-origin: 30px 46px; animation: flipper 1.8s ease-in-out infinite alternate-reverse; }
+@keyframes flipper { from { transform: rotate(-10deg); } to { transform: rotate(12deg); } }
+.ray { transform-origin: 70px 35px; animation: ray-flap 2.4s ease-in-out infinite alternate; }
+@keyframes ray-flap { from { transform: scaleY(0.75); } to { transform: scaleY(1.05); } }
+.arena--still .arena-scenery *, .arena--still .swimmer, .arena--still .swimmer--jelly { animation: none !important; }
+.arena--still .scenery-swimmers { display: none; }
 /* Someone earned a life: everyone sees it, nobody has to wait for it. */
 .life-banner {
   position: absolute; left: 50%; top: 30%; translate: -50% 0; z-index: 6; pointer-events: none; white-space: nowrap;
@@ -2092,3 +2146,45 @@ body:has(.battle) .toasts { bottom: 104px; }
 .board-tab:hover, .board-tab--on { border-color: var(--accent); color: var(--accent); }
 .board-section { scroll-margin-top: 60px; display: flex; flex-direction: column; gap: 10px; }
 .board-section-title { margin: 14px 0 0; font-size: 1.25rem; }
+
+/* Main ocean: surface, light, distant reef and more sea life (Ocean.tsx) */
+.ocean-surface { position: fixed; left: 0; right: 0; top: 0; height: 22vh; pointer-events: none; }
+.ocean-surface .surface-wave { animation: surface-wave 7s ease-in-out infinite alternate; }
+.ocean-surface .surface-wave--2 { animation-duration: 5s; animation-direction: alternate-reverse; }
+.ocean-caustics {
+  position: fixed; inset: 0; pointer-events: none; mix-blend-mode: screen;
+  background-image:
+    radial-gradient(ellipse 34px 16px at 20% 30%, rgba(255, 255, 255, 0.9), transparent 70%),
+    radial-gradient(ellipse 44px 18px at 70% 60%, rgba(255, 255, 255, 0.8), transparent 70%),
+    radial-gradient(ellipse 26px 12px at 45% 80%, rgba(255, 255, 255, 0.85), transparent 70%),
+    radial-gradient(ellipse 38px 16px at 85% 20%, rgba(255, 255, 255, 0.8), transparent 70%);
+  background-size: 260px 170px, 320px 210px, 230px 150px, 340px 240px;
+  mask-image: linear-gradient(180deg, #000 0%, transparent 70%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 70%);
+  animation: caustics 18s linear infinite;
+}
+.distant-reef { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 38vh; }
+.ocean-vignette { position: fixed; inset: 0; pointer-events: none; background: radial-gradient(ellipse at 50% 40%, transparent 50%, rgba(0, 5, 15, 0.85) 100%); }
+.fish-school--c { top: 40%; left: -200px; animation: swim-back 44s linear infinite; animation-delay: -10s; transform: scale(0.6); }
+.fish-school--c .school-art { transform: scaleX(-1); transform-origin: 55px 28px; }
+@keyframes swim-back { 0% { translate: calc(100vw + 400px) 0; } 50% { translate: calc(50vw + 100px) 24px; } 100% { translate: 0 0; } }
+.fish-school .fish-tail, .lantern .fish-tail { transform-origin: 1px 0; animation: fish-tail 0.45s ease-in-out infinite alternate; }
+.ocean-turtle { position: absolute; top: 12%; left: -180px; animation: swim 70s linear infinite; animation-delay: -20s; }
+.ocean-turtle .flipper--front { transform-origin: 72px 38px; animation: flipper 2.2s ease-in-out infinite alternate; }
+.ocean-turtle .flipper--back { transform-origin: 30px 46px; animation: flipper 2.2s ease-in-out infinite alternate-reverse; }
+.ocean-manta { position: absolute; top: 34%; left: -260px; animation: swim 60s linear infinite; animation-delay: -35s; }
+.manta-wings { transform-origin: 110px 55px; animation: ray-flap 3s ease-in-out infinite alternate; }
+.ocean-whale { position: absolute; top: 46%; left: -480px; animation: swim 120s linear infinite; animation-delay: -50s; }
+.lantern { position: absolute; left: -80px; animation: swim 34s linear infinite; }
+.lantern--a { top: 30%; }
+.lantern--b { top: 52%; animation-duration: 42s; animation-delay: -14s; }
+.lantern--c { top: 68%; animation-duration: 38s; animation-delay: -26s; transform: scale(0.8); }
+.lantern-spot { filter: drop-shadow(0 0 3px #7dfcff); animation: lantern-glow 2.4s ease-in-out infinite alternate; }
+@keyframes lantern-glow { from { opacity: 0.4; } to { opacity: 1; } }
+:root[data-reduced-motion="true"] .ocean-surface *, :root[data-reduced-motion="true"] .ocean-caustics,
+:root[data-reduced-motion="true"] .ocean-turtle, :root[data-reduced-motion="true"] .ocean-manta, :root[data-reduced-motion="true"] .ocean-whale,
+:root[data-reduced-motion="true"] .lantern, :root[data-reduced-motion="true"] .fish-school--c, :root[data-reduced-motion="true"] .fish-tail { animation: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  .ocean-surface *, .ocean-caustics, .ocean-turtle, .ocean-manta, .ocean-whale, .lantern, .fish-school--c, .fish-tail { animation: none !important; }
+}
+@media (max-width: 640px) { .ocean-turtle { scale: 0.55; } .ocean-manta { scale: 0.6; } .ocean-whale { scale: 0.6; } }
