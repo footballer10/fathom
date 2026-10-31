@@ -1,11 +1,12 @@
 import { motion, useAnimationControls } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { DEADLINE_GRACE_MS, QUESTION_SECONDS } from "@fathom/shared";
+import { DEADLINE_GRACE_MS, QUESTION_SECONDS, tierInfo } from "@fathom/shared";
 import type { Category, FinishResponse, GameMode, RevealResponse, SessionState, TierPoints } from "@fathom/shared";
 import { api } from "../api";
 import { useSettings } from "../settings";
 import { sounds } from "../sound";
 import { RevealPanel } from "./RevealPanel";
+import { ShouldCount } from "./ShouldCount";
 import { TierReveal } from "./TierReveal";
 import { TimerRing } from "./TimerRing";
 
@@ -60,7 +61,6 @@ export function Game({
   const started = useRef(false);
   /** Wrong guesses on the current question, so a player can say "this should count". */
   const rejected = useRef<string[]>([]);
-  const [reported, setReported] = useState(false);
 
   const play = useCallback((fn: () => void) => settings.sound && fn(), [settings.sound]);
 
@@ -100,7 +100,6 @@ export function Game({
       setOutcome(null);
       setReveal(null);
       rejected.current = [];
-      setReported(false);
       setText("");
       setTimeUp(false);
       setEndsAt(s.current.endsAt);
@@ -269,8 +268,18 @@ export function Game({
         </span>
         <span className="game-progress" aria-hidden="true">
           {Array.from({ length: session.total }, (_, i) => {
+            // Each finished question's dot takes the colour of the tier you got (red for a miss).
             const p = session.plays.find((x) => x.index === i);
-            return <span key={i} className={`dot${i === q.index ? " dot--current" : ""}${p ? (p.tier ? " dot--hit" : " dot--miss") : ""}`} />;
+            const done = p ?? (i === q.index && phase === "reveal" && outcome ? { tier: outcome.tier } : null);
+            const color = done?.tier ? tierInfo(done.tier).color : undefined;
+            return (
+              <span
+                key={i}
+                className={`dot${i === q.index ? " dot--current" : ""}${done ? (done.tier ? " dot--hit" : " dot--miss") : ""}`}
+                style={color ? ({ "--dot": color } as React.CSSProperties) : undefined}
+                title={done ? (done.tier ? tierInfo(done.tier).name : "Missed") : undefined}
+              />
+            );
           })}
         </span>
       </header>
@@ -335,23 +344,7 @@ export function Game({
           <p className="hint">
             <kbd>Enter ↵</kbd> or <kbd>Space</kbd> to continue
           </p>
-          {!outcome.tier && rejected.current.length > 0 && (
-            <p className="hint">
-              {reported ? (
-                "Thanks! We'll take a look."
-              ) : (
-                <button
-                  className="link-btn"
-                  onClick={() => {
-                    setReported(true);
-                    void api.report(session.sessionId, q.index, rejected.current[rejected.current.length - 1]).catch(() => {});
-                  }}
-                >
-                  "{rejected.current[rejected.current.length - 1]}" should count
-                </button>
-              )}
-            </p>
-          )}
+          <ShouldCount key={q.index} guesses={rejected.current} onReport={(g) => api.report(session.sessionId, q.index, g)} />
           {reveal ? (
             <details className="answers-details" open>
               <summary>All {reveal.answers.length} valid answers</summary>

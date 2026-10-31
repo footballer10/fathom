@@ -48,6 +48,7 @@ export interface PlayerStats {
   bestDepth: number;
   histogram: Record<string, number>;
   recent: { date: string; points: number }[];
+  unlimited?: { dives: number; answered: number; bestDepth: number; seen: number };
 }
 
 export interface LeaderboardBoard {
@@ -104,6 +105,8 @@ export const api = {
   stats: () => call<PlayerStats>("GET", "/api/stats/me"),
   report: (sessionId: string, index: number, guess: string) =>
     call<{ ok: true }>("POST", "/api/report", { sessionId, index, guess }),
+  /** Party games: report by the prompt's text. */
+  reportPrompt: (prompt: string, guess: string) => call<{ ok: true }>("POST", "/api/report", { prompt, guess }),
   profile: () => call<Profile>("GET", "/api/player"),
   setNickname: (nickname: string) => call<Profile>("POST", "/api/player", { nickname }),
   leaderboards: () => call<{ updatedAt: number; minAnswersForRates: number; boards: LeaderboardBoard[] }>("GET", "/api/leaderboards"),

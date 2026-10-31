@@ -70,6 +70,13 @@ const SOLO_PLAYS = `FROM plays pl JOIN sessions s ON s.id = pl.session_id JOIN p
 
 const BOARDS: { id: string; title: string; description: string; unit: Board["unit"]; sql: string }[] = [
   {
+    id: "unlimited-answered",
+    title: "Unlimited explorers",
+    description: "Unlimited prompts answered correctly",
+    unit: "count",
+    sql: `SELECT s.player_id, SUM(pl.answer_id IS NOT NULL) AS value ${SOLO_PLAYS} AND s.mode = 'unlimited' GROUP BY s.player_id HAVING value > 0`,
+  },
+  {
     id: "dives",
     title: "Most dives",
     description: "Daily and Unlimited dives finished",

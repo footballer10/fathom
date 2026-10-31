@@ -6,6 +6,14 @@ import { ZONES, formatDepth, zoneForDepth } from "@fathom/shared";
 /** Bottom of the gauge: a perfect game (700 points). */
 export const GAUGE_MAX_DEPTH = 7000;
 
+/** Another diver in a party Dive, shown as their own submarine on the gauge. */
+export interface GaugeDiver {
+  id: string;
+  name: string;
+  depth: number;
+  hue: number;
+}
+
 function useDepthText(depth: MotionValue<number>) {
   const [text, setText] = useState(() => formatDepth(depth.get()));
   const [zone, setZone] = useState(() => zoneForDepth(depth.get()).name);
@@ -16,26 +24,42 @@ function useDepthText(depth: MotionValue<number>) {
   return { text, zone };
 }
 
-/** Vertical gauge with the diver on it (wide screens). */
-export function DepthGauge({ depth }: { depth: MotionValue<number> }) {
-  const top = useTransform(depth, (d) => `${Math.min(100, (d / GAUGE_MAX_DEPTH) * 100)}%`);
+const pct = (d: number) => `${Math.min(100, Math.max(0, (d / GAUGE_MAX_DEPTH) * 100))}%`;
+
+/**
+ * Vertical gauge (wide screens): zone names on the left of the line, your
+ * submarine (and in a party Dive, everyone else's) on the right.
+ */
+export function DepthGauge({ depth, others = [] }: { depth: MotionValue<number>; others?: GaugeDiver[] }) {
+  const top = useTransform(depth, (d) => pct(d));
   const { text, zone } = useDepthText(depth);
 
   return (
     <aside className="gauge" aria-label={`Depth ${text}, ${zone}`}>
-      <div className="gauge-track">
+      <div className="gauge-labels">
         {ZONES.map((z) => (
-          <div key={z.name} className="gauge-mark" style={{ top: `${(z.minDepth / GAUGE_MAX_DEPTH) * 100}%` }}>
+          <div key={z.name} className="gauge-mark" style={{ top: pct(z.minDepth) }}>
             <span className="gauge-mark-label">{z.name.replace(" Zone", "")}</span>
             <span className="gauge-mark-depth">{z.minDepth.toLocaleString("en-US")} m</span>
           </div>
         ))}
-        <motion.div className="gauge-fill" style={{ height: top }} />
-        <motion.div className="gauge-diver" style={{ top }}>
-          <Diver />
-          <span className="gauge-readout">{text}</span>
-        </motion.div>
       </div>
+      <div className="gauge-track">
+        {ZONES.map((z) => (
+          <span key={z.name} className="gauge-tick" style={{ top: pct(z.minDepth) }} />
+        ))}
+        <motion.div className="gauge-fill" style={{ height: top }} />
+      </div>
+      {others.map((o) => (
+        <div key={o.id} className="gauge-sub gauge-sub--other" style={{ top: pct(o.depth) }} title={`${o.name}: ${formatDepth(o.depth)}`}>
+          <Submarine hue={o.hue} />
+          <span className="gauge-sub-name">{o.name}</span>
+        </div>
+      ))}
+      <motion.div className="gauge-sub gauge-sub--you" style={{ top }}>
+        <Submarine />
+        <span className="gauge-readout">{text}</span>
+      </motion.div>
     </aside>
   );
 }
@@ -45,27 +69,39 @@ export function DepthPill({ depth }: { depth: MotionValue<number> }) {
   const { text, zone } = useDepthText(depth);
   return (
     <div className="depth-pill" aria-hidden="true">
-      <Diver small /> {text} <span className="depth-pill-zone">· {zone}</span>
+      <Submarine small /> {text} <span className="depth-pill-zone">· {zone}</span>
     </div>
   );
 }
 
-function Diver({ small = false }: { small?: boolean }) {
-  const s = small ? 18 : 34;
+/** A little yellow submarine (or another player's colour) facing right. */
+export function Submarine({ hue, small = false }: { hue?: number; small?: boolean }) {
+  const w = small ? 26 : 46;
+  const body = hue === undefined ? "#ffd166" : `hsl(${hue} 75% 62%)`;
+  const dark = hue === undefined ? "#c98a1b" : `hsl(${hue} 60% 38%)`;
   return (
-    <svg className="diver" width={s} height={s} viewBox="0 0 40 40" aria-hidden="true">
-      {/* air tank */}
-      <rect x="8" y="12" width="7" height="16" rx="3" fill="#f4a261" />
-      {/* body */}
-      <path d="M13 14 C 18 10, 28 12, 30 20 C 30 27, 22 30, 15 28 Z" fill="#1d3557" />
-      {/* helmet */}
-      <circle cx="27" cy="13" r="7" fill="#e9c46a" stroke="#b08a2e" strokeWidth="1.5" />
-      <circle cx="28.5" cy="12.5" r="3.6" fill="#8ecae6" stroke="#1d3557" strokeWidth="1" />
-      {/* flippers */}
-      <path d="M14 27 L 6 36 L 12 35 Z M18 28 L 14 38 L 20 35 Z" fill="#2a9d8f" />
-      {/* bubbles */}
-      <circle cx="34" cy="5" r="1.8" fill="none" stroke="#e0f7ff" strokeWidth="1" />
-      <circle cx="37" cy="1.5" r="1.2" fill="none" stroke="#e0f7ff" strokeWidth="0.8" />
+    <svg className="sub-svg" width={w} height={w * 0.62} viewBox="0 0 64 40" aria-hidden="true">
+      {/* propeller */}
+      <g className="sub-prop">
+        <ellipse cx="5" cy="22" rx="2.2" ry="7" fill={dark} />
+      </g>
+      <rect x="6" y="20.5" width="6" height="3" fill={dark} />
+      {/* tail fins */}
+      <path d="M10 22 L4 13 L14 17 Z M10 22 L4 31 L14 27 Z" fill={dark} />
+      {/* hull */}
+      <path d="M12 22 C 12 13, 22 11, 36 11 C 52 11, 60 16, 60 22 C 60 28, 52 33, 36 33 C 22 33, 12 31, 12 22 Z" fill={body} stroke={dark} strokeWidth="1.5" />
+      {/* tower + periscope */}
+      <path d="M28 11 L30 4 L42 4 L44 11 Z" fill={body} stroke={dark} strokeWidth="1.5" />
+      <path d="M38 4 L38 0.5 L44 0.5" fill="none" stroke={dark} strokeWidth="1.8" strokeLinecap="round" />
+      {/* portholes */}
+      <circle cx="26" cy="22" r="3.6" fill="#bdefff" stroke={dark} strokeWidth="1.4" />
+      <circle cx="37" cy="22" r="3.6" fill="#bdefff" stroke={dark} strokeWidth="1.4" />
+      <circle cx="48" cy="22" r="3.6" fill="#bdefff" stroke={dark} strokeWidth="1.4" />
+      <circle cx="25" cy="21" r="1.1" fill="#fff" />
+      <circle cx="36" cy="21" r="1.1" fill="#fff" />
+      <circle cx="47" cy="21" r="1.1" fill="#fff" />
+      {/* hull stripe */}
+      <path d="M16 28 C 26 30.5, 46 30.5, 57 27" fill="none" stroke={dark} strokeWidth="1.2" opacity="0.6" />
     </svg>
   );
 }

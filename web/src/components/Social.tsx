@@ -13,11 +13,30 @@ export function StatsPanel() {
   useEffect(() => {
     api.stats().then(setStats).catch(() => {});
   }, []);
-  if (!stats || stats.played === 0) return null;
+  if (!stats || (stats.played === 0 && !stats.unlimited?.dives)) return null;
   const buckets = Object.entries(stats.histogram);
   const max = Math.max(1, ...buckets.map(([, n]) => n));
   return (
     <div className="card stats-card">
+      {stats.unlimited && stats.unlimited.dives > 0 && (
+        <>
+          <h3>Your Unlimited stats</h3>
+          <div className="stats-row">
+            <Stat label="Dives" value={stats.unlimited.dives} />
+            <Stat label="Answered" value={stats.unlimited.answered} />
+            <Stat label="Prompts seen" value={stats.unlimited.seen} />
+            <Stat label="Deepest" value={formatDepth(stats.unlimited.bestDepth)} />
+          </div>
+        </>
+      )}
+      {stats.played > 0 && <DailyStats stats={stats} buckets={buckets} max={max} />}
+    </div>
+  );
+}
+
+function DailyStats({ stats, buckets, max }: { stats: PlayerStats; buckets: [string, number][]; max: number }) {
+  return (
+    <>
       <h3>Your Daily stats</h3>
       <div className="stats-row">
         <Stat label="Played" value={stats.played} />
@@ -36,7 +55,7 @@ export function StatsPanel() {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

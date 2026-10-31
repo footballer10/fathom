@@ -159,7 +159,7 @@ export const DIVE_DEFAULTS = {
   questionCount: 7,
   questionCountMin: 3,
   questionCountMax: 15,
-  timerOptions: [15, 25, 40],
+  timerOptions: [15, 25, 40, 60],
   timerSeconds: 25,
   uniqueAnswers: false,
   wrongGuessPenaltySeconds: 2,

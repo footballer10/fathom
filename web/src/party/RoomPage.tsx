@@ -11,8 +11,10 @@ import {
   tierInfo,
 } from "@fathom/shared";
 import type { BattleSettings, Category, DiveSettings, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
-import { serverNow } from "../api";
+import type { GaugeDiver } from "../components/DepthGauge";
+import { api, serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
+import { ShouldCount } from "../components/ShouldCount";
 import { TimerRing } from "../components/TimerRing";
 import { NicknamePrompt, getNickname } from "../nickname";
 import { navigate } from "../router";
@@ -34,6 +36,32 @@ function useNow(intervalMs = 250) {
   return now;
 }
 
+/** A stable colour per player, for their submarine. */
+function hueOf(id: string) {
+  let h = 0;
+  for (const c of id) h = (h * 31 + c.charCodeAt(0)) % 360;
+  return h;
+}
+
+/** One dot per question, coloured by the tier you got once it's done (red for a miss). */
+function ProgressDots({ total, current, tiers }: { total: number; current: number; tiers: Record<number, TierPoints | null> }) {
+  return (
+    <span className="game-progress" aria-hidden="true">
+      {Array.from({ length: total }, (_, i) => {
+        const done = i in tiers;
+        const tier = tiers[i];
+        return (
+          <span
+            key={i}
+            className={`dot${i === current ? " dot--current" : ""}${done ? (tier ? " dot--hit" : " dot--miss") : ""}`}
+            style={tier ? ({ "--dot": tierInfo(tier).color } as React.CSSProperties) : undefined}
+          />
+        );
+      })}
+    </span>
+  );
+}
+
 const penaltyLabel = (secs: number) => (secs === 0 ? "nothing" : `${secs}s`);
 
 function TierBadge({ tier }: { tier: TierPoints | null }) {
@@ -50,11 +78,14 @@ export function RoomPage({
   code,
   onDepth,
   onBattle,
+  onDivers,
 }: {
   code: string;
   onDepth: (points: number) => void;
   /** Tells the app whether this is a Battle room, which has no depth gauge. */
   onBattle: (isBattle: boolean) => void;
+  /** Everyone else's depth in a party Dive, for their submarines on the gauge. */
+  onDivers: (divers: GaugeDiver[]) => void;
 }) {
   const [nickname, setNickname] = useState<string | null>(getNickname());
   const { state, status, events, error, setError, send, revealAnswers, typing } = useRoom(code, nickname);
@@ -67,6 +98,35 @@ export function RoomPage({
     // Background depth follows the party scale, so shorter games still reach the deep zones.
     if (state?.kind === "dive") onDepth((me?.score ?? 0) * partyDepthScale((state.settings as DiveSettings).questionCount));
   }, [state?.kind, state?.settings, me?.score, onDepth]);
+
+  // Everyone else's submarine on the depth gauge.
+  const diversKey = state?.kind === "dive" ? state.players.map((p) => `${p.id}:${p.score}:${p.spectator}`).join("|") : "";
+  useEffect(() => {
+    if (!state || state.kind !== "dive") return onDivers([]);
+    const qc = (state.settings as DiveSettings).questionCount;
+    onDivers(
+      state.players
+        .filter((p) => p.id !== state.you && !p.spectator)
+        .map((p) => ({ id: p.id, name: p.nickname, depth: partyDepth(p.score, qc), hue: hueOf(p.id) })),
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [diversKey, onDivers]);
+  useEffect(() => () => onDivers([]), [onDivers]);
+
+  // Your wrong guesses on each question, so you can say one "should count" at the reveal.
+  const [myRejected, setMyRejected] = useState<Record<number, string[]>>({});
+  const addRejected = useCallback((i: number, g: string) => setMyRejected((m) => ({ ...m, [i]: [...(m[i] ?? []), g] })), []);
+
+  // Your tier on each question so far, for the coloured progress dots.
+  const [myTiers, setMyTiers] = useState<Record<number, TierPoints | null>>({});
+  const revealIndex = state?.dive?.reveal ? state.dive.index : null;
+  useEffect(() => {
+    if (state?.phase === "lobby") return setMyTiers({});
+    if (revealIndex === null || !state?.dive?.reveal) return;
+    const mine = state.dive.reveal.perPlayer.find((r) => r.playerId === state.you);
+    setMyTiers((t) => ({ ...(revealIndex === 0 ? {} : t), [revealIndex]: mine?.tier ?? null }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [revealIndex, state?.phase]);
   useEffect(() => {
     onBattle(state?.kind === "battle");
     return () => onBattle(false);
@@ -152,8 +212,8 @@ export function RoomPage({
       </header>
 
       {state.phase === "lobby" && <Lobby state={state} isHost={isHost} send={send} />}
-      {state.kind === "dive" && state.phase === "question" && <DiveQuestion state={state} send={send} events={events} reducedMotion={settings.reducedMotion} />}
-      {state.kind === "dive" && state.phase === "reveal" && <DiveReveal state={state} isHost={isHost} send={send} answers={revealAnswers} />}
+      {state.kind === "dive" && state.phase === "question" && <DiveQuestion state={state} send={send} events={events} reducedMotion={settings.reducedMotion} tiers={myTiers} onRejected={addRejected} />}
+      {state.kind === "dive" && state.phase === "reveal" && <DiveReveal state={state} isHost={isHost} send={send} answers={revealAnswers} tiers={myTiers} rejected={myRejected[state.dive?.index ?? -1] ?? []} />}
       {state.kind === "dive" && state.phase === "over" && <DiveFinale state={state} isHost={isHost} send={send} reducedMotion={settings.reducedMotion} />}
       {state.kind === "battle" && (state.phase === "turn" || state.phase === "rotate") && (
         <BattleView state={state} send={send} typing={typing} events={events} reducedMotion={settings.reducedMotion} />
@@ -269,7 +329,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                 <div className="seg">
                   {DIVE_DEFAULTS.timerOptions.map((t) => (
                     <button key={t} className={`seg-btn${s.timerSeconds === t ? " seg-btn--on" : ""}`} disabled={!isHost} onClick={() => set({ timerSeconds: t })}>
-                      {t}s
+                      {t === 60 ? "1 min" : `${t}s`}
                     </button>
                   ))}
                 </div>
@@ -343,8 +403,23 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
 // Dive
 // ---------------------------------------------------------------------------
 
-function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnapshot; send: Send; events: RoomEvent[]; reducedMotion: boolean }) {
+function DiveQuestion({
+  state,
+  send,
+  events,
+  reducedMotion,
+  tiers,
+  onRejected,
+}: {
+  state: RoomSnapshot;
+  send: Send;
+  events: RoomEvent[];
+  reducedMotion: boolean;
+  tiers: Record<number, TierPoints | null>;
+  onRejected: (index: number, guess: string) => void;
+}) {
   const d = state.dive!;
+  const lastSent = useRef("");
   const me = state.players.find((p) => p.id === state.you)!;
   const [text, setText] = useState("");
   const [timeUp, setTimeUp] = useState(false);
@@ -366,6 +441,7 @@ function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnaps
     for (const e of fresh) {
       if (e.type === "guessResult" && !e.accepted) {
         const k = e.id;
+        if (lastSent.current && e.reason !== "taken") onRejected(d.index, lastSent.current);
         if (((state.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds) > 0) setPops((p) => [...p, k]);
         setTimeout(() => setPops((p) => p.filter((x) => x !== k)), 1000);
         if (!reducedMotion) void shake.start({ x: [0, -10, 8, -6, 4, 0], transition: { duration: 0.4 } });
@@ -375,6 +451,7 @@ function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnaps
 
   const submit = () => {
     if (!text.trim() || timeUp) return;
+    lastSent.current = text.trim();
     send({ type: "guess", text: text.trim() });
     setText("");
   };
@@ -385,6 +462,7 @@ function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnaps
         <span className="game-meta">
           Question {d.index + 1} of {d.total}
         </span>
+        <ProgressDots total={d.total} current={d.index} tiers={tiers} />
       </div>
       <motion.h2 key={d.index} className="prompt" initial={reducedMotion ? false : { opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }}>
         {d.prompt}
@@ -436,7 +514,21 @@ function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnaps
   );
 }
 
-function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isHost: boolean; send: Send; answers: RevealAnswer[] }) {
+function DiveReveal({
+  state,
+  isHost,
+  send,
+  answers,
+  tiers,
+  rejected,
+}: {
+  state: RoomSnapshot;
+  isHost: boolean;
+  send: Send;
+  answers: RevealAnswer[];
+  tiers: Record<number, TierPoints | null>;
+  rejected: string[];
+}) {
   const d = state.dive!;
   const reveal = d.reveal!;
   const now = useNow();
@@ -453,6 +545,12 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
 
   return (
     <div className="dive-reveal">
+      <div className="game-header">
+        <span className="game-meta">
+          Question {d.index + 1} of {d.total}
+        </span>
+        <ProgressDots total={d.total} current={d.index} tiers={tiers} />
+      </div>
       <h2 className="prompt small-prompt">{d.prompt}</h2>
       <div className="reveal-cols">
         <div className="card">
@@ -497,6 +595,7 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
           </button>
         )}
       </div>
+      <ShouldCount key={d.index} guesses={rejected} onReport={(g) => api.reportPrompt(d.prompt, g)} />
       {answers.length > 0 && (
         <div className="answers-details">
           <h3 className="answers-heading">All {answers.length} valid answers</h3>
@@ -640,6 +739,10 @@ function BattleView({
   const out = me.eliminated || me.spectator;
   const [text, setText] = useState("");
   const [waitHint, setWaitHint] = useState(false);
+  // Your wrong guesses on this prompt, for "this should count".
+  const [wrong, setWrong] = useState<string[]>([]);
+  const lastSent = useRef("");
+  useEffect(() => setWrong([]), [b.prompt]);
   const lastTypingSent = useRef(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const shake = useAnimationControls();
@@ -659,6 +762,10 @@ function BattleView({
     const fresh = events.filter((e) => e.id > lastSeen.current);
     if (!fresh.length) return;
     lastSeen.current = fresh[fresh.length - 1].id;
+    if (fresh.some((e) => e.type === "guessResult" && !e.accepted && e.reason !== "taken") && lastSent.current) {
+      const g = lastSent.current;
+      setWrong((w) => (w.includes(g) ? w : [...w, g]));
+    }
     if (fresh.some((e) => e.type === "guessResult" && !e.accepted) && !reducedMotion) {
       void shake.start({ x: [0, -10, 8, -6, 4, 0], transition: { duration: 0.4 } });
     }
@@ -679,6 +786,7 @@ function BattleView({
     const guess = text.trim();
     if (!guess) return;
     if (!myTurn && !out) return setWaitHint(true);
+    lastSent.current = guess;
     send({ type: "guess", text: guess });
     setText("");
     if (myTurn) send({ type: "typing", text: "" });
@@ -751,6 +859,7 @@ function BattleView({
                 </li>
               ))}
             </ul>
+            <ShouldCount key={b.prompt} guesses={wrong} onReport={(g) => api.reportPrompt(b.prompt, g)} />
           </div>
         </div>
         <aside className="battle-side">

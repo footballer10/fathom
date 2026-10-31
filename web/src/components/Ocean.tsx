@@ -55,8 +55,7 @@ export function Ocean({ depth }: { depth: MotionValue<number> }) {
       <motion.div className="ocean-gradient" style={{ background }} />
       <motion.div className="light-rays" style={{ opacity: rays }} />
 
-      <DepthRuler depth={depth} />
-      <Diver depth={depth} />
+      <SpeedStreaks depth={depth} />
 
       <motion.div className="creature-layer" style={{ opacity: fish, y: fishY }}>
         <FishSchool className="fish-school fish-school--a" />
@@ -82,28 +81,20 @@ export function Ocean({ depth }: { depth: MotionValue<number> }) {
   );
 }
 
-/** Pixels of screen per meter of depth for the scrolling markers. */
+/** Pixels of screen per meter of depth, for how fast the streaks scroll. */
 const PX_PER_M = 0.6;
-const MARK_EVERY = 100;
-const LABELS = 14;
 
-/**
- * Depth markers that scroll up past you as you sink (a line every 100 m, a
- * label every 500 m), plus speed streaks that only show while you're moving.
- */
-function DepthRuler({ depth }: { depth: MotionValue<number> }) {
-  const lines = useRef<HTMLDivElement>(null);
+/** Streaks of water rushing past, visible only while you're actually sinking (or rising). */
+function SpeedStreaks({ depth }: { depth: MotionValue<number> }) {
   const streakEls = useRef<(HTMLSpanElement | null)[]>([]);
   const streakSeeds = useRef(
     Array.from({ length: 36 }, () => ({ x: Math.random() * 100, y: Math.random(), speed: 1.6 + Math.random() * 1.8, len: 30 + Math.random() * 70 })),
   ).current;
-  const labels = useRef<(HTMLSpanElement | null)[]>([]);
   const speed = useVelocity(depth);
   const streakOpacity = useTransform(speed, [-2500, -300, 0, 300, 2500], [0.9, 0.15, 0, 0.15, 0.9]);
 
   const draw = (d: number) => {
     const offset = d * PX_PER_M;
-    if (lines.current) lines.current.style.backgroundPositionY = `${-offset}px`;
     const h = window.innerHeight + 200;
     streakEls.current.forEach((el, i) => {
       if (!el) return;
@@ -111,72 +102,21 @@ function DepthRuler({ depth }: { depth: MotionValue<number> }) {
       const y = (((sd.y * h - offset * sd.speed) % h) + h) % h - 100;
       el.style.transform = `translateY(${y}px)`;
     });
-    // Labels every 500 m, positioned relative to the middle of the screen.
-    const mid = window.innerHeight / 2;
-    const first = Math.floor((d - mid / PX_PER_M) / 500) * 500;
-    labels.current.forEach((el, i) => {
-      if (!el) return;
-      const m = first + i * 500;
-      const y = mid + (m - d) * PX_PER_M;
-      const show = m > 0 && y > -40 && y < window.innerHeight + 40;
-      el.style.transform = `translateY(${y}px)`;
-      el.style.opacity = show ? "1" : "0";
-      if (show) el.textContent = `${m.toLocaleString()} m`;
-    });
   };
   useMotionValueEvent(depth, "change", draw);
-  useEffect(() => {
-    draw(depth.get());
-    const onResize = () => draw(depth.get());
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  useEffect(() => draw(depth.get()), []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="depth-ruler">
-      <div ref={lines} className="depth-ruler-lines" style={{ backgroundSize: `100% ${MARK_EVERY * PX_PER_M}px` }} />
-      <motion.div className="depth-streaks" style={{ opacity: streakOpacity }}>
-        {streakSeeds.map((sd, i) => (
-          <span
-            key={i}
-            ref={(el) => {
-              streakEls.current[i] = el;
-            }}
-            style={{ left: `${sd.x}%`, height: sd.len }}
-          />
-        ))}
-      </motion.div>
-      {Array.from({ length: LABELS }, (_, i) => (
-        <span key={i} ref={(el) => {
-            labels.current[i] = el;
-          }} className="depth-ruler-label" />
+    <motion.div className="depth-streaks" style={{ opacity: streakOpacity }}>
+      {streakSeeds.map((sd, i) => (
+        <span
+          key={i}
+          ref={(el) => {
+            streakEls.current[i] = el;
+          }}
+          style={{ left: `${sd.x}%`, height: sd.len }}
+        />
       ))}
-    </div>
-  );
-}
-
-/** You: a little diver who tips head-down and kicks while sinking, then levels out. */
-function Diver({ depth }: { depth: MotionValue<number> }) {
-  const speed = useVelocity(depth);
-  const rotate = useTransform(speed, [-1500, 0, 1500], [-40, 0, 70]);
-  const kick = useRef<SVGGElement>(null);
-  useMotionValueEvent(speed, "change", (v) => kick.current?.classList.toggle("diver-kick--on", Math.abs(v) > 120));
-  return (
-    <motion.div className="diver" style={{ rotate }}>
-      <svg viewBox="-40 -30 80 60" width="96" height="72">
-        <g ref={kick} className="diver-kick">
-          <path d="M-22 4 L-38 -2 L-36 8 Z" fill="#ffcf4d" />
-          <path d="M-22 -2 L-38 -10 L-37 0 Z" fill="#ffb92e" />
-        </g>
-        <rect x="-24" y="-6" width="36" height="12" rx="6" fill="#163a5c" />
-        <rect x="-14" y="-13" width="18" height="8" rx="3" fill="#ffcf4d" stroke="#8a5a00" strokeWidth="1" />
-        <circle cx="18" cy="0" r="9" fill="#f2c8a0" />
-        <rect x="14" y="-6" width="12" height="7" rx="3" fill="#7fe6ff" stroke="#0b3b5c" strokeWidth="1.5" />
-        <path d="M4 5 L14 14" stroke="#163a5c" strokeWidth="4" strokeLinecap="round" />
-        <circle className="diver-bubble" cx="28" cy="-10" r="2.2" fill="none" stroke="#dff7ff" strokeWidth="1" />
-        <circle className="diver-bubble diver-bubble--2" cx="30" cy="-16" r="1.6" fill="none" stroke="#dff7ff" strokeWidth="1" />
-      </svg>
     </motion.div>
   );
 }

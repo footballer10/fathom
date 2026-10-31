@@ -11,6 +11,8 @@ export interface PlayerStats {
   /** Count of answers per tier (key = tier points, "miss" = timed out). */
   histogram: Record<string, number>;
   recent: { date: string; points: number }[];
+  /** Unlimited: dives finished, prompts answered correctly, deepest dive, prompts seen so far. */
+  unlimited: { dives: number; answered: number; bestDepth: number; seen: number };
 }
 
 /** Daily streaks and stats for one player, computed from daily_results. */
@@ -35,6 +37,17 @@ export async function playerStats(env: Env, playerId: string, now: number): Prom
   const current = prev === date || prev === addDays(date, -1) ? run : 0;
   const total = results.reduce((n, r) => n + r.points, 0);
 
+  const [dives, seen] = await env.DB.batch([
+    env.DB.prepare(
+      `SELECT COUNT(*) AS dives, COALESCE(SUM(answered), 0) AS answered, COALESCE(MAX(points), 0) AS best FROM (
+         SELECT s.id, SUM(pl.answer_id IS NOT NULL) AS answered, SUM(pl.points) AS points
+         FROM sessions s JOIN plays pl ON pl.session_id = s.id
+         WHERE s.player_id = ? AND s.mode = 'unlimited' AND s.finished = 1 GROUP BY s.id)`,
+    ).bind(playerId),
+    env.DB.prepare("SELECT COUNT(*) AS n FROM seen WHERE player_id = ?").bind(playerId),
+  ]);
+  const u = (dives.results[0] ?? {}) as { dives?: number; answered?: number; best?: number };
+
   return {
     played: results.length,
     currentStreak: current,
@@ -43,5 +56,11 @@ export async function playerStats(env: Env, playerId: string, now: number): Prom
     bestDepth: results.length ? pointsToDepth(Math.max(...results.map((r) => r.points))) : 0,
     histogram,
     recent: results.slice(-14).map((r) => ({ date: r.date, points: r.points })),
+    unlimited: {
+      dives: u.dives ?? 0,
+      answered: u.answered ?? 0,
+      bestDepth: pointsToDepth(u.best ?? 0),
+      seen: (seen.results[0] as { n?: number } | undefined)?.n ?? 0,
+    },
   };
 }

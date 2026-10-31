@@ -32,7 +32,7 @@ export function PartyHome() {
     <div className="party-home">
       <h1 className="title">Party</h1>
       <p className="tagline">Play live with friends. One person creates a room and shares the code.</p>
-      <div className="mode-cards">
+      <div className="mode-cards mode-cards--two">
         <div className="card mode-card">
           <div className="mode-card-head">
             <h3>Dive</h3>

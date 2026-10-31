@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import { APP_NAME, pointsToDepth } from "@fathom/shared";
 import type { Category, FinishResponse, GameMode } from "@fathom/shared";
 import { DepthGauge, DepthPill } from "./components/DepthGauge";
+import type { GaugeDiver } from "./components/DepthGauge";
 import { EndScreen } from "./components/EndScreen";
 import { Game } from "./components/Game";
 import { Home } from "./components/Home";
@@ -33,6 +34,7 @@ export function App() {
   const route = useRoute();
   const [welcome, setWelcome] = useState(shouldWelcome);
   const [inBattle, setInBattle] = useState(false);
+  const [partyDivers, setPartyDivers] = useState<GaugeDiver[]>([]);
   const roomCode = /^\/room\/([A-Za-z]{4})$/.exec(route)?.[1]?.toUpperCase();
   // One animated depth value drives the background, creatures, particles and gauge.
   const depth = useMotionValue(0);
@@ -84,7 +86,7 @@ export function App() {
     <MotionConfig reducedMotion={settings.reducedMotion ? "always" : "never"}>
       <Ocean depth={depth} />
       <Particles depth={depth} enabled={settings.particles && !settings.reducedMotion} />
-      {!inBattle && <DepthGauge depth={depth} />}
+      {!inBattle && <DepthGauge depth={depth} others={roomCode ? partyDivers : []} />}
 
       <div className="topbar">
         <div className="topbar-left">
@@ -108,7 +110,7 @@ export function App() {
 
       <main className="column">
         {roomCode ? (
-          <RoomPage key={roomCode} code={roomCode} onDepth={diveTo} onBattle={setInBattle} />
+          <RoomPage key={roomCode} code={roomCode} onDepth={diveTo} onBattle={setInBattle} onDivers={setPartyDivers} />
         ) : route === "/party" ? (
           <PartyHome />
         ) : route === "/friends" ? (

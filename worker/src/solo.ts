@@ -465,12 +465,25 @@ export async function finish(env: Env, playerId: string, id: string, now: number
   };
 }
 
-export async function report(env: Env, playerId: string, body: { sessionId?: string; index?: number; guess?: string }, now: number) {
+/**
+ * "This should count": from a solo dive (session + question index) or from a
+ * party game (by the prompt's exact text, since party rooms have no session).
+ */
+export async function report(env: Env, playerId: string, body: { sessionId?: string; index?: number; prompt?: string; guess?: string }, now: number) {
   const guessText = String(body.guess ?? "").trim().slice(0, 100);
-  if (!guessText || !body.sessionId || body.index === undefined) throw new HttpError(400, "Missing report details");
-  const s = await loadSession(env, body.sessionId, playerId);
-  const qid = (JSON.parse(s.question_ids) as string[])[body.index];
+  if (!guessText) throw new HttpError(400, "Missing report details");
+  let qid: string | undefined;
+  if (body.sessionId && body.index !== undefined) {
+    const s = await loadSession(env, body.sessionId, playerId);
+    qid = (JSON.parse(s.question_ids) as string[])[body.index];
+  } else if (body.prompt) {
+    qid = (await env.DB.prepare("SELECT id FROM questions WHERE prompt = ? ORDER BY status = 'retired' LIMIT 1").bind(String(body.prompt)).first<{ id: string }>())?.id;
+  } else {
+    throw new HttpError(400, "Missing report details");
+  }
   if (!qid) throw new HttpError(400, "No such question");
+  const recent = await env.DB.prepare("SELECT COUNT(*) AS n FROM reports WHERE player_id = ? AND created_at > ?").bind(playerId, now - 86_400_000).first<{ n: number }>();
+  if ((recent?.n ?? 0) >= 60) throw new HttpError(429, "Thanks! That's plenty of reports for today.");
   await env.DB.prepare("INSERT INTO reports (question_id, guess, player_id, created_at) VALUES (?, ?, ?, ?)")
     .bind(qid, guessText, playerId, now)
     .run();

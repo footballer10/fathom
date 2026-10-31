@@ -73,7 +73,7 @@ try {
   const lb = await call<{ boards: { id: string; rows: { nickname: string; value: number; you: boolean }[] }[] }>(players[0].id, "GET", "/api/leaderboards");
   const board = (id: string) => lb.boards.find((x) => x.id === id)!;
   const has = (id: string, name: string) => board(id).rows.some((r) => r.nickname === name);
-  checks.check("12 boards returned", lb.boards.length === 12);
+  checks.check("13 boards returned", lb.boards.length === 13);
   // A full top 10 of players tied at or above our 2 dives can push sim players off (old local test data).
   const dives = board("dives").rows;
   const crowded = dives.length >= 10 && dives[dives.length - 1].value >= 2;
