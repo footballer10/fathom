@@ -57,7 +57,10 @@ try {
       used.add(m.canonical.toLowerCase());
       // The life circle: each answer adds its tier's fill; every full circle is one life.
       const before = meters.get(m.playerId) ?? 0;
-      const fill = before + tierInfo(m.tier).battleLifeFill;
+      // Fills slower as players go out: full with 4+ left, two-thirds with 3, a third with 2.
+      const alive = 6 - eliminated.size;
+      const factor = alive >= 4 ? 1 : alive === 3 ? 2 / 3 : 1 / 3;
+      const fill = before + Math.round(tierInfo(m.tier).battleLifeFill * factor);
       if (m.livesGained !== Math.floor(fill / BATTLE_DEFAULTS.lifeMeterFull) || m.lifeMeter !== fill % BATTLE_DEFAULTS.lifeMeterFull) lifeBonusesRight = false;
       meters.set(m.playerId, m.lifeMeter);
       lifeBonuses += m.livesGained;
@@ -80,7 +83,8 @@ try {
       prompt = turn.prompt;
       const n = turnsTaken.get(bot.playerId) ?? 0;
       turnsTaken.set(bot.playerId, n + 1);
-      if (rotations === 0 && turn.seconds !== BASE) turnsAlwaysBase = false;
+      // No bonus time ever; the clock only gets shorter (speed-up and eliminations).
+      if (turn.seconds > BASE) turnsAlwaysBase = false;
 
       if (n >= QUOTA[i]) {
         lastAccepted.set(bot.playerId, false);
@@ -123,7 +127,7 @@ try {
 
   checks.check("live typing reached other players", sawTyping);
   checks.check('"Already taken" was announced', sawTaken);
-  checks.check("every turn gets the base time (no bonus time)", turnsAlwaysBase);
+  checks.check("turns never get bonus time (the clock only tightens)", turnsAlwaysBase);
   checks.check("prompt rotated at least once", rotations >= 1, `${rotations} rotation(s)`);
   checks.check("speed-up lowered the base time", baseAfterRotate < BASE, `base now ${baseAfterRotate}s`);
   checks.check("eliminated players became spectators who can still guess", sawSpectatorGuess);

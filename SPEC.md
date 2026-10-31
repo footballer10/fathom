@@ -169,14 +169,17 @@ Same lobby and code system as Dive. Max 12 players.
 - Running out of time on your turn costs 1 life.
 - Each player's lives sit inside a circle that fills with every accepted answer. A full circle becomes one extra life (no cap), and any overflow carries into the next circle:
 
-  | Tier | Circle filled |
+  | Tier | Circle filled (4+ players left) |
   |---|---|
-  | One in a Krillion | a full circle |
-  | Deep Cut | 1/2 |
-  | Rare | 1/4 |
-  | Schooler | 1/8 |
-  | Too Clever | 1/16 |
-  | Plankton | 1/32 |
+  | One in a Krillion | 12/32 |
+  | Deep Cut | 6/32 |
+  | Rare | 3/32 |
+  | Schooler | 1/32 |
+  | Too Clever | 1/32 |
+  | Plankton | nothing |
+
+  The circle fills at two-thirds that rate with 3 players left and a third head-to-head, so small games end.
+- Each elimination takes 1s off the base time (min 4s), and with two players left every new prompt takes off another second.
 
 - At 0 lives you're eliminated. Eliminated players become spectators and can still type guesses for fun; these are unscored and shown in a side panel.
 

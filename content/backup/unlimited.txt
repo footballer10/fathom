@@ -1,4 +1,4 @@
-# Unlimited and reserve questions (412), exported 2026-10-30 by npm run backup
+# Unlimited and reserve questions (412), exported 2026-10-31 by npm run backup
 
 # QUESTION
 id: q0001
@@ -2077,7 +2077,7 @@ Archery
 id: q0010
 pool: reserve
 category: animals
-prompt: Name a marine mammal (like a whale or seal)
+prompt: Name a marine mammal
 note: Mammals that live in the sea: whales, dolphins, porpoises, seals, sea lions, walruses, manatees, dugongs, sea otters and polar bears. River-only species don't count.
 
 [One in a Krillion]
@@ -25923,7 +25923,7 @@ Met Gala
 id: q0085
 pool: unlimited
 category: music
-prompt: Name a musical term (like tempo or crescendo)
+prompt: Name a musical term
 note: Words used in music theory, notation, or performance.
 
 [One in a Krillion]
@@ -28146,7 +28146,7 @@ iPod
 id: q0093
 pool: unlimited
 category: jobs-people
-prompt: Name a family member or relative (like aunt or cousin)
+prompt: Name a family member or relative
 
 [One in a Krillion]
 Great-great-grandmother | great great grandmother | great-great-grandma
@@ -32118,7 +32118,7 @@ Blood
 id: q0105
 pool: unlimited
 category: vehicles
-prompt: Name a car model (like Mustang or Civic)
+prompt: Name a car model
 note: Model names, with or without the brand ("Ford Mustang" or "Mustang").
 
 [One in a Krillion]
@@ -34127,7 +34127,7 @@ Sherlock Holmes
 id: q0113
 pool: unlimited
 category: jobs-people
-prompt: Name a title you put before a name (like Mr. or Dr.)
+prompt: Name a title you put before a name
 
 [One in a Krillion]
 Esquire | esq
@@ -35313,7 +35313,7 @@ Pencil
 id: q0118
 pool: unlimited
 category: brands
-prompt: Name a brand mascot (like Tony the Tiger)
+prompt: Name a brand mascot
 
 [One in a Krillion]
 Mr. Peanut | mr peanut | planters man
@@ -38827,7 +38827,7 @@ Fire Flower
 id: q0134
 pool: unlimited
 category: games-toys
-prompt: Name a party game or outdoor game (like tag)
+prompt: Name a party game or outdoor game
 
 [One in a Krillion]
 Sardines
@@ -40860,7 +40860,7 @@ Eggs
 id: q0141
 pool: unlimited
 category: history
-prompt: Name an English, Scottish or British monarch (like Henry VIII)
+prompt: Name an English, Scottish or British monarch
 note: Kings and queens regnant of England (from Athelstan), Scotland (from Kenneth MacAlpin) and Great Britain/the UK. Consorts and legendary kings don't count.
 
 [One in a Krillion]
@@ -41604,7 +41604,7 @@ Jack
 id: q0144
 pool: unlimited
 category: jobs-people
-prompt: Name a term of endearment (like honey or sweetie)
+prompt: Name a term of endearment
 
 [One in a Krillion]
 Snookums
@@ -43766,7 +43766,7 @@ Slam
 id: q0255
 pool: unlimited
 category: food
-prompt: Name a dumpling from any cuisine (like pierogi or gyoza)
+prompt: Name a dumpling from any cuisine
 note: Filled-dough and dough-ball dishes commonly called dumplings count, including filled pasta (ravioli), gnocchi and fried pockets like samosas and empanadas.
 
 [One in a Krillion]
@@ -43947,7 +43947,7 @@ Bagel
 id: q0256
 pool: unlimited
 category: food
-prompt: Name a grain or cereal grain (like quinoa or barley)
+prompt: Name a grain or cereal grain
 note: True cereals, pseudocereals (quinoa, buckwheat, amaranth, chia), named varieties (basmati, durum, popcorn) and whole-grain forms (bulgur, freekeh, farro) all count.
 
 [One in a Krillion]
@@ -44954,7 +44954,7 @@ Auroch
 id: q0265
 pool: unlimited
 category: sports
-prompt: Name a gymnastics or figure skating term (like axel)
+prompt: Name a gymnastics or figure skating term
 note: Skills, elements, apparatus, positions and scoring terms from artistic, rhythmic and trampoline gymnastics or figure skating. Named skills count.
 
 [One in a Krillion]
@@ -45819,7 +45819,7 @@ Pillbug
 id: q0272
 pool: unlimited
 category: animals
-prompt: Name a word for a male or female animal (like ram or doe)
+prompt: Name a word for a male or female animal
 note: Any sex-specific animal word counts, including castrated males (steer, gelding) and young sexed animals (filly, colt, heifer). Baby words without a sex (calf, cub) do not.
 
 [One in a Krillion]
@@ -46471,7 +46471,7 @@ Roomba
 id: q0280
 pool: unlimited
 category: everyday-objects
-prompt: Name a knot (like a square knot)
+prompt: Name a knot
 note: Any named knot, hitch, bend, loop, lashing or splice used in sailing, climbing, fishing, scouting or crafts counts, plus well-known tie knots.
 
 [One in a Krillion]
@@ -47487,7 +47487,7 @@ Bike
 id: q0288
 pool: unlimited
 category: words-language
-prompt: Name an onomatopoeia (like buzz or boom)
+prompt: Name an onomatopoeia
 note: Any dictionary word that imitates the sound it names counts, including animal sounds, comic-book sounds and common spellings like "achoo" or "kaboom".
 
 [One in a Krillion]
@@ -50534,7 +50534,7 @@ Snap
 id: q0312
 pool: unlimited
 category: geography
-prompt: Name a former country or old country name (like Prussia)
+prompt: Name a former country or old country name
 note: Any sovereign state or empire that no longer exists, or a former official or common name of a current country (Ceylon, Siam, Persia), counts. Fictional countries don't.
 
 [One in a Krillion]
@@ -51692,7 +51692,7 @@ Ulcer
 id: q0321
 pool: unlimited
 category: body-health
-prompt: Name a type of injury (like a sprain)
+prompt: Name a type of injury
 note: Any kind of physical injury counts: breaks (a broken bone or fracture of any named bone), sprains, tears, wounds, burns, sports injuries and named injuries (tennis elbow, ACL tear).
 
 [One in a Krillion]
@@ -52305,7 +52305,7 @@ Haiku
 id: q0325
 pool: unlimited
 category: science
-prompt: Name an alloy (like bronze)
+prompt: Name an alloy
 note: Any named metal alloy counts, including types of steel, bronze, brass, solder, amalgam and precious-metal alloys (sterling silver, white gold).
 
 [One in a Krillion]
@@ -53263,7 +53263,7 @@ Wheel
 id: q0338
 pool: unlimited
 category: jobs-people
-prompt: Name a job title ending in "-ist" (like florist)
+prompt: Name a job title ending in "-ist"
 note: Any real job or profession whose title ends in -ist counts, including musicians (pianist), medical specialists (dentist, cardiologist) and any -ologist field scientist. Barista and hobbies like tourist don't.
 
 [One in a Krillion]
@@ -54435,7 +54435,7 @@ Master Shifu
 id: q0346
 pool: unlimited
 category: geography
-prompt: Name a geography or map term (like latitude)
+prompt: Name a geography or map term
 note: Any term used in geography, cartography or maps counts: lines and coordinates, map parts and projections, landforms and bodies of water, and core human-geography vocabulary.
 
 [One in a Krillion]
@@ -54672,7 +54672,7 @@ Uber
 id: q0347
 pool: unlimited
 category: nature
-prompt: Name a biome or habitat (like tundra)
+prompt: Name a biome or habitat
 note: Any named biome, ecosystem or habitat type counts, on land or in water, by common or scientific name (taiga, chaparral, coral reef, kelp forest).
 
 [One in a Krillion]
@@ -55339,7 +55339,7 @@ Heart
 id: q0369
 pool: unlimited
 category: body-health
-prompt: Name an infectious disease (like the flu)
+prompt: Name an infectious disease
 note: Illnesses caused by viruses, bacteria, fungi or parasites that can spread.
 
 [One in a Krillion]
@@ -55464,7 +55464,7 @@ Heart disease
 id: q0370
 pool: unlimited
 category: body-health
-prompt: Name something your body does on its own (like sneezing)
+prompt: Name something your body does on its own
 note: Reflexes and automatic body processes. Things you can also do on purpose (breathing, blinking) still count.
 
 [One in a Krillion]
@@ -55565,7 +55565,7 @@ Eating
 id: q0371
 pool: unlimited
 category: vehicles
-prompt: Name a car brand or model named after an animal (like the Mustang)
+prompt: Name a car brand or model named after an animal
 note: Cars, trucks and SUVs whose name is an animal or animal word (including Lamborghinis named after famous bulls). Mythical creatures don't count.
 
 [One in a Krillion]
@@ -55656,7 +55656,7 @@ Peugeot
 id: q0372
 pool: unlimited
 category: vehicles
-prompt: Name a word for a type of road (like avenue or highway)
+prompt: Name a word for a type of road
 note: English words for roads and streets. Common foreign street words (rue, calle, autobahn) count.
 
 [One in a Krillion]
@@ -56236,7 +56236,7 @@ Pokemon
 id: q0377
 pool: unlimited
 category: games-toys
-prompt: Name a type of puzzle (like a jigsaw puzzle)
+prompt: Name a type of puzzle
 note: Puzzle types and well-known puzzle games or toys.
 
 [One in a Krillion]
@@ -56480,7 +56480,7 @@ Refrigerator
 id: q0379
 pool: unlimited
 category: everyday-objects
-prompt: Name a type of bed or a piece of bedding (like a quilt)
+prompt: Name a type of bed or a piece of bedding
 note: Kinds of beds and bed sizes, plus the pillows, sheets, covers and pads that go on a bed.
 
 [One in a Krillion]
@@ -56594,7 +56594,7 @@ Stuffed animal
 id: q0380
 pool: unlimited
 category: history
-prompt: Name a period or era in history (like the Renaissance)
+prompt: Name a period or era in history
 note: Named periods of human history from any part of the world. Geologic periods like the Jurassic don't count.
 
 [One in a Krillion]
@@ -56711,7 +56711,7 @@ Mesozoic
 id: q0381
 pool: unlimited
 category: history
-prompt: Name a revolution from history (like the French Revolution)
+prompt: Name a revolution from history
 note: Political, social and technological revolutions. Wars of independence that are commonly called revolutions count.
 
 [One in a Krillion]
@@ -56938,7 +56938,7 @@ Santa
 id: q0383
 pool: unlimited
 category: animals
-prompt: Name an extinct mammal or bird (like the dodo)
+prompt: Name an extinct mammal or bird
 note: Species that died out, prehistoric or recent. Dinosaurs, reptiles, sharks and mythical animals don't count.
 
 [One in a Krillion]
@@ -57182,7 +57182,7 @@ Elephant
 id: q0385
 pool: unlimited
 category: sports
-prompt: Name a penalty, foul, or violation in any sport (like offside)
+prompt: Name a penalty, foul, or violation in any sport
 note: Rule-breaking calls from any sport, plus the card or penalty they lead to.
 
 [One in a Krillion]
@@ -57342,7 +57342,7 @@ Home run
 id: q0386
 pool: unlimited
 category: sports
-prompt: Name a water sport or water activity (like surfing)
+prompt: Name a water sport or water activity
 note: Sports and pastimes done in, on or under the water.
 
 [One in a Krillion]
@@ -57577,7 +57577,7 @@ Quesadilla
 id: q0388
 pool: unlimited
 category: words-language
-prompt: Name a texting abbreviation or acronym (like LOL)
+prompt: Name a texting abbreviation or acronym
 note: Shorthand used in texts and online chat. Any common expansion is fine as long as the abbreviation is real.
 
 [One in a Krillion]
@@ -57962,7 +57962,7 @@ Navy
 id: q0391
 pool: unlimited
 category: sports
-prompt: Name a volleyball term (like spike)
+prompt: Name a volleyball term
 note: Skills, positions, plays, court lines, scoring and rule terms from indoor or beach volleyball.
 
 [One in a Krillion]
@@ -58074,7 +58074,7 @@ Goal
 id: q0392
 pool: unlimited
 category: sports
-prompt: Name a boxing, wrestling, or MMA term (like knockout)
+prompt: Name a boxing, wrestling, or MMA term
 note: Moves, holds, results, gear, weight classes and lingo from boxing, amateur or pro wrestling, and MMA.
 
 [One in a Krillion]
@@ -58264,7 +58264,7 @@ Home run
 id: q0393
 pool: unlimited
 category: vehicles
-prompt: Name a car racing term (like pit stop)
+prompt: Name a car racing term
 note: Racing words from NASCAR, Formula 1, IndyCar, drag racing, rallying and drifting.
 
 [One in a Krillion]
@@ -58398,7 +58398,7 @@ Offside
 id: q0394
 pool: unlimited
 category: vehicles
-prompt: Name a famous auto race or racing series (like NASCAR)
+prompt: Name a famous auto race or racing series
 note: Car, motorcycle and kart racing series, famous single races and Grand Prix events. Horse, dog and bike races don't count.
 
 [One in a Krillion]
@@ -59505,7 +59505,7 @@ Jiffy Lube
 id: q0402
 pool: unlimited
 category: words-language
-prompt: Name a grammar term or part of speech (like noun)
+prompt: Name a grammar term or part of speech
 note: Parts of speech, sentence parts, tenses, punctuation and other terms from English class grammar lessons.
 
 [One in a Krillion]
@@ -59681,7 +59681,7 @@ Alliteration
 id: q0403
 pool: unlimited
 category: words-language
-prompt: Name a type or form of poem (like a haiku)
+prompt: Name a type or form of poem
 note: Poetic forms and kinds of poems taught in school or used by poets.
 
 [One in a Krillion]
@@ -59814,7 +59814,7 @@ Essay
 id: q0404
 pool: unlimited
 category: words-language
-prompt: Name a word that ends in "-sis" (like crisis)
+prompt: Name a word that ends in "-sis"
 note: Real English words whose last three letters are S-I-S, including science and medical terms.
 
 [One in a Krillion]
@@ -59964,7 +59964,7 @@ Basics
 id: q0405
 pool: unlimited
 category: science
-prompt: Name a gas (like oxygen or helium)
+prompt: Name a gas
 note: Substances that are gases at room temperature, plus common gas mixtures and steam. Liquids like gasoline don't count.
 
 [One in a Krillion]
@@ -60074,7 +60074,7 @@ Mercury
 id: q0406
 pool: unlimited
 category: science
-prompt: Name a term from genetics or heredity (like DNA)
+prompt: Name a term from genetics or heredity
 note: Terms from high school and intro college genetics, including DNA bases, genetic disorders and famous geneticists.
 
 [One in a Krillion]
@@ -60334,7 +60334,7 @@ Rio
 id: q0408
 pool: unlimited
 category: movies-tv
-prompt: Name a horror movie villain or monster (like Freddy Krueger)
+prompt: Name a horror movie villain or monster
 note: Killers, monsters and creatures from horror movies, including classic monsters and generic horror monsters like zombies.
 
 [One in a Krillion]
@@ -60468,7 +60468,7 @@ Thanos
 id: q0409
 pool: unlimited
 category: movies-tv
-prompt: Name a Batman ally or villain (like Robin or the Joker)
+prompt: Name a Batman ally or villain
 note: Characters from Batman comics, movies, shows and games, including Batman himself and his secret identities.
 
 [One in a Krillion]
@@ -61001,7 +61001,7 @@ Kraken
 id: q0413
 pool: unlimited
 category: jobs-people
-prompt: Name a kind of performer or entertainer (like a juggler)
+prompt: Name a kind of performer or entertainer
 note: People who perform for an audience on stage, screen, street, circus or online.
 
 [One in a Krillion]
@@ -61425,7 +61425,7 @@ Dumplings
 id: q0416
 pool: unlimited
 category: food
-prompt: Name a kind of cookie (like a snickerdoodle)
+prompt: Name a kind of cookie
 note: Kinds of cookies and biscuits from anywhere, plus famous cookie brands people name as a kind.
 
 [One in a Krillion]
@@ -62011,7 +62011,7 @@ Amazon
 id: q0420
 pool: unlimited
 category: words-language
-prompt: Name a word for a group of people (like team or crew)
+prompt: Name a word for a group of people
 note: Nouns for a group of people. Words that only mean a group of animals or things don't count.
 
 [One in a Krillion]
@@ -62302,7 +62302,7 @@ Fasting
 id: q0422
 pool: unlimited
 category: science
-prompt: Name a physics term (like velocity or gravity)
+prompt: Name a physics term
 note: Terms, quantities, laws and units from high school and intro college physics.
 
 [One in a Krillion]
@@ -62504,7 +62504,7 @@ Algebra
 id: q0423
 pool: unlimited
 category: science
-prompt: Name a chemistry term (like atom or molecule)
+prompt: Name a chemistry term
 note: Terms, laws, units and lab words from high school and intro college chemistry.
 
 [One in a Krillion]
@@ -62734,7 +62734,7 @@ Velocity
 id: q0424
 pool: unlimited
 category: movies-tv
-prompt: Name a superhero's secret identity (like Peter Parker)
+prompt: Name a superhero's secret identity
 note: The everyday names of Marvel and DC superheroes, plus other famous heroes. Any well-known civilian name works.
 
 [One in a Krillion]
@@ -62896,7 +62896,7 @@ Hulk
 id: q0425
 pool: unlimited
 category: movies-tv
-prompt: Name a TV channel or network (like ESPN)
+prompt: Name a TV channel or network
 note: US and well-known international TV channels and networks, broadcast or cable. Streaming-only services don't count.
 
 [One in a Krillion]
@@ -63060,7 +63060,7 @@ Peacock
 id: q0426
 pool: unlimited
 category: movies-tv
-prompt: Name a movie genre (like comedy or horror)
+prompt: Name a movie genre
 note: Movie genres and well-known subgenres.
 
 [One in a Krillion]
@@ -63985,7 +63985,7 @@ Korean War
 id: q0432
 pool: unlimited
 category: jobs-people
-prompt: Name someone you'd find at a wedding (like the bride)
+prompt: Name someone you'd find at a wedding
 note: People in the wedding party, family, guests and the workers at a wedding.
 
 [One in a Krillion]
@@ -64227,7 +64227,7 @@ Pilot
 id: q0434
 pool: unlimited
 category: everyday-objects
-prompt: Name something that comes in a pair (like socks)
+prompt: Name something that comes in a pair
 note: Everyday objects you usually buy, use or wear as a pair. Body parts don't count.
 
 [One in a Krillion]
@@ -64514,7 +64514,7 @@ Ticket booth
 id: q0436
 pool: unlimited
 category: games-toys
-prompt: Name a video game genre (like a platformer)
+prompt: Name a video game genre
 note: Genres and subgenres of video games.
 
 [One in a Krillion]
@@ -64649,7 +64649,7 @@ Nintendo
 id: q0437
 pool: unlimited
 category: body-health
-prompt: Name a medical device or piece of medical equipment (like crutches)
+prompt: Name a medical device or piece of medical equipment
 note: Equipment doctors and nurses use, plus devices and aids patients use.
 
 [One in a Krillion]
@@ -66119,7 +66119,7 @@ Stressed Out
 id: q0447
 pool: unlimited
 category: history
-prompt: Name a queen or empress from history (like Cleopatra)
+prompt: Name a queen or empress from history
 note: Real queens and empresses, ruling or consort, from any era up to today. Princesses and fictional queens don't count.
 
 [One in a Krillion]
@@ -66437,7 +66437,7 @@ Nelson Mandela
 id: q0449
 pool: unlimited
 category: history
-prompt: Name a mythical or legendary creature (like a dragon)
+prompt: Name a mythical or legendary creature
 note: Creatures from myths, folklore, legends and cryptid stories around the world. Characters invented for modern books, movies and games don't count.
 
 [One in a Krillion]
@@ -66632,7 +66632,7 @@ Hippo
 id: q0450
 pool: unlimited
 category: history
-prompt: Name a holiday (like Thanksgiving)
+prompt: Name a holiday
 note: Holidays and holy days from any country or religion. Unofficial "National ___ Day" food days don't count, but well-known fun days like Pi Day do.
 
 [One in a Krillion]
@@ -66823,7 +66823,7 @@ Vacation
 id: q0451
 pool: unlimited
 category: jobs-people
-prompt: Name a job at a sports game other than athlete (like referee)
+prompt: Name a job at a sports game other than athlete
 note: People who work at or for a sports game, on the field, on the sidelines, in the stands or in the booth.
 
 [One in a Krillion]
@@ -66965,7 +66965,7 @@ Pitcher
 id: q0452
 pool: unlimited
 category: jobs-people
-prompt: Name a job or title from the Middle Ages (like knight)
+prompt: Name a job or title from the Middle Ages
 note: Jobs, ranks and titles people held in the Middle Ages (about 500 to 1500), mostly in Europe.
 
 [One in a Krillion]
@@ -67810,7 +67810,7 @@ Apex Legends
 id: q0458
 pool: unlimited
 category: games-toys
-prompt: Name a toy brand or toy line (like LEGO)
+prompt: Name a toy brand or toy line
 note: Toy companies and well-known toy lines, from classic to current. Board game titles don't count.
 
 [One in a Krillion]
@@ -68262,7 +68262,7 @@ Coral
 id: q0461
 pool: unlimited
 category: nature
-prompt: Name a natural resource (like coal or timber)
+prompt: Name a natural resource
 note: Materials and energy sources found in nature that people use: minerals, metals, fuels, water, soil, plants and animals.
 
 [One in a Krillion]
@@ -68888,7 +68888,7 @@ Bora Bora
 id: q0465
 pool: unlimited
 category: jobs-people
-prompt: Name a job on a farm or ranch (like a rancher)
+prompt: Name a job on a farm or ranch
 note: Any role in farming, ranching or raising animals or crops.
 
 [One in a Krillion]
@@ -69457,7 +69457,7 @@ Remus
 id: q0469
 pool: unlimited
 category: history
-prompt: Name a real pirate or privateer from history (like Blackbeard)
+prompt: Name a real pirate or privateer from history
 note: Real people only; fictional pirates don't count.
 
 [One in a Krillion]
@@ -69666,7 +69666,7 @@ America
 id: q0471
 pool: unlimited
 category: geography
-prompt: Name a New York City borough, neighborhood, or landmark (like Times Square)
+prompt: Name a New York City borough, neighborhood, or landmark
 note: Places inside the five boroughs: boroughs, neighborhoods, landmarks, parks, famous streets, bridges and airports.
 
 [One in a Krillion]
@@ -70281,7 +70281,7 @@ Laptop
 id: q0474
 pool: unlimited
 category: games-toys
-prompt: Name a sports video game or series (like Madden or FIFA)
+prompt: Name a sports video game or series
 note: Games about real sports, including racing, skating, golf and fighting sports.
 
 [One in a Krillion]
@@ -70431,7 +70431,7 @@ Call of Duty
 id: q0475
 pool: unlimited
 category: games-toys
-prompt: Name a word game or trivia game (like Scrabble or Wordle)
+prompt: Name a word game or trivia game
 note: Board, card, party, app and puzzle games built around words or trivia.
 
 [One in a Krillion]
@@ -70541,7 +70541,7 @@ Chess
 id: q0476
 pool: unlimited
 category: body-health
-prompt: Name a medical test or scan (like an X-ray)
+prompt: Name a medical test or scan
 note: Lab tests, scans, screenings and exams that doctors use to check health.
 
 [One in a Krillion]
@@ -70670,7 +70670,7 @@ SAT
 id: q0477
 pool: unlimited
 category: body-health
-prompt: Name something you'd see or have done at the dentist (like braces)
+prompt: Name something you'd see or have done at the dentist
 note: Tools, treatments, people, problems and parts of the mouth you'd run into at a dental visit.
 
 [One in a Krillion]
@@ -70797,7 +70797,7 @@ Cleaning | teeth cleaning | dental cleaning
 id: q0478
 pool: unlimited
 category: vehicles
-prompt: Name an all-electric car or truck model (like the Tesla Model 3)
+prompt: Name an all-electric car or truck model
 note: Battery-electric models only; hybrids and hydrogen cars don't count.
 
 [One in a Krillion]
@@ -70937,7 +70937,7 @@ Mirai
 id: q0479
 pool: unlimited
 category: vehicles
-prompt: Name a vehicle with no engine or motor (like a bicycle)
+prompt: Name a vehicle with no engine or motor
 note: Human-, animal-, wind- or gravity-powered ways to get around.
 
 [One in a Krillion]
@@ -71045,7 +71045,7 @@ Golf cart
 id: q0480
 pool: unlimited
 category: food
-prompt: Name a kind of pie (like apple pie)
+prompt: Name a kind of pie
 note: Sweet and savory pies both count.
 
 [One in a Krillion]
@@ -71614,7 +71614,7 @@ Tried
 id: q0485
 pool: unlimited
 category: science
-prompt: Name an astronomy or space term (like orbit or eclipse)
+prompt: Name an astronomy or space term
 note: Words for objects, events, motions and ideas in astronomy and spaceflight.
 
 [One in a Krillion]
@@ -71843,7 +71843,7 @@ Horoscope
 id: q0486
 pool: unlimited
 category: brands
-prompt: Name a delivery, shipping, or rideshare company (like FedEx or Uber)
+prompt: Name a delivery, shipping, or rideshare company
 note: Package carriers, freight and moving companies, food and grocery delivery, rideshare and taxi apps.
 
 [One in a Krillion]
@@ -72300,7 +72300,7 @@ Mushrooms | mushroom
 id: q0489
 pool: unlimited
 category: jobs-people
-prompt: Name an elected or government office (like mayor or senator)
+prompt: Name an elected or government office
 note: Elected offices and appointed government positions at any level, US or abroad.
 
 [One in a Krillion]
@@ -72419,7 +72419,7 @@ CEO
 id: q0490
 pool: unlimited
 category: jobs-people
-prompt: Name a job in news, radio, or TV broadcasting (like a news anchor)
+prompt: Name a job in news, radio, or TV broadcasting
 note: On-air and behind-the-scenes jobs at news outlets, radio and TV stations.
 
 [One in a Krillion]
@@ -72544,7 +72544,7 @@ Radio DJ | DJ | disc jockey | radio host
 id: q0491
 pool: unlimited
 category: jobs-people
-prompt: Name a job in a band, orchestra, or the music business (like a drummer)
+prompt: Name a job in a band, orchestra, or the music business
 note: Players, singers and the people who make, record, sell and tour music.
 
 [One in a Krillion]
@@ -72968,7 +72968,7 @@ Die for You
 id: q0494
 pool: unlimited
 category: history
-prompt: Name a dynasty or royal house from history (like the Ming or Tudors)
+prompt: Name a dynasty or royal house from history
 note: Ruling families and dynasties from anywhere in the world.
 
 [One in a Krillion]
@@ -73131,7 +73131,7 @@ Stark
 id: q0495
 pool: unlimited
 category: history
-prompt: Name a type of historical warrior or soldier (like a samurai or Viking)
+prompt: Name a type of historical warrior or soldier
 note: Named kinds of fighters from any period before today.
 
 [One in a Krillion]
@@ -73358,7 +73358,7 @@ Hollywood
 id: q0497
 pool: unlimited
 category: geography
-prompt: Name a US city's nickname (like the Big Apple)
+prompt: Name a US city's nickname
 note: Well-known nicknames for US cities, including short-form names like Philly.
 
 [One in a Krillion]
@@ -73521,7 +73521,7 @@ Chicago
 id: q0498
 pool: unlimited
 category: everyday-objects
-prompt: Name a fastener (like a button or zipper)
+prompt: Name a fastener
 note: Anything used to hold, close, join or attach things: clothing, hardware, office and household.
 
 [One in a Krillion]
@@ -73786,7 +73786,7 @@ Light bulb | lightbulb | bulb
 id: q0500
 pool: unlimited
 category: games-toys
-prompt: Name a toy fad or collectible craze (like fidget spinners)
+prompt: Name a toy fad or collectible craze
 note: Toys and collectibles that had a famous boom in popularity, any decade.
 
 [One in a Krillion]
@@ -73899,7 +73899,7 @@ Squishmallows | Squishmallow
 id: q0501
 pool: unlimited
 category: games-toys
-prompt: Name an arcade game (like Pac-Man or Skee-Ball)
+prompt: Name an arcade game
 note: Video, pinball, ticket and prize games found in arcades.
 
 [One in a Krillion]
@@ -74033,7 +74033,7 @@ Air hockey
 id: q0502
 pool: unlimited
 category: body-health
-prompt: Name a mental health condition or disorder (like anxiety)
+prompt: Name a mental health condition or disorder
 note: Conditions in psychiatry and psychology, including neurodevelopmental, eating and sleep disorders.
 
 [One in a Krillion]
@@ -74149,7 +74149,7 @@ PTSD | post-traumatic stress disorder
 id: q0503
 pool: unlimited
 category: body-health
-prompt: Name a bodily fluid or something your body makes (like sweat)
+prompt: Name a bodily fluid or something your body makes
 note: Fluids, secretions, chemicals, cells and other things the human body produces.
 
 [One in a Krillion]
@@ -74251,7 +74251,7 @@ Pee | urine
 id: q0504
 pool: unlimited
 category: vehicles
-prompt: Name a type of train or rail vehicle (like a subway)
+prompt: Name a type of train or rail vehicle
 note: Kinds of trains, rail cars and other vehicles that run on rails.
 
 [One in a Krillion]
@@ -74349,7 +74349,7 @@ Hyperloop
 id: q0505
 pool: unlimited
 category: vehicles
-prompt: Name a car feature or option (like cruise control or a sunroof)
+prompt: Name a car feature or option
 note: Features, options and add-ons in or on cars and trucks.
 
 [One in a Krillion]
@@ -74513,7 +74513,7 @@ Heated seats | seat heaters
 id: q0506
 pool: unlimited
 category: food
-prompt: Name a salad (like a Caesar salad)
+prompt: Name a salad
 note: Leafy salads, protein salads, pasta and grain salads, fruit salads and salads from cuisines around the world.
 
 [One in a Krillion]
@@ -74844,7 +74844,7 @@ Sandworm
 id: q0509
 pool: unlimited
 category: sports
-prompt: Name a sports statistic (like RBI or assists)
+prompt: Name a sports statistic
 note: Stats tracked in any sport, written out or abbreviated.
 
 [One in a Krillion]
@@ -75128,7 +75128,7 @@ Happy
 id: q0511
 pool: unlimited
 category: words-language
-prompt: Name a slang word for money (like bucks or cash)
+prompt: Name a slang word for money
 note: Slang and informal words for money, from any English-speaking country.
 
 [One in a Krillion]
@@ -75240,7 +75240,7 @@ Credit
 id: q0512
 pool: unlimited
 category: science
-prompt: Name an Earth science term (like erosion or magma)
+prompt: Name an Earth science term
 note: Geology, oceans, atmosphere, weather and climate words from Earth science class.
 
 [One in a Krillion]
@@ -75686,7 +75686,7 @@ Scooby-Doo
 id: q0515
 pool: unlimited
 category: jobs-people
-prompt: Name a job at a bank or in finance (like a teller)
+prompt: Name a job at a bank or in finance
 note: Jobs in banking, investing, accounting, insurance and other money work.
 
 [One in a Krillion]
@@ -75793,7 +75793,7 @@ Bank robber
 id: q0516
 pool: unlimited
 category: jobs-people
-prompt: Name a job in tech or the video game industry (like a programmer)
+prompt: Name a job in tech or the video game industry
 note: Jobs at software, internet, hardware and video game companies.
 
 [One in a Krillion]
@@ -76195,7 +76195,7 @@ Radio Ga Ga
 id: q0519
 pool: unlimited
 category: history
-prompt: Name a famous US document, law, or court case (like the Bill of Rights)
+prompt: Name a famous US document, law, or court case
 note: Founding documents, amendments, acts, treaties, famous speeches and Supreme Court cases.
 
 [One in a Krillion]
@@ -76362,7 +76362,7 @@ Magna Carta
 id: q0520
 pool: unlimited
 category: history
-prompt: Name a famous real ship (like the Titanic or the Mayflower)
+prompt: Name a famous real ship
 note: Real ships and submarines from history; fictional ships don't count.
 
 [One in a Krillion]
@@ -76505,7 +76505,7 @@ Argo
 id: q0521
 pool: unlimited
 category: geography
-prompt: Name a region of the United States (like the Midwest)
+prompt: Name a region of the United States
 note: Named regions, coasts, belts, valleys and areas within the US.
 
 [One in a Krillion]
@@ -76762,7 +76762,7 @@ Limo
 id: q0523
 pool: unlimited
 category: everyday-objects
-prompt: Name a baby item or piece of baby gear (like a stroller)
+prompt: Name a baby item or piece of baby gear
 note: Things you'd buy or use for a baby or toddler.
 
 [One in a Krillion]
@@ -76880,7 +76880,7 @@ Car seat
 id: q0524
 pool: unlimited
 category: games-toys
-prompt: Name a video game controller or gaming accessory (like a Joy-Con)
+prompt: Name a video game controller or gaming accessory
 note: Controllers, add-ons and gear for consoles, PCs and VR.
 
 [One in a Krillion]
@@ -76995,7 +76995,7 @@ Mouse | gaming mouse
 id: q0525
 pool: unlimited
 category: games-toys
-prompt: Name an item or power-up from the Mario games (like a mushroom)
+prompt: Name an item or power-up from the Mario games
 note: Items and power-ups from Mario platformers, Mario Kart and other Mario games.
 
 [One in a Krillion]
@@ -77098,7 +77098,7 @@ Banana | banana peel
 id: q0526
 pool: unlimited
 category: body-health
-prompt: Name a slang word for a body part (like noggin or tummy)
+prompt: Name a slang word for a body part
 note: Informal, slang and nickname words for parts of the body.
 
 [One in a Krillion]
@@ -77233,7 +77233,7 @@ Bum
 id: q0527
 pool: unlimited
 category: body-health
-prompt: Name a kind of sleep, nap, or sleep problem (like REM or insomnia)
+prompt: Name a kind of sleep, nap, or sleep problem
 note: Words for kinds of sleep and dreams, plus sleep disorders and problems.
 
 [One in a Krillion]
@@ -77726,7 +77726,7 @@ Ramen
 id: q0531
 pool: unlimited
 category: food
-prompt: Name a rice dish or type of rice (like fried rice or basmati)
+prompt: Name a rice dish or type of rice
 note: Dishes built on rice from any cuisine, plus varieties of rice.
 
 [One in a Krillion]
@@ -77847,7 +77847,7 @@ Risotto
 id: q0532
 pool: unlimited
 category: animals
-prompt: Name a bird of prey (like an eagle or owl)
+prompt: Name a bird of prey
 note: Eagles, hawks, falcons, owls, vultures, kites and other raptors, by group or species.
 
 [One in a Krillion]
@@ -77967,7 +77967,7 @@ Phoenix
 id: q0533
 pool: unlimited
 category: sports
-prompt: Name an extreme or action sport (like BMX)
+prompt: Name an extreme or action sport
 note: High-risk, adventure and action sports on land, snow, water and in the air.
 
 [One in a Krillion]
@@ -78241,7 +78241,7 @@ Bye
 id: q0535
 pool: unlimited
 category: words-language
-prompt: Name a word people say instead of swearing (like "darn" or "shoot")
+prompt: Name a word people say instead of swearing
 note: Mild substitutes and minced oaths, including phrases.
 
 [One in a Krillion]
@@ -78347,7 +78347,7 @@ Fudge
 id: q0536
 pool: unlimited
 category: science
-prompt: Name an ecology or food chain term (like predator or habitat)
+prompt: Name an ecology or food chain term
 note: Words from ecology and environmental science class.
 
 [One in a Krillion]
@@ -78513,7 +78513,7 @@ Ecosystem
 id: q0537
 pool: unlimited
 category: brands
-prompt: Name a frozen food brand (like Hot Pockets or Eggo)
+prompt: Name a frozen food brand
 note: Brands of frozen meals, pizza, snacks, vegetables, breakfast foods and frozen desserts.
 
 [One in a Krillion]
@@ -78973,7 +78973,7 @@ Passion fruit
 id: q0540
 pool: unlimited
 category: jobs-people
-prompt: Name a job in the military (like a pilot or medic)
+prompt: Name a job in the military
 note: Jobs, roles, specialties and ranks in any branch of the armed forces.
 
 [One in a Krillion]
@@ -79115,7 +79115,7 @@ General
 id: q0541
 pool: unlimited
 category: jobs-people
-prompt: Name a job in a police department, fire department, or EMS (like a paramedic)
+prompt: Name a job in a police department, fire department, or EMS
 note: Law enforcement, firefighting and emergency medical jobs and ranks.
 
 [One in a Krillion]
@@ -79348,7 +79348,7 @@ I Had Some Help
 id: q0543
 pool: unlimited
 category: history
-prompt: Name a Native American tribe or nation (like the Cherokee)
+prompt: Name a Native American tribe or nation
 note: Tribes, nations and peoples Indigenous to the Americas, past or present.
 
 [One in a Krillion]
@@ -79548,7 +79548,7 @@ Iroquois | Haudenosaunee
 id: q0544
 pool: unlimited
 category: history
-prompt: Name a person, event, or term from the Cold War (like the Space Race)
+prompt: Name a person, event, or term from the Cold War
 note: People, events, places, treaties and ideas from the Cold War era (1947–1991).
 
 [One in a Krillion]
@@ -80003,7 +80003,7 @@ Boxes | cardboard boxes | storage boxes
 id: q0547
 pool: unlimited
 category: science
-prompt: Name a tool or device for measuring something (like a ruler or thermometer)
+prompt: Name a tool or device for measuring something
 note: Instruments and gadgets that measure length, mass, time, temperature, speed, pressure and more.
 
 [One in a Krillion]
@@ -80125,7 +80125,7 @@ Measuring cup
 id: q0548
 pool: unlimited
 category: games-toys
-prompt: Name a shooter or battle royale video game (like Fortnite)
+prompt: Name a shooter or battle royale video game
 note: First- and third-person shooters, battle royales, hero shooters and arcade shooters.
 
 [One in a Krillion]
@@ -80248,7 +80248,7 @@ Among Us
 id: q0549
 pool: unlimited
 category: body-health
-prompt: Name a disease or condition named after a person (like Alzheimer's)
+prompt: Name a disease or condition named after a person
 note: Eponyms named after doctors, patients or other people, real, mythical or fictional.
 
 [One in a Krillion]
@@ -80498,7 +80498,7 @@ Corolla
 id: q0551
 pool: unlimited
 category: food
-prompt: Name a Greek or Middle Eastern dish (like gyros or hummus)
+prompt: Name a Greek or Middle Eastern dish
 note: Dishes, breads, dips, sweets and snacks from Greek, Turkish, Levantine, Persian, Gulf and Egyptian cooking.
 
 [One in a Krillion]
@@ -80747,7 +80747,7 @@ Aardwolf
 id: q0553
 pool: unlimited
 category: animals
-prompt: Name an animal that lives underground or in a burrow (like a mole)
+prompt: Name an animal that lives underground or in a burrow
 note: Animals that dig burrows, live in dens or tunnels, or live in caves or soil.
 
 [One in a Krillion]
@@ -80868,7 +80868,7 @@ Ant | ants
 id: q0554
 pool: unlimited
 category: sports
-prompt: Name a pro sports league or organization (like the NFL or UFC)
+prompt: Name a pro sports league or organization
 note: Professional leagues, tours and organizations from any sport and country, past or present.
 
 [One in a Krillion]
@@ -81014,7 +81014,7 @@ UFC
 id: q0555
 pool: unlimited
 category: words-language
-prompt: Name a fairy tale, folk tale, or fable (like Cinderella)
+prompt: Name a fairy tale, folk tale, or fable
 note: Traditional tales, fairy tales, fables, legends and folk heroes from anywhere.
 
 [One in a Krillion]
@@ -81143,7 +81143,7 @@ Harry Potter
 id: q0556
 pool: unlimited
 category: words-language
-prompt: Name a compound word that starts with "sun" (like sunflower)
+prompt: Name a compound word that starts with "sun"
 note: Words (closed or commonly hyphenated or two-word) made from "sun" plus another word.
 
 [One in a Krillion]
@@ -81319,7 +81319,7 @@ Kong
 id: q0558
 pool: unlimited
 category: science
-prompt: Name a human-made material (like plastic or concrete)
+prompt: Name a human-made material
 note: Synthetic, processed and manufactured materials, including alloys, plastics, fabrics, ceramics and building materials.
 
 [One in a Krillion]
@@ -81471,7 +81471,7 @@ Gold
 id: q0559
 pool: unlimited
 category: science
-prompt: Name a computer file type or extension (like PDF or JPG)
+prompt: Name a computer file type or extension
 note: File formats and extensions, with or without the dot.
 
 [One in a Krillion]
@@ -81619,7 +81619,7 @@ Folder
 id: q0560
 pool: unlimited
 category: brands
-prompt: Name a sports equipment brand (like Wilson or Spalding)
+prompt: Name a sports equipment brand
 note: Brands that make balls, bats, clubs, rackets, sticks, pads, gear, bikes, boards, fitness equipment and athletic gear.
 
 [One in a Krillion]

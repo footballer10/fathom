@@ -55,7 +55,7 @@ export function PufferArena({
 
   // The fish swims most of the way over to whoever has it, then back out on
   // the next pass, curving through the middle of the ring rather than cutting across.
-  const fishAt: Pos = holderAt ? toward(holderAt, 0.66) : CENTER;
+  const fishAt: Pos = holderAt ? toward(holderAt, 0.5) : CENTER;
   const target = `${fishAt.x},${fishAt.y}`;
   const track = useRef({ target, from: fishAt, to: fishAt });
   if (track.current.target !== target) track.current = { target, from: track.current.to, to: fishAt };
@@ -107,7 +107,7 @@ export function PufferArena({
       const isMe = e.playerId === state.you;
       const seat: Pos | undefined = isMe ? YOU_SEAT : seats.get(e.playerId);
       if (!seat) continue;
-      const fish = isMe ? toward(YOU_SEAT, 0.66) : toward(seat, 0.66);
+      const fish = isMe ? toward(YOU_SEAT, 0.5) : toward(seat, 0.5);
       if (e.type === "lifeLost") add.push({ id: e.id, kind: "pop", ...fish });
       if (e.type === "turnResult") {
         const t = tierInfo(e.tier);

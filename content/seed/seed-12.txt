@@ -632,7 +632,7 @@ Jenga
 id: q0113
 pool: unlimited
 category: jobs-people
-prompt: Name a title you put before a name (like Mr. or Dr.)
+prompt: Name a title you put before a name
 
 [One in a Krillion]
 Esquire | esq
@@ -1818,7 +1818,7 @@ Pencil
 id: q0118
 pool: unlimited
 category: brands
-prompt: Name a brand mascot (like Tony the Tiger)
+prompt: Name a brand mascot
 
 [One in a Krillion]
 Mr. Peanut | mr peanut | planters man

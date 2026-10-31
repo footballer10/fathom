@@ -173,7 +173,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
         <div className="card">
           <h3>This week's deepest</h3>
           <p className="muted small">
-            {status.board.divers} diver{status.board.divers === 1 ? "" : "s"} so far. Ranked by rarest answer, then by who found it fastest.
+            {status.board.divers} diver{status.board.divers === 1 ? "" : "s"} so far. Ranked by rarest answer, then by who found it fastest. Everyone's answers stay secret.
           </p>
           {status.board.rows.length === 0 ? (
             <p className="muted small">No one yet. This could be you.</p>
@@ -187,7 +187,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
                     {r.you && <span className="muted small"> (you)</span>}
                   </span>
                   <span className="board-value" style={{ color: tierInfo(r.tier).color }}>
-                    {tierInfo(r.tier).emoji} {r.answer}
+                    {tierInfo(r.tier).emoji} {tierInfo(r.tier).name}
                   </span>
                 </li>
               ))}

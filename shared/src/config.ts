@@ -39,12 +39,12 @@ export interface TierInfo {
 
 /** Ordered from rarest to most common. */
 export const TIERS: readonly TierInfo[] = [
-  { points: 100, name: "One in a Krillion", emoji: "🐋", color: "#ffd166", battleLifeFill: 32 },
-  { points: 85, name: "Deep Cut", emoji: "🦑", color: "#c77dff", battleLifeFill: 16 },
-  { points: 60, name: "Rare", emoji: "🐚", color: "#ff8fab", battleLifeFill: 8 },
-  { points: 30, name: "Schooler", emoji: "🐟", color: "#4cc9f0", battleLifeFill: 4 },
-  { points: 15, name: "Too Clever", emoji: "🎣", color: "#90be6d", battleLifeFill: 2 },
-  { points: 10, name: "Plankton", emoji: "🦐", color: "#a8dadc", battleLifeFill: 1 },
+  { points: 100, name: "One in a Krillion", emoji: "🐋", color: "#ffd166", battleLifeFill: 12 },
+  { points: 85, name: "Deep Cut", emoji: "🦑", color: "#c77dff", battleLifeFill: 6 },
+  { points: 60, name: "Rare", emoji: "🐚", color: "#ff8fab", battleLifeFill: 3 },
+  { points: 30, name: "Schooler", emoji: "🐟", color: "#4cc9f0", battleLifeFill: 1 },
+  { points: 15, name: "Too Clever", emoji: "🎣", color: "#90be6d", battleLifeFill: 1 },
+  { points: 10, name: "Plankton", emoji: "🦐", color: "#a8dadc", battleLifeFill: 0 },
 ];
 
 export const MISS_EMOJI = "❌";

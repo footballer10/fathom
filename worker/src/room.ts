@@ -186,6 +186,11 @@ const battleVariant = (s: RoomState) => (s.kind === "battle" ? (s.settings as Ba
 
 const penalty = (n: unknown, max: number, cur: number) => (n === undefined ? cur : clamp(n, 0, max, cur));
 
+/** Life circle fill rate by players left: full with 4+, two-thirds with 3, a third head-to-head. */
+function lifeFillFactor(alive: number) {
+  return alive >= 4 ? 1 : alive === 3 ? 2 / 3 : 1 / 3;
+}
+
 /** First and last a–z letters of an answer (accents removed), for Relay's letter chain. */
 function plainLetters(text: string) {
   return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z]/g, "");
@@ -895,7 +900,8 @@ export class Room extends DurableObject<Env> {
       b.accepted += 1;
       seat.score += r.points;
       // Every accepted answer fills the life circle; each full circle is an extra life (no cap).
-      const fill = (seat.lifeMeter ?? 0) + tierInfo(r.tier).battleLifeFill;
+      // The circle fills slower as the field thins out, so small games don't drag on forever.
+      const fill = (seat.lifeMeter ?? 0) + Math.round(tierInfo(r.tier).battleLifeFill * lifeFillFactor(this.aliveIds().length));
       const livesGained = Math.floor(fill / BATTLE_DEFAULTS.lifeMeterFull);
       seat.lifeMeter = fill % BATTLE_DEFAULTS.lifeMeterFull;
       seat.lives += livesGained;
@@ -948,6 +954,8 @@ export class Room extends DurableObject<Env> {
       if (seat.lives <= 0) {
         seat.eliminated = true;
         seat.eliminatedAt = now;
+        // Each elimination tightens the clock a little.
+        b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
         this.broadcast({ type: "eliminated", playerId: pid });
       }
     }
@@ -980,7 +988,8 @@ export class Room extends DurableObject<Env> {
     const q = (await getQuestions(this.env, [qid])).get(qid)!;
     await getIndex(this.env, qid);
     await markRoomSeen(this.env, this.roomPlayerIds(), qid, now);
-    if (set.speedUp) b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
+    // Speed-up (or a head-to-head with two left) shaves a second off each new prompt.
+    if (set.speedUp || this.aliveIds().length <= 2) b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
     Object.assign(b, { prompt: q.prompt, category: q.category, round: b.round + 1, used: [], usedIds: [], accepted: 0, failed: 0, spectatorGuesses: [], letter: null });
     s.phase = "rotate";
     this.queueNextTurn(lastPid, now, hotPotato ? BATTLE_DEFAULTS.hotPotatoPauseMs : BATTLE_DEFAULTS.rotatePauseMs);

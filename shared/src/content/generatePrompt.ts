@@ -35,6 +35,7 @@ WHAT MAKES A GOOD PROMPT
 - Clear boundary: the prompt makes it obvious what counts, and the set of valid answers is closed (see the rule above).
 - Stable facts: nothing that changes often (no current rosters, no "currently airing" shows).
 - Prompt is 80 characters or less.
+- No examples in the prompt: never add "(like …)", "e.g." or "such as". An example gives away an answer and steers everyone to it. Scope notes that keep it fair are fine, like "(released through 2025)".
 - EQUAL DIFFICULTY: every question should be about as hard as every other. A typical player can name several valid answers; a strong player can reach Rare or better with some thought. No difficulty ramp.
 - List every valid answer. Anything missing gets marked wrong, which is the worst experience.
 

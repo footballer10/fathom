@@ -75,6 +75,8 @@ export function validateQuestion(q: ValidatableQuestion, ctx: ValidationContext 
   // --- schema ------------------------------------------------------------
   if (!q.prompt?.trim()) errors.push("Missing prompt");
   else if (q.prompt.length > MAX_PROMPT_LENGTH) errors.push(`Prompt is ${q.prompt.length} characters (max ${MAX_PROMPT_LENGTH})`);
+  // Examples give an answer away ("Name a wild cat (like a lion)"); scope notes like "(through 2025)" are fine.
+  if (q.prompt && /\((?:like|e\.g\.?|such as|think|say)\b|\be\.g\.|\bsuch as\b|\bfor example\b/i.test(q.prompt)) errors.push('Prompt gives an example ("like …", "e.g.", "such as"); remove it');
   if (!(CATEGORIES as readonly string[]).includes(q.category)) {
     errors.push(`Category "${q.category}" isn't allowed. Use one of: ${CATEGORIES.join(", ")}`);
   }

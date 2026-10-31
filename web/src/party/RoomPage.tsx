@@ -1092,7 +1092,7 @@ function BattleView({
               <b>That's a real answer, but it has to start with {b.letter.toUpperCase()}!</b>
             ) : myTurn ? (
               <>
-                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {penaltyLabel((state.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)} · good answers fill your life circle (🐋 fills it all, 🦑 half, 🐚 a quarter…) and a full circle is +1 life
+                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {penaltyLabel((state.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)} · rare answers slowly fill your life circle (🐋 most, 🦑 some, 🐚 a little; slower with fewer players left) and a full circle is +1 life · the clock tightens as players go out
               </>
             ) : out ? (
               "You're out, but you can still guess for fun."

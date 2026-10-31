@@ -262,16 +262,17 @@ type AbyssRow = { week: string; player_id: string; question_id: string; started_
 
 async function abyssBoard(env: Env, week: string, playerId: string) {
   const { results } = await env.DB.prepare(
-    `SELECT a.player_id, a.best_tier, a.best_answer, p.nickname FROM abyss_attempts a JOIN players p ON p.id = a.player_id
+    `SELECT a.player_id, a.best_tier, p.nickname FROM abyss_attempts a JOIN players p ON p.id = a.player_id
      WHERE a.week = ? AND a.best_tier IS NOT NULL AND p.nickname IS NOT NULL AND TRIM(p.nickname) != ''
      ORDER BY a.best_tier DESC, a.best_at - a.started_at ASC LIMIT 10`,
   )
     .bind(week)
-    .all<{ player_id: string; best_tier: number; best_answer: string; nickname: string }>();
+    .all<{ player_id: string; best_tier: number; nickname: string }>();
   const divers = await env.DB.prepare("SELECT COUNT(*) AS n FROM abyss_attempts WHERE week = ?").bind(week).first<{ n: number }>();
   return {
     divers: divers?.n ?? 0,
-    rows: results.map((r, i) => ({ rank: i + 1, nickname: r.nickname, tier: r.best_tier as TierPoints, answer: r.best_answer, you: r.player_id === playerId })),
+    // Only the tier, never the answer itself: other people's Abyss answers stay secret.
+    rows: results.map((r, i) => ({ rank: i + 1, nickname: r.nickname, tier: r.best_tier as TierPoints, you: r.player_id === playerId })),
   };
 }
 

@@ -115,7 +115,7 @@ export interface AbyssStatus {
   category: Category;
   prompt: string | null;
   attempt: AbyssAttempt | null;
-  board: { divers: number; rows: { rank: number; nickname: string; tier: TierPoints; answer: string; you: boolean }[] };
+  board: { divers: number; rows: { rank: number; nickname: string; tier: TierPoints; you: boolean }[] };
 }
 
 export interface Profile {

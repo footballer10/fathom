@@ -1360,7 +1360,7 @@ Blood
 id: q0105
 pool: unlimited
 category: vehicles
-prompt: Name a car model (like Mustang or Civic)
+prompt: Name a car model
 note: Model names, with or without the brand ("Ford Mustang" or "Mustang").
 
 [One in a Krillion]
