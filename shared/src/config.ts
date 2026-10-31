@@ -60,6 +60,12 @@ export function tierInfo(points: TierPoints): TierInfo {
 // ---------------------------------------------------------------------------
 
 export const QUESTION_SECONDS = 25;
+/**
+ * After "Did you mean…?", you get this long to say yes, even if the clock runs
+ * out meanwhile, so a last-second answer still counts.
+ */
+export const CONFIRM_GRACE_MS = 3000;
+
 /** Solo (Daily and Unlimited) wrong guesses cost no time. Party hosts pick their own penalty. */
 export const WRONG_GUESS_PENALTY_SECONDS = 0;
 /** Extra time the server allows for network lag before calling a guess late. */

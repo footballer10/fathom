@@ -680,6 +680,7 @@ function DiveQuestion({
         <DidYouMean
           guess={ask.guess}
           canonical={ask.canonical}
+          endsAt={d.yourEndsAt}
           onYes={() => {
             send({ type: "guess", text: ask.guess, confirm: true });
             setAsk(null);
@@ -1051,6 +1052,7 @@ function BattleView({
               <DidYouMean
                 guess={ask.guess}
                 canonical={ask.canonical}
+                endsAt={b.turnEndsAt}
                 onYes={() => {
                   lastSent.current = ask.guess;
                   send({ type: "guess", text: ask.guess, confirm: true });

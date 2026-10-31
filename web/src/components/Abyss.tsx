@@ -23,6 +23,14 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
   const [msg, setMsg] = useState<string | null>(null);
   const [timeUp, setTimeUp] = useState(false);
   const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
+  // The clock ran out while "Did you mean…?" was up: end the dive once it's answered.
+  const askRef = useRef(ask);
+  askRef.current = ask;
+  const expiredDuringAsk = useRef(false);
+  const endDive = () => {
+    setTimeUp(true);
+    setTimeout(() => void load(), 1800);
+  };
   const inputRef = useRef<HTMLInputElement>(null);
   const shake = useAnimationControls();
 
@@ -48,7 +56,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
 
   const submit = async (confirmed?: string) => {
     const guess = confirmed ?? text.trim();
-    if (!guess || timeUp) return;
+    if (!guess || (timeUp && confirmed === undefined)) return;
     setText("");
     setAsk(null);
     try {
@@ -110,7 +118,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
           <h2 className="prompt">{status.prompt}</h2>
           {playing ? (
             <motion.div animate={shake} className="input-wrap">
-              <TimerRing endsAt={a.endsAt} totalMs={status.seconds * 1000} running={playing} onExpire={() => (setTimeUp(true), setTimeout(() => void load(), 1800))}>
+              <TimerRing endsAt={a.endsAt} totalMs={status.seconds * 1000} running={playing} onExpire={() => (askRef.current ? (expiredDuringAsk.current = true) : endDive())}>
                 <input
                   ref={inputRef}
                   className="answer-input"
@@ -149,10 +157,18 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
             <DidYouMean
               guess={ask.guess}
               canonical={ask.canonical}
-              onYes={() => void submit(ask.guess)}
+              endsAt={a.endsAt}
+              onYes={() => {
+                void submit(ask.guess).then(() => expiredDuringAsk.current && ((expiredDuringAsk.current = false), endDive()));
+              }}
               onNo={() => {
                 setAsk(null);
+                askRef.current = null;
                 inputRef.current?.focus();
+                if (expiredDuringAsk.current) {
+                  expiredDuringAsk.current = false;
+                  endDive();
+                }
               }}
             />
           )}

@@ -121,7 +121,9 @@ export function Game({
   }, [phase, session?.current?.index]);
 
   const submit = async (confirmed?: string) => {
-    if (!session?.current || pending || timeUp || phase !== "question") return;
+    if (!session?.current || pending || phase !== "question") return;
+    // A yes to "Did you mean…?" still goes through after the clock runs out (the server allows a few seconds).
+    if (timeUp && confirmed === undefined) return;
     const guess = confirmed ?? text.trim();
     if (!guess) return;
     setAsk(null);
@@ -167,7 +169,8 @@ export function Game({
     try {
       // The server allows a short grace period for lag, so wait it out before asking.
       await sleep(DEADLINE_GRACE_MS + 60);
-      for (let attempt = 0; attempt < 10; attempt++) {
+      // Long enough to cover a "Did you mean…?" answered in the last few seconds.
+      for (let attempt = 0; attempt < 30; attempt++) {
         if (phaseRef.current !== "question") return; // an answer landed in the grace window
         const s = await api.state(session.sessionId);
         if (s.currentDone) {
@@ -331,6 +334,7 @@ export function Game({
             <DidYouMean
               guess={ask.guess}
               canonical={ask.canonical}
+              endsAt={endsAt}
               onYes={() => void submit(ask.guess)}
               onNo={() => {
                 setAsk(null);

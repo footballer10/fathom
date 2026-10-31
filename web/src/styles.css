@@ -2188,3 +2188,8 @@ body:has(.battle) .toasts { bottom: 104px; }
   .ocean-surface *, .ocean-caustics, .ocean-turtle, .ocean-manta, .ocean-whale, .lantern, .fish-school--c, .fish-tail { animation: none !important; }
 }
 @media (max-width: 640px) { .ocean-turtle { scale: 0.55; } .ocean-manta { scale: 0.6; } .ocean-whale { scale: 0.6; } }
+/* "Did you mean…?" after the clock ran out: a few seconds' grace, counting down */
+.did-you-mean--clutch { border-color: #ffd166; box-shadow: 0 0 24px rgba(255, 209, 102, 0.45); }
+.did-you-mean-clock { flex-basis: 100%; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 0.85rem; font-weight: 700; color: #ffd166; }
+.did-you-mean-bar { width: min(260px, 100%); height: 6px; border-radius: 99px; background: rgba(255, 255, 255, 0.15); overflow: hidden; }
+.did-you-mean-bar span { display: block; height: 100%; background: #ffd166; transition: width 0.1s linear; }

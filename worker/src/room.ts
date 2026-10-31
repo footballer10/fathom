@@ -2,6 +2,7 @@ import { DurableObject } from "cloudflare:workers";
 import {
   BATTLE_DEFAULTS,
   CATEGORIES,
+  CONFIRM_GRACE_MS,
   DEADLINE_GRACE_MS,
   DIVE_DEFAULTS,
   matchGuess,
@@ -97,6 +98,8 @@ interface DiveRound {
   recap?: QuestionRecap[];
   /** Co-op: the combined score the team is aiming for. */
   coopTarget?: number;
+  /** "Did you mean…?" asked in time: a yes for that answer counts until `until`, even past the clock. */
+  confirms?: Record<string, { answerId: string; until: number }>;
 }
 
 interface BattleRound {
@@ -123,6 +126,8 @@ interface BattleRound {
   letter?: string | null;
   /** Relay: shared lives per team. */
   teamLives?: [number, number] | null;
+  /** "Did you mean…?" asked in time on this turn: a yes counts until `until`. */
+  confirm?: { pid: string; answerId: string; until: number } | null;
 }
 
 interface RoomState {
@@ -368,13 +373,14 @@ export class Room extends DurableObject<Env> {
       return;
     }
     const s = this.s;
-    if (s.phase === "question" && s.dive && now >= s.dive.endsAt + DEADLINE_GRACE_MS) {
+    if (s.phase === "question" && s.dive && now >= s.dive.endsAt + DEADLINE_GRACE_MS && !this.confirmPending(now)) {
       await this.revealDive(now);
     } else if (s.phase === "reveal" && s.dive?.reveal && now >= s.dive.reveal.nextAt) {
       await this.advanceDive(now);
     } else if ((s.phase === "turn" || s.phase === "rotate") && s.battle) {
       const b = s.battle;
-      if (b.turnPlayerId && now >= b.turnEndsAt + DEADLINE_GRACE_MS) await this.battleTimeout(now);
+      const waiting = b.confirm && b.confirm.pid === b.turnPlayerId && now <= b.confirm.until;
+      if (b.turnPlayerId && now >= b.turnEndsAt + DEADLINE_GRACE_MS && !waiting) await this.battleTimeout(now);
       else if (!b.turnPlayerId && b.nextTurnAt && now >= b.nextTurnAt) this.startTurn(b.nextTurnPlayerId, now);
     }
     await this.commit();
@@ -395,10 +401,11 @@ export class Room extends DurableObject<Env> {
     if (!this.s) return;
     const s = this.s;
     const times = [s.lastActivity + IDLE_MS];
-    if (s.phase === "question" && s.dive) times.push(s.dive.endsAt + DEADLINE_GRACE_MS + 20);
+    if (s.phase === "question" && s.dive) times.push(Math.max(s.dive.endsAt + DEADLINE_GRACE_MS, ...Object.values(s.dive.confirms ?? {}).map((c) => c.until)) + 20);
     if (s.phase === "reveal" && s.dive?.reveal) times.push(s.dive.reveal.nextAt);
     if ((s.phase === "turn" || s.phase === "rotate") && s.battle) {
-      times.push(s.battle.turnPlayerId ? s.battle.turnEndsAt + DEADLINE_GRACE_MS + 20 : s.battle.nextTurnAt);
+      const b = s.battle;
+      times.push(b.turnPlayerId ? Math.max(b.turnEndsAt + DEADLINE_GRACE_MS, b.confirm?.pid === b.turnPlayerId ? b.confirm.until : 0) + 20 : b.nextTurnAt);
     }
     await this.ctx.storage.setAlarm(Math.min(...times.filter((t) => t > 0)));
   }
@@ -670,6 +677,7 @@ export class Room extends DurableObject<Env> {
       answers: {},
       penalties: {},
       reveal: null,
+      confirms: {},
     });
     s.phase = "question";
     this.broadcast({ type: "question", index: i, total: d.questionIds.length, prompt: q.prompt, category: q.category, endsAt: d.endsAt });
@@ -678,6 +686,12 @@ export class Room extends DurableObject<Env> {
   private personalEndsAt(pid: string) {
     const d = this.s!.dive!;
     return d.endsAt - (d.penalties[pid] ?? 0) * ((this.s!.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds) * 1000;
+  }
+
+  /** Someone who hasn't answered is still inside their "Did you mean…?" window. */
+  private confirmPending(now: number) {
+    const d = this.s!.dive!;
+    return Object.entries(d.confirms ?? {}).some(([pid, c]) => !d.answers[pid] && now <= c.until);
   }
 
   /** Divers still answering (Shark Tank's bitten players sit out). */
@@ -691,13 +705,17 @@ export class Room extends DurableObject<Env> {
     const seat = s.seats[pid];
     if (s.phase !== "question" || seat.spectator || seat.eliminated || d.answers[pid]) return;
     const myEnd = this.personalEndsAt(pid);
-    if (now > myEnd + DEADLINE_GRACE_MS) {
-      return this.send(ws, { type: "guessResult", accepted: false, canonical: null, tier: null, points: 0, corrected: false, reason: "late", endsAt: myEnd });
-    }
     const index = await getIndex(this.env, d.questionIds[d.index]);
     const r = matchGuess(index, text);
-    // Autocorrected matches ask first ("Did you mean…?"); no penalty for asking.
+    const pending = d.confirms?.[pid];
+    const lateConfirm = confirm && !!pending && pending.answerId === r.answerId && now <= pending.until;
+    if (now > myEnd + DEADLINE_GRACE_MS && !lateConfirm) {
+      return this.send(ws, { type: "guessResult", accepted: false, canonical: null, tier: null, points: 0, corrected: false, reason: "late", endsAt: myEnd });
+    }
+    // Autocorrected matches ask first ("Did you mean…?"); no penalty for asking, and a yes
+    // within CONFIRM_GRACE_MS counts even if the clock runs out meanwhile.
     if (r.accepted && r.corrected && !confirm) {
+      if (r.answerId) (d.confirms ??= {})[pid] = { answerId: r.answerId, until: Math.max(myEnd + DEADLINE_GRACE_MS, now) + CONFIRM_GRACE_MS + 500 };
       return this.send(ws, { type: "guessResult", accepted: false, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm", endsAt: myEnd });
     }
     if (r.accepted && r.answerId && r.canonical && r.tier) {
@@ -842,7 +860,7 @@ export class Room extends DurableObject<Env> {
     const next = pid && alive.includes(pid) ? pid : alive[0];
     if (!next) return this.gameOver(b.best);
     const seconds = b.baseSeconds;
-    Object.assign(b, { turnPlayerId: next, turnStartedAt: now, turnEndsAt: now + seconds * 1000, nextTurnAt: 0, nextTurnPlayerId: null });
+    Object.assign(b, { turnPlayerId: next, turnStartedAt: now, turnEndsAt: now + seconds * 1000, nextTurnAt: 0, nextTurnPlayerId: null, confirm: null });
     s.phase = "turn";
     this.lastTypingAt.clear();
     this.broadcast({ type: "turn", playerId: next, endsAt: b.turnEndsAt, prompt: b.prompt, seconds });
@@ -884,10 +902,11 @@ export class Room extends DurableObject<Env> {
       return;
     }
     if (s.phase !== "turn" || b.turnPlayerId !== pid) return this.send(ws, { type: "error", message: "Not your turn" });
-    if (now > b.turnEndsAt + DEADLINE_GRACE_MS) return;
-
     const r = matchGuess(index, text, { takenAnswerIds: new Set(b.usedIds) });
+    const lateConfirm = confirm && b.confirm?.pid === pid && b.confirm.answerId === r.answerId && now <= b.confirm.until;
+    if (now > b.turnEndsAt + DEADLINE_GRACE_MS && !lateConfirm) return;
     if (r.accepted && r.corrected && !confirm) {
+      if (r.answerId) b.confirm = { pid, answerId: r.answerId, until: Math.max(b.turnEndsAt + DEADLINE_GRACE_MS, now) + CONFIRM_GRACE_MS + 500 };
       return this.send(ws, { type: "guessResult", accepted: false, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm", endsAt: b.turnEndsAt });
     }
     const relay = battleVariant(s) === "relay";

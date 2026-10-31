@@ -1,4 +1,5 @@
 import {
+  CONFIRM_GRACE_MS,
   DEADLINE_GRACE_MS,
   PERCENTILE_MIN_RESULTS,
   QUESTIONS_PER_UNLIMITED_RUN,
@@ -48,6 +49,9 @@ interface SessionRow {
   current_done: number;
   finished: number;
   created_at: number;
+  /** "Did you mean…?" pending: until when a yes still counts, and for which question and answer. */
+  confirm_until?: number | null;
+  confirm_key?: string | null;
 }
 
 interface PlayRow {
@@ -65,7 +69,18 @@ interface PlayRow {
 const endsAt = (s: SessionRow) =>
   s.question_started_at + QUESTION_SECONDS * 1000 - s.penalties * WRONG_GUESS_PENALTY_SECONDS * 1000;
 
+// The confirm columns arrived after launch; add them once if they're missing.
+let confirmColumnsReady = false;
+async function ensureConfirmColumns(env: Env) {
+  if (confirmColumnsReady) return;
+  for (const col of ["confirm_until INTEGER", "confirm_key TEXT"]) {
+    await env.DB.prepare(`ALTER TABLE sessions ADD COLUMN ${col}`).run().catch(() => {});
+  }
+  confirmColumnsReady = true;
+}
+
 async function loadSession(env: Env, id: string, playerId: string): Promise<SessionRow> {
+  await ensureConfirmColumns(env);
   const s = await env.DB.prepare("SELECT * FROM sessions WHERE id = ?").bind(id).first<SessionRow>();
   if (!s || s.player_id !== playerId) throw new HttpError(404, "Session not found");
   return s;
@@ -80,6 +95,8 @@ async function loadPlays(env: Env, sessionId: string): Promise<PlayRow[]> {
 async function settle(env: Env, s: SessionRow, now: number): Promise<boolean> {
   if (s.current_index < 0 || s.current_done) return false;
   if (now <= endsAt(s) + DEADLINE_GRACE_MS) return false;
+  // A "Did you mean…?" asked in time keeps the question open a few seconds longer.
+  if (s.confirm_key?.startsWith(`${s.current_index}:`) && now <= (s.confirm_until ?? 0)) return false;
   const qid = (JSON.parse(s.question_ids) as string[])[s.current_index];
   const res = await env.DB.prepare(
     "UPDATE sessions SET current_done = 1 WHERE id = ? AND current_index = ? AND current_done = 0",
@@ -316,9 +333,21 @@ export async function guess(
   const text = String(body.text ?? "").slice(0, 100);
   const index = await getIndex(env, qid);
   const result = matchGuess(index, text);
+  const inTime = now <= endsAt(s) + DEADLINE_GRACE_MS;
+  const confirmKey = `${s.current_index}:${result.answerId}`;
+  const lateConfirm = !!body.confirm && s.confirm_key === confirmKey && now <= (s.confirm_until ?? 0);
+  if (!inTime && !lateConfirm) {
+    // Past the clock and not the answer to a "Did you mean…?": the question ends now.
+    s.confirm_until = null;
+    await settle(env, s, now);
+    return lateResponse();
+  }
 
-  // Autocorrected matches ask first ("Did you mean…?"); the client resends with confirm.
+  // Autocorrected matches ask first ("Did you mean…?"). Saying yes within
+  // CONFIRM_GRACE_MS still counts, even if the clock runs out meanwhile.
   if (result.accepted && result.corrected && !body.confirm) {
+    const until = Math.max(endsAt(s) + DEADLINE_GRACE_MS, now) + CONFIRM_GRACE_MS + 500;
+    await env.DB.prepare("UPDATE sessions SET confirm_until = ?, confirm_key = ? WHERE id = ?").bind(until, confirmKey, s.id).run();
     return { accepted: false, answerId: null, canonical: result.canonical, tier: null, points: 0, corrected: true, reason: "confirm", endsAt: endsAt(s), serverNow: now, questionDone: false };
   }
 

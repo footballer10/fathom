@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
-import { TIERS, matchGuess } from "@fathom/shared";
+import { CONFIRM_GRACE_MS, TIERS, matchGuess } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
@@ -86,7 +86,8 @@ practiceRoutes.post("/api/practice/guess", async (c) => {
 export type PracticeMode = "sprint" | "ladder" | "roulette" | "five";
 const MODES: readonly PracticeMode[] = ["sprint", "ladder", "roulette", "five"];
 const ROULETTE_TARGETS: TierPoints[] = [10, 30, 30, 60, 60, 85];
-const SLACK_MS = 2500; // network and timer slop
+// Network and timer slop, plus the "Did you mean…?" window for a last-second answer.
+const SLACK_MS = 2500 + CONFIRM_GRACE_MS;
 
 interface RunData {
   questions: { id: string; target: number | null; at: number }[];
@@ -328,7 +329,9 @@ practiceRoutes.post("/api/abyss/guess", async (c) => {
   const { text, confirm } = await c.req.json<{ text?: string; confirm?: boolean }>().catch(() => ({ text: "", confirm: false }));
   const a = await c.env.DB.prepare("SELECT * FROM abyss_attempts WHERE week = ? AND player_id = ?").bind(week, playerId).first<AbyssRow>();
   if (!a) throw new HttpError(400, "Start your dive first");
-  if (now > a.started_at + ABYSS_SECONDS * 1000 + ABYSS_GRACE_MS) throw new HttpError(400, "Time's up for this week's dive");
+  // A yes to "Did you mean…?" gets a few extra seconds, so a last-second answer still counts.
+  const deadline = a.started_at + ABYSS_SECONDS * 1000 + ABYSS_GRACE_MS + (confirm ? CONFIRM_GRACE_MS + 500 : 0);
+  if (now > deadline) throw new HttpError(400, "Time's up for this week's dive");
   const answers = JSON.parse(a.answers) as { answerId: string; canonical: string; tier: TierPoints }[];
   const index = await getIndex(c.env, a.question_id);
   const r = matchGuess(index, String(text ?? "").slice(0, 100), { takenAnswerIds: new Set(answers.map((x) => x.answerId)) });

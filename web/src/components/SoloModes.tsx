@@ -182,6 +182,10 @@ function SoloRun({
   const played = useRef<Played[]>([]);
   const runId = useRef<string | null>(null);
   const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
+  // The clock ran out while "Did you mean…?" was up: finish the round once it's answered.
+  const askRef = useRef(ask);
+  askRef.current = ask;
+  const expiredDuringAsk = useRef(false);
   useEffect(() => setAsk(null), [q?.id]);
   const exclude = useRef<string[]>([]);
   const taken = useRef<string[]>([]);
@@ -250,6 +254,7 @@ function SoloRun({
   }, [mode, loadQuestion]);
 
   const nextRound = async (opts: { tier?: number } = {}) => {
+    expiredDuringAsk.current = false; // a new round has its own clock
     const n = await loadQuestion(opts);
     if (n) setEndsAt(serverNow() + ROUND_SECONDS * 1000);
   };
@@ -265,6 +270,11 @@ function SoloRun({
   live.current = { q, points, hits, found, round, target };
 
   const onExpire = () => {
+    // A last-second answer waiting on "Did you mean…?" gets its few seconds first.
+    if (askRef.current) {
+      expiredDuringAsk.current = true;
+      return;
+    }
     const { q, points, hits, found, round, target } = live.current;
     if (finished.current || !q) return;
     if (mode === "sprint") return finish(points, `${hits} answer${hits === 1 ? "" : "s"} in 60 seconds`);
@@ -287,6 +297,7 @@ function SoloRun({
     busy.current = true;
     setText("");
     setAsk(null);
+    askRef.current = null;
     try {
       const r = await api.practiceGuess(q.id, guess, mode === "five" || mode === "roulette" ? taken.current : [], confirmed !== undefined, runId.current ?? undefined);
       if (r.reason === "confirm" && r.canonical) {
@@ -421,10 +432,23 @@ function SoloRun({
         <DidYouMean
           guess={ask.guess}
           canonical={ask.canonical}
-          onYes={() => void submit(ask.guess)}
+          endsAt={endsAt}
+          onYes={() => {
+            void submit(ask.guess).then(() => {
+              if (expiredDuringAsk.current) {
+                expiredDuringAsk.current = false;
+                onExpire();
+              }
+            });
+          }}
           onNo={() => {
             setAsk(null);
+            askRef.current = null;
             inputRef.current?.focus();
+            if (expiredDuringAsk.current) {
+              expiredDuringAsk.current = false;
+              onExpire();
+            }
           }}
         />
       )}

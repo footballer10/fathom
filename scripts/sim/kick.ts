@@ -59,6 +59,29 @@ try {
   } else checks.check("party: found a long answer to misspell", false, q.prompt);
   [host, other, again].forEach((b) => b.close());
 
+  // A clutch answer: typo with a moment left, "yes" after the clock has run out → still counts.
+  {
+    const code2 = await createRoom("dive");
+    const solo = new Bot(code2, `sim-kick-${run}-clutch`, "Clutch");
+    await solo.connect();
+    solo.send({ type: "settings", settings: { source: "unlimited", questionCount: 3, timerSeconds: 15 } });
+    await sleep(300);
+    solo.send({ type: "start" });
+    const cq = (await solo.waitFor((m) => m.type === "question")) as Extract<ServerMessage, { type: "question" }>;
+    const ct = typoFor(cq.prompt);
+    if (ct) {
+      await sleep(Math.max(0, cq.endsAt - Date.now() - 600)); // 0.6s left
+      solo.send({ type: "guess", text: ct.typo });
+      const ask = (await solo.waitFor((m) => m.type === "guessResult")) as Extract<ServerMessage, { type: "guessResult" }>;
+      await sleep(Math.max(0, cq.endsAt - Date.now()) + 1500); // say yes 1.5s after the clock ran out
+      solo.inbox.length = 0;
+      solo.send({ type: "guess", text: ct.typo, confirm: true });
+      const yes = (await solo.waitFor((m) => m.type === "guessResult" || m.type === "reveal", 8000)) as ServerMessage;
+      checks.check("clutch: a yes after the clock still counts", ask.reason === "confirm" && yes.type === "guessResult" && yes.accepted, yes.type);
+    } else checks.check("clutch: found a long answer to misspell", false, cq.prompt);
+    solo.close();
+  }
+
   // Did you mean…? solo (Unlimited)
   const pid = `sim-kick-${run}-solo`;
   const call = async <T>(method: string, path: string, body?: unknown) =>
