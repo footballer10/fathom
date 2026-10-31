@@ -38,6 +38,7 @@ export const SOLO_MODES: Record<SoloMode, { name: string; emoji: string; short: 
 };
 
 const ROULETTE_TARGETS: TierPoints[] = [10, 30, 30, 60, 60, 85];
+const randomTarget = () => ROULETTE_TARGETS[Math.floor(Math.random() * ROULETTE_TARGETS.length)];
 const ROUND_SECONDS = 25;
 
 type Played = { prompt: string; canonical: string | null; tier: TierPoints | null; note?: string };
@@ -62,7 +63,7 @@ export function SoloModePage({ mode, reducedMotion, onDepth }: { mode: SoloMode;
   const info = SOLO_MODES[mode];
   const [phase, setPhase] = useState<"intro" | "play" | "done">("intro");
   const [runKey, setRunKey] = useState(0);
-  const [result, setResult] = useState<{ score: number; label: string; played: Played[] } | null>(null);
+  const [result, setResult] = useState<{ score: number; label: string; played: Played[]; runId?: string } | null>(null);
   const best = getBest(mode);
 
   if (phase === "play") {
@@ -73,10 +74,17 @@ export function SoloModePage({ mode, reducedMotion, onDepth }: { mode: SoloMode;
         reducedMotion={reducedMotion}
         onDepth={onDepth}
         onDone={(r) => {
-          const wasBest = r.score > getBest(mode);
-          saveBest(mode, r.score);
-          setResult({ ...r, label: wasBest && r.score > 0 ? `${r.label} · new personal best!` : r.label });
+          setResult({ ...r, label: r.label });
           setPhase("done");
+          // The server scores the run itself (that's what goes on the leaderboard).
+          const finishRun = r.runId ? api.practiceFinish(r.runId) : Promise.reject(new Error("no run"));
+          void finishRun
+            .then(({ score, best: serverBest }) => {
+              const wasBest = score > getBest(mode);
+              saveBest(mode, Math.max(score, serverBest));
+              setResult({ ...r, score, label: wasBest && score > 0 ? `${r.label} · new personal best!` : r.label });
+            })
+            .catch(() => saveBest(mode, r.score));
         }}
       />
     );
@@ -157,7 +165,7 @@ function SoloRun({
   mode: SoloMode;
   reducedMotion: boolean;
   onDepth: (points: number) => void;
-  onDone: (r: { score: number; label: string; played: Played[] }) => void;
+  onDone: (r: { score: number; label: string; played: Played[]; runId?: string }) => void;
 }) {
   const [q, setQ] = useState<PracticeQuestion | null>(null);
   const [text, setText] = useState("");
@@ -172,6 +180,7 @@ function SoloRun({
   const [target, setTarget] = useState<TierPoints | null>(null);
   const [found, setFound] = useState<{ answerId: string; canonical: string; tier: TierPoints }[]>([]);
   const played = useRef<Played[]>([]);
+  const runId = useRef<string | null>(null);
   const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
   useEffect(() => setAsk(null), [q?.id]);
   const exclude = useRef<string[]>([]);
@@ -185,7 +194,7 @@ function SoloRun({
     (score: number, label: string) => {
       if (finished.current) return;
       finished.current = true;
-      onDone({ score, label, played: played.current });
+      onDone({ score, label, played: played.current, runId: runId.current ?? undefined });
     },
     [onDone],
   );
@@ -193,7 +202,8 @@ function SoloRun({
   const loadQuestion = useCallback(
     async (opts: { tier?: number; minAnswers?: number } = {}) => {
       try {
-        const next = await api.practiceQuestion({ exclude: exclude.current, ...opts });
+        const next = await api.practiceQuestion({ exclude: exclude.current, runId: runId.current ?? undefined, ...opts });
+        if (next.target) setTarget(next.target);
         exclude.current.push(next.id);
         taken.current = [];
         setQ(next);
@@ -216,6 +226,11 @@ function SoloRun({
   // Start the run.
   useEffect(() => {
     void (async () => {
+      // A scored run on the server (so the result can go on the leaderboard). Play on even if it fails.
+      runId.current = await api
+        .practiceStart(mode)
+        .then((r) => r.runId)
+        .catch(() => null);
       if (mode === "sprint") {
         setTotalMs(60_000);
         await loadQuestion();
@@ -225,9 +240,7 @@ function SoloRun({
         await loadQuestion({ minAnswers: 60 });
         setEndsAt(serverNow() + 60_000);
       } else if (mode === "roulette") {
-        const t = ROULETTE_TARGETS[Math.floor(Math.random() * ROULETTE_TARGETS.length)];
-        setTarget(t);
-        await loadQuestion({ tier: t });
+        await loadQuestion(runId.current ? {} : { tier: randomTarget() });
         setEndsAt(serverNow() + ROUND_SECONDS * 1000);
       } else {
         await loadQuestion();
@@ -243,9 +256,8 @@ function SoloRun({
 
   const nextRoulette = async (hitsNow: number, roundNow: number) => {
     if (roundNow >= 7) return finish(hitsNow, `${hitsNow} of 7 tiers hit`);
-    const t = ROULETTE_TARGETS[Math.floor(Math.random() * ROULETTE_TARGETS.length)];
-    setTarget(t);
-    await nextRound({ tier: t });
+    // With a run, the server picks the next target tier; offline, pick one here.
+    await nextRound(runId.current ? {} : { tier: randomTarget() });
   };
 
   // The timer can fire long after this render, so read the latest values from a ref.
@@ -276,7 +288,7 @@ function SoloRun({
     setText("");
     setAsk(null);
     try {
-      const r = await api.practiceGuess(q.id, guess, mode === "five" || mode === "roulette" ? taken.current : [], confirmed !== undefined);
+      const r = await api.practiceGuess(q.id, guess, mode === "five" || mode === "roulette" ? taken.current : [], confirmed !== undefined, runId.current ?? undefined);
       if (r.reason === "confirm" && r.canonical) {
         setAsk({ guess, canonical: r.canonical });
         return;

@@ -25,8 +25,12 @@ const ANSWER_COUNT = "json_array_length(json_extract(data, '$.answers'))";
 
 /** A random Unlimited-pool prompt, skipping ones you've had this run. */
 practiceRoutes.post("/api/practice/question", async (c) => {
-  pid(c);
-  const body = await c.req.json<{ exclude?: string[]; minAnswers?: number; tier?: number }>().catch(() => ({}) as { exclude?: string[]; minAnswers?: number; tier?: number });
+  const playerId = pid(c);
+  const body = await c.req.json<{ exclude?: string[]; minAnswers?: number; tier?: number; runId?: string }>().catch(() => ({}) as { exclude?: string[]; minAnswers?: number; tier?: number; runId?: string });
+  const run = body.runId ? await loadRun(c.env, body.runId, playerId) : null;
+  // Rarity Roulette runs get their target tier from the server, so the score can be checked.
+  if (run?.mode === "roulette") body.tier = ROULETTE_TARGETS[Math.floor(Math.random() * ROULETTE_TARGETS.length)];
+  if (run) body.exclude = [...(body.exclude ?? []), ...run.data.questions.map((q) => q.id)];
   const exclude = (body.exclude ?? []).filter((x) => typeof x === "string").slice(-300);
   const minAnswers = Math.max(0, Math.min(200, Number(body.minAnswers) || 0));
   const [date, todays] = await unlimitedParams(c.env);
@@ -41,13 +45,19 @@ practiceRoutes.post("/api/practice/question", async (c) => {
     .bind(date, todays, JSON.stringify(exclude), minAnswers, ...(tier ? [tier] : []))
     .first<{ id: string; prompt: string; category: string; n: number }>();
   if (!row) throw new HttpError(404, "No more prompts for this run");
-  return c.json({ id: row.id, prompt: row.prompt, category: row.category, answerCount: row.n });
+  if (run) {
+    run.data.questions.push({ id: row.id, target: tier, at: Date.now() });
+    await saveRun(c.env, run);
+  }
+  return c.json({ id: row.id, prompt: row.prompt, category: row.category, answerCount: row.n, target: tier });
 });
 
 /** Check one guess. `taken` are answer ids you've already used (Five Answers, Abyss). */
 practiceRoutes.post("/api/practice/guess", async (c) => {
   pid(c);
-  const body = await c.req.json<{ id?: string; text?: string; taken?: string[]; confirm?: boolean }>().catch(() => ({}) as { id?: string; text?: string; taken?: string[]; confirm?: boolean });
+  const body = await c.req.json<{ id?: string; text?: string; taken?: string[]; confirm?: boolean; runId?: string }>().catch(
+    () => ({}) as { id?: string; text?: string; taken?: string[]; confirm?: boolean; runId?: string },
+  );
   if (!body.id || !body.text) throw new HttpError(400, "Missing guess");
   const index = await getIndex(c.env, String(body.id)).catch(() => null);
   if (!index) throw new HttpError(404, "No such question");
@@ -55,7 +65,129 @@ practiceRoutes.post("/api/practice/guess", async (c) => {
   if (r.accepted && r.corrected && !body.confirm) {
     return c.json({ accepted: false, answerId: null, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm" });
   }
+  if (body.runId && r.accepted && r.answerId && r.tier) {
+    const run = await loadRun(c.env, body.runId, pid(c));
+    if (run && !run.finished && run.data.questions.some((q) => q.id === body.id)) {
+      run.data.accepted.push({ qid: String(body.id), answerId: r.answerId, tier: r.tier, points: r.points, at: Date.now() });
+      await saveRun(c.env, run);
+    }
+  }
   return c.json({ accepted: r.accepted, answerId: r.answerId, canonical: r.canonical, tier: r.tier, points: r.points, corrected: r.corrected, reason: r.reason });
+});
+
+// ---------------------------------------------------------------------------
+// Scored runs for the quick modes. The server keeps the questions it handed out
+// and the answers it accepted, and works the score out itself at the end, so the
+// leaderboards can be trusted.
+// ---------------------------------------------------------------------------
+
+export type PracticeMode = "sprint" | "ladder" | "roulette" | "five";
+const MODES: readonly PracticeMode[] = ["sprint", "ladder", "roulette", "five"];
+const ROULETTE_TARGETS: TierPoints[] = [10, 30, 30, 60, 60, 85];
+const SLACK_MS = 2500; // network and timer slop
+
+interface RunData {
+  questions: { id: string; target: number | null; at: number }[];
+  accepted: { qid: string; answerId: string; tier: TierPoints; points: number; at: number }[];
+}
+interface Run {
+  id: string;
+  player_id: string;
+  mode: PracticeMode;
+  started_at: number;
+  finished: number;
+  score: number | null;
+  data: RunData;
+}
+
+let runsReady = false;
+export async function ensureRuns(env: Env) {
+  if (runsReady) return;
+  await env.DB.batch([
+    env.DB.prepare(
+      `CREATE TABLE IF NOT EXISTS practice_runs (
+         id TEXT PRIMARY KEY, player_id TEXT NOT NULL, mode TEXT NOT NULL, started_at INTEGER NOT NULL,
+         finished INTEGER NOT NULL DEFAULT 0, score INTEGER, data TEXT NOT NULL)`,
+    ),
+    env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_practice_runs_mode ON practice_runs(mode, finished, score)"),
+  ]);
+  runsReady = true;
+}
+
+async function loadRun(env: Env, id: string, playerId: string): Promise<Run | null> {
+  await ensureRuns(env);
+  const row = await env.DB.prepare("SELECT * FROM practice_runs WHERE id = ? AND player_id = ?").bind(id, playerId).first<Omit<Run, "data"> & { data: string }>();
+  return row ? { ...row, data: JSON.parse(row.data) as RunData } : null;
+}
+
+async function saveRun(env: Env, run: Run) {
+  await env.DB.prepare("UPDATE practice_runs SET data = ?, finished = ?, score = ? WHERE id = ?").bind(JSON.stringify(run.data), run.finished, run.score, run.id).run();
+}
+
+/** Work out a run's score from what the server saw, using each mode's rules. */
+export function scoreRun(run: Pick<Run, "mode" | "started_at" | "data">): number {
+  const { questions, accepted } = run.data;
+  const firstFor = (qid: string, until: number, ok: (a: RunData["accepted"][number]) => boolean = () => true) =>
+    accepted.filter((a) => a.qid === qid && a.at <= until && ok(a)).sort((x, y) => x.at - y.at)[0];
+  const end60 = run.started_at + 60_000 + SLACK_MS;
+  if (run.mode === "sprint") {
+    return questions.reduce((n, q) => n + (firstFor(q.id, end60)?.points ?? 0), 0);
+  }
+  if (run.mode === "five") {
+    const q = questions[0];
+    if (!q) return 0;
+    const seen = new Set<string>();
+    let total = 0;
+    for (const a of accepted.filter((x) => x.qid === q.id && x.at <= end60).sort((x, y) => x.at - y.at)) {
+      if (seen.has(a.answerId) || seen.size >= 5) continue;
+      seen.add(a.answerId);
+      total += a.points;
+    }
+    return total;
+  }
+  if (run.mode === "ladder") {
+    let floor = 0;
+    let rungs = 0;
+    for (const q of questions) {
+      const a = firstFor(q.id, q.at + 25_000 + SLACK_MS);
+      if (!a || a.tier < floor) break;
+      floor = a.tier;
+      rungs++;
+    }
+    return rungs;
+  }
+  // roulette: a hit is any accepted answer in the target tier, in time, on the first 7 prompts
+  return questions.slice(0, 7).filter((q) => q.target && firstFor(q.id, q.at + 25_000 + SLACK_MS, (a) => a.tier === q.target)).length;
+}
+
+practiceRoutes.post("/api/practice/start", async (c) => {
+  const playerId = pid(c);
+  const { mode } = await c.req.json<{ mode?: string }>().catch(() => ({ mode: "" }));
+  if (!(MODES as readonly string[]).includes(String(mode))) throw new HttpError(400, "Unknown mode");
+  await ensureRuns(c.env);
+  const id = crypto.randomUUID();
+  const now = Date.now();
+  await c.env.DB.prepare("INSERT OR IGNORE INTO players (id, created_at) VALUES (?, ?)").bind(playerId, now).run();
+  await c.env.DB.prepare("INSERT INTO practice_runs (id, player_id, mode, started_at, data) VALUES (?, ?, ?, ?, ?)")
+    .bind(id, playerId, mode, now, JSON.stringify({ questions: [], accepted: [] } satisfies RunData))
+    .run();
+  return c.json({ runId: id, startedAt: now });
+});
+
+practiceRoutes.post("/api/practice/finish", async (c) => {
+  const playerId = pid(c);
+  const { runId } = await c.req.json<{ runId?: string }>().catch(() => ({ runId: "" }));
+  const run = await loadRun(c.env, String(runId ?? ""), playerId);
+  if (!run) throw new HttpError(404, "No such run");
+  if (!run.finished) {
+    run.finished = 1;
+    run.score = scoreRun(run);
+    await saveRun(c.env, run);
+  }
+  const best = await c.env.DB.prepare("SELECT MAX(score) AS best FROM practice_runs WHERE player_id = ? AND mode = ? AND finished = 1")
+    .bind(playerId, run.mode)
+    .first<{ best: number | null }>();
+  return c.json({ score: run.score ?? 0, best: best?.best ?? run.score ?? 0 });
 });
 
 /** Every valid answer, for the end-of-prompt reveal. */
@@ -73,7 +205,7 @@ export const ABYSS_SECONDS = 45;
 const ABYSS_GRACE_MS = 1500;
 
 let abyssReady = false;
-async function ensureAbyss(env: Env) {
+export async function ensureAbyss(env: Env) {
   if (abyssReady) return;
   await env.DB.batch([
     env.DB.prepare(
@@ -89,7 +221,7 @@ async function ensureAbyss(env: Env) {
 }
 
 /** Weeks start on Monday (Mountain time, like the Daily). Returns the Monday's date. */
-function weekOf(now: number): { week: string; endsAt: number } {
+export function weekOf(now: number): { week: string; endsAt: number } {
   const d = new Date(`${today(now)}T12:00:00Z`);
   const back = (d.getUTCDay() + 6) % 7;
   d.setUTCDate(d.getUTCDate() - back);

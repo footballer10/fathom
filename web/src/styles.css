@@ -2100,3 +2100,13 @@ body:has(.battle) .toasts { bottom: 104px; }
   text-shadow: 0 0 14px rgba(255, 60, 60, 0.9), 0 3px 0 #8b0000;
 }
 .tag--school { font-size: 0.85rem; }
+
+/* Leaderboard sections */
+.board-tabs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; position: sticky; top: 8px; z-index: 6; }
+.board-tab {
+  padding: 7px 14px; border-radius: 99px; font-weight: 700; font-size: 0.9rem; text-decoration: none; color: var(--text);
+  background: rgba(4, 24, 48, 0.75); border: 1px solid var(--glass-border); backdrop-filter: blur(10px);
+}
+.board-tab:hover, .board-tab--on { border-color: var(--accent); color: var(--accent); }
+.board-section { scroll-margin-top: 60px; display: flex; flex-direction: column; gap: 10px; }
+.board-section-title { margin: 14px 0 0; font-size: 1.25rem; }

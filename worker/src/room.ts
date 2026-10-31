@@ -1044,7 +1044,7 @@ export class Room extends DurableObject<Env> {
       depth: s.kind === "dive" ? partyDepth(x.score, (s.settings as DiveSettings).questionCount) : pointsToDepth(x.score),
       timeUsedMs: x.timeUsedMs,
       // Team and survival modes can have several winners, all ranked 1st.
-      rank: isWinner(x, i) ? 1 : i + 1,
+      rank: isWinner(x, i) ? 1 : coop ? 2 : i + 1, // a missed Co-op target means nobody won
       depthTrail: x.depthTrail,
       eliminatedAt: x.eliminatedAt,
       ...(x.team !== undefined ? { team: x.team } : {}),
@@ -1062,7 +1062,14 @@ export class Room extends DurableObject<Env> {
     this.broadcast({ type: "gameOver", results, bestAnswer });
     // For the global leaderboards (party wins). Never let a database hiccup break the game.
     this.ctx.waitUntil(
-      recordPartyResults(this.env, s.kind, s.code, results.map((r) => ({ playerId: r.playerId, rank: r.rank, score: r.score })), Date.now()).catch(
+      recordPartyResults(
+        this.env,
+        s.kind,
+        s.code,
+        results.map((r) => ({ playerId: r.playerId, rank: r.rank, score: r.score })),
+        Date.now(),
+        (s.settings as { variant?: string }).variant ?? "classic",
+      ).catch(
         (err) => console.error("recordPartyResults", err),
       ),
     );

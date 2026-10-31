@@ -1,5 +1,6 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
+import { ensureAbyss, ensureRuns, weekOf } from "./practice";
 import { friendStatus } from "./social";
 import { HttpError } from "./env";
 import type { Env } from "./env";
@@ -32,6 +33,8 @@ async function ensurePartyTable(env: Env) {
     ),
     env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_party_results_player ON party_results(player_id)"),
   ]);
+  // The party mode (Co-op, Shark Tank…) was added later; add the column once if it's missing.
+  await env.DB.prepare("ALTER TABLE party_results ADD COLUMN variant TEXT NOT NULL DEFAULT 'classic'").run().catch(() => {});
   partyTableReady = true;
 }
 
@@ -42,14 +45,15 @@ export async function recordPartyResults(
   room: string,
   results: { playerId: string; rank: number; score: number }[],
   now: number,
+  variant = "classic",
 ) {
   if (results.length < 2) return;
   await ensurePartyTable(env);
   await env.DB.batch(
     results.map((r) =>
       env.DB.prepare(
-        "INSERT INTO party_results (kind, room, player_id, rank, player_count, score, finished_at) VALUES (?, ?, ?, ?, ?, ?, ?)",
-      ).bind(kind, room, r.playerId, r.rank, results.length, r.score, now),
+        "INSERT INTO party_results (kind, variant, room, player_id, rank, player_count, score, finished_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+      ).bind(kind, variant, room, r.playerId, r.rank, results.length, r.score, now),
     ),
   );
 }
@@ -58,8 +62,10 @@ export interface Board {
   id: string;
   title: string;
   description: string;
-  /** How to show the value: a count, metres, or a percentage. */
-  unit: "count" | "meters" | "percent" | "days";
+  /** Which section of the page it sits in. */
+  group: string;
+  /** How to show the value. "tier" is a tier's points (shown as its name). */
+  unit: "count" | "meters" | "percent" | "days" | "rungs" | "hits" | "tier";
   rows: { rank: number; nickname: string; value: number; playerId: string; code: string | null }[];
 }
 
@@ -68,7 +74,21 @@ const NAMED = "p.nickname IS NOT NULL AND TRIM(p.nickname) != ''";
 const SOLO_PLAYS = `FROM plays pl JOIN sessions s ON s.id = pl.session_id JOIN players p ON p.id = s.player_id
                     WHERE ${NAMED} AND s.mode IN ('daily', 'unlimited')`;
 
-const BOARDS: { id: string; title: string; description: string; unit: Board["unit"]; sql: string }[] = [
+type BoardDef = { id: string; title: string; description: string; unit: Board["unit"]; group?: string; sql: string | ((now: number) => string) };
+
+const SOLO_GROUP = "Daily & Unlimited";
+const QUICK_GROUP = "Quick modes";
+const ABYSS_GROUP = "Weekly Abyss";
+const PARTY_GROUP = "Party";
+
+/** Best finished run per player in one quick mode. */
+const bestRun = (mode: string) => `SELECT r.player_id, MAX(r.score) AS value FROM practice_runs r JOIN players p ON p.id = r.player_id
+          WHERE ${NAMED} AND r.mode = '${mode}' AND r.finished = 1 GROUP BY r.player_id`;
+/** Party wins in one mode (several winners can share 1st in team and survival modes). */
+const partyWins = (kind: string, variant: string) => `SELECT r.player_id, COUNT(*) AS value FROM party_results r JOIN players p ON p.id = r.player_id
+          WHERE ${NAMED} AND r.kind = '${kind}' AND COALESCE(r.variant, 'classic') = '${variant}' AND r.rank = 1 GROUP BY r.player_id`;
+
+const BOARDS: BoardDef[] = [
   {
     id: "unlimited-answered",
     title: "Unlimited explorers",
@@ -152,40 +172,75 @@ const BOARDS: { id: string; title: string; description: string; unit: Board["uni
   },
   {
     id: "dive-wins",
+    group: PARTY_GROUP,
     title: "Party Dive wins",
     description: "Group Dive games won",
     unit: "count",
     sql: `SELECT r.player_id, COUNT(*) AS value FROM party_results r JOIN players p ON p.id = r.player_id
-          WHERE ${NAMED} AND r.kind = 'dive' AND r.rank = 1 GROUP BY r.player_id`,
+          WHERE ${NAMED} AND r.kind = 'dive' AND COALESCE(r.variant, 'classic') = 'classic' AND r.rank = 1 GROUP BY r.player_id`,
   },
+  { id: "coop-wins", group: PARTY_GROUP, title: "🤝 Co-op successes", description: "Co-op Dives where the team reached the target", unit: "count", sql: partyWins("dive", "coop") },
+  { id: "shark-wins", group: PARTY_GROUP, title: "🦈 Shark Tank survivors", description: "Shark Tank games survived to the end", unit: "count", sql: partyWins("dive", "shark") },
+  { id: "school-wins", group: PARTY_GROUP, title: "🐟 School of Fish wins", description: "School of Fish games won", unit: "count", sql: partyWins("dive", "school") },
   {
     id: "battle-wins",
+    group: PARTY_GROUP,
     title: "Battle wins",
     description: "Last diver standing in Battle",
     unit: "count",
     sql: `SELECT r.player_id, COUNT(*) AS value FROM party_results r JOIN players p ON p.id = r.player_id
-          WHERE ${NAMED} AND r.kind = 'battle' AND r.rank = 1 GROUP BY r.player_id`,
+          WHERE ${NAMED} AND r.kind = 'battle' AND COALESCE(r.variant, 'classic') = 'classic' AND r.rank = 1 GROUP BY r.player_id`,
   },
+  { id: "hotpotato-wins", group: PARTY_GROUP, title: "🥔 Hot Potato wins", description: "Hot Potato games won", unit: "count", sql: partyWins("battle", "hotpotato") },
+  { id: "relay-wins", group: PARTY_GROUP, title: "🔤 Relay wins", description: "Relay games won with your team", unit: "count", sql: partyWins("battle", "relay") },
   {
     id: "party-win-rate",
+    group: PARTY_GROUP,
     title: "Party win rate",
-    description: `Share of party games won, Dive and Battle (${MIN_PARTY_GAMES_FOR_RATE}+ games)`,
+    description: `Share of party games won, every mode (${MIN_PARTY_GAMES_FOR_RATE}+ games)`,
     unit: "percent",
     sql: `SELECT r.player_id, ROUND(100.0 * SUM(r.rank = 1) / COUNT(*), 1) AS value FROM party_results r
           JOIN players p ON p.id = r.player_id WHERE ${NAMED}
           GROUP BY r.player_id HAVING COUNT(*) >= ${MIN_PARTY_GAMES_FOR_RATE}`,
+  },
+
+  // Quick modes: best scored run (the server works the score out itself).
+  { id: "sprint", group: QUICK_GROUP, title: "⚡ Sprint", description: "Most depth in 60 seconds", unit: "meters", sql: bestRun("sprint").replace("MAX(r.score)", "MAX(r.score) * 10") },
+  { id: "ladder", group: QUICK_GROUP, title: "🪜 Ladder", description: "Highest climb without going more common", unit: "rungs", sql: bestRun("ladder") },
+  { id: "roulette", group: QUICK_GROUP, title: "🎯 Rarity Roulette", description: "Most exact tiers hit out of 7", unit: "hits", sql: bestRun("roulette") },
+  { id: "five", group: QUICK_GROUP, title: "🖐️ Five Answers", description: "Deepest five answers to one prompt", unit: "meters", sql: bestRun("five").replace("MAX(r.score)", "MAX(r.score) * 10") },
+
+  // Weekly Abyss: this week's rarest answer, and Abyss dives taken all time.
+  {
+    id: "abyss-week",
+    group: ABYSS_GROUP,
+    title: "🕳️ This week's Abyss",
+    description: "Rarest answer in this week's dive",
+    unit: "tier",
+    sql: (now) => `SELECT a.player_id, MAX(a.best_tier) AS value FROM abyss_attempts a JOIN players p ON p.id = a.player_id
+          WHERE ${NAMED} AND a.week = '${weekOf(now).week}' AND a.best_tier IS NOT NULL GROUP BY a.player_id`,
+  },
+  {
+    id: "abyss-krillions",
+    group: ABYSS_GROUP,
+    title: "🐋 Abyss krillions",
+    description: "Weeks where your Abyss answer was a One in a Krillion",
+    unit: "count",
+    sql: `SELECT a.player_id, COUNT(*) AS value FROM abyss_attempts a JOIN players p ON p.id = a.player_id
+          WHERE ${NAMED} AND a.best_tier = 100 GROUP BY a.player_id`,
   },
 ];
 
 let cache: { at: number; boards: Board[] } | null = null;
 
 async function computeBoards(env: Env): Promise<Board[]> {
-  await ensurePartyTable(env);
+  await Promise.all([ensurePartyTable(env), ensureRuns(env), ensureAbyss(env)]);
+  const now = Date.now();
   const names = new Map<string, string>();
   const results = await env.DB.batch(
     BOARDS.map((b) =>
       env.DB.prepare(
-        `SELECT t.player_id, t.value, p.nickname, p.friend_code FROM (${b.sql}) t JOIN players p ON p.id = t.player_id
+        `SELECT t.player_id, t.value, p.nickname, p.friend_code FROM (${typeof b.sql === "function" ? b.sql(now) : b.sql}) t JOIN players p ON p.id = t.player_id
          WHERE t.value > 0 ORDER BY t.value DESC, p.nickname LIMIT ${TOP}`,
       ),
     ),
@@ -203,6 +258,7 @@ async function computeBoards(env: Env): Promise<Board[]> {
       title: b.title,
       description: b.description,
       unit: b.unit,
+      group: b.group ?? SOLO_GROUP,
       rows: rows.map((r, j) => {
         if (r.value !== prev) rank = j + 1;
         prev = r.value;

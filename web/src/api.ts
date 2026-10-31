@@ -57,7 +57,9 @@ export interface LeaderboardBoard {
   id: string;
   title: string;
   description: string;
-  unit: "count" | "meters" | "percent" | "days";
+  unit: "count" | "meters" | "percent" | "days" | "rungs" | "hits" | "tier";
+  /** Section of the page: Daily & Unlimited, Quick modes, Weekly Abyss, Party. */
+  group: string;
   rows: LeaderboardEntry[];
 }
 
@@ -84,6 +86,8 @@ export interface PracticeQuestion {
   prompt: string;
   category: Category;
   answerCount: number;
+  /** Rarity Roulette runs: the tier this prompt asks for (chosen by the server). */
+  target?: TierPoints | null;
 }
 
 export interface PracticeGuess {
@@ -155,8 +159,11 @@ export const api = {
   requestFriend: (code: string) => call<{ status: "sent" | "friends"; nickname: string | null }>("POST", "/api/friends/requests", { code }),
   friendRequests: () => call<{ requests: FriendRequest[] }>("GET", "/api/friends/requests"),
   answerRequest: (code: string, answer: "accept" | "decline") => call<{ ok: true }>("POST", `/api/friends/requests/${encodeURIComponent(code)}/${answer}`),
-  practiceQuestion: (opts: { exclude?: string[]; minAnswers?: number; tier?: number } = {}) => call<PracticeQuestion>("POST", "/api/practice/question", opts),
-  practiceGuess: (id: string, text: string, taken: string[] = [], confirm = false) => call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken, confirm }),
+  practiceStart: (mode: string) => call<{ runId: string; startedAt: number }>("POST", "/api/practice/start", { mode }),
+  practiceFinish: (runId: string) => call<{ score: number; best: number }>("POST", "/api/practice/finish", { runId }),
+  practiceQuestion: (opts: { exclude?: string[]; minAnswers?: number; tier?: number; runId?: string } = {}) => call<PracticeQuestion>("POST", "/api/practice/question", opts),
+  practiceGuess: (id: string, text: string, taken: string[] = [], confirm = false, runId?: string) =>
+    call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken, confirm, runId }),
   practiceAnswers: (id: string) => call<{ answers: RevealAnswer[] }>("GET", `/api/practice/answers/${encodeURIComponent(id)}`),
   abyss: () => call<AbyssStatus>("GET", "/api/abyss"),
   abyssStart: () => call<{ prompt: string; category: Category; attempt: AbyssAttempt }>("POST", "/api/abyss/start"),
