@@ -195,10 +195,32 @@ const firstLetter = (text: string) => plainLetters(text)[0] ?? null;
 const lastLetter = (text: string) => plainLetters(text).slice(-1) || null;
 
 /** Relay: split players into two teams by join order and interleave them so turns alternate teams. */
+/**
+ * Relay turn order: keep the teams the host set up (anyone without a team
+ * joins the smaller one), then interleave the two teams so turns alternate.
+ */
 function relayOrder(players: Seat[]): string[] {
   const sorted = [...players].sort((a, b) => a.joinedAt - b.joinedAt);
-  sorted.forEach((p, i) => (p.team = i % 2));
-  return sorted.map((p) => p.id);
+  assignTeams(sorted);
+  const t0 = sorted.filter((p) => p.team === 0);
+  const t1 = sorted.filter((p) => p.team === 1);
+  const order: string[] = [];
+  for (let i = 0; i < Math.max(t0.length, t1.length); i++) {
+    if (t0[i]) order.push(t0[i].id);
+    if (t1[i]) order.push(t1[i].id);
+  }
+  return order;
+}
+
+/** Put anyone without a team on the smaller team (by join order). */
+function assignTeams(seats: Seat[]) {
+  const count = [0, 0];
+  for (const p of seats) if (p.team === 0 || p.team === 1) count[p.team]++;
+  for (const p of [...seats].sort((a, b) => a.joinedAt - b.joinedAt)) {
+    if (p.team === 0 || p.team === 1) continue;
+    p.team = count[0] <= count[1] ? 0 : 1;
+    count[p.team]++;
+  }
 }
 
 export class Room extends DurableObject<Env> {
@@ -274,6 +296,19 @@ export class Room extends DurableObject<Env> {
       case "settings":
         if (pid !== this.s.hostId || (this.s.phase !== "lobby" && this.s.phase !== "over")) return;
         this.applySettings(msg.settings ?? {});
+        this.syncRelayTeams();
+        break;
+      case "mode":
+        if (pid !== this.s.hostId || (this.s.phase !== "lobby" && this.s.phase !== "over")) return;
+        this.switchMode(ws, msg.kind === "battle" ? "battle" : "dive", String(msg.variant ?? "classic"));
+        break;
+      case "team":
+        if (pid !== this.s.hostId || this.s.phase !== "lobby" || !this.s.seats[msg.playerId]) return;
+        this.s.seats[msg.playerId].team = msg.team === 1 ? 1 : 0;
+        break;
+      case "shuffleTeams":
+        if (pid !== this.s.hostId || this.s.phase !== "lobby") return;
+        this.shuffleTeams();
         break;
       case "start":
         if (pid !== this.s.hostId) return this.send(ws, { type: "error", message: "Only the host can start" });
@@ -407,9 +442,41 @@ export class Room extends DurableObject<Env> {
       existing.nickname = nickname; // reconnecting to the same seat (maybe with a new name)
     }
     ws.serializeAttachment({ playerId } satisfies Attachment);
+    if (s.phase === "lobby") this.syncRelayTeams();
     if (!s.hostId || !this.connectedIds().has(s.hostId)) s.hostId = playerId;
     s.lastActivity = now;
     await this.commit();
+  }
+
+  /** Lobby: switch between Dive and Battle (settings reset to that kind's defaults, keeping the question source). */
+  private switchMode(ws: WebSocket, kind: RoomKind, variant: string) {
+    const s = this.s!;
+    if (s.phase === "over") this.toLobby();
+    const seated = Object.values(s.seats).filter((x) => !x.spectator).length;
+    const max = kind === "dive" ? DIVE_DEFAULTS.maxPlayers : BATTLE_DEFAULTS.maxPlayers;
+    if (seated > max) return this.send(ws, { type: "error", message: `Too many players for ${kind === "dive" ? "Dive" : "Battle"} (max ${max})` });
+    if (kind !== s.kind) {
+      const prev = s.settings;
+      s.kind = kind;
+      s.settings = { ...defaultSettings(kind), source: prev.source, category: prev.category } as DiveSettings | BattleSettings;
+      s.results = undefined;
+    }
+    (s.settings as { variant?: string }).variant = validVariant(kind, variant);
+    this.syncRelayTeams();
+  }
+
+  /** Relay rooms keep everyone on a team; other modes don't use teams. */
+  private syncRelayTeams() {
+    const s = this.s!;
+    const seats = Object.values(s.seats);
+    if (s.kind === "battle" && battleVariant(s) === "relay") assignTeams(seats);
+    else if (s.phase === "lobby") for (const x of seats) x.team = undefined;
+  }
+
+  /** Random, even split into the two Relay teams. */
+  private shuffleTeams() {
+    const seats = Object.values(this.s!.seats).sort(() => Math.random() - 0.5);
+    seats.forEach((x, i) => (x.team = i % 2));
   }
 
   /** The host removes a player: their seat goes, their connection closes, and they can't come back. */
@@ -509,8 +576,8 @@ export class Room extends DurableObject<Env> {
         eliminatedAt: undefined,
         depthTrail: [],
         lifeMeter: 0,
-        team: undefined,
       });
+      if (!(s.kind === "battle" && battleVariant(s) === "relay")) seat.team = undefined;
     }
     const players = Object.values(s.seats).filter((x) => !x.spectator);
     s.results = undefined;
@@ -549,6 +616,12 @@ export class Room extends DurableObject<Env> {
     for (const p of players) p.lives = set.lives;
     const relay = battleVariant(s) === "relay";
     if (relay && players.length < 2) return this.send(ws, { type: "error", message: "Relay needs at least 2 players" });
+    if (relay) {
+      assignTeams(players);
+      if (!players.some((p) => p.team === 0) || !players.some((p) => p.team === 1)) {
+        return this.send(ws, { type: "error", message: "Each Relay team needs at least one player" });
+      }
+    }
     const q = (await getQuestions(this.env, [ids[0]])).get(ids[0])!;
     await markRoomSeen(this.env, this.roomPlayerIds(), ids[0], now);
     s.battle = {

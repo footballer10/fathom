@@ -145,6 +145,39 @@ try {
     checks.check("relay: the surviving team wins together", typeof res.winningTeam === "number" && res.results.filter((r) => r.rank === 1).every((r) => r.team === res.winningTeam));
     bots.forEach((b) => b.close());
   }
+
+  // ---- Switching game type and editing teams in the lobby ----
+  {
+    const code = await createRoom("dive");
+    const bots = Array.from({ length: 3 }, (_, i) => new Bot(code, `sim-var-switch-${run}-${i}`, `Sw${i}`));
+    for (const b of bots) await b.connect();
+    const host = bots[0];
+    await host.waitFor((m) => m.type === "state" && m.state.players.length === 3, 5000);
+    host.send({ type: "mode", kind: "battle", variant: "relay" });
+    await sleep(400);
+    let st = latest(host);
+    checks.check("a Dive room can switch to Battle (Relay) in the lobby", st.kind === "battle" && (st.settings as { variant?: string }).variant === "relay");
+    checks.check("switching to Relay puts everyone on a team", st.players.every((p) => p.team === 0 || p.team === 1) && new Set(st.players.map((p) => p.team)).size === 2);
+    bots[1].send({ type: "team", playerId: bots[2].playerId, team: 0 }); // not the host: ignored
+    for (const b of bots) host.send({ type: "team", playerId: b.playerId, team: 0 });
+    await sleep(400);
+    st = latest(host);
+    checks.check("the host can move players between teams", st.players.every((p) => p.team === 0));
+    host.inbox.length = 0;
+    host.send({ type: "start" });
+    const err = (await host.waitFor((m) => m.type === "error", 3000).catch(() => null)) as Extract<ServerMessage, { type: "error" }> | null;
+    checks.check("Relay won't start with an empty team", !!err && /team/i.test(err.message), err?.message);
+    host.send({ type: "team", playerId: bots[2].playerId, team: 1 });
+    await sleep(300);
+    host.send({ type: "start" });
+    await host.waitFor((m) => m.type === "state" && m.state.phase === "turn", 5000);
+    st = latest(host);
+    checks.check("the game keeps the host's teams", st.players.find((p) => p.id === bots[2].playerId)?.team === 1 && st.players.filter((p) => p.team === 0).length === 2);
+    host.send({ type: "mode", kind: "dive", variant: "classic" });
+    await sleep(300);
+    checks.check("the game type can't change mid-game", latest(host).kind === "battle");
+    bots.forEach((b) => b.close());
+  }
 } finally {
   stop();
 }

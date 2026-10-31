@@ -2079,3 +2079,18 @@ body:has(.battle) .toasts { bottom: 104px; }
 .did-you-mean-actions { display: inline-flex; gap: 8px; }
 .did-you-mean kbd { font-size: 0.7rem; opacity: 0.75; margin-left: 4px; }
 .dock-input .did-you-mean { margin-top: 8px; }
+
+/* Relay team editor (lobby) */
+.team-editor { display: flex; flex-direction: column; gap: 10px; align-items: stretch; }
+.team-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.team-col { display: flex; flex-direction: column; gap: 6px; padding: 8px; border-radius: 12px; background: rgba(2, 14, 30, 0.35); }
+.team-col--0 { border: 1px solid rgba(255, 122, 138, 0.5); }
+.team-col--1 { border: 1px solid rgba(80, 210, 140, 0.5); }
+.team-col .team-name { text-align: center; }
+.team-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.team-list li { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding: 5px 8px; border-radius: 8px; background: rgba(255, 255, 255, 0.05); }
+.team-list li.me { box-shadow: 0 0 0 1px var(--accent) inset; }
+.team-move { width: 30px; height: 26px; border-radius: 8px; cursor: pointer; background: rgba(255, 255, 255, 0.08); color: var(--text); border: 1px solid var(--glass-border); }
+.team-move:hover { border-color: var(--accent); }
+.team-actions { display: inline-flex; align-items: center; gap: 2px; }
+.team-list li:hover .kick-btn { border-color: rgba(255, 90, 110, 0.6); color: #ff9aa6; }

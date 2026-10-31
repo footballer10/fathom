@@ -180,6 +180,11 @@ export type ClientMessage =
   | { type: "guess"; text: string; confirm?: boolean }
   | { type: "vote"; optionId: string }
   | { type: "kick"; playerId: string }
+  /** Host, in the lobby: switch the room between Dive and Battle (and pick a variant). */
+  | { type: "mode"; kind: RoomKind; variant: DiveVariant | BattleVariant }
+  /** Host, in the lobby: move a player to team 0 or 1 (Relay), or shuffle everyone. */
+  | { type: "team"; playerId: string; team: number }
+  | { type: "shuffleTeams" }
   | { type: "typing"; text: string }
   | { type: "ping"; t: number };
 

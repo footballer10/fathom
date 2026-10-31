@@ -12,7 +12,7 @@ const run = Date.now().toString(36);
 
 /** A one-letter-swap typo of the first long answer (keeps the first letter, so it's one autocorrect away). */
 function typoFor(prompt: string) {
-  const a = (book.get(prompt) ?? []).find((x) => /^[a-z]{8,}$/i.test(x.text));
+  const a = (book.get(prompt) ?? []).find((x) => /^[a-z]{8,}$/i.test(x.text) && x.text[3] !== x.text[4]);
   if (!a) return null;
   const t = a.text;
   return { real: a.text, typo: t.slice(0, 3) + t[4] + t[3] + t.slice(5) };

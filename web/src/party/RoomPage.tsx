@@ -11,7 +11,7 @@ import {
   partyDepthScale,
   tierInfo,
 } from "@fathom/shared";
-import type { BattleSettings, Category, DiveSettings, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
+import type { BattleSettings, Category, DiveSettings, GameResult, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
 import type { GaugeDiver } from "../components/DepthGauge";
 import { api, serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
@@ -63,6 +63,59 @@ function RoundClock({ endsAt, totalMs }: { endsAt: number; totalMs: number }) {
         <div className="round-clock-fill" style={{ width: `${Math.min(100, (left / totalMs) * 100)}%` }} />
       </div>
       <span>{Math.ceil(left / 1000)}s left</span>
+    </div>
+  );
+}
+
+/** Relay lobby: the two teams side by side; the host can move people or shuffle. */
+function TeamEditor({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; send: Send }) {
+  const teams = [0, 1].map((t) => state.players.filter((p) => (p.team ?? 0) === t));
+  return (
+    <div className="team-editor">
+      <div className="team-cols">
+        {teams.map((members, t) => (
+          <div key={t} className={`team-col team-col--${t}`}>
+            <div className={`team-name team-name--${t}`}>
+              {TEAM_NAMES[t]} ({members.length})
+            </div>
+            <ul className="team-list">
+              {members.map((p) => (
+                <li key={p.id} className={p.id === state.you ? "me" : ""}>
+                  <span className="player-name">
+                    {state.hostId === p.id && "👑 "}
+                    {p.nickname}
+                    {p.id === state.you && <span className="muted small"> (you)</span>}
+                  </span>
+                  {isHost && (
+                    <span className="team-actions">
+                      <button className="team-move" title={`Move to ${TEAM_NAMES[1 - t]}`} onClick={() => send({ type: "team", playerId: p.id, team: 1 - t })}>
+                        {t === 0 ? "→" : "←"}
+                      </button>
+                      {p.id !== state.you && (
+                        <button
+                          className="kick-btn"
+                          title={`Remove ${p.nickname} from the room`}
+                          aria-label={`Remove ${p.nickname}`}
+                          onClick={() => confirm(`Remove ${p.nickname} from the room? They won't be able to rejoin.`) && send({ type: "kick", playerId: p.id })}
+                        >
+                          ✕
+                        </button>
+                      )}
+                    </span>
+                  )}
+                </li>
+              ))}
+              {!members.length && <li className="muted small">Nobody yet</li>}
+            </ul>
+          </div>
+        ))}
+      </div>
+      {isHost && (
+        <button className="btn btn--ghost btn--small" onClick={() => send({ type: "shuffleTeams" })}>
+          🔀 Shuffle teams
+        </button>
+      )}
+      {teams.some((m) => m.length === 0) && <p className="muted small">Each team needs at least one player.</p>}
     </div>
   );
 }
@@ -414,18 +467,34 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
           <h3>
             Players ({state.players.length}/{state.kind === "dive" ? DIVE_DEFAULTS.maxPlayers : BATTLE_DEFAULTS.maxPlayers})
           </h3>
-          <PlayerList state={state} send={send} />
+          {state.kind === "battle" && variantKey === "relay" ? <TeamEditor state={state} isHost={isHost} send={send} /> : <PlayerList state={state} send={send} />}
         </div>
         <div className="card settings-card">
           <h3>Settings {isHost ? "" : <span className="muted small">(host picks)</span>}</h3>
           <label className="field">
-            <span>Mode</span>
-            <select value={variantKey} disabled={!isHost} onChange={(e) => set({ variant: e.target.value as never })}>
-              {(state.kind === "dive" ? (["classic", "coop", "shark", "bluff"] as const) : (["classic", "hotpotato", "relay"] as const)).map((v) => (
-                <option key={v} value={v}>
-                  {VARIANT_INFO[v].emoji} {v === "classic" ? (state.kind === "dive" ? "Classic Dive" : "Classic Battle") : VARIANT_INFO[v].name}
-                </option>
-              ))}
+            <span>Game</span>
+            <select
+              value={`${state.kind}:${variantKey}`}
+              disabled={!isHost}
+              onChange={(e) => {
+                const [kind, variant] = e.target.value.split(":") as ["dive" | "battle", never];
+                if (isHost) send({ type: "mode", kind, variant });
+              }}
+            >
+              <optgroup label="Group Dive: everyone answers at once">
+                {(["classic", "coop", "shark", "bluff"] as const).map((v) => (
+                  <option key={v} value={`dive:${v}`}>
+                    {v === "classic" ? "🌊 Dive" : `${VARIANT_INFO[v].emoji} ${VARIANT_INFO[v].name}`}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="Battle: take turns">
+                {(["classic", "hotpotato", "relay"] as const).map((v) => (
+                  <option key={v} value={`battle:${v}`}>
+                    {v === "classic" ? "🐡 Battle" : `${VARIANT_INFO[v].emoji} ${VARIANT_INFO[v].name}`}
+                  </option>
+                ))}
+              </optgroup>
             </select>
           </label>
           {variantKey !== "classic" && <p className="muted small variant-blurb">{VARIANT_INFO[variantKey].blurb}</p>}
@@ -786,7 +855,8 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
     const t = setTimeout(() => setShowPodium(true), 4800);
     return () => clearTimeout(t);
   }, [reducedMotion]);
-  const lanes = results.slice(0, 8);
+  // Lanes go in join order, not by score, so the race doesn't give the winner away.
+  const lanes = state.players.map((p) => results.find((r) => r.playerId === p.id)).filter((r): r is GameResult => !!r).slice(0, 8);
   const coop = state.results?.coop;
   const variant = (state.settings as DiveSettings).variant ?? "classic";
   const qc = gameQuestions(state);
