@@ -222,10 +222,10 @@ function SoloRun({
     [],
   );
 
-  // The submarine dives with your running total (Roulette keeps score in hits, so it stays put).
+  // The submarine dives with your running total (in Roulette, each bullseye adds that answer's depth).
   useEffect(() => {
-    if (mode !== "roulette") onDepth(points);
-  }, [mode, points, onDepth]);
+    onDepth(points);
+  }, [points, onDepth]);
 
   // Start the run.
   useEffect(() => {
@@ -352,6 +352,7 @@ function SoloRun({
         const rd = round + 1;
         setHits(h);
         setRound(rd);
+        setPoints((p) => p + r.points);
         setFlash({ id: Date.now(), tier: r.tier, text: r.canonical });
         setMsg({ text: "Bullseye! 🎯", tone: "good" });
         await nextRoulette(h, rd);
@@ -369,7 +370,7 @@ function SoloRun({
         ? `${found.length}/5 · ${formatDepth(points * 10)}`
         : mode === "ladder"
           ? `Rung ${hits + 1}${floor ? ` · ${tierInfo(floor).emoji} ${tierInfo(floor).name} or rarer` : " · any tier"}`
-          : `Prompt ${Math.min(round + 1, 7)} of 7 · ${hits} hit${hits === 1 ? "" : "s"}`;
+          : `Prompt ${Math.min(round + 1, 7)} of 7 · ${hits} hit${hits === 1 ? "" : "s"} · ${formatDepth(points * 10)}`;
 
   return (
     <div className="game solo-run">
