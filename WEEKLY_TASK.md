@@ -172,7 +172,14 @@ npm run export:rejected
 ```
 
 This saves `content/incoming/rejected-<today>.txt`: wrong guesses that players typed at least
-twice, plus "this should count" reports. For each item decide:
+twice, plus "this should count" reports (lines marked `REPORTED`).
+
+**Every reported answer gets a decision**, even if only one person reported it. A player took the
+time to say "this should count", so Rule #1 applies: if it's a real, valid answer to the prompt,
+accept it (as a new answer or an alias). Only leave it out if it's plainly wrong. List every
+report and your decision in the log.
+
+For each item decide:
 
 - **Misspelling** of an existing answer → add it as an alias of that answer.
 - **Valid answer that's missing** → add it as a new answer in the right tier.
@@ -204,7 +211,39 @@ npm run validate:questions -- content/incoming/fixes-<today>.txt
 npm run import -- content/incoming/fixes-<today>.txt
 ```
 
+When the fixes are imported (or if nothing needed fixing), mark the whole export as reviewed so
+next week only shows new items:
+
+```bash
+npm run review:done
+```
+
 If the export is empty, skip this step.
+
+### 9b. Player suggestions
+
+```bash
+npm run suggestions
+```
+
+This saves `content/incoming/suggestions-<today>.txt`: everything players sent through the
+"Suggest a fix" box since last week. For each one:
+
+- **answer** (a wrong, missing or misspelled answer, or a confusing question): fix it with a FIXES
+  block like step 9 (or rewrite the question with `--replace` if the prompt itself is the problem).
+- **bug**, **idea** or **other**: don't change any code. Summarize them for the owner.
+
+In the log, add a **Player suggestions** section: what you fixed, then a short, grouped summary
+of the bugs and ideas (with how many people asked for similar things). Put the 2–3 most
+important points in the final PushNotification summary too, so the owner sees them.
+
+Then mark them reviewed:
+
+```bash
+npm run suggestions -- --done
+```
+
+If there are no suggestions, say "No suggestions this week" in the log and skip the rest.
 
 ### 10. Refresh the Unlimited pool
 
@@ -215,10 +254,11 @@ npm run pool:refresh
 ### 11. Tidy up and log
 
 - Move every file you imported successfully from `content/incoming/` to `content/imported/`.
-  Delete the brief and the rejected export (they're regenerated each week).
+  Delete the brief, the rejected export and the suggestions files (they're regenerated each week).
 - Write `content/logs/<today>.md` with:
   - How many Daily and Unlimited questions were added, and the dates filled
-  - The fixes applied
+  - The fixes applied, and every reported answer with your decision
+  - Player suggestions: what you fixed, plus a grouped summary of bugs and ideas
   - The pool size before and after the refresh
   - Anything that failed, and which files are still waiting in `content/incoming/`
 - Download a full backup of every live question (it writes `content/backup/`):

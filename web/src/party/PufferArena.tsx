@@ -53,6 +53,17 @@ export function PufferArena({
   const facingRight = Math.abs(aim) < 90;
   const tilt = facingRight ? aim : aim > 0 ? aim - 180 : aim + 180;
 
+  // The fish swims most of the way over to whoever has it, then back out on
+  // the next pass, curving through the middle of the ring rather than cutting across.
+  const fishAt: Pos = holderAt ? toward(holderAt, 0.66) : CENTER;
+  const target = `${fishAt.x},${fishAt.y}`;
+  const track = useRef({ target, from: fishAt, to: fishAt });
+  if (track.current.target !== target) track.current = { target, from: track.current.to, to: fishAt };
+  const { from, to } = track.current;
+  const mid = { x: (from.x + to.x) / 2 + (CENTER.x - (from.x + to.x) / 2) * 0.6, y: (from.y + to.y) / 2 + (CENTER.y - (from.y + to.y) / 2) * 0.6 };
+  const moved = from.x !== to.x || from.y !== to.y;
+  const swim = reducedMotion || !moved ? { duration: 0 } : { duration: 0.85, times: [0, 0.5, 1], ease: "easeInOut" as const };
+
   const arenaRef = useRef<HTMLDivElement>(null);
   // The tank fills the screen; bring all of it into view when the game starts.
   useEffect(() => {
@@ -96,7 +107,7 @@ export function PufferArena({
       const isMe = e.playerId === state.you;
       const seat: Pos | undefined = isMe ? YOU_SEAT : seats.get(e.playerId);
       if (!seat) continue;
-      const fish = CENTER;
+      const fish = isMe ? toward(YOU_SEAT, 0.66) : toward(seat, 0.66);
       if (e.type === "lifeLost") add.push({ id: e.id, kind: "pop", ...fish });
       if (e.type === "turnResult") {
         const t = tierInfo(e.tier);
@@ -198,11 +209,16 @@ export function PufferArena({
 
       <svg className="arena-ring" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden>
         <ellipse cx={CENTER.x} cy={CENTER.y} rx={RING.rx} ry={RING.ry} />
-        {holderAt && <line className={`arena-aim${b.turnPlayerId ? "" : " arena-aim--next"}`} x1={CENTER.x} y1={CENTER.y} x2={holderAt.x} y2={holderAt.y} />}
+        {holderAt && <line className={`arena-aim${b.turnPlayerId ? "" : " arena-aim--next"}`} x1={fishAt.x} y1={fishAt.y} x2={holderAt.x} y2={holderAt.y} />}
       </svg>
       <div className="arena-stage" style={{ left: `${CENTER.x}%`, top: `${CENTER.y}%` }} aria-hidden />
 
-      <div className="puffer-pos" style={{ left: `${CENTER.x}%`, top: `${CENTER.y}%` }}>
+      <motion.div
+        className="puffer-pos"
+        initial={false}
+        animate={{ left: [from.x, mid.x, to.x].map((v) => `${v}%`), top: [from.y, mid.y, to.y].map((v) => `${v}%`) }}
+        transition={swim}
+      >
         <motion.div
           className="puffer-turn"
           initial={false}
@@ -215,7 +231,7 @@ export function PufferArena({
             </div>
           </div>
         </motion.div>
-      </div>
+      </motion.div>
 
       <AnimatePresence>
         {flashes.map((f) =>

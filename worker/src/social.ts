@@ -76,6 +76,100 @@ friendRoutes.delete("/api/friends/:code", async (c) => {
   return c.json({ ok: true });
 });
 
+// ---------------------------------------------------------------------------
+// Friend requests (sent by tapping a name on the global leaderboards)
+// ---------------------------------------------------------------------------
+
+let requestsTableReady = false;
+async function ensureRequestsTable(env: Env) {
+  if (requestsTableReady) return;
+  await env.DB.batch([
+    env.DB.prepare(
+      `CREATE TABLE IF NOT EXISTS friend_requests (
+         from_id TEXT NOT NULL, to_id TEXT NOT NULL, created_at INTEGER NOT NULL,
+         status TEXT NOT NULL DEFAULT 'pending', PRIMARY KEY (from_id, to_id))`,
+    ),
+    env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_friend_requests_to ON friend_requests(to_id, status)"),
+  ]);
+  requestsTableReady = true;
+}
+
+async function makeFriends(env: Env, a: string, b: string, now: number) {
+  await env.DB.batch([
+    env.DB.prepare("INSERT OR IGNORE INTO friends (player_id, friend_id, created_at) VALUES (?, ?, ?)").bind(a, b, now),
+    env.DB.prepare("INSERT OR IGNORE INTO friends (player_id, friend_id, created_at) VALUES (?, ?, ?)").bind(b, a, now),
+    env.DB.prepare("UPDATE friend_requests SET status = 'accepted' WHERE (from_id = ? AND to_id = ?) OR (from_id = ? AND to_id = ?)").bind(a, b, b, a),
+  ]);
+}
+
+async function playerByCode(env: Env, code: string) {
+  return env.DB.prepare("SELECT id, nickname FROM players WHERE friend_code = ?")
+    .bind(String(code ?? "").trim().toUpperCase())
+    .first<{ id: string; nickname: string | null }>();
+}
+
+/** Send a request. If they already asked you, you're friends straight away. */
+friendRoutes.post("/api/friends/requests", async (c) => {
+  const playerId = pid(c);
+  await ensureRequestsTable(c.env);
+  const { code } = await c.req.json<{ code?: string }>().catch(() => ({ code: "" }));
+  const to = await playerByCode(c.env, code ?? "");
+  if (!to) throw new HttpError(404, "That player couldn't be found");
+  if (to.id === playerId) throw new HttpError(400, "That's you!");
+  const now = Date.now();
+  const already = await c.env.DB.prepare("SELECT 1 FROM friends WHERE player_id = ? AND friend_id = ?").bind(playerId, to.id).first();
+  if (already) return c.json({ status: "friends", nickname: to.nickname });
+  const theyAsked = await c.env.DB.prepare("SELECT 1 FROM friend_requests WHERE from_id = ? AND to_id = ? AND status = 'pending'").bind(to.id, playerId).first();
+  if (theyAsked) {
+    await makeFriends(c.env, playerId, to.id, now);
+    return c.json({ status: "friends", nickname: to.nickname });
+  }
+  // Re-sending after a decline is allowed; it simply becomes pending again.
+  await c.env.DB.prepare(
+    `INSERT INTO friend_requests (from_id, to_id, created_at, status) VALUES (?, ?, ?, 'pending')
+     ON CONFLICT(from_id, to_id) DO UPDATE SET status = 'pending', created_at = excluded.created_at`,
+  )
+    .bind(playerId, to.id, now)
+    .run();
+  return c.json({ status: "sent", nickname: to.nickname });
+});
+
+/** Requests waiting for you to answer. */
+friendRoutes.get("/api/friends/requests", async (c) => {
+  const playerId = pid(c);
+  await ensureRequestsTable(c.env);
+  const { results } = await c.env.DB.prepare(
+    `SELECT p.nickname, p.friend_code, r.created_at FROM friend_requests r JOIN players p ON p.id = r.from_id
+     WHERE r.to_id = ? AND r.status = 'pending' ORDER BY r.created_at DESC LIMIT 50`,
+  )
+    .bind(playerId)
+    .all<{ nickname: string | null; friend_code: string; created_at: number }>();
+  return c.json({ requests: results.map((r) => ({ nickname: r.nickname ?? "A diver", code: r.friend_code, at: r.created_at })) });
+});
+
+friendRoutes.post("/api/friends/requests/:code/:answer", async (c) => {
+  const playerId = pid(c);
+  await ensureRequestsTable(c.env);
+  const from = await playerByCode(c.env, c.req.param("code"));
+  if (!from) throw new HttpError(404, "That player couldn't be found");
+  if (c.req.param("answer") === "accept") await makeFriends(c.env, playerId, from.id, Date.now());
+  else await c.env.DB.prepare("UPDATE friend_requests SET status = 'declined' WHERE from_id = ? AND to_id = ?").bind(from.id, playerId).run();
+  return c.json({ ok: true });
+});
+
+/** Who you're friends with or have asked, by friend code (for the leaderboard pop-up). */
+export async function friendStatus(env: Env, playerId: string): Promise<{ friends: Set<string>; sent: Set<string> }> {
+  await ensureRequestsTable(env);
+  const [f, r] = await env.DB.batch([
+    env.DB.prepare("SELECT friend_id AS id FROM friends WHERE player_id = ?").bind(playerId),
+    env.DB.prepare("SELECT to_id AS id FROM friend_requests WHERE from_id = ? AND status = 'pending'").bind(playerId),
+  ]);
+  return {
+    friends: new Set((f.results as { id: string }[]).map((x) => x.id)),
+    sent: new Set((r.results as { id: string }[]).map((x) => x.id)),
+  };
+}
+
 /** Today's Daily results for you and your friends, plus 7-day totals. */
 friendRoutes.get("/api/friends/leaderboard", async (c) => {
   const playerId = pid(c);

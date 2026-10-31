@@ -8,6 +8,7 @@ import { roomRoutes } from "./rooms";
 import { categories, finish, getDaily, guess, nextQuestion, report, reveal, sessionState, startSession } from "./solo";
 import { playerStats } from "./stats";
 import { friendRoutes } from "./social";
+import { suggestionRoutes } from "./suggestions";
 
 export { Room } from "./room";
 
@@ -60,6 +61,7 @@ app.route("/", adminRoutes);
 app.route("/", leaderboardRoutes);
 app.route("/", roomRoutes);
 app.route("/", friendRoutes);
+app.route("/", suggestionRoutes);
 
 app.all("/api/*", (c) => c.json({ error: "Not found" }, 404));
 

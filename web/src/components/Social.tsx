@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { MISS_EMOJI, formatDepth, tierInfo } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
 import { api } from "../api";
-import type { LeaderboardRow, PlayerStats, Profile } from "../api";
+import type { FriendRequest, LeaderboardRow, PlayerStats, Profile } from "../api";
+import { RequestList } from "./FriendRequests";
 import { NicknamePrompt, getNickname } from "../nickname";
 import { navigate } from "../router";
 
@@ -54,8 +55,15 @@ export function FriendsPage() {
   const [data, setData] = useState<{ dailyNumber: number; me: Profile; rows: LeaderboardRow[] } | null>(null);
   const [code, setCode] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
+  const [requests, setRequests] = useState<FriendRequest[]>([]);
 
   const load = () => api.leaderboard().then(setData).catch((e) => setMsg((e as Error).message));
+  useEffect(() => {
+    api
+      .friendRequests()
+      .then((r) => setRequests(r.requests))
+      .catch(() => {});
+  }, []);
   useEffect(() => {
     if (nickname) void load();
   }, [nickname]);
@@ -77,6 +85,18 @@ export function FriendsPage() {
   return (
     <div className="friends">
       <h1 className="title">Friends</h1>
+      {requests.length > 0 && (
+        <div className="card">
+          <h3>Friend requests</h3>
+          <RequestList
+            requests={requests}
+            onAnswered={(code, accepted) => {
+              setRequests((rs) => rs.filter((r) => r.code !== code));
+              if (accepted) void load();
+            }}
+          />
+        </div>
+      )}
       <div className="card">
         <p>
           Your friend code: <b className="big-code small-code">{data?.me.friendCode ?? "…"}</b>

@@ -27,6 +27,8 @@
     "weekly:brief": "tsx scripts/weekly-brief.ts",
     "import": "tsx scripts/import.ts",
     "export:rejected": "tsx scripts/export-rejected.ts",
+    "review:done": "tsx scripts/review-done.ts",
+    "suggestions": "tsx scripts/suggestions.ts",
     "pool:refresh": "tsx scripts/pool-refresh.ts",
     "backup": "tsx scripts/backup.ts",
     "remove": "tsx scripts/remove.ts",
@@ -34,7 +36,8 @@
     "sim:battle": "tsx scripts/sim/battle.ts",
     "sim": "tsx scripts/sim/dive.ts && tsx scripts/sim/battle.ts && tsx scripts/sim/repeats.ts",
     "sim:repeats": "tsx scripts/sim/repeats.ts",
-    "sim:leaderboards": "tsx scripts/sim/leaderboards.ts"
+    "sim:leaderboards": "tsx scripts/sim/leaderboards.ts",
+    "sim:social": "tsx scripts/sim/social.ts"
   },
   "devDependencies": {
     "@types/ws": "^8.18.2",

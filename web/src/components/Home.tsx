@@ -9,9 +9,11 @@ import { StatsPanel } from "./Social";
 
 export function Home({
   onPlay,
+  onSuggest,
   reducedMotion,
 }: {
   onPlay: (mode: "daily" | "unlimited", category?: Category) => void;
+  onSuggest: () => void;
   reducedMotion: boolean;
 }) {
   const [daily, setDaily] = useState<DailyStatus | null>(null);
@@ -94,6 +96,9 @@ export function Home({
         </button>
         <button className="btn btn--ghost" onClick={() => navigate("/archive")}>
           🗓️ Archive
+        </button>
+        <button className="btn btn--ghost" onClick={onSuggest}>
+          💬 Suggest a fix
         </button>
       </nav>
 

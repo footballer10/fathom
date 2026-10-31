@@ -55,8 +55,26 @@ export interface LeaderboardBoard {
   title: string;
   description: string;
   unit: "count" | "meters" | "percent" | "days";
-  rows: { rank: number; nickname: string; value: number; you: boolean }[];
+  rows: LeaderboardEntry[];
 }
+
+export interface LeaderboardEntry {
+  rank: number;
+  nickname: string;
+  value: number;
+  you: boolean;
+  /** Public friend code, used to send a friend request. */
+  code: string | null;
+  friend: "friends" | "sent" | null;
+}
+
+export interface FriendRequest {
+  nickname: string;
+  code: string;
+  at: number;
+}
+
+export type SuggestionKind = "answer" | "bug" | "idea" | "other";
 
 export interface Profile {
   nickname: string | null;
@@ -94,5 +112,9 @@ export const api = {
     call<{ date: string; dailyNumber: number; me: Profile; rows: LeaderboardRow[] }>("GET", "/api/friends/leaderboard"),
   archive: () => call<{ date: string; dailyNumber: number; depth: number | null }[]>("GET", "/api/archive"),
   startArchive: (date: string) => call<SessionState>("POST", "/api/session/start", { mode: "archive", date }),
+  requestFriend: (code: string) => call<{ status: "sent" | "friends"; nickname: string | null }>("POST", "/api/friends/requests", { code }),
+  friendRequests: () => call<{ requests: FriendRequest[] }>("GET", "/api/friends/requests"),
+  answerRequest: (code: string, answer: "accept" | "decline") => call<{ ok: true }>("POST", `/api/friends/requests/${encodeURIComponent(code)}/${answer}`),
+  suggest: (kind: SuggestionKind, text: string) => call<{ ok: true }>("POST", "/api/suggestions", { kind, text }),
   createRoom: (kind: "dive" | "battle") => call<{ code: string }>("POST", "/api/rooms", { kind }),
 };

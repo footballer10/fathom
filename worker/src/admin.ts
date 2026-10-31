@@ -15,6 +15,7 @@ import {
 } from "@fathom/shared";
 import type { Category, ParsedFixes, ParsedQuestion, TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
+import { markSuggestionsReviewed, suggestionsExport } from "./suggestions";
 import type { Env } from "./env";
 import { INDEX_KEY, UNLIMITED_WHERE, forgetIndex, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";
 import type { QuestionContent, QuestionRow, StoredAnswer } from "./questions";
@@ -458,6 +459,27 @@ adminRoutes.get("/api/admin/rejected-export", async (c) => {
   const text = formatRejectedExport(await reviewData(c.env));
   return c.text(text);
 });
+/**
+ * After the weekly learning loop: mark everything that was in this week's
+ * export as reviewed (reports and rejected guesses, whether or not a fix was
+ * needed), so next week's export only has new items.
+ */
+adminRoutes.post("/api/admin/review/done", async (c) => {
+  const { before } = await c.req.json<{ before?: number }>().catch(() => ({ before: undefined }));
+  const cutoff = Number(before) || Date.now();
+  const [reports, rejected] = await c.env.DB.batch([
+    c.env.DB.prepare("UPDATE reports SET status = 'resolved' WHERE status = 'open' AND created_at <= ?").bind(cutoff),
+    c.env.DB.prepare("UPDATE rejected_guesses SET resolved = 1 WHERE resolved = 0 AND count >= 2 AND last_seen <= ?").bind(cutoff),
+  ]);
+  return c.json({ reports: reports.meta.changes ?? 0, rejected: rejected.meta.changes ?? 0 });
+});
+
+adminRoutes.get("/api/admin/suggestions", async (c) => c.json(await suggestionsExport(c.env)));
+adminRoutes.post("/api/admin/suggestions/reviewed", async (c) => {
+  const { ids } = await c.req.json<{ ids?: number[] }>().catch(() => ({ ids: [] }));
+  return c.json({ reviewed: await markSuggestionsReviewed(c.env, (ids ?? []).map(Number).filter(Number.isInteger)) });
+});
+
 adminRoutes.post("/api/admin/reports/:id/resolve", async (c) => {
   await c.env.DB.prepare("UPDATE reports SET status = 'resolved' WHERE id = ?").bind(Number(c.req.param("id"))).run();
   return c.json({ ok: true });

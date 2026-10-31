@@ -12,6 +12,8 @@ import { SettingsPanel } from "./components/SettingsPanel";
 import { LeaderboardsPage } from "./components/Leaderboards";
 import { ArchivePage, FriendsPage } from "./components/Social";
 import { Welcome, shouldWelcome } from "./components/Welcome";
+import { FriendRequestPopup } from "./components/FriendRequests";
+import { SuggestBox } from "./components/SuggestBox";
 import { AdminPortal } from "./admin/AdminPortal";
 import { PartyHome } from "./party/PartyHome";
 import { RoomPage } from "./party/RoomPage";
@@ -27,6 +29,7 @@ export function App() {
   const { settings } = useSettings();
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [suggestOpen, setSuggestOpen] = useState(false);
   const route = useRoute();
   const [welcome, setWelcome] = useState(shouldWelcome);
   const [inBattle, setInBattle] = useState(false);
@@ -115,7 +118,7 @@ export function App() {
         ) : route === "/archive" ? (
           <ArchivePage onPlay={(date) => play("archive", undefined, date)} />
         ) : null}
-        {route === "/" && screen.name === "home" && <Home onPlay={play} reducedMotion={settings.reducedMotion} />}
+        {route === "/" && screen.name === "home" && <Home onPlay={play} onSuggest={() => setSuggestOpen(true)} reducedMotion={settings.reducedMotion} />}
         {route === "/" && screen.name === "game" && (
           <Game
             key={screen.key}
@@ -141,6 +144,7 @@ export function App() {
       <SettingsPanel
         open={settingsOpen}
         onClose={() => setSettingsOpen(false)}
+        onSuggest={() => setSuggestOpen(true)}
         onHome={
           atHome
             ? undefined
@@ -151,6 +155,8 @@ export function App() {
         }
       />
       {welcome && !roomCode && <Welcome onDone={() => setWelcome(false)} />}
+      {!welcome && !roomCode && <FriendRequestPopup />}
+      <SuggestBox open={suggestOpen} onClose={() => setSuggestOpen(false)} />
     </MotionConfig>
   );
 }

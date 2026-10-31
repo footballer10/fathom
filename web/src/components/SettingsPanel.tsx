@@ -1,5 +1,8 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { nicknameProblem } from "@fathom/shared";
+import { api } from "../api";
+import { getNickname, saveNickname } from "../nickname";
 import { useSettings } from "../settings";
 import type { Settings } from "../settings";
 import { sounds } from "../sound";
@@ -10,8 +13,38 @@ const OPTIONS: { key: keyof Settings; label: string; hint: string }[] = [
   { key: "particles", label: "Particles", hint: "Bubbles and marine snow" },
 ];
 
-export function SettingsPanel({ open, onClose, onHome }: { open: boolean; onClose: () => void; onHome?: () => void }) {
+export function SettingsPanel({
+  open,
+  onClose,
+  onHome,
+  onSuggest,
+}: {
+  open: boolean;
+  onClose: () => void;
+  onHome?: () => void;
+  onSuggest: () => void;
+}) {
   const { settings, update } = useSettings();
+  const [name, setName] = useState(getNickname() ?? "");
+  const [nameMsg, setNameMsg] = useState<string | null>(null);
+  useEffect(() => {
+    if (open) {
+      setName(getNickname() ?? "");
+      setNameMsg(null);
+    }
+  }, [open]);
+
+  const saveName = async () => {
+    const problem = nicknameProblem(name);
+    if (problem) return setNameMsg(problem);
+    try {
+      await api.setNickname(name.trim());
+      saveNickname(name.trim());
+      setNameMsg("Saved! Leaderboards update within a couple of minutes.");
+    } catch (e) {
+      setNameMsg((e as Error).message);
+    }
+  };
 
   useEffect(() => {
     if (!open) return;
@@ -35,6 +68,31 @@ export function SettingsPanel({ open, onClose, onHome }: { open: boolean; onClos
             onClick={(e) => e.stopPropagation()}
           >
             <h3>Settings</h3>
+            <form
+              className="settings-name"
+              onSubmit={(e) => {
+                e.preventDefault();
+                void saveName();
+              }}
+            >
+              <label className="toggle-label" htmlFor="settings-name">
+                Your name
+              </label>
+              <div className="join-row">
+                <input
+                  id="settings-name"
+                  className="code-input code-input--wide"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  maxLength={16}
+                  placeholder="Nickname"
+                />
+                <button className="btn" type="submit" disabled={!name.trim() || name.trim() === (getNickname() ?? "")}>
+                  Save
+                </button>
+              </div>
+              {nameMsg && <span className="muted small">{nameMsg}</span>}
+            </form>
             {OPTIONS.map((o) => (
               <label key={o.key} className="toggle-row">
                 <span>
@@ -54,6 +112,15 @@ export function SettingsPanel({ open, onClose, onHome }: { open: boolean; onClos
             ))}
             <button className="btn" onClick={onClose} autoFocus>
               Done
+            </button>
+            <button
+              className="btn btn--ghost"
+              onClick={() => {
+                onClose();
+                onSuggest();
+              }}
+            >
+              💬 Suggest a fix or idea
             </button>
             {onHome && (
               <button className="btn btn--ghost settings-home" onClick={onHome}>

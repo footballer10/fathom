@@ -1,5 +1,6 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
+import { friendStatus } from "./social";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 
@@ -59,7 +60,7 @@ export interface Board {
   description: string;
   /** How to show the value: a count, metres, or a percentage. */
   unit: "count" | "meters" | "percent" | "days";
-  rows: { rank: number; nickname: string; value: number; playerId: string }[];
+  rows: { rank: number; nickname: string; value: number; playerId: string; code: string | null }[];
 }
 
 /** Each board: SQL returning (player_id, value) for named players, highest first. */
@@ -177,15 +178,15 @@ async function computeBoards(env: Env): Promise<Board[]> {
   const results = await env.DB.batch(
     BOARDS.map((b) =>
       env.DB.prepare(
-        `SELECT t.player_id, t.value, p.nickname FROM (${b.sql}) t JOIN players p ON p.id = t.player_id
+        `SELECT t.player_id, t.value, p.nickname, p.friend_code FROM (${b.sql}) t JOIN players p ON p.id = t.player_id
          WHERE t.value > 0 ORDER BY t.value DESC, p.nickname LIMIT ${TOP}`,
       ),
     ),
   );
   return BOARDS.map((b, i) => {
-    const rows = (results[i].results as { player_id: string; value: number; nickname: string }[]).map((r) => {
+    const rows = (results[i].results as { player_id: string; value: number; nickname: string; friend_code: string | null }[]).map((r) => {
       names.set(r.player_id, r.nickname);
-      return { playerId: r.player_id, nickname: r.nickname, value: r.value };
+      return { playerId: r.player_id, nickname: r.nickname, value: r.value, code: r.friend_code };
     });
     // Equal values share a rank.
     let rank = 0;
@@ -211,10 +212,19 @@ leaderboardRoutes.get("/api/leaderboards", async (c: Context<AppEnv>) => {
   // Local dev skips the cache so tests see their own results straight away.
   const local = /^(localhost|127\.0\.0\.1)$/.test(new URL(c.req.url).hostname);
   if (local || !cache || now - cache.at > CACHE_SECONDS * 1000) cache = { at: now, boards: await computeBoards(c.env) };
-  // Player ids never leave the server; the client only learns which rows are "you".
+  // Player ids never leave the server; the client gets each row's public friend
+  // code (for friend requests) and whether it's you, a friend, or already asked.
+  const rel = id ? await friendStatus(c.env, id) : { friends: new Set<string>(), sent: new Set<string>() };
   return c.json({
     updatedAt: cache.at,
     minAnswersForRates: MIN_ANSWERS_FOR_RATES,
-    boards: cache.boards.map((b) => ({ ...b, rows: b.rows.map(({ playerId, ...r }) => ({ ...r, you: playerId === id })) })),
+    boards: cache.boards.map((b) => ({
+      ...b,
+      rows: b.rows.map(({ playerId, ...r }) => ({
+        ...r,
+        you: playerId === id,
+        friend: rel.friends.has(playerId) ? ("friends" as const) : rel.sent.has(playerId) ? ("sent" as const) : null,
+      })),
+    })),
   });
 });
