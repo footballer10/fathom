@@ -60,7 +60,8 @@ export function tierInfo(points: TierPoints): TierInfo {
 // ---------------------------------------------------------------------------
 
 export const QUESTION_SECONDS = 25;
-export const WRONG_GUESS_PENALTY_SECONDS = 2;
+/** Solo (Daily and Unlimited) wrong guesses cost no time. Party hosts pick their own penalty. */
+export const WRONG_GUESS_PENALTY_SECONDS = 0;
 /** Extra time the server allows for network lag before calling a guess late. */
 export const DEADLINE_GRACE_MS = 250;
 /** The timer ring turns red below this many seconds. */
@@ -91,7 +92,8 @@ export function zoneForDepth(depthMeters: number): ZoneInfo {
 }
 
 /** Hide the "deeper than X% of today's divers" line until this many results exist. */
-export const PERCENTILE_MIN_RESULTS = 5;
+/** Daily dives needed before the results curve (and percentile) appear. */
+export const PERCENTILE_MIN_RESULTS = 20;
 
 // ---------------------------------------------------------------------------
 // Matcher
@@ -161,6 +163,8 @@ export const DIVE_DEFAULTS = {
   timerSeconds: 25,
   uniqueAnswers: false,
   wrongGuessPenaltySeconds: 2,
+  /** Host slider range for the wrong-guess penalty, in seconds. */
+  penaltyMax: 5,
   /** How long the per-question reveal stays up before the next question. */
   revealSeconds: 9,
   roomIdleExpiryMinutes: 120,
@@ -180,11 +184,12 @@ export const BATTLE_DEFAULTS = {
   baseSecondsMax: 20,
   minBaseSeconds: 4,
   wrongGuessPenaltySeconds: 1,
+  penaltyMax: 5,
   /** Size of the life circle in 32nds; filling it earns one life. */
   lifeMeterFull: 32,
   failedTurnsToRotate: 2,
   minUnusedAnswersBeforeRotate: 5,
-  speedUp: true,
+  speedUp: false,
   typingUpdatesPerSecond: 10,
   /** Pause between turns, and the "NEW PROMPT" transition length. */
   betweenTurnsMs: 1200,

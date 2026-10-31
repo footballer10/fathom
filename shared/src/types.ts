@@ -103,6 +103,8 @@ export interface FinishResponse {
   plays: PlayRecord[];
   /** Null until enough results exist (or always null in unlimited). */
   percentile: number | null;
+  /** How many Daily dives the percentile is based on (including yours). */
+  divers?: number | null;
   rarestToday: { prompt: string; canonical: string; tier: TierPoints } | null;
   /** Epoch ms of the next Daily reset. */
   nextDailyAt: number;

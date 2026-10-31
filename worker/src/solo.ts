@@ -417,6 +417,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
 
   const questions = await getQuestions(env, ids);
   let percentile: number | null = null;
+  let divers: number | null = null;
   let rarest: FinishResponse["rarestToday"] = null;
 
   if (s.mode === "daily" && s.date) {
@@ -429,6 +430,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
       .first<{ total: number; below: number }>();
     if (stats && stats.total + 1 >= PERCENTILE_MIN_RESULTS && stats.total > 0) {
       percentile = Math.round(((stats.below ?? 0) / stats.total) * 100);
+      divers = stats.total + 1;
     }
     const r = await env.DB.prepare(
       `SELECT p.canonical, p.tier, q.prompt FROM plays p
@@ -457,6 +459,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
     zone: zoneForDepth(depth).name,
     plays: plays.map((p) => toPlayRecord(p, questions.get(p.question_id)?.prompt ?? "")),
     percentile,
+    divers,
     rarestToday: rarest,
     nextDailyAt: nextDailyResetAt(now),
   };

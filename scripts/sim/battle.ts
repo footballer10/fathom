@@ -6,6 +6,7 @@
  * last-player-standing finish.
  */
 import type { ServerMessage } from "../../shared/src/index";
+import { BATTLE_DEFAULTS, tierInfo } from "../../shared/src/index";
 import { Bot, Checks, answerBook, createRoom, ensureServer, sleep } from "./lib";
 
 type TurnMsg = Extract<ServerMessage, { type: "turn" }>;
@@ -38,14 +39,14 @@ try {
   const lastAccepted = new Map<string, boolean>();
   let sawTyping = false;
   let sawTaken = false;
-  let sawBonus = false;
-  let firstTurnBaseOnly = true;
+  let turnsAlwaysBase = true;
   let rotations = 0;
   let baseAfterRotate = BASE;
   let spectatorDone = false;
   let sawSpectatorGuess = false;
   let lifeBonusesRight = true;
   let lifeBonuses = 0;
+  const meters = new Map<string, number>();
   const eliminated = new Set<string>();
 
   const observer = bots[1];
@@ -54,8 +55,11 @@ try {
     if (m.type === "taken") sawTaken = true;
     if (m.type === "turnResult") {
       used.add(m.canonical.toLowerCase());
-      const want = m.tier === 100 ? 2 : m.tier === 85 ? 1 : 0;
-      if (m.livesGained !== want) lifeBonusesRight = false;
+      // The life circle: each answer adds its tier's fill; every full circle is one life.
+      const before = meters.get(m.playerId) ?? 0;
+      const fill = before + tierInfo(m.tier).battleLifeFill;
+      if (m.livesGained !== Math.floor(fill / BATTLE_DEFAULTS.lifeMeterFull) || m.lifeMeter !== fill % BATTLE_DEFAULTS.lifeMeterFull) lifeBonusesRight = false;
+      meters.set(m.playerId, m.lifeMeter);
       lifeBonuses += m.livesGained;
     }
     if (m.type === "eliminated") eliminated.add(m.playerId);
@@ -76,9 +80,7 @@ try {
       prompt = turn.prompt;
       const n = turnsTaken.get(bot.playerId) ?? 0;
       turnsTaken.set(bot.playerId, n + 1);
-      const prev = lastAccepted.get(bot.playerId);
-      if (prev === true && turn.seconds > BASE) sawBonus = true;
-      if (n === 0 && rotations === 0 && turn.seconds !== BASE) firstTurnBaseOnly = false;
+      if (rotations === 0 && turn.seconds !== BASE) turnsAlwaysBase = false;
 
       if (n >= QUOTA[i]) {
         lastAccepted.set(bot.playerId, false);
@@ -121,12 +123,11 @@ try {
 
   checks.check("live typing reached other players", sawTyping);
   checks.check('"Already taken" was announced', sawTaken);
-  checks.check("turn bonus applied after an accepted answer", sawBonus);
-  checks.check("a player's first turn gets the base time only", firstTurnBaseOnly);
+  checks.check("every turn gets the base time (no bonus time)", turnsAlwaysBase);
   checks.check("prompt rotated at least once", rotations >= 1, `${rotations} rotation(s)`);
   checks.check("speed-up lowered the base time", baseAfterRotate < BASE, `base now ${baseAfterRotate}s`);
   checks.check("eliminated players became spectators who can still guess", sawSpectatorGuess);
-  checks.check("Deep Cuts give +1 life and One in a Krillions +2", lifeBonusesRight, `${lifeBonuses} bonus li${lifeBonuses === 1 ? "fe" : "ves"} given`);
+  checks.check("the life circle fills by tier and a full circle gives a life", lifeBonusesRight, `${lifeBonuses} bonus li${lifeBonuses === 1 ? "fe" : "ves"} given`);
   checks.check("five players were eliminated", eliminated.size === 5, `${eliminated.size}`);
   checks.check("last player standing wins", over.results[0]?.playerId === bots[WINNER].playerId, over.results[0]?.nickname);
   checks.check("best answer of the game reported", !!over.bestAnswer, over.bestAnswer ? `${over.bestAnswer.canonical} by ${over.bestAnswer.nickname}` : "");

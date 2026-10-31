@@ -1,6 +1,6 @@
-import { AnimatePresence, motion, useAnimationControls } from "framer-motion";
+import { motion, useAnimationControls } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { DEADLINE_GRACE_MS, QUESTION_SECONDS, WRONG_GUESS_PENALTY_SECONDS } from "@fathom/shared";
+import { DEADLINE_GRACE_MS, QUESTION_SECONDS } from "@fathom/shared";
 import type { Category, FinishResponse, GameMode, RevealResponse, SessionState, TierPoints } from "@fathom/shared";
 import { api } from "../api";
 import { useSettings } from "../settings";
@@ -312,23 +312,9 @@ export function Game({
                 autoFocus
               />
             </TimerRing>
-            <AnimatePresence>
-              {penaltyPops.map((k) => (
-                <motion.span
-                  key={k}
-                  className="penalty-pop"
-                  initial={{ opacity: 0, y: 0 }}
-                  animate={{ opacity: [0, 1, 0], y: -46 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 1 }}
-                >
-                  −{WRONG_GUESS_PENALTY_SECONDS}s
-                </motion.span>
-              ))}
-            </AnimatePresence>
           </motion.div>
           <p className="hint">
-            <kbd>Enter ↵</kbd> to submit · wrong guesses cost {WRONG_GUESS_PENALTY_SECONDS}s · rarer answers dive deeper
+            <kbd>Enter ↵</kbd> to submit · wrong guesses are free, keep trying · rarer answers dive deeper
           </p>
           {penaltyPops.length > 0 && <p className="not-accepted" role="status">Not accepted</p>}
         </>

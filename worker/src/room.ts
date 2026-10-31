@@ -6,6 +6,7 @@ import {
   DIVE_DEFAULTS,
   matchGuess,
   nicknameProblem,
+  partyDepth,
   pointsToDepth,
   tierInfo,
 } from "@fathom/shared";
@@ -140,6 +141,7 @@ function defaultSettings(kind: RoomKind): DiveSettings | BattleSettings {
       questionCount: DIVE_DEFAULTS.questionCount,
       timerSeconds: DIVE_DEFAULTS.timerSeconds,
       uniqueAnswers: DIVE_DEFAULTS.uniqueAnswers,
+      penaltySeconds: DIVE_DEFAULTS.wrongGuessPenaltySeconds,
     };
   }
   return {
@@ -149,6 +151,7 @@ function defaultSettings(kind: RoomKind): DiveSettings | BattleSettings {
     failedTurnsToRotate: BATTLE_DEFAULTS.failedTurnsToRotate,
     acceptsToRotate: null,
     speedUp: BATTLE_DEFAULTS.speedUp,
+    penaltySeconds: BATTLE_DEFAULTS.wrongGuessPenaltySeconds,
   };
 }
 
@@ -156,6 +159,8 @@ const clamp = (n: unknown, lo: number, hi: number, fallback: number) => {
   const v = Math.round(Number(n));
   return Number.isFinite(v) ? Math.min(hi, Math.max(lo, v)) : fallback;
 };
+
+const penalty = (n: unknown, max: number, cur: number) => (n === undefined ? cur : clamp(n, 0, max, cur));
 
 export class Room extends DurableObject<Env> {
   private s: RoomState | null = null;
@@ -376,6 +381,7 @@ export class Room extends DurableObject<Env> {
         questionCount: patch.questionCount !== undefined ? clamp(patch.questionCount, DIVE_DEFAULTS.questionCountMin, DIVE_DEFAULTS.questionCountMax, cur.questionCount) : cur.questionCount,
         timerSeconds: (DIVE_DEFAULTS.timerOptions as readonly number[]).includes(Number(patch.timerSeconds)) ? Number(patch.timerSeconds) : cur.timerSeconds,
         uniqueAnswers: typeof patch.uniqueAnswers === "boolean" ? patch.uniqueAnswers : cur.uniqueAnswers,
+        penaltySeconds: penalty(patch.penaltySeconds, DIVE_DEFAULTS.penaltyMax, cur.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds),
       };
     } else {
       const cur = s.settings as BattleSettings;
@@ -388,6 +394,7 @@ export class Room extends DurableObject<Env> {
         acceptsToRotate:
           patch.acceptsToRotate === null ? null : patch.acceptsToRotate !== undefined ? clamp(patch.acceptsToRotate, 1, 50, 6) : cur.acceptsToRotate,
         speedUp: typeof patch.speedUp === "boolean" ? patch.speedUp : cur.speedUp,
+        penaltySeconds: penalty(patch.penaltySeconds, BATTLE_DEFAULTS.penaltyMax, cur.penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds),
       };
     }
   }
@@ -506,7 +513,7 @@ export class Room extends DurableObject<Env> {
 
   private personalEndsAt(pid: string) {
     const d = this.s!.dive!;
-    return d.endsAt - (d.penalties[pid] ?? 0) * DIVE_DEFAULTS.wrongGuessPenaltySeconds * 1000;
+    return d.endsAt - (d.penalties[pid] ?? 0) * ((this.s!.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds) * 1000;
   }
 
   private activeDivers(): Seat[] {
@@ -573,7 +580,7 @@ export class Room extends DurableObject<Env> {
       const points = a ? (shared ? Math.floor(a.points / 2) : a.points) : 0;
       seat.score += points;
       seat.timeUsedMs += a ? a.msUsed : set.timerSeconds * 1000;
-      seat.depthTrail.push(pointsToDepth(seat.score));
+      seat.depthTrail.push(partyDepth(seat.score, set.questionCount));
       perPlayer.push({ playerId: seat.id, nickname: seat.nickname, canonical: a?.canonical ?? null, tier: a?.tier ?? null, points, corrected: a?.corrected ?? false, shared });
       if (a && (!d.best || a.tier > d.best.tier || (a.tier === d.best.tier && a.at < (d.best.at ?? Infinity)))) {
         d.best = { nickname: seat.nickname, canonical: a.canonical, tier: a.tier, prompt: d.prompt, at: a.at };
@@ -686,7 +693,7 @@ export class Room extends DurableObject<Env> {
       const by = b.used.find((u) => u.canonical === r.canonical)?.byPlayerId ?? "";
       this.broadcast({ type: "taken", answerCanonical: r.canonical, byPlayerId: by });
     }
-    b.turnEndsAt -= BATTLE_DEFAULTS.wrongGuessPenaltySeconds * 1000;
+    b.turnEndsAt -= ((s.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds) * 1000;
     this.send(ws, { type: "guessResult", accepted: false, canonical: r.canonical, tier: null, points: 0, corrected: false, reason: r.reason, endsAt: b.turnEndsAt });
   }
 
@@ -780,7 +787,7 @@ export class Room extends DurableObject<Env> {
       playerId: x.id,
       nickname: x.nickname,
       score: x.score,
-      depth: pointsToDepth(x.score),
+      depth: s.kind === "dive" ? partyDepth(x.score, (s.settings as DiveSettings).questionCount) : pointsToDepth(x.score),
       timeUsedMs: x.timeUsedMs,
       rank: i + 1,
       depthTrail: x.depthTrail,

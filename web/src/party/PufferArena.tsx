@@ -9,7 +9,7 @@ type Seat = Pos & { id: string; nickname: string; hue: number };
 type Flash =
   | { id: number; kind: "pop"; x: number; y: number }
   | { id: number; kind: "answer"; x: number; y: number; text: string; color: string; emoji: string }
-  | { id: number; kind: "life"; x: number; y: number; text: string };
+  | { id: number; kind: "life"; x: number; y: number; text: string; who: string; count: number };
 
 /** Where the fish waits when it's your turn: just above your dock. */
 const YOU_FISH: Pos = { x: 50, y: 70 };
@@ -106,13 +106,16 @@ export function PufferArena({
       if (e.type === "turnResult") {
         const t = tierInfo(e.tier);
         add.push({ id: e.id, kind: "answer", ...(isMe ? { x: 50, y: 74 } : toward(seat, 0.22)), text: e.canonical, color: t.color, emoji: t.emoji });
-        if (e.livesGained > 0) add.push({ id: e.id + 0.5, kind: "life", x: seat.x + (isMe ? 18 : 0), y: seat.y - (isMe ? 6 : 10), text: `+${e.livesGained} ❤️` });
+        if (e.livesGained > 0) {
+          const who = isMe ? "You" : seats.get(e.playerId)?.nickname ?? "Someone";
+          add.push({ id: e.id + 0.5, kind: "life", x: seat.x, y: seat.y - (isMe ? 2 : 0), text: `+${e.livesGained} ❤️`, who, count: e.livesGained });
+        }
       }
     }
     if (!add.length) return;
     setFlashes((f) => [...f, ...add]);
     const ids = new Set(add.map((a) => a.id));
-    setTimeout(() => setFlashes((f) => f.filter((x) => !ids.has(x.id))), 2000);
+    setTimeout(() => setFlashes((f) => f.filter((x) => !ids.has(x.id))), 2800);
   }, [events, seats, state.you]);
 
   const bubbles = useMemo(
@@ -137,7 +140,7 @@ export function PufferArena({
           <span key={x.id} style={{ left: `${x.left}%`, width: x.size, height: x.size, animationDuration: `${x.dur}s`, animationDelay: `${x.delay}s` }} />
         ))}
       </div>
-      <div className="arena-floor" aria-hidden />
+      <ArenaScenery />
 
       <div className="arena-top">
         <div className="arena-meta">
@@ -228,16 +231,7 @@ export function PufferArena({
               {f.emoji} {f.text}
             </motion.div>
           ) : (
-            <motion.div
-              key={f.id}
-              className="arena-life"
-              style={{ left: `${f.x}%`, top: `${f.y}%` }}
-              initial={{ scale: 0.3, opacity: 0 }}
-              animate={{ scale: reducedMotion ? 1 : [0.3, 1.4, 1], opacity: [0, 1, 1, 0], y: reducedMotion ? 0 : -30 }}
-              transition={{ duration: 1.8, times: [0, 0.2, 0.8, 1] }}
-            >
-              {f.text}
-            </motion.div>
+            <LifeEarned key={f.id} flash={f} reducedMotion={reducedMotion} />
           ),
         )}
       </AnimatePresence>
@@ -275,6 +269,47 @@ function Lives({ lives, meter, out }: { lives: number; meter: number; out: boole
   );
 }
 
+/**
+ * Someone filled their life circle: a banner everyone sees, and a big heart
+ * that flies from it into their seat. It never blocks the game.
+ */
+function LifeEarned({ flash, reducedMotion }: { flash: Extract<Flash, { kind: "life" }>; reducedMotion: boolean }) {
+  const lives = flash.count === 1 ? "an extra life" : `${flash.count} extra lives`;
+  return (
+    <>
+      <motion.div
+        className="life-banner"
+        initial={reducedMotion ? { opacity: 0 } : { opacity: 0, scale: 0.6, y: 10 }}
+        animate={{ opacity: [0, 1, 1, 0], scale: reducedMotion ? 1 : [0.6, 1.08, 1, 1], y: 0 }}
+        transition={{ duration: 2.6, times: [0, 0.12, 0.8, 1] }}
+      >
+        <span className="life-banner-heart">❤️</span> {flash.who === "You" ? `You earned ${lives}!` : `${flash.who} earned ${lives}!`}
+      </motion.div>
+      <motion.div
+        className="life-heart"
+        initial={{ left: "50%", top: "36%", scale: 0.4, opacity: 0 }}
+        animate={
+          reducedMotion
+            ? { left: `${flash.x}%`, top: `${flash.y}%`, scale: 1, opacity: [0, 1, 0] }
+            : { left: ["50%", "50%", `${flash.x}%`], top: ["36%", "34%", `${flash.y}%`], scale: [0.4, 1.6, 0.7], opacity: [0, 1, 1, 0] }
+        }
+        transition={{ duration: 1.9, times: reducedMotion ? undefined : [0, 0.35, 1], ease: "easeInOut" }}
+      >
+        ❤️
+      </motion.div>
+      <motion.div
+        className="arena-life"
+        style={{ left: `${flash.x}%`, top: `${flash.y}%` }}
+        initial={{ scale: 0.3, opacity: 0 }}
+        animate={{ scale: reducedMotion ? 1 : [0.3, 1.5, 1], opacity: [0, 1, 1, 0], y: reducedMotion ? 0 : -34 }}
+        transition={{ delay: reducedMotion ? 0 : 1.6, duration: 1.1, times: [0, 0.3, 0.75, 1] }}
+      >
+        {flash.text}
+      </motion.div>
+    </>
+  );
+}
+
 /** Time ran out: a flash, a ring and the spikes flying off. */
 function Pop({ x, y, reducedMotion }: { x: number; y: number; reducedMotion: boolean }) {
   const spikes = useMemo(() => Array.from({ length: 12 }, (_, i) => (i / 12) * Math.PI * 2 + Math.random() * 0.3), []);
@@ -304,6 +339,80 @@ function Pop({ x, y, reducedMotion }: { x: number; y: number; reducedMotion: boo
         POP!
       </motion.span>
     </motion.div>
+  );
+}
+
+/** The tank's backdrop: distant reef, kelp, coral, a chest, and fish and a turtle drifting by. */
+function ArenaScenery() {
+  const kelp = [
+    { x: 30, h: 170, d: 0 },
+    { x: 58, h: 120, d: -1.2 },
+    { x: 940, h: 190, d: -0.6 },
+    { x: 968, h: 140, d: -2 },
+    { x: 380, h: 80, d: -1.6 },
+    { x: 700, h: 95, d: -0.3 },
+  ];
+  return (
+    <div className="arena-scenery" aria-hidden>
+      <svg className="scenery-far" viewBox="0 0 1000 200" preserveAspectRatio="none">
+        <path d="M0 200 L0 120 C 60 90, 110 130, 170 100 C 230 70, 270 120, 340 110 C 420 96, 470 60, 540 90 C 610 118, 660 80, 730 92 C 800 104, 860 70, 930 96 C 960 106, 985 100, 1000 104 L1000 200 Z" fill="#0b3a66" opacity="0.7" />
+        <path d="M0 200 L0 150 C 90 130, 160 160, 260 146 C 360 132, 430 162, 540 150 C 650 138, 720 166, 830 150 C 900 140, 960 156, 1000 150 L1000 200 Z" fill="#0a3159" opacity="0.8" />
+      </svg>
+      <div className="scenery-swimmers">
+        <svg className="swimmer swimmer--school" viewBox="0 0 120 50" width="120" height="50">
+          {[[0, 20], [26, 8], [30, 32], [54, 18], [80, 26]].map(([x, y], i) => (
+            <path key={i} transform={`translate(${x} ${y})`} d="M0 0 C 6 -6, 18 -6, 24 0 C 18 6, 6 6, 0 0 Z M24 0 L32 -5 L31 0 L32 5 Z" fill="#7fd4ff" opacity="0.55" />
+          ))}
+        </svg>
+        <svg className="swimmer swimmer--turtle" viewBox="0 0 120 70" width="110" height="64">
+          <ellipse cx="60" cy="36" rx="34" ry="22" fill="#3f8f5a" />
+          <path d="M40 30 L52 22 L68 22 L80 30 L72 44 L48 44 Z" fill="#2f7347" />
+          <ellipse cx="100" cy="34" rx="12" ry="9" fill="#7cc48f" />
+          <circle cx="104" cy="31" r="2" fill="#0b2a18" />
+          <path d="M40 48 L22 62 L44 54 Z M78 48 L96 62 L74 54 Z M44 22 L28 6 L52 18 Z M76 22 L92 6 L70 18 Z" fill="#7cc48f" />
+        </svg>
+        <svg className="swimmer swimmer--school2" viewBox="0 0 90 40" width="90" height="40">
+          {[[0, 12], [22, 4], [24, 24], [46, 14]].map(([x, y], i) => (
+            <path key={i} transform={`translate(${x} ${y})`} d="M20 0 C 14 -5, 4 -5, 0 0 C 4 5, 14 5, 20 0 Z M0 0 L-7 -4 L-6 0 L-7 4 Z" fill="#ffc46b" opacity="0.6" />
+          ))}
+        </svg>
+      </div>
+      <svg className="scenery-floor" viewBox="0 0 1000 220" preserveAspectRatio="xMidYMax slice">
+        {kelp.map((k, i) => (
+          <path
+            key={i}
+            className="kelp"
+            style={{ animationDelay: `${k.d}s`, transformOrigin: `${k.x}px 220px` }}
+            d={`M${k.x} 220 C ${k.x - 14} ${220 - k.h * 0.35}, ${k.x + 14} ${220 - k.h * 0.65}, ${k.x} ${220 - k.h}`}
+            stroke="#2f9a63"
+            strokeWidth="10"
+            strokeLinecap="round"
+            fill="none"
+          />
+        ))}
+        {/* coral */}
+        <g className="coral" fill="none" strokeLinecap="round">
+          <path d="M150 210 L150 168 M150 186 L132 162 M150 178 L170 150 M132 162 L124 146 M170 150 L180 136" stroke="#ff7a8a" strokeWidth="9" />
+          <path d="M820 212 L820 176 M820 192 L804 170 M820 184 L838 160 M838 160 L846 146" stroke="#ff9f5a" strokeWidth="8" />
+          <path d="M610 212 C 600 196, 588 196, 584 182 M610 212 C 618 194, 632 194, 636 178" stroke="#c77dff" strokeWidth="7" />
+        </g>
+        {/* rocks */}
+        <path d="M200 220 C 210 186, 260 180, 290 196 C 310 206, 316 216, 318 220 Z" fill="#1d4466" />
+        <path d="M660 220 C 668 196, 712 188, 744 204 C 756 212, 760 218, 760 220 Z" fill="#1a3d5e" />
+        {/* chest */}
+        <g transform="translate(470 182)">
+          <rect x="0" y="10" width="54" height="30" rx="3" fill="#8a5a2b" />
+          <path d="M0 12 C 0 -4, 54 -4, 54 12 Z" fill="#a8702f" />
+          <rect x="24" y="12" width="6" height="10" fill="#ffd166" />
+          <circle className="chest-glint" cx="40" cy="6" r="3" fill="#fff6c4" />
+        </g>
+        {/* starfish and shell */}
+        <path d="M360 206 l4 8 l9 1 l-7 6 l2 9 l-8 -5 l-8 5 l2 -9 l-7 -6 l9 -1 Z" fill="#ffb347" />
+        <path d="M880 214 C 880 200, 900 200, 900 214 Z" fill="#ffe0c2" />
+        <path d="M0 196 C 120 186, 240 206, 380 198 C 520 190, 640 210, 780 200 C 880 194, 950 204, 1000 198 L1000 220 L0 220 Z" fill="#c9a96b" opacity="0.5" />
+        <path d="M0 210 C 160 204, 320 218, 500 210 C 680 202, 840 218, 1000 210 L1000 220 L0 220 Z" fill="#b8975b" opacity="0.6" />
+      </svg>
+    </div>
   );
 }
 

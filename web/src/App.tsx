@@ -65,6 +65,8 @@ export function App() {
     if (route !== "/") diveTo(0);
   }, [route, diveTo]);
 
+  const atHome = route === "/" && screen.name === "home";
+
   if (route === "/admin") return <AdminPortal />;
 
   const onFinished = useCallback(
@@ -82,9 +84,16 @@ export function App() {
       {!inBattle && <DepthGauge depth={depth} />}
 
       <div className="topbar">
-        <button className="brand" onClick={goHome}>
-          {APP_NAME}
-        </button>
+        <div className="topbar-left">
+          <button className="brand" onClick={goHome}>
+            {APP_NAME}
+          </button>
+          {!atHome && (
+            <button className="home-btn" onClick={goHome}>
+              <span aria-hidden>🏠</span> Home
+            </button>
+          )}
+        </div>
         {inBattle ? <span /> : <DepthPill depth={depth} />}
         <button className="icon-btn" onClick={() => setSettingsOpen(true)} aria-label="Settings">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
@@ -129,7 +138,18 @@ export function App() {
         )}
       </main>
 
-      <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
+      <SettingsPanel
+        open={settingsOpen}
+        onClose={() => setSettingsOpen(false)}
+        onHome={
+          atHome
+            ? undefined
+            : () => {
+                setSettingsOpen(false);
+                goHome();
+              }
+        }
+      />
       {welcome && !roomCode && <Welcome onDone={() => setWelcome(false)} />}
     </MotionConfig>
   );

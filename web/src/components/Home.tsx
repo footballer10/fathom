@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { APP_NAME, QUESTION_SECONDS, TIERS, WRONG_GUESS_PENALTY_SECONDS } from "@fathom/shared";
+import { APP_NAME, QUESTION_SECONDS, TIERS } from "@fathom/shared";
 import type { Category } from "@fathom/shared";
 import { api } from "../api";
 import type { DailyStatus } from "../api";
@@ -40,6 +40,7 @@ export function Home({
       <div className="mode-cards">
         <div className="card mode-card">
           <div className="mode-card-head">
+            <span className="mode-card-emoji" aria-hidden>📅</span>
             <h3>Daily{daily ? ` #${daily.dailyNumber}` : ""}</h3>
             <span className="muted">Same 7 prompts for everyone</span>
           </div>
@@ -51,6 +52,7 @@ export function Home({
 
         <div className="card mode-card">
           <div className="mode-card-head">
+            <span className="mode-card-emoji" aria-hidden>♾️</span>
             <h3>Unlimited</h3>
             <span className="muted">7 prompts at a time, and you never see the same one twice</span>
           </div>
@@ -69,12 +71,21 @@ export function Home({
             Start a dive
           </button>
         </div>
+
+        <div className="card mode-card mode-card--party">
+          <div className="mode-card-head">
+            <span className="mode-card-emoji" aria-hidden>🎉</span>
+            <h3>Party</h3>
+            <span className="muted">Play live with friends</span>
+          </div>
+          <p className="muted small">Group Dive races everyone on the same prompts. Battle passes the pufferfish until one diver is left.</p>
+          <button className="btn btn--party" onClick={() => navigate("/party")}>
+            Start or join a party
+          </button>
+        </div>
       </div>
 
       <nav className="home-nav">
-        <button className="btn btn--ghost" onClick={() => navigate("/party")}>
-          🎉 Party with friends
-        </button>
         <button className="btn btn--ghost" onClick={() => navigate("/leaderboards")}>
           🏆 Leaderboards
         </button>
@@ -93,8 +104,8 @@ export function Home({
       <div className="card how">
         <h3>How to play</h3>
         <p className="muted small">
-          Type one valid answer within {QUESTION_SECONDS} seconds. A wrong guess costs {WRONG_GUESS_PENALTY_SECONDS} seconds,
-          but you can keep trying. Every point sinks you 10 meters.
+          Type one valid answer within {QUESTION_SECONDS} seconds. Wrong guesses are free,
+          so keep trying. Every point sinks you 10 meters.
         </p>
         <ul className="tier-legend">
           {[...TIERS].reverse().map((t) => (

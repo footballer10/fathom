@@ -6,6 +6,8 @@ import {
   DIVE_DEFAULTS,
   MISS_EMOJI,
   formatDepth,
+  partyDepth,
+  partyDepthScale,
   tierInfo,
 } from "@fathom/shared";
 import type { BattleSettings, Category, DiveSettings, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
@@ -31,6 +33,8 @@ function useNow(intervalMs = 250) {
   }, [intervalMs]);
   return now;
 }
+
+const penaltyLabel = (secs: number) => (secs === 0 ? "nothing" : `${secs}s`);
 
 function TierBadge({ tier }: { tier: TierPoints | null }) {
   if (!tier) return <span className="tier-badge tier-badge--miss">{MISS_EMOJI}</span>;
@@ -60,8 +64,9 @@ export function RoomPage({
 
   const me = state?.players.find((p) => p.id === state.you);
   useEffect(() => {
-    if (state?.kind === "dive") onDepth(me?.score ?? 0);
-  }, [state?.kind, me?.score, onDepth]);
+    // Background depth follows the party scale, so shorter games still reach the deep zones.
+    if (state?.kind === "dive") onDepth((me?.score ?? 0) * partyDepthScale((state.settings as DiveSettings).questionCount));
+  }, [state?.kind, state?.settings, me?.score, onDepth]);
   useEffect(() => {
     onBattle(state?.kind === "battle");
     return () => onBattle(false);
@@ -269,6 +274,10 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                   ))}
                 </div>
               </div>
+              <label className="field">
+                <span>Wrong guess costs: {penaltyLabel(s.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds)}</span>
+                <input type="range" min={0} max={DIVE_DEFAULTS.penaltyMax} value={s.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds} disabled={!isHost} onChange={(e) => set({ penaltySeconds: Number(e.target.value) })} />
+              </label>
               <label className="toggle-row">
                 <span>
                   <span className="toggle-label">Unique answers</span>
@@ -286,6 +295,10 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
               <label className="field">
                 <span>Base time: {s.baseSeconds}s</span>
                 <input type="range" min={BATTLE_DEFAULTS.baseSecondsMin} max={BATTLE_DEFAULTS.baseSecondsMax} value={s.baseSeconds} disabled={!isHost} onChange={(e) => set({ baseSeconds: Number(e.target.value) })} />
+              </label>
+              <label className="field">
+                <span>Wrong or taken answer costs: {penaltyLabel(s.penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)}</span>
+                <input type="range" min={0} max={BATTLE_DEFAULTS.penaltyMax} value={s.penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds} disabled={!isHost} onChange={(e) => set({ penaltySeconds: Number(e.target.value) })} />
               </label>
               <label className="field">
                 <span>New prompt after {s.failedTurnsToRotate} failed turn(s)</span>
@@ -353,7 +366,7 @@ function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnaps
     for (const e of fresh) {
       if (e.type === "guessResult" && !e.accepted) {
         const k = e.id;
-        setPops((p) => [...p, k]);
+        if (((state.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds) > 0) setPops((p) => [...p, k]);
         setTimeout(() => setPops((p) => p.filter((x) => x !== k)), 1000);
         if (!reducedMotion) void shake.start({ x: [0, -10, 8, -6, 4, 0], transition: { duration: 0.4 } });
       }
@@ -407,7 +420,7 @@ function DiveQuestion({ state, send, events, reducedMotion }: { state: RoomSnaps
           <AnimatePresence>
             {pops.map((k) => (
               <motion.span key={k} className="penalty-pop" initial={{ opacity: 0, y: 0 }} animate={{ opacity: [0, 1, 0], y: -40 }} exit={{ opacity: 0 }} transition={{ duration: 0.9 }}>
-                −{DIVE_DEFAULTS.wrongGuessPenaltySeconds}s
+                −{(state.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds}s
               </motion.span>
             ))}
           </AnimatePresence>
@@ -451,7 +464,7 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
                 <span className="reveal-ans">{r.canonical ?? "—"}</span>
                 <TierBadge tier={r.tier} />
                 <span className="reveal-pts">
-                  +{formatDepth(r.points * 10)}
+                  +{formatDepth(partyDepth(r.points, (state.settings as DiveSettings).questionCount))}
                   {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
                 </span>
               </li>
@@ -465,7 +478,7 @@ function DiveReveal({ state, isHost, send, answers }: { state: RoomSnapshot; isH
               <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
                 <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
                 <span className="lb-name">{r.nickname}</span>
-                <span className="lb-depth">{formatDepth(r.score * 10)}</span>
+                <span className="lb-depth">{formatDepth(partyDepth(r.score, (state.settings as DiveSettings).questionCount))}</span>
                 {settled && r.rank < r.previousRank && <span className="lb-move up">▲</span>}
                 {settled && r.rank > r.previousRank && <span className="lb-move down">▼</span>}
               </motion.li>
@@ -548,7 +561,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
                 Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
               </p>
             )}
-            {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} />}
+            {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} questionCount={(state.settings as DiveSettings).questionCount} />}
             <div className="card">
               <ol className="leaderboard">
                 {results.map((r) => (
@@ -578,7 +591,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
 }
 
 /** Every question from the game with every player's answer, shown at the end of a Dive. */
-function AnswerRecap({ recap, you }: { recap: QuestionRecap[]; you: string }) {
+function AnswerRecap({ recap, you, questionCount }: { recap: QuestionRecap[]; you: string; questionCount: number }) {
   return (
     <div className="card recap">
       <h3>Everyone's answers</h3>
@@ -593,7 +606,7 @@ function AnswerRecap({ recap, you }: { recap: QuestionRecap[]; you: string }) {
                 <span className="reveal-name">{r.nickname}</span>
                 <span className="reveal-ans">{r.canonical ?? "—"}</span>
                 <TierBadge tier={r.tier} />
-                <span className="reveal-pts">+{formatDepth(r.points * 10)}</span>
+                <span className="reveal-pts">+{formatDepth(partyDepth(r.points, questionCount))}</span>
               </li>
             ))}
           </ul>
@@ -717,7 +730,7 @@ function BattleView({
           <p className="hint">
             {myTurn ? (
               <>
-                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {BATTLE_DEFAULTS.wrongGuessPenaltySeconds}s · good answers fill your life circle (🐋 fills it all, 🦑 half, 🐚 a quarter…) and a full circle is +1 life
+                <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {penaltyLabel((state.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)} · good answers fill your life circle (🐋 fills it all, 🦑 half, 🐚 a quarter…) and a full circle is +1 life
               </>
             ) : out ? (
               "You're out, but you can still guess for fun."

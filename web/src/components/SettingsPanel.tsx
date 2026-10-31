@@ -10,7 +10,7 @@ const OPTIONS: { key: keyof Settings; label: string; hint: string }[] = [
   { key: "particles", label: "Particles", hint: "Bubbles and marine snow" },
 ];
 
-export function SettingsPanel({ open, onClose }: { open: boolean; onClose: () => void }) {
+export function SettingsPanel({ open, onClose, onHome }: { open: boolean; onClose: () => void; onHome?: () => void }) {
   const { settings, update } = useSettings();
 
   useEffect(() => {
@@ -55,6 +55,11 @@ export function SettingsPanel({ open, onClose }: { open: boolean; onClose: () =>
             <button className="btn" onClick={onClose} autoFocus>
               Done
             </button>
+            {onHome && (
+              <button className="btn btn--ghost settings-home" onClick={onHome}>
+                🏠 Return to home
+              </button>
+            )}
             <p className="hint">
               <kbd>Esc</kbd> to close
             </p>

@@ -15,6 +15,8 @@ export interface DiveSettings {
   questionCount: number;
   timerSeconds: number;
   uniqueAnswers: boolean;
+  /** Seconds a wrong guess takes off your clock (0 = no penalty). */
+  penaltySeconds: number;
 }
 
 export interface BattleSettings {
@@ -26,6 +28,8 @@ export interface BattleSettings {
   /** null = 2 × alive players */
   acceptsToRotate: number | null;
   speedUp: boolean;
+  /** Seconds a wrong or taken answer takes off your turn (0 = no penalty). */
+  penaltySeconds: number;
 }
 
 export type RoomPhase = "lobby" | "question" | "reveal" | "turn" | "rotate" | "over";
