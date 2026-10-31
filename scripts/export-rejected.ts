@@ -1,6 +1,6 @@
 /**
  * npm run export:rejected [-- --local]
- * Downloads rejected guesses (seen 2+ times) and "this should count" reports,
+ * Downloads every guess that wasn't accepted since the last review (all modes),
  * formatted for Claude to turn into FIXES blocks. Prints it and saves a copy
  * to content/incoming/rejected-<date>.txt.
  */

@@ -186,7 +186,7 @@ Same lobby and code system as Dive. Max 12 players.
 **Prompt rotation**
 - The prompt switches to a new one when any of these happens:
   - 2 failed turns on the current prompt (host setting, 1–5), or
-  - N accepted answers on the current prompt (host setting; default = 2 × alive players), or
+  - N accepted answers on the current prompt (host setting; default = 12, or 2 × alive players if that is more, so small games still dig deep into the list), or
   - fewer than 5 unused valid answers remain.
 - Show a big "NEW PROMPT" transition.
 

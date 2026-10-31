@@ -171,19 +171,24 @@ uses the next open slots instead.
 npm run export:rejected
 ```
 
-This saves `content/incoming/rejected-<today>.txt`: wrong guesses that players typed at least
-twice, plus "this should count" reports (lines marked `REPORTED`).
+This saves `content/incoming/rejected-<today>.txt`: **every guess that wasn't accepted** since the
+last review, from every mode (Daily, Unlimited, party games, the quick modes and the Abyss), grouped
+by question, with how many times each was typed and the closest real answer.
 
-**Every reported answer gets a decision**, even if only one person reported it. A player took the
-time to say "this should count", so Rule #1 applies: if it's a real, valid answer to the prompt,
-accept it (as a new answer or an alias). Only leave it out if it's plainly wrong. List every
-report and your decision in the log.
+**Review every single line.** Rule #1 applies: players shouldn't be marked wrong for a right answer.
+For each guess, in this order:
 
-For each item decide:
+1. **Is it actually a correct answer to the prompt?** Jokes, "pass", "idk", "skip", keyboard mashing,
+   rude words and plainly wrong answers are not: skip them without a second thought.
+2. **If it's correct, is it already on the list under another spelling or name?** A misspelling,
+   nickname, abbreviation, plural or other name for an existing answer → add it as an **alias** of
+   that answer.
+3. **Otherwise it's a real answer that's missing** → **add** it as a new answer in the right tier.
+4. **Too badly misspelled to be sure what was meant?** Leave it off. Don't guess.
 
-- **Misspelling** of an existing answer → add it as an alias of that answer.
-- **Valid answer that's missing** → add it as a new answer in the right tier.
-- **Invalid** → leave it out (or add it to Near Miss if it's a common wrong answer worth blocking).
+Only add something to Near Miss (`reject:`) if it's a common wrong answer that's one typo away from
+a real one and needs blocking. In the log, give counts (how many guesses reviewed, aliases added,
+answers added, skipped) and list every alias and answer you added.
 
 Write the decisions as FIXES blocks in `content/incoming/fixes-<today>.txt`, one block per
 question (the export shows each question's id):
@@ -257,7 +262,7 @@ npm run pool:refresh
   Delete the brief, the rejected export and the suggestions files (they're regenerated each week).
 - Write `content/logs/<today>.md` with:
   - How many Daily and Unlimited questions were added, and the dates filled
-  - The fixes applied, and every reported answer with your decision
+  - The fixes applied: counts of guesses reviewed, aliases added, answers added and skipped, and every alias and answer you added
   - Player suggestions: what you fixed, plus a grouped summary of bugs and ideas
   - The pool size before and after the refresh
   - Anything that failed, and which files are still waiting in `content/incoming/`

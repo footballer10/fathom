@@ -32,6 +32,7 @@ import type {
 } from "@fathom/shared";
 import type { Env } from "./env";
 import { recordPartyResults } from "./leaderboards";
+import { recordRejected } from "./rejected";
 import { getIndex, getQuestions, markRoomSeen, pickRoomQuestions } from "./questions";
 
 /**
@@ -715,6 +716,7 @@ export class Room extends DurableObject<Env> {
       const connected = this.connectedIds();
       if (this.activeDivers().filter((x) => connected.has(x.id)).every((x) => d.answers[x.id])) await this.revealDive(now);
     } else {
+      if (r.reason !== "taken") this.ctx.waitUntil(recordRejected(this.env, d.questionIds[d.index], index, text, now));
       d.penalties[pid] = (d.penalties[pid] ?? 0) + 1;
       this.send(ws, { type: "guessResult", accepted: false, canonical: null, tier: null, points: 0, corrected: false, reason: r.reason, endsAt: this.personalEndsAt(pid) });
     }
@@ -919,7 +921,8 @@ export class Room extends DurableObject<Env> {
       if (!(await this.maybeRotate(now, pid))) this.queueNextTurn(pid, now, BATTLE_DEFAULTS.betweenTurnsMs);
       return;
     }
-    // Wrong (or already taken): costs time, keep guessing.
+    // Wrong (or already taken): costs time, keep guessing. Wrong ones go to the weekly review.
+    if (r.reason !== "taken") this.ctx.waitUntil(recordRejected(this.env, b.questionIds[b.qPos], index, text, now));
     if (r.reason === "taken" && r.canonical) {
       const by = b.used.find((u) => u.canonical === r.canonical)?.byPlayerId ?? "";
       this.broadcast({ type: "taken", answerCanonical: r.canonical, byPlayerId: by });
@@ -965,7 +968,7 @@ export class Room extends DurableObject<Env> {
 
   /**
    * Switch to a new prompt when: N failed turns on this prompt, or enough
-   * accepted answers (default 2 × alive players), or fewer than 5 unused
+   * accepted answers (default 12, or 2 × alive players if more), or fewer than 5 unused
    * valid answers remain. Speed-up shaves a second off the base time each time.
    */
   private async maybeRotate(now: number, lastPid: string): Promise<boolean> {
@@ -973,7 +976,7 @@ export class Room extends DurableObject<Env> {
     const b = s.battle!;
     const set = s.settings as BattleSettings;
     const index = await getIndex(this.env, b.questionIds[b.qPos]);
-    const acceptsNeeded = set.acceptsToRotate ?? 2 * this.aliveIds().length;
+    const acceptsNeeded = set.acceptsToRotate ?? Math.max(BATTLE_DEFAULTS.acceptsPerPrompt, 2 * this.aliveIds().length);
     const unused = index.answers.length - b.usedIds.length;
     const hotPotato = battleVariant(s) === "hotpotato";
     if (!hotPotato && b.failed < set.failedTurnsToRotate && b.accepted < acceptsNeeded && unused >= 5) return false;

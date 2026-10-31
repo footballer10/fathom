@@ -4,6 +4,7 @@ import { TIERS, matchGuess } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
+import { recordRejected } from "./rejected";
 import { UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams } from "./questions";
 
 /**
@@ -65,6 +66,7 @@ practiceRoutes.post("/api/practice/guess", async (c) => {
   if (r.accepted && r.corrected && !body.confirm) {
     return c.json({ accepted: false, answerId: null, canonical: r.canonical, tier: null, points: 0, corrected: true, reason: "confirm" });
   }
+  if (!r.accepted && r.reason !== "taken") c.executionCtx.waitUntil(recordRejected(c.env, index.questionId, index, String(body.text), Date.now()));
   if (body.runId && r.accepted && r.answerId && r.tier) {
     const run = await loadRun(c.env, body.runId, pid(c));
     if (run && !run.finished && run.data.questions.some((q) => q.id === body.id)) {
@@ -331,6 +333,7 @@ practiceRoutes.post("/api/abyss/guess", async (c) => {
   const index = await getIndex(c.env, a.question_id);
   const r = matchGuess(index, String(text ?? "").slice(0, 100), { takenAnswerIds: new Set(answers.map((x) => x.answerId)) });
   if (r.accepted && r.corrected && !confirm) return c.json({ accepted: false, canonical: r.canonical, tier: null, points: 0, reason: "confirm" });
+  if (!r.accepted && r.reason !== "taken") c.executionCtx.waitUntil(recordRejected(c.env, a.question_id, index, String(text ?? ""), now));
   if (r.accepted && r.answerId && r.canonical && r.tier) {
     answers.push({ answerId: r.answerId, canonical: r.canonical, tier: r.tier });
     const better = !a.best_tier || r.tier > a.best_tier;

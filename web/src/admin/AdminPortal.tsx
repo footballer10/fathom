@@ -498,7 +498,7 @@ function ReviewTab({ onPasteFixes }: { onPasteFixes: () => void }) {
   return (
     <div>
       <p className="muted small">
-        Rejected guesses seen at least twice, plus "this should count" reports. Click <b>Copy export for Claude</b>, paste it into a normal Claude chat, then
+        Every guess that wasn't accepted since the last review, from every mode. Click <b>Copy export for Claude</b>, paste it into a normal Claude chat, then
         paste Claude's FIXES reply into the{" "}
         <button className="link-btn" onClick={onPasteFixes}>
           Import tab

@@ -195,6 +195,11 @@ export const BATTLE_DEFAULTS = {
   /** Size of the life circle in 32nds; filling it earns one life. */
   lifeMeterFull: 32,
   failedTurnsToRotate: 2,
+  /**
+   * Accepted answers before a new prompt: at least this many whatever the group
+   * size (more for big groups), so a small game digs as deep into the list as a big one.
+   */
+  acceptsPerPrompt: 12,
   minUnusedAnswersBeforeRotate: 5,
   speedUp: false,
   typingUpdatesPerSecond: 10,

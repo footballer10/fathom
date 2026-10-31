@@ -1950,24 +1950,6 @@ body:has(.battle) .toasts { bottom: 104px; }
 .suggest-count { text-align: right; margin-top: -6px; }
 @media (max-width: 480px) { .suggest-kinds { grid-template-columns: 1fr; } }
 
-/* "This should count" (tucked under each reveal) */
-.should-count-toggle {
-  display: block; margin: 0 auto; align-self: center; background: none; border: 0; padding: 4px 8px; cursor: pointer;
-  color: var(--muted); font-size: 0.85rem; text-decoration: underline dotted; text-underline-offset: 3px;
-}
-.should-count-toggle:hover { color: var(--text); }
-.should-count {
-  align-self: center; width: min(560px, 100%); display: flex; flex-direction: column; gap: 8px; align-items: center;
-  padding: 10px 12px; border-radius: 12px; background: rgba(2, 14, 30, 0.45); border: 1px solid var(--glass-border);
-}
-.should-count-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; width: 100%; }
-.chip--btn { cursor: pointer; border: 1px dashed rgba(220, 240, 255, 0.5); background: transparent; color: var(--text); font: inherit; font-size: 0.85rem; }
-.chip--btn:hover { border-color: var(--accent); color: var(--accent); }
-.chip--sent { color: #7dffb2; border-color: rgba(125, 255, 178, 0.5); font-size: 0.85rem; }
-.should-count-input {
-  flex: 1; min-width: 160px; padding: 7px 10px; border-radius: 10px; font: inherit; font-size: 0.9rem;
-  background: var(--glass-strong); color: var(--text); border: 1px solid var(--glass-border);
-}
 
 /* Party page: every mode as its own card, grouped by Dive and Battle */
 .party-section { margin: 8px 0 0; font-size: 1.15rem; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }

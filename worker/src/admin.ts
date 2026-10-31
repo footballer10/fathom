@@ -368,7 +368,7 @@ export async function applyFixes(env: Env, f: Omit<ParsedFixes, "line">, now: nu
   await env.DB.batch([
     env.DB.prepare("UPDATE questions SET data = ?, answer_count = ? WHERE id = ?").bind(data, content.answers.length, row.id),
     // Everything the export showed for this question has now been handled.
-    env.DB.prepare("UPDATE rejected_guesses SET resolved = 1 WHERE question_id = ? AND count >= 2").bind(row.id),
+    env.DB.prepare("UPDATE rejected_guesses SET resolved = 1 WHERE question_id = ?").bind(row.id),
     env.DB.prepare("UPDATE reports SET status = 'resolved' WHERE question_id = ? AND status = 'open'").bind(row.id),
   ]);
   await storeIndex(env, { id: row.id, data, prompt: row.prompt });
@@ -397,8 +397,8 @@ async function reviewData(env: Env) {
   const { results: rejected } = await env.DB.prepare(
     `SELECT r.question_id, r.normalized, r.count, r.closest_answer_id, r.distance, q.prompt, q.data
      FROM rejected_guesses r JOIN questions q ON q.id = r.question_id
-     WHERE r.count >= 2 AND r.resolved = 0
-     ORDER BY r.question_id, r.count DESC LIMIT 2000`,
+     WHERE r.resolved = 0
+     ORDER BY r.question_id, r.count DESC LIMIT 5000`,
   ).all<{ question_id: string; normalized: string; count: number; closest_answer_id: string | null; distance: number | null; prompt: string; data: string }>();
   const { results: reports } = await env.DB.prepare(
     `SELECT r.id, r.question_id, r.guess, r.created_at, q.prompt FROM reports r JOIN questions q ON q.id = r.question_id
@@ -436,8 +436,10 @@ export function formatRejectedExport(data: Awaited<ReturnType<typeof reviewData>
   for (const r of data.reports) add(r.questionId, r.prompt, `- REPORTED "this should count": "${r.guess}"`);
 
   const head = [
-    "REJECTED GUESSES AND REPORTS",
-    "For each item, decide: (a) a misspelling/alias of an existing answer, (b) a valid missing answer (pick a tier), or (c) invalid.",
+    "EVERY GUESS THAT WASN'T ACCEPTED SINCE LAST WEEK",
+    "Review every line. First: is it actually a correct answer to the prompt? Jokes, 'pass', 'idk', random letters and plainly wrong answers are not: skip them.",
+    "If it is correct: (a) a misspelling or another name for an answer already on the list → alias, (b) a real answer that's missing → add it in the right tier.",
+    "If it's so badly misspelled you can't be sure what was meant, leave it off.",
     "Reply ONLY with FIXES blocks in this exact format, one block per question that needs changes:",
     "",
     "# FIXES",
@@ -469,7 +471,7 @@ adminRoutes.post("/api/admin/review/done", async (c) => {
   const cutoff = Number(before) || Date.now();
   const [reports, rejected] = await c.env.DB.batch([
     c.env.DB.prepare("UPDATE reports SET status = 'resolved' WHERE status = 'open' AND created_at <= ?").bind(cutoff),
-    c.env.DB.prepare("UPDATE rejected_guesses SET resolved = 1 WHERE resolved = 0 AND count >= 2 AND last_seen <= ?").bind(cutoff),
+    c.env.DB.prepare("UPDATE rejected_guesses SET resolved = 1 WHERE resolved = 0 AND last_seen <= ?").bind(cutoff),
   ]);
   return c.json({ reports: reports.meta.changes ?? 0, rejected: rejected.meta.changes ?? 0 });
 });

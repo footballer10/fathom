@@ -6,7 +6,6 @@ import { api } from "../api";
 import { useSettings } from "../settings";
 import { sounds } from "../sound";
 import { RevealPanel } from "./RevealPanel";
-import { ShouldCount } from "./ShouldCount";
 import { DidYouMean } from "./DidYouMean";
 import { TierReveal } from "./TierReveal";
 import { TimerRing } from "./TimerRing";
@@ -62,8 +61,6 @@ export function Game({
   const shake = useAnimationControls();
   const revealShownAt = useRef(0);
   const started = useRef(false);
-  /** Wrong guesses on the current question, so a player can say "this should count". */
-  const rejected = useRef<string[]>([]);
 
   const play = useCallback((fn: () => void) => settings.sound && fn(), [settings.sound]);
 
@@ -102,7 +99,6 @@ export function Game({
       }
       setOutcome(null);
       setReveal(null);
-      rejected.current = [];
       setAsk(null);
       setText("");
       setTimeUp(false);
@@ -149,7 +145,6 @@ export function Game({
       } else {
         play(() => sounds.thud());
         setText("");
-        rejected.current = [...rejected.current.slice(-4), guess];
         const key = Date.now();
         setPenaltyPops((p) => [...p, key]);
         setTimeout(() => setPenaltyPops((p) => p.filter((k) => k !== key)), 1100);
@@ -338,7 +333,6 @@ export function Game({
               canonical={ask.canonical}
               onYes={() => void submit(ask.guess)}
               onNo={() => {
-                rejected.current = [...rejected.current.slice(-4), ask.guess];
                 setAsk(null);
                 setText("");
                 inputRef.current?.focus();
@@ -364,7 +358,6 @@ export function Game({
           <p className="hint">
             <kbd>Enter ↵</kbd> or <kbd>Space</kbd> to continue
           </p>
-          <ShouldCount key={q.index} guesses={rejected.current} onReport={(g) => api.report(session.sessionId, q.index, g)} />
           {reveal ? (
             <details className="answers-details" open>
               <summary>All {reveal.answers.length} valid answers</summary>

@@ -4,11 +4,8 @@ import {
   QUESTIONS_PER_UNLIMITED_RUN,
   QUESTION_SECONDS,
   WRONG_GUESS_PENALTY_SECONDS,
-  closestAnswer,
-  compact,
   matchGuess,
   nextDailyResetAt,
-  normalize,
   pointsToDepth,
   zoneForDepth,
 } from "@fathom/shared";
@@ -25,6 +22,7 @@ import type {
 } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
+import { logRejected } from "./rejected";
 import { UNLIMITED_WHERE, dailyNumber, getDailySet, getIndex, getQuestions, today, unlimitedParams } from "./questions";
 
 /**
@@ -357,23 +355,14 @@ export async function guess(
   }
 
   // Wrong guess: costs time, and the guess goes to the learning loop.
-  const key = compact(normalize(text));
-  const closest = key ? closestAnswer(index, text) : null;
   const stmts = [
     env.DB.prepare("UPDATE sessions SET penalties = penalties + 1 WHERE id = ? AND current_index = ? AND current_done = 0").bind(
       s.id,
       s.current_index,
     ),
   ];
-  if (key) {
-    stmts.push(
-      env.DB.prepare(
-        `INSERT INTO rejected_guesses (question_id, normalized, count, closest_answer_id, distance, last_seen)
-         VALUES (?, ?, 1, ?, ?, ?)
-         ON CONFLICT(question_id, normalized) DO UPDATE SET count = count + 1, last_seen = excluded.last_seen`,
-      ).bind(qid, normalize(text), closest?.answerId ?? null, closest?.distance ?? null, now),
-    );
-  }
+  const logged = logRejected(env, qid, index, text, now);
+  if (logged) stmts.push(logged);
   await env.DB.batch(stmts);
   s.penalties += 1;
   await settle(env, s, now);
