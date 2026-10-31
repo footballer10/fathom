@@ -25,6 +25,20 @@ function reject(reason: MatchReason): MatchResult {
   };
 }
 
+/**
+ * True when the guess is the answer itself: its canonical text, or that text
+ * with the prompt's noun left off or added ("blue" / "blue cheese" for
+ * "Blue cheese", "cheddar cheese" for "Cheddar"). Only called for keys
+ * already in the exact index, so a longer key here is always a real head-noun form.
+ */
+function isOwnSpelling(key: string, canonical: string): boolean {
+  const words = normalize(canonical).split(" ").filter(Boolean);
+  const full = words.join("");
+  if (key === full) return true;
+  if (words.length > 1 && key === words.slice(0, -1).join("")) return true;
+  return key.length >= full.length + 3 && key.startsWith(full);
+}
+
 function accept(index: AnswerIndex, a: number, corrected: boolean, opts: MatchOptions): MatchResult {
   const ans = index.answers[a];
   if (opts.takenAnswerIds?.has(ans.id)) {
@@ -59,7 +73,9 @@ export function matchGuess(index: AnswerIndex, guess: string, opts: MatchOptions
 
   // 2. Exact lookup.
   const exact = index.exact[key];
-  if (exact !== undefined) return accept(index, exact, false, opts);
+  // Only the answer's own spelling (plural, accents and case aside) counts as exact. Aliases and
+  // stored misspellings still match, but flagged as corrected, so the game asks "Did you mean…?".
+  if (exact !== undefined) return accept(index, exact, !isOwnSpelling(key, index.answers[exact].canonical), opts);
 
   // 3. Near-miss block: a known wrong answer is rejected outright, even if it's
   //    one typo away from something valid.

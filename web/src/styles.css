@@ -1987,16 +1987,6 @@ body:has(.battle) .toasts { bottom: 104px; }
 .coop-bar-track { height: 12px; border-radius: 99px; background: rgba(255, 255, 255, 0.14); overflow: hidden; }
 .coop-bar-fill { height: 100%; border-radius: 99px; background: linear-gradient(90deg, #6fe3ff, #a78bfa); }
 .coop-bar-fill--done { background: linear-gradient(90deg, #7dffb2, #ffd166); }
-.vote-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 8px 0; }
-.vote-option {
-  padding: 16px 14px; border-radius: 14px; font: inherit; font-weight: 700; font-size: 1.1rem; cursor: pointer;
-  background: var(--glass-strong); color: var(--text); border: 2px solid var(--glass-border);
-  transition: transform 0.15s, border-color 0.2s, background 0.2s;
-}
-.vote-option:hover:not(:disabled) { transform: translateY(-2px); border-color: var(--accent); }
-.vote-option--picked { border-color: #ffd166; background: rgba(255, 209, 102, 0.16); }
-.vote-option--own { opacity: 0.55; cursor: default; }
-.vote-check { color: #ffd166; }
 .variant-result { text-align: center; display: flex; flex-direction: column; gap: 6px; }
 .variant-result-big { font-size: 1.5rem; font-weight: 900; }
 .variant-result--win { border-color: rgba(125, 255, 178, 0.6); box-shadow: 0 0 30px rgba(125, 255, 178, 0.25); }
@@ -2094,3 +2084,19 @@ body:has(.battle) .toasts { bottom: 104px; }
 .team-move:hover { border-color: var(--accent); }
 .team-actions { display: inline-flex; align-items: center; gap: 2px; }
 .team-list li:hover .kick-btn { border-color: rgba(255, 90, 110, 0.6); color: #ff9aa6; }
+
+/* Shark Tank: the shark circles, then strikes */
+.shark-attack { position: fixed; inset: 0; z-index: 60; pointer-events: none; display: grid; place-items: center; }
+.shark-attack-water { position: absolute; inset: 0; background: radial-gradient(circle at 50% 55%, rgba(120, 0, 20, 0.35), rgba(0, 0, 0, 0.55) 70%); }
+.shark-attack-shark { position: absolute; left: 50%; top: 42%; margin: -40px 0 0 -80px; filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.5)); }
+.shark-attack-target {
+  position: absolute; left: 50%; top: calc(42% + 200px); translate: -50% -50%;
+  padding: 10px 22px; border-radius: 99px; font-weight: 900; font-size: 1.3rem; white-space: nowrap;
+  background: rgba(2, 14, 30, 0.85); border: 2px solid #ff5a6e; box-shadow: 0 0 30px rgba(255, 90, 110, 0.5);
+}
+.shark-attack-chomp {
+  position: absolute; left: 50%; top: calc(42% + 270px); translate: -50% 0; white-space: nowrap;
+  font-size: clamp(1.4rem, 4vw, 2.4rem); font-weight: 900; color: #ffd84a;
+  text-shadow: 0 0 14px rgba(255, 60, 60, 0.9), 0 3px 0 #8b0000;
+}
+.tag--school { font-size: 0.85rem; }

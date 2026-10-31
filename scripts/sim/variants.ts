@@ -73,26 +73,38 @@ try {
     bots.forEach((b) => b.close());
   }
 
-  // ---- Bluff ----
+  // ---- School of Fish ----
   {
-    const bots = await room("dive", "bluff", 3, { questionCount: 3, timerSeconds: 15 });
+    const bots = await room("dive", "school", 3, { questionCount: 3, timerSeconds: 15 });
     bots[0].send({ type: "start" });
     const q = (await bots[0].waitFor((m) => m.type === "question" && m.index === 0)) as Extract<ServerMessage, { type: "question" }>;
-    const texts = [pick(q.prompt, 100), pick(q.prompt, 30), pick(q.prompt, 10)];
-    bots.forEach((b, i) => b.send({ type: "guess", text: texts[i] }));
-    await bots[0].waitFor((m) => m.type === "state" && m.state.phase === "vote", 10_000);
-    await sleep(200);
-    const vote = latest(bots[1]).dive!.vote!;
-    checks.check("bluff: a vote with one anonymous option per answer", vote.options.length === 3 && vote.options.every((o) => !("answerIds" in o)));
-    // Bot 1 and 2 vote for the rarest (bot 0's); bot 0 votes for bot 1's.
-    const optFor = (b: Bot) => latest(b).dive!.vote!;
-    const rarest = optFor(bots[1]).options.find((o) => o.id !== optFor(bots[1]).yourOptionId && o.id !== optFor(bots[2]).yourOptionId)!.id;
-    bots[1].send({ type: "vote", optionId: rarest });
-    bots[2].send({ type: "vote", optionId: rarest });
-    bots[0].send({ type: "vote", optionId: optFor(bots[1]).yourOptionId! });
+    const same = pick(q.prompt, 10);
+    bots[0].send({ type: "guess", text: same });
+    bots[1].send({ type: "guess", text: same });
+    bots[2].send({ type: "guess", text: pick(q.prompt, 100, [same]) });
     const rv = (await bots[0].waitFor((m) => m.type === "reveal", 20_000)) as Extract<ServerMessage, { type: "reveal" }>;
     const row = (b: Bot) => rv.perPlayer.find((r) => r.playerId === b.playerId)!;
-    checks.check("bluff: spotting the rarest answer earns the bonus", row(bots[1]).votedRight === true && row(bots[0]).votedRight === false, `${row(bots[1]).points} pts`);
+    checks.check("school: matching the crowd scores, a lone answer doesn't", row(bots[0]).matches === 1 && row(bots[0]).points === 25 && row(bots[2]).points === 0, `${row(bots[0]).points}/${row(bots[2]).points}`);
+    bots.forEach((b) => b.close());
+  }
+
+  // ---- Shark Tank with 2 lives ----
+  {
+    const bots = await room("dive", "shark", 2, { questionCount: 5, timerSeconds: 15, sharkLives: 2 });
+    bots[0].send({ type: "start" });
+    let bites = 0;
+    for (let i = 0; i < 2; i++) {
+      const q = (await bots[0].waitFor((m) => m.type === "question" && m.index === i)) as Extract<ServerMessage, { type: "question" }>;
+      bots[0].send({ type: "guess", text: pick(q.prompt, 100) });
+      bots[1].send({ type: "guess", text: pick(q.prompt, 10) });
+      const rv = (await bots[0].waitFor((m) => m.type === "reveal" && m.index === i, 20_000)) as Extract<ServerMessage, { type: "reveal" }>;
+      const r = rv.perPlayer.find((x) => x.playerId === bots[1].playerId);
+      if (r?.bitten) bites++;
+      if (i === 0) checks.check("shark: with 2 lives, the first bite leaves one", r?.bitten === true && r.livesLeft === 1);
+      bots[0].send({ type: "next" });
+    }
+    await bots[0].waitFor((m) => m.type === "gameOver", 20_000);
+    checks.check("shark: the second bite takes them out", bites === 2);
     bots.forEach((b) => b.close());
   }
 

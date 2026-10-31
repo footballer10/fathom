@@ -129,13 +129,13 @@ const cases: Case[] = [
   // Exact + aliases
   ["exact", "fruit", "Banana", "Banana", false],
   ["case and spaces", "fruit", "   bAnAnA  ", "Banana", false],
-  ["alias", "fruit", "pitaya", "Dragon fruit", false],
-  ["pre-generated misspelling alias", "fruit", "persimon", "Persimmon", false],
-  ["abbreviation alias", "countries", "USA", "United States", false],
-  ["abbreviation with dots", "countries", "U.S.A.", "United States", false],
+  ["alias", "fruit", "pitaya", "Dragon fruit", true], // an alias, so the game asks first
+  ["pre-generated misspelling alias", "fruit", "persimon", "Persimmon", true], // an alias, so the game asks first
+  ["abbreviation alias", "countries", "USA", "United States", true], // an alias, so the game asks first
+  ["abbreviation with dots", "countries", "U.S.A.", "United States", true], // an alias, so the game asks first
   ["leading article", "countries", "the United States", "United States", false],
   ["leading article 'a'", "fruit", "a banana", "Banana", false],
-  ["DRC alias", "countries", "DRC", "Democratic Republic of the Congo", false],
+  ["DRC alias", "countries", "DRC", "Democratic Republic of the Congo", true], // an alias, so the game asks first
 
   // Typos and transpositions
   ["one-letter typo (len 5-7)", "fruit", "cherrry", "Cherry", true],
@@ -166,7 +166,7 @@ const cases: Case[] = [
   ["plural of multi-word", "fruit", "dragon fruits", "Dragon fruit", false],
   ["singular of plural answer", "desserts", "chocolate chip cookie", "Chocolate chip cookies", false],
   ["-ie / -ies agree", "desserts", "brownies", "Brownie", false],
-  ["brussel sprout", "veg", "brussel sprout", "Brussels sprouts", false],
+  ["brussel sprout", "veg", "brussel sprout", "Brussels sprouts", true], // an alias, so the game asks first
   ["ponies", "animals", "ponies", "Pony", false],
 
   // US / UK spelling
@@ -200,7 +200,7 @@ const cases: Case[] = [
   ["three-word swap", "desserts", "cookies chocolate chip", "Chocolate chip cookies", true],
   ["ampersand = and", "desserts", "rock and roll cake", "Rock & roll cake", false],
   ["and = ampersand", "countries", "Bosnia & Herzegovina", "Bosnia and Herzegovina", false],
-  ["hyphen alias", "countries", "congo kinshasa", "Democratic Republic of the Congo", false],
+  ["hyphen alias", "countries", "congo kinshasa", "Democratic Republic of the Congo", true], // an alias, so the game asks first
   ["multi-word typo", "fruit", "pasion fruit", "Passion fruit", true],
 
   // Phonetic (Double Metaphone): too many edits for the typo step, but sounds the same

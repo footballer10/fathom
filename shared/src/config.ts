@@ -165,9 +165,11 @@ export const DIVE_DEFAULTS = {
   wrongGuessPenaltySeconds: 2,
   /** Host slider range for the wrong-guess penalty, in seconds. */
   penaltyMax: 5,
-  /** Bluff: seconds to vote, and bonus points for spotting the rarest answer. */
-  bluffVoteSeconds: 20,
-  bluffBonus: 25,
+  /** School of Fish: points for each other diver who gave the same answer as you. */
+  schoolPointsPerMatch: 25,
+  /** Shark Tank: how many bites a diver can take (host slider). */
+  sharkLives: 1,
+  sharkLivesMax: 5,
   /** Co-op: target points per player per question (about a Rare-ish average). */
   coopPointsPerAnswer: 40,
   /** How long the per-question reveal stays up before the next question. */

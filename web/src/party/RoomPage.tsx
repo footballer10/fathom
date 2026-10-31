@@ -17,6 +17,7 @@ import { api, serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
 import { ShouldCount } from "../components/ShouldCount";
 import { DidYouMean } from "../components/DidYouMean";
+import { SharkAttack } from "./SharkAttack";
 import { TimerRing } from "../components/TimerRing";
 import { NicknamePrompt, getNickname } from "../nickname";
 import { navigate } from "../router";
@@ -140,52 +141,6 @@ function CoopBar({ state }: { state: RoomSnapshot }) {
       <div className="coop-bar-track">
         <motion.div className={`coop-bar-fill${frac >= 1 ? " coop-bar-fill--done" : ""}`} initial={false} animate={{ width: `${frac * 100}%` }} transition={{ duration: 0.8 }} />
       </div>
-    </div>
-  );
-}
-
-/** Bluff: pick which of the (anonymous) answers you think is the rarest. */
-function DiveVote({ state, send }: { state: RoomSnapshot; send: Send }) {
-  const d = state.dive!;
-  const v = d.vote!;
-  const now = useNow(250);
-  const me = state.players.find((p) => p.id === state.you)!;
-  const canVote = !me.spectator && !me.eliminated;
-  const secs = Math.max(0, Math.ceil((v.endsAt - now) / 1000));
-  const voters = state.players.filter((p) => !p.spectator && !p.eliminated);
-  return (
-    <div className="game">
-      <div className="game-header">
-        <span className="game-meta">
-          Question {d.index + 1} of {d.total} · vote
-        </span>
-        <span className="game-meta">{secs}s</span>
-      </div>
-      <h2 className="prompt">{d.prompt}</h2>
-      <p className="center">
-        🎭 <b>Which answer is the rarest?</b> Spot it for +{DIVE_DEFAULTS.bluffBonus} bonus depth points.
-      </p>
-      <div className="vote-options">
-        {v.options.map((o) => {
-          const own = o.id === v.yourOptionId;
-          const picked = o.id === v.yourVote;
-          return (
-            <button
-              key={o.id}
-              className={`vote-option${picked ? " vote-option--picked" : ""}${own ? " vote-option--own" : ""}`}
-              disabled={!canVote || own}
-              onClick={() => send({ type: "vote", optionId: o.id })}
-            >
-              {o.text}
-              {own && <span className="muted small"> (yours)</span>}
-              {picked && <span className="vote-check"> ✓</span>}
-            </button>
-          );
-        })}
-      </div>
-      <p className="center muted small">
-        {v.voted.length}/{voters.length} voted{v.yourVote ? " · you can change your vote until time's up" : ""}
-      </p>
     </div>
   );
 }
@@ -374,8 +329,7 @@ export function RoomPage({
 
       {state.phase === "lobby" && <Lobby state={state} isHost={isHost} send={send} />}
       {state.kind === "dive" && state.phase === "question" && <DiveQuestion state={state} send={send} events={events} reducedMotion={settings.reducedMotion} tiers={myTiers} onRejected={addRejected} />}
-      {state.kind === "dive" && state.phase === "vote" && <DiveVote state={state} send={send} />}
-      {state.kind === "dive" && state.phase === "reveal" && <DiveReveal state={state} isHost={isHost} send={send} answers={revealAnswers} tiers={myTiers} rejected={myRejected[state.dive?.index ?? -1] ?? []} />}
+      {state.kind === "dive" && state.phase === "reveal" && <DiveReveal state={state} isHost={isHost} send={send} answers={revealAnswers} tiers={myTiers} rejected={myRejected[state.dive?.index ?? -1] ?? []} reducedMotion={settings.reducedMotion} />}
       {state.kind === "dive" && state.phase === "over" && <DiveFinale state={state} isHost={isHost} send={send} reducedMotion={settings.reducedMotion} />}
       {state.kind === "battle" && (state.phase === "turn" || state.phase === "rotate") && (
         <BattleView state={state} send={send} typing={typing} events={events} reducedMotion={settings.reducedMotion} />
@@ -482,7 +436,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
               }}
             >
               <optgroup label="Group Dive: everyone answers at once">
-                {(["classic", "coop", "shark", "bluff"] as const).map((v) => (
+                {(["classic", "coop", "shark", "school"] as const).map((v) => (
                   <option key={v} value={`dive:${v}`}>
                     {v === "classic" ? "🌊 Dive" : `${VARIANT_INFO[v].emoji} ${VARIANT_INFO[v].name}`}
                   </option>
@@ -539,6 +493,12 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                 <span>Wrong guess costs: {penaltyLabel(s.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds)}</span>
                 <input type="range" min={0} max={DIVE_DEFAULTS.penaltyMax} value={s.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds} disabled={!isHost} onChange={(e) => set({ penaltySeconds: Number(e.target.value) })} />
               </label>
+              {variantKey === "shark" && (
+                <label className="field">
+                  <span>Shark bites before you're out: {s.sharkLives ?? DIVE_DEFAULTS.sharkLives}</span>
+                  <input type="range" min={1} max={DIVE_DEFAULTS.sharkLivesMax} value={s.sharkLives ?? DIVE_DEFAULTS.sharkLives} disabled={!isHost} onChange={(e) => set({ sharkLives: Number(e.target.value) })} />
+                </label>
+              )}
               <label className="toggle-row">
                 <span>
                   <span className="toggle-label">Unique answers</span>
@@ -743,7 +703,7 @@ function DiveQuestion({
         <kbd>Enter ↵</kbd> to submit · players who've locked in show a 🔒
       </p>
       <div className="card">
-        <PlayerList state={state} send={send} />
+        <PlayerList state={state} send={send} showLives={(state.settings as DiveSettings).variant === "shark"} />
       </div>
     </div>
   );
@@ -756,6 +716,7 @@ function DiveReveal({
   answers,
   tiers,
   rejected,
+  reducedMotion,
 }: {
   state: RoomSnapshot;
   isHost: boolean;
@@ -763,6 +724,7 @@ function DiveReveal({
   answers: RevealAnswer[];
   tiers: Record<number, TierPoints | null>;
   rejected: string[];
+  reducedMotion: boolean;
 }) {
   const d = state.dive!;
   const reveal = d.reveal!;
@@ -776,10 +738,12 @@ function DiveReveal({
   // Show the old order for a moment, then let the rows slide to their new ranks.
   const ordered = [...reveal.leaderboard].sort((a, b) => (settled ? a.rank - b.rank : a.previousRank - b.previousRank));
   const mine = reveal.perPlayer.find((r) => r.playerId === state.you);
+  const bitten = reveal.perPlayer.filter((r) => r.bitten).map((r) => (r.playerId === state.you ? "You" : r.nickname));
   const secs = Math.max(0, Math.ceil((reveal.nextAt - now) / 1000));
 
   return (
     <div className="dive-reveal">
+      {bitten.length > 0 && <SharkAttack key={d.index} victims={bitten} reducedMotion={reducedMotion} />}
       <CoopBar state={state} />
       <div className="game-header">
         <span className="game-meta">
@@ -799,7 +763,8 @@ function DiveReveal({
                 <TierBadge tier={r.tier} />
                 <span className="reveal-pts">
                   {r.bitten && <span className="tag tag--shark" title="Bitten by the shark">🦈</span>}
-                  {r.votedRight && <span className="tag tag--bluff" title={`Spotted the rarest answer: +${DIVE_DEFAULTS.bluffBonus}`}>🎭</span>}
+                  {r.bitten && r.livesLeft !== undefined && r.livesLeft > 0 && <span className="muted small" title="Lives left">❤️{r.livesLeft} </span>}
+                  {r.matches !== undefined && <span className="tag tag--school" title={`${r.matches} other diver${r.matches === 1 ? "" : "s"} said the same`}>🐟×{r.matches} </span>}
                   +{formatDepth(partyDepth(r.points, gameQuestions(state)))}
                   {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
                 </span>

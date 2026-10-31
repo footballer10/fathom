@@ -7,7 +7,7 @@ const DIVE_MODES = [
   { variant: "classic", name: "Dive", emoji: "🌊", blurb: "Up to 16 players. Rarest answers win; ties go to whoever was faster. Ends in a depth race." },
   { variant: "coop", ...VARIANT_INFO.coop },
   { variant: "shark", ...VARIANT_INFO.shark },
-  { variant: "bluff", ...VARIANT_INFO.bluff },
+  { variant: "school", ...VARIANT_INFO.school },
 ];
 const BATTLE_MODES = [
   { variant: "classic", name: "Battle", emoji: "🐡", blurb: "Up to 12 players. Pass the pufferfish: everyone watches you type, and running out of time costs a life." },

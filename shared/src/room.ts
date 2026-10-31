@@ -8,8 +8,8 @@ import type { RevealAnswer } from "./types";
 
 export type RoomKind = "dive" | "battle";
 
-/** Group Dive variants: classic race, everyone vs a shared target, last diver not bitten, or vote on the rarest. */
-export type DiveVariant = "classic" | "coop" | "shark" | "bluff";
+/** Group Dive variants: classic race, everyone vs a shared target, last diver not bitten, or match the crowd. */
+export type DiveVariant = "classic" | "coop" | "shark" | "school";
 /** Battle variants: classic, a new prompt every turn, or two teams chaining last letters. */
 export type BattleVariant = "classic" | "hotpotato" | "relay";
 
@@ -17,7 +17,7 @@ export const VARIANT_INFO: Record<DiveVariant | BattleVariant, { name: string; e
   classic: { name: "Classic", emoji: "🌊", blurb: "" },
   coop: { name: "Co-op Dive", emoji: "🤝", blurb: "Everyone's depth adds up. Reach the target depth together before the questions run out." },
   shark: { name: "Shark Tank", emoji: "🦈", blurb: "Each round the shark bites whoever gave the most common answer. Last divers left win." },
-  bluff: { name: "Bluff", emoji: "🎭", blurb: "Answer, then vote on which answer is the rarest. Spot it for bonus depth." },
+  school: { name: "School of Fish", emoji: "🐟", blurb: "Swim with the school: score for every other diver who gives the same answer as you." },
   hotpotato: { name: "Hot Potato", emoji: "🥔", blurb: "Battle, but the prompt changes every single turn." },
   relay: { name: "Relay", emoji: "🔤", blurb: "Two teams take turns. Each answer must start with the last letter of the one before." },
 };
@@ -32,6 +32,8 @@ export interface DiveSettings {
   /** Seconds a wrong guess takes off your clock (0 = no penalty). */
   penaltySeconds: number;
   variant?: DiveVariant;
+  /** Shark Tank: bites a diver can survive. */
+  sharkLives?: number;
 }
 
 export interface BattleSettings {
@@ -48,7 +50,7 @@ export interface BattleSettings {
   variant?: BattleVariant;
 }
 
-export type RoomPhase = "lobby" | "question" | "vote" | "reveal" | "turn" | "rotate" | "over";
+export type RoomPhase = "lobby" | "question" | "reveal" | "turn" | "rotate" | "over";
 
 export interface RoomPlayer {
   id: string;
@@ -83,8 +85,10 @@ export interface RevealRow {
   shared: boolean;
   /** Shark Tank: bitten this round. */
   bitten?: boolean;
-  /** Bluff: picked the rarest answer in the vote (and got the bonus). */
-  votedRight?: boolean;
+  /** School of Fish: how many other divers gave the same answer. */
+  matches?: number;
+  /** Shark Tank: lives left after this round. */
+  livesLeft?: number;
 }
 
 export interface LeaderboardRow {
@@ -128,8 +132,6 @@ export interface RoomSnapshot {
     yourEndsAt: number;
     yourAnswer: { canonical: string; tier: TierPoints; points: number; corrected: boolean } | null;
     reveal: { perPlayer: RevealRow[]; leaderboard: LeaderboardRow[]; answers: RevealAnswer[]; nextAt: number } | null;
-    /** Bluff: the anonymous answers to vote on. */
-    vote?: { options: { id: string; text: string }[]; endsAt: number; voted: string[]; yourVote: string | null; yourOptionId: string | null } | null;
     /** Co-op: the team's combined score so far and the target. */
     coop?: { total: number; target: number } | null;
   };
@@ -178,7 +180,6 @@ export type ClientMessage =
   | { type: "next" }
   | { type: "lobby" }
   | { type: "guess"; text: string; confirm?: boolean }
-  | { type: "vote"; optionId: string }
   | { type: "kick"; playerId: string }
   /** Host, in the lobby: switch the room between Dive and Battle (and pick a variant). */
   | { type: "mode"; kind: RoomKind; variant: DiveVariant | BattleVariant }
