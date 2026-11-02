@@ -581,7 +581,10 @@ adminRoutes.get("/api/admin/retier", async (c) => {
   const out = [];
   for (const q of results) {
     const content = parseContent(q);
-    const { results: stats } = await c.env.DB.prepare("SELECT answer_id, times_chosen FROM answer_stats WHERE question_id = ?")
+    const { results: stats } = await c.env.DB.prepare(
+      // Counted from the plays themselves (a separate per-answer counter cost a write on every answer).
+      "SELECT answer_id, COUNT(*) AS times_chosen FROM plays WHERE question_id = ? AND answer_id IS NOT NULL GROUP BY answer_id",
+    )
       .bind(q.id)
       .all<{ answer_id: string; times_chosen: number }>();
     out.push({ id: q.id, prompt: q.prompt, plays: q.plays, suggestions: retierSuggestions(content.answers, stats) });

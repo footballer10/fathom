@@ -91,14 +91,34 @@ export async function getQuestion(env: Env, id: string): Promise<QuestionRow | n
   return env.DB.prepare("SELECT * FROM questions WHERE id = ?").bind(id).first<QuestionRow>();
 }
 
+/**
+ * Question rows are read on every step of a dive, but they hardly ever change,
+ * so each server instance keeps recently used ones for 10 minutes (an admin edit
+ * shows up within that time).
+ */
+const QUESTION_CACHE_MS = 10 * 60_000;
+const questionCache = new Map<string, { at: number; row: QuestionRow }>();
+
 export async function getQuestions(env: Env, ids: string[]): Promise<Map<string, QuestionRow>> {
-  if (ids.length === 0) return new Map();
-  const { results } = await env.DB.prepare(
-    `SELECT * FROM questions WHERE id IN (SELECT value FROM json_each(?))`,
-  )
-    .bind(JSON.stringify(ids))
+  const out = new Map<string, QuestionRow>();
+  const now = Date.now();
+  const missing: string[] = [];
+  for (const id of ids) {
+    const hit = questionCache.get(id);
+    if (hit && now - hit.at < QUESTION_CACHE_MS) out.set(id, hit.row);
+    else missing.push(id);
+  }
+  if (missing.length === 0) return out;
+  const { results } = await env.DB.prepare(`SELECT * FROM questions WHERE id IN (SELECT value FROM json_each(?))`)
+    .bind(JSON.stringify(missing))
     .all<QuestionRow>();
-  return new Map(results.map((r) => [r.id, r]));
+  for (const r of results) {
+    out.set(r.id, r);
+    questionCache.delete(r.id);
+    questionCache.set(r.id, { at: now, row: r });
+  }
+  while (questionCache.size > 400) questionCache.delete(questionCache.keys().next().value!);
+  return out;
 }
 
 // ---------------------------------------------------------------------------
@@ -110,9 +130,19 @@ export async function getQuestions(env: Env, ids: string[]): Promise<Map<string,
  * it: scheduled questions for that date by slot, then `reserve` questions,
  * then Unlimited questions that haven't been a Daily in the last 90 days.
  */
+/** A Daily set never changes once it's built, so each server instance keeps the last few in memory. */
+const dailySetCache = new Map<string, string[]>();
+function rememberDailySet(date: string, ids: string[]) {
+  dailySetCache.set(date, ids);
+  if (dailySetCache.size > 8) dailySetCache.delete(dailySetCache.keys().next().value!);
+  return ids;
+}
+
 export async function getDailySet(env: Env, date: string): Promise<string[]> {
+  const known = dailySetCache.get(date);
+  if (known) return known;
   const existing = await env.DB.prepare("SELECT question_ids FROM daily_sets WHERE date = ?").bind(date).first<{ question_ids: string }>();
-  if (existing) return JSON.parse(existing.question_ids);
+  if (existing) return rememberDailySet(date, JSON.parse(existing.question_ids));
 
   const { results: scheduled } = await env.DB.prepare(
     "SELECT id, daily_slot FROM questions WHERE daily_date = ? AND status != 'retired' ORDER BY daily_slot",
@@ -180,7 +210,7 @@ export async function getDailySet(env: Env, date: string): Promise<string[]> {
     .bind(date, JSON.stringify(ids))
     .run();
   const locked = await env.DB.prepare("SELECT question_ids FROM daily_sets WHERE date = ?").bind(date).first<{ question_ids: string }>();
-  return locked ? JSON.parse(locked.question_ids) : ids;
+  return rememberDailySet(date, locked ? JSON.parse(locked.question_ids) : ids);
 }
 
 // ---------------------------------------------------------------------------
@@ -197,8 +227,57 @@ export const UNLIMITED_WHERE = `(status = 'unlimited' OR (status = 'scheduled' A
 
 export async function unlimitedParams(env: Env, now = Date.now()): Promise<[string, string]> {
   const date = today(now);
+  const known = dailySetCache.get(date);
+  if (known) return [date, JSON.stringify(known)];
   const todays = await env.DB.prepare("SELECT question_ids FROM daily_sets WHERE date = ?").bind(date).first<{ question_ids: string }>();
+  if (todays) rememberDailySet(date, JSON.parse(todays.question_ids));
   return [date, todays?.question_ids ?? "[]"];
+}
+
+export interface PoolQuestion {
+  id: string;
+  prompt: string;
+  category: Category;
+  /** How many answers it has. */
+  n: number;
+}
+
+const POOL_MINUTES = 30;
+let poolCache: { at: number; date: string; rows: PoolQuestion[] } | null = null;
+
+/**
+ * Today's Unlimited pool (id, prompt, category, answer count), read once per
+ * server instance every 30 minutes (and whenever the date changes). Unlimited,
+ * party games, quick modes and the category list all pick from it in memory
+ * instead of scanning the questions table each time, which is what used up
+ * D1's free daily reads. Admin changes show up within 30 minutes.
+ */
+export async function unlimitedPool(env: Env, now = Date.now()): Promise<PoolQuestion[]> {
+  const date = today(now);
+  if (poolCache && poolCache.date === date && now - poolCache.at < POOL_MINUTES * 60_000) return poolCache.rows;
+  const [, todays] = await unlimitedParams(env, now);
+  const { results } = await env.DB.prepare(
+    `SELECT id, prompt, category, json_array_length(json_extract(data, '$.answers')) AS n FROM questions WHERE ${UNLIMITED_WHERE}`,
+  )
+    .bind(date, todays)
+    .all<PoolQuestion>();
+  poolCache = { at: now, date, rows: results };
+  return results;
+}
+
+/** Forget the cached pool (after an admin edit in this instance). */
+export function clearPoolCache() {
+  poolCache = null;
+}
+
+/** `count` random items from a list (without repeats). */
+export function sample<T>(items: readonly T[], count: number): T[] {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a.slice(0, count);
 }
 
 export { normalizePrompt };
@@ -214,20 +293,24 @@ export async function pickRoomQuestions(
 ): Promise<string[]> {
   const ids: string[] = source === "daily" ? (await getDailySet(env, today(now))).slice(0, count) : [];
   if (ids.length < count) {
-    const [date, todays] = await unlimitedParams(env, now);
-    const exclude = JSON.stringify([...JSON.parse(todays), ...ids]);
-    const catClause = source === "category" && category ? " AND category = ?4" : "";
+    const skip = new Set(ids);
+    const pool = (await unlimitedPool(env, now)).filter((q) => !skip.has(q.id) && (source !== "category" || !category || q.category === category));
     // Questions fewer people in the room have seen in party games come first, so a group
     // doesn't keep getting the same prompts. Party history is kept apart from solo Unlimited's
     // (player ids prefixed "party:"), so party games never use up anyone's Unlimited questions.
-    const stmt = env.DB.prepare(
-      `SELECT id FROM questions WHERE ${UNLIMITED_WHERE}${catClause}
-       ORDER BY (SELECT COUNT(*) FROM seen WHERE seen.question_id = questions.id AND seen.player_id IN (SELECT value FROM json_each(?3))), RANDOM()
-       LIMIT ${Math.max(1, count - ids.length)}`,
-    );
-    const players = JSON.stringify(playerIds.map(partySeenId));
-    const { results } = await (catClause ? stmt.bind(date, exclude, players, category) : stmt.bind(date, exclude, players)).all<{ id: string }>();
-    ids.push(...results.map((r) => r.id));
+    // Only the room's own history is read (by primary key), never the whole questions table.
+    const seenBy = new Map<string, number>();
+    if (playerIds.length) {
+      const { results } = await env.DB.prepare(
+        "SELECT question_id, COUNT(*) AS n FROM seen WHERE player_id IN (SELECT value FROM json_each(?)) GROUP BY question_id",
+      )
+        .bind(JSON.stringify(playerIds.map(partySeenId)))
+        .all<{ question_id: string; n: number }>();
+      for (const r of results) seenBy.set(r.question_id, r.n);
+    }
+    const shuffled = sample(pool, pool.length);
+    shuffled.sort((a, b) => (seenBy.get(a.id) ?? 0) - (seenBy.get(b.id) ?? 0)); // stable, so ties stay random
+    ids.push(...shuffled.slice(0, Math.max(1, count - ids.length)).map((q) => q.id));
   }
   return ids;
 }

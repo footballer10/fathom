@@ -136,6 +136,7 @@ If a week gets missed, the site keeps working: it fills empty days from reserve 
 | `npm run remove -- <id>` | Takes a question off the live site |
 | `npm test` | Runs the unit tests |
 | `npm run sim` | Simulates 6 players in Party Dive and Battle |
+| `npm run sim:rows` | Shows how many database rows each request reads and writes (to stay inside the free limits) |
 
 Add `-- --local` to the content commands to point them at `npm run dev` instead of the live site.
 

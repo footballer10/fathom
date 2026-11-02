@@ -1,14 +1,16 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
-import { ensureAbyss, ensureRuns, weekOf } from "./practice";
+import { weekOf } from "./practice";
+import { ensurePartyResults, ensureSchema, partyResultStatement } from "./schema";
 import { friendStatus } from "./social";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 
 /**
  * Global leaderboards. Only players who have set a name appear on them.
- * Solo stats come from finished Daily and Unlimited dives (plays/sessions);
- * party wins come from party_results, written by the Room when a game ends.
+ * Everything is ranked from lb_stats (one summary row per player, kept up to
+ * date as games finish; see schema.ts), so a refresh reads one row per player
+ * however long the site has been running.
  */
 
 type AppEnv = { Bindings: Env };
@@ -20,24 +22,6 @@ const MIN_ANSWERS_FOR_RATES = 50;
 const MIN_PARTY_GAMES_FOR_RATE = 5;
 const CACHE_SECONDS = 120;
 
-// party_results arrived after launch. The migration creates it, but automatic
-// deploys don't run migrations, so make sure it exists before first use.
-let partyTableReady = false;
-async function ensurePartyTable(env: Env) {
-  if (partyTableReady) return;
-  await env.DB.batch([
-    env.DB.prepare(
-      `CREATE TABLE IF NOT EXISTS party_results (
-         id INTEGER PRIMARY KEY AUTOINCREMENT, kind TEXT NOT NULL, room TEXT NOT NULL, player_id TEXT NOT NULL,
-         rank INTEGER NOT NULL, player_count INTEGER NOT NULL, score INTEGER NOT NULL, finished_at INTEGER NOT NULL)`,
-    ),
-    env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_party_results_player ON party_results(player_id)"),
-  ]);
-  // The party mode (Co-op, Shark Tank…) was added later; add the column once if it's missing.
-  await env.DB.prepare("ALTER TABLE party_results ADD COLUMN variant TEXT NOT NULL DEFAULT 'classic'").run().catch(() => {});
-  partyTableReady = true;
-}
-
 /** Called by the Room when a party game with at least two players ends. */
 export async function recordPartyResults(
   env: Env,
@@ -48,13 +32,15 @@ export async function recordPartyResults(
   variant = "classic",
 ) {
   if (results.length < 2) return;
-  await ensurePartyTable(env);
+  await ensurePartyResults(env);
+  await ensureSchema(env);
   await env.DB.batch(
-    results.map((r) =>
+    results.flatMap((r) => [
       env.DB.prepare(
         "INSERT INTO party_results (kind, variant, room, player_id, rank, player_count, score, finished_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
       ).bind(kind, variant, room, r.playerId, r.rank, results.length, r.score, now),
-    ),
+      partyResultStatement(env, r.playerId, kind, variant, r.rank === 1),
+    ]),
   );
 }
 
@@ -69,10 +55,7 @@ export interface Board {
   rows: { rank: number; nickname: string; value: number; playerId: string; code: string | null }[];
 }
 
-/** Each board: SQL returning (player_id, value) for named players, highest first. */
 const NAMED = "p.nickname IS NOT NULL AND TRIM(p.nickname) != ''";
-
-type BoardDef = { id: string; title: string; description: string; unit: Board["unit"]; group: string; sql: string | ((now: number) => string) };
 
 // Sections, in page order.
 const DAILY_GROUP = "Daily";
@@ -80,142 +63,107 @@ const UNLIMITED_GROUP = "Unlimited";
 const ABYSS_GROUP = "Weekly Abyss";
 const PARTY_GROUP = "Party";
 const QUICK_GROUP = "Quick modes";
+const GROUP_ORDER = [DAILY_GROUP, UNLIMITED_GROUP, ABYSS_GROUP, PARTY_GROUP, QUICK_GROUP];
 
-/** Best finished run per player in one quick mode. */
-const bestRun = (mode: string) => `SELECT r.player_id, MAX(r.score) AS value FROM practice_runs r JOIN players p ON p.id = r.player_id
-          WHERE ${NAMED} AND r.mode = '${mode}' AND r.finished = 1 GROUP BY r.player_id`;
-/** Party wins in one mode (several winners can share 1st in team and survival modes). */
-const partyWins = (kind: string, variant: string) => `SELECT r.player_id, COUNT(*) AS value FROM party_results r JOIN players p ON p.id = r.player_id
-          WHERE ${NAMED} AND r.kind = '${kind}' AND COALESCE(r.variant, 'classic') = '${variant}' AND r.rank = 1 GROUP BY r.player_id`;
-
-/**
- * Boards that each run their own (small) query. The Daily and Unlimited boards
- * come from one shared pass over plays instead (see soloBoards), because those
- * tables are big and every query over them costs D1 rows read.
- */
-const SQL_BOARDS: BoardDef[] = [
-  {
-    id: "streak",
-    group: DAILY_GROUP,
-    title: "🔥 Longest Daily streak",
-    description: "Most Dailies played in a row",
-    unit: "days",
-    sql: `SELECT player_id, MAX(len) AS value FROM (
-            SELECT player_id, COUNT(*) AS len FROM (
-              SELECT d.player_id, julianday(d.date) - ROW_NUMBER() OVER (PARTITION BY d.player_id ORDER BY d.date) AS grp
-              FROM daily_results d JOIN players p ON p.id = d.player_id WHERE ${NAMED}
-            ) GROUP BY player_id, grp
-          ) GROUP BY player_id`,
-  },
-  {
-    id: "abyss-week",
-    group: ABYSS_GROUP,
-    title: "🕳️ This week's Abyss",
-    description: "Rarest answer in this week's dive",
-    unit: "tier",
-    sql: (now) => `SELECT a.player_id, MAX(a.best_tier) AS value FROM abyss_attempts a JOIN players p ON p.id = a.player_id
-          WHERE ${NAMED} AND a.week = '${weekOf(now).week}' AND a.best_tier IS NOT NULL GROUP BY a.player_id`,
-  },
-  {
-    id: "abyss-krillions",
-    group: ABYSS_GROUP,
-    title: "🐋 Abyss krillions",
-    description: "Weeks where your Abyss answer was a One in a Krillion",
-    unit: "count",
-    sql: `SELECT a.player_id, COUNT(*) AS value FROM abyss_attempts a JOIN players p ON p.id = a.player_id
-          WHERE ${NAMED} AND a.best_tier = 100 GROUP BY a.player_id`,
-  },
-  {
-    id: "party-win-rate",
-    group: PARTY_GROUP,
-    title: "Party win rate",
-    description: `Share of party games won, every mode (${MIN_PARTY_GAMES_FOR_RATE}+ games)`,
-    unit: "percent",
-    sql: `SELECT r.player_id, ROUND(100.0 * SUM(r.rank = 1) / COUNT(*), 1) AS value FROM party_results r
-          JOIN players p ON p.id = r.player_id WHERE ${NAMED}
-          GROUP BY r.player_id HAVING COUNT(*) >= ${MIN_PARTY_GAMES_FOR_RATE}`,
-  },
-  { id: "dive-wins", group: PARTY_GROUP, title: "🌊 Party Dive wins", description: "Group Dive games won", unit: "count", sql: partyWins("dive", "classic") },
-  { id: "battle-wins", group: PARTY_GROUP, title: "🐡 Battle wins", description: "Last diver standing in Battle", unit: "count", sql: partyWins("battle", "classic") },
-  { id: "shark-wins", group: PARTY_GROUP, title: "🦈 Shark Tank survivors", description: "Shark Tank games survived to the end", unit: "count", sql: partyWins("dive", "shark") },
-  { id: "relay-wins", group: PARTY_GROUP, title: "🔤 Relay wins", description: "Relay games won with your team", unit: "count", sql: partyWins("battle", "relay") },
-  { id: "hotpotato-wins", group: PARTY_GROUP, title: "🥔 Hot Potato wins", description: "Hot Potato games won", unit: "count", sql: partyWins("battle", "hotpotato") },
-  { id: "school-wins", group: PARTY_GROUP, title: "🐟 School of Fish wins", description: "School of Fish games won", unit: "count", sql: partyWins("dive", "school") },
-  { id: "coop-wins", group: PARTY_GROUP, title: "🤝 Co-op successes", description: "Co-op Dives where the team reached its goal", unit: "count", sql: partyWins("dive", "coop") },
-  { id: "sprint", group: QUICK_GROUP, title: "⚡ Sprint", description: "Most depth in 60 seconds", unit: "meters", sql: bestRun("sprint").replace("MAX(r.score)", "MAX(r.score) * 10") },
-  { id: "ladder", group: QUICK_GROUP, title: "🪜 Ladder", description: "Highest climb without going more common", unit: "rungs", sql: bestRun("ladder") },
-  { id: "roulette", group: QUICK_GROUP, title: "🎯 Rarity Roulette", description: "Most exact tiers hit out of 7", unit: "hits", sql: bestRun("roulette") },
-  { id: "five", group: QUICK_GROUP, title: "🖐️ Five Answers", description: "Deepest five answers to one prompt", unit: "meters", sql: bestRun("five").replace("MAX(r.score)", "MAX(r.score) * 10") },
-];
-
-/** One finished solo dive, summed up by the single query over plays. */
-interface SessionSum {
+/** One player's summary row (lb_stats) plus their public name and code. */
+interface Stats {
   player_id: string;
   nickname: string;
   friend_code: string | null;
-  mode: "daily" | "unlimited";
-  n: number;
-  k: number;
-  dc: number;
-  rare: number;
-  ans: number;
-  pts: number;
+  d_dives: number;
+  d_n: number;
+  d_k: number;
+  d_rare: number;
+  d_pts: number;
+  d_best: number;
+  u_dives: number;
+  u_n: number;
+  u_k: number;
+  u_dc: number;
+  u_rare: number;
+  u_ans: number;
+  u_pts: number;
+  u_best: number;
+  streak_best: number;
+  p_games: number;
+  p_wins: number;
+  w_dive: number;
+  w_battle: number;
+  w_shark: number;
+  w_relay: number;
+  w_hotpotato: number;
+  w_school: number;
+  w_coop: number;
+  best_sprint: number;
+  best_ladder: number;
+  best_roulette: number;
+  best_five: number;
+  abyss_k: number;
 }
 
 type Row = { playerId: string; nickname: string; value: number; code: string | null };
+type BoardDef = Omit<Board, "rows"> & { value: (s: Stats) => number | null };
 
-/** Per-player stats per mode, built from the session sums. */
-function soloBoards(sessions: SessionSum[]): (Omit<Board, "rows"> & { rows: Row[] })[] {
-  type Agg = { nickname: string; code: string | null; dives: number; n: number; k: number; dc: number; rare: number; ans: number; pts: number; best: number };
-  const by = { daily: new Map<string, Agg>(), unlimited: new Map<string, Agg>() };
-  for (const x of sessions) {
-    const m = by[x.mode];
-    const a = m.get(x.player_id) ?? { nickname: x.nickname, code: x.friend_code, dives: 0, n: 0, k: 0, dc: 0, rare: 0, ans: 0, pts: 0, best: 0 };
-    a.dives++;
-    a.n += x.n;
-    a.k += x.k;
-    a.dc += x.dc;
-    a.rare += x.rare;
-    a.ans += x.ans;
-    a.pts += x.pts;
-    a.best = Math.max(a.best, x.pts);
-    m.set(x.player_id, a);
-  }
-  const board = (mode: "daily" | "unlimited", id: string, title: string, description: string, unit: Board["unit"], value: (a: Agg) => number | null) => {
-    const rows: Row[] = [];
-    for (const [playerId, a] of by[mode]) {
-      const v = value(a);
-      if (v !== null && v > 0) rows.push({ playerId, nickname: a.nickname, value: v, code: a.code });
-    }
-    return { id, title, description, unit, group: mode === "daily" ? DAILY_GROUP : UNLIMITED_GROUP, rows };
-  };
-  const pct = (x: number, n: number) => (n >= MIN_ANSWERS_FOR_RATES ? Math.round((1000 * x) / n) / 10 : null);
-  const D = "daily" as const;
-  const U = "unlimited" as const;
-  return [
-    board(D, "daily-best", "🏆 Deepest Daily", "Best depth in a single Daily", "meters", (a) => a.best * 10),
-    board(D, "daily-avg", "📏 Best Daily average", "Average Daily depth (5+ Dailies)", "meters", (a) => (a.dives >= 5 ? Math.round(a.pts / a.dives) * 10 : null)),
-    board(D, "daily-played", "📅 Most Dailies", "Dailies finished", "count", (a) => a.dives),
-    board(D, "daily-krillions", "🐋 Daily One in a Krillions", "The single rarest answer on a Daily question", "count", (a) => a.k),
-    board(D, "daily-rare-rate", "💎 Daily rarest taste", `Share of Daily answers that were Deep Cut or rarer (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (a) => pct(a.rare, a.n)),
-    board(U, "unlimited-best", "🏆 Deepest Unlimited dive", "Best depth in a single Unlimited dive", "meters", (a) => a.best * 10),
-    board(U, "unlimited-krillions", "🐋 Most One in a Krillions", "Unlimited answers that were the rarest on the list", "count", (a) => a.k),
-    board(U, "unlimited-deepcuts", "🦑 Most Deep Cuts", "Unlimited Deep Cut answers", "count", (a) => a.dc),
-    board(U, "unlimited-rare-rate", "💎 Rarest taste", `Share of Unlimited answers that were Deep Cut or rarer (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (a) => pct(a.rare, a.n)),
-    board(U, "unlimited-krillion-rate", "🎯 Krillion hunters", `Share of Unlimited questions answered with the rarest answer (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (a) => (a.k ? pct(a.k, a.n) : null)),
-    board(U, "unlimited-accuracy", "✅ Sharpest", `Share of Unlimited questions answered correctly (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (a) => pct(a.ans, a.n)),
-    board(U, "unlimited-answered", "🧭 Unlimited explorers", "Unlimited prompts answered correctly", "count", (a) => a.ans),
-    board(U, "unlimited-dives", "🤿 Most Unlimited dives", "Unlimited dives finished", "count", (a) => a.dives),
-    board(U, "unlimited-total", "🌊 Deepest of all time", "Total depth across every Unlimited dive", "meters", (a) => a.pts * 10),
-  ];
-}
+const pct = (x: number, n: number) => (n >= MIN_ANSWERS_FOR_RATES ? Math.round((1000 * x) / n) / 10 : null);
+const def = (group: string, id: string, title: string, description: string, unit: Board["unit"], value: BoardDef["value"]): BoardDef => ({
+  id,
+  group,
+  title,
+  description,
+  unit,
+  value,
+});
 
-const GROUP_ORDER = [DAILY_GROUP, UNLIMITED_GROUP, ABYSS_GROUP, PARTY_GROUP, QUICK_GROUP];
-const KV_KEY = "lb:v3";
+/** Every board ranked from lb_stats, in page order within each section. */
+const BOARDS: BoardDef[] = [
+  def(DAILY_GROUP, "daily-best", "🏆 Deepest Daily", "Best depth in a single Daily", "meters", (s) => s.d_best * 10),
+  def(DAILY_GROUP, "daily-avg", "📏 Best Daily average", "Average Daily depth (5+ Dailies)", "meters", (s) => (s.d_dives >= 5 ? Math.round(s.d_pts / s.d_dives) * 10 : null)),
+  def(DAILY_GROUP, "streak", "🔥 Longest Daily streak", "Most Dailies played in a row", "days", (s) => s.streak_best),
+  def(DAILY_GROUP, "daily-played", "📅 Most Dailies", "Dailies finished", "count", (s) => s.d_dives),
+  def(DAILY_GROUP, "daily-krillions", "🐋 Daily One in a Krillions", "The single rarest answer on a Daily question", "count", (s) => s.d_k),
+  def(DAILY_GROUP, "daily-rare-rate", "💎 Daily rarest taste", `Share of Daily answers that were Deep Cut or rarer (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (s) =>
+    pct(s.d_rare, s.d_n),
+  ),
+  def(UNLIMITED_GROUP, "unlimited-best", "🏆 Deepest Unlimited dive", "Best depth in a single Unlimited dive", "meters", (s) => s.u_best * 10),
+  def(UNLIMITED_GROUP, "unlimited-krillions", "🐋 Most One in a Krillions", "Unlimited answers that were the rarest on the list", "count", (s) => s.u_k),
+  def(UNLIMITED_GROUP, "unlimited-deepcuts", "🦑 Most Deep Cuts", "Unlimited Deep Cut answers", "count", (s) => s.u_dc),
+  def(UNLIMITED_GROUP, "unlimited-rare-rate", "💎 Rarest taste", `Share of Unlimited answers that were Deep Cut or rarer (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (s) =>
+    pct(s.u_rare, s.u_n),
+  ),
+  def(UNLIMITED_GROUP, "unlimited-krillion-rate", "🎯 Krillion hunters", `Share of Unlimited questions answered with the rarest answer (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (s) =>
+    s.u_k ? pct(s.u_k, s.u_n) : null,
+  ),
+  def(UNLIMITED_GROUP, "unlimited-accuracy", "✅ Sharpest", `Share of Unlimited questions answered correctly (${MIN_ANSWERS_FOR_RATES}+ questions)`, "percent", (s) =>
+    pct(s.u_ans, s.u_n),
+  ),
+  def(UNLIMITED_GROUP, "unlimited-answered", "🧭 Unlimited explorers", "Unlimited prompts answered correctly", "count", (s) => s.u_ans),
+  def(UNLIMITED_GROUP, "unlimited-dives", "🤿 Most Unlimited dives", "Unlimited dives finished", "count", (s) => s.u_dives),
+  def(UNLIMITED_GROUP, "unlimited-total", "🌊 Deepest of all time", "Total depth across every Unlimited dive", "meters", (s) => s.u_pts * 10),
+  def(ABYSS_GROUP, "abyss-krillions", "🐋 Abyss krillions", "Weeks where your Abyss answer was a One in a Krillion", "count", (s) => s.abyss_k),
+  def(PARTY_GROUP, "party-win-rate", "Party win rate", `Share of party games won, every mode (${MIN_PARTY_GAMES_FOR_RATE}+ games)`, "percent", (s) =>
+    s.p_games >= MIN_PARTY_GAMES_FOR_RATE ? Math.round((1000 * s.p_wins) / s.p_games) / 10 : null,
+  ),
+  def(PARTY_GROUP, "dive-wins", "🌊 Party Dive wins", "Group Dive games won", "count", (s) => s.w_dive),
+  def(PARTY_GROUP, "battle-wins", "🐡 Battle wins", "Last diver standing in Battle", "count", (s) => s.w_battle),
+  def(PARTY_GROUP, "shark-wins", "🦈 Shark Tank survivors", "Shark Tank games survived to the end", "count", (s) => s.w_shark),
+  def(PARTY_GROUP, "relay-wins", "🔤 Relay wins", "Relay games won with your team", "count", (s) => s.w_relay),
+  def(PARTY_GROUP, "hotpotato-wins", "🥔 Hot Potato wins", "Hot Potato games won", "count", (s) => s.w_hotpotato),
+  def(PARTY_GROUP, "school-wins", "🐟 School of Fish wins", "School of Fish games won", "count", (s) => s.w_school),
+  def(PARTY_GROUP, "coop-wins", "🤝 Co-op successes", "Co-op Dives where the team reached its goal", "count", (s) => s.w_coop),
+  def(QUICK_GROUP, "sprint", "⚡ Sprint", "Most depth in 60 seconds", "meters", (s) => s.best_sprint * 10),
+  def(QUICK_GROUP, "ladder", "🪜 Ladder", "Highest climb without going more common", "rungs", (s) => s.best_ladder),
+  def(QUICK_GROUP, "roulette", "🎯 Rarity Roulette", "Most exact tiers hit out of 7", "hits", (s) => s.best_roulette),
+  def(QUICK_GROUP, "five", "🖐️ Five Answers", "Deepest five answers to one prompt", "meters", (s) => s.best_five * 10),
+];
+
+const KV_KEY = "lb:v4";
 /** How long one computation is shared by everyone (via KV). Keeps D1 reads tiny. */
 const SHARED_SECONDS = 20 * 60;
 
 let cache: { at: number; boards: Board[] } | null = null;
+let retryAt = 0;
+let inflight: Promise<Board[]> | null = null;
+const JITTER_MS = Math.random() * 5 * 60_000;
 
 /** Top rows with shared ranks for equal values. */
 function finish(def: Omit<Board, "rows"> & { rows: Row[] }): Board {
@@ -233,42 +181,45 @@ function finish(def: Omit<Board, "rows"> & { rows: Row[] }): Board {
 }
 
 async function computeBoards(env: Env): Promise<Board[]> {
-  await Promise.all([ensurePartyTable(env), ensureRuns(env), ensureAbyss(env)]);
+  await ensureSchema(env);
   const now = Date.now();
-  const [solo, ...results] = await env.DB.batch([
-    // One pass over plays for every Daily and Unlimited board: a summary per finished dive.
+  const [stats, abyss] = await env.DB.batch([
+    // One row per named player: every board below is worked out from this in memory.
+    env.DB.prepare(`SELECT l.*, p.nickname, p.friend_code FROM lb_stats l JOIN players p ON p.id = l.player_id WHERE ${NAMED}`),
+    // This week's Abyss, straight off its index (top 10 only).
     env.DB.prepare(
-      `SELECT s.player_id, p.nickname, p.friend_code, s.mode, COUNT(*) AS n, SUM(pl.tier = 100) AS k, SUM(pl.tier = 85) AS dc,
-              SUM(pl.tier >= 85) AS rare, SUM(pl.answer_id IS NOT NULL) AS ans, SUM(pl.points) AS pts
-       FROM sessions s JOIN players p ON p.id = s.player_id JOIN plays pl ON pl.session_id = s.id
-       WHERE ${NAMED} AND s.finished = 1 AND s.mode IN ('daily', 'unlimited')
-       GROUP BY s.id`,
-    ),
-    ...SQL_BOARDS.map((b) =>
-      env.DB.prepare(
-        `SELECT t.player_id, t.value, p.nickname, p.friend_code FROM (${typeof b.sql === "function" ? b.sql(now) : b.sql}) t JOIN players p ON p.id = t.player_id
-         WHERE t.value > 0 ORDER BY t.value DESC, p.nickname LIMIT ${TOP}`,
-      ),
-    ),
+      `SELECT a.player_id AS player_id, a.best_tier AS value, p.nickname, p.friend_code FROM abyss_attempts a JOIN players p ON p.id = a.player_id
+       WHERE a.week = ? AND a.best_tier IS NOT NULL AND ${NAMED} ORDER BY a.best_tier DESC, (a.best_at - a.started_at) LIMIT ${TOP}`,
+    ).bind(weekOf(now).week),
   ]);
-  const boards = [
-    ...soloBoards(solo.results as unknown as SessionSum[]),
-    ...SQL_BOARDS.map((b, i) => ({
-      id: b.id,
-      title: b.title,
-      description: b.description,
-      unit: b.unit,
-      group: b.group,
-      rows: (results[i].results as { player_id: string; value: number; nickname: string; friend_code: string | null }[]).map((r) => ({
+  const all = stats.results as unknown as Stats[];
+  const boards: Board[] = BOARDS.map(({ value, ...b }) => {
+    const rows: Row[] = [];
+    for (const s of all) {
+      const v = value(s);
+      if (v !== null && v > 0) rows.push({ playerId: s.player_id, nickname: s.nickname, value: v, code: s.friend_code });
+    }
+    return finish({ ...b, rows });
+  });
+  boards.push(
+    finish({
+      id: "abyss-week",
+      group: ABYSS_GROUP,
+      title: "🕳️ This week's Abyss",
+      description: "Rarest answer in this week's dive",
+      unit: "tier",
+      rows: (abyss.results as { player_id: string; value: number; nickname: string; friend_code: string | null }[]).map((r) => ({
         playerId: r.player_id,
         nickname: r.nickname,
         value: r.value,
         code: r.friend_code,
       })),
-    })),
-  ].map(finish);
-  // Daily first, then Unlimited, Abyss, Party, Quick modes; within a section, the order above.
-  return boards.sort((a, b) => GROUP_ORDER.indexOf(a.group) - GROUP_ORDER.indexOf(b.group));
+    }),
+  );
+  // Daily first, then Unlimited, Abyss, Party, Quick modes; within a section, the order above
+  // (This week's Abyss leads its section).
+  const order = (b: Board) => GROUP_ORDER.indexOf(b.group) * 100 + (b.id === "abyss-week" ? -1 : BOARDS.findIndex((d) => d.id === b.id));
+  return boards.sort((a, b) => order(a) - order(b));
 }
 
 /**
@@ -278,12 +229,28 @@ async function computeBoards(env: Env): Promise<Board[]> {
  */
 async function getBoards(env: Env, now: number, local: boolean): Promise<{ at: number; boards: Board[] }> {
   if (local) return { at: now, boards: await computeBoards(env) };
-  if (cache && now - cache.at < CACHE_SECONDS * 1000) return cache;
+  if (cache && (now - cache.at < CACHE_SECONDS * 1000 || now < retryAt)) return cache;
   const shared = await env.KV.get<{ at: number; boards: Board[] }>(KV_KEY, "json").catch(() => null);
-  if (shared && now - shared.at < SHARED_SECONDS * 1000) return (cache = shared);
-  const fresh = { at: now, boards: await computeBoards(env) };
-  await env.KV.put(KV_KEY, JSON.stringify(fresh)).catch(() => {});
-  return (cache = fresh);
+  // Each server instance waits a slightly different extra time before refreshing, so they
+  // don't all hit the database at the same moment when the shared copy expires.
+  if (shared && now - shared.at < SHARED_SECONDS * 1000 + JITTER_MS) return (cache = shared);
+  try {
+    // Requests arriving while a refresh is running share it.
+    inflight ??= computeBoards(env).finally(() => (inflight = null));
+    const fresh = { at: now, boards: await inflight };
+    await env.KV.put(KV_KEY, JSON.stringify(fresh)).catch(() => {});
+    return (cache = fresh);
+  } catch (err) {
+    // If the database is unavailable, keep showing the last boards we had rather than an error.
+    const stale = shared ?? cache;
+    if (stale) {
+      cache = stale;
+      console.error("leaderboards: serving last saved boards", err);
+      retryAt = now + 60_000; // don't ask the database again for a minute
+      return stale;
+    }
+    throw err;
+  }
 }
 
 leaderboardRoutes.get("/api/leaderboards", async (c: Context<AppEnv>) => {
@@ -311,8 +278,8 @@ leaderboardRoutes.get("/api/leaderboards", async (c: Context<AppEnv>) => {
 });
 
 /**
- * Today's (or any day's) Daily top 10, for the end of the Daily. Reads only that
- * day's rows (indexed by date), cached a minute per server instance.
+ * Today's (or any day's) Daily top 10, for the end of the Daily. Reads about ten
+ * rows off an index plus the per-score summary, cached a minute per server instance.
  */
 const dailyTopCache = new Map<string, { at: number; rows: { player_id: string; nickname: string; points: number; tiers: string }[]; total: number }>();
 
@@ -323,12 +290,14 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   const now = Date.now();
   let entry = dailyTopCache.get(date);
   if (!entry || now - entry.at > 60_000) {
+    await ensureSchema(c.env);
+    // Top 10 straight off the (date, points) index; the diver count from the per-score summary.
     const [top, count] = await c.env.DB.batch([
       c.env.DB.prepare(
-        `SELECT d.player_id, p.nickname, d.points, d.tiers FROM daily_results d JOIN players p ON p.id = d.player_id
+        `SELECT d.player_id, p.nickname, d.points, d.tiers FROM daily_results d INDEXED BY idx_daily_results_top JOIN players p ON p.id = d.player_id
          WHERE d.date = ? AND ${NAMED} ORDER BY d.points DESC, d.created_at ASC LIMIT ${TOP}`,
       ).bind(date),
-      c.env.DB.prepare("SELECT COUNT(*) AS n FROM daily_results WHERE date = ?").bind(date),
+      c.env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM daily_hist WHERE date = ?").bind(date),
     ]);
     entry = { at: now, rows: top.results as never, total: (count.results[0] as { n: number }).n };
     dailyTopCache.set(date, entry);
@@ -347,7 +316,7 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   if (id && !rows.some((r) => r.you)) {
     const mine = await c.env.DB.prepare("SELECT points FROM daily_results WHERE player_id = ? AND date = ?").bind(id, date).first<{ points: number }>();
     if (mine) {
-      const above = await c.env.DB.prepare("SELECT COUNT(*) AS n FROM daily_results WHERE date = ? AND points > ?").bind(date, mine.points).first<{ n: number }>();
+      const above = await c.env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM daily_hist WHERE date = ? AND points > ?").bind(date, mine.points).first<{ n: number }>();
       you = { rank: (above?.n ?? 0) + 1, depth: mine.points * 10 };
     }
   }

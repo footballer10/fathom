@@ -24,7 +24,8 @@ import type {
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { logRejected } from "./rejected";
-import { UNLIMITED_WHERE, dailyNumber, getDailySet, getIndex, getQuestions, today, unlimitedParams } from "./questions";
+import { ensureSchema, soloFinishStatements } from "./schema";
+import { dailyNumber, getDailySet, getIndex, getQuestions, sample, today, unlimitedPool } from "./questions";
 
 /**
  * Solo game sessions with server-enforced timers.
@@ -183,16 +184,14 @@ async function ensurePlayer(env: Env, playerId: string, now: number) {
  * questions are used up, and when none are left the player has finished Unlimited.
  */
 async function pickUnlimited(env: Env, playerId: string, category: Category | undefined, now: number): Promise<string[]> {
-  const [date, todays] = await unlimitedParams(env, now);
-  const catClause = category ? " AND category = ?4" : "";
-  const stmt = env.DB.prepare(
-    `SELECT id FROM questions WHERE ${UNLIMITED_WHERE}${catClause}
-       AND id NOT IN (SELECT question_id FROM seen WHERE player_id = ?3)
-     ORDER BY RANDOM()
-     LIMIT ${QUESTIONS_PER_UNLIMITED_RUN}`,
-  );
-  const { results } = await (category ? stmt.bind(date, todays, playerId, category) : stmt.bind(date, todays, playerId)).all<{ id: string }>();
-  const ids = results.map((r) => r.id);
+  // The pool comes from memory; only this player's own "seen" list is read (by primary key).
+  const pool = (await unlimitedPool(env, now)).filter((q) => !category || q.category === category);
+  const { results: seenRows } = await env.DB.prepare("SELECT question_id FROM seen WHERE player_id = ?").bind(playerId).all<{ question_id: string }>();
+  const seen = new Set(seenRows.map((r) => r.question_id));
+  const ids = sample(
+    pool.filter((q) => !seen.has(q.id)),
+    QUESTIONS_PER_UNLIMITED_RUN,
+  ).map((q) => q.id);
   if (!ids.length) {
     throw new HttpError(
       410,
@@ -375,25 +374,22 @@ export async function guess(
         result.corrected ? 1 : 0,
         now,
       ),
-      env.DB.prepare(
-        `INSERT INTO answer_stats (answer_id, question_id, times_chosen) VALUES (?, ?, 1)
-         ON CONFLICT(answer_id) DO UPDATE SET times_chosen = times_chosen + 1`,
-      ).bind(result.answerId, qid),
     ]);
     return { ...result, endsAt: endsAt(s), serverNow: now, questionDone: true };
   }
 
-  // Wrong guess: costs time, and the guess goes to the learning loop.
-  const stmts = [
-    env.DB.prepare("UPDATE sessions SET penalties = penalties + 1 WHERE id = ? AND current_index = ? AND current_done = 0").bind(
-      s.id,
-      s.current_index,
-    ),
-  ];
+  // Wrong guess: the guess goes to the weekly review. (It only costs time, and a
+  // database write, if solo wrong guesses are ever given a penalty again.)
+  const stmts: D1PreparedStatement[] = [];
+  if (WRONG_GUESS_PENALTY_SECONDS > 0) {
+    stmts.push(
+      env.DB.prepare("UPDATE sessions SET penalties = penalties + 1 WHERE id = ? AND current_index = ? AND current_done = 0").bind(s.id, s.current_index),
+    );
+    s.penalties += 1;
+  }
   const logged = logRejected(env, qid, index, text, now);
   if (logged) stmts.push(logged);
-  await env.DB.batch(stmts);
-  s.penalties += 1;
+  if (stmts.length) await env.DB.batch(stmts);
   await settle(env, s, now);
   return { ...result, endsAt: endsAt(s), serverNow: now, questionDone: !!s.current_done };
 }
@@ -427,14 +423,26 @@ export async function finish(env: Env, playerId: string, id: string, now: number
   const plays = await loadPlays(env, s.id);
   const points = plays.reduce((n, p) => n + p.points, 0);
 
+  await ensureSchema(env);
   if (!s.finished) {
-    await env.DB.prepare("UPDATE sessions SET finished = 1 WHERE id = ?").bind(s.id).run();
-    if (s.mode === "daily" && s.date) {
-      await env.DB.prepare(
-        "INSERT OR IGNORE INTO daily_results (player_id, date, points, tiers, created_at) VALUES (?, ?, ?, ?, ?)",
-      )
-        .bind(playerId, s.date, points, JSON.stringify(plays.map((p) => p.tier)), now)
-        .run();
+    // Only the request that actually flips "finished" records the result, so a double
+    // tap can't count a dive twice in the leaderboards.
+    const flip = await env.DB.prepare("UPDATE sessions SET finished = 1 WHERE id = ? AND finished = 0").bind(s.id).run();
+    if (flip.meta.changes) {
+      const stmts: D1PreparedStatement[] = [];
+      if (s.mode === "daily" && s.date) {
+        stmts.push(
+          env.DB.prepare("INSERT OR IGNORE INTO daily_results (player_id, date, points, tiers, created_at) VALUES (?, ?, ?, ?, ?)").bind(
+            playerId,
+            s.date,
+            points,
+            JSON.stringify(plays.map((p) => p.tier)),
+            now,
+          ),
+        );
+      }
+      if (s.mode === "daily" || s.mode === "unlimited") stmts.push(...soloFinishStatements(env, playerId, s.mode, s.date, plays, now));
+      if (stmts.length) await env.DB.batch(stmts);
     }
   }
 
@@ -444,27 +452,25 @@ export async function finish(env: Env, playerId: string, id: string, now: number
   let rarest: FinishResponse["rarestToday"] = null;
 
   if (s.mode === "daily" && s.date) {
-    const stats = await env.DB.prepare(
-      `SELECT COUNT(*) AS total,
-              SUM(CASE WHEN points < ? THEN 1 ELSE 0 END) AS below
-       FROM daily_results WHERE date = ? AND player_id != ?`,
-    )
-      .bind(points, s.date, playerId)
-      .first<{ total: number; below: number }>();
-    if (stats && stats.total + 1 >= PERCENTILE_MIN_RESULTS && stats.total > 0) {
-      percentile = Math.round(((stats.below ?? 0) / stats.total) * 100);
-      divers = stats.total + 1;
+    // From the per-score summary (~100 rows at most), never by counting every result today.
+    const [hist, top] = await env.DB.batch([
+      env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS total, COALESCE(SUM(CASE WHEN points < ? THEN n ELSE 0 END), 0) AS below FROM daily_hist WHERE date = ?").bind(
+        points,
+        s.date,
+      ),
+      env.DB.prepare("SELECT tier, canonical, question_id FROM daily_rarest WHERE date = ?").bind(s.date),
+    ]);
+    const h = hist.results[0] as { total: number; below: number } | undefined;
+    const others = Math.max(0, (h?.total ?? 1) - 1); // the summary includes you
+    if (others + 1 >= PERCENTILE_MIN_RESULTS && others > 0) {
+      percentile = Math.round(((h?.below ?? 0) / others) * 100);
+      divers = others + 1;
     }
-    const r = await env.DB.prepare(
-      `SELECT p.canonical, p.tier, q.prompt FROM plays p
-       JOIN sessions s ON s.id = p.session_id
-       JOIN questions q ON q.id = p.question_id
-       WHERE s.mode = 'daily' AND s.date = ? AND p.tier IS NOT NULL
-       ORDER BY p.tier DESC, p.created_at ASC LIMIT 1`,
-    )
-      .bind(s.date)
-      .first<{ canonical: string; tier: TierPoints; prompt: string }>();
-    if (r) rarest = { prompt: r.prompt, canonical: r.canonical, tier: r.tier };
+    const r = top.results[0] as { tier: TierPoints; canonical: string; question_id: string } | undefined;
+    if (r) {
+      const prompt = questions.get(r.question_id)?.prompt ?? (await getQuestions(env, [r.question_id])).get(r.question_id)?.prompt ?? "";
+      rarest = { prompt, canonical: r.canonical, tier: r.tier };
+    }
   } else {
     for (const p of plays) {
       if (p.tier && p.canonical && (!rarest || p.tier > rarest.tier)) {
@@ -515,16 +521,10 @@ export async function report(env: Env, playerId: string, body: { sessionId?: str
 }
 
 /** Category counts change at most once a day, so each server instance reuses them for 10 minutes. */
-let categoryCache: { at: number; date: string; rows: { category: Category; count: number }[] } | null = null;
 
 export async function categories(env: Env, now: number) {
-  const [date, todays] = await unlimitedParams(env, now);
-  if (categoryCache && categoryCache.date === date && now - categoryCache.at < 10 * 60_000) return categoryCache.rows;
-  const { results } = await env.DB.prepare(
-    `SELECT category, COUNT(*) AS count FROM questions WHERE ${UNLIMITED_WHERE} GROUP BY category ORDER BY category`,
-  )
-    .bind(date, todays)
-    .all<{ category: Category; count: number }>();
-  categoryCache = { at: now, date, rows: results };
-  return results;
+  // Counted from the in-memory Unlimited pool: no database reads at all.
+  const counts = new Map<Category, number>();
+  for (const q of await unlimitedPool(env, now)) counts.set(q.category, (counts.get(q.category) ?? 0) + 1);
+  return [...counts].map(([category, count]) => ({ category, count })).sort((a, b) => a.category.localeCompare(b.category));
 }

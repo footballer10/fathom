@@ -5,7 +5,8 @@ import type { TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { recordRejected } from "./rejected";
-import { UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams } from "./questions";
+import { abyssKrillionStatement, ensureSchema, practiceBestStatement } from "./schema";
+import { UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams, unlimitedPool } from "./questions";
 
 /**
  * Practice API for the solo modes (Sprint, Ladder, Rarity Roulette, Five Answers)
@@ -24,23 +25,6 @@ function pid(c: Context<AppEnv>): string {
 
 const ANSWER_COUNT = "json_array_length(json_extract(data, '$.answers'))";
 
-/**
- * The Unlimited pool (id, prompt, category, answer count), read once per server
- * instance every 10 minutes. Quick modes pick from it in memory, instead of
- * scanning the questions table on every prompt (which used up D1's daily reads).
- */
-let poolCache: { at: number; date: string; rows: { id: string; prompt: string; category: string; n: number }[] } | null = null;
-async function practicePool(env: Env) {
-  const now = Date.now();
-  const [date, todays] = await unlimitedParams(env, now);
-  if (poolCache && poolCache.date === date && now - poolCache.at < 10 * 60_000) return poolCache.rows;
-  const { results } = await env.DB.prepare(`SELECT id, prompt, category, ${ANSWER_COUNT} AS n FROM questions WHERE ${UNLIMITED_WHERE}`)
-    .bind(date, todays)
-    .all<{ id: string; prompt: string; category: string; n: number }>();
-  poolCache = { at: now, date, rows: results };
-  return results;
-}
-
 /** A random Unlimited-pool prompt, skipping ones you've had this run. */
 practiceRoutes.post("/api/practice/question", async (c) => {
   const playerId = pid(c);
@@ -54,7 +38,7 @@ practiceRoutes.post("/api/practice/question", async (c) => {
   // Rarity Roulette asks for a tier: only pick prompts that have at least one answer in it.
   const tier = TIERS.some((t) => t.points === Number(body.tier)) ? Number(body.tier) : null;
   const skip = new Set(exclude);
-  const candidates = (await practicePool(c.env)).filter((q) => !skip.has(q.id) && q.n >= minAnswers);
+  const candidates = (await unlimitedPool(c.env)).filter((q) => !skip.has(q.id) && q.n >= minAnswers);
   // Shuffle-pick: with a tier, check candidates' answer lists (cached indexes, no database reads).
   let row: { id: string; prompt: string; category: string; n: number } | null = null;
   for (let tries = 0; tries < 25 && candidates.length; tries++) {
@@ -203,15 +187,22 @@ practiceRoutes.post("/api/practice/finish", async (c) => {
   const { runId } = await c.req.json<{ runId?: string }>().catch(() => ({ runId: "" }));
   const run = await loadRun(c.env, String(runId ?? ""), playerId);
   if (!run) throw new HttpError(404, "No such run");
+  await ensureSchema(c.env);
   if (!run.finished) {
     run.finished = 1;
     run.score = scoreRun(run);
-    await saveRun(c.env, run);
+    // Only the request that actually finishes the run updates the personal best.
+    const res = await c.env.DB.prepare("UPDATE practice_runs SET data = ?, finished = 1, score = ? WHERE id = ? AND finished = 0")
+      .bind(JSON.stringify(run.data), run.score, run.id)
+      .run();
+    const stmt = res.meta.changes ? practiceBestStatement(c.env, playerId, run.mode, run.score) : null;
+    if (stmt) await stmt.run();
   }
-  const best = await c.env.DB.prepare("SELECT MAX(score) AS best FROM practice_runs WHERE player_id = ? AND mode = ? AND finished = 1")
-    .bind(playerId, run.mode)
+  // Your best comes from your one summary row, not by scanning all your runs.
+  const best = await c.env.DB.prepare(`SELECT best_${run.mode} AS best FROM lb_stats WHERE player_id = ?`)
+    .bind(playerId)
     .first<{ best: number | null }>();
-  return c.json({ score: run.score ?? 0, best: best?.best ?? run.score ?? 0 });
+  return c.json({ score: run.score ?? 0, best: Math.max(best?.best ?? 0, run.score ?? 0) });
 });
 
 /** Every valid answer, for the end-of-prompt reveal. */
@@ -288,11 +279,11 @@ async function abyssBoard(env: Env, week: string, playerId: string) {
   const { results } = await env.DB.prepare(
     `SELECT a.player_id, a.best_tier, p.nickname FROM abyss_attempts a JOIN players p ON p.id = a.player_id
      WHERE a.week = ? AND a.best_tier IS NOT NULL AND p.nickname IS NOT NULL AND TRIM(p.nickname) != ''
-     ORDER BY a.best_tier DESC, a.best_at - a.started_at ASC LIMIT 10`,
+     ORDER BY a.best_tier DESC, (a.best_at - a.started_at) LIMIT 10`,
   )
     .bind(week)
     .all<{ player_id: string; best_tier: number; nickname: string }>();
-  const divers = await env.DB.prepare("SELECT COUNT(*) AS n FROM abyss_attempts WHERE week = ?").bind(week).first<{ n: number }>();
+  const divers = await env.DB.prepare("SELECT divers AS n FROM abyss_weeks WHERE week = ?").bind(week).first<{ n: number | null }>();
   return {
     divers: divers?.n ?? 0,
     // Only the tier, never the answer itself: other people's Abyss answers stay secret.
@@ -338,7 +329,12 @@ practiceRoutes.post("/api/abyss/start", async (c) => {
   const q = await abyssQuestion(c.env, week, now);
   await getIndex(c.env, q.id);
   await c.env.DB.prepare("INSERT OR IGNORE INTO players (id, created_at) VALUES (?, ?)").bind(playerId, now).run();
-  await c.env.DB.prepare("INSERT OR IGNORE INTO abyss_attempts (week, player_id, question_id, started_at) VALUES (?, ?, ?, ?)").bind(week, playerId, q.id, now).run();
+  await ensureSchema(c.env);
+  const ins = await c.env.DB.prepare("INSERT OR IGNORE INTO abyss_attempts (week, player_id, question_id, started_at) VALUES (?, ?, ?, ?)")
+    .bind(week, playerId, q.id, now)
+    .run();
+  // Keep a running count of this week's divers (so the board never has to count them).
+  if (ins.meta.changes) await c.env.DB.prepare("UPDATE abyss_weeks SET divers = COALESCE(divers, 0) + 1 WHERE week = ?").bind(week).run();
   const a = await c.env.DB.prepare("SELECT * FROM abyss_attempts WHERE week = ? AND player_id = ?").bind(week, playerId).first<AbyssRow>();
   return c.json({ prompt: q.prompt, category: q.category, attempt: attemptView(a, now) });
 });
@@ -361,11 +357,16 @@ practiceRoutes.post("/api/abyss/guess", async (c) => {
   if (r.accepted && r.answerId && r.canonical && r.tier) {
     answers.push({ answerId: r.answerId, canonical: r.canonical, tier: r.tier });
     const better = !a.best_tier || r.tier > a.best_tier;
-    await c.env.DB.prepare(
-      `UPDATE abyss_attempts SET answers = ?, best_tier = ?, best_answer = ?, best_at = ? WHERE week = ? AND player_id = ?`,
+    // The answer list only grows, so a stale (double-tapped) request can't overwrite a newer one.
+    const res = await c.env.DB.prepare(
+      `UPDATE abyss_attempts SET answers = ?, best_tier = ?, best_answer = ?, best_at = ? WHERE week = ? AND player_id = ? AND answers = ?`,
     )
-      .bind(JSON.stringify(answers), better ? r.tier : a.best_tier, better ? r.canonical : a.best_answer, better ? now : a.best_at, week, playerId)
+      .bind(JSON.stringify(answers), better ? r.tier : a.best_tier, better ? r.canonical : a.best_answer, better ? now : a.best_at, week, playerId, a.answers)
       .run();
+    if (res.meta.changes && better && r.tier === 100) {
+      await ensureSchema(c.env);
+      await abyssKrillionStatement(c.env, playerId).run();
+    }
   }
   return c.json({ accepted: r.accepted, canonical: r.canonical, tier: r.tier, points: r.points, reason: r.reason });
 });

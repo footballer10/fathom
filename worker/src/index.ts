@@ -10,6 +10,7 @@ import { playerStats } from "./stats";
 import { friendRoutes } from "./social";
 import { suggestionRoutes } from "./suggestions";
 import { practiceRoutes } from "./practice";
+import { isLocalHost, meterDb, type Tally } from "./meter";
 
 export { Room } from "./room";
 
@@ -38,8 +39,15 @@ app.onError((err, c) => {
 });
 
 app.use("/api/*", async (c, next) => {
+  // Local dev only: count database rows per request (see meter.ts).
+  const tally: Tally | null = isLocalHost(c.req.url) ? { read: 0, written: 0 } : null;
+  if (tally) c.env = { ...c.env, DB: meterDb(c.env.DB, tally) };
   await next();
   c.header("Cache-Control", "no-store");
+  if (tally) {
+    c.header("X-D1-Rows-Read", String(tally.read));
+    c.header("X-D1-Rows-Written", String(tally.written));
+  }
 });
 
 app.get("/api/health", (c) => c.json({ ok: true, serverNow: Date.now() }));
