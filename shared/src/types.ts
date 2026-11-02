@@ -98,6 +98,8 @@ export interface RevealResponse {
 export interface FinishResponse {
   mode: GameMode;
   dailyNumber: number | null;
+  /** The Daily's date (for its leaderboard); null outside the Daily. */
+  date?: string | null;
   totalPoints: number;
   depth: number;
   zone: string;

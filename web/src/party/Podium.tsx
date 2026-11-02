@@ -7,21 +7,31 @@ const MEDALS = ["🥇", "🥈", "🥉"];
 const REVEAL_AT = [2.0, 1.1, 0.3];
 
 /**
- * The end-of-game podium: places rise one at a time (3rd, 2nd, then 1st),
- * depths count up, and the winner gets a crown, a glow and a burst of bubbles.
+ * The end-of-game podium: places rise one at a time (3rd, 2nd, then 1st), and
+ * the winner gets a crown, a glow and a burst of bubbles. Tied players share a
+ * step. `scoring` picks what's shown under each name: depth counting up, or the
+ * mode's own stat ("Survived 6 rounds", "4 matches").
  */
 export function Podium({
   results,
   you,
   reducedMotion,
   onDone,
+  scoring = "depth",
+  intro,
 }: {
   results: GameResult[];
   you: string;
   reducedMotion: boolean;
   onDone: () => void;
+  scoring?: "depth" | "stat";
+  intro?: string;
 }) {
-  const top = results.slice(0, 3);
+  // Group by rank: everyone on rank 1 shares the top step, and so on.
+  const steps = useMemo(() => {
+    const ranks = [...new Set(results.map((r) => r.rank))].sort((a, b) => a - b).slice(0, 3);
+    return ranks.map((rank) => results.filter((r) => r.rank === rank));
+  }, [results]);
   const winnerAt = REVEAL_AT[0] + 0.9;
   useEffect(() => {
     if (reducedMotion) return onDone();
@@ -29,60 +39,64 @@ export function Podium({
     return () => clearTimeout(t);
   }, [reducedMotion, onDone, winnerAt]);
 
+  const winners = steps[0] ?? [];
+  const winnerText =
+    winners.length === 0
+      ? ""
+      : winners.some((w) => w.playerId === you)
+        ? winners.length > 1
+          ? `You tie for 1st with ${winners.filter((w) => w.playerId !== you).map((w) => w.nickname).join(" & ")}!`
+          : "You win!"
+        : winners.length > 1
+          ? `${winners.map((w) => w.nickname).join(" & ")} tie for 1st!`
+          : `${winners[0].nickname} wins!`;
+
   return (
     <div className="podium-stage">
-      <motion.p
-        className="podium-intro"
-        initial={reducedMotion ? false : { opacity: 0, y: -8 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-      >
-        {top.length > 1 ? "And the deepest diver is…" : "Final depth"}
+      <motion.p className="podium-intro" initial={reducedMotion ? false : { opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
+        {intro ?? (results.length > 1 ? "And the deepest diver is…" : "Final depth")}
       </motion.p>
       <div className="podium">
         {[1, 0, 2].map((i) =>
-          top[i] ? <Step key={top[i].playerId} r={top[i]} place={i} delay={reducedMotion ? 0 : REVEAL_AT[i]} you={you} reducedMotion={reducedMotion} /> : null,
+          steps[i] ? (
+            <Step key={i} group={steps[i]} place={i} delay={reducedMotion ? 0 : REVEAL_AT[i]} you={you} reducedMotion={reducedMotion} scoring={scoring} />
+          ) : null,
         )}
       </div>
-      {top[0] && (
+      {winnerText && (
         <motion.div
           className="winner-banner"
           initial={reducedMotion ? false : { opacity: 0, scale: 0.6 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: reducedMotion ? 0 : winnerAt, type: "spring", stiffness: 260, damping: 14 }}
         >
-          🏆 {top[0].playerId === you ? "You win!" : `${top[0].nickname} wins!`}
+          🏆 {winnerText}
         </motion.div>
       )}
     </div>
   );
 }
 
-function Step({ r, place, delay, you, reducedMotion }: { r: GameResult; place: number; delay: number; you: string; reducedMotion: boolean }) {
-  const depthRef = useRef<HTMLDivElement>(null);
+function Step({
+  group,
+  place,
+  delay,
+  you,
+  reducedMotion,
+  scoring,
+}: {
+  group: GameResult[];
+  place: number;
+  delay: number;
+  you: string;
+  reducedMotion: boolean;
+  scoring: "depth" | "stat";
+}) {
   const heights = [150, 110, 80];
-
-  // Count the depth up from 0 as the block rises.
-  useEffect(() => {
-    const el = depthRef.current;
-    if (!el) return;
-    if (reducedMotion) {
-      el.textContent = formatDepth(r.depth);
-      return;
-    }
-    el.textContent = formatDepth(0);
-    const controls = animate(0, r.depth, {
-      delay,
-      duration: 1.1,
-      ease: "easeOut",
-      onUpdate: (v) => (el.textContent = formatDepth(Math.round(v / 10) * 10)),
-    });
-    return () => controls.stop();
-  }, [r.depth, delay, reducedMotion]);
-
   const spring = { type: "spring" as const, stiffness: place === 0 ? 120 : 160, damping: place === 0 ? 11 : 16, delay };
+  const mine = group.some((r) => r.playerId === you);
   return (
-    <div className={`podium-step podium-${place + 1}${r.playerId === you ? " podium-step--you" : ""}`}>
+    <div className={`podium-step podium-${place + 1}${mine ? " podium-step--you" : ""}${group.length > 1 ? " podium-step--tie" : ""}`}>
       {place === 0 && !reducedMotion && <BubbleBurst delay={delay + 0.7} />}
       <motion.div
         className="podium-who"
@@ -101,11 +115,16 @@ function Step({ r, place, delay, you, reducedMotion }: { r: GameResult; place: n
           </motion.div>
         )}
         <div className="podium-medal">{MEDALS[place]}</div>
-        <div className="podium-name">
-          {r.nickname}
-          {r.playerId === you && <span className="podium-you"> (you)</span>}
-        </div>
-        <div ref={depthRef} className="podium-depth" />
+        {group.length > 1 && <div className="podium-tie">tie</div>}
+        {group.map((r) => (
+          <div key={r.playerId} className="podium-entry">
+            <div className="podium-name">
+              {r.nickname}
+              {r.playerId === you && <span className="podium-you"> (you)</span>}
+            </div>
+            {scoring === "depth" || !r.stat ? <CountUpDepth depth={r.depth} delay={delay} reducedMotion={reducedMotion} /> : <div className="podium-depth podium-stat">{r.stat}</div>}
+          </div>
+        ))}
       </motion.div>
       <motion.div
         className="podium-block"
@@ -118,6 +137,28 @@ function Step({ r, place, delay, you, reducedMotion }: { r: GameResult; place: n
       </motion.div>
     </div>
   );
+}
+
+/** Depth counting up from 0 as the block rises. */
+function CountUpDepth({ depth, delay, reducedMotion }: { depth: number; delay: number; reducedMotion: boolean }) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (reducedMotion) {
+      el.textContent = formatDepth(depth);
+      return;
+    }
+    el.textContent = formatDepth(0);
+    const controls = animate(0, depth, {
+      delay,
+      duration: 1.1,
+      ease: "easeOut",
+      onUpdate: (v) => (el.textContent = formatDepth(Math.round(v / 10) * 10)),
+    });
+    return () => controls.stop();
+  }, [depth, delay, reducedMotion]);
+  return <div ref={ref} className="podium-depth" />;
 }
 
 /** A one-off burst of bubbles rising from the winner's block. */

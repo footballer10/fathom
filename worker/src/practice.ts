@@ -24,6 +24,23 @@ function pid(c: Context<AppEnv>): string {
 
 const ANSWER_COUNT = "json_array_length(json_extract(data, '$.answers'))";
 
+/**
+ * The Unlimited pool (id, prompt, category, answer count), read once per server
+ * instance every 10 minutes. Quick modes pick from it in memory, instead of
+ * scanning the questions table on every prompt (which used up D1's daily reads).
+ */
+let poolCache: { at: number; date: string; rows: { id: string; prompt: string; category: string; n: number }[] } | null = null;
+async function practicePool(env: Env) {
+  const now = Date.now();
+  const [date, todays] = await unlimitedParams(env, now);
+  if (poolCache && poolCache.date === date && now - poolCache.at < 10 * 60_000) return poolCache.rows;
+  const { results } = await env.DB.prepare(`SELECT id, prompt, category, ${ANSWER_COUNT} AS n FROM questions WHERE ${UNLIMITED_WHERE}`)
+    .bind(date, todays)
+    .all<{ id: string; prompt: string; category: string; n: number }>();
+  poolCache = { at: now, date, rows: results };
+  return results;
+}
+
 /** A random Unlimited-pool prompt, skipping ones you've had this run. */
 practiceRoutes.post("/api/practice/question", async (c) => {
   const playerId = pid(c);
@@ -34,17 +51,21 @@ practiceRoutes.post("/api/practice/question", async (c) => {
   if (run) body.exclude = [...(body.exclude ?? []), ...run.data.questions.map((q) => q.id)];
   const exclude = (body.exclude ?? []).filter((x) => typeof x === "string").slice(-300);
   const minAnswers = Math.max(0, Math.min(200, Number(body.minAnswers) || 0));
-  const [date, todays] = await unlimitedParams(c.env);
   // Rarity Roulette asks for a tier: only pick prompts that have at least one answer in it.
   const tier = TIERS.some((t) => t.points === Number(body.tier)) ? Number(body.tier) : null;
-  const row = await c.env.DB.prepare(
-    `SELECT id, prompt, category, ${ANSWER_COUNT} AS n FROM questions
-     WHERE ${UNLIMITED_WHERE} AND id NOT IN (SELECT value FROM json_each(?3)) AND ${ANSWER_COUNT} >= ?4
-       ${tier ? "AND EXISTS (SELECT 1 FROM json_each(json_extract(data, '$.answers')) a WHERE json_extract(a.value, '$.tier') = ?5)" : ""}
-     ORDER BY RANDOM() LIMIT 1`,
-  )
-    .bind(date, todays, JSON.stringify(exclude), minAnswers, ...(tier ? [tier] : []))
-    .first<{ id: string; prompt: string; category: string; n: number }>();
+  const skip = new Set(exclude);
+  const candidates = (await practicePool(c.env)).filter((q) => !skip.has(q.id) && q.n >= minAnswers);
+  // Shuffle-pick: with a tier, check candidates' answer lists (cached indexes, no database reads).
+  let row: { id: string; prompt: string; category: string; n: number } | null = null;
+  for (let tries = 0; tries < 25 && candidates.length; tries++) {
+    const pick = candidates.splice(Math.floor(Math.random() * candidates.length), 1)[0];
+    if (tier) {
+      const idx = await getIndex(c.env, pick.id).catch(() => null);
+      if (!idx?.answers.some((x) => x.tier === tier)) continue;
+    }
+    row = pick;
+    break;
+  }
   if (!row) throw new HttpError(404, "No more prompts for this run");
   if (run) {
     run.data.questions.push({ id: row.id, target: tier, at: Date.now() });

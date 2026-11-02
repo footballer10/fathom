@@ -17,9 +17,14 @@ export function StatsPanel() {
   const buckets = Object.entries(stats.histogram);
   const max = Math.max(1, ...buckets.map(([, n]) => n));
   return (
-    <div className="card stats-card">
+    <div className="stats-cards">
+      {stats.played > 0 && (
+        <div className="card stats-card">
+          <DailyStats stats={stats} buckets={buckets} max={max} />
+        </div>
+      )}
       {stats.unlimited && stats.unlimited.dives > 0 && (
-        <>
+        <div className="card stats-card">
           <h3>Your Unlimited stats</h3>
           <div className="stats-row">
             <Stat label="Dives" value={stats.unlimited.dives} />
@@ -27,9 +32,8 @@ export function StatsPanel() {
             <Stat label="Prompts seen" value={stats.unlimited.seen} />
             <Stat label="Deepest" value={formatDepth(stats.unlimited.bestDepth)} />
           </div>
-        </>
+        </div>
       )}
-      {stats.played > 0 && <DailyStats stats={stats} buckets={buckets} max={max} />}
     </div>
   );
 }

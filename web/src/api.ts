@@ -165,6 +165,11 @@ export const api = {
   practiceGuess: (id: string, text: string, taken: string[] = [], confirm = false, runId?: string) =>
     call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken, confirm, runId }),
   practiceAnswers: (id: string) => call<{ answers: RevealAnswer[] }>("GET", `/api/practice/answers/${encodeURIComponent(id)}`),
+  dailyTop: (date: string) =>
+    call<{ date: string; divers: number; rows: { rank: number; nickname: string; depth: number; tiers: (number | null)[]; you: boolean }[]; you: { rank: number; depth: number } | null }>(
+      "GET",
+      `/api/daily/top?date=${encodeURIComponent(date)}`,
+    ),
   abyss: () => call<AbyssStatus>("GET", "/api/abyss"),
   abyssStart: () => call<{ prompt: string; category: Category; attempt: AbyssAttempt }>("POST", "/api/abyss/start"),
   abyssGuess: (text: string, confirm = false) => call<{ accepted: boolean; canonical: string | null; tier: TierPoints | null; points: number; reason: string | null }>("POST", "/api/abyss/guess", { text, confirm }),

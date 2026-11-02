@@ -15,7 +15,7 @@ function formatValue(b: LeaderboardBoard, v: number) {
     const t = TIERS.find((x) => x.points === v);
     return t ? `${t.emoji} ${t.name}` : String(v);
   }
-  if (b.unit === "percent") return `${v}%`;
+  if (b.unit === "percent") return `${v.toFixed(1)}%`;
   if (b.unit === "days") return `${v} day${v === 1 ? "" : "s"}`;
   return v.toLocaleString();
 }

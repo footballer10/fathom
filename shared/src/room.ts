@@ -19,7 +19,7 @@ export const VARIANT_INFO: Record<DiveVariant | BattleVariant, { name: string; e
   shark: { name: "Shark Tank", emoji: "🦈", blurb: "Each round the shark bites whoever gave the most common answer. Last divers left win." },
   school: { name: "School of Fish", emoji: "🐟", blurb: "Swim with the school: score for every other diver who gives the same answer as you." },
   hotpotato: { name: "Hot Potato", emoji: "🥔", blurb: "Battle, but the prompt changes every single turn." },
-  relay: { name: "Relay", emoji: "🔤", blurb: "Two teams take turns. Each answer must start with the last letter of the one before." },
+  relay: { name: "Relay", emoji: "🔤", blurb: "Two teams take turns. Each answer must start with the last letter of your own team's previous answer, so coordinate." },
 };
 export type QuestionSource = "daily" | "unlimited" | "category";
 
@@ -34,6 +34,8 @@ export interface DiveSettings {
   variant?: DiveVariant;
   /** Shark Tank: bites a diver can survive. */
   sharkLives?: number;
+  /** Co-op: goal depth (m) for the shared sub; null = suggested for the team size. */
+  coopGoal?: number | null;
 }
 
 export interface BattleSettings {
@@ -48,6 +50,8 @@ export interface BattleSettings {
   /** Seconds a wrong or taken answer takes off your turn (0 = no penalty). */
   penaltySeconds: number;
   variant?: BattleVariant;
+  /** False once the host moves the lives slider; until then lives follow the group size. */
+  livesAuto?: boolean;
 }
 
 export type RoomPhase = "lobby" | "question" | "reveal" | "turn" | "rotate" | "over";
@@ -89,6 +93,8 @@ export interface RevealRow {
   matches?: number;
   /** Shark Tank: lives left after this round. */
   livesLeft?: number;
+  /** Shark Tank: tied for the lowest, so into a tie-break round. */
+  tied?: boolean;
 }
 
 export interface LeaderboardRow {
@@ -109,6 +115,8 @@ export interface GameResult {
   rank: number;
   /** Relay: the player's team. */
   team?: number;
+  /** What actually counted in this mode, for the podium ("Survived 6 rounds", "3 matches"). */
+  stat?: string;
   /** Per-question depth after each question, for the finale race animation (Dive). */
   depthTrail: number[];
   eliminatedAt?: number;
@@ -133,7 +141,10 @@ export interface RoomSnapshot {
     yourAnswer: { canonical: string; tier: TierPoints; points: number; corrected: boolean } | null;
     reveal: { perPlayer: RevealRow[]; leaderboard: LeaderboardRow[]; answers: RevealAnswer[]; nextAt: number } | null;
     /** Co-op: the team's combined score so far and the target. */
-    coop?: { total: number; target: number } | null;
+    /** Co-op: the shared sub's depth (the team's average) and the goal, in metres. */
+    coop?: { depth: number; goal: number } | null;
+    /** Shark Tank: who's in this round (a tie-break round has only the tied divers). */
+    sharkPool?: string[] | null;
   };
   battle?: {
     prompt: string;
@@ -148,13 +159,15 @@ export interface RoomSnapshot {
     turnEndsAt: number;
     used: UsedAnswer[];
     typing: string;
-    /** Relay: the letter the next answer must start with (null = any). */
+    /** Relay: the letter the next answer must start with (null = any), for the team whose turn it is. */
     letter?: string | null;
+    /** Relay: each team's chain letter. */
+    teamLetters?: [string | null, string | null] | null;
     /** Relay: lives left for team 0 and team 1. */
     teamLives?: [number, number] | null;
     spectatorGuesses: { playerId: string; nickname: string; text: string; canonical: string | null; tier: TierPoints | null }[];
   };
-  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[]; coop?: CoopResult | null; winningTeam?: number | null };
+  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[]; coop?: CoopResult | null; winningTeam?: number | null; /** "depth" when the podium shows depth; "stat" when it shows what the mode actually counts. */ scoring?: "depth" | "stat" };
 }
 
 /** One Dive question's answers from every player, for the end-of-game recap. */
@@ -165,8 +178,9 @@ export interface QuestionRecap {
 
 /** Co-op Dive outcome: the team's combined score against the target. */
 export interface CoopResult {
-  total: number;
-  target: number;
+  /** The shared sub's final depth (the team's average) and the goal, in metres. */
+  depth: number;
+  goal: number;
   success: boolean;
 }
 
@@ -181,6 +195,8 @@ export type ClientMessage =
   | { type: "lobby" }
   | { type: "guess"; text: string; confirm?: boolean }
   | { type: "kick"; playerId: string }
+  /** Host: end the game now and go to the results. */
+  | { type: "end" }
   /** Host, in the lobby: switch the room between Dive and Battle (and pick a variant). */
   | { type: "mode"; kind: RoomKind; variant: DiveVariant | BattleVariant }
   /** Host, in the lobby: move a player to team 0 or 1 (Relay), or shuffle everyone. */

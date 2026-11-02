@@ -162,21 +162,17 @@ export function PufferArena({
         </div>
         {b.teamLives && (
           <div className="relay-bar">
-            <span className="team-name team-name--0">
-              Coral ❤️{b.teamLives[0]}
-            </span>
-            <span className="relay-letter" title="The next answer must start with this letter">
-              {b.letter ? (
-                <>
-                  Next answer starts with <b>{b.letter.toUpperCase()}</b>
-                </>
-              ) : (
-                "Any letter"
-              )}
-            </span>
-            <span className="team-name team-name--1">
-              Kelp ❤️{b.teamLives[1]}
-            </span>
+            {([0, 1] as const).map((t) => {
+              const active = state.players.find((p) => p.id === (b.turnPlayerId ?? b.nextTurnPlayerId))?.team === t;
+              const letter = b.teamLetters?.[t] ?? null;
+              return (
+                <span key={t} className={`relay-team relay-team--${t}${active ? " relay-team--up" : ""}`} title={`${t === 0 ? "Coral" : "Kelp"}'s next answer starts with this letter`}>
+                  <span className="relay-team-name">{t === 0 ? "🪸 Coral" : "🌿 Kelp"}</span>
+                  <span className="relay-team-lives">❤️ {b.teamLives![t]}</span>
+                  <span className="relay-team-letter">{letter ? letter.toUpperCase() : "any"}</span>
+                </span>
+              );
+            })}
           </div>
         )}
       </div>

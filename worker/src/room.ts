@@ -5,6 +5,9 @@ import {
   CONFIRM_GRACE_MS,
   DEADLINE_GRACE_MS,
   DIVE_DEFAULTS,
+  battleSuggestedAccepts,
+  battleSuggestedLives,
+  coopSuggestedGoal,
   matchGuess,
   nicknameProblem,
   partyDepth,
@@ -12,6 +15,7 @@ import {
   tierInfo,
 } from "@fathom/shared";
 import type {
+  AnswerIndex,
   BattleSettings,
   BattleVariant,
   BestAnswer,
@@ -70,6 +74,9 @@ interface Seat {
   lifeMeter: number;
   /** Relay: team 0 or 1. */
   team?: number;
+  /** Battle: accepted answers this game. Shark/Battle: the round they went out in. */
+  turns?: number;
+  outRound?: number;
 }
 
 interface DiveAnswer {
@@ -96,8 +103,12 @@ interface DiveRound {
   best: Best;
   /** Every question's answers so far, shown at the end. */
   recap?: QuestionRecap[];
-  /** Co-op: the combined score the team is aiming for. */
-  coopTarget?: number;
+  /** Co-op: the shared sub's goal depth, in metres. */
+  coopGoal?: number;
+  /** Shark Tank: who's in this round (null = everyone still in); a tie-break round has only the tied. */
+  sharkPool?: string[] | null;
+  /** Shark Tank: rounds played so far. */
+  sharkRound?: number;
   /** "Did you mean…?" asked in time: a yes for that answer counts until `until`, even past the clock. */
   confirms?: Record<string, { answerId: string; until: number }>;
 }
@@ -122,8 +133,10 @@ interface BattleRound {
   failed: number;
   spectatorGuesses: { playerId: string; nickname: string; text: string; canonical: string | null; tier: TierPoints | null }[];
   best: Best;
-  /** Relay: the letter the next answer must start with. */
+  /** Relay: the letter the next answer must start with (for the team whose turn it is). */
   letter?: string | null;
+  /** Relay: each team chains off its own last answer. */
+  teamLetters?: [string | null, string | null];
   /** Relay: shared lives per team. */
   teamLives?: [number, number] | null;
   /** "Did you mean…?" asked in time on this turn: a yes counts until `until`. */
@@ -143,7 +156,7 @@ interface RoomState {
   phase: RoomPhase;
   dive?: DiveRound;
   battle?: BattleRound;
-  results?: { results: GameResult[]; bestAnswer: BestAnswer; recap?: QuestionRecap[] };
+  results?: NonNullable<RoomSnapshot["results"]>;
 }
 
 interface Attachment {
@@ -236,6 +249,13 @@ function assignTeams(seats: Seat[]) {
 export class Room extends DurableObject<Env> {
   private s: RoomState | null = null;
   private lastTypingAt = new Map<string, number>();
+  /** Answer indexes already loaded, for code that can't wait (Relay's letter check at turn start). */
+  private indexCache = new Map<string, AnswerIndex>();
+  private async loadIndex(qid: string) {
+    const idx = await getIndex(this.env, qid);
+    this.indexCache.set(qid, idx);
+    return idx;
+  }
 
   constructor(ctx: DurableObjectState, env: Env) {
     super(ctx, env);
@@ -333,6 +353,12 @@ export class Room extends DurableObject<Env> {
       case "guess":
         await this.onGuess(ws, pid, String(msg.text ?? "").slice(0, 100), now, msg.confirm === true);
         return;
+      case "end":
+        // The host ends the game now; everyone goes to the results.
+        if (pid !== this.s.hostId) return;
+        if (this.s.dive && (this.s.phase === "question" || this.s.phase === "reveal")) this.gameOver(this.s.dive.best);
+        else if (this.s.battle && (this.s.phase === "turn" || this.s.phase === "rotate")) this.gameOver(this.s.battle.best);
+        break;
       case "kick":
         if (pid === this.s.hostId) await this.kick(String(msg.playerId ?? ""), now);
         break;
@@ -539,6 +565,12 @@ export class Room extends DurableObject<Env> {
         penaltySeconds: penalty(patch.penaltySeconds, DIVE_DEFAULTS.penaltyMax, cur.penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds),
         variant: patch.variant !== undefined ? (validVariant("dive", patch.variant) as DiveVariant) : cur.variant ?? "classic",
         sharkLives: patch.sharkLives !== undefined ? clamp(patch.sharkLives, 1, DIVE_DEFAULTS.sharkLivesMax, cur.sharkLives ?? DIVE_DEFAULTS.sharkLives) : cur.sharkLives ?? DIVE_DEFAULTS.sharkLives,
+        coopGoal:
+          patch.coopGoal === null
+            ? null
+            : patch.coopGoal !== undefined
+              ? Math.round(clamp(patch.coopGoal, DIVE_DEFAULTS.coopGoalMin, DIVE_DEFAULTS.coopGoalMax, 2500) / 250) * 250
+              : cur.coopGoal ?? null,
       };
     } else {
       const cur = s.settings as BattleSettings;
@@ -546,6 +578,7 @@ export class Room extends DurableObject<Env> {
         source: src ?? cur.source,
         category: cat ?? cur.category,
         lives: patch.lives !== undefined ? clamp(patch.lives, BATTLE_DEFAULTS.livesMin, BATTLE_DEFAULTS.livesMax, cur.lives) : cur.lives,
+        livesAuto: patch.lives !== undefined ? false : cur.livesAuto ?? true,
         baseSeconds: patch.baseSeconds !== undefined ? clamp(patch.baseSeconds, BATTLE_DEFAULTS.baseSecondsMin, BATTLE_DEFAULTS.baseSecondsMax, cur.baseSeconds) : cur.baseSeconds,
         failedTurnsToRotate: patch.failedTurnsToRotate !== undefined ? clamp(patch.failedTurnsToRotate, 1, 5, cur.failedTurnsToRotate) : cur.failedTurnsToRotate,
         acceptsToRotate:
@@ -555,6 +588,18 @@ export class Room extends DurableObject<Env> {
         variant: patch.variant !== undefined ? (validVariant("battle", patch.variant) as BattleVariant) : cur.variant ?? "classic",
       };
     }
+    this.syncAutoSettings();
+  }
+
+  /**
+   * Sliders the host hasn't touched follow the group size: Battle lives.
+   * (Co-op's goal and Battle's answers-per-prompt are worked out at the start when left on auto.)
+   */
+  private syncAutoSettings() {
+    const s = this.s!;
+    if (s.kind !== "battle") return;
+    const set = s.settings as BattleSettings;
+    if (set.livesAuto ?? true) set.lives = battleSuggestedLives(Object.values(s.seats).filter((x) => !x.spectator).length);
   }
 
   private toLobby() {
@@ -583,6 +628,8 @@ export class Room extends DurableObject<Env> {
         eliminatedAt: undefined,
         depthTrail: [],
         lifeMeter: 0,
+        turns: 0,
+        outRound: undefined,
       });
       if (!(s.kind === "battle" && battleVariant(s) === "relay")) seat.team = undefined;
     }
@@ -591,7 +638,9 @@ export class Room extends DurableObject<Env> {
 
     if (s.kind === "dive") {
       const set = s.settings as DiveSettings;
-      const ids = await pickRoomQuestions(this.env, set.source, set.category, set.questionCount, now, this.roomPlayerIds());
+      // Shark Tank plays until one diver is left, so it starts with a bigger stack (and adds more if needed).
+      const count = diveVariant(s) === "shark" ? DIVE_DEFAULTS.sharkStartQuestions : set.questionCount;
+      const ids = await pickRoomQuestions(this.env, set.source, set.category, count, now, this.roomPlayerIds());
       if (!ids.length) return this.send(ws, { type: "error", message: "No questions available for those settings" });
       s.dive = {
         questionIds: ids,
@@ -606,7 +655,9 @@ export class Room extends DurableObject<Env> {
         ranks: {},
         best: null,
         recap: [],
-        coopTarget: diveVariant(s) === "coop" ? DIVE_DEFAULTS.coopPointsPerAnswer * ids.length * players.length : undefined,
+        coopGoal: diveVariant(s) === "coop" ? set.coopGoal ?? coopSuggestedGoal(players.length) : undefined,
+        sharkPool: null,
+        sharkRound: 0,
       };
       if (diveVariant(s) === "shark") for (const p of players) p.lives = set.sharkLives ?? DIVE_DEFAULTS.sharkLives;
       await Promise.all(ids.map((id) => getIndex(this.env, id))); // warm the answer indexes
@@ -620,7 +671,7 @@ export class Room extends DurableObject<Env> {
     const set = s.settings as BattleSettings;
     const ids = await pickRoomQuestions(this.env, set.source, set.category, 30, now, this.roomPlayerIds());
     if (!ids.length) return this.send(ws, { type: "error", message: "No questions available for those settings" });
-    for (const p of players) p.lives = set.lives;
+    for (const p of players) Object.assign(p, { lives: set.lives, turns: 0, outRound: undefined });
     const relay = battleVariant(s) === "relay";
     if (relay && players.length < 2) return this.send(ws, { type: "error", message: "Relay needs at least 2 players" });
     if (relay) {
@@ -651,9 +702,10 @@ export class Room extends DurableObject<Env> {
       spectatorGuesses: [],
       best: null,
       letter: null,
+      teamLetters: [null, null],
       teamLives: relay ? [set.lives, set.lives] : null,
     };
-    await getIndex(this.env, ids[0]);
+    await this.loadIndex(ids[0]);
     this.startTurn(s.battle!.order[0], now);
   }
 
@@ -688,6 +740,14 @@ export class Room extends DurableObject<Env> {
     return d.endsAt - (d.penalties[pid] ?? 0) * ((this.s!.settings as DiveSettings).penaltySeconds ?? DIVE_DEFAULTS.wrongGuessPenaltySeconds) * 1000;
   }
 
+  /** Co-op: the shared sub's depth, the team's average depth so far. */
+  private coopDepth() {
+    const s = this.s!;
+    const seats = Object.values(s.seats).filter((x) => !x.spectator);
+    const qc = s.dive?.questionIds.length ?? (s.settings as DiveSettings).questionCount;
+    return seats.length ? Math.round(seats.reduce((n, x) => n + partyDepth(x.score, qc), 0) / seats.length / 10) * 10 : 0;
+  }
+
   /** Someone who hasn't answered is still inside their "Did you mean…?" window. */
   private confirmPending(now: number) {
     const d = this.s!.dive!;
@@ -696,7 +756,8 @@ export class Room extends DurableObject<Env> {
 
   /** Divers still answering (Shark Tank's bitten players sit out). */
   private activeDivers(): Seat[] {
-    return Object.values(this.s!.seats).filter((x) => !x.spectator && !x.eliminated);
+    const pool = this.s!.dive?.sharkPool;
+    return Object.values(this.s!.seats).filter((x) => !x.spectator && !x.eliminated && (!pool || pool.includes(x.id)));
   }
 
   private async diveGuess(ws: WebSocket, pid: string, text: string, now: number, confirm: boolean) {
@@ -793,25 +854,30 @@ export class Room extends DurableObject<Env> {
         d.best = { nickname: seat.nickname, canonical: a.canonical, tier: a.tier, prompt: d.prompt, at: a.at };
       }
     }
-    // Shark Tank: whoever scored least this round is bitten (unless everyone tied).
-    if (variant === "shark" && perPlayer.length > 1) {
+    // Shark Tank: the one diver with the lowest score is bitten. If several tie for
+    // the lowest, they (and only they) play a tie-break round, again and again until
+    // just one is lowest; then everyone still in plays the next round.
+    if (variant === "shark") {
+      d.sharkRound = (d.sharkRound ?? 0) + 1;
       const low = Math.min(...perPlayer.map((r) => r.points));
-      if (perPlayer.some((r) => r.points > low)) {
-        for (const row of perPlayer) {
-          if (row.points !== low) continue;
-          // Each bite costs a life; out of lives means out of the game.
-          const seat = s.seats[row.playerId];
-          row.bitten = true;
-          seat.lives = Math.max(0, (seat.lives || 1) - 1);
-          row.livesLeft = seat.lives;
-          if (seat.lives <= 0) Object.assign(seat, { eliminated: true, eliminatedAt: now });
-        }
+      const lowest = perPlayer.filter((r) => r.points === low);
+      if (perPlayer.length > 1 && lowest.length > 1) {
+        for (const row of lowest) row.tied = true;
+        d.sharkPool = lowest.map((r) => r.playerId);
+      } else if (lowest.length === 1 && (perPlayer.length > 1 || d.sharkPool)) {
+        const row = lowest[0];
+        const seat = s.seats[row.playerId];
+        row.bitten = true;
+        seat.lives = Math.max(0, (seat.lives || 1) - 1);
+        row.livesLeft = seat.lives;
+        if (seat.lives <= 0) Object.assign(seat, { eliminated: true, eliminatedAt: now, outRound: d.sharkRound });
+        d.sharkPool = null;
       }
     }
     perPlayer.sort((a, b) => b.points - a.points);
     const leaderboard = this.leaderboard(d.ranks);
     d.ranks = Object.fromEntries(leaderboard.map((r) => [r.playerId, r.rank]));
-    const nextAt = now + DIVE_DEFAULTS.revealSeconds * 1000;
+    const nextAt = now + (DIVE_DEFAULTS.revealSeconds + (variant === "shark" ? DIVE_DEFAULTS.sharkRevealExtraSeconds : 0)) * 1000;
     d.reveal = { perPlayer, leaderboard, nextAt };
     (d.recap ??= []).push({ prompt: d.prompt, perPlayer });
     s.phase = "reveal";
@@ -829,8 +895,17 @@ export class Room extends DurableObject<Env> {
   private async advanceDive(now: number) {
     const s = this.s!;
     const d = s.dive!;
-    // Shark Tank ends as soon as one diver (or none) is left unbitten.
-    if (diveVariant(s) === "shark" && this.activeDivers().length <= 1) return this.gameOver(d.best);
+    // Shark Tank ends as soon as one diver (or none) is left, and adds rounds until then.
+    if (diveVariant(s) === "shark") {
+      const alive = Object.values(s.seats).filter((x) => !x.spectator && !x.eliminated);
+      if (alive.length <= 1) return this.gameOver(d.best);
+      if (d.index + 1 >= d.questionIds.length) {
+        const set = s.settings as DiveSettings;
+        const more = await pickRoomQuestions(this.env, set.source, set.category, 10, now, this.roomPlayerIds());
+        d.questionIds.push(...more.filter((id) => !d.questionIds.includes(id)));
+        if (d.index + 1 >= d.questionIds.length) return this.gameOver(d.best);
+      }
+    }
     if (d.index + 1 < d.questionIds.length) await this.startDiveQuestion(d.index + 1, now);
     else this.gameOver(d.best);
   }
@@ -861,6 +936,12 @@ export class Room extends DurableObject<Env> {
     if (!next) return this.gameOver(b.best);
     const seconds = b.baseSeconds;
     Object.assign(b, { turnPlayerId: next, turnStartedAt: now, turnEndsAt: now + seconds * 1000, nextTurnAt: 0, nextTurnPlayerId: null, confirm: null });
+    // Relay: this player's team chain letter, if any unused answer still starts with it.
+    const team = s.seats[next].team;
+    const want = battleVariant(s) === "relay" && team !== undefined ? b.teamLetters?.[team] ?? null : null;
+    const idx = this.indexCache.get(b.questionIds[b.qPos]);
+    const used = new Set(b.usedIds);
+    b.letter = want && (!idx || idx.answers.some((a) => !used.has(a.id) && firstLetter(a.canonical) === want)) ? want : null;
     s.phase = "turn";
     this.lastTypingAt.clear();
     this.broadcast({ type: "turn", playerId: next, endsAt: b.turnEndsAt, prompt: b.prompt, seconds });
@@ -891,7 +972,7 @@ export class Room extends DurableObject<Env> {
     const s = this.s!;
     const b = s.battle!;
     const seat = s.seats[pid];
-    const index = await getIndex(this.env, b.questionIds[b.qPos]);
+    const index = await this.loadIndex(b.questionIds[b.qPos]);
 
     // Eliminated players and spectators can still guess for fun (unscored, shown in a side panel).
     if (seat.eliminated || seat.spectator) {
@@ -920,6 +1001,7 @@ export class Room extends DurableObject<Env> {
       b.usedIds.push(r.answerId);
       b.accepted += 1;
       seat.score += r.points;
+      seat.turns = (seat.turns ?? 0) + 1;
       // Every accepted answer fills the life circle; each full circle is an extra life (no cap).
       // The circle fills slower as the field thins out, so small games don't drag on forever.
       const fill = (seat.lifeMeter ?? 0) + Math.round(tierInfo(r.tier).battleLifeFill * lifeFillFactor(this.aliveIds().length));
@@ -929,10 +1011,8 @@ export class Room extends DurableObject<Env> {
       if (relay && seat.team !== undefined && b.teamLives) {
         b.teamLives[seat.team] += livesGained;
         this.syncTeamLives();
-        // The next answer must start with this one's last letter, if any unused answer does.
-        const next = lastLetter(r.canonical);
-        const used = new Set(b.usedIds);
-        b.letter = next && index.answers.some((a) => !used.has(a.id) && firstLetter(a.canonical) === next) ? next : null;
+        // Your team's next answer must start with this one's last letter (each team keeps its own chain).
+        (b.teamLetters ??= [null, null])[seat.team] = lastLetter(r.canonical);
       }
       if (!b.best || r.tier > b.best.tier) b.best = { nickname: seat.nickname, canonical: r.canonical, tier: r.tier, prompt: b.prompt, at: now };
       this.send(ws, { type: "guessResult", accepted: true, canonical: r.canonical, tier: r.tier, points: r.points, corrected: r.corrected, reason: null, endsAt: b.turnEndsAt });
@@ -959,13 +1039,13 @@ export class Room extends DurableObject<Env> {
     if (battleVariant(s) === "relay" && seat.team !== undefined && b.teamLives) {
       // Relay: the team shares lives, a failed turn breaks the letter chain, and a team at 0 is out.
       b.teamLives[seat.team] -= 1;
-      b.letter = null;
+      (b.teamLetters ??= [null, null])[seat.team] = null;
       this.syncTeamLives();
       this.broadcast({ type: "lifeLost", playerId: pid, livesLeft: seat.lives });
       if (b.teamLives[seat.team] <= 0) {
         for (const x of Object.values(s.seats)) {
           if (x.team !== seat.team || x.spectator) continue;
-          Object.assign(x, { eliminated: true, eliminatedAt: now });
+          Object.assign(x, { eliminated: true, eliminatedAt: now, outRound: b.round });
           this.broadcast({ type: "eliminated", playerId: x.id });
         }
         return this.gameOver(b.best);
@@ -976,6 +1056,7 @@ export class Room extends DurableObject<Env> {
       if (seat.lives <= 0) {
         seat.eliminated = true;
         seat.eliminatedAt = now;
+        seat.outRound = b.round;
         // Each elimination tightens the clock a little.
         b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
         this.broadcast({ type: "eliminated", playerId: pid });
@@ -995,7 +1076,7 @@ export class Room extends DurableObject<Env> {
     const b = s.battle!;
     const set = s.settings as BattleSettings;
     const index = await getIndex(this.env, b.questionIds[b.qPos]);
-    const acceptsNeeded = set.acceptsToRotate ?? Math.max(BATTLE_DEFAULTS.acceptsPerPrompt, 2 * this.aliveIds().length);
+    const acceptsNeeded = set.acceptsToRotate ?? battleSuggestedAccepts(this.aliveIds().length);
     const unused = index.answers.length - b.usedIds.length;
     const hotPotato = battleVariant(s) === "hotpotato";
     if (!hotPotato && b.failed < set.failedTurnsToRotate && b.accepted < acceptsNeeded && unused >= 5) return false;
@@ -1008,11 +1089,12 @@ export class Room extends DurableObject<Env> {
     }
     const qid = b.questionIds[b.qPos];
     const q = (await getQuestions(this.env, [qid])).get(qid)!;
-    await getIndex(this.env, qid);
+    await this.loadIndex(qid);
     await markRoomSeen(this.env, this.roomPlayerIds(), qid, now);
     // Speed-up (or a head-to-head with two left) shaves a second off each new prompt.
-    if (set.speedUp || this.aliveIds().length <= 2) b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
-    Object.assign(b, { prompt: q.prompt, category: q.category, round: b.round + 1, used: [], usedIds: [], accepted: 0, failed: 0, spectatorGuesses: [], letter: null });
+    // Hot Potato has a new prompt every turn, so its clock only tightens on eliminations.
+    if (!hotPotato && (set.speedUp || this.aliveIds().length <= 2)) b.baseSeconds = Math.max(BATTLE_DEFAULTS.minBaseSeconds, b.baseSeconds - 1);
+    Object.assign(b, { prompt: q.prompt, category: q.category, round: b.round + 1, used: [], usedIds: [], accepted: 0, failed: 0, spectatorGuesses: [], letter: null, teamLetters: [null, null] });
     s.phase = "rotate";
     this.queueNextTurn(lastPid, now, hotPotato ? BATTLE_DEFAULTS.hotPotatoPauseMs : BATTLE_DEFAULTS.rotatePauseMs);
     this.broadcast({ type: "rotate", prompt: q.prompt, category: q.category, baseSeconds: b.baseSeconds, startsAt: b.nextTurnAt });
@@ -1052,33 +1134,60 @@ export class Room extends DurableObject<Env> {
     const seats = Object.values(s.seats).filter((x) => !x.spectator);
     const dv = diveVariant(s);
     const bv = battleVariant(s);
-    const survivalFirst = (a: Seat, b: Seat) => Number(a.eliminated) - Number(b.eliminated) || (b.eliminatedAt ?? 0) - (a.eliminatedAt ?? 0) || b.score - a.score;
-    const ranked =
-      s.kind === "dive" && dv !== "shark"
-        ? // Ties broken by less total time used.
-          seats.sort((a, b) => b.score - a.score || a.timeUsedMs - b.timeUsedMs)
-        : // Battle and Shark Tank: survivors first, then by how long they lasted.
-          seats.sort(survivalFirst);
+    const qc = s.dive?.questionIds.length ?? (s.settings as DiveSettings).questionCount;
+    const rounds = s.kind === "dive" ? (dv === "shark" ? s.dive?.sharkRound ?? 0 : Math.max(0, (s.dive?.index ?? -1) + (s.phase === "reveal" ? 1 : 0))) : s.battle?.round ?? 0;
 
-    // Co-op: everyone wins or nobody does.
-    const coopTotal = seats.reduce((n, x) => n + x.score, 0);
-    const coop = dv === "coop" && s.dive?.coopTarget ? { total: coopTotal, target: s.dive.coopTarget, success: coopTotal >= s.dive.coopTarget } : null;
-    // Relay: the team that's still in wins together.
-    const winningTeam = bv === "relay" ? ranked.find((x) => !x.eliminated)?.team ?? null : null;
-    const isWinner = (x: Seat, i: number) =>
-      coop ? coop.success : winningTeam !== null ? x.team === winningTeam : dv === "shark" ? !x.eliminated : i === 0;
+    // Co-op: one shared sub at the team's average depth. Everyone succeeds or nobody does.
+    const coopDepth = seats.length ? Math.round(seats.reduce((n, x) => n + partyDepth(x.score, qc), 0) / seats.length / 10) * 10 : 0;
+    const coop = dv === "coop" ? { depth: coopDepth, goal: s.dive?.coopGoal ?? coopSuggestedGoal(seats.length), success: coopDepth >= (s.dive?.coopGoal ?? 0) } : null;
+    const winningTeam = bv === "relay" ? seats.find((x) => !x.eliminated)?.team ?? null : null;
 
-    const results: GameResult[] = ranked.map((x, i) => ({
+    // What actually wins each mode, as a sort key (bigger is better). Equal keys share a rank.
+    const key = (x: Seat): number[] => {
+      if (coop) return [0];
+      if (bv === "relay") return [x.team === winningTeam ? 1 : 0];
+      if (s.kind === "battle" || dv === "shark") {
+        // Survivors first, then whoever lasted longer (round, then time), then lives left.
+        return [x.eliminated ? 0 : 1, x.eliminated ? x.outRound ?? 0 : rounds, x.eliminated ? x.eliminatedAt ?? 0 : Infinity, x.lives];
+      }
+      return [x.score]; // Dive and School of Fish: points (ties share the spot)
+    };
+    const cmp = (a: number[], b: number[]) => {
+      for (let i = 0; i < Math.max(a.length, b.length); i++) if ((a[i] ?? 0) !== (b[i] ?? 0)) return (b[i] ?? 0) - (a[i] ?? 0);
+      return 0;
+    };
+    const ranked = seats.sort((a, b) => cmp(key(a), key(b)) || a.joinedAt - b.joinedAt);
+    const ranks = new Map<string, number>();
+    ranked.forEach((x, i) => ranks.set(x.id, i > 0 && cmp(key(ranked[i - 1]), key(x)) === 0 ? ranks.get(ranked[i - 1].id)! : i + 1));
+
+    const plural = (n: number, w: string) => `${n} ${w}${n === 1 ? "" : "s"}`;
+    const stat = (x: Seat): string | undefined => {
+      if (dv === "school") {
+        const m = Math.round(x.score / DIVE_DEFAULTS.schoolPointsPerMatch);
+        return `${m} ${m === 1 ? "match" : "matches"}`;
+      }
+      if (dv === "shark") return x.eliminated ? `Bitten out in round ${x.outRound ?? "?"}` : `Survived ${plural(rounds, "round")} · ❤️ ${x.lives} left`;
+      if (bv === "relay") return plural(x.turns ?? 0, "answer");
+      if (s.kind === "battle") {
+        if (x.eliminated) return `Out on prompt ${x.outRound ?? "?"} · ${plural(x.turns ?? 0, "answer")}`;
+        // Ended early by the host: several can still be in.
+        return seats.filter((y) => !y.eliminated).length > 1 ? `Still in · ❤️ ${x.lives} · ${plural(x.turns ?? 0, "answer")}` : `Last one standing · ${plural(x.turns ?? 0, "answer")}`;
+      }
+      return undefined;
+    };
+
+    const results: GameResult[] = ranked.map((x) => ({
       playerId: x.id,
       nickname: x.nickname,
       score: x.score,
-      depth: s.kind === "dive" ? partyDepth(x.score, (s.settings as DiveSettings).questionCount) : pointsToDepth(x.score),
+      depth: s.kind === "dive" ? partyDepth(x.score, qc) : pointsToDepth(x.score),
       timeUsedMs: x.timeUsedMs,
-      // Team and survival modes can have several winners, all ranked 1st.
-      rank: isWinner(x, i) ? 1 : coop ? 2 : i + 1, // a missed Co-op target means nobody won
+      // A missed Co-op goal means nobody won; a made one means everybody did.
+      rank: coop ? (coop.success ? 1 : 2) : ranks.get(x.id)!,
       depthTrail: x.depthTrail,
       eliminatedAt: x.eliminatedAt,
       ...(x.team !== undefined ? { team: x.team } : {}),
+      ...(stat(x) ? { stat: stat(x) } : {}),
     }));
     const bestAnswer = best ? { nickname: best.nickname, canonical: best.canonical, tier: best.tier, prompt: best.prompt } : null;
     s.results = {
@@ -1087,6 +1196,7 @@ export class Room extends DurableObject<Env> {
       ...(s.kind === "dive" && s.dive?.recap?.length ? { recap: s.dive.recap } : {}),
       ...(coop ? { coop } : {}),
       ...(winningTeam !== null ? { winningTeam } : {}),
+      scoring: s.kind === "dive" && (dv === "classic" || dv === "coop") ? "depth" : "stat",
     };
     s.phase = "over";
     if (s.battle) s.battle.turnPlayerId = null;
@@ -1181,7 +1291,8 @@ export class Room extends DurableObject<Env> {
         yourAnswer: mine ? { canonical: mine.canonical, tier: mine.tier, points: mine.points, corrected: mine.corrected } : null,
         // The answer list is sent with the live "reveal" message; snapshots carry the rest.
         reveal: d.reveal ? { ...d.reveal, answers: [] } : null,
-        coop: d.coopTarget ? { total: Object.values(s.seats).reduce((n, x) => n + (x.spectator ? 0 : x.score), 0), target: d.coopTarget } : null,
+        coop: d.coopGoal ? { depth: this.coopDepth(), goal: d.coopGoal } : null,
+        sharkPool: d.sharkPool ?? null,
       };
     }
     if (s.battle) {
@@ -1197,6 +1308,7 @@ export class Room extends DurableObject<Env> {
         turnEndsAt: b.turnPlayerId ? b.turnEndsAt : b.nextTurnAt,
         used: b.used,
         letter: b.letter ?? null,
+        teamLetters: b.teamLetters ?? null,
         teamLives: b.teamLives ?? null,
         typing: "",
         spectatorGuesses: b.spectatorGuesses,

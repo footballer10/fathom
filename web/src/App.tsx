@@ -47,6 +47,33 @@ export function App() {
     document.title = APP_NAME;
   }, []);
 
+  // Keep the cursor in the answer box. If focus wanders off (a click on empty
+  // space, a toast or animation taking it), typing a letter puts it straight
+  // back, and clicking nowhere in particular returns it too.
+  useEffect(() => {
+    const answerBox = () => document.querySelector<HTMLInputElement>("input.answer-input:not(:disabled)");
+    const editable = (el: Element | null) => !!el && (el.matches("input, textarea, select, [contenteditable='true']") || !!el.closest("[role='dialog'], [role='alertdialog']"));
+    const onKey = (e: KeyboardEvent) => {
+      if (e.ctrlKey || e.metaKey || e.altKey || e.key.length !== 1) return;
+      if (editable(document.activeElement)) return;
+      answerBox()?.focus(); // the key then lands in the box
+    };
+    const onFocusOut = (e: FocusEvent) => {
+      const from = e.target as Element | null;
+      if (!from?.matches("input.answer-input") || e.relatedTarget) return;
+      // Focus went nowhere (not to a button or another field): put it back.
+      setTimeout(() => {
+        if (!document.activeElement || document.activeElement === document.body) answerBox()?.focus({ preventScroll: true });
+      }, 0);
+    };
+    window.addEventListener("keydown", onKey);
+    document.addEventListener("focusout", onFocusOut);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("focusout", onFocusOut);
+    };
+  }, []);
+
   // CSS-only animations (background creatures, waves) read this to calm down too.
   useEffect(() => {
     document.documentElement.dataset.reducedMotion = String(settings.reducedMotion);

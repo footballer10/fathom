@@ -483,6 +483,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
     plays: plays.map((p) => toPlayRecord(p, questions.get(p.question_id)?.prompt ?? "")),
     percentile,
     divers,
+    date: s.date,
     rarestToday: rarest,
     nextDailyAt: nextDailyResetAt(now),
   };
@@ -513,12 +514,17 @@ export async function report(env: Env, playerId: string, body: { sessionId?: str
   return { ok: true };
 }
 
+/** Category counts change at most once a day, so each server instance reuses them for 10 minutes. */
+let categoryCache: { at: number; date: string; rows: { category: Category; count: number }[] } | null = null;
+
 export async function categories(env: Env, now: number) {
   const [date, todays] = await unlimitedParams(env, now);
+  if (categoryCache && categoryCache.date === date && now - categoryCache.at < 10 * 60_000) return categoryCache.rows;
   const { results } = await env.DB.prepare(
     `SELECT category, COUNT(*) AS count FROM questions WHERE ${UNLIMITED_WHERE} GROUP BY category ORDER BY category`,
   )
     .bind(date, todays)
     .all<{ category: Category; count: number }>();
+  categoryCache = { at: now, date, rows: results };
   return results;
 }

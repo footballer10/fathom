@@ -26,7 +26,7 @@ try {
   checks.check("all six players joined", !!full);
   checks.check("first joiner is host", host.state?.hostId === host.playerId);
 
-  host.send({ type: "settings", settings: { source: "unlimited", questionCount: 3, timerSeconds: 15, uniqueAnswers: true } });
+  host.send({ type: "settings", settings: { source: "unlimited", questionCount: 3, timerSeconds: 15, uniqueAnswers: true, penaltySeconds: 2 } });
   await host.waitFor((m) => m.type === "state" && (m.state.settings as { questionCount: number }).questionCount === 3);
   host.send({ type: "start" });
 

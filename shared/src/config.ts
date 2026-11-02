@@ -168,7 +168,7 @@ export const DIVE_DEFAULTS = {
   timerOptions: [15, 25, 40, 60],
   timerSeconds: 25,
   uniqueAnswers: false,
-  wrongGuessPenaltySeconds: 2,
+  wrongGuessPenaltySeconds: 0,
   /** Host slider range for the wrong-guess penalty, in seconds. */
   penaltyMax: 5,
   /** School of Fish: points for each other diver who gave the same answer as you. */
@@ -176,8 +176,13 @@ export const DIVE_DEFAULTS = {
   /** Shark Tank: how many bites a diver can take (host slider). */
   sharkLives: 1,
   sharkLivesMax: 5,
-  /** Co-op: target points per player per question (about a Rare-ish average). */
-  coopPointsPerAnswer: 40,
+  /** Co-op: goal for the shared submarine (the team's average depth), host-adjustable. */
+  coopGoalMin: 1000,
+  coopGoalMax: 6500,
+  /** Shark Tank: rounds are added as needed, so it plays until one diver is left. */
+  sharkStartQuestions: 10,
+  /** Shark Tank: extra seconds on the reveal for the shark's bite. */
+  sharkRevealExtraSeconds: 5,
   /** How long the per-question reveal stays up before the next question. */
   revealSeconds: 9,
   roomIdleExpiryMinutes: 120,
@@ -186,6 +191,25 @@ export const DIVE_DEFAULTS = {
 // ---------------------------------------------------------------------------
 // Party: Battle defaults (Phase 6)
 // ---------------------------------------------------------------------------
+
+/**
+ * Co-op's suggested goal for the shared sub, by team size: bigger teams aim a
+ * little deeper. Rounded to 250 m.
+ */
+export function coopSuggestedGoal(players: number): number {
+  const goal = 2500 + 250 * Math.max(0, players - 1);
+  return Math.min(DIVE_DEFAULTS.coopGoalMax, Math.round(goal / 250) * 250);
+}
+
+/** Battle's suggested starting lives: bigger groups get fewer, so games don't drag. */
+export function battleSuggestedLives(players: number): number {
+  return players <= 4 ? 3 : 2;
+}
+
+/** Battle's suggested accepted answers before a new prompt: 12, or 2 per player if that's more. */
+export function battleSuggestedAccepts(players: number): number {
+  return Math.max(12, 2 * players);
+}
 
 export const BATTLE_DEFAULTS = {
   maxPlayers: 12,
@@ -196,7 +220,7 @@ export const BATTLE_DEFAULTS = {
   baseSecondsMin: 6,
   baseSecondsMax: 20,
   minBaseSeconds: 4,
-  wrongGuessPenaltySeconds: 1,
+  wrongGuessPenaltySeconds: 0,
   penaltyMax: 5,
   /** Size of the life circle in 32nds; filling it earns one life. */
   lifeMeterFull: 32,

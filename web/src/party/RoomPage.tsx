@@ -1,11 +1,13 @@
 import { AnimatePresence, motion, useAnimationControls } from "framer-motion";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   BATTLE_DEFAULTS,
   CATEGORIES,
   DIVE_DEFAULTS,
   MISS_EMOJI,
   VARIANT_INFO,
+  battleSuggestedAccepts,
+  coopSuggestedGoal,
   formatDepth,
   partyDepth,
   partyDepthScale,
@@ -127,19 +129,21 @@ function variantName(state: RoomSnapshot) {
   return v === "classic" ? (state.kind === "dive" ? "Dive" : "Battle") : `${VARIANT_INFO[v].emoji} ${VARIANT_INFO[v].name}`;
 }
 
-/** Co-op: the team's combined depth against the target. */
+/** Co-op: the shared sub (the team's average depth) against the goal. */
 function CoopBar({ state }: { state: RoomSnapshot }) {
   const c = state.dive?.coop;
   if (!c) return null;
-  const qc = gameQuestions(state);
-  const frac = Math.min(1, c.total / c.target);
+  const frac = Math.min(1, c.depth / c.goal);
   return (
-    <div className="coop-bar" aria-label={`Team depth ${partyDepth(c.total, qc)} of ${partyDepth(c.target, qc)}`}>
+    <div className="coop-bar" aria-label={`Team sub at ${formatDepth(c.depth)} of ${formatDepth(c.goal)}`}>
       <div className="coop-bar-label">
-        🤝 Team depth <b>{formatDepth(partyDepth(c.total, qc))}</b> <span className="muted">/ {formatDepth(partyDepth(c.target, qc))} target</span>
+        🤝 Team sub <b>{formatDepth(c.depth)}</b> <span className="muted">/ goal {formatDepth(c.goal)}</span>
       </div>
       <div className="coop-bar-track">
         <motion.div className={`coop-bar-fill${frac >= 1 ? " coop-bar-fill--done" : ""}`} initial={false} animate={{ width: `${frac * 100}%` }} transition={{ duration: 0.8 }} />
+        <span className="coop-bar-goal" aria-hidden>
+          🏁
+        </span>
       </div>
     </div>
   );
@@ -201,13 +205,17 @@ export function RoomPage({
   useEffect(() => {
     // Background depth follows the party scale, so shorter games still reach the deep zones.
     // In the lobby nobody has dived yet (old scores stay put even if the host changes the question count).
-    if (state?.kind === "dive") onDepth(state.phase === "lobby" ? 0 : (me?.score ?? 0) * partyDepthScale(gameQuestions(state)));
-  }, [state?.kind, state?.phase, state?.dive?.total, me?.score, onDepth]);
+    // Co-op dives in one shared sub: the team's average depth.
+    if (state?.kind !== "dive") return;
+    if (state.phase === "lobby") return onDepth(0);
+    const coop = state.dive?.coop ?? (state.results?.coop ? { depth: state.results.coop.depth } : null);
+    onDepth(coop ? coop.depth / 10 : (me?.score ?? 0) * partyDepthScale(gameQuestions(state)));
+  }, [state?.kind, state?.phase, state?.dive?.total, state?.dive?.coop?.depth, state?.results?.coop?.depth, me?.score, onDepth]);
 
   // Everyone else's submarine on the depth gauge.
   const diversKey = state?.kind === "dive" ? `${state.phase === "lobby"}|${state.dive?.total}|` + state.players.map((p) => `${p.id}:${p.score}:${p.spectator}`).join("|") : "";
   useEffect(() => {
-    if (!state || state.kind !== "dive" || state.phase === "lobby") return onDivers([]);
+    if (!state || state.kind !== "dive" || state.phase === "lobby" || (state.settings as DiveSettings).variant === "coop") return onDivers([]);
     const qc = gameQuestions(state);
     onDivers(
       state.players
@@ -321,7 +329,17 @@ export function RoomPage({
         <span className="room-code" title="Room code">
           {variantName(state)} · <b>{state.code}</b>
         </span>
-        <span className={`conn conn--${status}`}>{status === "open" ? "Live" : "Reconnecting…"}</span>
+        <span className="room-head-right">
+          {isHost && ["question", "reveal", "turn", "rotate"].includes(state.phase) && (
+            <button
+              className="btn btn--ghost btn--small end-game-btn"
+              onClick={() => confirm("End the game now and show the results?") && send({ type: "end" })}
+            >
+              End game
+            </button>
+          )}
+          <span className={`conn conn--${status}`}>{status === "open" ? "Live" : "Reconnecting…"}</span>
+        </span>
       </header>
 
       {state.phase === "lobby" && <Lobby state={state} isHost={isHost} send={send} />}
@@ -331,7 +349,7 @@ export function RoomPage({
       {state.kind === "battle" && (state.phase === "turn" || state.phase === "rotate") && (
         <BattleView state={state} send={send} typing={typing} events={events} reducedMotion={settings.reducedMotion} />
       )}
-      {state.kind === "battle" && state.phase === "over" && <BattleOver state={state} isHost={isHost} send={send} />}
+      {state.kind === "battle" && state.phase === "over" && <BattleOver state={state} isHost={isHost} send={send} reducedMotion={settings.reducedMotion} />}
 
       <div className="toasts" aria-live="polite">
         <AnimatePresence>
@@ -355,35 +373,52 @@ export function RoomPage({
 // Lobby
 // ---------------------------------------------------------------------------
 
+/** The room's player list: avatar, name, then status chips (lives, locked in) on the right. */
 function PlayerList({ state, showLives = false, active, send }: { state: RoomSnapshot; showLives?: boolean; active?: string | null; send?: Send }) {
   const isHost = state.hostId === state.you;
+  const pool = state.dive?.sharkPool;
   return (
     <ul className="player-list">
-      {state.players.map((p) => (
-        <li
-          key={p.id}
-          className={`player${p.connected ? "" : " player--away"}${p.eliminated ? " player--out" : ""}${active === p.id ? " player--active" : ""}${p.id === state.you ? " player--you" : ""}`}
-        >
-          <span className="player-name">
-            {state.hostId === p.id && <span title="Host">👑 </span>}
-            {p.nickname}
-            {p.id === state.you && <span className="muted small"> (you)</span>}
-            {p.spectator && <span className="muted small"> · watching</span>}
-          </span>
-          {showLives && !p.spectator && <span className="lives">{p.eliminated ? "out" : "❤️".repeat(Math.max(0, p.lives))}</span>}
-          {state.phase === "question" && !p.spectator && <span className="lock">{p.locked ? "🔒" : "…"}</span>}
-          {isHost && send && p.id !== state.you && (
-            <button
-              className="kick-btn"
-              title={`Remove ${p.nickname} from the room`}
-              aria-label={`Remove ${p.nickname}`}
-              onClick={() => confirm(`Remove ${p.nickname} from the room? They won't be able to rejoin.`) && send({ type: "kick", playerId: p.id })}
-            >
-              ✕
-            </button>
-          )}
-        </li>
-      ))}
+      {state.players.map((p) => {
+        const sittingOut = !!pool && !pool.includes(p.id) && !p.eliminated && !p.spectator;
+        return (
+          <li
+            key={p.id}
+            className={`player${p.connected ? "" : " player--away"}${p.eliminated ? " player--out" : ""}${active === p.id ? " player--active" : ""}${p.id === state.you ? " player--you" : ""}${p.locked ? " player--locked" : ""}`}
+          >
+            <span className="player-avatar" style={{ "--seat-hue": hueOf(p.id) } as React.CSSProperties} aria-hidden>
+              {p.eliminated ? "💀" : p.nickname.slice(0, 1).toUpperCase()}
+            </span>
+            <span className="player-name">
+              {p.nickname}
+              {state.hostId === p.id && <span className="player-tag" title="Host">👑</span>}
+              {p.id === state.you && <span className="player-tag player-tag--you">you</span>}
+            </span>
+            <span className="player-status">
+              {p.spectator && <span className="status-chip">watching</span>}
+              {sittingOut && <span className="status-chip">safe this round</span>}
+              {showLives && !p.spectator && (
+                <span className={`status-chip status-chip--lives${p.eliminated ? " status-chip--out" : ""}`} title={`${p.lives} ${p.lives === 1 ? "life" : "lives"}`}>
+                  {p.eliminated ? "out" : <>❤️ {Math.max(0, p.lives)}</>}
+                </span>
+              )}
+              {state.phase === "question" && !p.spectator && !p.eliminated && !sittingOut && (
+                <span className={`status-chip status-chip--lock${p.locked ? " status-chip--locked" : ""}`}>{p.locked ? "🔒 locked in" : "thinking…"}</span>
+              )}
+              {isHost && send && p.id !== state.you && (
+                <button
+                  className="kick-btn"
+                  title={`Remove ${p.nickname} from the room`}
+                  aria-label={`Remove ${p.nickname}`}
+                  onClick={() => confirm(`Remove ${p.nickname} from the room? They won't be able to rejoin.`) && send({ type: "kick", playerId: p.id })}
+                >
+                  ✕
+                </button>
+              )}
+            </span>
+          </li>
+        );
+      })}
     </ul>
   );
 }
@@ -395,6 +430,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
   const s = state.settings as DiveSettings & BattleSettings;
   const variantKey = ((state.settings as { variant?: string }).variant ?? "classic") as keyof typeof VARIANT_INFO;
   const connected = state.players.filter((p) => p.connected).length;
+  const players = Math.max(1, state.players.filter((p) => !p.spectator).length);
   const canStart = state.kind === "dive" ? connected >= 1 : connected >= BATTLE_DEFAULTS.minPlayers;
 
   return (
@@ -472,10 +508,36 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
           )}
           {state.kind === "dive" ? (
             <>
-              <label className="field">
-                <span>Questions: {s.questionCount}</span>
-                <input type="range" min={DIVE_DEFAULTS.questionCountMin} max={DIVE_DEFAULTS.questionCountMax} value={s.questionCount} disabled={!isHost} onChange={(e) => set({ questionCount: Number(e.target.value) })} />
-              </label>
+              {variantKey === "shark" ? (
+                <p className="muted small">Shark Tank plays round after round until only one diver is left.</p>
+              ) : (
+                <label className="field">
+                  <span>Questions: {s.questionCount}</span>
+                  <input type="range" min={DIVE_DEFAULTS.questionCountMin} max={DIVE_DEFAULTS.questionCountMax} value={s.questionCount} disabled={!isHost} onChange={(e) => set({ questionCount: Number(e.target.value) })} />
+                </label>
+              )}
+              {variantKey === "coop" && (
+                <label className="field">
+                  <span>
+                    Team goal: {formatDepth(s.coopGoal ?? coopSuggestedGoal(players))}
+                    {s.coopGoal == null ? <span className="muted small"> (suggested for {players} {players === 1 ? "diver" : "divers"})</span> : null}
+                  </span>
+                  <input
+                    type="range"
+                    min={DIVE_DEFAULTS.coopGoalMin}
+                    max={DIVE_DEFAULTS.coopGoalMax}
+                    step={250}
+                    value={s.coopGoal ?? coopSuggestedGoal(players)}
+                    disabled={!isHost}
+                    onChange={(e) => set({ coopGoal: Number(e.target.value) })}
+                  />
+                  {s.coopGoal != null && isHost && (
+                    <button className="link-btn small" onClick={() => set({ coopGoal: null })}>
+                      Use the suggested goal
+                    </button>
+                  )}
+                </label>
+              )}
               <div className="field">
                 <span>Timer</span>
                 <div className="seg">
@@ -496,6 +558,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                   <input type="range" min={1} max={DIVE_DEFAULTS.sharkLivesMax} value={s.sharkLives ?? DIVE_DEFAULTS.sharkLives} disabled={!isHost} onChange={(e) => set({ sharkLives: Number(e.target.value) })} />
                 </label>
               )}
+              {(variantKey === "classic" || variantKey === "shark") && (
               <label className="toggle-row">
                 <span>
                   <span className="toggle-label">Unique answers</span>
@@ -503,11 +566,15 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                 </span>
                 <input type="checkbox" className="toggle" checked={s.uniqueAnswers} disabled={!isHost} onChange={(e) => set({ uniqueAnswers: e.target.checked })} />
               </label>
+              )}
             </>
           ) : (
             <>
               <label className="field">
-                <span>Lives: {s.lives}</span>
+                <span>
+                  {variantKey === "relay" ? "Lives per team" : "Lives"}: {s.lives}
+                  {(s.livesAuto ?? true) && <span className="muted small"> (suggested for {players} players)</span>}
+                </span>
                 <input type="range" min={BATTLE_DEFAULTS.livesMin} max={BATTLE_DEFAULTS.livesMax} value={s.lives} disabled={!isHost} onChange={(e) => set({ lives: Number(e.target.value) })} />
               </label>
               <label className="field">
@@ -518,21 +585,36 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                 <span>Wrong or taken answer costs: {penaltyLabel(s.penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)}</span>
                 <input type="range" min={0} max={BATTLE_DEFAULTS.penaltyMax} value={s.penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds} disabled={!isHost} onChange={(e) => set({ penaltySeconds: Number(e.target.value) })} />
               </label>
-              <label className="field">
-                <span>New prompt after {s.failedTurnsToRotate} failed turn(s)</span>
-                <input type="range" min={1} max={5} value={s.failedTurnsToRotate} disabled={!isHost} onChange={(e) => set({ failedTurnsToRotate: Number(e.target.value) })} />
-              </label>
-              <label className="field">
-                <span>…or after {s.acceptsToRotate ?? `${BATTLE_DEFAULTS.acceptsPerPrompt} (more for big groups)`} accepted answers</span>
-                <input
-                  type="range"
-                  min={0}
-                  max={30}
-                  value={s.acceptsToRotate ?? 0}
-                  disabled={!isHost}
-                  onChange={(e) => set({ acceptsToRotate: Number(e.target.value) === 0 ? null : Number(e.target.value) })}
-                />
-              </label>
+              {variantKey === "hotpotato" ? (
+                <p className="muted small">Hot Potato brings a new prompt every turn.</p>
+              ) : (
+                <>
+                  <label className="field">
+                    <span>New prompt after {s.failedTurnsToRotate} failed {s.failedTurnsToRotate === 1 ? "turn" : "turns"}</span>
+                    <input type="range" min={1} max={5} value={s.failedTurnsToRotate} disabled={!isHost} onChange={(e) => set({ failedTurnsToRotate: Number(e.target.value) })} />
+                  </label>
+                  <label className="field">
+                    <span>
+                      …or after {s.acceptsToRotate ?? battleSuggestedAccepts(players)} accepted answers
+                      {s.acceptsToRotate == null && <span className="muted small"> (suggested for {players} players)</span>}
+                    </span>
+                    <input
+                      type="range"
+                      min={2}
+                      max={40}
+                      value={s.acceptsToRotate ?? battleSuggestedAccepts(players)}
+                      disabled={!isHost}
+                      onChange={(e) => set({ acceptsToRotate: Number(e.target.value) })}
+                    />
+                    {s.acceptsToRotate != null && isHost && (
+                      <button className="link-btn small" onClick={() => set({ acceptsToRotate: null })}>
+                        Use the suggested number
+                      </button>
+                    )}
+                  </label>
+                </>
+              )}
+              {variantKey !== "hotpotato" && (
               <label className="toggle-row">
                 <span>
                   <span className="toggle-label">Speed-up</span>
@@ -540,6 +622,7 @@ function Lobby({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; 
                 </span>
                 <input type="checkbox" className="toggle" checked={s.speedUp} disabled={!isHost} onChange={(e) => set({ speedUp: e.target.checked })} />
               </label>
+              )}
             </>
           )}
         </div>
@@ -617,14 +700,20 @@ function DiveQuestion({
     setText("");
   };
 
+  const shark = (state.settings as DiveSettings).variant === "shark";
+  const pool = d.sharkPool;
+  const sittingOut = !!pool && !pool.includes(state.you) && !me.eliminated && !me.spectator;
   return (
     <div className="game">
       <div className="game-header">
-        <span className="game-meta">
-          Question {d.index + 1} of {d.total}
-        </span>
-        <ProgressDots total={d.total} current={d.index} tiers={tiers} />
+        <span className="game-meta">{shark ? `Round ${d.index + 1}` : `Question ${d.index + 1} of ${d.total}`}</span>
+        {!shark && <ProgressDots total={d.total} current={d.index} tiers={tiers} />}
       </div>
+      {pool && (
+        <div className="tiebreak-banner">
+          🦈 <b>Tie-break round!</b> Only {pool.map((id) => (id === state.you ? "you" : state.players.find((p) => p.id === id)?.nickname ?? "?")).join(" & ")} answer. Lowest gets bitten.
+        </div>
+      )}
       <motion.h2 key={d.index} className="prompt" initial={reducedMotion ? false : { opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }}>
         {d.prompt}
       </motion.h2>
@@ -632,6 +721,14 @@ function DiveQuestion({
       <CoopBar state={state} />
       {me.spectator ? (
         <p className="center muted">You're watching this game. You'll play in the next one.</p>
+      ) : sittingOut ? (
+        <div className="locked-card">
+          <div>
+            <b>You're safe this round</b>
+          </div>
+          <div className="muted small">Watch the tie-break: whoever scores lowest gets bitten.</div>
+          <RoundClock endsAt={d.endsAt} totalMs={(state.settings as DiveSettings).timerSeconds * 1000} />
+        </div>
       ) : me.eliminated ? (
         <div className="locked-card bitten-card">
           <div className="bitten-emoji">🦈</div>
@@ -694,9 +791,9 @@ function DiveQuestion({
         />
       )}
       <p className="hint">
-        <kbd>Enter ↵</kbd> to submit · players who've locked in show a 🔒
+        <kbd>Enter ↵</kbd> to submit
       </p>
-      <div className="card">
+      <div className="card status-card">
         <PlayerList state={state} send={send} showLives={(state.settings as DiveSettings).variant === "shark"} />
       </div>
     </div>
@@ -721,76 +818,126 @@ function DiveReveal({
   const d = state.dive!;
   const reveal = d.reveal!;
   const now = useNow();
+  const variant = (state.settings as DiveSettings).variant ?? "classic";
   const [settled, setSettled] = useState(false);
   useEffect(() => {
     setSettled(false);
     const t = setTimeout(() => setSettled(true), 700);
     return () => clearTimeout(t);
   }, [d.index]);
+  // Shark Tank: the shark's circle-and-bite plays first; answers show once it's done.
+  const sharkRound = variant === "shark" && reveal.perPlayer.length > 1;
+  const [sharkDone, setSharkDone] = useState(!sharkRound || reducedMotion);
+  useEffect(() => {
+    setSharkDone(!sharkRound || reducedMotion);
+  }, [d.index, sharkRound, reducedMotion]);
   // Show the old order for a moment, then let the rows slide to their new ranks.
   const ordered = [...reveal.leaderboard].sort((a, b) => (settled ? a.rank - b.rank : a.previousRank - b.previousRank));
   const mine = reveal.perPlayer.find((r) => r.playerId === state.you);
-  const bitten = reveal.perPlayer.filter((r) => r.bitten).map((r) => (r.playerId === state.you ? "You" : r.nickname));
+  const nameOf = (r: { playerId: string; nickname: string }) => (r.playerId === state.you ? "You" : r.nickname);
   const secs = Math.max(0, Math.ceil((reveal.nextAt - now) / 1000));
+  const qc = gameQuestions(state);
+  const lastRound = variant !== "shark" && d.index + 1 >= d.total;
 
   return (
     <div className="dive-reveal">
-      {bitten.length > 0 && <SharkAttack key={d.index} victims={bitten} reducedMotion={reducedMotion} />}
+      {sharkRound && !sharkDone && (
+        <SharkAttack
+          key={d.index}
+          divers={reveal.perPlayer.map(nameOf)}
+          victim={reveal.perPlayer.find((r) => r.bitten) ? nameOf(reveal.perPlayer.find((r) => r.bitten)!) : null}
+          tied={reveal.perPlayer.filter((r) => r.tied).map(nameOf)}
+          livesLeft={reveal.perPlayer.find((r) => r.bitten)?.livesLeft ?? null}
+          reducedMotion={reducedMotion}
+          onDone={() => setSharkDone(true)}
+        />
+      )}
       <CoopBar state={state} />
       <div className="game-header">
-        <span className="game-meta">
-          Question {d.index + 1} of {d.total}
-        </span>
-        <ProgressDots total={d.total} current={d.index} tiers={tiers} />
+        <span className="game-meta">{variant === "shark" ? `Round ${d.index + 1}` : `Question ${d.index + 1} of ${d.total}`}</span>
+        {variant !== "shark" && <ProgressDots total={d.total} current={d.index} tiers={tiers} />}
       </div>
       <h2 className="prompt small-prompt">{d.prompt}</h2>
-      <div className="reveal-cols">
-        <div className="card">
-          <h3>Answers</h3>
-          <ul className="reveal-rows">
-            {reveal.perPlayer.map((r) => (
-              <li key={r.playerId} className={r.playerId === state.you ? "me" : ""}>
-                <span className="reveal-name">{r.nickname}</span>
-                <span className="reveal-ans">{r.canonical ?? "—"}</span>
-                <TierBadge tier={r.tier} />
-                <span className="reveal-pts">
-                  {r.bitten && <span className="tag tag--shark" title="Bitten by the shark">🦈</span>}
-                  {r.bitten && r.livesLeft !== undefined && r.livesLeft > 0 && <span className="muted small" title="Lives left">❤️{r.livesLeft} </span>}
-                  {r.matches !== undefined && <span className="tag tag--school" title={`${r.matches} other diver${r.matches === 1 ? "" : "s"} said the same`}>🐟×{r.matches} </span>}
-                  +{formatDepth(partyDepth(r.points, gameQuestions(state)))}
-                  {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
-                </span>
-              </li>
-            ))}
-          </ul>
+      {!sharkDone ? (
+        <p className="center muted shark-wait">🦈 The shark is circling…</p>
+      ) : (
+        <div className={`reveal-cols${variant === "coop" ? " reveal-cols--single" : ""}`}>
+          <div className="card">
+            <h3>{variant === "coop" ? "Everyone's answers" : "Answers"}</h3>
+            <ul className="reveal-rows">
+              {reveal.perPlayer.map((r) => (
+                <li key={r.playerId} className={`${r.playerId === state.you ? "me" : ""}${r.bitten ? " bitten" : ""}`}>
+                  <span className="reveal-name">{r.nickname}</span>
+                  <span className="reveal-ans">{r.canonical ?? "—"}</span>
+                  <TierBadge tier={r.tier} />
+                  <span className="reveal-pts">
+                    {variant === "shark" ? (
+                      r.bitten ? (
+                        <span className="tag tag--shark">🦈 bitten{r.livesLeft ? ` · ❤️ ${r.livesLeft}` : " · out"}</span>
+                      ) : r.tied ? (
+                        <span className="tag">tie-break</span>
+                      ) : (
+                        <span className="muted small">safe</span>
+                      )
+                    ) : variant === "school" ? (
+                      <span title={`${r.matches ?? 0} other diver${r.matches === 1 ? "" : "s"} said the same`}>🐟 ×{r.matches ?? 0}</span>
+                    ) : (
+                      <>
+                        +{formatDepth(partyDepth(r.points, qc))}
+                        {r.shared && <span className="muted small" title="Someone else gave the same answer"> ½</span>}
+                      </>
+                    )}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {variant !== "coop" && (
+            <div className="card">
+              <h3>{variant === "shark" ? "Still in" : "Leaderboard"}</h3>
+              {variant === "shark" ? (
+                <ul className="leaderboard">
+                  {state.players
+                    .filter((p) => !p.spectator)
+                    .sort((a, b) => Number(a.eliminated) - Number(b.eliminated) || b.lives - a.lives)
+                    .map((p) => (
+                      <li key={p.id} className={`${p.id === state.you ? "me" : ""}${p.eliminated ? " out" : ""}`}>
+                        <span className="lb-name">{p.nickname}</span>
+                        <span className="lb-depth">{p.eliminated ? "out" : `❤️ ${p.lives}`}</span>
+                      </li>
+                    ))}
+                </ul>
+              ) : (
+                <ol className="leaderboard">
+                  {ordered.map((r) => (
+                    <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
+                      <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
+                      <span className="lb-name">{r.nickname}</span>
+                      <span className="lb-depth">
+                        {variant === "school" ? `${Math.round(r.score / DIVE_DEFAULTS.schoolPointsPerMatch)} 🐟` : formatDepth(partyDepth(r.score, qc))}
+                      </span>
+                      {settled && r.rank < r.previousRank && <span className="lb-move up">▲</span>}
+                      {settled && r.rank > r.previousRank && <span className="lb-move down">▼</span>}
+                    </motion.li>
+                  ))}
+                </ol>
+              )}
+            </div>
+          )}
         </div>
-        <div className="card">
-          <h3>Leaderboard</h3>
-          <ol className="leaderboard">
-            {ordered.map((r) => (
-              <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
-                <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
-                <span className="lb-name">{r.nickname}</span>
-                <span className="lb-depth">{formatDepth(partyDepth(r.score, gameQuestions(state)))}</span>
-                {settled && r.rank < r.previousRank && <span className="lb-move up">▲</span>}
-                {settled && r.rank > r.previousRank && <span className="lb-move down">▼</span>}
-              </motion.li>
-            ))}
-          </ol>
-        </div>
-      </div>
+      )}
       <div className="center">
         <p className="muted small">
-          {d.index + 1 < d.total ? `Next question in ${secs}s` : `Final results in ${secs}s`}
-          {mine && mine.tier ? ` · you dove ${mine.points * 10} m` : ""}
+          {lastRound ? `Final results in ${secs}s` : `Next ${variant === "shark" ? "round" : "question"} in ${secs}s`}
+          {variant !== "shark" && variant !== "school" && mine && mine.tier ? ` · you dove ${formatDepth(partyDepth(mine.points, qc))}` : ""}
         </p>
         {isHost && (
           <button className="btn" onClick={() => send({ type: "next" })}>
-            {d.index + 1 < d.total ? "Next question now" : "Show results now"}
+            {lastRound ? "Show results now" : `Next ${variant === "shark" ? "round" : "question"} now`}
           </button>
         )}
       </div>
-      {answers.length > 0 && (
+      {answers.length > 0 && sharkDone && (
         <div className="answers-details">
           <h3 className="answers-heading">All {answers.length} valid answers</h3>
           <RevealPanel reveal={{ index: d.index, prompt: d.prompt, answers, playerAnswerId: null }} />
@@ -802,37 +949,27 @@ function DiveReveal({
 
 function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapshot; isHost: boolean; send: Send; reducedMotion: boolean }) {
   const results = state.results?.results ?? [];
-  const [showPodium, setShowPodium] = useState(reducedMotion);
-  const [podiumDone, setPodiumDone] = useState(reducedMotion);
+  const variant = (state.settings as DiveSettings).variant ?? "classic";
+  const coop = state.results?.coop;
+  // Only classic Dive is a depth race; other modes go straight to their own finish.
+  const race = variant === "classic";
+  const [showPodium, setShowPodium] = useState(reducedMotion || !race);
+  const [podiumDone, setPodiumDone] = useState(reducedMotion || !!coop);
   const onPodiumDone = useCallback(() => setPodiumDone(true), []);
   const maxDepth = Math.max(1000, ...results.map((r) => r.depth));
   useEffect(() => {
-    if (reducedMotion) return;
+    if (reducedMotion || !race) return;
     const t = setTimeout(() => setShowPodium(true), 4800);
     return () => clearTimeout(t);
-  }, [reducedMotion]);
+  }, [reducedMotion, race]);
   // Lanes go in join order, not by score, so the race doesn't give the winner away.
   const lanes = state.players.map((p) => results.find((r) => r.playerId === p.id)).filter((r): r is GameResult => !!r).slice(0, 8);
-  const coop = state.results?.coop;
-  const variant = (state.settings as DiveSettings).variant ?? "classic";
-  const qc = gameQuestions(state);
 
   return (
     <div className="finale">
-      {coop && (
-        <motion.div className={`card variant-result ${coop.success ? "variant-result--win" : "variant-result--lose"}`} initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
-          <div className="variant-result-big">{coop.success ? "🤝 You made it together!" : "🌊 So close!"}</div>
-          <div>
-            Team depth <b>{formatDepth(partyDepth(coop.total, qc))}</b> of {formatDepth(partyDepth(coop.target, qc))}
-          </div>
-        </motion.div>
-      )}
-      {variant === "shark" && (
-        <motion.div className="card variant-result" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
-          <div className="variant-result-big">🦈 {results.filter((r) => r.rank === 1).map((r) => r.nickname).join(" & ") || "Nobody"} survived the shark!</div>
-        </motion.div>
-      )}
-      {!showPodium ? (
+      {coop ? (
+        <CoopFinish coop={coop} players={results.map((r) => r.nickname)} reducedMotion={reducedMotion} />
+      ) : !showPodium ? (
         <div className="race card">
           <h3 className="center">The depth race</h3>
           <div className="race-lanes">
@@ -840,12 +977,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
               const steps = [0, ...r.depthTrail].map((dpt) => (dpt / maxDepth) * 260);
               return (
                 <div key={r.playerId} className="race-lane">
-                  <motion.div
-                    className="race-diver"
-                    initial={{ y: 0 }}
-                    animate={{ y: steps }}
-                    transition={{ duration: 4, ease: "easeInOut", delay: i * 0.05 }}
-                  >
+                  <motion.div className="race-diver" initial={{ y: 0 }} animate={{ y: steps }} transition={{ duration: 4, ease: "easeInOut", delay: i * 0.05 }}>
                     <Submarine hue={r.playerId === state.you ? undefined : hueOf(r.playerId)} small />
                   </motion.div>
                   <div className="race-name">{r.nickname}</div>
@@ -858,44 +990,89 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
           </button>
         </div>
       ) : (
-        <>
-          <Podium results={results} you={state.you} reducedMotion={reducedMotion} onDone={onPodiumDone} />
-          <motion.div
-            className="finale-rest"
-            initial={reducedMotion ? false : { opacity: 0, y: 30 }}
-            animate={podiumDone ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-          >
-            {state.results?.bestAnswer && (
-              <p className="center">
-                Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
-              </p>
-            )}
-            {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} questionCount={gameQuestions(state)} />}
-            <div className="card">
-              <ol className="leaderboard">
-                {results.map((r) => (
-                  <li key={r.playerId} className={r.playerId === state.you ? "me" : ""}>
-                    <span className="lb-rank">{r.rank}</span>
-                    <span className="lb-name">{r.nickname}</span>
-                    <span className="lb-depth">{formatDepth(r.depth)}</span>
-                    <span className="muted small">{(r.timeUsedMs / 1000).toFixed(1)}s</span>
-                  </li>
-                ))}
-              </ol>
-            </div>
-            <div className="center">
-              {isHost ? (
-                <button className="btn btn--primary" onClick={() => send({ type: "lobby" })}>
-                  Back to the lobby
-                </button>
-              ) : (
-                <p className="muted">The host can start another round.</p>
-              )}
-            </div>
-          </motion.div>
-        </>
+        <Podium
+          results={results}
+          you={state.you}
+          reducedMotion={reducedMotion}
+          onDone={onPodiumDone}
+          scoring={state.results?.scoring ?? "depth"}
+          intro={variant === "shark" ? "And the last diver left is…" : variant === "school" ? "And the best fish in the school is…" : undefined}
+        />
       )}
+      <motion.div
+        className="finale-rest"
+        initial={reducedMotion ? false : { opacity: 0, y: 30 }}
+        animate={podiumDone ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
+        {state.results?.bestAnswer && (
+          <p className="center">
+            Best answer: <b>{state.results.bestAnswer.canonical}</b> by {state.results.bestAnswer.nickname} ({tierInfo(state.results.bestAnswer.tier).name})
+          </p>
+        )}
+        {!coop && <Standings results={results} you={state.you} scoring={state.results?.scoring ?? "depth"} />}
+        {state.results?.recap && state.results.recap.length > 0 && <AnswerRecap recap={state.results.recap} you={state.you} questionCount={gameQuestions(state)} />}
+        <div className="center">
+          {isHost ? (
+            <button className="btn btn--primary" onClick={() => send({ type: "lobby" })}>
+              Back to the lobby
+            </button>
+          ) : (
+            <p className="muted">The host can start another round.</p>
+          )}
+        </div>
+      </motion.div>
+    </div>
+  );
+}
+
+/** Co-op's finish: one shared result for the whole team, no winners or rankings. */
+function CoopFinish({ coop, players, reducedMotion }: { coop: { depth: number; goal: number; success: boolean }; players: string[]; reducedMotion: boolean }) {
+  const frac = Math.min(1, coop.depth / coop.goal);
+  return (
+    <motion.div
+      className={`card coop-finish ${coop.success ? "coop-finish--win" : ""}`}
+      initial={reducedMotion ? false : { scale: 0.85, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ type: "spring", stiffness: 200, damping: 18 }}
+    >
+      <div className="coop-finish-sub" aria-hidden>
+        <Submarine />
+      </div>
+      <div className="variant-result-big">{coop.success ? "🤝 The team made it!" : "🌊 So close, team!"}</div>
+      <div className="coop-finish-depth">
+        {formatDepth(coop.depth)} <span className="muted">of {formatDepth(coop.goal)}</span>
+      </div>
+      <div className="coop-bar-track coop-finish-track">
+        <motion.div
+          className={`coop-bar-fill${coop.success ? " coop-bar-fill--done" : ""}`}
+          initial={reducedMotion ? false : { width: 0 }}
+          animate={{ width: `${frac * 100}%` }}
+          transition={{ duration: 1.4, ease: "easeOut", delay: 0.3 }}
+        />
+      </div>
+      <p className="muted small">Crew: {players.join(", ")}</p>
+    </motion.div>
+  );
+}
+
+/** Final standings, ordered by what actually wins the mode; tied players share a place. */
+function Standings({ results, you, scoring }: { results: GameResult[]; you: string; scoring: "depth" | "stat" }) {
+  return (
+    <div className="card standings">
+      <h3>Final standings</h3>
+      <ol className="standings-list">
+        {results.map((r) => (
+          <li key={r.playerId} className={`${r.playerId === you ? "me" : ""}${r.rank === 1 ? " standings-first" : ""}`}>
+            <span className="standings-rank">{["🥇", "🥈", "🥉"][r.rank - 1] ?? `${r.rank}`}</span>
+            <span className="standings-name">
+              {r.nickname}
+              {r.playerId === you && <span className="player-tag player-tag--you">you</span>}
+            </span>
+            <span className="standings-stat">{scoring === "depth" || !r.stat ? formatDepth(r.depth) : r.stat}</span>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
@@ -1073,7 +1250,7 @@ function BattleView({
         <div className="battle-main">
           <p className="hint">
             {myTurn && letterHint && b.letter ? (
-              <b>That's a real answer, but it has to start with {b.letter.toUpperCase()}!</b>
+              <b>That's a real answer, but it has to start with {b.letter.toUpperCase()}, the last letter of your team's previous answer!</b>
             ) : myTurn ? (
               <>
                 <kbd>Enter ↵</kbd> to submit · wrong or taken answers cost {penaltyLabel((state.settings as BattleSettings).penaltySeconds ?? BATTLE_DEFAULTS.wrongGuessPenaltySeconds)} · rare answers slowly fill your life circle (🐋 most, 🦑 some, 🐚 a little; slower with fewer players left) and a full circle is +1 life · the clock tightens as players go out
@@ -1117,56 +1294,68 @@ function BattleView({
   );
 }
 
-function BattleOver({ state, isHost, send }: { state: RoomSnapshot; isHost: boolean; send: Send }) {
+function BattleOver({ state, isHost, send, reducedMotion }: { state: RoomSnapshot; isHost: boolean; send: Send; reducedMotion: boolean }) {
   const results = state.results?.results ?? [];
-  const winner = results[0];
   const best = state.results?.bestAnswer;
-  const sorted = useMemo(() => results, [results]);
+  const team = state.results?.winningTeam;
+  const [podiumDone, setPodiumDone] = useState(reducedMotion || typeof team === "number");
+  const onPodiumDone = useCallback(() => setPodiumDone(true), []);
   return (
     <div className="finale">
-      <motion.div className="card end-hero" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
-        {typeof state.results?.winningTeam === "number" ? (
-          <>
-            <div className="muted small">Relay winners</div>
-            <div className="end-depth">
-              🏆 <span className={`team-name team-name--${state.results.winningTeam}`}>{TEAM_NAMES[state.results.winningTeam]}</span>
-            </div>
-            <div>{results.filter((r) => r.team === state.results!.winningTeam).map((r) => r.nickname).join(", ")}</div>
-          </>
-        ) : (
-          <>
-            <div className="muted small">Last diver standing</div>
-            <div className="end-depth">🏆 {winner?.nickname ?? "Nobody"}</div>
-          </>
-        )}
+      {typeof team === "number" ? (
+        <TeamWin team={team} members={results.filter((r) => r.team === team)} you={state.you} reducedMotion={reducedMotion} />
+      ) : (
+        <Podium results={results} you={state.you} reducedMotion={reducedMotion} onDone={onPodiumDone} scoring="stat" intro="And the last diver standing is…" />
+      )}
+      <motion.div
+        className="finale-rest"
+        initial={reducedMotion ? false : { opacity: 0, y: 30 }}
+        animate={podiumDone ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
         {best && (
-          <p>
+          <p className="center">
             Best answer of the game: <b>{best.canonical}</b> by {best.nickname} <TierBadge tier={best.tier} />
             <br />
             <span className="muted small">{best.prompt}</span>
           </p>
         )}
+        <Standings results={results} you={state.you} scoring="stat" />
+        <div className="center">
+          {isHost ? (
+            <button className="btn btn--primary" onClick={() => send({ type: "lobby" })}>
+              Back to the lobby
+            </button>
+          ) : (
+            <p className="muted">The host can start another round.</p>
+          )}
+        </div>
       </motion.div>
-      <div className="card">
-        <ol className="leaderboard">
-          {sorted.map((r) => (
-            <li key={r.playerId} className={r.playerId === state.you ? "me" : ""}>
-              <span className="lb-rank">{r.rank}</span>
-              <span className="lb-name">{r.nickname}</span>
-              <span className="lb-depth">{r.score} pts</span>
-            </li>
-          ))}
-        </ol>
-      </div>
-      <div className="center">
-        {isHost ? (
-          <button className="btn btn--primary" onClick={() => send({ type: "lobby" })}>
-            Back to the lobby
-          </button>
-        ) : (
-          <p className="muted">The host can start another round.</p>
-        )}
-      </div>
     </div>
+  );
+}
+
+/** Relay's finish: the winning team's colours, name and crew, all winners together. */
+function TeamWin({ team, members, you, reducedMotion }: { team: number; members: GameResult[]; you: string; reducedMotion: boolean }) {
+  return (
+    <motion.div
+      className={`card team-win team-win--${team}`}
+      initial={reducedMotion ? false : { scale: 0.85, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ type: "spring", stiffness: 200, damping: 16 }}
+    >
+      <div className="team-win-emoji" aria-hidden>
+        {team === 0 ? "🪸" : "🌿"}
+      </div>
+      <div className="team-win-title">{TEAM_NAMES[team]} wins!</div>
+      <div className="team-win-crew">
+        {members.map((m) => (
+          <span key={m.playerId} className="team-win-member">
+            {m.nickname}
+            {m.playerId === you && " (you)"}
+          </span>
+        ))}
+      </div>
+    </motion.div>
   );
 }

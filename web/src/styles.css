@@ -1396,14 +1396,32 @@ select {
 .seg-btn--on { background: var(--accent-strong); color: #02172b; border-color: transparent; }
 .seg-btn:disabled { cursor: default; opacity: 0.75; }
 
-.player-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
-.player { display: flex; justify-content: space-between; gap: 8px; padding: 6px 10px; border-radius: 10px; background: rgba(255, 255, 255, 0.03); }
-.player--you { outline: 1px solid var(--glass-border); }
+.player-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.player {
+  display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 10px 6px 6px; border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05); border: 1px solid transparent; transition: background 0.2s, border-color 0.2s;
+}
+.player--you { border-color: rgba(111, 227, 255, 0.45); }
+.player--locked { background: rgba(125, 255, 178, 0.08); }
 .player--away { opacity: 0.45; }
-.player--out .player-name { text-decoration: line-through; opacity: 0.6; }
-.player--active { background: rgba(111, 227, 255, 0.16); box-shadow: 0 0 0 1px var(--accent) inset; }
-.player-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.lives, .lock { flex-shrink: 0; font-size: 0.85rem; }
+.player--out { opacity: 0.6; }
+.player--out .player-name { text-decoration: line-through; }
+.player--active { background: rgba(111, 227, 255, 0.16); border-color: var(--accent); }
+.player-avatar {
+  width: 32px; height: 32px; flex: none; border-radius: 50%; display: grid; place-items: center;
+  font-weight: 800; font-size: 0.95rem; color: #021428; background: radial-gradient(circle at 35% 30%, hsl(var(--seat-hue) 80% 85%), hsl(var(--seat-hue) 65% 62%));
+}
+.player-name { flex: 1; min-width: 0; display: flex; align-items: center; gap: 6px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: 600; }
+.player-tag { font-size: 0.75rem; flex: none; }
+.player-tag--you { padding: 1px 7px; border-radius: 99px; background: rgba(111, 227, 255, 0.2); color: var(--accent); font-weight: 700; }
+.player-status { display: flex; align-items: center; gap: 6px; flex: none; }
+.status-chip {
+  display: inline-flex; align-items: center; gap: 4px; height: 26px; padding: 0 10px; border-radius: 99px;
+  font-size: 0.8rem; font-weight: 700; white-space: nowrap; background: rgba(255, 255, 255, 0.08); color: var(--muted);
+}
+.status-chip--lives { background: rgba(255, 93, 122, 0.16); color: #ffc2cd; font-variant-numeric: tabular-nums; }
+.status-chip--out { background: rgba(255, 255, 255, 0.06); color: var(--muted); }
+.status-chip--locked { background: rgba(125, 255, 178, 0.18); color: #b6ffd2; }
 
 .tier-badge {
   display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 0.8rem; white-space: nowrap;
@@ -2121,20 +2139,6 @@ body:has(.battle) .toasts { bottom: 104px; }
 .team-actions { display: inline-flex; align-items: center; gap: 2px; }
 .team-list li:hover .kick-btn { border-color: rgba(255, 90, 110, 0.6); color: #ff9aa6; }
 
-/* Shark Tank: the shark circles, then strikes */
-.shark-attack { position: fixed; inset: 0; z-index: 60; pointer-events: none; display: grid; place-items: center; }
-.shark-attack-water { position: absolute; inset: 0; background: radial-gradient(circle at 50% 55%, rgba(120, 0, 20, 0.35), rgba(0, 0, 0, 0.55) 70%); }
-.shark-attack-shark { position: absolute; left: 50%; top: 42%; margin: -40px 0 0 -80px; filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.5)); }
-.shark-attack-target {
-  position: absolute; left: 50%; top: calc(42% + 200px); translate: -50% -50%;
-  padding: 10px 22px; border-radius: 99px; font-weight: 900; font-size: 1.3rem; white-space: nowrap;
-  background: rgba(2, 14, 30, 0.85); border: 2px solid #ff5a6e; box-shadow: 0 0 30px rgba(255, 90, 110, 0.5);
-}
-.shark-attack-chomp {
-  position: absolute; left: 50%; top: calc(42% + 270px); translate: -50% 0; white-space: nowrap;
-  font-size: clamp(1.4rem, 4vw, 2.4rem); font-weight: 900; color: #ffd84a;
-  text-shadow: 0 0 14px rgba(255, 60, 60, 0.9), 0 3px 0 #8b0000;
-}
 .tag--school { font-size: 0.85rem; }
 
 /* Leaderboard sections */
@@ -2193,3 +2197,98 @@ body:has(.battle) .toasts { bottom: 104px; }
 .did-you-mean-clock { flex-basis: 100%; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 0.85rem; font-weight: 700; color: #ffd166; }
 .did-you-mean-bar { width: min(260px, 100%); height: 6px; border-radius: 99px; background: rgba(255, 255, 255, 0.15); overflow: hidden; }
 .did-you-mean-bar span { display: block; height: 100%; background: #ffd166; transition: width 0.1s linear; }
+
+.room-head-right { display: inline-flex; align-items: center; gap: 8px; }
+.end-game-btn { border-color: rgba(255, 90, 110, 0.5); }
+.end-game-btn:hover:not(:disabled) { border-color: #ff5a6e; color: #ffb3bd; }
+/* Gap between the input hint and the player list below it. */
+.game .hint + .card, .game .hint + .player-list { margin-top: 14px; }
+.status-card { margin-top: 18px; padding: 12px; }
+.tiebreak-banner {
+  align-self: center; margin: 12px auto 0; padding: 8px 16px; border-radius: 12px; text-align: center;
+  background: rgba(255, 90, 110, 0.18); border: 1px solid rgba(255, 90, 110, 0.55);
+}
+
+/* Shark Tank: everyone in a circle, the shark laps the inside, then strikes */
+.shark-ring-overlay { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; background: radial-gradient(circle at 50% 50%, rgba(60, 0, 18, 0.7), rgba(0, 4, 12, 0.95) 70%); }
+.shark-ring { position: relative; max-width: 96vw; max-height: 96vw; }
+.shark-ring-water {
+  position: absolute; inset: 40px; border-radius: 50%;
+  background: radial-gradient(circle at 50% 40%, rgba(40, 120, 180, 0.55), rgba(5, 30, 60, 0.9));
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6), 0 0 0 3px rgba(255, 255, 255, 0.08);
+}
+.shark-seat {
+  position: absolute; translate: -50% -50%; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 3px;
+}
+.shark-seat-avatar {
+  width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; font-weight: 900; font-size: 1.2rem; color: #021428;
+  background: radial-gradient(circle at 35% 30%, #d8f4ff, #7fc8ec); border: 3px solid rgba(255, 255, 255, 0.85); box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+.shark-seat-name { font-weight: 800; font-size: 0.85rem; padding: 1px 8px; border-radius: 99px; background: rgba(2, 14, 30, 0.75); white-space: nowrap; max-width: 110px; overflow: hidden; text-overflow: ellipsis; }
+.shark-seat--bitten .shark-seat-avatar { background: radial-gradient(circle at 35% 30%, #ffd0d6, #ff5a6e); border-color: #ff5a6e; box-shadow: 0 0 24px rgba(255, 90, 110, 0.8); }
+.shark-seat--tied .shark-seat-avatar { border-color: #ffd166; box-shadow: 0 0 20px rgba(255, 209, 102, 0.7); }
+.shark-seat-hit { font-weight: 900; color: #ff8a9a; text-shadow: 0 2px 0 #5a0010; }
+.shark-swimmer { position: absolute; left: 50%; top: 50%; margin: -24px 0 0 -48px; z-index: 3; filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.5)); }
+.shark-tail-wag { transform-origin: 14px 30px; animation: fish-tail 0.35s ease-in-out infinite alternate; }
+.shark-ring-caption { position: absolute; left: 50%; bottom: -34px; translate: -50% 0; white-space: nowrap; font-size: 1.05rem; text-align: center; }
+.shark-chomp-text { color: #ffd84a; font-size: clamp(1.1rem, 3.5vw, 1.6rem); text-shadow: 0 0 12px rgba(255, 60, 60, 0.9), 0 3px 0 #8b0000; }
+.shark-tie-text { color: #ffd166; font-size: 1.2rem; }
+.shark-wait { margin: 30px 0; font-size: 1.1rem; }
+.reveal-rows li.bitten { background: rgba(255, 90, 110, 0.14); }
+.leaderboard li.out { opacity: 0.5; }
+
+/* Co-op */
+.reveal-cols--single { grid-template-columns: minmax(0, 1fr); width: auto; left: auto; transform: none; }
+.coop-bar-track { position: relative; }
+.coop-bar-goal { position: absolute; right: -4px; top: 50%; translate: 0 -50%; font-size: 1rem; }
+.coop-finish { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 26px 20px; }
+.coop-finish--win { border-color: rgba(125, 255, 178, 0.6); box-shadow: 0 0 40px rgba(125, 255, 178, 0.25); }
+.coop-finish-sub .sub-svg { width: 90px; height: auto; animation: diver-float 3s ease-in-out infinite; }
+@keyframes diver-float { 0%, 100% { translate: 0 -5px; } 50% { translate: 0 5px; } }
+.coop-finish-depth { font-size: 2.2rem; font-weight: 900; }
+.coop-finish-track { width: min(420px, 100%); height: 14px; }
+
+/* Final standings */
+.standings h3 { margin: 0 0 10px; }
+.standings-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.standings-list li { display: flex; align-items: center; gap: 12px; padding: 8px 12px; border-radius: 12px; background: rgba(255, 255, 255, 0.05); }
+.standings-list li.me { box-shadow: 0 0 0 1px var(--accent) inset; }
+.standings-first { background: linear-gradient(90deg, rgba(255, 209, 102, 0.22), rgba(255, 209, 102, 0.05)) !important; }
+.standings-rank { width: 2em; text-align: center; font-weight: 800; font-size: 1.1rem; color: var(--accent); flex: none; }
+.standings-name { flex: 1; min-width: 0; display: flex; align-items: center; gap: 6px; font-weight: 700; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.standings-stat { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+
+/* Podium ties and stats */
+.podium-tie { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #ffd166; }
+.podium-entry { display: flex; flex-direction: column; align-items: center; gap: 1px; }
+.podium-entry + .podium-entry { margin-top: 4px; }
+.podium-stat { font-size: 0.8rem; text-align: center; max-width: 150px; color: var(--muted); }
+
+/* Relay */
+.relay-bar { gap: 8px; }
+.relay-team {
+  display: inline-flex; align-items: center; gap: 8px; padding: 4px 6px 4px 12px; border-radius: 99px; font-weight: 800; font-size: 0.9rem;
+  background: rgba(2, 14, 30, 0.75); border: 2px solid transparent; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.relay-team--0 { color: #ffb3bd; }
+.relay-team--1 { color: #a8f0c6; }
+.relay-team--0.relay-team--up { border-color: #ff7a8a; box-shadow: 0 0 16px rgba(255, 122, 138, 0.5); }
+.relay-team--1.relay-team--up { border-color: #50d28c; box-shadow: 0 0 16px rgba(80, 210, 140, 0.5); }
+.relay-team-lives { color: var(--text); font-weight: 700; }
+.relay-team-letter {
+  min-width: 34px; height: 28px; padding: 0 8px; border-radius: 99px; display: grid; place-items: center;
+  background: #ffd166; color: #2a1a00; font-size: 1rem;
+}
+.team-win { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 28px 20px; }
+.team-win--0 { border-color: rgba(255, 122, 138, 0.7); background: linear-gradient(160deg, rgba(255, 122, 138, 0.28), rgba(6, 26, 50, 0.7)); }
+.team-win--1 { border-color: rgba(80, 210, 140, 0.7); background: linear-gradient(160deg, rgba(80, 210, 140, 0.28), rgba(6, 26, 50, 0.7)); }
+.team-win-emoji { font-size: 3rem; line-height: 1; }
+.team-win-title { font-size: clamp(1.8rem, 5vw, 2.6rem); font-weight: 900; }
+.team-win-crew { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.team-win-member { padding: 5px 14px; border-radius: 99px; background: rgba(255, 255, 255, 0.12); font-weight: 700; }
+
+.stats-cards { display: flex; flex-direction: column; gap: 14px; }
+.daily-top h3 { margin: 0 0 2px; }
+.daily-top p { margin: 0 0 10px; }
+.daily-top-tiers { font-size: 0.8rem; letter-spacing: -1px; white-space: nowrap; }
+@media (max-width: 480px) { .daily-top-tiers { display: none; } }

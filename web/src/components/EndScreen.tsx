@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { MISS_EMOJI, formatDepth, shareCardText, tierInfo } from "@fathom/shared";
-import type { FinishResponse, RevealResponse } from "@fathom/shared";
+import type { FinishResponse, RevealResponse, TierPoints } from "@fathom/shared";
 import { api, serverNow } from "../api";
 import { RevealPanel } from "./RevealPanel";
 
@@ -131,6 +131,8 @@ export function EndScreen({
         </button>
       </motion.div>
 
+      {result.mode === "daily" && result.date && <DailyTop date={result.date} dailyNumber={result.dailyNumber} fade={fade(0.5)} />}
+
       <motion.div className="end-actions" {...fade(0.55)}>
         <button className="btn" onClick={onPlayUnlimited}>
           Play Unlimited
@@ -140,6 +142,54 @@ export function EndScreen({
         </button>
       </motion.div>
     </div>
+  );
+}
+
+type DailyTopData = Awaited<ReturnType<typeof api.dailyTop>>;
+
+/** Today's top divers on the Daily (named players), with your own place if you're further down. */
+function DailyTop({ date, dailyNumber, fade }: { date: string; dailyNumber: number | null; fade: object }) {
+  const [data, setData] = useState<DailyTopData | null>(null);
+  useEffect(() => {
+    api
+      .dailyTop(date)
+      .then(setData)
+      .catch(() => {});
+  }, [date]);
+  if (!data || !data.rows.length) return null;
+  return (
+    <motion.div className="card daily-top" {...fade}>
+      <h3>Top divers on Daily{dailyNumber ? ` #${dailyNumber}` : ""}</h3>
+      <p className="muted small">
+        {data.divers.toLocaleString()} {data.divers === 1 ? "diver" : "divers"} so far today · only players with a name appear
+      </p>
+      <ol className="standings-list">
+        {data.rows.map((r) => (
+          <li key={`${r.rank}-${r.nickname}`} className={`${r.you ? "me" : ""}${r.rank === 1 ? " standings-first" : ""}`}>
+            <span className="standings-rank">{["🥇", "🥈", "🥉"][r.rank - 1] ?? r.rank}</span>
+            <span className="standings-name">
+              {r.nickname}
+              {r.you && <span className="player-tag player-tag--you">you</span>}
+            </span>
+            <span className="daily-top-tiers" aria-hidden>
+              {r.tiers.map((t, i) => (
+                <span key={i}>{t ? tierInfo(t as TierPoints).emoji : MISS_EMOJI}</span>
+              ))}
+            </span>
+            <span className="standings-stat">{formatDepth(r.depth)}</span>
+          </li>
+        ))}
+        {data.you && (
+          <li className="me">
+            <span className="standings-rank">{data.you.rank}</span>
+            <span className="standings-name">
+              You <span className="muted small">(add a name in Settings to show up)</span>
+            </span>
+            <span className="standings-stat">{formatDepth(data.you.depth)}</span>
+          </li>
+        )}
+      </ol>
+    </motion.div>
   );
 }
 

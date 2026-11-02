@@ -37,13 +37,13 @@ try {
       bots[0].send({ type: "guess", text: pick(q.prompt, 100) });
       bots[1].send({ type: "guess", text: pick(q.prompt, 85) });
       await bots[0].waitFor((m) => m.type === "reveal" && m.index === i, 20_000);
-      if (i === 0) checks.check("co-op snapshot shows team total and target", !!latest(bots[0]).dive?.coop?.target);
+      if (i === 0) checks.check("co-op snapshot shows the shared sub and goal", !!latest(bots[0]).dive?.coop?.goal && typeof latest(bots[0]).dive?.coop?.depth === "number");
       bots[0].send({ type: "next" });
     }
     await bots[0].waitFor((m) => m.type === "gameOver", 20_000);
     await sleep(300);
     const res = latest(bots[0]).results!;
-    checks.check("co-op result reports success against the target", !!res.coop && res.coop.success === res.coop.total >= res.coop.target, JSON.stringify(res.coop));
+    checks.check("co-op result reports success against the goal", !!res.coop && res.coop.success === res.coop.depth >= res.coop.goal, JSON.stringify(res.coop));
     checks.check("co-op: everyone shares the same rank", new Set(res.results.map((r) => r.rank)).size === 1);
     bots.forEach((b) => b.close());
   }
@@ -70,6 +70,37 @@ try {
     await sleep(300);
     const res = latest(bots[0]).results!;
     checks.check("shark ends when one diver is left, and they win", res.results[0].playerId === bots[0].playerId && res.results[0].rank === 1 && res.results.filter((r) => r.rank === 1).length === 1);
+    bots.forEach((b) => b.close());
+  }
+
+  // ---- Shark Tank tie-break ----
+  {
+    const bots = await room("dive", "shark", 3, { timerSeconds: 15 });
+    bots[0].send({ type: "start" });
+    let q = (await bots[0].waitFor((m) => m.type === "question" && m.index === 0)) as Extract<ServerMessage, { type: "question" }>;
+    const planktons = (book.get(q.prompt) ?? []).filter((a) => a.tier === 10);
+    bots[0].send({ type: "guess", text: pick(q.prompt, 100) });
+    bots[1].send({ type: "guess", text: planktons[0]?.text ?? "nope" });
+    bots[2].send({ type: "guess", text: planktons[1]?.text ?? planktons[0]?.text ?? "nope" });
+    const t1 = (await bots[0].waitFor((m) => m.type === "reveal" && m.index === 0, 20_000)) as Extract<ServerMessage, { type: "reveal" }>;
+    const tied = t1.perPlayer.filter((r) => r.tied).map((r) => r.playerId);
+    checks.check("shark: a tie for lowest bites nobody and calls a tie-break", tied.length === 2 && !t1.perPlayer.some((r) => r.bitten), JSON.stringify(tied));
+    bots[0].send({ type: "next" });
+    q = (await bots[0].waitFor((m) => m.type === "question" && m.index === 1)) as Extract<ServerMessage, { type: "question" }>;
+    await sleep(200);
+    checks.check("shark: only the tied divers play the tie-break", JSON.stringify([...(latest(bots[0]).dive?.sharkPool ?? [])].sort()) === JSON.stringify([...tied].sort()));
+    bots[1].send({ type: "guess", text: pick(q.prompt, 100) });
+    bots[2].send({ type: "guess", text: pick(q.prompt, 10) });
+    const t2 = (await bots[0].waitFor((m) => m.type === "reveal" && m.index === 1, 20_000)) as Extract<ServerMessage, { type: "reveal" }>;
+    checks.check(
+      "shark: the tie-break's lowest is bitten, and the safe diver sat it out",
+      t2.perPlayer.find((r) => r.playerId === bots[2].playerId)?.bitten === true && !t2.perPlayer.some((r) => r.playerId === bots[0].playerId),
+    );
+    bots[0].send({ type: "end" });
+    await bots[0].waitFor((m) => m.type === "gameOver", 10_000);
+    await sleep(300);
+    const res = latest(bots[0]).results!;
+    checks.check("host can end the game; survivors share 1st on the podium", res.results.filter((r) => r.rank === 1).length === 2 && !!res.results[0].stat, res.results.map((r) => `${r.rank}:${r.stat}`).join(" | "));
     bots.forEach((b) => b.close());
   }
 
@@ -139,14 +170,21 @@ try {
     first.send({ type: "guess", text: answers[0].text });
     await second.waitFor((m) => m.type === "turn" && m.playerId === second.playerId, 10_000);
     await sleep(200);
-    const letter = latest(second).battle!.letter;
-    const strip = (t: string) => t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z]/g, "");
-    checks.check("relay: the chain letter is the last letter of the previous answer (or free)", letter === null || letter === strip(answers[0].text).slice(-1), String(letter));
+    checks.check("relay: the other team's first answer can start with any letter", latest(second).battle!.letter === null);
+    const strip = (t: string) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z]/g, "");
+    second.send({ type: "guess", text: answers[1].text });
+    first.inbox.length = 0;
+    await first.waitFor((m) => m.type === "state" && m.state.phase === "turn" && m.state.battle?.turnPlayerId === first.playerId, 10_000);
+    await sleep(150);
+    const letter = latest(first).battle!.letter;
+    checks.check("relay: your team's next answer chains off your own team's last answer", letter === null || letter === strip(answers[0].text).slice(-1), `${letter} vs ${answers[0].text}`);
     if (letter) {
-      const wrong = answers.find((a) => a.text !== answers[0].text && strip(a.text)[0] !== letter);
+      const used = [answers[0].text, answers[1].text];
+      const wrong = answers.find((a) => !used.includes(a.text) && strip(a.text)[0] !== letter);
       if (wrong) {
-        second.send({ type: "guess", text: wrong.text });
-        const g = (await second.waitFor((m) => m.type === "guessResult")) as Extract<ServerMessage, { type: "guessResult" }>;
+        first.inbox.length = 0;
+        first.send({ type: "guess", text: wrong.text });
+        const g = (await first.waitFor((m) => m.type === "guessResult")) as Extract<ServerMessage, { type: "guessResult" }>;
         checks.check("relay: a valid answer with the wrong first letter is refused", !g.accepted && g.reason === "letter");
       }
     }

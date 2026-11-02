@@ -106,12 +106,12 @@ try {
   const has = (id: string, name: string) => board(id).rows.some((r) => r.nickname === name);
   checks.check("boards for every mode, each in a section", lb.boards.length >= 24 && lb.boards.every((b) => !!(b as { group?: string }).group), `${lb.boards.length} boards`);
   // A full top 10 of players tied at or above our 2 dives can push sim players off (old local test data).
-  const dives = board("dives").rows;
+  const dives = board("unlimited-dives").rows;
   const crowded = dives.length >= 10 && dives[dives.length - 1].value >= 2;
-  checks.check("named players appear on 'Most dives' (or it's full of equal or better players)", crowded || players.every((p) => has("dives", p.name)));
-  checks.check("the krillion hunter tops 'Most One in a Krillions' among sim players", (board("krillions").rows.find((r) => r.nickname.startsWith("Krill"))?.value ?? 0) > 0);
-  checks.check("the deep-cut player is on 'Most Deep Cuts'", has("deepcuts", players[1].name));
-  checks.check("'you' is marked for the requesting player", board("krillions").rows.some((r) => r.you && r.nickname === players[0].name));
+  checks.check("named players appear on 'Most Unlimited dives' (or it's full of equal or better players)", crowded || players.every((p) => has("unlimited-dives", p.name)));
+  checks.check("the krillion hunter tops 'Most One in a Krillions' among sim players", (board("unlimited-krillions").rows.find((r) => r.nickname.startsWith("Krill"))?.value ?? 0) > 0);
+  checks.check("the deep-cut player is on 'Most Deep Cuts'", has("unlimited-deepcuts", players[1].name));
+  checks.check("'you' is marked for the requesting player", board("unlimited-krillions").rows.some((r) => r.you && r.nickname === players[0].name));
   checks.check("unnamed players never appear", lb.boards.every((b) => b.rows.every((r) => !!r.nickname)));
   checks.check("party Dive win recorded for the winner", has("dive-wins", players[0].name));
   checks.check("quick-mode boards show scored runs", has("sprint", players[0].name) && has("ladder", players[1].name) && has("roulette", players[2].name));
