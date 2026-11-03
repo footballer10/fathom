@@ -1,0 +1,311 @@
+// Soccer (fan category): more Premier League seasons.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 1993-94 Premier League
+note: The 22 clubs of 1993-94, Swindon's only Premier League season.
+
+[One in a Krillion]
+Swindon Town | swindon
+
+[Deep Cut]
+Oldham Athletic | oldham
+Sheffield United
+Ipswich Town | ipswich
+Southampton
+Coventry City | coventry
+Queens Park Rangers | qpr
+Wimbledon
+Norwich City | norwich
+Sheffield Wednesday
+West Ham United | west ham
+Manchester City | man city
+
+[Rare]
+Everton
+Aston Villa | villa
+Leeds United | leeds
+Tottenham | tottenham hotspur | spurs
+Chelsea
+
+[Schooler]
+Blackburn Rovers | blackburn
+Newcastle United | newcastle
+Liverpool
+
+[Plankton]
+Manchester United | man united | man utd | united
+Arsenal
+
+[Not accepted]
+Crystal Palace
+Middlesbrough
+Nottingham Forest
+Leicester City
+Derby County
+Bolton Wanderers
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 1997-98 Premier League
+note: The 20 clubs of 1997-98.
+
+[One in a Krillion]
+Barnsley
+
+[Deep Cut]
+Bolton Wanderers | bolton
+Crystal Palace | palace
+Wimbledon
+Sheffield Wednesday
+Coventry City | coventry
+Derby County | derby
+Leicester City | leicester
+Southampton
+
+[Rare]
+Blackburn Rovers | blackburn
+Leeds United | leeds
+Aston Villa | villa
+West Ham United | west ham
+Everton
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Newcastle United | newcastle
+Chelsea
+Liverpool
+
+[Plankton]
+Arsenal
+Manchester United | man united | man utd | united
+
+[Not accepted]
+Middlesbrough
+Nottingham Forest
+Sunderland
+Charlton Athletic
+Manchester City
+Norwich City
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2001-02 Premier League
+note: The 20 clubs of 2001-02.
+
+[One in a Krillion]
+Ipswich Town | ipswich
+
+[Deep Cut]
+Derby County | derby
+Leicester City | leicester
+Bolton Wanderers | bolton
+Sunderland
+Charlton Athletic | charlton
+Fulham
+Middlesbrough | boro
+Southampton
+Blackburn Rovers | blackburn
+
+[Rare]
+Aston Villa | villa
+West Ham United | west ham
+Leeds United | leeds
+Everton
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Newcastle United | newcastle
+Chelsea
+Liverpool
+
+[Plankton]
+Arsenal
+Manchester United | man united | man utd | united
+
+[Not accepted]
+Manchester City
+Coventry City
+Bradford City
+Birmingham City
+West Brom
+Wimbledon
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2005-06 Premier League
+note: The 20 clubs of 2005-06.
+
+[One in a Krillion]
+Wigan Athletic | wigan
+
+[Deep Cut]
+Sunderland
+West Bromwich Albion | west brom | wba
+Birmingham City | birmingham
+Portsmouth | pompey
+Charlton Athletic | charlton
+Fulham
+Bolton Wanderers | bolton
+Middlesbrough | boro
+Blackburn Rovers | blackburn
+
+[Rare]
+Manchester City | man city
+Aston Villa | villa
+West Ham United | west ham
+Everton
+Newcastle United | newcastle
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Arsenal
+Liverpool
+
+[Plankton]
+Chelsea
+Manchester United | man united | man utd | united
+
+[Not accepted]
+Southampton
+Norwich City
+Crystal Palace
+Leeds United
+Reading
+Sheffield United
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2009-10 Premier League
+note: The 20 clubs of 2009-10.
+
+[One in a Krillion]
+Burnley
+
+[Deep Cut]
+Hull City | hull
+Portsmouth | pompey
+Wolverhampton Wanderers | wolves | wolverhampton
+Wigan Athletic | wigan
+Bolton Wanderers | bolton
+Stoke City | stoke
+Birmingham City | birmingham
+Blackburn Rovers | blackburn
+Sunderland
+Fulham
+
+[Rare]
+West Ham United | west ham
+Aston Villa | villa
+Everton
+Manchester City | man city
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Arsenal
+Liverpool
+
+[Plankton]
+Chelsea
+Manchester United | man united | man utd | united
+
+[Not accepted]
+Newcastle United
+Middlesbrough
+West Brom
+Blackpool
+Reading
+Derby County
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2013-14 Premier League
+note: The 20 clubs of 2013-14.
+
+[One in a Krillion]
+Cardiff City | cardiff
+
+[Deep Cut]
+Fulham
+Norwich City | norwich
+Hull City | hull
+West Bromwich Albion | west brom | wba
+Sunderland
+Swansea City | swansea
+Crystal Palace | palace
+Stoke City | stoke
+Southampton
+Newcastle United | newcastle
+
+[Rare]
+Aston Villa | villa
+West Ham United | west ham
+Everton
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Chelsea
+Arsenal
+Manchester United | man united | man utd | united
+
+[Plankton]
+Manchester City | man city
+Liverpool
+
+[Not accepted]
+Wigan Athletic
+Reading
+Queens Park Rangers
+QPR
+Leicester City
+Burnley
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2017-18 Premier League
+note: The 20 clubs of 2017-18, Manchester City's 100-point season.
+
+[One in a Krillion]
+Huddersfield Town | huddersfield
+
+[Deep Cut]
+Swansea City | swansea
+Stoke City | stoke
+West Bromwich Albion | west brom | wba
+Brighton and Hove Albion | brighton | brighton & hove albion
+Watford
+Bournemouth | afc bournemouth
+Burnley
+Crystal Palace | palace
+Southampton
+Newcastle United | newcastle
+
+[Rare]
+Leicester City | leicester
+Everton
+West Ham United | west ham
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Chelsea
+Arsenal
+Liverpool
+
+[Plankton]
+Manchester City | man city
+Manchester United | man united | man utd | united
+
+[Not accepted]
+Hull City
+Middlesbrough
+Sunderland
+Wolves
+Fulham
+Cardiff City

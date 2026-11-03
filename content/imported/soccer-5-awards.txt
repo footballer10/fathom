@@ -1,0 +1,647 @@
+// Soccer (fan category): awards, records and famous goals.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a men's Ballon d'Or winner
+note: Every winner since 1956, through 2025. Luis Suárez (the Spanish one) won in 1960.
+
+[One in a Krillion]
+Igor Belanov | belanov
+
+[Deep Cut]
+Stanley Matthews | matthews | sir stanley matthews
+Raymond Kopa | kopa
+Omar Sívori | omar sivori | sivori
+Josef Masopust | masopust
+Lev Yashin | yashin
+Denis Law | law
+Flórián Albert | florian albert | albert
+Gianni Rivera | rivera
+Oleg Blokhin | blokhin
+Allan Simonsen | simonsen
+Jean-Pierre Papin | jean pierre papin | papin | jpp
+Matthias Sammer | sammer
+Pavel Nedvěd | pavel nedved | nedved
+Hristo Stoichkov | stoichkov
+Alfredo Di Stéfano | alfredo di stefano | di stefano
+Eusébio | eusebio
+Bobby Charlton | charlton | sir bobby charlton
+
+[Rare]
+George Best | best
+Gerd Müller | gerd muller | gerd mueller
+Franz Beckenbauer | beckenbauer
+Kevin Keegan | keegan
+Karl-Heinz Rummenigge | karl heinz rummenigge | rummenigge
+Paolo Rossi | rossi
+Michel Platini | platini
+Ruud Gullit | gullit
+Marco van Basten | van basten
+Lothar Matthäus | lothar matthaus | matthaus | matthaeus
+Roberto Baggio | baggio
+George Weah | weah
+Rivaldo
+Luís Figo | luis figo | figo
+Michael Owen | owen
+Andriy Shevchenko | shevchenko | andrei shevchenko | sheva
+Fabio Cannavaro | cannavaro
+Ousmane Dembélé | ousmane dembele | dembele
+
+[Schooler]
+Johan Cruyff | cruyff | johan cruijff
+Ronaldo | ronaldo nazario | r9 | ronaldo nazário | brazilian ronaldo | ronaldo phenomenon
+Zinedine Zidane | zidane | zizou
+Ronaldinho
+Kaká | kaka
+Rodri
+
+[Too Clever]
+Luis Suárez | luis suarez | suarez | luis suarez miramontes
+
+[Plankton]
+Lionel Messi | messi | leo messi
+Cristiano Ronaldo | cr7 | cristiano
+Luka Modrić | luka modric | modric
+Karim Benzema | benzema
+
+[Not accepted]
+Pelé
+Pele
+Diego Maradona
+Maradona
+Thierry Henry
+Andrés Iniesta
+Andres Iniesta
+Xavi
+Robert Lewandowski
+Lewandowski
+Neymar
+Kylian Mbappé
+Kylian Mbappe
+Mohamed Salah
+Erling Haaland
+Virgil van Dijk
+Paolo Maldini
+Gianluigi Buffon
+Franck Ribéry
+Vinícius Júnior
+Lamine Yamal
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a winner of the Golden Boy award (2003-2024)
+note: Tuttosport's award for the best young player in Europe.
+
+[One in a Krillion]
+Anderson | anderson oliveira
+
+[Deep Cut]
+Rafael van der Vaart | van der vaart
+Alexandre Pato | pato
+Renato Sanches | sanches | renato
+Anthony Martial | martial
+Matthijs de Ligt | de ligt
+Isco
+João Félix | joao felix | felix
+
+[Rare]
+Cesc Fàbregas | cesc fabregas | fabregas | cesc
+Mario Balotelli | balotelli
+Mario Götze | mario gotze | gotze | goetze
+Raheem Sterling | sterling
+Gavi | pablo gavi
+Pedri
+
+[Schooler]
+Sergio Agüero | sergio aguero | aguero | kun aguero
+Wayne Rooney | rooney
+Paul Pogba | pogba
+
+[Plankton]
+Lionel Messi | messi | leo messi
+Kylian Mbappé | kylian mbappe | mbappe
+Erling Haaland | haaland
+Jude Bellingham | bellingham
+Lamine Yamal | yamal
+
+[Not accepted]
+Cristiano Ronaldo
+Ronaldo
+Neymar
+Eden Hazard
+Vinícius Júnior
+Vinicius Junior
+Phil Foden
+Bukayo Saka
+Jamal Musiala
+Florian Wirtz
+Gareth Bale
+Kevin De Bruyne
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a Premier League Golden Boot winner (1992-93 to 2024-25)
+note: Every outright and shared top scorer of a Premier League season.
+
+[One in a Krillion]
+Chris Sutton | sutton
+
+[Deep Cut]
+Dion Dublin | dublin
+Kevin Phillips | phillips | super kev
+Dwight Yorke | yorke
+Jimmy Floyd Hasselbaink | hasselbaink | jimmy floyd
+Teddy Sheringham | sheringham
+Andy Cole | andrew cole | cole
+Dimitar Berbatov | berbatov
+Nicolas Anelka | anelka
+Pierre-Emerick Aubameyang | pierre emerick aubameyang | aubameyang | auba
+
+[Rare]
+Michael Owen | owen
+Ruud van Nistelrooy | van nistelrooy | rvn
+Carlos Tevez | tevez
+Robin van Persie | van persie | rvp
+Luis Suárez | luis suarez | suarez
+Jamie Vardy | vardy
+Sadio Mané | sadio mane | mane
+Didier Drogba | drogba
+
+[Schooler]
+Alan Shearer | shearer
+Thierry Henry | henry
+Sergio Agüero | sergio aguero | aguero | kun aguero
+Son Heung-min | heung min son | son heungmin | son
+
+[Plankton]
+Harry Kane | kane
+Mohamed Salah | mo salah | salah | mohammed salah
+Erling Haaland | haaland
+Cristiano Ronaldo | ronaldo | cr7 | cristiano
+
+[Not accepted]
+Wayne Rooney
+Rooney
+Frank Lampard
+Robbie Fowler
+Fowler
+Romelu Lukaku
+Jermain Defoe
+Les Ferdinand
+Ian Wright
+Olivier Giroud
+Alexander Isak
+Ollie Watkins
+Cole Palmer
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player who has been a men's World Cup top scorer (1930-2022)
+note: The top scorer (or joint top scorers) of each tournament, by FIFA's official counts. 1962 had six joint top scorers; in 2010 Müller, Villa, Sneijder and Forlán all scored five.
+
+[One in a Krillion]
+Oleg Salenko | salenko
+
+[Deep Cut]
+Guillermo Stábile | guillermo stabile | stabile
+Oldřich Nejedlý | oldrich nejedly | nejedly
+Leônidas | leonidas | leonidas da silva
+Ademir | ademir de menezes
+Sándor Kocsis | sandor kocsis | kocsis
+Just Fontaine | fontaine
+Leonel Sánchez | leonel sanchez
+Flórián Albert | florian albert
+Valentin Ivanov | ivanov
+Dražan Jerković | drazan jerkovic | jerkovic
+Vavá | vava
+Grzegorz Lato | lato
+Davor Šuker | davor suker | suker
+
+[Rare]
+Garrincha
+Eusébio | eusebio
+Gerd Müller | gerd muller | gerd mueller
+Mario Kempes | kempes
+Paolo Rossi | rossi
+Gary Lineker | lineker
+Salvatore Schillaci | schillaci | toto schillaci
+Hristo Stoichkov | stoichkov
+Diego Forlán | diego forlan | forlan
+Wesley Sneijder | sneijder
+David Villa | villa
+
+[Schooler]
+Miroslav Klose | klose
+Thomas Müller | thomas muller | thomas mueller
+James Rodríguez | james rodriguez | james
+
+[Plankton]
+Ronaldo | ronaldo nazario | r9 | ronaldo nazário
+Harry Kane | kane
+Kylian Mbappé | kylian mbappe | mbappe
+
+[Not accepted]
+Lionel Messi
+Messi
+Pelé
+Pele
+Cristiano Ronaldo
+Diego Maradona
+Maradona
+Gabriel Batistuta
+Batistuta
+Romelu Lukaku
+Olivier Giroud
+Julián Álvarez
+Julian Alvarez
+Enner Valencia
+Angelo Schiavio
+Edmund Conen
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player with 100 or more Premier League goals
+note: The Premier League 100 club, through the end of the 2024-25 season.
+
+[One in a Krillion]
+Matt Le Tissier | le tissier | letissier | le tiss
+
+[Deep Cut]
+Dion Dublin | dublin
+Darren Bent | bent
+Emile Heskey | heskey
+Peter Crouch | crouch
+Les Ferdinand | ferdinand | sir les
+Dwight Yorke | yorke
+Robbie Keane | keane
+Nicolas Anelka | anelka
+Jimmy Floyd Hasselbaink | hasselbaink | jimmy floyd
+Teddy Sheringham | sheringham
+Ian Wright | wright | wrighty
+
+[Rare]
+Paul Scholes | scholes
+Ryan Giggs | giggs
+Steven Gerrard | gerrard
+Jermain Defoe | defoe
+Robbie Fowler | fowler
+Michael Owen | owen
+Andy Cole | andrew cole | cole
+Romelu Lukaku | lukaku
+Raheem Sterling | sterling
+Sadio Mané | sadio mane | mane
+Didier Drogba | drogba
+Jamie Vardy | vardy
+Robin van Persie | van persie | rvp
+Frank Lampard | lampard
+
+[Schooler]
+Sergio Agüero | sergio aguero | aguero | kun aguero
+Son Heung-min | heung min son | son heungmin | son
+Thierry Henry | henry
+Alan Shearer | shearer
+
+[Plankton]
+Cristiano Ronaldo | ronaldo | cr7 | cristiano
+Harry Kane | kane
+Wayne Rooney | rooney
+Mohamed Salah | mo salah | salah | mohammed salah
+
+[Not accepted]
+Erling Haaland
+Haaland
+Dimitar Berbatov
+Kevin Phillips
+Marcus Rashford
+Roberto Firmino
+Gabriel Agbonlahor
+Kevin De Bruyne
+Luis Suárez
+Luis Suarez
+Ruud van Nistelrooy
+Eden Hazard
+Olivier Giroud
+Callum Wilson
+Danny Ings
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player who scored in a Champions League final (1993-2025)
+note: Goals in the match itself, including extra time; penalty shootout kicks and own goals don't count.
+
+[One in a Krillion]
+Dmitri Alenichev | alenichev | dmitry alenichev
+
+[Deep Cut]
+Basile Boli | boli
+Daniele Massaro | massaro
+Dejan Savićević | dejan savicevic | savicevic
+Marcel Desailly | desailly
+Jari Litmanen | litmanen
+Fabrizio Ravanelli | ravanelli
+Karl-Heinz Riedle | karl heinz riedle | riedle
+Lars Ricken | ricken
+Predrag Mijatović | predrag mijatovic | mijatovic
+Mario Basler | basler
+Steve McManaman | mcmanaman | macca
+Fernando Morientes | morientes
+Gaizka Mendieta | mendieta
+Stefan Effenberg | effenberg
+Lúcio | lucio
+Carlos Alberto | carlos alberto porto
+Hernán Crespo | hernan crespo | crespo
+Vladimír Šmicer | vladimir smicer | smicer
+Juliano Belletti | belletti
+Senny Mayulu | mayulu
+Yannick Carrasco | carrasco
+Divock Origi | origi
+Diego Milito | milito
+
+[Rare]
+Patrick Kluivert | kluivert
+Ole Gunnar Solskjær | ole gunnar solskjaer | solskjaer | ole
+Teddy Sheringham | sheringham
+Raúl | raul | raul gonzalez
+Deco
+Sol Campbell | campbell
+Filippo Inzaghi | inzaghi | pippo inzaghi
+Dirk Kuyt | kuyt
+Diego Godín | diego godin | godin
+Ivan Rakitić | ivan rakitic | rakitic
+Álvaro Morata | alvaro morata | morata
+Marco Asensio | asensio
+Kingsley Coman | coman
+Kai Havertz | havertz
+Mario Mandžukić | mario mandzukic | mandzukic
+İlkay Gündoğan | ilkay gundogan | gundogan
+Paolo Maldini | maldini
+Xabi Alonso | alonso | xabi
+Khvicha Kvaratskhelia | kvaratskhelia | kvara
+Désiré Doué | desire doue | doue
+Achraf Hakimi | hakimi
+Dani Carvajal | daniel carvajal | carvajal
+Alessandro Del Piero | del piero
+Pedro | pedro rodriguez | pedrito
+
+[Schooler]
+Zinedine Zidane | zidane | zizou
+Steven Gerrard | gerrard
+Samuel Eto'o | samuel eto | etoo | eto'o
+Frank Lampard | lampard
+Wayne Rooney | rooney
+David Villa | villa
+Didier Drogba | drogba
+Thomas Müller | thomas muller | muller | mueller
+Arjen Robben | robben
+Sergio Ramos | ramos
+Marcelo
+Luis Suárez | luis suarez | suarez
+Neymar | neymar jr
+Casemiro
+Karim Benzema | benzema
+Sadio Mané | sadio mane | mane
+Mohamed Salah | mo salah | salah | mohammed salah
+Vinícius Júnior | vinicius junior | vinicius jr | vinicius | vini jr | vini
+Rodri
+
+[Plankton]
+Lionel Messi | messi | leo messi
+Cristiano Ronaldo | ronaldo | cr7 | cristiano
+Gareth Bale | bale
+
+[Not accepted]
+Kevin De Bruyne
+Erling Haaland
+Robert Lewandowski
+Lewandowski
+Andrés Iniesta
+Andres Iniesta
+Iniesta
+Kaká
+Kaka
+Andriy Shevchenko
+Shevchenko
+Thierry Henry
+Henry
+Ronaldinho
+Antoine Griezmann
+Kylian Mbappé
+Kylian Mbappe
+Jürgen Klopp
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player who scored in a men's World Cup final (1930-2022)
+note: Goals in the match itself; shootout kicks don't count. The 1950 deciding match (Uruguay 2-1 Brazil) counts as that year's final.
+
+[One in a Krillion]
+Dick Nanninga | nanninga
+
+[Deep Cut]
+Pablo Dorado | dorado
+Pedro Cea | cea
+Santos Iriarte | iriarte
+Héctor Castro | hector castro | castro
+Carlos Peucelle | peucelle
+Guillermo Stábile | guillermo stabile | stabile
+Raimundo Orsi | orsi
+Angelo Schiavio | schiavio
+Antonín Puč | antonin puc | puc
+Gino Colaussi | colaussi
+Silvio Piola | piola
+Pál Titkos | pal titkos | titkos
+György Sárosi | gyorgy sarosi | sarosi
+Juan Alberto Schiaffino | schiaffino
+Alcides Ghiggia | ghiggia
+Friaça | friaca
+Max Morlock | morlock
+Helmut Rahn | rahn
+Zoltán Czibor | zoltan czibor | czibor
+Nils Liedholm | liedholm
+Agne Simonsson | simonsson
+Amarildo
+Zito
+Josef Masopust | masopust
+Helmut Haller | haller
+Wolfgang Weber | weber
+Gérson | gerson
+Roberto Boninsegna | boninsegna
+Daniel Bertoni | bertoni
+Alessandro Altobelli | altobelli
+José Luis Brown | jose luis brown | brown
+Jorge Valdano | valdano
+Jorge Burruchaga | burruchaga
+Andreas Brehme | brehme
+Ivan Perišić | ivan perisic | perisic
+
+[Rare]
+Ferenc Puskás | ferenc puskas | puskas
+Vavá | vava
+Mário Zagallo | mario zagallo | zagallo
+Martin Peters | peters
+Jairzinho
+Carlos Alberto | carlos alberto torres
+Paul Breitner | breitner
+Johan Neeskens | neeskens
+Mario Kempes | kempes
+Marco Tardelli | tardelli
+Paolo Rossi | rossi
+Karl-Heinz Rummenigge | karl heinz rummenigge | rummenigge
+Rudi Völler | rudi voller | voller
+Emmanuel Petit | petit
+Marco Materazzi | materazzi
+Mario Mandžukić | mario mandzukic | mandzukic
+
+[Schooler]
+Geoff Hurst | hurst | sir geoff hurst
+Gerd Müller | gerd muller | gerd mueller
+Mario Götze | mario gotze | gotze | goetze
+Andrés Iniesta | andres iniesta | iniesta
+Antoine Griezmann | griezmann
+Paul Pogba | pogba
+Ángel Di María | angel di maria | di maria | dimaria
+Ronaldo | ronaldo nazario | r9 | ronaldo nazário
+
+[Plankton]
+Pelé | pele
+Zinedine Zidane | zidane | zizou
+Lionel Messi | messi | leo messi
+Kylian Mbappé | kylian mbappe | mbappe
+
+[Not accepted]
+Diego Maradona
+Maradona
+Bobby Charlton
+Thomas Müller
+Thomas Muller
+Miroslav Klose
+Klose
+Fabio Grosso
+Thierry Henry
+Rivaldo
+Romário
+Romario
+Roberto Baggio
+Garrincha
+Kevin Keegan
+Pablo Zabaleta
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a manager of the England men's team (permanent or caretaker)
+note: Everyone who has managed England, from Walter Winterbottom (1946) to Thomas Tuchel, including caretakers.
+
+[One in a Krillion]
+Joe Mercer | mercer
+
+[Deep Cut]
+Walter Winterbottom | winterbottom
+Ron Greenwood | greenwood
+Howard Wilkinson | wilkinson
+Peter Taylor | p taylor
+Stuart Pearce | pearce | psycho
+Lee Carsley | carsley
+Don Revie | revie
+
+[Rare]
+Graham Taylor | taylor | turnip
+Terry Venables | venables | el tel
+Glenn Hoddle | hoddle
+Kevin Keegan | keegan
+Steve McClaren | mcclaren | mclaren
+Sam Allardyce | allardyce | big sam
+Bobby Robson | robson | sir bobby robson
+
+[Schooler]
+Alf Ramsey | ramsey | sir alf ramsey
+Sven-Göran Eriksson | sven goran eriksson | sven | eriksson
+Fabio Capello | capello
+Roy Hodgson | hodgson
+
+[Plankton]
+Gareth Southgate | southgate
+Thomas Tuchel | tuchel
+
+[Not accepted]
+Harry Redknapp
+Arsène Wenger
+Arsene Wenger
+Alex Ferguson
+Brian Clough
+Jose Mourinho
+Eddie Howe
+Graham Potter
+Sarina Wiegman
+Steve Holland
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a main-series FIFA or EA Sports FC video game
+note: The yearly series from FIFA International Soccer (1993) through EA Sports FC 26. Spin-offs (FIFA Street, World Cup editions, Manager) don't count.
+
+[One in a Krillion]
+FIFA International Soccer | fifa international soccer | fifa 94 | fifa international
+
+[Deep Cut]
+FIFA Soccer 95 | fifa 95
+FIFA Soccer 96 | fifa 96
+FIFA 97
+FIFA: Road to World Cup 98 | fifa road to world cup 98 | fifa 98 | road to world cup 98
+FIFA 99
+FIFA 2000 | fifa 00
+FIFA 2001 | fifa 01
+FIFA Football 2002 | fifa 2002 | fifa 02
+FIFA Football 2003 | fifa 2003 | fifa 03
+FIFA Football 2004 | fifa 2004 | fifa 04
+FIFA Football 2005 | fifa 2005 | fifa 05
+FIFA 06 | fifa 2006
+FIFA 07 | fifa 2007
+FIFA 08 | fifa 2008
+
+[Rare]
+FIFA 09 | fifa 2009
+FIFA 10 | fifa 2010
+FIFA 11 | fifa 2011
+FIFA 12 | fifa 2012
+FIFA 13 | fifa 2013
+FIFA 14 | fifa 2014
+FIFA 15 | fifa 2015
+
+[Schooler]
+FIFA 16 | fifa 2016
+FIFA 17 | fifa 2017
+FIFA 18 | fifa 2018
+FIFA 19 | fifa 2019
+FIFA 20 | fifa 2020
+FIFA 21 | fifa 2021
+
+[Too Clever]
+EA Sports FC 26 | ea fc 26 | fc 26 | fifa 26 | ea sports fc 2026
+
+[Plankton]
+FIFA 22 | fifa 2022
+FIFA 23 | fifa 2023
+EA Sports FC 24 | ea fc 24 | fc 24 | fifa 24 | ea sports fc 2024
+EA Sports FC 25 | ea fc 25 | fc 25 | fifa 25 | ea sports fc 2025
+
+[Not accepted]
+FIFA Street
+FIFA Manager
+FIFA Mobile
+FIFA World Cup
+Pro Evolution Soccer
+PES
+eFootball
+Football Manager
+Rocket League
+EA FC
+FIFA

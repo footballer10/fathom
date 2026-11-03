@@ -1,0 +1,1147 @@
+// Soccer (fan category): clubs, trophies, leagues, nicknames and grounds.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has played in a European Cup or Champions League final
+note: Winners and runners-up, 1956 through 2025.
+
+[One in a Krillion]
+Malmö | malmo | malmo ff | malmö ff
+
+[Deep Cut]
+Stade de Reims | reims
+Fiorentina
+Eintracht Frankfurt | frankfurt
+Partizan | partizan belgrade
+Panathinaikos
+Saint-Étienne | saint etienne | st etienne | asse
+Club Brugge | brugge | bruges
+Sampdoria
+Steaua Bucharest | steaua | fcsb
+Red Star Belgrade | red star | crvena zvezda
+Feyenoord
+PSV | psv eindhoven
+Hamburg | hamburger sv | hsv | hamburger
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+Celtic
+Nottingham Forest | forest
+Aston Villa | villa
+
+[Rare]
+Benfica
+Porto | fc porto
+Marseille | olympique de marseille | om
+Leeds United | leeds
+Roma | as roma
+Valencia
+Bayer Leverkusen | leverkusen
+Monaco | as monaco
+Ajax
+Tottenham | tottenham hotspur | spurs
+Atlético Madrid | atletico madrid | atletico | atleti
+Borussia Dortmund | dortmund | bvb
+
+[Schooler]
+Inter Milan | inter | internazionale
+AC Milan | milan
+Arsenal
+Chelsea
+Juventus | juve
+Paris Saint-Germain | paris saint germain | psg
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Liverpool
+Manchester United | man united | man utd | united
+Bayern Munich | bayern | bayern munchen | fc bayern
+Manchester City | man city | city
+
+[Not accepted]
+Napoli
+Galatasaray
+Sevilla
+Villarreal
+Lyon
+Olympique Lyonnais
+Leicester City
+Newcastle United
+Everton
+Anderlecht
+Rangers
+Schalke
+Lazio
+Deportivo La Coruna
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won the UEFA Cup or Europa League
+note: Winners from 1972 through 2025 (the older Fairs Cup doesn't count).
+
+[One in a Krillion]
+IFK Göteborg | ifk goteborg | goteborg | gothenburg | ifk gothenburg
+
+[Deep Cut]
+Ipswich Town | ipswich
+Anderlecht
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+PSV | psv eindhoven
+Feyenoord
+Bayer Leverkusen | leverkusen
+Parma
+Galatasaray
+CSKA Moscow | cska
+Zenit Saint Petersburg | zenit | zenit st petersburg
+Shakhtar Donetsk | shakhtar
+Schalke | schalke 04
+Eintracht Frankfurt | frankfurt
+
+[Rare]
+Porto | fc porto
+Valencia
+Napoli
+Villarreal
+Atalanta
+Inter Milan | inter | internazionale
+Juventus | juve
+Bayern Munich | bayern | bayern munchen | fc bayern
+Real Madrid | real
+Ajax
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Atlético Madrid | atletico madrid | atletico | atleti
+Chelsea
+Liverpool
+Manchester United | man united | man utd | united
+
+[Plankton]
+Sevilla
+
+[Not accepted]
+Arsenal
+Barcelona
+AC Milan
+Roma
+Marseille
+Benfica
+Leeds United
+Rangers
+Fulham
+Middlesbrough
+Olympiacos
+West Ham
+Newcastle United
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that won the European Cup Winners' Cup (1961-1999)
+note: Every winner of the old Cup Winners' Cup, which ended in 1999.
+
+[One in a Krillion]
+Mechelen | kv mechelen
+
+[Deep Cut]
+Slovan Bratislava | slovan
+Magdeburg | 1 fc magdeburg | fc magdeburg
+Dinamo Tbilisi | tbilisi
+Dynamo Kyiv | dynamo kiev | kyiv | kiev
+Aberdeen
+Real Zaragoza | zaragoza
+Sporting CP | sporting lisbon | sporting
+Fiorentina
+Hamburg | hamburger sv | hsv
+Anderlecht
+Sampdoria
+Werder Bremen | bremen | werder
+Parma
+Lazio
+Rangers
+Everton
+West Ham United | west ham
+
+[Rare]
+Atlético Madrid | atletico madrid | atletico
+Valencia
+Borussia Dortmund | dortmund | bvb
+Manchester City | man city
+Tottenham | tottenham hotspur | spurs
+Ajax
+Juventus | juve
+Paris Saint-Germain | paris saint germain | psg
+
+[Schooler]
+Chelsea
+Arsenal
+AC Milan | milan
+Manchester United | man united | man utd | united
+Bayern Munich | bayern | bayern munchen
+
+[Plankton]
+Barcelona | barca | barça | fc barcelona
+
+[Not accepted]
+Liverpool
+Real Madrid
+Inter Milan
+Sevilla
+Leeds United
+Porto
+Benfica
+Celtic
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won the FA Cup
+note: Every winner from 1872 through 2025, including the old amateur clubs like Wanderers.
+
+[One in a Krillion]
+Old Carthusians
+
+[Deep Cut]
+Wanderers | wanderers fc | the wanderers
+Oxford University
+Royal Engineers
+Old Etonians
+Clapham Rovers
+Blackburn Olympic
+Notts County
+Bury
+Barnsley
+Bradford City | bradford
+Cardiff City | cardiff
+Huddersfield Town | huddersfield
+Blackpool
+Charlton Athletic | charlton
+Derby County | derby
+Wimbledon
+Wigan Athletic | wigan
+Burnley
+Preston North End | preston
+Sheffield Wednesday
+Sheffield United
+
+[Rare]
+Bolton Wanderers | bolton
+West Bromwich Albion | west brom | wba
+Wolverhampton Wanderers | wolves | wolverhampton
+Nottingham Forest | forest
+Blackburn Rovers | blackburn
+Portsmouth | pompey
+Sunderland
+Southampton
+Ipswich Town | ipswich
+Coventry City | coventry
+Leeds United | leeds
+Leicester City | leicester
+Crystal Palace | palace
+Newcastle United | newcastle
+Aston Villa | villa
+
+[Schooler]
+Everton
+West Ham United | west ham
+Tottenham | tottenham hotspur | spurs
+Liverpool
+Chelsea
+
+[Plankton]
+Arsenal
+Manchester United | man united | man utd | united
+Manchester City | man city
+
+[Not accepted]
+Brighton
+Brighton and Hove Albion
+Watford
+Stoke City
+Middlesbrough
+Fulham
+Queens Park Rangers
+Millwall
+Hull City
+Birmingham City
+Norwich City
+Celtic
+Rangers
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won the English League Cup
+note: Every winner from 1961 through 2025, under any sponsor name (Carabao, Capital One, Carling and so on).
+
+[One in a Krillion]
+Oxford United | oxford
+
+[Deep Cut]
+Swindon Town | swindon
+Queens Park Rangers | qpr
+Luton Town | luton
+Stoke City | stoke
+Sheffield Wednesday
+Norwich City | norwich
+Birmingham City | birmingham
+West Bromwich Albion | west brom | wba
+Swansea City | swansea
+Middlesbrough | boro
+Blackburn Rovers | blackburn
+Wolverhampton Wanderers | wolves | wolverhampton
+
+[Rare]
+Leeds United | leeds
+Leicester City | leicester
+Nottingham Forest | forest
+Aston Villa | villa
+Newcastle United | newcastle
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Arsenal
+Chelsea
+Manchester United | man united | man utd | united
+
+[Plankton]
+Liverpool
+Manchester City | man city
+
+[Not accepted]
+Everton
+West Ham
+Southampton
+Bradford City
+Cardiff City
+Sunderland
+Crystal Palace
+Brighton
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won the top-division league title in England or Scotland
+note: English champions since 1888 and Scottish champions since 1891, through the 2024-25 season.
+
+[One in a Krillion]
+Third Lanark
+
+[Deep Cut]
+Dumbarton
+Motherwell
+Kilmarnock
+Dundee
+Dundee United
+Hibernian | hibs
+Heart of Midlothian | hearts
+Preston North End | preston
+Sheffield Wednesday
+Sheffield United
+Huddersfield Town | huddersfield
+Burnley
+Portsmouth | pompey
+Ipswich Town | ipswich
+Derby County | derby
+West Bromwich Albion | west brom | wba
+Sunderland
+
+[Rare]
+Aberdeen
+Blackburn Rovers | blackburn
+Wolverhampton Wanderers | wolves | wolverhampton
+Nottingham Forest | forest
+Leeds United | leeds
+Leicester City | leicester
+Aston Villa | villa
+Newcastle United | newcastle
+Tottenham | tottenham hotspur | spurs
+Everton
+
+[Schooler]
+Celtic
+Rangers
+Chelsea
+Arsenal
+
+[Plankton]
+Manchester United | man united | man utd | united
+Liverpool
+Manchester City | man city
+
+[Not accepted]
+West Ham
+Southampton
+Crystal Palace
+Brighton
+St Mirren
+St Johnstone
+Ross County
+Partick Thistle
+Queen's Park
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won La Liga, Serie A or the Bundesliga
+note: La Liga since 1929, Serie A since 1929 (single-table era), Bundesliga since 1963, through 2024-25.
+
+[One in a Krillion]
+Eintracht Braunschweig | braunschweig
+
+[Deep Cut]
+1860 Munich | tsv 1860 munich | munich 1860 | 1860 munchen
+1. FC Nürnberg | nurnberg | nuremberg | fc nurnberg
+1. FC Köln | koln | cologne | fc koln | fc cologne
+Kaiserslautern | 1 fc kaiserslautern
+Wolfsburg | vfl wolfsburg
+Hellas Verona | verona
+Cagliari
+Sampdoria
+Torino
+Real Betis | betis
+Deportivo La Coruña | deportivo | deportivo la coruna | depor
+Bologna
+Fiorentina
+Hamburg | hamburger sv | hsv
+
+[Rare]
+Real Sociedad | sociedad
+Athletic Bilbao | athletic club | bilbao
+Sevilla
+Valencia
+Lazio
+Roma | as roma
+Napoli
+Werder Bremen | bremen | werder
+VfB Stuttgart | stuttgart
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+Bayer Leverkusen | leverkusen
+
+[Schooler]
+Atlético Madrid | atletico madrid | atletico | atleti
+AC Milan | milan
+Inter Milan | inter | internazionale
+Juventus | juve
+Borussia Dortmund | dortmund | bvb
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Bayern Munich | bayern | bayern munchen | fc bayern
+
+[Not accepted]
+Villarreal
+Atalanta
+Parma
+RB Leipzig
+Leipzig
+Schalke
+Schalke 04
+Genoa
+Pro Vercelli
+Eintracht Frankfurt
+Hertha Berlin
+Espanyol
+Celta Vigo
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has been relegated from the Premier League
+note: Any club that went down at least once, 1992-93 through 2024-25.
+
+[One in a Krillion]
+Swindon Town | swindon
+
+[Deep Cut]
+Oldham Athletic | oldham
+Barnsley
+Bradford City | bradford
+Blackpool
+Wimbledon
+Coventry City | coventry
+Charlton Athletic | charlton
+Derby County | derby
+Huddersfield Town | huddersfield
+Cardiff City | cardiff
+Wigan Athletic | wigan
+Reading
+Portsmouth | pompey
+Queens Park Rangers | qpr
+Bolton Wanderers | bolton
+Birmingham City | birmingham
+Hull City | hull
+Luton Town | luton
+Sheffield Wednesday
+
+[Rare]
+Blackburn Rovers | blackburn
+Middlesbrough | boro
+Swansea City | swansea
+Stoke City | stoke
+Sunderland
+Ipswich Town | ipswich
+Norwich City | norwich
+West Bromwich Albion | west brom | wba
+Sheffield United
+Watford
+Burnley
+Nottingham Forest | forest
+Crystal Palace | palace
+Fulham
+Wolverhampton Wanderers | wolves | wolverhampton
+Bournemouth | afc bournemouth
+
+[Schooler]
+Southampton
+Leicester City | leicester
+Leeds United | leeds
+Aston Villa | villa
+West Ham United | west ham
+Newcastle United | newcastle
+
+[Plankton]
+Manchester City | man city
+
+[Not accepted]
+Arsenal
+Chelsea
+Liverpool
+Manchester United
+Man United
+Tottenham
+Spurs
+Everton
+Brentford
+Brighton
+Brighton and Hove Albion
+Millwall
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name the nickname of a club that has played in the Premier League
+note: Traditional club nicknames for any of the 51 Premier League clubs through 2024-25. Shared nicknames (Blues, Reds) count once.
+
+[One in a Krillion]
+The Addicks | addicks
+
+[Deep Cut]
+The Tykes | tykes
+The Trotters | trotters
+The Bantams | bantams
+The Seasiders | seasiders
+The Tangerines | tangerines
+The Bluebirds | bluebirds
+The Glaziers | glaziers
+The Terriers | terriers
+The Throstles | throstles
+The Biscuitmen | biscuitmen
+The Royals | royals
+The Robins | robins
+The Crazy Gang | crazy gang
+The Dons | dons
+The Latics | latics
+The Jacks | jacks
+The Swans | swans
+The Smoggies | smoggies
+The Peacocks | peacocks
+The Tricky Trees | tricky trees
+The Pensioners | pensioners
+The Lilywhites | lilywhites
+The Cityzens | cityzens | the citizens | citizens
+The People's Club | peoples club
+The Hoops | hoops
+The R's | rs
+The Irons | irons
+The Toon | toon
+
+[Rare]
+The Cherries | cherries
+The Bees | bees
+The Clarets | clarets
+The Cottagers | cottagers
+The Rams | rams
+The Tigers | tigers
+The Tractor Boys | tractor boys
+The Hatters | hatters
+The Blades | blades
+The Owls | owls
+The Potters | potters
+The Black Cats | black cats
+The Hornets | hornets
+The Baggies | baggies
+Pompey
+Boro
+The Canaries | canaries
+The Sky Blues | sky blues
+The Villans | villans | villa | the villa
+The Rovers | rovers
+The Wanderers | wanderers
+The Albion | albion
+The Whites | whites
+
+[Schooler]
+The Seagulls | seagulls
+The Eagles | eagles
+The Toffees | toffees | toffeemen | the toffeemen
+The Foxes | foxes
+The Saints | saints
+The Hammers | hammers
+Wolves
+The Magpies | magpies
+
+[Plankton]
+The Gunners | gunners
+The Red Devils | red devils
+Spurs
+The Blues | blues
+The Reds | reds
+
+[Not accepted]
+The Pirates
+The Gulls
+The Shrimpers
+The Posh
+The Cobblers
+The Chairboys
+Gooners
+The Kop
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a stadium that has been home to a Premier League club
+note: Any ground used for Premier League home games, 1992-93 through 2025-26, by any current or former name.
+
+[One in a Krillion]
+Burnden Park | burnden
+
+[Deep Cut]
+Ayresome Park
+Roker Park
+Baseball Ground
+Filbert Street
+Boundary Park
+Highfield Road
+The Dell | dell
+Valley Parade | university of bradford stadium
+County Ground | swindon county ground
+Oakwell
+Bloomfield Road
+Kenilworth Road
+Fratton Park
+Loftus Road | kiyan prince foundation stadium
+Maine Road
+Upton Park | boleyn ground | the boleyn
+Madejski Stadium | select car leasing stadium | madejski
+DW Stadium | jjb stadium | brick community stadium
+Reebok Stadium | macron stadium | university of bolton stadium | toughsheet community stadium | toughsheet stadium
+KC Stadium | mkm stadium | kcom stadium
+Cardiff City Stadium
+Pride Park | pride park stadium
+John Smith's Stadium | kirklees stadium | galpharm stadium | mcalpine stadium | accu stadium
+Liberty Stadium | swanseacom stadium | swansea com stadium
+Britannia Stadium | bet365 stadium
+Hill Dickinson Stadium | bramley moore dock | everton stadium
+
+[Rare]
+Hillsborough
+Bramall Lane
+Ewood Park
+Portman Road
+Carrow Road
+The Hawthorns | hawthorns
+Vicarage Road
+Riverside Stadium | riverside
+St Andrew's | st andrews | st andrews stadium
+Stadium of Light
+Elland Road
+Turf Moor
+Craven Cottage
+The Valley | valley
+Vitality Stadium | dean court
+Gtech Community Stadium | brentford community stadium | gtech stadium
+Amex Stadium | american express stadium | falmer stadium | american express community stadium | the amex
+City Ground
+Molineux | molineux stadium
+King Power Stadium | king power
+St Mary's | st marys | st marys stadium
+London Stadium | olympic stadium | london olympic stadium
+White Hart Lane
+Wembley Stadium | wembley
+
+[Schooler]
+Selhurst Park
+Villa Park
+Goodison Park | goodison
+St James' Park | st james park | st jamess park
+Tottenham Hotspur Stadium | spurs stadium
+Highbury
+
+[Plankton]
+Old Trafford
+Anfield
+Stamford Bridge
+Emirates Stadium | emirates
+Etihad Stadium | etihad | city of manchester stadium
+
+[Not accepted]
+The Den
+Den
+Ashton Gate
+Home Park
+Plough Lane
+Griffin Park
+Withdean Stadium
+Gigg Lane
+Kassam Stadium
+Celtic Park
+Ibrox
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in the 2024-25 Premier League or Championship
+note: The 20 Premier League clubs and 24 Championship clubs of the 2024-25 season.
+
+[One in a Krillion]
+Plymouth Argyle | plymouth
+
+[Deep Cut]
+Oxford United | oxford
+Bristol City
+Millwall
+Preston North End | preston
+Hull City | hull
+Luton Town | luton
+Cardiff City | cardiff
+Derby County | derby
+Swansea City | swansea
+Queens Park Rangers | qpr
+Portsmouth | pompey
+Stoke City | stoke
+Coventry City | coventry
+Blackburn Rovers | blackburn
+Watford
+Norwich City | norwich
+Sheffield Wednesday
+
+[Rare]
+Middlesbrough | boro
+West Bromwich Albion | west brom | wba
+Sunderland
+Sheffield United
+Burnley
+Leeds United | leeds
+Ipswich Town | ipswich
+Leicester City | leicester
+Southampton
+Brentford
+Fulham
+Bournemouth | afc bournemouth
+Crystal Palace | palace
+Wolverhampton Wanderers | wolves | wolverhampton
+Brighton and Hove Albion | brighton | brighton & hove albion
+
+[Schooler]
+Aston Villa | villa
+Newcastle United | newcastle
+Nottingham Forest | forest
+West Ham United | west ham
+Everton
+Tottenham | tottenham hotspur | spurs
+
+[Plankton]
+Arsenal
+Liverpool
+Manchester City | man city
+Manchester United | man united | man utd | united
+Chelsea
+
+[Not accepted]
+Birmingham City
+Wrexham
+Huddersfield Town
+Rotherham
+Bolton
+Charlton
+Reading
+Wigan
+Wycombe
+Barnsley
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in La Liga or Serie A in 2024-25
+note: The 20 La Liga clubs and 20 Serie A clubs of the 2024-25 season.
+
+[One in a Krillion]
+Venezia
+
+[Deep Cut]
+Leganés | leganes
+Real Valladolid | valladolid
+Las Palmas | ud las palmas
+Alavés | alaves | deportivo alaves
+Espanyol
+Getafe
+Mallorca | real mallorca
+Osasuna
+Rayo Vallecano | rayo
+Celta Vigo | celta
+Monza
+Empoli
+Lecce
+Cagliari
+Hellas Verona | verona
+Udinese
+Genoa
+Parma
+Como
+Torino
+
+[Rare]
+Girona
+Real Betis | betis
+Villarreal
+Valencia
+Real Sociedad | sociedad
+Athletic Bilbao | athletic club | bilbao
+Sevilla
+Bologna
+Fiorentina
+Lazio
+Atalanta
+Roma | as roma
+Napoli
+
+[Schooler]
+Atlético Madrid | atletico madrid | atletico | atleti
+AC Milan | milan
+Inter Milan | inter | internazionale
+Juventus | juve
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+
+[Not accepted]
+Granada
+Almeria
+Cadiz
+Sampdoria
+Sassuolo
+Salernitana
+Frosinone
+Pisa
+Cremonese
+Palermo
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in the Bundesliga or Ligue 1 in 2024-25
+note: The 18 Bundesliga clubs and 18 Ligue 1 clubs of the 2024-25 season.
+
+[One in a Krillion]
+Heidenheim | 1 fc heidenheim
+
+[Deep Cut]
+Holstein Kiel | kiel
+VfL Bochum | bochum
+St. Pauli | st pauli | fc st pauli
+Augsburg | fc augsburg
+Union Berlin | union
+Hoffenheim | tsg hoffenheim
+Mainz | mainz 05
+Freiburg | sc freiburg
+Wolfsburg | vfl wolfsburg
+Angers
+Le Havre
+Auxerre
+Montpellier
+Saint-Étienne | saint etienne | st etienne
+Reims | stade de reims
+Toulouse
+Nantes
+Rennes | stade rennais
+Brest | stade brestois
+Strasbourg
+
+[Rare]
+Werder Bremen | bremen | werder
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+VfB Stuttgart | stuttgart
+Eintracht Frankfurt | frankfurt
+RB Leipzig | leipzig
+Lens | rc lens
+Nice | ogc nice
+Lille | losc
+Lyon | olympique lyonnais | ol
+Monaco | as monaco
+Marseille | olympique de marseille | om
+
+[Schooler]
+Bayer Leverkusen | leverkusen
+Borussia Dortmund | dortmund | bvb
+
+[Plankton]
+Bayern Munich | bayern | bayern munchen | fc bayern
+Paris Saint-Germain | paris saint germain | psg
+
+[Not accepted]
+Schalke
+Hamburg
+Hertha Berlin
+Koln
+Darmstadt
+Lorient
+Metz
+Clermont
+Paris FC
+Bordeaux
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in the Eredivisie or Primeira Liga in 2024-25
+note: The 18 Dutch and 18 Portuguese top-flight clubs of the 2024-25 season.
+
+[One in a Krillion]
+Almere City | almere
+
+[Deep Cut]
+RKC Waalwijk | rkc | waalwijk
+Willem II
+PEC Zwolle | zwolle
+NAC Breda | nac | breda
+Heracles Almelo | heracles
+Groningen | fc groningen
+Sparta Rotterdam | sparta
+Heerenveen | sc heerenveen
+Fortuna Sittard | fortuna
+NEC Nijmegen | nec
+Go Ahead Eagles
+Utrecht | fc utrecht
+AVS | avs futebol
+Estrela da Amadora | estrela
+Nacional | cd nacional
+Gil Vicente
+Arouca | fc arouca
+Moreirense
+Rio Ave
+Estoril
+Famalicão | famalicao
+Casa Pia
+Santa Clara
+Farense
+Boavista
+
+[Rare]
+Twente | fc twente
+AZ Alkmaar | az
+Vitória de Guimarães | vitoria guimaraes | vitoria sc | guimaraes
+Braga | sc braga | sporting braga
+Feyenoord
+PSV | psv eindhoven
+
+[Schooler]
+Sporting CP | sporting lisbon | sporting
+
+[Plankton]
+Ajax
+Benfica
+Porto | fc porto
+
+[Not accepted]
+Vitesse
+Excelsior
+Volendam
+Vizela
+Chaves
+Portimonense
+Maritimo
+Pacos de Ferreira
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2024-25 Champions League league phase
+note: The 36 clubs in the first season of the new single-table league phase.
+
+[One in a Krillion]
+Slovan Bratislava | slovan
+
+[Deep Cut]
+Sturm Graz | sturm
+Sparta Prague | sparta praha
+Young Boys | bsc young boys
+Dinamo Zagreb | gnk dinamo zagreb
+Red Bull Salzburg | salzburg | rb salzburg
+Red Star Belgrade | red star | crvena zvezda
+Shakhtar Donetsk | shakhtar
+Club Brugge | brugge | bruges
+Brest | stade brestois
+Girona
+Bologna
+VfB Stuttgart | stuttgart
+Lille | losc
+Feyenoord
+Celtic
+
+[Rare]
+PSV | psv eindhoven
+Benfica
+Sporting CP | sporting lisbon | sporting
+Monaco | as monaco
+Atalanta
+RB Leipzig | leipzig
+Bayer Leverkusen | leverkusen
+Aston Villa | villa
+Atlético Madrid | atletico madrid | atletico | atleti
+
+[Schooler]
+Inter Milan | inter | internazionale
+AC Milan | milan
+Juventus | juve
+Borussia Dortmund | dortmund | bvb
+Paris Saint-Germain | paris saint germain | psg
+Arsenal
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Bayern Munich | bayern | bayern munchen | fc bayern
+Manchester City | man city
+Liverpool
+
+[Not accepted]
+Manchester United
+Chelsea
+Newcastle United
+Napoli
+Porto
+Galatasaray
+Copenhagen
+Lazio
+Real Sociedad
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2023-24 Champions League group stage
+note: The 32 clubs in the last season of the old group stage.
+
+[One in a Krillion]
+Royal Antwerp | antwerp
+
+[Deep Cut]
+Copenhagen | fc copenhagen | kobenhavn
+Galatasaray
+Lens | rc lens
+Braga | sc braga | sporting braga
+Union Berlin | union
+Real Sociedad | sociedad
+Red Bull Salzburg | salzburg | rb salzburg
+Lazio
+Celtic
+Young Boys | bsc young boys
+Red Star Belgrade | red star | crvena zvezda
+Shakhtar Donetsk | shakhtar
+Feyenoord
+Sevilla
+PSV | psv eindhoven
+
+[Rare]
+Napoli
+Benfica
+Porto | fc porto
+RB Leipzig | leipzig
+Newcastle United | newcastle
+Atlético Madrid | atletico madrid | atletico | atleti
+Inter Milan | inter | internazionale
+Borussia Dortmund | dortmund | bvb
+
+[Schooler]
+AC Milan | milan
+Paris Saint-Germain | paris saint germain | psg
+Arsenal
+Manchester United | man united | man utd | united
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Bayern Munich | bayern | bayern munchen | fc bayern
+Manchester City | man city
+
+[Not accepted]
+Liverpool
+Chelsea
+Juventus
+Tottenham
+Ajax
+Bayer Leverkusen
+Leverkusen
+Sporting
+Marseille
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name an MLS team (2025 season)
+note: The 30 clubs in Major League Soccer in 2025, including newcomer San Diego FC.
+
+[One in a Krillion]
+San Diego FC | san diego
+
+[Deep Cut]
+St. Louis City SC | st louis city | st louis city sc | st louis
+CF Montréal | cf montreal | montreal | montreal impact
+Minnesota United | minnesota | minnesota united fc | loons
+San Jose Earthquakes | san jose | earthquakes | quakes
+New England Revolution | new england | revolution | revs
+Real Salt Lake | rsl | salt lake
+Nashville SC | nashville
+Charlotte FC | charlotte
+Austin FC | austin
+FC Dallas | dallas
+Houston Dynamo | houston | dynamo
+Vancouver Whitecaps | vancouver | whitecaps
+Philadelphia Union | philadelphia | union | philly union
+Columbus Crew | columbus | crew
+
+[Rare]
+Colorado Rapids | colorado | rapids
+Portland Timbers | portland | timbers
+Sporting Kansas City | sporting kc | skc | kansas city
+FC Cincinnati | cincinnati | fc cincy | cincy
+Chicago Fire | chicago | fire | chicago fire fc
+Orlando City | orlando | orlando city sc
+Toronto FC | toronto | tfc
+D.C. United | dc united | dc
+New York Red Bulls | ny red bulls | red bulls | nyrb
+New York City FC | nycfc | new york city
+
+[Schooler]
+Seattle Sounders | seattle | sounders
+Atlanta United | atlanta
+LAFC | los angeles fc | los angeles football club
+
+[Plankton]
+Inter Miami | miami | inter miami cf
+LA Galaxy | galaxy | los angeles galaxy
+
+[Not accepted]
+Chivas USA
+Tampa Bay Mutiny
+Miami Fusion
+Kansas City Wizards
+Metrostars
+San Antonio
+Sacramento Republic
+Las Vegas
+Phoenix Rising

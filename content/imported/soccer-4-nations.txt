@@ -1,0 +1,1132 @@
+// Soccer (fan category): national teams and tournaments.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has hosted a men's World Cup or Euros
+note: World Cups 1930-2026 and Euros 1960-2024, including every co-host and all 11 host countries of Euro 2020.
+
+[One in a Krillion]
+Azerbaijan
+
+[Deep Cut]
+Romania
+Hungary
+Denmark
+Scotland
+Yugoslavia
+Ukraine
+Poland
+Austria
+Chile
+Sweden
+Switzerland
+Belgium
+
+[Rare]
+Uruguay
+South Africa
+Japan
+South Korea | korea republic | korea
+Netherlands | holland
+Portugal
+Canada
+Qatar
+Russia
+
+[Schooler]
+Argentina
+Mexico
+United States | usa | us | america | united states of america
+England
+
+[Plankton]
+Germany | west germany
+Brazil
+France
+Italy
+Spain
+
+[Not accepted]
+Morocco
+Saudi Arabia
+Australia
+Colombia
+Ireland
+Wales
+Turkey
+China
+Greece
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has won the World Cup, Euros, Copa América or AFCON
+note: Men's tournaments through 2024 (Euro 2024, Copa América 2024 and the 2023 Africa Cup of Nations).
+
+[One in a Krillion]
+Sudan
+
+[Deep Cut]
+Ethiopia
+Congo | republic of the congo | congo brazzaville
+DR Congo | democratic republic of the congo | drc | zaire | congo kinshasa
+Zambia
+Tunisia
+Bolivia
+Peru
+Paraguay
+Czechoslovakia
+Soviet Union | ussr
+Greece
+
+[Rare]
+South Africa
+Algeria
+Morocco
+Cameroon
+Nigeria
+Ghana
+Egypt
+Ivory Coast | cote d'ivoire | côte d'ivoire
+Senegal
+Chile
+Colombia
+Denmark
+Netherlands | holland
+Portugal
+Uruguay
+
+[Schooler]
+England
+Italy
+Spain
+
+[Plankton]
+Brazil
+Argentina
+France
+Germany | west germany
+
+[Not accepted]
+United States
+USA
+Mexico
+Belgium
+Croatia
+Sweden
+Hungary
+Japan
+Australia
+Qatar
+Saudi Arabia
+Ecuador
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has reached a men's World Cup semi-final
+note: 1930 through 2022. The final-round groups of 1950, 1974 and 1978 count as the last four.
+
+[One in a Krillion]
+Yugoslavia
+
+[Deep Cut]
+Czechoslovakia
+Austria
+Hungary
+Chile
+Soviet Union | ussr
+Bulgaria
+Turkey | turkiye
+South Korea | korea republic | korea
+Poland
+United States | usa | us | america
+
+[Rare]
+Sweden
+Belgium
+Portugal
+Morocco
+Uruguay
+Croatia
+
+[Schooler]
+Netherlands | holland
+England
+Spain
+Italy
+
+[Plankton]
+Brazil
+Argentina
+France
+Germany | west germany
+
+[Not accepted]
+Mexico
+Colombia
+Japan
+Senegal
+Ghana
+Cameroon
+Switzerland
+Denmark
+Russia
+Paraguay
+Romania
+Ukraine
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has played at a Copa América
+note: All ten South American nations plus every invited guest, through the 2024 tournament.
+
+[One in a Krillion]
+Haiti
+
+[Deep Cut]
+Jamaica
+Honduras
+Qatar
+Panama
+Japan
+Costa Rica
+Bolivia
+Venezuela
+Canada
+
+[Rare]
+Paraguay
+Peru
+Ecuador
+Chile
+
+[Schooler]
+Colombia
+Uruguay
+Mexico
+United States | usa | us | america
+
+[Plankton]
+Brazil
+Argentina
+
+[Not accepted]
+Spain
+Australia
+Guatemala
+El Salvador
+Trinidad and Tobago
+Cuba
+Nicaragua
+South Korea
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has played at a men's Euros
+note: Every team at a final tournament, 1960 through 2024. West Germany counts as Germany; Euro 1992's CIS counts.
+
+[One in a Krillion]
+Latvia
+
+[Deep Cut]
+CIS | commonwealth of independent states
+Soviet Union | ussr
+Czechoslovakia
+Yugoslavia
+Slovenia
+Bulgaria
+Norway
+Finland
+North Macedonia | macedonia
+Georgia
+Albania
+Northern Ireland
+Iceland
+Greece
+Romania
+Hungary
+
+[Rare]
+Ireland | republic of ireland | eire
+Scotland
+Wales
+Serbia
+Slovakia
+Ukraine
+Austria
+Poland
+Czech Republic | czechia
+Russia
+Turkey | turkiye
+Sweden
+Switzerland
+Denmark
+
+[Schooler]
+Croatia
+Belgium
+Netherlands | holland
+Portugal
+
+[Plankton]
+England
+France
+Germany | west germany
+Italy
+Spain
+
+[Not accepted]
+Israel
+Bosnia
+Bosnia and Herzegovina
+Montenegro
+Cyprus
+Estonia
+Lithuania
+Luxembourg
+Kosovo
+Faroe Islands
+Armenia
+Belarus
+Kazakhstan
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a national team that is a member of UEFA
+note: All 55 UEFA member associations (Russia is suspended but still a member).
+
+[One in a Krillion]
+Gibraltar
+
+[Deep Cut]
+San Marino
+Liechtenstein
+Andorra
+Faroe Islands | faroes
+Luxembourg
+Malta
+Moldova
+Kosovo
+Kazakhstan
+Azerbaijan
+Armenia
+Belarus
+Lithuania
+Latvia
+Estonia
+Cyprus
+Montenegro
+North Macedonia | macedonia
+Israel
+Georgia
+Albania
+Bosnia and Herzegovina | bosnia | bosnia herzegovina | bosnia & herzegovina
+
+[Rare]
+Slovenia
+Slovakia
+Bulgaria
+Iceland
+Northern Ireland
+Finland
+Norway
+Hungary
+Romania
+Serbia
+Greece
+Ukraine
+Russia
+Austria
+Czech Republic | czechia
+
+[Schooler]
+Wales
+Scotland
+Ireland | republic of ireland | eire
+Turkey | turkiye
+Poland
+Sweden
+Switzerland
+Denmark
+Croatia
+Belgium
+
+[Plankton]
+England
+France
+Germany
+Spain
+Italy
+Portugal
+Netherlands | holland
+
+[Not accepted]
+Great Britain
+United Kingdom
+UK
+Yugoslavia
+Soviet Union
+Czechoslovakia
+Monaco
+Vatican City
+Greenland
+Australia
+Morocco
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a national team in CONMEBOL or CONCACAF
+note: All 10 CONMEBOL members and all 41 CONCACAF members, including non-FIFA members like Guadeloupe and Martinique.
+
+[One in a Krillion]
+Montserrat
+
+[Deep Cut]
+Anguilla
+Aruba
+Bonaire
+British Virgin Islands
+US Virgin Islands | united states virgin islands | usvi
+Cayman Islands
+Turks and Caicos Islands | turks and caicos
+Saint Kitts and Nevis | st kitts and nevis | st kitts
+Saint Lucia | st lucia
+Saint Vincent and the Grenadines | st vincent and the grenadines | st vincent
+Saint Martin | st martin
+Sint Maarten | st maarten
+Dominica
+Grenada
+Antigua and Barbuda | antigua
+Barbados
+Bermuda
+Belize
+Guadeloupe
+Martinique
+French Guiana
+Suriname
+Guyana
+Puerto Rico
+Bahamas | the bahamas
+
+[Rare]
+Nicaragua
+Curaçao | curacao
+Cuba
+Dominican Republic
+Haiti
+Trinidad and Tobago | trinidad
+El Salvador
+Guatemala
+Honduras
+Panama
+Venezuela
+Bolivia
+Paraguay
+Peru
+
+[Schooler]
+Jamaica
+Costa Rica
+Canada
+Ecuador
+Chile
+Colombia
+Uruguay
+
+[Plankton]
+United States | usa | us | america | usmnt
+Mexico
+Brazil
+Argentina
+
+[Not accepted]
+Australia
+Spain
+Portugal
+Greenland
+Falkland Islands
+Galapagos
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 2022 World Cup in Qatar
+note: The 32 teams at Qatar 2022.
+
+[One in a Krillion]
+Wales
+
+[Deep Cut]
+Ecuador
+Tunisia
+Costa Rica
+Iran
+Saudi Arabia
+Cameroon
+Ghana
+Serbia
+Canada
+Australia
+Poland
+Qatar
+
+[Rare]
+Senegal
+Japan
+South Korea | korea republic | korea
+Switzerland
+Denmark
+Mexico
+Uruguay
+Morocco
+Croatia
+
+[Schooler]
+United States | usa | us | america | usmnt
+Netherlands | holland
+Belgium
+Portugal
+Germany
+Spain
+England
+
+[Plankton]
+Argentina
+France
+Brazil
+
+[Not accepted]
+Italy
+Russia
+Nigeria
+Egypt
+Colombia
+Chile
+Sweden
+Scotland
+Ireland
+Peru
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 2018 World Cup in Russia
+note: The 32 teams at Russia 2018.
+
+[One in a Krillion]
+Panama
+
+[Deep Cut]
+Iceland
+Peru
+Egypt
+Tunisia
+Morocco
+Iran
+Saudi Arabia
+Costa Rica
+Serbia
+Nigeria
+Australia
+Poland
+Senegal
+
+[Rare]
+Japan
+South Korea | korea republic | korea
+Sweden
+Denmark
+Switzerland
+Colombia
+Mexico
+Uruguay
+Russia
+Croatia
+
+[Schooler]
+Belgium
+Portugal
+Spain
+Germany
+England
+
+[Plankton]
+France
+Brazil
+Argentina
+
+[Not accepted]
+United States
+USA
+Italy
+Netherlands
+Chile
+Ghana
+Wales
+Canada
+Qatar
+Ecuador
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 2014 World Cup in Brazil
+note: The 32 teams at Brazil 2014.
+
+[One in a Krillion]
+Honduras
+
+[Deep Cut]
+Bosnia and Herzegovina | bosnia | bosnia herzegovina | bosnia & herzegovina
+Algeria
+Iran
+Ecuador
+Costa Rica
+Greece
+Cameroon
+Ghana
+Nigeria
+Ivory Coast | cote d'ivoire | côte d'ivoire
+Australia
+Russia
+South Korea | korea republic | korea
+Japan
+
+[Rare]
+Switzerland
+Chile
+Croatia
+Mexico
+United States | usa | us | america | usmnt
+Uruguay
+Colombia
+Belgium
+
+[Schooler]
+Italy
+England
+Portugal
+Netherlands | holland
+Spain
+
+[Plankton]
+Brazil
+Germany
+Argentina
+France
+
+[Not accepted]
+Denmark
+Sweden
+Serbia
+Poland
+Egypt
+Senegal
+Peru
+Paraguay
+Slovakia
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 2010 World Cup in South Africa
+note: The 32 teams at South Africa 2010.
+
+[One in a Krillion]
+North Korea | korea dpr | dprk
+
+[Deep Cut]
+New Zealand
+Slovakia
+Slovenia
+Honduras
+Algeria
+Serbia
+Greece
+Paraguay
+Cameroon
+Nigeria
+Ghana
+Ivory Coast | cote d'ivoire | côte d'ivoire
+Denmark
+Japan
+South Korea | korea republic | korea
+Australia
+Switzerland
+
+[Rare]
+Chile
+Uruguay
+Mexico
+South Africa
+United States | usa | us | america | usmnt
+
+[Schooler]
+Italy
+England
+Portugal
+Netherlands | holland
+France
+
+[Plankton]
+Spain
+Germany
+Brazil
+Argentina
+
+[Not accepted]
+Croatia
+Russia
+Sweden
+Turkey
+Egypt
+Ecuador
+Colombia
+Ukraine
+Czech Republic
+Belgium
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 2006 World Cup in Germany
+note: The 32 teams at Germany 2006. Serbia and Montenegro played as one team.
+
+[One in a Krillion]
+Trinidad and Tobago | trinidad
+
+[Deep Cut]
+Angola
+Togo
+Serbia and Montenegro | serbia & montenegro
+Ivory Coast | cote d'ivoire | côte d'ivoire
+Ghana
+Tunisia
+Iran
+Saudi Arabia
+Ukraine
+Czech Republic | czechia
+Paraguay
+Ecuador
+Costa Rica
+Poland
+Croatia
+Australia
+Japan
+South Korea | korea republic | korea
+Switzerland
+Sweden
+
+[Rare]
+Mexico
+United States | usa | us | america | usmnt
+Portugal
+Netherlands | holland
+
+[Schooler]
+Spain
+England
+Argentina
+
+[Plankton]
+Italy
+France
+Germany
+Brazil
+
+[Not accepted]
+Serbia
+Montenegro
+Greece
+Turkey
+Russia
+Denmark
+Nigeria
+Cameroon
+Senegal
+Uruguay
+Belgium
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 2002 World Cup in South Korea and Japan
+note: The 32 teams at Korea/Japan 2002.
+
+[One in a Krillion]
+China | china pr
+
+[Deep Cut]
+Slovenia
+Senegal
+Tunisia
+Ecuador
+Costa Rica
+Paraguay
+Uruguay
+South Africa
+Cameroon
+Nigeria
+Saudi Arabia
+Poland
+Russia
+Croatia
+Denmark
+Sweden
+Ireland | republic of ireland | eire
+Belgium
+
+[Rare]
+Turkey | turkiye
+South Korea | korea republic | korea
+Japan
+Mexico
+United States | usa | us | america | usmnt
+Portugal
+
+[Schooler]
+Spain
+Italy
+England
+Argentina
+France
+
+[Plankton]
+Brazil
+Germany
+
+[Not accepted]
+Netherlands
+Holland
+Greece
+Czech Republic
+Colombia
+Chile
+Australia
+Iran
+Morocco
+Scotland
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 1998 World Cup in France
+note: The 32 teams at France 1998.
+
+[One in a Krillion]
+Jamaica
+
+[Deep Cut]
+Austria
+Bulgaria
+Norway
+Paraguay
+Morocco
+Tunisia
+South Africa
+Cameroon
+Nigeria
+Iran
+Saudi Arabia
+Japan
+South Korea | korea republic | korea
+Yugoslavia
+Romania
+Denmark
+Chile
+Colombia
+
+[Rare]
+Scotland
+Mexico
+United States | usa | us | america | usmnt
+Belgium
+Croatia
+
+[Schooler]
+Netherlands | holland
+Spain
+England
+Argentina
+Italy
+
+[Plankton]
+France
+Brazil
+Germany
+
+[Not accepted]
+Portugal
+Sweden
+Ireland
+Uruguay
+Russia
+Greece
+Turkey
+Australia
+Wales
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 1994 World Cup in the USA
+note: The 24 teams at USA 1994.
+
+[One in a Krillion]
+Bolivia
+
+[Deep Cut]
+Greece
+Norway
+Saudi Arabia
+Morocco
+Cameroon
+Nigeria
+South Korea | korea republic | korea
+Russia
+Bulgaria
+Romania
+Switzerland
+Belgium
+Sweden
+
+[Rare]
+Colombia
+Ireland | republic of ireland | eire
+Mexico
+United States | usa | us | america | usmnt
+
+[Schooler]
+Netherlands | holland
+Spain
+Argentina
+
+[Plankton]
+Brazil
+Italy
+Germany
+
+[Not accepted]
+England
+France
+Scotland
+Denmark
+Uruguay
+Chile
+Portugal
+Yugoslavia
+Japan
+Croatia
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at the 1990 World Cup in Italy
+note: The 24 teams at Italia 90. West Germany counts as Germany.
+
+[One in a Krillion]
+United Arab Emirates | uae
+
+[Deep Cut]
+Egypt
+Costa Rica
+Cameroon
+South Korea | korea republic | korea
+Soviet Union | ussr
+Czechoslovakia
+Yugoslavia
+Romania
+Austria
+Scotland
+Sweden
+Uruguay
+Colombia
+Belgium
+Ireland | republic of ireland | eire
+
+[Rare]
+United States | usa | us | america | usmnt
+Netherlands | holland
+Spain
+
+[Schooler]
+England
+Brazil
+
+[Plankton]
+Italy
+Argentina
+West Germany | germany
+
+[Not accepted]
+France
+Mexico
+Portugal
+Denmark
+Poland
+Hungary
+Northern Ireland
+Bulgaria
+Chile
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at Euro 2024 in Germany
+note: The 24 teams at Euro 2024.
+
+[One in a Krillion]
+Georgia
+
+[Deep Cut]
+Slovenia
+Albania
+Slovakia
+Romania
+Serbia
+Ukraine
+Czech Republic | czechia
+Hungary
+Scotland
+Austria
+Poland
+Turkey | turkiye
+Denmark
+
+[Rare]
+Switzerland
+Croatia
+Belgium
+
+[Schooler]
+Netherlands | holland
+Italy
+Portugal
+
+[Plankton]
+Spain
+England
+France
+Germany
+
+[Not accepted]
+Wales
+Sweden
+Norway
+Ireland
+Northern Ireland
+Greece
+Iceland
+Finland
+Russia
+Israel
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at Euro 2020 (played in 2021)
+note: The 24 teams at Euro 2020.
+
+[One in a Krillion]
+North Macedonia | macedonia
+
+[Deep Cut]
+Finland
+Slovakia
+Hungary
+Austria
+Ukraine
+Russia
+Czech Republic | czechia
+Scotland
+Wales
+Turkey | turkiye
+Poland
+Sweden
+
+[Rare]
+Switzerland
+Denmark
+Croatia
+Netherlands | holland
+Belgium
+
+[Schooler]
+Portugal
+Germany
+France
+
+[Plankton]
+Italy
+England
+Spain
+
+[Not accepted]
+Norway
+Ireland
+Northern Ireland
+Iceland
+Greece
+Serbia
+Romania
+Albania
+Georgia
+Slovenia
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that played at Euro 2016 in France
+note: The 24 teams at Euro 2016.
+
+[One in a Krillion]
+Iceland
+
+[Deep Cut]
+Albania
+Northern Ireland
+Slovakia
+Hungary
+Romania
+Austria
+Ukraine
+Czech Republic | czechia
+Ireland | republic of ireland | eire
+Turkey | turkiye
+Russia
+Sweden
+Switzerland
+Poland
+Croatia
+
+[Rare]
+Wales
+Belgium
+Italy
+
+[Schooler]
+Germany
+England
+Spain
+
+[Plankton]
+Portugal
+France
+
+[Not accepted]
+Netherlands
+Holland
+Denmark
+Scotland
+Greece
+Norway
+Serbia
+Finland
+Bosnia
+Israel
