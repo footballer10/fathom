@@ -6,6 +6,7 @@ import { getNickname, saveNickname } from "../nickname";
 import { useSettings } from "../settings";
 import type { Settings } from "../settings";
 import { sounds } from "../sound";
+import { AccountSection } from "./AccountSection";
 
 const OPTIONS: { key: keyof Settings; label: string; hint: string }[] = [
   { key: "sound", label: "Sound", hint: "Sonar ping on accept, soft thud on a miss, bubble pops" },
@@ -66,6 +67,7 @@ export function SettingsPanel({
             onClick={(e) => e.stopPropagation()}
           >
             <h3>Settings</h3>
+            <AccountSection open={open} />
             <form
               className="settings-name"
               onSubmit={(e) => {

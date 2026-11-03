@@ -150,6 +150,11 @@ export const api = {
   reportPrompt: (prompt: string, guess: string) => call<{ ok: true }>("POST", "/api/report", { prompt, guess }),
   profile: () => call<Profile>("GET", "/api/player"),
   setNickname: (nickname: string) => call<Profile>("POST", "/api/player", { nickname }),
+  account: () => call<{ username: string | null }>("GET", "/api/account"),
+  createAccount: (username: string, password: string) => call<{ username: string }>("POST", "/api/account/create", { username, password }),
+  signIn: (username: string, password: string) =>
+    call<{ username: string; playerId: string; nickname: string | null }>("POST", "/api/account/login", { username, password }),
+  changePassword: (current: string, next: string) => call<{ ok: true }>("POST", "/api/account/password", { current, next }),
   leaderboards: () => call<{ updatedAt: number; minAnswersForRates: number; boards: LeaderboardBoard[] }>("GET", "/api/leaderboards"),
   addFriend: (code: string) => call<{ ok: true; nickname: string | null }>("POST", "/api/friends", { code }),
   leaderboard: () =>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { NicknamePrompt } from "../nickname";
+import { AccountSection } from "./AccountSection";
 
 const SEEN_KEY = "fathom.welcomed";
 
@@ -23,6 +24,7 @@ function markWelcomed() {
 /** First thing a new player sees: pick a name for the leaderboards (or skip). */
 export function Welcome({ onDone }: { onDone: () => void }) {
   const [leaving, setLeaving] = useState(false);
+  const [signingIn, setSigningIn] = useState(false);
   const finish = () => {
     markWelcomed();
     setLeaving(true);
@@ -41,14 +43,29 @@ export function Welcome({ onDone }: { onDone: () => void }) {
         </div>
         <h2>Welcome to Fathom</h2>
         <p>Name something. The rarer your answer, the deeper you dive.</p>
-        <NicknamePrompt title="What should we call you?" onDone={finish} />
-        <p className="muted small">
-          Your name shows on the global leaderboards and to friends in party games. You can change it any time on the
-          leaderboards page.
-        </p>
-        <button className="link-btn" onClick={finish}>
-          Skip for now (you won't appear on leaderboards)
-        </button>
+        {signingIn ? (
+          <div className="card welcome-signin">
+            <h3>Sign in</h3>
+            <AccountSection open initial="signin" title={false} />
+            <button className="link-btn" onClick={() => setSigningIn(false)}>
+              I'm new here
+            </button>
+          </div>
+        ) : (
+          <>
+            <NicknamePrompt title="What should we call you?" onDone={finish} />
+            <p className="muted small">
+              Your name shows on the global leaderboards and to friends in party games. You can change it any time in
+              Settings, and make an account there to play on any device.
+            </p>
+            <button className="link-btn" onClick={() => setSigningIn(true)}>
+              Already have an account? Sign in
+            </button>
+            <button className="link-btn" onClick={finish}>
+              Skip for now (you won't appear on leaderboards)
+            </button>
+          </>
+        )}
       </motion.div>
     </motion.div>
   );

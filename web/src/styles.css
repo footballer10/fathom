@@ -2292,3 +2292,19 @@ body:has(.battle) .toasts { bottom: 104px; }
 .daily-top p { margin: 0 0 10px; }
 .daily-top-tiers { font-size: 0.8rem; letter-spacing: -1px; white-space: nowrap; }
 @media (max-width: 480px) { .daily-top-tiers { display: none; } }
+
+/* Account section in Settings */
+.settings-account { display: flex; flex-direction: column; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--glass-border); }
+.settings-account p { margin: 0; }
+.account-status { font-size: 1rem; }
+.account-form { display: flex; flex-direction: column; gap: 8px; }
+.account-input {
+  width: 100%; box-sizing: border-box; padding: 10px 12px; border-radius: 10px; font: inherit; font-size: 1rem;
+  background: rgba(255, 255, 255, 0.06); color: var(--text, #e8f4ff); border: 1px solid var(--glass-border);
+}
+.account-input:focus { outline: 2px solid var(--accent, #4cc9f0); outline-offset: 1px; }
+.account-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.account-actions .btn { flex: 1 1 auto; }
+.account-msg { color: var(--accent, #4cc9f0); }
+.welcome-signin { text-align: left; display: flex; flex-direction: column; gap: 10px; }
+.welcome-signin .settings-account { border-bottom: none; padding-bottom: 0; }

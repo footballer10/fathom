@@ -11,6 +11,7 @@ import { friendRoutes } from "./social";
 import { suggestionRoutes } from "./suggestions";
 import { practiceRoutes } from "./practice";
 import { isLocalHost, meterDb, type Tally } from "./meter";
+import { accountRoutes } from "./accounts";
 
 export { Room } from "./room";
 
@@ -72,6 +73,7 @@ app.route("/", roomRoutes);
 app.route("/", friendRoutes);
 app.route("/", suggestionRoutes);
 app.route("/", practiceRoutes);
+app.route("/", accountRoutes);
 
 app.all("/api/*", (c) => c.json({ error: "Not found" }, 404));
 
