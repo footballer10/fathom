@@ -23,6 +23,8 @@ import { PartyHome } from "./party/PartyHome";
 import { RoomPage } from "./party/RoomPage";
 import { navigate, useRoute } from "./router";
 import { useSettings } from "./settings";
+import { api } from "./api";
+import { setAccount } from "./player";
 
 type Screen =
   | { name: "home" }
@@ -72,6 +74,14 @@ export function App() {
       window.removeEventListener("keydown", onKey);
       document.removeEventListener("focusout", onFocusOut);
     };
+  }, []);
+
+  // Keep "am I signed in?" in step with the server (e.g. after signing out elsewhere).
+  useEffect(() => {
+    api
+      .account()
+      .then((a) => setAccount(a.username))
+      .catch(() => {});
   }, []);
 
   // CSS-only animations (background creatures, waves) read this to calm down too.

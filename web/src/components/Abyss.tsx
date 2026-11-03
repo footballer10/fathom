@@ -3,7 +3,7 @@ import { motion, useAnimationControls } from "framer-motion";
 import { formatDepth, tierInfo } from "@fathom/shared";
 import { api, serverNow } from "../api";
 import type { AbyssStatus } from "../api";
-import { getNickname } from "../nickname";
+import { getAccount } from "../player";
 import { TimerRing } from "./TimerRing";
 import { DidYouMean } from "./DidYouMean";
 
@@ -102,7 +102,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
           <p className="muted small">
             This week's category: <b>{status.category.replace("-", " & ")}</b>. The prompt stays hidden until you start. New Abyss in {untilText(status.weekEndsAt - Date.now())}.
           </p>
-          {!getNickname() && <p className="muted small">Add a name in Settings first if you want to appear on the Abyss board.</p>}
+          {!getAccount() && <p className="muted small">Guests don't appear on the Abyss board. Sign up in Settings first if you want to.</p>}
           <button className="btn btn--primary big-btn" onClick={() => void start()}>
             Start my dive
           </button>

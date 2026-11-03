@@ -12,6 +12,32 @@ export function getNickname(): string | null {
   }
 }
 
+const GUEST_KEY = "fathom.guestName";
+const CREATURES = ["Squid", "Octopus", "Narwhal", "Seahorse", "Starfish", "Urchin", "Krill", "Manta", "Orca", "Otter", "Puffin", "Walrus", "Lobster", "Jelly", "Eel", "Turtle", "Dolphin", "Shrimp", "Clam", "Anchovy"];
+
+/**
+ * The name you play parties under. Accounts use their leaderboard name; guests
+ * get a made-up one like "Narwhal 42", kept on this device only (so guests never
+ * show up on leaderboards).
+ */
+export function getPartyName(): string {
+  const mine = getNickname();
+  if (mine) return mine;
+  try {
+    const saved = localStorage.getItem(GUEST_KEY);
+    if (saved) return saved;
+  } catch {
+    /* fall through */
+  }
+  const name = `${CREATURES[Math.floor(Math.random() * CREATURES.length)]} ${10 + Math.floor(Math.random() * 90)}`;
+  try {
+    localStorage.setItem(GUEST_KEY, name);
+  } catch {
+    /* ignore */
+  }
+  return name;
+}
+
 export function saveNickname(name: string) {
   try {
     localStorage.setItem(KEY, name);

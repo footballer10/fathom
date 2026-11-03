@@ -3,7 +3,7 @@
  * unnamed player does too), then the global leaderboards are checked: named players
  * appear, the unnamed one never does, and values add up.
  */
-import { BASE, Bot, Checks, answerBook, createRoom, ensureServer } from "./lib";
+import { BASE, Bot, Checks, answerBook, createRoom, ensureServer, nameAccount } from "./lib";
 import type { ServerMessage } from "../../shared/src/index";
 
 const stop = await ensureServer();
@@ -44,7 +44,7 @@ try {
     { id: `sim-lb-${run}-c`, name: `Easy${run.slice(-3)}`, pick: (a: { text: string; tier: number }[]) => (a.find((x) => x.tier === 10) ?? a[0])?.text ?? "x" },
   ];
   const anon = `sim-lb-${run}-anon`;
-  for (const p of players) await call(p.id, "POST", "/api/player", { nickname: p.name });
+  for (const p of players) await nameAccount(p.id, p.name);
   for (const p of players) for (let d = 0; d < 2; d++) await dive(p.id, p.pick);
   await dive(anon, (a) => (a.find((x) => x.tier === 100) ?? a[0])?.text ?? "x");
 

@@ -109,3 +109,16 @@ export class Checks {
     return this.results.every((r) => r.ok);
   }
 }
+
+/**
+ * Give a sim player a leaderboard name. Only accounts have names, so this signs
+ * the player up (username = the name, which must fit username rules) first.
+ */
+export async function nameAccount(playerId: string, name: string): Promise<void> {
+  const res = await fetch(`${BASE}/api/account/create`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Player-Id": playerId },
+    body: JSON.stringify({ username: name, password: "simpass1" }),
+  });
+  if (!res.ok && res.status !== 409) throw new Error(`sign up ${name}: ${await res.text()}`);
+}

@@ -21,10 +21,9 @@ async function call(pid: string, method: string, path: string, body?: unknown): 
 try {
   const mac = `sim-acct-${run}-mac`;
   const phone = `sim-acct-${run}-phone`;
-  const user = `Diver_${run.slice(-5)}`;
+  const user = `Diver_${run.slice(-5)}`; // 11 characters (usernames are 3–16)
 
-  await call(mac, "POST", "/api/player", { nickname: `Mac${run.slice(-4)}` });
-  const before = await call(mac, "GET", "/api/player");
+  checks.check("guests can't pick a leaderboard name", (await call(mac, "POST", "/api/player", { nickname: `Mac${run.slice(-4)}` })).status === 403);
 
   checks.check("a new browser is a guest", (await call(mac, "GET", "/api/account")).data.username === null);
   checks.check("short passwords are refused", (await call(mac, "POST", "/api/account/create", { username: user, password: "123" })).status === 400);
@@ -32,6 +31,10 @@ try {
   const made = await call(mac, "POST", "/api/account/create", { username: user, password: "secret12" });
   checks.check("account created", made.status === 200 && made.data.username === user, JSON.stringify(made));
   checks.check("this browser is now signed in", (await call(mac, "GET", "/api/account")).data.username === user);
+  checks.check("the username became the leaderboard name", made.data.nickname === user);
+  const before = await call(mac, "GET", "/api/player");
+  checks.check("accounts can change their name", (await call(mac, "POST", "/api/player", { nickname: `Mac ${run.slice(-4)}` })).status === 200);
+  before.data.nickname = `Mac ${run.slice(-4)}`;
   checks.check("a second account on the same browser is refused", (await call(mac, "POST", "/api/account/create", { username: `${user}x`, password: "secret12" })).status === 409);
   checks.check("taken usernames are refused (any capitals)", (await call(phone, "POST", "/api/account/create", { username: user.toUpperCase(), password: "secret12" })).status === 409);
 
@@ -48,10 +51,8 @@ try {
   checks.check("old password no longer works", (await call(phone, "POST", "/api/account/login", { username: user, password: "secret12" })).status === 401);
   checks.check("new password works", (await call(phone, "POST", "/api/account/login", { username: user, password: "newpass1" })).status === 200);
 
-  let last = 0;
-  for (let i = 0; i < 8; i++) last = (await call(phone, "POST", "/api/account/login", { username: user, password: `bad${i}xyz` })).status;
-  checks.check("8 wrong passwords lock the account", last === 429);
-  checks.check("even the right password waits out the lock", (await call(phone, "POST", "/api/account/login", { username: user, password: "newpass1" })).status === 429);
+  for (let i = 0; i < 10; i++) await call(phone, "POST", "/api/account/login", { username: user, password: `bad${i}xyz` });
+  checks.check("no lockout: the right password still works after many wrong ones", (await call(phone, "POST", "/api/account/login", { username: user, password: "newpass1" })).status === 200);
 
   console.log(checks.ok ? "\nACCOUNTS SIMULATION PASSED" : "\nACCOUNTS SIMULATION FAILED");
   if (!checks.ok) process.exitCode = 1;

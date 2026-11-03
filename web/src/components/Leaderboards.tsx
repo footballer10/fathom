@@ -4,6 +4,8 @@ import { TIERS, formatDepth } from "@fathom/shared";
 import { api } from "../api";
 import type { LeaderboardBoard, LeaderboardEntry } from "../api";
 import { NicknamePrompt, getNickname } from "../nickname";
+import { getAccount } from "../player";
+import { AccountSection } from "./AccountSection";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
@@ -92,9 +94,14 @@ export function LeaderboardsPage() {
         <h2>Global leaderboards</h2>
       </div>
 
-      {!name || editing ? (
+      {!getAccount() ? (
+        <div className="card nickname-card">
+          <h3>Join the leaderboards</h3>
+          <AccountSection open title={false} blurb="Guests don't appear on leaderboards. Sign up (it's free, no email needed) and your scores count from then on, plus anything you've already played here." />
+        </div>
+      ) : !name || editing ? (
         <NicknamePrompt
-          title={name ? "Change your name" : "Add your name to join the leaderboards"}
+          title={name ? "Change your name" : "Pick your leaderboard name"}
           onDone={(n) => {
             setName(n);
             setEditing(false);

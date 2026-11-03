@@ -2,7 +2,7 @@
  * npm run sim:social: friend requests from the leaderboards and the suggestion
  * box, against the local server.
  */
-import { BASE, Checks, ensureServer } from "./lib";
+import { BASE, Checks, ensureServer, nameAccount } from "./lib";
 import { adminFetch } from "../lib/admin-client";
 
 const stop = await ensureServer();
@@ -21,8 +21,8 @@ async function call<T>(pid: string, method: string, path: string, body?: unknown
 try {
   const a = { id: `sim-soc-${run}-a`, name: `Ann${run.slice(-3)}` };
   const b = { id: `sim-soc-${run}-b`, name: `Ben${run.slice(-3)}` };
-  const pa = (await call<{ friendCode: string }>(a.id, "POST", "/api/player", { nickname: a.name })).data;
-  const pb = (await call<{ friendCode: string }>(b.id, "POST", "/api/player", { nickname: b.name })).data;
+  const pa = (await nameAccount(a.id, a.name), (await call<{ friendCode: string }>(a.id, "GET", "/api/player")).data);
+  const pb = (await nameAccount(b.id, b.name), (await call<{ friendCode: string }>(b.id, "GET", "/api/player")).data);
 
   const sent = await call<{ status: string }>(a.id, "POST", "/api/friends/requests", { code: pb.friendCode });
   checks.check("request sent", sent.ok && sent.data.status === "sent");
@@ -41,7 +41,7 @@ try {
 
   // Mutual: C asks A, then A asks C → instantly friends.
   const c = { id: `sim-soc-${run}-c`, name: `Cal${run.slice(-3)}` };
-  const pc = (await call<{ friendCode: string }>(c.id, "POST", "/api/player", { nickname: c.name })).data;
+  const pc = (await nameAccount(c.id, c.name), (await call<{ friendCode: string }>(c.id, "GET", "/api/player")).data);
   await call(c.id, "POST", "/api/friends/requests", { code: pa.friendCode });
   const mutual = await call<{ status: string }>(a.id, "POST", "/api/friends/requests", { code: pc.friendCode });
   checks.check("asking someone who already asked you makes you friends", mutual.data.status === "friends");

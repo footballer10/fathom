@@ -151,7 +151,7 @@ export const api = {
   profile: () => call<Profile>("GET", "/api/player"),
   setNickname: (nickname: string) => call<Profile>("POST", "/api/player", { nickname }),
   account: () => call<{ username: string | null }>("GET", "/api/account"),
-  createAccount: (username: string, password: string) => call<{ username: string }>("POST", "/api/account/create", { username, password }),
+  createAccount: (username: string, password: string) => call<{ username: string; nickname: string }>("POST", "/api/account/create", { username, password }),
   signIn: (username: string, password: string) =>
     call<{ username: string; playerId: string; nickname: string | null }>("POST", "/api/account/login", { username, password }),
   changePassword: (current: string, next: string) => call<{ ok: true }>("POST", "/api/account/password", { current, next }),

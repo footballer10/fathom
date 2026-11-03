@@ -43,6 +43,9 @@ friendRoutes.post("/api/player", async (c) => {
   const { nickname } = await c.req.json<{ nickname?: string }>().catch(() => ({ nickname: "" }));
   const problem = nicknameProblem(nickname ?? "");
   if (problem) throw new HttpError(400, problem);
+  // Only accounts have leaderboard names; guests play under a name kept on their device.
+  const account = await c.env.DB.prepare("SELECT 1 AS ok FROM accounts WHERE player_id = ?").bind(playerId).first().catch(() => null);
+  if (!account) throw new HttpError(403, "Make an account (in Settings) to choose a leaderboard name.");
   await profile(c.env, playerId);
   await c.env.DB.prepare("UPDATE players SET nickname = ? WHERE id = ?").bind(nickname!.trim(), playerId).run();
   return c.json(await profile(c.env, playerId));

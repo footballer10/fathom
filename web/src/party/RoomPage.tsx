@@ -21,7 +21,7 @@ import { RevealPanel } from "../components/RevealPanel";
 import { DidYouMean } from "../components/DidYouMean";
 import { SharkAttack } from "./SharkAttack";
 import { TimerRing } from "../components/TimerRing";
-import { NicknamePrompt, getNickname } from "../nickname";
+import { getPartyName } from "../nickname";
 import { navigate } from "../router";
 import { useSettings } from "../settings";
 import { sounds } from "../sound";
@@ -195,7 +195,7 @@ export function RoomPage({
   /** Everyone else's depth in a party Dive, for their submarines on the gauge. */
   onDivers: (divers: GaugeDiver[]) => void;
 }) {
-  const [nickname, setNickname] = useState<string | null>(getNickname());
+  const [nickname] = useState<string>(getPartyName);
   const { state, status, events, error, setError, send, revealAnswers, typing } = useRoom(code, nickname);
   const { settings } = useSettings();
   const lastEvent = events[events.length - 1];
@@ -273,14 +273,6 @@ export function RoomPage({
         break;
     }
   }, [lastEvent, state, settings.sound]);
-
-  if (!nickname) {
-    return (
-      <div className="room">
-        <NicknamePrompt onDone={setNickname} title={`Join room ${code}`} />
-      </div>
-    );
-  }
 
   if (status === "kicked") {
     return (

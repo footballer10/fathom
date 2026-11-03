@@ -26,9 +26,10 @@ export function getPlayerId(): string {
  * Switch this device to another player (after signing in to an account).
  * The page reloads afterwards so every screen starts fresh as that player.
  */
-export function switchPlayer(id: string, nickname: string | null) {
+export function switchPlayer(id: string, nickname: string | null, username: string) {
   try {
     localStorage.setItem(KEY, id);
+    localStorage.setItem(ACCOUNT_KEY, username);
     if (nickname) localStorage.setItem("fathom.nickname", nickname);
     else localStorage.removeItem("fathom.nickname");
     localStorage.setItem("fathom.welcomed", "1");
@@ -44,8 +45,29 @@ export function becomeGuest() {
   try {
     localStorage.setItem(KEY, id);
     localStorage.removeItem("fathom.nickname");
+    localStorage.removeItem(ACCOUNT_KEY);
   } catch {
     /* ignore */
   }
   cached = id;
+}
+
+const ACCOUNT_KEY = "fathom.account";
+
+/** The username this device is signed in as, or null for a guest. */
+export function getAccount(): string | null {
+  try {
+    return localStorage.getItem(ACCOUNT_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function setAccount(username: string | null) {
+  try {
+    if (username) localStorage.setItem(ACCOUNT_KEY, username);
+    else localStorage.removeItem(ACCOUNT_KEY);
+  } catch {
+    /* ignore */
+  }
 }

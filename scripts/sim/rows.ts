@@ -44,7 +44,7 @@ async function dive(mode: "daily" | "unlimited") {
 }
 
 try {
-  await call("player: set name", "POST", "/api/player", { nickname: `Rows${pid.slice(-4)}` });
+  await call("account: sign up", "POST", "/api/account/create", { username: `Rows${pid.slice(-4)}`, password: "simpass1" });
   await call("home: player", "GET", "/api/player");
   await call("home: daily", "GET", "/api/daily");
   await call("home: categories", "GET", "/api/categories");

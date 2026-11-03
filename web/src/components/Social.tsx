@@ -5,6 +5,8 @@ import { api } from "../api";
 import type { FriendRequest, LeaderboardRow, PlayerStats, Profile } from "../api";
 import { RequestList } from "./FriendRequests";
 import { NicknamePrompt, getNickname } from "../nickname";
+import { getAccount } from "../player";
+import { AccountSection } from "./AccountSection";
 import { navigate } from "../router";
 
 /** Streaks, averages and a histogram of Daily depths. */
@@ -91,6 +93,13 @@ export function FriendsPage() {
     if (nickname) void load();
   }, [nickname]);
 
+  if (!getAccount())
+    return (
+      <div className="card nickname-card">
+        <h3>Friends board</h3>
+        <AccountSection open title={false} blurb="Sign up to add friends and compare Dailies. Guests can still play parties with a made-up name." />
+      </div>
+    );
   if (!nickname) return <NicknamePrompt onDone={setNickname} title="Pick a nickname for the friends board" />;
 
   const add = async () => {
