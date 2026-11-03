@@ -17,6 +17,8 @@ export function AccountSection({
   title = true,
   blurb = "You're playing as a guest: you get a made-up name in parties and don't appear on leaderboards. Sign up to keep your progress on any device.",
   onCancel,
+  presetName = "",
+  cancelLabel,
 }: {
   open: boolean;
   initial?: AccountMode;
@@ -24,6 +26,10 @@ export function AccountSection({
   blurb?: string;
   /** If given, Cancel calls this instead of going back to the two buttons. */
   onCancel?: () => void;
+  /** Starting username for the sign-up form (e.g. the name a player already uses). */
+  presetName?: string;
+  /** Text for the Cancel/Back button. */
+  cancelLabel?: string;
 }) {
   const [username, setUsername] = useState<string | null | undefined>(getAccount() ?? undefined);
   const [mode, setMode] = useState<AccountMode>(initial);
@@ -36,6 +42,7 @@ export function AccountSection({
   useEffect(() => {
     if (!open) return;
     setMode(initial);
+    if (initial === "create" && presetName) setName(presetName);
     setMsg(null);
     api
       .account()
@@ -236,7 +243,7 @@ export function AccountSection({
               {busy ? "…" : mode === "create" ? "Sign up" : "Sign in"}
             </button>
             <button className="btn btn--ghost" type="button" onClick={cancel}>
-              {onCancel ? "Back" : "Cancel"}
+              {cancelLabel ?? (onCancel ? "Back" : "Cancel")}
             </button>
           </div>
         </form>

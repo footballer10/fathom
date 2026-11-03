@@ -12,7 +12,8 @@ import { Particles } from "./components/Particles";
 import { SettingsPanel } from "./components/SettingsPanel";
 import { LeaderboardsPage } from "./components/Leaderboards";
 import { ArchivePage, FriendsPage } from "./components/Social";
-import { Welcome, shouldWelcome } from "./components/Welcome";
+import { UpgradeAccount, Welcome, shouldWelcome } from "./components/Welcome";
+import { getNickname } from "./nickname";
 import { FriendRequestPopup } from "./components/FriendRequests";
 import { SuggestBox } from "./components/SuggestBox";
 import { AbyssPage } from "./components/Abyss";
@@ -77,10 +78,16 @@ export function App() {
   }, []);
 
   // Keep "am I signed in?" in step with the server (e.g. after signing out elsewhere).
+  // Players who picked a name before accounts existed are asked to make one.
+  const [upgradeName, setUpgradeName] = useState<string | null>(null);
   useEffect(() => {
     api
       .account()
-      .then((a) => setAccount(a.username))
+      .then((a) => {
+        setAccount(a.username);
+        const name = getNickname();
+        if (!a.username && name) setUpgradeName(name);
+      })
       .catch(() => {});
   }, []);
 
@@ -196,7 +203,8 @@ export function App() {
         onClose={() => setSettingsOpen(false)}
         onSuggest={() => setSuggestOpen(true)}
       />
-      {welcome && !roomCode && <Welcome onDone={() => setWelcome(false)} />}
+      {welcome && !roomCode && !upgradeName && <Welcome onDone={() => setWelcome(false)} />}
+      {upgradeName && route !== "/admin" && <UpgradeAccount name={upgradeName} />}
       {!welcome && !roomCode && <FriendRequestPopup />}
       <SuggestBox open={suggestOpen} onClose={() => setSuggestOpen(false)} />
     </MotionConfig>
