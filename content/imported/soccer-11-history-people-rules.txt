@@ -1,0 +1,1037 @@
+// Soccer (fan category): competitions, managers, captains and the laws of the game.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won the Copa Libertadores
+note: Every winner of South America's top club competition from 1960 through 2024.
+
+[One in a Krillion]
+Once Caldas
+
+[Deep Cut]
+Argentinos Juniors
+Vélez Sarsfield | velez sarsfield | velez
+Racing Club | racing
+Estudiantes | estudiantes de la plata
+Olimpia | club olimpia
+Atlético Nacional | atletico nacional
+LDU Quito | liga de quito | ldu
+Colo-Colo | colo colo
+Vasco da Gama | vasco
+Internacional | inter porto alegre
+Cruzeiro
+Atlético Mineiro | atletico mineiro | galo
+San Lorenzo
+Fluminense
+Botafogo
+Corinthians
+Nacional | club nacional | nacional montevideo
+
+[Rare]
+Independiente
+Peñarol | penarol
+Grêmio | gremio
+São Paulo | sao paulo
+Santos
+Palmeiras
+
+[Schooler]
+Flamengo
+River Plate | river
+
+[Plankton]
+Boca Juniors | boca
+
+[Not accepted]
+Real Madrid
+Inter Miami
+America
+Club America
+Chivas
+Cerro Porteño
+Cerro Porteno
+Barcelona SC
+Universitario
+Talleres
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has won the Africa Cup of Nations or Asian Cup
+note: Men's winners through AFCON 2023 and the 2023 Asian Cup (both played in early 2024).
+
+[One in a Krillion]
+Kuwait
+
+[Deep Cut]
+Sudan
+Ethiopia
+Congo | republic of the congo | congo brazzaville
+DR Congo | democratic republic of the congo | drc | zaire | congo kinshasa
+Zambia
+Tunisia
+Israel
+Iraq
+Qatar
+Algeria
+South Africa
+
+[Rare]
+Morocco
+Iran
+Saudi Arabia
+Australia
+Ivory Coast | cote d'ivoire | côte d'ivoire
+Senegal
+
+[Schooler]
+Ghana
+Cameroon
+Nigeria
+South Korea | korea republic | korea
+
+[Plankton]
+Egypt
+Japan
+
+[Not accepted]
+China
+North Korea
+Jordan
+United Arab Emirates
+UAE
+Mali
+Burkina Faso
+Cape Verde
+Uzbekistan
+India
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has won Olympic soccer gold (men's or women's)
+note: Every Olympic gold medalist through Paris 2024. Great Britain won the early men's tournaments; Canada won in 1904 (men) and 2020 (women).
+
+[One in a Krillion]
+East Germany | gdr
+
+[Deep Cut]
+Great Britain | gb | united kingdom | uk
+Belgium
+Sweden
+Hungary
+Yugoslavia
+Poland
+Czechoslovakia
+Soviet Union | ussr
+Nigeria
+Cameroon
+Norway
+Uruguay
+Canada
+
+[Rare]
+Mexico
+Germany
+Italy
+France
+Spain
+
+[Schooler]
+Argentina
+United States | usa | us | america | uswnt
+
+[Plankton]
+Brazil
+
+[Not accepted]
+Netherlands
+Portugal
+Japan
+South Korea
+Denmark
+Chile
+Croatia
+Ghana
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a country that has played in a men's World Cup or Euros final
+note: Winners and runners-up of World Cup finals (1930-2022, plus 1950's deciding match) and Euros finals (1960-2024). West Germany counts as Germany.
+
+[One in a Krillion]
+Greece
+
+[Deep Cut]
+Soviet Union | ussr
+Yugoslavia
+Czechoslovakia
+Czech Republic | czechia
+Hungary
+Sweden
+Belgium
+Denmark
+Croatia
+
+[Rare]
+Uruguay
+Portugal
+Netherlands | holland
+England
+
+[Schooler]
+Spain
+Italy
+France
+
+[Plankton]
+Brazil
+Argentina
+Germany | west germany
+
+[Not accepted]
+Morocco
+Turkey
+Russia
+Wales
+South Korea
+United States
+USA
+Poland
+Chile
+Austria
+Switzerland
+Bulgaria
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that reached a Champions League semi-final (2010-2025)
+note: Every semi-finalist from 2010 through 2025.
+
+[One in a Krillion]
+Monaco | as monaco
+
+[Deep Cut]
+Lyon | olympique lyonnais
+Schalke | schalke 04
+Roma | as roma
+Ajax
+RB Leipzig | leipzig
+Villarreal
+AC Milan | milan
+
+[Rare]
+Atlético Madrid | atletico madrid | atletico | atleti
+Juventus | juve
+Borussia Dortmund | dortmund | bvb
+Inter Milan | inter | internazionale
+Tottenham | tottenham hotspur | spurs
+Arsenal
+
+[Schooler]
+Chelsea
+Liverpool
+Paris Saint-Germain | paris saint germain | psg
+Manchester City | man city
+Manchester United | man united | man utd | united
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Bayern Munich | bayern | bayern munchen | fc bayern
+
+[Not accepted]
+Porto
+Benfica
+Napoli
+Atalanta
+Newcastle United
+Aston Villa
+Sevilla
+Valencia
+Bayer Leverkusen
+Leverkusen
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that reached a Europa League final (2010-2025)
+note: Winners and runners-up of every Europa League final from 2010 through 2025.
+
+[One in a Krillion]
+Dnipro | dnipro dnipropetrovsk | fc dnipro
+
+[Deep Cut]
+Fulham
+Braga | sc braga | sporting braga
+Athletic Bilbao | athletic club | bilbao
+Rangers
+Marseille | olympique de marseille | om
+Villarreal
+Eintracht Frankfurt | frankfurt
+Atalanta
+Bayer Leverkusen | leverkusen
+Roma | as roma
+Inter Milan | inter | internazionale
+Ajax
+Porto | fc porto
+Benfica
+
+[Rare]
+Atlético Madrid | atletico madrid | atletico | atleti
+Tottenham | tottenham hotspur | spurs
+Arsenal
+Liverpool
+Chelsea
+
+[Schooler]
+Manchester United | man united | man utd | united
+
+[Plankton]
+Sevilla
+
+[Not accepted]
+Real Madrid
+Barcelona
+Manchester City
+Bayern Munich
+Napoli
+Lazio
+Celtic
+West Ham
+Leicester City
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that reached an FA Cup final (1990-2025)
+note: Winners and runners-up of every FA Cup final from 1990 through 2025.
+
+[One in a Krillion]
+Millwall
+
+[Deep Cut]
+Cardiff City | cardiff
+Stoke City | stoke
+Wigan Athletic | wigan
+Hull City | hull
+Watford
+Sunderland
+Sheffield Wednesday
+Middlesbrough | boro
+Portsmouth | pompey
+Southampton
+Nottingham Forest | forest
+Leicester City | leicester
+
+[Rare]
+Crystal Palace | palace
+Newcastle United | newcastle
+West Ham United | west ham
+Everton
+Aston Villa | villa
+Tottenham | tottenham hotspur | spurs
+
+[Schooler]
+Manchester City | man city
+Liverpool
+
+[Plankton]
+Manchester United | man united | man utd | united
+Arsenal
+Chelsea
+
+[Not accepted]
+Brighton
+Leeds United
+Coventry City
+Wimbledon
+Ipswich Town
+Blackburn Rovers
+Bolton Wanderers
+Wolves
+Bradford City
+Fulham
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that won the PL, La Liga, Serie A, Bundesliga or Ligue 1 (2000-2025)
+note: League champions of the big five leagues for every season ending from 2000 through 2025.
+
+[One in a Krillion]
+Montpellier
+
+[Deep Cut]
+Nantes
+Bordeaux | girondins de bordeaux
+Deportivo La Coruña | deportivo | deportivo la coruna | depor
+Lazio
+Roma | as roma
+Werder Bremen | bremen | werder
+VfB Stuttgart | stuttgart
+Wolfsburg | vfl wolfsburg
+Lille | losc
+Monaco | as monaco
+Valencia
+
+[Rare]
+Lyon | olympique lyonnais
+Marseille | olympique de marseille | om
+Bayer Leverkusen | leverkusen
+Leicester City | leicester
+Napoli
+Atlético Madrid | atletico madrid | atletico | atleti
+Borussia Dortmund | dortmund | bvb
+
+[Schooler]
+AC Milan | milan
+Inter Milan | inter | internazionale
+Juventus | juve
+Paris Saint-Germain | paris saint germain | psg
+Arsenal
+Chelsea
+Liverpool
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Bayern Munich | bayern | bayern munchen | fc bayern
+Manchester United | man united | man utd | united
+Manchester City | man city
+
+[Not accepted]
+Tottenham
+Newcastle United
+Sevilla
+Villarreal
+Atalanta
+Fiorentina
+Schalke
+RB Leipzig
+Leipzig
+Rennes
+Nice
+Lens
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that won the Copa del Rey, Coppa Italia or DFB-Pokal (2000-2025)
+note: Every winner of the Spanish, Italian and German domestic cups from 2000 through 2025.
+
+[One in a Krillion]
+1. FC Nürnberg | nurnberg | nuremberg | fc nurnberg
+
+[Deep Cut]
+Mallorca | real mallorca
+Espanyol
+Real Zaragoza | zaragoza
+Deportivo La Coruña | deportivo | deportivo la coruna | depor
+Real Betis | betis
+Real Sociedad | sociedad
+Athletic Bilbao | athletic club | bilbao
+Parma
+Fiorentina
+Bologna
+Schalke | schalke 04
+Werder Bremen | bremen | werder
+Wolfsburg | vfl wolfsburg
+VfB Stuttgart | stuttgart
+Eintracht Frankfurt | frankfurt
+RB Leipzig | leipzig
+
+[Rare]
+Sevilla
+Valencia
+Lazio
+Roma | as roma
+Napoli
+Bayer Leverkusen | leverkusen
+Borussia Dortmund | dortmund | bvb
+Atlético Madrid | atletico madrid | atletico | atleti
+
+[Schooler]
+Inter Milan | inter | internazionale
+AC Milan | milan
+Juventus | juve
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+Bayern Munich | bayern | bayern munchen | fc bayern
+
+[Not accepted]
+Villarreal
+Getafe
+Osasuna
+Alaves
+Atalanta
+Torino
+Sampdoria
+Hertha Berlin
+Arminia Bielefeld
+Kaiserslautern
+Gladbach
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that has won the MLS Cup or the Supporters' Shield
+note: Every MLS Cup winner and Supporters' Shield winner from 1996 through 2024, including defunct clubs.
+
+[One in a Krillion]
+Tampa Bay Mutiny | tampa bay | mutiny
+
+[Deep Cut]
+Miami Fusion | fusion
+FC Dallas | dallas
+FC Cincinnati | cincinnati | fc cincy | cincy
+New England Revolution | new england | revolution | revs
+Philadelphia Union | philadelphia | union
+San Jose Earthquakes | san jose | earthquakes | quakes
+Chicago Fire | chicago | fire
+Houston Dynamo | houston | dynamo
+Real Salt Lake | rsl | salt lake
+Colorado Rapids | colorado | rapids
+
+[Rare]
+Sporting Kansas City | sporting kc | skc | kansas city | kansas city wizards | wizards
+Columbus Crew | columbus | crew
+D.C. United | dc united | dc
+Portland Timbers | portland | timbers
+Toronto FC | toronto | tfc
+Atlanta United | atlanta
+New York City FC | nycfc | new york city
+New York Red Bulls | ny red bulls | red bulls | nyrb | metrostars
+
+[Schooler]
+Seattle Sounders | seattle | sounders
+LAFC | los angeles fc
+Inter Miami | miami | inter miami cf
+
+[Plankton]
+LA Galaxy | galaxy | los angeles galaxy
+
+[Not accepted]
+Orlando City
+Minnesota United
+Nashville SC
+Austin FC
+Vancouver Whitecaps
+CF Montreal
+Charlotte FC
+St. Louis City
+Chivas USA
+San Diego FC
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a manager who won the European Cup or Champions League (1980-2025)
+note: Every winning head coach from Brian Clough's Nottingham Forest (1980) to Luis Enrique's PSG (2025).
+
+[One in a Krillion]
+Emerich Jenei | jenei
+
+[Deep Cut]
+Tony Barton | barton
+Joe Fagan | fagan
+Artur Jorge
+Ljupko Petrović | ljupko petrovic | petrovic
+Raymond Goethals | goethals
+Ernst Happel | happel
+Ottmar Hitzfeld | hitzfeld
+Roberto Di Matteo | di matteo | rdm
+Guus Hiddink | hiddink
+Frank Rijkaard | rijkaard
+Giovanni Trapattoni | trapattoni | trap
+Arrigo Sacchi | sacchi
+
+[Rare]
+Brian Clough | clough
+Bob Paisley | paisley
+Johan Cruyff | cruyff
+Fabio Capello | capello
+Louis van Gaal | van gaal
+Marcello Lippi | lippi
+Jupp Heynckes | heynckes
+Vicente del Bosque | del bosque
+Rafael Benítez | rafael benitez | benitez | rafa benitez
+Hansi Flick | flick
+Thomas Tuchel | tuchel
+Luis Enrique | luis enrique martinez
+
+[Schooler]
+Alex Ferguson | ferguson | sir alex ferguson | fergie
+José Mourinho | jose mourinho | mourinho
+Zinedine Zidane | zidane | zizou
+Jürgen Klopp | jurgen klopp | klopp
+
+[Plankton]
+Pep Guardiola | guardiola | pep
+Carlo Ancelotti | ancelotti
+
+[Not accepted]
+Arsène Wenger
+Arsene Wenger
+Diego Simeone
+Simeone
+Mauricio Pochettino
+Antonio Conte
+Simone Inzaghi
+Massimiliano Allegri
+Mikel Arteta
+Xabi Alonso
+Bill Shankly
+Matt Busby
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a manager who won the PL, La Liga, Serie A or Bundesliga (2011-2025)
+note: Title-winning managers for every season from 2010-11 through 2024-25.
+
+[One in a Krillion]
+Tito Vilanova | vilanova
+
+[Deep Cut]
+Manuel Pellegrini | pellegrini
+Niko Kovač | niko kovac | kovac
+Stefano Pioli | pioli
+Ernesto Valverde | valverde
+Maurizio Sarri | sarri
+Luciano Spalletti | spalletti
+Simone Inzaghi | inzaghi
+Julian Nagelsmann | nagelsmann
+Vincent Kompany | kompany
+Roberto Mancini | mancini
+Claudio Ranieri | ranieri
+Arne Slot | slot
+
+[Rare]
+Massimiliano Allegri | allegri
+Antonio Conte | conte
+Diego Simeone | simeone | cholo
+Hansi Flick | flick
+Xavi | xavi hernandez
+Jupp Heynckes | heynckes
+Thomas Tuchel | tuchel
+Xabi Alonso | alonso
+Luis Enrique | luis enrique martinez
+Zinedine Zidane | zidane | zizou
+
+[Schooler]
+Alex Ferguson | ferguson | sir alex ferguson | fergie
+José Mourinho | jose mourinho | mourinho
+Jürgen Klopp | jurgen klopp | klopp
+Carlo Ancelotti | ancelotti
+
+[Plankton]
+Pep Guardiola | guardiola | pep
+
+[Not accepted]
+Arsène Wenger
+Arsene Wenger
+Mikel Arteta
+Mauricio Pochettino
+Rafael Benítez
+Erik ten Hag
+Unai Emery
+Gian Piero Gasperini
+Lucien Favre
+Edin Terzić
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a manager of Manchester United or Liverpool (1945-2025)
+note: Permanent managers plus interim and caretaker bosses, from 1945 through 2025.
+
+[One in a Krillion]
+Don Welsh | welsh
+
+[Deep Cut]
+George Kay | kay
+Phil Taylor | taylor
+Wilf McGuinness | mcguinness
+Frank O'Farrell | frank ofarrell | ofarrell | o'farrell
+Dave Sexton | sexton
+Jimmy Murphy | murphy
+Ronnie Moran | moran
+Phil Thompson | thompson
+Ralf Rangnick | rangnick
+Michael Carrick | carrick
+Ryan Giggs | giggs
+Ruud van Nistelrooy | van nistelrooy | rvn
+
+[Rare]
+Tommy Docherty | docherty | the doc
+Ron Atkinson | atkinson | big ron
+Joe Fagan | fagan
+Graeme Souness | souness
+Roy Evans | evans
+Gérard Houllier | gerard houllier | houllier
+Roy Hodgson | hodgson
+Brendan Rodgers | rodgers
+David Moyes | moyes
+Louis van Gaal | van gaal
+Rúben Amorim | ruben amorim | amorim
+
+[Schooler]
+Matt Busby | busby | sir matt busby
+Bill Shankly | shankly
+Bob Paisley | paisley
+Kenny Dalglish | dalglish | king kenny
+Rafael Benítez | rafael benitez | benitez | rafa benitez
+José Mourinho | jose mourinho | mourinho
+Ole Gunnar Solskjær | ole gunnar solskjaer | solskjaer | ole
+Erik ten Hag | ten hag
+
+[Plankton]
+Alex Ferguson | ferguson | sir alex ferguson | fergie
+Jürgen Klopp | jurgen klopp | klopp
+Arne Slot | slot
+
+[Not accepted]
+Brian Clough
+Arsène Wenger
+Arsene Wenger
+Pep Guardiola
+Sam Allardyce
+Steven Gerrard
+Gerrard
+Mauricio Pochettino
+Antonio Conte
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a coach who won the men's World Cup or Euros
+note: Every winning head coach, World Cups 1930-2022 and Euros 1960-2024.
+
+[One in a Krillion]
+Václav Ježek | vaclav jezek | jezek
+
+[Deep Cut]
+Alberto Suppici | suppici
+Juan López Fontana | juan lopez fontana | juan lopez
+Sepp Herberger | herberger
+Vicente Feola | feola
+Aymoré Moreira | aymore moreira
+Gavriil Kachalin | kachalin
+José Villalonga | jose villalonga | villalonga
+Ferruccio Valcareggi | valcareggi
+Jupp Derwall | derwall
+Michel Hidalgo | hidalgo
+Richard Møller Nielsen | richard moller nielsen | moller nielsen
+Roger Lemerre | lemerre
+Helmut Schön | helmut schon | schoen | schon
+Enzo Bearzot | bearzot
+César Luis Menotti | cesar luis menotti | menotti
+Carlos Bilardo | bilardo
+Vittorio Pozzo | pozzo
+Berti Vogts | vogts
+
+[Rare]
+Alf Ramsey | ramsey | sir alf ramsey
+Mário Zagallo | mario zagallo | zagallo
+Franz Beckenbauer | beckenbauer
+Carlos Alberto Parreira | parreira
+Aimé Jacquet | aime jacquet | jacquet
+Rinus Michels | michels
+Otto Rehhagel | rehhagel
+Luis Aragonés | luis aragones | aragones
+Fernando Santos | santos
+Luiz Felipe Scolari | scolari | big phil
+Marcello Lippi | lippi
+
+[Schooler]
+Vicente del Bosque | del bosque
+Joachim Löw | joachim low | low | loew
+Roberto Mancini | mancini
+Luis de la Fuente | de la fuente
+
+[Plankton]
+Didier Deschamps | deschamps
+Lionel Scaloni | scaloni
+
+[Not accepted]
+Gareth Southgate
+Southgate
+Tite
+Louis van Gaal
+Zlatko Dalić
+Zlatko Dalic
+Pep Guardiola
+Johan Cruyff
+Jürgen Klinsmann
+Jurgen Klinsmann
+Gregg Berhalter
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a goalkeeper who started a men's World Cup final (1966-2022)
+note: Both starting goalkeepers in every final from 1966 through 2022.
+
+[One in a Krillion]
+Hans Tilkowski | tilkowski
+
+[Deep Cut]
+Félix | felix | felix mielli venerando
+Enrico Albertosi | albertosi
+Jan Jongbloed | jongbloed
+Ubaldo Fillol | fillol
+Harald Schumacher | schumacher | toni schumacher
+Nery Pumpido | pumpido
+Bodo Illgner | illgner
+Sergio Goycochea | goycochea
+Gianluca Pagliuca | pagliuca
+Cláudio Taffarel | claudio taffarel | taffarel
+Marcos
+Maarten Stekelenburg | stekelenburg
+Sergio Romero | romero | chiquito romero
+Danijel Subašić | danijel subasic | subasic
+
+[Rare]
+Sepp Maier | maier
+Dino Zoff | zoff
+Fabien Barthez | barthez
+Gordon Banks | banks
+
+[Schooler]
+Oliver Kahn | kahn
+Hugo Lloris | lloris
+Emiliano Martínez | emiliano martinez | dibu martinez | dibu | emi martinez
+
+[Plankton]
+Gianluigi Buffon | buffon | gigi buffon
+Iker Casillas | casillas
+Manuel Neuer | neuer
+
+[Not accepted]
+Lev Yashin
+Yashin
+Peter Shilton
+Shilton
+Thibaut Courtois
+Courtois
+Alisson
+David de Gea
+Peter Schmeichel
+Edwin van der Sar
+Dida
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a captain who lifted the men's World Cup
+note: The winning captain of every World Cup from 1930 through 2022.
+
+[One in a Krillion]
+José Nasazzi | jose nasazzi | nasazzi
+
+[Deep Cut]
+Gianpiero Combi | combi
+Giuseppe Meazza | meazza
+Obdulio Varela | varela
+Fritz Walter | walter
+Hilderaldo Bellini | bellini
+Mauro Ramos | mauro
+Daniel Passarella | passarella
+Lothar Matthäus | lothar matthaus | matthaus | matthaeus
+
+[Rare]
+Bobby Moore | moore
+Carlos Alberto | carlos alberto torres
+Dino Zoff | zoff
+Dunga
+Didier Deschamps | deschamps
+Fabio Cannavaro | cannavaro
+Philipp Lahm | lahm
+Hugo Lloris | lloris
+
+[Schooler]
+Franz Beckenbauer | beckenbauer
+Cafu
+Iker Casillas | casillas
+
+[Plankton]
+Diego Maradona | maradona
+Lionel Messi | messi | leo messi
+
+[Not accepted]
+Pelé
+Pele
+Ronaldo
+Zinedine Zidane
+Zidane
+Paolo Maldini
+Gianluigi Buffon
+Sergio Ramos
+Bastian Schweinsteiger
+Luka Modric
+Paul Pogba
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a winner of the PFA Players' Player of the Year (2000-2025)
+note: Every winner of the English players' union award from 2000 through 2025.
+
+[One in a Krillion]
+Teddy Sheringham | sheringham
+
+[Deep Cut]
+Roy Keane | keane
+Ruud van Nistelrooy | van nistelrooy | rvn
+John Terry | terry
+Ryan Giggs | giggs
+Riyad Mahrez | mahrez
+N'Golo Kanté | ngolo kante | kante
+Robin van Persie | van persie | rvp
+
+[Rare]
+Steven Gerrard | gerrard
+Wayne Rooney | rooney
+Luis Suárez | luis suarez | suarez
+Eden Hazard | hazard
+Phil Foden | foden
+Gareth Bale | bale
+
+[Schooler]
+Thierry Henry | henry
+Virgil van Dijk | van dijk | vvd
+Kevin De Bruyne | de bruyne | kdb
+Erling Haaland | haaland
+
+[Plankton]
+Cristiano Ronaldo | ronaldo | cr7 | cristiano
+Mohamed Salah | mo salah | salah | mohammed salah
+
+[Not accepted]
+Frank Lampard
+Lampard
+Harry Kane
+Kane
+Sergio Agüero
+Sergio Aguero
+Didier Drogba
+Jamie Vardy
+Bukayo Saka
+Rodri
+Cole Palmer
+Son Heung-min
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a foul or offense in soccer's Laws of the Game
+note: Anything the referee can punish with a free kick, a penalty, a yellow or a red card under Law 12 (plus offside under Law 11), in official or everyday wording.
+
+[One in a Krillion]
+Spitting | spit | spitting at an opponent
+
+[Deep Cut]
+Biting | bite
+Impeding | impeding an opponent | obstruction | blocking
+Charging | charging an opponent | barging
+Jumping at an opponent | jumping at
+Striking | striking an opponent | punching | headbutting | headbutt | head butt
+Throwing an object | throwing objects
+Dangerous play | playing in a dangerous manner | high foot | high boot
+Preventing the goalkeeper releasing the ball | preventing the goalkeeper from releasing the ball
+Goalkeeper handling a back pass | back pass | backpass | handling a back pass
+Six-second rule | six second rule | eight second rule | holding the ball too long | goalkeeper holding the ball
+Double touch | touching the ball twice | double kick
+Foul throw | foul throw in | illegal throw in | bad throw in
+Encroachment | failing to respect the distance | not respecting the distance | encroaching
+Entering the field without permission | leaving the field without permission
+Persistent fouling | persistent infringement | persistent offenses
+Denying an obvious goal-scoring opportunity | dogso | denying a goal scoring opportunity | professional foul
+Using offensive language | offensive language | abusive language | swearing at the referee
+Second yellow card | second caution | two yellow cards
+Removing your shirt | taking off your shirt | shirt removal | excessive celebration
+Serious foul play
+Violent conduct
+
+[Rare]
+Kicking | kicking an opponent
+Pushing | push
+Holding | holding an opponent | shirt pulling | grabbing
+Tripping | trip
+Elbowing | elbow | using an elbow
+Unsporting behavior | unsporting behaviour | unsportsmanlike conduct
+Simulation | diving | dive | flopping
+Time-wasting | time wasting | delaying the restart | delaying the restart of play
+Dissent | arguing with the referee
+Reckless tackle | late tackle | dangerous tackle | two footed tackle | studs up tackle | sliding tackle from behind | tackle from behind
+
+[Schooler]
+Offside
+Tackling | bad tackle | foul tackle
+
+[Plankton]
+Handball | hand ball | handling the ball | hands
+
+[Not accepted]
+Traveling
+Double dribble
+Goaltending
+Icing
+Holding call
+Pass interference
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a marking or part of a soccer field or goal
+note: Lines, areas and fixtures from the Laws of the Game (Law 1), plus the dugouts and technical area, in official or everyday wording.
+
+[One in a Krillion]
+Penalty arc | the d
+
+[Deep Cut]
+Center mark | centre mark | center spot | centre spot | kick-off spot
+Corner arc | corner quarter circle
+Halfway line flag
+Technical area | coaching box
+Goal area | six-yard box | 6 yard box | six yard box
+Penalty mark | penalty spot | spot
+Goal line | byline | end line
+Touchline | sideline | side line
+Substitutes' bench | bench | dugout | dugouts
+Referee review area | review area | var monitor | pitchside monitor | rra
+
+[Rare]
+Center circle | centre circle
+Halfway line | half way line | center line | middle line
+Penalty area | penalty box | 18-yard box | 18 yard box | eighteen yard box | the box
+Corner flag | corner post
+
+[Schooler]
+Crossbar | bar
+Goalpost | post | goal post | posts | upright
+Net | goal net
+
+[Too Clever]
+Field of play | pitch | playing field | the pitch
+
+[Plankton]
+Goal
+
+[Not accepted]
+End zone
+Free-throw line
+Three-point line
+Pitcher's mound
+Home plate
+Blue line
+Crease
+Baseline
+Service line
+Scoreboard

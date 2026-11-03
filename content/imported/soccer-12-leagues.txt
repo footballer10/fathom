@@ -1,0 +1,501 @@
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in La Liga or Serie A in 2023-24
+note: The 20 La Liga clubs and 20 Serie A clubs of the 2023-24 season.
+
+[One in a Krillion]
+Frosinone
+
+[Deep Cut]
+Cádiz | cadiz
+Almería | almeria
+Granada
+Las Palmas | ud las palmas
+Alavés | alaves | deportivo alaves
+Mallorca | real mallorca
+Getafe
+Rayo Vallecano | rayo
+Celta Vigo | celta
+Osasuna
+Salernitana
+Sassuolo
+Empoli
+Cagliari
+Udinese
+Lecce
+Hellas Verona | verona
+Monza
+Genoa
+Torino
+
+[Rare]
+Girona
+Valencia
+Villarreal
+Real Betis | betis
+Real Sociedad | sociedad
+Athletic Bilbao | athletic club | bilbao
+Sevilla
+Fiorentina
+Lazio
+Bologna
+Atalanta
+Roma | as roma
+Napoli
+
+[Schooler]
+Atlético Madrid | atletico madrid | atletico | atleti
+Inter Milan | inter | internazionale
+AC Milan | milan
+Juventus | juve
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+
+[Not accepted]
+Leganes
+Espanyol
+Valladolid
+Elche
+Parma
+Como
+Venezia
+Sampdoria
+Spezia
+Cremonese
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in the Bundesliga or Ligue 1 in 2023-24
+note: The 18 Bundesliga clubs and 18 Ligue 1 clubs of the 2023-24 season.
+
+[One in a Krillion]
+Darmstadt | darmstadt 98 | sv darmstadt
+
+[Deep Cut]
+Heidenheim | 1 fc heidenheim
+VfL Bochum | bochum
+1. FC Köln | koln | cologne | fc koln | fc cologne
+Union Berlin | union
+Augsburg | fc augsburg
+Mainz | mainz 05
+Wolfsburg | vfl wolfsburg
+Hoffenheim | tsg hoffenheim
+Freiburg | sc freiburg
+Clermont | clermont foot
+Lorient | fc lorient
+Metz | fc metz
+Le Havre
+Nantes
+Strasbourg | rc strasbourg
+Montpellier
+Toulouse
+Reims | stade de reims
+Rennes | stade rennais
+Brest | stade brestois
+
+[Rare]
+Werder Bremen | bremen | werder
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+Eintracht Frankfurt | frankfurt
+VfB Stuttgart | stuttgart
+RB Leipzig | leipzig
+Lens | rc lens
+Nice | ogc nice
+Lyon | olympique lyonnais | ol
+Lille | losc
+Monaco | as monaco
+Marseille | olympique de marseille | om
+
+[Schooler]
+Bayer Leverkusen | leverkusen
+Borussia Dortmund | dortmund | bvb
+
+[Plankton]
+Bayern Munich | bayern | bayern munchen | fc bayern
+Paris Saint-Germain | paris saint germain | psg
+
+[Not accepted]
+Schalke
+Hertha Berlin
+Hamburg
+Holstein Kiel
+St Pauli
+Auxerre
+Angers
+Saint-Etienne
+Ajaccio
+Troyes
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in La Liga or Serie A in 2022-23
+note: The 20 La Liga clubs and 20 Serie A clubs of the 2022-23 season.
+
+[One in a Krillion]
+Cremonese
+
+[Deep Cut]
+Elche
+Espanyol
+Real Valladolid | valladolid
+Almería | almeria
+Cádiz | cadiz
+Getafe
+Celta Vigo | celta
+Rayo Vallecano | rayo
+Girona
+Mallorca | real mallorca
+Osasuna
+Sampdoria
+Spezia
+Hellas Verona | verona
+Lecce
+Salernitana
+Empoli
+Sassuolo
+Udinese
+Monza
+Torino
+
+[Rare]
+Valencia
+Sevilla
+Athletic Bilbao | athletic club | bilbao
+Real Betis | betis
+Villarreal
+Real Sociedad | sociedad
+Bologna
+Fiorentina
+Atalanta
+Lazio
+Roma | as roma
+Napoli
+
+[Schooler]
+Atlético Madrid | atletico madrid | atletico | atleti
+Inter Milan | inter | internazionale
+AC Milan | milan
+Juventus | juve
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+
+[Not accepted]
+Granada
+Levante
+Alaves
+Las Palmas
+Genoa
+Cagliari
+Venezia
+Frosinone
+Parma
+Como
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in the Bundesliga or Ligue 1 in 2022-23
+note: The 18 Bundesliga clubs and 20 Ligue 1 clubs of the 2022-23 season.
+
+[One in a Krillion]
+Troyes | estac troyes
+
+[Deep Cut]
+Hertha Berlin | hertha | hertha bsc
+Schalke | schalke 04
+VfL Bochum | bochum
+Augsburg | fc augsburg
+Werder Bremen | bremen | werder
+Hoffenheim | tsg hoffenheim
+1. FC Köln | koln | cologne | fc koln | fc cologne
+Mainz | mainz 05
+Wolfsburg | vfl wolfsburg
+Freiburg | sc freiburg
+Union Berlin | union
+Ajaccio | ac ajaccio
+Angers
+Auxerre
+Clermont | clermont foot
+Lorient | fc lorient
+Strasbourg | rc strasbourg
+Nantes
+Brest | stade brestois
+Toulouse
+Montpellier
+Reims | stade de reims
+
+[Rare]
+VfB Stuttgart | stuttgart
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+Eintracht Frankfurt | frankfurt
+RB Leipzig | leipzig
+Rennes | stade rennais
+Nice | ogc nice
+Lyon | olympique lyonnais | ol
+Lille | losc
+Monaco | as monaco
+Lens | rc lens
+Marseille | olympique de marseille | om
+
+[Schooler]
+Bayer Leverkusen | leverkusen
+Borussia Dortmund | dortmund | bvb
+
+[Plankton]
+Bayern Munich | bayern | bayern munchen | fc bayern
+Paris Saint-Germain | paris saint germain | psg
+
+[Not accepted]
+Darmstadt
+Heidenheim
+Hamburg
+Arminia Bielefeld
+Greuther Furth
+Metz
+Le Havre
+Bordeaux
+Saint-Etienne
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in La Liga or Serie A in 2025-26
+note: The 20 La Liga clubs and 20 Serie A clubs of the 2025-26 season, including promoted Levante, Elche, Real Oviedo, Sassuolo, Pisa and Cremonese.
+
+[One in a Krillion]
+Real Oviedo | oviedo
+
+[Deep Cut]
+Levante
+Elche
+Alavés | alaves | deportivo alaves
+Espanyol
+Getafe
+Mallorca | real mallorca
+Osasuna
+Rayo Vallecano | rayo
+Celta Vigo | celta
+Girona
+Pisa
+Cremonese
+Sassuolo
+Lecce
+Cagliari
+Hellas Verona | verona
+Udinese
+Genoa
+Parma
+Como
+Torino
+
+[Rare]
+Valencia
+Villarreal
+Real Betis | betis
+Real Sociedad | sociedad
+Athletic Bilbao | athletic club | bilbao
+Sevilla
+Bologna
+Fiorentina
+Lazio
+Atalanta
+Roma | as roma
+Napoli
+
+[Schooler]
+Atlético Madrid | atletico madrid | atletico | atleti
+Inter Milan | inter | internazionale
+AC Milan | milan
+Juventus | juve
+
+[Plankton]
+Real Madrid | real
+Barcelona | barca | barça | fc barcelona
+
+[Not accepted]
+Leganes
+Las Palmas
+Valladolid
+Empoli
+Venezia
+Monza
+Granada
+Almeria
+Cadiz
+Sampdoria
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club that played in the Bundesliga or Ligue 1 in 2025-26
+note: The 18 Bundesliga clubs and 18 Ligue 1 clubs of the 2025-26 season, including promoted Köln, Hamburg, Lorient, Paris FC and Metz.
+
+[One in a Krillion]
+Paris FC | paris fc
+
+[Deep Cut]
+Hamburger SV | hamburg | hsv | hamburger
+1. FC Köln | koln | cologne | fc koln | fc cologne
+Heidenheim | 1 fc heidenheim
+St. Pauli | st pauli | fc st pauli
+Augsburg | fc augsburg
+Union Berlin | union
+Hoffenheim | tsg hoffenheim
+Mainz | mainz 05
+Wolfsburg | vfl wolfsburg
+Freiburg | sc freiburg
+Werder Bremen | bremen | werder
+Lorient | fc lorient
+Metz | fc metz
+Le Havre
+Angers
+Auxerre
+Nantes
+Toulouse
+Brest | stade brestois
+Rennes | stade rennais
+Strasbourg | rc strasbourg
+
+[Rare]
+Borussia Mönchengladbach | borussia monchengladbach | monchengladbach | gladbach
+VfB Stuttgart | stuttgart
+Eintracht Frankfurt | frankfurt
+RB Leipzig | leipzig
+Lens | rc lens
+Nice | ogc nice
+Lille | losc
+Lyon | olympique lyonnais | ol
+Monaco | as monaco
+Marseille | olympique de marseille | om
+
+[Schooler]
+Bayer Leverkusen | leverkusen
+Borussia Dortmund | dortmund | bvb
+
+[Plankton]
+Bayern Munich | bayern | bayern munchen | fc bayern
+Paris Saint-Germain | paris saint germain | psg
+
+[Not accepted]
+Holstein Kiel
+VfL Bochum
+Schalke
+Hertha Berlin
+Darmstadt
+Reims
+Saint-Etienne
+Montpellier
+Bordeaux
+Ajaccio
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2023-24 Championship
+note: The 24 clubs of the 2023-24 Championship season.
+
+[One in a Krillion]
+Rotherham United | rotherham
+
+[Deep Cut]
+Plymouth Argyle | plymouth
+Huddersfield Town | huddersfield
+Birmingham City | birmingham
+Sheffield Wednesday
+Queens Park Rangers | qpr
+Stoke City | stoke
+Preston North End | preston
+Bristol City
+Millwall
+Swansea City | swansea
+Cardiff City | cardiff
+Hull City | hull
+Coventry City | coventry
+Blackburn Rovers | blackburn
+
+[Rare]
+Watford
+Middlesbrough | boro
+Norwich City | norwich
+West Bromwich Albion | west brom | wba
+Sunderland
+
+[Schooler]
+Ipswich Town | ipswich
+Southampton | saints
+Leeds United | leeds
+
+[Plankton]
+Leicester City | leicester
+
+[Not accepted]
+Burnley
+Luton Town
+Sheffield United
+Portsmouth
+Derby County
+Oxford United
+Wigan Athletic
+Reading
+Bolton Wanderers
+Barnsley
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a club in the 2025-26 Championship
+note: The 24 clubs of the 2025-26 Championship season, including promoted Birmingham, Wrexham and Charlton.
+
+[One in a Krillion]
+Charlton Athletic | charlton
+
+[Deep Cut]
+Oxford United | oxford
+Preston North End | preston
+Hull City | hull
+Derby County | derby
+Portsmouth | pompey
+Queens Park Rangers | qpr
+Stoke City | stoke
+Millwall
+Bristol City
+Swansea City | swansea
+Sheffield Wednesday
+Blackburn Rovers | blackburn
+Coventry City | coventry
+
+[Rare]
+Watford
+Norwich City | norwich
+Middlesbrough | boro
+West Bromwich Albion | west brom | wba
+Birmingham City | birmingham
+Sheffield United
+Southampton | saints
+Ipswich Town | ipswich
+
+[Schooler]
+Wrexham | wrexham afc
+
+[Plankton]
+Leicester City | leicester
+
+[Not accepted]
+Leeds United
+Burnley
+Sunderland
+Luton Town
+Plymouth Argyle
+Cardiff City
+Huddersfield Town
+Rotherham
+Bolton Wanderers
+Reading
+

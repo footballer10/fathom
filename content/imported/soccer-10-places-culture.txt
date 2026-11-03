@@ -1,0 +1,822 @@
+// Soccer (fan category): cities, stadiums, mascots, balls and awards.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a city or town that has had a Premier League club
+note: Home towns of the 51 Premier League clubs through 2024-25. London covers Arsenal, Chelsea, Spurs, West Ham, Palace, Fulham, Brentford, QPR, Charlton and Wimbledon.
+
+[One in a Krillion]
+Oldham
+
+[Deep Cut]
+Swindon
+Barnsley
+Bradford
+Blackpool
+Wigan
+Bolton
+Blackburn
+Burnley
+Huddersfield
+Hull | kingston upon hull
+Derby
+Coventry
+Reading
+Watford
+Luton
+Swansea
+Cardiff
+West Bromwich | west bromwich albion
+Stoke-on-Trent | stoke | stoke on trent
+Middlesbrough
+Ipswich
+Norwich
+Portsmouth
+Bournemouth
+Sunderland
+Wolverhampton | wolves
+
+[Rare]
+Brighton | brighton and hove | hove
+Southampton
+Leicester
+Nottingham
+Sheffield
+Leeds
+Newcastle | newcastle upon tyne
+Birmingham
+
+[Schooler]
+Manchester
+Liverpool
+
+[Plankton]
+London
+
+[Not accepted]
+Bristol
+Plymouth
+Wrexham
+Oxford
+Millwall
+Peterborough
+Glasgow
+Edinburgh
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a city with a 2024-25 Premier League or La Liga club
+note: The home cities of the 40 clubs. Madrid covers Real, Atlético and Rayo; Getafe and Leganés count as their own towns; Villarreal is a town too.
+
+[One in a Krillion]
+Vitoria-Gasteiz | vitoria | vitoria gasteiz
+
+[Deep Cut]
+Cornellà de Llobregat | cornella | cornella de llobregat
+Leganés | leganes
+Getafe
+Valladolid
+Las Palmas | las palmas de gran canaria
+Pamplona
+Palma | palma de mallorca | mallorca
+Vigo
+Girona
+Villarreal | vila-real | vila real
+San Sebastián | san sebastian | donostia
+Bilbao
+Ipswich
+Bournemouth
+Wolverhampton
+
+[Rare]
+Valencia
+Seville | sevilla
+Brighton | brighton and hove | hove
+Southampton
+Leicester
+Nottingham
+Newcastle | newcastle upon tyne
+Birmingham
+
+[Schooler]
+Barcelona
+Liverpool
+
+[Plankton]
+London
+Manchester
+Madrid
+
+[Not accepted]
+Cadiz
+Granada
+Almeria
+Malaga
+Elche
+Leeds
+Sheffield
+Burnley
+Luton
+Bristol
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a city with a 2024-25 Serie A or Bundesliga club
+note: The home cities of the 38 clubs. Hoffenheim plays in Sinsheim; St. Pauli is in Hamburg; Gladbach is Mönchengladbach.
+
+[One in a Krillion]
+Sinsheim
+
+[Deep Cut]
+Heidenheim
+Kiel
+Bochum
+Augsburg
+Wolfsburg
+Mönchengladbach | monchengladbach | gladbach
+Freiburg
+Mainz
+Leverkusen
+Lecce
+Empoli
+Venice | venezia
+Monza
+Como
+Udine
+Cagliari
+Parma
+Verona
+Genoa | genova
+Bergamo
+
+[Rare]
+Hamburg
+Bremen
+Stuttgart
+Leipzig
+Frankfurt
+Dortmund
+Bologna
+Florence | firenze
+Naples | napoli
+
+[Schooler]
+Berlin
+Turin | torino
+
+[Plankton]
+Munich | munchen | muenchen
+Milan | milano
+Rome | roma
+
+[Not accepted]
+Cologne
+Koln
+Gelsenkirchen
+Dusseldorf
+Darmstadt
+Salerno
+Sassuolo
+Frosinone
+Palermo
+Bari
+Pisa
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a host city or stadium of the 2026 World Cup
+note: The 16 host cities (US metro names count) and their 16 stadiums, by tournament or everyday names.
+
+[One in a Krillion]
+Estadio Akron | akron stadium | estadio guadalajara
+
+[Deep Cut]
+Estadio BBVA | bbva stadium | estadio monterrey
+Guadalajara
+Monterrey
+Arrowhead Stadium | geha field at arrowhead | arrowhead | kansas city stadium
+NRG Stadium | nrg | houston stadium
+Mercedes-Benz Stadium | mercedes benz stadium | atlanta stadium
+Lincoln Financial Field | the linc | philadelphia stadium
+Lumen Field | seattle stadium
+Levi's Stadium | levis stadium | levis | san francisco bay area stadium
+Gillette Stadium | gillette | boston stadium
+Hard Rock Stadium | hard rock | miami stadium
+BMO Field | toronto stadium
+BC Place | vancouver stadium
+AT&T Stadium | att stadium | at and t stadium | dallas stadium | jerry world
+SoFi Stadium | sofi | los angeles stadium
+
+[Rare]
+Kansas City
+Houston
+Atlanta
+Philadelphia
+Seattle
+San Francisco Bay Area | san francisco | bay area | santa clara
+Boston | foxborough
+Toronto
+Vancouver
+Mexico City | ciudad de mexico
+Dallas | arlington
+
+[Schooler]
+Miami
+Los Angeles | la | inglewood
+MetLife Stadium | metlife | new york new jersey stadium
+Estadio Azteca | azteca | estadio banorte | mexico city stadium
+
+[Plankton]
+New York | new york new jersey | new jersey | east rutherford
+
+[Not accepted]
+Denver
+Washington
+Chicago
+Orlando
+Nashville
+Montreal
+Edmonton
+Rose Bowl
+Soldier Field
+Empower Field
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a city that hosted a Champions League final (1993-2025)
+note: The 20 cities of the Champions League finals from 1993 through 2025. Saint-Denis counts as Paris; Gelsenkirchen hosted in 2004.
+
+[One in a Krillion]
+Gelsenkirchen
+
+[Deep Cut]
+Glasgow
+Cardiff
+Kyiv | kiev
+Porto
+Vienna | wien
+Athens
+Moscow
+Amsterdam
+Istanbul
+
+[Rare]
+Lisbon | lisboa
+Berlin
+Rome | roma
+Manchester
+Milan | milano
+
+[Schooler]
+Munich | munchen
+Barcelona
+Paris | saint denis | st denis
+
+[Plankton]
+London
+Madrid
+
+[Not accepted]
+Budapest
+Liverpool
+Seville
+Dortmund
+Turin
+Brussels
+Rotterdam
+Stockholm
+Baku
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name the home stadium of a 2024-25 Championship club
+note: The grounds of the 24 Championship clubs in 2024-25, by any common name.
+
+[One in a Krillion]
+Home Park
+
+[Deep Cut]
+Kassam Stadium | kassam
+Deepdale
+Coventry Building Society Arena | cbs arena | ricoh arena | coventry arena
+Ashton Gate
+The Den | den
+Kenilworth Road
+MKM Stadium | kc stadium | mkm
+Cardiff City Stadium
+Swansea.com Stadium | swanseacom stadium | liberty stadium
+Fratton Park
+Loftus Road | kiyan prince foundation stadium | matrade loftus road
+bet365 Stadium | bet365 | britannia stadium
+Pride Park | pride park stadium
+Vicarage Road
+Carrow Road
+Ewood Park
+
+[Rare]
+Hillsborough
+Riverside Stadium | riverside
+The Hawthorns | hawthorns
+Bramall Lane
+Turf Moor
+
+[Schooler]
+Stadium of Light
+Elland Road
+
+[Not accepted]
+St Andrew's
+St Andrews
+Portman Road
+Molineux
+Oakwell
+Bloomfield Road
+The Valley
+Kirklees Stadium
+Racecourse Ground
+Madejski Stadium
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name the home stadium of a 2024-25 La Liga or Serie A club
+note: The grounds of the 40 clubs, by current or recent names. Barcelona played at Montjuïc in 2024-25; their Camp Nou counts too. Rome's two clubs share the Olimpico; Milan's share San Siro.
+
+[One in a Krillion]
+Stadio Pier Luigi Penzo | penzo | pier luigi penzo
+
+[Deep Cut]
+Butarque | estadio municipal de butarque
+Estadio José Zorrilla | jose zorrilla | zorrilla
+Estadio Gran Canaria | gran canaria
+Mendizorroza
+Coliseum | coliseum alfonso perez | alfonso perez
+El Sadar | estadio el sadar
+Son Moix | estadi mallorca son moix
+Balaídos | balaidos | abanca balaidos
+Estadio de Vallecas | vallecas
+RCDE Stadium | stage front stadium | cornella el prat | espanyol stadium
+Montilivi
+Stadio Giuseppe Sinigaglia | sinigaglia
+U-Power Stadium | u power stadium | stadio brianteo
+Stadio Carlo Castellani | castellani
+Stadio Via del Mare | via del mare
+Unipol Domus | sardegna arena
+Stadio Ennio Tardini | tardini
+Stadio Marcantonio Bentegodi | bentegodi
+Bluenergy Stadium | stadio friuli | dacia arena
+Stadio Luigi Ferraris | luigi ferraris | marassi
+Stadio Olimpico Grande Torino | olimpico grande torino | grande torino
+Gewiss Stadium | stadio atleti azzurri d'italia | atleti azzurri ditalia
+
+[Rare]
+Estadi Olímpic Lluís Companys | montjuic | estadi olimpic lluis companys | olympic stadium barcelona
+Estadio de la Cerámica | la ceramica | estadio de la ceramica | el madrigal
+Estadio Benito Villamarín | benito villamarin | villamarin
+Ramón Sánchez-Pizjuán | ramon sanchez pizjuan | sanchez pizjuan
+Reale Arena | anoeta
+Mestalla
+San Mamés | san mames
+Stadio Renato Dall'Ara | dall'ara | dallara | renato dallara
+Stadio Artemio Franchi | artemio franchi | franchi
+Stadio Diego Armando Maradona | diego armando maradona stadium | stadio maradona | san paolo
+
+[Schooler]
+Metropolitano | wanda metropolitano | riyadh air metropolitano | civitas metropolitano
+Allianz Stadium | juventus stadium
+Stadio Olimpico | olimpico
+
+[Plankton]
+Santiago Bernabéu | santiago bernabeu | bernabeu
+Camp Nou | nou camp | spotify camp nou
+San Siro | giuseppe meazza | stadio giuseppe meazza
+
+[Not accepted]
+Delle Alpi
+Vicente Calderon
+Nuevo Los Carmenes
+Ramon de Carranza
+Mapei Stadium
+La Rosaleda
+Riazor
+El Molinon
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name the home stadium of a 2024-25 Bundesliga or Ligue 1 club
+note: The grounds of the 36 clubs, by current or former names.
+
+[One in a Krillion]
+Holstein-Stadion | holstein stadion
+
+[Deep Cut]
+Voith-Arena | voith arena
+Millerntor-Stadion | millerntor stadion | millerntor
+PreZero Arena | rhein neckar arena
+Vonovia Ruhrstadion | ruhrstadion
+WWK Arena | augsburg arena
+Volkswagen Arena | vw arena
+Stadion An der Alten Försterei | an der alten forsterei | alte forsterei
+Europa-Park Stadion | europa park stadion
+Mewa Arena | mainz arena | opel arena
+Stade de l'Abbé-Deschamps | abbe deschamps | stade abbe deschamps
+Stade Raymond Kopa | raymond kopa
+Stade Océane | stade oceane | oceane
+Stade de la Mosson | la mosson | mosson
+Stade Auguste-Delaune | auguste delaune
+Stadium de Toulouse | stadium municipal | toulouse stadium
+Stade de la Beaujoire | la beaujoire | beaujoire
+Roazhon Park | stade de la route de lorient
+Stade Francis-Le Blé | francis le ble
+Stade de la Meinau | la meinau | meinau
+Stade Bollaert-Delelis | bollaert | bollaert delelis
+Allianz Riviera
+Stade Pierre-Mauroy | pierre mauroy | stade pierre mauroy
+Stade Geoffroy-Guichard | geoffroy guichard
+
+[Rare]
+Weserstadion
+MHPArena | mhp arena | mercedes benz arena | neckarstadion | gottlieb daimler stadion
+Borussia-Park | borussia park
+Red Bull Arena | leipzig stadium
+Deutsche Bank Park | waldstadion | commerzbank arena
+BayArena | bay arena
+Groupama Stadium | parc ol | parc olympique lyonnais
+Stade Louis II | louis ii
+
+[Schooler]
+Signal Iduna Park | westfalenstadion
+Stade Vélodrome | stade velodrome | velodrome | orange velodrome
+
+[Plankton]
+Allianz Arena
+Parc des Princes
+
+[Not accepted]
+Veltins-Arena
+Olympiastadion
+Volksparkstadion
+RheinEnergieStadion
+Stade de France
+Stade Gerland
+Matmut Atlantique
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a 2025 MLS team's home stadium
+note: The grounds of all 30 MLS clubs in 2025, by current or recent names.
+
+[One in a Krillion]
+Energizer Park | citypark | city park
+
+[Deep Cut]
+Q2 Stadium | q2
+Snapdragon Stadium | snapdragon
+PayPal Park | earthquakes stadium | avaya stadium
+America First Field | rio tinto stadium
+Stade Saputo | saputo
+Geodis Park | geodis
+Allianz Field
+TQL Stadium | tql
+Toyota Stadium | pizza hut park
+Shell Energy Stadium | bbva compass stadium | pnc stadium
+Audi Field
+Lower.com Field | lowercom field | scottsmiracle gro field
+Subaru Park | talen energy stadium
+Inter&Co Stadium | inter and co stadium | exploria stadium | orlando city stadium
+Sports Illustrated Stadium | red bull arena
+Chase Stadium | drv pnk stadium | lockhart stadium
+Children's Mercy Park | childrens mercy park | sporting park
+Dick's Sporting Goods Park | dicks sporting goods park | dsg park
+
+[Rare]
+Providence Park | jeld wen field
+BMO Field
+BC Place
+Dignity Health Sports Park | stubhub center | home depot center
+BMO Stadium | banc of california stadium
+Lumen Field | centurylink field
+Gillette Stadium
+Bank of America Stadium
+Soldier Field
+Mercedes-Benz Stadium | mercedes benz stadium
+Yankee Stadium
+Citi Field
+
+[Not accepted]
+Rose Bowl
+SoFi Stadium
+Hard Rock Stadium
+MetLife Stadium
+Empower Field
+Coors Field
+Ball Arena
+Nu Stadium
+Miami Freedom Park
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a host city or stadium of Euro 2024
+note: The 10 host cities and their 10 stadiums, by everyday names or UEFA's tournament names (like "Munich Football Arena").
+
+[One in a Krillion]
+Merkur Spiel-Arena | merkur spiel arena | dusseldorf arena | esprit arena
+
+[Deep Cut]
+RheinEnergieStadion | rheinenergiestadion | cologne stadium | mungersdorfer stadion
+Volksparkstadion | hamburg stadium | volkspark
+Red Bull Arena | leipzig stadium
+Veltins-Arena | veltins arena | arena aufschalke | arena gelsenkirchen | arena auf schalke
+MHPArena | mhp arena | stuttgart arena
+Deutsche Bank Park | frankfurt arena | waldstadion
+Gelsenkirchen
+Düsseldorf | dusseldorf
+Leipzig
+
+[Rare]
+Cologne | koln | koeln
+Stuttgart
+Frankfurt
+Hamburg
+Signal Iduna Park | bvb stadion dortmund | westfalenstadion
+Olympiastadion Berlin | olympiastadion | olympic stadium berlin
+
+[Schooler]
+Dortmund
+Allianz Arena | munich football arena
+
+[Plankton]
+Berlin
+Munich | munchen | muenchen
+
+[Not accepted]
+Bremen
+Hanover
+Hannover
+Nuremberg
+Kaiserslautern
+Weserstadion
+BayArena
+Leverkusen
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a stadium used at the 2018 or 2022 World Cup
+note: The 12 stadiums of Russia 2018 and the 8 of Qatar 2022, by tournament or everyday names.
+
+[One in a Krillion]
+Stadium 974 | ras abu aboud
+
+[Deep Cut]
+Kaliningrad Stadium | kaliningrad
+Kazan Arena | kazan
+Mordovia Arena | saransk
+Samara Arena | samara | cosmos arena
+Rostov Arena | rostov
+Volgograd Arena | volgograd
+Ekaterinburg Arena | ekaterinburg | central stadium
+Nizhny Novgorod Stadium | nizhny novgorod
+Fisht Stadium | fisht | sochi
+Spartak Stadium | otkritie arena | spartak
+Saint Petersburg Stadium | krestovsky | gazprom arena | saint petersburg | st petersburg stadium
+Al Janoub Stadium | al janoub | al wakrah
+Ahmad bin Ali Stadium | ahmad bin ali | al rayyan stadium
+Education City Stadium | education city
+Al Thumama Stadium | al thumama
+Khalifa International Stadium | khalifa international | khalifa
+
+[Rare]
+Al Bayt Stadium | al bayt
+Luzhniki Stadium | luzhniki
+
+[Plankton]
+Lusail Stadium | lusail | lusail iconic stadium
+
+[Not accepted]
+Maracana
+Soccer City
+Arena Corinthians
+Aspire Zone
+Dynamo Stadium
+Lokomotiv Stadium
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name an official mascot of a men's World Cup
+note: Every official mascot from World Cup Willie (1966) through 2026's trio. Group mascots count by each name.
+
+[One in a Krillion]
+Pique | pique the chili
+
+[Deep Cut]
+Juanito
+Tip | tip and tap
+Tap
+Gauchito
+Naranjito
+Ciao
+Striker | striker the world cup pup
+Ato
+Kaz
+Nik
+The Spheriks | spheriks
+Pille
+Goleo | goleo vi
+Fuleco
+Maple | maple the moose
+Zayu | zayu the jaguar
+Clutch | clutch the bald eagle
+
+[Rare]
+Footix
+Zakumi
+Zabivaka
+World Cup Willie | willie
+
+[Schooler]
+La'eeb | laeeb
+
+[Not accepted]
+Victor
+Berni
+Super Victor
+Skillzy
+Albart
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name an official match ball of a men's World Cup
+note: The official balls from 1970's Telstar through 2026's Trionda, plus earlier balls like the 1966 Challenge 4-Star.
+
+[One in a Krillion]
+Etrusco Unico | etrusco
+
+[Deep Cut]
+Telstar Durlast | telstar 1970 | telstar 1974
+Chile Durlast | chile
+Tango Durlast | tango | tango riverplate
+Tango España | tango espana
+Azteca | adidas azteca
+Questra
+Tricolore
+Fevernova
+Challenge 4-Star | challenge
+Crack
+Top Star
+Swiss World Champion
+Duplo T
+Allen
+Federale 102
+Tiento
+T-Model | t model
+
+[Rare]
+Teamgeist
+Telstar 18 | telstar
+Trionda
+Al Rihla
+
+[Schooler]
+Brazuca
+
+[Plankton]
+Jabulani
+
+[Not accepted]
+Mercurial
+Predator
+Finale
+UCL Finale
+Nike Flight
+Uniforia
+Fussballliebe
+Conext
+Beau Jeu
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name an individual award a men's soccer player can win
+note: Major individual player awards from FIFA, UEFA, the World Cup, the big leagues and well-known media awards. Team trophies don't count.
+
+[One in a Krillion]
+Sócrates Award | socrates award | socrates
+
+[Deep Cut]
+Kopa Trophy | kopa
+Yashin Trophy | yashin
+Gerd Müller Trophy | gerd muller trophy | muller trophy
+Johan Cruyff Trophy
+Onze d'Or | onze dor
+Golden Foot
+Bravo Award | bravo
+Pichichi Trophy | pichichi
+Zamora Trophy | zamora
+Capocannoniere
+Torjägerkanone | torjagerkanone | kicker torjagerkanone
+FWA Footballer of the Year | fwa | football writers award | football writers footballer of the year
+PFA Young Player of the Year | pfa young player
+Premier League Young Player of the Season
+Premier League Golden Glove | golden glove pl
+Premier League Playmaker of the Season | playmaker award
+World Soccer Player of the Year
+Laureus World Sportsman of the Year | laureus
+Best Young Player | world cup best young player
+UEFA Champions League Player of the Season | champions league player of the season
+UEFA Champions League Top Scorer
+European Golden Shoe | golden shoe
+
+[Rare]
+FIFA Puskás Award | puskas award | puskas
+FIFA The Best Men's Player | the best fifa mens player | the best | fifa the best
+UEFA Men's Player of the Year | uefa player of the year
+PFA Players' Player of the Year | pfa player of the year | pfa
+Premier League Player of the Season | player of the season
+Premier League Player of the Month | player of the month
+Golden Boy | golden boy award
+Golden Glove | golden gloves
+Golden Ball
+
+[Schooler]
+Man of the Match | player of the match
+Premier League Golden Boot
+FIFA World Player of the Year | world player of the year
+
+[Plankton]
+Ballon d'Or | ballon dor | ballon d or
+Golden Boot
+
+[Not accepted]
+Champions League
+World Cup
+Premier League
+FA Cup
+Super Bowl MVP
+Heisman
+Calder Trophy
+Hart Trophy
+Golden Bear
+Club World Cup
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a winner of the World Cup Golden Ball, Golden Glove or Best Young Player
+note: Golden Ball winners since 1982, Golden Glove (first given in 1994) and Best Young Player (first given in 2006), through 2022.
+
+[One in a Krillion]
+Michel Preud'homme | michel preudhomme | preudhomme | preud'homme
+
+[Deep Cut]
+Salvatore Schillaci | schillaci | toto schillaci
+Diego Forlán | diego forlan | forlan
+Lukas Podolski | podolski
+Fabien Barthez | barthez
+Enzo Fernández | enzo fernandez
+Paolo Rossi | rossi
+Romário | romario
+
+[Rare]
+Oliver Kahn | kahn
+Thibaut Courtois | courtois
+Emiliano Martínez | emiliano martinez | dibu martinez | dibu | emi martinez
+Iker Casillas | casillas
+Gianluigi Buffon | buffon | gigi buffon
+Thomas Müller | thomas muller | muller | mueller
+Paul Pogba | pogba
+
+[Schooler]
+Manuel Neuer | neuer
+Ronaldo | ronaldo nazario | r9 | ronaldo nazário
+Zinedine Zidane | zidane | zizou
+Luka Modrić | luka modric | modric
+Kylian Mbappé | kylian mbappe | mbappe
+
+[Plankton]
+Lionel Messi | messi | leo messi
+Diego Maradona | maradona
+
+[Not accepted]
+Cristiano Ronaldo
+Pelé
+Pele
+Harry Kane
+Antoine Griezmann
+James Rodríguez
+James Rodriguez
+Miroslav Klose
+Hugo Lloris
+Lothar Matthäus
+Lothar Matthaus
