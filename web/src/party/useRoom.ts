@@ -2,17 +2,30 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { ClientMessage, RevealAnswer, RoomSnapshot, ServerMessage } from "@fathom/shared";
 import { syncClock } from "../api";
 import { getPlayerId } from "../player";
+import { whenActive } from "../activity";
 
 export type RoomEvent = ServerMessage & { id: number };
 
+/** Reconnect waits: 1s, 2s, 4s… capped at a minute, giving up after 10 tries. */
+const RETRY_BASE_MS = 1000;
+const RETRY_MAX_MS = 60_000;
+const MAX_RETRIES = 10;
+
 /**
- * Connection to a party room. Reconnects automatically with backoff (the
+ * Connection to a party room. Reconnects after a dropped connection (the
  * server puts you back in your seat by player ID), keeps the clock in sync
  * with ping/pong, and exposes the latest snapshot plus a stream of events.
+ *
+ * Each reconnect attempt is a billed Worker request, so: never after the room
+ * has gone (close 4000 "expired" or 4004 "no such room"), exponential backoff
+ * otherwise, nothing while the tab is hidden or the player is idle (it resumes
+ * the moment they're back), and a "Try again" button after 10 failed tries.
+ * Pings and messages on an open socket are free.
  */
 export function useRoom(code: string, nickname: string | null) {
   const [state, setState] = useState<RoomSnapshot | null>(null);
-  const [status, setStatus] = useState<"connecting" | "open" | "closed" | "gone" | "kicked">("connecting");
+  const [status, setStatus] = useState<"connecting" | "open" | "closed" | "gone" | "kicked" | "failed">("connecting");
+  const [attempt, setAttempt] = useState(0); // bumping it (via retry) starts a fresh round of reconnects
   const [events, setEvents] = useState<RoomEvent[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [revealAnswers, setRevealAnswers] = useState<RevealAnswer[]>([]);
@@ -26,6 +39,7 @@ export function useRoom(code: string, nickname: string | null) {
     let retry = 0;
     let pingTimer: ReturnType<typeof setInterval> | undefined;
     let reconnectTimer: ReturnType<typeof setTimeout> | undefined;
+    let cancelWait = () => {};
 
     const connect = () => {
       setStatus("connecting");
@@ -81,9 +95,18 @@ export function useRoom(code: string, nickname: string | null) {
           setStatus("kicked");
           return;
         }
+        if (retry >= MAX_RETRIES) {
+          setStatus("failed");
+          return;
+        }
         setStatus("closed");
-        // Reconnect with backoff: 0.5s, 1s, 2s, 4s… up to 10s.
-        reconnectTimer = setTimeout(connect, Math.min(10_000, 500 * 2 ** retry++));
+        const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** retry++);
+        // Wait out the backoff, then only reconnect once someone is actually looking.
+        reconnectTimer = setTimeout(() => {
+          cancelWait = whenActive(() => {
+            if (!stopped) connect();
+          });
+        }, delay);
       };
     };
     connect();
@@ -91,14 +114,18 @@ export function useRoom(code: string, nickname: string | null) {
       stopped = true;
       clearInterval(pingTimer);
       clearTimeout(reconnectTimer);
+      cancelWait();
       wsRef.current?.close();
     };
-  }, [code, nickname]);
+  }, [code, nickname, attempt]);
+
+  /** After giving up: start reconnecting again (from the "Try again" button). */
+  const retry = useCallback(() => setAttempt((n) => n + 1), []);
 
   const send = useCallback((m: ClientMessage) => {
     const ws = wsRef.current;
     if (ws?.readyState === WebSocket.OPEN) ws.send(JSON.stringify(m));
   }, []);
 
-  return { state, status, events, error, setError, send, revealAnswers, typing };
+  return { state, status, events, error, setError, send, revealAnswers, typing, retry };
 }

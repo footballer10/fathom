@@ -196,7 +196,7 @@ export function RoomPage({
   onDivers: (divers: GaugeDiver[]) => void;
 }) {
   const [nickname] = useState<string>(getPartyName);
-  const { state, status, events, error, setError, send, revealAnswers, typing } = useRoom(code, nickname);
+  const { state, status, events, error, setError, send, revealAnswers, typing, retry } = useRoom(code, nickname);
   const { settings } = useSettings();
   const lastEvent = events[events.length - 1];
   const [toasts, setToasts] = useState<{ id: number; text: string; tone?: string }[]>([]);
@@ -288,10 +288,28 @@ export function RoomPage({
   if (status === "gone") {
     return (
       <div className="room card center">
-        <p>This room has closed.</p>
-        <button className="btn" onClick={() => navigate("/party")}>
+        <h3>Room expired</h3>
+        <p className="muted">Room {code} has closed (rooms close after 2 hours with nobody playing). Start a new one any time.</p>
+        <button className="btn btn--primary" onClick={() => navigate("/party")}>
           Back to Party
         </button>
+      </div>
+    );
+  }
+
+  if (status === "failed") {
+    return (
+      <div className="room card center">
+        <h3>Can't reach the room</h3>
+        <p className="muted">We tried to reconnect a few times without luck. Check your connection, then try again.</p>
+        <div className="join-row" style={{ justifyContent: "center" }}>
+          <button className="btn btn--primary" onClick={retry}>
+            Try again
+          </button>
+          <button className="btn" onClick={() => navigate("/party")}>
+            Back to Party
+          </button>
+        </div>
       </div>
     );
   }

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { api } from "../api";
 import type { FriendRequest } from "../api";
+import { onTabVisible } from "../activity";
 
 /** Accept / decline buttons for a list of incoming friend requests. */
 export function RequestList({ requests, onAnswered }: { requests: FriendRequest[]; onAnswered: (code: string, accepted: boolean) => void }) {
@@ -38,20 +39,34 @@ export function RequestList({ requests, onAnswered }: { requests: FriendRequest[
   );
 }
 
-/** Friend requests that arrived since your last visit pop up once when you open the site. */
+/** Don't re-check more often than this when you keep switching back to the tab. */
+const RECHECK_MS = 5 * 60_000;
+
+/**
+ * Friend requests that arrived since your last visit pop up once. Checked when
+ * the site opens and when you come back to the tab (at most every 5 minutes),
+ * never on a timer, so a tab left open costs nothing.
+ */
 export function FriendRequestPopup() {
   const [requests, setRequests] = useState<FriendRequest[]>([]);
   useEffect(() => {
-    let seen: string[] = [];
-    try {
-      seen = JSON.parse(sessionStorage.getItem("fathom.requestsShown") ?? "[]") as string[];
-    } catch {
-      /* private mode: just show them */
-    }
-    api
-      .friendRequests()
-      .then((r) => setRequests(r.requests.filter((x) => !seen.includes(x.code))))
-      .catch(() => {});
+    let lastCheck = 0;
+    const check = () => {
+      if (Date.now() - lastCheck < RECHECK_MS) return;
+      lastCheck = Date.now();
+      let seen: string[] = [];
+      try {
+        seen = JSON.parse(sessionStorage.getItem("fathom.requestsShown") ?? "[]") as string[];
+      } catch {
+        /* private mode: just show them */
+      }
+      api
+        .friendRequests()
+        .then((r) => setRequests(r.requests.filter((x) => !seen.includes(x.code))))
+        .catch(() => {});
+    };
+    check();
+    return onTabVisible(check);
   }, []);
 
   const close = () => {

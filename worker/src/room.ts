@@ -291,7 +291,15 @@ export class Room extends DurableObject<Env> {
       return Response.json({ exists: !!this.s, kind: this.s?.kind ?? null });
     }
     if (request.headers.get("Upgrade") === "websocket") {
-      if (!this.s) return new Response("No such room", { status: 404 });
+      if (!this.s) {
+        // Answer with a socket that closes straight away with 4004, rather than an HTTP 404:
+        // browsers hide a failed upgrade's status (it just looks like a dropped connection,
+        // code 1006), so clients would keep retrying. A 4004 close tells them to stop.
+        const gone = new WebSocketPair();
+        gone[1].accept();
+        gone[1].close(4004, "No such room");
+        return new Response(null, { status: 101, webSocket: gone[0] });
+      }
       const pair = new WebSocketPair();
       this.ctx.acceptWebSocket(pair[1]);
       pair[1].serializeAttachment({ playerId: null } satisfies Attachment);
