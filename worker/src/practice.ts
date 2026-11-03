@@ -1,12 +1,12 @@
 import { Hono } from "hono";
 import type { Context } from "hono";
-import { CONFIRM_GRACE_MS, TIERS, matchGuess } from "@fathom/shared";
+import { CONFIRM_GRACE_MS, TIERS, isOptInCategory, matchGuess } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { recordRejected } from "./rejected";
 import { abyssKrillionStatement, ensureSchema, practiceBestStatement } from "./schema";
-import { UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams, unlimitedPool } from "./questions";
+import { OPT_IN_SQL, UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams, unlimitedPool } from "./questions";
 
 /**
  * Practice API for the solo modes (Sprint, Ladder, Rarity Roulette, Five Answers)
@@ -38,7 +38,7 @@ practiceRoutes.post("/api/practice/question", async (c) => {
   // Rarity Roulette asks for a tier: only pick prompts that have at least one answer in it.
   const tier = TIERS.some((t) => t.points === Number(body.tier)) ? Number(body.tier) : null;
   const skip = new Set(exclude);
-  const candidates = (await unlimitedPool(c.env)).filter((q) => !skip.has(q.id) && q.n >= minAnswers);
+  const candidates = (await unlimitedPool(c.env)).filter((q) => !skip.has(q.id) && q.n >= minAnswers && !isOptInCategory(q.category));
   // Shuffle-pick: with a tier, check candidates' answer lists (cached indexes, no database reads).
   let row: { id: string; prompt: string; category: string; n: number } | null = null;
   for (let tries = 0; tries < 25 && candidates.length; tries++) {
@@ -257,6 +257,7 @@ async function abyssQuestion(env: Env, week: string, now: number) {
     const { results } = await env.DB.prepare(
       `SELECT id FROM questions WHERE ${UNLIMITED_WHERE}
          AND id NOT IN (SELECT question_id FROM abyss_weeks)
+         AND category NOT IN (${OPT_IN_SQL})
        ORDER BY ${ANSWER_COUNT} DESC LIMIT 40`,
     )
       .bind(date, todays)

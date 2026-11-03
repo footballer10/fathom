@@ -5,6 +5,8 @@ import {
   buildIndex,
   dailyDateFor,
   normalizePrompt,
+  OPT_IN_CATEGORIES,
+  isOptInCategory,
 } from "@fathom/shared";
 import type { AnswerIndex, Category, TierPoints } from "@fathom/shared";
 import type { Env } from "./env";
@@ -196,6 +198,7 @@ export async function getDailySet(env: Env, date: string): Promise<string[]> {
       `SELECT id FROM questions
        WHERE (status = 'unlimited' OR (status = 'scheduled' AND daily_date < ?))
          AND id NOT IN (SELECT value FROM json_each(?))
+         AND category NOT IN (${OPT_IN_SQL})
        ORDER BY plays ASC, RANDOM() LIMIT ?`,
     )
       .bind(date, JSON.stringify([...recentIds]), open.length)
@@ -233,6 +236,9 @@ export async function unlimitedParams(env: Env, now = Date.now()): Promise<[stri
   if (todays) rememberDailySet(date, JSON.parse(todays.question_ids));
   return [date, todays?.question_ids ?? "[]"];
 }
+
+/** SQL list of the fan categories, for queries that must leave them out. */
+export const OPT_IN_SQL = OPT_IN_CATEGORIES.map((c) => `'${c}'`).join(", ");
 
 export interface PoolQuestion {
   id: string;
@@ -294,7 +300,10 @@ export async function pickRoomQuestions(
   const ids: string[] = source === "daily" ? (await getDailySet(env, today(now))).slice(0, count) : [];
   if (ids.length < count) {
     const skip = new Set(ids);
-    const pool = (await unlimitedPool(env, now)).filter((q) => !skip.has(q.id) && (source !== "category" || !category || q.category === category));
+    // A chosen category plays only that category; otherwise fan categories (soccer) are left out.
+    const pool = (await unlimitedPool(env, now)).filter(
+      (q) => !skip.has(q.id) && (source === "category" && category ? q.category === category : !isOptInCategory(q.category)),
+    );
     // Questions fewer people in the room have seen in party games come first, so a group
     // doesn't keep getting the same prompts. Party history is kept apart from solo Unlimited's
     // (player ids prefixed "party:"), so party games never use up anyone's Unlimited questions.

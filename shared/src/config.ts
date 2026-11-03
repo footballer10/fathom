@@ -151,9 +151,21 @@ export const CATEGORIES = [
   "body-health",
   "vehicles",
   "nature",
+  "soccer",
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
+
+/**
+ * Fan categories: only played when someone picks the category on purpose
+ * (Unlimited's category menu or a party's category source). They never appear
+ * in the Daily, in "All categories" Unlimited, in random party questions, the
+ * Weekly Abyss or the quick modes, so nobody gets stumped by a niche topic.
+ * Because only fans pick them, their questions may have smaller answer lists.
+ */
+export const OPT_IN_CATEGORIES: readonly Category[] = ["soccer"];
+export const OPT_IN_MIN_ANSWERS = 20;
+export const isOptInCategory = (c: string) => (OPT_IN_CATEGORIES as readonly string[]).includes(c);
 
 // ---------------------------------------------------------------------------
 // Party: Dive defaults (Phase 5)

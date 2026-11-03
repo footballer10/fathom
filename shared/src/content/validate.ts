@@ -1,4 +1,4 @@
-import { CATEGORIES, TIERS } from "../config";
+import { CATEGORIES, OPT_IN_MIN_ANSWERS, TIERS, isOptInCategory } from "../config";
 import type { TierPoints } from "../config";
 import type { AnswerData } from "../types";
 import { damerauLevenshtein } from "../matcher/distance";
@@ -94,8 +94,10 @@ export function validateQuestion(q: ValidatableQuestion, ctx: ValidationContext 
 
   // --- pool size and tiers ------------------------------------------------
   const n = q.answers.length;
-  if (n < MIN_ANSWERS) errors.push(`Only ${n} answers (minimum ${MIN_ANSWERS})`);
-  else if (n < TARGET_MIN_ANSWERS) warnings.push(`${n} answers (target is ${TARGET_MIN_ANSWERS}–250)`);
+  // Fan categories (only played when chosen) can use smaller, naturally closed lists.
+  const minAnswers = isOptInCategory(q.category) ? OPT_IN_MIN_ANSWERS : MIN_ANSWERS;
+  if (n < minAnswers) errors.push(`Only ${n} answers (minimum ${minAnswers})`);
+  else if (n < TARGET_MIN_ANSWERS && !isOptInCategory(q.category)) warnings.push(`${n} answers (target is ${TARGET_MIN_ANSWERS}–250)`);
 
   const counts = new Map<number, number>();
   for (const a of q.answers) counts.set(a.tier, (counts.get(a.tier) ?? 0) + 1);

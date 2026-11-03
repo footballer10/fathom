@@ -24,6 +24,7 @@ import type {
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { logRejected } from "./rejected";
+import { isOptInCategory } from "@fathom/shared";
 import { ensureSchema, soloFinishStatements } from "./schema";
 import { dailyNumber, getDailySet, getIndex, getQuestions, sample, today, unlimitedPool } from "./questions";
 
@@ -185,7 +186,8 @@ async function ensurePlayer(env: Env, playerId: string, now: number) {
  */
 async function pickUnlimited(env: Env, playerId: string, category: Category | undefined, now: number): Promise<string[]> {
   // The pool comes from memory; only this player's own "seen" list is read (by primary key).
-  const pool = (await unlimitedPool(env, now)).filter((q) => !category || q.category === category);
+  // "All categories" leaves out fan categories (soccer); picking one plays only it.
+  const pool = (await unlimitedPool(env, now)).filter((q) => (category ? q.category === category : !isOptInCategory(q.category)));
   const { results: seenRows } = await env.DB.prepare("SELECT question_id FROM seen WHERE player_id = ?").bind(playerId).all<{ question_id: string }>();
   const seen = new Set(seenRows.map((r) => r.question_id));
   const ids = sample(
