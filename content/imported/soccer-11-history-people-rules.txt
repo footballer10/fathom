@@ -480,57 +480,6 @@ Gladbach
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a club that has won the MLS Cup or the Supporters' Shield
-note: Every MLS Cup winner and Supporters' Shield winner from 1996 through 2024, including defunct clubs.
-
-[One in a Krillion]
-Tampa Bay Mutiny | tampa bay | mutiny
-
-[Deep Cut]
-Miami Fusion | fusion
-FC Dallas | dallas
-FC Cincinnati | cincinnati | fc cincy | cincy
-New England Revolution | new england | revolution | revs
-Philadelphia Union | philadelphia | union
-San Jose Earthquakes | san jose | earthquakes | quakes
-Chicago Fire | chicago | fire
-Houston Dynamo | houston | dynamo
-Real Salt Lake | rsl | salt lake
-Colorado Rapids | colorado | rapids
-
-[Rare]
-Sporting Kansas City | sporting kc | skc | kansas city | kansas city wizards | wizards
-Columbus Crew | columbus | crew
-D.C. United | dc united | dc
-Portland Timbers | portland | timbers
-Toronto FC | toronto | tfc
-Atlanta United | atlanta
-New York City FC | nycfc | new york city
-New York Red Bulls | ny red bulls | red bulls | nyrb | metrostars
-
-[Schooler]
-Seattle Sounders | seattle | sounders
-LAFC | los angeles fc
-Inter Miami | miami | inter miami cf
-
-[Plankton]
-LA Galaxy | galaxy | los angeles galaxy
-
-[Not accepted]
-Orlando City
-Minnesota United
-Nashville SC
-Austin FC
-Vancouver Whitecaps
-CF Montreal
-Charlotte FC
-St. Louis City
-Chivas USA
-San Diego FC
-
-# QUESTION
-pool: unlimited
-category: soccer
 prompt: Name a manager who won the European Cup or Champions League (1980-2025)
 note: Every winning head coach from Brian Clough's Nottingham Forest (1980) to Luis Enrique's PSG (2025).
 
