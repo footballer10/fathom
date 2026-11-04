@@ -4,7 +4,7 @@
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 1999 Champions League final
+prompt: Name a starter in the 1999 Champions League final (Man United v Bayern Munich)
 note: Manchester United vs Bayern Munich. Starters only: Sheringham and Solskjær came off the bench; Keane and Scholes were suspended.
 
 [One in a Krillion]
@@ -56,7 +56,7 @@ Ottmar Hitzfeld
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2005 Champions League final
+prompt: Name a starter in the 2005 Champions League final (Liverpool v AC Milan)
 note: Liverpool vs AC Milan in Istanbul. Starters only: Hamann, Šmicer and Cissé came off the bench for Liverpool; Serginho, Tomasson and Rui Costa for Milan.
 
 [One in a Krillion]
@@ -109,7 +109,7 @@ Pepe Reina
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2006 Champions League final
+prompt: Name a starter in the 2006 Champions League final (Barcelona v Arsenal)
 note: Barcelona vs Arsenal in Paris. Starters only: Larsson, Iniesta and Belletti came off the bench for Barcelona; Almunia, Flamini and Reyes for Arsenal.
 
 [One in a Krillion]
@@ -164,7 +164,7 @@ Dennis Bergkamp
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2007 Champions League final
+prompt: Name a starter in the 2007 Champions League final (AC Milan v Liverpool)
 note: AC Milan vs Liverpool in Athens. Starters only: Crouch, Kewell and Arbeloa came off the bench for Liverpool.
 
 [One in a Krillion]
@@ -215,7 +215,7 @@ Rafael Benitez
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2008 Champions League final
+prompt: Name a starter in the 2008 Champions League final (Man United v Chelsea)
 note: Manchester United vs Chelsea in Moscow. Starters only: Giggs, Anderson and Nani came off the bench for United; Anelka, Kalou and Belletti for Chelsea.
 
 [One in a Krillion]
@@ -268,7 +268,7 @@ Andriy Shevchenko
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2009 Champions League final
+prompt: Name a starter in the 2009 Champions League final (Barcelona v Man United)
 note: Barcelona vs Manchester United in Rome. Starters only: Yaya Touré played center back for Barcelona. Tevez and Berbatov came off the bench for United.
 
 [One in a Krillion]
@@ -321,7 +321,7 @@ Alex Ferguson
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2010 Champions League final
+prompt: Name a starter in the 2010 Champions League final (Inter v Bayern Munich)
 note: Inter Milan vs Bayern Munich in Madrid. Starters only: Ribéry was suspended and Klose came off the bench.
 
 [One in a Krillion]
@@ -373,7 +373,7 @@ Zlatan Ibrahimovic
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2011 Champions League final
+prompt: Name a starter in the 2011 Champions League final (Barcelona v Man United)
 note: Barcelona vs Manchester United at Wembley. Starters only: Puyol, Afellay and Keita came off the bench for Barcelona; Nani and Scholes for United.
 
 [One in a Krillion]
@@ -424,7 +424,7 @@ Alex Ferguson
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2012 Champions League final
+prompt: Name a starter in the 2012 Champions League final (Chelsea v Bayern Munich)
 note: Chelsea vs Bayern Munich in Munich. Starters only: Torres and Malouda came off the bench for Chelsea; Terry, Ivanović, Ramires and Meireles were suspended.
 
 [One in a Krillion]
@@ -478,7 +478,7 @@ Jupp Heynckes
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2013 Champions League final
+prompt: Name a starter in the 2013 Champions League final (Bayern v Dortmund)
 note: Bayern Munich vs Borussia Dortmund at Wembley. Starters only: Götze was injured and missed the final.
 
 [One in a Krillion]
@@ -528,7 +528,7 @@ Jupp Heynckes
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2014 Champions League final
+prompt: Name a starter in the 2014 Champions League final (Real Madrid v Atlético)
 note: Real Madrid vs Atlético Madrid in Lisbon. Starters only: Marcelo, Isco and Morata came off the bench for Real.
 
 [One in a Krillion]
@@ -579,7 +579,7 @@ Carlo Ancelotti
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2015 Champions League final
+prompt: Name a starter in the 2015 Champions League final (Barcelona v Juventus)
 note: Barcelona vs Juventus in Berlin. Starters only: Xavi came off the bench in his last Barcelona game.
 
 [One in a Krillion]
@@ -630,7 +630,7 @@ Paulo Dybala
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2016 Champions League final
+prompt: Name a starter in the 2016 Champions League final (Real Madrid v Atlético)
 note: Real Madrid vs Atlético Madrid in Milan. Starters only: Isco and Lucas Vázquez came off the bench for Real; Carrasco for Atlético.
 
 [One in a Krillion]
@@ -682,57 +682,7 @@ Diego Simeone
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2017 Champions League final
-note: Real Madrid vs Juventus in Cardiff. Starters only: Bale came off the bench for Real.
-
-[One in a Krillion]
-Alex Sandro | alex sandro
-
-[Deep Cut]
-Andrea Barzagli | barzagli
-Miralem Pjanić | miralem pjanic | pjanic
-Sami Khedira | khedira
-Raphaël Varane | raphael varane | varane
-
-[Rare]
-Keylor Navas | navas
-Dani Carvajal | daniel carvajal | carvajal
-Casemiro
-Isco
-Leonardo Bonucci | bonucci
-Giorgio Chiellini | chiellini
-Dani Alves | daniel alves | alves
-Mario Mandžukić | mario mandzukic | mandzukic
-Gonzalo Higuaín | gonzalo higuain | higuain
-
-[Schooler]
-Sergio Ramos | ramos
-Marcelo
-Toni Kroos | kroos
-Luka Modrić | luka modric | modric
-Karim Benzema | benzema
-Gianluigi Buffon | buffon | gigi buffon
-Paulo Dybala | dybala
-
-[Plankton]
-Cristiano Ronaldo | ronaldo | cr7 | cristiano
-
-[Not accepted]
-Gareth Bale
-Bale
-Marco Asensio
-Asensio
-Álvaro Morata
-Alvaro Morata
-Juan Cuadrado
-Claudio Marchisio
-Zinedine Zidane
-Massimiliano Allegri
-
-# QUESTION
-pool: unlimited
-category: soccer
-prompt: Name a player who started the 2018 Champions League final
+prompt: Name a starter in the 2018 Champions League final (Real Madrid v Liverpool)
 note: Real Madrid vs Liverpool in Kyiv. Starters only: Bale came off the bench and scored twice; Lallana replaced the injured Salah.
 
 [One in a Krillion]
@@ -783,7 +733,7 @@ Jurgen Klopp
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2019 Champions League final
+prompt: Name a starter in the 2019 Champions League final (Liverpool v Tottenham)
 note: Liverpool vs Tottenham in Madrid. Starters only: Origi came off the bench and scored; Moura, Llorente and Dier came on for Spurs.
 
 [One in a Krillion]
@@ -834,110 +784,7 @@ Mauricio Pochettino
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2020 Champions League final
-note: Bayern Munich vs Paris Saint-Germain in Lisbon. Starters only: Coutinho came off the bench for Bayern.
-
-[One in a Krillion]
-Juan Bernat | bernat
-
-[Deep Cut]
-Thilo Kehrer | kehrer
-Ander Herrera | herrera
-Leandro Paredes | paredes
-Presnel Kimpembe | kimpembe
-Leon Goretzka | goretzka
-Serge Gnabry | gnabry
-
-[Rare]
-Keylor Navas | navas
-Thiago Silva | thiago silva
-Marquinhos
-Joshua Kimmich | kimmich
-Jérôme Boateng | jerome boateng | boateng
-David Alaba | alaba
-Alphonso Davies | davies | phonzie
-Thiago Alcântara | thiago alcantara | thiago
-Kingsley Coman | coman
-
-[Schooler]
-Ángel Di María | angel di maria | di maria | dimaria
-Thomas Müller | thomas muller | muller | mueller
-Manuel Neuer | neuer
-
-[Plankton]
-Neymar | neymar jr
-Kylian Mbappé | kylian mbappe | mbappe
-Robert Lewandowski | lewandowski | lewy
-
-[Not accepted]
-Philippe Coutinho
-Coutinho
-Niklas Süle
-Corentin Tolisso
-Mauro Icardi
-Marco Verratti
-Idrissa Gueye
-Eric Maxim Choupo-Moting
-Hansi Flick
-Thomas Tuchel
-
-# QUESTION
-pool: unlimited
-category: soccer
-prompt: Name a player who started the 2021 Champions League final
-note: Chelsea vs Manchester City in Porto. Starters only: Pulisic came off the bench for Chelsea; Jesus, Agüero and Fernandinho for City.
-
-[One in a Krillion]
-Oleksandr Zinchenko | zinchenko
-
-[Deep Cut]
-César Azpilicueta | cesar azpilicueta | azpilicueta | azpi
-Reece James | james
-Ben Chilwell | chilwell
-Timo Werner | werner
-John Stones | stones
-Rúben Dias | ruben dias | dias
-
-[Rare]
-Édouard Mendy | edouard mendy | mendy
-Thiago Silva | thiago silva
-Antonio Rüdiger | antonio rudiger | rudiger
-Jorginho
-Mason Mount | mount
-Ederson
-Kyle Walker | walker
-İlkay Gündoğan | ilkay gundogan | gundogan
-Bernardo Silva | bernardo
-Riyad Mahrez | mahrez
-
-[Schooler]
-N'Golo Kanté | ngolo kante | kante
-Kai Havertz | havertz
-Phil Foden | foden
-Raheem Sterling | sterling
-
-[Plankton]
-Kevin De Bruyne | de bruyne | kdb
-
-[Not accepted]
-Christian Pulisic
-Pulisic
-Gabriel Jesus
-Sergio Agüero
-Sergio Aguero
-Aguero
-Fernandinho
-Rodri
-Mateo Kovačić
-Mateo Kovacic
-Andreas Christensen
-Thomas Tuchel
-Pep Guardiola
-
-# QUESTION
-pool: unlimited
-category: soccer
-prompt: Name a player who started the 2022 Champions League final
+prompt: Name a starter in the 2022 Champions League final (Real Madrid v Liverpool)
 note: Real Madrid vs Liverpool in Paris. Starters only: Camavinga and Rodrygo came off the bench for Real; Jota, Firmino and Keïta for Liverpool.
 
 [One in a Krillion]
@@ -989,7 +836,7 @@ Jürgen Klopp
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2023 Champions League final
+prompt: Name a starter in the 2023 Champions League final (Man City v Inter)
 note: Manchester City vs Inter Milan in Istanbul. Starters only: Walker was on the bench; Foden replaced the injured De Bruyne; Lukaku came off the bench for Inter.
 
 [One in a Krillion]
@@ -1041,59 +888,7 @@ Simone Inzaghi
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a player who started the 2024 Champions League final
-note: Real Madrid vs Borussia Dortmund at Wembley. Starters only: Modrić and Joselu came off the bench for Real; Reus and Malen for Dortmund.
-
-[One in a Krillion]
-Ian Maatsen | maatsen
-
-[Deep Cut]
-Julian Ryerson | ryerson
-Nico Schlotterbeck | schlotterbeck
-Emre Can | can
-Marcel Sabitzer | sabitzer
-Julian Brandt | brandt
-Karim Adeyemi | adeyemi
-Niclas Füllkrug | niclas fullkrug | fullkrug | fuellkrug
-Gregor Kobel | kobel
-
-[Rare]
-Ferland Mendy | ferland mendy | mendy
-Éder Militão | eder militao | militao
-Antonio Rüdiger | antonio rudiger | rudiger
-Eduardo Camavinga | camavinga
-Federico Valverde | valverde | fede valverde
-Mats Hummels | hummels
-Jadon Sancho | sancho
-
-[Schooler]
-Dani Carvajal | daniel carvajal | carvajal
-Toni Kroos | kroos
-Rodrygo
-Thibaut Courtois | courtois
-
-[Plankton]
-Vinícius Júnior | vinicius junior | vinicius jr | vinicius | vini jr | vini
-Jude Bellingham | bellingham
-
-[Not accepted]
-Luka Modrić
-Luka Modric
-Modric
-Joselu
-Marco Reus
-Reus
-Donyell Malen
-Kylian Mbappé
-Kylian Mbappe
-Carlo Ancelotti
-Edin Terzić
-Edin Terzic
-
-# QUESTION
-pool: unlimited
-category: soccer
-prompt: Name a player who started the 2025 Champions League final
+prompt: Name a starter in the 2025 Champions League final (PSG v Inter)
 note: Paris Saint-Germain vs Inter Milan in Munich. Starters only: Mayulu came off the bench and scored for PSG.
 
 [One in a Krillion]
