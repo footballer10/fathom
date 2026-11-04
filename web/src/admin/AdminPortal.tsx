@@ -383,6 +383,8 @@ function ScheduleTab({ onEdit, onChanged }: { onEdit: (text: string) => void; on
   }, [load]);
 
   const filled = days.filter((d) => d.slots.every(Boolean)).length;
+  // The schedule starts today; today's Daily is locked, so it can't be vetoed.
+  const todayStr = days[0]?.date ?? "";
 
   const edit = async (id: string) => {
     const r = await admin<{ text: string }>(`/api/admin/question/${id}`);
@@ -393,6 +395,20 @@ function ScheduleTab({ onEdit, onChanged }: { onEdit: (text: string) => void; on
   const del = async (id: string, prompt: string) => {
     if (!confirm(`Remove "${prompt}"? (Questions that were already played are retired instead of deleted.)`)) return;
     await admin(`/api/admin/question/${id}`, { method: "DELETE" });
+    await load();
+    onChanged();
+  };
+  const veto = async (id: string, prompt: string, date: string) => {
+    if (
+      !confirm(
+        `Veto "${prompt}" (${date})?\n\nIt will be removed for good: never used in a Daily or in Unlimited again. Every Daily question after it slides up one slot to fill the gap.`,
+      )
+    )
+      return;
+    const r = await admin<{ moved: number; openedSlot: { date: string; slot: number } | null }>("/api/admin/veto", { body: { id } });
+    setMsg(
+      `Vetoed. ${r.moved} later question(s) slid up${r.openedSlot ? `; ${r.openedSlot.date} slot ${r.openedSlot.slot} is now open for the weekly task to fill` : ""}.`,
+    );
     await load();
     onChanged();
   };
@@ -437,6 +453,9 @@ function ScheduleTab({ onEdit, onChanged }: { onEdit: (text: string) => void; on
                     <span className="admin-slot-actions">
                       <button className="link-btn" onClick={() => void edit(s.id)}>
                         Edit
+                      </button>
+                      <button className="link-btn admin-veto" onClick={() => void veto(s.id, s.prompt, d.date)} disabled={d.date <= todayStr}>
+                        Veto
                       </button>
                       <button className="link-btn" onClick={() => void pick(d.date, i + 1)}>
                         Swap

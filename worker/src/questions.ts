@@ -29,7 +29,7 @@ export interface QuestionRow {
   id: string;
   prompt: string;
   category: Category;
-  status: "reserve" | "scheduled" | "unlimited" | "retired";
+  status: "reserve" | "scheduled" | "unlimited" | "retired" | "vetoed";
   daily_date: string | null;
   daily_slot: number | null;
   source: string;

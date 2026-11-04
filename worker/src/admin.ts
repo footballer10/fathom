@@ -323,6 +323,41 @@ adminRoutes.post("/api/admin/swap", async (c) => {
   return c.json({ ok: true });
 });
 
+/**
+ * Veto a future Daily question: it's removed for good (status "vetoed", never
+ * used in Unlimited, reserve or a later Daily), and every Daily question after it
+ * slides up one slot to fill the gap. The last slot is left open for the weekly
+ * task (or reserve) to fill.
+ */
+adminRoutes.post("/api/admin/veto", async (c) => {
+  const { id } = await c.req.json<{ id?: string }>().catch(() => ({ id: undefined }));
+  const row = id ? await getQuestion(c.env, id) : null;
+  const t = today();
+  if (!row) throw new HttpError(404, "No such question");
+  if (row.status !== "scheduled" || !row.daily_date || !row.daily_slot) throw new HttpError(400, "That question isn't on the Daily schedule");
+  if (row.daily_date <= t) throw new HttpError(400, "Only future Dailies can be vetoed (today's is already locked)");
+  // Everything scheduled from this slot onward, in order.
+  const { results } = await c.env.DB.prepare(
+    `SELECT id, daily_date, daily_slot FROM questions
+     WHERE status = 'scheduled' AND daily_date > ?1 AND (daily_date > ?2 OR (daily_date = ?2 AND daily_slot >= ?3))
+     ORDER BY daily_date, daily_slot`,
+  )
+    .bind(t, row.daily_date, row.daily_slot)
+    .all<{ id: string; daily_date: string; daily_slot: number }>();
+  const now = Date.now();
+  const stmts: D1PreparedStatement[] = [
+    c.env.DB.prepare("UPDATE questions SET status = 'vetoed', retired_at = ?, daily_date = NULL, daily_slot = NULL WHERE id = ?").bind(now, row.id),
+  ];
+  // Each later question moves into the slot just before it (which has just been emptied).
+  for (let i = 1; i < results.length; i++) {
+    const to = results[i - 1];
+    stmts.push(c.env.DB.prepare("UPDATE questions SET daily_date = ?, daily_slot = ? WHERE id = ?").bind(to.daily_date, to.daily_slot, results[i].id));
+  }
+  await c.env.DB.batch(stmts);
+  const last = results[results.length - 1];
+  return c.json({ ok: true, moved: results.length - 1, openedSlot: last ? { date: last.daily_date, slot: last.daily_slot } : null });
+});
+
 /** Take a future question off the schedule and put it in Unlimited. */
 adminRoutes.post("/api/admin/unschedule", async (c) => {
   const { id } = await c.req.json<{ id: string }>();
