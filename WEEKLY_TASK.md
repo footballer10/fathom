@@ -236,11 +236,50 @@ This saves `content/incoming/suggestions-<today>.txt`: everything players sent t
 
 - **answer** (a wrong, missing or misspelled answer, or a confusing question): fix it with a FIXES
   block like step 9 (or rewrite the question with `--replace` if the prompt itself is the problem).
-- **bug**, **idea** or **other**: don't change any code. Summarize them for the owner.
+- **bug**, **idea** or **other**: don't change any code. These go in the owner's
+  **Suggestions to consider** report (below), so the owner can decide what to act on.
 
-In the log, add a **Player suggestions** section: what you fixed, then a short, grouped summary
-of the bugs and ideas (with how many people asked for similar things). Put the 2–3 most
-important points in the final PushNotification summary too, so the owner sees them.
+Also check whether a bug or idea has already been handled (search `git log` since last week and
+the code); if so, list it under "Already handled" instead of asking the owner again.
+
+#### Write the "Suggestions to consider" report
+
+Write `content/logs/<today>-suggestions.md`. It's for the owner, who isn't technical, so use
+plain words and no file names or code. Group near-identical suggestions into one item.
+Use exactly this layout:
+
+```markdown
+# Suggestions to consider — <today>
+
+<N> suggestions from players this week: <a> answer fixes (done), <b> bugs, <c> ideas.
+
+## Worth doing
+1. **<Short title>** — <what players asked for, quoted or closely paraphrased> (<k> people)
+   - Recommendation: **Do it** — <one-line reason>
+   - Size: small / medium / large
+
+## Maybe
+1. **<Short title>** — ... (<k> people)
+   - Recommendation: **Maybe** — <what it depends on, or the trade-off>
+   - Size: ...
+
+## Probably skip
+1. **<Short title>** — ... (<k> people)
+   - Recommendation: **Skip** — <reason: e.g. costs money, breaks a rule, very few people want it>
+
+## Already handled
+- <title> — <what already fixed it>
+
+## Answer fixes made this week
+- <question>: added "<answer>" (and so on, briefly)
+```
+
+Leave out any section with nothing in it. Rank items within each section by how many people
+asked and how much it would improve the game. Never act on a suggestion that would cost money,
+need an API key, or copy from another site: put it under "Probably skip" and say why.
+
+Then copy the whole report, as written, into the end of your final message for the owner, and
+put the titles of the "Worth doing" items in the PushNotification summary.
 
 Then mark them reviewed:
 
@@ -248,7 +287,8 @@ Then mark them reviewed:
 npm run suggestions -- --done
 ```
 
-If there are no suggestions, say "No suggestions this week" in the log and skip the rest.
+If there are no suggestions, still write the report with the single line "No suggestions from
+players this week.", say the same in the log and the final message, and skip the rest.
 
 ### 10. Refresh the Unlimited pool
 
@@ -263,7 +303,7 @@ npm run pool:refresh
 - Write `content/logs/<today>.md` with:
   - How many Daily and Unlimited questions were added, and the dates filled
   - The fixes applied: counts of guesses reviewed, aliases added, answers added and skipped, and every alias and answer you added
-  - Player suggestions: what you fixed, plus a grouped summary of bugs and ideas
+  - Player suggestions: what you fixed, and a pointer to `content/logs/<today>-suggestions.md`
   - The pool size before and after the refresh
   - Anything that failed, and which files are still waiting in `content/incoming/`
 - Download a full backup of every live question (it writes `content/backup/`):
@@ -275,7 +315,7 @@ npm run backup
 - Commit and push the question files, the backup and the log (never `.env.local`):
 
 ```bash
-git add content/imported content/logs content/backup
+git add content/imported content/logs content/backup   # includes the suggestions report
 git commit -m "Weekly questions <today>"
 git push
 ```
