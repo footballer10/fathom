@@ -26,7 +26,7 @@ import type { Env } from "./env";
 import { logRejected } from "./rejected";
 import { isOptInCategory } from "@fathom/shared";
 import { ensureSchema, soloFinishStatements } from "./schema";
-import { dailyNumber, getDailySet, getIndex, getQuestions, sample, today, unlimitedPool } from "./questions";
+import { dailyNumber, getDailySet, getIndex, getQuestions, sample, spreadByFamily, today, unlimitedPool } from "./questions";
 
 /**
  * Solo game sessions with server-enforced timers.
@@ -190,10 +190,9 @@ async function pickUnlimited(env: Env, playerId: string, category: Category | un
   const pool = (await unlimitedPool(env, now)).filter((q) => (category ? q.category === category : !isOptInCategory(q.category)));
   const { results: seenRows } = await env.DB.prepare("SELECT question_id FROM seen WHERE player_id = ?").bind(playerId).all<{ question_id: string }>();
   const seen = new Set(seenRows.map((r) => r.question_id));
-  const ids = sample(
-    pool.filter((q) => !seen.has(q.id)),
-    QUESTIONS_PER_UNLIMITED_RUN,
-  ).map((q) => q.id);
+  const unseen = pool.filter((q) => !seen.has(q.id));
+  // Random order, but no two near-identical prompts (same family) in one run.
+  const ids = spreadByFamily(sample(unseen, unseen.length), QUESTIONS_PER_UNLIMITED_RUN).map((q) => q.id);
   if (!ids.length) {
     throw new HttpError(
       410,

@@ -276,6 +276,45 @@ export function clearPoolCache() {
   poolCache = null;
 }
 
+/**
+ * Questions that differ only by a year or a bracket ("Name a club in the 2003-04
+ * Premier League", "Name a starter in the 2005 Champions League final (…)")
+ * belong to the same family.
+ */
+export function promptFamily(prompt: string): string {
+  return prompt
+    .toLowerCase()
+    .replace(/\(.*?\)/g, "")
+    .replace(/\d+/g, "#")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * Take `count` items in order, but at most one per family while there are other
+ * choices, so one game doesn't serve two near-identical prompts. Falls back to
+ * repeats only when the list runs short.
+ */
+export function spreadByFamily<T extends { prompt: string }>(items: readonly T[], count: number): T[] {
+  const picked: T[] = [];
+  const used = new Set<string>();
+  const rest: T[] = [];
+  for (const it of items) {
+    if (picked.length >= count) break;
+    const fam = promptFamily(it.prompt);
+    if (used.has(fam)) rest.push(it);
+    else {
+      used.add(fam);
+      picked.push(it);
+    }
+  }
+  for (const it of rest) {
+    if (picked.length >= count) break;
+    picked.push(it);
+  }
+  return picked;
+}
+
 /** `count` random items from a list (without repeats). */
 export function sample<T>(items: readonly T[], count: number): T[] {
   const a = [...items];
@@ -319,7 +358,7 @@ export async function pickRoomQuestions(
     }
     const shuffled = sample(pool, pool.length);
     shuffled.sort((a, b) => (seenBy.get(a.id) ?? 0) - (seenBy.get(b.id) ?? 0)); // stable, so ties stay random
-    ids.push(...shuffled.slice(0, Math.max(1, count - ids.length)).map((q) => q.id));
+    ids.push(...spreadByFamily(shuffled, Math.max(1, count - ids.length)).map((q) => q.id));
   }
   return ids;
 }
