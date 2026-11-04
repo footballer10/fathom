@@ -1,4 +1,4 @@
-import { CATEGORIES, QUESTIONS_PER_DAY, TIERS } from "../config";
+import { CATEGORIES, QUESTIONS_PER_DAY, TIERS, isOptInCategory } from "../config";
 
 /**
  * The format and rules every question writer (a normal Claude chat, or the
@@ -53,7 +53,7 @@ Never put an everyday, obvious answer in Rare or Deep Cut.
 ALIASES
 On each answer line, after the canonical answer, add common misspellings, nicknames, abbreviations and alternate names separated by " | " (examples: "Broccoli | brocoli | brocolli", "United States | USA | US | America"). Do not repeat the same alias under two different answers.
 
-CATEGORIES (use exactly one of these): ${CATEGORIES.join(", ")}`;
+CATEGORIES (use exactly one of these): ${CATEGORIES.filter((c) => !isOptInCategory(c)).join(", ")}. Do not write soccer questions: soccer is a separate fan category that the owner fills by hand.`;
 
 export const PLAIN_TEXT_FORMAT = `# QUESTION
 date: 2026-11-02

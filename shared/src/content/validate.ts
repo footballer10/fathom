@@ -90,6 +90,9 @@ export function validateQuestion(q: ValidatableQuestion, ctx: ValidationContext 
     if (a?.aliases !== undefined && !Array.isArray(a.aliases)) errors.push(`"${a.text}" aliases must be a list`);
   });
   if (q.date !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(q.date)) errors.push(`Bad date "${q.date}"`);
+  if (isOptInCategory(q.category) && (q.date !== undefined || (q as { pool?: string }).pool === "reserve")) {
+    errors.push(`"${q.category}" is a fan category: use "pool: unlimited", never a Daily date or reserve`);
+  }
   if (q.slot !== undefined && (!Number.isInteger(q.slot) || q.slot < 1 || q.slot > 7)) errors.push(`Bad slot "${q.slot}"`);
 
   // --- pool size and tiers ------------------------------------------------

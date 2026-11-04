@@ -12,6 +12,7 @@ import {
   normalizePrompt,
   serializeQuestion,
   validateQuestion,
+  isOptInCategory,
 } from "@fathom/shared";
 import type { Category, ParsedFixes, ParsedQuestion, TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
@@ -177,6 +178,11 @@ export async function upsertQuestion(
   const mode = opts.mode ?? "file";
   const existing = q.id ? await getQuestion(env, q.id) : null;
   if (q.id && !existing) throw new HttpError(404, `No question with id ${q.id}`);
+
+  // Fan categories (soccer) are opt-in only: never a Daily or a reserve question.
+  if (isOptInCategory(q.category) && mode !== "unlimited" && (mode === "fill" || (q.date && q.slot) || q.pool === "reserve")) {
+    throw new HttpError(400, `"${q.category}" is a fan category and can only go in Unlimited (pool: unlimited), never in a Daily`);
+  }
 
   // Decide where it goes.
   let status: QuestionRow["status"] = existing?.status ?? "unlimited";
