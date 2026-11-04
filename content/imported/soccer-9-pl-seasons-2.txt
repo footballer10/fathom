@@ -3,52 +3,6 @@
 # QUESTION
 pool: unlimited
 category: soccer
-prompt: Name a club in the 1993-94 Premier League
-note: The 22 clubs of 1993-94, Swindon's only Premier League season.
-
-[One in a Krillion]
-Swindon Town | swindon
-
-[Deep Cut]
-Oldham Athletic | oldham
-Sheffield United
-Ipswich Town | ipswich
-Southampton
-Coventry City | coventry
-Queens Park Rangers | qpr
-Wimbledon
-Norwich City | norwich
-Sheffield Wednesday
-West Ham United | west ham
-Manchester City | man city
-
-[Rare]
-Everton
-Aston Villa | villa
-Leeds United | leeds
-Tottenham | tottenham hotspur | spurs
-Chelsea
-
-[Schooler]
-Blackburn Rovers | blackburn
-Newcastle United | newcastle
-Liverpool
-
-[Plankton]
-Manchester United | man united | man utd | united
-Arsenal
-
-[Not accepted]
-Crystal Palace
-Middlesbrough
-Nottingham Forest
-Leicester City
-Derby County
-Bolton Wanderers
-
-# QUESTION
-pool: unlimited
-category: soccer
 prompt: Name a club in the 1997-98 Premier League
 note: The 20 clubs of 1997-98.
 

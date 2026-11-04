@@ -1,0 +1,323 @@
+// Soccer (fan category): replacements for six Premier League season questions.
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player who scored in an FA Cup final (2010-2025)
+note: Goals in the match itself, 2010 through 2025; shootouts and own goals don't count.
+
+[One in a Krillion]
+Ben Watson | watson
+
+[Deep Cut]
+Andy Carroll | carroll
+James Chester | chester
+Curtis Davies | davies
+Per Mertesacker | mertesacker
+Jason Puncheon | puncheon
+Youri Tielemans | tielemans
+Ramires
+Laurent Koscielny | koscielny
+Aaron Ramsey | ramsey
+Santi Cazorla | cazorla
+Jesse Lingard | lingard
+Kobbie Mainoo | mainoo
+Jérémy Doku | jeremy doku | doku
+Eberechi Eze | eze | ebere eze
+
+[Rare]
+Yaya Touré | yaya toure | toure
+Theo Walcott | walcott
+Alexis Sánchez | alexis sanchez | alexis | sanchez
+Olivier Giroud | giroud
+Juan Mata | mata
+Diego Costa | costa
+David Silva | silva
+Gabriel Jesus | jesus
+Christian Pulisic | pulisic
+Alejandro Garnacho | garnacho
+İlkay Gündoğan | ilkay gundogan | gundogan
+Bruno Fernandes | bruno | fernandes
+
+[Schooler]
+Frank Lampard | lampard
+Didier Drogba | drogba
+Eden Hazard | hazard
+Raheem Sterling | sterling
+Pierre-Emerick Aubameyang | pierre emerick aubameyang | aubameyang | auba
+
+[Plankton]
+Kevin De Bruyne | de bruyne | kdb
+
+[Not accepted]
+Wayne Rooney
+Erling Haaland
+Haaland
+Mohamed Salah
+Salah
+Harry Kane
+Marcus Rashford
+Jamie Vardy
+Sergio Agüero
+Sergio Aguero
+Steven Gerrard
+Bukayo Saka
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player who scored in a Europa League final (2010-2025)
+note: Goals in the match itself, 2010 through 2025; own goals don't count (Sevilla's winner in 2020 went in off Lukaku).
+
+[One in a Krillion]
+Ruslan Rotan | rotan
+
+[Deep Cut]
+Simon Davies | davies
+Diego | diego ribas
+Óscar Cardozo | oscar cardozo | cardozo
+Nikola Kalinić | nikola kalinic | kalinic
+Grzegorz Krychowiak | krychowiak
+Carlos Bacca | bacca
+Kevin Gameiro | gameiro
+Coke
+Gabi
+Alex Iwobi | iwobi
+Luuk de Jong | de jong
+Diego Godín | diego godin | godin
+Gerard Moreno | moreno
+Rafael Borré | rafael borre | borre
+Joe Aribo | aribo
+Ademola Lookman | lookman
+Brennan Johnson | johnson
+Branislav Ivanović | branislav ivanovic | ivanovic
+
+[Rare]
+Diego Forlán | diego forlan | forlan
+Radamel Falcao | falcao
+Daniel Sturridge | sturridge
+Henrikh Mkhitaryan | mkhitaryan | micki
+Pedro | pedro rodriguez | pedrito
+Edinson Cavani | cavani
+Paulo Dybala | dybala
+Fernando Torres | torres
+Romelu Lukaku | lukaku
+
+[Schooler]
+Paul Pogba | pogba
+Antoine Griezmann | griezmann
+Olivier Giroud | giroud
+
+[Plankton]
+Eden Hazard | hazard
+
+[Not accepted]
+Sergio Agüero
+Bruno Fernandes
+Harry Kane
+Son Heung-min
+Mohamed Salah
+Gianluca Mancini
+Yevhen Konoplyanka
+Robert Lewandowski
+Granit Xhaka
+Florian Wirtz
+Marcus Rashford
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a player who scored in a men's World Cup semi-final (2006-2022)
+note: Goals in the semi-finals of 2006, 2010, 2014, 2018 and 2022; own goals and shootouts don't count.
+
+[One in a Krillion]
+Maxi Pereira | pereira
+
+[Deep Cut]
+Fabio Grosso | grosso
+Giovanni van Bronckhorst | van bronckhorst | gio van bronckhorst
+Carles Puyol | puyol
+Sami Khedira | khedira
+André Schürrle | andre schurrle | schurrle | schuerrle
+Oscar
+Samuel Umtiti | umtiti
+Randal Kolo Muani | kolo muani
+Diego Forlán | diego forlan | forlan
+Kieran Trippier | trippier
+
+[Rare]
+Alessandro Del Piero | del piero
+Wesley Sneijder | sneijder
+Miroslav Klose | klose
+Ivan Perišić | ivan perisic | perisic
+Mario Mandžukić | mario mandzukic | mandzukic
+Theo Hernández | theo hernandez | theo
+Julián Álvarez | julian alvarez | alvarez
+Toni Kroos | kroos
+
+[Schooler]
+Zinedine Zidane | zidane | zizou
+Arjen Robben | robben
+Thomas Müller | thomas muller | muller | mueller
+
+[Plankton]
+Lionel Messi | messi | leo messi
+
+[Not accepted]
+Kylian Mbappé
+Kylian Mbappe
+Harry Kane
+Kane
+Luka Modrić
+Luka Modric
+Antoine Griezmann
+Neymar
+Cristiano Ronaldo
+David Villa
+Mario Götze
+Olivier Giroud
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a manager who won the FA Cup (2000-2025)
+note: The winning manager in every FA Cup final from 2000 through 2025.
+
+[One in a Krillion]
+Oliver Glasner | glasner
+
+[Deep Cut]
+Gianluca Vialli | vialli
+Gérard Houllier | gerard houllier | houllier
+Harry Redknapp | redknapp | harry
+Guus Hiddink | hiddink
+Roberto Di Matteo | di matteo | rdm
+Roberto Martínez | roberto martinez
+Brendan Rodgers | rodgers
+Erik ten Hag | ten hag
+
+[Rare]
+Rafael Benítez | rafael benitez | benitez | rafa benitez
+Carlo Ancelotti | ancelotti
+Roberto Mancini | mancini
+Louis van Gaal | van gaal
+Antonio Conte | conte
+Mikel Arteta | arteta
+
+[Schooler]
+José Mourinho | jose mourinho | mourinho
+Jürgen Klopp | jurgen klopp | klopp
+Pep Guardiola | guardiola | pep
+
+[Plankton]
+Arsène Wenger | arsene wenger | wenger
+Alex Ferguson | ferguson | sir alex ferguson | fergie
+
+[Not accepted]
+Claudio Ranieri
+Manuel Pellegrini
+Mauricio Pochettino
+Thomas Tuchel
+Frank Lampard
+Unai Emery
+Eddie Howe
+Ole Gunnar Solskjaer
+Kenny Dalglish
+Steve Bruce
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a starter in the 1978 World Cup final (Argentina v Netherlands)
+note: The 22 starting players in Buenos Aires. Willy and René van de Kerkhof both started.
+
+[One in a Krillion]
+Jan Poortvliet | poortvliet
+
+[Deep Cut]
+Jorge Olguín | jorge olguin | olguin
+Luis Galván | luis galvan | galvan
+Alberto Tarantini | tarantini
+Américo Gallego | americo gallego | gallego
+Oscar Ortiz | ortiz
+Leopoldo Luque | luque
+Daniel Bertoni | bertoni
+Ernie Brandts | brandts
+Wim Jansen | jansen
+Arie Haan | haan
+Willy van de Kerkhof | willy van de kerkhof | van de kerkhof
+René van de Kerkhof | rene van de kerkhof
+Johnny Rep | rep
+Rob Rensenbrink | rensenbrink
+Jan Jongbloed | jongbloed
+
+[Rare]
+Ubaldo Fillol | fillol
+Daniel Passarella | passarella
+Osvaldo Ardiles | ardiles | ossie ardiles
+Ruud Krol | krol
+Johan Neeskens | neeskens
+
+[Plankton]
+Mario Kempes | kempes
+
+[Not accepted]
+Johan Cruyff
+Cruyff
+Diego Maradona
+Maradona
+Dick Nanninga
+Nanninga
+Ricardo Villa
+César Luis Menotti
+Ernst Happel
+
+# QUESTION
+pool: unlimited
+category: soccer
+prompt: Name a starter in the 1982 World Cup final (Italy v West Germany)
+note: The 22 starting players at the Bernabéu. The brothers Karlheinz and Bernd Förster both started for West Germany.
+
+[One in a Krillion]
+Wolfgang Dremmler | dremmler
+
+[Deep Cut]
+Claudio Gentile | gentile
+Fulvio Collovati | collovati
+Gaetano Scirea | scirea
+Antonio Cabrini | cabrini
+Giuseppe Bergomi | bergomi
+Gabriele Oriali | oriali
+Bruno Conti | conti
+Francesco Graziani | graziani
+Manfred Kaltz | kaltz
+Karlheinz Förster | karlheinz forster | k forster
+Bernd Förster | bernd forster | b forster
+Uli Stielike | stielike
+Hans-Peter Briegel | hans peter briegel | briegel
+Klaus Fischer | fischer
+Pierre Littbarski | littbarski
+
+[Rare]
+Marco Tardelli | tardelli
+Harald Schumacher | schumacher | toni schumacher
+Paul Breitner | breitner
+
+[Schooler]
+Dino Zoff | zoff
+Karl-Heinz Rummenigge | karl heinz rummenigge | rummenigge
+
+[Plankton]
+Paolo Rossi | rossi
+
+[Not accepted]
+Alessandro Altobelli
+Altobelli
+Franco Causio
+Horst Hrubesch
+Hrubesch
+Hansi Müller
+Lothar Matthäus
+Lothar Matthaus
+Enzo Bearzot
+Jupp Derwall
