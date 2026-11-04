@@ -274,6 +274,7 @@ function Swimmers() {
         <g className="turtle">
           <path className="flipper flipper--front" d="M70 46 C 84 60, 98 70, 104 64 C 96 56, 86 50, 74 44 Z" fill="#7cc48f" />
           <path className="flipper flipper--back" d="M30 46 C 20 58, 8 64, 4 60 C 10 52, 18 48, 28 44 Z" fill="#7cc48f" />
+          <path className="flipper flipper--back flipper--back-top" d="M30 34 C 20 22, 8 16, 4 20 C 10 28, 18 32, 28 36 Z" fill="#7cc48f" />
           <ellipse cx="54" cy="40" rx="36" ry="22" fill="#3f8f5a" />
           <path d="M34 36 L46 26 L62 26 L74 36 L66 50 L42 50 Z" fill="#2f7347" />
           <path d="M46 26 L54 18 L62 26 M34 36 L22 34 M74 36 L86 34" stroke="#2f7347" strokeWidth="2" fill="none" />

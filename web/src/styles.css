@@ -1980,6 +1980,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 @keyframes fish-tail { from { transform: scaleY(1) rotate(-12deg); } to { transform: scaleY(0.85) rotate(12deg); } }
 .flipper--front { transform-origin: 72px 38px; animation: flipper 1.8s ease-in-out infinite alternate; }
 .flipper--back { transform-origin: 30px 46px; animation: flipper 1.8s ease-in-out infinite alternate-reverse; }
+.flipper--back-top { transform-origin: 30px 34px; animation-direction: alternate; }
 @keyframes flipper { from { transform: rotate(-10deg); } to { transform: rotate(12deg); } }
 .ray { transform-origin: 70px 35px; animation: ray-flap 2.4s ease-in-out infinite alternate; }
 @keyframes ray-flap { from { transform: scaleY(0.75); } to { transform: scaleY(1.05); } }
@@ -2176,6 +2177,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 .ocean-turtle { position: absolute; top: 12%; left: -180px; animation: swim 70s linear infinite; animation-delay: -20s; }
 .ocean-turtle .flipper--front { transform-origin: 72px 38px; animation: flipper 2.2s ease-in-out infinite alternate; }
 .ocean-turtle .flipper--back { transform-origin: 30px 46px; animation: flipper 2.2s ease-in-out infinite alternate-reverse; }
+.ocean-turtle .flipper--back-top { transform-origin: 30px 34px; animation-direction: alternate; }
 .ocean-manta { position: absolute; top: 34%; left: -260px; animation: swim 60s linear infinite; animation-delay: -35s; }
 .manta-wings { transform-origin: 110px 55px; animation: ray-flap 3s ease-in-out infinite alternate; }
 .ocean-whale { position: absolute; top: 46%; left: -480px; animation: swim 120s linear infinite; animation-delay: -50s; }
