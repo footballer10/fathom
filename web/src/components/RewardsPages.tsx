@@ -131,7 +131,7 @@ export function QuestsPage() {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => void refreshRewards(false), []);
 
-  const claim = async (kind: "quest" | "achievement", id: string) => {
+  const claim = async (kind: "quest" | "achievement" | "streak", id: string) => {
     setBusy(true);
     setError(null);
     try {
@@ -144,7 +144,7 @@ export function QuestsPage() {
   };
 
   if (!s) return <div className="card center">Loading your quests…</div>;
-  const nextMilestone = s.streak.milestones.find((m) => m.days > s.streak.current);
+  const nextMilestone = s.streak.milestones.find((m) => m.days > s.streak.best);
   return (
     <div className="rewards-page">
       <div className="page-head">
@@ -177,19 +177,30 @@ export function QuestsPage() {
         <h3>🔥 Daily streak: {s.streak.current} day{s.streak.current === 1 ? "" : "s"}</h3>
         <p className="muted small">
           {s.streak.playedToday ? "You've played today. " : s.streak.current ? "Play today's Daily to keep it going! " : "Play the Daily on back-to-back days to build a streak. "}
-          Streak rewards pay out automatically when you reach them.
+          Your best streak is {s.streak.best} day{s.streak.best === 1 ? "" : "s"}. Reach a milestone, then tap it to collect.
           {nextMilestone && ` Next: ${nextMilestone.days} days.`}
         </p>
         <ol className="milestones">
-          {s.streak.milestones.map((m) => (
-            <li key={m.days} className={m.reached ? "milestone--reached" : ""}>
-              <span className="milestone-days">{m.days}</span>
-              <span className="milestone-reward">
-                <Pearl size={12} /> {m.pearls}
-                {m.items.length > 0 && <span className="milestone-items"> + {itemNames(m.items)}</span>}
-              </span>
-            </li>
-          ))}
+          {s.streak.milestones.map((m) => {
+            const ready = m.reached && !m.claimed;
+            return (
+              <li key={m.days}>
+                <button
+                  className={`milestone ${m.claimed ? "milestone--claimed" : ready ? "milestone--ready" : ""}`}
+                  disabled={!ready || busy}
+                  onClick={() => claim("streak", String(m.days))}
+                  title={ready ? "Tap to collect" : m.claimed ? "Collected" : `Reach a ${m.days}-day streak`}
+                >
+                  <span className="milestone-days">{m.days}</span>
+                  <span className="milestone-reward">
+                    <Pearl size={12} /> {m.pearls}
+                    {m.items.length > 0 && <span className="milestone-items"> + {itemNames(m.items)}</span>}
+                    <span className="milestone-state">{m.claimed ? "✓ Collected" : ready ? "Tap to collect!" : ""}</span>
+                  </span>
+                </button>
+              </li>
+            );
+          })}
         </ol>
       </div>
 

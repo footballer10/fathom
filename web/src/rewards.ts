@@ -17,7 +17,7 @@ export interface RewardsStatus {
   look: Look;
   daily: { date: string; quests: QuestView[] };
   weekly: { week: string; endsAt: number; quests: QuestView[] };
-  streak: { current: number; playedToday: boolean; milestones: { days: number; pearls: number; items: string[]; reached: boolean }[] };
+  streak: { current: number; best: number; playedToday: boolean; milestones: { days: number; pearls: number; items: string[]; reached: boolean; claimed: boolean }[] };
   achievements: { id: string; name: string; description: string; pearls: number; items: string[]; target: number; progress: number; claimed: boolean }[];
   recent: { label: string; pearls: number; at: number }[];
 }
@@ -65,7 +65,7 @@ export function quietRefresh() {
   return refreshRewards(false);
 }
 
-export async function claimReward(kind: "quest" | "achievement", id: string) {
+export async function claimReward(kind: "quest" | "achievement" | "streak", id: string) {
   set(await call("POST", "/api/rewards/claim", { kind, id }));
 }
 
@@ -109,7 +109,7 @@ export function useMyLook(): Required<Look> {
 export function readyToClaim(s: RewardsStatus | null): number {
   if (!s) return 0;
   const q = [...s.daily.quests, ...s.weekly.quests].filter((x) => !x.claimed && x.progress >= x.target).length;
-  return q + s.achievements.filter((a) => !a.claimed && a.progress >= a.target).length;
+  return q + s.achievements.filter((a) => !a.claimed && a.progress >= a.target).length + s.streak.milestones.filter((m) => m.reached && !m.claimed).length;
 }
 
 // ---------------------------------------------------------------------------

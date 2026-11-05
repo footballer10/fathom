@@ -403,6 +403,12 @@ export function nameStyle(look?: Look): { className?: string; style?: CSSPropert
   return { style: { color: c } };
 }
 
+/** Props for an element that shows a name: keeps its own class and adds the shop colour. */
+export function withName(base: string, look?: Look): { className: string; style?: CSSProperties } {
+  const ns = nameStyle(look);
+  return { className: ns.className ? `${base} ${ns.className}` : base, style: ns.style };
+}
+
 /** A player's name in their shop colour, with their title underneath (or beside it, inline). */
 export function PlayerName({
   name,
@@ -421,10 +427,12 @@ export function PlayerName({
   const ns = nameStyle(look);
   return (
     <span className={`pname ${inline ? "pname--inline" : ""} ${className}`}>
-      <span className={ns.className} style={ns.style}>
-        {name}
+      <span className="pname-line">
+        <span className={ns.className} style={ns.style}>
+          {name}
+        </span>
+        {children}
       </span>
-      {children}
       {title && <span className="ptitle">{title}</span>}
     </span>
   );
@@ -513,6 +521,7 @@ interface Bit {
 }
 
 const BURST_COLORS: Record<string, string[]> = {
+  "burst.sparkle": ["#fff6b0", "#ffd23f", "#ffffff", "#bdefff"],
   "burst.confetti": ["#ff5e5e", "#ffd23f", "#5ec8ff", "#6ee07a", "#c49bff", "#ff9ed2"],
   "burst.bubbles": ["#bdefff", "#e6f8ff", "#9fe0ff"],
   "burst.hearts": ["#ff6b9a", "#ff9ec0", "#ff3d7f"],
@@ -552,17 +561,21 @@ function BurstBit({ kind, bit }: { kind: string; bit: Bit }) {
     );
   }
   const angle = (bit.x / 100) * Math.PI * 2;
-  const dist = 120 + bit.r * 8;
+  const dist = 200 + bit.r * 14;
   const fall = kind === "burst.confetti" || kind === "burst.gold";
   const shape =
     kind === "burst.hearts" ? (
-      <svg viewBox="0 0 10 10" width="16" height="16">
+      <svg viewBox="0 0 10 10" width="22" height="22">
         <path d="M5 9 L1.2 5.2 A2.2 2.2 0 0 1 5 2.4 A2.2 2.2 0 0 1 8.8 5.2 Z" fill={bit.color} />
       </svg>
     ) : kind === "burst.gold" ? (
       <span className="burst-coin" style={{ background: bit.color }} />
     ) : kind === "burst.confetti" ? (
       <span className="burst-confetti" style={{ background: bit.color }} />
+    ) : kind === "burst.sparkle" ? (
+      <svg viewBox="0 0 10 10" width={12 + bit.r / 2} height={12 + bit.r / 2}>
+        <Star x={5} y={5} r={4.8} fill={bit.color} />
+      </svg>
     ) : kind === "burst.ink" ? (
       <span className="burst-ink" style={{ background: bit.color, width: 14 + bit.r, height: 14 + bit.r }} />
     ) : (
@@ -579,7 +592,7 @@ function BurstBit({ kind, bit }: { kind: string; bit: Bit }) {
         scale: kind === "burst.ink" ? 2.2 : 1,
         rotate: fall ? 360 + bit.r * 20 : 0,
       }}
-      transition={{ duration: fall ? 1.6 : 1.1, delay: bit.delay, ease: "easeOut" }}
+      transition={{ duration: fall ? 2.2 : 1.5, delay: bit.delay, ease: "easeOut" }}
     >
       {shape}
     </motion.span>
@@ -594,8 +607,8 @@ export function CelebrationLayer({ reducedMotion }: { reducedMotion: boolean }) 
     () =>
       onCelebrate((tier) => {
         const kind = look.burst;
-        if (reducedMotion || !kind || kind === DEFAULT_LOOK.burst) return;
-        const n = tier >= 100 ? 36 : tier >= 85 ? 24 : 14;
+        if (reducedMotion || !kind) return;
+        const n = tier >= 100 ? 64 : tier >= 85 ? 40 : 24;
         const colors = BURST_COLORS[kind] ?? BURST_COLORS["burst.confetti"];
         const count = kind === "burst.fish" ? Math.round(n / 3) : kind === "burst.fireworks" ? Math.round(n / 4) : n;
         const bits = Array.from({ length: count }, (_, i) => ({
@@ -607,7 +620,7 @@ export function CelebrationLayer({ reducedMotion }: { reducedMotion: boolean }) 
           delay: kind === "burst.fireworks" || kind === "burst.fish" ? i * 0.12 : Math.random() * 0.12,
         }));
         setBurst({ key: Date.now(), bits, kind });
-        setTimeout(() => setBurst((b) => (b && Date.now() - b.key >= 2400 ? null : b)), 2500);
+        setTimeout(() => setBurst((b) => (b && Date.now() - b.key >= 2900 ? null : b)), 3000);
       }),
     [look.burst, reducedMotion],
   );

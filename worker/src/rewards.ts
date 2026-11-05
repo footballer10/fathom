@@ -174,12 +174,6 @@ export async function soloRewards(
   const earns: Earn[] = [];
   if (mode === "daily" && date) {
     earns.push({ key: `daily:${date}`, pearls: PEARLS.daily(points), label: "Finished the Daily" });
-    const s = await env.DB.prepare("SELECT streak_cur, streak_last FROM lb_stats WHERE player_id = ?")
-      .bind(playerId)
-      .first<{ streak_cur: number; streak_last: string | null }>();
-    const streak = s?.streak_last === dayBefore(date) ? s.streak_cur + 1 : s?.streak_last === date ? s.streak_cur : 1;
-    const m = STREAK_MILESTONES.find((x) => x.days === streak);
-    if (m) earns.push({ key: `streak:${m.days}:${date}`, pearls: m.pearls, label: `${m.days}-day Daily streak!`, items: m.items });
   } else if (mode === "unlimited") {
     if ((await todayCount(env, playerId, "unl", now)) < PEARLS.dailyCaps.unlimited) {
       earns.push({ key: `unl:${sessionId}`, pearls: PEARLS.unlimited(points), label: "Finished an Unlimited dive" });
@@ -315,15 +309,21 @@ async function status(env: Env, playerId: string, now: number) {
   const w = await wallet(env, playerId);
   const owned = JSON.parse(w.owned) as string[];
   const ach = await achievementStats(env, playerId, w.lifetime);
-  const keys = [...dq.map((q) => `q:${date}:${q.id}`), ...wq.map((q) => `q:${week}:${q.id}`), ...ACHIEVEMENTS.map((a) => `ach:${a.id}`)];
+  const keys = [
+    ...dq.map((q) => `q:${date}:${q.id}`),
+    ...wq.map((q) => `q:${week}:${q.id}`),
+    ...ACHIEVEMENTS.map((a) => `ach:${a.id}`),
+    ...STREAK_MILESTONES.map((m) => `streak:${m.days}`),
+  ];
   const [progress, claimed, recent, streak] = await env.DB.batch([
     env.DB.prepare("SELECT period, metric, n FROM quest_progress WHERE player_id = ? AND period IN (?, ?)").bind(playerId, `d:${date}`, `w:${week}`),
-    env.DB.prepare("SELECT key FROM reward_claims WHERE player_id = ? AND key IN (SELECT value FROM json_each(?))").bind(playerId, JSON.stringify(keys)),
+    env.DB.prepare("SELECT key FROM reward_claims WHERE player_id = ? AND (key IN (SELECT value FROM json_each(?)) OR key LIKE 'streak:%')").bind(playerId, JSON.stringify(keys)),
     env.DB.prepare("SELECT label, pearls, created_at AS at FROM reward_claims WHERE player_id = ? ORDER BY created_at DESC LIMIT 20").bind(playerId),
     env.DB.prepare("SELECT streak_cur, streak_last FROM lb_stats WHERE player_id = ?").bind(playerId),
   ]);
   const prog = new Map((progress.results as { period: string; metric: string; n: number }[]).map((r) => [`${r.period}|${r.metric}`, r.n]));
-  const done = new Set((claimed.results as { key: string }[]).map((r) => r.key));
+  // Streak rewards paid automatically before they became collectable were keyed "streak:<days>:<date>".
+  const done = new Set((claimed.results as { key: string }[]).map((r) => r.key.replace(/^(streak:\d+):.*$/, "$1")));
   const s = streak.results[0] as { streak_cur: number; streak_last: string | null } | undefined;
   const currentStreak = s && (s.streak_last === date || s.streak_last === dayBefore(date)) ? s.streak_cur : 0;
   const quest = (period: string, prefix: string) => (q: (typeof dq)[number]) => ({
@@ -341,7 +341,9 @@ async function status(env: Env, playerId: string, now: number) {
     streak: {
       current: currentStreak,
       playedToday: s?.streak_last === date,
-      milestones: STREAK_MILESTONES.map((m) => ({ ...m, reached: ach.bestStreak >= m.days })),
+      best: ach.bestStreak,
+      // Collectable once your best streak ever reaches it (tap to collect).
+      milestones: STREAK_MILESTONES.map((m) => ({ ...m, reached: ach.bestStreak >= m.days, claimed: done.has(`streak:${m.days}`) })),
     },
     achievements: ACHIEVEMENTS.map((a) => ({
       id: a.id,
@@ -380,6 +382,12 @@ rewardRoutes.post("/api/rewards/claim", async (c) => {
     if (a.claimed) throw new HttpError(400, "Already collected");
     if (a.progress < a.target) throw new HttpError(400, "Not there yet");
     earn = { key: `ach:${a.id}`, pearls: a.pearls, label: `Achievement: ${a.name}`, items: a.items };
+  } else if (kind === "streak") {
+    const m = st.streak.milestones.find((x) => String(x.days) === String(id));
+    if (!m) throw new HttpError(400, "No such streak reward");
+    if (m.claimed) throw new HttpError(400, "Already collected");
+    if (!m.reached) throw new HttpError(400, `Reach a ${m.days}-day Daily streak first`);
+    earn = { key: `streak:${m.days}`, pearls: m.pearls, label: `${m.days}-day Daily streak reward`, items: m.items };
   } else {
     throw new HttpError(400, "Unknown reward");
   }

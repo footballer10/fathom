@@ -16,7 +16,7 @@ import {
 import type { BattleSettings, Category, DiveSettings, GameResult, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
 import type { GaugeDiver } from "../components/DepthGauge";
 import { Submarine } from "../components/DepthGauge";
-import { PlayerName, nameStyle } from "../components/Cosmetics";
+import { PlayerName, withName } from "../components/Cosmetics";
 import { celebrate, refreshRewards } from "../rewards";
 import { serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
@@ -924,7 +924,7 @@ function DiveReveal({
                     .sort((a, b) => Number(a.eliminated) - Number(b.eliminated) || b.lives - a.lives)
                     .map((p) => (
                       <li key={p.id} className={`${p.id === state.you ? "me" : ""}${p.eliminated ? " out" : ""}`}>
-                        <span className="lb-name" {...nameStyle(p.look)}>
+                        <span {...withName("lb-name", p.look)}>
                           {p.nickname}
                         </span>
                         <span className="lb-depth">{p.eliminated ? "out" : `❤️ ${p.lives}`}</span>
@@ -936,7 +936,7 @@ function DiveReveal({
                   {ordered.map((r) => (
                     <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
                       <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
-                      <span className="lb-name" {...nameStyle(lookOf(r.playerId))}>
+                      <span {...withName("lb-name", lookOf(r.playerId))}>
                         {r.nickname}
                       </span>
                       <span className="lb-depth">
@@ -1011,7 +1011,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
                       small
                     />
                   </motion.div>
-                  <div className="race-name" {...nameStyle(lookOf(r.playerId))}>
+                  <div {...withName("race-name", lookOf(r.playerId))}>
                     {r.nickname}
                   </div>
                 </div>
