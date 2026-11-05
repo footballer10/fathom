@@ -57,7 +57,7 @@ export function DepthGauge({ depth, others = [] }: { depth: MotionValue<number>;
       </div>
       {others.map((o) => (
         <div key={o.id} className="gauge-sub gauge-sub--other" style={{ top: pct(o.depth) }} title={`${o.name}: ${formatDepth(o.depth)}`}>
-          <SubRig look={o.look} hue={o.hue} />
+          <SubRig look={o.look ?? {}} />
           <span className="gauge-sub-name">{o.name}</span>
         </div>
       ))}

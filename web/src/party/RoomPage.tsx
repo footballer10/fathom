@@ -1006,11 +1006,8 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
               return (
                 <div key={r.playerId} className="race-lane">
                   <motion.div className="race-diver" initial={{ y: 0 }} animate={{ y: steps }} transition={{ duration: 4, ease: "easeInOut", delay: i * 0.05 }}>
-                    <Submarine
-                      hue={r.playerId === state.you ? undefined : hueOf(r.playerId)}
-                      look={r.playerId === state.you ? undefined : lookOf(r.playerId)}
-                      small
-                    />
+                    {/* Everyone's own sub; no paint job means the classic yellow one. */}
+                    <Submarine look={r.playerId === state.you ? undefined : (lookOf(r.playerId) ?? {})} small />
                   </motion.div>
                   <div {...withName("race-name", lookOf(r.playerId))}>
                     {r.nickname}
