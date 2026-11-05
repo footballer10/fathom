@@ -272,7 +272,8 @@ export function RoomPage({
       case "guessResult":
         if (lastEvent.accepted) {
           play(() => sounds.ping(lastEvent.tier ?? 10));
-          celebrate(lastEvent.tier);
+          // Celebrations are for Dives only, not Battles.
+          if (state?.kind === "dive") celebrate(lastEvent.tier);
         } else play(sounds.thud);
         break;
     }
