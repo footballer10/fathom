@@ -15,6 +15,7 @@ import {
   tierInfo,
 } from "@fathom/shared";
 import type {
+  Look,
   AnswerIndex,
   BattleSettings,
   BattleVariant,
@@ -37,6 +38,7 @@ import type {
 } from "@fathom/shared";
 import type { Env } from "./env";
 import { recordPartyResults } from "./leaderboards";
+import { looksOf } from "./rewards";
 import { recordRejected } from "./rejected";
 import { getIndex, getQuestions, markRoomSeen, pickRoomQuestions } from "./questions";
 
@@ -62,6 +64,8 @@ type Best = (NonNullable<BestAnswer> & { at?: number }) | null;
 interface Seat {
   id: string;
   nickname: string;
+  /** Shop cosmetics (sub, trail, sidekick, title, name colour), read when they join. */
+  look?: Look;
   joinedAt: number;
   spectator: boolean;
   score: number;
@@ -482,6 +486,9 @@ export class Room extends DurableObject<Env> {
       existing.nickname = nickname; // reconnecting to the same seat (maybe with a new name)
     }
     ws.serializeAttachment({ playerId } satisfies Attachment);
+    // Their shop look, fresh on every (re)join so a new sub shows up next time they connect.
+    const look = (await looksOf(this.env, [playerId]).catch(() => new Map<string, Look>())).get(playerId);
+    if (s.seats[playerId]) s.seats[playerId].look = look;
     if (s.phase === "lobby") this.syncRelayTeams();
     if (!s.hostId || !this.connectedIds().has(s.hostId)) s.hostId = playerId;
     s.lastActivity = now;
@@ -1284,6 +1291,7 @@ export class Room extends DurableObject<Env> {
         eliminated: x.eliminated,
         locked: !!s.dive?.answers[x.id] && s.phase === "question",
         ...(x.team !== undefined ? { team: x.team } : {}),
+        ...(x.look && Object.keys(x.look).length ? { look: x.look } : {}),
       }));
     const snap: RoomSnapshot = { code: s.code, kind: s.kind, hostId: s.hostId, phase: s.phase, players, settings: s.settings, you: pid, serverNow: now };
     if (s.dive && s.dive.index >= 0) {

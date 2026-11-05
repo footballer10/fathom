@@ -8,6 +8,7 @@ import type {
   RevealResponse,
   SessionState,
   TierPoints,
+  Look,
 } from "@fathom/shared";
 import { getPlayerId } from "./player";
 
@@ -71,6 +72,8 @@ export interface LeaderboardEntry {
   /** Public friend code, used to send a friend request. */
   code: string | null;
   friend: "friends" | "sent" | null;
+  /** Shop title and name colour. */
+  look?: Look;
 }
 
 export interface FriendRequest {
@@ -171,7 +174,7 @@ export const api = {
     call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken, confirm, runId }),
   practiceAnswers: (id: string) => call<{ answers: RevealAnswer[] }>("GET", `/api/practice/answers/${encodeURIComponent(id)}`),
   dailyTop: (date: string) =>
-    call<{ date: string; divers: number; rows: { rank: number; nickname: string; depth: number; tiers: (number | null)[]; you: boolean }[]; you: { rank: number; depth: number } | null }>(
+    call<{ date: string; divers: number; rows: { rank: number; nickname: string; depth: number; tiers: (number | null)[]; you: boolean; look?: Look }[]; you: { rank: number; depth: number } | null }>(
       "GET",
       `/api/daily/top?date=${encodeURIComponent(date)}`,
     ),

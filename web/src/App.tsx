@@ -26,6 +26,10 @@ import { navigate, useRoute } from "./router";
 import { useSettings } from "./settings";
 import { api } from "./api";
 import { setAccount } from "./player";
+import { refreshRewards, useMyLook } from "./rewards";
+import { CelebrationLayer } from "./components/Cosmetics";
+import { PearlToast, QuestsPage, ShopPage } from "./components/RewardsPages";
+import { LogbookPage } from "./components/Logbook";
 
 type Screen =
   | { name: "home" }
@@ -45,6 +49,10 @@ export function App() {
   const soloMode = /^\/play\/(sprint|ladder|roulette|five)$/.exec(route)?.[1] as SoloMode | undefined;
   // One animated depth value drives the background, creatures, particles and gauge.
   const depth = useMotionValue(0);
+  const look = useMyLook();
+
+  // Pearl balance, quests and your shop look, loaded once (and refreshed after games).
+  useEffect(() => void refreshRewards(false), []);
 
   useEffect(() => {
     document.title = APP_NAME;
@@ -137,7 +145,7 @@ export function App() {
 
   return (
     <MotionConfig reducedMotion={settings.reducedMotion ? "always" : "never"}>
-      <Ocean depth={depth} />
+      <Ocean key={look.theme} depth={depth} theme={look.theme} />
       <Particles depth={depth} enabled={settings.particles && !settings.reducedMotion} />
       {!inBattle && <DepthGauge depth={depth} others={roomCode ? partyDivers : []} />}
 
@@ -172,6 +180,12 @@ export function App() {
           <AbyssPage reducedMotion={settings.reducedMotion} />
         ) : soloMode ? (
           <SoloModePage key={soloMode} mode={soloMode} reducedMotion={settings.reducedMotion} onDepth={diveTo} />
+        ) : route === "/shop" ? (
+          <ShopPage />
+        ) : route === "/quests" ? (
+          <QuestsPage />
+        ) : route === "/logbook" ? (
+          <LogbookPage />
         ) : route === "/archive" ? (
           <ArchivePage onPlay={(date) => play("archive", undefined, date)} />
         ) : null}
@@ -207,6 +221,8 @@ export function App() {
       {upgradeName && route !== "/admin" && <UpgradeAccount name={upgradeName} />}
       {!welcome && !roomCode && <FriendRequestPopup />}
       <SuggestBox open={suggestOpen} onClose={() => setSuggestOpen(false)} />
+      <CelebrationLayer reducedMotion={settings.reducedMotion} />
+      <PearlToast />
     </MotionConfig>
   );
 }

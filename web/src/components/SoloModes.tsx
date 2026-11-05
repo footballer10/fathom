@@ -6,6 +6,7 @@ import { api, serverNow } from "../api";
 import type { PracticeQuestion } from "../api";
 import { TimerRing } from "./TimerRing";
 import { DidYouMean } from "./DidYouMean";
+import { celebrate, refreshRewards } from "../rewards";
 
 export type SoloMode = "sprint" | "ladder" | "roulette" | "five";
 
@@ -79,6 +80,7 @@ export function SoloModePage({ mode, reducedMotion, onDepth }: { mode: SoloMode;
           const finishRun = r.runId ? api.practiceFinish(r.runId) : Promise.reject(new Error("no run"));
           void finishRun
             .then(({ score, best: serverBest }) => {
+              void refreshRewards();
               const wasBest = score > getBest(mode);
               saveBest(mode, Math.max(score, serverBest));
               setResult({ ...r, score, label: wasBest && score > 0 ? `${r.label} · new personal best!` : r.label });
@@ -306,6 +308,7 @@ function SoloRun({
         return;
       }
       const t = tierInfo(r.tier);
+      celebrate(r.tier);
       if (mode === "sprint") {
         played.current.push({ prompt: q.prompt, canonical: r.canonical, tier: r.tier });
         setPoints((p) => p + r.points);

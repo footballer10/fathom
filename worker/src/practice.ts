@@ -5,6 +5,8 @@ import type { TierPoints } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 import { recordRejected } from "./rejected";
+import { abyssRewards, quickRewards } from "./rewards";
+import type { Earned } from "./rewards";
 import { abyssKrillionStatement, ensureSchema, practiceBestStatement } from "./schema";
 import { OPT_IN_SQL, UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams, unlimitedPool } from "./questions";
 
@@ -188,6 +190,8 @@ practiceRoutes.post("/api/practice/finish", async (c) => {
   const run = await loadRun(c.env, String(runId ?? ""), playerId);
   if (!run) throw new HttpError(404, "No such run");
   await ensureSchema(c.env);
+  const now = Date.now();
+  let earned: Earned | null = null;
   if (!run.finished) {
     run.finished = 1;
     run.score = scoreRun(run);
@@ -197,12 +201,17 @@ practiceRoutes.post("/api/practice/finish", async (c) => {
       .run();
     const stmt = res.meta.changes ? practiceBestStatement(c.env, playerId, run.mode, run.score) : null;
     if (stmt) await stmt.run();
+    if (res.meta.changes) {
+      const r = await quickRewards(c.env, playerId, run.id, run.data.accepted.map((a) => a.tier), now);
+      if (r.stmts.length) await c.env.DB.batch(r.stmts);
+      earned = r.earned;
+    }
   }
   // Your best comes from your one summary row, not by scanning all your runs.
   const best = await c.env.DB.prepare(`SELECT best_${run.mode} AS best FROM lb_stats WHERE player_id = ?`)
     .bind(playerId)
     .first<{ best: number | null }>();
-  return c.json({ score: run.score ?? 0, best: Math.max(best?.best ?? 0, run.score ?? 0) });
+  return c.json({ score: run.score ?? 0, best: Math.max(best?.best ?? 0, run.score ?? 0), earned });
 });
 
 /** Every valid answer, for the end-of-prompt reveal. */
@@ -335,7 +344,10 @@ practiceRoutes.post("/api/abyss/start", async (c) => {
     .bind(week, playerId, q.id, now)
     .run();
   // Keep a running count of this week's divers (so the board never has to count them).
-  if (ins.meta.changes) await c.env.DB.prepare("UPDATE abyss_weeks SET divers = COALESCE(divers, 0) + 1 WHERE week = ?").bind(week).run();
+  if (ins.meta.changes) {
+    await c.env.DB.prepare("UPDATE abyss_weeks SET divers = COALESCE(divers, 0) + 1 WHERE week = ?").bind(week).run();
+    await abyssRewards(c.env, playerId, week, "dive", now);
+  }
   const a = await c.env.DB.prepare("SELECT * FROM abyss_attempts WHERE week = ? AND player_id = ?").bind(week, playerId).first<AbyssRow>();
   return c.json({ prompt: q.prompt, category: q.category, attempt: attemptView(a, now) });
 });
@@ -367,6 +379,7 @@ practiceRoutes.post("/api/abyss/guess", async (c) => {
     if (res.meta.changes && better && r.tier === 100) {
       await ensureSchema(c.env);
       await abyssKrillionStatement(c.env, playerId).run();
+      await abyssRewards(c.env, playerId, week, "krillion", now);
     }
   }
   return c.json({ accepted: r.accepted, canonical: r.canonical, tier: r.tier, points: r.points, reason: r.reason });

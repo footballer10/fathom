@@ -6,6 +6,7 @@ import type { AbyssStatus } from "../api";
 import { getAccount } from "../player";
 import { TimerRing } from "./TimerRing";
 import { DidYouMean } from "./DidYouMean";
+import { celebrate, refreshRewards } from "../rewards";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
@@ -46,6 +47,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
   const start = async () => {
     try {
       const r = await api.abyssStart();
+      void refreshRewards();
       setStatus((s) => (s ? { ...s, prompt: r.prompt, attempt: r.attempt } : s));
       setTimeout(() => inputRef.current?.focus(), 50);
     } catch (e) {
@@ -65,6 +67,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
         return;
       }
       if (r.accepted && r.tier && r.canonical) {
+        celebrate(r.tier);
         setMsg(null);
         setStatus((s) => {
           if (!s?.attempt) return s;

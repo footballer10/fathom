@@ -6,6 +6,7 @@ import type { LeaderboardBoard, LeaderboardEntry } from "../api";
 import { NicknamePrompt, getNickname } from "../nickname";
 import { getAccount } from "../player";
 import { AccountSection } from "./AccountSection";
+import { PlayerName } from "./Cosmetics";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
@@ -165,8 +166,9 @@ export function LeaderboardsPage() {
                             <span className="board-rank">{MEDALS[r.rank - 1] ?? r.rank}</span>
                             {r.you || !r.code ? (
                               <span className="board-name">
-                                {r.nickname}
-                                {r.you && <span className="muted small"> (you)</span>}
+                                <PlayerName name={r.nickname} look={r.look}>
+                                  {r.you && <span className="muted small"> (you)</span>}
+                                </PlayerName>
                               </span>
                             ) : (
                               <button
@@ -174,8 +176,9 @@ export function LeaderboardsPage() {
                                 onClick={() => setPicked(r)}
                                 title={`Add ${r.nickname} as a friend`}
                               >
-                                {r.nickname}
-                                {r.friend === "friends" && <span className="board-tag"> 🐠</span>}
+                                <PlayerName name={r.nickname} look={r.look}>
+                                  {r.friend === "friends" && <span className="board-tag"> 🐠</span>}
+                                </PlayerName>
                               </button>
                             )}
                             <span className="board-value">{formatValue(b, r.value)}</span>

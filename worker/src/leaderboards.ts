@@ -3,6 +3,8 @@ import type { Context } from "hono";
 import { weekOf } from "./practice";
 import { ensurePartyResults, ensureSchema, partyResultStatement } from "./schema";
 import { friendStatus } from "./social";
+import { looksOf, partyRewards } from "./rewards";
+import type { Look } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
 
@@ -42,6 +44,8 @@ export async function recordPartyResults(
       partyResultStatement(env, r.playerId, kind, variant, r.rank === 1),
     ]),
   );
+  const rewards = await partyRewards(env, room, results, now);
+  if (rewards.length) await env.DB.batch(rewards);
 }
 
 export interface Board {
@@ -52,7 +56,7 @@ export interface Board {
   group: string;
   /** How to show the value. "tier" is a tier's points (shown as its name). */
   unit: "count" | "meters" | "percent" | "days" | "rungs" | "hits" | "tier";
-  rows: { rank: number; nickname: string; value: number; playerId: string; code: string | null }[];
+  rows: { rank: number; nickname: string; value: number; playerId: string; code: string | null; look?: Look }[];
 }
 
 const NAMED = "p.nickname IS NOT NULL AND TRIM(p.nickname) != ''";
@@ -180,6 +184,11 @@ function finish(def: Omit<Board, "rows"> & { rows: Row[] }): Board {
   };
 }
 
+/** The parts of a look shown next to a name. */
+function publicLook(l: Look): Look {
+  return { ...(l.title ? { title: l.title } : {}), ...(l.color ? { color: l.color } : {}), ...(l.skin ? { skin: l.skin } : {}) };
+}
+
 async function computeBoards(env: Env): Promise<Board[]> {
   await ensureSchema(env);
   const now = Date.now();
@@ -219,6 +228,9 @@ async function computeBoards(env: Env): Promise<Board[]> {
   // Daily first, then Unlimited, Abyss, Party, Quick modes; within a section, the order above
   // (This week's Abyss leads its section).
   const order = (b: Board) => GROUP_ORDER.indexOf(b.group) * 100 + (b.id === "abyss-week" ? -1 : BOARDS.findIndex((d) => d.id === b.id));
+  // Titles and name colours from the shop, for everyone shown.
+  const looks = await looksOf(env, [...new Set(boards.flatMap((b) => b.rows.map((r) => r.playerId)))]).catch(() => new Map<string, Look>());
+  for (const b of boards) for (const r of b.rows) if (looks.has(r.playerId)) r.look = publicLook(looks.get(r.playerId)!);
   return boards.sort((a, b) => order(a) - order(b));
 }
 
@@ -281,7 +293,10 @@ leaderboardRoutes.get("/api/leaderboards", async (c: Context<AppEnv>) => {
  * Today's (or any day's) Daily top 10, for the end of the Daily. Reads about ten
  * rows off an index plus the per-score summary, cached a minute per server instance.
  */
-const dailyTopCache = new Map<string, { at: number; rows: { player_id: string; nickname: string; points: number; tiers: string }[]; total: number }>();
+const dailyTopCache = new Map<
+  string,
+  { at: number; rows: { player_id: string; nickname: string; points: number; tiers: string }[]; total: number; looks: Map<string, Look> }
+>();
 
 leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   const id = c.req.header("X-Player-Id") ?? "";
@@ -299,7 +314,9 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
       ).bind(date),
       c.env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM daily_hist WHERE date = ?").bind(date),
     ]);
-    entry = { at: now, rows: top.results as never, total: (count.results[0] as { n: number }).n };
+    const rows = top.results as { player_id: string; nickname: string; points: number; tiers: string }[];
+    const looks = await looksOf(c.env, rows.map((r) => r.player_id)).catch(() => new Map<string, Look>());
+    entry = { at: now, rows, total: (count.results[0] as { n: number }).n, looks };
     dailyTopCache.set(date, entry);
     if (dailyTopCache.size > 20) dailyTopCache.delete(dailyTopCache.keys().next().value!);
   }
@@ -309,7 +326,15 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   const rows = entry.rows.map((r, i) => {
     if (r.points !== prev) rank = i + 1;
     prev = r.points;
-    return { rank, nickname: r.nickname, depth: r.points * 10, tiers: JSON.parse(r.tiers) as (number | null)[], you: r.player_id === id };
+    const look = entry!.looks.get(r.player_id);
+    return {
+      rank,
+      nickname: r.nickname,
+      depth: r.points * 10,
+      tiers: JSON.parse(r.tiers) as (number | null)[],
+      you: r.player_id === id,
+      ...(look ? { look: publicLook(look) } : {}),
+    };
   });
   // Your own place, if you're not in the top 10.
   let you: { rank: number; depth: number } | null = null;

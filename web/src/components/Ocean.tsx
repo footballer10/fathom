@@ -1,6 +1,7 @@
 import { motion, useMotionValueEvent, useTransform, useVelocity } from "framer-motion";
 import type { MotionValue } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { OCEAN_THEMES } from "./Cosmetics";
 
 /**
  * The full-screen ocean: a depth-driven gradient, surface light rays, and
@@ -11,22 +12,17 @@ import { useEffect, useRef } from "react";
 type RGB = [number, number, number];
 const hex = (h: string): RGB => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)) as RGB;
 
-// [depth in meters, top color, bottom color]
-const STOPS: [number, RGB, RGB][] = [
-  [0, hex("#5ccff5"), hex("#0a6fb0")],
-  [1000, hex("#1769b8"), hex("#073a73")],
-  [2500, hex("#0a2c5e"), hex("#03142e")],
-  [4000, hex("#06142c"), hex("#020812")],
-  [5500, hex("#030a17"), hex("#010307")],
-  [7000, hex("#010409"), hex("#000000")],
-];
+// [depth in meters, top color, bottom color], per shop ocean theme.
+const stopsFor = (theme: string): [number, RGB, RGB][] =>
+  (OCEAN_THEMES[theme] ?? OCEAN_THEMES["theme.classic"]).map(([d, top, bottom]) => [d, hex(top), hex(bottom)]);
 
 function mix(a: RGB, b: RGB, t: number): string {
   const c = a.map((v, i) => Math.round(v + (b[i] - v) * t));
   return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
 }
 
-export function oceanGradient(depth: number): string {
+export function oceanGradient(depth: number, theme = "theme.classic"): string {
+  const STOPS = stopsFor(theme);
   const d = Math.max(0, depth);
   let i = 0;
   while (i < STOPS.length - 2 && d > STOPS[i + 1][0]) i++;
@@ -36,8 +32,9 @@ export function oceanGradient(depth: number): string {
   return `linear-gradient(180deg, ${mix(top0, top1, t)} 0%, ${mix(bot0, bot1, t)} 100%)`;
 }
 
-export function Ocean({ depth }: { depth: MotionValue<number> }) {
-  const background = useTransform(depth, oceanGradient);
+/** Remount (key by theme) to switch ocean colours. */
+export function Ocean({ depth, theme = "theme.classic" }: { depth: MotionValue<number>; theme?: string }) {
+  const background = useTransform(depth, (d) => oceanGradient(d, theme));
   const rays = useTransform(depth, [0, 1400], [0.55, 0]);
   const fish = useTransform(depth, [0, 900, 1400], [1, 0.9, 0]);
   const jelly = useTransform(depth, [700, 1200, 2700, 3300], [0, 1, 1, 0]);

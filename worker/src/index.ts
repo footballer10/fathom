@@ -4,6 +4,8 @@ import { HttpError } from "./env";
 import type { Env } from "./env";
 import { adminRoutes } from "./admin";
 import { leaderboardRoutes } from "./leaderboards";
+import { rewardRoutes } from "./rewards";
+import { logbookRoutes } from "./logbook";
 import { roomRoutes } from "./rooms";
 import { categories, finish, getDaily, guess, nextQuestion, report, reveal, sessionState, startSession } from "./solo";
 import { playerStats } from "./stats";
@@ -74,6 +76,8 @@ app.route("/", friendRoutes);
 app.route("/", suggestionRoutes);
 app.route("/", practiceRoutes);
 app.route("/", accountRoutes);
+app.route("/", rewardRoutes);
+app.route("/", logbookRoutes);
 
 app.all("/api/*", (c) => c.json({ error: "Not found" }, 404));
 

@@ -111,6 +111,8 @@ export interface FinishResponse {
   rarestToday: { prompt: string; canonical: string; tier: TierPoints } | null;
   /** Epoch ms of the next Daily reset. */
   nextDailyAt: number;
+  /** Pearls (and any items) this dive just earned; null if nothing new. */
+  earned?: { pearls: number; lines: { label: string; pearls: number }[]; items: string[] } | null;
 }
 
 export interface DailyInfo {

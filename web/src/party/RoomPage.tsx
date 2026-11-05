@@ -16,6 +16,8 @@ import {
 import type { BattleSettings, Category, DiveSettings, GameResult, QuestionRecap, RevealAnswer, RoomSnapshot, TierPoints } from "@fathom/shared";
 import type { GaugeDiver } from "../components/DepthGauge";
 import { Submarine } from "../components/DepthGauge";
+import { PlayerName, nameStyle } from "../components/Cosmetics";
+import { celebrate, refreshRewards } from "../rewards";
 import { serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
 import { DidYouMean } from "../components/DidYouMean";
@@ -220,7 +222,7 @@ export function RoomPage({
     onDivers(
       state.players
         .filter((p) => p.id !== state.you && !p.spectator)
-        .map((p) => ({ id: p.id, name: p.nickname, depth: partyDepth(p.score, qc), hue: hueOf(p.id) })),
+        .map((p) => ({ id: p.id, name: p.nickname, depth: partyDepth(p.score, qc), hue: hueOf(p.id), look: p.look })),
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [diversKey, onDivers]);
@@ -268,11 +270,21 @@ export function RoomPage({
         play(() => sounds.ping(lastEvent.tier));
         break;
       case "guessResult":
-        if (lastEvent.accepted) play(() => sounds.ping(lastEvent.tier ?? 10));
-        else play(sounds.thud);
+        if (lastEvent.accepted) {
+          play(() => sounds.ping(lastEvent.tier ?? 10));
+          celebrate(lastEvent.tier);
+        } else play(sounds.thud);
         break;
     }
   }, [lastEvent, state, settings.sound]);
+
+  // A finished game pays pearls (the server records it a moment after the game ends).
+  const over = state?.phase === "over";
+  useEffect(() => {
+    if (!over) return;
+    const t = setTimeout(() => void refreshRewards(), 2500);
+    return () => clearTimeout(t);
+  }, [over]);
 
   if (status === "kicked") {
     return (
@@ -399,11 +411,10 @@ function PlayerList({ state, showLives = false, active, send }: { state: RoomSna
             <span className="player-avatar" style={{ "--seat-hue": hueOf(p.id) } as React.CSSProperties} aria-hidden>
               {p.eliminated ? "💀" : p.nickname.slice(0, 1).toUpperCase()}
             </span>
-            <span className="player-name">
-              {p.nickname}
+            <PlayerName name={p.nickname} look={p.look} inline className="player-name">
               {state.hostId === p.id && <span className="player-tag" title="Host">👑</span>}
               {p.id === state.you && <span className="player-tag player-tag--you">you</span>}
-            </span>
+            </PlayerName>
             <span className="player-status">
               {p.spectator && <span className="status-chip">watching</span>}
               {sittingOut && <span className="status-chip">safe this round</span>}
@@ -825,6 +836,7 @@ function DiveReveal({
   tiers: Record<number, TierPoints | null>;
   reducedMotion: boolean;
 }) {
+  const lookOf = (id: string) => state.players.find((p) => p.id === id)?.look;
   const d = state.dive!;
   const reveal = d.reveal!;
   const now = useNow();
@@ -912,7 +924,9 @@ function DiveReveal({
                     .sort((a, b) => Number(a.eliminated) - Number(b.eliminated) || b.lives - a.lives)
                     .map((p) => (
                       <li key={p.id} className={`${p.id === state.you ? "me" : ""}${p.eliminated ? " out" : ""}`}>
-                        <span className="lb-name">{p.nickname}</span>
+                        <span className="lb-name" {...nameStyle(p.look)}>
+                          {p.nickname}
+                        </span>
                         <span className="lb-depth">{p.eliminated ? "out" : `❤️ ${p.lives}`}</span>
                       </li>
                     ))}
@@ -922,7 +936,9 @@ function DiveReveal({
                   {ordered.map((r) => (
                     <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
                       <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
-                      <span className="lb-name">{r.nickname}</span>
+                      <span className="lb-name" {...nameStyle(lookOf(r.playerId))}>
+                        {r.nickname}
+                      </span>
                       <span className="lb-depth">
                         {variant === "school" ? `${Math.round(r.score / DIVE_DEFAULTS.schoolPointsPerMatch)} 🐟` : formatDepth(partyDepth(r.score, qc))}
                       </span>
@@ -958,6 +974,7 @@ function DiveReveal({
 }
 
 function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapshot; isHost: boolean; send: Send; reducedMotion: boolean }) {
+  const lookOf = (id: string) => state.players.find((p) => p.id === id)?.look;
   const results = state.results?.results ?? [];
   const variant = (state.settings as DiveSettings).variant ?? "classic";
   const coop = state.results?.coop;
@@ -988,9 +1005,15 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
               return (
                 <div key={r.playerId} className="race-lane">
                   <motion.div className="race-diver" initial={{ y: 0 }} animate={{ y: steps }} transition={{ duration: 4, ease: "easeInOut", delay: i * 0.05 }}>
-                    <Submarine hue={r.playerId === state.you ? undefined : hueOf(r.playerId)} small />
+                    <Submarine
+                      hue={r.playerId === state.you ? undefined : hueOf(r.playerId)}
+                      look={r.playerId === state.you ? undefined : lookOf(r.playerId)}
+                      small
+                    />
                   </motion.div>
-                  <div className="race-name">{r.nickname}</div>
+                  <div className="race-name" {...nameStyle(lookOf(r.playerId))}>
+                    {r.nickname}
+                  </div>
                 </div>
               );
             })}

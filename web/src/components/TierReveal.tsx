@@ -3,6 +3,7 @@ import { useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
 import { MISS_EMOJI, formatDepth, pointsToDepth, tierInfo } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
+import { celebrate } from "../rewards";
 
 /** How big the celebration gets per tier. */
 const BURST_SIZE: Record<TierPoints, number> = { 10: 0, 15: 6, 30: 10, 60: 16, 85: 26, 100: 44 };
@@ -29,6 +30,8 @@ export function TierReveal({
   const points = useMotionValue(0);
   const pointsText = useTransform(points, (p) => `+${Math.round(p)}`);
   const depthText = useTransform(points, (p) => `${formatDepth(pointsToDepth(Math.round(p)))} deeper`);
+
+  useEffect(() => celebrate(tier), [tier]);
 
   useEffect(() => {
     if (!tier) return;

@@ -1,3 +1,4 @@
+import type { Look } from "./rewards";
 import type { Category, TierPoints } from "./config";
 import type { RevealAnswer } from "./types";
 
@@ -71,6 +72,8 @@ export interface RoomPlayer {
   locked: boolean;
   /** Relay: which team (0 or 1). */
   team?: number;
+  /** Shop cosmetics: sub, trail, sidekick, title, name colour. */
+  look?: Look;
 }
 
 export interface UsedAnswer {

@@ -6,6 +6,7 @@ import { api } from "../api";
 import type { DailyStatus } from "../api";
 import { navigate } from "../router";
 import { StatsPanel } from "./Social";
+import { RewardsStrip } from "./RewardsPages";
 import { SOLO_MODES } from "./SoloModes";
 import type { SoloMode } from "./SoloModes";
 
@@ -88,6 +89,8 @@ export function Home({
           </button>
         </div>
       </div>
+
+      <RewardsStrip />
 
       <nav className="home-nav">
         <button className="btn btn--ghost" onClick={() => navigate("/leaderboards")}>

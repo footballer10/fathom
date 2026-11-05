@@ -26,6 +26,8 @@ import type { Env } from "./env";
 import { logRejected } from "./rejected";
 import { isOptInCategory } from "@fathom/shared";
 import { ensureSchema, soloFinishStatements } from "./schema";
+import { soloRewards } from "./rewards";
+import type { Earned } from "./rewards";
 import { dailyNumber, getDailySet, getIndex, getQuestions, sample, spreadByFamily, today, unlimitedPool } from "./questions";
 
 /**
@@ -425,6 +427,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
   const points = plays.reduce((n, p) => n + p.points, 0);
 
   await ensureSchema(env);
+  let earned: Earned | null = null;
   if (!s.finished) {
     // Only the request that actually flips "finished" records the result, so a double
     // tap can't count a dive twice in the leaderboards.
@@ -442,7 +445,12 @@ export async function finish(env: Env, playerId: string, id: string, now: number
           ),
         );
       }
-      if (s.mode === "daily" || s.mode === "unlimited") stmts.push(...soloFinishStatements(env, playerId, s.mode, s.date, plays, now));
+      if (s.mode === "daily" || s.mode === "unlimited") {
+        // Rewards first: they read the streak as it was before this dive.
+        const r = await soloRewards(env, playerId, s.mode, s.date, s.id, plays.map((p) => p.tier), points, now);
+        earned = r.earned;
+        stmts.push(...r.stmts, ...soloFinishStatements(env, playerId, s.mode, s.date, plays, now));
+      }
       if (stmts.length) await env.DB.batch(stmts);
     }
   }
@@ -493,6 +501,7 @@ export async function finish(env: Env, playerId: string, id: string, now: number
     date: s.date,
     rarestToday: rarest,
     nextDailyAt: nextDailyResetAt(now),
+    earned,
   };
 }
 

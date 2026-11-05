@@ -11,3 +11,4 @@ export * from "./content/validate";
 export * from "./content/generatePrompt";
 export * from "./profanity";
 export * from "./room";
+export * from "./rewards";

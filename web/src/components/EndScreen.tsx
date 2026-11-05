@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { DAILY_DEPTH_MEAN, DAILY_DEPTH_SD, MISS_EMOJI, PERCENTILE_MIN_RESULTS, formatDepth, shareCardText, tierInfo } from "@fathom/shared";
+import { DAILY_DEPTH_MEAN, ITEM_BY_ID, DAILY_DEPTH_SD, MISS_EMOJI, PERCENTILE_MIN_RESULTS, formatDepth, shareCardText, tierInfo } from "@fathom/shared";
 import type { FinishResponse, RevealResponse, TierPoints } from "@fathom/shared";
 import { api, serverNow } from "../api";
 import { RevealPanel } from "./RevealPanel";
+import { PearlCount } from "./RewardsPages";
+import { PlayerName } from "./Cosmetics";
+import { quietRefresh } from "../rewards";
+import { navigate } from "../router";
 
 function useCountdown(target: number) {
   const [left, setLeft] = useState(() => Math.max(0, target - serverNow()));
@@ -30,6 +34,8 @@ export function EndScreen({
   onPlayUnlimited: () => void;
 }) {
   const [copied, setCopied] = useState(false);
+  // Pick up the pearls this dive paid (already listed here, so no extra toast).
+  useEffect(() => void quietRefresh(), []);
   const [open, setOpen] = useState<number | null>(null);
   const [reveals, setReveals] = useState<Record<number, RevealResponse>>({});
   const countdown = useCountdown(result.nextDailyAt);
@@ -75,6 +81,34 @@ export function EndScreen({
         <div className="muted small">{result.totalPoints} points</div>
         {result.mode === "daily" && <DailyCurve depth={result.depth} actual={result.percentile} divers={result.divers ?? null} reducedMotion={reducedMotion} />}
       </motion.div>
+
+      {result.earned && result.earned.pearls > 0 && (
+        <motion.div className="card end-earned" {...fade(0.1)}>
+          <div className="end-earned-total">
+            <PearlCount n={result.earned.pearls} big /> <span>pearls earned</span>
+          </div>
+          <ul className="end-earned-lines">
+            {result.earned.lines.map((l, i) => (
+              <li key={i}>
+                {l.label} <b>+{l.pearls}</b>
+              </li>
+            ))}
+            {result.earned.items.map((id) => (
+              <li key={id} className="end-earned-item">
+                🎁 Unlocked: <b>{ITEM_BY_ID.get(id)?.name ?? id}</b>
+              </li>
+            ))}
+          </ul>
+          <div className="end-earned-btns">
+            <button className="btn btn--small" onClick={() => navigate("/quests")}>
+              📜 Quests
+            </button>
+            <button className="btn btn--small" onClick={() => navigate("/shop")}>
+              🛍️ Shop
+            </button>
+          </div>
+        </motion.div>
+      )}
 
       <motion.div className="card" {...fade(0.15)}>
         <h3>Your answers</h3>
@@ -163,8 +197,9 @@ function DailyTop({ date, dailyNumber, fade }: { date: string; dailyNumber: numb
           <li key={`${r.rank}-${r.nickname}`} className={`${r.you ? "me" : ""}${r.rank === 1 ? " standings-first" : ""}`}>
             <span className="standings-rank">{["🥇", "🥈", "🥉"][r.rank - 1] ?? r.rank}</span>
             <span className="standings-name">
-              {r.nickname}
-              {r.you && <span className="player-tag player-tag--you">you</span>}
+              <PlayerName name={r.nickname} look={r.look} inline>
+                {r.you && <span className="player-tag player-tag--you">you</span>}
+              </PlayerName>
             </span>
             <span className="daily-top-tiers" aria-hidden>
               {r.tiers.map((t, i) => (
