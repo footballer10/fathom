@@ -101,6 +101,18 @@ export function zoneForDepth(depthMeters: number): ZoneInfo {
 /** Daily dives needed before the results curve (and percentile) appear. */
 export const PERCENTILE_MIN_RESULTS = 20;
 
+/**
+ * The assumed spread of Daily depths, used to estimate "better than X% of
+ * players" on the Daily results curve, even on days with few divers. A normal
+ * curve centred on 2,500 m with a 750 m standard deviation: about two-thirds of
+ * divers land between 1,750 m and 3,250 m, and roughly 1 in 50 goes past 4,000 m.
+ * Set from early real results (named players averaged about 2,100–2,650 m).
+ * Not exact, but close enough; the real percentile is shown too once enough
+ * people have played that day.
+ */
+export const DAILY_DEPTH_MEAN = 2500;
+export const DAILY_DEPTH_SD = 750;
+
 // ---------------------------------------------------------------------------
 // Matcher
 // ---------------------------------------------------------------------------
