@@ -2317,3 +2317,27 @@ body:has(.battle) .toasts { bottom: 104px; }
 .nickname-card .settings-account { border-bottom: none; padding-bottom: 0; }
 .admin-veto { color: #ff8fab; font-weight: 600; }
 .admin-veto:disabled { opacity: 0.35; cursor: not-allowed; }
+
+/* Admin: stats pages */
+.admin-danger { color: #ff8fab !important; font-weight: 600; }
+.admin-danger:disabled, .admin-slot-actions button:disabled { opacity: 0.35; cursor: not-allowed; }
+.admin-bad { color: #ff8fab; font-weight: 700; }
+.admin-input--date { width: auto; display: inline-block; }
+.admin-input--num { width: 70px; display: inline-block; }
+.admin-stat-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin: 12px 0; }
+.admin-stat { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: 10px; background: rgba(255, 255, 255, 0.06); border: 1px solid var(--glass-border); }
+.admin-stat b { font-size: 1.4rem; }
+.admin-click-row { cursor: pointer; }
+.admin-click-row:hover { background: rgba(255, 255, 255, 0.06); }
+.admin-player-modal { max-width: 560px; max-height: 80vh; overflow: auto; text-align: left; }
+.admin-activity { list-style: none; padding: 0; margin: 8px 0; display: flex; flex-direction: column; gap: 6px; }
+.admin-daily-q { margin: 12px 0; padding: 14px; text-align: left; }
+.admin-daily-q--hard { border-color: #ff8fab; }
+.admin-tierbar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; margin: 8px 0; }
+.admin-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.admin-two-col ol { margin: 4px 0; padding-left: 20px; }
+.admin-hist { display: flex; align-items: flex-end; gap: 4px; height: 120px; margin: 10px 0 18px; padding: 0 4px; }
+.admin-hist-col { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; }
+.admin-hist-col span { width: 100%; background: var(--accent); border-radius: 4px 4px 0 0; min-height: 2px; }
+.admin-hist-col small { font-size: 0.7rem; opacity: 0.7; margin-top: 2px; }
+.admin-struggling { margin: 12px 0; text-align: left; }

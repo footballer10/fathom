@@ -270,6 +270,9 @@ Use exactly this layout:
 ## Already handled
 - <title> — <what already fixed it>
 
+## Questions players struggled with
+- <question> — <success rate> — <fixed / kept / deleted>: <one-line reason>
+
 ## Answer fixes made this week
 - <question>: added "<answer>" (and so on, briefly)
 ```
@@ -290,6 +293,32 @@ npm run suggestions -- --done
 If there are no suggestions, still write the report with the single line "No suggestions from
 players this week.", say the same in the log and the final message, and skip the rest.
 
+### 9c. Questions players struggle with
+
+```bash
+npm run struggling
+```
+
+This saves `content/incoming/struggling-<today>.txt`: recent Dailies and Unlimited questions with
+the lowest success rates (share of plays where the answer was accepted). For each Daily from the
+last three weeks under 40% success, and any Unlimited question under 30%:
+
+1. Look at why. Open the day in the admin portal's **Dailies** tab, or check the question's
+   rejected guesses in this week's export. **Rule #1 first:** if people were typing valid answers
+   that were marked wrong, fix the list with a FIXES block (step 9) instead of deleting.
+2. If the question is fine and just hard (strong players still do well), keep it. Hard is allowed.
+3. If it's unfair for high schoolers (Rule #2), too obscure, ambiguous, or most people blanked,
+   delete it for good. It will never appear in a Daily or in Unlimited again:
+
+   ```bash
+   npm run remove -- <question id>
+   ```
+
+Never delete more than 5 questions in one week without saying why each one had to go. In the log
+and in the owner's **Suggestions to consider** report, add a **Questions players struggled with**
+section: each question you looked at, its success rate, and what you did (fixed, kept, deleted)
+with a one-line reason.
+
 ### 10. Refresh the Unlimited pool
 
 ```bash
@@ -299,7 +328,7 @@ npm run pool:refresh
 ### 11. Tidy up and log
 
 - Move every file you imported successfully from `content/incoming/` to `content/imported/`.
-  Delete the brief, the rejected export and the suggestions files (they're regenerated each week).
+  Delete the brief, the rejected export, the suggestions and the struggling files (they're regenerated each week).
 - Write `content/logs/<today>.md` with:
   - How many Daily and Unlimited questions were added, and the dates filled
   - The fixes applied: counts of guesses reviewed, aliases added, answers added and skipped, and every alias and answer you added

@@ -14,14 +14,17 @@ import type { ParsedFixes, ParsedQuestion, QuestionReport, TierPoints } from "@f
 import { navigate } from "../router";
 import { AdminError, admin, getToken, setToken } from "./adminApi";
 import type { AdminStatus, ScheduleDay } from "./adminApi";
+import { DailiesTab, PlayersTab, StrugglingPanel } from "./StatsTabs";
 
-type Tab = "import" | "generate" | "schedule" | "review" | "pool";
+type Tab = "import" | "generate" | "schedule" | "review" | "pool" | "players" | "dailies";
 const TABS: { id: Tab; label: string }[] = [
   { id: "import", label: "Import" },
   { id: "generate", label: "Generate" },
   { id: "schedule", label: "Schedule" },
   { id: "review", label: "Review" },
-  { id: "pool", label: "Pool" },
+  { id: "pool", label: "Questions" },
+  { id: "dailies", label: "Dailies" },
+  { id: "players", label: "Players" },
 ];
 
 export function AdminPortal() {
@@ -91,6 +94,8 @@ export function AdminPortal() {
       <section className="admin-body">
         {tab === "import" && <ImportTab status={status} text={importText} setText={setImportText} onDone={refresh} />}
         {tab === "generate" && <GenerateTab />}
+        {tab === "players" && <PlayersTab />}
+        {tab === "dailies" && <DailiesTab onDelete={(id, prompt) => deleteQuestionEverywhere(id, prompt, refresh)} />}
         {tab === "schedule" && (
           <ScheduleTab
             onEdit={(text) => {
@@ -368,6 +373,20 @@ function GenerateTab() {
   );
 }
 
+// Shared delete: removes a question for good (never in a Daily or Unlimited again)
+// and slides later Dailies up if it was scheduled.
+async function deleteQuestionEverywhere(id: string, prompt: string, after: () => void | Promise<void>) {
+  if (
+    !confirm(
+      `Delete "${prompt}"?\n\nIt's removed for good: it won't be used in a Daily or in Unlimited again. If it was an upcoming Daily, every later Daily question slides up one slot so there's no gap.`,
+    )
+  )
+    return;
+  const r = await admin<{ moved: number; openedSlot: { date: string; slot: number } | null }>(`/api/admin/question/${id}`, { method: "DELETE" });
+  if (r.openedSlot) alert(`Deleted. ${r.moved} later Daily question(s) slid up; ${r.openedSlot.date} slot ${r.openedSlot.slot} is now open for the weekly task to fill.`);
+  await after();
+}
+
 // ---------------------------------------------------------------------------
 // Schedule
 // ---------------------------------------------------------------------------
@@ -383,7 +402,7 @@ function ScheduleTab({ onEdit, onChanged }: { onEdit: (text: string) => void; on
   }, [load]);
 
   const filled = days.filter((d) => d.slots.every(Boolean)).length;
-  // The schedule starts today; today's Daily is locked, so it can't be vetoed.
+  // The schedule starts today; today's Daily is locked, so it can't be changed.
   const todayStr = days[0]?.date ?? "";
 
   const edit = async (id: string) => {
@@ -393,27 +412,15 @@ function ScheduleTab({ onEdit, onChanged }: { onEdit: (text: string) => void; on
   const addAt = (date: string, slot: number) =>
     onEdit(`# QUESTION\ndate: ${date}\nslot: ${slot}\ncategory: \nprompt: \n\n[One in a Krillion]\n\n[Deep Cut]\n\n[Rare]\n\n[Schooler]\n\n[Too Clever]\n\n[Plankton]\n`);
   const del = async (id: string, prompt: string) => {
-    if (!confirm(`Remove "${prompt}"? (Questions that were already played are retired instead of deleted.)`)) return;
-    await admin(`/api/admin/question/${id}`, { method: "DELETE" });
-    await load();
-    onChanged();
+    await deleteQuestionEverywhere(id, prompt, async () => {
+      await load();
+      onChanged();
+    });
   };
-  const veto = async (id: string, prompt: string, date: string) => {
-    if (
-      !confirm(
-        `Veto "${prompt}" (${date})?\n\nIt will be removed for good: never used in a Daily or in Unlimited again. Every Daily question after it slides up one slot to fill the gap.`,
-      )
-    )
-      return;
-    const r = await admin<{ moved: number; openedSlot: { date: string; slot: number } | null }>("/api/admin/veto", { body: { id } });
-    setMsg(
-      `Vetoed. ${r.moved} later question(s) slid up${r.openedSlot ? `; ${r.openedSlot.date} slot ${r.openedSlot.slot} is now open for the weekly task to fill` : ""}.`,
-    );
-    await load();
-    onChanged();
-  };
-  const unschedule = async (id: string) => {
-    await admin("/api/admin/unschedule", { body: { id } });
+  const unschedule = async (id: string, prompt: string) => {
+    if (!confirm(`Move "${prompt}" to Unlimited? Every later Daily question slides up one slot so there's no gap.`)) return;
+    const r = await admin<{ moved: number; openedSlot: { date: string; slot: number } | null }>("/api/admin/unschedule", { body: { id } });
+    setMsg(`Moved to Unlimited. ${r.moved} later question(s) slid up${r.openedSlot ? `; ${r.openedSlot.date} slot ${r.openedSlot.slot} is now open` : ""}.`);
     await load();
     onChanged();
   };
@@ -454,16 +461,13 @@ function ScheduleTab({ onEdit, onChanged }: { onEdit: (text: string) => void; on
                       <button className="link-btn" onClick={() => void edit(s.id)}>
                         Edit
                       </button>
-                      <button className="link-btn admin-veto" onClick={() => void veto(s.id, s.prompt, d.date)} disabled={d.date <= todayStr}>
-                        Veto
-                      </button>
                       <button className="link-btn" onClick={() => void pick(d.date, i + 1)}>
                         Swap
                       </button>
-                      <button className="link-btn" onClick={() => void unschedule(s.id)}>
+                      <button className="link-btn" onClick={() => void unschedule(s.id, s.prompt)} disabled={d.date <= todayStr}>
                         To Unlimited
                       </button>
-                      <button className="link-btn" onClick={() => void del(s.id, s.prompt)}>
+                      <button className="link-btn admin-danger" onClick={() => void del(s.id, s.prompt)} disabled={d.date <= todayStr}>
                         Delete
                       </button>
                     </span>
@@ -604,7 +608,11 @@ function PoolTab({ onChanged }: { onChanged: () => void }) {
   const [retier, setRetier] = useState<Retier[]>([]);
   const [msg, setMsg] = useState<string | null>(null);
   const [filter, setFilter] = useState("");
+  const [sort, setSort] = useState<"plays" | "success" | "points" | "answers">("success");
+  const [minPlays, setMinPlays] = useState(10);
+  const [reloadKey, setReloadKey] = useState(0);
   const load = useCallback(async () => {
+    setReloadKey((k) => k + 1);
     setData(await admin<PoolData>("/api/admin/pool"));
     setRetier(await admin<Retier[]>("/api/admin/retier"));
   }, []);
@@ -622,10 +630,19 @@ function PoolTab({ onChanged }: { onChanged: () => void }) {
     onChanged();
   };
 
-  const rows = useMemo(
-    () => (data?.active ?? []).filter((q) => !filter || q.prompt.toLowerCase().includes(filter.toLowerCase()) || q.category.includes(filter)),
-    [data, filter],
-  );
+  const rows = useMemo(() => {
+    const list = (data?.active ?? []).filter(
+      (q) => (!filter || q.prompt.toLowerCase().includes(filter.toLowerCase()) || q.category.includes(filter)) && q.plays >= minPlays,
+    );
+    const key = (q: (typeof list)[number]) =>
+      sort === "plays" ? -q.plays : sort === "answers" ? -q.answer_count : sort === "points" ? (q.avgPoints ?? 999) : (q.hitRate ?? 999);
+    return [...list].sort((a, b) => key(a) - key(b));
+  }, [data, filter, sort, minPlays]);
+  const remove = (id: string, prompt: string) =>
+    deleteQuestionEverywhere(id, prompt, async () => {
+      await load();
+      onChanged();
+    });
 
   return (
     <div>
@@ -662,7 +679,25 @@ function PoolTab({ onChanged }: { onChanged: () => void }) {
           <p className="muted small">To apply, edit the question (Schedule tab or Import with its id:) and move the answers.</p>
         </div>
       )}
-      <input className="admin-input" placeholder="Filter by prompt or category" value={filter} onChange={(e) => setFilter(e.target.value)} />
+      <StrugglingPanel onDelete={remove} reloadKey={reloadKey} />
+      <div className="admin-row">
+        <input className="admin-input" placeholder="Filter by prompt or category" value={filter} onChange={(e) => setFilter(e.target.value)} />
+        <label className="small">
+          Sort by{" "}
+          <select value={sort} onChange={(e) => setSort(e.target.value as typeof sort)}>
+            <option value="success">Lowest success rate</option>
+            <option value="points">Lowest average points</option>
+            <option value="plays">Most plays</option>
+            <option value="answers">Most answers</option>
+          </select>
+        </label>
+        <label className="small">
+          At least{" "}
+          <input type="number" className="admin-input admin-input--num" min={0} value={minPlays} onChange={(e) => setMinPlays(Math.max(0, Number(e.target.value) || 0))} />{" "}
+          plays
+        </label>
+        <span className="muted small">{rows.length} shown</span>
+      </div>
       <table className="admin-table">
         <thead>
           <tr>
@@ -671,8 +706,9 @@ function PoolTab({ onChanged }: { onChanged: () => void }) {
             <th>Category</th>
             <th>Answers</th>
             <th>Plays</th>
-            <th>Hit rate</th>
+            <th>Success</th>
             <th>Avg pts</th>
+            <th />
             <th />
           </tr>
         </thead>
@@ -684,7 +720,7 @@ function PoolTab({ onChanged }: { onChanged: () => void }) {
               <td>{q.category}</td>
               <td>{q.answer_count}</td>
               <td>{q.plays}</td>
-              <td>{q.hitRate === null ? "—" : `${q.hitRate}%`}</td>
+              <td className={q.hitRate !== null && q.hitRate < 40 ? "admin-bad" : ""}>{q.hitRate === null ? "—" : `${q.hitRate}%`}</td>
               <td>{q.avgPoints ?? "—"}</td>
               <td>
                 <button
@@ -696,6 +732,11 @@ function PoolTab({ onChanged }: { onChanged: () => void }) {
                   }}
                 >
                   View
+                </button>
+              </td>
+              <td>
+                <button className="link-btn admin-danger" onClick={() => void remove(q.id, q.prompt)}>
+                  Delete
                 </button>
               </td>
             </tr>

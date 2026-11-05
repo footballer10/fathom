@@ -22,7 +22,7 @@ import { ensureAbyss, ensureRuns } from "./practice";
  * tables and fills them from the full history once.
  */
 
-const SCHEMA_VERSION = 1;
+const SCHEMA_VERSION = 2;
 let ready: Promise<void> | null = null;
 
 export function ensureSchema(env: Env): Promise<void> {
@@ -40,6 +40,20 @@ async function migrate(env: Env) {
   ]);
   const current = Number((version.results[0] as { value?: string } | undefined)?.value ?? 0);
   if (current >= SCHEMA_VERSION) return;
+  if (current < 1) await migrateV1(env);
+  if (current < 2) {
+    // Indexes for the admin portal's Players page (activity in a time window).
+    await env.DB.batch([
+      env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_sessions_created ON sessions(created_at)"),
+      env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_practice_runs_started ON practice_runs(started_at)"),
+      env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_party_results_finished ON party_results(finished_at)"),
+      env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('schema', '2')"),
+    ]);
+  }
+}
+
+/** Version 1: the summary tables, filled from the full history once. */
+async function migrateV1(env: Env) {
 
   await Promise.all([ensureRuns(env), ensureAbyss(env), ensurePartyResults(env)]);
   await env.DB.batch([
@@ -132,7 +146,7 @@ async function migrate(env: Env) {
        ON CONFLICT(player_id) DO UPDATE SET abyss_k = excluded.abyss_k`,
     ),
     env.DB.prepare("UPDATE abyss_weeks SET divers = (SELECT COUNT(*) FROM abyss_attempts a WHERE a.week = abyss_weeks.week)"),
-    env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('schema', ?)").bind(String(SCHEMA_VERSION)),
+    env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('schema', '1')"),
   ]);
 }
 

@@ -18,7 +18,9 @@ import type { Category, ParsedFixes, ParsedQuestion, TierPoints } from "@fathom/
 import { HttpError } from "./env";
 import { markSuggestionsReviewed, suggestionsExport } from "./suggestions";
 import type { Env } from "./env";
-import { INDEX_KEY, UNLIMITED_WHERE, forgetIndex, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";
+import { UNLIMITED_WHERE, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";
+import { clearPoolCache } from "./questions";
+import { registerAdminStats } from "./adminStats";
 import type { QuestionContent, QuestionRow, StoredAnswer } from "./questions";
 
 /**
@@ -48,6 +50,8 @@ adminRoutes.use("/api/admin/*", async (c, next) => {
   if (!safeEqual(got, expected)) throw new HttpError(401, "Wrong admin token");
   await next();
 });
+registerAdminStats(adminRoutes);
+
 
 // ---------------------------------------------------------------------------
 // Status (for the weekly task and the portal)
@@ -288,23 +292,58 @@ adminRoutes.get("/api/admin/question/:id", async (c) => {
   return c.json({ id: row.id, status: row.status, date: row.daily_date, slot: row.daily_slot, plays: row.plays, text });
 });
 
-adminRoutes.delete("/api/admin/question/:id", async (c) => {
-  const id = c.req.param("id");
-  const row = await getQuestion(c.env, id);
+/**
+ * Close the gap a future Daily question leaves at (date, slot): every scheduled
+ * question after it moves up one slot, so the schedule never has holes. The
+ * last slot opens for the weekly task (or reserve) to fill. Run the returned
+ * statements after the statement that frees (date, slot).
+ */
+async function closeGap(env: Env, date: string, slot: number) {
+  const { results } = await env.DB.prepare(
+    `SELECT id, daily_date, daily_slot FROM questions
+     WHERE status = 'scheduled' AND (daily_date > ?1 OR (daily_date = ?1 AND daily_slot > ?2))
+     ORDER BY daily_date, daily_slot`,
+  )
+    .bind(date, slot)
+    .all<{ id: string; daily_date: string; daily_slot: number }>();
+  const positions = [{ date, slot }, ...results.map((r) => ({ date: r.daily_date, slot: r.daily_slot }))];
+  const stmts = results.map((r, i) =>
+    env.DB.prepare("UPDATE questions SET daily_date = ?, daily_slot = ? WHERE id = ?").bind(positions[i].date, positions[i].slot, r.id),
+  );
+  const opened = positions[positions.length - 1];
+  return { stmts, moved: results.length, opened };
+}
+
+/**
+ * Delete a question for good. It's never shown again: not in a Daily, not in
+ * Unlimited, not in reserve, and pool refresh never brings it back. The row is
+ * kept (status "vetoed") so old scores still point at it and the weekly writer
+ * can't write the same prompt again. A future Daily slot it leaves is closed up.
+ */
+async function deleteQuestion(env: Env, id: string) {
+  const row = await getQuestion(env, id);
   if (!row) throw new HttpError(404, "Not found");
-  const aired = row.daily_date && row.daily_date <= today();
-  if (row.plays > 0 || aired) {
-    // Played questions are retired, never deleted (stats point at them).
-    await c.env.DB.prepare("UPDATE questions SET status = 'retired', retired_at = ?, daily_date = CASE WHEN daily_date > ? THEN NULL ELSE daily_date END, daily_slot = CASE WHEN daily_date > ? THEN NULL ELSE daily_slot END WHERE id = ?")
-      .bind(Date.now(), today(), today(), id)
-      .run();
-    return c.json({ ok: true, retired: true });
+  const t = today();
+  const future = row.status === "scheduled" && row.daily_date && row.daily_slot && row.daily_date > t;
+  const stmts: D1PreparedStatement[] = [
+    env.DB.prepare(
+      "UPDATE questions SET status = 'vetoed', retired_at = ?, daily_date = CASE WHEN daily_date > ? THEN NULL ELSE daily_date END, daily_slot = CASE WHEN daily_date > ? THEN NULL ELSE daily_slot END WHERE id = ?",
+    ).bind(Date.now(), t, t, id),
+  ];
+  let moved = 0;
+  let openedSlot: { date: string; slot: number } | null = null;
+  if (future) {
+    const gap = await closeGap(env, row.daily_date!, row.daily_slot!);
+    stmts.push(...gap.stmts);
+    moved = gap.moved;
+    openedSlot = gap.opened;
   }
-  await c.env.DB.prepare("DELETE FROM questions WHERE id = ?").bind(id).run();
-  await c.env.KV.delete(INDEX_KEY(id));
-  forgetIndex(id);
-  return c.json({ ok: true, deleted: true });
-});
+  await env.DB.batch(stmts);
+  clearPoolCache();
+  return { ok: true, deleted: true, moved, openedSlot };
+}
+
+adminRoutes.delete("/api/admin/question/:id", async (c) => c.json(await deleteQuestion(c.env, c.req.param("id"))));
 
 /** Swap two future Daily slots (either may be empty). */
 adminRoutes.post("/api/admin/swap", async (c) => {
@@ -323,48 +362,27 @@ adminRoutes.post("/api/admin/swap", async (c) => {
   return c.json({ ok: true });
 });
 
-/**
- * Veto a future Daily question: it's removed for good (status "vetoed", never
- * used in Unlimited, reserve or a later Daily), and every Daily question after it
- * slides up one slot to fill the gap. The last slot is left open for the weekly
- * task (or reserve) to fill.
- */
+/** Old name for Delete (kept so older portal pages still work). */
 adminRoutes.post("/api/admin/veto", async (c) => {
   const { id } = await c.req.json<{ id?: string }>().catch(() => ({ id: undefined }));
-  const row = id ? await getQuestion(c.env, id) : null;
-  const t = today();
-  if (!row) throw new HttpError(404, "No such question");
-  if (row.status !== "scheduled" || !row.daily_date || !row.daily_slot) throw new HttpError(400, "That question isn't on the Daily schedule");
-  if (row.daily_date <= t) throw new HttpError(400, "Only future Dailies can be vetoed (today's is already locked)");
-  // Everything scheduled from this slot onward, in order.
-  const { results } = await c.env.DB.prepare(
-    `SELECT id, daily_date, daily_slot FROM questions
-     WHERE status = 'scheduled' AND daily_date > ?1 AND (daily_date > ?2 OR (daily_date = ?2 AND daily_slot >= ?3))
-     ORDER BY daily_date, daily_slot`,
-  )
-    .bind(t, row.daily_date, row.daily_slot)
-    .all<{ id: string; daily_date: string; daily_slot: number }>();
-  const now = Date.now();
-  const stmts: D1PreparedStatement[] = [
-    c.env.DB.prepare("UPDATE questions SET status = 'vetoed', retired_at = ?, daily_date = NULL, daily_slot = NULL WHERE id = ?").bind(now, row.id),
-  ];
-  // Each later question moves into the slot just before it (which has just been emptied).
-  for (let i = 1; i < results.length; i++) {
-    const to = results[i - 1];
-    stmts.push(c.env.DB.prepare("UPDATE questions SET daily_date = ?, daily_slot = ? WHERE id = ?").bind(to.daily_date, to.daily_slot, results[i].id));
-  }
-  await c.env.DB.batch(stmts);
-  const last = results[results.length - 1];
-  return c.json({ ok: true, moved: results.length - 1, openedSlot: last ? { date: last.daily_date, slot: last.daily_slot } : null });
+  if (!id) throw new HttpError(400, "Missing id");
+  return c.json(await deleteQuestion(c.env, id));
 });
 
-/** Take a future question off the schedule and put it in Unlimited. */
+/** Take a future question off the schedule and put it in Unlimited; later Dailies slide up to fill its slot. */
 adminRoutes.post("/api/admin/unschedule", async (c) => {
   const { id } = await c.req.json<{ id: string }>();
-  await c.env.DB.prepare("UPDATE questions SET status = 'unlimited', daily_date = NULL, daily_slot = NULL WHERE id = ? AND daily_date > ?")
-    .bind(id, today())
-    .run();
-  return c.json({ ok: true });
+  const row = await getQuestion(c.env, id);
+  if (!row || row.status !== "scheduled" || !row.daily_date || !row.daily_slot || row.daily_date <= today()) {
+    throw new HttpError(400, "Only a future Daily question can be moved to Unlimited");
+  }
+  const gap = await closeGap(c.env, row.daily_date, row.daily_slot);
+  await c.env.DB.batch([
+    c.env.DB.prepare("UPDATE questions SET status = 'unlimited', daily_date = NULL, daily_slot = NULL WHERE id = ?").bind(id),
+    ...gap.stmts,
+  ]);
+  clearPoolCache();
+  return c.json({ ok: true, moved: gap.moved, openedSlot: gap.opened });
 });
 
 // ---------------------------------------------------------------------------
