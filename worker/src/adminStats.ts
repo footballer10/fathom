@@ -1,5 +1,7 @@
 import type { Hono } from "hono";
 import { HttpError } from "./env";
+import { ensureRewards, earnStatements } from "./rewards";
+import { ITEM_BY_ID } from "@fathom/shared";
 import type { Env } from "./env";
 import { getDailySet, getQuestions, today } from "./questions";
 import { ensureSchema } from "./schema";
@@ -163,7 +165,54 @@ export function registerAdminStats(routes: Hono<AppEnv>) {
       items.push({ at: r.started_at, what: `Weekly Abyss ${r.week}: ${r.best_answer ? `best "${r.best_answer}"` : "no answer"}` });
     }
     items.sort((x, y) => y.at - x.at);
-    return c.json({ id: p.id, nickname: p.nickname, username: account?.username ?? null, friendCode: p.friend_code, joined: p.created_at, activity: items.slice(0, 80) });
+    await ensureRewards(c.env);
+    const w = await db.prepare("SELECT pearls, owned FROM wallet WHERE player_id = ?").bind(id).first<{ pearls: number; owned: string }>();
+    return c.json({
+      id: p.id,
+      nickname: p.nickname,
+      username: account?.username ?? null,
+      friendCode: p.friend_code,
+      joined: p.created_at,
+      activity: items.slice(0, 80),
+      pearls: w?.pearls ?? 0,
+      owned: w ? (JSON.parse(w.owned) as string[]) : [],
+    });
+  });
+
+  /** Find a player by account username, friend code or exact name (for gifts). */
+  routes.get("/api/admin/find-player", async (c) => {
+    const q = String(c.req.query("q") ?? "").trim();
+    if (!q) throw new HttpError(400, "Type a username, friend code or name");
+    const db = c.env.DB;
+    const acct = await db.prepare("SELECT player_id FROM accounts WHERE username_key = ?").bind(q.toLowerCase()).first<{ player_id: string }>().catch(() => null);
+    const { results } = await db
+      .prepare(
+        `SELECT id, nickname, friend_code FROM players
+         WHERE id = ?1 OR UPPER(friend_code) = UPPER(?2) OR LOWER(nickname) = LOWER(?2) ORDER BY created_at DESC LIMIT 10`,
+      )
+      .bind(acct?.player_id ?? "", q)
+      .all<{ id: string; nickname: string | null; friend_code: string | null }>();
+    return c.json({ players: results });
+  });
+
+  /** Give a player shop items (any, including earn-only ones) and/or pearls. */
+  routes.post("/api/admin/gift", async (c) => {
+    const body = await c.req.json<{ playerId?: string; items?: string[]; pearls?: number; note?: string }>().catch(() => ({}) as Record<string, never>);
+    const playerId = String(body.playerId ?? "");
+    const db = c.env.DB;
+    const exists = await db.prepare("SELECT id FROM players WHERE id = ?").bind(playerId).first();
+    if (!exists) throw new HttpError(404, "No such player");
+    const items = [...new Set((body.items ?? []).map(String))];
+    const bad = items.filter((i) => !ITEM_BY_ID.has(i));
+    if (bad.length) throw new HttpError(400, `Unknown item: ${bad.join(", ")}`);
+    const pearls = Math.max(0, Math.min(100_000, Math.round(Number(body.pearls) || 0)));
+    if (!items.length && !pearls) throw new HttpError(400, "Pick at least one item or some pearls");
+    const note = String(body.note ?? "").trim().slice(0, 50);
+    await ensureRewards(c.env);
+    const now = Date.now();
+    await db.batch(earnStatements(c.env, playerId, [{ key: `gift:${crypto.randomUUID()}`, pearls, label: note ? `Gift: ${note}` : "Gift from Fathom", items }], now));
+    const w = await db.prepare("SELECT pearls, owned FROM wallet WHERE player_id = ?").bind(playerId).first<{ pearls: number; owned: string }>();
+    return c.json({ ok: true, pearls: w?.pearls ?? 0, owned: w ? (JSON.parse(w.owned) as string[]) : [] });
   });
 
   /** Recent Dailies at a glance: divers, average depth, and the seven prompts. */

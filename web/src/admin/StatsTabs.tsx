@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { tierInfo } from "@fathom/shared";
 import type { TierPoints } from "@fathom/shared";
 import { admin } from "./adminApi";
+import { ITEMS, SLOTS, SLOT_INFO } from "@fathom/shared";
 
 /* ------------------------------------------------------------------------- */
 /* Players: who played in a time frame, and what they did                    */
@@ -33,6 +34,8 @@ interface PlayerDetail {
   friendCode: string | null;
   joined: number;
   activity: { at: number; what: string }[];
+  pearls: number;
+  owned: string[];
 }
 
 const isoDay = (offset = 0) => new Date(Date.now() - 7 * 3_600_000 + offset * 86_400_000).toISOString().slice(0, 10);
@@ -70,6 +73,10 @@ export function PlayersTab() {
 
   return (
     <div>
+      <details className="admin-gift-box">
+        <summary>🎁 Give a player items or pearls</summary>
+        <GiftPanel />
+      </details>
       <div className="admin-row">
         <label>
           From <input type="date" className="admin-input admin-input--date" value={from} onChange={(e) => setFrom(e.target.value)} />
@@ -145,8 +152,9 @@ export function PlayersTab() {
             </h3>
             <p className="muted small">
               Joined {when(open.joined)}
-              {open.friendCode ? ` · friend code ${open.friendCode}` : ""}
+              {open.friendCode ? ` · friend code ${open.friendCode}` : ""} · {open.pearls.toLocaleString()} pearls · {open.owned.length} items
             </p>
+            <GiftPanel key={open.id} playerId={open.id} owned={open.owned} onGiven={(r) => setOpen({ ...open, ...r })} />
             <ul className="admin-activity">
               {open.activity.map((a, i) => (
                 <li key={i}>
@@ -408,6 +416,125 @@ export function StrugglingPanel({ onDelete, reloadKey }: { onDelete: (id: string
           </tbody>
         </table>
       )}
+    </div>
+  );
+}
+
+/**
+ * Give a player shop items (any of them, including ones normally only earned
+ * through streaks) and/or pearls. Used inside a player's card, or on its own
+ * with a search box.
+ */
+export function GiftPanel({ playerId, owned = [], onGiven }: { playerId?: string; owned?: string[]; onGiven?: (r: { pearls: number; owned: string[] }) => void }) {
+  const [query, setQuery] = useState("");
+  const [found, setFound] = useState<{ id: string; nickname: string | null; friend_code: string | null }[] | null>(null);
+  const [target, setTarget] = useState<string | null>(playerId ?? null);
+  const [have, setHave] = useState<string[]>(owned);
+  const [picked, setPicked] = useState<string[]>([]);
+  const [pearls, setPearls] = useState(0);
+  const [note, setNote] = useState("");
+  const [msg, setMsg] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  const search = async () => {
+    setMsg(null);
+    try {
+      const r = await admin<{ players: { id: string; nickname: string | null; friend_code: string | null }[] }>(`/api/admin/find-player?q=${encodeURIComponent(query)}`);
+      setFound(r.players);
+      if (r.players.length === 1) await choose(r.players[0].id);
+      else setTarget(null);
+    } catch (e) {
+      setMsg((e as Error).message);
+    }
+  };
+  const choose = async (id: string) => {
+    setTarget(id);
+    const d = await admin<PlayerDetail>(`/api/admin/player/${encodeURIComponent(id)}`).catch(() => null);
+    setHave(d?.owned ?? []);
+  };
+  const give = async () => {
+    if (!target) return;
+    setBusy(true);
+    setMsg(null);
+    try {
+      const r = await admin<{ pearls: number; owned: string[] }>("/api/admin/gift", { body: { playerId: target, items: picked, pearls, note } });
+      setHave(r.owned);
+      setMsg(`Sent! They now have ${r.pearls.toLocaleString()} pearls.`);
+      setPicked([]);
+      setPearls(0);
+      onGiven?.(r);
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const giftable = ITEMS.filter((i) => i.price !== 0);
+  return (
+    <div className="admin-gift">
+      <h4>🎁 Give a gift</h4>
+      {!playerId && (
+        <div className="admin-gift-search">
+          <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Username, friend code or name" onKeyDown={(e) => e.key === "Enter" && void search()} />
+          <button className="btn btn--small" onClick={() => void search()}>
+            Find
+          </button>
+        </div>
+      )}
+      {!playerId && found && found.length === 0 && <p className="muted small">No player found.</p>}
+      {!playerId && found && found.length > 1 && (
+        <div className="admin-gift-found">
+          {found.map((p) => (
+            <button key={p.id} className={`btn btn--small ${target === p.id ? "btn--primary" : ""}`} onClick={() => void choose(p.id)}>
+              {p.nickname ?? "Guest"} {p.friend_code ? `(${p.friend_code})` : ""}
+            </button>
+          ))}
+        </div>
+      )}
+      {target && (
+        <>
+          <label className="admin-gift-row">
+            Pearls <input type="number" min={0} max={100000} value={pearls} onChange={(e) => setPearls(Number(e.target.value))} />
+          </label>
+          <div className="admin-gift-items">
+            {SLOTS.map((slot) => (
+              <div key={slot}>
+                <b className="small">{SLOT_INFO[slot].plural}</b>
+                <div className="admin-gift-chips">
+                  {giftable
+                    .filter((i) => i.slot === slot)
+                    .map((i) => {
+                      const owns = have.includes(i.id);
+                      const on = picked.includes(i.id);
+                      return (
+                        <button
+                          key={i.id}
+                          disabled={owns}
+                          className={`admin-gift-chip ${on ? "admin-gift-chip--on" : ""}`}
+                          title={owns ? "They already have this" : i.price === null ? i.unlock : `${i.price} pearls in the shop`}
+                          onClick={() => setPicked((p) => (on ? p.filter((x) => x !== i.id) : [...p, i.id]))}
+                        >
+                          {owns ? "✓ " : i.price === null ? "★ " : ""}
+                          {i.name}
+                        </button>
+                      );
+                    })}
+                </div>
+              </div>
+            ))}
+          </div>
+          <label className="admin-gift-row">
+            Note (shows in their pearl history) <input value={note} maxLength={50} onChange={(e) => setNote(e.target.value)} placeholder="e.g. Thanks for the bug report!" />
+          </label>
+          <button className="btn btn--primary" disabled={busy || (!picked.length && !pearls)} onClick={() => void give()}>
+            Send gift{picked.length ? ` (${picked.length} item${picked.length === 1 ? "" : "s"})` : ""}
+            {pearls ? ` + ${pearls} pearls` : ""}
+          </button>
+          <p className="muted small">★ = normally only earned (streaks and achievements). ✓ = they already have it.</p>
+        </>
+      )}
+      {msg && <p className="small">{msg}</p>}
     </div>
   );
 }
