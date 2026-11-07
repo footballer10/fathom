@@ -394,23 +394,24 @@ export function BuddyArt({ kind, size = 22 }: { kind: string; size?: number }) {
         </svg>
       );
     case "buddy.seahorse": {
-      // One continuous curve (outline drawn underneath), so head, body and tail read as one animal.
-      const spine = "M10.5 7 C 15.5 9, 16 15.5, 12 18.5 C 9 20.8, 9 24, 11.5 24.6 C 13.6 25.1, 14.2 22.6, 12.4 22.2";
+      // Facing right like the subs: one outline from snout round the back to the tail, tail curling forward.
+      const edge =
+        "M11.2 20.2 C 12.2 18.6, 13.6 17.4, 14.6 15 C 15.6 12.5, 14.5 10.2, 12.2 9.4 C 12.8 8.9, 13.6 8.2, 14 7.9 C 15.6 8.2, 17.4 8.3, 18.8 8 Q 19.6 7.3, 18.8 6.6 C 16 6.2, 14 6, 12.8 5.6 C 12.5 3.6, 10.8 2.6, 9 3.2 C 7 3.9, 6.4 6.2, 7.6 8.2 C 5 10, 3.8 13.5, 5 16.5 C 5.8 18.5, 7.5 19.5, 8.2 20";
+      const tail = "M9.7 19 C 9.2 22.5, 10 25.2, 12.6 25 C 14.6 24.8, 14.4 22, 12.4 22.2";
       return (
         <svg viewBox="0 0 20 28" {...s}>
-          <path d="M14.2 11 C 17.5 11, 18.5 14, 16.6 16.2 Z" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.6" strokeLinejoin="round" />
-          <path d={spine} stroke="#b8701a" strokeWidth="6.4" fill="none" strokeLinecap="round" />
-          <path d={spine} stroke="#ffb347" strokeWidth="5" fill="none" strokeLinecap="round" />
-          <path d="M9.3 10 C 12.5 12, 12.6 16, 10.6 18" stroke="#ffd79a" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-          {[11.5, 14, 16.5].map((y) => (
-            <path key={y} d={`M${10.4 + (y - 11.5) * 0.25} ${y} l 3.3 -0.4`} stroke="#d98a2a" strokeWidth="0.6" strokeLinecap="round" opacity="0.8" />
+          <path d="M5.6 10.8 C 2.4 10.6, 1.6 14.6, 4.6 15.6 Z" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.6" strokeLinejoin="round" />
+          <path d={tail} stroke="#b8701a" strokeWidth="4.4" fill="none" strokeLinecap="round" />
+          <path d={tail} stroke="#ffb347" strokeWidth="3" fill="none" strokeLinecap="round" />
+          <path d={`${edge} Z`} fill="#ffb347" />
+          <path d="M12.5 10.5 C 14.4 11.8, 14.2 15.6, 11.6 18.6" stroke="#ffd79a" strokeWidth="2" fill="none" strokeLinecap="round" />
+          {[11.6, 13.6, 15.6].map((y) => (
+            <path key={y} d={`M${y < 13 ? 11.4 : 10.8} ${y} l 3 ${y < 13 ? 0.3 : 0.4}`} stroke="#d98a2a" strokeWidth="0.55" strokeLinecap="round" opacity="0.8" />
           ))}
-          {/* head and snout */}
-          <path d="M8.8 5.8 L 3 5.4 Q 1.6 6.4, 3 7.6 L 8.8 8.4 Z" fill="#ffb347" stroke="#b8701a" strokeWidth="0.7" strokeLinejoin="round" />
-          <circle cx="10.5" cy="6.5" r="3.8" fill="#ffb347" stroke="#b8701a" strokeWidth="0.7" />
-          <path d="M10.5 6.5 L 7.5 6.9" stroke="#ffb347" strokeWidth="2" />
-          <path d="M10 2.9 L 10.8 0.6 L 12 2.9 M12.6 3.6 L 14.5 2 L 14.2 4.4" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.6" strokeLinejoin="round" />
-          <Eye x={11} y={5.8} r={1.3} />
+          <path d={edge} fill="none" stroke="#b8701a" strokeWidth="0.8" strokeLinejoin="round" />
+          <path d="M8.4 3.6 L 8.2 1.2 L 9.8 3 L 10.8 1.4 L 11.3 3.6" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.55" strokeLinejoin="round" />
+          <path d="M8.2 5.2 Q 9.5 4, 11 4.3" stroke="#fff" strokeWidth="0.8" fill="none" opacity="0.5" strokeLinecap="round" />
+          <Eye x={10.4} y={5.8} r={1.3} />
         </svg>
       );
     }
@@ -558,7 +559,7 @@ export function SubRig({ look, hue, width = 46, trail = true }: { look?: Look; h
   const buddy = l.buddy && l.buddy !== DEFAULT_LOOK.buddy ? l.buddy : null;
   return (
     <span className="sub-rig">
-      {trail && trailKind !== DEFAULT_LOOK.trail && <Trail kind={trailKind} />}
+      {trail && <Trail kind={trailKind} />}
       <SubArt skin={l.skin} hue={hue} width={width} />
       {buddy && (
         <span className="sub-buddy">
@@ -825,7 +826,6 @@ export function ItemPreview({ item }: { item: ShopItem }) {
       return (
         <span className="preview-trail">
           <SubRig look={{ trail: item.id }} width={56} />
-          {item.id === DEFAULT_LOOK.trail && <Trail kind="trail.bubbles" />}
         </span>
       );
     case "buddy":
