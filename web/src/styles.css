@@ -2405,7 +2405,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 .shop-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
 .shop-card { display: grid; justify-items: center; align-content: start; gap: 6px; text-align: center; padding: 12px 10px; border-radius: 14px; background: var(--glass); border: 1px solid var(--glass-border); }
 .shop-card--on { border-color: var(--accent); box-shadow: 0 0 16px rgba(111, 227, 255, 0.3); }
-.shop-preview { height: 64px; display: grid; place-items: center; width: 100%; position: relative; }
+.shop-preview { height: 78px; display: grid; place-items: center; width: 100%; position: relative; }
 .shop-name { font-size: 0.98rem; }
 .shop-desc { min-height: 2.4em; }
 .shop-on { color: var(--accent); font-weight: 800; font-size: 0.9rem; padding: 6px 0; }
@@ -2414,7 +2414,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 .preview-emoji { font-size: 2.2rem; }
 .preview-none { font-size: 1.6rem; opacity: 0.5; }
 .preview-name { font-size: 1.3rem; font-weight: 800; }
-.preview-trail { position: relative; display: inline-flex; padding-left: 40px; }
+.preview-trail { position: relative; display: inline-flex; padding-left: 56px; }
 .theme-swatch { display: block; width: 72px; height: 56px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.3); }
 .good-text { color: #8ff0a4; font-weight: 600; }
 
@@ -2434,21 +2434,33 @@ body:has(.battle) .toasts { bottom: 104px; }
 
 /* Sub rig: trail behind, sidekick alongside */
 .sub-rig { position: relative; display: inline-flex; align-items: center; }
-.sub-buddy { position: absolute; left: 62%; top: 78%; animation: buddy-bob 2.4s ease-in-out infinite; pointer-events: none; }
+.sub-buddy { position: absolute; left: 55%; top: 70%; animation: buddy-bob 2.6s ease-in-out infinite; pointer-events: none; filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25)); }
+.buddy-svg { display: block; overflow: visible; }
+.jelly-tentacle { animation: jelly-wave 1.6s ease-in-out infinite; transform-origin: top; transform-box: fill-box; }
+@keyframes jelly-wave { 0%, 100% { transform: skewX(-8deg); } 50% { transform: skewX(8deg); } }
+.octo-arm { animation: jelly-wave 1.4s ease-in-out infinite; transform-origin: top; transform-box: fill-box; }
+.whale-spout { animation: spout 2.4s ease-in-out infinite; transform-origin: bottom; transform-box: fill-box; }
+@keyframes spout { 0%, 60%, 100% { opacity: 0; transform: scaleY(0.4); } 75% { opacity: 1; transform: scaleY(1); } }
+.sub-svg { overflow: visible; filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25)); }
 @keyframes buddy-bob { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-4px, -5px); } }
-.trail { position: absolute; right: 92%; top: 0; bottom: 0; width: 46px; pointer-events: none; }
-.trail-bit { position: absolute; right: 0; display: block; opacity: 0; animation: trail-drift 1.6s linear infinite; }
+.trail { position: absolute; right: 90%; top: 55%; width: 0; height: 0; pointer-events: none; }
+.trail-bit { position: absolute; right: 0; top: 0; display: block; opacity: 0; transform: translate(50%, -50%); animation: trail-drift 1.6s cubic-bezier(0.2, 0.6, 0.4, 1) infinite; }
+.trail-bit > * { display: block; }
+.trail-bit--spin > * { animation: trail-spin 1.6s linear infinite; }
 @keyframes trail-drift {
-  0% { transform: translate(0, 0) scale(0.6); opacity: 0; }
-  15% { opacity: 1; }
-  100% { transform: translate(-44px, -10px) scale(1); opacity: 0; }
+  0% { transform: translate(50%, -50%) scale(0.35); opacity: 0; }
+  12% { opacity: 1; }
+  70% { opacity: 0.85; }
+  100% { transform: translate(calc(50% + var(--dx, -48px)), calc(-50% + var(--dy, 0px))) scale(1.05); opacity: 0; }
 }
-.trail-bubble { display: block; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid rgba(220, 245, 255, 0.85); }
-.trail-ink { display: block; width: 10px; height: 10px; border-radius: 50%; background: rgba(20, 16, 40, 0.75); filter: blur(1.5px); }
+@keyframes trail-spin { to { transform: rotate(180deg); } }
+.trail-bubble { display: block; width: 7px; height: 7px; border-radius: 50%; border: 1.5px solid rgba(225, 248, 255, 0.9); background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.7) 0 20%, rgba(190, 235, 255, 0.15) 45%); }
+.trail-ink { display: block; width: 12px; height: 12px; border-radius: 50%; background: radial-gradient(circle, rgba(30, 22, 60, 0.85), rgba(30, 22, 60, 0.35) 60%, transparent 72%); }
+.trail--ink .trail-bit { animation-duration: 2.2s; }
 .trail--fire .trail-bit, .trail--flame .trail-bit { animation-duration: 0.9s; }
-.trail--rainbow { display: flex; flex-direction: column; justify-content: center; gap: 0; width: 40px; animation: rainbow-wave 1.2s ease-in-out infinite; }
+.trail--rainbow { display: flex; flex-direction: column; justify-content: center; width: 44px; height: 14px; top: 55%; transform: translateY(-50%); transform-origin: right center; animation: rainbow-wave 1.4s ease-in-out infinite; -webkit-mask-image: linear-gradient(90deg, transparent, #000 70%); mask-image: linear-gradient(90deg, transparent, #000 70%); }
 .trail--rainbow span { display: block; height: 2.5px; border-radius: 2px 0 0 2px; opacity: 0.9; }
-@keyframes rainbow-wave { 0%, 100% { transform: skewY(-6deg); } 50% { transform: skewY(6deg); } }
+@keyframes rainbow-wave { 0%, 100% { transform: translateY(-50%) skewY(-7deg); } 50% { transform: translateY(-50%) skewY(7deg); } }
 .sub-lure circle:first-of-type { animation: lure-glow 1.8s ease-in-out infinite; }
 .buddy-glow, .sub-window-glow { animation: lure-glow 1.8s ease-in-out infinite; }
 @keyframes lure-glow { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
@@ -2499,7 +2511,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 .logbook-tier-bar span { display: block; height: 100%; background: var(--tier); border-radius: inherit; }
 .logbook-tier-n { text-align: right; font-weight: 700; }
 
-:root[data-reduced-motion="true"] .trail, :root[data-reduced-motion="true"] .sub-buddy,
+:root[data-reduced-motion="true"] .trail, :root[data-reduced-motion="true"] .sub-buddy, :root[data-reduced-motion="true"] .jelly-tentacle, :root[data-reduced-motion="true"] .octo-arm, :root[data-reduced-motion="true"] .whale-spout,
 :root[data-reduced-motion="true"] .name-rainbow, :root[data-reduced-motion="true"] .sub-lure circle { animation: none !important; }
 :root[data-reduced-motion="true"] .trail { display: none; }
 .gauge-sub .trail { width: 28px; }
