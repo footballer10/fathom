@@ -323,20 +323,37 @@ function Eye({ x, y, r = 1.6 }: { x: number; y: number; r?: number }) {
 }
 
 export function BuddyArt({ kind, size = 22 }: { kind: string; size?: number }) {
+  const uid = useId().replace(/:/g, "");
   const s = { width: size, height: size, className: "buddy-svg" };
   switch (kind) {
-    case "buddy.fish":
+    case "buddy.fish": {
+      // Body drawn last so the tail and fins tuck in behind it; stripes clipped to the body.
+      const body = "M5.5 10 C 5.5 5.5, 10 3.7, 15 3.7 C 21 3.7, 25.5 6.5, 25.5 10 C 25.5 13.5, 21 16.3, 15 16.3 C 10 16.3, 5.5 14.5, 5.5 10 Z";
       return (
         <svg viewBox="0 0 28 20" {...s}>
-          <path d="M3 10 L9 4.5 Q 8 10, 9 15.5 Z" fill="#ff7a1f" stroke="#b84a00" strokeWidth="0.8" strokeLinejoin="round" />
-          <path d="M13 3.5 Q 16 0.5, 19 3.5 Z" fill="#ff7a1f" stroke="#b84a00" strokeWidth="0.8" />
-          <ellipse cx="16.5" cy="10" rx="9" ry="6.3" fill="#ff8a2e" stroke="#b84a00" strokeWidth="0.9" />
-          <path d="M12.5 4.2 Q 14.5 10, 12.5 15.8 L 15 16.2 Q 17 10, 15 3.8 Z" fill="#fff" stroke="#1b1b1b" strokeWidth="0.6" />
-          <path d="M19.5 4.4 Q 21 10, 19.5 15.6 L 21.3 15 Q 22.6 10, 21.3 5 Z" fill="#fff" stroke="#1b1b1b" strokeWidth="0.6" />
-          <Eye x={22.6} y={8.6} r={1.5} />
-          <path d="M24.5 12 Q 25.3 12.6, 24.3 13.2" stroke="#7a2e00" strokeWidth="0.6" fill="none" />
+          <defs>
+            <clipPath id={`cf-${uid}`}>
+              <path d={body} />
+            </clipPath>
+          </defs>
+          <path d="M7.5 10 C 5 6.5, 2.5 4.6, 1.2 5.4 C 2.6 8, 2.6 12, 1.2 14.6 C 2.5 15.4, 5 13.5, 7.5 10 Z" fill="#ff8a2e" stroke="#1b1b1b" strokeWidth="0.7" strokeLinejoin="round" />
+          <path d="M1.6 6 C 2.6 8.3, 2.6 11.7, 1.6 14" stroke="#1b1b1b" strokeWidth="0.9" fill="none" />
+          <path d="M10.5 4.6 C 12 0.8, 18 0.6, 20 4.4 Z" fill="#ff8a2e" stroke="#1b1b1b" strokeWidth="0.7" strokeLinejoin="round" />
+          <path d="M12 15.5 C 13 18.6, 16.5 18.8, 17.5 15.8 Z" fill="#ff8a2e" stroke="#1b1b1b" strokeWidth="0.7" strokeLinejoin="round" />
+          <path d={body} fill="#ff8a2e" />
+          <g clipPath={`url(#cf-${uid})`}>
+            {[[10, 1.5], [16, 1.4], [21.4, 0.9]].map(([x, w]) => (
+              <path key={x} d={`M${x - w} 2 Q ${x - w - 1} 10, ${x - w} 18 L ${x + w} 18 Q ${x + w - 1} 10, ${x + w} 2 Z`} fill="#fff" stroke="#1b1b1b" strokeWidth="0.7" />
+            ))}
+            <path d="M5 14 C 12 18, 20 18, 26 13.5 L 26 20 L 5 20 Z" fill="#c75a00" opacity="0.25" />
+          </g>
+          <path d={body} fill="none" stroke="#1b1b1b" strokeWidth="0.8" />
+          <path d="M10 5.8 Q 14 4.6, 18 5.2" stroke="#fff" strokeWidth="0.9" fill="none" opacity="0.5" strokeLinecap="round" />
+          <Eye x={23} y={8.6} r={1.5} />
+          <path d="M24.4 12 Q 25.2 12.5, 25.4 11.6" stroke="#7a2e00" strokeWidth="0.6" fill="none" strokeLinecap="round" />
         </svg>
       );
+    }
     case "buddy.crab":
       return (
         <svg viewBox="0 0 30 22" {...s}>
@@ -376,24 +393,27 @@ export function BuddyArt({ kind, size = 22 }: { kind: string; size?: number }) {
           <path d="M9.8 10 Q 11 10.8, 12.2 10" stroke="#3a1757" strokeWidth="0.6" fill="none" strokeLinecap="round" />
         </svg>
       );
-    case "buddy.seahorse":
+    case "buddy.seahorse": {
+      // One continuous curve (outline drawn underneath), so head, body and tail read as one animal.
+      const spine = "M10.5 7 C 15.5 9, 16 15.5, 12 18.5 C 9 20.8, 9 24, 11.5 24.6 C 13.6 25.1, 14.2 22.6, 12.4 22.2";
       return (
         <svg viewBox="0 0 20 28" {...s}>
-          <path
-            d="M10 3 C 15 2, 16.5 7, 13 9.5 C 16.5 12, 16 18, 11.5 20 C 9 21.2, 8.6 23.6, 10.5 24.5 C 12.5 25.4, 13.2 23.2, 11.8 22.8 C 13.6 22.6, 14 26.5, 10.8 26.6 C 6.8 26.8, 6.5 21.5, 9.5 19 C 12 17, 11.5 13.5, 9 12.5 C 6.5 11.5, 6.5 8.5, 7.5 7.5 L 3 7 Q 2.5 5.5, 4 5.5 L 7.5 5.2 C 8 4, 8.8 3.2, 10 3 Z"
-            fill="#ffb347"
-            stroke="#b8701a"
-            strokeWidth="0.8"
-            strokeLinejoin="round"
-          />
-          <path d="M13 9.5 L16.5 9 L15 11.5 Z M14 14 L17.5 14 L15.5 16.5 Z" fill="#ff8a3d" />
-          <path d="M11 3.2 L12 0.8 L13 3.4" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.6" />
-          {[12, 14.5, 17].map((y) => (
-            <path key={y} d={`M${y === 17 ? 10 : 11} ${y} q 1.5 0.6, 3 0`} stroke="#b8701a" strokeWidth="0.6" fill="none" opacity="0.6" />
+          <path d="M14.2 11 C 17.5 11, 18.5 14, 16.6 16.2 Z" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.6" strokeLinejoin="round" />
+          <path d={spine} stroke="#b8701a" strokeWidth="6.4" fill="none" strokeLinecap="round" />
+          <path d={spine} stroke="#ffb347" strokeWidth="5" fill="none" strokeLinecap="round" />
+          <path d="M9.3 10 C 12.5 12, 12.6 16, 10.6 18" stroke="#ffd79a" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+          {[11.5, 14, 16.5].map((y) => (
+            <path key={y} d={`M${10.4 + (y - 11.5) * 0.25} ${y} l 3.3 -0.4`} stroke="#d98a2a" strokeWidth="0.6" strokeLinecap="round" opacity="0.8" />
           ))}
-          <Eye x={10.2} y={5.6} r={1.3} />
+          {/* head and snout */}
+          <path d="M8.8 5.8 L 3 5.4 Q 1.6 6.4, 3 7.6 L 8.8 8.4 Z" fill="#ffb347" stroke="#b8701a" strokeWidth="0.7" strokeLinejoin="round" />
+          <circle cx="10.5" cy="6.5" r="3.8" fill="#ffb347" stroke="#b8701a" strokeWidth="0.7" />
+          <path d="M10.5 6.5 L 7.5 6.9" stroke="#ffb347" strokeWidth="2" />
+          <path d="M10 2.9 L 10.8 0.6 L 12 2.9 M12.6 3.6 L 14.5 2 L 14.2 4.4" fill="#ff8a3d" stroke="#b8701a" strokeWidth="0.6" strokeLinejoin="round" />
+          <Eye x={11} y={5.8} r={1.3} />
         </svg>
       );
+    }
     case "buddy.octopus":
       return (
         <svg viewBox="0 0 26 26" {...s}>
@@ -452,21 +472,37 @@ export function BuddyArt({ kind, size = 22 }: { kind: string; size?: number }) {
           <path d="M23.5 12.5 Q 24.8 13.2, 25.8 12.3" stroke="#4a6f94" strokeWidth="0.6" fill="none" />
         </svg>
       );
-    case "buddy.angler":
+    case "buddy.angler": {
+      const body = "M6 13 C 6 7.5, 10.5 4.5, 16 4.5 C 22 4.5, 26 8.5, 26 13 C 26 18, 21.5 21, 16 21 C 10.5 21, 6 18.5, 6 13 Z";
       return (
         <svg viewBox="0 0 30 24" {...s}>
-          <path d="M15 7 C 16 0.5, 24 0, 25.5 4" stroke="#2b3846" strokeWidth="1.2" fill="none" strokeLinecap="round" />
-          <circle cx="25.5" cy="5" r="4" fill="#fff07a" opacity="0.3" className="buddy-glow" />
-          <circle cx="25.5" cy="5" r="2" fill="#fff07a" className="buddy-glow" />
-          <path d="M2 14 L7 9 Q 6 14, 7 19 Z" fill="#3a4a5a" stroke="#1d2731" strokeWidth="0.7" />
-          <path d="M6 14 C 6 8.5, 10 6.5, 15 6.5 C 21 6.5, 25 10, 25 14 C 25 18.5, 21 21, 15 21 C 10 21, 6 19.5, 6 14 Z" fill="#46596c" stroke="#1d2731" strokeWidth="0.9" />
-          <path d="M9 10 Q 12 8, 15 8" stroke="#fff" strokeWidth="1" fill="none" opacity="0.25" strokeLinecap="round" />
-          <path d="M14 15.5 Q 20 18.5, 25 14.5 L 25 16.5 Q 20 21, 14 17 Z" fill="#1a1f26" />
-          <path d="M15.5 16 L16.2 17.6 L17.2 16.4 L18 18.2 L19 16.6 L20 18.2 L21 16.2 L22 17.6 L23 15.8" stroke="#fff" strokeWidth="0.7" fill="none" strokeLinejoin="round" />
-          <circle cx="19.5" cy="11.5" r="2.3" fill="#fff07a" />
-          <circle cx="19.9" cy="11.6" r="1.1" fill="#15161c" />
+          <defs>
+            <clipPath id={`an-${uid}`}>
+              <path d={body} />
+            </clipPath>
+          </defs>
+          {/* lure on a stalk from the top of the head */}
+          <path d="M15 5 C 15 -0.5, 23 -1, 25.5 3.2" stroke="#2b3846" strokeWidth="1.2" fill="none" strokeLinecap="round" />
+          <circle cx="26" cy="4.6" r="4.2" fill="#fff07a" opacity="0.28" className="buddy-glow" />
+          <circle cx="26" cy="4.6" r="2" fill="#fff07a" className="buddy-glow" />
+          {/* tail fan tucked behind the body */}
+          <path d="M8 13 C 5 9.5, 2.5 8, 1.2 8.8 C 2.4 11.3, 2.4 14.7, 1.2 17.2 C 2.5 18, 5 16.5, 8 13 Z" fill="#3a4a5a" stroke="#1d2731" strokeWidth="0.7" strokeLinejoin="round" />
+          <path d="M9.5 19 C 9.5 22, 13 23, 14 20 Z" fill="#3a4a5a" stroke="#1d2731" strokeWidth="0.6" />
+          <path d={body} fill="#4a5e72" />
+          <g clipPath={`url(#an-${uid})`}>
+            {/* wide grumpy mouth across the front */}
+            <path d="M14 15 Q 20 18.5, 27 12.5 L 27 22 L 14 22 Z" fill="#1a1f26" />
+            <path d="M15.5 15.9 L16.4 14.3 L17.3 16.5 L18.4 14.7 L19.4 16.6 L20.5 14.6 L21.5 16.1 L22.6 13.9 L23.5 15.3 L24.6 13" stroke="#fff" strokeWidth="0.7" fill="none" strokeLinejoin="round" />
+            <path d="M5 17 C 12 22, 20 22, 27 17 L 27 24 L 5 24 Z" fill="#000" opacity="0.15" />
+          </g>
+          <path d={body} fill="none" stroke="#1d2731" strokeWidth="0.9" />
+          <path d="M9.5 9 Q 12.5 6.6, 16 6.4" stroke="#fff" strokeWidth="1" fill="none" opacity="0.25" strokeLinecap="round" />
+          <circle cx="19.5" cy="10.5" r="2.4" fill="#fff07a" stroke="#1d2731" strokeWidth="0.5" />
+          <circle cx="19.9" cy="10.7" r="1.1" fill="#15161c" />
+          <path d="M17 7.6 L 21.5 8.4" stroke="#1d2731" strokeWidth="0.9" strokeLinecap="round" />
         </svg>
       );
+    }
     case "buddy.whale":
       return (
         <svg viewBox="0 0 34 22" {...s}>
@@ -484,23 +520,27 @@ export function BuddyArt({ kind, size = 22 }: { kind: string; size?: number }) {
           <circle cx="27.5" cy="12.8" r="0.9" fill="#ff9ec0" opacity="0.6" />
         </svg>
       );
-    case "buddy.krill":
+    case "buddy.krill": {
+      // A curled shrimp: one smooth body (outline drawn underneath) with segment lines, tail fan, legs and long feelers.
+      const spine = "M4.5 7.5 C 8 12.5, 17 13.5, 23.5 9";
       return (
         <svg viewBox="0 0 30 18" {...s}>
-          <path d="M26 6.5 C 28.5 3, 29.5 1.5, 29.5 0.8 M25.5 6.3 C 27 2.5, 27.5 1.5, 27 0.5" stroke="#d99a00" strokeWidth="0.7" fill="none" strokeLinecap="round" />
-          <path d="M2 9 L0.5 5.5 L4.5 8 L0.5 12.5 Z" fill="#ffc21a" stroke="#c48800" strokeWidth="0.6" strokeLinejoin="round" />
-          {[0, 1, 2, 3, 4].map((i) => (
-            <path key={i} d={`M${5 + i * 4} ${8.5 - Math.sin(i / 1.3) * 2} q 2.2 -2.4, 4.5 0 q 0 4.2, -4.5 4.6 q -1 -2, 0 -4.6 Z`} fill={i % 2 ? "#ffd23f" : "#ffdf5e"} stroke="#c48800" strokeWidth="0.6" />
+          <path d="M23.5 8.5 C 26 4, 28.5 2, 29.6 1.6 M23 8 C 24.5 3.5, 26 1.8, 26.8 1" stroke="#d99a00" strokeWidth="0.6" fill="none" strokeLinecap="round" />
+          {[9, 12.5, 16, 19.5].map((x) => (
+            <path key={x} d={`M${x} ${12.3 - (x - 9) * 0.05} q -1 1.8, -1.6 3.6`} stroke="#d99a00" strokeWidth="0.7" fill="none" strokeLinecap="round" />
           ))}
-          <path d="M23.5 7.5 C 26 6, 28.5 7.5, 28 9.5 C 27.5 11.5, 24.5 12, 23 11 Z" fill="#ffdf5e" stroke="#c48800" strokeWidth="0.6" />
-          {[9, 13, 17, 21].map((x) => (
-            <path key={x} d={`M${x} 12.5 l -0.8 3.5 M${x + 1.2} 12.4 l -0.2 3.2`} stroke="#d99a00" strokeWidth="0.6" strokeLinecap="round" />
+          <path d="M5 7.8 L 1 4.6 Q 0.4 6.5, 1.4 7.6 Q 0 8.6, 0.8 10.6 Z" fill="#ffc21a" stroke="#c48800" strokeWidth="0.6" strokeLinejoin="round" />
+          <path d={spine} stroke="#c48800" strokeWidth="7" fill="none" strokeLinecap="round" />
+          <path d={spine} stroke="#ffd23f" strokeWidth="5.6" fill="none" strokeLinecap="round" />
+          <path d="M6.5 8 C 10 11, 16 11.5, 21.5 8.4" stroke="#fff3b0" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.7" />
+          {[8.5, 12, 15.5, 19].map((x) => (
+            <path key={x} d={`M${x} ${x < 12 ? 8.4 : 8.9} q 0.9 2.2, 0.4 4.6`} stroke="#c48800" strokeWidth="0.6" fill="none" strokeLinecap="round" opacity="0.75" />
           ))}
-          <circle cx="25.5" cy="8.6" r="1.1" fill="#2a1d00" />
-          <circle cx="25.2" cy="8.2" r="0.35" fill="#fff" />
-          <path d="M8 7.5 Q 14 4, 21 5.5" stroke="#fff" strokeWidth="0.9" fill="none" opacity="0.6" strokeLinecap="round" />
+          <circle cx="24" cy="8.3" r="1.25" fill="#2a1d00" />
+          <circle cx="23.7" cy="7.9" r="0.4" fill="#fff" />
         </svg>
       );
+    }
     default:
       return null;
   }
