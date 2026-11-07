@@ -1502,9 +1502,10 @@ select {
 .stats-row { display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; margin-bottom: 14px; }
 .stat { flex: 1; min-width: 80px; text-align: center; }
 .stat-value { font-size: 1.3rem; font-weight: 700; }
-.histogram { display: flex; align-items: flex-end; gap: 6px; height: 110px; margin-top: 8px; }
+.histogram { display: flex; align-items: flex-end; gap: 6px; height: 130px; margin-top: 8px; }
 .histo-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 3px; }
-.histo-bar { width: 100%; min-height: 2px; border-radius: 6px 6px 0 0; background: var(--accent-strong); }
+.histo-track { flex: 1; min-height: 0; width: 100%; display: flex; align-items: flex-end; }
+.histo-bar { width: 100%; min-height: 2px; flex: none; border-radius: 6px 6px 0 0; background: var(--accent-strong); }
 .histo-n { color: var(--muted); }
 
 .archive-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }

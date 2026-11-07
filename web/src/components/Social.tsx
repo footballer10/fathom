@@ -56,7 +56,10 @@ function DailyStats({ stats, buckets, max }: { stats: PlayerStats; buckets: [str
         {buckets.map(([label, n]) => (
           <div key={label} className="histo-col" title={`${label === "miss" ? "Miss" : tierInfo(Number(label) as TierPoints).name}: ${n}`}>
             <div className="histo-n small">{n}</div>
-            <div className="histo-bar" style={{ height: `${(n / max) * 100}%` }} />
+            {/* The bar fills its own track, so the number and emoji can't squash tall bars to the same height. */}
+            <div className="histo-track">
+              <div className="histo-bar" style={{ height: `${(n / max) * 100}%` }} />
+            </div>
             <div className="histo-label">{label === "miss" ? MISS_EMOJI : tierInfo(Number(label) as TierPoints).emoji}</div>
           </div>
         ))}
