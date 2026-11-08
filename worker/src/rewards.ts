@@ -342,8 +342,10 @@ async function status(env: Env, playerId: string, now: number) {
       current: currentStreak,
       playedToday: s?.streak_last === date,
       best: ach.bestStreak,
+      played: ach.dailies,
       // Collectable once your best streak ever reaches it (tap to collect).
-      milestones: STREAK_MILESTONES.map((m) => ({ ...m, reached: ach.bestStreak >= m.days, claimed: done.has(`streak:${m.days}`) })),
+      // Milestones count every Daily ever played (not only ones in a row), history included.
+      milestones: STREAK_MILESTONES.map((m) => ({ ...m, reached: ach.dailies >= m.days, claimed: done.has(`streak:${m.days}`) })),
     },
     achievements: ACHIEVEMENTS.map((a) => ({
       id: a.id,
@@ -386,8 +388,8 @@ rewardRoutes.post("/api/rewards/claim", async (c) => {
     const m = st.streak.milestones.find((x) => String(x.days) === String(id));
     if (!m) throw new HttpError(400, "No such streak reward");
     if (m.claimed) throw new HttpError(400, "Already collected");
-    if (!m.reached) throw new HttpError(400, `Reach a ${m.days}-day Daily streak first`);
-    earn = { key: `streak:${m.days}`, pearls: m.pearls, label: `${m.days}-day Daily streak reward`, items: m.items };
+    if (!m.reached) throw new HttpError(400, `Play ${m.days} Dailies first`);
+    earn = { key: `streak:${m.days}`, pearls: m.pearls, label: `Reward for playing ${m.days} Dailies`, items: m.items };
   } else {
     throw new HttpError(400, "Unknown reward");
   }

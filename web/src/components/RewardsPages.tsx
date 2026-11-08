@@ -144,7 +144,7 @@ export function QuestsPage() {
   };
 
   if (!s) return <div className="card center">Loading your quests…</div>;
-  const nextMilestone = s.streak.milestones.find((m) => m.days > s.streak.best);
+  const nextMilestone = s.streak.milestones.find((m) => m.days > s.streak.played);
   return (
     <div className="rewards-page">
       <div className="page-head">
@@ -174,11 +174,11 @@ export function QuestsPage() {
       </div>
 
       <div className="card">
-        <h3>🔥 Daily streak: {s.streak.current} day{s.streak.current === 1 ? "" : "s"}</h3>
+        <h3>📅 Dailies played: {s.streak.played}</h3>
         <p className="muted small">
-          {s.streak.playedToday ? "You've played today. " : s.streak.current ? "Play today's Daily to keep it going! " : "Play the Daily on back-to-back days to build a streak. "}
-          Your best streak is {s.streak.best} day{s.streak.best === 1 ? "" : "s"}. Reach a milestone, then tap it to collect.
-          {nextMilestone && ` Next: ${nextMilestone.days} days.`}
+          Every Daily you finish counts, whether or not you play in a row.
+          {s.streak.current > 1 ? ` You're on a ${s.streak.current}-day streak too!` : ""} Reach a milestone, then tap it to collect.
+          {nextMilestone && ` Next: ${nextMilestone.days} Dailies (${nextMilestone.days - s.streak.played} to go).`}
         </p>
         <ol className="milestones">
           {s.streak.milestones.map((m) => {
@@ -189,7 +189,7 @@ export function QuestsPage() {
                   className={`milestone ${m.claimed ? "milestone--claimed" : ready ? "milestone--ready" : ""}`}
                   disabled={!ready || busy}
                   onClick={() => claim("streak", String(m.days))}
-                  title={ready ? "Tap to collect" : m.claimed ? "Collected" : `Reach a ${m.days}-day streak`}
+                  title={ready ? "Tap to collect" : m.claimed ? "Collected" : `Play ${m.days} Dailies`}
                 >
                   <span className="milestone-days">{m.days}</span>
                   <span className="milestone-reward">
@@ -357,7 +357,7 @@ export function ShopPage() {
         <button className="link-btn" onClick={() => navigate("/quests")}>
           quests
         </button>{" "}
-        pay more. Some items can only be earned through streaks and achievements.
+        pay more. Some items can only be earned by playing Dailies and through achievements.
       </p>
     </div>
   );

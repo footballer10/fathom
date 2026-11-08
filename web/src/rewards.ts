@@ -17,7 +17,7 @@ export interface RewardsStatus {
   look: Look;
   daily: { date: string; quests: QuestView[] };
   weekly: { week: string; endsAt: number; quests: QuestView[] };
-  streak: { current: number; best: number; playedToday: boolean; milestones: { days: number; pearls: number; items: string[]; reached: boolean; claimed: boolean }[] };
+  streak: { current: number; best: number; played: number; playedToday: boolean; milestones: { days: number; pearls: number; items: string[]; reached: boolean; claimed: boolean }[] };
   achievements: { id: string; name: string; description: string; pearls: number; items: string[]; target: number; progress: number; claimed: boolean }[];
   recent: { label: string; pearls: number; at: number }[];
 }

@@ -2389,7 +2389,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 .milestone--claimed .milestone-state { color: #8ff0a4; }
 @keyframes milestone-pulse { 0%, 100% { box-shadow: 0 0 8px rgba(255, 209, 102, 0.25); } 50% { box-shadow: 0 0 18px rgba(255, 209, 102, 0.55); } }
 .milestone-days { font-weight: 900; font-size: 1.1rem; min-width: 2.2em; text-align: center; }
-.milestone-days::after { content: "🔥"; font-size: 0.8rem; margin-left: 2px; }
+.milestone-days::after { content: "📅"; font-size: 0.8rem; margin-left: 2px; }
 .milestone-reward { display: inline; }
 .milestone-items { color: #ffd166; }
 

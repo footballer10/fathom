@@ -53,8 +53,8 @@ Make a room, share the four-letter code, and play live with up to 16 friends.
 ## Pearls, quests and the shop
 
 Every game pays pearls: the Daily, Unlimited dives, quick modes, party games and the Weekly
-Abyss. Daily and weekly quests pay more, and Daily streaks pay the most, with special items at
-7, 14, 30, 50, 100 and 365 days that you can't buy. Spend pearls in the shop on submarine paint
+Abyss. Daily and weekly quests pay more, and the more Dailies you play the more you collect, with
+special items at 7, 14, 30, 50, 100 and 365 Dailies that you can't buy. Spend pearls in the shop on submarine paint
 jobs, bubble trails, sidekicks that swim beside your sub, celebrations for rare answers, new ocean
 colours, titles and name colours. Your friends see your sub and title in parties and on the
 leaderboards. Nothing in the shop changes your score.
