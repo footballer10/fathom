@@ -3,7 +3,7 @@
  *
  * Players earn pearls (🫧 the game's currency) by playing: every Daily,
  * Unlimited dive, quick-mode run, party game and Weekly Abyss pays a little,
- * daily and weekly quests pay more, and Dailies-played milestones and
+ * daily and weekly quests pay more, and days-played milestones and
  * achievements pay the most (some also unlock items you can't buy).
  *
  * Pearls buy cosmetics in the shop. Nothing in the shop changes scoring.
@@ -116,8 +116,8 @@ export const ITEMS: ShopItem[] = [
   { id: "skin.ghost", slot: "skin", name: "Ghost Ship", description: "See-through hull. Spooky.", price: 1000 },
   { id: "skin.rainbow", slot: "skin", name: "Rainbow", description: "Every colour at once.", price: 1500 },
   { id: "skin.gold", slot: "skin", name: "Solid Gold", description: "For divers with pearls to spare.", price: 2500 },
-  { id: "skin.lantern", slot: "skin", name: "Lantern Sub", description: "Dark hull with a glowing lure.", price: null, unlock: "Play 14 Dailies" },
-  { id: "skin.royal", slot: "skin", name: "Royal Sub", description: "Purple hull with a golden crown.", price: null, unlock: "Play 100 Dailies" },
+  { id: "skin.lantern", slot: "skin", name: "Lantern Sub", description: "Dark hull with a glowing lure.", price: null, unlock: "Play on 14 different days" },
+  { id: "skin.royal", slot: "skin", name: "Royal Sub", description: "Purple hull with a golden crown.", price: null, unlock: "Play on 100 different days" },
   { id: "skin.pearl", slot: "skin", name: "Pearl Sub", description: "Shimmering white, like a pearl.", price: null, unlock: "Earn 10,000 pearls in total" },
 
   // Trails
@@ -129,7 +129,7 @@ export const ITEMS: ShopItem[] = [
   { id: "trail.sparkle", slot: "trail", name: "Glitter", description: "Golden sparkles everywhere.", price: 450 },
   { id: "trail.rainbow", slot: "trail", name: "Rainbow", description: "A rainbow ribbon behind you.", price: 600 },
   { id: "trail.fire", slot: "trail", name: "Afterburner", description: "Somehow, fire. Underwater.", price: 800 },
-  { id: "trail.flame", slot: "trail", name: "Blue Flame", description: "A cold blue flame.", price: null, unlock: "Play 30 Dailies" },
+  { id: "trail.flame", slot: "trail", name: "Blue Flame", description: "A cold blue flame.", price: null, unlock: "Play on 30 different days" },
 
   // Sidekicks
   { id: "buddy.none", slot: "buddy", name: "None", description: "Diving solo.", price: 0 },
@@ -140,8 +140,8 @@ export const ITEMS: ShopItem[] = [
   { id: "buddy.octopus", slot: "buddy", name: "Octopus", description: "Eight arms of moral support.", price: 650 },
   { id: "buddy.turtle", slot: "buddy", name: "Sea Turtle", description: "In no hurry at all.", price: 750 },
   { id: "buddy.narwhal", slot: "buddy", name: "Narwhal", description: "The unicorn of the sea.", price: 1000 },
-  { id: "buddy.angler", slot: "buddy", name: "Anglerfish", description: "Brings its own light.", price: null, unlock: "Play 7 Dailies" },
-  { id: "buddy.whale", slot: "buddy", name: "Baby Whale", description: "Gentle, huge one day.", price: null, unlock: "Play 50 Dailies" },
+  { id: "buddy.angler", slot: "buddy", name: "Anglerfish", description: "Brings its own light.", price: null, unlock: "Play on 7 different days" },
+  { id: "buddy.whale", slot: "buddy", name: "Baby Whale", description: "Gentle, huge one day.", price: null, unlock: "Play on 50 different days" },
   { id: "buddy.krill", slot: "buddy", name: "Golden Krill", description: "Proof you found the rarest answer.", price: null, unlock: "Find 10 One in a Krillion answers" },
 
   // Celebrations
@@ -172,10 +172,10 @@ export const ITEMS: ShopItem[] = [
   { id: "title.sonar", slot: "title", name: "Sonar Savant", description: "Hears answers others miss.", price: 400 },
   { id: "title.captain", slot: "title", name: "Captain", description: "Runs a tight ship.", price: 600 },
   { id: "title.admiral", slot: "title", name: "Admiral", description: "Commands the whole fleet.", price: 1200 },
-  { id: "title.week", slot: "title", name: "Week Diver", description: "Seven Dailies played.", price: null, unlock: "Play 7 Dailies" },
-  { id: "title.month", slot: "title", name: "Tide Keeper", description: "Thirty Dailies played.", price: null, unlock: "Play 30 Dailies" },
-  { id: "title.legend", slot: "title", name: "Trench Legend", description: "A hundred Dailies played.", price: null, unlock: "Play 100 Dailies" },
-  { id: "title.year", slot: "title", name: "Ocean Eternal", description: "A year's worth of Dailies.", price: null, unlock: "Play 365 Dailies" },
+  { id: "title.week", slot: "title", name: "Week Diver", description: "Seven days of diving.", price: null, unlock: "Play on 7 different days" },
+  { id: "title.month", slot: "title", name: "Tide Keeper", description: "Thirty days of diving.", price: null, unlock: "Play on 30 different days" },
+  { id: "title.legend", slot: "title", name: "Trench Legend", description: "A hundred days of diving.", price: null, unlock: "Play on 100 different days" },
+  { id: "title.year", slot: "title", name: "Ocean Eternal", description: "A year's worth of diving days.", price: null, unlock: "Play on 365 different days" },
   { id: "title.hunter", slot: "title", name: "Krillion Hunter", description: "Found the rarest answer.", price: null, unlock: "Find your first One in a Krillion" },
   { id: "title.deep", slot: "title", name: "Deep Thinker", description: "Specialist knowledge, many times over.", price: null, unlock: "Land 50 Deep Cut or rarer answers" },
   { id: "title.champ", slot: "title", name: "Party Champ", description: "Rules the party.", price: null, unlock: "Win 10 party games" },
@@ -291,7 +291,7 @@ export function weeklyQuests(week: string): Quest[] {
   return pick(WEEKLY_POOL, 3, `w${week}`);
 }
 
-/** Dailies-played milestones (every Daily ever finished counts, in a row or not): pearls plus, at some, an item you can only earn. */
+/** Days-played milestones (any day you played any mode counts, in a row or not): pearls plus, at some, an item you can only earn. */
 export const STREAK_MILESTONES: { days: number; pearls: number; items: string[] }[] = [
   { days: 3, pearls: 50, items: [] },
   { days: 7, pearls: 100, items: ["buddy.angler", "title.week"] },

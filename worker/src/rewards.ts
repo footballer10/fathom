@@ -17,6 +17,7 @@ import { HttpError } from "./env";
 import type { Env } from "./env";
 import { today } from "./questions";
 import { weekOf } from "./practice";
+import { ensureSchema } from "./schema";
 
 /**
  * Pearls, quests and the shop (the catalog lives in shared/src/rewards.ts).
@@ -68,8 +69,35 @@ export async function ensureRewards(env: Env) {
          player_id TEXT NOT NULL, period TEXT NOT NULL, metric TEXT NOT NULL, n INTEGER NOT NULL,
          PRIMARY KEY (player_id, period, metric))`,
     ),
+    // One row per player per day they played anything (for the days-played rewards).
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS play_days (player_id TEXT NOT NULL, day TEXT NOT NULL, PRIMARY KEY (player_id, day))"),
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)"),
   ]);
+  await backfillPlayDays(env);
   ready = true;
+}
+
+/**
+ * Once: fill play_days from everything already played, so past days count.
+ * Dailies use their exact date; other games use their timestamp in Mountain
+ * time (fixed UTC-7, so a game near midnight in summer may land a day off).
+ */
+async function backfillPlayDays(env: Env) {
+  const done = await env.DB.prepare("SELECT value FROM meta WHERE key = 'play_days'").first().catch(() => null);
+  if (done) return;
+  await ensureSchema(env);
+  const day = (col: string) => `date(${col} / 1000 - 25200, 'unixepoch')`;
+  const sources = [
+    "SELECT player_id, date FROM daily_results",
+    `SELECT player_id, ${day("created_at")} FROM sessions`,
+    `SELECT player_id, ${day("started_at")} FROM practice_runs`,
+    `SELECT player_id, ${day("finished_at")} FROM party_results`,
+    `SELECT player_id, ${day("started_at")} FROM abyss_attempts`,
+  ];
+  for (const src of sources) {
+    await env.DB.prepare(`INSERT OR IGNORE INTO play_days (player_id, day) ${src} WHERE true`).run().catch((e) => console.error("play_days backfill", e));
+  }
+  await env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('play_days', '1')").run();
 }
 
 /** Statements that pay out each reward exactly once (see the note at the top). */
@@ -114,7 +142,8 @@ export function summarize(earns: Earn[]): Earned {
 /** Add to today's and this week's quest counts ("best" keeps the maximum instead). */
 export function progressStatements(env: Env, playerId: string, now: number, deltas: Partial<Record<QuestMetric, number>>): D1PreparedStatement[] {
   const periods = [`d:${today(now)}`, `w:${weekOf(now).week}`];
-  const out: D1PreparedStatement[] = [];
+  // Every finished game (any mode) marks today as a day played.
+  const out: D1PreparedStatement[] = [env.DB.prepare("INSERT OR IGNORE INTO play_days (player_id, day) VALUES (?, ?)").bind(playerId, today(now))];
   for (const [metric, n] of Object.entries(deltas) as [QuestMetric, number][]) {
     if (!n) continue;
     const update = metric === "best" ? "n = MAX(n, excluded.n)" : "n = n + excluded.n";
@@ -283,6 +312,11 @@ async function wallet(env: Env, playerId: string): Promise<WalletRow> {
   return row ?? { player_id: playerId, pearls: 0, lifetime: 0, owned: "[]", look: "{}" };
 }
 
+async function daysPlayed(env: Env, playerId: string): Promise<number> {
+  const r = await env.DB.prepare("SELECT COUNT(*) AS n FROM play_days WHERE player_id = ?").bind(playerId).first<{ n: number }>();
+  return r?.n ?? 0;
+}
+
 async function achievementStats(env: Env, playerId: string, lifetime: number): Promise<AchievementStats> {
   const s = await env.DB.prepare("SELECT d_dives, d_k, u_k, abyss_k, d_rare, u_rare, p_wins, d_best, streak_best FROM lb_stats WHERE player_id = ?")
     .bind(playerId)
@@ -309,6 +343,7 @@ async function status(env: Env, playerId: string, now: number) {
   const w = await wallet(env, playerId);
   const owned = JSON.parse(w.owned) as string[];
   const ach = await achievementStats(env, playerId, w.lifetime);
+  const days = await daysPlayed(env, playerId);
   const keys = [
     ...dq.map((q) => `q:${date}:${q.id}`),
     ...wq.map((q) => `q:${week}:${q.id}`),
@@ -342,10 +377,10 @@ async function status(env: Env, playerId: string, now: number) {
       current: currentStreak,
       playedToday: s?.streak_last === date,
       best: ach.bestStreak,
-      played: ach.dailies,
+      played: days,
       // Collectable once your best streak ever reaches it (tap to collect).
-      // Milestones count every Daily ever played (not only ones in a row), history included.
-      milestones: STREAK_MILESTONES.map((m) => ({ ...m, reached: ach.dailies >= m.days, claimed: done.has(`streak:${m.days}`) })),
+      // Milestones count every day you played any mode (not only days in a row), history included.
+      milestones: STREAK_MILESTONES.map((m) => ({ ...m, reached: days >= m.days, claimed: done.has(`streak:${m.days}`) })),
     },
     achievements: ACHIEVEMENTS.map((a) => ({
       id: a.id,
@@ -388,8 +423,8 @@ rewardRoutes.post("/api/rewards/claim", async (c) => {
     const m = st.streak.milestones.find((x) => String(x.days) === String(id));
     if (!m) throw new HttpError(400, "No such streak reward");
     if (m.claimed) throw new HttpError(400, "Already collected");
-    if (!m.reached) throw new HttpError(400, `Play ${m.days} Dailies first`);
-    earn = { key: `streak:${m.days}`, pearls: m.pearls, label: `Reward for playing ${m.days} Dailies`, items: m.items };
+    if (!m.reached) throw new HttpError(400, `Play on ${m.days} different days first`);
+    earn = { key: `streak:${m.days}`, pearls: m.pearls, label: `Reward for playing on ${m.days} days`, items: m.items };
   } else {
     throw new HttpError(400, "Unknown reward");
   }
