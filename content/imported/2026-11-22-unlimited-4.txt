@@ -1,0 +1,3114 @@
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a Bugatti, Koenigsegg, Pagani, Maserati, Alfa Romeo, or Lotus model
+note: Production models from these six brands, current or past.
+
+[One in a Krillion]
+Bugatti La Voiture Noire | la voiture noire
+
+[Too Clever]
+Bugatti Veyron | veyron
+Bugatti Royale | type 41 | royale
+Maserati MC12 | mc12
+
+[Plankton]
+Bugatti Chiron | chiron
+Koenigsegg Jesko | jesko
+Pagani Huayra | huayra
+Pagani Zonda | zonda
+Koenigsegg Agera | agera
+
+[Schooler]
+Bugatti Divo | divo
+Bugatti Tourbillon | tourbillon
+Bugatti Bolide | bolide
+Bugatti Centodieci | centodieci
+Bugatti Mistral | w16 mistral | mistral
+Koenigsegg Regera | regera
+Koenigsegg Gemera | gemera
+Koenigsegg One:1 | one:1 | one 1
+Koenigsegg CCX | ccx
+Koenigsegg Agera RS | agera rs
+Pagani Utopia | utopia
+Maserati MC20 | mc20
+Maserati GranTurismo | granturismo
+Maserati Ghibli | ghibli
+Maserati Quattroporte | quattroporte
+Maserati Levante | levante
+Maserati Grecale | grecale
+Alfa Romeo Giulia | giulia
+Alfa Romeo Stelvio | stelvio
+Alfa Romeo 4C | 4c
+Alfa Romeo Tonale | tonale
+Lotus Elise | elise
+Lotus Exige | exige
+Lotus Evora | evora
+Lotus Emira | emira
+Lotus Evija | evija
+Lotus Esprit | esprit | wet nellie
+
+[Rare]
+Bugatti EB110 | eb110
+Bugatti Type 35 | type 35
+Bugatti Type 57 | type 57 | atlantic
+Bugatti Chiron Super Sport | chiron super sport | chiron 300+
+Bugatti Veyron Super Sport
+Bugatti Chiron Pur Sport | pur sport
+Koenigsegg CCXR | ccxr
+Koenigsegg CC8S | cc8s
+Koenigsegg Trevita | trevita
+Koenigsegg Jesko Absolut | absolut
+Koenigsegg CC850 | cc850
+Pagani Zonda R | zonda r
+Pagani Huayra BC | huayra bc
+Pagani Imola | imola
+Maserati GranCabrio | grancabrio
+Maserati Bora | bora
+Maserati Merak | merak
+Maserati Khamsin | khamsin
+Maserati Biturbo | biturbo
+Maserati 3200 GT | 3200 gt
+Maserati Coupé | maserati coupe
+Maserati Spyder
+Maserati Folgore | folgore
+Alfa Romeo 8C Competizione | 8c competizione | 8c
+Alfa Romeo Spider | alfa spider | duetto
+Alfa Romeo GTV | gtv
+Alfa Romeo Brera | brera
+Alfa Romeo 159 | 159
+Alfa Romeo 156 | 156
+Alfa Romeo 147 | 147
+Alfa Romeo MiTo | mito
+Alfa Romeo Giulietta | giulietta
+Alfa Romeo Montreal | montreal
+Alfa Romeo Junior | junior
+Alfa Romeo 33 Stradale | 33 stradale
+Lotus Elan | elan
+Lotus Europa | europa
+Lotus Seven | seven
+Lotus Eletre | eletre
+Lotus Emeya | emeya
+Lotus Elite | elite
+Lotus Eclat | eclat
+Lotus Excel | excel
+Lotus Carlton | lotus omega
+
+[Deep Cut]
+Bugatti Type 13 | brescia
+Bugatti Type 50
+Bugatti Type 101
+Bugatti Veyron Grand Sport Vitesse | grand sport vitesse
+Koenigsegg CCGT
+Koenigsegg Agera R
+Koenigsegg Raw
+Pagani Zonda Cinque | zonda cinque
+Pagani Zonda Tricolore
+Pagani Huayra Roadster
+Pagani Codalunga
+Pagani Huayra R
+Maserati A6
+Maserati 3500 GT
+Maserati Mistral
+Maserati Indy
+Maserati Kyalami
+Maserati Shamal
+Maserati Karif
+Maserati Barchetta
+Maserati 4200 GT
+Alfa Romeo 155
+Alfa Romeo 164
+Alfa Romeo 166
+Alfa Romeo 75
+Alfa Romeo 33
+Alfa Romeo Alfasud | alfasud
+Alfa Romeo Alfetta | alfetta
+Alfa Romeo GT
+Alfa Romeo GTA
+Alfa Romeo SZ
+Alfa Romeo Giulia Sprint
+Alfa Romeo 6C
+Alfa Romeo 2600
+Lotus 340R
+Lotus 2-Eleven | 2 eleven
+Lotus 3-Eleven | 3 eleven
+Lotus Eleven
+Lotus Cortina | lotus cortina
+Lotus Sunbeam
+Lotus Elan M100
+
+[Not accepted]
+Ferrari
+Lamborghini Aventador
+McLaren P1
+
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a part of a motorcycle
+note: Parts of a motorcycle or dirt bike, from handlebars to the kickstand.
+
+[One in a Krillion]
+Swingarm | swing arm
+
+[Too Clever]
+Helmet
+Leather jacket
+Rider | biker
+Sidecar
+
+[Plankton]
+Handlebars | handlebar
+Wheels | wheel
+Engine | motor
+Seat | saddle
+Tires | tire
+
+[Schooler]
+Kickstand
+Gas tank | fuel tank | tank
+Exhaust | exhaust pipe | pipes
+Muffler
+Throttle
+Clutch
+Brakes | brake
+Brake lever
+Clutch lever
+Gear shifter | shifter | gear lever
+Headlight
+Taillight | tail light
+Turn signals | blinkers | indicators
+Mirrors | mirror | side mirrors
+Chain
+Fenders | fender
+Pegs | foot pegs | footpegs
+Windshield
+Speedometer
+Horn
+Battery
+Spark plug | spark plugs
+Kick starter | kickstart
+Ignition | key
+
+[Rare]
+Fork | forks | front fork
+Shocks | shock absorbers | suspension
+Rear shock
+Frame
+Sprocket | sprockets
+Rims | rim
+Spokes | spoke
+Disc brakes | brake disc | rotor
+Brake caliper | caliper
+Brake pads
+Front brake
+Rear brake | brake pedal
+Odometer
+Tachometer
+Fuel gauge
+Dashboard | instrument cluster | gauges
+Grips | hand grips
+Kill switch
+Starter button | electric start
+Carburetor | carb
+Fuel injection
+Air filter
+Oil filter
+Radiator
+Crankshaft
+Pistons | piston
+Cylinder | cylinders
+Transmission | gearbox
+Drive shaft | shaft drive
+Belt drive
+Saddlebags | saddle bags
+Luggage rack
+Sissy bar | backrest
+Passenger seat | pillion
+Passenger pegs
+[Deep Cut]
+Crash bars | engine guard
+Fairing | fairings
+License plate | number plate
+Headlight cowl
+Engine cover
+Skid plate
+Chain guard
+Mud flap
+Side stand
+Center stand
+Steering head
+Triple clamp
+Handguards | hand guards
+Bar end weights
+Clip-ons
+Ape hangers
+Floorboards
+Heated grips
+Cruise control
+ABS
+Traction control
+Quickshifter
+Slipper clutch
+Hub
+Axle
+Valve stem
+Inner tube
+Wheelie bar
+
+[Not accepted]
+Steering wheel
+Trunk
+
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a sound a vehicle makes (as a word)
+note: Words for the sounds cars, trains, motorcycles, planes and other vehicles make (honk, vroom, choo-choo).
+
+[One in a Krillion]
+Jake brake
+
+[Too Clever]
+Beep beep | meep meep
+Wee-woo | wee woo | woo woo
+Ka-chow | kachow
+
+[Plankton]
+Honk | honking | honk honk
+Beep | beeping
+Vroom | vroom vroom
+Zoom | zoom zoom
+Choo-choo | choo choo
+
+[Schooler]
+Rev | revving
+Roar | roaring
+Purr
+Rumble
+Screech
+Squeal
+Siren
+Whistle | train whistle
+Toot | toot toot
+Chugga chugga | chug
+Putt-putt | putt putt
+Hum | humming
+Whir | whirr
+Whoosh
+Rattle
+Clank
+Clunk
+Backfire | bang
+Sputter
+Hiss | air brakes
+Ding | ding ding
+Click | ticking | tick tock | turn signal
+Brrrm | brrm
+Skid
+Crash
+Boom | sonic boom
+Splash
+Ring | bell
+
+[Rare]
+Clang | clang clang
+Clickety-clack | clickety clack | clackety-clack
+Knock | knocking | engine knock
+Ping | pinging
+Grind | grinding
+Whine
+Drone
+Buzz
+Thrum
+Vrrrr | vrr
+Nyoom
+Skrrt | skrt
+Burnout
+Pop | pops and bangs | crackle
+Brap | brap brap
+Ah-oo-gah | ahooga | aooga
+[Deep Cut]
+Blare
+Wail
+Yelp
+Grumble
+Growl
+Snarl
+Wheeze
+Creak
+Squeak
+Thud
+Puff | puff puff
+Chuff | chuff chuff
+Whump
+Thwop | whop whop | chop chop
+Zip
+Whizz | whiz
+Swoosh
+Fwoosh
+
+[Not accepted]
+Moo
+Woof
+Meow
+
+# QUESTION
+pool: unlimited
+category: animals
+prompt: Name a dog breed named after a country, region, city, or other place
+note: Breeds whose names include a real place, by name (German Shepherd, Chihuahua, Labrador, Dalmatian).
+
+[One in a Krillion]
+Dogue de Bordeaux | french mastiff
+
+[Too Clever]
+Chihuahua
+Pomeranian
+Maltese
+
+[Plankton]
+German Shepherd | german shepherd dog | gsd
+French Bulldog | frenchie
+Siberian Husky | husky | siberian
+Yorkshire Terrier | yorkie | yorkshire
+Great Dane
+Labrador Retriever | labrador | lab
+
+[Schooler]
+Australian Shepherd | aussie
+Alaskan Malamute | malamute
+Boston Terrier
+English Bulldog | british bulldog | bulldog
+Bernese Mountain Dog | bernese | berner
+Saint Bernard | st bernard
+Newfoundland | newfie
+Dalmatian
+Pekingese
+Afghan Hound | afghan
+Irish Setter
+Irish Wolfhound
+Scottish Terrier | scottie
+West Highland White Terrier | westie
+Pembroke Welsh Corgi | pembroke | corgi
+Cardigan Welsh Corgi | cardigan
+Shetland Sheepdog | sheltie
+Border Collie
+Rottweiler
+Weimaraner
+Akita
+Portuguese Water Dog
+Belgian Malinois | malinois
+Great Pyrenees | pyrenees
+Rhodesian Ridgeback
+Havanese
+Chesapeake Bay Retriever | chessie
+American Staffordshire Terrier | amstaff
+Staffordshire Bull Terrier | staffy
+English Springer Spaniel | springer
+English Cocker Spaniel
+American Eskimo Dog | eskie
+Australian Cattle Dog | blue heeler | heeler
+Tibetan Mastiff
+Lhasa Apso
+Brittany | brittany spaniel
+Chinese Crested
+Shar Pei | chinese shar-pei
+Japanese Chin
+Norwegian Elkhound
+
+[Rare]
+Airedale Terrier | airedale
+Bedlington Terrier
+Norfolk Terrier
+Norwich Terrier
+Skye Terrier
+Kerry Blue Terrier
+Manchester Terrier
+Lakeland Terrier
+Welsh Terrier
+Irish Terrier
+Sealyham Terrier
+Border Terrier
+Australian Terrier
+Tibetan Terrier
+Tibetan Spaniel
+Welsh Springer Spaniel
+Clumber Spaniel
+Sussex Spaniel
+Irish Water Spaniel
+American Water Spaniel
+Brussels Griffon
+Leonberger
+Neapolitan Mastiff
+[Deep Cut]
+Bergamasco
+Maremma Sheepdog | maremma
+Bolognese
+Spanish Water Dog
+Ibizan Hound
+Portuguese Podengo
+Finnish Spitz
+Finnish Lapphund
+Swedish Vallhund
+Swedish Lapphund
+Icelandic Sheepdog
+Norwegian Buhund
+Norwegian Lundehund
+Danish-Swedish Farmdog
+Japanese Spitz
+Korean Jindo | jindo
+Thai Ridgeback
+Dogo Argentino
+Peruvian Inca Orchid
+Mexican Hairless | xoloitzcuintli | xolo
+Canaan Dog
+Catahoula Leopard Dog | catahoula
+Carolina Dog
+Alaskan Klee Kai
+Hungarian Vizsla | vizsla
+Hungarian Puli | puli
+German Shorthaired Pointer
+German Wirehaired Pointer
+German Pinscher
+German Spitz
+English Setter
+English Pointer
+English Foxhound
+American Foxhound
+English Toy Spaniel
+English Mastiff | mastiff
+Old English Sheepdog
+Irish Red and White Setter
+Scottish Deerhound
+Welsh Sheepdog
+Bavarian Mountain Hound
+Black Russian Terrier
+Russian Toy
+Caucasian Shepherd
+Central Asian Shepherd
+Anatolian Shepherd
+Kangal
+Belgian Tervuren
+Belgian Sheepdog | groenendael
+Belgian Laekenois
+Dutch Shepherd
+Swiss Mountain Dog | greater swiss mountain dog
+Appenzeller Sennenhund
+Entlebucher Mountain Dog
+Tosa
+Shikoku
+Kai Ken
+Hokkaido
+Kishu
+Formosan Mountain Dog
+Greenland Dog
+
+[Not accepted]
+Poodle
+Beagle
+Golden Retriever
+
+# QUESTION
+pool: unlimited
+category: brands
+prompt: Name a brand of bike, e-bike, scooter, or skateboard
+note: Companies that make bicycles, e-bikes, kick or electric scooters, skateboards or longboards.
+
+[One in a Krillion]
+Penny Board | penny
+
+[Too Clever]
+Peloton
+Harley-Davidson | harley
+Vespa
+Tony Hawk
+
+[Plankton]
+Schwinn
+Huffy
+Razor
+Trek
+Specialized
+
+[Schooler]
+Mongoose
+Cannondale
+Giant
+GT | gt bikes
+Diamondback
+Kent
+Radio Flyer
+Segway | ninebot | segway ninebot
+Hover-1 | hover 1
+Jetson
+Gotrax
+Lime
+Bird
+Santa Cruz | santa cruz skateboards | santa cruz bicycles
+Rad Power Bikes | rad power | rad
+Aventon
+Lectric | lectric ebikes
+Super73 | super 73
+Haro
+Strider
+Roadmaster
+
+[Rare]
+Kona
+Scott
+Bianchi
+Cervélo | cervelo
+Pinarello
+Colnago
+Felt
+Fuji
+Raleigh
+Brompton
+Electra
+Yeti | yeti cycles
+Marin
+Redline
+Xiaomi
+VanMoof
+Enjoi
+Powell Peralta | powell
+Sector 9
+Landyachtz
+Boosted
+Onewheel | future motion
+
+Element
+Woom
+Globber
+Micro | micro kickboard
+Madd Gear | mgp
+
+[Deep Cut]
+Kink
+Cult
+Sunday
+Fit | fit bike co
+Envy
+Lucky Scooters | lucky
+Fuzion
+Hudora
+Apollo
+Unagi
+Hiboy
+Cowboy
+Juiced
+Ride1Up
+Velotric
+Heybike
+Jasion
+Tern
+Riese & Müller | riese and muller
+Gazelle
+Polygon
+Look
+Ridley
+Cube
+Focus
+Merida
+Canyon
+BMC
+Orbea
+Norco
+Rocky Mountain
+Commencal
+Transition
+Evil | evil bikes
+Pivot
+Ibis
+Salsa
+Surly
+Girl
+Chocolate
+Blind
+Almost
+Plan B
+Baker
+Zero
+Primitive
+Arbor
+Globe
+Loaded
+Evolve
+Krown
+Mindless
+Magneto
+
+[Not accepted]
+Nike
+Honda
+Tesla
+
+# QUESTION
+pool: unlimited
+category: brands
+prompt: Name a brand of canned food, soup, pasta, pasta sauce, or instant noodles
+note: Grocery brands known for these foods (Campbell's, Barilla, Ragu, Maruchan).
+
+[One in a Krillion]
+Ro-Tel | rotel
+
+[Too Clever]
+Spam
+Kraft Mac & Cheese | kraft mac and cheese | kraft dinner
+SpaghettiOs | spaghetti-os
+Chef Boyardee
+
+[Plankton]
+Campbell's | campbells | campbell
+Barilla
+Ragu | ragú
+Prego
+Maruchan
+
+[Schooler]
+Progresso
+Rao's | raos
+Bertolli
+Classico
+Newman's Own
+Hunt's | hunts
+Del Monte
+Green Giant
+Libby's
+Dole
+Bush's | bush's beans
+Hormel
+Annie's
+Kraft
+Velveeta
+Hamburger Helper
+Rice-A-Roni | rice a roni
+Knorr
+Lipton
+Swanson
+Old El Paso
+Goya
+StarKist
+Bumble Bee
+Chicken of the Sea
+Nissin | cup noodles | cup of noodles
+Top Ramen
+Samyang | buldak
+Nongshim | shin ramyun
+Indomie
+
+[Rare]
+Pacific Foods | pacific
+Wolfgang Puck
+Manwich
+Skyline Chili
+Wolf Brand Chili
+College Inn
+Better Than Bouillon
+San Giorgio
+American Beauty
+Skinner
+Garofalo
+Carbone
+Victoria
+Michael's of Brooklyn
+Red Gold
+S&W
+Allens
+Glory Foods
+Margaret Holmes
+Trappey's
+Furmano's
+Tuttorosso
+Kitchen Basics
+Myojo
+Lucky Me
+Koka
+Immi
+Mike's Mighty Good
+Hy-Vee
+Food Club
+Signature Select
+Market Pantry
+Amy's
+Healthy Choice
+Muir Glen
+Van Camp's
+Dinty Moore
+Ortega
+La Costeña
+Contadina
+[Deep Cut]
+Cento
+De Cecco
+Ronzoni
+Mueller's | muellers
+Creamette
+Banza
+Rana | giovanni rana
+Buitoni
+Colavita
+Mezzetta
+Ocean Spray
+Carnation
+Eagle Brand
+Maggi
+Lee Kum Kee
+Kikkoman
+Ottogi
+Paldo
+Mama | mama noodles
+Sapporo Ichiban
+Kraft Easy Mac | easy mac
+Stouffer's | stouffers
+Lean Cuisine
+Marie Callender's
+Kirkland | kirkland signature
+Great Value
+Good & Gather
+365 | whole foods 365
+Trader Joe's
+Kroger brand | kroger
+H-E-B
+Publix
+
+[Not accepted]
+Doritos
+Oreo
+Coca-Cola
+
+# QUESTION
+pool: unlimited
+category: brands
+prompt: Name a brand of water bottle, tumbler, cooler, or lunchbox
+note: Brands known for reusable bottles, insulated cups, coolers or lunch boxes and bags.
+
+[One in a Krillion]
+Klean Kanteen
+
+[Too Clever]
+Stanley Quencher | quencher
+Stanley cup
+Brita
+LifeStraw
+
+[Plankton]
+Stanley
+Yeti
+Hydro Flask | hydroflask | hydro
+Owala
+Contigo
+
+[Schooler]
+CamelBak | camelbak
+Nalgene
+S'well | swell
+Simple Modern
+Thermos
+Igloo
+Coleman
+RTIC
+BruMate
+Takeya
+Tervis
+Iron Flask
+Corkcicle
+Zojirushi
+Tupperware
+Rubbermaid
+Bentgo
+PackIt
+Ozark Trail
+L.L.Bean | ll bean
+Pottery Barn Kids | pottery barn
+Lands' End | lands end
+JanSport
+
+[Rare]
+Hidrate Spark
+Larq
+Air Up | air up
+Ello
+Bubba
+Polar Bottle
+Lifefactory
+Swig | swig life
+Hydrojug
+Bkr
+Cirkul
+Yeti Rambler | rambler
+[Deep Cut]
+Pelican
+Engel
+Grizzly
+Orca
+Magellan
+Arctic Zone
+Lunchskins
+Built NY
+Thermos Funtainer | funtainer
+Skip Hop
+Yumbox
+OmieBox
+Sistema
+PlanetBox
+Laken
+Sigg
+Gatorade | gatorade bottle
+OtterBox | otterbox cooler
+Hydro Cell
+Elemental
+Mira
+Zulu
+Embrava
+Hydaway
+Starbucks tumbler | starbucks
+Ember
+Fellow
+Miir
+Asobu
+Reduce
+Healthy Human
+ThermoFlask
+Pyrex
+Glasslock
+Wildkin
+Fenrici
+Ecolunchbox
+Stasher
+Zip Top
+Ziploc
+
+[Not accepted]
+Dasani
+Aquafina
+Fiji
+
+# QUESTION
+pool: unlimited
+category: movies-tv
+prompt: Name a Star Wars movie, TV series, or special (through 2025)
+note: Official Star Wars films, live-action and animated series, and specials, including LEGO Star Wars.
+
+[One in a Krillion]
+Star Wars Holiday Special | holiday special
+
+[Too Clever]
+The Clone Wars (2008 film) | clone wars movie
+LEGO Star Wars | lego star wars movie
+
+[Plankton]
+A New Hope | star wars episode iv | episode 4 | star wars 1977 | star wars
+The Empire Strikes Back | empire strikes back | episode 5
+Return of the Jedi | episode 6
+The Mandalorian | mandalorian
+The Phantom Menace | episode 1
+
+[Schooler]
+Attack of the Clones | episode 2
+Revenge of the Sith | episode 3
+The Force Awakens | episode 7
+The Last Jedi | episode 8
+The Rise of Skywalker | episode 9
+Rogue One | rogue one: a star wars story
+Solo | solo: a star wars story
+The Clone Wars | star wars: the clone wars | clone wars
+Andor
+Ahsoka
+The Book of Boba Fett | book of boba fett
+Obi-Wan Kenobi | obi wan kenobi
+The Bad Batch | bad batch
+Star Wars Rebels | rebels
+
+[Rare]
+Skeleton Crew | star wars: skeleton crew
+The Acolyte | acolyte
+Star Wars Resistance | resistance
+Star Wars: Visions | visions
+Tales of the Jedi
+Tales of the Empire
+Tales of the Underworld
+Star Wars: Clone Wars (2003) | clone wars 2003 | genndy clone wars
+Young Jedi Adventures | star wars: young jedi adventures
+Star Wars: Forces of Destiny | forces of destiny
+Star Wars Galaxy of Adventures | galaxy of adventures
+LEGO Star Wars: The Freemaker Adventures | freemaker adventures
+LEGO Star Wars: All-Stars
+LEGO Star Wars Holiday Special
+LEGO Star Wars: Rebuild the Galaxy | rebuild the galaxy
+LEGO Star Wars: Terrifying Tales
+LEGO Star Wars: Summer Vacation
+LEGO Star Wars: The Yoda Chronicles | yoda chronicles
+LEGO Star Wars: Droid Tales | droid tales
+LEGO Star Wars: The Padawan Menace | padawan menace
+LEGO Star Wars: The Empire Strikes Out
+LEGO Star Wars: The Resistance Rises
+LEGO Star Wars: The New Yoda Chronicles | new yoda chronicles
+LEGO Star Wars: Revenge of the Brick | revenge of the brick
+Caravan of Courage: An Ewok Adventure | caravan of courage | an ewok adventure
+Ewoks: The Battle for Endor | battle for endor
+Star Wars: Droids | droids
+Star Wars: Ewoks | ewoks
+Star Wars Blips
+
+[Not accepted]
+Avatar
+Guardians of the Galaxy
+Spaceballs
+Star Trek
+
+# QUESTION
+pool: unlimited
+category: sports
+prompt: Name a part or area of a basketball court, football field, or baseball field
+note: Named lines, zones and fixtures of the three playing areas (end zone, paint, pitcher's mound).
+
+[One in a Krillion]
+Coffin corner
+
+[Too Clever]
+Green Monster
+Ivy | wrigley ivy
+Pesky Pole
+
+[Plankton]
+End zone
+Home plate
+Hoop | basket | rim
+Three-point line | 3-point line | three point line
+Pitcher's mound | mound
+
+[Schooler]
+Free-throw line | free throw line | foul line
+Paint | the paint | key | lane
+Half-court line | half court | midcourt
+Baseline
+Sideline | sidelines
+Backboard
+Net
+Goal line
+Goalposts | goal post | uprights
+Yard lines | yard line
+50-yard line | fifty yard line | midfield
+Hash marks | hashes
+Red zone
+First base
+Second base
+Third base
+Infield
+Outfield
+Dugout
+Bullpen
+Batter's box
+On-deck circle
+Foul pole
+Warning track
+Bases | base paths
+Shot clock
+Bench | team bench
+Scoreboard
+Bleachers | stands
+
+[Rare]
+Center circle | center court | jump circle
+Restricted area | charge circle
+Elbow
+Block | low block
+Wing
+Corner | corner three
+Top of the key
+Free-throw lane | lane line
+Scorer's table
+Crossbar
+Pylon | pylons
+End line
+Line of scrimmage
+Neutral zone
+Coaching box
+Team box
+Pocket | the pocket
+Flat | flats
+Slot
+Backfield
+Secondary
+Gridiron
+Diamond
+Foul territory
+Fair territory
+Coach's box | coaches box
+Backstop
+Outfield wall | fence
+Rubber | pitching rubber
+Batter's eye
+Infield grass
+Infield dirt
+Left field
+Center field
+Right field
+Gap | power alley
+Home run porch | short porch
+Hardwood | court
+Turf | field turf
+Grass
+
+[Deep Cut]
+Free-throw circle
+Two-point line
+Chains | first down chains | sticks
+Batting cage
+Pitcher's plate
+Catcher's box
+Cutouts | base cutouts
+Press box
+Substitution box
+Out of bounds
+
+[Not accepted]
+Penalty box
+Crease
+Goal crease
+
+# QUESTION
+pool: unlimited
+category: science
+prompt: Name a scientific or measuring instrument ending in "-scope" or "-meter"
+note: Real instruments whose names end in -scope or -meter (microscope, thermometer, speedometer).
+
+[One in a Krillion]
+Sphygmomanometer
+
+[Too Clever]
+Horoscope
+Kaleidoscope
+Parking meter
+Gas meter
+Water meter
+
+[Plankton]
+Microscope
+Telescope
+Thermometer
+Speedometer
+Stethoscope
+
+[Schooler]
+Periscope
+Barometer
+Odometer
+Pedometer
+Altimeter
+Voltmeter
+Ammeter
+Multimeter
+Gyroscope
+Anemometer
+Hygrometer
+Seismometer
+Tachometer
+Oscilloscope
+Endoscope
+Spectrometer
+Accelerometer
+Electric meter
+pH meter
+Light meter
+
+[Rare]
+Ohmmeter
+Wattmeter
+Galvanometer
+Manometer
+Hydrometer
+Photometer
+Magnetometer
+Spectroscope
+Electroscope
+Otoscope
+Ophthalmoscope
+Laryngoscope
+Colonoscope
+Arthroscope
+Bronchoscope
+Fluoroscope
+Stroboscope
+Spotting scope
+Borescope
+Stereoscope
+Radiometer
+Calorimeter
+Densitometer
+Viscometer
+Refractometer
+Polarimeter
+Interferometer
+Dosimeter
+Actinometer
+Pyrometer
+Pyranometer
+Psychrometer
+Ceilometer
+Taximeter
+Glucometer | glucose meter
+Peak flow meter
+Spirometer
+Audiometer
+Pulse oximeter | oximeter
+Sound level meter | decibel meter
+Micrometer
+Extensometer
+Tensiometer
+Durometer
+Flowmeter | flow meter
+Clinometer | inclinometer
+Goniometer
+Planimeter
+
+[Deep Cut]
+Chronometer
+Cystoscope
+Gastroscope
+Proctoscope
+Hysteroscope
+Laparoscope
+Sigmoidoscope
+Colposcope
+Dermatoscope
+Retinoscope
+Keratometer
+Tonometer
+Pachymeter
+Ergometer
+Dynamometer
+Gaussmeter
+Electrometer
+Coulometer
+Fluxmeter
+Wavemeter
+Frequency meter
+Eudiometer
+Evaporimeter
+Atmometer
+Nephelometer
+Turbidimeter
+Colorimeter
+Spectrophotometer
+Thermohygrometer
+Bolometer
+Radar altimeter
+Variometer
+Riflescope | rifle scope
+Udometer
+
+[Not accepted]
+Ruler
+Scale
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name a part of the mouth or throat
+note: Teeth, gums, tongue, palate, tonsils and other named parts of the mouth and throat.
+
+[One in a Krillion]
+Philtrum
+
+[Too Clever]
+Braces
+Retainer
+Cavity | cavities
+Adam's apple | adams apple
+
+[Plankton]
+Teeth | tooth
+Tongue
+Lips | lip
+Gums | gum
+Tonsils | tonsil
+
+[Schooler]
+Uvula | dangly thing
+Roof of the mouth | palate
+Molars | molar
+Incisors | incisor
+Canines | canine | fangs | eye teeth
+Wisdom teeth | wisdom tooth
+Baby teeth | baby tooth
+Premolars | premolar | bicuspids
+Front teeth
+Jaw | jawbone
+Throat
+Esophagus | food pipe
+Windpipe | trachea
+Voice box | larynx
+Vocal cords | vocal folds
+Saliva | spit
+Cheeks | cheek
+Enamel
+Taste buds
+
+[Rare]
+Hard palate
+Soft palate | velum
+Pharynx
+Epiglottis
+Adenoids
+Salivary glands | salivary gland
+Frenulum | frenum
+Dentin | dentine
+Pulp | dental pulp
+Root | tooth root
+Crown | tooth crown
+Nerve | tooth nerve
+Gum line | gumline
+Mandible | lower jaw
+Maxilla | upper jaw
+Jaw joint | tmj | temporomandibular joint
+Floor of the mouth
+Inner cheek | buccal mucosa
+Corner of the mouth
+Upper lip
+Lower lip
+Cupid's bow
+Vermilion border
+Papillae
+Lingual tonsils
+Palatine tonsils
+Tonsil stones | tonsilloliths
+[Deep Cut]
+Nasopharynx
+Oropharynx
+Laryngopharynx | hypopharynx
+Glottis
+Thyroid cartilage
+Cricoid cartilage
+Hyoid bone
+Parotid gland
+Submandibular gland
+Sublingual gland
+Periodontal ligament
+Cementum
+Alveolar bone
+Cusp | cusps
+Mucous membrane | mucosa
+Lingual frenulum
+Labial frenulum
+Torus palatinus
+Rugae
+
+[Not accepted]
+Nose
+Ears
+Eyes
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a job in a factory, warehouse, or distribution center
+note: Jobs on a factory floor or in a warehouse (forklift driver, picker, assembler, quality inspector).
+
+[One in a Krillion]
+Millwright
+
+[Too Clever]
+Robot | robots
+Oompa Loompa | oompa loompas
+Willy Wonka
+Santa's elves | elf
+
+[Plankton]
+Forklift driver | forklift operator
+Packer | packager
+Warehouse worker | warehouse associate
+Factory worker | line worker | assembly line worker
+Supervisor | shift supervisor
+
+[Schooler]
+Picker | order picker | order selector
+Assembler
+Machine operator | operator
+Quality inspector | quality control | qc inspector
+Shipping clerk | shipper
+Receiving clerk | receiver
+Inventory clerk | inventory specialist
+Stocker
+Loader | unloader
+Material handler
+Truck driver
+Dispatcher
+Plant manager
+Warehouse manager
+Foreman | forewoman
+Maintenance technician | maintenance mechanic
+Welder
+Machinist
+Electrician
+Janitor | custodian
+Security guard
+Sorter
+Labeler
+Production worker
+Team lead | team leader
+Engineer
+
+[Rare]
+CNC operator | cnc machinist
+Press operator
+Line lead
+Line supervisor
+Production supervisor
+Production planner | scheduler
+Logistics coordinator
+Logistics manager
+Supply chain manager
+Operations manager
+Safety officer | safety manager | ehs
+Quality engineer
+Process engineer
+Industrial engineer
+Manufacturing engineer
+Mechanical engineer
+Chemist | lab technician
+Painter | spray painter
+Sander
+Polisher
+Tool and die maker
+Mold maker
+Fabricator
+Sheet metal worker
+Solderer
+Electronics assembler
+Packaging operator
+Palletizer
+Reach truck operator
+Order filler
+Cycle counter
+Returns processor
+Yard driver | yard jockey | spotter
+Dock worker
+Freight handler
+Lumper
+Crane operator
+Boiler operator
+Steelworker
+Autoworker
+Seamstress | sewing machine operator
+Butcher | meat packer
+Food processor
+Bottler
+Brewer
+Baker
+Inspector
+Tester
+Repair technician
+Robot technician | robotics technician
+Automation technician
+HR coordinator | hr
+Trainer
+Temp worker | temp
+Seasonal worker
+Amazon worker | amazon associate
+Delivery driver
+Courier
+
+[Not accepted]
+Teacher
+Doctor
+
+# QUESTION
+pool: unlimited
+category: nature
+prompt: Name something you'd find in a backyard garden
+note: Plants, animals, tools and features of a home garden (tomatoes, worms, hose, scarecrow).
+
+[One in a Krillion]
+Gazing ball
+
+[Too Clever]
+Garden gnome | gnome | gnomes
+Weeds | weed
+Mud
+
+[Plankton]
+Flowers | flower
+Vegetables | veggies
+Dirt | soil
+Worms | worm | earthworms
+Tomatoes | tomato
+
+[Schooler]
+Roses | rose
+Sunflowers | sunflower
+Tulips
+Daisies
+Herbs
+Carrots
+Lettuce
+Peppers
+Cucumbers
+Zucchini
+Pumpkins
+Strawberries
+Beans | green beans
+Peas
+Corn
+Potatoes
+Onions
+Squash
+Bees | bee
+Butterflies | butterfly
+Ladybugs | ladybug
+Birds
+Rabbits | bunny
+Squirrels
+Snails | snail
+Slugs
+Ants
+Hose | garden hose
+Watering can
+Shovel
+Rake
+Hoe
+Trowel
+Wheelbarrow
+Gloves | gardening gloves
+Seeds
+Fence
+Scarecrow
+Bird feeder
+Birdbath | bird bath
+Fountain
+Bench
+Path | stepping stones
+Fertilizer
+Compost | compost bin
+Mulch
+Sprinkler
+Pots | flower pots | planters
+Raised beds | raised garden bed
+Trellis
+Greenhouse
+Shed
+Grass | lawn
+
+[Rare]
+Basil
+Mint
+Rosemary
+Parsley
+Lavender
+Marigolds
+Petunias
+Zinnias
+Hydrangeas
+Lilies
+Daffodils
+Peonies
+Dahlias
+Irises
+Hostas
+Ferns
+Shrubs | bushes
+Vines
+Tree | fruit tree
+Apple tree
+Lemon tree
+Blueberry bush
+Raspberries
+Grapes | grapevine
+Kale
+Spinach
+Radishes
+Beets
+Garlic
+Eggplant
+Okra
+Watermelon
+Cantaloupe
+Broccoli
+Cabbage
+Cauliflower
+Brussels sprouts
+Asparagus
+Rhubarb
+Sweet potatoes
+[Deep Cut]
+Hummingbirds
+Moths
+Caterpillars
+Aphids
+Grasshoppers
+Beetles
+Spiders | spider webs
+Toads | frogs
+Garter snake | snake
+Moles
+Gophers
+Deer
+Chickens | chicken coop
+Bird house | birdhouse
+Wind chimes
+Garden lights | solar lights
+Arbor
+Pergola
+Gazebo
+Pond | koi pond
+Rocks | stones
+Gravel
+Edging
+Tomato cage
+Stakes | garden stakes
+Twine
+Pruning shears | pruners
+Hedge trimmer
+Lawn mower
+Weed whacker | weed eater | string trimmer
+Leaf blower
+Kneeling pad
+Rain barrel
+Drip irrigation
+Seed packets
+Seedlings
+Potting soil
+Peat moss
+Manure
+Pesticide | bug spray
+Netting | bird netting
+Row cover
+Cold frame
+Hanging baskets
+Window box
+Garden sign
+Statue | garden statue
+Pinwheel
+Flamingo | plastic flamingo
+Sundial
+
+[Not accepted]
+Couch
+Television
+
+# QUESTION
+pool: unlimited
+category: sports
+prompt: Name a sport or event that's been in the Summer or Winter X Games
+note: X Games disciplines and events from any year, from skateboard vert to snowmobile freestyle.
+
+[One in a Krillion]
+Street luge
+
+[Too Clever]
+Skateboarding | skateboard
+Snowboarding | snowboard
+BMX
+Skiing | freeskiing
+
+[Plankton]
+Skateboard Vert | vert
+Skateboard Street | street skating
+Skateboard Park
+BMX Vert
+Moto X | motocross
+
+[Schooler]
+BMX Street
+BMX Park
+BMX Big Air | big air
+BMX Dirt | dirt jumping
+Skateboard Big Air | mega ramp
+Snowboard Superpipe | superpipe | halfpipe
+Snowboard Slopestyle | slopestyle
+Snowboard Big Air
+Snowboard Cross | snowboarder x | boardercross
+Ski Superpipe
+Ski Slopestyle
+Ski Big Air
+Skier X | ski cross
+Moto X Freestyle | freestyle motocross
+Moto X Best Trick | best trick
+Moto X Step Up | step up
+Rally car racing | rallycross | rally
+Snowmobile Freestyle | snowmobile
+Snocross
+
+[Rare]
+Moto X Racing
+Moto X Best Whip | best whip
+Moto X QuarterPipe
+Speed and Style
+Real Street | real ski | real snow | real moto
+Knuckle Huck
+Monoskier X | mono skier x
+Adaptive snowboard
+Snowmobile Best Trick
+Snowmobile HillCross
+[Deep Cut]
+Ultracross
+Mountain bike slopestyle
+Downhill BMX
+Inline skating | aggressive inline | inline vert
+Wakeboarding
+Barefoot water skiing | barefoot jumping
+Skysurfing
+Bungee jumping
+Sport climbing | climbing
+Kiteskiing
+Eco-Challenge
+Speed skiing
+Ice climbing
+Snow mountain bike racing
+Snowboard Rail Jam | rail jam
+Skateboard Vert Doubles
+Skateboard Game of SKATE | game of skate
+Enduro X
+Off-road truck racing | stadium super trucks
+Gymkhana
+Freestyle skiing
+Mountain biking
+Dual slalom
+Biker cross
+Downhill mountain biking
+
+[Not accepted]
+Basketball
+Golf
+Football
+
+# QUESTION
+pool: unlimited
+category: games-toys
+prompt: Name an activity you might do at summer camp
+note: Games, sports, crafts and traditions at day or sleepaway camp.
+
+[One in a Krillion]
+Gaga ball | gaga
+
+[Too Clever]
+Homesickness | being homesick
+Writing letters home | letters
+Pranks | pranking counselors | raids
+Cabin inspection | cabin cleanup
+
+[Plankton]
+Swimming
+Campfire | campfires
+S'mores | smores
+Hiking
+Arts and crafts | crafts
+
+[Schooler]
+Canoeing
+Kayaking
+Archery
+Fishing
+Ghost stories | scary stories
+Capture the flag
+Friendship bracelets | bracelets | lanyards | lanyard
+Tie-dye | tie dye
+Sing-alongs | campfire songs | singing
+Zip line | zipline
+Ropes course | high ropes
+Rock climbing | climbing wall
+Horseback riding
+Talent show
+Color war | color wars
+Scavenger hunt
+Tag
+Kickball
+Dodgeball
+Soccer
+Basketball
+Volleyball
+Tennis
+Sailing
+Paddle boarding
+Tubing
+Stargazing
+Camping | sleeping in tents
+Nature walk
+Dance | camp dance
+Water balloon fight
+Tug of war
+Bonfire
+
+[Rare]
+Rowing
+Water skiing
+Wakeboarding
+Swim test
+Polar bear swim
+Blob | the blob
+Water trampoline
+Lake jumping
+Four square
+Ultimate frisbee
+Frisbee
+Flag football
+Softball
+Baseball
+Lacrosse
+Field hockey
+Ping pong | table tennis
+Tetherball
+Pickleball
+Mini golf
+Gymnastics
+Cheerleading
+Yoga
+Martial arts | karate
+Fencing
+Riflery | rifle range | shooting
+Mountain biking
+Biking
+Orienteering
+Geocaching
+Survival skills | wilderness skills
+Fire building
+Knot tying
+Compass reading
+Canoe trip
+Overnight trip | overnight
+Backpacking
+[Deep Cut]
+Pottery
+Painting
+Woodworking
+Leatherworking
+Beading
+Jewelry making
+Candle making
+Sand art
+God's eyes
+Photography
+Drama | theater | play
+Music | guitar lessons
+Cooking
+Baking
+Gardening
+Animal care | farm chores
+Nature study
+Bug collecting
+Birdwatching
+Science experiments
+Rocketry | model rockets
+Robotics
+Coding
+Lip sync battle
+Air band
+Skit night | skits
+Karaoke
+Movie night
+Carnival
+Olympics | camp olympics
+Chubby bunny
+Midnight swim
+Flashlight tag
+Night games
+Manhunt
+Kick the can
+Red rover
+Sardines
+Mail call
+Chapel | vespers
+Flag raising
+
+[Not accepted]
+Homework
+Video games
+
+# QUESTION
+pool: unlimited
+category: games-toys
+prompt: Name something people do at a sleepover
+note: Games, snacks, traditions and activities at a sleepover or slumber party.
+
+[One in a Krillion]
+Light as a feather, stiff as a board | light as a feather
+
+[Too Clever]
+Sleep | sleeping
+Stay up all night | all-nighter
+Prank calls | prank calling
+Bloody Mary
+
+[Plankton]
+Watch movies | movies | movie
+Truth or dare
+Pillow fight
+Eat snacks | snacks
+Play games | games
+
+[Schooler]
+Video games | play video games
+Popcorn
+Pizza
+Gossip | talk
+Tell secrets | secrets
+Scary stories | ghost stories
+Makeup | do makeovers | makeover
+Paint nails | nail painting
+Face masks
+Board games
+Card games
+Never Have I Ever
+Would You Rather
+Two truths and a lie
+Charades
+Hide and seek
+Sardines
+Karaoke | sing
+Dance party | dance
+Build a fort | blanket fort | fort
+Sleeping bags
+Prank | pranks
+Baking | bake cookies
+Make s'mores | s'mores
+Order takeout | takeout
+TikToks | make tiktoks
+Facetime | call friends
+Hair braiding | do hair
+Scavenger hunt
+Ouija board
+MASH
+Watch YouTube
+Scroll on phones | phones
+Stay up late
+Midnight snack
+Pancakes | breakfast
+Pajamas | pjs
+
+[Rare]
+Movie marathon
+Horror movies
+Rom-coms
+Netflix
+Disney movies
+Mario Kart
+Just Dance
+Smash Bros
+Minecraft
+Fortnite
+Among Us
+Uno
+Monopoly
+Twister
+Jenga
+Heads Up
+Paranoia
+Hot seat
+Mafia | werewolf
+Murder in the dark
+Flashlight tag
+Ding dong ditch
+TP a house | toilet paper a house
+Draw on a sleeping friend | shaving cream prank
+[Deep Cut]
+Ice bucket challenge
+Spin the bottle
+Seven minutes in heaven
+Kiss Marry Kill
+Cards Against Humanity
+Dye hair | hair dye
+Séance | seance
+Taste test challenge
+Blindfold makeup challenge
+Whisper challenge
+Chubby bunny
+Ice cream sundaes | sundae bar
+Cookie decorating
+Cupcakes
+Brownies
+Candy
+Chips
+Soda
+Hot chocolate
+Ramen
+Mac and cheese
+Tacos
+Friendship bracelets
+Diary | journaling
+Read magazines
+Quizzes | buzzfeed quizzes
+Personality tests
+Fortune teller | cootie catcher
+Zodiac signs | astrology
+Tarot cards
+Prank texts
+Group chat
+Selfies | photo shoot
+Fashion show
+Tie-dye
+Crafts
+Coloring
+Puzzles
+Legos
+
+[Not accepted]
+Homework
+Work
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a class or subject you can take in a US high school
+note: Common high school courses and subjects, including electives, AP classes and languages.
+
+[One in a Krillion]
+Latin
+
+[Too Clever]
+Lunch
+Study hall
+Homeroom
+Detention
+
+[Plankton]
+Math | mathematics
+English | english language arts | ela
+Science
+History
+PE | gym | physical education
+
+[Schooler]
+Algebra | algebra 1 | algebra 2
+Geometry
+Biology | bio
+Chemistry | chem
+Physics
+Calculus | ap calculus | calc
+Pre-calculus | precalc | pre-calc
+Statistics | stats | ap stats
+Trigonometry | trig
+US History | american history | apush
+World History
+Government | civics | us government
+Economics | econ
+Psychology | psych
+Spanish
+French
+German
+Chinese | mandarin
+Japanese
+Art
+Band
+Choir | chorus
+Orchestra
+Drama | theater | theatre
+Health
+Computer science | coding | ap computer science
+Creative writing
+Literature
+Journalism
+Yearbook
+Earth science
+Environmental science | apes
+Anatomy | anatomy and physiology
+Geography | human geography | ap human geography
+Speech | public speaking
+Debate
+Photography
+Ceramics | pottery
+Culinary arts | cooking | home economics | home ec
+Driver's ed | drivers education
+Woodshop | shop | wood shop
+Personal finance
+Business
+
+[Rare]
+Sociology
+Philosophy
+Forensics
+Astronomy
+Marine biology
+Zoology
+Botany
+Geology
+Engineering
+Robotics
+Physical science
+Integrated math
+AP Seminar
+AP Research
+European History | ap euro
+AP Art History | art history
+African American Studies
+Ethnic studies
+Women's studies
+Comparative government
+Law | criminal justice
+Accounting
+Marketing
+Entrepreneurship
+Computer applications | keyboarding | typing
+Graphic design
+Web design
+Video production | broadcasting
+Film studies
+Music theory
+Guitar
+Piano
+Jazz band
+Marching band
+Dance
+Painting
+Drawing
+Sculpture
+Digital art
+Fashion design
+Interior design
+Architecture
+Auto shop | automotive
+Metal shop | welding
+Agriculture | ag | ffa
+Horticulture
+Animal science
+Veterinary science
+Health science
+Medical terminology
+Nursing | cna
+Sports medicine
+Weight training | weightlifting
+Strength and conditioning
+Yoga
+Child development
+Family and consumer science | fcs
+Nutrition
+ROTC | jrotc
+Leadership | student government
+Peer tutoring
+AVID
+ESL | english as a second language
+Italian
+Portuguese
+Arabic
+Korean
+Russian
+ASL | american sign language
+Greek
+Hebrew
+[Deep Cut]
+Calculus BC
+Multivariable calculus
+Linear algebra
+Discrete math
+Computer programming
+Cybersecurity
+Information technology
+World religions
+Mythology
+Shakespeare
+British literature
+American literature
+World literature
+AP Language | ap lang
+AP Literature | ap lit
+Composition
+Reading
+Sex education | sex ed
+
+[Not accepted]
+Kindergarten
+Recess
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word that means "nice" or "kind"
+note: Words for a kind, friendly or generous person or act (sweet, caring, thoughtful).
+
+[One in a Krillion]
+Benevolent
+
+[Too Clever]
+Nice guy
+Angel | angelic
+Saint | saintly
+Teddy bear
+Sweetheart
+
+[Plankton]
+Kind
+Nice
+Sweet
+Friendly
+Caring
+
+[Schooler]
+Thoughtful
+Generous
+Gentle
+Helpful
+Polite
+Considerate
+Loving
+Warm
+Pleasant
+Lovely
+Good
+Gracious
+Compassionate
+Respectful
+Sympathetic
+Understanding
+Supportive
+Patient
+Wholesome
+Cheerful
+Charming
+Courteous
+Big-hearted | bighearted
+
+[Rare]
+Kindhearted | kind-hearted
+Warmhearted | warm-hearted
+Softhearted | soft-hearted
+Goodhearted | good-hearted
+Tenderhearted
+Empathetic
+Benign
+Amiable
+Affable
+Cordial
+Genial
+Amicable
+Agreeable
+Obliging
+Accommodating
+Hospitable
+Welcoming
+Neighborly
+[Deep Cut]
+Selfless
+Unselfish
+Altruistic
+Charitable
+Giving
+Humane
+Merciful
+Forgiving
+Tolerant
+Tender
+Mild
+Mellow
+Easygoing | easy-going
+Sociable
+Outgoing
+Approachable
+Personable
+Likable | likeable
+Lovable
+Delightful
+Decent
+Good-natured
+Sweet-natured
+Well-mannered
+Mannerly
+Civil
+Gallant
+Chivalrous
+Gentlemanly
+Ladylike
+Nurturing
+Motherly
+Fatherly
+Brotherly
+Sisterly
+Protective
+Good egg
+Peach | a peach
+Doll | a doll
+Gem | a gem
+Sweetie | sweetie pie
+Cinnamon roll
+Precious
+Heart of gold
+Golden retriever | golden retriever energy
+Solid
+Chill
+Cool
+
+[Not accepted]
+Mean
+Rude
+Cruel
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word that means "quiet" or "calm"
+note: Words for silence, stillness or a relaxed, peaceful state (silent, peaceful, chill).
+
+[One in a Krillion]
+Halcyon
+
+[Too Clever]
+Shh | shush | hush
+Mute button | mute
+Library voice
+Zen
+
+[Plankton]
+Silent
+Peaceful
+Relaxed
+Still
+Chill
+
+[Schooler]
+Calm
+Quiet
+Hushed
+Soft
+Muted
+Serene
+Tranquil
+Mellow
+Laid-back | laid back
+Easygoing | easy-going
+Soothing
+Gentle
+Low-key | low key
+Mild
+Relaxing
+Restful
+Sleepy
+Cozy
+Shy
+Reserved
+Speechless
+Wordless
+Noiseless
+Soundless
+Steady
+Composed
+Collected | cool and collected
+Cool | cool-headed
+
+[Rare]
+Placid
+Untroubled
+Unruffled
+Unflappable
+Even-tempered
+Level-headed
+Self-possessed
+Poised
+Content
+At ease
+At peace
+Settled
+Smooth
+Glassy
+Quiet as a mouse
+Lull
+Windless
+Motionless
+[Deep Cut]
+Hush-hush
+Mum
+Tight-lipped
+Taciturn
+Reticent
+Introverted | introvert
+Timid
+Meek
+Docile
+Subdued
+Faint
+Whispered | whispering
+Murmuring
+Inaudible
+Low
+Dead quiet | dead silent
+Stealthy
+Sneaky
+Unspoken
+Tacit
+Unbothered
+Vibing
+Sedate
+Pacific
+
+[Not accepted]
+Loud
+Noisy
+Wild
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word or slang term that means "cute"
+note: Words for something sweet, adorable or charming (adorable, precious, kawaii).
+
+[One in a Krillion]
+Twee
+
+[Too Clever]
+Aww | awww
+Uwu
+Baby
+Puppy | kitten
+
+[Plankton]
+Adorable
+Sweet
+Precious
+Pretty
+Lovely
+
+[Schooler]
+Cuddly
+Darling
+Kawaii
+Charming
+Endearing
+Lovable | loveable
+Delightful
+Pleasant
+Attractive
+Beautiful
+Gorgeous
+Handsome
+Fine
+Dainty
+Petite
+Little
+Tiny
+Fluffy
+Soft
+Squishy
+Chubby
+Cutie | cutie pie
+Smol
+Bubbly
+Bright-eyed
+Angelic
+Innocent
+
+[Rare]
+Cherubic
+Winsome
+Fetching
+Appealing
+Engaging
+Captivating
+Enchanting
+Bewitching
+Disarming
+Lovesome
+Comely
+Bonny | bonnie
+Fair
+Elfin
+Pixie-like | pixie
+Doll-like | dolly
+Babyish
+Childlike
+[Deep Cut]
+Cuddlesome
+Huggable
+Snuggly
+Squeezable
+Pinchable
+Teeny | teeny tiny
+Itty-bitty | itty bitty
+Wee
+Mini
+Cutesy | cutesie
+Cute as a button
+Sweet as pie
+Baby-faced
+Doe-eyed
+Rosy-cheeked
+Dimpled
+Perky
+Sparkly
+Pookie
+Cutie patootie
+Sweetie
+Adorbs | totes adorbs
+QT | kewt | kyoot
+Cupcake
+Peach
+Gem
+
+[Not accepted]
+Ugly
+Gross
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word that rhymes with "sky"
+note: Any real word whose last syllable rhymes with "sky" (fly, pie, goodbye, butterfly). Names don't count.
+
+[One in a Krillion]
+Lullaby | lullabye
+
+[Too Clever]
+Sky | skies
+I | eye | aye
+Pi
+Wi-Fi | wifi
+Sci-fi | scifi
+
+[Plankton]
+Fly
+Pie
+Bye | goodbye
+High | hi
+Why
+
+[Schooler]
+My
+Buy | by
+Cry
+Dry
+Try
+Tie
+Lie
+Die | dye
+Guy
+Shy
+Sigh
+Spy
+Fry
+Sly
+Thigh
+Rye | wry
+Ply
+Pry
+Sty
+Nigh
+Vie
+Ally
+Deny
+Rely
+Reply
+Apply
+Supply
+Comply
+Imply
+July
+Defy
+Butterfly
+Firefly
+Dragonfly
+Magpie
+Apple pie
+Hereby
+Nearby
+Standby
+Passerby
+Alibi
+Samurai
+Bonsai
+Thai
+Chai
+Tai
+Lye
+
+[Rare]
+Awry
+Belie
+Decry
+Descry
+Espy
+Outcry
+Shanghai
+Mai tai
+Dubai
+Mumbai
+Bye-bye | bye bye
+Hi-fi | hifi
+Lo-fi | lofi
+DIY
+FYI
+Stir-fry | stir fry
+French fry
+Small fry
+Deep fry
+Pigsty
+Mince pie
+Cow pie
+Pot pie
+Pork pie
+Cutie pie
+Black eye
+Bullseye | bull's eye
+Red-eye
+Evil eye
+Private eye
+Wise guy
+Fall guy
+Bad guy
+Good guy
+Tough guy
+Necktie
+Bow tie
+Hogtie
+Zip tie
+White lie
+Barfly
+Housefly
+Horsefly
+Gadfly
+Mayfly
+Botfly
+Sawfly
+Whitefly
+Blackfly
+Fruit fly
+Flyby
+[Deep Cut]
+Amplify
+Beautify
+Classify
+Clarify
+Glorify
+Gratify
+Horrify
+Identify
+Justify
+Magnify
+Modify
+Mystify
+Notify
+Purify
+Qualify
+Ratify
+Satisfy
+Simplify
+Specify
+Terrify
+Testify
+Unify
+Verify
+Electrify
+Personify
+Diversify
+Exemplify
+Intensify
+Solidify
+Certify
+Codify
+Dignify
+Edify
+Falsify
+Fortify
+Liquefy
+Mollify
+Nullify
+Pacify
+Petrify
+Rectify
+Signify
+Stupefy
+Typify
+Vilify
+Occupy
+Multiply
+Prophesy
+Underlie
+
+[Not accepted]
+Skin
+Skip
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something people pack in a carry-on bag for a flight
+note: Things travelers bring on board in a carry-on, backpack or personal item.
+
+[One in a Krillion]
+Compression socks
+
+[Too Clever]
+Emotional support animal | pet
+Snakes on a plane | snakes
+
+[Plankton]
+Phone | cell phone
+Headphones | earbuds | airpods
+Snacks
+Charger | phone charger
+Clothes | change of clothes
+
+[Schooler]
+Passport
+ID | driver's license
+Boarding pass | ticket
+Wallet
+Laptop
+Tablet | ipad
+Book | books
+Water bottle | empty water bottle
+Neck pillow | travel pillow | pillow
+Blanket
+Sweatshirt | hoodie | jacket
+Toothbrush
+Toothpaste
+Deodorant
+Medicine | medications | pills
+Makeup
+Hand sanitizer
+Tissues
+Sunglasses
+Glasses | contacts
+Keys
+Portable charger | power bank | battery pack
+Kindle | e-reader
+Magazine
+Gum
+Candy
+Sandwich
+Chips
+Granola bar
+Sleep mask | eye mask
+Earplugs
+Socks
+
+[Rare]
+Chapstick | lip balm
+Lotion
+Face wipes | wipes | wet wipes
+Mints
+Travel documents
+Visa
+Itinerary
+Pen
+Notebook | journal
+Crossword | puzzle book
+Cards | playing cards
+Nintendo Switch | switch
+Game console
+Camera
+Adapter | plug adapter | travel adapter
+Cables
+AirTag
+[Deep Cut]
+Jewelry
+Watch
+Hat
+Scarf
+Slippers
+Pajamas
+Underwear
+Swimsuit
+Face mask
+Toiletries | toiletry bag | dopp kit
+Travel shampoo | shampoo
+Toys
+Downloaded movies | movies
+3-1-1 bag | quart bag | liquids bag
+Hairbrush | comb
+Hair ties
+Razor
+Perfume | cologne
+Sunscreen
+Contact solution
+Retainer
+Inhaler
+EpiPen
+Insulin
+Prescriptions
+First aid kit | band-aids
+Ziploc bags | plastic bags
+Umbrella
+Coloring book
+Stuffed animal
+Diapers
+Baby wipes
+Formula
+Baby food
+Bottle
+Laptop charger
+Kindle charger
+Cash
+Credit card
+Souvenirs
+Gifts
+Lunch
+Fruit
+Instant oatmeal
+Tea bags
+Coffee
+
+[Not accepted]
+Knife
+Gun
+Fireworks
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something you'd find in a bedroom
+note: Furniture, bedding, decor, electronics and other things typically in a bedroom.
+
+[One in a Krillion]
+Canopy | bed canopy
+
+[Too Clever]
+Monster under the bed | monsters
+Dirty laundry pile | laundry pile
+Dust bunnies
+
+[Plankton]
+Bed
+Pillow | pillows
+Blanket | blankets
+Dresser
+Lamp
+
+[Schooler]
+Sheets | bed sheets
+Comforter | duvet
+Mattress
+Nightstand | bedside table | night table
+Closet
+Alarm clock | clock
+Mirror
+Desk
+Chair
+TV | television
+Phone charger | charger
+Rug | carpet
+Curtains | blinds
+Window
+Posters | poster
+Pictures | photos
+Stuffed animals | teddy bear | plushies
+Clothes
+Hangers
+Laundry basket | hamper
+Shoes
+Bookshelf | books
+Fan | ceiling fan
+Trash can
+Headboard
+Bunk bed
+Computer | laptop
+Video games
+Makeup | vanity
+
+[Rare]
+Bed frame
+Box spring
+Mattress topper
+Body pillow
+Throw pillows
+Quilt
+Electric blanket
+Weighted blanket
+Bed skirt
+Pillowcase
+Night light
+String lights | fairy lights | led lights
+Lava lamp
+Desk lamp
+Floor lamp
+Wardrobe | armoire
+Chest of drawers
+Vanity mirror
+Jewelry box
+Full-length mirror
+Shoe rack
+Coat rack
+Bench | bed bench
+[Deep Cut]
+Ottoman
+Bean bag
+Gaming chair
+Speaker | bluetooth speaker
+Record player
+Diary | journal
+Calendar
+Plants
+Candles
+Air purifier
+Humidifier
+Space heater
+White noise machine | sound machine
+Baby monitor
+Crib
+Toy box
+Trunk | hope chest
+Safe
+Piggy bank
+Trophies | medals
+Tapestry
+Vision board
+Bulletin board | corkboard
+Whiteboard
+Guitar
+Keyboard | piano
+Pet bed
+Fish tank
+Hamster cage
+Slippers
+Robe | bathrobe
+Pajamas
+Glasses case
+Retainer
+Water glass | water bottle
+Tissues
+Kindle
+Headphones
+Wi-Fi router
+Smart speaker | alexa
+Projector
+Window AC unit
+Radiator
+Closet organizer
+Under-bed storage
+Mini fridge
+
+[Not accepted]
+Stove
+Shower
+Toilet
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something you'd see at a parade
+note: People, vehicles, music and things you'd see at a parade (floats, marching bands, confetti).
+
+[One in a Krillion]
+Grand marshal
+
+[Too Clever]
+Rain on my parade | rain
+Macy's | macy's thanksgiving day parade
+Santa Claus | santa
+Snoopy balloon
+
+[Plankton]
+Floats | float
+Marching band | band
+Balloons | balloon | giant balloons
+Candy
+Confetti
+
+[Schooler]
+Flags | flag
+Crowds | crowd | spectators
+Clowns | clown
+Horses | horse
+Fire trucks | fire truck | fire engines
+Police | police cars | cops
+Drums | drummers
+Cheerleaders
+Dancers | dance troupes
+Baton twirlers | majorettes
+Banners | banner
+Streamers
+Beads | mardi gras beads
+Costumes
+Music
+Trumpets | horns
+Mascots | mascot
+Stilt walkers
+Bubbles
+Veterans
+Soldiers
+Boy Scouts | girl scouts | scouts
+Kids | children
+Strollers
+Vendors | food vendors
+Cotton candy
+Popcorn
+Hot dogs
+Lawn chairs | chairs
+Sidewalk | curb
+Barricades
+Motorcycles
+Classic cars | convertibles
+Tractors
+
+[Rare]
+Color guard
+Drum major
+Drumline
+Bagpipers | bagpipes
+Mariachi
+Dragon dance | lion dance
+Drag queens
+Rainbow flags
+Mardi Gras krewe | krewe
+Throws | doubloons
+Kings and queens | parade royalty
+Homecoming queen
+Beauty queens | pageant winners | miss america
+Politicians | mayor
+Celebrities
+TV cameras | news crews
+Announcers
+Shriners | shriner cars
+Unicyclists
+Jugglers
+Acrobats
+Fire breathers
+[Deep Cut]
+Puppets | giant puppets
+Inflatables
+Fireworks
+Noisemakers
+Whistles
+Sirens
+Signs | posters
+T-shirt cannon
+Water guns
+Ticker tape | ticker-tape
+Glitter
+Feather boas
+Masks
+Face paint
+Wagons
+Ambulance
+Tanks
+Military vehicles
+Fighter jets | flyover
+Helicopter
+Blimp
+Rodeo queens
+Cowboys
+Llamas
+Elephants
+Dogs
+Trash | litter
+Porta potties
+Street sweepers
+Garbage trucks
+
+[Not accepted]
+Swimming pool
+Classroom
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name a superstition or good-luck charm
+note: Common superstitions, omens and lucky charms (black cat, knock on wood, four-leaf clover).
+
+[One in a Krillion]
+Tossing salt over your shoulder | throw salt over shoulder | spilled salt
+
+[Too Clever]
+Lucky socks | lucky jersey
+Beginner's luck
+Rally cap
+Jinx | jinxed
+
+[Plankton]
+Black cat | black cats | black cat crossing your path
+Four-leaf clover | four leaf clover | clover
+Friday the 13th | friday the thirteenth
+Broken mirror | breaking a mirror
+Knock on wood | knocking on wood
+
+[Schooler]
+Horseshoe | lucky horseshoe
+Rabbit's foot | rabbit foot
+Walking under a ladder | ladder
+Lucky penny | find a penny
+Crossing fingers | fingers crossed
+Wishbone
+Shooting star | wish on a shooting star
+Opening an umbrella indoors | umbrella indoors
+Step on a crack | don't step on a crack
+Number 13 | 13 | unlucky 13
+Lucky number 7 | 7 | seven
+Birthday candles | blowing out candles
+Evil eye
+Dreamcatcher | dream catcher
+Bless you | sneezing
+Itchy palm | itchy hand
+Making a wish at 11:11 | 11:11
+Wishing well | coin in a fountain
+Dandelion wish | blowing a dandelion
+Eyelash wish
+Fortune cookie
+Lucky charm
+Hold your breath past a graveyard | holding breath past a cemetery
+Bad things come in threes
+Tooth fairy
+
+[Rare]
+Seven years bad luck
+Ladybug landing on you | ladybug
+Bird poop on you | bird poop
+Itchy nose
+Ears burning
+Hamsa | hand of fatima
+Nazar
+Maneki-neko | lucky cat | waving cat
+Lucky bamboo
+Jade plant
+Acorn
+Pinecone
+Lucky coin
+Silver dollar
+Two-dollar bill
+Saint Christopher medal | st christopher
+Wish on a star | star light star bright
+Knock three times
+Salt
+Garlic
+Saint Joseph statue | st joseph statue
+Scarab
+Worry dolls
+Saying quiet | never say quiet
+Waking up on the wrong side of the bed
+Groundhog Day
+Full moon
+Blood moon
+Unlucky number 4 | 4
+Lucky number 8 | 8
+Lucky red | red envelope
+Don't say Macbeth | macbeth
+Break a leg
+No-hitter jinx | don't mention a no-hitter
+Madden curse
+Sports Illustrated cover jinx
+Playoff beard
+Bride's something old something new | something borrowed something blue
+Seeing the bride before the wedding
+Catching the bouquet | bouquet toss
+Penny in your shoe
+Kissing the Blarney Stone | blarney stone
+Rubbing a statue
+Wearing your shirt inside out
+Lucky underwear
+Crickets in the house
+Owl hooting
+Raven | crow
+Magpie salute | one for sorrow
+Picking up pins
+Hat on the bed
+Shoes on the table
+Whistling indoors
+Rabbit rabbit
+Touch wood
+
+[Deep Cut]
+Cat with nine lives | nine lives
+Elephant figurine trunk up | elephant
+Mano cornuto | cornicello
+Witch ball
+Mezuzah
+Leprechaun
+Pot of gold
+Dropping silverware
+Right foot first
+Cracking knuckles
+Whistling at night
+White rabbit
+Albatross
+Bananas on boats
+Lucky pencil
+
+[Not accepted]
+Religion
+Science
