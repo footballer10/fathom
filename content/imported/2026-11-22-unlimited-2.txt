@@ -1,0 +1,3405 @@
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a kind of chef or cook
+note: Kitchen job titles and kinds of cooks, from line cook to pitmaster.
+
+[One in a Krillion]
+Saucier
+
+[Too Clever]
+Lunch lady | lunch ladies
+MasterChef contestant
+Iron Chef | iron chefs
+
+[Plankton]
+Chef | chefs
+Cook | cooks
+Head chef
+Baker | bakers
+Pastry chef | pastry cook
+
+[Schooler]
+Sous chef | sous-chef
+Line cook
+Executive chef
+Prep cook
+Fry cook
+Grill cook | grill master
+Short-order cook
+Sushi chef | itamae
+Pizza maker | pizzaiolo
+Pitmaster | pit master
+Private chef | personal chef
+Celebrity chef | tv chef
+Caterer
+Cafeteria cook | school cook
+Butcher
+
+[Rare]
+Chef de cuisine
+Chef de partie | station chef
+Commis | commis chef
+Pâtissier | patissier
+Garde manger
+Rotisseur
+Poissonnier | fish cook
+Entremetier
+Tournant | swing cook | roundsman | chef tournant
+Expediter | expo
+Chocolatier
+Confectioner | candy maker
+Cake decorator
+Banquet chef
+Research chef | food scientist
+Culinary instructor | cooking teacher
+Ship's cook | galley cook
+Camp cook
+Chuckwagon cook | cookie
+Army cook | mess cook
+Breakfast cook
+Boulanger | bread baker
+Grillardin
+Friturier
+Potager
+Legumier
+Teppanyaki chef | hibachi chef
+Dim sum chef
+Tandoor chef
+Taco cook | taquero
+Barbecue cook | bbq chef
+Kitchen manager
+Corporate chef
+Food truck cook
+
+[Deep Cut]
+Chef de rang
+Demi chef de partie
+Junior sous chef
+Executive sous chef
+Pastry sous chef
+Head baker
+Kaiseki chef
+Ramen chef
+Wok chef
+Charcutier
+Fromager
+Recipe developer
+Test kitchen cook
+Home cook
+Amateur cook
+Street food vendor
+Michelin-starred chef
+Apprentice chef | chef apprentice
+Culinary student
+Hospital cook
+Prison cook
+Cruise ship chef
+Airline caterer
+Diner cook
+
+[Not accepted]
+Waiter
+Server
+Bartender
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a word for a person from a particular city
+note: Real demonyms for people from a named city anywhere in the world, formal or nickname.
+
+[One in a Krillion]
+Haligonian
+
+[Too Clever]
+Hamburger
+Frankfurter
+Berliner
+Trojan
+Spartan
+
+[Plankton]
+New Yorker | new yorkers
+Londoner | londoners
+Parisian | parisians
+Bostonian | bostonians
+Chicagoan | chicagoans
+
+[Schooler]
+Angeleno | angelenos | los angeleno | angelino
+Philadelphian
+San Franciscan
+Roman | romans
+Torontonian
+Dubliner
+Athenian
+Venetian
+Washingtonian
+Brooklynite
+Manhattanite
+Seattleite
+Houstonian
+Dallasite
+Miamian
+Atlantan
+Detroiter
+Denverite
+Las Vegan
+
+[Rare]
+Pittsburgher
+Clevelander
+Baltimorean
+Nashvillian
+Memphian
+New Orleanian
+Austinite
+San Antonian
+San Diegan
+Phoenician
+Portlander
+Minneapolitan
+Milwaukeean
+Cincinnatian
+Louisvillian
+Kansas Citian
+St. Louisan
+Tucsonan
+Albuquerquean
+Salt Laker
+Honolulan
+Bronxite
+Staten Islander
+Long Islander
+Vancouverite
+Montrealer
+Calgarian
+Edmontonian
+Winnipegger
+Quebecer | québécois
+Liverpudlian | scouser
+Mancunian
+Glaswegian
+Edinburgher
+Geordie
+Brummie
+Cockney
+Aberdonian
+Viennese
+Milanese
+Neapolitan
+Florentine
+Madrileño | madrileno
+Barcelonan | barcelonin
+Lisboeta
+Muscovite
+Tokyoite
+Hongkonger | hong konger
+Singaporean
+Sydneysider
+Melburnian
+Aucklander
+Capetonian
+Cairene
+Jerusalemite
+Bethlehemite
+Nazarene
+Carthaginian
+Babylonian
+Corinthian
+Theban
+Alexandrian
+Byzantine
+
+[Deep Cut]
+Bristolian
+Leodensian
+Sheffielder
+Novocastrian
+Oxonian
+Cantabrigian
+Corkonian
+Dundonian
+Mackem
+Mumbaikar
+Bangalorean
+Beijinger
+Shanghainese
+Cantonese
+Manileño | manilan | manilenyo
+Tehrani
+Istanbulite
+Baghdadi
+Damascene
+Beiruti
+Lagosian
+Nairobian
+Joburger
+Durbanite
+Porteño | porteno
+Carioca
+Paulistano
+Limeño | limeno
+Habanero
+Chilango
+Tapatío
+Regiomontano
+Genoese
+Bolognese
+Veronese
+Lyonnais
+Marseillais
+Niçois
+Bernese
+Amsterdammer
+Bruxellois
+Warsovian
+Cracovian
+Petersburger
+Portuense | tripeiro
+Sevillano
+Valencian
+Malagueño
+Gazan
+Medinan
+
+[Not accepted]
+American
+British
+Canadian
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a kind of dancer
+note: Dancers by style or role (ballerina, tap dancer, b-girl, Rockette).
+
+[One in a Krillion]
+Morris dancer | morris dancers
+
+[Too Clever]
+Figure skater | ice dancer
+Cheerleader
+Majorette | drum majorette
+Mascot
+
+[Plankton]
+Ballerina | ballerinas | ballet dancer
+Tap dancer
+Hip-hop dancer | hip hop dancer
+Breakdancer | b-boy | b-girl | breaker
+Backup dancer | backup dancers
+
+[Schooler]
+Salsa dancer
+Ballroom dancer
+Belly dancer
+Flamenco dancer
+Irish dancer | irish step dancer | step dancer
+Jazz dancer
+Contemporary dancer
+Modern dancer
+Line dancer
+Square dancer
+Swing dancer | lindy hopper
+Tango dancer
+Hula dancer
+Rockette | rockettes
+Showgirl
+Go-go dancer
+Pole dancer
+Choreographer
+Prima ballerina
+
+[Rare]
+Lyrical dancer
+Clogger | clog dancer
+Krumper
+Popper
+Locker
+Voguer
+Twerker
+Bollywood dancer
+Folk dancer
+Polka dancer
+Waltzer
+Fox trotter
+Jitterbugger
+Charleston dancer
+Disco dancer
+Club dancer
+Street dancer
+Tutting dancer | tutter
+Bharatanatyam dancer
+Kathak dancer
+Odissi dancer
+Kuchipudi dancer
+Danseur | danseur noble
+Corps de ballet
+Soloist
+Principal dancer
+Dance captain
+Drill team dancer
+Pom dancer
+Color guard
+K-pop dancer
+TikTok dancer
+Taxi dancer
+Bachata dancer
+Merengue dancer
+Cumbia dancer
+Samba dancer
+Capoeirista
+Zumba instructor
+Dance teacher | dance instructor
+Stepper | step team
+
+[Deep Cut]
+Geisha
+Maiko
+Kabuki dancer
+Butoh dancer
+Lion dancer
+Dragon dancer
+Haka performer
+Fire dancer
+Poi spinner
+Sword dancer
+Highland dancer
+Ceilidh dancer
+Sean-nós dancer
+Cossack dancer | hopak dancer
+Ballet Folklórico dancer | folklorico dancer
+Jarabe dancer
+Matachines
+Powwow dancer | jingle dress dancer | fancy dancer
+Hoop dancer
+Whirling dervish
+Kecak dancer
+Legong dancer
+Apsara dancer
+Fan dancer
+Burlesque dancer
+Cabaret dancer
+Can-can dancer
+Chorus girl | chorus line
+Hoofer
+Buck dancer
+Juba dancer
+Gumboot dancer
+Pantsula dancer
+Kizomba dancer
+Zouk dancer
+West Coast Swing dancer
+Shag dancer
+Balboa dancer
+Quickstep dancer
+Paso doble dancer
+Rumba dancer
+Cha-cha dancer
+Jive dancer
+Mambo dancer
+Hustle dancer
+Contra dancer
+Liturgical dancer
+Aerial dancer | aerialist
+Wheelchair dancer
+Interpretive dancer
+
+[Not accepted]
+Singer
+Actor
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word for a beginner or someone new at something
+note: Words and slang for a newcomer, rookie or inexperienced person.
+
+[One in a Krillion]
+Tyro
+
+[Too Clever]
+Padawan
+Grasshopper
+Baby | big baby
+Freshman | freshmen
+
+[Plankton]
+Beginner | beginners
+Rookie | rookies
+Newbie | newb
+Noob | n00b | nub
+Novice | novices
+
+[Schooler]
+Amateur | amateurs
+Newcomer | newcomers
+Trainee | trainees
+Intern | interns
+Apprentice | apprentices
+Learner
+Student
+First-timer | first timer
+New kid
+Greenhorn
+Recruit | recruits
+Rook
+Fledgling
+Freshie
+Frosh
+Plebe
+
+[Rare]
+Neophyte
+Tenderfoot
+Initiate
+Probie | probationer
+Cadet
+Pupil
+Fresher
+Tadpole
+Underclassman
+Scrub
+Hatchling
+Debutant | debutante
+New hire
+Wet behind the ears
+Green
+Cub
+Acolyte
+Protégé | protege
+Understudy
+Johnny-come-lately
+Young blood
+Fresh meat
+Fresh face
+New blood
+Newly minted
+Novitiate
+Abecedarian
+Ingénue | ingenue
+Pledge
+Learner driver | student driver
+L-plater
+
+[Not accepted]
+Expert
+Veteran
+Pro
+
+# QUESTION
+pool: unlimited
+category: jobs-people
+prompt: Name a word or nickname for a mom or dad (in English or another language)
+note: Names people call their mother or father in any language, including formal words and slang.
+
+[One in a Krillion]
+Abba
+
+[Too Clever]
+Old man | my old man
+Mama bear
+Papa bear
+Old lady
+
+[Plankton]
+Mom | mum | mother
+Dad | father
+Mommy | mummy | mommie
+Daddy
+Mama | momma | mamma
+
+[Schooler]
+Papa | pappa
+Ma
+Pa
+Pop | pops
+Mami | mamí
+Papi
+Padre
+Madre
+Daddio | daddy-o
+Dada
+Mumsy | mumsie
+Pappy
+Paw
+Maw
+Mammy
+Mater
+Pater
+
+[Rare]
+Maman
+Mère | mere
+Père | pere
+Mutti
+Vati
+Mãe | mae
+Pai
+Papai
+Mamãe
+Okaasan | okaa-san | haha
+Otousan | otou-san | chichi
+Eomma | umma
+Appa
+Omma
+Ammi
+Amma
+Baba
+Ummi | umi
+Mamochka
+Mamusia
+Tata
+Tato
+Mamka
+Matka
+Isä
+Äiti | aiti
+Mamita
+Papito
+Viejo | mi viejo
+Vieja | mi vieja
+Jefe | mi jefe
+Jefa | mi jefa
+Moeder
+Vader
+
+[Deep Cut]
+Mam
+Mommers
+Daddums
+Parental unit
+The parentals
+Rents | the rents
+Folks | my folks
+Matriarch
+Patriarch
+Bapu
+Pitaji
+Mataji
+Appaji
+Ammaji
+Abbaji
+Ayah
+Ibu
+Bapak
+Inay
+Itay
+Nanay
+Tatay
+Mama-san
+Papa-san
+
+# QUESTION
+pool: unlimited
+category: nature
+prompt: Name a natural light show or glow in the sky, sea, or land
+note: Natural sights made of light (rainbows, auroras, lightning, glowing animals). Fireworks and lasers are human-made, so they don't count.
+
+[One in a Krillion]
+Green flash
+
+[Too Clever]
+Fireworks
+Moon
+
+[Plankton]
+Rainbow | rainbows
+Northern lights | aurora borealis | aurora
+Lightning
+Sunset | sunsets
+Fireflies | firefly | lightning bugs
+
+[Schooler]
+Sunrise | sunrises
+Southern lights | aurora australis
+Shooting star | shooting stars | meteor
+Meteor shower
+Double rainbow
+Eclipse | solar eclipse | lunar eclipse
+Blood moon
+Supermoon | super moon
+Full moon
+Moonlight
+Starlight | stars
+Milky Way
+Bioluminescence | bioluminescent
+Glowing waves | bioluminescent waves | sea sparkle
+Comet
+
+[Rare]
+Moonbow | lunar rainbow
+Fogbow | white rainbow
+Sundog | sun dog | parhelion
+Halo | sun halo | moon halo | 22 degree halo
+Light pillar | sun pillar
+Circumhorizontal arc | fire rainbow
+Crepuscular rays | god rays | sunbeams
+Alpenglow
+Twilight
+Golden hour
+Blue hour
+Glory
+Corona
+Iridescent clouds | cloud iridescence
+Noctilucent clouds
+Zodiacal light
+Airglow
+St. Elmo's fire | st elmo's fire
+Ball lightning
+Heat lightning
+Sheet lightning
+Red sprites | sprites
+Elves | elve
+Steve | strong thermal emission velocity enhancement
+Glowing lava | lava glow | lava
+Blue jets
+Mirage
+Fata Morgana
+Diamond dust
+Glowworms | glow worms
+Glowing mushrooms | foxfire | bioluminescent fungi
+Anglerfish
+Dinoflagellates
+Milky sea
+Will-o'-the-wisp | will o the wisp | ghost lights
+Belt of Venus
+Earthshine
+Gegenschein
+Brocken spectre
+Heiligenschein
+Volcanic lightning | dirty thunderstorm
+Lava lake
+Meteorite fireball | fireball | bolide
+Venus | evening star | morning star
+Ring of fire | annular eclipse
+Diamond ring effect
+Baily's beads
+Sunspot
+Solar flare
+
+[Not accepted]
+Laser
+Neon sign
+Street light
+
+# QUESTION
+pool: unlimited
+category: nature
+prompt: Name something that comes from a tree
+note: Things a tree produces or that people make directly from trees (fruit, sap, wood, paper, cork).
+
+[One in a Krillion]
+Frankincense
+
+[Too Clever]
+Oxygen
+Shade
+Treehouse | tree house
+Pencils | pencil
+Furniture
+Bananas | banana
+
+[Plankton]
+Wood | lumber
+Paper
+Apples | apple
+Leaves | leaf
+Maple syrup | syrup
+
+[Schooler]
+Fruit
+Nuts | nut
+Sap
+Bark
+Acorns | acorn
+Pine cones | pine cone | cones
+Seeds | seed
+Branches | branch | sticks | twigs
+Firewood | logs | log
+Oranges | orange
+Cherries | cherry
+Coconuts | coconut
+Pears | pear
+Peaches | peach
+Lemons | lemon
+Avocados | avocado
+Olives | olive
+Rubber | latex
+Cork
+Sawdust
+Charcoal
+Blossoms | flowers
+
+[Rare]
+Resin
+Pine needles | needles
+Pollen
+Amber
+Turpentine
+Tar | pine tar
+Pitch
+Cinnamon
+Nutmeg
+Cloves
+Allspice
+Bay leaves
+Coffee beans | coffee
+Cacao | cocoa | chocolate
+Cashews
+Almonds
+Walnuts
+Pecans
+Chestnuts
+Hazelnuts
+Pistachios
+Macadamia nuts
+Brazil nuts
+Dates
+Figs
+Plums
+Apricots
+Mangoes | mango
+Papaya
+Limes
+Grapefruit
+Pomegranate
+Persimmon
+Sycamore seeds | helicopters | samaras | whirlybirds
+Maple seeds
+Walnut shells
+Wood chips | mulch
+Pulp | wood pulp
+Tannin
+Quinine
+Aspirin | willow bark
+Chewing gum | chicle
+Mastic
+Myrrh
+Sandalwood
+Camphor
+Eucalyptus oil
+Tea tree oil
+Palm oil
+Olive oil
+Coconut oil
+Birch syrup
+Birch beer
+Root beer | sassafras
+Kindling
+Lignin
+Cellulose
+Mistletoe
+Spanish moss
+Lichen
+Galls | oak galls
+Burls | burl
+
+[Deep Cut]
+Gum arabic
+Copal
+Dammar
+Balsam
+Benzoin
+Kauri gum
+Shellac
+Jackfruit
+Durian
+Breadfruit
+Lychee
+Rambutan
+Cherimoya
+Guava
+Loquat
+Quince
+Mulberries
+Elderberries
+Serviceberries
+Pawpaw
+Ackee
+Baobab fruit
+Tamarind
+Carob
+Kola nuts
+Betel nut | areca nut
+Ginkgo nuts
+Pine nuts
+Beechnuts
+Hickory nuts
+Butternuts
+Shea butter
+Cocoa butter
+Argan oil
+Neem oil
+Tung oil
+
+[Not accepted]
+Grass
+Corn
+
+# QUESTION
+pool: unlimited
+category: music
+prompt: Name a word for a group of musicians or singers
+note: Words for music groups by size or style (band, choir, quartet, mariachi). Specific band names don't count.
+
+[One in a Krillion]
+Gamelan
+
+[Too Clever]
+Boy band | boyband
+Girl group | girl band
+Supergroup
+One-man band | one man band
+Garage band
+
+[Plankton]
+Band | bands
+Choir | choirs
+Orchestra | orchestras
+Duo | duet
+Trio
+
+[Schooler]
+Quartet
+Quintet
+Symphony | symphony orchestra
+Chorus
+Ensemble
+Marching band
+Jazz band
+Rock band
+Glee club | glee
+A cappella group | a cappella | acapella group
+Barbershop quartet
+String quartet
+Mariachi band | mariachi
+Big band
+Brass band
+Philharmonic
+Drumline | drum line
+Concert band
+Pep band
+Cover band
+Tribute band
+
+[Rare]
+Sextet
+Septet
+Octet
+Nonet
+Chamber orchestra
+Chamber group | chamber ensemble
+Chorale
+Madrigal group | madrigal choir
+Show choir
+Gospel choir
+Church choir
+Boys' choir | boys choir
+Children's choir
+Chamber choir
+Youth orchestra
+Pit orchestra | pit band
+House band
+Jam band
+Combo | jazz combo
+Wind ensemble
+Symphonic band
+Jazz ensemble
+Steel band | steel drum band | steel pan band
+Bluegrass band
+Polka band
+Wedding band
+Party band
+Punk band
+Metal band
+Indie band
+Folk group
+Country band
+Banda
+Conjunto
+Norteño band | norteno
+Ska band
+Reggae band
+Brass ensemble
+Percussion ensemble
+Handbell choir
+Jug band
+Skiffle group
+Military band
+Drum and bugle corps | drum corps
+Fife and drum corps
+Bagpipe band | pipe band
+Rhythm section
+Horn section
+String section
+Backing band
+Vocal group
+K-pop group
+Hip-hop group | rap group
+
+[Deep Cut]
+Consort
+Camerata
+Sinfonietta
+Sinfonia
+Philharmonia
+Symphonic choir
+Oratorio choir
+Schola cantorum | schola
+Doo-wop group
+Family band
+Studio band
+Session band
+Touring band
+Swing band
+Dance band
+Jazz trio
+Piano trio
+Power trio
+String trio
+Brass quintet
+Woodwind quintet
+Wind quintet
+Saxophone quartet
+Taiko ensemble
+Kulintang ensemble
+Klezmer band
+Zydeco band
+Cajun band
+String band
+Old-time band
+Tamburitza orchestra
+Balalaika orchestra
+Mandolin orchestra
+Ukulele orchestra
+Laptop orchestra
+Rondalla
+Estudiantina
+Charanga
+Orquesta típica
+Salsa band | orquesta
+Murga
+Batucada
+Samba school
+Tuna | student tuna
+
+[Not accepted]
+The Beatles
+One Direction
+
+# QUESTION
+pool: unlimited
+category: music
+prompt: Name a song from Wicked, Grease, or a Mamma Mia! movie (stage or film)
+note: Songs from either Wicked film or the stage show, the Grease film or stage show, and the ABBA songs in Mamma Mia! and Mamma Mia! Here We Go Again.
+
+[One in a Krillion]
+Andante, Andante | andante andante
+
+[Too Clever]
+Wicked | the wicked
+Grease | grease is the word
+Mamma Mia
+Waterloo
+
+[Plankton]
+Defying Gravity
+Popular
+Dancing Queen
+Summer Nights
+You're the One That I Want | youre the one that i want
+
+[Schooler]
+The Wizard and I | wizard and i
+What Is This Feeling? | what is this feeling
+I'm Not That Girl | im not that girl
+For Good
+Dancing Through Life
+No Good Deed
+No One Mourns the Wicked
+One Short Day
+Greased Lightnin' | greased lightning | grease lightning
+Hopelessly Devoted to You | hopelessly devoted
+Beauty School Dropout
+We Go Together
+Sandy
+Look at Me, I'm Sandra Dee | sandra dee
+Super Trouper
+Gimme! Gimme! Gimme! (A Man After Midnight) | gimme gimme gimme
+Take a Chance on Me
+Lay All Your Love on Me
+Money, Money, Money | money money money
+Honey, Honey | honey honey
+The Winner Takes It All | winner takes it all
+SOS
+Voulez-Vous | voulez vous
+Chiquitita
+Thank You for the Music
+I Have a Dream
+Fernando
+
+[Rare]
+Dear Old Shiz
+Something Bad
+A Sentimental Man
+Thank Goodness
+I Couldn't Be Happier
+As Long as You're Mine
+Wonderful
+March of the Witch Hunters
+The Girl in the Bubble
+No Place Like Home
+Every Day More Wicked
+Born to Hand Jive
+There Are Worse Things I Could Do
+Freddy, My Love | freddy my love
+Rock 'n' Roll Party Queen
+Those Magic Changes
+It's Raining on Prom Night
+Alone at a Drive-in Movie
+Mooning
+Tears on My Pillow
+Blue Moon
+Rock and Roll Is Here to Stay
+Hound Dog
+Our Last Summer
+Slipping Through My Fingers
+Does Your Mother Know
+I Do, I Do, I Do, I Do, I Do | i do i do i do
+When All Is Said and Done
+Knowing Me, Knowing You | knowing me knowing you
+The Name of the Game
+Under Attack
+One of Us
+When I Kissed the Teacher
+Why Did It Have to Be Me?
+Kisses of Fire
+Angel Eyes
+I've Been Waiting for You
+My Love, My Life
+Hasta Mañana | hasta manana
+I Wonder (Departure)
+The Day Before You Came
+
+[Deep Cut]
+The Wicked Witch of the East
+Shakin' at the High School Hop
+All Choked Up
+Alma Mater
+
+[Not accepted]
+Let It Go
+Bohemian Rhapsody
+
+# QUESTION
+pool: unlimited
+category: music
+prompt: Name a word for a type of song or piece of music
+note: General words for kinds of songs and pieces (ballad, anthem, lullaby, remix). Specific song titles don't count.
+
+[One in a Krillion]
+Barcarolle | barcarola
+
+[Too Clever]
+Bop | banger | bops
+Earworm
+Jingle
+Diss track | diss
+
+[Plankton]
+Ballad | ballads
+Anthem | anthems
+Lullaby | lullabies | lullabye
+Love song | love songs
+Hymn | hymns
+
+[Schooler]
+Carol | carols | christmas carol
+Lament
+Serenade
+Duet
+Solo
+Single
+Remix
+Cover | cover song
+Mashup | mash-up
+Rap
+Freestyle
+National anthem
+Fight song
+Theme song | theme
+Breakup song
+Chant
+Spiritual
+Nursery rhyme
+Folk song
+Sea shanty | shanty
+Instrumental
+Interlude
+
+[Rare]
+Aria
+Opera
+Symphony
+Sonata
+Concerto
+Overture
+Etude | étude
+Nocturne
+Prelude
+Fugue
+Waltz
+March
+Minuet
+Polka
+Requiem
+Mass
+Cantata
+Oratorio
+Madrigal
+Motet
+Psalm
+Gospel song | gospel
+Torch song
+Power ballad
+Protest song
+Work song
+Drinking song
+Campfire song
+Round
+Canon
+Chorale
+Elegy
+Dirge
+Ditty
+Tune
+Track
+Number
+Piece
+Medley
+Jam
+B-side
+Hit | hit song
+Chart-topper | number one
+One-hit wonder
+Summer anthem | song of the summer
+Slow jam
+Club banger
+Fanfare
+Ode
+
+[Deep Cut]
+Rhapsody
+Scherzo
+Rondo
+Toccata
+Partita
+Suite
+Sinfonia
+Serenata
+Intermezzo
+Impromptu
+Bagatelle
+Mazurka
+Polonaise
+Gavotte
+Sarabande
+Gigue | jig
+Reel
+Hornpipe
+Bolero
+Habanera
+Tango
+Lied
+Chanson
+Ballade
+Berceuse
+Pastorale
+Fantasia
+Capriccio
+Divertimento
+Cadenza
+Leitmotif
+Yodel
+Throat song
+Corrido
+Ranchera
+Fado
+Calypso
+Sea chantey | chantey
+Field holler
+Ragtime piece | rag
+Blues
+Standard | jazz standard
+Show tune
+Patter song
+Villanelle
+Plainchant | plainsong | gregorian chant
+Wassail
+
+[Not accepted]
+Genre
+Album
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name a diet or way of eating
+note: Named diets, eating plans and food rules people follow for health, beliefs or sport (vegan, keto, kosher).
+
+[One in a Krillion]
+BRAT diet | brat
+
+[Too Clever]
+Seafood diet | see food diet
+Cheat day | cheat meal
+Junk food diet
+Bulking | bulk
+
+[Plankton]
+Vegan | veganism
+Vegetarian | vegetarianism
+Keto | ketogenic | keto diet
+Paleo | paleo diet | caveman diet
+Intermittent fasting | if | fasting
+
+[Schooler]
+Gluten-free | gluten free
+Low-carb | low carb
+Mediterranean diet | mediterranean
+Pescatarian | pescetarian
+Atkins | atkins diet
+Dairy-free | dairy free
+Carnivore diet | carnivore
+Plant-based | plant based
+Weight Watchers | ww
+Kosher
+Halal
+Raw food diet | raw vegan
+Juice cleanse | cleanse | juicing
+Cutting | cut
+Low-fat | low fat
+High-protein | high protein
+Calorie counting | counting calories
+
+[Rare]
+Whole30 | whole 30
+South Beach diet
+Jenny Craig
+Nutrisystem
+DASH diet | dash
+MIND diet
+Flexitarian
+Macrobiotic
+Zone diet | the zone
+Dukan diet
+Detox diet | detox
+Alkaline diet
+Blood type diet
+Low-FODMAP | fodmap
+Lactose-free
+Nut-free
+Cabbage soup diet
+Grapefruit diet
+Master cleanse | lemonade diet
+5:2 diet | 5 2 diet
+OMAD | one meal a day
+Fruitarian
+Liquid diet
+Clean eating
+Carb cycling
+IIFYM | if it fits your macros | flexible dieting
+Noom
+Optavia
+SlimFast | slim fast
+Volumetrics
+Ornish diet
+Pritikin diet
+Anti-inflammatory diet
+Nordic diet
+Okinawa diet
+Sugar-free | no sugar
+Low-sodium | low salt
+Diabetic diet
+Elimination diet
+Ketovore
+Lacto-vegetarian
+Ovo-vegetarian
+Lacto-ovo vegetarian
+Jain diet
+Sattvic diet
+Ital
+Lent | lenten fast
+Ramadan fasting | ramadan
+Water fasting
+Alternate-day fasting
+16:8 | 16 8 fasting
+Warrior diet
+
+[Deep Cut]
+Specific carbohydrate diet
+GAPS diet
+AIP diet | autoimmune protocol
+Low-histamine diet
+Low-residue diet
+Clear liquid diet
+Soft food diet
+Renal diet
+TLC diet
+Sirtfood diet
+HCG diet
+Zero carb
+Daniel Fast
+Scarsdale diet
+Reverse dieting
+Mini-cut
+Dirty bulk
+Lean bulk
+Shojin ryori
+Pegan
+Primal diet
+Military diet
+TB12 | tom brady diet
+
+[Not accepted]
+Gym
+Exercise
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name a word that means "healthy," "fit," or "strong"
+note: Words and slang for being healthy, in shape or strong (fit, ripped, swole, hale).
+
+[One in a Krillion]
+In the pink
+
+[Too Clever]
+Fit as a fiddle
+Right as rain
+Hulk | hulking
+Popeye
+
+[Plankton]
+Healthy
+Fit
+Strong
+Buff
+Ripped
+
+[Schooler]
+Muscular
+Jacked
+Swole
+Shredded
+Toned
+Athletic
+In shape
+Well
+Healthy as a horse
+Lean
+Built
+Cut
+Sturdy
+Tough
+Powerful
+Energetic
+Active
+Sporty
+Brawny
+Beefy
+Burly
+Hefty
+
+[Rare]
+Hale
+Hearty
+Robust
+Sound
+Vigorous
+Hardy
+Strapping
+Stalwart
+Able-bodied
+Spry
+Sprightly
+Vital
+Thriving
+Flourishing
+Blooming
+Glowing
+Rosy
+Peppy
+Chiseled
+Yoked
+Stacked
+Diesel
+Husky
+Stocky
+Mighty
+Herculean
+Wiry
+Limber
+Flexible
+Agile
+Nimble
+Fighting fit
+Healthful
+Wholesome
+Bulky
+Thick
+Solid
+Rock-solid
+Steely
+Well-built
+Up to snuff
+Tip-top | in tip-top shape
+
+[Deep Cut]
+Lusty
+Doughty
+Thewy
+Sinewy
+Stout
+Puissant
+Able
+Fine fettle | in fine fettle
+Bright-eyed and bushy-tailed
+Full of beans
+Alive and kicking
+Picture of health
+Shipshape
+Trim
+Svelte
+Beast
+Tank
+Built like a tank
+Strong as an ox
+Superfit
+In good shape | good shape
+Peak condition
+Hale and hearty
+
+[Not accepted]
+Sick
+Weak
+
+# QUESTION
+pool: unlimited
+category: body-health
+prompt: Name an eye condition or vision problem
+note: Eye diseases, injuries and vision problems (nearsighted, pink eye, color blindness).
+
+[One in a Krillion]
+Heterochromia
+
+[Too Clever]
+Eye strain from screens | digital eye strain
+Crying | tears
+Black eye
+Red-eye | red eye
+
+[Plankton]
+Nearsightedness | nearsighted | myopia
+Farsightedness | farsighted | hyperopia
+Color blindness | colorblind | color blind
+Pink eye | conjunctivitis
+Blindness | blind
+
+[Schooler]
+Astigmatism
+Glaucoma
+Cataracts | cataract
+Lazy eye | amblyopia
+Crossed eyes | cross-eyed | strabismus
+Stye | sty
+Dry eye | dry eyes
+Blurry vision | blurred vision
+Double vision
+Eye strain
+Floaters | eye floaters
+Night blindness
+Itchy eyes
+Watery eyes
+
+[Rare]
+Macular degeneration
+Presbyopia | aging eyes
+Detached retina | retinal detachment
+Diabetic retinopathy
+Keratoconus
+Uveitis
+Iritis
+Blepharitis
+Chalazion
+Ptosis | droopy eyelid
+Nystagmus
+Retinitis pigmentosa
+Tunnel vision
+Photophobia | light sensitivity
+Corneal abrasion | scratched cornea
+Eye infection
+Eye allergies | allergic conjunctivitis
+Twitching eyelid | eye twitch
+Pinguecula
+Pterygium
+Snow blindness
+Retinoblastoma
+Eye cancer | ocular melanoma
+Optic neuritis
+Retinal tear
+Macular hole
+Ocular hypertension
+Low vision
+Legal blindness | legally blind
+Partial blindness
+Blind spot
+Scotoma
+Bulging eyes | proptosis | exophthalmos
+Sunken eyes
+Bags under eyes | dark circles
+Bloodshot eyes
+Subconjunctival hemorrhage | broken blood vessel
+Corneal ulcer
+Keratitis
+Episcleritis
+Scleritis
+Ectropion
+Entropion
+Lagophthalmos
+
+[Deep Cut]
+Achromatopsia
+Protanopia
+Deuteranopia
+Tritanopia
+Retinopathy of prematurity
+Coloboma
+Aniridia
+Albinism eyes | ocular albinism
+Leber congenital amaurosis
+Stargardt disease
+Usher syndrome
+Fuchs' dystrophy
+Corneal dystrophy
+Central serous retinopathy
+Vitreous detachment
+Endophthalmitis
+Trachoma
+River blindness | onchocerciasis
+Convergence insufficiency
+Anisocoria
+Diplopia
+Esotropia
+Exotropia
+Hypertropia
+Visual snow
+Aura | ocular migraine
+Hemianopia
+Cortical blindness
+Optic atrophy
+Papilledema
+Graves' eye disease | thyroid eye disease
+Sjögren's syndrome | sjogrens
+Floppy eyelid syndrome
+Dacryocystitis | blocked tear duct
+Arcus senilis
+Xanthelasma
+Hordeolum
+Eyelid cyst
+
+# QUESTION
+pool: unlimited
+category: vehicles
+prompt: Name a car brand that no longer makes cars
+note: Defunct or discontinued car brands from anywhere, as of 2025. Brands that were revived still count if they once stopped.
+
+[One in a Krillion]
+Tucker
+
+[Too Clever]
+DeLorean | delorean
+Hummer
+Scion
+
+[Plankton]
+Pontiac
+Oldsmobile
+Saturn
+Plymouth
+Mercury
+
+[Schooler]
+Saab
+Studebaker
+Edsel
+Packard
+AMC | american motors
+Hudson
+Nash
+DeSoto | de soto
+Geo
+Eagle
+Daewoo
+Rambler
+Willys
+Duesenberg
+Fisker
+
+[Rare]
+Cord
+Auburn
+Kaiser
+Frazer
+Imperial
+LaSalle | la salle
+Checker
+Stutz
+Pierce-Arrow | pierce arrow
+REO
+Triumph
+Austin
+Morris
+Rover
+Sunbeam
+Hillman
+Talbot
+Simca
+Holden
+Trabant
+Wartburg
+Yugo
+Merkur
+Sterling
+Bricklin
+[Deep Cut]
+Hupmobile
+Graham-Paige
+Marmon
+Franklin
+Cunningham
+Crosley
+Henry J
+Nash-Healey
+Austin-Healey
+Riley
+Wolseley
+Tatra
+Borgward
+NSU
+DKW
+Horch
+Wanderer
+Facel Vega
+Hispano-Suiza
+Delahaye
+Panhard
+De Dion-Bouton
+Isotta Fraschini
+Bizzarrini
+Iso
+De Tomaso
+Innocenti
+Autobianchi
+Jensen
+Reliant
+Humber
+Singer
+Standard
+Lagonda
+Alvis
+Armstrong Siddeley
+Lanchester
+Datsun
+
+[Not accepted]
+Ford
+Chevrolet
+Toyota
+
+# QUESTION
+pool: unlimited
+category: animals
+prompt: Name a sea animal that has no bones
+note: Ocean invertebrates of any kind (jellyfish, octopus, crabs, coral). Sharks have cartilage instead of bones, so they're Too Clever.
+
+[One in a Krillion]
+Mantis shrimp
+
+[Too Clever]
+Shark | sharks
+Stingray | ray
+
+[Plankton]
+Jellyfish | jelly fish | jellies
+Octopus | octopi | octopuses
+Squid
+Starfish | sea star
+Crab | crabs
+
+[Schooler]
+Lobster | lobsters
+Shrimp
+Sea urchin | urchin
+Sea cucumber
+Coral
+Sea anemone | anemone
+Sponge | sea sponge
+Clam | clams
+Oyster | oysters
+Mussel | mussels
+Scallop | scallops
+Snail | sea snail
+Sea slug | nudibranch
+Krill
+Barnacle | barnacles
+Sand dollar
+Hermit crab
+Cuttlefish
+Nautilus
+Conch
+Plankton | zooplankton
+
+[Rare]
+Brittle star
+Abalone
+Limpet
+Whelk
+Chiton
+Comb jelly | ctenophore
+Portuguese man o' war | man of war | man o war
+Box jellyfish
+Moon jellyfish
+Lion's mane jellyfish
+Sea pen
+Sea fan
+Sea squirt | tunicate
+Sea spider
+Horseshoe crab
+King crab
+Spider crab
+Blue crab
+Dungeness crab
+Coconut crab
+Fiddler crab
+Ghost crab
+Sea lice
+Copepod
+Amphipod
+Isopod | giant isopod
+Salp
+Feather duster worm
+Christmas tree worm
+Bristle worm
+Bobbit worm
+Sea lily | crinoid
+Basket star
+Sea biscuit
+[Deep Cut]
+Vampire squid
+Giant squid
+Colossal squid
+Dumbo octopus
+Blue-ringed octopus
+Mimic octopus
+Giant Pacific octopus
+Argonaut
+Sea hare
+Sea angel
+Sea butterfly
+Cone snail
+Cowrie
+Murex
+Periwinkle
+Razor clam
+Giant clam
+Geoduck
+Cockle
+Quahog
+Spiny lobster
+Slipper lobster
+Langoustine
+Prawn
+Pistol shrimp
+Cleaner shrimp
+Coral polyp
+Hydra
+Hydroid
+Siphonophore
+Sea gooseberry
+Sea wasp
+Fire coral
+Brain coral
+Staghorn coral
+Sea whip
+Zoanthid
+Tube worm | giant tube worm
+Peanut worm
+Ribbon worm
+Flatworm
+Velella | by-the-wind sailor
+Blue button
+Blue dragon | glaucus
+
+[Not accepted]
+Fish
+Whale
+Dolphin
+Turtle
+
+# QUESTION
+pool: unlimited
+category: animals
+prompt: Name a fish people keep in a home aquarium or pond
+note: Freshwater and saltwater fish sold for home tanks and backyard ponds.
+
+[One in a Krillion]
+Banggai cardinalfish
+
+[Too Clever]
+Nemo
+Dory
+Shark (aquarium) | bala shark | red-tailed shark | rainbow shark
+Axolotl
+
+[Plankton]
+Goldfish
+Betta | betta fish | siamese fighting fish | fighting fish
+Guppy | guppies
+Clownfish | clown fish
+Koi | koi fish
+
+[Schooler]
+Angelfish | angel fish
+Neon tetra | tetra | tetras
+Molly | mollies
+Platy | platies
+Swordtail
+Cichlid | cichlids
+Oscar
+Discus
+Pleco | plecostomus | sucker fish | algae eater
+Corydoras | cory catfish | cory
+Zebra danio | danio | zebrafish
+Tiger barb | barb
+Gourami
+Blue tang | tang | regal tang
+Pufferfish | puffer
+Seahorse | sea horse
+Catfish
+
+[Rare]
+Cardinal tetra
+Rummy-nose tetra
+Black skirt tetra
+Serpae tetra
+Ember tetra
+Glowlight tetra
+Congo tetra
+Harlequin rasbora | rasbora
+Cherry barb
+Rosy barb
+Dwarf gourami
+Pearl gourami
+Honey gourami
+Kissing gourami
+Paradise fish
+Clown loach | loach
+Kuhli loach
+Hillstream loach
+Killifish
+[Deep Cut]
+Arowana
+Flowerhorn
+Jack Dempsey
+Convict cichlid
+Firemouth cichlid
+Ram cichlid | german blue ram
+Kribensis
+Frontosa
+Peacock cichlid
+Electric yellow cichlid
+Mbuna
+Rainbowfish | boesemani rainbowfish
+White Cloud Mountain minnow
+Otocinclus | oto
+Bristlenose pleco
+Glass catfish
+Upside-down catfish
+Bichir
+Knifefish
+Elephantnose fish
+Mosquitofish
+Endler's livebearer | endler
+Fancy goldfish | oranda | ryukin | fantail | shubunkin | comet goldfish
+Bubble eye goldfish
+Black moor
+Lionhead goldfish
+Damselfish
+Yellow tang
+Powder blue tang
+Mandarin fish | mandarin dragonet
+Firefish goby
+Goby
+Blenny
+Wrasse | cleaner wrasse
+Lionfish
+Triggerfish
+Butterflyfish
+Moorish idol
+Royal gramma
+Dottyback
+Hawkfish
+Anthias
+Chromis
+Foxface rabbitfish
+Pipefish
+Eel | moray eel
+Bamboo shark
+Golden orfe
+Sturgeon
+Fathead minnow | rosy red minnow
+
+[Not accepted]
+Shrimp
+Snail
+Turtle
+Tuna
+
+# QUESTION
+pool: unlimited
+category: geography
+prompt: Name a city, island, park, or landmark in Hawaii or Alaska
+note: Named places in the two states, from islands and cities to volcanoes, parks and glaciers.
+
+[One in a Krillion]
+North Pole, Alaska | north pole alaska | north pole
+
+[Too Clever]
+
+[Plankton]
+Honolulu
+Maui
+Oahu | o'ahu
+Anchorage
+Juneau
+
+[Schooler]
+Big Island | island of hawaii | hawaii island
+Kauai | kaua'i
+Waikiki | waikiki beach
+Pearl Harbor
+Diamond Head
+Kilauea | kīlauea
+Mauna Loa
+Mauna Kea
+Hilo
+Kona
+Fairbanks
+Denali | mount mckinley | mt mckinley
+Denali National Park
+Ketchikan
+Sitka
+Nome
+Kodiak | kodiak island
+Molokai | moloka'i
+Lanai | lana'i
+Hawaii Volcanoes National Park | volcanoes national park
+Glacier Bay
+Aleutian Islands | aleutians
+
+[Rare]
+Niihau | ni'ihau
+Kahoolawe | kaho'olawe
+Haleakala | haleakalā
+Lahaina
+Kahului
+Kailua
+Kaneohe
+Pearl City
+Hanauma Bay
+Na Pali Coast | napali coast
+Waimea Canyon
+North Shore
+Pipeline | banzai pipeline
+Iolani Palace
+USS Arizona Memorial | arizona memorial
+Polynesian Cultural Center
+Dole Plantation
+Punchbowl Crater
+Hanalei | hanalei bay
+Poipu
+Lihue
+Kihei
+Wailea
+Hana | road to hana
+Akaka Falls
+Waipio Valley
+Utqiaġvik | barrow
+Valdez
+Seward
+Homer
+Skagway
+Wasilla
+Palmer
+Talkeetna
+Kenai | kenai peninsula
+Kenai Fjords
+Prudhoe Bay
+Yukon River
+Bering Strait
+Bering Sea
+Mendenhall Glacier
+Matanuska Glacier
+Inside Passage
+Brooks Range
+Arctic National Wildlife Refuge | anwr
+Katmai
+Wrangell-St. Elias | wrangell st elias
+Kotzebue
+Bethel
+Dutch Harbor | unalaska
+Point Hope
+[Deep Cut]
+Chugach Mountains
+Mount St. Elias
+Knik Arm
+Turnagain Arm
+Cook Inlet
+Prince William Sound
+Kachemak Bay
+Hubbard Glacier
+Iditarod Trail | iditarod
+Tongass National Forest | tongass
+Chena Hot Springs
+Gates of the Arctic
+Kobuk Valley
+Lake Clark
+Admiralty Island
+Baranof Island
+Prince of Wales Island
+Little Diomede
+Saint Lawrence Island
+Pribilof Islands
+Wrangell
+Petersburg
+Haines
+Cordova
+Whittier
+Girdwood
+Eagle River
+Chena River
+Tanana River
+Copper River
+Kuskokwim River
+Mount Redoubt
+Augustine Volcano
+Kalaupapa
+Molokini
+Kaanapali | ka'anapali
+Kapalua
+Makena
+Paia
+Haleiwa
+Sunset Beach
+Waimea Bay
+Ko Olina
+Kapolei
+Aiea
+Mililani
+Wahiawa
+Kalihi
+Manoa
+Ala Moana
+Aloha Tower
+Kualoa Ranch
+Lanikai Beach
+Chinaman's Hat | mokoli'i
+Halona Blowhole
+Punaluu black sand beach | black sand beach
+Hapuna Beach
+Kealakekua Bay
+Puuhonua o Honaunau
+Spouting Horn
+Wailua Falls
+Fern Grotto
+Kalalau Trail
+
+[Not accepted]
+Bora Bora
+Fiji
+Yukon
+
+# QUESTION
+pool: unlimited
+category: history
+prompt: Name a person, place, or thing from imperial China (before 1912)
+note: Dynasties, rulers, thinkers, inventions, places and objects from China's history before the Republic.
+
+[One in a Krillion]
+Zheng He
+
+[Too Clever]
+Mulan
+Panda | giant panda
+
+[Plankton]
+Great Wall of China | great wall
+Terracotta Army | terracotta warriors
+Confucius | kong fuzi
+Silk Road
+Forbidden City
+
+[Schooler]
+Dynasty | dynasties
+Emperor | emperors
+Qin Shi Huang | first emperor | shi huangdi
+Ming dynasty | ming
+Han dynasty | han
+Tang dynasty | tang
+Qing dynasty | qing
+Song dynasty | song
+Shang dynasty | shang
+Zhou dynasty | zhou
+Qin dynasty | qin
+Yuan dynasty | yuan
+Kublai Khan | kublai
+Genghis Khan
+Marco Polo
+Gunpowder
+Paper
+Printing | woodblock printing | movable type
+Compass
+Silk
+Porcelain | china
+Tea
+Kung fu
+Sun Tzu | sunzi
+The Art of War | art of war
+Laozi | lao tzu
+Taoism | daoism
+Confucianism
+Buddhism
+Calligraphy
+Chopsticks
+Fireworks
+Yangtze River | yangtze
+Yellow River
+Beijing | peking
+Mandate of Heaven
+
+[Rare]
+Empress Wu | wu zetian
+Empress Dowager Cixi | cixi
+Puyi | last emperor
+Emperor Kangxi | kangxi
+Emperor Qianlong | qianlong
+Yongle Emperor
+Hongwu Emperor | zhu yuanzhang
+Emperor Wu of Han
+Liu Bang
+Cao Cao
+Liu Bei
+Zhuge Liang
+Guan Yu
+Three Kingdoms
+Romance of the Three Kingdoms
+Journey to the West
+Sun Wukong | monkey king
+Mencius | mengzi
+Zhuangzi
+Li Bai
+Du Fu
+Han Feizi
+Legalism
+Warring States period
+Spring and Autumn period
+Opium Wars | opium war
+Boxer Rebellion | boxers
+Taiping Rebellion
+Xinhai Revolution | 1911 revolution
+Sun Yat-sen
+Hong Kong
+Macau
+Canton | guangzhou
+Xi'an | chang'an
+Nanjing
+Luoyang
+Kaifeng
+Hangzhou
+Grand Canal
+Summer Palace
+Temple of Heaven
+Mogao Caves
+Leshan Giant Buddha
+Shaolin Temple
+Jade
+Bronze vessels | ding
+Oracle bones
+Abacus
+Seismograph | zhang heng
+Kite | kites
+Wheelbarrow
+Crossbow
+Rocket
+Paper money
+Acupuncture
+Eunuchs | eunuch
+Concubines
+Mandarin | mandarins
+Civil service exam | imperial examination
+Scholar-officials
+Qipao | cheongsam
+Queue hairstyle | queue
+Foot binding
+Junk ship | junk
+Pagoda
+Dragon throne
+Jade Emperor
+Chinese zodiac
+Lunar New Year | chinese new year
+Lanterns | lantern festival
+
+[Deep Cut]
+Xia dynasty
+Sui dynasty
+Jin dynasty
+Liao dynasty
+Northern Wei
+Western Zhou
+Eastern Han
+Five Dynasties
+Huangdi | yellow emperor
+Emperor Yao
+Yu the Great
+King Wu of Zhou
+Duke of Zhou
+Emperor Gaozong
+Emperor Taizong | li shimin
+Emperor Xuanzong
+Yang Guifei
+Empress Lü
+Ban Zhao
+Sima Qian
+Records of the Grand Historian | shiji
+Cai Lun
+Bi Sheng
+Shen Kuo
+Zhang Qian
+Xuanzang
+Yue Fei
+Wang Anshi
+Su Shi
+Li Qingzhao
+Wang Xizhi
+Gu Kaizhi
+Wen Zhengming
+Lin Zexu
+Hong Xiuquan
+Li Hongzhang
+Zeng Guofan
+Meng Jiangnü
+Yuan Shikai
+Guangxu Emperor
+Hundred Days' Reform
+Self-Strengthening Movement
+Treaty of Nanking
+Treaty of Shimonoseki
+First Sino-Japanese War
+Red Turban Rebellion
+Yellow Turban Rebellion
+An Lushan Rebellion
+Battle of Red Cliffs
+Water Margin
+Dream of the Red Chamber
+I Ching
+Analects
+Tao Te Ching
+Book of Songs
+Five Classics
+Four Books
+Feng shui
+Yin and yang
+Qi
+Tai chi
+Wing Chun
+Old Summer Palace | yuanmingyuan
+Jiayuguan
+Shanhaiguan
+Zhoukoudian
+Peking Man
+Anyang
+Sanxingdui
+Mawangdui
+Jingdezhen
+Dunhuang
+Kashgar
+Silk worm | silkworms
+Tea Horse Road
+Celadon
+Ming vase
+Blue-and-white porcelain
+Cloisonné
+Lacquerware
+Seal script
+Bamboo slips
+Chinese characters | hanzi
+Manchus | manchu
+Mongols
+Xiongnu
+Jurchens
+Khitan
+Grand Secretariat
+Censorate
+Banner system | eight banners
+Hanlin Academy
+Imperial City
+Meridian Gate
+Hall of Supreme Harmony
+
+[Not accepted]
+Mao Zedong
+Samurai
+Taj Mahal
+
+# QUESTION
+pool: unlimited
+category: history
+prompt: Name a person, place, or thing connected to the Titanic
+note: The 1912 ship, its people, places and parts, and the wreck. The 1997 movie and its characters count as Too Clever.
+
+[One in a Krillion]
+Violet Jessop | miss unsinkable
+
+[Too Clever]
+Jack Dawson | jack
+Rose DeWitt Bukater | rose
+Heart of the Ocean | necklace
+The door | door
+Titanic movie | titanic 1997
+Leonardo DiCaprio | leo
+Celine Dion | my heart will go on
+
+[Plankton]
+Iceberg
+Lifeboats | lifeboat
+Captain Edward Smith | captain smith | edward smith | the captain
+Atlantic Ocean | north atlantic
+Unsinkable
+
+[Schooler]
+RMS Titanic | titanic
+Molly Brown | unsinkable molly brown | margaret brown
+White Star Line
+Carpathia | rms carpathia
+SOS | distress call | cqd
+James Cameron
+Wreck | the wreck | shipwreck
+Southampton
+New York
+1912 | april 15 1912 | april 14 1912
+Grand Staircase
+First class
+Third class | steerage
+Second class
+Crow's nest
+Band | the band kept playing
+Smokestacks | funnels
+Iceberg warnings | ice warnings
+Robert Ballard
+Belfast
+Bow
+Stern
+Propellers
+
+[Rare]
+Harland and Wolff
+Thomas Andrews
+J. Bruce Ismay | bruce ismay | ismay
+John Jacob Astor | astor
+Madeleine Astor
+Isidor and Ida Straus | isidor straus | ida straus | the strauses
+Benjamin Guggenheim
+Wallace Hartley
+Frederick Fleet
+Jack Phillips
+Harold Bride
+Charles Lightoller
+William Murdoch
+Joseph Boxhall
+Harold Lowe
+Herbert Pitman
+Arthur Rostron
+Stanley Lord
+SS Californian | californian
+RMS Olympic | olympic
+HMHS Britannic | britannic
+Cherbourg
+Queenstown | cobh
+Halifax
+Newfoundland
+Marconi | marconi wireless
+Wireless operator | radio room
+Nearer, My God, to Thee | nearer my god to thee
+Women and children first
+Rivets
+Watertight compartments | bulkheads
+Boiler room | boilers
+Engine room
+Promenade deck
+Boat deck
+Bridge
+Gymnasium
+Turkish bath
+Swimming pool
+Café Parisien
+Dining saloon
+Smoking room
+À la carte restaurant
+Marconi room
+Distress rockets | flares
+Binoculars
+Lookout
+Titanic museum | titanic belfast
+Titanic Memorial
+Fairview Cemetery
+Expedition | dives | submersible
+Alvin
+Titan submersible | oceangate
+Titanic II
+
+[Deep Cut]
+Charles Joughin | the baker
+Lawrence Beesley
+Archibald Gracie
+Dorothy Gibson
+Lady Duff-Gordon
+Cosmo Duff-Gordon
+Countess of Rothes | noël leslie
+Millvina Dean
+Eva Hart
+Ruth Becker
+Jack Thayer
+John Thayer
+Edith Rosenbaum
+Helen Churchill Candee
+Washington Dodge
+William Stead
+Archibald Butt
+Francis Millet
+Thomas Byles
+Henry Wilde
+James Moody
+William Pirrie | lord pirrie
+Alexander Carlisle
+Senator William Alden Smith
+US Senate inquiry
+British Wreck Commissioner's inquiry
+SOLAS
+International Ice Patrol
+Collapsible boats | collapsibles
+Lifeboat drill
+Joseph Bell
+Hull | hull plates
+Keel
+Rudder
+Forecastle
+Poop deck
+Well deck
+Orlop deck
+Mail room
+Squash court
+Verandah Café
+Reception room
+Wireless antenna
+Masts | mast
+Anchor
+Deck chairs
+Titanic: The Musical
+A Night to Remember
+Cal Hockney | cal
+Fabrizio
+Ruth DeWitt Bukater
+Brock Lovett
+Old Rose
+King of the world | i'm flying
+
+[Not accepted]
+Bismarck
+Pearl Harbor
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a word or phrase that means "eat"
+note: Verbs and slang for eating, from formal (dine) to casual (scarf down, chow down).
+
+[One in a Krillion]
+Masticate
+
+[Too Clever]
+Nom nom | nom
+Mukbang
+Om nom nom
+Feed your face
+
+[Plankton]
+Munch
+Devour
+Chew
+Snack
+Feast
+
+[Schooler]
+Dine
+Gobble | gobble up
+Scarf | scarf down
+Wolf | wolf down
+Nibble
+Chow down | chow
+Consume
+Swallow
+Bite
+Graze
+Pig out
+Chomp
+Gulp
+Binge
+Inhale
+Stuff your face | stuff yourself
+Grub
+Lunch
+Breakfast
+Brunch
+Sup | supper
+Taste
+
+[Rare]
+Ingest
+Gorge
+Gormandize | gourmandize
+Feed
+Nosh
+Partake
+Polish off
+Put away
+Tuck in | tuck into
+Dig in
+Have a bite
+Grab a bite
+Break bread
+Wine and dine
+Peck at
+Pick at
+Snarf
+Demolish
+Destroy
+Tear into
+Clean your plate
+Eat up
+Fill up
+Load up
+Bolt
+Guzzle
+Slurp
+Lick
+Gnaw
+Crunch
+Champ
+Chaw
+Savor
+Eat out
+Dine in
+Hoover | hoover up
+Shovel in
+Cram
+Stuff
+Overeat
+
+[Deep Cut]
+Manducate
+Ruminate
+Regale
+Batten
+Engorge
+Glut
+Fress
+Nyam
+Scoff
+Trough
+Get stuck in
+Bog in
+Carb load
+Eat someone out of house and home
+Make a pig of yourself
+Raid the fridge
+Murder | crush | smash
+House | housed
+Throw down
+Eat like a horse
+Victual
+
+[Not accepted]
+Drink
+Cook
+
+# QUESTION
+pool: unlimited
+category: words-language
+prompt: Name a compound word that starts with "foot" or "hand"
+note: Closed or hyphenated compounds beginning with foot- or hand- (football, handshake, hand-me-down).
+
+[One in a Krillion]
+Handsel
+
+[Too Clever]
+Handsome
+Handkerchief | hankie
+Footloose
+Handicap
+
+[Plankton]
+Football | footballs
+Footprint | footprints
+Handshake
+Handbag
+Handball
+
+[Schooler]
+Footstep | footsteps
+Footnote
+Footpath
+Footwear
+Footstool
+Footlocker | foot locker
+Footbridge
+Foothill | foothills
+Foothold
+Footrest
+Footage
+Footwork
+Footboard
+Footman
+Handcuff | handcuffs
+Handout
+Handmade
+Handwriting
+Handyman | handy man
+Handlebar | handlebars
+Handstand
+Handrail
+Handbook
+Handful
+Handheld
+Handoff
+Handsaw
+Handwritten
+Hand-me-down | hand me down
+Handgun
+Handset
+Handspring
+Handpicked
+Handbrake
+
+[Rare]
+Footfall
+Footlights
+Footing
+Footsie
+Footsore
+Footbath
+Footpad
+Footplate
+Footboy
+Footrace
+Footslog
+Footbag
+Footgear
+Foot-candle
+Foot-pound
+Footy
+Handbill
+Handbell
+Handcart
+Handcraft
+Handcrafted
+Handgrip
+Handhold
+Handiwork
+Handloom
+Handmaid | handmaiden
+Handover
+Handpiece
+Handprint
+Handsfree | hands-free
+Hands-on
+Handwash
+Handwork
+Handwringing
+Handclap
+Handclasp
+Handguard
+Handlebar mustache
+Handsy
+Handspike
+Handstroke
+Handwave | handwaving
+Handpump
+Handbasket
+
+[Deep Cut]
+Footmark
+Footwall
+Footwell
+Footway
+Footrope
+Footscraper
+Footsoldier | foot soldier
+Handbarrow
+Handbreadth
+Handcar
+Handfast | handfasting
+Handmill
+Handstamp
+Handtowel | hand towel
+Handtruck | hand truck
+Handwarmer | hand warmer
+Handwheel
+
+[Not accepted]
+Foot
+Hand
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something that has buttons
+note: Objects with push buttons or clothing buttons. Belly buttons count as Too Clever.
+
+[One in a Krillion]
+Accordion
+
+[Too Clever]
+Belly button | navel
+Cute as a button
+Panic button
+Nuclear button
+
+[Plankton]
+Remote | remote control | tv remote
+Phone | cell phone
+Keyboard | computer keyboard
+Shirt | shirts | button-up shirt
+Coat | jacket
+
+[Schooler]
+Game controller | controller
+Calculator
+Microwave
+Elevator
+Doorbell
+Mouse | computer mouse
+Jeans | pants
+Vest
+Blouse
+Cardigan
+Pajamas
+Overalls
+Polo shirt
+Peacoat | pea coat
+Sweater
+Dress
+Camera
+Laptop
+Video game console | xbox | playstation | nintendo switch
+TV | television
+Washing machine | washer
+Dryer
+Dishwasher
+Oven | stove
+Alarm clock
+Watch | smartwatch
+
+[Rare]
+Car key fob | key fob
+Garage door opener
+Vending machine
+ATM
+Cash register
+Arcade machine
+Blender
+Coffee maker
+Toaster oven
+Air fryer
+Printer
+Copier
+Radio
+Walkie-talkie
+Headphones | earbuds
+Speaker | bluetooth speaker
+Flashlight
+Thermostat
+Treadmill
+Exercise bike
+Crosswalk button | crosswalk
+Light switch | push button switch
+Intercom
+Security keypad | alarm panel
+Gas pump
+Pinball machine
+Jukebox
+Electric toothbrush
+Hair dryer
+Fan
+Space heater
+Smoke detector
+Baby monitor
+Stopwatch
+Timer
+Scale
+Drum machine
+Synthesizer | synth
+Piano keyboard
+Clarinet | saxophone
+Backpack
+Jean jacket | denim jacket
+Onesie
+Uniform
+Lab coat
+Blazer
+Suit jacket | suit
+Trench coat
+Duffle coat
+Raincoat
+Shorts
+Skirt
+Romper
+
+[Deep Cut]
+Airplane cockpit
+Control panel
+Space shuttle
+Spaceship
+Game Boy
+Tamagotchi
+Hospital bed
+Call button
+Dentist chair
+Massage chair
+Recliner
+Golf cart
+Tractor
+Forklift
+Drone controller
+Metal detector
+Label maker
+Paper shredder
+Laminator
+Fax machine
+Landline phone | cordless phone
+Answering machine
+Typewriter
+Cassette player | walkman
+CD player
+DVD player
+VCR
+Projector
+Smart speaker
+Kindle
+iPod
+Fitbit
+Pager
+Calculator watch
+Night light
+Lamp
+Air conditioner
+Humidifier
+Dehumidifier
+Water dispenser
+Ice maker
+Refrigerator | fridge
+Rice cooker
+Instant Pot
+Bread maker
+Food processor
+Espresso machine
+Pressure washer
+Power drill | drill
+Car | car dashboard
+Tufted couch | tufted sofa
+Tufted pillow
+Teddy bear | stuffed animal
+Talking toy
+Toaster
+Slow cooker | crockpot
+Electric kettle
+
+[Not accepted]
+Zipper
+Velcro
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something that has a lid
+note: Containers and objects with a lid, cap or cover that lifts or screws off. Eyelids count as Too Clever.
+
+[One in a Krillion]
+Sarcophagus | coffin | casket
+
+[Too Clever]
+Eyelid | eyelids | eye
+Laptop
+Piano | grand piano
+Toilet
+Treasure chest | chest
+
+[Plankton]
+Pot | pots | cooking pot
+Jar | jars
+Box | boxes
+Trash can | garbage can | trash bin | bin
+Cup | coffee cup | to-go cup
+
+[Schooler]
+Pan | saucepan
+Water bottle | bottle
+Tupperware | container | food container
+Lunchbox | lunch box
+Cooler
+Thermos
+Tumbler | stanley cup
+Washing machine | washer
+Teapot | tea kettle | kettle
+Coffee pot
+Cookie jar
+Mason jar
+Pickle jar
+Peanut butter jar
+Crock pot | slow cooker
+Blender
+Shoebox | shoe box
+Jewelry box
+Toy box | toy chest
+Music box
+Paint can
+Bucket
+Hamper | laundry hamper
+Mailbox
+Piggy bank
+
+[Rare]
+Dutch oven
+Pressure cooker | instant pot
+Rice cooker
+Wok
+Casserole dish
+Butter dish
+Sugar bowl
+Gravy boat
+Soup tureen | tureen
+Teacup
+Sippy cup
+Travel mug
+Coffee mug
+Tea tin | tin | cookie tin
+Canister | canisters
+Spice jar
+Ice chest
+Hot tub | jacuzzi
+Sandbox
+Storage bin | storage tub
+Tote | tote bin
+Recycling bin
+Compost bin
+Dumpster
+Diaper pail
+Pill bottle
+Pillbox | pill organizer
+Lip balm | chapstick
+Lipstick
+Makeup compact | compact
+Contact lens case
+Eyeglass case
+Pencil box | pencil case
+Tackle box
+Toolbox | tool box
+Tool chest
+Cigar box
+Humidor
+Ballot box
+Time capsule
+Urn
+Vase
+Trunk | steamer trunk
+Suitcase
+Briefcase
+Hatbox | hat box
+Bread box
+Freezer | chest freezer
+Ice cream container | pint
+Yogurt cup
+Takeout container
+Soda cup
+Pizza box
+
+[Deep Cut]
+Puzzle box
+Pandora's box
+Jack-in-the-box
+Snuffbox
+Tinderbox
+Matchbox
+Sewing box
+Bento box
+Cake carrier
+Pie carrier
+Cheese dome
+Butter crock
+Jam jar
+Ketchup bottle
+Baby food jar
+Baby wipes container
+Tissue box
+Toilet tank
+Manhole
+Fish tank | aquarium
+Terrarium
+Cat litter box
+Rain barrel
+Hope chest
+Blanket chest
+Ottoman | storage ottoman
+Record player | turntable
+Instrument case | guitar case | violin case
+AirPods case
+Cocktail shaker
+Ice bucket
+Wine cooler
+Grill | barbecue
+Gas can
+Car hood | hood
+Gas tank | fuel tank
+Ring box
+Keepsake box
+Phone case
+
+[Not accepted]
+Door
+Window
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something that's sharp
+note: Objects, tools, animal parts and natural things with a sharp point or edge.
+
+[One in a Krillion]
+Obsidian
+
+[Too Clever]
+Cheddar | sharp cheddar
+Sharp note | sharp
+Sharp mind | wit
+
+[Plankton]
+Knife | knives
+Scissors
+Needle | needles
+Sword | swords
+Pencil | pencil tip
+
+[Schooler]
+Razor | razor blade
+Blade
+Axe | ax
+Saw
+Nail | nails
+Thumbtack | tack | pushpin
+Pin | safety pin | sewing pin
+Thorn | thorns
+Cactus | cactus needles | spines
+Teeth | tooth | fangs
+Claws | claw | talons
+Glass | broken glass
+Dagger
+Spear
+Arrow | arrowhead
+Fork
+Scalpel
+Syringe
+Box cutter | utility knife | x-acto knife | exacto
+Paper | paper cut
+Shark teeth
+Ice skate blade | skates
+Cleats
+Barbed wire
+Can lid | tin can lid
+Staple | staples
+
+[Rare]
+Machete
+Sickle
+Scythe
+Pickaxe | pick
+Chisel
+Awl
+Drill bit
+Ice pick
+Icicle
+Lawn mower blade
+Hedge trimmer
+Pruning shears | pruners
+Meat cleaver | cleaver
+Pizza cutter
+Cheese grater | grater
+Peeler | vegetable peeler
+Mandoline
+Steak knife
+Chef's knife
+Bread knife
+Pocketknife | pocket knife | swiss army knife
+Switchblade
+Katana
+Bayonet
+Lance
+Javelin
+Trident
+Harpoon
+Fish hook | hook
+Porcupine quills | quills
+Hedgehog spines
+Beak | beaks
+Horn | horns
+Antlers
+Tusks
+Stinger | bee stinger
+Spikes | spiked collar
+Barbs
+Broken bottle
+Shard | shards
+Splinter
+Rose stem | rose thorns
+Holly leaves
+Thistle
+Sandspur | sandbur | burr
+Rock | sharp rocks | flint
+Coral
+Seashell | shells
+Sea urchin
+Can opener
+Wire cutters
+Tin snips
+Sheet metal
+Razor wire
+Saw blade
+Circular saw
+Chainsaw
+Shuriken | throwing star
+Throwing knife
+Kunai
+Sai
+Toothpick
+Skewer
+Letter opener
+Nail clippers
+Nail file
+Tweezers
+Shaver
+Dart | darts
+Pen nib | nib
+Compass point | compass
+Fingernails | fingernail
+Scorpion stinger
+Snake fangs
+
+[Deep Cut]
+Scimitar
+Saber | sabre
+Rapier
+Cutlass
+Claymore
+Longsword
+Broadsword
+Gladius
+Halberd
+Pike
+Glaive
+Kukri
+Bowie knife
+Tomahawk
+Hatchet
+Adze
+Drawknife
+Router bit
+Spade bit
+Countersink
+Rasp
+Scraper
+Craft knife
+Rotary cutter
+Knitting needle
+Crochet hook
+Hypodermic needle
+Lancet
+Barnacles
+Stingray barb
+Lionfish spines
+Swordfish bill
+Narwhal tusk
+Rhino horn
+Piranha teeth
+Agave spike
+Yucca leaf
+Sawgrass
+Pine needles
+Chestnut burr
+
+[Not accepted]
+Pillow
+Ball
+Spoon
+
+# QUESTION
+pool: unlimited
+category: everyday-objects
+prompt: Name something people hang on a wall
+note: Things people hang or mount on walls at home, school or work.
+
+[One in a Krillion]
+Tapestry
+
+[Too Clever]
+Wallpaper
+Graffiti
+Dartboard
+Coats | coat
+
+[Plankton]
+Picture | pictures | picture frame
+Painting | paintings | art | artwork
+Mirror | mirrors
+Clock | wall clock
+Poster | posters
+
+[Schooler]
+Photo | photos | photograph | family photo
+Calendar
+TV | television | flat screen
+Shelf | shelves | floating shelves
+Sign | signs
+Flag | flags
+Diploma | certificate | degree
+Wreath
+Hooks | hook | coat hook
+Coat rack
+Key holder | key hook
+Whiteboard | dry erase board
+Chalkboard
+Bulletin board | cork board | corkboard
+String lights | fairy lights | led lights
+Curtains | drapes
+Blinds
+Lamp | sconce | wall lamp
+Fan
+Map | world map
+Jersey | framed jersey
+Banner
+Award | plaque | plaques
+Collage | photo collage
+Canvas | canvas print
+Pennant
+
+[Rare]
+Mounted deer head | deer head | trophy mount
+Fish mount | mounted fish
+Antlers
+Taxidermy
+Sword | swords
+Guitar | guitar hanger
+Hat rack | hats
+Skateboard deck
+Surfboard
+Bike | bike rack
+Wall decal | decals | stickers
+Mural
+Fire extinguisher
+First aid kit
+Plant | hanging plant | wall planter
+Macramé | macrame
+Dreamcatcher | dream catcher
+Wind chime
+Quilt
+Rug
+Cross | crucifix
+Religious icon
+Mezuzah
+Horseshoe
+Ceramic plates | plates
+Cuckoo clock
+Barometer
+Thermometer
+Mirror ball
+Neon sign
+Vinyl records | records
+Album covers
+Concert tickets
+Polaroids | polaroid
+Postcards
+Kids' drawings | drawings
+Chore chart
+Schedule | timetable
+Periodic table
+Exit sign
+Shadow box
+Gallery wall
+Medals | medal hanger
+Ribbons
+Tools | pegboard
+Christmas lights
+Stockings
+Garland
+Mistletoe
+Bunting
+Spice rack
+Pot rack
+Knife magnet | magnetic knife strip
+Paper towel holder
+Towel rack | towel bar | towels
+Toilet paper holder
+Robe hook
+Jewelry organizer
+Mail organizer
+
+[Deep Cut]
+Escutcheon
+Coat of arms
+Shield
+License plates
+Hubcaps
+Fan art
+Movie poster
+Band poster
+Vision board
+Mood board
+Stained glass
+Blueprint
+Anatomy chart
+Eye chart
+Height chart
+Growth chart
+Word wall
+Projector screen
+Smart board
+Wall phone | landline
+Ski | skis
+Hockey stick
+Medicine cabinet
+Speakers | speaker
+
+[Not accepted]
+Floor
+Ceiling
