@@ -48,10 +48,27 @@ async function get<T>(path: string): Promise<T> {
 
 const emoji = (t: number | null) => (t ? tierInfo(t as TierPoints).emoji : MISS_EMOJI);
 
-/** Colour for a day on the calendar: deeper dives are darker blue. */
+/**
+ * Colour for a day on the calendar, following the ocean zones: bright aqua for
+ * shallow dives, through blue and indigo, to dark purple for the deepest.
+ */
+const DEPTH_STOPS: [number, number, number, number][] = [
+  // [depth m, hue, saturation %, lightness %]
+  [0, 170, 70, 62],
+  [1000, 195, 80, 52],
+  [2500, 222, 75, 45],
+  [4000, 260, 65, 38],
+  [5500, 290, 60, 28],
+  [7000, 310, 55, 18],
+];
 function depthColor(depth: number) {
-  const t = Math.min(1, depth / 5000);
-  return `hsl(${200 - t * 30} ${70 + t * 10}% ${62 - t * 38}%)`;
+  const d = Math.max(0, Math.min(7000, depth));
+  let i = 0;
+  while (i < DEPTH_STOPS.length - 2 && d > DEPTH_STOPS[i + 1][0]) i++;
+  const [d0, h0, s0, l0] = DEPTH_STOPS[i];
+  const [d1, h1, s1, l1] = DEPTH_STOPS[i + 1];
+  const t = (d - d0) / (d1 - d0);
+  return `hsl(${h0 + (h1 - h0) * t} ${s0 + (s1 - s0) * t}% ${l0 + (l1 - l0) * t}%)`;
 }
 
 function monthLabel(y: number, m: number) {
@@ -105,7 +122,7 @@ function Calendar({ days, onPick, picked }: { days: Map<string, LogbookData["dai
         })}
       </div>
       <p className="muted small center">
-        {played} Dail{played === 1 ? "y" : "ies"} this month. Darker days went deeper. Tap one to see your answers.
+        {played} Dail{played === 1 ? "y" : "ies"} this month. Aqua days were shallow; purple days went deepest. Tap one to see your answers.
       </p>
     </div>
   );
