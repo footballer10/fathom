@@ -74,6 +74,7 @@ export function PlayersTab() {
   return (
     <div>
       <FindPlayer onOpen={async (id) => setOpen(await admin<PlayerDetail>(`/api/admin/player/${encodeURIComponent(id)}`))} />
+      <BannedList />
       <details className="admin-gift-box">
         <summary>🎁 Give a player items or pearls</summary>
         <GiftPanel />
@@ -155,6 +156,7 @@ export function PlayersTab() {
               Joined {when(open.joined)}
               {open.friendCode ? ` · friend code ${open.friendCode}` : ""} · {open.pearls.toLocaleString()} pearls · {open.owned.length} items
             </p>
+            <BanButton player={open} onBanned={() => setOpen(null)} />
             <DivesPanel key={`d-${open.id}`} playerId={open.id} />
             <details className="admin-gift-box">
               <summary>🎁 Give this player items or pearls</summary>
@@ -595,8 +597,8 @@ interface AdminDive {
 
 /**
  * Every dive a player has taken, newest first, each with a Remove button that
- * takes it out of their stats and the leaderboards (for cheating). Fast, rare
- * answers are highlighted, since that's what pasting from an AI looks like.
+ * takes it out of their stats and the leaderboards (for cheating). Each answer
+ * shows how many seconds it took.
  */
 function DivesPanel({ playerId }: { playerId: string }) {
   const [data, setData] = useState<{ dives: AdminDive[]; removed: { kind: string; summary: string; pearls_taken: number; removed_at: number }[] } | null>(null);
@@ -628,8 +630,6 @@ function DivesPanel({ playerId }: { playerId: string }) {
   };
 
   if (!data) return <p className="muted small">Loading dives…</p>;
-  /** Rare-or-better answers in under 4 seconds look pasted. */
-  const suspicious = (d: AdminDive) => d.answers.filter((a) => (a.tier ?? 0) >= 60 && a.seconds !== null && a.seconds < 4).length;
   return (
     <div className="admin-dives">
       <h4>Dives ({data.dives.length})</h4>
@@ -640,9 +640,8 @@ function DivesPanel({ playerId }: { playerId: string }) {
       {data.dives.length === 0 && <p className="muted small">No dives on record.</p>}
       <ul className="admin-dive-list">
         {data.dives.map((d) => {
-          const sus = suspicious(d);
           return (
-            <li key={`${d.kind}-${d.ref}`} className={sus >= 3 ? "admin-dive--sus" : ""}>
+            <li key={`${d.kind}-${d.ref}`}>
               <div className="admin-dive-head">
                 <button className="link-btn admin-dive-title" onClick={() => setOpenRef(openRef === d.ref ? null : d.ref)} disabled={!d.answers.length}>
                   {d.answers.length ? (openRef === d.ref ? "▾ " : "▸ ") : ""}
@@ -651,7 +650,6 @@ function DivesPanel({ playerId }: { playerId: string }) {
                 <span className="muted small">{when(d.at)}</span>
                 <span className="small">{d.score}</span>
                 {d.avgSeconds !== null && <span className="muted small">avg {d.avgSeconds}s</span>}
-                {sus > 0 && <span className="admin-bad small">⚠ {sus} fast rare</span>}
                 <button className="btn btn--small admin-danger" disabled={busy !== null} onClick={() => void remove(d)}>
                   {busy === d.ref ? "Removing…" : "Remove"}
                 </button>
@@ -659,7 +657,7 @@ function DivesPanel({ playerId }: { playerId: string }) {
               {openRef === d.ref && (
                 <ol className="admin-dive-answers">
                   {d.answers.map((a, i) => (
-                    <li key={i} className={(a.tier ?? 0) >= 60 && a.seconds !== null && a.seconds < 4 ? "admin-bad" : ""}>
+                    <li key={i}>
                       <span className="muted">{a.prompt}</span> → <b>{a.canonical ?? "missed"}</b>
                       {a.tier ? ` · ${tierInfo(a.tier as TierPoints).name}` : ""}
                       {a.seconds !== null ? ` · ${a.seconds}s` : ""}
@@ -685,5 +683,80 @@ function DivesPanel({ playerId }: { playerId: string }) {
         </details>
       )}
     </div>
+  );
+}
+
+
+/** Ban: asks for a reason, then asks you to confirm, before anything happens. */
+function BanButton({ player, onBanned }: { player: PlayerDetail; onBanned: () => void }) {
+  const [busy, setBusy] = useState(false);
+  const [msg, setMsg] = useState<string | null>(null);
+  const name = player.nickname ?? "this guest";
+  const ban = async () => {
+    const reason = window.prompt(`Why are you banning ${name}? This is shown to them. (Optional, leave blank for no reason.)`, "Using AI to cheat");
+    if (reason === null) return; // cancelled
+    const ok = window.confirm(
+      `Ban ${name}${player.username ? ` (@${player.username})` : ""}?\n\n` +
+        "• Their account is deleted (the username and password stop working)\n" +
+        "• They're taken off every leaderboard\n" +
+        "• Their pearls and items are wiped\n" +
+        "• Next time they open Fathom they're told they were banned\n\n" +
+        "The account can't be brought back.",
+    );
+    if (!ok) return;
+    setBusy(true);
+    setMsg(null);
+    try {
+      await admin("/api/admin/ban", { body: { playerId: player.id, reason: reason.trim() } });
+      alert(`${name} has been banned.`);
+      onBanned();
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  return (
+    <div className="admin-ban">
+      <button className="btn btn--small admin-danger" disabled={busy} onClick={() => void ban()}>
+        🚫 {busy ? "Banning…" : "Ban player"}
+      </button>
+      {msg && <span className="small">{msg}</span>}
+    </div>
+  );
+}
+
+/** Everyone who's been banned, with a way to lift a ban. */
+function BannedList() {
+  const [bans, setBans] = useState<{ player_id: string; username_key: string | null; nickname: string | null; reason: string; banned_at: number }[] | null>(null);
+  const load = useCallback(() => {
+    admin<{ bans: NonNullable<typeof bans> }>("/api/admin/bans")
+      .then((r) => setBans(r.bans))
+      .catch(() => setBans([]));
+  }, []);
+  useEffect(load, [load]);
+  if (!bans || bans.length === 0) return null;
+  const unban = async (b: (typeof bans)[number]) => {
+    const who = b.nickname ?? b.username_key ?? "this player";
+    if (!confirm(`Lift the ban on ${who}? They can play again, but their deleted account, pearls and items don't come back.`)) return;
+    await admin("/api/admin/unban", { body: { playerId: b.player_id } });
+    load();
+  };
+  return (
+    <details className="admin-gift-box">
+      <summary>🚫 Banned players ({bans.length})</summary>
+      <ul className="admin-activity">
+        {bans.map((b) => (
+          <li key={b.player_id}>
+            <span className="muted small">{when(b.banned_at)}</span> <b>{b.nickname ?? "Guest"}</b>
+            {b.username_key ? ` @${b.username_key}` : ""}
+            {b.reason ? ` · ${b.reason}` : ""}{" "}
+            <button className="link-btn small" onClick={() => void unban(b)}>
+              Unban
+            </button>
+          </li>
+        ))}
+      </ul>
+    </details>
   );
 }

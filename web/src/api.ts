@@ -11,6 +11,7 @@ import type {
   Look,
 } from "@fathom/shared";
 import { getPlayerId } from "./player";
+import { checkBanned } from "./banned";
 
 /**
  * Thin client for the solo API. In Phase 1 these routes are served by the
@@ -36,6 +37,7 @@ async function call<T>(method: "GET" | "POST" | "DELETE", path: string, body?: u
     body: body === undefined ? undefined : JSON.stringify(body),
   });
   const data = await res.json().catch(() => ({}));
+  if (!res.ok) checkBanned(data);
   if (!res.ok) throw Object.assign(new Error(data.error ?? `Request failed (${res.status})`), { code: data.code as string | undefined });
   if (typeof data.serverNow === "number") syncClock(data.serverNow, Date.now() - sentAt);
   return data as T;

@@ -5,6 +5,7 @@ import { getQuestions } from "./questions";
 import { ensureSchema, lbStatsStatements } from "./schema";
 import { ensureRewards } from "./rewards";
 import { clearLeaderboardCache } from "./leaderboards";
+import { banPlayer, listBans, unbanPlayer } from "./bans";
 
 /**
  * Admin: see every dive one player has taken, and remove any of them from the
@@ -259,6 +260,21 @@ export function registerAdminDives(routes: Hono<AppEnv>) {
       .bind(id)
       .all();
     return c.json({ dives: await listDives(c.env, id), removed: removed.results });
+  });
+
+  routes.post("/api/admin/ban", async (c) => {
+    const body = await c.req.json<{ playerId?: string; reason?: string }>().catch(() => ({}) as Record<string, never>);
+    if (!body.playerId) throw new HttpError(400, "Missing player");
+    return c.json({ ok: true, ...(await banPlayer(c.env, body.playerId, String(body.reason ?? "").trim(), Date.now())) });
+  });
+
+  routes.get("/api/admin/bans", async (c) => c.json({ bans: await listBans(c.env) }));
+
+  routes.post("/api/admin/unban", async (c) => {
+    const body = await c.req.json<{ playerId?: string }>().catch(() => ({}) as Record<string, never>);
+    if (!body.playerId) throw new HttpError(400, "Missing player");
+    await unbanPlayer(c.env, body.playerId);
+    return c.json({ ok: true });
   });
 
   routes.post("/api/admin/remove-dive", async (c) => {

@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import type { Context } from "hono";
 import { HttpError } from "./env";
 import type { Env } from "./env";
+import { assertUsernameNotBanned } from "./bans";
 
 /**
  * Optional accounts: a username and password that point at a player.
@@ -116,6 +117,7 @@ accountRoutes.post("/api/account/login", async (c) => {
   const username = String(body.username ?? "").trim();
   const password = String(body.password ?? "");
   if (!username || !password) throw new HttpError(400, "Enter your username and password");
+  await assertUsernameNotBanned(c.env, username);
   await ensureAccounts(c.env);
   const row = await c.env.DB.prepare("SELECT * FROM accounts WHERE username_key = ?").bind(username.toLowerCase()).first<AccountRow>();
   if (!row) throw new HttpError(401, `There's no account called ${username}. Check the spelling, or sign up.`);

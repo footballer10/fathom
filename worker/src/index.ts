@@ -14,6 +14,7 @@ import { suggestionRoutes } from "./suggestions";
 import { practiceRoutes } from "./practice";
 import { isLocalHost, meterDb, type Tally } from "./meter";
 import { accountRoutes } from "./accounts";
+import { assertNotBanned } from "./bans";
 
 export { Room } from "./room";
 
@@ -45,6 +46,9 @@ app.use("/api/*", async (c, next) => {
   // Local dev only: count database rows per request (see meter.ts).
   const tally: Tally | null = isLocalHost(c.req.url) ? { read: 0, written: 0 } : null;
   if (tally) c.env = { ...c.env, DB: meterDb(c.env.DB, tally) };
+  // Banned players get "you've been banned" instead of the game (the admin portal is exempt).
+  const path = new URL(c.req.url).pathname;
+  if (!path.startsWith("/api/admin") && path !== "/api/health") await assertNotBanned(c.env, c.req.header("X-Player-Id"));
   await next();
   c.header("Cache-Control", "no-store");
   if (tally) {

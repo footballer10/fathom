@@ -30,6 +30,7 @@ import { refreshRewards, useMyLook } from "./rewards";
 import { CelebrationLayer } from "./components/Cosmetics";
 import { PearlToast, QuestsPage, ShopPage } from "./components/RewardsPages";
 import { LogbookPage } from "./components/Logbook";
+import { useBanned } from "./banned";
 
 type Screen =
   | { name: "home" }
@@ -50,6 +51,7 @@ export function App() {
   // One animated depth value drives the background, creatures, particles and gauge.
   const depth = useMotionValue(0);
   const look = useMyLook();
+  const banned = useBanned();
 
   // Pearl balance, quests and your shop look, loaded once (and refreshed after games).
   useEffect(() => void refreshRewards(false), []);
@@ -143,6 +145,9 @@ export function App() {
     [diveTo],
   );
 
+  // After every hook above, so the banned screen never changes how many hooks run.
+  if (banned) return <BannedScreen message={banned} />;
+
   return (
     <MotionConfig reducedMotion={settings.reducedMotion ? "always" : "never"}>
       <Ocean key={look.theme} depth={depth} theme={look.theme} />
@@ -224,5 +229,21 @@ export function App() {
       <CelebrationLayer reducedMotion={settings.reducedMotion} />
       <PearlToast />
     </MotionConfig>
+  );
+}
+
+/** Shown instead of the game to a banned player. */
+function BannedScreen({ message }: { message: string }) {
+  return (
+    <div className="banned-screen" role="alertdialog" aria-labelledby="banned-title">
+      <div className="card banned-card">
+        <div className="banned-icon" aria-hidden>
+          🚫
+        </div>
+        <h2 id="banned-title">You've been banned</h2>
+        <p>{message}</p>
+        <p className="muted small">Your account has been deleted and your scores have been taken off the leaderboards.</p>
+      </div>
+    </div>
   );
 }

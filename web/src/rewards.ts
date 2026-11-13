@@ -2,6 +2,7 @@ import { useSyncExternalStore } from "react";
 import { DEFAULT_LOOK } from "@fathom/shared";
 import type { Look, Quest, Slot } from "@fathom/shared";
 import { getPlayerId } from "./player";
+import { checkBanned } from "./banned";
 
 /**
  * Pearls, quests and your equipped look, shared by every screen.
@@ -46,6 +47,7 @@ async function call(method: "GET" | "POST", path: string, body?: unknown): Promi
     body: body === undefined ? undefined : JSON.stringify(body),
   });
   const data = await res.json().catch(() => ({}));
+  if (!res.ok) checkBanned(data);
   if (!res.ok) throw new Error(data.error ?? `Request failed (${res.status})`);
   return data as RewardsStatus;
 }

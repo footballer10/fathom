@@ -39,6 +39,7 @@ import type {
 import type { Env } from "./env";
 import { recordPartyResults } from "./leaderboards";
 import { looksOf } from "./rewards";
+import { assertNotBanned } from "./bans";
 import { recordRejected } from "./rejected";
 import { getIndex, getQuestions, markRoomSeen, pickRoomQuestions } from "./questions";
 
@@ -455,6 +456,13 @@ export class Room extends DurableObject<Env> {
   private async onJoin(ws: WebSocket, playerId: string, nicknameRaw: string, now: number) {
     const s = this.s!;
     if (!/^[\w-]{8,64}$/.test(String(playerId))) return this.send(ws, { type: "error", message: "Bad player id" });
+    try {
+      await assertNotBanned(this.env, playerId);
+    } catch (e) {
+      this.send(ws, { type: "error", message: (e as Error).message });
+      ws.close(4003, "Banned");
+      return;
+    }
     const nickname = String(nicknameRaw ?? "").trim().slice(0, 16);
     if (s.kicked?.includes(playerId)) {
       this.send(ws, { type: "error", message: "The host removed you from this room." });
