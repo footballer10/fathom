@@ -679,6 +679,7 @@ function DiveQuestion({
   reducedMotion: boolean;
   tiers: Record<number, TierPoints | null>;
 }) {
+  const [hideAnswer, toggleHideAnswer] = useHideAnswer();
   const d = state.dive!;
   const lastSent = useRef("");
   const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
@@ -762,7 +763,10 @@ function DiveQuestion({
         </div>
       ) : d.yourAnswer ? (
         <div className="locked-card" style={{ "--tier": tierInfo(d.yourAnswer.tier).color } as React.CSSProperties}>
-          <div>Locked in: <b>{d.yourAnswer.canonical}</b></div>
+          <div className="locked-line">
+            Locked in: <b className={hideAnswer ? "answer-hidden" : undefined}>{hideAnswer ? "••••••" : d.yourAnswer.canonical}</b>
+            <HideToggle hidden={hideAnswer} onToggle={toggleHideAnswer} />
+          </div>
           <TierBadge tier={d.yourAnswer.tier} />
           <div className="muted small">Waiting for everyone else…</div>
           <RoundClock endsAt={d.endsAt} totalMs={(state.settings as DiveSettings).timerSeconds * 1000} />
@@ -1388,5 +1392,52 @@ function TeamWin({ team, members, you, reducedMotion }: { team: number; members:
         ))}
       </div>
     </motion.div>
+  );
+}
+
+
+const HIDE_KEY = "fathom.hideMyAnswer";
+
+/**
+ * Party only: hide your locked-in answer's words (not its colour or rarity) so
+ * people near you can't read it off your screen. Remembered, so it stays on for
+ * every round and game until you turn it off.
+ */
+function useHideAnswer(): [boolean, () => void] {
+  const [hidden, setHidden] = useState(() => {
+    try {
+      return localStorage.getItem(HIDE_KEY) === "1";
+    } catch {
+      return false;
+    }
+  });
+  const toggle = () =>
+    setHidden((h) => {
+      try {
+        localStorage.setItem(HIDE_KEY, h ? "0" : "1");
+      } catch {
+        /* private mode: lasts for this visit */
+      }
+      return !h;
+    });
+  return [hidden, toggle];
+}
+
+function HideToggle({ hidden, onToggle }: { hidden: boolean; onToggle: () => void }) {
+  return (
+    <button
+      type="button"
+      className="hide-toggle"
+      onClick={onToggle}
+      aria-pressed={hidden}
+      aria-label={hidden ? "Show my answer" : "Hide my answer"}
+      title={hidden ? "Show my answer" : "Hide my answer from people looking at your screen"}
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+        <path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z" />
+        <circle cx="12" cy="12" r="3" />
+        {hidden && <path d="M4 4l16 16" />}
+      </svg>
+    </button>
   );
 }

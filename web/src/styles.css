@@ -2558,3 +2558,9 @@ body:has(.battle) .toasts { bottom: 104px; }
 .banned-card p { margin: 0; }
 .banned-icon { font-size: 3rem; }
 .admin-ban { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
+
+/* Party: hide your locked-in answer */
+.locked-line { display: inline-flex; align-items: center; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.answer-hidden { letter-spacing: 0.15em; }
+.hide-toggle { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--glass-border); background: rgba(255, 255, 255, 0.08); cursor: pointer; color: inherit; }
+.hide-toggle[aria-pressed="true"] { background: var(--accent); color: #031426; border-color: var(--accent); }
