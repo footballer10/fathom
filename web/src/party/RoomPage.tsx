@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, useAnimationControls } from "framer-motion";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import {
   BATTLE_DEFAULTS,
   CATEGORIES,
@@ -1400,27 +1400,38 @@ const HIDE_KEY = "fathom.hideMyAnswer";
 
 /**
  * Party only: hide your locked-in answer's words (not its colour or rarity) so
- * people near you can't read it off your screen. Remembered, so it stays on for
- * every round and game until you turn it off.
+ * people near you can't read it off your screen. One setting for the whole
+ * device, saved the moment you tap, so it carries over to every round, game and
+ * party until you turn it off.
  */
+let hideAnswerSetting = (() => {
+  try {
+    return localStorage.getItem(HIDE_KEY) === "1";
+  } catch {
+    return false;
+  }
+})();
+const hideListeners = new Set<() => void>();
+
+function setHideAnswer(next: boolean) {
+  hideAnswerSetting = next;
+  try {
+    localStorage.setItem(HIDE_KEY, next ? "1" : "0");
+  } catch {
+    /* private mode: lasts until the tab closes */
+  }
+  hideListeners.forEach((l) => l());
+}
+
 function useHideAnswer(): [boolean, () => void] {
-  const [hidden, setHidden] = useState(() => {
-    try {
-      return localStorage.getItem(HIDE_KEY) === "1";
-    } catch {
-      return false;
-    }
-  });
-  const toggle = () =>
-    setHidden((h) => {
-      try {
-        localStorage.setItem(HIDE_KEY, h ? "0" : "1");
-      } catch {
-        /* private mode: lasts for this visit */
-      }
-      return !h;
-    });
-  return [hidden, toggle];
+  const hidden = useSyncExternalStore(
+    (l) => {
+      hideListeners.add(l);
+      return () => hideListeners.delete(l);
+    },
+    () => hideAnswerSetting,
+  );
+  return [hidden, () => setHideAnswer(!hideAnswerSetting)];
 }
 
 function HideToggle({ hidden, onToggle }: { hidden: boolean; onToggle: () => void }) {
