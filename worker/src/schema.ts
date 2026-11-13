@@ -88,12 +88,6 @@ async function migrateV1(env: Env) {
 
   // Fill everything from the full history, in one transaction, so it's exact.
   // (Running twice gives the same result, so two instances racing here is harmless.)
-  const SOLO = `SELECT s.player_id, s.mode, COUNT(*) AS n, SUM(pl.tier = 100) AS k, SUM(pl.tier = 85) AS dc, SUM(pl.tier >= 85) AS rare,
-                       SUM(pl.answer_id IS NOT NULL) AS ans, SUM(pl.points) AS pts
-                FROM sessions s JOIN plays pl ON pl.session_id = s.id
-                WHERE s.finished = 1 AND s.mode IN ('daily', 'unlimited') GROUP BY s.id`;
-  const win = (kind: string, variant: string) => `SUM(rank = 1 AND kind = '${kind}' AND COALESCE(variant, 'classic') = '${variant}')`;
-  const best = (mode: string) => `MAX(CASE WHEN mode = '${mode}' THEN score END)`;
   await env.DB.batch([
     env.DB.prepare("DELETE FROM daily_hist"),
     env.DB.prepare("INSERT INTO daily_hist (date, points, n) SELECT date, points, COUNT(*) FROM daily_results GROUP BY date, points"),
@@ -104,47 +98,7 @@ async function migrateV1(env: Env) {
        WHERE s.mode = 'daily' AND s.date IS NOT NULL AND p.tier IS NOT NULL AND p.canonical IS NOT NULL
        ORDER BY s.date, p.tier DESC, p.created_at ASC`,
     ),
-    env.DB.prepare("DELETE FROM lb_stats"),
-    env.DB.prepare(
-      `INSERT INTO lb_stats (player_id, d_dives, d_n, d_k, d_rare, d_pts, d_best, u_dives, u_n, u_k, u_dc, u_rare, u_ans, u_pts, u_best)
-       SELECT player_id,
-              SUM(mode = 'daily'), SUM(CASE WHEN mode = 'daily' THEN n ELSE 0 END), SUM(CASE WHEN mode = 'daily' THEN k ELSE 0 END),
-              SUM(CASE WHEN mode = 'daily' THEN rare ELSE 0 END), SUM(CASE WHEN mode = 'daily' THEN pts ELSE 0 END),
-              COALESCE(MAX(CASE WHEN mode = 'daily' THEN pts END), 0),
-              SUM(mode = 'unlimited'), SUM(CASE WHEN mode = 'unlimited' THEN n ELSE 0 END), SUM(CASE WHEN mode = 'unlimited' THEN k ELSE 0 END),
-              SUM(CASE WHEN mode = 'unlimited' THEN dc ELSE 0 END), SUM(CASE WHEN mode = 'unlimited' THEN rare ELSE 0 END),
-              SUM(CASE WHEN mode = 'unlimited' THEN ans ELSE 0 END), SUM(CASE WHEN mode = 'unlimited' THEN pts ELSE 0 END),
-              COALESCE(MAX(CASE WHEN mode = 'unlimited' THEN pts END), 0)
-       FROM (${SOLO}) GROUP BY player_id`,
-    ),
-    env.DB.prepare(
-      `WITH g AS (SELECT player_id, date, julianday(date) - ROW_NUMBER() OVER (PARTITION BY player_id ORDER BY date) AS grp FROM daily_results),
-            r AS (SELECT player_id, grp, COUNT(*) AS len, MAX(date) AS last FROM g GROUP BY player_id, grp),
-            t AS (SELECT player_id, MAX(len) AS best, MAX(last) AS last FROM r GROUP BY player_id)
-       INSERT INTO lb_stats (player_id, streak_best, streak_last, streak_cur)
-       SELECT t.player_id, t.best, t.last, (SELECT r.len FROM r WHERE r.player_id = t.player_id AND r.last = t.last) FROM t WHERE true
-       ON CONFLICT(player_id) DO UPDATE SET streak_best = excluded.streak_best, streak_last = excluded.streak_last, streak_cur = excluded.streak_cur`,
-    ),
-    env.DB.prepare(
-      `INSERT INTO lb_stats (player_id, p_games, p_wins, w_dive, w_battle, w_shark, w_relay, w_hotpotato, w_school, w_coop)
-       SELECT player_id, COUNT(*), SUM(rank = 1), ${win("dive", "classic")}, ${win("battle", "classic")}, ${win("dive", "shark")},
-              ${win("battle", "relay")}, ${win("battle", "hotpotato")}, ${win("dive", "school")}, ${win("dive", "coop")}
-       FROM party_results WHERE true GROUP BY player_id
-       ON CONFLICT(player_id) DO UPDATE SET p_games = excluded.p_games, p_wins = excluded.p_wins, w_dive = excluded.w_dive,
-         w_battle = excluded.w_battle, w_shark = excluded.w_shark, w_relay = excluded.w_relay, w_hotpotato = excluded.w_hotpotato,
-         w_school = excluded.w_school, w_coop = excluded.w_coop`,
-    ),
-    env.DB.prepare(
-      `INSERT INTO lb_stats (player_id, best_sprint, best_ladder, best_roulette, best_five)
-       SELECT player_id, COALESCE(${best("sprint")}, 0), COALESCE(${best("ladder")}, 0), COALESCE(${best("roulette")}, 0), COALESCE(${best("five")}, 0)
-       FROM practice_runs WHERE finished = 1 GROUP BY player_id
-       ON CONFLICT(player_id) DO UPDATE SET best_sprint = excluded.best_sprint, best_ladder = excluded.best_ladder,
-         best_roulette = excluded.best_roulette, best_five = excluded.best_five`,
-    ),
-    env.DB.prepare(
-      `INSERT INTO lb_stats (player_id, abyss_k) SELECT player_id, COUNT(*) FROM abyss_attempts WHERE best_tier = 100 GROUP BY player_id
-       ON CONFLICT(player_id) DO UPDATE SET abyss_k = excluded.abyss_k`,
-    ),
+    ...lbStatsStatements(env),
     env.DB.prepare("UPDATE abyss_weeks SET divers = (SELECT COUNT(*) FROM abyss_attempts a WHERE a.week = abyss_weeks.week)"),
     env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('schema', '1')"),
   ]);
@@ -263,4 +217,63 @@ export function practiceBestStatement(env: Env, playerId: string, mode: string, 
 /** A player's Abyss answer just became a One in a Krillion for the first time this week. */
 export function abyssKrillionStatement(env: Env, playerId: string): D1PreparedStatement {
   return env.DB.prepare("INSERT INTO lb_stats (player_id, abyss_k) VALUES (?, 1) ON CONFLICT(player_id) DO UPDATE SET abyss_k = abyss_k + 1").bind(playerId);
+}
+
+/**
+ * Rebuild lb_stats from the full history: for everyone (no player id), or for
+ * one player (after the admin portal removes one of their dives).
+ */
+export function lbStatsStatements(env: Env, playerId?: string): D1PreparedStatement[] {
+  // With a player id, every query is limited to that player (bound as ?1).
+  const only = (col: string) => (playerId ? ` AND ${col} = ?1` : "");
+  const prep = (sql: string) => (playerId ? env.DB.prepare(sql).bind(playerId) : env.DB.prepare(sql));
+  const SOLO = `SELECT s.player_id, s.mode, COUNT(*) AS n, SUM(pl.tier = 100) AS k, SUM(pl.tier = 85) AS dc, SUM(pl.tier >= 85) AS rare,
+                       SUM(pl.answer_id IS NOT NULL) AS ans, SUM(pl.points) AS pts
+                FROM sessions s JOIN plays pl ON pl.session_id = s.id
+                WHERE s.finished = 1 AND s.mode IN ('daily', 'unlimited')${only("s.player_id")} GROUP BY s.id`;
+  const win = (kind: string, variant: string) => `SUM(rank = 1 AND kind = '${kind}' AND COALESCE(variant, 'classic') = '${variant}')`;
+  const best = (mode: string) => `MAX(CASE WHEN mode = '${mode}' THEN score END)`;
+  return [
+    prep(`DELETE FROM lb_stats WHERE true${only("player_id")}`),
+    prep(
+      `INSERT INTO lb_stats (player_id, d_dives, d_n, d_k, d_rare, d_pts, d_best, u_dives, u_n, u_k, u_dc, u_rare, u_ans, u_pts, u_best)
+       SELECT player_id,
+              SUM(mode = 'daily'), SUM(CASE WHEN mode = 'daily' THEN n ELSE 0 END), SUM(CASE WHEN mode = 'daily' THEN k ELSE 0 END),
+              SUM(CASE WHEN mode = 'daily' THEN rare ELSE 0 END), SUM(CASE WHEN mode = 'daily' THEN pts ELSE 0 END),
+              COALESCE(MAX(CASE WHEN mode = 'daily' THEN pts END), 0),
+              SUM(mode = 'unlimited'), SUM(CASE WHEN mode = 'unlimited' THEN n ELSE 0 END), SUM(CASE WHEN mode = 'unlimited' THEN k ELSE 0 END),
+              SUM(CASE WHEN mode = 'unlimited' THEN dc ELSE 0 END), SUM(CASE WHEN mode = 'unlimited' THEN rare ELSE 0 END),
+              SUM(CASE WHEN mode = 'unlimited' THEN ans ELSE 0 END), SUM(CASE WHEN mode = 'unlimited' THEN pts ELSE 0 END),
+              COALESCE(MAX(CASE WHEN mode = 'unlimited' THEN pts END), 0)
+       FROM (${SOLO}) GROUP BY player_id`,
+    ),
+    prep(
+      `WITH g AS (SELECT player_id, date, julianday(date) - ROW_NUMBER() OVER (PARTITION BY player_id ORDER BY date) AS grp FROM daily_results WHERE true${only("player_id")}),
+            r AS (SELECT player_id, grp, COUNT(*) AS len, MAX(date) AS last FROM g GROUP BY player_id, grp),
+            t AS (SELECT player_id, MAX(len) AS best, MAX(last) AS last FROM r GROUP BY player_id)
+       INSERT INTO lb_stats (player_id, streak_best, streak_last, streak_cur)
+       SELECT t.player_id, t.best, t.last, (SELECT r.len FROM r WHERE r.player_id = t.player_id AND r.last = t.last) FROM t WHERE true
+       ON CONFLICT(player_id) DO UPDATE SET streak_best = excluded.streak_best, streak_last = excluded.streak_last, streak_cur = excluded.streak_cur`,
+    ),
+    prep(
+      `INSERT INTO lb_stats (player_id, p_games, p_wins, w_dive, w_battle, w_shark, w_relay, w_hotpotato, w_school, w_coop)
+       SELECT player_id, COUNT(*), SUM(rank = 1), ${win("dive", "classic")}, ${win("battle", "classic")}, ${win("dive", "shark")},
+              ${win("battle", "relay")}, ${win("battle", "hotpotato")}, ${win("dive", "school")}, ${win("dive", "coop")}
+       FROM party_results WHERE true${only("player_id")} GROUP BY player_id
+       ON CONFLICT(player_id) DO UPDATE SET p_games = excluded.p_games, p_wins = excluded.p_wins, w_dive = excluded.w_dive,
+         w_battle = excluded.w_battle, w_shark = excluded.w_shark, w_relay = excluded.w_relay, w_hotpotato = excluded.w_hotpotato,
+         w_school = excluded.w_school, w_coop = excluded.w_coop`,
+    ),
+    prep(
+      `INSERT INTO lb_stats (player_id, best_sprint, best_ladder, best_roulette, best_five)
+       SELECT player_id, COALESCE(${best("sprint")}, 0), COALESCE(${best("ladder")}, 0), COALESCE(${best("roulette")}, 0), COALESCE(${best("five")}, 0)
+       FROM practice_runs WHERE finished = 1${only("player_id")} GROUP BY player_id
+       ON CONFLICT(player_id) DO UPDATE SET best_sprint = excluded.best_sprint, best_ladder = excluded.best_ladder,
+         best_roulette = excluded.best_roulette, best_five = excluded.best_five`,
+    ),
+    prep(
+      `INSERT INTO lb_stats (player_id, abyss_k) SELECT player_id, COUNT(*) FROM abyss_attempts WHERE best_tier = 100${only("player_id")} GROUP BY player_id
+       ON CONFLICT(player_id) DO UPDATE SET abyss_k = excluded.abyss_k`,
+    ),
+  ];
 }

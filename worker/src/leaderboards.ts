@@ -347,3 +347,11 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   }
   return c.json({ date, divers: entry.total, rows, you });
 });
+
+/** Forget every saved copy of the boards (after the admin portal removes a dive), so the next view is fresh. */
+export async function clearLeaderboardCache(env: Env) {
+  cache = null;
+  retryAt = 0;
+  dailyTopCache.clear();
+  await env.KV.delete(KV_KEY).catch(() => {});
+}

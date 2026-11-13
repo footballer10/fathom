@@ -21,6 +21,7 @@ import type { Env } from "./env";
 import { UNLIMITED_WHERE, getQuestion, parseContent, storeIndex, today, unlimitedParams } from "./questions";
 import { clearPoolCache } from "./questions";
 import { registerAdminStats } from "./adminStats";
+import { registerAdminDives } from "./adminDives";
 import type { QuestionContent, QuestionRow, StoredAnswer } from "./questions";
 
 /**
@@ -51,6 +52,7 @@ adminRoutes.use("/api/admin/*", async (c, next) => {
   await next();
 });
 registerAdminStats(adminRoutes);
+registerAdminDives(adminRoutes);
 
 
 // ---------------------------------------------------------------------------

@@ -73,6 +73,7 @@ export function PlayersTab() {
 
   return (
     <div>
+      <FindPlayer onOpen={async (id) => setOpen(await admin<PlayerDetail>(`/api/admin/player/${encodeURIComponent(id)}`))} />
       <details className="admin-gift-box">
         <summary>🎁 Give a player items or pearls</summary>
         <GiftPanel />
@@ -154,7 +155,11 @@ export function PlayersTab() {
               Joined {when(open.joined)}
               {open.friendCode ? ` · friend code ${open.friendCode}` : ""} · {open.pearls.toLocaleString()} pearls · {open.owned.length} items
             </p>
-            <GiftPanel key={open.id} playerId={open.id} owned={open.owned} onGiven={(r) => setOpen({ ...open, ...r })} />
+            <DivesPanel key={`d-${open.id}`} playerId={open.id} />
+            <details className="admin-gift-box">
+              <summary>🎁 Give this player items or pearls</summary>
+              <GiftPanel key={open.id} playerId={open.id} owned={open.owned} onGiven={(r) => setOpen({ ...open, ...r })} />
+            </details>
             <ul className="admin-activity">
               {open.activity.map((a, i) => (
                 <li key={i}>
@@ -535,6 +540,150 @@ export function GiftPanel({ playerId, owned = [], onGiven }: { playerId?: string
         </>
       )}
       {msg && <p className="small">{msg}</p>}
+    </div>
+  );
+}
+
+
+/** Search by username, friend code or name, then open that player's card. */
+function FindPlayer({ onOpen }: { onOpen: (id: string) => void }) {
+  const [q, setQ] = useState("");
+  const [found, setFound] = useState<{ id: string; nickname: string | null; friend_code: string | null }[] | null>(null);
+  const [msg, setMsg] = useState<string | null>(null);
+  const search = async () => {
+    setMsg(null);
+    try {
+      const r = await admin<{ players: { id: string; nickname: string | null; friend_code: string | null }[] }>(`/api/admin/find-player?q=${encodeURIComponent(q)}`);
+      setFound(r.players);
+      if (r.players.length === 1) onOpen(r.players[0].id);
+    } catch (e) {
+      setMsg((e as Error).message);
+    }
+  };
+  return (
+    <div className="admin-find">
+      <div className="admin-gift-search">
+        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Find a player: username, friend code or name" onKeyDown={(e) => e.key === "Enter" && void search()} />
+        <button className="btn btn--small" onClick={() => void search()}>
+          Find
+        </button>
+      </div>
+      {found && found.length === 0 && <p className="muted small">No player found.</p>}
+      {found && found.length > 1 && (
+        <div className="admin-gift-found">
+          {found.map((p) => (
+            <button key={p.id} className="btn btn--small" onClick={() => onOpen(p.id)}>
+              {p.nickname ?? "Guest"} {p.friend_code ? `(${p.friend_code})` : ""}
+            </button>
+          ))}
+        </div>
+      )}
+      {msg && <p className="small">{msg}</p>}
+    </div>
+  );
+}
+
+interface AdminDive {
+  kind: string;
+  ref: string;
+  at: number;
+  title: string;
+  score: string;
+  answers: { prompt: string; canonical: string | null; tier: number | null; seconds: number | null }[];
+  avgSeconds: number | null;
+}
+
+/**
+ * Every dive a player has taken, newest first, each with a Remove button that
+ * takes it out of their stats and the leaderboards (for cheating). Fast, rare
+ * answers are highlighted, since that's what pasting from an AI looks like.
+ */
+function DivesPanel({ playerId }: { playerId: string }) {
+  const [data, setData] = useState<{ dives: AdminDive[]; removed: { kind: string; summary: string; pearls_taken: number; removed_at: number }[] } | null>(null);
+  const [openRef, setOpenRef] = useState<string | null>(null);
+  const [takePearls, setTakePearls] = useState(true);
+  const [busy, setBusy] = useState<string | null>(null);
+  const [msg, setMsg] = useState<string | null>(null);
+
+  const load = useCallback(() => {
+    admin<{ dives: AdminDive[]; removed: never[] }>(`/api/admin/player/${encodeURIComponent(playerId)}/dives`)
+      .then(setData)
+      .catch((e) => setMsg((e as Error).message));
+  }, [playerId]);
+  useEffect(load, [load]);
+
+  const remove = async (d: AdminDive) => {
+    if (!confirm(`Remove "${d.title}" (${d.score}) from this player's stats and the leaderboards?${takePearls ? " The pearls it paid are taken back too." : ""} This can't be undone.`)) return;
+    setBusy(d.ref);
+    setMsg(null);
+    try {
+      const r = await admin<{ summary: string; pearlsTaken: number }>("/api/admin/remove-dive", { body: { playerId, kind: d.kind, ref: d.ref, takePearls } });
+      setMsg(`Removed ${d.title}.${r.pearlsTaken ? ` Took back ${r.pearlsTaken} pearls.` : ""}`);
+      load();
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  if (!data) return <p className="muted small">Loading dives…</p>;
+  /** Rare-or-better answers in under 4 seconds look pasted. */
+  const suspicious = (d: AdminDive) => d.answers.filter((a) => (a.tier ?? 0) >= 60 && a.seconds !== null && a.seconds < 4).length;
+  return (
+    <div className="admin-dives">
+      <h4>Dives ({data.dives.length})</h4>
+      <label className="admin-gift-row small">
+        <input type="checkbox" checked={takePearls} onChange={(e) => setTakePearls(e.target.checked)} /> Also take back the pearls a removed dive paid
+      </label>
+      {msg && <p className="small">{msg}</p>}
+      {data.dives.length === 0 && <p className="muted small">No dives on record.</p>}
+      <ul className="admin-dive-list">
+        {data.dives.map((d) => {
+          const sus = suspicious(d);
+          return (
+            <li key={`${d.kind}-${d.ref}`} className={sus >= 3 ? "admin-dive--sus" : ""}>
+              <div className="admin-dive-head">
+                <button className="link-btn admin-dive-title" onClick={() => setOpenRef(openRef === d.ref ? null : d.ref)} disabled={!d.answers.length}>
+                  {d.answers.length ? (openRef === d.ref ? "▾ " : "▸ ") : ""}
+                  {d.title}
+                </button>
+                <span className="muted small">{when(d.at)}</span>
+                <span className="small">{d.score}</span>
+                {d.avgSeconds !== null && <span className="muted small">avg {d.avgSeconds}s</span>}
+                {sus > 0 && <span className="admin-bad small">⚠ {sus} fast rare</span>}
+                <button className="btn btn--small admin-danger" disabled={busy !== null} onClick={() => void remove(d)}>
+                  {busy === d.ref ? "Removing…" : "Remove"}
+                </button>
+              </div>
+              {openRef === d.ref && (
+                <ol className="admin-dive-answers">
+                  {d.answers.map((a, i) => (
+                    <li key={i} className={(a.tier ?? 0) >= 60 && a.seconds !== null && a.seconds < 4 ? "admin-bad" : ""}>
+                      <span className="muted">{a.prompt}</span> → <b>{a.canonical ?? "missed"}</b>
+                      {a.tier ? ` · ${tierInfo(a.tier as TierPoints).name}` : ""}
+                      {a.seconds !== null ? ` · ${a.seconds}s` : ""}
+                    </li>
+                  ))}
+                </ol>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+      {data.removed.length > 0 && (
+        <details className="admin-gift-box">
+          <summary>Already removed ({data.removed.length})</summary>
+          <ul className="admin-activity">
+            {data.removed.map((r, i) => (
+              <li key={i}>
+                <span className="muted small">{when(r.removed_at)}</span> {r.summary}
+                {r.pearls_taken ? ` (took back ${r.pearls_taken} pearls)` : ""}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
     </div>
   );
 }
