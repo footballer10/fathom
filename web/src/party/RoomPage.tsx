@@ -679,7 +679,7 @@ function DiveQuestion({
   reducedMotion: boolean;
   tiers: Record<number, TierPoints | null>;
 }) {
-  const [hideAnswer, toggleHideAnswer] = useHideAnswer();
+  const [hideAnswer, toggleHideAnswer] = useHideAnswer(state.code);
   const d = state.dive!;
   const lastSent = useRef("");
   const [ask, setAsk] = useState<{ guess: string; canonical: string } | null>(null);
@@ -1396,42 +1396,45 @@ function TeamWin({ team, members, you, reducedMotion }: { team: number; members:
 }
 
 
-const HIDE_KEY = "fathom.hideMyAnswer";
-
 /**
  * Party only: hide your locked-in answer's words (not its colour or rarity) so
- * people near you can't read it off your screen. One setting for the whole
- * device, saved the moment you tap, so it carries over to every round, game and
- * party until you turn it off.
+ * people near you can't read it off your screen. It lasts for every round and
+ * game in this party (this room code), even through a reload, and starts fresh
+ * in a different party.
  */
-let hideAnswerSetting = (() => {
-  try {
-    return localStorage.getItem(HIDE_KEY) === "1";
-  } catch {
-    return false;
-  }
-})();
+const hideKey = (code: string) => `fathom.hideMyAnswer.${code}`;
 const hideListeners = new Set<() => void>();
 
-function setHideAnswer(next: boolean) {
-  hideAnswerSetting = next;
+function readHide(code: string): boolean {
   try {
-    localStorage.setItem(HIDE_KEY, next ? "1" : "0");
+    return sessionStorage.getItem(hideKey(code)) === "1";
   } catch {
-    /* private mode: lasts until the tab closes */
+    return hideMemory.has(code);
+  }
+}
+/** Fallback when the browser blocks storage (private mode). */
+const hideMemory = new Set<string>();
+
+function setHide(code: string, next: boolean) {
+  if (next) hideMemory.add(code);
+  else hideMemory.delete(code);
+  try {
+    sessionStorage.setItem(hideKey(code), next ? "1" : "0");
+  } catch {
+    /* kept in memory above */
   }
   hideListeners.forEach((l) => l());
 }
 
-function useHideAnswer(): [boolean, () => void] {
+function useHideAnswer(code: string): [boolean, () => void] {
   const hidden = useSyncExternalStore(
     (l) => {
       hideListeners.add(l);
       return () => hideListeners.delete(l);
     },
-    () => hideAnswerSetting,
+    () => readHide(code),
   );
-  return [hidden, () => setHideAnswer(!hideAnswerSetting)];
+  return [hidden, () => setHide(code, !readHide(code))];
 }
 
 function HideToggle({ hidden, onToggle }: { hidden: boolean; onToggle: () => void }) {
