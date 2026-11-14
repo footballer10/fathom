@@ -219,7 +219,8 @@ export function cleanLook(look: unknown, owned: readonly string[]): Look {
 
 /** Pearls for finishing things. Unlimited, quick modes and party pay out for the first few each day. */
 export const PEARLS = {
-  daily: (points: number) => 25 + Math.round(points / 20),
+  // An average Daily (~244 points) pays ~59; a great one (600) pays ~95.
+  daily: (points: number) => 35 + Math.round(points / 10),
   unlimited: (points: number) => 5 + Math.round(points / 50),
   quick: 8,
   party: 6,
@@ -325,7 +326,7 @@ export interface Achievement {
 }
 
 export const ACHIEVEMENTS: Achievement[] = [
-  { id: "first-daily", name: "First Dive", description: "Finish your first Daily", pearls: 25, items: [], value: (s) => s.dailies, target: 1 },
+  { id: "first-daily", name: "First Dive", description: "Finish your first Daily", pearls: 150, items: [], value: (s) => s.dailies, target: 1 },
   { id: "dailies-10", name: "Regular", description: "Finish 10 Dailies", pearls: 75, items: [], value: (s) => s.dailies, target: 10 },
   { id: "dailies-50", name: "Old Salt", description: "Finish 50 Dailies", pearls: 250, items: [], value: (s) => s.dailies, target: 50 },
   { id: "dailies-200", name: "Lifer", description: "Finish 200 Dailies", pearls: 800, items: [], value: (s) => s.dailies, target: 200 },

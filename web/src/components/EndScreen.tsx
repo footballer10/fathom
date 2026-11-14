@@ -7,7 +7,7 @@ import { RevealPanel } from "./RevealPanel";
 import { PearlCount } from "./RewardsPages";
 import { PlayerName } from "./Cosmetics";
 import { TapName } from "./PlayerCardHost";
-import { quietRefresh } from "../rewards";
+import { quietRefresh, readyToClaim, useRewards } from "../rewards";
 import { navigate } from "../router";
 
 function useCountdown(target: number) {
@@ -37,6 +37,7 @@ export function EndScreen({
   const [copied, setCopied] = useState(false);
   // Pick up the pearls this dive paid (already listed here, so no extra toast).
   useEffect(() => void quietRefresh(), []);
+  const ready = readyToClaim(useRewards());
   const [open, setOpen] = useState<number | null>(null);
   const [reveals, setReveals] = useState<Record<number, RevealResponse>>({});
   const countdown = useCountdown(result.nextDailyAt);
@@ -101,8 +102,8 @@ export function EndScreen({
             ))}
           </ul>
           <div className="end-earned-btns">
-            <button className="btn btn--small" onClick={() => navigate("/quests")}>
-              📜 Quests
+            <button className={`btn btn--small ${ready ? "btn--primary" : ""}`} onClick={() => navigate("/quests")}>
+              {ready ? `🎁 ${ready} reward${ready === 1 ? "" : "s"} to collect` : "📜 Quests"}
             </button>
             <button className="btn btn--small" onClick={() => navigate("/shop")}>
               🛍️ Shop
