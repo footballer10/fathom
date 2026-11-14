@@ -1,6 +1,7 @@
 import type { Hono } from "hono";
 import { HttpError } from "./env";
 import { ensureRewards, earnStatements } from "./rewards";
+import { banOf } from "./bans";
 import { ITEM_BY_ID } from "@fathom/shared";
 import type { Env } from "./env";
 import { getDailySet, getQuestions, today } from "./questions";
@@ -176,6 +177,7 @@ export function registerAdminStats(routes: Hono<AppEnv>) {
       activity: items.slice(0, 80),
       pearls: w?.pearls ?? 0,
       owned: w ? (JSON.parse(w.owned) as string[]) : [],
+      ban: await banOf(c.env, id),
     });
   });
 

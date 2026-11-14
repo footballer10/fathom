@@ -36,6 +36,7 @@ interface PlayerDetail {
   activity: { at: number; what: string }[];
   pearls: number;
   owned: string[];
+  ban: { reason: string; banned_at: number } | null;
 }
 
 const isoDay = (offset = 0) => new Date(Date.now() - 7 * 3_600_000 + offset * 86_400_000).toISOString().slice(0, 10);
@@ -156,7 +157,7 @@ export function PlayersTab() {
               Joined {when(open.joined)}
               {open.friendCode ? ` · friend code ${open.friendCode}` : ""} · {open.pearls.toLocaleString()} pearls · {open.owned.length} items
             </p>
-            <BanButton player={open} onBanned={() => setOpen(null)} />
+            <BanButton player={open} onChanged={(ban) => setOpen({ ...open, ban })} />
             <DivesPanel key={`d-${open.id}`} playerId={open.id} />
             <details className="admin-gift-box">
               <summary>🎁 Give this player items or pearls</summary>
@@ -687,8 +688,8 @@ function DivesPanel({ playerId }: { playerId: string }) {
 }
 
 
-/** Ban: asks for a reason, then asks you to confirm, before anything happens. */
-function BanButton({ player, onBanned }: { player: PlayerDetail; onBanned: () => void }) {
+/** Ban (asks for a reason, then to confirm) or, for a banned player, Unban. */
+function BanButton({ player, onChanged }: { player: PlayerDetail; onChanged: (ban: PlayerDetail["ban"]) => void }) {
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const name = player.nickname ?? "this guest";
@@ -697,19 +698,32 @@ function BanButton({ player, onBanned }: { player: PlayerDetail; onBanned: () =>
     if (reason === null) return; // cancelled
     const ok = window.confirm(
       `Ban ${name}${player.username ? ` (@${player.username})` : ""}?\n\n` +
-        "• Their account is deleted (the username and password stop working)\n" +
-        "• They're taken off every leaderboard\n" +
-        "• Their pearls and items are wiped\n" +
-        "• Next time they open Fathom they're told they were banned\n\n" +
-        "The account can't be brought back.",
+        "• They can't play or sign in, and they're told they were banned\n" +
+        "• They're hidden from every leaderboard\n" +
+        "• Nothing is deleted: their account, scores, pearls and items are kept\n\n" +
+        "You can undo this any time with Unban.",
     );
     if (!ok) return;
     setBusy(true);
     setMsg(null);
     try {
       await admin("/api/admin/ban", { body: { playerId: player.id, reason: reason.trim() } });
-      alert(`${name} has been banned.`);
-      onBanned();
+      onChanged({ reason: reason.trim(), banned_at: Date.now() });
+      setMsg(`${name} is banned.`);
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  const unban = async () => {
+    if (!confirm(`Unban ${name}? They can play again and everything they had comes back, including their place on the leaderboards.`)) return;
+    setBusy(true);
+    setMsg(null);
+    try {
+      await admin("/api/admin/unban", { body: { playerId: player.id } });
+      onChanged(null);
+      setMsg(`${name} is unbanned.`);
     } catch (e) {
       setMsg((e as Error).message);
     } finally {
@@ -718,9 +732,21 @@ function BanButton({ player, onBanned }: { player: PlayerDetail; onBanned: () =>
   };
   return (
     <div className="admin-ban">
-      <button className="btn btn--small admin-danger" disabled={busy} onClick={() => void ban()}>
-        🚫 {busy ? "Banning…" : "Ban player"}
-      </button>
+      {player.ban ? (
+        <>
+          <span className="admin-bad small">
+            🚫 Banned {when(player.ban.banned_at)}
+            {player.ban.reason ? ` · ${player.ban.reason}` : ""}
+          </span>
+          <button className="btn btn--small" disabled={busy} onClick={() => void unban()}>
+            {busy ? "…" : "Unban"}
+          </button>
+        </>
+      ) : (
+        <button className="btn btn--small admin-danger" disabled={busy} onClick={() => void ban()}>
+          🚫 {busy ? "Banning…" : "Ban player"}
+        </button>
+      )}
       {msg && <span className="small">{msg}</span>}
     </div>
   );
@@ -738,7 +764,7 @@ function BannedList() {
   if (!bans || bans.length === 0) return null;
   const unban = async (b: (typeof bans)[number]) => {
     const who = b.nickname ?? b.username_key ?? "this player";
-    if (!confirm(`Lift the ban on ${who}? They can play again, but their deleted account, pearls and items don't come back.`)) return;
+    if (!confirm(`Unban ${who}? They can play again and everything they had comes back, including their place on the leaderboards.`)) return;
     await admin("/api/admin/unban", { body: { playerId: b.player_id } });
     load();
   };

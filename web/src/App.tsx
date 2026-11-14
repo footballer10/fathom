@@ -244,7 +244,7 @@ function BannedScreen({ message }: { message: string }) {
         </div>
         <h2 id="banned-title">You've been banned</h2>
         <p>{message}</p>
-        <p className="muted small">Your account has been deleted and your scores have been taken off the leaderboards.</p>
+        <p className="muted small">You can't play right now, and your scores are hidden from the leaderboards.</p>
       </div>
     </div>
   );

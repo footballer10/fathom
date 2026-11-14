@@ -6,6 +6,7 @@ import { HttpError } from "./env";
 import type { Env } from "./env";
 import { recordRejected } from "./rejected";
 import { abyssRewards, quickRewards } from "./rewards";
+import { ensureBans } from "./bans";
 import type { Earned } from "./rewards";
 import { abyssKrillionStatement, ensureSchema, practiceBestStatement } from "./schema";
 import { OPT_IN_SQL, UNLIMITED_WHERE, getIndex, getQuestions, today, unlimitedParams, unlimitedPool } from "./questions";
@@ -286,9 +287,11 @@ async function abyssQuestion(env: Env, week: string, now: number) {
 type AbyssRow = { week: string; player_id: string; question_id: string; started_at: number; best_tier: number | null; best_answer: string | null; best_at: number | null; answers: string };
 
 async function abyssBoard(env: Env, week: string, playerId: string) {
+  await ensureBans(env);
   const { results } = await env.DB.prepare(
     `SELECT a.player_id, a.best_tier, p.nickname, p.friend_code FROM abyss_attempts a JOIN players p ON p.id = a.player_id
      WHERE a.week = ? AND a.best_tier IS NOT NULL AND p.nickname IS NOT NULL AND TRIM(p.nickname) != ''
+       AND p.id NOT IN (SELECT player_id FROM bans)
      ORDER BY a.best_tier DESC, (a.best_at - a.started_at) LIMIT 10`,
   )
     .bind(week)

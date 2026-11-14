@@ -4,6 +4,7 @@ import { weekOf } from "./practice";
 import { ensurePartyResults, ensureSchema, partyResultStatement } from "./schema";
 import { friendStatus } from "./social";
 import { looksOf, partyRewards } from "./rewards";
+import { ensureBans } from "./bans";
 import type { Look } from "@fathom/shared";
 import { HttpError } from "./env";
 import type { Env } from "./env";
@@ -59,7 +60,8 @@ export interface Board {
   rows: { rank: number; nickname: string; value: number; playerId: string; code: string | null; look?: Look }[];
 }
 
-const NAMED = "p.nickname IS NOT NULL AND TRIM(p.nickname) != ''";
+// Named, and not banned (banned players are hidden, not deleted).
+const NAMED = "p.nickname IS NOT NULL AND TRIM(p.nickname) != '' AND p.id NOT IN (SELECT player_id FROM bans)";
 
 // Sections, in page order.
 const DAILY_GROUP = "Daily";
@@ -191,6 +193,7 @@ function publicLook(l: Look): Look {
 
 async function computeBoards(env: Env): Promise<Board[]> {
   await ensureSchema(env);
+  await ensureBans(env);
   const now = Date.now();
   const [stats, abyss] = await env.DB.batch([
     // One row per named player: every board below is worked out from this in memory.
@@ -306,6 +309,7 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   let entry = dailyTopCache.get(date);
   if (!entry || now - entry.at > 60_000) {
     await ensureSchema(c.env);
+    await ensureBans(c.env);
     // Top 10 straight off the (date, points) index; the diver count from the per-score summary.
     const [top, count] = await c.env.DB.batch([
       c.env.DB.prepare(
