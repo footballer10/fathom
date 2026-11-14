@@ -22,7 +22,7 @@ import { ensureAbyss, ensureRuns } from "./practice";
  * tables and fills them from the full history once.
  */
 
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 let ready: Promise<void> | null = null;
 
 export function ensureSchema(env: Env): Promise<void> {
@@ -49,6 +49,15 @@ async function migrate(env: Env) {
       env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_party_results_finished ON party_results(finished_at)"),
       env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('schema', '2')"),
     ]);
+  }
+  if (current < 3) {
+    // For the admin portal's cheat flags: exactly what was typed for each accepted
+    // answer, and how many wrong guesses each dive had.
+    await env.DB.prepare("ALTER TABLE plays ADD COLUMN typed TEXT").run().catch(() => {});
+    await env.DB.prepare("ALTER TABLE sessions ADD COLUMN wrongs INTEGER NOT NULL DEFAULT 0").run().catch(() => {});
+    // Typed text and wrong guesses only exist from now on; the flags only use dives after this.
+    await env.DB.prepare("INSERT OR IGNORE INTO meta (key, value) VALUES ('cheat_tracking_since', ?)").bind(String(Date.now())).run();
+    await env.DB.prepare("INSERT OR REPLACE INTO meta (key, value) VALUES ('schema', '3')").run();
   }
 }
 

@@ -14,9 +14,9 @@ import type { ParsedFixes, ParsedQuestion, QuestionReport, TierPoints } from "@f
 import { navigate } from "../router";
 import { AdminError, admin, getToken, setToken } from "./adminApi";
 import type { AdminStatus, ScheduleDay } from "./adminApi";
-import { DailiesTab, PlayersTab, StrugglingPanel } from "./StatsTabs";
+import { DailiesTab, FlaggedTab, PlayersTab, StrugglingPanel } from "./StatsTabs";
 
-type Tab = "import" | "generate" | "schedule" | "review" | "pool" | "players" | "dailies";
+type Tab = "import" | "generate" | "schedule" | "review" | "pool" | "players" | "dailies" | "flagged";
 const TABS: { id: Tab; label: string }[] = [
   { id: "import", label: "Import" },
   { id: "generate", label: "Generate" },
@@ -25,6 +25,7 @@ const TABS: { id: Tab; label: string }[] = [
   { id: "pool", label: "Questions" },
   { id: "dailies", label: "Dailies" },
   { id: "players", label: "Players" },
+  { id: "flagged", label: "🚩 Flagged" },
 ];
 
 export function AdminPortal() {
@@ -95,6 +96,7 @@ export function AdminPortal() {
         {tab === "import" && <ImportTab status={status} text={importText} setText={setImportText} onDone={refresh} />}
         {tab === "generate" && <GenerateTab />}
         {tab === "players" && <PlayersTab />}
+        {tab === "flagged" && <FlaggedTab />}
         {tab === "dailies" && <DailiesTab onDelete={(id, prompt) => deleteQuestionEverywhere(id, prompt, refresh)} />}
         {tab === "schedule" && (
           <ScheduleTab

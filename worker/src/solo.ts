@@ -314,6 +314,7 @@ export async function guess(
   body: { index?: number; text?: string; confirm?: boolean },
   now: number,
 ): Promise<GuessResponse> {
+  await ensureSchema(env); // the typed / wrongs columns (runs once per server instance)
   const s = await loadSession(env, id, playerId);
   await settle(env, s, now);
   const lateResponse = (): GuessResponse => ({
@@ -363,8 +364,8 @@ export async function guess(
     if (!res.meta.changes) return lateResponse();
     await env.DB.batch([
       env.DB.prepare(
-        `INSERT OR IGNORE INTO plays (session_id, idx, question_id, answer_id, canonical, tier, points, ms_used, corrected, created_at)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        `INSERT OR IGNORE INTO plays (session_id, idx, question_id, answer_id, canonical, tier, points, ms_used, corrected, created_at, typed)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       ).bind(
         s.id,
         s.current_index,
@@ -376,6 +377,7 @@ export async function guess(
         Math.min(now - s.question_started_at, QUESTION_SECONDS * 1000),
         result.corrected ? 1 : 0,
         now,
+        text.trim(), // exactly as typed (cheat flags look for copy-pasted answers)
       ),
     ]);
     return { ...result, endsAt: endsAt(s), serverNow: now, questionDone: true };
@@ -392,6 +394,8 @@ export async function guess(
   }
   const logged = logRejected(env, qid, index, text, now);
   if (logged) stmts.push(logged);
+  // Counted for the cheat flags (players who never guess wrong stand out).
+  if (text.trim()) stmts.push(env.DB.prepare("UPDATE sessions SET wrongs = wrongs + 1 WHERE id = ?").bind(s.id));
   if (stmts.length) await env.DB.batch(stmts);
   await settle(env, s, now);
   return { ...result, endsAt: endsAt(s), serverNow: now, questionDone: !!s.current_done };

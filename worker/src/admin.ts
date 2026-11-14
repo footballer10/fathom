@@ -22,6 +22,7 @@ import { UNLIMITED_WHERE, getQuestion, parseContent, storeIndex, today, unlimite
 import { clearPoolCache } from "./questions";
 import { registerAdminStats } from "./adminStats";
 import { registerAdminDives } from "./adminDives";
+import { registerCheatFlags } from "./cheatFlags";
 import type { QuestionContent, QuestionRow, StoredAnswer } from "./questions";
 
 /**
@@ -53,6 +54,7 @@ adminRoutes.use("/api/admin/*", async (c, next) => {
 });
 registerAdminStats(adminRoutes);
 registerAdminDives(adminRoutes);
+registerCheatFlags(adminRoutes);
 
 
 // ---------------------------------------------------------------------------

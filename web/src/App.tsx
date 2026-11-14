@@ -25,7 +25,7 @@ import { RoomPage } from "./party/RoomPage";
 import { navigate, useRoute } from "./router";
 import { useSettings } from "./settings";
 import { api } from "./api";
-import { setAccount } from "./player";
+import { becomeGuest, setAccount } from "./player";
 import { refreshRewards, useMyLook } from "./rewards";
 import { CelebrationLayer } from "./components/Cosmetics";
 import { PearlToast, QuestsPage, ShopPage } from "./components/RewardsPages";
@@ -234,17 +234,28 @@ export function App() {
   );
 }
 
-/** Shown instead of the game to a banned player. */
+/**
+ * Shown once to a banned player. Their account is switched off (its progress is
+ * hidden and they can't sign in to it), but they can keep playing: "Start over"
+ * makes this device a brand-new player with nothing.
+ */
 function BannedScreen({ message }: { message: string }) {
+  const startOver = () => {
+    becomeGuest();
+    window.location.href = "/";
+  };
   return (
     <div className="banned-screen" role="alertdialog" aria-labelledby="banned-title">
       <div className="card banned-card">
         <div className="banned-icon" aria-hidden>
           🚫
         </div>
-        <h2 id="banned-title">You've been banned</h2>
+        <h2 id="banned-title">Your account was banned</h2>
         <p>{message}</p>
-        <p className="muted small">You can't play right now, and your scores are hidden from the leaderboards.</p>
+        <p className="muted small">Its progress, scores and items are gone. You can keep playing, starting over from zero as a new player.</p>
+        <button className="btn btn--primary" onClick={startOver}>
+          Start over as a new player
+        </button>
       </div>
     </div>
   );

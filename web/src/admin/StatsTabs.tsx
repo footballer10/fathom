@@ -147,36 +147,7 @@ export function PlayersTab() {
           {rows.length === 0 && <p className="muted">Nobody played in this time frame.</p>}
         </>
       )}
-      {open && (
-        <div className="modal-backdrop" onClick={() => setOpen(null)}>
-          <div className="card modal admin-player-modal" onClick={(e) => e.stopPropagation()}>
-            <h3>
-              {open.nickname ?? "Guest"} {open.username && <span className="muted small">@{open.username}</span>}
-            </h3>
-            <p className="muted small">
-              Joined {when(open.joined)}
-              {open.friendCode ? ` · friend code ${open.friendCode}` : ""} · {open.pearls.toLocaleString()} pearls · {open.owned.length} items
-            </p>
-            <BanButton player={open} onChanged={(ban) => setOpen({ ...open, ban })} />
-            <DivesPanel key={`d-${open.id}`} playerId={open.id} />
-            <details className="admin-gift-box">
-              <summary>🎁 Give this player items or pearls</summary>
-              <GiftPanel key={open.id} playerId={open.id} owned={open.owned} onGiven={(r) => setOpen({ ...open, ...r })} />
-            </details>
-            <ul className="admin-activity">
-              {open.activity.map((a, i) => (
-                <li key={i}>
-                  <span className="muted small">{when(a.at)}</span> {a.what}
-                </li>
-              ))}
-              {open.activity.length === 0 && <li className="muted">No activity yet.</li>}
-            </ul>
-            <button className="btn" onClick={() => setOpen(null)}>
-              Close
-            </button>
-          </div>
-        </div>
-      )}
+      {open && <PlayerModal open={open} setOpen={setOpen} />}
     </div>
   );
 }
@@ -698,9 +669,9 @@ function BanButton({ player, onChanged }: { player: PlayerDetail; onChanged: (ba
     if (reason === null) return; // cancelled
     const ok = window.confirm(
       `Ban ${name}${player.username ? ` (@${player.username})` : ""}?\n\n` +
-        "• They can't play or sign in, and they're told they were banned\n" +
-        "• They're hidden from every leaderboard\n" +
-        "• Nothing is deleted: their account, scores, pearls and items are kept\n\n" +
+        "• Their account is switched off: they lose its progress, scores, pearls and items, and are hidden from every leaderboard\n" +
+        "• They're told they were banned and can keep playing, starting over from zero as a new player\n" +
+        "• Nothing is deleted: Unban brings the account back exactly as it was\n\n" +
         "You can undo this any time with Unban.",
     );
     if (!ok) return;
@@ -717,7 +688,7 @@ function BanButton({ player, onChanged }: { player: PlayerDetail; onChanged: (ba
     }
   };
   const unban = async () => {
-    if (!confirm(`Unban ${name}? They can play again and everything they had comes back, including their place on the leaderboards.`)) return;
+    if (!confirm(`Unban ${name}? Their account comes back with everything it had, including its place on the leaderboards. (If they started over as a new player, they can sign back in to the old account.)`)) return;
     setBusy(true);
     setMsg(null);
     try {
@@ -784,5 +755,125 @@ function BannedList() {
         ))}
       </ul>
     </details>
+  );
+}
+
+
+/** A player's card: ban, dives, gifts and recent activity. */
+export function PlayerModal({ open, setOpen }: { open: PlayerDetail; setOpen: (p: PlayerDetail | null) => void }) {
+  return (
+        <div className="modal-backdrop" onClick={() => setOpen(null)}>
+          <div className="card modal admin-player-modal" onClick={(e) => e.stopPropagation()}>
+            <h3>
+              {open.nickname ?? "Guest"} {open.username && <span className="muted small">@{open.username}</span>}
+            </h3>
+            <p className="muted small">
+              Joined {when(open.joined)}
+              {open.friendCode ? ` · friend code ${open.friendCode}` : ""} · {open.pearls.toLocaleString()} pearls · {open.owned.length} items
+            </p>
+            <BanButton player={open} onChanged={(ban) => setOpen({ ...open, ban })} />
+            <DivesPanel key={`d-${open.id}`} playerId={open.id} />
+            <details className="admin-gift-box">
+              <summary>🎁 Give this player items or pearls</summary>
+              <GiftPanel key={open.id} playerId={open.id} owned={open.owned} onGiven={(r) => setOpen({ ...open, ...r })} />
+            </details>
+            <ul className="admin-activity">
+              {open.activity.map((a, i) => (
+                <li key={i}>
+                  <span className="muted small">{when(a.at)}</span> {a.what}
+                </li>
+              ))}
+              {open.activity.length === 0 && <li className="muted">No activity yet.</li>}
+            </ul>
+            <button className="btn" onClick={() => setOpen(null)}>
+              Close
+            </button>
+          </div>
+        </div>
+  );
+}
+
+interface FlagRow {
+  playerId: string;
+  nickname: string | null;
+  dives: number;
+  answers: number;
+  score: number;
+  reasons: string[];
+  lastAt: number;
+}
+
+/**
+ * Players whose recent dives look like looked-up (AI) answers, with the reasons.
+ * Nothing happens automatically: review, then remove dives, ban, or mark "Not cheating".
+ */
+export function FlaggedTab() {
+  const [data, setData] = useState<{ flags: FlagRow[]; site: Record<string, string>; trackingSince: number | null } | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [open, setOpen] = useState<PlayerDetail | null>(null);
+  const load = useCallback(() => {
+    admin<NonNullable<typeof data>>("/api/admin/flagged")
+      .then(setData)
+      .catch((e) => setError((e as Error).message));
+  }, []);
+  useEffect(load, [load]);
+
+  const review = async (id: string) => setOpen(await admin<PlayerDetail>(`/api/admin/player/${encodeURIComponent(id)}`));
+  const dismiss = async (f: FlagRow) => {
+    if (!confirm(`Mark ${f.nickname ?? "this guest"} as not cheating? They won't be flagged again unless new dives look suspicious.`)) return;
+    await admin("/api/admin/flagged/dismiss", { body: { playerId: f.playerId } });
+    load();
+  };
+
+  if (error) return <p className="error-text">{error}</p>;
+  if (!data) return <p className="muted">Checking recent dives…</p>;
+  return (
+    <div>
+      <p className="muted small">
+        Players whose Daily and Unlimited dives in the last 30 days look like answers were looked up, for example pasted from an AI. Two or more
+        signs are needed to be listed. This only suggests who to look at: open their dives before deciding.
+      </p>
+      <p className="muted small">
+        Average player: {data.site.rare} Rare or rarer, {data.site.deep} Deep Cut or rarer, answers {data.site.answered} of prompts, {data.site.exact} typed exactly
+        like the answer list.
+        {data.trackingSince ? ` Typing and wrong-guess checks use dives since ${when(data.trackingSince)}.` : ""}
+      </p>
+      {data.flags.length === 0 && <p>Nobody looks suspicious right now. 🎉</p>}
+      <ul className="admin-flags">
+        {data.flags.map((f) => (
+          <li key={f.playerId} className="card">
+            <div className="admin-flag-head">
+              <b>{f.nickname ?? "Guest"}</b>
+              <span className="admin-bad small">{f.score} signs</span>
+              <span className="muted small">
+                {f.dives} dives · {f.answers} answers · last played {when(f.lastAt)}
+              </span>
+            </div>
+            <ul className="admin-flag-reasons">
+              {f.reasons.map((r) => (
+                <li key={r}>{r}</li>
+              ))}
+            </ul>
+            <div className="admin-flag-btns">
+              <button className="btn btn--small btn--primary" onClick={() => void review(f.playerId)}>
+                Review dives
+              </button>
+              <button className="btn btn--small" onClick={() => void dismiss(f)}>
+                Not cheating
+              </button>
+            </div>
+          </li>
+        ))}
+      </ul>
+      {open && (
+        <PlayerModal
+          open={open}
+          setOpen={(p) => {
+            setOpen(p);
+            if (!p) load();
+          }}
+        />
+      )}
+    </div>
   );
 }
