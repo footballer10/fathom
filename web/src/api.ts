@@ -120,7 +120,7 @@ export interface AbyssStatus {
   category: Category;
   prompt: string | null;
   attempt: AbyssAttempt | null;
-  board: { divers: number; rows: { rank: number; nickname: string; tier: TierPoints; you: boolean }[] };
+  board: { divers: number; rows: { rank: number; nickname: string; tier: TierPoints; you: boolean; code?: string | null }[] };
 }
 
 export interface Profile {
@@ -166,7 +166,8 @@ export const api = {
     call<{ date: string; dailyNumber: number; me: Profile; rows: LeaderboardRow[] }>("GET", "/api/friends/leaderboard"),
   archive: () => call<{ date: string; dailyNumber: number; depth: number | null }[]>("GET", "/api/archive"),
   startArchive: (date: string) => call<SessionState>("POST", "/api/session/start", { mode: "archive", date }),
-  requestFriend: (code: string) => call<{ status: "sent" | "friends"; nickname: string | null }>("POST", "/api/friends/requests", { code }),
+  requestFriend: (code: string, fromName?: string) =>
+    call<{ status: "sent" | "friends"; nickname: string | null }>("POST", "/api/friends/requests", { code, fromName }),
   friendRequests: () => call<{ requests: FriendRequest[] }>("GET", "/api/friends/requests"),
   answerRequest: (code: string, answer: "accept" | "decline") => call<{ ok: true }>("POST", `/api/friends/requests/${encodeURIComponent(code)}/${answer}`),
   practiceStart: (mode: string) => call<{ runId: string; startedAt: number }>("POST", "/api/practice/start", { mode }),
@@ -176,7 +177,7 @@ export const api = {
     call<PracticeGuess>("POST", "/api/practice/guess", { id, text, taken, confirm, runId }),
   practiceAnswers: (id: string) => call<{ answers: RevealAnswer[] }>("GET", `/api/practice/answers/${encodeURIComponent(id)}`),
   dailyTop: (date: string) =>
-    call<{ date: string; divers: number; rows: { rank: number; nickname: string; depth: number; tiers: (number | null)[]; you: boolean; look?: Look }[]; you: { rank: number; depth: number } | null }>(
+    call<{ date: string; divers: number; rows: { rank: number; nickname: string; depth: number; tiers: (number | null)[]; you: boolean; look?: Look; code?: string | null }[]; you: { rank: number; depth: number } | null }>(
       "GET",
       `/api/daily/top?date=${encodeURIComponent(date)}`,
     ),

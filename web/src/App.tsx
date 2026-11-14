@@ -31,6 +31,7 @@ import { CelebrationLayer } from "./components/Cosmetics";
 import { PearlToast, QuestsPage, ShopPage } from "./components/RewardsPages";
 import { LogbookPage } from "./components/Logbook";
 import { useBanned } from "./banned";
+import { PlayerCardHost } from "./components/PlayerCardHost";
 
 type Screen =
   | { name: "home" }
@@ -228,6 +229,7 @@ export function App() {
       <SuggestBox open={suggestOpen} onClose={() => setSuggestOpen(false)} />
       <CelebrationLayer reducedMotion={settings.reducedMotion} />
       <PearlToast />
+      <PlayerCardHost />
     </MotionConfig>
   );
 }

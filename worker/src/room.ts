@@ -40,6 +40,7 @@ import type { Env } from "./env";
 import { recordPartyResults } from "./leaderboards";
 import { looksOf } from "./rewards";
 import { assertNotBanned } from "./bans";
+import { profile } from "./social";
 import { recordRejected } from "./rejected";
 import { getIndex, getQuestions, markRoomSeen, pickRoomQuestions } from "./questions";
 
@@ -67,6 +68,8 @@ interface Seat {
   nickname: string;
   /** Shop cosmetics (sub, trail, sidekick, title, name colour), read when they join. */
   look?: Look;
+  /** Public friend code, so others in the room can send a friend request. */
+  code?: string | null;
   joinedAt: number;
   spectator: boolean;
   score: number;
@@ -496,7 +499,10 @@ export class Room extends DurableObject<Env> {
     ws.serializeAttachment({ playerId } satisfies Attachment);
     // Their shop look, fresh on every (re)join so a new sub shows up next time they connect.
     const look = (await looksOf(this.env, [playerId]).catch(() => new Map<string, Look>())).get(playerId);
-    if (s.seats[playerId]) s.seats[playerId].look = look;
+    if (s.seats[playerId]) {
+      s.seats[playerId].look = look;
+      if (!s.seats[playerId].code) s.seats[playerId].code = (await profile(this.env, playerId).catch(() => null))?.friendCode ?? null;
+    }
     if (s.phase === "lobby") this.syncRelayTeams();
     if (!s.hostId || !this.connectedIds().has(s.hostId)) s.hostId = playerId;
     s.lastActivity = now;
@@ -1300,6 +1306,7 @@ export class Room extends DurableObject<Env> {
         locked: !!s.dive?.answers[x.id] && s.phase === "question",
         ...(x.team !== undefined ? { team: x.team } : {}),
         ...(x.look && Object.keys(x.look).length ? { look: x.look } : {}),
+        ...(x.code ? { code: x.code } : {}),
       }));
     const snap: RoomSnapshot = { code: s.code, kind: s.kind, hostId: s.hostId, phase: s.phase, players, settings: s.settings, you: pid, serverNow: now };
     if (s.dive && s.dive.index >= 0) {

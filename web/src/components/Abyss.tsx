@@ -6,6 +6,7 @@ import type { AbyssStatus } from "../api";
 import { getAccount } from "../player";
 import { TimerRing } from "./TimerRing";
 import { DidYouMean } from "./DidYouMean";
+import { TapName } from "./PlayerCardHost";
 import { celebrate, refreshRewards } from "../rewards";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
@@ -198,7 +199,7 @@ export function AbyssPage({ reducedMotion }: { reducedMotion: boolean }) {
                 <li key={r.rank} className={r.you ? "me" : ""}>
                   <span className="board-rank">{MEDALS[r.rank - 1] ?? r.rank}</span>
                   <span className="board-name">
-                    {r.nickname}
+                    <TapName name={r.nickname} code={r.code} you={r.you} />
                     {r.you && <span className="muted small"> (you)</span>}
                   </span>
                   <span className="board-value" style={{ color: tierInfo(r.tier).color }}>

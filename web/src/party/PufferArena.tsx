@@ -4,6 +4,7 @@ import { BATTLE_DEFAULTS, tierInfo, type RoomSnapshot } from "@fathom/shared";
 import { serverNow } from "../api";
 import type { RoomEvent } from "./useRoom";
 import { ArenaScenery } from "./ArenaScenery";
+import { RoomName } from "./RoomName";
 
 type Pos = { x: number; y: number };
 type Seat = Pos & { id: string; nickname: string; hue: number };
@@ -194,7 +195,7 @@ export function PufferArena({
             </div>
             <div className="seat-name">
               {state.hostId === p.id && "👑 "}
-              {p.nickname}
+              <RoomName id={p.id} name={p.nickname} />
             </div>
             <AnimatePresence>
               {isActive && (

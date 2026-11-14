@@ -295,7 +295,7 @@ leaderboardRoutes.get("/api/leaderboards", async (c: Context<AppEnv>) => {
  */
 const dailyTopCache = new Map<
   string,
-  { at: number; rows: { player_id: string; nickname: string; points: number; tiers: string }[]; total: number; looks: Map<string, Look> }
+  { at: number; rows: { player_id: string; nickname: string; friend_code: string | null; points: number; tiers: string }[]; total: number; looks: Map<string, Look> }
 >();
 
 leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
@@ -309,12 +309,12 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
     // Top 10 straight off the (date, points) index; the diver count from the per-score summary.
     const [top, count] = await c.env.DB.batch([
       c.env.DB.prepare(
-        `SELECT d.player_id, p.nickname, d.points, d.tiers FROM daily_results d INDEXED BY idx_daily_results_top JOIN players p ON p.id = d.player_id
+        `SELECT d.player_id, p.nickname, p.friend_code, d.points, d.tiers FROM daily_results d INDEXED BY idx_daily_results_top JOIN players p ON p.id = d.player_id
          WHERE d.date = ? AND ${NAMED} ORDER BY d.points DESC, d.created_at ASC LIMIT ${TOP}`,
       ).bind(date),
       c.env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM daily_hist WHERE date = ?").bind(date),
     ]);
-    const rows = top.results as { player_id: string; nickname: string; points: number; tiers: string }[];
+    const rows = top.results as { player_id: string; nickname: string; friend_code: string | null; points: number; tiers: string }[];
     const looks = await looksOf(c.env, rows.map((r) => r.player_id)).catch(() => new Map<string, Look>());
     entry = { at: now, rows, total: (count.results[0] as { n: number }).n, looks };
     dailyTopCache.set(date, entry);
@@ -333,6 +333,7 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
       depth: r.points * 10,
       tiers: JSON.parse(r.tiers) as (number | null)[],
       you: r.player_id === id,
+      code: r.friend_code,
       ...(look ? { look: publicLook(look) } : {}),
     };
   });

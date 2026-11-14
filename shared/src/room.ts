@@ -74,6 +74,8 @@ export interface RoomPlayer {
   team?: number;
   /** Shop cosmetics: sub, trail, sidekick, title, name colour. */
   look?: Look;
+  /** Public friend code (to send a friend request from the room). */
+  code?: string;
 }
 
 export interface UsedAnswer {

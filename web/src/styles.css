@@ -2564,3 +2564,7 @@ body:has(.battle) .toasts { bottom: 104px; }
 .answer-hidden { letter-spacing: 0.15em; }
 .hide-toggle { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--glass-border); background: rgba(255, 255, 255, 0.08); cursor: pointer; color: inherit; }
 .hide-toggle[aria-pressed="true"] { background: var(--accent); color: #031426; border-color: var(--accent); }
+
+/* Tappable player names (send a friend request) */
+.tap-name { background: none; border: none; padding: 0; font: inherit; color: inherit; cursor: pointer; text-align: inherit; text-decoration: underline dotted rgba(255, 255, 255, 0.35); text-underline-offset: 3px; }
+.tap-name:hover { text-decoration-color: var(--accent); }

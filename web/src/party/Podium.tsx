@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { animate, motion } from "framer-motion";
 import { formatDepth, type GameResult } from "@fathom/shared";
+import { RoomName } from "./RoomName";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 /** Seconds after the podium appears that each place is revealed: 3rd, then 2nd, then 1st. */
@@ -119,7 +120,7 @@ function Step({
         {group.map((r) => (
           <div key={r.playerId} className="podium-entry">
             <div className="podium-name">
-              {r.nickname}
+              <RoomName id={r.playerId} name={r.nickname} />
               {r.playerId === you && <span className="podium-you"> (you)</span>}
             </div>
             {scoring === "depth" || !r.stat ? <CountUpDepth depth={r.depth} delay={delay} reducedMotion={reducedMotion} /> : <div className="podium-depth podium-stat">{r.stat}</div>}

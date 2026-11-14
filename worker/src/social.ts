@@ -18,7 +18,8 @@ function pid(c: Context<AppEnv>): string {
   return id;
 }
 
-async function profile(env: Env, playerId: string) {
+/** A player's name and friend code (making the code if they don't have one yet). */
+export async function profile(env: Env, playerId: string) {
   await env.DB.prepare("INSERT OR IGNORE INTO players (id, created_at) VALUES (?, ?)").bind(playerId, Date.now()).run();
   let row = await env.DB.prepare("SELECT nickname, friend_code FROM players WHERE id = ?").bind(playerId).first<{
     nickname: string | null;
@@ -94,6 +95,8 @@ async function ensureRequestsTable(env: Env) {
     ),
     env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_friend_requests_to ON friend_requests(to_id, status)"),
   ]);
+  // The name a guest used in a party (guests have no public name), shown on the request.
+  await env.DB.prepare("ALTER TABLE friend_requests ADD COLUMN from_name TEXT").run().catch(() => {});
   requestsTableReady = true;
 }
 
@@ -115,7 +118,9 @@ async function playerByCode(env: Env, code: string) {
 friendRoutes.post("/api/friends/requests", async (c) => {
   const playerId = pid(c);
   await ensureRequestsTable(c.env);
-  const { code } = await c.req.json<{ code?: string }>().catch(() => ({ code: "" }));
+  const { code, fromName } = await c.req.json<{ code?: string; fromName?: string }>().catch(() => ({ code: "", fromName: "" }));
+  const name = String(fromName ?? "").trim().slice(0, 16);
+  const shownName = name && !nicknameProblem(name) ? name : null;
   const to = await playerByCode(c.env, code ?? "");
   if (!to) throw new HttpError(404, "That player couldn't be found");
   if (to.id === playerId) throw new HttpError(400, "That's you!");
@@ -129,10 +134,10 @@ friendRoutes.post("/api/friends/requests", async (c) => {
   }
   // Re-sending after a decline is allowed; it simply becomes pending again.
   await c.env.DB.prepare(
-    `INSERT INTO friend_requests (from_id, to_id, created_at, status) VALUES (?, ?, ?, 'pending')
-     ON CONFLICT(from_id, to_id) DO UPDATE SET status = 'pending', created_at = excluded.created_at`,
+    `INSERT INTO friend_requests (from_id, to_id, created_at, status, from_name) VALUES (?, ?, ?, 'pending', ?)
+     ON CONFLICT(from_id, to_id) DO UPDATE SET status = 'pending', created_at = excluded.created_at, from_name = excluded.from_name`,
   )
-    .bind(playerId, to.id, now)
+    .bind(playerId, to.id, now, shownName)
     .run();
   return c.json({ status: "sent", nickname: to.nickname });
 });
@@ -142,7 +147,7 @@ friendRoutes.get("/api/friends/requests", async (c) => {
   const playerId = pid(c);
   await ensureRequestsTable(c.env);
   const { results } = await c.env.DB.prepare(
-    `SELECT p.nickname, p.friend_code, r.created_at FROM friend_requests r JOIN players p ON p.id = r.from_id
+    `SELECT COALESCE(p.nickname, r.from_name) AS nickname, p.friend_code, r.created_at FROM friend_requests r JOIN players p ON p.id = r.from_id
      WHERE r.to_id = ? AND r.status = 'pending' ORDER BY r.created_at DESC LIMIT 50`,
   )
     .bind(playerId)

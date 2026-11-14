@@ -17,6 +17,7 @@ import type { BattleSettings, Category, DiveSettings, GameResult, QuestionRecap,
 import type { GaugeDiver } from "../components/DepthGauge";
 import { Submarine } from "../components/DepthGauge";
 import { PlayerName, withName } from "../components/Cosmetics";
+import { RoomName, RoomPlayersContext } from "./RoomName";
 import { celebrate, refreshRewards } from "../rewards";
 import { serverNow } from "../api";
 import { RevealPanel } from "../components/RevealPanel";
@@ -88,7 +89,7 @@ function TeamEditor({ state, isHost, send }: { state: RoomSnapshot; isHost: bool
                 <li key={p.id} className={p.id === state.you ? "me" : ""}>
                   <span className="player-name">
                     {state.hostId === p.id && "👑 "}
-                    {p.nickname}
+                    <RoomName id={p.id} name={p.nickname} />
                     {p.id === state.you && <span className="muted small"> (you)</span>}
                   </span>
                   {isHost && (
@@ -344,6 +345,7 @@ export function RoomPage({
 
   const isHost = state.hostId === state.you;
   return (
+    <RoomPlayersContext.Provider value={{ you: state.you, players: new Map(state.players.map((p) => [p.id, p])) }}>
     <div className="room">
       <header className="room-head">
         <button className="link-btn" onClick={() => navigate("/party")}>
@@ -389,6 +391,7 @@ export function RoomPage({
         </AnimatePresence>
       </div>
     </div>
+    </RoomPlayersContext.Provider>
   );
 }
 
@@ -412,10 +415,12 @@ function PlayerList({ state, showLives = false, active, send }: { state: RoomSna
             <span className="player-avatar" style={{ "--seat-hue": hueOf(p.id) } as React.CSSProperties} aria-hidden>
               {p.eliminated ? "💀" : p.nickname.slice(0, 1).toUpperCase()}
             </span>
-            <PlayerName name={p.nickname} look={p.look} inline className="player-name">
-              {state.hostId === p.id && <span className="player-tag" title="Host">👑</span>}
-              {p.id === state.you && <span className="player-tag player-tag--you">you</span>}
-            </PlayerName>
+            <RoomName id={p.id} name={p.nickname} className="player-name">
+              <PlayerName name={p.nickname} look={p.look} inline>
+                {state.hostId === p.id && <span className="player-tag" title="Host">👑</span>}
+                {p.id === state.you && <span className="player-tag player-tag--you">you</span>}
+              </PlayerName>
+            </RoomName>
             <span className="player-status">
               {p.spectator && <span className="status-chip">watching</span>}
               {sittingOut && <span className="status-chip">safe this round</span>}
@@ -894,7 +899,7 @@ function DiveReveal({
             <ul className="reveal-rows">
               {reveal.perPlayer.map((r) => (
                 <li key={r.playerId} className={`${r.playerId === state.you ? "me" : ""}${r.bitten ? " bitten" : ""}`}>
-                  <span className="reveal-name">{r.nickname}</span>
+                  <RoomName id={r.playerId} name={r.nickname} className="reveal-name" />
                   <span className="reveal-ans">{r.canonical ?? "—"}</span>
                   <TierBadge tier={r.tier} />
                   <span className="reveal-pts">
@@ -929,9 +934,7 @@ function DiveReveal({
                     .sort((a, b) => Number(a.eliminated) - Number(b.eliminated) || b.lives - a.lives)
                     .map((p) => (
                       <li key={p.id} className={`${p.id === state.you ? "me" : ""}${p.eliminated ? " out" : ""}`}>
-                        <span {...withName("lb-name", p.look)}>
-                          {p.nickname}
-                        </span>
+                        <RoomName id={p.id} name={p.nickname} {...withName("lb-name", p.look)} />
                         <span className="lb-depth">{p.eliminated ? "out" : `❤️ ${p.lives}`}</span>
                       </li>
                     ))}
@@ -941,9 +944,7 @@ function DiveReveal({
                   {ordered.map((r) => (
                     <motion.li key={r.playerId} layout transition={{ type: "spring", stiffness: 300, damping: 30 }} className={r.playerId === state.you ? "me" : ""}>
                       <span className="lb-rank">{settled ? r.rank : r.previousRank}</span>
-                      <span {...withName("lb-name", lookOf(r.playerId))}>
-                        {r.nickname}
-                      </span>
+                      <RoomName id={r.playerId} name={r.nickname} {...withName("lb-name", lookOf(r.playerId))} />
                       <span className="lb-depth">
                         {variant === "school" ? `${Math.round(r.score / DIVE_DEFAULTS.schoolPointsPerMatch)} 🐟` : formatDepth(partyDepth(r.score, qc))}
                       </span>
@@ -1013,9 +1014,7 @@ function DiveFinale({ state, isHost, send, reducedMotion }: { state: RoomSnapsho
                     {/* Everyone's own sub; no paint job means the classic yellow one. */}
                     <Submarine look={r.playerId === state.you ? undefined : (lookOf(r.playerId) ?? {})} small />
                   </motion.div>
-                  <div {...withName("race-name", lookOf(r.playerId))}>
-                    {r.nickname}
-                  </div>
+                  <RoomName id={r.playerId} name={r.nickname} {...withName("race-name", lookOf(r.playerId))} />
                 </div>
               );
             })}
@@ -1101,7 +1100,7 @@ function Standings({ results, you, scoring }: { results: GameResult[]; you: stri
           <li key={r.playerId} className={`${r.playerId === you ? "me" : ""}${r.rank === 1 ? " standings-first" : ""}`}>
             <span className="standings-rank">{["🥇", "🥈", "🥉"][r.rank - 1] ?? `${r.rank}`}</span>
             <span className="standings-name">
-              {r.nickname}
+              <RoomName id={r.playerId} name={r.nickname} />
               {r.playerId === you && <span className="player-tag player-tag--you">you</span>}
             </span>
             <span className="standings-stat">{scoring === "depth" || !r.stat ? formatDepth(r.depth) : r.stat}</span>
@@ -1125,7 +1124,7 @@ function AnswerRecap({ recap, you, questionCount }: { recap: QuestionRecap[]; yo
           <ul className="reveal-rows">
             {q.perPlayer.map((r) => (
               <li key={r.playerId} className={r.playerId === you ? "me" : ""}>
-                <span className="reveal-name">{r.nickname}</span>
+                <RoomName id={r.playerId} name={r.nickname} className="reveal-name" />
                 <span className="reveal-ans">{r.canonical ?? "—"}</span>
                 <TierBadge tier={r.tier} />
                 <span className="reveal-pts">+{formatDepth(partyDepth(r.points, questionCount))}</span>
@@ -1386,7 +1385,7 @@ function TeamWin({ team, members, you, reducedMotion }: { team: number; members:
       <div className="team-win-crew">
         {members.map((m) => (
           <span key={m.playerId} className="team-win-member">
-            {m.nickname}
+            <RoomName id={m.playerId} name={m.nickname} />
             {m.playerId === you && " (you)"}
           </span>
         ))}

@@ -6,6 +6,7 @@ import { api, serverNow } from "../api";
 import { RevealPanel } from "./RevealPanel";
 import { PearlCount } from "./RewardsPages";
 import { PlayerName } from "./Cosmetics";
+import { TapName } from "./PlayerCardHost";
 import { quietRefresh } from "../rewards";
 import { navigate } from "../router";
 
@@ -197,9 +198,11 @@ function DailyTop({ date, dailyNumber, fade }: { date: string; dailyNumber: numb
           <li key={`${r.rank}-${r.nickname}`} className={`${r.you ? "me" : ""}${r.rank === 1 ? " standings-first" : ""}`}>
             <span className="standings-rank">{["🥇", "🥈", "🥉"][r.rank - 1] ?? r.rank}</span>
             <span className="standings-name">
-              <PlayerName name={r.nickname} look={r.look} inline>
-                {r.you && <span className="player-tag player-tag--you">you</span>}
-              </PlayerName>
+              <TapName name={r.nickname} code={r.code} look={r.look} you={r.you}>
+                <PlayerName name={r.nickname} look={r.look} inline>
+                  {r.you && <span className="player-tag player-tag--you">you</span>}
+                </PlayerName>
+              </TapName>
             </span>
             <span className="daily-top-tiers" aria-hidden>
               {r.tiers.map((t, i) => (
