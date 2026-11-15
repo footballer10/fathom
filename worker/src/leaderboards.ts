@@ -307,7 +307,14 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new HttpError(400, "Bad date");
   const now = Date.now();
   let entry = dailyTopCache.get(date);
-  if (!entry || now - entry.at > 60_000) {
+  // Your own result (one row). If a saved copy of the board was made before you
+  // finished and you belong on it, refresh now instead of waiting up to a minute.
+  const mine = id
+    ? await c.env.DB.prepare("SELECT points FROM daily_results WHERE player_id = ? AND date = ?").bind(id, date).first<{ points: number }>()
+    : null;
+  const missingMe =
+    !!entry && !!mine && !entry.rows.some((r) => r.player_id === id) && (entry.rows.length < TOP || mine.points >= entry.rows[entry.rows.length - 1].points);
+  if (!entry || now - entry.at > 60_000 || missingMe) {
     await ensureSchema(c.env);
     await ensureBans(c.env);
     // Top 10 straight off the (date, points) index; the diver count from the per-score summary.
@@ -344,7 +351,6 @@ leaderboardRoutes.get("/api/daily/top", async (c: Context<AppEnv>) => {
   // Your own place, if you're not in the top 10.
   let you: { rank: number; depth: number } | null = null;
   if (id && !rows.some((r) => r.you)) {
-    const mine = await c.env.DB.prepare("SELECT points FROM daily_results WHERE player_id = ? AND date = ?").bind(id, date).first<{ points: number }>();
     if (mine) {
       const above = await c.env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM daily_hist WHERE date = ? AND points > ?").bind(date, mine.points).first<{ n: number }>();
       you = { rank: (above?.n ?? 0) + 1, depth: mine.points * 10 };

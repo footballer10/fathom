@@ -9,6 +9,7 @@ import { PlayerName } from "./Cosmetics";
 import { TapName } from "./PlayerCardHost";
 import { quietRefresh, readyToClaim, useRewards } from "../rewards";
 import { navigate } from "../router";
+import { getNickname } from "../nickname";
 
 function useCountdown(target: number) {
   const [left, setLeft] = useState(() => Math.max(0, target - serverNow()));
@@ -217,7 +218,8 @@ function DailyTop({ date, dailyNumber, fade }: { date: string; dailyNumber: numb
           <li className="me">
             <span className="standings-rank">{data.you.rank}</span>
             <span className="standings-name">
-              You <span className="muted small">(add a name in Settings to show up)</span>
+              You{" "}
+              {getNickname() ? null : <span className="muted small">(add a name in Settings to show up)</span>}
             </span>
             <span className="standings-stat">{formatDepth(data.you.depth)}</span>
           </li>
