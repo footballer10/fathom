@@ -2,7 +2,8 @@ import type { Hono } from "hono";
 import { HttpError } from "./env";
 import { ensureRewards, earnStatements } from "./rewards";
 import { banOf } from "./bans";
-import { ITEM_BY_ID } from "@fathom/shared";
+import { ITEM_BY_ID, cleanLook } from "@fathom/shared";
+import type { Look } from "@fathom/shared";
 import type { Env } from "./env";
 import { getDailySet, getQuestions, today } from "./questions";
 import { ensureSchema } from "./schema";
@@ -215,6 +216,56 @@ export function registerAdminStats(routes: Hono<AppEnv>) {
     await db.batch(earnStatements(c.env, playerId, [{ key: `gift:${crypto.randomUUID()}`, pearls, label: note ? `Gift: ${note}` : "Gift from Fathom", items }], now));
     const w = await db.prepare("SELECT pearls, owned FROM wallet WHERE player_id = ?").bind(playerId).first<{ pearls: number; owned: string }>();
     return c.json({ ok: true, pearls: w?.pearls ?? 0, owned: w ? (JSON.parse(w.owned) as string[]) : [] });
+  });
+
+  /**
+   * Take shop items and/or pearls away from a player (the opposite of a gift).
+   * The balance never goes below 0; lifetime pearls are left alone. Removed
+   * items are unequipped too. Free starter items can't be taken (everyone owns
+   * them). Earned items don't come back on their own, because the reward that
+   * paid them is already marked as collected. The removal shows in the
+   * player's pearl history as a negative line.
+   */
+  routes.post("/api/admin/take", async (c) => {
+    const body = await c.req.json<{ playerId?: string; items?: string[]; pearls?: number; note?: string }>().catch(() => ({}) as Record<string, never>);
+    const playerId = String(body.playerId ?? "");
+    const db = c.env.DB;
+    const exists = await db.prepare("SELECT id FROM players WHERE id = ?").bind(playerId).first();
+    if (!exists) throw new HttpError(404, "No such player");
+    const items = [...new Set((body.items ?? []).map(String))];
+    const bad = items.filter((i) => !ITEM_BY_ID.has(i));
+    if (bad.length) throw new HttpError(400, `Unknown item: ${bad.join(", ")}`);
+    const free = items.filter((i) => ITEM_BY_ID.get(i)?.price === 0);
+    if (free.length) throw new HttpError(400, `Free starter items can't be taken: ${free.join(", ")}`);
+    const pearls = Math.max(0, Math.min(1_000_000, Math.round(Number(body.pearls) || 0)));
+    if (!items.length && !pearls) throw new HttpError(400, "Pick at least one item or some pearls");
+    const note = String(body.note ?? "").trim().slice(0, 50);
+    await ensureRewards(c.env);
+    const w = await db.prepare("SELECT pearls, owned, look FROM wallet WHERE player_id = ?").bind(playerId).first<{ pearls: number; owned: string; look: string }>();
+    if (!w) throw new HttpError(400, "They don't have any pearls or items yet");
+    const owned = JSON.parse(w.owned) as string[];
+    const missing = items.filter((i) => !owned.includes(i));
+    if (missing.length) throw new HttpError(400, `They don't have: ${missing.map((i) => ITEM_BY_ID.get(i)?.name ?? i).join(", ")}`);
+    const keep = owned.filter((i) => !items.includes(i));
+    let look: Look = {};
+    try {
+      look = cleanLook(JSON.parse(w.look), keep);
+    } catch {
+      // A broken look resets to the defaults.
+    }
+    const taken = Math.min(pearls, w.pearls);
+    // Only succeeds if the wallet didn't change since we read it (same guard as the shop).
+    const res = await db
+      .prepare("UPDATE wallet SET pearls = pearls - ?, owned = ?, look = ? WHERE player_id = ? AND pearls = ? AND owned = ?")
+      .bind(taken, JSON.stringify(keep), JSON.stringify(look), playerId, w.pearls, w.owned)
+      .run();
+    if (!res.meta.changes) throw new HttpError(409, "Their wallet just changed. Try again.");
+    const what = [taken ? `${taken} pearls` : "", ...items.map((i) => ITEM_BY_ID.get(i)?.name ?? i)].filter(Boolean).join(", ");
+    await db
+      .prepare("INSERT INTO reward_claims (player_id, key, pearls, label, nonce, created_at) VALUES (?, ?, ?, ?, ?, ?)")
+      .bind(playerId, `take:${crypto.randomUUID()}`, -taken, (note ? `Removed: ${note}` : `Removed: ${what}`).slice(0, 80), "admin", Date.now())
+      .run();
+    return c.json({ ok: true, pearls: w.pearls - taken, owned: keep, taken });
   });
 
   /** Recent Dailies at a glance: divers, average depth, and the seven prompts. */

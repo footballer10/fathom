@@ -244,7 +244,7 @@ export function QuestsPage() {
               <li key={i}>
                 <span>{r.label}</span>
                 <span className="muted small">{new Date(r.at).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</span>
-                <b>+{r.pearls}</b>
+                <b>{r.pearls < 0 ? `−${-r.pearls}` : `+${r.pearls}`}</b>
               </li>
             ))}
           </ul>

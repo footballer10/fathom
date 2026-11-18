@@ -2533,6 +2533,9 @@ body:has(.battle) .toasts { bottom: 104px; }
 .admin-gift-chip { padding: 4px 9px; border-radius: 999px; font-size: 0.8rem; border: 1px solid var(--glass-border); background: rgba(255, 255, 255, 0.06); cursor: pointer; }
 .admin-gift-chip--on { background: var(--accent); color: #031426; border-color: var(--accent); font-weight: 700; }
 .admin-gift-chip:disabled { opacity: 0.45; cursor: default; }
+.admin-gift-chip--take { background: #ff6b6b; color: #2a0505; border-color: #ff6b6b; font-weight: 700; }
+.btn--danger { background: #ff6b6b; color: #2a0505; border-color: #ff6b6b; font-weight: 700; }
+.btn--danger:hover:not(:disabled) { background: #ff8585; }
 .pname-line { display: inline-flex; align-items: center; gap: 4px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .board-rows li { grid-template-columns: 2em minmax(0, 1fr) auto; }
 .board-value { justify-self: end; text-align: right; }

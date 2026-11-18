@@ -80,6 +80,10 @@ export function PlayersTab() {
         <summary>🎁 Give a player items or pearls</summary>
         <GiftPanel />
       </details>
+      <details className="admin-gift-box">
+        <summary>➖ Take items or pearls away from a player</summary>
+        <TakePanel />
+      </details>
       <div className="admin-row">
         <label>
           From <input type="date" className="admin-input admin-input--date" value={from} onChange={(e) => setFrom(e.target.value)} />
@@ -518,6 +522,143 @@ export function GiftPanel({ playerId, owned = [], onGiven }: { playerId?: string
   );
 }
 
+/**
+ * Take items and/or pearls away from a player (the opposite of GiftPanel).
+ * Only items they own are shown. Used inside a player's card, or on its own
+ * with a search box.
+ */
+export function TakePanel({ playerId, owned = [], pearls: balance = 0, onTaken }: { playerId?: string; owned?: string[]; pearls?: number; onTaken?: (r: { pearls: number; owned: string[] }) => void }) {
+  const [query, setQuery] = useState("");
+  const [found, setFound] = useState<{ id: string; nickname: string | null; friend_code: string | null }[] | null>(null);
+  const [target, setTarget] = useState<string | null>(playerId ?? null);
+  const [have, setHave] = useState<string[]>(owned);
+  const [has, setHas] = useState(balance);
+  const [picked, setPicked] = useState<string[]>([]);
+  const [pearls, setPearls] = useState(0);
+  const [note, setNote] = useState("");
+  const [msg, setMsg] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  // Inside a player's card, follow the card (a gift there changes what they have).
+  useEffect(() => {
+    if (!playerId) return;
+    setHave(owned);
+    setHas(balance);
+  }, [playerId, owned, balance]);
+
+  const search = async () => {
+    setMsg(null);
+    try {
+      const r = await admin<{ players: { id: string; nickname: string | null; friend_code: string | null }[] }>(`/api/admin/find-player?q=${encodeURIComponent(query)}`);
+      setFound(r.players);
+      if (r.players.length === 1) await choose(r.players[0].id);
+      else setTarget(null);
+    } catch (e) {
+      setMsg((e as Error).message);
+    }
+  };
+  const choose = async (id: string) => {
+    setTarget(id);
+    const d = await admin<PlayerDetail>(`/api/admin/player/${encodeURIComponent(id)}`).catch(() => null);
+    setHave(d?.owned ?? []);
+    setHas(d?.pearls ?? 0);
+  };
+  const take = async () => {
+    if (!target) return;
+    const what = [pearls ? `${Math.min(pearls, has)} pearls` : "", picked.length ? `${picked.length} item${picked.length === 1 ? "" : "s"}` : ""].filter(Boolean).join(" and ");
+    if (!confirm(`Take ${what} away from this player? This can't be undone (you can gift them back later).`)) return;
+    setBusy(true);
+    setMsg(null);
+    try {
+      const r = await admin<{ pearls: number; owned: string[]; taken: number }>("/api/admin/take", { body: { playerId: target, items: picked, pearls, note } });
+      setHave(r.owned);
+      setHas(r.pearls);
+      setMsg(`Done. They now have ${r.pearls.toLocaleString()} pearls and ${r.owned.length} items.`);
+      setPicked([]);
+      setPearls(0);
+      onTaken?.(r);
+    } catch (e) {
+      setMsg((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const takeable = ITEMS.filter((i) => i.price !== 0 && have.includes(i.id));
+  return (
+    <div className="admin-gift">
+      <h4>➖ Take away</h4>
+      {!playerId && (
+        <div className="admin-gift-search">
+          <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Username, friend code or name" onKeyDown={(e) => e.key === "Enter" && void search()} />
+          <button className="btn btn--small" onClick={() => void search()}>
+            Find
+          </button>
+        </div>
+      )}
+      {!playerId && found && found.length === 0 && <p className="muted small">No player found.</p>}
+      {!playerId && found && found.length > 1 && (
+        <div className="admin-gift-found">
+          {found.map((p) => (
+            <button key={p.id} className={`btn btn--small ${target === p.id ? "btn--primary" : ""}`} onClick={() => void choose(p.id)}>
+              {p.nickname ?? "Guest"} {p.friend_code ? `(${p.friend_code})` : ""}
+            </button>
+          ))}
+        </div>
+      )}
+      {target && (
+        <>
+          <label className="admin-gift-row">
+            Pearls (they have {has.toLocaleString()}){" "}
+            <input type="number" min={0} max={has} value={pearls} onChange={(e) => setPearls(Math.max(0, Math.min(has, Number(e.target.value))))} />
+            <button className="btn btn--small" type="button" disabled={!has} onClick={() => setPearls(has)}>
+              All
+            </button>
+          </label>
+          {takeable.length === 0 ? (
+            <p className="muted small">They don't own any items besides the free starter ones.</p>
+          ) : (
+            <div className="admin-gift-items">
+              {SLOTS.map((slot) => {
+                const mine = takeable.filter((i) => i.slot === slot);
+                if (!mine.length) return null;
+                return (
+                  <div key={slot}>
+                    <b className="small">{SLOT_INFO[slot].plural}</b>
+                    <div className="admin-gift-chips">
+                      {mine.map((i) => {
+                        const on = picked.includes(i.id);
+                        return (
+                          <button
+                            key={i.id}
+                            className={`admin-gift-chip ${on ? "admin-gift-chip--take" : ""}`}
+                            onClick={() => setPicked((p) => (on ? p.filter((x) => x !== i.id) : [...p, i.id]))}
+                          >
+                            {on ? "✕ " : ""}
+                            {i.name}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+          <label className="admin-gift-row">
+            Reason (shows in their pearl history) <input value={note} maxLength={50} onChange={(e) => setNote(e.target.value)} placeholder="e.g. Gifted by mistake" />
+          </label>
+          <button className="btn btn--danger" disabled={busy || (!picked.length && !pearls)} onClick={() => void take()}>
+            Take away{picked.length ? ` ${picked.length} item${picked.length === 1 ? "" : "s"}` : ""}
+            {picked.length && pearls ? " +" : ""}
+            {pearls ? ` ${pearls} pearls` : ""}
+          </button>
+          <p className="muted small">Removed items are unequipped. Free starter items can't be taken.</p>
+        </>
+      )}
+      {msg && <p className="small">{msg}</p>}
+    </div>
+  );
+}
 
 /** Search by username, friend code or name, then open that player's card. */
 function FindPlayer({ onOpen }: { onOpen: (id: string) => void }) {
@@ -759,7 +900,7 @@ function BannedList() {
 }
 
 
-/** A player's card: ban, dives, gifts and recent activity. */
+/** A player's card: ban, dives, gifts, take-aways and recent activity. */
 export function PlayerModal({ open, setOpen }: { open: PlayerDetail; setOpen: (p: PlayerDetail | null) => void }) {
   return (
         <div className="modal-backdrop" onClick={() => setOpen(null)}>
@@ -776,6 +917,10 @@ export function PlayerModal({ open, setOpen }: { open: PlayerDetail; setOpen: (p
             <details className="admin-gift-box">
               <summary>🎁 Give this player items or pearls</summary>
               <GiftPanel key={open.id} playerId={open.id} owned={open.owned} onGiven={(r) => setOpen({ ...open, ...r })} />
+            </details>
+            <details className="admin-gift-box">
+              <summary>➖ Take items or pearls away from this player</summary>
+              <TakePanel key={`t-${open.id}`} playerId={open.id} owned={open.owned} pearls={open.pearls} onTaken={(r) => setOpen({ ...open, ...r })} />
             </details>
             <ul className="admin-activity">
               {open.activity.map((a, i) => (
