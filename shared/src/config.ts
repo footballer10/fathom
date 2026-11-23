@@ -143,7 +143,8 @@ export const MATCHER_AMBIGUITY: "unique-closest" | "strict" = "unique-closest";
  * them back in later. Raise this number any time; D1's free tier can hold far more.
  */
 export const UNLIMITED_POOL_CAP = 2000;
-export const WEEKLY_UNLIMITED_QUESTIONS = 100;
+/** Extra questions the weekly task writes straight into Unlimited (0 = Dailies only). */
+export const WEEKLY_UNLIMITED_QUESTIONS = 0;
 export const SCHEDULE_BUFFER_DAYS = 14;
 
 export const CATEGORIES = [

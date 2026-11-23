@@ -1,15 +1,13 @@
 # Weekly question task
 
-These are complete instructions for Claude. Each week Claude writes **149 new questions**:
+These are complete instructions for Claude. Each week Claude writes **49 new Daily questions**:
+7 days × 7 questions, scheduled onto the next open dates.
 
-- **49 Daily questions**: 7 days × 7 questions, scheduled onto the next open dates.
-- **100 Unlimited questions**: added straight to the Unlimited pool.
-
-Every Daily also joins Unlimited the day after it airs, so the Unlimited pool grows by about
-149 questions a week. The active pool is capped at **2,000** (`UNLIMITED_POOL_CAP` in
-`shared/src/config.ts`), which it reaches after roughly 13 weeks. From then on `pool:refresh`
-retires the oldest, most-played questions to stay at the cap, and brings back questions that have
-been retired for 180+ days. Nothing is ever deleted, so the full bank keeps growing.
+**Don't write any extra Unlimited questions** (no `pool: unlimited` files). Unlimited grows on its
+own: every Daily joins Unlimited the day after it airs, so the pool grows by about 49 questions a
+week. The active pool is capped at **2,000** (`UNLIMITED_POOL_CAP` in `shared/src/config.ts`).
+Past the cap, `pool:refresh` retires the oldest, most-played questions to stay at the cap, and
+brings back questions that have been retired for 180+ days. Nothing is ever deleted.
 
 To run it by hand, open Claude Code in this folder and say: **"run WEEKLY_TASK.md now"**.
 
@@ -63,8 +61,8 @@ This task runs on the owner's Claude plan, which has a usage limit per 5-hour wi
 - **Do not use subagents, helper agents, or parallel writers.** Write every file yourself, one
   after another. Parallel helpers each reread the whole brief and burn through the limit in
   minutes.
-- **Finish each file completely before starting the next:** write it, self-review it (step 6),
-  validate it (step 7), upload it (step 8), then commit and push it:
+- **Finish each file completely before starting the next:** write it, self-review it (step 5),
+  validate it (step 6), upload it (step 7), then commit and push it:
   ```bash
   git add content && git commit -m "Weekly questions: <file name>" && git push
   ```
@@ -73,7 +71,6 @@ This task runs on the owner's Claude plan, which has a usage limit per 5-hour wi
 - **Resuming:** before writing anything, check `content/incoming/` and `content/imported/` for
   this week's files. Upload any finished file that hasn't been imported yet, and skip work that's
   already done. Run `npm run status` to see which Daily dates are still open.
-- Order of work: Dailies first (they're needed soonest), then the Unlimited files.
 
 ### 1. Get up to date
 
@@ -91,8 +88,8 @@ npm run status
 Read the output. Note the next open Daily dates, the category usage, and the pool size.
 
 - If **"Days fully scheduled ahead"** is 7 or more below the 14-day buffer (so two weeks are open),
-  do this whole task twice: two weeks of Dailies (98) plus 100 Unlimited.
-- If no Daily dates are open, skip the Daily part and still write the 100 Unlimited questions.
+  write two weeks of Dailies (98 questions, one file per week).
+- If no Daily dates are open, skip writing questions and go straight to step 8.
 
 ### 3. Get the writing brief
 
@@ -118,16 +115,7 @@ Write the 49 Daily questions into **one file**: `content/incoming/<first-open-da
 
 Write one day at a time, then go back and do the next day, so each day gets full attention.
 
-### 5. Write the 100 Unlimited questions
-
-Write them in four files of 25:
-`content/incoming/<first-open-date>-unlimited-1.txt` through `-unlimited-4.txt`.
-
-- Use `pool: unlimited` instead of `date:` / `slot:`.
-- Cover every category; lean toward the least-used ones from the brief.
-- No prompt may repeat an existing prompt or another prompt you wrote this week.
-
-### 6. Self-review pass
+### 5. Self-review pass
 
 Re-read every question you wrote and fix:
 
@@ -143,29 +131,25 @@ Re-read every question you wrote and fix:
 - Missing misspellings and aliases on answers people often misspell
 - Prompts that are ambiguous or that have too few valid answers
 
-### 7. Validate until clean
+### 6. Validate until clean
 
 ```bash
 npm run validate:questions -- content/incoming/<first-open-date>-daily.txt
 ```
 
-Run it for each of the five files. Fix every **error** and run it again until each file passes.
+Run it for each Daily file. Fix every **error** and run it again until each file passes.
 Warnings are fine to leave if you've looked at them and they're intended.
 
-### 8. Upload
+### 7. Upload
 
 ```bash
 npm run import -- content/incoming/<first-open-date>-daily.txt
 ```
 
-```bash
-npm run import -- content/incoming/<first-open-date>-unlimited-1.txt content/incoming/<first-open-date>-unlimited-2.txt content/incoming/<first-open-date>-unlimited-3.txt content/incoming/<first-open-date>-unlimited-4.txt --unlimited
-```
-
 If the Daily import reports that a date or slot is already taken, re-run it with `--fill` so it
 uses the next open slots instead.
 
-### 9. Learning loop (fix rejected guesses)
+### 8. Learning loop (fix rejected guesses)
 
 ```bash
 npm run export:rejected
@@ -225,7 +209,7 @@ npm run review:done
 
 If the export is empty, skip this step.
 
-### 9b. Player suggestions
+### 8b. Player suggestions
 
 ```bash
 npm run suggestions
@@ -235,7 +219,7 @@ This saves `content/incoming/suggestions-<today>.txt`: everything players sent t
 "Suggest a fix" box since last week. For each one:
 
 - **answer** (a wrong, missing or misspelled answer, or a confusing question): fix it with a FIXES
-  block like step 9 (or rewrite the question with `--replace` if the prompt itself is the problem).
+  block like step 8 (or rewrite the question with `--replace` if the prompt itself is the problem).
 - **bug**, **idea** or **other**: don't change any code. These go in the owner's
   **Suggestions to consider** report (below), so the owner can decide what to act on.
 
@@ -293,7 +277,7 @@ npm run suggestions -- --done
 If there are no suggestions, still write the report with the single line "No suggestions from
 players this week.", say the same in the log and the final message, and skip the rest.
 
-### 9c. Questions players struggle with
+### 8c. Questions players struggle with
 
 ```bash
 npm run struggling
@@ -305,7 +289,7 @@ last three weeks under 40% success, and any Unlimited question under 30%:
 
 1. Look at why. Open the day in the admin portal's **Dailies** tab, or check the question's
    rejected guesses in this week's export. **Rule #1 first:** if people were typing valid answers
-   that were marked wrong, fix the list with a FIXES block (step 9) instead of deleting.
+   that were marked wrong, fix the list with a FIXES block (step 8) instead of deleting.
 2. If the question is fine and just hard (strong players still do well), keep it. Hard is allowed.
 3. If it's unfair for high schoolers (Rule #2), too obscure, ambiguous, or most people blanked,
    delete it for good. It will never appear in a Daily or in Unlimited again:
@@ -319,18 +303,18 @@ and in the owner's **Suggestions to consider** report, add a **Questions players
 section: each question you looked at, its success rate, and what you did (fixed, kept, deleted)
 with a one-line reason.
 
-### 10. Refresh the Unlimited pool
+### 9. Refresh the Unlimited pool
 
 ```bash
 npm run pool:refresh
 ```
 
-### 11. Tidy up and log
+### 10. Tidy up and log
 
 - Move every file you imported successfully from `content/incoming/` to `content/imported/`.
   Delete the brief, the rejected export, the suggestions and the struggling files (they're regenerated each week).
 - Write `content/logs/<today>.md` with:
-  - How many Daily and Unlimited questions were added, and the dates filled
+  - How many Daily questions were added, and the dates filled
   - The fixes applied: counts of guesses reviewed, aliases added, answers added and skipped, and every alias and answer you added
   - Player suggestions: what you fixed, and a pointer to `content/logs/<today>-suggestions.md`
   - The pool size before and after the refresh
